@@ -1,19 +1,27 @@
 """Step 2b: Resolve OA PDF URLs via Unpaywall and optionally download them.
 
-Two modes:
+Modes:
+
+  PRECHECK mode (--precheck):
+      Scans ALL DOIs in the metadata file and reports which ones have a
+      downloadable PDF URL on Unpaywall — BEFORE committing to any download.
+      This is useful when you want to see coverage across your entire corpus,
+      not just the subset that hasn't been downloaded yet.
+      Saves a report to data/metadata/unpaywall_precheck.json.
 
   AUDIT mode (default, --audit or no flag):
-      Checks all DOIs against Unpaywall and prints a summary of how many
-      have a freely available PDF. Does NOT download anything.
-      Use this first to estimate coverage before committing to downloads.
+      Checks DOIs that don't already have full text (neither PDF downloaded
+      nor PMC XML retrieved) and prints a coverage summary.
+      Saves a report to data/metadata/unpaywall_audit.json.
 
   DOWNLOAD mode (--download):
       Resolves + downloads PDFs for all papers without full text.
 
 Usage:
-    python -m harvest.unpaywall_resolve            # audit only
-    python -m harvest.unpaywall_resolve --audit    # same
-    python -m harvest.unpaywall_resolve --download # resolve + download
+    python -m harvest.unpaywall_resolve               # audit only
+    python -m harvest.unpaywall_resolve --audit       # same
+    python -m harvest.unpaywall_resolve --precheck    # check ALL DOIs for PDF links
+    python -m harvest.unpaywall_resolve --download    # resolve + download
 
 Requires UNPAYWALL_EMAIL in .env (no registration needed, just identification).
 
@@ -55,6 +63,29 @@ def load_metadata() -> list[dict]:
 def save_metadata(records: list[dict]) -> None:
     with open(METADATA_PATH, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
+
+
+def _has_fulltext(record: dict) -> bool:
+    """Return True if this record already has any form of full text.
+
+    Covers both:
+      - PDF downloaded via Unpaywall (fulltext_downloaded = True)
+      - PMC XML already retrieved via pmc_download.py (pmc_id set OR
+        pmc_downloaded = True OR fulltext_path pointing to an XML file)
+    """
+    if record.get("fulltext_downloaded"):
+        return True
+    if record.get("pmc_downloaded"):
+        return True
+    if record.get("pmc_id"):
+        # Check that the XML file actually exists on disk
+        pmc_id = record["pmc_id"]
+        xml_path = Path("data/fulltext") / f"{pmc_id}.xml"
+        if xml_path.exists():
+            return True
+    if record.get("fulltext_path") and Path(record["fulltext_path"]).exists():
+        return True
+    return False
 
 
 def resolve_unpaywall(doi: str) -> dict | None:
@@ -129,25 +160,111 @@ def download_pdf(url: str, out_path: Path) -> bool:
     return False
 
 
+def precheck(records: list[dict]) -> None:
+    """Pre-check mode: scan ALL DOIs (regardless of download status) for Unpaywall PDF links.
+
+    This answers the question: "Which papers in my corpus *can* be downloaded
+    via Unpaywall, period?" — before deciding what to actually fetch.
+    Saves results to data/metadata/unpaywall_precheck.json.
+    """
+    with_doi = [r for r in records if r.get("doi")]
+    no_doi = len(records) - len(with_doi)
+
+    log.info("=== Unpaywall Pre-Check Mode ===")
+    log.info("Total records : %d", len(records))
+    log.info("Have DOI      : %d", len(with_doi))
+    log.info("No DOI (skip) : %d", no_doi)
+
+    stats = {"has_pdf": 0, "oa_no_pdf": 0, "closed": 0, "not_found": 0, "error": 0}
+    oa_status_counts: dict[str, int] = {}
+    available: list[dict] = []
+    unavailable: list[dict] = []
+
+    for record in tqdm(with_doi, desc="Pre-checking Unpaywall"):
+        doi = record["doi"]
+        result = resolve_unpaywall(doi)
+
+        if result is None:
+            stats["error"] += 1
+            continue
+
+        oa_status = result["oa_status"]
+        oa_status_counts[oa_status] = oa_status_counts.get(oa_status, 0) + 1
+        already = _has_fulltext(record)
+
+        entry = {
+            "doi": doi,
+            "title": record.get("title", ""),
+            "pmc_id": record.get("pmc_id", ""),
+            "already_have_fulltext": already,
+            "pdf_url": result["pdf_url"],
+            "oa_status": oa_status,
+            "host_type": result["host_type"],
+            "version": result["version"],
+        }
+
+        if result["pdf_url"]:
+            stats["has_pdf"] += 1
+            available.append(entry)
+        elif oa_status in ("gold", "hybrid", "green", "bronze"):
+            stats["oa_no_pdf"] += 1
+            unavailable.append(entry)
+        elif oa_status == "not_found":
+            stats["not_found"] += 1
+            unavailable.append(entry)
+        else:
+            stats["closed"] += 1
+            unavailable.append(entry)
+
+    # How many of the available ones we already have
+    already_covered = sum(1 for e in available if e["already_have_fulltext"])
+    new_downloadable = stats["has_pdf"] - already_covered
+
+    print("\n" + "=" * 55)
+    print("UNPAYWALL PRE-CHECK SUMMARY (all DOIs)")
+    print("=" * 55)
+    print(f"  Total with DOI         : {len(with_doi)}")
+    print(f"  Have PDF URL           : {stats['has_pdf']}  ({stats['has_pdf']/len(with_doi)*100:.1f}%)")
+    print(f"    → already have text  : {already_covered}")
+    print(f"    → NEW to download    : {new_downloadable}")
+    print(f"  OA but no PDF          : {stats['oa_no_pdf']}")
+    print(f"  Closed access          : {stats['closed']}")
+    print(f"  Not in Unpaywall       : {stats['not_found']}")
+    print(f"  Errors                 : {stats['error']}")
+    print("\n  OA status breakdown:")
+    for status, count in sorted(oa_status_counts.items(), key=lambda x: -x[1]):
+        print(f"    {status:<14}: {count}")
+    print("=" * 55)
+    print(f"\nRun with --download to fetch the {new_downloadable} new PDFs.\n")
+
+    # Save results
+    out_path = Path("data/metadata/unpaywall_precheck.json")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"available": available, "unavailable": unavailable}, f, ensure_ascii=False, indent=2)
+    log.info("Pre-check results saved → %s", out_path)
+
+
 def audit(records: list[dict]) -> None:
-    """Audit mode: check Unpaywall coverage without downloading anything."""
-    candidates = [r for r in records if not r.get("fulltext_downloaded") and r.get("doi")]
-    already_done = sum(1 for r in records if r.get("fulltext_downloaded"))
+    """Audit mode: check Unpaywall coverage for papers WITHOUT full text."""
+    candidates = [r for r in records if not _has_fulltext(r) and r.get("doi")]
+    already_done = sum(1 for r in records if _has_fulltext(r))
     no_doi = sum(1 for r in records if not r.get("doi"))
 
     log.info("=== Unpaywall Audit Mode ===")
     log.info("Total records    : %d", len(records))
-    log.info("Already have PDF : %d", already_done)
+    log.info("Already have text: %d  (PDF + PMC XML)", already_done)
     log.info("No DOI (skip)    : %d", no_doi)
     log.info("To check         : %d", len(candidates))
 
     if not candidates:
-        log.info("Nothing to check.")
+        log.info("Nothing to check — all records already have full text.")
+        log.info("Tip: run with --precheck to survey ALL DOIs for downloadable links.")
         return
 
     stats = {
         "has_pdf": 0,
-        "oa_no_pdf": 0,       # OA but no direct PDF URL
+        "oa_no_pdf": 0,
         "closed": 0,
         "not_found": 0,
         "error": 0,
@@ -183,12 +300,11 @@ def audit(records: list[dict]) -> None:
         else:
             stats["closed"] += 1
 
-    # Print summary
     print("\n" + "=" * 50)
     print("UNPAYWALL AUDIT SUMMARY")
     print("=" * 50)
     print(f"  Checked          : {len(candidates)}")
-    print(f"  Have PDF URL     : {stats['has_pdf']}  ({stats['has_pdf']/len(candidates)*100:.1f}%)")
+    print(f"  Have PDF URL     : {stats['has_pdf']}  ({stats['has_pdf']/max(len(candidates),1)*100:.1f}%)")
     print(f"  OA but no PDF    : {stats['oa_no_pdf']}")
     print(f"  Closed access    : {stats['closed']}")
     print(f"  Not in Unpaywall : {stats['not_found']}")
@@ -199,7 +315,6 @@ def audit(records: list[dict]) -> None:
     print("=" * 50)
     print(f"\nRun with --download to fetch the {stats['has_pdf']} available PDFs.\n")
 
-    # Save the list of available PDFs for reference
     audit_path = Path("data/metadata/unpaywall_audit.json")
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     with open(audit_path, "w", encoding="utf-8") as f:
@@ -208,8 +323,8 @@ def audit(records: list[dict]) -> None:
 
 
 def download(records: list[dict]) -> None:
-    """Download mode: resolve and download all available OA PDFs."""
-    candidates = [r for r in records if not r.get("fulltext_downloaded") and r.get("doi")]
+    """Download mode: resolve and download all available OA PDFs (skips existing full text)."""
+    candidates = [r for r in records if not _has_fulltext(r) and r.get("doi")]
     log.info("%d papers to resolve via Unpaywall", len(candidates))
 
     PDF_DIR.mkdir(parents=True, exist_ok=True)
@@ -251,7 +366,9 @@ def run(mode: str = "audit") -> None:
 
     records = load_metadata()
 
-    if mode == "download":
+    if mode == "precheck":
+        precheck(records)
+    elif mode == "download":
         download(records)
     else:
         audit(records)
@@ -259,5 +376,10 @@ def run(mode: str = "audit") -> None:
 
 if __name__ == "__main__":
     import sys
-    mode = "download" if "--download" in sys.argv else "audit"
+    if "--precheck" in sys.argv:
+        mode = "precheck"
+    elif "--download" in sys.argv:
+        mode = "download"
+    else:
+        mode = "audit"
     run(mode=mode)

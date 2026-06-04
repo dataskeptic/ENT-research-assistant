@@ -1,33 +1,40 @@
-"""Step 2a: Download full text (XML + PDF) for papers available in PMC Open Access.
+"""Step 2a: Fetch full-text from PubMed Central via OAI-PMH API.
+
+For each PubMed record that has a PMC ID, this downloads the full JATS XML
+via the PMC OAI endpoint.  Optionally (--pdf flag) it also downloads the
+PDF from the PMC FTP service.
+
+Usage:
+    python -m harvest.pmc_download          # XML only (default)
+    python -m harvest.pmc_download --pdf    # XML + PDF download
+    python -m harvest.pmc_download --pdf --overwrite  # re-download everything
 
 Reads:  data/metadata/pubmed_results.json
-Writes: data/fulltext/<pmcid>.xml
-        data/pdfs/<pmcid>.pdf
-Updates fulltext_downloaded, xml_path, pdf_path fields in metadata.
+Writes: data/fulltext/<PMCID>.xml
+        data/pdfs/<PMCID>.pdf       (only with --pdf flag)
+Updates fulltext_path, pmc_downloaded, pdf_path fields in the metadata.
 """
 
-import os
 import json
-import time
 import logging
+import re
+import time
 from pathlib import Path
 
 import requests
+from lxml import etree
 from tqdm import tqdm
-from dotenv import load_dotenv
 
-load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-PMC_OA_BASE = "https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi"
-PMC_PDF_BASE = "https://www.ncbi.nlm.nih.gov/pmc/articles"
-API_KEY = os.getenv("NCBI_API_KEY", "")
-
-METADATA_PATH = "data/metadata/pubmed_results.json"
+METADATA_PATH = Path("data/metadata/pubmed_results.json")
 FULLTEXT_DIR = Path("data/fulltext")
 PDF_DIR = Path("data/pdfs")
+
+OAI_BASE = "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/"
+# PMC FTP / HTTPS PDF endpoint pattern
+PMC_PDF_BASE = "https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/pdf/"
 
 
 def load_metadata() -> list[dict]:
@@ -40,98 +47,154 @@ def save_metadata(records: list[dict]) -> None:
         json.dump(records, f, ensure_ascii=False, indent=2)
 
 
-def is_pmc_oa(pmc_id: str) -> bool:
-    """Check if a PMC article is in the Open Access subset."""
-    if not pmc_id:
-        return False
-    # PMC OA API: request record — if it returns content, it's OA
+def fetch_pmc_xml(pmc_id: str) -> str | None:
+    """Fetch OAI-PMH XML for a PMC article. Returns raw XML string or None."""
+    identifier = f"oai:pubmedcentral.nih.gov:{pmc_id.replace('PMC', '')}"
     params = {
         "verb": "GetRecord",
-        "identifier": f"oai:pubmedcentral.nih.gov:{pmc_id.replace('PMC', '')}",
+        "identifier": identifier,
         "metadataPrefix": "pmc",
     }
     try:
-        time.sleep(0.35)
-        resp = requests.get(PMC_OA_BASE, params=params, timeout=30)
-        return "<error" not in resp.text and "idDoesNotExist" not in resp.text
-    except requests.RequestException:
-        return False
+        time.sleep(0.35)  # ~3 req/s — polite for NCBI
+        resp = requests.get(OAI_BASE, params=params, timeout=30)
+        resp.raise_for_status()
+        return resp.text
+    except requests.RequestException as e:
+        log.warning("OAI fetch failed for %s: %s", pmc_id, e)
+        return None
 
 
-def download_pmc_xml(pmc_id: str) -> str | None:
-    """Download full-text XML for a PMC OA article. Returns saved path or None."""
-    FULLTEXT_DIR.mkdir(parents=True, exist_ok=True)
-    clean_id = pmc_id.replace("PMC", "")
-    out_path = FULLTEXT_DIR / f"{pmc_id}.xml"
+def _get_pdf_filename_from_xml(xml_text: str) -> str | None:
+    """Extract the PDF filename from the <self-uri content-type='pmc-pdf'> element.
 
-    if out_path.exists():
-        return str(out_path)
+    PMC XML embeds the canonical PDF filename, e.g.:
+        <self-uri content-type="pmc-pdf" xlink:href="pathogens-15-00523.pdf"/>
+    We use this to build the correct PDF download URL.
+    """
+    try:
+        root = etree.fromstring(xml_text.encode())
+        ns = {"xlink": "http://www.w3.org/1999/xlink"}
+        for el in root.iter():
+            if el.tag.split("}")[-1] == "self-uri":
+                if el.get("content-type") == "pmc-pdf":
+                    href = el.get("{http://www.w3.org/1999/xlink}href") or el.get("href", "")
+                    if href.endswith(".pdf"):
+                        return href
+    except Exception:
+        pass
+    return None
 
-    params = {
-        "verb": "GetRecord",
-        "identifier": f"oai:pubmedcentral.nih.gov:{clean_id}",
-        "metadataPrefix": "pmc",
+
+def fetch_pmc_pdf(pmc_id: str, pdf_filename: str | None = None) -> bytes | None:
+    """Download the PDF for a PMC article.
+
+    Strategy:
+      1. If we have the pdf_filename from the XML, use the direct PMC article URL.
+      2. Otherwise fall back to the generic /articles/{pmc_id}/pdf/ redirect.
+    """
+    urls_to_try: list[str] = []
+    bare_id = pmc_id.replace("PMC", "")
+
+    if pdf_filename:
+        # Direct URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC13209169/pdf/pathogens-15-00523.pdf
+        urls_to_try.append(
+            f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/pdf/{pdf_filename}"
+        )
+    # Fallback redirect URL
+    urls_to_try.append(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/pdf/")
+
+    headers = {
+        "User-Agent": "ENTResearchHarvester/1.0 (research use; contact via GitHub)"
     }
-    try:
-        time.sleep(0.35)
-        resp = requests.get(PMC_OA_BASE, params=params, timeout=60)
-        if resp.status_code == 200 and "<error" not in resp.text:
-            out_path.write_bytes(resp.content)
-            log.debug("XML saved: %s", out_path)
-            return str(out_path)
-    except requests.RequestException as e:
-        log.warning("XML download failed for %s: %s", pmc_id, e)
+
+    for url in urls_to_try:
+        try:
+            time.sleep(0.5)
+            resp = requests.get(url, timeout=60, allow_redirects=True, headers=headers)
+            if resp.status_code == 200 and len(resp.content) > 5000:
+                content_type = resp.headers.get("content-type", "")
+                if "pdf" in content_type or resp.content[:4] == b"%PDF":
+                    return resp.content
+                log.debug("Not a PDF response from %s (content-type: %s)", url, content_type)
+        except requests.RequestException as e:
+            log.warning("PDF fetch failed from %s: %s", url, e)
+
     return None
 
 
-def download_pmc_pdf(pmc_id: str) -> str | None:
-    """Attempt to download PDF from PMC for an OA article. Returns saved path or None."""
-    PDF_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = PDF_DIR / f"{pmc_id}.pdf"
-
-    if out_path.exists():
-        return str(out_path)
-
-    # PMC PDF URL pattern
-    url = f"{PMC_PDF_BASE}/{pmc_id}/pdf/"
-    try:
-        time.sleep(0.5)
-        resp = requests.get(url, timeout=60, allow_redirects=True,
-                            headers={"User-Agent": "ENTResearchHarvester/1.0 (research use; contact via GitHub)"})
-        if resp.status_code == 200 and resp.headers.get("content-type", "").startswith("application/pdf"):
-            out_path.write_bytes(resp.content)
-            log.debug("PDF saved: %s", out_path)
-            return str(out_path)
-    except requests.RequestException as e:
-        log.warning("PDF download failed for %s: %s", pmc_id, e)
-    return None
-
-
-def run() -> None:
+def run(
+    metadata_path: Path = METADATA_PATH,
+    fulltext_dir: Path = FULLTEXT_DIR,
+    pdf_dir: Path = PDF_DIR,
+    download_pdf: bool = False,
+    overwrite: bool = False,
+) -> None:
+    """Main entry point: fetch XML (and optionally PDF) for all PMC-linked records."""
     records = load_metadata()
-    pmc_candidates = [r for r in records if r.get("pmc_id") and not r["fulltext_downloaded"]]
-    log.info("%d papers have a PMC ID to check", len(pmc_candidates))
 
-    updated = 0
-    for record in tqdm(pmc_candidates, desc="PMC OA download"):
+    fulltext_dir.mkdir(parents=True, exist_ok=True)
+    if download_pdf:
+        pdf_dir.mkdir(parents=True, exist_ok=True)
+
+    candidates = [
+        r for r in records
+        if r.get("pmc_id") and (overwrite or not r.get("pmc_downloaded"))
+    ]
+    log.info("%d records to process (download_pdf=%s)", len(candidates), download_pdf)
+
+    xml_ok = 0
+    xml_fail = 0
+    pdf_ok = 0
+    pdf_fail = 0
+
+    for record in tqdm(candidates, desc="PMC download"):
         pmc_id = record["pmc_id"]
+        xml_path = fulltext_dir / f"{pmc_id}.xml"
 
-        if not is_pmc_oa(pmc_id):
-            log.debug("%s not in PMC OA subset, skipping", pmc_id)
-            continue
+        # ── XML ──────────────────────────────────────────────────────────────
+        if overwrite or not xml_path.exists():
+            xml_text = fetch_pmc_xml(pmc_id)
+            if xml_text:
+                xml_path.write_text(xml_text, encoding="utf-8")
+                record["fulltext_path"] = str(xml_path)
+                record["pmc_downloaded"] = True
+                xml_ok += 1
+            else:
+                xml_fail += 1
+                continue
+        else:
+            xml_text = xml_path.read_text(encoding="utf-8")
+            record["fulltext_path"] = str(xml_path)
+            record["pmc_downloaded"] = True
 
-        xml_path = download_pmc_xml(pmc_id)
-        pdf_path = download_pmc_pdf(pmc_id)
-
-        if xml_path or pdf_path:
-            record["fulltext_downloaded"] = True
-            record["xml_path"] = xml_path
-            record["pdf_path"] = pdf_path
-            updated += 1
+        # ── PDF (optional) ───────────────────────────────────────────────────
+        if download_pdf:
+            pdf_path = pdf_dir / f"{pmc_id}.pdf"
+            if overwrite or not pdf_path.exists():
+                pdf_filename = _get_pdf_filename_from_xml(xml_text)
+                pdf_bytes = fetch_pmc_pdf(pmc_id, pdf_filename)
+                if pdf_bytes:
+                    pdf_path.write_bytes(pdf_bytes)
+                    record["pdf_path"] = str(pdf_path)
+                    record["fulltext_downloaded"] = True
+                    pdf_ok += 1
+                    log.debug("PDF saved: %s", pdf_path.name)
+                else:
+                    pdf_fail += 1
+                    log.warning("PDF not available for %s", pmc_id)
+            else:
+                record["pdf_path"] = str(pdf_path)
+                record["fulltext_downloaded"] = True
 
     save_metadata(records)
-    log.info("PMC OA: %d full texts downloaded", updated)
+    log.info("XML: %d ok, %d failed", xml_ok, xml_fail)
+    if download_pdf:
+        log.info("PDF: %d ok, %d failed/unavailable", pdf_ok, pdf_fail)
 
 
 if __name__ == "__main__":
-    run()
+    import sys
+    _download_pdf = "--pdf" in sys.argv
+    _overwrite = "--overwrite" in sys.argv
+    run(download_pdf=_download_pdf, overwrite=_overwrite)

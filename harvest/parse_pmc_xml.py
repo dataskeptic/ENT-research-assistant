@@ -14,6 +14,13 @@ Single-file mode (for debugging):
 
 For the ingest pipeline, each section becomes an independent chunk
 with section metadata attached.
+
+IMPORTANT: PMC OAI XML wraps the JATS article in an OAI-PMH envelope and
+uses a fully-qualified JATS namespace on every element, e.g.:
+    <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.4/" ...>
+This means lxml's iter("abstract") finds NOTHING — you must strip (or
+ignore) the namespace when searching.  We do this with a _tag() helper
+that compares only the local-name portion of the Clark-notation tag.
 """
 
 import json
@@ -48,6 +55,7 @@ _SECTION_ALIASES = {
     "summary": "Conclusion",
     "case report": "Case Report",
     "case presentation": "Case Report",
+    "case reports": "Case Report",
     "references": None,
     "acknowledgements": None,
     "acknowledgments": None,
@@ -69,14 +77,24 @@ SKIP_TAGS = {
 }
 
 
+def _local(element) -> str:
+    """Return the local tag name, stripping any Clark-notation namespace.
+
+    lxml represents namespaced tags as '{ns_uri}localname'.  PMC OAI XML
+    uses a default JATS namespace on *every* element, so without this
+    helper all tag comparisons silently fail and sections come out empty.
+    """
+    tag = element.tag
+    return tag.split("}", 1)[-1] if "}" in tag else tag
+
+
 def _clean_text(text: str) -> str:
     return _WHITESPACE_RE.sub(" ", text).strip()
 
 
 def _iter_text(element) -> str:
     """Recursively extract prose text, skipping noisy XML elements."""
-    tag = element.tag.split("}")[-1] if "}" in element.tag else element.tag
-    if tag in SKIP_TAGS:
+    if _local(element) in SKIP_TAGS:
         return ""
     parts = []
     if element.text:
@@ -90,12 +108,36 @@ def _iter_text(element) -> str:
 
 def _normalise_section_title(raw_title: str) -> str | None:
     key = raw_title.strip().lower()
+    # Remove leading numbering like "1. Introduction" → "introduction"
+    key = re.sub(r"^[\d\.]+\s*", "", key).strip()
     if key in _SECTION_ALIASES:
         return _SECTION_ALIASES[key]
     for alias, canonical in _SECTION_ALIASES.items():
         if alias in key:
             return canonical
     return raw_title.title()  # unknown: keep as-is, title-cased
+
+
+def _iter_local(root, local_tag: str):
+    """Iterate over all descendants whose local tag name equals local_tag.
+
+    This is namespace-safe: it works whether or not the XML uses a default
+    namespace such as the JATS archiving namespace.
+    """
+    for el in root.iter():
+        if _local(el) == local_tag:
+            yield el
+
+
+def _collect_paragraphs_shallow(sec_el) -> list[str]:
+    """Collect direct <p> children of a <sec>, ignoring nested <sec>."""
+    paragraphs = []
+    for child in sec_el:
+        if _local(child) == "p":
+            p_text = _clean_text(_iter_text(child))
+            if p_text:
+                paragraphs.append(p_text)
+    return paragraphs
 
 
 def parse_pmc_xml(xml_path: str | Path) -> list[dict]:
@@ -116,77 +158,115 @@ def parse_pmc_xml(xml_path: str | Path) -> list[dict]:
     sections: list[dict] = []
     order = 0
 
-    # Abstract
-    for abstract_el in root.iter("abstract"):
+    # ── Abstract ─────────────────────────────────────────────────────────────
+    for abstract_el in _iter_local(root, "abstract"):
         text = _clean_text(_iter_text(abstract_el))
         if len(text) > 50:
             sections.append({"section": "Abstract", "text": text, "order": order})
             order += 1
         break  # only first abstract
 
-    # Body sections
-    for body_el in root.iter("body"):
-        for sec_el in body_el.iter("sec"):
-            title_el = sec_el.find("title")
-            raw_title = title_el.text.strip() if title_el is not None and title_el.text else "Body"
-            canonical = _normalise_section_title(raw_title)
-
-            if canonical is None:
+    # ── Body sections ────────────────────────────────────────────────────────
+    # We walk *top-level* <sec> elements inside <body> to avoid double-counting
+    # paragraphs that appear in both a parent <sec> and a child <sec>.
+    for body_el in _iter_local(root, "body"):
+        for sec_el in body_el:  # direct children of <body>
+            if _local(sec_el) != "sec":
                 continue
-
-            paragraphs = []
-            for child in sec_el:
-                child_tag = child.tag.split("}")[-1] if "}" in child.tag else child.tag
-                if child_tag == "p":
-                    p_text = _clean_text(_iter_text(child))
-                    if p_text:
-                        paragraphs.append(p_text)
-
-            text = " ".join(paragraphs)
-            if len(text) > 50:
-                sections.append({"section": canonical, "text": text, "order": order})
-                order += 1
+            _process_sec(sec_el, sections, order_counter=[order])
+        order = order_counter_val(sections)
 
     return sections
 
 
+def order_counter_val(sections: list[dict]) -> int:
+    return sections[-1]["order"] + 1 if sections else 0
+
+
+def _process_sec(sec_el, sections: list[dict], order_counter: list[int]) -> None:
+    """Recursively process a <sec> element, accumulating into sections list."""
+    title_el = None
+    for child in sec_el:
+        if _local(child) == "title":
+            title_el = child
+            break
+
+    raw_title = ""
+    if title_el is not None:
+        # title_el.itertext() spans mixed content (e.g. <italic> inside title)
+        raw_title = _clean_text(" ".join(title_el.itertext()))
+    if not raw_title:
+        raw_title = "Body"
+
+    canonical = _normalise_section_title(raw_title)
+    if canonical is None:
+        return  # explicitly skipped section
+
+    # Collect direct <p> children of this <sec>
+    paragraphs = _collect_paragraphs_shallow(sec_el)
+
+    if paragraphs:
+        text = " ".join(paragraphs)
+        if len(text) > 50:
+            sections.append({
+                "section": canonical,
+                "text": text,
+                "order": order_counter[0],
+            })
+            order_counter[0] += 1
+
+    # Recurse into nested <sec> (e.g. sub-sections inside Case Presentation)
+    for child in sec_el:
+        if _local(child) == "sec":
+            _process_sec(child, sections, order_counter)
+
+
 def extract_article_metadata(xml_path: str | Path) -> dict:
-    """Extract article-level metadata from PMC XML."""
+    """Extract article-level metadata from PMC OAI XML (namespace-safe)."""
     root = etree.parse(str(xml_path)).getroot()
 
-    title_el = root.find(".//article-title")
-    title = title_el.text.strip() if title_el is not None and title_el.text else ""
+    title = ""
+    for el in _iter_local(root, "article-title"):
+        title = _clean_text(" ".join(el.itertext()))
+        break
 
     authors = []
-    for contrib in root.iter("contrib"):
+    for contrib in _iter_local(root, "contrib"):
         if contrib.get("contrib-type") == "author":
-            s_el = contrib.find(".//surname")
-            g_el = contrib.find(".//given-names")
-            surname = s_el.text.strip() if s_el is not None and s_el.text else ""
-            given = g_el.text.strip() if g_el is not None and g_el.text else ""
+            surname, given = "", ""
+            for child in _iter_local(contrib, "surname"):
+                surname = child.text.strip() if child.text else ""
+                break
+            for child in _iter_local(contrib, "given-names"):
+                given = child.text.strip() if child.text else ""
+                break
             if surname:
                 authors.append(f"{given} {surname}".strip())
 
-    journal_el = root.find(".//journal-title")
-    journal = journal_el.text.strip() if journal_el is not None and journal_el.text else ""
+    journal = ""
+    for el in _iter_local(root, "journal-title"):
+        journal = el.text.strip() if el.text else ""
+        break
 
     year = ""
-    for pub_date in root.iter("pub-date"):
-        year_el = pub_date.find("year")
-        if year_el is not None and year_el.text:
-            year = year_el.text.strip()
+    for pub_date in _iter_local(root, "pub-date"):
+        for year_el in _iter_local(pub_date, "year"):
+            year = year_el.text.strip() if year_el.text else ""
+            break
+        if year:
             break
 
     doi = ""
-    for article_id in root.iter("article-id"):
+    for article_id in _iter_local(root, "article-id"):
         if article_id.get("pub-id-type") == "doi" and article_id.text:
             doi = article_id.text.strip()
             break
 
     pmc_id = ""
-    for article_id in root.iter("article-id"):
-        if article_id.get("pub-id-type") == "pmc" and article_id.text:
-            pmc_id = f"PMC{article_id.text.strip()}"
+    for article_id in _iter_local(root, "article-id"):
+        if article_id.get("pub-id-type") in ("pmc", "pmcid") and article_id.text:
+            val = article_id.text.strip()
+            pmc_id = val if val.startswith("PMC") else f"PMC{val}"
             break
 
     return {
