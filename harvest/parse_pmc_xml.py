@@ -16,8 +16,10 @@ For the ingest pipeline, each section becomes an independent chunk
 with section metadata attached.
 
 IMPORTANT: PMC OAI XML wraps the JATS article in an OAI-PMH envelope and
-uses a fully-qualified JATS namespace on every element, e.g.:
+uses a fully-qualified JATS namespace on every element, e.g.::
+
     <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.4/" ...>
+
 This means lxml's iter("abstract") finds NOTHING — you must strip (or
 ignore) the namespace when searching.  We do this with a _local() helper
 that compares only the local-name portion of the Clark-notation tag.
@@ -29,6 +31,42 @@ Known article shapes in this corpus
 2. Abstract-only OAI response — <body> element absent or empty
    → full_text_available = False, only Abstract section present
    This is common for articles not in the PMC Open Access subset.
+
+Output JSON shape
+-----------------
+::
+
+    {
+      "metadata": {
+        "title": "...", "authors": [...], "journal": "...",
+        "year": "...", "doi": "...", "pmc_id": "...", "pmid": "...",
+        "full_text_available": true,
+        "section_count": 6,
+        "reference_count": 28
+      },
+      "sections": [
+        {"section": "Abstract", "text": "...", "order": 0},
+        ...
+      ],
+      "references": [
+        {
+          "ref_id": "CR1",
+          "label": "1.",
+          "authors": ["Smith J", "Jones A"],
+          "title": "A great paper",
+          "journal": "Lancet",
+          "year": "2023",
+          "volume": "42",
+          "issue": "3",
+          "fpage": "100",
+          "lpage": "108",
+          "doi": "10.1016/...",
+          "pmid": "12345678",
+          "pmc_id": "PMC9876543"
+        },
+        ...
+      ]
+    }
 """
 
 import json
@@ -130,9 +168,6 @@ def _iter_text(element) -> str:
                 parts.append(child.tail)
         else:
             parts.append(_iter_text(child))
-            # xref content is usually just a number like "1" — not useful
-            # for RAG, but the tail carries real prose, so _iter_text above
-            # will return the tail naturally via the recursive call.
             if child.tail:
                 parts.append(child.tail)
 
@@ -171,6 +206,14 @@ def _collect_paragraphs_shallow(sec_el) -> list[str]:
             if p_text:
                 paragraphs.append(p_text)
     return paragraphs
+
+
+def _first_text(parent_el, local_tag: str) -> str:
+    """Return stripped text of the first child with the given local tag, or ''."""
+    for el in parent_el:
+        if _local(el) == local_tag and el.text:
+            return el.text.strip()
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -231,6 +274,163 @@ def _process_sec(sec_el, sections: list[dict], order_counter: list[int]) -> None
 
 
 # ---------------------------------------------------------------------------
+# References extraction
+# ---------------------------------------------------------------------------
+
+def _extract_references(root) -> list[dict]:
+    """Extract the bibliography from the JATS <back><ref-list> element.
+
+    Each ``<ref>`` in JATS may contain:
+
+    * ``<element-citation>`` — fully machine-tagged; preferred.
+    * ``<mixed-citation>``   — semi-tagged prose; used as fallback.
+    * ``<citation-alternatives>`` — wrapper containing both; we prefer
+      the ``<element-citation>`` child inside it.
+
+    Returns a list of reference dicts.  Only non-empty fields are included.
+    The ``ref_id`` key maps to the XML ``id`` attribute of ``<ref>`` (e.g.
+    ``"CR1"``) which is the anchor used by in-text ``<xref>`` elements.
+    """
+    refs: list[dict] = []
+
+    for ref_el in _iter_local(root, "ref"):
+        entry: dict = {}
+
+        # ref id (e.g. "CR1") — the anchor key for in-text citations
+        ref_id = ref_el.get("id", "")
+        if ref_id:
+            entry["ref_id"] = ref_id
+
+        # Display label (e.g. "1." or "[1]")
+        for label_el in ref_el:
+            if _local(label_el) == "label" and label_el.text:
+                entry["label"] = label_el.text.strip()
+                break
+
+        # Prefer element-citation (machine-tagged) over mixed-citation
+        citation_el = None
+        for child in ref_el:
+            local = _local(child)
+            if local == "citation-alternatives":
+                # Look for element-citation inside the alternatives wrapper
+                for alt_child in child:
+                    if _local(alt_child) == "element-citation":
+                        citation_el = alt_child
+                        break
+                if citation_el is None:
+                    # Fall back to mixed-citation inside alternatives
+                    for alt_child in child:
+                        if _local(alt_child) == "mixed-citation":
+                            citation_el = alt_child
+                            break
+                break
+            elif local == "element-citation":
+                citation_el = child
+                break
+            elif local == "mixed-citation" and citation_el is None:
+                citation_el = child  # keep looking for element-citation
+
+        if citation_el is None:
+            # No structured citation at all — skip silently
+            if entry:
+                refs.append(entry)
+            continue
+
+        # ── Authors ──────────────────────────────────────────────────────────
+        authors: list[str] = []
+        for person_group in _iter_local(citation_el, "person-group"):
+            if person_group.get("person-group-type", "author") == "author":
+                for name_el in person_group:
+                    local_name = _local(name_el)
+                    if local_name == "name":
+                        surname = ""
+                        given = ""
+                        for name_child in name_el:
+                            if _local(name_child) == "surname" and name_child.text:
+                                surname = name_child.text.strip()
+                            elif _local(name_child) == "given-names" and name_child.text:
+                                # Use initials attribute when available for brevity
+                                given = name_child.get("initials", name_child.text).strip()
+                        if surname:
+                            authors.append(f"{surname} {given}".strip())
+                    elif local_name == "etal":
+                        authors.append("et al.")
+                break  # first author person-group only
+        if authors:
+            entry["authors"] = authors
+
+        # ── Article title ─────────────────────────────────────────────────────
+        for el in _iter_local(citation_el, "article-title"):
+            title_text = _clean_text(" ".join(el.itertext()))
+            if title_text:
+                entry["title"] = title_text
+            break
+
+        # ── Source (journal / book title) ─────────────────────────────────────
+        for el in _iter_local(citation_el, "source"):
+            src = _clean_text(" ".join(el.itertext()))
+            if src:
+                entry["journal"] = src
+            break
+
+        # ── Year ──────────────────────────────────────────────────────────────
+        for el in _iter_local(citation_el, "year"):
+            if el.text:
+                entry["year"] = el.text.strip()
+            break
+
+        # ── Volume / Issue / Pages ────────────────────────────────────────────
+        for el in _iter_local(citation_el, "volume"):
+            if el.text:
+                entry["volume"] = el.text.strip()
+            break
+        for el in _iter_local(citation_el, "issue"):
+            if el.text:
+                entry["issue"] = el.text.strip()
+            break
+        for el in _iter_local(citation_el, "fpage"):
+            if el.text:
+                entry["fpage"] = el.text.strip()
+            break
+        for el in _iter_local(citation_el, "lpage"):
+            if el.text:
+                entry["lpage"] = el.text.strip()
+            break
+        # elocation-id (e.g. "e12345" or article number when no page range)
+        for el in _iter_local(citation_el, "elocation-id"):
+            if el.text and "fpage" not in entry:
+                entry["elocation_id"] = el.text.strip()
+            break
+
+        # ── Identifiers ───────────────────────────────────────────────────────
+        for pub_id in _iter_local(citation_el, "pub-id"):
+            id_type = pub_id.get("pub-id-type", "")
+            if not pub_id.text:
+                continue
+            val = pub_id.text.strip()
+            if id_type == "doi":
+                entry["doi"] = val
+            elif id_type == "pmid":
+                entry["pmid"] = val
+            elif id_type in ("pmc", "pmcid"):
+                entry["pmc_id"] = val if val.startswith("PMC") else f"PMC{val}"
+
+        # ── Fallback: raw text for mixed-citation with no sub-elements ────────
+        # If we have almost nothing structured, store the full citation string
+        # so the text is not lost.
+        structured_fields = {k for k in entry if k not in ("ref_id", "label")}
+        if not structured_fields and _local(citation_el) == "mixed-citation":
+            raw = _clean_text(" ".join(citation_el.itertext()))
+            if raw:
+                entry["raw_citation"] = raw
+
+        if entry:
+            refs.append(entry)
+
+    return refs
+
+
+# ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
 
@@ -245,11 +445,6 @@ def parse_pmc_xml(xml_path: str | Path) -> tuple[list[dict], bool]:
         True if the XML contained a <body> element with at least one
         section.  False means only abstract/metadata was present
         (common for non-OA articles).
-
-    FIX (BUG 1): The original code called ``order_counter_val`` which
-    referenced an undefined local variable after the body loop, causing a
-    NameError at runtime.  Order tracking is now handled by a single
-    mutable list ``[order]`` passed through all helpers.
     """
     path = Path(xml_path)
     if not path.exists():
@@ -271,11 +466,9 @@ def parse_pmc_xml(xml_path: str | Path) -> tuple[list[dict], bool]:
         order_counter[0] += 1
 
     # ── Body sections ────────────────────────────────────────────────────────
-    # Walk *top-level* <sec> elements inside <body> to avoid double-counting
-    # paragraphs that appear in both a parent <sec> and a child <sec>.
     body_sections_found = 0
     for body_el in _iter_local(root, "body"):
-        for sec_el in body_el:  # direct children of <body>
+        for sec_el in body_el:
             if _local(sec_el) != "sec":
                 continue
             before = len(sections)
@@ -285,9 +478,6 @@ def parse_pmc_xml(xml_path: str | Path) -> tuple[list[dict], bool]:
 
     full_text_available = body_sections_found > 0
 
-    # FIX (ISSUE 6): if body is absent/empty, log a warning so the caller
-    # knows this article has no full text rather than silently returning
-    # only the abstract.
     if not full_text_available:
         log.debug("No body sections found in %s — abstract-only record", path.name)
 
@@ -295,12 +485,7 @@ def parse_pmc_xml(xml_path: str | Path) -> tuple[list[dict], bool]:
 
 
 def extract_article_metadata(xml_path: str | Path) -> dict:
-    """Extract article-level metadata from PMC OAI XML (namespace-safe).
-
-    FIX (ISSUE 9): year extraction now prefers epub pub-date, then ppub,
-    then any pub-date rather than taking whichever appears first in
-    document order.
-    """
+    """Extract article-level metadata from PMC OAI XML (namespace-safe)."""
     root = etree.parse(str(xml_path)).getroot()
 
     title = ""
@@ -326,7 +511,7 @@ def extract_article_metadata(xml_path: str | Path) -> dict:
         journal = el.text.strip() if el.text else ""
         break
 
-    # FIX (ISSUE 9): prefer epub, then ppub, then any pub-date
+    # Prefer epub, then ppub, then any pub-date
     year = ""
     pub_dates: dict[str, str] = {}
     for pub_date in _iter_local(root, "pub-date"):
@@ -380,18 +565,6 @@ def process_folder(
 ) -> list[dict]:
     """Batch-process all *.xml files in xml_dir → JSON files in out_dir.
 
-    Each output JSON has shape::
-
-        {
-          "metadata": {
-            "title": "...", "authors": [...], "journal": "...",
-            "year": "...", "doi": "...", "pmc_id": "...", "pmid": "...",
-            "full_text_available": true,
-            "section_count": 6
-          },
-          "sections": [{"section": "...", "text": "...", "order": 0}, ...]
-        }
-
     Parameters
     ----------
     xml_dir : Path
@@ -401,15 +574,9 @@ def process_folder(
     overwrite : bool
         If True, re-parse all files even if a JSON already exists.
     reparse_incomplete : bool
-        FIX (ISSUE 10): If True, re-parse files that were previously saved
-        as abstract-only (``full_text_available=false``) in case the full
-        XML is now available.  Narrower than ``--overwrite``; only
-        re-processes files known to be incomplete.
-
-    Returns
-    -------
-    list[dict]
-        Summary dicts for each file, including ``ok`` status.
+        If True, re-parse files previously saved as abstract-only
+        (``full_text_available=false``) in case the full XML is now
+        available.  Narrower than ``--overwrite``.
     """
     xml_files = sorted(xml_dir.glob("*.xml"))
     if not xml_files:
@@ -428,12 +595,11 @@ def process_folder(
         skip = False
         if out_path.exists() and not overwrite:
             if reparse_incomplete:
-                # Re-process only if previously saved as abstract-only
                 try:
                     with open(out_path, encoding="utf-8") as f:
                         existing = json.load(f)
                     if existing.get("metadata", {}).get("full_text_available", True):
-                        skip = True  # already complete
+                        skip = True
                 except Exception:
                     pass  # corrupt JSON — re-parse
             else:
@@ -447,10 +613,16 @@ def process_folder(
             meta = extract_article_metadata(xml_path)
             sections, full_text_available = parse_pmc_xml(xml_path)
 
+            # Parse the full tree once more for references (shares the same
+            # etree.parse call path; acceptable overhead for batch processing)
+            ref_root = etree.parse(str(xml_path)).getroot()
+            references = _extract_references(ref_root)
+
             meta["full_text_available"] = full_text_available
             meta["section_count"] = len(sections)
+            meta["reference_count"] = len(references)
 
-            result = {"metadata": meta, "sections": sections}
+            result = {"metadata": meta, "sections": sections, "references": references}
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
 
@@ -460,6 +632,7 @@ def process_folder(
                 "doi": meta["doi"],
                 "title": meta["title"],
                 "sections": len(sections),
+                "references": len(references),
                 "full_text_available": full_text_available,
                 "ok": True,
             })
@@ -470,7 +643,6 @@ def process_folder(
     ok = len(summary)
     log.info("Done: %d parsed, %d errors", ok, len(errors))
 
-    # Write a summary report
     report_path = out_dir / "_parse_report.json"
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump({"parsed": summary, "errors": errors}, f, ensure_ascii=False, indent=2)
@@ -487,11 +659,16 @@ if __name__ == "__main__":
         xml_file = sys.argv[1]
         meta = extract_article_metadata(xml_file)
         sections, full_text_available = parse_pmc_xml(xml_file)
+        ref_root = etree.parse(xml_file).getroot()
+        references = _extract_references(ref_root)
         meta["full_text_available"] = full_text_available
         meta["section_count"] = len(sections)
-        print(json.dumps({"metadata": meta, "sections": sections}, indent=2, ensure_ascii=False))
+        meta["reference_count"] = len(references)
+        print(json.dumps(
+            {"metadata": meta, "sections": sections, "references": references},
+            indent=2, ensure_ascii=False,
+        ))
     else:
-        # Batch mode: optional flags
         overwrite = "--overwrite" in sys.argv
         reparse_incomplete = "--reparse-incomplete" in sys.argv
         process_folder(overwrite=overwrite, reparse_incomplete=reparse_incomplete)
