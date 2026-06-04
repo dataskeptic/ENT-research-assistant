@@ -1,0 +1,1002 @@
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-06-04T16:22:40Z</responseDate>
+    <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:12996752" metadataPrefix="pmc">https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/</request>
+    
+    <GetRecord>
+        <record>
+    <header>
+    <identifier>oai:pubmedcentral.nih.gov:12996752</identifier>
+    <datestamp>2026-03-19</datestamp>
+    
+        
+        <setSpec>pmc-open</setSpec>
+        
+    
+</header>
+    <metadata>
+        
+        <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.4/ https://jats.nlm.nih.gov/archiving/1.4/xsd/JATS-archivearticle1-4.xsd" id="ijc70312" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Cancer</journal-id><journal-id journal-id-type="iso-abbrev">Int J Cancer</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">IJC</journal-id><journal-title-group><journal-title>International Journal of Cancer</journal-title></journal-title-group><issn pub-type="ppub">0020-7136</issn><issn pub-type="epub">1097-0215</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12996752</article-id><article-id pub-id-type="pmcid-ver">PMC12996752.1</article-id><article-id pub-id-type="pmcaid">12996752</article-id><article-id pub-id-type="pmcaiid">12996752</article-id><article-id pub-id-type="pmid">41439471</article-id><article-id pub-id-type="doi">10.1002/ijc.70312</article-id><article-id pub-id-type="publisher-id">IJC70312</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>RESEARCH ARTICLE</subject><subj-group subj-group-type="heading"><subject>Cancer Therapy and Prevention</subject></subj-group></subj-group></article-categories><title-group><article-title>Immunotherapy in advanced gastroesophageal cancers: A meta&#8208;analysis of sex&#8208;based outcomes in overall survival</article-title><alt-title alt-title-type="left-running-head">Masetti et al.</alt-title></title-group><contrib-group><contrib id="ijc70312-cr-0001" contrib-type="author"><name name-style="western"><surname>Masetti</surname><given-names initials="M">Michael</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9639-3472</contrib-id><xref rid="ijc70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc70312-cr-0002" contrib-type="author"><name name-style="western"><surname>Petrelli</surname><given-names initials="F">Fausto</given-names></name><xref rid="ijc70312-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ijc70312-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Pietrantonio</surname><given-names initials="F">Filippo</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8530-8420</contrib-id><xref rid="ijc70312-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>filippo.pietrantonio@istitutotumori.mi.it</email></address></contrib><contrib id="ijc70312-cr-0004" contrib-type="author"><name name-style="western"><surname>Lorenzen</surname><given-names initials="S">Sylvie</given-names></name><xref rid="ijc70312-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc70312-cr-0005" contrib-type="author"><name name-style="western"><surname>Leone</surname><given-names initials="AG">Alberto Giovanni</given-names></name><xref rid="ijc70312-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="ijc70312-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine III (Hematology and Oncology)</named-content>
+<institution>Klinikum Rechts der Isar, Technische Universit&#228;t M&#252;nchen</institution>
+<city>Munich</city>
+<country country="DE">Germany</country>
+</aff><aff id="ijc70312-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Oncology Unit, Medical Sciences Department</named-content>
+<institution>ASST Bergamo Ovest</institution>
+<city>Treviglio</city>
+<country country="IT">Italy</country>
+</aff><aff id="ijc70312-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Medical Oncology Department</named-content>
+<institution>Fondazione IRCCS Istituto Nazionale dei Tumori</institution>
+<city>Milan</city>
+<country country="IT">Italy</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Filippo Pietrantonio, Department of Medical Oncology, Medical Oncology Unit, Fondazione IRCCS Istituto Nazionale dei Tumori, Via Venezian 1, 20133 Milan, Italy.<break/>
+Email: <email>filippo.pietrantonio@istitutotumori.mi.it</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="ppub"><day>15</day><month>5</month><year>2026</year></pub-date><volume>158</volume><issue seq="200">10</issue><issue-id pub-id-type="pmc-issue-id">509708</issue-id><issue-id pub-id-type="doi">10.1002/ijc.v158.10</issue-id><fpage>2697</fpage><lpage>2708</lpage><history><date date-type="rev-recd"><day>20</day><month>11</month><year>2025</year></date><date date-type="received"><day>29</day><month>8</month><year>2025</year></date><date date-type="accepted"><day>10</day><month>12</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>18</day><month>03</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>19</day><month>03</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-19 00:25:14.863"><day>19</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">&#169; 2025 The Author(s). <italic toggle="yes">International Journal of Cancer</italic> published by John Wiley &amp; Sons Ltd on behalf of UICC.</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" xlink:href="IJC-158-2697.pdf"/><self-uri content-type="pdf" xlink:href="file:IJC-158-2697.pdf"/><abstract><title>Abstract</title><p>Immune&#8208;checkpoint&#8208;inhibition (ICI) represents the mainstay for treatment of advanced gastroesophageal cancer (GEC) in most cases. Sex differences in innate and adaptive immune responses are known to reflect distinct anti&#8208;tumor efficacy of ICI in female and male patients. However, most randomized controlled trials (RCTs) on ICI in GEC were conducted without taking sex differences into account. To address this uncertainty, we conducted a meta&#8208;analysis across first&#8208;line (1L) RCTs in advanced GEC. Systematic research was performed up to March 31, 2025. The primary endpoint was the pooled hazard ratio (HR) for overall survival (OS) in male and female patients, comparing ICI&#8208;based therapy versus control. The secondary objective was to assess the interaction between sex and treatment effect. A total of 15 RCTs were included (7 trials on ESCC and 8 trials on GEA). In male ESCC patients, the pooled HR for OS favored ICI with statistical significance (HR&#8201;=&#8201;0.70, 95% CI&#8201;=&#8201;0.65&#8211;0.76, <italic toggle="no">P</italic>&#8201;&lt;&#8201;.00001). In women, HR was 0.81 (95% CI&#8201;=&#8201;0.61&#8211;1.07, <italic toggle="no">P</italic>&#8201;=&#8201;.14). In GEA, ICI&#8208; based therapy showed significant survival benefits in both men (HR&#8201;=&#8201;0.78, 95% CI&#8201;=&#8201;0.73&#8211;0.83, <italic toggle="no">P</italic>&#8201;&lt;&#8201;.00001) and women (HR&#8201;=&#8201;0.82, 95% CI&#8201;=&#8201;0.75&#8211;0.90, <italic toggle="no">P</italic>&#8201;&lt;&#8201;.0001). The test for interaction between sexes and treatment effect indicated no significant difference in ICI efficacy between sexes in ESCC (Chi<sup>2</sup>&#8201;=&#8201;1.02, <italic toggle="no">P</italic>&#8201;=&#8201;.31) and GEA (Chi<sup>2</sup>&#8201;=&#8201;0.78, <italic toggle="no">P</italic>&#8201;=&#8201;.38). In advanced ESCC, only men showed a statistically significant OS benefit from ICI&#8208;based treatment, but the difference between sexes was not statistically significant. In GEA, both sexes had similar survival benefits.</p></abstract><abstract abstract-type="graphical"><title>What's New?</title><p>Immune checkpoint inhibitors (ICIs) improve survival in advanced gastroesophageal cancer (GEC), but their benefits may differ by sex. Little is known, however about the impact of sex&#8208;related immune differences on ICI efficacy. In this meta&#8208;analysis, sex&#8208;specific outcomes of ICI therapy were evaluated in advanced GEC, encompassing both esophageal squamous cell carcinoma (ESCC) and gastroesophageal adenocarcinoma (GEA). Data show that in GEA, both men and women experience survival benefits from ICI therapy. Meanwhile, male ESCC patients derive overall survival benefit from ICIs, though apparent sex differences are statistically insignificant. The findings support the inclusion of sex&#8208;specific analyses in future ICI trials.<boxed-text position="anchor" content-type="graphic" id="ijc70312-blkfxd-0001" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IJC-158-2697-g004.jpg"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ijc70312-kwd-0001">gastroesophageal cancer</kwd><kwd id="ijc70312-kwd-0002">immunotherapy</kwd><kwd id="ijc70312-kwd-0003">sex</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Fondazione AIRC associazione Italiana per la Ricerca sul Cancro</institution></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="2"/><page-count count="12"/><word-count count="5700"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>15 May 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.3 mode:remove_FC converted:18.03.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="ijc70312-body-0001"><def-list list-content="abbreviations" id="ijc70312-dl-0001"><title>Abbreviations</title><def-item><term id="ijc70312-li-0001">1L</term><def id="ijc70312-li-0002"><p>first&#8208;line</p></def></def-item><def-item><term id="ijc70312-li-0003">Chi<sup>2</sup> (<italic toggle="yes">&#967;</italic>
+<sup>2</sup>)</term><def id="ijc70312-li-0004"><p>chi&#8208;squared test</p></def></def-item><def-item><term id="ijc70312-li-0005">CI</term><def id="ijc70312-li-0006"><p>confidence interval</p></def></def-item><def-item><term id="ijc70312-li-0007">CTLA&#8208;4</term><def id="ijc70312-li-0008"><p>cytotoxic T&#8208;lymphocyte&#8208;associated protein 4</p></def></def-item><def-item><term id="ijc70312-li-0009">EGM</term><def id="ijc70312-li-0011"><p>Egger's regression test</p></def></def-item><def-item><term id="ijc70312-li-0012">ESCC</term><def id="ijc70312-li-0013"><p>esophageal squamous cell carcinoma</p></def></def-item><def-item><term id="ijc70312-li-0014">ESMO</term><def id="ijc70312-li-0015"><p>European Society for Medical Oncology</p></def></def-item><def-item><term id="ijc70312-li-0016">GEA</term><def id="ijc70312-li-0017"><p>gastroesophageal adenocarcinoma</p></def></def-item><def-item><term id="ijc70312-li-0018">GEC</term><def id="ijc70312-li-0019"><p>gastroesophageal cancer</p></def></def-item><def-item><term id="ijc70312-li-0020">HCC</term><def id="ijc70312-li-0021"><p>hepatocellular carcinoma</p></def></def-item><def-item><term id="ijc70312-li-0022">HR</term><def id="ijc70312-li-0023"><p>hazard ratio</p></def></def-item><def-item><term id="ijc70312-li-0024">ICI(s)</term><def id="ijc70312-li-0026"><p>immune&#8208;checkpoint inhibition/immune checkpoint inhibitor(s)</p></def></def-item><def-item><term id="ijc70312-li-0027">IPD</term><def id="ijc70312-li-0028"><p>individual patient data</p></def></def-item><def-item><term id="ijc70312-li-0029">NCCN</term><def id="ijc70312-li-0030"><p>National Comprehensive Cancer Network</p></def></def-item><def-item><term id="ijc70312-li-0031">NSCLC</term><def id="ijc70312-li-0032"><p>non&#8208;small&#8208;cell lung cancer</p></def></def-item><def-item><term id="ijc70312-li-0033">OS</term><def id="ijc70312-li-0034"><p>overall survival</p></def></def-item><def-item><term id="ijc70312-li-0035">PD&#8208;1</term><def id="ijc70312-li-0036"><p>programmed cell death protein 1</p></def></def-item><def-item><term id="ijc70312-li-0037">PD&#8208;L1</term><def id="ijc70312-li-0038"><p>programmed death&#8208;ligand 1</p></def></def-item><def-item><term id="ijc70312-li-0039">PRISMA</term><def id="ijc70312-li-0040"><p>Preferred Reporting Items for Systematic Reviews and Meta&#8208;Analyses</p></def></def-item><def-item><term id="ijc70312-li-0041">RCT</term><def id="ijc70312-li-0042"><p>randomized controlled trial</p></def></def-item><def-item><term id="ijc70312-li-0043">SE</term><def id="ijc70312-li-0044"><p>standard error</p></def></def-item><def-item><term id="ijc70312-li-0045">TAM</term><def id="ijc70312-li-0046"><p>tumor&#8208;associated macrophage</p></def></def-item><def-item><term id="ijc70312-li-0047">TMB</term><def id="ijc70312-li-0048"><p>tumor mutational burden</p></def></def-item></def-list><sec id="ijc70312-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Immune checkpoint inhibitors (ICIs) targeting the programmed cell death protein 1 (PD&#8208;1) or its ligand PD&#8208;L1 represent the current therapeutic mainstay for the treatment of most advanced gastroesophageal cancers (GEC), encompassing both gastroesophageal adenocarcinoma (GEA) and esophageal squamous cell carcinoma (ESCC). ICIs, particularly in combination with chemotherapy, have demonstrated significant survival benefit over chemotherapy alone.<xref rid="ijc70312-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="ijc70312-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> This led to regulatory approval of several PD&#8208;1/PD&#8208;L1 targeting agents and recommendation of ICIs as first&#8208;line treatment in international treatment guidelines, such as the European Society for Medical Oncology (ESMO) or US National Comprehensive Cancer Network (NCCN) guidelines.<xref rid="ijc70312-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="ijc70312-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+</p><p>Despite the widespread integration of ICIs in the first&#8208;line treatment setting, emerging evidence suggests that patient&#8208;specific factors, including biological sex, may influence ICI efficacy. Women and men exhibit distinct immunological responses to both foreign and self&#8208;antigens.<xref rid="ijc70312-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Females generally mount stronger innate and adaptive immune responses than men, which results in more rapid clearance of pathogens, explaining the lower severity and prevalence of infections in women and greater response to vaccination than men.<xref rid="ijc70312-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="ijc70312-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> In addition, females report higher incidence rates in terms of systemic autoimmune disorders compared to males.<xref rid="ijc70312-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>
+</p><p>In the immune&#8208;oncology context, several underlying biological factors have been suggested to contribute to sex&#8208;related differences regarding ICI efficacy. The sexual dimorphism of immunity with stronger humoral and cell&#8208;mediated immune responses by females may lead to an increased antitumor activity and susceptibility to immune&#8208;related adverse events.<xref rid="ijc70312-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> Conversely, tumors developing in women must bypass stronger immune surveillance and undergo a more intensive immunoediting process to become metastatic. This enhanced ability to evade immune surveillance could make advanced tumors less immunogenic and enriched with stronger immune escape mechanisms. Consequently, advanced cancers in women could exhibit greater resistance to ICI compared to those in men.<xref rid="ijc70312-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="ijc70312-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>
+</p><p>Another relevant consideration is related to the sexual dimorphism of cancer biology with a disparity of tumor mutational burden (TMB) between sexes. Patients with a high TMB show significant outcome benefit to ICI therapy across various cancer types.<xref rid="ijc70312-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> A significantly higher TMB has been reported in male patients' tumors, including melanoma and non&#8208;small&#8208;cell lung cancer (NSCLC), compared to females.<xref rid="ijc70312-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="ijc70312-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="ijc70312-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+</p><p>The sexual dimorphism of hormones and their receptors might also contribute to a sex&#8208;dependent disparity of ICI efficacy. Sex hormones modulate the PD&#8208;1/PD&#8208;L1 signaling pathway and may affect immune function by enhancing PD&#8208;1&#8208;mediated co&#8208;stimulation.<xref rid="ijc70312-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> Estradiol, through activation of estrogen receptor &#945;, promotes the polarization of tumor&#8208;associated macrophages (TAMs) toward the immunosuppressive M2 phenotype, while reducing the anti&#8208;tumor M1 phenotype. This shift impairs cytotoxic T cell&#8211;mediated antitumor responses and may compromise the efficacy of ICIs in female patients.<xref rid="ijc70312-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>
+</p><p>Despite the increasing evidence on sex&#8208;based differences in the immune system, studies specifically investigating the interaction between sex and the efficacy of ICI are scarce. As a result, it is still unclear whether there are meaningful sex&#8208;related differences in therapeutic outcomes. Particularly in advanced GEC, the impact of sex on ICI efficacy remains underreported, as randomized controlled trials (RCTs) historically have not prioritized sex&#8208; and gender&#8208;specific aspects. To address this uncertainty, we investigated the association between sex and outcomes in overall survival (OS) in advanced GEC patients treated with ICIs through a large up&#8208;to&#8208;date meta&#8208;analysis of available RCTs.</p></sec><sec sec-type="materials-and-methods" id="ijc70312-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ijc70312-sec-0003"><label>2.1</label><title>Search strategy and selection criteria</title><p>This meta&#8208;analysis was conducted in accordance with the PRISMA guidelines. A systematic search was performed in PubMed, Embase, and the Web of Science up to March 31, 2025 to identify RCTs investigating immune checkpoint inhibitors (ICIs) in patients with advanced esophageal or gastroesophageal adenocarcinoma (GEA) and squamous cell carcinoma (ESCC). Search terms included combinations of: &#8220;<italic toggle="yes">gastric cancer</italic>,&#8221; &#8220;<italic toggle="yes">(o)esophageal cancer</italic>,&#8221; &#8220;<italic toggle="yes">gastroesophageal junction</italic>,&#8221; &#8220;<italic toggle="yes">immunotherapy</italic>,&#8221; &#8220;<italic toggle="yes">checkpoint inhibitors</italic>,&#8221; &#8220;<italic toggle="yes">PD&#8208;1</italic>,&#8221; &#8220;<italic toggle="yes">PD&#8208;L1</italic>,&#8221; &#8220;<italic toggle="yes">CTLA&#8208;4</italic>,&#8221; &#8220;<italic toggle="yes">randomized controlled trial</italic>,&#8221; &#8220;<italic toggle="yes">sex</italic>,&#8221; &#8220;<italic toggle="yes">gender</italic>,&#8221; &#8220;<italic toggle="yes">male</italic>,&#8221; <italic toggle="yes">and</italic> &#8220;<italic toggle="yes">female</italic>.&#8221;</p></sec><sec id="ijc70312-sec-0004"><label>2.2</label><title>Eligibility criteria</title><p>Eligible studies were phase II or III RCTs that:<list list-type="bullet" id="ijc70312-list-0001"><list-item id="ijc70312-li-0049"><p>Compared ICIs (&#177; chemotherapy) with chemotherapy or placebo in the first line;</p></list-item><list-item id="ijc70312-li-0050"><p>Reported hazard ratios (HRs) for OS separately for male and female patients;</p></list-item><list-item id="ijc70312-li-0051"><p>Included adult patients (&#8805;18&#8201;years) with histologically confirmed advanced ESCC or GEA.</p></list-item></list>
+</p><p>A summary of the included RCTs is provided in Table&#160;<xref rid="ijc70312-supitem-0001" ref-type="supplementary-material">S1</xref>. Studies focusing exclusively on non&#8208;randomized interventions or those that did not provide sex&#8208;disaggregated outcomes were excluded.</p></sec><sec id="ijc70312-sec-0005"><label>2.3</label><title>Data extraction and quality assessment</title><p>Two independent reviewers extracted data using a standardized form. From each eligible study, the following data were extracted: first author, publication year, study design, treatment <italic toggle="yes">arms</italic>, <italic toggle="yes">number of male and female patients</italic>, <italic toggle="yes">HRs and 95% confidence intervals (CIs) for OS by</italic> sex. When not directly reported, HRs and CIs were estimated from Kaplan&#8211;Meier curves or supplementary appendices.</p><p>The Cochrane Risk of Bias Tool was used to assess study quality. Discrepancies were resolved by consensus or adjudicated by a third reviewer.</p></sec><sec id="ijc70312-sec-0006"><label>2.4</label><title>Statistical analysis</title><p>The primary endpoint was the pooled HR for OS in male and female patients separately, comparing ICI&#8208;based therapy versus control. A secondary objective was to assess the potential interaction between sex and treatment effect.</p><p>Log&#8208;transformed HRs and corresponding standard errors were calculated from the reported 95% CIs. Meta&#8208;analyses were conducted using random&#8208;effects models (DerSimonian and Laird method). Heterogeneity was assessed using the Cochran's <italic toggle="yes">Q</italic> test and quantified with the <italic toggle="yes">I</italic>
+<sup>2</sup> statistic.</p><p>A test of subgroup differences (interaction test) was performed to evaluate whether the treatment effect significantly differed between males and females. Forest plots were generated to visualize pooled results. All analyses were performed using RevMan 5.4.</p></sec></sec><sec sec-type="results" id="ijc70312-sec-0007"><label>3</label><title>RESULTS</title><sec id="ijc70312-sec-0008"><label>3.1</label><title>Study selection and characteristics</title><p>A total of 15 RCTs were included in the meta&#8208;analysis, comprising 7 trials on ESCC (RATIONALE&#8208;306, CHECKMATE&#8208;648, ASTRUM&#8208;007, JUPITER&#8208;06, ORIENT&#8208;15, ESCORT&#8208;1ST, GEMSTONE&#8208;304)<xref rid="ijc70312-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="ijc70312-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="ijc70312-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="ijc70312-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="ijc70312-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="ijc70312-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="ijc70312-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="ijc70312-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> and 8 trials on GEA (CHECKMATE&#8208;649, ATTRACTION&#8208;4, RATIONALE&#8208;305, KEYNOTE&#8208;859, COMPASSION&#8208;15, KEYNOTE&#8208;062, ORIENT&#8208;16, GEMSTONE&#8208;303).<xref rid="ijc70312-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="ijc70312-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="ijc70312-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="ijc70312-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="ijc70312-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="ijc70312-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="ijc70312-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>, <xref rid="ijc70312-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> The PRISMA flow diagram detailing study selection is provided in Figure&#160;<xref rid="ijc70312-fig-0001" ref-type="fig">1</xref>. A summary of survival outcomes of the included RCTs is provided in Table&#160;<xref rid="ijc70312-tbl-0001" ref-type="table">1</xref>. Baseline characteristics of included RCTs are summarized in Table&#160;<xref rid="ijc70312-tbl-0002" ref-type="table">2</xref>.</p><fig position="float" fig-type="FIGURE" id="ijc70312-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>PRISMA flow chart diagram.</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IJC-158-2697-g001.jpg"/></fig><table-wrap position="float" id="ijc70312-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Summary of survival outcomes of included RCTs.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Study</th><th align="left" valign="bottom" rowspan="1" colspan="1">Treatment arms (PD&#8208;(L)1 in bold)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">N</italic> (inc in MA)</th><th align="left" valign="bottom" rowspan="1" colspan="1">PFSl; median (months)</th><th align="left" valign="bottom" rowspan="1" colspan="1">OS; median (months)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">ESCC</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>RATIONALE&#8208;306</bold>
+</p>
+<p>Xu 2023<xref rid="ijc70312-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Tislelizumab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">652</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17.2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">8.4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">10.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.7</td></tr><tr><td rowspan="4" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>CheckMate 648</bold>
+</p>
+<p>Kato 2024<xref rid="ijc70312-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="ijc70312-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Nivolumab</bold> with CTx</td><td rowspan="4" align="char" char="." valign="top" colspan="1">970</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Nivolumab</bold> plus <bold>ipilimumab</bold>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTx (mono)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">10.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">9.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.8</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ASTRUM&#8208;007</bold>
+</p>
+<p>Song 2023<xref rid="ijc70312-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Serplulimab</bold> with CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">551</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.3</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>JUPITER&#8208;06</bold>
+</p>
+<p>Wang 2022<xref rid="ijc70312-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Toripalimab</bold> with CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">514</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.7</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.5</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ORIENT&#8208;15</bold>
+</p>
+<p>Lu 2022<xref rid="ijc70312-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Sintilimab</bold> with CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">659</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17.4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.8</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.7</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ESCORT&#8208;1st</bold>
+</p>
+<p>Luo 2021<xref rid="ijc70312-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Camrelizumab</bold> with CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">596</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.6</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>GEMSTONE&#8208;304</bold>
+</p>
+<p>Li 2024<xref rid="ijc70312-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Sugemalimab</bold> with CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">540</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GEA</td><td colspan="4" align="left" valign="top" rowspan="1"/></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>Checkmate 649</bold>
+</p>
+<p>Janjigian 2024<xref rid="ijc70312-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Nivolumab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">1581</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">13.8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTx (mono)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.6</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ATTRACTION&#8208;4</bold>
+</p>
+<p>Kang 2022<xref rid="ijc70312-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Nivolumab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">724</td><td align="char" char="." valign="top" rowspan="1" colspan="1">10.5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17.5</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">8.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">17.1</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>RATIONALE&#8208;305</bold>
+</p>
+<p>Qui 2024<xref rid="ijc70312-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Tislelizumab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">997</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.2</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.9</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>KEYNOTE&#8208;859</bold>
+</p>
+<p>Rha 2023<xref rid="ijc70312-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Pembrolizumab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">1579</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.5</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>COMPASSION&#8208;15</bold>
+</p>
+<p>Shen 2025<xref rid="ijc70312-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Cadonilimab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">609</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7.0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">14.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.1</td></tr><tr><td rowspan="3" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>KEYNOTE&#8208;062</bold>
+</p>
+<p>Wainberg 2022<xref rid="ijc70312-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Pembolizumab</bold>
+</td><td rowspan="3" align="char" char="." valign="top" colspan="1">763</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.0<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">10.6<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Pembrolizumab</bold> plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.9<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.5<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">CTx (mono)</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.4<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">11.1<xref rid="ijc70312-note-0002" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ORIENT&#8208;16</bold>
+</p>
+<p>Xu 2023<xref rid="ijc70312-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Sintilimab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">650</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7.1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5.7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.3</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>GEMSTONE&#8208;303</bold>
+</p>
+<p>Zhang 2023<xref rid="ijc70312-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Sugemalimab</bold> plus CTx</td><td rowspan="2" align="char" char="." valign="top" colspan="1">479</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7.6<xref rid="ijc70312-note-0003" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">15.6<xref rid="ijc70312-note-0003" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Placebo plus CTx</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6.1<xref rid="ijc70312-note-0003" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">12.6<xref rid="ijc70312-note-0003" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr></tbody></table><table-wrap-foot id="ijc70312-ntgp-0001"><fn id="ijc70312-note-0001"><p>Abbreviations: CTx, chemotherapy; ESCC, esophageal squamous cell carcinoma; F, female; GEA, gastroesophageal adenocarcinoma; M, male; MA, meta&#8208;analysis; mono, monotherapy; OS, overall survival; PD&#8208;(L)1, programmed death (ligand) 1; PFS, progression&#8208;free survival.</p></fn><fn id="ijc70312-note-0002"><label>
+<sup>a</sup>
+</label><p>PD&#8208;L1 CPS &#8805;1.</p></fn><fn id="ijc70312-note-0003"><label>
+<sup>b</sup>
+</label><p>PD&#8208;L1 CPS &#8805;.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="ijc70312-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Summary of baseline characteristics of included RCTs.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">RCT</th><th align="left" valign="bottom" rowspan="1" colspan="1">Intervention (<italic toggle="yes">n</italic> patients)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Median age (years)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sex (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Race (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">ECOG PS (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Metastatic disease (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">PD&#8208;L1 expression (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Prior treatment (%)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">ESCC</td><td colspan="8" align="left" valign="top" rowspan="1"/></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>RATIONALE&#8208;306</bold>
+</p>
+<p>Xu 2023<xref rid="ijc70312-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Tislelizumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;326)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 87</p>
+<p>F: 14</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 74.5</p>
+<p>White: 24.2</p>
+<p>Other: 1.3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 33</p>
+<p>1: 67</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">86</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TAP &#8805;10%: 36</p>
+<p>TAP &lt;10%: 46</p>
+<p>CPS &#8805;10: 35</p>
+<p>CPS &lt;10: 46</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 33</p>
+<p>Radiotherapy: 12</p>
+<p>No therapy: 56</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;323)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">65</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 87</p>
+<p>F: 13</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 75.2</p>
+<p>White: 23.5</p>
+<p>Other: 1.3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 32</p>
+<p>1: 68</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">87</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TAP &#8805;10%: 33 TAP &lt;10%: 52</p>
+<p>CPS &#8805;10: 35</p>
+<p>CPS &lt;10: 50</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 33</p>
+<p>Radiotherapy: 12</p>
+<p>No therapy: 56</p>
+</td></tr><tr><td rowspan="3" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>CheckMate 648</bold>
+</p>
+<p>Kato 2024<xref rid="ijc70312-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="ijc70312-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Nivolumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;321)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 79</p>
+<p>F: 21</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 71</p>
+<p>White: 26</p>
+<p>Other: 3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 47</p>
+<p>1: 53</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">57</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>PD &#8805;1%: 49</p>
+<p>PD &lt;1%: 51</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Nivolumab</bold> plus <bold>ipilimumab</bold> (<italic toggle="yes">n</italic>&#8201;=&#8201;325)</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 83</p>
+<p>F: 17</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 71</p>
+<p>White: 24</p>
+<p>Other: 5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 46</p>
+<p>1: 54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">60</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>PD &#8805;1%: 49</p>
+<p>PD &lt;1%: 51</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CTx (mono)</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;324)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 85</p>
+<p>F: 15</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 70</p>
+<p>White: 26</p>
+<p>Other: 4</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 48</p>
+<p>1: 52</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">58</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>PD &#8805;1%: 48</p>
+<p>PD &lt;1%: 52</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ASTRUM&#8208;007</bold>
+</p>
+<p>Song 2023<xref rid="ijc70312-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Serplulimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;368)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 86</p>
+<p>F: 14</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">0: 251: 75</td><td align="left" valign="top" rowspan="1" colspan="1">88</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 44</p>
+<p>CPS &lt;10: 56</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;183)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 84</p>
+<p>F: 16</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 29</p>
+<p>1: 71</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">86</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 43</p>
+<p>CPS &lt;10: 57</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>JUPITER&#8208;06</bold>
+</p>
+<p>Wang 2022<xref rid="ijc70312-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Toripalimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;257)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 84</p>
+<p>F: 16</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian: 100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 26</p>
+<p>1: 74</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">80</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 45</p>
+<p>CPS &lt;10: 50</p>
+<p>CPS &#8805;1: 78</p>
+<p>CPS &lt;1: 17</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Radiotherapy: 13.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;257)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 86</p>
+<p>F: 14</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian: 100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 27</p>
+<p>1: 74</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">77</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 38</p>
+<p>CPS &lt;10: 57</p>
+<p>CPS &#8805;1: 78</p>
+<p>CPS &lt;1: 17</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Radiotherapy: 13.6</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ORIENT&#8208;15</bold>
+</p>
+<p>Lu 2022<xref rid="ijc70312-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Sintilimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;327)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 85</p>
+<p>F: 15</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 98</p>
+<p>White: 1</p>
+<p>Other: 1</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 24</p>
+<p>1: 76</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">87</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 57</p>
+<p>CPS &lt;10: 43</p>
+<p>CPS &#8805;1: 90</p>
+<p>CPS &lt;1: 10</p>
+<p>TPS &#8805;10%: 36</p>
+<p>TPS &lt;10%: 64</p>
+<p>TPS &#8805;1%: 53</p>
+<p>TPS &lt;1%: 47</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 29</p>
+<p>Radiotherapy: 17</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;332)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 87</p>
+<p>F: 13</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 97</p>
+<p>White: 2</p>
+<p>Other: 1</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 76</p>
+<p>1: 24</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">86</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 58</p>
+<p>CPS &lt;10: 42</p>
+<p>CPS &#8805;1: 93</p>
+<p>CPS &lt;1: 7</p>
+<p>TPS &#8805;10%: 36</p>
+<p>TPS &lt;10%: 64</p>
+<p>TPS &#8805;1%: 57</p>
+<p>TPS &lt;1%: 32</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 34</p>
+<p>Radiotherapy: 21</p>
+</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ESCORT&#8208;1st</bold>
+</p>
+<p>Luo 2021<xref rid="ijc70312-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Camrelizumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;298)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 87</p>
+<p>F: 13</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 24</p>
+<p>1: 76</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TPS &#8805;10%: 35</p>
+<p>TPS &lt;10%: 63</p>
+<p>TPS &#8805;1%: 56</p>
+<p>TPS &lt;1%: 42</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 39.9</p>
+<p>Radiotherapy: 18.1</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;298)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 88</p>
+<p>F: 12</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 22</p>
+<p>1: 78</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TPS &#8805;10%: 33</p>
+<p>TPS &lt;10%: 65</p>
+<p>TPS &#8805;1%: 55</p>
+<p>TPS &lt;1%: 43</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 33.2</p>
+<p>Radiotherapy: 14.1</p>
+</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>GEMSTONE&#8208;304</bold>
+</p>
+<p>Li 2024<xref rid="ijc70312-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Sugemalimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;358)</p>
+</td><td rowspan="2" align="left" valign="top" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 88</p>
+<p>F: 12</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 21</p>
+<p>1: 79</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">80</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 43</p>
+<p>CPS &#8805;1 and &lt;10: 46</p>
+<p>CPS &lt;1: 11</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;182)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 87</p>
+<p>F: 13</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 21</p>
+<p>1: 79</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">79</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 43</p>
+<p>CPS &#8805;1 and &lt;10: 46</p>
+<p>CPS &lt;1: 12</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GEA</td><td colspan="8" align="left" valign="top" rowspan="1"/></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>Checkmate 649</bold>
+</p>
+<p>Janjigian 2024<xref rid="ijc70312-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Nivolumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;789)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 68</p>
+<p>F: 32</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 24</p>
+<p>White: 70</p>
+<p>Other: 6</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 41</p>
+<p>1: 59</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;1: 16</p>
+<p>CPS &lt;1: 84</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 20</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CTx (mono)</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;792)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">61</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 71</p>
+<p>F: 29</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 24</p>
+<p>White: 68</p>
+<p>Other: 8</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 42</p>
+<p>1: 57</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">95</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;1: 16</p>
+<p>CPS &lt;1: 84</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 22</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ATTRACTION&#8208;4</bold>
+</p>
+<p>Kang 2022<xref rid="ijc70312-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Nivolumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;362)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 70</p>
+<p>F: 30</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian: 100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 54</p>
+<p>1: 46</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;1: 16</p>
+<p>CPS &lt;1: 84</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 29</p>
+<p>Perioperative CTx: 19</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;362)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">65</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 75</p>
+<p>F: 25</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian: 100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 54</p>
+<p>1: 46</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;1: 15</p>
+<p>CPS &lt;1: 85</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 29</p>
+<p>Perioperative CTx: 16</p>
+</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>RATIONALE&#8208;305</bold>
+</p>
+<p>Qui 2024<xref rid="ijc70312-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Tislelizumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;501)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">60</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 69</p>
+<p>F: 31</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 75</p>
+<p>White: 23</p>
+<p>Other: 2</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 34</p>
+<p>1: 66</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">99</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TAP &#8805;5%: 55</p>
+<p>TAP &lt;5%: 45</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 27</p>
+<p>Perioperative CTx: 21</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;496)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">61</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 70</p>
+<p>F: 30</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 75</p>
+<p>White: 22</p>
+<p>Other: 3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 32</p>
+<p>1: 69</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">99</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>TAP &#8805;5%: 55</p>
+<p>TAP &lt;5%: 45</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 28</p>
+<p>Perioperative CTx: 20</p>
+</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>KEYNOTE&#8208;859</bold>
+</p>
+<p>Rha 2023<xref rid="ijc70312-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Pembrolizumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;790)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">61</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 67</p>
+<p>F: 33</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 34</p>
+<p>White: 54</p>
+<p>Other: 12</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 36</p>
+<p>1: 64</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 35</p>
+<p>CPS &lt;10: 64</p>
+<p>CPS &#8805;1: 78</p>
+<p>CPS &lt;1: 22</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 22</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;789)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 69</p>
+<p>F: 31</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 34</p>
+<p>White: 55</p>
+<p>Other: 11</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 38</p>
+<p>1: 62</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 34</p>
+<p>CPS &lt;10: 66</p>
+<p>CPS &#8805;1: 78</p>
+<p>CPS &lt;1: 22</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 21</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>COMPASSION&#8208;15</bold>
+</p>
+<p>Shen 2025<xref rid="ijc70312-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Cadonilimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;305)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 78</p>
+<p>F: 22</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 23</p>
+<p>1: 77</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">76</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;5: 38</p>
+<p>CPS &lt;5: 52</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 27</p>
+<p>CTx: 15</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;304)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">64</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 77</p>
+<p>F: 23</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 24</p>
+<p>1: 76</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">76</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;5: 46</p>
+<p>CPS &lt;5: 48</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Surgery: 26</p>
+<p>CTx: 14</p>
+</td></tr><tr><td rowspan="3" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>KEYNOTE&#8208;062</bold>
+</p>
+<p>Wainberg 2022<xref rid="ijc70312-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Pembolizumab</bold>
+</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;256)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">61</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 70</p>
+<p>F: 30</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 24 White: 58</p>
+<p>Other: 18</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 51</p>
+<p>1: 49</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 36</p>
+<p>CPS &lt;10: 64</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Pembrolizumab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;257)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">62</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 76</p>
+<p>F: 24</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 25 White: 58</p>
+<p>Other: 17</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 46</p>
+<p>1: 54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 39</p>
+<p>CPS &lt;10: 61</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CTx (mono)</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;250)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 72</p>
+<p>F: 28</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Asian: 24</p>
+<p>White: 59</p>
+<p>Other: 17</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 46</p>
+<p>1: 54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">95</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;10: 36</p>
+<p>CPS &lt;10: 64</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>ORIENT&#8208;16</bold>
+</p>
+<p>Xu 2023<xref rid="ijc70312-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Sintilimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;327)</p>
+</td><td rowspan="2" align="left" valign="top" colspan="1">59</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 77</p>
+<p>F: 23</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 27</p>
+<p>1: 73</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">91</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;5: 60</p>
+<p>CPS &lt;5: 40</p>
+<p>CPS &#8805;1: 84</p>
+<p>CPS &lt;1: 16</p>
+<p>TPS &#8805;10%: 10</p>
+<p>TPS &lt;10%: 90</p>
+<p>TPS &#8805;5%: 15</p>
+<p>TPS &lt;5%: 85</p>
+<p>TPS &#8805;1%: 27</p>
+<p>TPS &lt;1%: 73</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 18</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;323)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 71</p>
+<p>F: 29</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">NR</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 28</p>
+<p>1: 72</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">93</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS &#8805;5: 62</p>
+<p>CPS &lt;5: 38</p>
+<p>CPS &#8805;1: 84</p>
+<p>CPS &lt;1: 16</p>
+<p>TPS &#8805;10%: 10</p>
+<p>TPS &lt;10%: 90</p>
+<p>TPS &#8805;5%: 15</p>
+<p>TPS &lt;5%: 85</p>
+<p>TPS &#8805;1%: 23</p>
+<p>TPS &lt;1%: 77</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 18</td></tr><tr><td rowspan="2" align="left" style="padding-left:10%" valign="top" colspan="1">
+<p>
+<bold>GEMSTONE&#8208;303</bold>
+</p>
+<p>Zhang 2023<xref rid="ijc70312-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<bold>Sugemalimab</bold> plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;241)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 71</p>
+<p>F: 29</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian:100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 26</p>
+<p>1: 74</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS 5&#8211;9: 46</p>
+<p>CPS &#8805;10: 54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery:25</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Placebo plus CTx</p>
+<p>(<italic toggle="yes">n</italic>&#8201;=&#8201;238)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">63</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>M: 75</p>
+<p>F: 25</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Asian:100</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0: 23</p>
+<p>1: 77</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">96</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>CPS 5&#8211;9: 46</p>
+<p>CPS &#8805;10: 54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Surgery: 23</td></tr></tbody></table><table-wrap-foot id="ijc70312-ntgp-0002"><fn id="ijc70312-note-0004"><p>Abbreviations: CPS, combined positive score; CTx, chemotherapy; ECOG PS, Eastern Cooperative Oncology Group performance score; ESCC, esophageal squamous cell carcinoma; F, female; GEA, gastroesophageal adenocarcinoma; M, male; NR, not reported; PD&#8208;L1, programmed death&#8208;ligand 1; RCT, randomized controlled trial; TAP, Tumor Area Positivity; TPS, tumor proportion score.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ijc70312-sec-0009"><label>3.2</label><title>
+<styled-content style="fixed-case" toggle="no">ESCC</styled-content>&#8212;Overall survival by sex</title><p>In male patients with ESCC (8 subgroups), the pooled hazard ratio (HR) for OS favored ICI&#8208;based therapy with high statistical significance (HR: 0.70, 95% CI: 0.65&#8211;0.76, <italic toggle="yes">P</italic>&#8201;&lt;&#8201;.00001; Figure&#160;<xref rid="ijc70312-fig-0002" ref-type="fig">2</xref>), and no heterogeneity (<italic toggle="yes">I</italic>
+<sup>2</sup>&#8201;=&#8201;0%). In contrast, in female patients (8 subgroups), the pooled HR was 0.81 (95% CI: 0.61&#8211;1.07, <italic toggle="yes">P</italic>&#8201;=&#8201;.14), with moderate heterogeneity (<italic toggle="yes">I</italic>
+<sup>2</sup>&#8201;=&#8201;35%). Although a trend toward benefit was observed in females, statistical significance was not reached.</p><fig position="float" fig-type="FIGURE" id="ijc70312-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Sex&#8208;dependent overall survival in advanced ESCC. (A) Sex&#8208;dependent overall survival in male patients; (B) Sex&#8208;dependent overall survival in female patients.</p></caption><graphic position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IJC-158-2697-g002.jpg"/></fig><p>The test for interaction between sex and treatment effect yielded a Chi<sup>2</sup>&#8201;=&#8201;1.02 (<italic toggle="yes">P</italic>&#8201;=&#8201;.31), indicating no significant difference in immunotherapy efficacy between sexes in the ESCC population.</p></sec><sec id="ijc70312-sec-0010"><label>3.3</label><title>
+<styled-content style="fixed-case" toggle="no">GEA</styled-content>&#8212;Overall survival by sex</title><p>In patients with gastroesophageal adenocarcinoma, ICI&#8208;based therapy demonstrated significant survival benefits in both sexes. Among males (9 subgroups), the pooled HR for OS was 0.78 (95% CI: 0.73&#8211;0.83, <italic toggle="yes">P</italic>&#8201;&lt;&#8201;.00001; <italic toggle="yes">I</italic>
+<sup>2</sup>&#8201;=&#8201;0%; Figure&#160;<xref rid="ijc70312-fig-0003" ref-type="fig">3</xref>). Female patients (9 subgroups) also benefited from ICI treatment, with a pooled HR of 0.82 (95% CI: 0.75&#8211;0.90, <italic toggle="yes">P</italic>&#8201;&lt;&#8201;.0001; <italic toggle="yes">I</italic>
+<sup>2</sup>&#8201;=&#8201;0%).</p><fig position="float" fig-type="FIGURE" id="ijc70312-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Sex&#8208;dependent overall survival in advanced GEA. (A) Sex&#8208;dependent overall survival in male patients; (B) Sex&#8208;dependent overall survival in female patients.</p></caption><graphic position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IJC-158-2697-g003.jpg"/></fig><p>The test for subgroup differences revealed no significant interaction between sex and treatment effect (Chi<sup>2</sup>&#8201;=&#8201;0.78, <italic toggle="yes">P</italic>&#8201;=&#8201;.38), suggesting that immunotherapy is similarly effective in male and female patients with GEA.</p></sec><sec id="ijc70312-sec-0011"><label>3.4</label><title>Assessment of publication bias</title><p>The presence of publication bias was evaluated using funnel plot asymmetry and Egger's regression test. Funnel plots were constructed by plotting the standard error against the log&#8208;transformed hazard ratios for overall survival from each included study. Visual inspection of the plots revealed no evidence of major asymmetry, with points evenly distributed around the central pooled estimate.</p><p>To formally assess small&#8208;study effects, Egger's regression was performed. The analysis regressed standardized effect sizes (log[HR]/SE) against precision (1/SE). The intercept (<italic toggle="yes">B</italic>
+<sub>0</sub>) represents the degree of asymmetry and potential publication bias.</p><p>For the GEA subgroup, the intercept was 0.66 (95% CI: &#8722;0.58 to 1.90) with a <italic toggle="yes">t</italic>&#8208;statistic of 1.13 and 16 degrees of freedom, yielding a 1&#8208;tailed <italic toggle="yes">p</italic>&#8208;value of .138 and a 2&#8208;tailed <italic toggle="yes">p</italic>&#8208;value of .277. These results indicate no statistically significant evidence of publication bias.</p><p>Similarly, for the ESCC subgroup, the Egger test yielded an intercept of 0.10 (95% CI: &#8722;1.31 to 1.52) with a 1&#8208;tailed <italic toggle="yes">p</italic>&#8208;value of .438, supporting the absence of small&#8208;study effects.</p><p>Overall, both statistical and visual assessments suggest that publication bias is unlikely to have influenced the results of this meta&#8208;analysis.</p></sec></sec><sec sec-type="discussion" id="ijc70312-sec-0012"><label>4</label><title>DISCUSSION</title><p>To our knowledge, this is the first study to evaluate the efficacy of ICI&#8208;based regimens in advanced GEC according to biological sex. The potential for sex&#8208;based differences in immunotherapy efficacy remains an area of active investigation and debate, and sex&#8208;based differences in ICI response have been reported across various tumor types. A meta&#8208;analysis of eight RCTs evaluating chemo&#8208;immunotherapy in advanced lung cancer demonstrated that women derived a significantly greater benefit from the addition of anti&#8211;PD&#8208;1/PD&#8208;L1 agents to chemotherapy compared to men.<xref rid="ijc70312-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Conversely, in patients with advanced or metastatic melanoma and non&#8208;small&#8208;cell lung cancer, men experienced a greater benefit than women when immunotherapy alone was compared to chemotherapy.<xref rid="ijc70312-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> More recently, a meta&#8208;analysis of five RCTs investigating ICI&#8208;based regimens in advanced hepatocellular carcinoma (HCC) found that women derived a smaller OS benefit than men, although this difference did not reach statistical significance.<xref rid="ijc70312-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+</p><p>Our results suggest that immunotherapy was associated with a significant OS benefit in male patients with advanced ESCC, but not in female patients, although direct comparison of model estimates revealed no statistically significant difference in treatment effect between sexes. The absence of a significant benefit in female patients may be attributable, on the one hand, to biological differences, and on the other hand, to the limited proportion of female participants in the ESCC trials included in this analysis, which reduced statistical power. While this imbalance is partly driven by the intrinsic male predominance of ESCC&#8212;reported to be two to three&#8208;fold more common in males than females globally, though this ratio may be lower or even approach parity in some regions within the ESCC belt&#8212;it does not fully explain the disparity.<xref rid="ijc70312-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> In the ESCC trials included in this meta&#8208;analysis, the female&#8208;to&#8208;male ratio among enrolled patients was ~1:5, highlighting that the small proportion of women is also a result of their persistent underrepresentation in clinical trials.<xref rid="ijc70312-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>
+</p><p>With regards to advanced GEA, first&#8208;line immunotherapy&#8208;based regimens were associated with significant survival benefits compared to chemotherapy alone in both sexes, with no apparent difference in the magnitude of benefit. In this context, the male&#8208;to&#8208;female ratio among enrolled patients appears to reflect the actual disease epidemiology, which ranges approximately from 1:2 to 1:3.<xref rid="ijc70312-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>
+</p><p>Our study has several limitations. First, sex&#8208;disaggregated outcomes were often not primary endpoints of the included trials, and subgroup analyses were underpowered in several studies. This is particularly relevant for female patients with ESCC, where the small sample sizes may hinder the detection of statistically significant differences. Second, lack of individual patient data (IPD) precluded adjustment for potential confounders such as age, performance status, or PD&#8208;L1 expression. These variables are known to influence ICI efficacy, and their omission may have introduced residual confounding that could not be mitigated by study&#8208;level analyses. Third, heterogeneity in trial designs&#8212;including differences in chemotherapy backbones, ICI agents, and PD&#8208;L1 testing methodologies&#8212;may have introduced variability not fully accounted by our random&#8208;effects model. While the use of random&#8208;effects meta&#8208;analysis mitigates some of this heterogeneity, the influence of unmeasured inter&#8208;trial differences cannot be excluded.</p><p>The strength of our study lies in being the first meta&#8208;analysis to examine sex&#8208;based differences in immunotherapy efficacy in GEC, and more broadly, in gastrointestinal cancers.</p><p>In conclusion, in advanced ESCC, the OS benefit from first&#8208;line ICI&#8208;based regimens reached statistical significance in male patients only; however, formal comparison of treatment effects between sexes did not reveal a statistically significant difference. Similarly, in advanced GEC, no statistically significant difference in immunotherapy efficacy was observed between males and females, as both sexes appeared to derive comparable survival benefit. These findings not only underscore the importance of considering sex as a biological variable in immunotherapy research, but also stress the urgent need for more equitable sex representation in clinical trials and the availability of individual patient&#8208;level data to allow for more refined, confounder&#8208;adjusted analyses.</p></sec><sec id="ijc70312-sec-0017"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Michael Masetti:</bold> Conceptualization; investigation; writing &#8211; original draft; writing &#8211; review and editing; project administration. <bold>Fausto Petrelli:</bold> Formal analysis; data curation; software; validation; methodology; visualization. <bold>Filippo Pietrantonio:</bold> Supervision; writing &#8211; review and editing; project administration. <bold>Sylvie Lorenzen:</bold> Supervision; writing &#8211; review and editing; project administration. <bold>Alberto Giovanni Leone:</bold> Conceptualization; investigation; writing &#8211; original draft; writing &#8211; review and editing; project administration.</p></sec><sec id="ijc70312-sec-0013"><title>FUNDING INFORMATION</title><p>This research was supported by Fondazione AIRC associazione Italiana per la Ricerca sul Cancro (IG 2024&#8208;ID. 30422 project &#8211; P.I. Pietrantonio Filippo). All other authors have no funding to declare.</p></sec><sec sec-type="COI-statement" id="ijc70312-sec-0014"><title>CONFLICT OF INTEREST STATEMENT</title><p>FPi reported receiving research funding from Lilly, BMS, Incyte, AstraZeneca, Amgen, Agenus, Rottapharm, Johnson&amp;Johnson, GSK. Personal honoraria from BeOne, Daiichi&#8208;Sankyo, Seagen, Astellas, Ipsen, AstraZeneca, Servier, Bayer, Takeda, Johnson &amp; Johnson, BMS, MSD, Amgen, Merck&#8208;Serono, Pierre&#8208;Fabre, Incyte. Advisory/Consultancy from BMS, MSD, Amgen, Pierre&#8208;Fabre, Johnson &amp; Johnson, Servier, Bayer, Takeda, Astellas, GSK, Daiichi&#8208;Sankyo, Pfizer, BeOne, Jazz Pharmaceuticals, Incyte, Rottapharm, Merck&#8208;Serono, Italfarmaco, Gilead, AstraZeneca, Agenus, Revolution Medicines.</p><p>SL reports honoraria from Astellas, MSD, Lilly, BeiGene, AstraZeneca, Servier, Daiichi Sankyo, and BMS; has received research funding from Lilly.</p><p>All other authors have no conflict of interest to declare.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ijc70312-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Overview of included RCTs.</p></caption><media xlink:href="IJC-158-2697-s001.pdf" position="float" orientation="portrait"/></supplementary-material></sec></body><back><ack id="ijc70312-sec-8001"><title>ACKNOWLEDGMENT</title><p>Open Access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="ijc70312-sec-0016"><title>DATA AVAILABILITY STATEMENT</title><p>Data sources and handling of the datasets used in this study are described in the Materials and Methods. Further details and other data that support the findings of this study are available from the corresponding authors upon request.</p></sec><ref-list id="ijc70312-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="ijc70312-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ijc70312-cit-0001"><string-name name-style="western"><surname>Janjigian</surname><given-names>YY</given-names></string-name>, <string-name name-style="western"><surname>Shitara</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Moehler</surname><given-names>M</given-names></string-name>, et al. <article-title>First&#8208;line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro&#8208;oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649): a randomised, open&#8208;label, phase 3 trial</article-title>. <source>Lancet</source>. <year>2021</year>;<volume>398</volume>(<issue>10294</issue>):<fpage>27</fpage>&#8208;<lpage>40</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(21)00797-2</pub-id><pub-id pub-id-type="pmid">34102137</pub-id><pub-id pub-id-type="pmcid">PMC8436782</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ijc70312-cit-0002"><string-name name-style="western"><surname>Sun</surname><given-names>JM</given-names></string-name>, <string-name name-style="western"><surname>Shen</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Shah</surname><given-names>MA</given-names></string-name>, et al. <article-title>KEYNOTE&#8208;590 investigators. Pembrolizumab plus chemotherapy versus chemotherapy alone for first&#8208;line treatment of advanced oesophageal cancer (KEYNOTE&#8208;590): a randomised, placebo&#8208;controlled, phase 3 study</article-title>. <source>Lancet</source>. <year>2021</year>;<volume>398</volume>:<fpage>759</fpage>&#8208;<lpage>771</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(21)01234-4</pub-id><pub-id pub-id-type="pmid">34454674</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ijc70312-cit-0003"><string-name name-style="western"><surname>Obermannov&#225;</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Alsina</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Cervantes</surname><given-names>A</given-names></string-name>, et al. <article-title>Oesophageal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow&#8208;up</article-title>. <source>Ann Oncol</source>. <year>2022</year>;<volume>33</volume>(<issue>10</issue>):<fpage>992</fpage>&#8208;<lpage>1004</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.annonc.2022.07.003</pub-id><pub-id pub-id-type="pmid">35914638</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ijc70312-cit-0004"><string-name name-style="western"><surname>Ajani</surname><given-names>JA</given-names></string-name>, <string-name name-style="western"><surname>D'Amico</surname><given-names>TA</given-names></string-name>, <string-name name-style="western"><surname>Bentrem</surname><given-names>DJ</given-names></string-name>, et al. <article-title>Esophageal and esophagogastric junction cancers, version 2.2023, NCCN clinical practice guidelines in oncology</article-title>. <source>J Natl Compr Canc Netw</source>. <year>2023</year>;<volume>21</volume>(<issue>4</issue>):<fpage>393</fpage>&#8208;<lpage>422</lpage>. doi:<pub-id pub-id-type="doi">10.6004/jnccn.2023.0019</pub-id><pub-id pub-id-type="pmid">37015332</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ijc70312-cit-0005"><string-name name-style="western"><surname>Klein</surname><given-names>SL</given-names></string-name>, <string-name name-style="western"><surname>Flanagan</surname><given-names>KL</given-names></string-name>. <article-title>Sex differences in immune responses</article-title>. <source>Nat Rev Immunol</source>. <year>2016</year>;<volume>16</volume>(<issue>10</issue>):<fpage>626</fpage>&#8208;<lpage>638</lpage>.<pub-id pub-id-type="pmid">27546235</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nri.2016.90</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ijc70312-cit-0006"><string-name name-style="western"><surname>Vom Steeg</surname><given-names>LG</given-names></string-name>, <string-name name-style="western"><surname>Klein</surname><given-names>SL</given-names></string-name>. <article-title>SeXX matters in infectious disease pathogenesis</article-title>. <source>PLoS Pathog</source>. <year>2016</year>;<volume>12</volume>:<elocation-id>e1005374</elocation-id>.<pub-id pub-id-type="pmid">26891052</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1005374</pub-id><pub-id pub-id-type="pmcid">PMC4759457</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ijc70312-cit-0007"><string-name name-style="western"><surname>Klein</surname><given-names>SL</given-names></string-name>, <string-name name-style="western"><surname>Jedlicka</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Pekosz</surname><given-names>A</given-names></string-name>. <article-title>The Xs and Y of immune responses to viral vaccines</article-title>. <source>Lancet Infect Dis</source>. <year>2010</year>;<volume>10</volume>:<fpage>338</fpage>&#8208;<lpage>349</lpage>.<pub-id pub-id-type="pmid">20417416</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1473-3099(10)70049-9</pub-id><pub-id pub-id-type="pmcid">PMC6467501</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ijc70312-cit-0008"><string-name name-style="western"><surname>Rubtsov</surname><given-names>AV</given-names></string-name>, <string-name name-style="western"><surname>Rubtsova</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Kappler</surname><given-names>JW</given-names></string-name>, <string-name name-style="western"><surname>Marrack</surname><given-names>P</given-names></string-name>. <article-title>Genetic and hormonal factors in female&#8208;biased autoimmunity</article-title>. <source>Autoimmun Rev</source>. <year>2010</year>;<volume>9</volume>(<issue>7</issue>):<fpage>494</fpage>&#8208;<lpage>498</lpage>.<pub-id pub-id-type="pmid">20144912</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.autrev.2010.02.008</pub-id><pub-id pub-id-type="pmcid">PMC3171140</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ijc70312-cit-0009"><string-name name-style="western"><surname>Vitale</surname><given-names>E</given-names></string-name>, <string-name name-style="western"><surname>Rizzo</surname><given-names>A</given-names></string-name>, <string-name name-style="western"><surname>Maistrello</surname><given-names>L</given-names></string-name>, et al. <article-title>Sex differences in adverse events among cancer patients receiving immune checkpoint inhibitors: the MOUSEION&#8208;07 systematic review and meta&#8208;analysis</article-title>. <source>Sci Rep</source>. <year>2024</year>;<volume>14</volume>(<issue>1</issue>):<elocation-id>28309</elocation-id>. doi:<pub-id pub-id-type="doi">10.1038/s41598-024-71746-z</pub-id><pub-id pub-id-type="pmid">39550353</pub-id><pub-id pub-id-type="pmcid">PMC11569249</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ijc70312-cit-0010"><string-name name-style="western"><surname>Schreiber</surname><given-names>RD</given-names></string-name>, <string-name name-style="western"><surname>Old</surname><given-names>LJ</given-names></string-name>, <string-name name-style="western"><surname>Smyth</surname><given-names>MJ</given-names></string-name>. <article-title>Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion</article-title>. <source>Science</source>. <year>2011</year>;<volume>331</volume>:<fpage>1565</fpage>&#8208;<lpage>1570</lpage>.<pub-id pub-id-type="pmid">21436444</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1203486</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ijc70312-cit-0011"><string-name name-style="western"><surname>Wallis</surname><given-names>CJD</given-names></string-name>, <string-name name-style="western"><surname>Butaney</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Satkunasivam</surname><given-names>R</given-names></string-name>, et al. <article-title>Association of patient sex with efficacy of immune checkpoint inhibitors and overall survival in advanced cancers: a systematic review and meta&#8208;analysis</article-title>. <source>JAMA Oncol</source>. <year>2019</year>;<volume>5</volume>(<issue>4</issue>):<fpage>529</fpage>&#8208;<lpage>536</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamaoncol.2018.5904</pub-id><pub-id pub-id-type="pmid">30605213</pub-id><pub-id pub-id-type="pmcid">PMC6459215</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ijc70312-cit-0012"><string-name name-style="western"><surname>Aggarwal</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Ben&#8208;Shachar</surname><given-names>R</given-names></string-name>, <string-name name-style="western"><surname>Gao</surname><given-names>Y</given-names></string-name>, et al. <article-title>Assessment of tumor mutational burden and outcomes in patients with diverse advanced cancers treated with immunotherapy</article-title>. <source>JAMA Netw Open</source>. <year>2023</year>;<volume>6</volume>(<issue>5</issue>):<elocation-id>e2311181</elocation-id>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2023.11181</pub-id><pub-id pub-id-type="pmid">37129893</pub-id><pub-id pub-id-type="pmcid">PMC10155064</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ijc70312-cit-0013"><string-name name-style="western"><surname>Xiao</surname><given-names>D</given-names></string-name>, <string-name name-style="western"><surname>Pan</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Li</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Wu</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Zhang</surname><given-names>X</given-names></string-name>, <string-name name-style="western"><surname>He</surname><given-names>J</given-names></string-name>. <article-title>Analysis of ultra&#8208;deep targeted sequencing reveals mutation burden is associated with gender and clinical outcome in lung adenocarcinoma</article-title>. <source>Oncotarget</source>. <year>2016</year>;<volume>7</volume>:<fpage>22857</fpage>&#8208;<lpage>22864</lpage>.<pub-id pub-id-type="pmid">27009843</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.8213</pub-id><pub-id pub-id-type="pmcid">PMC5008406</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ijc70312-cit-0014"><string-name name-style="western"><surname>Gupta</surname><given-names>S</given-names></string-name>, <string-name name-style="western"><surname>Artomov</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Goggins</surname><given-names>W</given-names></string-name>, <string-name name-style="western"><surname>Daly</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Tsao</surname><given-names>H</given-names></string-name>. <article-title>Gender disparity and mutation burden in metastatic melanoma</article-title>. <source>J Natl Cancer Inst</source>. <year>2015</year>;<volume>107</volume>:<elocation-id>djv221</elocation-id>.<pub-id pub-id-type="pmid">26296643</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djv221</pub-id><pub-id pub-id-type="pmcid">PMC4643631</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ijc70312-cit-0015"><string-name name-style="western"><surname>Salem</surname><given-names>ME</given-names></string-name>, <string-name name-style="western"><surname>Xiu</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Lenz</surname><given-names>HJ</given-names></string-name>, et al. <article-title>Characterization of tumor mutation load (TML) in solid tumors</article-title>. <source>Proc Am Soc Clin Oncol</source>. <year>2017</year>;<volume>35</volume>:<elocation-id>11517</elocation-id>.</mixed-citation></ref><ref id="ijc70312-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ijc70312-cit-0016"><string-name name-style="western"><surname>Lin</surname><given-names>PY</given-names></string-name>, <string-name name-style="western"><surname>Sun</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Thibodeaux</surname><given-names>SR</given-names></string-name>, et al. <article-title>B7&#8208;H1&#8208;dependent sex&#8208;related differences in tumor immunity and immunotherapy responses</article-title>. <source>J Immunol</source>. <year>2010</year>;<volume>185</volume>:<fpage>2747</fpage>&#8208;<lpage>2753</lpage>.<pub-id pub-id-type="pmid">20686128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4049/jimmunol.1000496</pub-id><pub-id pub-id-type="pmcid">PMC3244840</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ijc70312-cit-0017"><string-name name-style="western"><surname>Ozdemir</surname><given-names>BC</given-names></string-name>, <string-name name-style="western"><surname>Dotto</surname><given-names>GP</given-names></string-name>. <article-title>Sex hormones and anticancer immunity</article-title>. <source>Clin Cancer Res</source>. <year>2019</year>;<volume>25</volume>(<issue>15</issue>):<fpage>4603</fpage>&#8208;<lpage>4610</lpage>.<pub-id pub-id-type="pmid">30890551</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-19-0137</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ijc70312-cit-0018"><string-name name-style="western"><surname>Xu</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Kato</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Raymond</surname><given-names>E</given-names></string-name>, et al. <article-title>Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first&#8208;line treatment for advanced or metastatic oesophageal squamous cell carcinoma (RATIONALE&#8208;306): a global, randomised, placebo&#8208;controlled, phase 3 study</article-title>. <source>Lancet Oncol</source>. <year>2023</year>;<volume>24</volume>(<issue>5</issue>):<fpage>483</fpage>&#8208;<lpage>495</lpage>.<pub-id pub-id-type="pmid">37080222</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(23)00108-0</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ijc70312-cit-0019"><string-name name-style="western"><surname>Chau</surname><given-names>I</given-names></string-name>, <string-name name-style="western"><surname>Ajani</surname><given-names>JA</given-names></string-name>, <string-name name-style="western"><surname>Doki</surname><given-names>Y</given-names></string-name>, et al. <article-title>Nivolumab (NIVO) plus chemotherapy (chemo) or ipilimumab (IPI) versus chemo as first&#8208;line (1L) treatment for advanced esophageal squamous cell carcinoma (ESCC): expanded efficacy and safety analyses from CheckMate 648</article-title>. <source>J Clin Oncol</source>. <year>2022</year>;<volume>40</volume>(<issue>Suppl 16</issue>):<fpage>4035</fpage>.</mixed-citation></ref><ref id="ijc70312-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ijc70312-cit-0020"><string-name name-style="western"><surname>Kato</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Doki</surname><given-names>Y</given-names></string-name>, <string-name name-style="western"><surname>Chau</surname><given-names>I</given-names></string-name>, et al. <article-title>Nivolumab plus chemotherapy or ipilimumab versus chemotherapy in patients with advanced esophageal squamous cell carcinoma (CheckMate 648): 29&#8208;month follow&#8208;up from a randomized, open&#8208;label, phase III trial</article-title>. <source>Cancer Med</source>. <year>2024</year>;<volume>13</volume>(<issue>9</issue>):<elocation-id>e7235</elocation-id>. doi:<pub-id pub-id-type="doi">10.1002/cam4.7235</pub-id><pub-id pub-id-type="pmid">38716626</pub-id><pub-id pub-id-type="pmcid">PMC11077338</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ijc70312-cit-0021"><string-name name-style="western"><surname>Huang</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Song</surname><given-names>Y</given-names></string-name>, <string-name name-style="western"><surname>Kou</surname><given-names>X</given-names></string-name>, et al. <article-title>69O First&#8208;line serplulimab versus placebo in combination with chemotherapy in PD&#8208;L1&#8208;positive oesophageal squamous cell carcinoma (ASTRUM&#8208;007): a randomised, double&#8208;blind, multicentre phase III study</article-title>. <source>Ann Oncol</source>. <year>2022</year>;<volume>33</volume>:<fpage>S1457</fpage>&#8208;<lpage>S1458</lpage>.</mixed-citation></ref><ref id="ijc70312-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ijc70312-cit-0022"><string-name name-style="western"><surname>Wang</surname><given-names>ZX</given-names></string-name>, <string-name name-style="western"><surname>Cui</surname><given-names>C</given-names></string-name>, <string-name name-style="western"><surname>Yao</surname><given-names>J</given-names></string-name>, et al. <article-title>Toripalimab plus chemotherapy in treatment&#8208;naive, advanced esophageal squamous cell carcinoma (JUPITER&#8208;06): a multi&#8208;center phase 3 trial</article-title>. <source>Cancer Cell</source>. <year>2022</year>;<volume>40</volume>(<issue>3</issue>):<fpage>277</fpage>&#8208;<lpage>288</lpage>.<pub-id pub-id-type="pmid">35245446</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2022.02.007</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ijc70312-cit-0023"><string-name name-style="western"><surname>Lu</surname><given-names>Z</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Shu</surname><given-names>Y</given-names></string-name>, et al. <article-title>Sintilimab versus placebo in combination with chemotherapy as first line treatment for locally advanced or metastatic oesophageal squamous cell carcinoma (ORIENT&#8208;15): multicentre, randomised, double blind, phase 3 trial</article-title>. <source>BMJ</source>. <year>2022</year>;<volume>377</volume>:<elocation-id>e068714</elocation-id>.<pub-id pub-id-type="pmid">35440464</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmj-2021-068714</pub-id><pub-id pub-id-type="pmcid">PMC9016493</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ijc70312-cit-0024"><string-name name-style="western"><surname>Luo</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Lu</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Bai</surname><given-names>Y</given-names></string-name>, et al. <article-title>Effect of camrelizumab vs placebo added to chemotherapy on survival and progression&#8208;free survival in patients with advanced or metastatic esophageal squamous cell carcinoma: the ESCORT&#8208;1st randomized clinical trial</article-title>. <source>JAMA</source>. <year>2021</year>;<volume>326</volume>(<issue>10</issue>):<fpage>916</fpage>&#8208;<lpage>925</lpage>.<pub-id pub-id-type="pmid">34519801</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2021.12836</pub-id><pub-id pub-id-type="pmcid">PMC8441593</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ijc70312-cit-0025"><string-name name-style="western"><surname>Li</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Chen</surname><given-names>Z</given-names></string-name>, <string-name name-style="western"><surname>Bai</surname><given-names>Y</given-names></string-name>, et al. <article-title>O&#8208;4 GEMSTONE&#8208;304: a phase 3 study of sugemalimab plus chemotherapy versus chemotherapy as first&#8208;line treatment of patients with unresectable locally advanced, recurrent or metastatic esophageal squamous cell carcinoma (ESCC)</article-title>. <source>Ann Oncol</source>. <year>2023</year>;<volume>34</volume>(<issue>Suppl 1</issue>):<fpage>S181</fpage>&#8208;<lpage>S182</lpage>.</mixed-citation></ref><ref id="ijc70312-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="ijc70312-cit-0026"><string-name name-style="western"><surname>Janjigian</surname><given-names>YY</given-names></string-name>, <string-name name-style="western"><surname>Ajani</surname><given-names>JA</given-names></string-name>, <string-name name-style="western"><surname>Moehler</surname><given-names>M</given-names></string-name>, et al. <article-title>First&#8208;line Nivolumab plus chemotherapy for advanced gastric, gastroesophageal junction, and esophageal adenocarcinoma: 3&#8208;year follow&#8208;up of the phase III CheckMate 649 trial</article-title>. <source>J Clin Oncol</source>. <year>2024</year>;<volume>42</volume>(<issue>17</issue>):<fpage>2012</fpage>&#8208;<lpage>2020</lpage>. doi:<pub-id pub-id-type="doi">10.1200/JCO.23.01601</pub-id><pub-id pub-id-type="pmid">38382001</pub-id><pub-id pub-id-type="pmcid">PMC11185916</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ijc70312-cit-0027"><string-name name-style="western"><surname>Kang</surname><given-names>YK</given-names></string-name>, <string-name name-style="western"><surname>Chen</surname><given-names>LT</given-names></string-name>, <string-name name-style="western"><surname>Ryu</surname><given-names>MH</given-names></string-name>, et al. <article-title>Nivolumab plus chemotherapy versus placebo plus chemotherapy in patients with HER2&#8208;negative, untreated, unresectable advanced or recurrent gastric or gastro&#8208;oesophageal junction cancer (ATTRACTION&#8208;4): a randomised, multicentre, double&#8208;blind, placebo&#8208;controlled, phase 3 trial</article-title>. <source>Lancet Oncol</source>. <year>2022</year>;<volume>23</volume>(<issue>2</issue>):<fpage>234</fpage>&#8208;<lpage>247</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1470-2045(21)00692-6</pub-id><pub-id pub-id-type="pmid">35030335</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ijc70312-cit-0028"><string-name name-style="western"><surname>Qiu</surname><given-names>MZ</given-names></string-name>, <string-name name-style="western"><surname>Oh</surname><given-names>DY</given-names></string-name>, <string-name name-style="western"><surname>Kato</surname><given-names>K</given-names></string-name>, et al. <article-title>RATIONALE&#8208;305 investigators. Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first line treatment for advanced gastric or gastro&#8208;oesophageal junction adenocarcinoma: RATIONALE&#8208;305 randomised, double blind, phase 3 trial</article-title>. <source>BMJ</source>. <year>2024</year>;<volume>385</volume>:<elocation-id>e078876</elocation-id>. doi:<pub-id pub-id-type="doi">10.1136/bmj-2023-078876</pub-id><pub-id pub-id-type="pmid">38806195</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ijc70312-cit-0029"><string-name name-style="western"><surname>Rha</surname><given-names>SY</given-names></string-name>, <string-name name-style="western"><surname>Oh</surname><given-names>DY</given-names></string-name>, <string-name name-style="western"><surname>Ya&#241;ez</surname><given-names>P</given-names></string-name>, et al. <article-title>KEYNOTE&#8208;859 investigators. Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for HER2&#8208;negative advanced gastric cancer (KEYNOTE&#8208;859): a multicentre, randomised, double&#8208;blind, phase 3 trial</article-title>. <source>Lancet Oncol</source>. <year>2023</year>;<volume>24</volume>(<issue>11</issue>):<fpage>1181</fpage>&#8208;<lpage>1195</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1470-2045(23)00515-6</pub-id><pub-id pub-id-type="pmid">37875143</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ijc70312-cit-0030"><string-name name-style="western"><surname>Shen</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></string-name>, <string-name name-style="western"><surname>Li</surname><given-names>Z</given-names></string-name>, et al. <article-title>First&#8208;line cadonilimab plus chemotherapy in HER2&#8208;negative advanced gastric or gastroesophageal junction adenocarcinoma: a randomized, double&#8208;blind, phase 3 trial</article-title>. <source>Nat Med</source>. <year>2025</year>;<volume>31</volume>(<issue>4</issue>):<fpage>1163</fpage>&#8208;<lpage>1170</lpage>.<pub-id pub-id-type="pmid">39843940</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-024-03450-4</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ijc70312-cit-0031"><string-name name-style="western"><surname>Wainberg</surname><given-names>ZA</given-names></string-name>, <string-name name-style="western"><surname>Shitara</surname><given-names>K</given-names></string-name>, <string-name name-style="western"><surname>Van Cutsem</surname><given-names>E</given-names></string-name>, et al. <article-title>Pembrolizumab with or without chemotherapy versus chemotherapy alone for patients with PD&#8208;L1&#8211;positive advanced gastric or gastroesophageal junction adenocarcinoma: update from the phase 3 KEYNOTE&#8208;062 trial</article-title>. <source>JCO</source>. <year>2022</year>;<volume>40</volume>:<fpage>243</fpage>.</mixed-citation></ref><ref id="ijc70312-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ijc70312-cit-0032"><string-name name-style="western"><surname>Xu</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Jiang</surname><given-names>H</given-names></string-name>, <string-name name-style="western"><surname>Pan</surname><given-names>Y</given-names></string-name>, et al. <article-title>Sintilimab plus chemotherapy for Unresectable gastric or gastroesophageal junction cancer: the ORIENT&#8208;16 randomized clinical trial</article-title>. <source>JAMA</source>. <year>2023</year>;<volume>330</volume>(<issue>21</issue>):<fpage>2064</fpage>&#8208;<lpage>2074</lpage>.<pub-id pub-id-type="pmid">38051328</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2023.19918</pub-id><pub-id pub-id-type="pmcid">PMC10698618</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ijc70312-cit-0033"><string-name name-style="western"><surname>Zhang</surname><given-names>X</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>J</given-names></string-name>, <string-name name-style="western"><surname>Wang</surname><given-names>G</given-names></string-name>, et al. <article-title>First&#8208;line Sugemalimab plus chemotherapy for advanced gastric cancer: the GEMSTONE&#8208;303 randomized clinical trial</article-title>. <source>JAMA</source>. <year>2025</year>;<volume>333</volume>(<issue>15</issue>):<fpage>1305</fpage>&#8208;<lpage>1314</lpage>.<pub-id pub-id-type="pmid">39992668</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2024.28463</pub-id><pub-id pub-id-type="pmcid">PMC11851304</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ijc70312-cit-0034"><string-name name-style="western"><surname>Conforti</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Pala</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Bagnardi</surname><given-names>V</given-names></string-name>, et al. <article-title>Sex&#8208;based heterogeneity in response to lung cancer immunotherapy: a systematic review and meta&#8208;analysis</article-title>. <source>J Natl Cancer Inst</source>. <year>2019</year>;<volume>111</volume>(<issue>8</issue>):<fpage>772</fpage>&#8208;<lpage>781</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jnci/djz094</pub-id><pub-id pub-id-type="pmid">31106827</pub-id><pub-id pub-id-type="pmcid">PMC6695312</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ijc70312-cit-0035"><string-name name-style="western"><surname>Conforti</surname><given-names>F</given-names></string-name>, <string-name name-style="western"><surname>Pala</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Bagnardi</surname><given-names>V</given-names></string-name>, et al. <article-title>Cancer immunotherapy efficacy and patients' sex: a systematic review and meta&#8208;analysis</article-title>. <source>Lancet Oncol</source>. <year>2018</year>;<volume>19</volume>(<issue>6</issue>):<fpage>737</fpage>&#8208;<lpage>746</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1470-2045(18)30261-4</pub-id><pub-id pub-id-type="pmid">29778737</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ijc70312-cit-0036"><string-name name-style="western"><surname>Balcar</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>Scheiner</surname><given-names>B</given-names></string-name>, <string-name name-style="western"><surname>Fulgenzi</surname><given-names>CAM</given-names></string-name>, et al. <article-title>A meta&#8208;analysis and real&#8208;world cohort study on the sex&#8208;related differences in efficacy and safety of immunotherapy for hepatocellular carcinoma</article-title>. <source>JHEP Rep</source>. <year>2023</year>;<volume>6</volume>(<issue>2</issue>):<elocation-id>100982</elocation-id>. doi:<pub-id pub-id-type="doi">10.1016/j.jhepr.2023.100982</pub-id><pub-id pub-id-type="pmid">38274490</pub-id><pub-id pub-id-type="pmcid">PMC10809085</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ijc70312-cit-0037"><string-name name-style="western"><surname>Abnet</surname><given-names>CC</given-names></string-name>, <string-name name-style="western"><surname>Arnold</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Wei</surname><given-names>WQ</given-names></string-name>. <article-title>Epidemiology of esophageal squamous cell carcinoma</article-title>. <source>Gastroenterology</source>. <year>2018</year>;<volume>154</volume>(<issue>2</issue>):<fpage>360</fpage>&#8208;<lpage>373</lpage>. doi:<pub-id pub-id-type="doi">10.1053/j.gastro.2017.08.023</pub-id><pub-id pub-id-type="pmid">28823862</pub-id><pub-id pub-id-type="pmcid">PMC5836473</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ijc70312-cit-0038"><string-name name-style="western"><surname>Pala</surname><given-names>L</given-names></string-name>, <string-name name-style="western"><surname>De Pas</surname><given-names>T</given-names></string-name>, <string-name name-style="western"><surname>Conforti</surname><given-names>F</given-names></string-name>. <article-title>Under&#8208;representation of women in randomized clinical trials testing anticancer immunotherapy may undermine female patients care. A call to action</article-title>. <source>Semin Oncol</source>. <year>2022</year>;<volume>49</volume>(<issue>5</issue>):<fpage>400</fpage>&#8208;<lpage>404</lpage>. doi:<pub-id pub-id-type="doi">10.1053/j.seminoncol.2022.09.004</pub-id><pub-id pub-id-type="pmid">36192242</pub-id></mixed-citation></ref><ref id="ijc70312-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ijc70312-cit-0039"><string-name name-style="western"><surname>Ilic</surname><given-names>M</given-names></string-name>, <string-name name-style="western"><surname>Ilic</surname><given-names>I</given-names></string-name>. <article-title>Epidemiology of stomach cancer</article-title>. <source>World J Gastroenterol</source>. <year>2022</year>;<volume>28</volume>(<issue>12</issue>):<fpage>1187</fpage>&#8208;<lpage>1203</lpage>. doi:<pub-id pub-id-type="doi">10.3748/wjg.v28.i12.1187</pub-id><pub-id pub-id-type="pmid">35431510</pub-id><pub-id pub-id-type="pmcid">PMC8968487</pub-id></mixed-citation></ref></ref-list></back></article>
+        
+    </metadata>
+</record>
+    </GetRecord>
+
+</OAI-PMH>

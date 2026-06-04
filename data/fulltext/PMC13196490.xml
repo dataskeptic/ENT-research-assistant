@@ -1,0 +1,794 @@
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-06-04T16:09:06Z</responseDate>
+    <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:13196490" metadataPrefix="pmc">https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/</request>
+    
+    <GetRecord>
+        <record>
+    <header>
+    <identifier>oai:pubmedcentral.nih.gov:13196490</identifier>
+    <datestamp>2026-05-23</datestamp>
+    
+        
+        <setSpec>jogh</setSpec>
+        
+    
+        
+        <setSpec>pmc-open</setSpec>
+        
+    
+</header>
+    <metadata>
+        
+        <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.4/ https://jats.nlm.nih.gov/archiving/1.4/xsd/JATS-archivearticle1-4.xsd" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Glob Health</journal-id><journal-id journal-id-type="iso-abbrev">J Glob Health</journal-id><journal-id journal-id-type="pmc-domain-id">1902</journal-id><journal-id journal-id-type="pmc-domain">jogh</journal-id><journal-id journal-id-type="publisher-id">JGH</journal-id><journal-title-group><journal-title>Journal of Global Health</journal-title></journal-title-group><issn pub-type="ppub">2047-2978</issn><issn pub-type="epub">2047-2986</issn><publisher><publisher-name>International Society for Global Health</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13196490</article-id><article-id pub-id-type="pmcid-ver">PMC13196490.1</article-id><article-id pub-id-type="pmcaid">13196490</article-id><article-id pub-id-type="pmcaiid">13196490</article-id><article-id pub-id-type="pmid">42171384</article-id><article-id pub-id-type="doi">10.7189/jogh.16.04120</article-id><article-id pub-id-type="publisher-id">jogh-16-04120</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Association between hearing aid use and cognitive function among Chinese middle-aged and older adults with hearing impairment: the mediating effect of social activity</article-title><alt-title alt-title-type="running-head">Wang et al. Hearing aid use on cognitive function mediated by social activity</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0009-0835-5037</contrib-id><name name-style="western"><surname>Wang</surname><given-names initials="X">Xinyi</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gu</surname><given-names initials="X">Xianger</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Mao</surname><given-names initials="S">Sunxi</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0007-0662-5588</contrib-id><name name-style="western"><surname>Zhang</surname><given-names initials="Z">Zinan</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8038-6086</contrib-id><name name-style="western"><surname>Wang</surname><given-names initials="Z">Zhonghua</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><aff id="aff1"><label>1</label>School of Health Policy and Management, Nanjing Medical University, Nanjing, China</aff><aff id="aff2"><label>2</label>Laboratory for Digital Intelligence and Health Governance, Nanjing Medical University, Nanjing, China</aff></contrib-group><author-notes><corresp id="cor1"><bold>Correspondence to:</bold>&#8232;Zinan Zhang&#8232;School of Health Policy and Management, Nanjing Medical University, Nanjing, China; Laboratory for Digital Intelligence and Health Governance, Nanjing Medical University&#8232;101 Longmian Avenue, Jiangning District, Nanjing&#8232;China&#8232;<email xlink:href="zinan1988@njmu.edu.cn">zinan1988@njmu.edu.cn</email>&#8232;Zhonghua Wang&#8232;School of Health Policy and Management, Nanjing Medical University, Nanjing, China; Laboratory for Digital Intelligence and Health Governance, Nanjing Medical University&#8232;101 Longmian Avenue, Jiangning District, Nanjing&#8232;China&#8232;<email xlink:href="wzh04@njmu.edu.cn">wzh04@njmu.edu.cn</email></corresp></author-notes><pub-date publication-format="electronic" date-type="pub"><day>22</day><month>5</month><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="collection"><year>2026</year></pub-date><volume>16</volume><issue-id pub-id-type="pmc-issue-id">504896</issue-id><elocation-id>04120</elocation-id><pub-history><event event-type="pmc-release"><date><day>22</day><month>05</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>23</day><month>05</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-05-23 10:25:17.707"><day>23</day><month>05</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright &#169; 2026 by the Journal of Global Health. All rights reserved.</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License.</license-p></license></permissions><self-uri content-type="pmc-pdf" xlink:href="jogh-16-04120.pdf"/><abstract><sec><title>Background</title><p>In China&#8217;s ageing population, hearing-impaired middle-aged and older adults face cognitive vulnerability. We aimed to explore the effects of hearing aid use on cognitive function and to examine the mediating role of social activity in this relationship.</p></sec><sec><title>Methods</title><p>We sourced data from the China Health and Retirement Longitudinal Study for the years 2011, 2013, 2015, 2018, and 2020. Using multiple linear regression and binary logistic regression, we analysed the association between hearing aid use and cognitive scores, as well as the risk of cognitive impairment in middle-aged and older adults with hearing impairments. PROCESS models explored whether social activities mediated the relationship between hearing aid use and cognitive function.</p></sec><sec><title>Results</title><p>Hearing aid use was significantly positively associated with cognitive performance among middle-aged and older adults with hearing impairment (coefficient&#8201;=&#8201;1.226). Hearing aid use was also significantly associated with a 29.6% lower risk of cognitive impairment compared with nonusers within this population (odds ratio&#8201;=&#8201;0.704). Moreover, hearing aid use was associated with higher cognitive scores and a reduced risk of cognitive impairment, linked to increased participation in social activities, particularly intellectual and physical pursuits. Finally, the direct associations between hearing aid use and cognitive function, and the mediating role of social activities in this relationship, varied by gender and age.</p></sec><sec><title>Conclusions</title><p>Promoting hearing aid use and social activity is vital to improve cognitive function and reduce impairment risk in middle-aged and older adults with hearing loss. Tailored interventions should address gender- and age-related differences to maximise benefits.</p></sec></abstract><counts><fig-count count="2"/><table-count count="3"/><equation-count count="0"/><ref-count count="45"/><page-count count="13"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>Cognitive impairment &#8211; decline in memory, attention, language, executive and calculative functions &#8211; afflicts &gt;55 million older adults globally [<xref rid="R1" ref-type="bibr">1</xref>]. China adds 0.36 million new cases yearly, projected to reach 48.7 million by 2060 [<xref rid="R2" ref-type="bibr">2</xref>], compressing healthy longevity and overburdening healthcare and social-care systems [<xref rid="R3" ref-type="bibr">3</xref>]. Health China 2030 accordingly designates dementia prevention as a core healthy-ageing indicator, prescribing individual/family, governmental and societal interventions [<xref rid="R4" ref-type="bibr">4</xref>]. Longitudinal neuroimaging now shows hippocampal atrophy accelerates after the age of 45 years, implicating mid-life as the critical window for preservation strategies [<xref rid="R5" ref-type="bibr">5</xref>&#8211;<xref rid="R7" ref-type="bibr">7</xref>]. Therefore, the cognitive health of middle-aged and older adults deserves considerable attention.</p><p>Hearing impairment robustly accelerates cognitive decline. Pooled evidence shows that affected adults have a 1.9-fold higher risk of developing cognitive impairment, and even mild loss forecasts long-term dementia among the initially cognitively intact [<xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref>]. Beyond peripheral deficits, concomitant cognitive decline impairs sound perception and central auditory processing, while central dysfunction, in turn, exacerbates hearing deficits, locking the two domains in a self-reinforcing cycle [<xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref>]. These findings underscore that individuals with hearing impairment are particularly vulnerable to cognitive decline.</p><p>A hearing aid amplifies sound to restore audibility and improve speech perception [<xref rid="R12" ref-type="bibr">12</xref>], thereby reducing cognitive load and sensory deprivation [<xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref>]. Cross-sectional studies from the USA [<xref rid="R9" ref-type="bibr">9</xref>] and UK [<xref rid="R15" ref-type="bibr">15</xref>] have also reported an association between hearing aid use and enhanced cognitive performance among older adults. In the current research landscape, the relationship between hearing aid utilisation and cognitive function has primarily been examined in older populations. Consequently, there has been a notable lack of focus on directed towards middle-aged and older adults experiencing hearing impairment. This research gap may limit the effectiveness of interventions to address cognitive decline, particularly during the critical transitional period from middle to late adulthood.</p><p>Social activity, defined as engagement in personal, community, or civic networks [<xref rid="R16" ref-type="bibr">16</xref>,<xref rid="R17" ref-type="bibr">17</xref>], presents unique challenges for individuals with hearing impairments, who consistently experience increased listening effort. Lavie&#8217;s cognitive load theory [<xref rid="R18" ref-type="bibr">18</xref>] suggests that when dual tasks are undertaken simultaneously in high cognitive load conditions for the primary auditory task, performance on the secondary social activity task is likely to decline if processing capacity is exceeded. Nonetheless, substantial evidence correlates increased social engagement with the preservation of instrumental activities of daily living (IADL) [<xref rid="R19" ref-type="bibr">19</xref>], reduced depression rates [<xref rid="R20" ref-type="bibr">20</xref>] and a 30&#8211;50% decrease in dementia risk [<xref rid="R21" ref-type="bibr">21</xref>,<xref rid="R22" ref-type="bibr">22</xref>]. More importantly, the reduced social activity may also cause specific damage to cognitive function. Research indicates that active involvement in social activities provides crucial, complex environmental stimuli to the brain, which are essential for sustaining cognitive reserves [<xref rid="R23" ref-type="bibr">23</xref>]. Therefore, when hearing loss reduces social participation, it can significantly impair cognitive function [<xref rid="R24" ref-type="bibr">24</xref>]. By improving auditory capabilities, hearing aids mitigate the barriers and pressures associated with social activity, enabling individuals to reintegrate into active social lives [<xref rid="R25" ref-type="bibr">25</xref>-<xref rid="R29" ref-type="bibr">29</xref>]. Furthermore, ongoing active participation in social activities may positively affect cognitive function. Therefore, we propose that social activity mediates the relationship between hearing aid use and cognitive function.</p><p>Amid China&#8217;s rapid ageing, prior evidence suggests that the cognitive vulnerability of hearing-impaired middle-aged and older adults warrants closer examination. Utilising nationally representative data, we assessed the effect of hearing aid use on the cognitive function of this demographic and explored whether social activity mediates these benefits. Considering gender differences and the fact that 65 years of age serves as a key demographic and policy marker of ageing in China, we conducted heterogeneity analyses by gender and age. This research carries important implications for developing targeted interventions and public health strategies designed to alleviate cognitive decline among the ageing population.</p><sec sec-type="methods"><title>METHODS</title><sec><title>Data source</title><p>In this study, we employed data from the China Health and Retirement Longitudinal Study (CHARLS) [<xref rid="R30" ref-type="bibr">30</xref>] covering the period from 2011 to 2020. We pooled data from five waves and, to maintain the independence of observations, retained only the first available survey entry for each participant, creating a repeated cross-sectional analytic sample. The analysis centred on a cohort of 3,08 respondents aged &#8805;45 years who reported experiencing hearing impairments, thereby excluding those with normal hearing or incomplete data. The sample sizes for each wave were as follows: 1120 participants in 2011, 612 in 2013, 808 in 2015, 819 in 2018, and 449 in 2020. We gathered the CHARLS datasets [<xref rid="R30" ref-type="bibr">30</xref>] using a multistage probability sampling method that included participants from approximately 10&#8201;000 households across 450 villages and 150 counties. For the analysis, we used the GRABDROP guidelines for (Table S1 in the <xref rid="S1" ref-type="supplementary-material"><bold>Online Supplementary Document</bold></xref>) [<xref rid="R28" ref-type="bibr">28</xref>].</p></sec><sec><title>Cognitive function</title><p>We quantified cognitive function with the 31-point Health and Retirement Study battery &#8211; orientation (0&#8211;5), memory (0&#8211;20), computation (0&#8211;5) and drawing (0&#8211;1) &#8211; where higher scores indicated better cognition [<xref rid="R29" ref-type="bibr">29</xref>,<xref rid="R31" ref-type="bibr">31</xref>]. We defined impairment by the ageing-associated cognitive decline criteria. Within each 10-year age band of &#8805;45 years, participants scoring less than the mean minus one standard deviation of their age-and-education (illiterate <italic toggle="yes">vs.</italic> non-illiterate) were classified as impaired [<xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R33" ref-type="bibr">33</xref>]. It is important to note that we recalculated the cut-off scores separately for each survey wave to ensure accurate prevalence estimates across cohorts.</p></sec><sec><title>Hearing aid use</title><p>We assessed the hearing aid use through the question, &#8216;Have you ever worn a hearing aid?&#8217; A response of &#8216;0&#8217; (no) indicated non-use, while a response of &#8216;1&#8217; (yes) indicated use. This binary classification enabled a clear assessment of hearing aid prevalence in the participant cohort.</p></sec><sec><title>Social activity</title><p>We classified social activity into three aspects in terms of the CHARLS questionnaire: social interaction (with friends and providing assistance to family, friends, or neighbours), intellectual (participation in games of intellect, such as mahjong, chess, card games, and participation in community spaces) and physical activity (participation in activities such as dancing, exercise, and Qigong). In this study, we categorised social activity into two groups: &#8216;0 &#8216;for &#8216;no&#8217; and &#8216;1&#8217; for &#8216;yes,&#8217; based on responses to the original questionnaire item, &#8216;Are you doing any of these activities in the last month?&#8217;</p></sec><sec><title>Other control variables</title><p>We grouped the control variables into the categories of demographics, health, and lifestyle. Demographics comprised age, sex, education, marital status (married <italic toggle="yes">vs.</italic> other), and household per-capita consumption expenditure, expressed in four ascending bands (CNY&#8201;&lt;5000, 5000&#8211;9999, 10&#8201;000&#8211;19&#8201;999, and &#8805;20&#8201;000). Health status combined four indicators: self-rated health (very good, good, fair, poor, very poor), chronic diseases (none, one, multiple), instrumental IADL operationalised as a 0&#8211;5 count of difficulties in housework, cooking, shopping, money management, and medication adherence, and depression dichotomised at a Centre for Epidemiologic Studies Depression Scale 10 item cut-off of 10. Lifestyle variables included smoking and drinking.</p></sec><sec><title>Statistical analysis</title><p>To investigate the relationship between hearing aid utilisation and cognitive scores, we initially conducted multiple linear regression analyses among middle-aged and older adults with hearing impairments. Subsequently, we assessed the impact of hearing aid usage on the risk of cognitive impairment within this demographic using binary logistic regression. Furthermore, we employed the three-step regression approach proposed by Baron and Kenny to examine the mediating effect of social activities on the association between hearing aid use and cognitive function. All statistical analyses were performed using Stata, version 17 (StataCorp, College Station, Texas, USA). To address the issue of multiple testing, we applied the Bonferroni correction, setting the significance threshold at <italic toggle="yes">P</italic>-value &lt;0.1.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Descriptive statistics</title><p>We included 3808 Chinese middle-aged and older adults with hearing impairment, among whom 18.17% exhibited cognitive impairment, and 6.64% used a hearing aid. Among the respondents, 16.41% were aged 45&#8211;54 years, and 20.40% were aged &#8805;75 years. Furthermore, 47.74% were women, and 36.66% participated in social interactions. Moreover, 15.28% participated in intellectual activities, and 5.41% in physical activities (<xref rid="T1" ref-type="table"><bold>Table 1</bold></xref>).</p><table-wrap position="float" id="T1" orientation="portrait"><label>Table 1</label><caption><p>Description of the sample, n (%)</p></caption><table frame="hsides" rules="groups"><col width="70" span="1"/><col width="56" span="1"/><col width="56" span="1"/><col width="56" span="1"/><col width="56" span="1"/><col width="56" span="1"/><col width="61" span="1"/><thead><tr><th valign="top" align="left" scope="col" rowspan="1" colspan="1"/><th colspan="6" valign="top" align="center" scope="colgroup" rowspan="1">Year<hr/></th></tr></thead><tbody><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<bold>Characteristics</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>2011</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>2013</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>2015</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>2018</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>2020</bold>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">
+<bold>Total</bold>
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Cognitive impairment<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">910 (81.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">523 (85.46)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">668 (82.67)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">631 (77.05)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">384 (85.52)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">3116 (81.83)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">210 (18.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">89 (14.54)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">140 (17.33)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">188 (22.95)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">65 (14.48)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">692 (18.17)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Hearing aid use<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1059 (94.55)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">569 (92.97)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">767 (94.93)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">742 (90.60)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">418 (93.10)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">3555 (93.36)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">61 (5.45)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">43 (7.03)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">41 (5.07)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">77 (9.40)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">31 (6.90)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">253 (6.64)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Age in years<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">45&#8211;54</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">162 (14.46)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">95 (15.52)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">200 (24.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">159 (19.41)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">9 (2.00)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">625 (16.41)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">55&#8211;64</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">377 (33.66)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">215 (35.13)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">246 (30.45)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">265 (32.36)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">62 (13.81)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1165 (30.60)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">65&#8211;74</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">327 (29.20)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">212 (34.64)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">251 (31.06)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">266 (32.48)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">185 (41.20)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1241 (32.59)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;75</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">254 (22.68)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">90 (14.71)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">111 (13.74)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">129 (15.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">193 (42.98)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">777 (20.40)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Gender<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Female</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">529 (47.23)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">294 (48.04)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">413 (51.11)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">418 (51.04)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">164 (36.53)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1818 (47.74)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Male</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">591 (52.77)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">318 (51.96)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">395 (48.89)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">401 (48.96)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">285 (63.47)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1990 (52.26)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Marital status<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Other</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">244 (21.79)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">103 (16.83)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">139 (17.20)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">135 (16.48)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">108 (24.05)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">729 (19.14)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Married</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">876 (78.21)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">509 (83.17)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">669 (82.80)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">684 (83.52)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">341 (75.95)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">3079 (80.86)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Education<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Non-illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">798 (71.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">461 (75.33)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">604 (74.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">661 (80.71)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">307 (68.37)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2831 (74.34)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">323 (28.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">151 (24.67)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">204 (25.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">158 (19.29)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">142 (31.63)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">977 (25.66)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Household per capita consumption expenditure in CNY<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&lt;5000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">661 (59.02)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">173 (28.27)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">224 (27.72)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">153 (18.68)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">95 (21.16)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1306 (34.30)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5000&#8211;9999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">289 (25.80)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">227 (37.09)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">227 (28.09)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">241 (29.43)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">121 (26.95)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1105 (29.02)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">10&#8201;000&#8211;19&#8201;999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">129 (11.52)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">141 (23.04)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">235 (29.08)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">253 (30.89)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">129 (28.73)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">887 (23.29)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;20&#8201;000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">41 (3.66)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">71 (11.60)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">122 (15.10)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">172 (21.00)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">104 (23.16)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">510 (13.39)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Self-rated health<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">43 (3.84)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">23 (3.76)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">63 (7.80)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">53 (6.47)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">39 (8.69)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">221 (5.80)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">127 (11.34)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">55 (8.99)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">69 (8.54)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">50 (6.11)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">52 (11.58)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">353 (9.27)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Fair</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">477 (42.59)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">296 (48.37)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">380 (47.03)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">387 (47.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">219 (48.78)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1759 (46.19)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">366 (32.68)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">186 (30.39)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">213 (26.36)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">246 (30.04)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">99 (22.05)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1110 (29.15)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">107 (9.55)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">52 (8.50)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">83 (10.27)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">83 (10.13)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">40 (8.91)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">365 (9.59)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Chronic disease<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">None</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">246 (21.96)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">120 (19.61)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">185 (22.90)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">91 (11.11)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">62 (13.81)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">704 (18.49)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">One</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">315 (28.13)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">134 (21.90)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">175 (21.66)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">143 (17.46)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">102 (22.72)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">869 (22.82)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Multiple</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">559 (49.91)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">358(58.50)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">448 (55.45)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">585 (71.43)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">285 (63.47)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2235 (58.69)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">IADL<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">0 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">648 (57.86)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">387 (63.24)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">527 (65.22)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">525 (64.10)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">323 (71.94)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2410 (63.29)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">1 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">167 (14.91)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">101 (16.50)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">109 (13.49)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">126 (15.38)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">47 (10.47)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">550 (14.44)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">113 (10.09)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">59 (9.64)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">64 (7.92)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">59 (7.20)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">33 (7.35)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">328 (8.61)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">3 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">86 (7.68)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">29 (4.74)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">44 (5.45)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">61 (7.45)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">19 (4.23)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">239 (6.28)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">4 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">67 (5.98)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">23 (3.76)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">37 (4.58)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">29 (3.54)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">18 (4.01)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">174 (4.57)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">39 (3.48)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">13 (2.12)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">27 (3.34)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">19 (2.32)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">9 (2.00)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">107 (2.81)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Depression<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">526 (46.96)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">347 (56.70)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">413 (51.11)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">404 (49.33)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">251 (55.90)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1941 (50.97)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">594 (53.04)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">265 (43.30)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">395 (48.89)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">415 (50.67)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">198 (44.10)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1867 (49.03)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Smoke<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">597 (53.30)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">332 (54.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">439 (54.33)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">449 (54.82)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">184 (40.98)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2001 (52.55)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">523 (46.70)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">280 (45.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">369 (45.67)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">370 (45.18)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">265 (59.02)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1807 (47.45)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Drink<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">752 (67.14)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">381 (62.25)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">540 (66.83)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">534 (65.20)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">296 (65.92)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2503 (65.73)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">368 (32.86)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">231 (37.75)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">268 (33.17)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">285 (34.80)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">153 (34.08)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1305 (34.27)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Social interaction<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">765 (68.30)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">372 (60.78)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">483 (59.78)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">487 (59.46)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">305 (67.93)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">2412 (63.34)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">355 (31.67)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">240 (39.22)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">325 (40.22)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">332 (40.54)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">144 (32.07)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">1396 (36.66)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Intellectual activity<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">963 (85.98)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">505 (82.52)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">665 (82.30)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">694 (84.74)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">387 (86.19)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">3226 (84.72)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">157 (14.02)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">107 (17.48)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">143 (17.70)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">125 (15.26)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">62 (13.82)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">582 (15.28)<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Physical activity<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1082 (96.61)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">567 (92.65)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">754 (93.32)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">772 (94.26)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">427 (95.10)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">3602 (94.59)<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+</td><td valign="top" align="center" rowspan="1" colspan="1">38 (3.39)</td><td valign="top" align="center" rowspan="1" colspan="1">45 (7.35)</td><td valign="top" align="center" rowspan="1" colspan="1">54 (6.68)</td><td valign="top" align="center" rowspan="1" colspan="1">47 (5.74)</td><td valign="top" align="center" rowspan="1" colspan="1">22 (4.90)</td><td valign="top" align="center" rowspan="1" colspan="1">206 (5.41)</td></tr></tbody></table><table-wrap-foot><p>IADL &#8211; instrumental activities of daily living</p></table-wrap-foot></table-wrap></sec><sec><title>Multivariate regression results</title><p>The results indicate a significant positive association between hearing aid use and cognitive scores (coefficient&#8201;=&#8201;1.23), whereas each successive age decade was significantly associated with lower scores (coefficient&#8201;=&#8201;&#8211;1.66 for age 55&#8211;64 years; coefficient&#8201;=&#8201;&#8211;2.81 for age 65&#8211;74 years; and coefficient&#8201;=&#8201;&#8211;4.74 for age &#8805;75 years). Men significantly outperformed women (coefficient&#8201;=&#8201;2.20), and illiterate respondents scored significantly lower (coefficient&#8201;=&#8201;&#8211;2.20). Higher IADL, being married, greater household expenditure, absence of chronic disease and non-depression were also significantly associated with better cognitive scores (<xref rid="T2" ref-type="table"><bold>Table 2</bold></xref>).</p><table-wrap position="float" id="T2" orientation="portrait"><label>Table 2</label><caption><p>Multiple linear regression of cognitive scores among middle-aged and older adults with hearing impairment</p></caption><table frame="hsides" rules="groups"><col width="255" span="1"/><col width="117" span="1"/><col width="42" span="1"/><thead><tr><th valign="top" align="left" scope="col" rowspan="1" colspan="1">Variables</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">Coefficient (95% CI)</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><italic toggle="yes">P</italic>-value</th></tr></thead><tbody><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Hearing aid use<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.226 (0.526, 1.927)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Age in years<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">45&#8211;54</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">55&#8211;64</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;1.660 (&#8211;2.199, &#8211;1.120)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">65-74</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;2.812 (&#8211;3.275, &#8211;2.349)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;75</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;4.744 (&#8211;5.385, &#8211;4.103)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Gender<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Female</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Male</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">2.200 (2.194, 3.205)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Marital status<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Other</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Marry</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.567 (1.079, 2.054)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Education<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Non-illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;2.203 (&#8211;2.630, &#8211;1.770)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Household per capita consumption expenditure in CNY<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&lt;5000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5000&#8211;9999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.897 (0.447, 1.347)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">10000-19999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.387 (0.892, 1.881)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;20000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">2.373 (1.777, 2.970)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Self-rated health<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.045 (&#8211;0.965, 0.874)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.923<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Fair</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.365 (&#8211;0.406, 1.137)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.354<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.230 (&#8211;1.057, 0.596)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.585<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.080 (&#8211;1.052, 0.892)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.871<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Chronic disease<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">None</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">One</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.491 (-0.055, 1.038)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.078<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Multiple</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.276 (0.784, 1.769)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">IADL<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">0 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">1 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.776 (&#8211;1.291, &#8211;0.261)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.003<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;1.848 (&#8211;2.502, &#8211;1.194)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">3 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;2.731 (&#8211;3.490, &#8211;1.972)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">4 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;3.396 (&#8211;4.270, &#8211;2.523)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;5.114 (&#8211;6.213, &#8211;4.015)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Depression<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;1.280 (&#8211;1.661, &#8211;0.899)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Smoke<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.339 (&#8211;0.817, 0.138)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.163<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Drink<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.128 (&#8211;0.279, 0.536)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.538<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Year<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2011</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2013</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.234 (&#8211;0.318, 0.786)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.406<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2015</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.143 (&#8211;0.657, 0.372)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.587<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2018</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">&#8211;0.934 (&#8211;1.462, &#8211;0.406)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2020</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.359 (&#8211;0.281, 0.999)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.271<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">Constant<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">11.507 (10.459, 12.555)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"/><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1">0.001</td></tr></tbody></table><table-wrap-foot><p>CI &#8211; confidence interval, IADL &#8211; instrumental activities of daily living, ref &#8211; reference</p></table-wrap-foot></table-wrap><p>A suggestive association was found between hearing aid use and a lower likelihood of cognitive impairment (odds ratio (OR)&#8201;=&#8201;0.704), suggesting that middle-aged and older adults with hearing impairment who used hearing aids had a 29.6% lower relative risk of cognitive impairment compared to those who did not. The risk of cognitive impairment was higher among individuals aged 55&#8211;64 and 65&#8211;74 years, increasing by 28.90% and 32.60%, respectively, compared with those aged 45&#8211;54 (OR&#8201;=&#8201;1.289, 1.326). Additionally, men exhibited a 62.60% lower risk than women (OR&#8201;=&#8201;0.374), and married individuals with hearing impairments had a 33.1% lower risk compared to those with other marital statuses (OR&#8201;=&#8201;0.669). Individuals with higher household per capita consumption expenditure (CNY 5000&#8211;9999, CNY 10&#8201;000&#8211;19&#8201;999, and CNY&gt;20&#8201;000) were associated with a 25.40%, 19.50%, and 47.40% lower risk of cognitive impairment, respectively. Conversely, those with IADL disorders were associated with an increased risk of cognitive impairment compared to those without such disorders (<xref rid="T3" ref-type="table"><bold>Table 3</bold></xref>).</p><table-wrap position="float" id="T3" orientation="portrait"><label>Table 3</label><caption><p>Binary-logistic regression of cognitive impairment among middle-aged and older adults with hearing impairment</p></caption><table frame="hsides" rules="groups"><col width="255" span="1"/><col width="106" span="1"/><col width="53" span="1"/><thead><tr><th valign="top" align="left" scope="col" rowspan="1" colspan="1">Variables</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1">OR (95% CI)</th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><italic toggle="yes">P</italic>-value</th></tr></thead><tbody><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Hearing aid use<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.704 (0.464, 1.068)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.099<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Age in years<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">45&#8211;54</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">55&#8211;64</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.289 (0.973, 1.708)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.077<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">65&#8211;74</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.326 (0.996, 1.766)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.054<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;75</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.800 (0.568, 1.125)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.199<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Gender<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Female</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Male</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.374 (0.287, 0.487)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Marital status<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Other</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Married</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.669 (0.529, 0.847)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Education<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Non-illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Illiterate</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.478 (1.180, 1.852)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Household per capita consumption expenditure in CNY<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&lt;5000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5000&#8211;9999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.746 (0.596, 0.934)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.011<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">10&#8201;000&#8211;19&#8201;999</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.805 (0.628, 1.032)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.087<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">&#8805;20&#8201;000</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.526 (0.379, 0.730)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Self-rated health<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Good</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.524 (0.920, 2.534)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.102<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Fair</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.120 (0.721, 1.739)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.614<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.436 (0.907, 2.272)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.122<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Very poor</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.139 (0.678, 1.913)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.623<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Chronic disease<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">None</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">One</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.831 (0.631, 1.095)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.188<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Multiple</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.609 (0.474, 0.782)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">IADL<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">0 functional impairment)</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">1 functional impairment</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.252 (0.963, 1.626)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.093<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2 functional impairments</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.968 (1.463, 2.647)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">3 functional impairments</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">2.505 (1.800, 3.486)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">4 functional impairments</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">2.713 (1.861, 3.956)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">5 functional impairments</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">5.916 (3.770, 9.283)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Depression<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.250 (1.028, 1.519)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.025<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Smoking<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.937 (0.730, 1.203)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.610<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Drinking<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">No</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">Yes</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.725 (0.578, 0.911)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.006<hr/></td></tr><tr><td valign="top" align="left" scope="col" rowspan="1" colspan="1">Year<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2011</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">ref<hr/></td><td valign="top" align="left" rowspan="1" colspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2013</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">0.933 (0.696, 1.250)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.642<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2015</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.104 (0.850, 1.434)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.458<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2018</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.886 (1.457, 2.441)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">
+<italic toggle="yes">2020</italic>
+<hr/>
+</td><td valign="top" align="center" rowspan="1" colspan="1">1.142 (0.808, 1.614)<hr/></td><td valign="top" align="center" rowspan="1" colspan="1">0.453<hr/></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1">Constant</td><td valign="top" align="center" rowspan="1" colspan="1">0.320 (0.182, 0.562)</td><td valign="top" align="center" rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><p>CI &#8211; confidence interval, IADL &#8211; instrumental activities of daily living, OR &#8211; odds ratio, ref &#8211; reference</p></table-wrap-foot></table-wrap></sec><sec><title>Mediating effect of social activity between hearing aid use and cognitive function</title><p>After controlling for social interaction, intellectual participation, and physical activity, the direct effects of hearing aid use on cognitive scores were 2.118, 1.965, and 1.949, respectively, all statistically significant (<xref rid="F1" ref-type="fig"><bold>Figure 1</bold></xref>). Hearing aid use was significantly and positively associated with greater participation in social interaction (coefficient&#8201;=&#8201;0.218), intellectual activities (coefficient&#8201;=&#8201;0.442), and physical activity (coefficient&#8201;=&#8201;0.859). In turn, participation in these activities was positively correlated with cognitive scores &#8211; for social interaction (coefficient&#8201;=&#8201;1.083), intellectual activities (coefficient&#8201;=&#8201;3.217), and physical activity (coefficient&#8201;=&#8201;3.711). Consequently, the indirect effects of hearing aid use on cognitive scores, mediated by social interaction, intellectual engagement, and physical activity, were 0.055, 0.190, and 0.162, respectively. These mediating effects accounted for 2.53%, 8.75%, and 7.47% of the total effect.</p><fig position="float" id="F1" fig-type="figure" orientation="portrait"><label>Figure 1</label><caption><p>Mediating effect of social activities between hearing aid use and cognitive function. a/ORa quantifies hearing-aid use &#8211; social activity, a&#8217; is standardised by a; c&#8217;/ORc&#8217; give its direct effects on cognitive scores/impairment risk after social activity is controlled; b/ORb&#8217; gives social activity&#8217;s effects on cognitive scores/impairment risk after hearing-aid use is controlled. *<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.1. **<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.05. ***<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.01.</p></caption><graphic position="float" orientation="portrait" xlink:href="jogh-16-04120-F1.jpg"/></fig><p>After controlling for social interaction, participation in intellectual and physical activities, and hearing aid use, hearing aid use was associated with a 40.60%, 38.10%, and 38.50% reduction in the risk of cognitive impairment, respectively. Additionally, the use of hearing aids was significantly correlated with an increased likelihood of participation in social interactions (OR&#8201;=&#8201;1.224), intellectual activities (OR&#8201;=&#8201;1.556), and physical activities (OR&#8201;=&#8201;2.361), with increases of 24.40%, 55.60%, and 136.10%, respectively. Furthermore, participation in social interactions (OR&#8201;=&#8201;0.799), intellectual activities (OR&#8201;=&#8201;0.286), and physical activities (OR&#8201;=&#8201;0.324) was associated with a 20.10%, 71.40%, and 67.60% reduction in the risk of cognitive impairment, respectively. Thus, the use of hearing aids was also associated with a reduced risk of cognitive impairment through increased social interaction (OR&#8201;=&#8201;0.952), participation in intellectual activities (OR&#8201;=&#8201;0.575), and physical activity (OR&#8201;=&#8201;0.379), with correlations of 4.80%, 42.50%, and 62.10%, respectively. These associations accounted for 8.62%, 53.57%, and 66.67% of the total observed effect.</p></sec><sec><title>Heterogeneity analysis</title><sec><title>Gender-based heterogeneity</title><p>Hearing aid use was associated with significant direct effects on cognitive scores for both men and women, after controlling for social interaction (men coefficient&#8201;=&#8201;1.855; women coefficient&#8201;=&#8201;1.751), intellectual activity (men coefficient&#8201;=&#8201;1.816; women coefficient&#8201;=&#8201;1.598), and physical activity (men coefficient&#8201;=&#8201;1.788; women coefficient&#8201;=&#8201;1.423), respectively (<xref rid="F2" ref-type="fig"><bold>Figure 2</bold></xref>). However, significant gender-based differences emerged in indirect effects. Among male participants, the indirect effects of hearing aid use on cognitive scores through social interaction (coefficient&#8201;=&#8201;0.078), intellectual activity (coefficient&#8201;=&#8201;0.106), and physical activity (coefficient&#8201;=&#8201;0.107) were significant. In contrast, for women, only the pathway mediated by physical activity showed a significant indirect effect (coefficient&#8201;=&#8201;0.255).</p><fig position="float" id="F2" fig-type="figure" orientation="portrait"><label>Figure 2</label><caption><p>Heterogeneity analysis. a/ORa quantifies hearing-aid use &#8211; social activity, a&#8217; is standardised by a; c&#8217;/ORc&#8217; give its direct effects on cognitive scores/impairment risk after social activity is controlled; b/ORb&#8217; give social activity&#8217;s effects on cognitive scores/impairment risk after hearing-aid use is controlled. *<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.1. **<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.05. ***<italic toggle="yes">P</italic>&#8201;&lt;&#8201;0.01.</p></caption><graphic position="float" orientation="portrait" xlink:href="jogh-16-04120-F2.jpg"/></fig><p>Among male participants, direct use of hearing aids was associated with a 42.90% lower likelihood of cognitive impairment (OR&#8201;=&#8201;0.571). Regarding indirect effects, hearing aid use was associated with a 9.30%, 30.80%, and 57.50% decrease in the likelihood of cognitive impairment through participation in social interaction (OR&#8201;=&#8201;0.907), intellectual activity (OR&#8201;=&#8201;0.692), and physical activity (OR&#8201;=&#8201;0.425). In contrast, among female participants, hearing aid use showed a significant indirect effect only through physical activity, with a 70.20% lower likelihood of cognitive impairment (OR&#8201;=&#8201;0.298).</p></sec><sec><title>Age-based heterogeneity</title><p>After controlling for social interaction, intellectual activity, and physical activity, the direct effects of hearing aid use on cognitive scores were significantly greater for people aged &gt;65 years (coefficient&#8201;=&#8201;2.355 for social interaction; coefficient&#8201;=&#8201;2.157 for intellectual activity; and coefficient&#8201;=&#8201;2.132 for physical activity) compared with those aged &#8804;65 years (coefficient&#8201;=&#8201;1.939 for social interaction; coefficient&#8201;=&#8201;1.839 for intellectual activity; and coefficient&#8201;=&#8201;1.814 for physical activity). In the younger cohort, hearing aid use had a significant indirect effect on cognitive scores only through physical activity (coefficient&#8201;=&#8201;0.139). In contrast, people aged &gt;65 years demonstrated significant indirect effects of hearing aid use on cognitive scores through both intellectual (coefficient&#8201;=&#8201;0.206) and physical activity (coefficient&#8201;=&#8201;0.183) (<xref rid="F2" ref-type="fig"><bold>Figure 2</bold></xref>).</p><p>After adjusting for social interaction, intellectual activity, and physical activity, the direct use of hearing aids was associated with a 48.20% (OR&#8201;=&#8201;0.518), 45.60% (OR&#8201;=&#8201;0.544), and 46.30% (OR&#8201;=&#8201;0.537) lower likelihood of cognitive impairment among individuals aged &#8805;65 years, respectively. Regarding indirect effects, among younger individuals, the use of hearing aids was associated with a 65.60% lower likelihood of cognitive impairment, independent of physical activity (OR&#8201;=&#8201;0.344). In contrast, for individuals aged &gt;65 years, the use of hearing aids was associated with a 44.70% lower likelihood of cognitive impairment through participation in intellectual activities (OR&#8201;=&#8201;0.553) and a 58.00% lower likelihood through physical activities (OR&#8201;=&#8201;0.420).</p></sec></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>We examined the association between hearing aid use and cognitive function among middle-aged and older adults with hearing impairment in China, using representative national data from CHARLS. Additionally, we explored the mediating role of social activity. Our findings revealed that hearing aid use significantly improved cognitive function and reduced the risk of cognitive impairment in this population. Additionally, social activity was identified as a significant mediator, partially explaining how hearing aid use may help protect cognitive health among middle-aged and older adults. Furthermore, gender and age differences were observed in the mediating role of social activities. These results enhance our understanding of the relationship between hearing aid use and cognitive function.</p><p>Our analyses revealed that hearing-aid use was associated with a significant improvement in cognitive function and a 29.60% lower likelihood of cognitive impairment among hearing-impaired middle-aged and older adults, consistent with findings from previous studies [<xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref>]. Under the cognitive-load hypothesis, effortful listening usurps resources that would otherwise support executive control and memory encoding [<xref rid="R14" ref-type="bibr">14</xref>]; hearing aids relieve this burden by restoring audibility, thereby reallocating resources to higher-order tasks [<xref rid="R34" ref-type="bibr">34</xref>]. However, only 6.60% of the hearing-impaired older adult population in this study reported using hearing aids. Public campaigns should effectively highlight the cognitive benefits of hearing aid use to raise awareness among the general public and healthcare professionals. Clinicians should prioritise early fitting of hearing aids within comprehensive cognitive care protocols to ensure timely interventions. Policymakers must enhance access to hearing aids by expanding subsidies and insurance coverage for low-income and underserved older adults. These measures will reduce financial barriers and encourage adoption, ultimately improving hearing health and cognitive outcomes in this vulnerable population.</p><p>Beyond hearing aid use, age, sex, marital status, education, and IADL independently shaped cognition, as shown earlier [<xref rid="R35" ref-type="bibr">35</xref>&#8211;<xref rid="R37" ref-type="bibr">37</xref>]. Ageing-related cerebral atrophy and neurotransmitter depletion erode neural reserve [<xref rid="R35" ref-type="bibr">35</xref>]; oestrogen withdrawal post-menopause disproportionately compromises women&#8217;s trajectories [<xref rid="R36" ref-type="bibr">36</xref>]. Marriage mitigates loneliness-induced decline [<xref rid="R37" ref-type="bibr">37</xref>] and higher education proxies superior socioeconomic resources that enhance healthcare and nutrition access [<xref rid="R38" ref-type="bibr">38</xref>]. Integrated early hearing&#8211;cognitive screening, sex-specific interventions, strengthened social support, and equitable resource allocation are therefore recommended to attenuate mid- and late-life cognitive deterioration.</p><p>Hearing-aid use enhances cognition directly and, more importantly, indirectly, affecting middle-aged and older adults&#8217; social lives [<xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R39" ref-type="bibr">39</xref>&#8211;<xref rid="R42" ref-type="bibr">42</xref>]. Communication barriers commonly precipitate withdrawal and isolation, a well-established risk factor for cognitive decline [<xref rid="R40" ref-type="bibr">40</xref>,<xref rid="R41" ref-type="bibr">41</xref>]. Social-cognitive theory posits that auditory input shapes environmental perception and behavioural self-regulation [<xref rid="R41" ref-type="bibr">41</xref>]. Amplification, therefore, restores interactive capacity, fostering activities that stimulate and protect the brain. In our sample, the indirect pathway dominated: intellectual (mah-jongg, chess, cards) and physical (dance, fitness, qigong) activities mediated 42.50% and 62.10%, respectively, of the hearing aid&#8217;s effect on the risks of cognitive impairment, also explaining 7.47% and 8.75% of the total effect on cognitive scores. Intellectual games demand memory, attention and problem-solving [<xref rid="R43" ref-type="bibr">43</xref>]. Exercise boosts cerebral perfusion and plasticity [<xref rid="R44" ref-type="bibr">44</xref>]. Consequently, interventions should couple early hearing-aid fitting with organised programmes of intellectually and physically engaging pastimes to maximise cognitive gains and minimise the risk of impairment in hearing-impaired middle-aged and older adults.</p><p>The mediating effects of social activities on the relationship between hearing aid use and cognitive function vary by gender and age. Among men, all three activity domains &#8211; social interaction, intellectual pursuits, and physical exercise &#8211; significantly mediated the effect; in women, only physical activity was significant. Chinese middle-aged and older men tend to engage in structured, cognitively demanding, and interactive activities that provide both social and neural stimulation, whereas women are more likely to participate in emotionally supportive and informal interactions that offer relatively weaker cognitive activation [<xref rid="R45" ref-type="bibr">45</xref>]. Therefore, strategies should encourage men to engage in social activities while promoting diverse forms of physical activity for women to enhance cognitive function through hearing aid use.</p><p>Furthermore, our findings revealed significant age-related differences. Among people aged &gt;65 years, hearing aids produced larger direct gains in cognitive scores and greater risk reduction than among those aged &#8804;65 years. Regarding indirect effects, younger people benefited primarily through physical activity, whereas the older group drew significant additional benefit from intellectual pursuits. This phenomenon may be attributed to the limitations in physical activity often faced by individuals aged &gt;65 years, which predispose them to derive greater cognitive benefits from intellectual engagement compared to their younger counterparts with hearing impairment. Therefore, it is imperative that strategies be developed to encourage the use of hearing aids among older adults aged &gt;65 years, while simultaneously promoting age-specific social activities. These activities should include a diverse range of intellectual pursuits for individuals aged &#8805;65 years and physical activities for younger seniors to optimise cognitive benefits.</p><sec><title>Limitations</title><p>This study has several important limitations that should be acknowledged. First, while data from five waves of CHARLS (2011, 2013, 2015, 2018, and 2020) were pooled for analysis, the cross-sectional design limits our ability to draw firm causal inferences regarding the relationship between hearing aid use and cognitive function. The nature of cross-sectional data means we cannot definitively determine whether hearing aid use prevents cognitive decline or if cognitively healthier individuals are more likely to utilise hearing aids.</p><p>Second, reliance on self-reported hearing impairment data may introduce bias, as individuals may misreport their hearing status for various reasons, including social desirability or lack of awareness. Future research should incorporate more objective assessment methods, such as audiometric testing, to enhance the reliability of the data and the validity of the conclusions.</p><p>Third, the study may be subject to residual confounding, as unmeasured variables likely influence both hearing impairment and cognitive function. Additionally, selection bias may arise from excluding participants with missing data, which could limit the generalizability of our findings. Participants who are lost to follow-up or who do not complete the survey may differ systematically from those who do, potentially skewing the results.</p><p>Furthermore, potential survivorship bias across CHARLS waves should be considered. Individuals with more severe cognitive impairment may not be represented in the later waves, leading to an underestimation of the true prevalence of cognitive decline among those with hearing impairment.</p><p>Lastly, cognitive function among middle-aged and older adults with hearing impairment is likely influenced by additional factors not captured in the CHARLS data, such as mental health status, socioeconomic factors, and lifestyle choices. This limitation indicates the need for a more comprehensive approach to understanding the complex interplay between hearing impairment and cognitive health.</p></sec></sec><sec sec-type="conclusions"><title>CONCLUSIONS</title><p>Hearing aid use significantly enhances cognitive function and decreases the risk of cognitive impairment among middle-aged and older adults with hearing impairment. Furthermore, hearing aid use indirectly enhanced cognitive function and reduced the risk of impairment by fostering social activities, with intellectual and physical activities showing the strongest mediating effects. Given the observed gender- and age-related variations, targeted strategies promoting hearing aid use and tailored social participation may further optimise cognitive function in this population.</p></sec><sec sec-type="supplementary-material"><title>Additional material</title><supplementary-material id="S1" position="float" content-type="local-data" orientation="portrait"><caption><title>
+<ext-link xlink:href="https://jogh.org/documents/2026/jogh-16-04120-s001.pdf" ext-link-type="uri">Online Supplementary Document</ext-link>
+</title></caption><media xlink:href="jogh-16-04120-s001.pdf" id="d67e3521" position="anchor" orientation="portrait"/></supplementary-material></sec></body><back><ack><title>Acknowledgements</title><p>We would like to thank the China Health and Retirement Longitudinal Study team for providing data and training in using the datasets. We thank the students who participated in the survey for their cooperation. We would like to thank all volunteers and staff involved in this research.</p><p><bold>Ethics statement:</bold> Ethical approval for the survey was obtained from the Institutional Review Board of Peking University (approval IRB00001052-13074), and all participants provided written informed consent after receiving comprehensive information about the study&#8217;s objectives and methods.</p><p><bold>Data availability:</bold> The datasets used and/or analysed during the current study are available from the corresponding author upon reasonable request.</p></ack><fn-group><fn fn-type="financial-disclosure"><p><bold>Funding:</bold> We did not receive any funding for this study.</p></fn><fn fn-type="other"><p><bold>Authorship contributions:</bold> XW led the analysis of the data and wrote the draft of the manuscript. XG participated in data analysis and writing. SM contributed to writing. ZZ and ZW contributed equally to the study design, the interpretation of the data, and the writing of the final draft of the manuscript. All authors read and approved the final manuscript.</p></fn><fn fn-type="COI-statement"><p><bold>Disclosure of interest:</bold> The authors completed the ICMJE Disclosure of Interest Form (available upon request from the corresponding author) and disclose no relevant interests.</p></fn></fn-group><ref-list><title>REFERENCES</title><ref id="R1"><label>1</label><mixed-citation publication-type="book">Alzheimer&#8217;s Disease International. World Alzheimer Report 2021: Journey Through the Diagnosis of Dementia. London, UK: Alzheimer&#8217;s Disease International; 2021. Available: <ext-link xlink:href="https://cdn.alzheimers.org.nz/wp-content/uploads/2021/09/World-Alzheimer-Report-2021-Web.pdf" ext-link-type="uri">https://cdn.alzheimers.org.nz/wp-content/uploads/2021/09/World-Alzheimer-Report-2021-Web.pdf</ext-link>. Accessed: 17 April 2026.</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Prince</surname><given-names>M</given-names></name><name name-style="western"><surname>Ali</surname><given-names>GC</given-names></name><name name-style="western"><surname>Guerchet</surname><given-names>M</given-names></name><name name-style="western"><surname>Prina</surname><given-names>AM</given-names></name><name name-style="western"><surname>Albanese</surname><given-names>E</given-names></name><name name-style="western"><surname>Wu</surname><given-names>YT</given-names></name></person-group><article-title>Recent global trends in the prevalence and incidence of dementia, and survival with dementia.</article-title><source>Alzheimers Res Ther</source>. <year>2016</year>;<volume>8</volume>:<fpage>23</fpage>. <pub-id pub-id-type="doi">10.1186/s13195-016-0188-8</pub-id><pub-id pub-id-type="pmid">27473681</pub-id><pub-id pub-id-type="pmcid">PMC4967299</pub-id></mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jia</surname><given-names>L</given-names></name><name name-style="western"><surname>Quan</surname><given-names>M</given-names></name><name name-style="western"><surname>Fu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Zhao</surname><given-names>T</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name><name name-style="western"><surname>Wei</surname><given-names>C</given-names></name><etal/></person-group><article-title>Dementia in China: epidemiology, clinical management, and research advances.</article-title><source>Lancet Neurol</source>. <year>2020</year>;<volume>19</volume>:<fpage>81</fpage>&#8211;<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1016/S1474-4422(19)30290-X</pub-id><pub-id pub-id-type="pmid">31494009</pub-id></mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="webpage">State Council of the People&#8217;s Republic of China. Health China 2030 Planning Outline. 2016. Available: <ext-link xlink:href="https://www.gov.cn/gongbao/content/2016/content_5133024.htm" ext-link-type="uri">https://www.gov.cn/gongbao/content/2016/content_5133024.htm</ext-link>. Accessed: 11 May 2024.</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Singh-Manoux</surname><given-names>A</given-names></name><name name-style="western"><surname>Kivimaki</surname><given-names>M</given-names></name><name name-style="western"><surname>Glymour</surname><given-names>MM</given-names></name><name name-style="western"><surname>Elbaz</surname><given-names>A</given-names></name><name name-style="western"><surname>Berr</surname><given-names>C</given-names></name><name name-style="western"><surname>Ebmeier</surname><given-names>KP</given-names></name><etal/></person-group><article-title>Timing of onset of cognitive decline: results from Whitehall II prospective cohort study.</article-title><source>BMJ</source>. <year>2012</year>;<volume>344</volume>:<fpage>d7622</fpage>. <pub-id pub-id-type="doi">10.1136/bmj.d7622</pub-id><pub-id pub-id-type="pmid">22223828</pub-id><pub-id pub-id-type="pmcid">PMC3281313</pub-id></mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Luo</surname><given-names>J</given-names></name><name name-style="western"><surname>Agboola</surname><given-names>F</given-names></name><name name-style="western"><surname>Grant</surname><given-names>E</given-names></name><name name-style="western"><surname>Morris</surname><given-names>JC</given-names></name><name name-style="western"><surname>Masters</surname><given-names>CL</given-names></name><name name-style="western"><surname>Albert</surname><given-names>MS</given-names></name><etal/></person-group><article-title>Accelerated longitudinal changes and ordering of Alzheimer disease biomarkers across the adult lifespan.</article-title><source>Brain</source>. <year>2022</year>;<volume>145</volume>:<fpage>4459</fpage>&#8211;<lpage>73</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awac238</pub-id><pub-id pub-id-type="pmid">35925685</pub-id><pub-id pub-id-type="pmcid">PMC10200301</pub-id></mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Han</surname><given-names>SD</given-names></name><name name-style="western"><surname>Fleischman</surname><given-names>DA</given-names></name><name name-style="western"><surname>Yu</surname><given-names>L</given-names></name><name name-style="western"><surname>Poole</surname><given-names>V</given-names></name><name name-style="western"><surname>Lamar</surname><given-names>M</given-names></name><name name-style="western"><surname>Kim</surname><given-names>N</given-names></name><etal/></person-group><article-title>Cognitive decline and hippocampal functional connectivity within older Black adults.</article-title><source>Hum Brain Mapp</source>. <year>2022</year>;<volume>43</volume>:<fpage>5044</fpage>&#8211;<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1002/hbm.26070</pub-id><pub-id pub-id-type="pmid">36066181</pub-id><pub-id pub-id-type="pmcid">PMC9582363</pub-id></mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lin</surname><given-names>FR</given-names></name><name name-style="western"><surname>Ferrucci</surname><given-names>L</given-names></name><name name-style="western"><surname>Metter</surname><given-names>EJ</given-names></name><name name-style="western"><surname>An</surname><given-names>Y</given-names></name><name name-style="western"><surname>Zonderman</surname><given-names>AB</given-names></name><name name-style="western"><surname>Resnick</surname><given-names>SM</given-names></name></person-group><article-title>Hearing loss and cognition in the Baltimore Longitudinal Study of Aging.</article-title><source>Neuropsychology</source>. <year>2011</year>;<volume>25</volume>:<fpage>763</fpage>&#8211;<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1037/a0024238</pub-id><pub-id pub-id-type="pmid">21728425</pub-id><pub-id pub-id-type="pmcid">PMC3193888</pub-id></mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lin</surname><given-names>FR</given-names></name></person-group><article-title>Hearing loss and cognition among older adults in the United States.</article-title><source>J Gerontol A Biol Sci Med Sci</source>. <year>2011</year>;<volume>66</volume>:<fpage>1131</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1093/gerona/glr115</pub-id><pub-id pub-id-type="pmid">21768501</pub-id><pub-id pub-id-type="pmcid">PMC3172566</pub-id></mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hardy</surname><given-names>CJ</given-names></name><name name-style="western"><surname>Marshall</surname><given-names>CR</given-names></name><name name-style="western"><surname>Golden</surname><given-names>HL</given-names></name><name name-style="western"><surname>Clark</surname><given-names>CN</given-names></name><name name-style="western"><surname>Mummery</surname><given-names>CJ</given-names></name><name name-style="western"><surname>Griffiths</surname><given-names>TD</given-names></name><etal/></person-group><article-title>Hearing and dementia.</article-title><source>J Neurol</source>. <year>2016</year>;<volume>263</volume>:<fpage>2339</fpage>&#8211;<lpage>54</lpage>. <pub-id pub-id-type="doi">10.1007/s00415-016-8208-y</pub-id><pub-id pub-id-type="pmid">27372450</pub-id><pub-id pub-id-type="pmcid">PMC5065893</pub-id></mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Johnson</surname><given-names>JCS</given-names></name><name name-style="western"><surname>Marshall</surname><given-names>CR</given-names></name><name name-style="western"><surname>Weil</surname><given-names>RS</given-names></name><name name-style="western"><surname>Bamiou</surname><given-names>DE</given-names></name><name name-style="western"><surname>Hardy</surname><given-names>CJD</given-names></name><name name-style="western"><surname>Warren</surname><given-names>JD</given-names></name></person-group><article-title>Hearing and dementia: from ears to brain.</article-title><source>Brain</source>. <year>2021</year>;<volume>144</volume>:<fpage>391</fpage>&#8211;<lpage>401</lpage>. <pub-id pub-id-type="doi">10.1093/brain/awaa429</pub-id><pub-id pub-id-type="pmid">33351095</pub-id><pub-id pub-id-type="pmcid">PMC7940169</pub-id></mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>van Hooren</surname><given-names>SA</given-names></name><name name-style="western"><surname>Anteunis</surname><given-names>LJ</given-names></name><name name-style="western"><surname>Valentijn</surname><given-names>SA</given-names></name><name name-style="western"><surname>Bosma</surname><given-names>H</given-names></name><name name-style="western"><surname>Ponds</surname><given-names>RW</given-names></name><name name-style="western"><surname>Jolles</surname><given-names>J</given-names></name><etal/></person-group><article-title>Does cognitive function in older adults with hearing impairment improve by hearing aid use?</article-title><source>Int J Audiol</source>. <year>2005</year>;<volume>44</volume>:<fpage>265</fpage>&#8211;<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1080/14992020500060370</pub-id><pub-id pub-id-type="pmid">16028789</pub-id></mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gregory</surname><given-names>S</given-names></name><name name-style="western"><surname>Billings</surname><given-names>J</given-names></name><name name-style="western"><surname>Wilson</surname><given-names>D</given-names></name><name name-style="western"><surname>Livingston</surname><given-names>G</given-names></name><name name-style="western"><surname>Schilder</surname><given-names>AG</given-names></name><name name-style="western"><surname>Costafreda</surname><given-names>SG</given-names></name></person-group><article-title>Experiences of hearing aid use among patients with mild cognitive impairment and Alzheimer&#8217;s disease dementia: A qualitative study.</article-title><source>SAGE Open Med</source>. <year>2020</year>;<volume>8</volume>:<elocation-id>2050312120904572</elocation-id>. <pub-id pub-id-type="doi">10.1177/2050312120904572</pub-id><pub-id pub-id-type="pmid">32166027</pub-id><pub-id pub-id-type="pmcid">PMC7054731</pub-id></mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tun</surname><given-names>PA</given-names></name><name name-style="western"><surname>McCoy</surname><given-names>S</given-names></name><name name-style="western"><surname>Wingfield</surname><given-names>A</given-names></name></person-group><article-title>Aging, hearing acuity, and the attentional costs of effortful listening.</article-title><source>Psychol Aging</source>. <year>2009</year>;<volume>24</volume>:<fpage>761</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1037/a0014802</pub-id><pub-id pub-id-type="pmid">19739934</pub-id><pub-id pub-id-type="pmcid">PMC2773464</pub-id></mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Dawes</surname><given-names>P</given-names></name><name name-style="western"><surname>Emsley</surname><given-names>R</given-names></name><name name-style="western"><surname>Cruickshanks</surname><given-names>KJ</given-names></name><name name-style="western"><surname>Moore</surname><given-names>DR</given-names></name><name name-style="western"><surname>Fortnum</surname><given-names>H</given-names></name><name name-style="western"><surname>Edmondson-Jones</surname><given-names>M</given-names></name><etal/></person-group><article-title>Hearing loss and cognition: the role of hearing AID, social isolation and depression.</article-title><source>PLoS One</source>. <year>2015</year>;<volume>10</volume>:<elocation-id>e0119616</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0119616</pub-id><pub-id pub-id-type="pmid">25760329</pub-id><pub-id pub-id-type="pmcid">PMC4356542</pub-id></mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ramsay</surname><given-names>S</given-names></name><name name-style="western"><surname>Ebrahim</surname><given-names>S</given-names></name><name name-style="western"><surname>Whincup</surname><given-names>P</given-names></name><name name-style="western"><surname>Papacosta</surname><given-names>O</given-names></name><name name-style="western"><surname>Morris</surname><given-names>R</given-names></name><name name-style="western"><surname>Lennon</surname><given-names>L</given-names></name><etal/></person-group><article-title>Social engagement and the risk of cardiovascular disease mortality: results of a prospective population-based study of older men.</article-title><source>Ann Epidemiol</source>. <year>2008</year>;<volume>18</volume>:<fpage>476</fpage>&#8211;<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1016/j.annepidem.2007.12.007</pub-id><pub-id pub-id-type="pmid">18291672</pub-id></mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Berkman</surname><given-names>LF</given-names></name><name name-style="western"><surname>Glass</surname><given-names>T</given-names></name><name name-style="western"><surname>Brissette</surname><given-names>I</given-names></name><name name-style="western"><surname>Seeman</surname><given-names>TE</given-names></name></person-group><article-title>From social integration to health: Durkheim in the new millennium.</article-title><source>Soc Sci Med</source>. <year>2000</year>;<volume>51</volume>:<fpage>843</fpage>&#8211;<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1016/S0277-9536(00)00065-4</pub-id><pub-id pub-id-type="pmid">10972429</pub-id></mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lavie</surname><given-names>N</given-names></name></person-group><article-title>Perceptual load as a necessary condition for selective attention.</article-title><source>J Exp Psychol Hum Percept Perform</source>. <year>1995</year>;<volume>21</volume>:<fpage>451</fpage>&#8211;<lpage>68</lpage>. <pub-id pub-id-type="doi">10.1037/0096-1523.21.3.451</pub-id><pub-id pub-id-type="pmid">7790827</pub-id></mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tomioka</surname><given-names>K</given-names></name><name name-style="western"><surname>Kurumatan</surname><given-names>N</given-names></name><name name-style="western"><surname>Hosoi</surname><given-names>H</given-names></name></person-group><article-title>Association Between Social Participation and Instrumental Activities of Daily Living Among Community-Dwelling Older Adults.</article-title><source>J Epidemiol</source>. <year>2016</year>;<volume>26</volume>:<fpage>553</fpage>&#8211;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.2188/jea.JE20150253</pub-id><pub-id pub-id-type="pmid">27180933</pub-id><pub-id pub-id-type="pmcid">PMC5037253</pub-id></mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Min</surname><given-names>J</given-names></name><name name-style="western"><surname>Ailshire</surname><given-names>J</given-names></name><name name-style="western"><surname>Crimmins</surname><given-names>EM</given-names></name></person-group><article-title>Social engagement and depressive symptoms: do baseline depression status and type of social activities make a difference?</article-title><source>Age Ageing</source>. <year>2016</year>;<volume>45</volume>:<fpage>838</fpage>&#8211;<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1093/ageing/afw125</pub-id><pub-id pub-id-type="pmid">27496942</pub-id><pub-id pub-id-type="pmcid">PMC6312002</pub-id></mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Saczynski</surname><given-names>JS</given-names></name><name name-style="western"><surname>Pfeifer</surname><given-names>LA</given-names></name><name name-style="western"><surname>Masaki</surname><given-names>K</given-names></name><name name-style="western"><surname>Korf</surname><given-names>ES</given-names></name><name name-style="western"><surname>Laurin</surname><given-names>D</given-names></name><name name-style="western"><surname>White</surname><given-names>L</given-names></name><etal/></person-group><article-title>The effect of social engagement on incident dementia: the Honolulu-Asia Aging Study.</article-title><source>Am J Epidemiol</source>. <year>2006</year>;<volume>163</volume>:<fpage>433</fpage>&#8211;<lpage>40</lpage>. <pub-id pub-id-type="doi">10.1093/aje/kwj061</pub-id><pub-id pub-id-type="pmid">16410348</pub-id></mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zunzunegui</surname><given-names>MV</given-names></name><name name-style="western"><surname>Alvarado</surname><given-names>BE</given-names></name><name name-style="western"><surname>Del Ser</surname><given-names>T</given-names></name><name name-style="western"><surname>Otero</surname><given-names>A</given-names></name></person-group><article-title>Social networks, social integration, and social engagement determine cognitive decline in community-dwelling Spanish older adults.</article-title><source>J Gerontol B Psychol Sci Soc Sci</source>. <year>2003</year>;<volume>58</volume>:<fpage>S93</fpage>&#8211;<lpage>100</lpage>. <pub-id pub-id-type="doi">10.1093/geronb/58.2.S93</pub-id><pub-id pub-id-type="pmid">12646598</pub-id><pub-id pub-id-type="pmcid">PMC3833829</pub-id></mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zide</surname><given-names>BS</given-names></name><name name-style="western"><surname>Donovan</surname><given-names>NJ</given-names></name><name name-style="western"><surname>Lee</surname><given-names>S</given-names></name><name name-style="western"><surname>Nag</surname><given-names>S</given-names></name><name name-style="western"><surname>Bennett</surname><given-names>DA</given-names></name><name name-style="western"><surname>Jacobs</surname><given-names>HIL</given-names></name></person-group><article-title>Social activity mediates locus coeruleus tangle-related cognition in older adults.</article-title><source>Mol Psychiatry</source>. <year>2024</year>;<volume>29</volume>:<fpage>2001</fpage>&#8211;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1038/s41380-024-02467-y</pub-id><pub-id pub-id-type="pmid">38355788</pub-id><pub-id pub-id-type="pmcid">PMC11408254</pub-id></mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Anat&#252;rk</surname><given-names>M</given-names></name><name name-style="western"><surname>Suri</surname><given-names>S</given-names></name><name name-style="western"><surname>Zsoldos</surname><given-names>E</given-names></name><name name-style="western"><surname>Filippini</surname><given-names>N</given-names></name><name name-style="western"><surname>Mahmood</surname><given-names>A</given-names></name><name name-style="western"><surname>Singh-Manoux</surname><given-names>A</given-names></name><etal/></person-group><article-title>Associations Between Longitudinal Trajectories of Cognitive and Social Activities and Brain Health in Old Age.</article-title><source>JAMA Netw Open</source>. <year>2020</year>;<volume>3</volume>:<elocation-id>e2013793</elocation-id>. <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.13793</pub-id><pub-id pub-id-type="pmid">32816032</pub-id><pub-id pub-id-type="pmcid">PMC7441365</pub-id></mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fisher</surname><given-names>DE</given-names></name><name name-style="western"><surname>Li</surname><given-names>CM</given-names></name><name name-style="western"><surname>Hoffman</surname><given-names>HJ</given-names></name><name name-style="western"><surname>Chiu</surname><given-names>MS</given-names></name><name name-style="western"><surname>Themann</surname><given-names>CL</given-names></name><name name-style="western"><surname>Petersen</surname><given-names>H</given-names></name><etal/></person-group><article-title>Sex-specific predictors of hearing-aid use in older persons: The age, gene/environment susceptibility - Reykjavik study.</article-title><source>Int J Audiol</source>. <year>2015</year>;<volume>54</volume>:<fpage>634</fpage>&#8211;<lpage>41</lpage>. <pub-id pub-id-type="doi">10.3109/14992027.2015.1024889</pub-id><pub-id pub-id-type="pmid">25816699</pub-id><pub-id pub-id-type="pmcid">PMC4536127</pub-id></mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lee</surname><given-names>DH</given-names></name><name name-style="western"><surname>Noh</surname><given-names>H</given-names></name></person-group><article-title>Prediction of the use of conventional hearing aid in Korean adults with unilateral hearing impairment.</article-title><source>Int J Audiol</source>. <year>2015</year>;<volume>54</volume>:<fpage>613</fpage>&#8211;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.3109/14992027.2015.1023902</pub-id><pub-id pub-id-type="pmid">25812581</pub-id></mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Holman</surname><given-names>JA</given-names></name><name name-style="western"><surname>Drummond</surname><given-names>A</given-names></name><name name-style="western"><surname>Naylor</surname><given-names>G</given-names></name></person-group><article-title>Hearing Aid Reduce Daily-Life Fatigue and Increase Social Activity: A Longitudinal Study.</article-title><source>Trends Hear</source>. <year>2021</year>;<volume>25</volume>:<elocation-id>23312165211052786</elocation-id>. <pub-id pub-id-type="doi">10.1177/23312165211052786</pub-id><pub-id pub-id-type="pmid">34747674</pub-id><pub-id pub-id-type="pmcid">PMC8579337</pub-id></mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rudan</surname><given-names>I</given-names></name><name name-style="western"><surname>Song</surname><given-names>P</given-names></name><name name-style="western"><surname>Adeloye</surname><given-names>D</given-names></name><name name-style="western"><surname>Campbell</surname><given-names>H</given-names></name></person-group><article-title>Journal of Global Health&#8217;s Guidelines for Reporting Analyses of Big Data Repositories Open to the Public (GRABDROP): preventing &#8216;paper mills&#8217;, duplicate publications, misuse of statistical inference, and inappropriate use of artificial intelligence.</article-title><source>J Glob Health</source>. <year>2025</year>;<volume>15</volume>:<fpage>01004</fpage>. <pub-id pub-id-type="doi">10.7189/jogh.15.01004</pub-id><pub-id pub-id-type="pmid">40587200</pub-id><pub-id pub-id-type="pmcid">PMC12208284</pub-id></mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Crimmins</surname><given-names>EM</given-names></name><name name-style="western"><surname>Kim</surname><given-names>JK</given-names></name><name name-style="western"><surname>Langa</surname><given-names>KM</given-names></name><name name-style="western"><surname>Weir</surname><given-names>DR</given-names></name></person-group><article-title>Assessment of cognition using surveys and neuropsychological assessment: the Health and Retirement Study and the Aging, Demographics, and Memory Study.</article-title><source>J Gerontol B Psychol Sci Soc Sci</source>. <year>2011</year>;<volume>66</volume>:<fpage>i162</fpage>&#8211;<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1093/geronb/gbr048</pub-id><pub-id pub-id-type="pmid">21743047</pub-id><pub-id pub-id-type="pmcid">PMC3165454</pub-id></mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="webpage">National School of Development, Peking University. China Health and Retirement Longitudinal Study (CHARLS) - Design and Implementation. 2021. Available: <ext-link xlink:href="http://charls.pku.edu.cn/" ext-link-type="uri">http://charls.pku.edu.cn/</ext-link>. Accessed: 18 August 2023.</mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cao</surname><given-names>L</given-names></name><name name-style="western"><surname>Zhao</surname><given-names>Z</given-names></name><name name-style="western"><surname>Ji</surname><given-names>C</given-names></name><name name-style="western"><surname>Xia</surname><given-names>Y</given-names></name></person-group><article-title>Association between solid fuel use and cognitive impairment: A cross-sectional and follow-up study in a middle-aged and older Chinese population.</article-title><source>Environ Int</source>. <year>2021</year>;<volume>146</volume>:<elocation-id>106251</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envint.2020.106251</pub-id><pub-id pub-id-type="pmid">33248346</pub-id></mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Levy</surname><given-names>R</given-names></name></person-group><article-title>Aging-associated cognitive decline. Working Party of the International Psychogeriatric Association in collaboration with the World Health Organization.</article-title><source>Int Psychogeriatr</source>. <year>1994</year>;<volume>6</volume>:<fpage>63</fpage>&#8211;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1017/S1041610294001626</pub-id><pub-id pub-id-type="pmid">8054494</pub-id></mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>X</given-names></name><name name-style="western"><surname>Huang</surname><given-names>X</given-names></name><name name-style="western"><surname>Du</surname><given-names>J</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>W</given-names></name><name name-style="western"><surname>Gong</surname><given-names>L</given-names></name></person-group><article-title>[Association between insufficient physical activity and the risk of cognitive impairment in middle-aged and elderly people in rural China].</article-title><source>Chongqing Yike Daxue Xuebao</source>. <year>2024</year>;<volume>49</volume>:<fpage>919</fpage>&#8211;<lpage>24</lpage>. <comment>Chinese</comment>.</mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bucholc</surname><given-names>M</given-names></name><name name-style="western"><surname>McClean</surname><given-names>PL</given-names></name><name name-style="western"><surname>Bauermeister</surname><given-names>S</given-names></name><name name-style="western"><surname>Todd</surname><given-names>S</given-names></name><name name-style="western"><surname>Ding</surname><given-names>X</given-names></name><name name-style="western"><surname>Ye</surname><given-names>Q</given-names></name><etal/></person-group><article-title>Association of the use of hearing aid with the conversion from mild cognitive impairment to dementia and progression of dementia: A longitudinal retrospective study.</article-title><source>Alzheimers Dement (N Y)</source>. <year>2021</year>;<volume>7</volume>:<elocation-id>e12122</elocation-id>. <pub-id pub-id-type="doi">10.1002/trc2.12122</pub-id><pub-id pub-id-type="pmid">33614893</pub-id><pub-id pub-id-type="pmcid">PMC7882528</pub-id></mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ward</surname><given-names>A</given-names></name><name name-style="western"><surname>Arrighi</surname><given-names>HM</given-names></name><name name-style="western"><surname>Michels</surname><given-names>S</given-names></name><name name-style="western"><surname>Cedarbaum</surname><given-names>JM</given-names></name></person-group><article-title>Mild cognitive impairment: disparity of incidence and prevalence estimates.</article-title><source>Alzheimers Dement</source>. <year>2012</year>;<volume>8</volume>:<fpage>14</fpage>&#8211;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1016/j.jalz.2011.01.002</pub-id><pub-id pub-id-type="pmid">22265588</pub-id></mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Xiong</surname><given-names>J</given-names></name><name name-style="western"><surname>Kang</surname><given-names>SS</given-names></name><name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name><name name-style="western"><surname>Liu</surname><given-names>X</given-names></name><name name-style="western"><surname>Kuo</surname><given-names>TC</given-names></name><name name-style="western"><surname>Korkmaz</surname><given-names>F</given-names></name><etal/></person-group><article-title>FSH blockade improves cognition in mice with Alzheimer&#8217;s disease.</article-title><source>Nature</source>. <year>2022</year>;<volume>603</volume>:<fpage>470</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-022-04463-0</pub-id><pub-id pub-id-type="pmid">35236988</pub-id><pub-id pub-id-type="pmcid">PMC9940301</pub-id></mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zhou</surname><given-names>J</given-names></name><name name-style="western"><surname>Lv</surname><given-names>Y</given-names></name><name name-style="western"><surname>Mao</surname><given-names>C</given-names></name><name name-style="western"><surname>Duan</surname><given-names>J</given-names></name><name name-style="western"><surname>Gao</surname><given-names>X</given-names></name><name name-style="western"><surname>Wang</surname><given-names>J</given-names></name><etal/></person-group><article-title>Development and Validation of a Nomogram for Predicting the 6-Year Risk of Cognitive Impairment Among Chinese Older Adults.</article-title><source>J Am Med Dir Assoc</source>. <year>2020</year>;<volume>21</volume>:<fpage>864</fpage>&#8211;<lpage>871.e6</lpage>. <pub-id pub-id-type="doi">10.1016/j.jamda.2020.03.032</pub-id><pub-id pub-id-type="pmid">32507532</pub-id><pub-id pub-id-type="pmcid">PMC7299771</pub-id></mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Banerjee</surname><given-names>S</given-names></name></person-group><article-title>Determinants of rural-urban differential in healthcare utilization among the elderly population in India.</article-title><source>BMC Public Health</source>. <year>2021</year>;<volume>21</volume>:<fpage>939</fpage>. <pub-id pub-id-type="doi">10.1186/s12889-021-10773-1</pub-id><pub-id pub-id-type="pmid">34001026</pub-id><pub-id pub-id-type="pmcid">PMC8130530</pub-id></mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Griffiths</surname><given-names>TD</given-names></name><name name-style="western"><surname>Lad</surname><given-names>M</given-names></name><name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name><name name-style="western"><surname>Holmes</surname><given-names>E</given-names></name><name name-style="western"><surname>McMurray</surname><given-names>B</given-names></name><name name-style="western"><surname>Maguire</surname><given-names>EA</given-names></name><etal/></person-group><article-title>How Can Hearing Loss Cause Dementia?</article-title><source>Neuron</source>. <year>2020</year>;<volume>108</volume>:<fpage>401</fpage>&#8211;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuron.2020.08.003</pub-id><pub-id pub-id-type="pmid">32871106</pub-id><pub-id pub-id-type="pmcid">PMC7664986</pub-id></mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rafnsson</surname><given-names>SB</given-names></name><name name-style="western"><surname>Orrell</surname><given-names>M</given-names></name><name name-style="western"><surname>d&#8217;Orsi</surname><given-names>E</given-names></name><name name-style="western"><surname>Hogervorst</surname><given-names>E</given-names></name><name name-style="western"><surname>Steptoe</surname><given-names>A</given-names></name></person-group><article-title>Loneliness, Social Integration, and Incident Dementia Over 6 Years: Prospective Findings From the English Longitudinal Study of Ageing.</article-title><source>J Gerontol B Psychol Sci Soc Sci</source>. <year>2020</year>;<volume>75</volume>:<fpage>114</fpage>&#8211;<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1093/geronb/gbx087</pub-id><pub-id pub-id-type="pmid">28658937</pub-id><pub-id pub-id-type="pmcid">PMC6909434</pub-id></mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Barnes</surname><given-names>LL</given-names></name><name name-style="western"><surname>Mendes de Leon</surname><given-names>CF</given-names></name><name name-style="western"><surname>Wilson</surname><given-names>RS</given-names></name><name name-style="western"><surname>Bienias</surname><given-names>JL</given-names></name><name name-style="western"><surname>Evans</surname><given-names>DA</given-names></name></person-group><article-title>Social resources and cognitive decline in a population of older African Americans and whites.</article-title><source>Neurology</source>. <year>2004</year>;<volume>63</volume>:<fpage>2322</fpage>&#8211;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1212/01.WNL.0000147473.04043.B3</pub-id><pub-id pub-id-type="pmid">15623694</pub-id></mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fu</surname><given-names>C</given-names></name><name name-style="western"><surname>Li</surname><given-names>Z</given-names></name><name name-style="western"><surname>Mao</surname><given-names>Z</given-names></name></person-group><article-title>Association between Social Activities and Cognitive Function among the Elderly in China: A Cross-Sectional Study.</article-title><source>Int J Environ Res Public Health</source>. <year>2018</year>;<volume>15</volume>:<fpage>231</fpage>. <pub-id pub-id-type="doi">10.3390/ijerph15020231</pub-id><pub-id pub-id-type="pmid">29385773</pub-id><pub-id pub-id-type="pmcid">PMC5858300</pub-id></mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hultsch</surname><given-names>DF</given-names></name><name name-style="western"><surname>Hertzog</surname><given-names>C</given-names></name><name name-style="western"><surname>Small</surname><given-names>BJ</given-names></name><name name-style="western"><surname>Dixon</surname><given-names>RA</given-names></name></person-group><article-title>Use it or lose it: engaged lifestyle as a buffer of cognitive decline in aging?</article-title><source>Psychol Aging</source>. <year>1999</year>;<volume>14</volume>:<fpage>245</fpage>&#8211;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1037/0882-7974.14.2.245</pub-id><pub-id pub-id-type="pmid">10403712</pub-id></mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bettio</surname><given-names>L</given-names></name><name name-style="western"><surname>Thacker</surname><given-names>JS</given-names></name><name name-style="western"><surname>Hutton</surname><given-names>C</given-names></name><name name-style="western"><surname>Christie</surname><given-names>BR</given-names></name></person-group><article-title>Modulation of synaptic plasticity by exercise.</article-title><source>Int Rev Neurobiol</source>. <year>2019</year>;<volume>147</volume>:<fpage>295</fpage>&#8211;<lpage>322</lpage>. <pub-id pub-id-type="doi">10.1016/bs.irn.2019.07.002</pub-id><pub-id pub-id-type="pmid">31607359</pub-id></mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>YP</given-names></name><name name-style="western"><surname>Lin</surname><given-names>SI</given-names></name><name name-style="western"><surname>Chen</surname><given-names>CH</given-names></name></person-group><article-title>Gender differences in the relationship of social activity and quality of life in community-dwelling Taiwanese elders.</article-title><source>J Women Aging</source>. <year>2011</year>;<volume>23</volume>:<fpage>305</fpage>&#8211;<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1080/08952841.2011.611052</pub-id><pub-id pub-id-type="pmid">22014220</pub-id></mixed-citation></ref></ref-list></back></article>
+        
+    </metadata>
+</record>
+    </GetRecord>
+
+</OAI-PMH>

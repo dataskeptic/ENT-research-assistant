@@ -1,0 +1,430 @@
+
+
+
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-06-04T16:23:36Z</responseDate>
+    <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:13197092" metadataPrefix="pmc">https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/</request>
+    
+    <GetRecord>
+        <record>
+    <header>
+    <identifier>oai:pubmedcentral.nih.gov:13197092</identifier>
+    <datestamp>2026-05-23</datestamp>
+    
+        
+        <setSpec>jcrpe</setSpec>
+        
+    
+        
+        <setSpec>pmc-open</setSpec>
+        
+    
+</header>
+    <metadata>
+        
+        <article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.4/ https://jats.nlm.nih.gov/archiving/1.4/xsd/JATS-archivearticle1-4.xsd" xml:lang="en" article-type="case-report" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Clin Res Pediatr Endocrinol</journal-id><journal-id journal-id-type="iso-abbrev">J Clin Res Pediatr Endocrinol</journal-id><journal-id journal-id-type="pmc-domain-id">1419</journal-id><journal-id journal-id-type="pmc-domain">jcrpe</journal-id><journal-title-group><journal-title>Journal of Clinical Research in Pediatric Endocrinology</journal-title></journal-title-group><issn pub-type="ppub">1308-5727</issn><issn pub-type="epub">1308-5735</issn><publisher><publisher-name>Galenos Yayinevi</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13197092</article-id><article-id pub-id-type="pmcid-ver">PMC13197092.1</article-id><article-id pub-id-type="pmcaid">13197092</article-id><article-id pub-id-type="pmcaiid">13197092</article-id><article-id pub-id-type="pmid">40099975</article-id><article-id pub-id-type="doi">10.4274/jcrpe.galenos.2025.2024-10-12</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Case Report</subject></subj-group></article-categories><title-group><article-title>Thauvin-Robinet-Faivre Syndrome: A <italic toggle="yes">FIBP</italic> Variant in an Adolescent with Segmental Overgrowth and Thyroid Carcinoma</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7708-3498</contrib-id><name name-style="western"><surname>&#350;iraz</surname><given-names initials="&#220;G">&#220;lk&#252; G&#252;l</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1853-3780</contrib-id><name name-style="western"><surname>G&#246;l</surname><given-names initials="DK">Deniz Ko&#231;ak</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2251-2387</contrib-id><name name-style="western"><surname>Rohlfs</surname><given-names initials="M">Meino</given-names></name><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0956-0445</contrib-id><name name-style="western"><surname>Klein</surname><given-names initials="C">Christoph</given-names></name><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2691-4826</contrib-id><name name-style="western"><surname>&#220;nal</surname><given-names initials="E">Ekrem</given-names></name><xref rid="aff4" ref-type="aff">4</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0991-6539</contrib-id><name name-style="western"><surname>Hatipo&#287;lu</surname><given-names initials="N">Nihal</given-names></name><xref rid="aff1" ref-type="aff">1</xref><email>nihalhatipoglu@yahoo.com</email></contrib><aff id="aff1"><label>1</label>Erciyes University Faculty of Medicine, Department of Pediatric Endocrinology, Kayseri, T&#252;rkiye</aff><aff id="aff2"><label>2</label>Erciyes University Faculty of Medicine, Department of Pediatric Hematology-Oncology, Kayseri, T&#252;rkiye</aff><aff id="aff3"><label>3</label>Ludwig-Maximilians-University, Genetic Dr. Von Hauner Children&#8217;s Hospital, Department of Pediatrics, Lindwurmstr, Munich, Germany</aff><aff id="aff4"><label>4</label>Hasan Kalyoncu University Faculty of Health Sciences; Medical Point Hospital, Department of Pediatric Hematology Oncology and Bone Marrow Transplantation Unit, Gaziantep, T&#252;rkiye</aff></contrib-group><pub-date publication-format="electronic" date-type="collection"><month>5</month><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>22</day><month>5</month><year>2026</year></pub-date><volume>18</volume><issue>Suppl 1</issue><issue-id pub-id-type="pmc-issue-id">514165</issue-id><fpage>75</fpage><lpage>82</lpage><history><date date-type="received"><day>23</day><month>10</month><year>2024</year></date><date date-type="accepted"><day>13</day><month>3</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>22</day><month>05</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>23</day><month>05</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-06-02 12:25:16.743"><day>02</day><month>06</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>&#169;Copyright 2026 by Turkish Society for Pediatric Endocrinology and Diabetes / The Journal of Clinical Research in Pediatric Endocrinology published by Galenos Publishing House.</copyright-statement><copyright-year>2026</copyright-year><copyright-holder>Journal of Clinical Research in Pediatric Endocrinology</copyright-holder><license><ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND) International License.</license-p></license></permissions><self-uri content-type="pmc-pdf" xlink:href="JClinResPediatrEndocrinol-18-1-75.pdf"/><abstract abstract-type="plain-language-summary"><title>ABSTRACT</title><p>Overgrowth syndromes are rare genetic disorders arising from alterations in the growth factors pathway. These syndromes can present as generalized overgrowth, characterized by macrosomia and excessive height compared to peers, or partial overgrowth syndromes, where specific body regions exhibit disproportionate growth often accompanied by vascular anomalies. Both forms are associated with an increased risk of tumor development. The <italic toggle="yes">fibroblast growth factor 1 (FGF-1) intracellular binding protein (FIBP)</italic> gene plays a critical role in cell proliferation and differentiation by interacting with growth factors. In this article, we present a case of Thauvin-Robinet-Faivre syndrome (TROFAS) in a 16-year-old girl, diagnosed with homozygous NM_004214.5 c.412-3_415dup (p. Asp139AIafsTer3) variant in the <italic toggle="yes">FIBP</italic> gene. This case exhibits phenotypic features and tumor development, including thyroid follicular carcinoma and parotid mucoepidermoid carcinoma, that have not been previously reported in association with this syndrome. Recent studies have implicated <italic toggle="yes">FIBP</italic> gene defects in overgrowth syndromes, with only a limited number of cases described globally. This case expands the known clinical and tumor spectrum associated with TROFAS, providing new insights into the pathophysiology of this rare disorder.</p></abstract><kwd-group><kwd>Overgrowth syndromes</kwd><kwd>FGF-1 intracellular binding protein (FIBP) gene</kwd><kwd>cancer</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta></custom-meta-group></article-meta></front><body><boxed-text position="float" orientation="portrait"><sec><title>What is already known on this topic?</title><p>Overgrowth syndromes are rare diseases seen in pediatric endocrinology clinics. Those affecting growth factor pathways may present with body parts or limb hypertrophy and a predisposition to malignancy, including endocrine organs. <italic toggle="yes">Fibroblast growth factor 1 intracellular binding protein</italic> gene variants cause Thauvin-Robinet-Faivre syndrome (TROFAS), a new disease defined in this pathway.</p></sec><sec><title>What this study adds?</title><p>The present case represents the ninth instance of TROFAS reported worldwide and the fifth from T&#252;rkiye, contributing to the literature in terms of clinical findings and clinical presentations in cases with suspected tumor predisposition.</p></sec></boxed-text><sec sec-type="introduction"><title>Introduction</title><p>Overgrowth syndromes comprise a diverse group of disorders characterized by prenatal overgrowth, persistent postnatal overgrowth in both weight and height, segmental overgrowth, congenital malformations, intellectual disability, and in some cases, an increased risk of neoplasia. Segmental overgrowth refers to excessive growth localized to specific body regions, such as a single digit, an extremity, one side of the face, or the head (macrocephaly). It often presents as asymmetrical overgrowth of musculoskeletal, adipose or brain tissue, vascular malformations and/or overlying skin lesions. This phenotype is frequently associated with mosaic variants in the phosphoinositide-3-kinase-protein kinase B (PI3K/AKT)/mammalian target of rapamycin (mTOR) pathway, a key signaling cascade activated by growth factors such as insulin-like growth factor-1 (IGF-1), vascular endothelial growth factor (VEGF), and epidermal growth factor (EGF) (<xref rid="ref-1" ref-type="bibr">1</xref>, <xref rid="ref-2" ref-type="bibr">2</xref>, <xref rid="ref-3" ref-type="bibr">3</xref>).</p><p>The <italic toggle="yes">fibroblast growth factor 1</italic> (<italic toggle="yes">FGF-1</italic>) <italic toggle="yes">intracellular binding protein</italic> (<italic toggle="yes">FIBP</italic>) gene, located on chromosome 11q13.1, is expressed in the membranes of microsomes and mitochondria within the cytoplasm and nucleus (<xref rid="ref-4" ref-type="bibr">4</xref>). The interaction between FGFs and their receptors (FGFRs) plays a crucial role in multiple biological processes, including embryogenesis, neuronal development, and the formation of bone, cartilage, and vascular structures (<xref rid="ref-4" ref-type="bibr">4</xref>, <xref rid="ref-5" ref-type="bibr">5</xref>).</p><p>Thauvin-Robinet-Faivre Syndrome (TROFAS) is a rare autosomal recessive disorder caused by biallelic pathogenic variants in the <italic toggle="yes">FIBP</italic> gene. TROFAS (OMIM: 617107) is characterized by a broad spectrum of phenotypic features, including mild to severe learning difficulties, distinctive facial dysmorphisms, enlarged hands and feet, generalized overgrowth, and a predisposition to various congenital anomalies affecting the heart, eyes, kidneys, and skeleton. Only eight cases of TROFAS have been reported worldwide, making it a largely under-recognized condition with limited available literature (<xref rid="ref-6" ref-type="bibr">6</xref>, <xref rid="ref-7" ref-type="bibr">7</xref>, <xref rid="ref-8" ref-type="bibr">8</xref>, <xref rid="ref-9" ref-type="bibr">9</xref>).</p><p>Here, we present the case of a 16-year-old female patient diagnosed with a homozygous likely pathogenic variant in the <italic toggle="yes">FIBP</italic> gene, born to consanguineous parents. This case is particularly notable due to the malignancies and distinct clinical features not previously described in other reported TROFAS cases.</p></sec><sec><title>Case Report</title><p>A 16-year-old female presented with a six-month history of swelling on the right side of her neck and chin. She had previously undergone surgery at another hospital, where a right hemithyroidectomy and excision of a right parotid mass were performed. Histopathological examination revealed thyroid follicular carcinoma and a low-grade mucoepidermoid carcinoma of the parotid gland.</p><p>The patient was born at full term to consanguineous parents, with a birth weight of 2800 g. Her neuromotor developmental history was notable for significant delays; she began walking at the age of 3 years and started speaking between 6 and 7 years of age. The family history included two healthy siblings, one sister with congenital heart disease, and two siblings who died in the neonatal period for unknown reasons.</p><p>On physical examination, her weight was 59.6 kg (66<sup>th</sup> percentile), height was 159.3 cm (29<sup>th</sup> percentile), and body mass index was 23.5 kg/m&#178; (79<sup>th</sup> percentile). Her head circumference measured 56.8 cm (77<sup>th</sup> percentile). Sitting height was 85 cm, with a sitting height-to-height ratio of 0.53 (within the normal range). Her arm span was 163 cm, with an arm span-height difference of 4 cm [+1 standard deviation (SD) to +2 SD]. Pubertal assessment was consistent with Tanner stage 5; she had menarche at 12.5 years, and her menstrual cycles were regular.</p><p>Notable facial features included a flat midface, mild right ptosis, low palpebral fissures, deep-set eyes, thick lips, thick and broad eyebrows with mild synophrys, a pointed chin, a prominent nasal bridge, a narrow forehead, a high palate, posteriorly rotated ears, and raised earlobes. Skeletal examination revealed mild pectus excavatum and pes planus. In addition, she had enlarged hands and feet, broad port-wine stains on her arms and legs, and varicose veins in both legs. Syndactyly was present between the second and third toes on the left foot, and a flexion contracture was noted between the first and second phalanges of the third finger on the right hand, which developed following hemangioma surgery (<xref rid="figure-1" ref-type="fig">Figure 1</xref> and <xref rid="figure-2" ref-type="fig">2</xref>). Numerous nevi were also observed on her face and trunk. The patient had an intellectual disability.</p><p>Parental heights were 155 cm (-3.4 SD) for the father and 157 cm (-1.04 SD) for the mother. Her 25-year-old brother&#8217;s height was 169 cm (-1.17 SD), and her 20-year-old sister&#8217;s height was 158 cm (-0.87 SD). It was reported that her 14-year-old sister has a normal height but is being followed at another center for a cardiac condition.</p><p>Laboratory tests, including a complete blood count and biochemistry, were unremarkable. Eye and hearing examinations were normal; her IQ score was 65. Radiographic imaging showed mild thoracic scoliosis and closed epiphyses. Abdominal and renal ultrasonography did not detect any anomaly. Anatomical variation was noted, with the hepatic artery originating directly from the abdominal aorta, while the splenic and left gastric arteries arose from a single branch. Venous Doppler imaging revealed multiple enlarged perforating veins with reflux, connected to the great saphenous vein, with numerous varicose veins in both legs. An echocardiogram detected mild mitral valve prolapse, trace mitral regurgitation, and a small atrial septal defect.</p><p>Surgery and pathology reports indicated that the 3x2.5 cm diameter nodule removed from the right lobe hemithyroidectomy material was non-invasive follicular carcinoma, and the 3.5x3 cm mass removed from the right parotid was low-grade mucoepidermoid carcinoma. No metastatic or residual mass was detected in further scans.</p></sec><sec><title>Methods and Results</title><p>We performed whole exome sequencing (WES) for the patient and her healthy father using the Illumina DNA Prep &amp; TWIST Bioscience Exome 2.0 Plus Comprehensive Exome library preparation and the Illumina NovaSeq 6000 sequencing platform. The bioinformatics analysis pipeline included the Burrows-Wheeler Aligner (BWA 0.7.15) for read alignment, the Genome Analysis Toolkit (GATK 3.6) for variant calling, and the Variant Effect Predictor (VEP 89) for annotation. Variants were filtered based on their frequency using public and in-house databases (e.g., gnomAD) (<xref rid="ref-10" ref-type="bibr">10</xref>, <xref rid="ref-11" ref-type="bibr">11</xref>, <xref rid="ref-12" ref-type="bibr">12</xref>, <xref rid="ref-13" ref-type="bibr">13</xref>).</p><p>Variant pathogenicity was assessed according to the 2015 American College of Medical Genetics and Genomics (ACMG) guidelines (<xref rid="ref-14" ref-type="bibr">14</xref>) Variants in the <italic toggle="yes">FIBP</italic> gene that met the analysis criteria, correlated with the clinical phenotype, and had variant allele frequency values consistent with the expected inheritance pattern were reported. WES revealed a homozygous c.412-3_415dup p.Asp139AlafsTer3 frameshift variant which was assessed to be likely pathogenic in the <italic toggle="yes">FIBP</italic> gene (NM_004214.5), classified according to ACMG criteria as PVS1-PM2. Family segregation analysis confirmed that the father was a heterozygous carrier of this variant, but maternal carrier status could not be verified due to the lack of available DNA samples. The <italic toggle="yes">FIBP</italic> gene is known to follow a loss-of-function disease mechanism, and the identified variant was absent in population databases, including gnomAD, ExAC, and the Turkish Variome.</p></sec><sec sec-type="discussion"><title>Discussion</title><p>The protein product of <italic toggle="yes">F1BP</italic> binds acidic FGF intracellularly, leading to morphological changes, differentiation, and stimulation of mitogenic activity in various cell types (<xref rid="ref-4" ref-type="bibr">4</xref>). The FGF receptor (FGFR) family, similar to IGF receptors, functions through tyrosine kinase signaling pathways. Activation of FGFRs initiates downstream signaling cascades, including the MAPK and PI3K/AKT pathways, which play central roles in cellular differentiation, proliferation, survival, and migration. These pathways are also involved in angiogenesis, vascular repair, and wound healing. Aberrations in FGFR genes such as translocations, amplifications or activating variants have been implicated in various malignancies, including gastric, lung, breast, and ovarian cancers (<xref rid="ref-15" ref-type="bibr">15</xref>).</p><p>Thauvin-Robinet et al. (<xref rid="ref-16" ref-type="bibr">16</xref>) first described TROFAS in 2016 in a 23-year-old male of North African descent, born to consanguineous parents. The patient exhibited overgrowth, macrocephaly, intellectual disability, facial dysmorphism, bilateral retinal coloboma, ventricular septal defect, mitral valve prolapse, bifid ureter, renal malrotation, transient neutropenia, and varicose venous anomalies. The biallelic variant identified in the <italic toggle="yes">FIBP</italic> gene suggested that loss of function in the intracellular domain of FGFRs may be associated with overgrowth syndromes. Further analysis of the patient&#8217;s fibroblasts demonstrated significantly reduced <italic toggle="yes">FIBP</italic> cDNA expression but an increased proliferation rate compared to controls, indicating a potential link between <italic toggle="yes">FIBP </italic>dysfunction and overgrowth through the FGFR3 pathway (<xref rid="ref-16" ref-type="bibr">16</xref>, <xref rid="ref-17" ref-type="bibr">17</xref>).</p><p>In 2016, a homozygous indel variant (NM_198897.1 c.175_176insTAA, p.His59delinsLeuAsn) was identified in three siblings from an Arab family, each presenting with an overgrowth syndrome accompanied by congenital abnormalities. Functional studies using <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic> models demonstrated that patient-derived fibroblasts exhibited markedly increased proliferation rates, reinforcing the association of <italic toggle="yes">FIBP</italic> loss-of-function variants with overgrowth syndromes (<xref rid="ref-18" ref-type="bibr">18</xref>).</p><p>A recent case from T&#252;rkiye described a 9-year-old boy with distinct dysmorphic features, including macrosomia at birth, neuromotor delay, and intellectual disability. His facial features included a triangular face, midface retrusion, pointed chin, deep-set eyes, hypertelorism, long and wavy palpebral fissures, a prominent nasal bridge, thick and broad eyebrows with mild synophrys, a short philtrum, a high palate, and posteriorly rotated ears with upturned earlobes. Additional findings included chest narrowing, mild pectus excavatum, hyperextensible elbow joints, pes planus, telangiectasias, hypoplastic nipples, and unilateral cryptorchidism. Genetic analysis via exome sequencing identified a homozygous frameshift variant (NM_004214.5 c.412-3_415dup, p.Asp139AlafsTer3) in the <italic toggle="yes">FIBP</italic> gene, which was classified as likely pathogenic (<xref rid="ref-6" ref-type="bibr">6</xref>). Subsequently, three additional cases with a similar phenotype carrying the same homozygous NM_004214.5 c.412-3_415dup, p Asp139AlafsTer3 variant were reported from T&#252;rkiye. All reported cases&#8217; clinical and genetic characteristics are summarized in <xref rid="table-1" ref-type="table">Table 1</xref> (<xref rid="ref-6" ref-type="bibr">6</xref>, <xref rid="ref-7" ref-type="bibr">7</xref>, <xref rid="ref-8" ref-type="bibr">8</xref>, <xref rid="ref-9" ref-type="bibr">9</xref>).</p><p>The same frameshift variant was also detected in our patient, introducing a premature stop codon in exon 4 of 10, leading to a truncated or non-functional <italic toggle="yes">FIBP</italic> protein compatible with TROFAS. The loss of <italic toggle="yes">FIBP</italic> function impairs its interaction with growth factors, contributing to dysregulated growth and tumorigenesis, fitting with the observed overgrowth and tumor predisposition in TROFAS. Unlike previously reported cases, our patient did not present with macrosomia, tall stature, macrocephaly, or renal anomalies. However, she shared several overlapping features, including facial dysmorphism, intellectual disability, skeletal abnormalities, and cardiac defects. Moreover, varicose venous enlargement, previously reported in the 23-year-old male described by Thauvin-Robinet et al. (<xref rid="ref-16" ref-type="bibr">16</xref>), was also present in our younger patient, although this feature has not been consistently observed in other cases. Further imaging revealed that our patient also had multiple hemangiomas scattered throughout the body.</p><p>Segmental overgrowth syndromes are associated with segmental mosaicism, where a postzygotic variant arising during embryogenesis disrupts tissue growth regulation. Overgrowth can result from either increased cell size (hypertrophy) or increased cell proliferation (hyperplasia), with the severity of symptoms depending on the affected gene and its role in cellular growth and survival (<xref rid="ref-19" ref-type="bibr">19</xref>).</p><p>Syndromes associated with somatic <italic toggle="yes">PIK3CA</italic> variants are classified under the PIK3CA-related overgrowth spectrum (PROS), which encompasses conditions such as fibro adipose overgrowth, hemihyperplasia-multiple lipomatosis, dysplastic megalencephaly, congenital lipomatous overgrowth, vascular malformations, epidermal nevi, skeletal anomalies (CLOVES syndrome), Klippel-Trenaunay syndrome, macrodactyly, and others. These disorders share a common genetic origin but present a broad range of phenotypic expressions, from isolated macrodactyly to more complex cases. The variability in symptom severity is influenced by the timing and cellular context of the variant during development (<xref rid="ref-20" ref-type="bibr">20</xref>, <xref rid="ref-21" ref-type="bibr">21</xref>).</p><p>Other genes in the PI3K signaling pathway, including <italic toggle="yes">PTEN </italic>(a negative regulator), are also implicated in segmental overgrowth syndromes. Loss-of-function variants in <italic toggle="yes">PTEN</italic> increase PIP3 levels, activate the AKT/mTOR pathway, and lead to conditions such as germline and mosaic forms of <italic toggle="yes">PTEN</italic> hamartoma tumor syndrome (PHTS). For instance, SOLAMEN syndrome results from a mosaic loss of <italic toggle="yes">PTEN</italic> function and is characterized by localized hypertrophy, vascular malformations, macrodactyly, and an increased cancer risk. Furthermore, activating variants in genes, including <italic toggle="yes">PIK3R2, AKT1, AKT2, AKT3,</italic> and <italic toggle="yes">CCND2</italic> have been identified. Somatic activation of <italic toggle="yes">AKT1</italic> is associated with Proteus syndrome, which is marked by asymmetrical lesions, lipomatous tumors, lymphovascular malformations, and overgrowth of bones and connective tissues, also with a higher cancer risk (<xref rid="ref-22" ref-type="bibr">22</xref>, <xref rid="ref-23" ref-type="bibr">23</xref>).</p><p>The presence of a prominent hemangiomatous lesion, along with intellectual disability, excessive soft tissue and bone overgrowth, skeletal abnormalities, and an increased risk of tumors, led us to evaluate the possibility of segmental overgrowth syndromes. TROFAS affects similar genetic pathways and presents with comparable clinical features, and may be included within the <italic toggle="yes">PIK3CA</italic>-PROS. Our patient was thoroughly evaluated for other overgrowth syndromes (<xref rid="ref-21" ref-type="bibr">21</xref>, <xref rid="ref-24" ref-type="bibr">24</xref>). Since <italic toggle="yes">PIK3CA</italic> mosaicism may be present in the affected tissues, it was impossible to completely rule out other diseases in this group for our patient.</p><p>Recent research suggests that <italic toggle="yes">FIBP</italic> regulates the expression of the mTOR/STAT3 pathway, a signaling molecule implicated in carcinogenesis, which provides a potential mechanism for the increased cancer risk observed in overgrowth syndromes (<xref rid="ref-25" ref-type="bibr">25</xref>). <italic toggle="yes">FIBP</italic> overexpression has been reported in tumors, such as colon carcinoma and head and neck cancers. Given that FGF1 is linked to several cancers, it is hypothesized that the interaction between <italic toggle="yes">FIBP</italic> and FGF1 plays a role in tumorigenesis (<xref rid="ref-5" ref-type="bibr">5</xref>, <xref rid="ref-26" ref-type="bibr">26</xref>, <xref rid="ref-27" ref-type="bibr">27</xref>, <xref rid="ref-28" ref-type="bibr">28</xref>).</p><p>The case described above is particularly notable due to the early onset of multiple malignancies. By the age of 16 years, the patient had developed two distinct cancers: thyroid follicular carcinoma and mucoepidermoid carcinoma of the parotid gland. Among the eight reported cases of TROFAS in the literature, only a single instance of Wilms&#8217; tumor has been documented (<xref rid="ref-18" ref-type="bibr">18</xref>). This case suggests a broader diversity of malignancies in TROFAS and an increased spectrum of cancer predisposition associated with <italic toggle="yes">FIBP</italic> gene variants.</p></sec><sec sec-type="conclusion"><title>Conclusion</title><p>The presented case is significant for its distinct phenotypic features and the early development of malignancies, highlighting the role of <italic toggle="yes">FIBP</italic> variants in overgrowth syndrome and cancer predisposition. It should also be remembered that individuals with segmental overgrowth are not always macrosomic at birth, and their height and weight during childhood may remain within normal ranges.</p></sec><sec><title>Ethics</title><p><bold>Informed Consent:</bold> Consent was obtained from the patient and her parents for the scientific use of genetic testing and photographs.</p></sec></body><back><fn-group><fn id="fn-1" fn-type="authorship-contributions"><p><bold>Authorship Contributions:</bold> Surgical and Medical Practices: &#220;lk&#252; G&#252;l &#350;iraz, Deniz Ko&#231;ak G&#246;l, Concept: &#220;lk&#252; G&#252;l &#350;iraz, Nihal Hatipo&#287;lu, Design: &#220;lk&#252; G&#252;l &#350;iraz, Data Collection or Processing: &#220;lk&#252; G&#252;l &#350;iraz, Ekrem &#220;nal, Analysis or Interpretation: Meino Rohlfs, Christoph Klein, Literature Search: &#220;lk&#252; G&#252;l &#350;iraz, Ekrem &#220;nal, Writing: &#220;lk&#252; G&#252;l &#350;iraz.</p></fn><fn id="fn-2" fn-type="COI-statement"><p><bold>Conflict of interest:</bold> None declared.</p></fn><fn id="fn-3" fn-type="financial-disclosure"><p><bold>Financial Disclosure:</bold> The authors declared that this study received no financial support.</p></fn></fn-group><ref-list><title>References</title><ref id="ref-1"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Neylon</surname><given-names>OM</given-names></name><name name-style="western"><surname>Werther</surname><given-names>GA</given-names></name><name name-style="western"><surname>Sabin</surname><given-names>MA</given-names></name></person-group><article-title>Overgrowth syndromes.</article-title><source>Curr Opin Pediatr</source><year iso-8601-date="2012">2012</year><volume>24</volume><issue>4</issue><fpage>505</fpage><lpage>511</lpage><pub-id pub-id-type="doi">10.1097/MOP.0b013e3283558995</pub-id><pub-id pub-id-type="pmid">22705997</pub-id></element-citation></ref><ref id="ref-2"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bertino</surname><given-names>F</given-names></name><name name-style="western"><surname>Braithwaite</surname><given-names>KA</given-names></name><name name-style="western"><surname>Hawkins</surname><given-names>CM</given-names></name><name name-style="western"><surname>Gill</surname><given-names>AE</given-names></name><name name-style="western"><surname>Briones</surname><given-names>MA</given-names></name><name name-style="western"><surname>Swerdlin</surname><given-names>R</given-names></name><name name-style="western"><surname>Milla</surname><given-names>SS</given-names></name></person-group><article-title>Congenital limb overgrowth syndromes associated with vascular anomalies.</article-title><source>Radiographics</source><year iso-8601-date="2019">2019</year><volume>39</volume><issue>2</issue><fpage>491</fpage><lpage>515</lpage><pub-id pub-id-type="doi">10.1148/rg.2019180136</pub-id><pub-id pub-id-type="pmid">30844349</pub-id></element-citation></ref><ref id="ref-3"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Manor</surname><given-names>J</given-names></name><name name-style="western"><surname>Lalani</surname><given-names>SR</given-names></name></person-group><article-title>Overgrowth syndromes-evaluation, diagnosis, and management.</article-title><source>Front Pediatr</source><year iso-8601-date="2020">2020</year><volume>8</volume><fpage>574857</fpage><pub-id pub-id-type="doi">10.3389/fped.2020.574857</pub-id><pub-id pub-id-type="pmid">33194904</pub-id><pub-id pub-id-type="pmcid">PMC7661798</pub-id></element-citation></ref><ref id="ref-4"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kolpakova</surname><given-names>E</given-names></name><name name-style="western"><surname>Frengen</surname><given-names>E</given-names></name><name name-style="western"><surname>Stokke</surname><given-names>T</given-names></name><name name-style="western"><surname>Olsnes</surname><given-names>S</given-names></name></person-group><article-title>Organization, chromosomal localization and promoter analysis of the gene encoding human acidic fibroblast growth factor intracellular binding protein</article-title><source>Biochem J</source><year iso-8601-date="2000">2000</year><volume>352</volume><issue>3</issue><fpage>629</fpage><lpage>635</lpage><pub-id pub-id-type="doi">10.1042/bj3520629</pub-id><pub-id pub-id-type="pmid">11104667</pub-id><pub-id pub-id-type="pmcid">PMC1221498</pub-id></element-citation></ref><ref id="ref-5"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Xie</surname><given-names>Y</given-names></name><name name-style="western"><surname>Su</surname><given-names>N</given-names></name><name name-style="western"><surname>Yang</surname><given-names>J</given-names></name><name name-style="western"><surname>Tan</surname><given-names>Q</given-names></name><name name-style="western"><surname>Huang</surname><given-names>S</given-names></name><name name-style="western"><surname>Jin</surname><given-names>M</given-names></name><name name-style="western"><surname>Ni</surname><given-names>Z</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>B</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>D</given-names></name><name name-style="western"><surname>Luo</surname><given-names>F</given-names></name><name name-style="western"><surname>Chen</surname><given-names>H</given-names></name><name name-style="western"><surname>Sun</surname><given-names>X</given-names></name><name name-style="western"><surname>Feng</surname><given-names>JQ</given-names></name><name name-style="western"><surname>Qi</surname><given-names>H</given-names></name><name name-style="western"><surname>Chen</surname><given-names>L</given-names></name></person-group><article-title>FGF/FGFR signaling in health and disease.</article-title><source>Signal Transduct Target Ther</source><year iso-8601-date="2020">2020</year><volume>5</volume><issue>1</issue><fpage>181</fpage><pub-id pub-id-type="doi">10.1038/s41392-020-00222-7</pub-id><pub-id pub-id-type="pmid">32879300</pub-id><pub-id pub-id-type="pmcid">PMC7468161</pub-id></element-citation></ref><ref id="ref-6"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Duzenli</surname><given-names>T</given-names></name><name name-style="western"><surname>Sezer</surname><given-names>A</given-names></name><name name-style="western"><surname>Kayhan</surname><given-names>G</given-names></name><name name-style="western"><surname>Arslan</surname><given-names>AT</given-names></name><name name-style="western"><surname>Percin</surname><given-names>FE</given-names></name></person-group><article-title>Expanding the phenotype and genotype in Thauvin-Robinet-Faivre syndrome: a new patient with a novel variant and additional clinical findings.</article-title><source>Am J Med Genet A</source><year iso-8601-date="2023">2023</year><volume>191</volume><issue>8</issue><fpage>2232</fpage><lpage>2239</lpage><pub-id pub-id-type="doi">10.1002/ajmg.a.63300</pub-id><pub-id pub-id-type="pmid">37218527</pub-id></element-citation></ref><ref id="ref-7"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>K&#305;l&#305;&#231;</surname><given-names>E</given-names></name><name name-style="western"><surname>Ko&#351;ukcu</surname><given-names>C</given-names></name></person-group><article-title>New cases of recently described Thauvin-Robinet-Faivre syndrome with a novel homozygous FIBP gene variant.</article-title><source>Am J Med Genet A</source><year iso-8601-date="2024">2024</year><volume>194</volume><issue>3</issue><fpage>e63449</fpage><pub-id pub-id-type="doi">10.1002/ajmg.a.63449</pub-id><pub-id pub-id-type="pmid">37876348</pub-id></element-citation></ref><ref id="ref-8"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Y&#252;ksel</surname><given-names>&#220;lker A</given-names></name><name name-style="western"><surname>Uluda&#287;</surname><given-names>Alkaya D</given-names></name><name name-style="western"><surname>&#199;a&#287;layan</surname><given-names>AO</given-names></name><name name-style="western"><surname>Usluer</surname><given-names>E</given-names></name><name name-style="western"><surname>Aykut</surname><given-names>A</given-names></name><name name-style="western"><surname>Aslanger</surname><given-names>A</given-names></name><name name-style="western"><surname>Vural</surname><given-names>M</given-names></name><name name-style="western"><surname>T&#252;ys&#252;z</surname><given-names>B</given-names></name></person-group><article-title>An investigation of the etiology and follow-up findings in 35 children with overgrowth syndromes, including biallelic SUZ12 variant.</article-title><source>Am J Med Genet A</source><year iso-8601-date="2023">2023</year><volume>191</volume><fpage>1530</fpage><lpage>1545</lpage><pub-id pub-id-type="pmid">36919607</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajmg.a.63180</pub-id></element-citation></ref><ref id="ref-9"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Duzenli</surname><given-names>T</given-names></name><name name-style="western"><surname>Sezer</surname><given-names>A</given-names></name><name name-style="western"><surname>Percin</surname><given-names>FE</given-names></name></person-group><article-title>Letter to the Editor regarding &#8220;New cases of recently described Thauvin-Robinet-Faivre syndrome with a novel homozygous FIBP gene variant&#8221; by K&#305;l&#305;&#231; and Ko&#351;uk&#231;u, &#8220;An investigation of the etiology and follow-up findings in 35 children with overgrowth syndromes, including biallelic SUZ12 variant&#8221; by Y&#252;ksel &#220;lker et al. and &#8220;Expanding the phenotype and genotype in Thauvin-Robinet-Faivre syndrome: A new patient with a novel variant and additional clinical findings&#8221; by Duzenli et al.</article-title><source>Am J Med Genet A</source><year iso-8601-date="2024">2024</year><volume>194</volume><fpage>e63507</fpage><pub-id pub-id-type="pmid">38102793</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ajmg.a.63507</pub-id></element-citation></ref><ref id="ref-10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>H</given-names></name><name name-style="western"><surname>Durbin</surname><given-names>R</given-names></name></person-group><article-title>Fast and accurate short read alignment with Burrows-Wheeler transform.</article-title><source>Bioinformatics</source><year iso-8601-date="2009">2009</year><volume>25</volume><issue>14</issue><fpage>1754</fpage><lpage>1760</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id><pub-id pub-id-type="pmid">19451168</pub-id><pub-id pub-id-type="pmcid">PMC2705234</pub-id></element-citation></ref><ref id="ref-11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McKenna</surname><given-names>A</given-names></name><name name-style="western"><surname>Hanna</surname><given-names>M</given-names></name><name name-style="western"><surname>Banks</surname><given-names>E</given-names></name><name name-style="western"><surname>Sivachenko</surname><given-names>A</given-names></name><name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name><name name-style="western"><surname>Kernytsky</surname><given-names>A</given-names></name><name name-style="western"><surname>Garimella</surname><given-names>K</given-names></name><name name-style="western"><surname>Altshuler</surname><given-names>D</given-names></name><name name-style="western"><surname>Gabriel</surname><given-names>S</given-names></name><name name-style="western"><surname>Daly</surname><given-names>M</given-names></name><name name-style="western"><surname>DePristo</surname><given-names>MA</given-names></name></person-group><article-title>The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data.</article-title><source>Genome Res</source><year iso-8601-date="2010">2010</year><volume>20</volume><issue>9</issue><fpage>1297</fpage><lpage>1303</lpage><pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmid">20644199</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></element-citation></ref><ref id="ref-12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McLaren</surname><given-names>W</given-names></name><name name-style="western"><surname>Gil</surname><given-names>L</given-names></name><name name-style="western"><surname>Hunt</surname><given-names>SE</given-names></name><name name-style="western"><surname>Riat</surname><given-names>HS</given-names></name><name name-style="western"><surname>Ritchie</surname><given-names>GR</given-names></name><name name-style="western"><surname>Thormann</surname><given-names>A</given-names></name><name name-style="western"><surname>Flicek</surname><given-names>P</given-names></name><name name-style="western"><surname>Cunningham</surname><given-names>F</given-names></name></person-group><article-title>The ensembl variant effect predictor.</article-title><source>Genome Biol</source><year iso-8601-date="2016">2016</year><volume>17</volume><issue>1</issue><fpage>122</fpage><pub-id pub-id-type="doi">10.1186/s13059-016-0974-4</pub-id><pub-id pub-id-type="pmid">27268795</pub-id><pub-id pub-id-type="pmcid">PMC4893825</pub-id></element-citation></ref><ref id="ref-13"><label>13</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Karczewski</surname><given-names>KJ</given-names></name><name name-style="western"><surname>Francioli</surname><given-names>LC</given-names></name><name name-style="western"><surname>Tiao</surname><given-names>G</given-names></name><name name-style="western"><surname>Cummings</surname><given-names>BB</given-names></name><name name-style="western"><surname>Alf&#246;ldi</surname><given-names>J</given-names></name><name name-style="western"><surname>Wang</surname><given-names>Q</given-names></name><name name-style="western"><surname>Collins</surname><given-names>RL</given-names></name><name name-style="western"><surname>Laricchia</surname><given-names>KM</given-names></name><name name-style="western"><surname>Ganna</surname><given-names>A</given-names></name><name name-style="western"><surname>Birnbaum</surname><given-names>DP</given-names></name><name name-style="western"><surname>Gauthier</surname><given-names>LD</given-names></name><name name-style="western"><surname>Brand</surname><given-names>H</given-names></name><name name-style="western"><surname>Solomonson</surname><given-names>M</given-names></name><name name-style="western"><surname>Watts</surname><given-names>NA</given-names></name><name name-style="western"><surname>Rhodes</surname><given-names>D</given-names></name><name name-style="western"><surname>Singer-Berk</surname><given-names>M</given-names></name><name name-style="western"><surname>England</surname><given-names>EM</given-names></name><name name-style="western"><surname>Seaby</surname><given-names>EG</given-names></name><name name-style="western"><surname>Kosmicki</surname><given-names>JA</given-names></name><name name-style="western"><surname>Walters</surname><given-names>RK</given-names></name><name name-style="western"><surname>Tashman</surname><given-names>K</given-names></name><name name-style="western"><surname>Farjoun</surname><given-names>Y</given-names></name><name name-style="western"><surname>Banks</surname><given-names>E</given-names></name><name name-style="western"><surname>Poterba</surname><given-names>T</given-names></name><name name-style="western"><surname>Wang</surname><given-names>A</given-names></name><name name-style="western"><surname>Seed</surname><given-names>C</given-names></name><name name-style="western"><surname>Whiffin</surname><given-names>N</given-names></name><name name-style="western"><surname>Chong</surname><given-names>JX</given-names></name><name name-style="western"><surname>Samocha</surname><given-names>KE</given-names></name><name name-style="western"><surname>Pierce-Hoffman</surname><given-names>E</given-names></name><name name-style="western"><surname>Zappala</surname><given-names>Z</given-names></name><name name-style="western"><surname>O'Donnell-Luria</surname><given-names>AH</given-names></name><name name-style="western"><surname>Minikel</surname><given-names>EV</given-names></name><name name-style="western"><surname>Weisburd</surname><given-names>B</given-names></name><name name-style="western"><surname>Lek</surname><given-names>M</given-names></name><name name-style="western"><surname>Ware</surname><given-names>JS</given-names></name><name name-style="western"><surname>Vittal</surname><given-names>C</given-names></name><name name-style="western"><surname>Armean</surname><given-names>IM</given-names></name><name name-style="western"><surname>Bergelson</surname><given-names>L</given-names></name><name name-style="western"><surname>Cibulskis</surname><given-names>K</given-names></name><name name-style="western"><surname>Connolly</surname><given-names>KM</given-names></name><name name-style="western"><surname>Covarrubias</surname><given-names>M</given-names></name><name name-style="western"><surname>Donnelly</surname><given-names>S</given-names></name><name name-style="western"><surname>Ferriera</surname><given-names>S</given-names></name><name name-style="western"><surname>Gabriel</surname><given-names>S</given-names></name><name name-style="western"><surname>Gentry</surname><given-names>J</given-names></name><name name-style="western"><surname>Gupta</surname><given-names>N</given-names></name><name name-style="western"><surname>Jeandet</surname><given-names>T</given-names></name><name name-style="western"><surname>Kaplan</surname><given-names>D</given-names></name><name name-style="western"><surname>Llanwarne</surname><given-names>C</given-names></name><name name-style="western"><surname>Munshi</surname><given-names>R</given-names></name><name name-style="western"><surname>Novod</surname><given-names>S</given-names></name><name name-style="western"><surname>Petrillo</surname><given-names>N</given-names></name><name name-style="western"><surname>Roazen</surname><given-names>D</given-names></name><name name-style="western"><surname>Ruano-Rubio</surname><given-names>V</given-names></name><name name-style="western"><surname>Saltzman</surname><given-names>A</given-names></name><name name-style="western"><surname>Schleicher</surname><given-names>M</given-names></name><name name-style="western"><surname>Soto</surname><given-names>J</given-names></name><name name-style="western"><surname>Tibbetts</surname><given-names>K</given-names></name><name name-style="western"><surname>Tolonen</surname><given-names>C</given-names></name><name name-style="western"><surname>Wade</surname><given-names>G</given-names></name><name name-style="western"><surname>Talkowski</surname><given-names>ME</given-names></name><name name-style="western"><surname>Genome</surname><given-names>Aggregation Database Consortium</given-names></name><name name-style="western"><surname>Neale</surname><given-names>BM</given-names></name><name name-style="western"><surname>Daly</surname><given-names>MJ</given-names></name><name name-style="western"><surname>MacArthur</surname><given-names>DG</given-names></name></person-group><article-title>2020;581:434-443. Epub 2020 May 27. Erratum in: Nature.</article-title><year iso-8601-date="2021">2021</year><volume>590</volume><issue>7809</issue><fpage>E53</fpage><publisher-name>Genome Aggregation Database Consortium; Neale BM, Daly MJ, MacArthur DG. The mutational constraint spectrum quantified from variation in 141,456 humans. Nature</publisher-name><pub-id pub-id-type="doi">10.1038/s41586-020-2308-7</pub-id></element-citation></ref><ref id="ref-14"><label>14</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Richards</surname><given-names>S</given-names></name><name name-style="western"><surname>Aziz</surname><given-names>N</given-names></name><name name-style="western"><surname>Bale</surname><given-names>S</given-names></name><name name-style="western"><surname>Bick</surname><given-names>D</given-names></name><name name-style="western"><surname>Das</surname><given-names>S</given-names></name><name name-style="western"><surname>Gastier-Foster</surname><given-names>J</given-names></name><name name-style="western"><surname>Grody</surname><given-names>WW</given-names></name><name name-style="western"><surname>Hegde</surname><given-names>M</given-names></name><name name-style="western"><surname>Lyon</surname><given-names>E</given-names></name><name name-style="western"><surname>Spector</surname><given-names>E</given-names></name><name name-style="western"><surname>Voelkerding</surname><given-names>K</given-names></name><name name-style="western"><surname>Rehm</surname><given-names>HL</given-names></name><name name-style="western"><surname>ACMG</surname><given-names>Laboratory Quality Assurance Committee</given-names></name></person-group><article-title>Genet Med.</article-title><year iso-8601-date="2015">2015</year><volume>17</volume><issue>5</issue><fpage>405</fpage><lpage>424</lpage><publisher-name>ACMG Laboratory Quality Assurance Committee. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology</publisher-name><pub-id pub-id-type="doi">10.1038/gim.2015.30</pub-id></element-citation></ref><ref id="ref-15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Touat</surname><given-names>M</given-names></name><name name-style="western"><surname>Ileana</surname><given-names>E</given-names></name><name name-style="western"><surname>Postel-Vinay</surname><given-names>S</given-names></name><name name-style="western"><surname>Andr&#233;</surname><given-names>F</given-names></name><name name-style="western"><surname>Soria</surname><given-names>JC</given-names></name></person-group><article-title>Targeting FGFR signaling in cancer.</article-title><source>Clin Cancer Res</source><year iso-8601-date="2015">2015</year><volume>21</volume><issue>12</issue><fpage>2684</fpage><lpage>2694</lpage><pub-id pub-id-type="doi">10.1158/1078-0432.CCR-14-2329</pub-id><pub-id pub-id-type="pmid">26078430</pub-id></element-citation></ref><ref id="ref-16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>F</given-names></name><name name-style="western"><surname>Hristova</surname><given-names>K</given-names></name></person-group><article-title>The physical basis of FGFR3 response to fgf1 and fgf2.</article-title><source>Biochemistry</source><year iso-8601-date="2011">2011</year><volume>50</volume><issue>40</issue><fpage>8576</fpage><lpage>8582</lpage><pub-id pub-id-type="doi">10.1021/bi200986f</pub-id><pub-id pub-id-type="pmid">21894939</pub-id><pub-id pub-id-type="pmcid">PMC3398506</pub-id></element-citation></ref><ref id="ref-17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Thauvin-Robinet</surname><given-names>C</given-names></name><name name-style="western"><surname>Duplomb-Jego</surname><given-names>L</given-names></name><name name-style="western"><surname>Limoge</surname><given-names>F</given-names></name><name name-style="western"><surname>Picot</surname><given-names>D</given-names></name><name name-style="western"><surname>Masurel</surname><given-names>A</given-names></name><name name-style="western"><surname>Terriat</surname><given-names>B</given-names></name><name name-style="western"><surname>Champilou</surname><given-names>C</given-names></name><name name-style="western"><surname>Minot</surname><given-names>D</given-names></name><name name-style="western"><surname>St-Onge</surname><given-names>J</given-names></name><name name-style="western"><surname>Kuentz</surname><given-names>P</given-names></name><name name-style="western"><surname>Duffourd</surname><given-names>Y</given-names></name><name name-style="western"><surname>Thevenon</surname><given-names>J</given-names></name><name name-style="western"><surname>Rivi&#232;re</surname><given-names>JB</given-names></name><name name-style="western"><surname>Faivre</surname><given-names>L</given-names></name></person-group><article-title>Homozygous FIBP nonsense variant responsible of syndromic overgrowth, with overgrowth, macrocephaly, retinal coloboma and learning disabilities.</article-title><source>Clin Genet</source><year iso-8601-date="2016">2016</year><volume>89</volume><issue>5</issue><fpage>e1</fpage><lpage>e4</lpage><pub-id pub-id-type="doi">10.1111/cge.12704</pub-id></element-citation></ref><ref id="ref-18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Akawi</surname><given-names>N</given-names></name><name name-style="western"><surname>Ben-Salem</surname><given-names>S</given-names></name><name name-style="western"><surname>Lahti</surname><given-names>L</given-names></name><name name-style="western"><surname>Partanen</surname><given-names>J</given-names></name><name name-style="western"><surname>Ali</surname><given-names>BR</given-names></name><name name-style="western"><surname>Al-Gazali</surname><given-names>L</given-names></name></person-group><article-title>A recessive syndrome of intellectual disability, moderate overgrowth, and renal dysplasia predisposing to Wilms tumor is caused by a mutation in FIBP gene.</article-title><source>Am J Med Genet A</source><year iso-8601-date="2016">2016</year><volume>170</volume><issue>8</issue><fpage>2111</fpage><lpage>2118</lpage><pub-id pub-id-type="doi">10.1002/ajmg.a.37741</pub-id><pub-id pub-id-type="pmid">27183861</pub-id></element-citation></ref><ref id="ref-19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Keppler-Noreuil</surname><given-names>KM</given-names></name><name name-style="western"><surname>Sapp</surname><given-names>JC</given-names></name><name name-style="western"><surname>Lindhurst</surname><given-names>MJ</given-names></name><name name-style="western"><surname>Parker</surname><given-names>VE</given-names></name><name name-style="western"><surname>Blumhorst</surname><given-names>C</given-names></name><name name-style="western"><surname>Darling</surname><given-names>T</given-names></name><name name-style="western"><surname>Tosi</surname><given-names>LL</given-names></name><name name-style="western"><surname>Huson</surname><given-names>SM</given-names></name><name name-style="western"><surname>Whitehouse</surname><given-names>RW</given-names></name><name name-style="western"><surname>Jakkula</surname><given-names>E</given-names></name><name name-style="western"><surname>Grant</surname><given-names>I</given-names></name><name name-style="western"><surname>Balasubramanian</surname><given-names>M</given-names></name><name name-style="western"><surname>Chandler</surname><given-names>KE</given-names></name><name name-style="western"><surname>Fraser</surname><given-names>JL</given-names></name><name name-style="western"><surname>Gucev</surname><given-names>Z</given-names></name><name name-style="western"><surname>Crow</surname><given-names>YJ</given-names></name><name name-style="western"><surname>Brennan</surname><given-names>LM</given-names></name><name name-style="western"><surname>Clark</surname><given-names>R</given-names></name><name name-style="western"><surname>Sellars</surname><given-names>EA</given-names></name><name name-style="western"><surname>Pena</surname><given-names>LD</given-names></name><name name-style="western"><surname>Krishnamurty</surname><given-names>V</given-names></name><name name-style="western"><surname>Shuen</surname><given-names>A</given-names></name><name name-style="western"><surname>Braverman</surname><given-names>N</given-names></name><name name-style="western"><surname>Cunningham</surname><given-names>ML</given-names></name><name name-style="western"><surname>Sutton</surname><given-names>VR</given-names></name><name name-style="western"><surname>Tasic</surname><given-names>V</given-names></name><name name-style="western"><surname>Graham</surname><given-names>JM Jr</given-names></name><name name-style="western"><surname>Geer</surname><given-names>J Jr</given-names></name><name name-style="western"><surname>Henderson</surname><given-names>A</given-names></name><name name-style="western"><surname>Semple</surname><given-names>RK</given-names></name><name name-style="western"><surname>Biesecker</surname><given-names>LG</given-names></name></person-group><article-title>Clinical delineation and natural history of the PIK3CA-related overgrowth spectrum</article-title><source>Am J Med Genet A</source><year iso-8601-date="2014">2014</year><volume>164A</volume><issue>7</issue><fpage>1713</fpage><lpage>1733</lpage><pub-id pub-id-type="doi">10.1002/ajmg.a.36552</pub-id><pub-id pub-id-type="pmid">24782230</pub-id><pub-id pub-id-type="pmcid">PMC4320693</pub-id></element-citation></ref><ref id="ref-20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Venot</surname><given-names>Q</given-names></name><name name-style="western"><surname>Canaud</surname><given-names>G</given-names></name></person-group><article-title>Les syndromes de surcroissance segmentaire et les strat&#233;gies th&#233;rapeutiques [Segmental overgrowth syndromes and therapeutic strategies].</article-title><source>Med Sci (Paris)</source><year iso-8601-date="2020">2020</year><volume>36</volume><issue>3</issue><fpage>235</fpage><lpage>242</lpage><pub-id pub-id-type="doi">10.1051/medsci/2020023</pub-id><pub-id pub-id-type="pmid">32228842</pub-id></element-citation></ref><ref id="ref-21"><label>21</label><element-citation publication-type="webpage"><article-title>Mirzaa G, Graham JM Jr, Keppler-Noreuil K. PIK3CARelated Overgrowth Spectrum. In: Adam MP, Mirzaa GM, Pagon RA, Everman DB, et al., editors. GeneReviews&#174; [Internet]. Seattle (WA): University of Washington, Seattle; 1993-2023. [Accessed on: August 25th, 2022]. https://www.ncbi.nlm.nih.gov/books/</article-title></element-citation></ref><ref id="ref-22"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yehia</surname><given-names>L</given-names></name><name name-style="western"><surname>Keel</surname><given-names>E</given-names></name><name name-style="western"><surname>Eng</surname><given-names>C</given-names></name></person-group><article-title>The clinical spectrum of PTEN mutations.</article-title><source>Annu Rev Med</source><year iso-8601-date="2020">2020</year><volume>71</volume><fpage>103</fpage><lpage>116</lpage><pub-id pub-id-type="doi">10.1146/annurev-med-052218-125823</pub-id><pub-id pub-id-type="pmid">31433956</pub-id></element-citation></ref><ref id="ref-23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kinross</surname><given-names>KM</given-names></name><name name-style="western"><surname>Montgomery</surname><given-names>KG</given-names></name><name name-style="western"><surname>Mangiafico</surname><given-names>SP</given-names></name><name name-style="western"><surname>Hare</surname><given-names>LM</given-names></name><name name-style="western"><surname>Kleinschmidt</surname><given-names>M</given-names></name><name name-style="western"><surname>Bywater</surname><given-names>MJ</given-names></name><name name-style="western"><surname>Poulton</surname><given-names>IJ</given-names></name><name name-style="western"><surname>Vrahnas</surname><given-names>C</given-names></name><name name-style="western"><surname>Henneicke</surname><given-names>H</given-names></name><name name-style="western"><surname>Malaterre</surname><given-names>J</given-names></name><name name-style="western"><surname>Waring</surname><given-names>PM</given-names></name><name name-style="western"><surname>Cullinane</surname><given-names>C</given-names></name><name name-style="western"><surname>Sims</surname><given-names>NA</given-names></name><name name-style="western"><surname>McArthur</surname><given-names>GA</given-names></name><name name-style="western"><surname>Andrikopoulos</surname><given-names>S</given-names></name><name name-style="western"><surname>Phillips</surname><given-names>WA</given-names></name></person-group><article-title>Ubiquitous expression of the Pik3caH1047R mutation promotes hypoglycemia, hypoinsulinemia, and organomegaly.</article-title><source>FASEB J</source><year iso-8601-date="2015">2015</year><volume>29</volume><issue>4</issue><fpage>1426</fpage><lpage>1434</lpage><pub-id pub-id-type="doi">10.1096/fj.14-262782</pub-id><pub-id pub-id-type="pmid">25550458</pub-id></element-citation></ref><ref id="ref-24"><label>24</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hughes</surname><given-names>M</given-names></name><name name-style="western"><surname>Hao</surname><given-names>M</given-names></name><name name-style="western"><surname>Luu</surname><given-names>M</given-names></name></person-group><article-title>PIK3CA vascular overgrowth syndromes: an update.</article-title><source>Curr Opin Pediatr</source><year iso-8601-date="2020">2020</year><volume>32</volume><issue>4</issue><fpage>539</fpage><lpage>546</lpage><pub-id pub-id-type="doi">10.1097/MOP.0000000000000923</pub-id><pub-id pub-id-type="pmid">32692051</pub-id></element-citation></ref><ref id="ref-25"><label>25</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Xu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Li</surname><given-names>J</given-names></name><name name-style="western"><surname>Zhu</surname><given-names>K</given-names></name><name name-style="western"><surname>Zeng</surname><given-names>Y</given-names></name><name name-style="western"><surname>Chen</surname><given-names>J</given-names></name><name name-style="western"><surname>Dong</surname><given-names>X</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>S</given-names></name><name name-style="western"><surname>Xu</surname><given-names>S</given-names></name><name name-style="western"><surname>Wu</surname><given-names>G</given-names></name></person-group><article-title>FIBP interacts with transcription factor STAT3 to induce EME1 expression and drive radioresistance in lung adenocarcinoma.</article-title><source>Int J Biol Sci</source><year iso-8601-date="2023">2023</year><volume>19</volume><fpage>3816</fpage><lpage>3829</lpage><pub-id pub-id-type="pmid">37564211</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/ijbs.83134</pub-id><pub-id pub-id-type="pmcid">PMC10411469</pub-id></element-citation></ref><ref id="ref-26"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tassi</surname><given-names>E</given-names></name><name name-style="western"><surname>Henke</surname><given-names>RT</given-names></name><name name-style="western"><surname>Bowden</surname><given-names>ET</given-names></name><name name-style="western"><surname>Swift</surname><given-names>MR</given-names></name><name name-style="western"><surname>Kodack</surname><given-names>DP</given-names></name><name name-style="western"><surname>Kuo</surname><given-names>AH</given-names></name><name name-style="western"><surname>Maitra</surname><given-names>A</given-names></name><name name-style="western"><surname>Wellstein</surname><given-names>A</given-names></name></person-group><article-title>Expression of a fibroblast growth factor-binding protein during the development of adenocarcinoma of the pancreas and colon.</article-title><source>Cancer Res</source><year iso-8601-date="2006">2006</year><volume>66</volume><issue>2</issue><fpage>1191</fpage><lpage>1198</lpage><pub-id pub-id-type="doi">10.1158/0008-5472.CAN-05-2926</pub-id><pub-id pub-id-type="pmid">16424058</pub-id></element-citation></ref><ref id="ref-27"><label>27</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>W</given-names></name><name name-style="western"><surname>Wang</surname><given-names>C</given-names></name><name name-style="western"><surname>Juhn</surname><given-names>SK</given-names></name><name name-style="western"><surname>Ondrey</surname><given-names>FG</given-names></name><name name-style="western"><surname>Lin</surname><given-names>J</given-names></name></person-group><article-title>Expression of fibroblast growth factor binding protein in head and neck cancer.</article-title><source>Arch Otolaryngol Head Neck Surg</source><year iso-8601-date="2009">2009</year><volume>135</volume><issue>9</issue><fpage>896</fpage><lpage>901</lpage><pub-id pub-id-type="doi">10.1001/archoto.2009.121</pub-id><pub-id pub-id-type="pmid">19770422</pub-id><pub-id pub-id-type="pmcid">PMC2845968</pub-id></element-citation></ref><ref id="ref-28"><label>28</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Colvin</surname><given-names>JS</given-names></name><name name-style="western"><surname>Bohne</surname><given-names>BA</given-names></name><name name-style="western"><surname>Harding</surname><given-names>GW</given-names></name><name name-style="western"><surname>McEwen</surname><given-names>DG</given-names></name><name name-style="western"><surname>Ornitz</surname><given-names>DM</given-names></name></person-group><article-title>Skeletal overgrowth and deafness in mice lacking fibroblast growth factor receptor 3.</article-title><source>Nat Genet</source><year iso-8601-date="1996">1996</year><volume>12</volume><issue>4</issue><fpage>390</fpage><lpage>397</lpage><pub-id pub-id-type="doi">10.1038/ng0496-390</pub-id><pub-id pub-id-type="pmid">8630492</pub-id></element-citation></ref></ref-list></back><floats-group><fig position="float" id="figure-1" orientation="portrait"><label>Figure 1</label><caption><p>a) The patient&#8217;s hand is noticeably larger than a normal hand. b) Capillary malformation (Port--wine Stain) on the hand extending to the arm and contracture of the fingers due to vascular anomaly</p></caption><graphic position="float" orientation="portrait" xlink:href="JClinResPediatrEndocrinol-18-1-75-figure-1.jpg"/></fig><fig position="float" id="figure-2" orientation="portrait"><label>Figure 2</label><caption><p>a) Varicose veins. b) Port-wine-Stain on legs and feet, wide ankles, and feet. c) Syndactyly between the second and third toes of the left foot</p></caption><graphic position="float" orientation="portrait" xlink:href="JClinResPediatrEndocrinol-18-1-75-figure-2.jpg"/></fig><table-wrap position="float" id="table-1" orientation="portrait"><label>Table 1. Cliniacal and genetic characteristics of the nine reported cases of Thauvin-Robinet-Faivre Syndrome (TROFAS)</label><table frame="hsides" rules="groups"><tbody><tr><td colspan="1" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Case 1</p>
+</td><td colspan="1" rowspan="1">
+<p>Case 2</p>
+</td><td colspan="2" rowspan="1">
+<p>Case 3</p>
+</td><td colspan="2" rowspan="1">
+<p>Case 4</p>
+</td><td colspan="1" rowspan="1">
+<p>Case 5</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Age</p>
+</td><td colspan="2" rowspan="1">
+<p>17 years, male</p>
+</td><td colspan="1" rowspan="1">
+<p>14 years, famale</p>
+</td><td colspan="2" rowspan="1">
+<p>10 years, male</p>
+</td><td colspan="2" rowspan="1">
+<p>3 years, famale</p>
+</td><td colspan="1" rowspan="1">
+<p>4 years, male</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Macrosomia</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Tall stature</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Intellectual Disability/developmental delay</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Macrocephaly</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="1" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Cardiovascular anomalies</p>
+</td><td colspan="2" rowspan="1">
+<p>VSD</p>
+<p>MVP</p>
+<p>Varicose veins</p>
+</td><td colspan="1" rowspan="1">
+<p>VSD</p>
+<p>Double chamber right ventricle</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>Small PDA</p>
+<p>Multilple telangiectasias</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Genitourinary anomalies</p>
+</td><td colspan="2" rowspan="1">
+<p>Renal malrotation</p>
+<p>Left bifid ureter</p>
+</td><td colspan="1" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Cystic dysplastic kidneys</p>
+</td><td colspan="1" rowspan="1">
+<p>Mild right renal pelvis dilatation</p>
+<p>Unilateral cryptorchidism</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Hearing loss</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Dysmorphic features</p>
+</td><td colspan="2" rowspan="1">
+<p>Occipital prominent aspect Long and down-slanting palpebral fissures</p>
+<p>Large and prominent ears</p>
+<p>Thick lips</p>
+<p>Mild macroglossia</p>
+</td><td colspan="1" rowspan="1">
+<p>Round face</p>
+<p>Widely spaced eyes</p>
+<p>Epicanthic folds</p>
+<p>Depressed nasal bridge</p>
+<p>Short, small nose</p>
+<p>Flat mid-face and full lips</p>
+</td><td colspan="2" rowspan="1">
+<p>Round face</p>
+<p>Widely spaced eyes</p>
+<p>Epicanthic folds</p>
+<p>Depressed nasal bridge</p>
+<p>Short, small nose</p>
+<p>Flat mid-face and full lips</p>
+<p>Strabismus</p>
+</td><td colspan="2" rowspan="1">
+<p>Round face</p>
+<p>Widely spaced eyes</p>
+<p>Epicanthic folds</p>
+<p>Depressed nasal bridge</p>
+<p>Short, small nose</p>
+<p>Flat mid-face and full lips</p>
+</td><td colspan="1" rowspan="1">
+<p>Triangular face</p>
+<p>Midface retrusion</p>
+<p>Pointed chin</p>
+<p>Deeply set eyes</p>
+<p>Hypertelorism</p>
+<p>Long and wave-shaped</p>
+<p>palpebral fissures</p>
+<p>Prominent nasal bridge</p>
+<p>Short philtrum</p>
+<p>High palate,</p>
+<p>Posteriorly rotated ears and uplifted earlobes</p>
+<p>Thick and broad eyebrows with mild synophrys</p>
+<p>Hypoplastic nipples</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Skeletal abnormalities</p>
+</td><td colspan="2" rowspan="1">
+<p>Hands and feet were large with large thumbs and hallux</p>
+<p>Bilateral asymmetric limitation of thumb extension</p>
+<p>Spatulate digits</p>
+<p>Camptodactyly</p>
+</td><td colspan="1" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Bilateral talipes equino varus,</p>
+<p>Rotation of both femurs and tibias</p>
+<p>Spina bifida occulta</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>Narrow chest</p>
+<p>Mild pectus excavatum, Hyperextensible elbow joints</p>
+<p>Pes planus</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Other</p>
+</td><td colspan="2" rowspan="1">
+<p>Bilateral retinal coloboma</p>
+<p>Transient neutropenia</p>
+<p>&#304;nguinal hernia</p>
+<p>Psychosis</p>
+</td><td colspan="1" rowspan="1">
+<p>Chronic benign neutropenia</p>
+</td><td colspan="2" rowspan="1">
+<p>Chronic benign neutropenia</p>
+</td><td colspan="2" rowspan="1">
+<p>Polyhydramnios</p>
+</td><td colspan="1" rowspan="1">
+<p>Multiple nevus</p>
+<p>Fibrotic changes in bilateral basal lung segments consistent with chronic pulmonary disease</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Tumor/cancer predisposition</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>Wilms tumor</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="1" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p><italic toggle="yes">FIBP</italic> gene variant</p>
+</td><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214.5</p>
+<p>c.652C&gt;T</p>
+</td><td colspan="1" rowspan="1">
+<p>Homozygous</p>
+<p>NM_198897.1</p>
+<p>c.175_176insTAA</p>
+</td><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_198897.1</p>
+<p>c.175_176insTAA</p>
+</td><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_198897.1</p>
+<p>c.175_176insTAA</p>
+</td><td colspan="1" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214.5</p>
+<p>c.415_416insCAGTTTG</p>
+</td></tr><tr><td colspan="1" rowspan="1">
+<p>Author</p>
+</td><td colspan="2" rowspan="1">
+<p>Thauvin-Robinet et al. (17) 2016</p>
+</td><td colspan="1" rowspan="1">
+<p>Akawi et al. (18) 2016</p>
+</td><td colspan="2" rowspan="1">
+<p>Akawi et al. (18) 2016</p>
+</td><td colspan="2" rowspan="1">
+<p>Akawi et al. (18) 2016</p>
+</td><td colspan="1" rowspan="1">
+<p>Duzenli et al. (6) 2023</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>16 years, male</p>
+</td><td colspan="3" rowspan="1">
+<p>5 years, famale</p>
+</td><td colspan="2" rowspan="1">
+</td><td colspan="2" rowspan="1">
+<p>16 years, female</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="3" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="3" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="3" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+<p>+</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>+</p>
+</td><td colspan="3" rowspan="1">
+<p>+</p>
+</td><td colspan="2" rowspan="1">
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Minimal</p>
+<p>pericardial effusion</p>
+</td><td colspan="3" rowspan="1">
+<p>_</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Varicose veins</p>
+<p>Hemangiomas</p>
+<p>Hepatic artery originating from the abdominal aorta</p>
+<p>Mild MVP</p>
+<p>Small ASD</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Right renal atrophy</p>
+</td><td colspan="3" rowspan="1">
+<p>_</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="3" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Macrocephaly</p>
+<p>Round face</p>
+<p>Widely-spaced deep-set eyes</p>
+<p>Prominent</p>
+<p>supraorbital ridges</p>
+<p>Thick eyebrows</p>
+<p>Down-slanting palpebral fissures</p>
+<p>Marked philtrum</p>
+</td><td colspan="3" rowspan="1">
+<p>Round face</p>
+<p>Flat midface</p>
+<p>Widely-spaced eyes</p>
+<p>Thick eyebrows</p>
+<p>Marked philtrum.</p>
+</td><td colspan="2" rowspan="1">
+<p>Hypertelorism</p>
+<p>Thick and arched eyebrows</p>
+<p>Pointed chain</p>
+<p>Down-slanting palpebral fissures</p>
+<p>Epicanthic folds</p>
+<p>Broad nasal bridge</p>
+<p>Small nose</p>
+<p>High palate</p>
+</td><td colspan="2" rowspan="1">
+<p>Flat midface</p>
+<p>Mild right ptosis</p>
+<p>Low palpebral fissures</p>
+<p>Deep-set eyes</p>
+<p>Thick lips</p>
+<p>Thick and broad eyebrows</p>
+<p>Mild synophrys</p>
+<p>Pointed chin</p>
+<p>Prominent nasal bridge</p>
+<p>Narrow forehead</p>
+<p>High palate</p>
+<p>Posteriorly rotated ears and raised earlobes</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Scholiosis</p>
+<p>Pectus deformity</p>
+<p>Thoracic asymmetry</p>
+<p>Large hand</p>
+<p>Large feet</p>
+<p>Talipes varus</p>
+</td><td colspan="3" rowspan="1">
+<p>_</p>
+</td><td colspan="2" rowspan="1">
+<p>Coxa valga</p>
+</td><td colspan="2" rowspan="1">
+<p>Mild pectus excavatum and pes planus</p>
+<p>Enlarged hands and feet</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Parieto-occipital perivascular cystic gliotic changes</p>
+<p>Slightly decreased muscle strength in the lower extremities</p>
+</td><td colspan="3" rowspan="1">
+<p>Cerebral periventricular patchy hyperintense lesions</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Port-wine stains on the arms and legs</p>
+<p>Widespread nevi on face and trunk</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="3" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td><td colspan="2" rowspan="1">
+<p>Parotis low-grade mucoepidermoid carcinoma</p>
+<p>Thyroid follicular carcinoma</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214.5</p>
+<p>c.412-3_415dupCAGTTTG</p>
+</td><td colspan="3" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214.5</p>
+<p>c.412-3_415dupCAGTTTG</p>
+</td><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214</p>
+<p>c.412-3_415dupCAGTTTG</p>
+</td><td colspan="2" rowspan="1">
+<p>Homozygous</p>
+<p>NM_004214.5</p>
+<p>c.412-3_415dup</p>
+</td></tr><tr><td colspan="2" rowspan="1">
+<p>K&#305;l&#305;&#231; and Ko&#351;ukcu (7) 2023</p>
+</td><td colspan="3" rowspan="1">
+<p>K&#305;l&#305;&#231; and Ko&#351;ukcu (7) 2023</p>
+</td><td colspan="2" rowspan="1">
+<p>Y&#252;ksel &#220;lker et al. (8) 2024</p>
+</td><td colspan="2" rowspan="1">
+<p>-</p>
+</td></tr></tbody></table><table-wrap-foot><p>ASD: atrial septal defect, VSD: ventricular septal defect, MVP: mitral valve prolapse, PDA: patent ductus arteriosus</p></table-wrap-foot></table-wrap></floats-group></article>
+        
+    </metadata>
+</record>
+    </GetRecord>
+
+</OAI-PMH>
