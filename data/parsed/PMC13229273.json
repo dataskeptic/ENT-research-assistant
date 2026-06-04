@@ -16,7 +16,8 @@
     "pmc_id": "PMC13229273",
     "pmid": "42190012",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 87
   },
   "sections": [
     {
@@ -113,6 +114,1028 @@
       "section": "Rsa Models.",
       "text": "We tested three models. The Shared Phonemes model predicted dissimilarity based on the number of shared phonemes, by position, between words ( Fig. 1 C ). To test specifically for sublexical encoding of phonology, we fit an additional Sublexical model in which same word-to-same word dissimilarities were not tested (i.e., the diagonal elements of the model were excluded) and dissimilarity based on sublexical structure was predicted on the “off diagonal” of the model only ( Fig. 1 D ). This was contrasted with a Lexical model, which predicted that each word is uniquely represented, such that each word is most similar to itself and maximally and equally dissimilar to all other words ( Fig. 1 E ). These models were tested against each set of distances. For hearing participants, we tested in the 1) auditory speech distances, 2) visual speech distances and 3) within-stimulus distances combined across stimulus types (i.e., within auditory speech and within visual speech distances) and 4) all across-stimulus (visual speech to auditory speech) distances. For deaf participants, we tested against the 1) dynamic text distances, 2) visual speech distances and 3) within-stimulus distances combined across stimulus types (i.e., within dynamic text and within visual speech distances) and 4) all across-stimulus (visual speech to dynamic text) distances. In regions where there was a significant fit in 3), i.e., the combined within-stimulus distances, we further tested 4) for a fit in the across-stimulus distances. A fit to both the within- and across-stimulus distances provides evidence for shared representational structure across stimuli. We only tested for across stimulus representations in regions showing within-stimulus representation (across both language forms shown to participants) as regions representing structure across stimulus would need to also represent within-stimulus information. The models were Kendall’s Tau-a correlated with representational distances for each participant and the resulting coefficients were converted to a Fisher Z value for group level statistical testing. As negative correlations are not plausible, greater than 0 model fits were assessed with one-tailed, one-sample t-tests. Two-tailed paired t-tests were used to assess differences in fit between models.",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "r1",
+      "label": "1",
+      "title": "States’ reading outcomes of students who are d/Deaf and hard of hearing",
+      "journal": "Am. Ann. Deaf.",
+      "year": "2012",
+      "fpage": "27",
+      "lpage": "40",
+      "pmid": "22792850",
+      "doi": "10.1353/aad.2012.1611"
+    },
+    {
+      "ref_id": "r2",
+      "label": "2",
+      "title": "Phonemic awareness is not necessary to become a skilled deaf reader",
+      "journal": "J. Dev. Phys. Disabil.",
+      "year": "2011",
+      "fpage": "459",
+      "lpage": "476"
+    },
+    {
+      "ref_id": "r3",
+      "label": "3",
+      "title": "Large-scale academic achievement testing of deaf and hard-of-hearing students: Past, present, and future",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2012",
+      "fpage": "1",
+      "lpage": "18",
+      "pmid": "21712463",
+      "doi": "10.1093/deafed/enr028"
+    },
+    {
+      "ref_id": "r4",
+      "label": "4",
+      "title": "Reading comprehension of Dutch deaf children",
+      "journal": "Reading Writ.",
+      "year": "2006",
+      "fpage": "49",
+      "lpage": "76"
+    },
+    {
+      "ref_id": "r5",
+      "label": "5",
+      "title": "Development of phonological awareness skill",
+      "journal": "Curr. Dir. Psychol. Sci.",
+      "year": "2005",
+      "fpage": "255",
+      "lpage": "259"
+    },
+    {
+      "ref_id": "r6",
+      "label": "6",
+      "title": "Ending the Reading Wars: Reading acquisition from novice to expert",
+      "journal": "Psychol. Sci. Public Interest",
+      "year": "2018",
+      "fpage": "5",
+      "lpage": "51",
+      "pmid": "29890888",
+      "doi": "10.1177/1529100618772271"
+    },
+    {
+      "ref_id": "r7",
+      "label": "7",
+      "title": "Relation between deaf children’s phonological skills in kindergarten and word recognition performance in first grade",
+      "journal": "J. Child Psychol. Psychiatry Allied Discip.",
+      "year": "2007",
+      "fpage": "139",
+      "lpage": "146",
+      "doi": "10.1111/j.1469-7610.2006.01700.x",
+      "pmid": "17300552"
+    },
+    {
+      "ref_id": "r8",
+      "label": "8",
+      "title": "Predictors of reading delay in deaf adolescents: The relative contributions of rapid automatized naming speed and phonological awareness and decoding",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2003",
+      "fpage": "215",
+      "lpage": "229",
+      "pmid": "15448050",
+      "doi": "10.1093/deafed/eng012"
+    },
+    {
+      "ref_id": "r9",
+      "label": "9",
+      "title": "Implicit phonological awareness and early reading development in prelingually deaf children",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "1998",
+      "fpage": "205",
+      "lpage": "216",
+      "pmid": "15579864",
+      "doi": "10.1093/oxfordjournals.deafed.a014351"
+    },
+    {
+      "ref_id": "r10",
+      "label": "10",
+      "title": "Concurrent correlates and predictors of reading and spelling achievement in deaf and hearing school children",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2006",
+      "fpage": "273",
+      "lpage": "288",
+      "pmid": "16556897",
+      "doi": "10.1093/deafed/enj037"
+    },
+    {
+      "ref_id": "r11",
+      "label": "11",
+      "title": "Is reading different for deaf individuals? Reexamining the role of phonology",
+      "journal": "Am. Ann. Deaf.",
+      "year": "2014",
+      "fpage": "359",
+      "lpage": "371",
+      "pmid": "25669018",
+      "doi": "10.1353/aad.2014.0032"
+    },
+    {
+      "ref_id": "r12",
+      "label": "12",
+      "title": "The contribution of phonological knowledge, memory, and language background to reading comprehension in deaf populations",
+      "journal": "Front. Psychol.",
+      "year": "2015",
+      "elocation_id": "01153",
+      "doi": "10.3389/fpsyg.2015.01153",
+      "pmc_id": "PMC4548088",
+      "pmid": "26379566"
+    },
+    {
+      "ref_id": "r13",
+      "label": "13",
+      "title": "Reading achievement in relation to phonological coding and awareness in deaf readers: A meta-analysis",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2011",
+      "fpage": "164",
+      "lpage": "188",
+      "pmid": "21071623",
+      "doi": "10.1093/deafed/enq049",
+      "pmc_id": "PMC3739043"
+    },
+    {
+      "ref_id": "r14",
+      "label": "14",
+      "title": "Contribution of lexical quality and sign language variables to reading comprehension",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2022",
+      "fpage": "355",
+      "lpage": "372",
+      "pmid": "35775152",
+      "doi": "10.1093/deafed/enac018"
+    },
+    {
+      "ref_id": "r15",
+      "label": "15",
+      "authors": [
+        "et al."
+      ],
+      "title": "Speechreading ability is related to phonological awareness and single-word reading in both deaf and hearing children",
+      "journal": "J. Speech Lang. Hear. Res.",
+      "year": "2020",
+      "fpage": "3775",
+      "lpage": "3785",
+      "pmid": "33108258",
+      "doi": "10.1044/2020_JSLHR-20-00159",
+      "pmc_id": "PMC8530507"
+    },
+    {
+      "ref_id": "r16",
+      "label": "16",
+      "title": "Speech reading and learning to read: A comparison of 8-year-old profoundly deaf children with good and poor reading ability",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2006",
+      "fpage": "189",
+      "lpage": "201",
+      "pmid": "16410610",
+      "doi": "10.1093/deafed/enj021"
+    },
+    {
+      "ref_id": "r17",
+      "label": "17",
+      "title": "Predictors of reading development in deaf children: A 3-year longitudinal study",
+      "journal": "J. Exp. Child Psychol.",
+      "year": "2010",
+      "fpage": "229",
+      "lpage": "243",
+      "pmid": "20570282",
+      "doi": "10.1016/j.jecp.2010.04.011"
+    },
+    {
+      "ref_id": "r18",
+      "label": "18",
+      "title": "Speechreading, phonological skills, and word reading ability in children",
+      "journal": "Lang. Speech Hear. Serv. Sch.",
+      "year": "2024",
+      "fpage": "756",
+      "lpage": "766",
+      "pmid": "38630019",
+      "doi": "10.1044/2024_LSHSS-23-00129"
+    },
+    {
+      "ref_id": "r19",
+      "label": "19",
+      "title": "Speechreading and its association with reading among deaf, hearing and dyslexic individuals",
+      "journal": "Clin. Linguist. Phon.",
+      "year": "2006",
+      "fpage": "621",
+      "lpage": "630",
+      "pmid": "17056494",
+      "doi": "10.1080/02699200500266745"
+    },
+    {
+      "ref_id": "r20",
+      "label": "20",
+      "title": "Lipreading and audio-visual speech perception",
+      "journal": "Philos. Trans. R. Soc. Lond. B. Biol. Sci.",
+      "year": "1992",
+      "fpage": "71",
+      "lpage": "78",
+      "pmid": "1348140",
+      "doi": "10.1098/rstb.1992.0009"
+    },
+    {
+      "ref_id": "r21",
+      "label": "21",
+      "authors": [
+        "et al."
+      ],
+      "title": "Computerized speechreading training for deaf children: A randomized controlled trial",
+      "journal": "J. Speech Lang. Hear. Res.",
+      "year": "2019",
+      "fpage": "2882",
+      "lpage": "2894",
+      "pmid": "31336055",
+      "doi": "10.1044/2019_JSLHR-H-19-0073",
+      "pmc_id": "PMC6839416"
+    },
+    {
+      "ref_id": "r22",
+      "label": "22",
+      "authors": [
+        "et al."
+      ],
+      "title": "Identification of the regions involved in phonological assembly using a novel paradigm",
+      "journal": "Brain Lang.",
+      "year": "2015",
+      "fpage": "45",
+      "lpage": "53",
+      "pmid": "26335996",
+      "doi": "10.1016/j.bandl.2015.07.013",
+      "pmc_id": "PMC4669302"
+    },
+    {
+      "ref_id": "r23",
+      "label": "23",
+      "title": "Hierarchical organization of auditory and motor representations in speech perception: Evidence from searchlight similarity analysis",
+      "journal": "Cerebral cortex (New York, N.Y.: 1991)",
+      "year": "2015",
+      "fpage": "1",
+      "lpage": "17",
+      "doi": "10.1093/cercor/bhv136",
+      "pmid": "26157026",
+      "pmc_id": "PMC4635918"
+    },
+    {
+      "ref_id": "r24",
+      "label": "24",
+      "title": "“Who” is saying “what”? Brain-based decoding of human voice and speech",
+      "journal": "Science",
+      "year": "2008",
+      "fpage": "970",
+      "lpage": "973",
+      "pmid": "18988858",
+      "doi": "10.1126/science.1164318"
+    },
+    {
+      "ref_id": "r25",
+      "label": "25",
+      "title": "Mapping the cortical representation of speech sounds in a syllable repetition task",
+      "journal": "Neuroimage",
+      "year": "2016",
+      "fpage": "174",
+      "lpage": "190",
+      "pmid": "27421186",
+      "doi": "10.1016/j.neuroimage.2016.07.023"
+    },
+    {
+      "ref_id": "r26",
+      "label": "26",
+      "title": "Two cortical mechanisms support the integration of visual and auditory speech: A hypothesis and preliminary data",
+      "journal": "Neurosci. Lett.",
+      "year": "2009",
+      "fpage": "219",
+      "lpage": "223",
+      "pmid": "19348727",
+      "doi": "10.1016/j.neulet.2009.01.060",
+      "pmc_id": "PMC2667381"
+    },
+    {
+      "ref_id": "r27",
+      "label": "27",
+      "authors": [
+        "et al."
+      ],
+      "title": "Increased connectivity among sensory and motor regions during visual and audiovisual speech perception",
+      "journal": "J. Neurosci.",
+      "year": "2022",
+      "fpage": "435",
+      "lpage": "442",
+      "pmid": "34815317",
+      "doi": "10.1523/JNEUROSCI.0114-21.2021",
+      "pmc_id": "PMC8802926"
+    },
+    {
+      "ref_id": "r28",
+      "label": "28",
+      "title": "Evaluation of the dual route theory of reading: A metanalysis of 35 neuroimaging studies",
+      "journal": "NeuroImage",
+      "year": "2003",
+      "fpage": "693",
+      "lpage": "712",
+      "pmid": "14568445",
+      "doi": "10.1016/S1053-8119(03)00343-4"
+    },
+    {
+      "ref_id": "r29",
+      "label": "29",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neural correlates of lexical and sublexical processes in reading",
+      "journal": "Brain Lang.",
+      "year": "2004",
+      "fpage": "9",
+      "lpage": "20",
+      "pmid": "15010232",
+      "doi": "10.1016/S0093-934X(03)00403-6"
+    },
+    {
+      "ref_id": "r30",
+      "label": "30",
+      "title": "Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies",
+      "journal": "Psychol. Bull.",
+      "year": "2013",
+      "fpage": "766",
+      "lpage": "791",
+      "pmid": "23046391",
+      "doi": "10.1037/a0030266"
+    },
+    {
+      "ref_id": "r31",
+      "label": "31",
+      "title": "Integration of auditory and visual information about objects in superior temporal sulcus",
+      "journal": "Neuron",
+      "year": "2004",
+      "fpage": "809",
+      "lpage": "823",
+      "pmid": "15003179",
+      "doi": "10.1016/s0896-6273(04)00070-4"
+    },
+    {
+      "ref_id": "r32",
+      "label": "32",
+      "authors": [
+        "et al."
+      ],
+      "title": "A meta-analysis of letter–sound integration: Assimilation and accommodation in the superior temporal gyrus",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2024",
+      "elocation_id": "e26713",
+      "pmid": "39447213",
+      "doi": "10.1002/hbm.26713",
+      "pmc_id": "PMC11501095"
+    },
+    {
+      "ref_id": "r33",
+      "label": "33",
+      "title": "Auditory cortex encodes the perceptual interpretation of ambiguous sound",
+      "journal": "J. Neurosci.",
+      "year": "2011",
+      "fpage": "1715",
+      "lpage": "1720",
+      "pmid": "21289180",
+      "doi": "10.1523/JNEUROSCI.4572-10.2011",
+      "pmc_id": "PMC6623724"
+    },
+    {
+      "ref_id": "r34",
+      "label": "34",
+      "authors": [
+        "et al."
+      ],
+      "title": "Superior temporal activation as a function of linguistic knowledge: Insights from deaf native signers who speechread",
+      "journal": "Brain. Lang.",
+      "year": "2010",
+      "fpage": "129",
+      "lpage": "134",
+      "pmid": "20042233",
+      "doi": "10.1016/j.bandl.2009.10.004",
+      "pmc_id": "PMC3398390"
+    },
+    {
+      "ref_id": "r35",
+      "label": "35",
+      "title": "Multivariate cross-classification: Applying machine learning techniques to characterize abstraction in neural representations",
+      "journal": "Front. Hum. Neurosci.",
+      "year": "2015",
+      "fpage": "151",
+      "pmid": "25859202",
+      "doi": "10.3389/fnhum.2015.00151",
+      "pmc_id": "PMC4373279"
+    },
+    {
+      "ref_id": "r36",
+      "label": "36",
+      "title": "Sign and speech share partially overlapping conceptual representations",
+      "journal": "Curr. Biol.",
+      "year": "2019",
+      "fpage": "3739",
+      "lpage": "3747.e5",
+      "pmid": "31668623",
+      "doi": "10.1016/j.cub.2019.08.075",
+      "pmc_id": "PMC6839399"
+    },
+    {
+      "ref_id": "r37",
+      "label": "37",
+      "title": "Modality-independent decoding of semantic information from the human brain”",
+      "journal": "Cerebral Cortex (New York, N.Y.: 1991)",
+      "year": "2014",
+      "fpage": "426",
+      "lpage": "434",
+      "pmid": "23064107",
+      "doi": "10.1093/cercor/bhs324"
+    },
+    {
+      "ref_id": "r38",
+      "label": "38",
+      "title": "Shared and modality-specific brain regions that mediate auditory and visual word comprehension",
+      "journal": "eLife",
+      "year": "2020",
+      "fpage": "1",
+      "lpage": "23",
+      "doi": "10.7554/eLife.56972",
+      "pmc_id": "PMC7470824",
+      "pmid": "32831168"
+    },
+    {
+      "ref_id": "r39",
+      "label": "39",
+      "authors": [
+        "et al."
+      ],
+      "title": "Phonological representations of auditory and visual speech in the occipito-temporal cortex and beyond.",
+      "journal": "J. Neurosci.",
+      "year": "2025",
+      "elocation_id": "e1415242025",
+      "pmid": "40306962",
+      "doi": "10.1523/JNEUROSCI.1415-24.2025",
+      "pmc_id": "PMC12199548"
+    },
+    {
+      "ref_id": "r40",
+      "label": "40",
+      "authors": [
+        "et al."
+      ],
+      "title": "An application of univariate and multivariate approaches in FMRI to quantifying the hemispheric lateralization of acoustic and linguistic processes",
+      "journal": "J. Cogn. Neurosci.",
+      "year": "2012",
+      "fpage": "636",
+      "lpage": "652",
+      "pmid": "22066589",
+      "doi": "10.1162/jocn_a_00161",
+      "pmc_id": "PMC3376446"
+    },
+    {
+      "ref_id": "r41",
+      "label": "41",
+      "title": "The visual element in phonological perception and learning”",
+      "journal": "Phonology in Context",
+      "year": "2007",
+      "fpage": "135",
+      "lpage": "158"
+    },
+    {
+      "ref_id": "r42",
+      "label": "42",
+      "title": "Hearing lips and seeing voices",
+      "journal": "Nature",
+      "year": "1976",
+      "fpage": "746",
+      "lpage": "748",
+      "pmid": "1012311",
+      "doi": "10.1038/264746a0"
+    },
+    {
+      "ref_id": "r43",
+      "label": "43",
+      "title": "Auditory–visual speech integration by prelinguistic infants: Perception of an emergent consonant in the McGurk effect",
+      "journal": "Dev. Psychobiol.",
+      "year": "2004",
+      "fpage": "204",
+      "lpage": "220",
+      "pmid": "15549685",
+      "doi": "10.1002/dev.20032"
+    },
+    {
+      "ref_id": "r44",
+      "label": "44",
+      "title": "The role of left inferior frontal cortex during audiovisual speech perception in infants",
+      "journal": "Neuroimage",
+      "year": "2016",
+      "fpage": "14",
+      "lpage": "20",
+      "pmid": "26946090",
+      "doi": "10.1016/j.neuroimage.2016.02.061"
+    },
+    {
+      "ref_id": "r45",
+      "label": "45",
+      "authors": [
+        "et al."
+      ],
+      "title": "Watching talking faces: The development of cortical representation of visual syllables in infancy",
+      "journal": "Brain Lang.",
+      "year": "2023",
+      "elocation_id": "105304",
+      "pmid": "37481794",
+      "doi": "10.1016/j.bandl.2023.105304"
+    },
+    {
+      "ref_id": "r46",
+      "label": "46",
+      "authors": [
+        "et al."
+      ],
+      "title": "The development of cortical responses to the integration of audiovisual speech in infancy",
+      "journal": "Brain Topogr.",
+      "year": "2023",
+      "fpage": "459",
+      "lpage": "475",
+      "pmid": "37171657",
+      "doi": "10.1007/s10548-023-00959-8",
+      "pmc_id": "PMC10176292"
+    },
+    {
+      "ref_id": "r47",
+      "label": "47",
+      "title": "The origin of phonological representations in the deaf",
+      "journal": "Language Processing in Spanish",
+      "year": "1992",
+      "fpage": "107",
+      "lpage": "132"
+    },
+    {
+      "ref_id": "r48",
+      "label": "48",
+      "title": "The role of speech reading during visual word processing in hearing children: A functional magnetic resonance imaging study",
+      "journal": "J. Speech Lang. Hear. Res.",
+      "year": "2026",
+      "fpage": "166",
+      "lpage": "181",
+      "pmid": "41401803",
+      "doi": "10.1044/2025_JSLHR-24-00872",
+      "pmc_id": "PMC12926796"
+    },
+    {
+      "ref_id": "r49",
+      "label": "49",
+      "title": "Speechreading in hearing children can be improved by training",
+      "journal": "Dev. Sci.",
+      "year": "2021",
+      "fpage": "1",
+      "lpage": "12",
+      "doi": "10.1111/desc.13124",
+      "pmc_id": "PMC7612880",
+      "pmid": "34060185"
+    },
+    {
+      "ref_id": "r50",
+      "label": "50",
+      "title": "Children with developmental dyslexia have equivalent audiovisual speech perception performance but their perceptual weights differ",
+      "journal": "Dev. Sci.",
+      "year": "2024",
+      "elocation_id": "e13431",
+      "pmid": "37403418",
+      "doi": "10.1111/desc.13431",
+      "pmc_id": "PMC11974260"
+    },
+    {
+      "ref_id": "r51",
+      "label": "51",
+      "title": "Visual speech perception in children with language learning impairments",
+      "journal": "J. Speech Lang. Hear. Res.",
+      "year": "2016",
+      "fpage": "1",
+      "lpage": "14",
+      "pmid": "26895558",
+      "doi": "10.1044/2015_JSLHR-S-14-0269"
+    },
+    {
+      "ref_id": "r52",
+      "label": "52",
+      "title": "Phonological awareness of syllables, rhymes, and phonemes in deaf children",
+      "journal": "J. Child Psychol. Psychiatry. Allied Discip.",
+      "year": "2000",
+      "fpage": "609",
+      "lpage": "625",
+      "doi": "10.1111/1469-7610.00648",
+      "pmid": "10946753"
+    },
+    {
+      "ref_id": "r53",
+      "label": "53",
+      "title": "Phonological coding in word reading: Evidence from hearing and deaf readers",
+      "journal": "Mem. Cogn.",
+      "year": "1987",
+      "fpage": "199",
+      "lpage": "207",
+      "doi": "10.3758/bf03197717",
+      "pmid": "3600259"
+    },
+    {
+      "ref_id": "r54",
+      "label": "54",
+      "title": "Reading with deaf eyes: Automatic activation of speech-based phonology during word recognition is task dependent",
+      "journal": "PLoS One.",
+      "year": "2025",
+      "elocation_id": "e0327142",
+      "pmid": "40788871",
+      "doi": "10.1371/journal.pone.0327142",
+      "pmc_id": "PMC12338799"
+    },
+    {
+      "ref_id": "r55",
+      "label": "55",
+      "title": "Connectionist models of word reading",
+      "journal": "Curr. Dir. Psychol. Sci.",
+      "year": "2005",
+      "fpage": "238",
+      "lpage": "242"
+    },
+    {
+      "ref_id": "r56",
+      "label": "56",
+      "authors": [
+        "et al."
+      ],
+      "title": "Visual sign phonology: Insights into human reading and language from a natural soundless phonology",
+      "journal": "WIRES Cognitive Sci.",
+      "year": "2016",
+      "fpage": "366",
+      "lpage": "381",
+      "doi": "10.1002/wcs.1404",
+      "pmid": "27425650"
+    },
+    {
+      "ref_id": "r57",
+      "label": "57",
+      "title": "Mapping the reading circuitry for skilled deaf readers: An fMRI study of semantic and phonological processing",
+      "journal": "Brain Lang.",
+      "year": "2013",
+      "fpage": "169",
+      "lpage": "180",
+      "pmid": "23747332",
+      "doi": "10.1016/j.bandl.2013.05.001"
+    },
+    {
+      "ref_id": "r58",
+      "label": "58",
+      "title": "The neural underpinnings of reading skill in deaf adults",
+      "journal": "Brain Lang.",
+      "year": "2016",
+      "fpage": "11",
+      "lpage": "20",
+      "pmid": "27448530",
+      "doi": "10.1016/j.bandl.2016.06.007"
+    },
+    {
+      "ref_id": "r59",
+      "label": "59",
+      "authors": [
+        "et al."
+      ],
+      "title": "Orthographic and phonological selectivity across the reading system in deaf skilled readers",
+      "journal": "Neuropsychologia",
+      "year": "2018",
+      "fpage": "500",
+      "lpage": "512",
+      "pmid": "30005927",
+      "doi": "10.1016/j.neuropsychologia.2018.07.010",
+      "pmc_id": "PMC6311094"
+    },
+    {
+      "ref_id": "r60",
+      "label": "60",
+      "title": "Bilateral word selectivity gradients in the visual word form system in skilled deaf readers",
+      "journal": "Neurobiol. Lang.",
+      "year": "2025",
+      "fpage": "1",
+      "lpage": "37",
+      "doi": "10.1162/nol.a.13",
+      "pmc_id": "PMC12459975",
+      "pmid": "41000092"
+    },
+    {
+      "ref_id": "r61",
+      "label": "61",
+      "title": "The neurocognitive basis of skilled reading in prelingually and profoundly deaf adults",
+      "journal": "Lang. Linguist. Compass",
+      "year": "2021",
+      "elocation_id": "e12407",
+      "pmid": "34306178",
+      "doi": "10.1111/lnc3.12407",
+      "pmc_id": "PMC8302003"
+    },
+    {
+      "ref_id": "r62",
+      "label": "62",
+      "title": "Phonological processing in relation to reading: An fMRI study in deaf readers",
+      "journal": "Neuroimage",
+      "year": "2007",
+      "fpage": "1303",
+      "lpage": "1316",
+      "pmid": "17329129",
+      "doi": "10.1016/j.neuroimage.2006.12.046"
+    },
+    {
+      "ref_id": "r63",
+      "label": "63",
+      "title": "Phonological processing in deaf signers and the impact of age of first language acquisition",
+      "journal": "Neuroimage",
+      "year": "2008",
+      "fpage": "1369",
+      "lpage": "1379",
+      "pmid": "18282770",
+      "doi": "10.1016/j.neuroimage.2007.12.047",
+      "pmc_id": "PMC2278232"
+    },
+    {
+      "ref_id": "r64",
+      "label": "64",
+      "title": "The unique role of the visual word form area in reading",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2011",
+      "fpage": "254",
+      "lpage": "262",
+      "pmid": "21592844",
+      "doi": "10.1016/j.tics.2011.04.003"
+    },
+    {
+      "ref_id": "r65",
+      "label": "65",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cortical circuits for silent speechreading in deaf and hearing people",
+      "journal": "Neuropsychologia",
+      "year": "2008",
+      "fpage": "1233",
+      "lpage": "1241",
+      "pmid": "18249420",
+      "doi": "10.1016/j.neuropsychologia.2007.11.026",
+      "pmc_id": "PMC2394569"
+    },
+    {
+      "ref_id": "r66",
+      "label": "66",
+      "title": "Lexical processing in Deaf readers: An fMRI investigation of reading proficiency",
+      "journal": "PLoS One.",
+      "year": "2013",
+      "elocation_id": "e54696",
+      "pmid": "23359269",
+      "doi": "10.1371/journal.pone.0054696",
+      "pmc_id": "PMC3554651"
+    },
+    {
+      "ref_id": "r67",
+      "label": "67",
+      "authors": [
+        "et al."
+      ],
+      "title": "Fingerspelling, signed language, text and picture processing in deaf native signers: The role of the mid-fusiform gyrus",
+      "journal": "Neuroimage",
+      "year": "2007",
+      "fpage": "1287",
+      "lpage": "1302",
+      "pmid": "17363278",
+      "doi": "10.1016/j.neuroimage.2007.01.025",
+      "pmc_id": "PMC3480647"
+    },
+    {
+      "ref_id": "r68",
+      "label": "68",
+      "authors": [
+        "et al."
+      ],
+      "title": "Avoiding unintended consequences: Science of reading policies may harm deaf children",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2026",
+      "elocation_id": "enag004",
+      "doi": "10.1093/jdsade/enag004",
+      "pmid": "41712465"
+    },
+    {
+      "ref_id": "r69",
+      "label": "69",
+      "authors": [
+        "et al."
+      ],
+      "title": "On the reliability of the notion of native signer and its risks",
+      "journal": "Front. Psychol.",
+      "year": "2022",
+      "elocation_id": "716554",
+      "pmid": "35369221",
+      "doi": "10.3389/fpsyg.2022.716554",
+      "pmc_id": "PMC8964454"
+    },
+    {
+      "ref_id": "r70",
+      "label": "70",
+      "title": "American Sign Language and Academic English: Factors influencing the reading of bilingual secondary school Deaf and Hard of Hearing Students",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "2017",
+      "fpage": "59",
+      "lpage": "71",
+      "pmid": "27789551",
+      "doi": "10.1093/deafed/enw065"
+    },
+    {
+      "ref_id": "r71",
+      "label": "71",
+      "title": "A study of the relationship between American Sign Language and English literacy",
+      "journal": "J. Deaf Stud. Deaf Educ.",
+      "year": "1997",
+      "fpage": "37",
+      "lpage": "46",
+      "pmid": "15579834",
+      "doi": "10.1093/oxfordjournals.deafed.a014308"
+    },
+    {
+      "ref_id": "r72",
+      "label": "72",
+      "title": "ASL skills, fingerspelling ability, home communication context and early alphabetic knowledge of preschool-aged Deaf children.",
+      "journal": "Sign Lang. Stud.",
+      "year": "2015",
+      "fpage": "233",
+      "lpage": "265"
+    },
+    {
+      "ref_id": "r73",
+      "label": "73",
+      "title": "Fingerspelling as a novel gateway into reading fluency in Deaf bilinguals.",
+      "journal": "PLoS. One",
+      "year": "2015",
+      "elocation_id": "e0139610",
+      "pmid": "26427062",
+      "doi": "10.1371/journal.pone.0139610",
+      "pmc_id": "PMC4591273"
+    },
+    {
+      "ref_id": "r74",
+      "label": "74",
+      "title": "Translanguaging framework for deaf education",
+      "journal": "Languages",
+      "year": "2023",
+      "elocation_id": "59"
+    },
+    {
+      "ref_id": "r75",
+      "label": "75",
+      "title": "The relative contributions of speechreading and vocabulary to deaf and hearing children’s reading ability",
+      "journal": "Res. Dev. Disabil.",
+      "year": "2016",
+      "fpage": "13",
+      "lpage": "24",
+      "pmid": "26524726",
+      "doi": "10.1016/j.ridd.2015.10.004",
+      "pmc_id": "PMC4916263"
+    },
+    {
+      "ref_id": "r76",
+      "label": "76",
+      "title": "The cortical organization of speech processing",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2007",
+      "fpage": "393",
+      "lpage": "402",
+      "pmid": "17431404",
+      "doi": "10.1038/nrn2113"
+    },
+    {
+      "ref_id": "r77",
+      "label": "77",
+      "title": "Maps and streams in the auditory cortex: Nonhuman primates illuminate human speech processing",
+      "journal": "Nat. Neurosci.",
+      "year": "2009",
+      "fpage": "718",
+      "lpage": "724",
+      "pmid": "19471271",
+      "doi": "10.1038/nn.2331",
+      "pmc_id": "PMC2846110"
+    },
+    {
+      "ref_id": "r78",
+      "label": "78",
+      "title": "A review and synthesis of the first 20years of PET and fMRI studies of heard speech, spoken language and reading",
+      "journal": "Neuroimage",
+      "year": "2012",
+      "fpage": "816",
+      "lpage": "847",
+      "pmid": "22584224",
+      "doi": "10.1016/j.neuroimage.2012.04.062",
+      "pmc_id": "PMC3398395"
+    },
+    {
+      "ref_id": "r79",
+      "label": "79",
+      "title": "Crossmodal reorganisation in deafness: Mechanisms for functional preservation and functional change",
+      "journal": "Neurosci. Biobehav. Rev.",
+      "year": "2020",
+      "fpage": "227",
+      "lpage": "237",
+      "pmid": "32199886",
+      "doi": "10.1016/j.neubiorev.2020.03.019"
+    },
+    {
+      "ref_id": "r80",
+      "label": "80",
+      "authors": [
+        "et al."
+      ],
+      "title": "The impact of early deafness on brain plasticity: A systematic review of the white and gray matter changes",
+      "journal": "Front. Neurosci.",
+      "year": "2020",
+      "fpage": "206",
+      "pmid": "32292323",
+      "doi": "10.3389/fnins.2020.00206",
+      "pmc_id": "PMC7135892"
+    },
+    {
+      "ref_id": "r81",
+      "label": "81",
+      "authors": [
+        "et al."
+      ],
+      "title": "Revealing the co-existence of written and spoken language coding neural populations in the visual word form area",
+      "journal": "Imaging. Neurosci.",
+      "year": "2025",
+      "elocation_id": "imag_a_00524",
+      "doi": "10.1162/imag_a_00524",
+      "pmc_id": "PMC12319854",
+      "pmid": "40800829"
+    },
+    {
+      "ref_id": "r82",
+      "label": "82",
+      "title": "The interactive account of ventral occipitotemporal contributions to reading",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2011",
+      "fpage": "246",
+      "lpage": "253",
+      "pmid": "21549634",
+      "doi": "10.1016/j.tics.2011.04.001",
+      "pmc_id": "PMC3223525"
+    },
+    {
+      "ref_id": "r83",
+      "label": "83",
+      "title": "Reading comprehension test",
+      "journal": "Dyslexia Review",
+      "year": "1996",
+      "fpage": "11",
+      "lpage": "16"
+    },
+    {
+      "ref_id": "r84",
+      "label": "84",
+      "title": "TAS: A new test of adult speechreading. Deaf people really can be better speechreaders”",
+      "journal": "International Conference on Auditory-Visual Speech Processing",
+      "year": "2001",
+      "fpage": "1",
+      "lpage": "5"
+    },
+    {
+      "ref_id": "r85",
+      "label": "85",
+      "authors": [
+        "et al."
+      ],
+      "title": "A toolbox for representational similarity analysis",
+      "journal": "PLoS Comput. Biol.",
+      "year": "2014",
+      "elocation_id": "e1003553",
+      "pmid": "24743308",
+      "doi": "10.1371/journal.pcbi.1003553",
+      "pmc_id": "PMC3990488"
+    },
+    {
+      "ref_id": "r86",
+      "label": "86",
+      "authors": [
+        "et al."
+      ],
+      "title": "Reliability of dissimilarity measures for multi-voxel pattern analysis",
+      "journal": "NeuroImage",
+      "year": "2015",
+      "fpage": "188",
+      "lpage": "200",
+      "doi": "10.1016/j.neuroimage.2015.12.012",
+      "pmid": "26707889"
+    },
+    {
+      "ref_id": "r87",
+      "label": "87",
+      "authors": [
+        "et al."
+      ],
+      "doi": "10.1073/pnas.2535704123",
+      "pmc_id": "PMC13229273",
+      "pmid": "42190012"
     }
   ]
 }

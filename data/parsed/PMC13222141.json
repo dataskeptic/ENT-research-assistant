@@ -15,7 +15,8 @@
     "pmc_id": "PMC13222141",
     "pmid": "42217063",
     "full_text_available": true,
-    "section_count": 17
+    "section_count": 17,
+    "reference_count": 22
   },
   "sections": [
     {
@@ -102,6 +103,403 @@
       "section": "Conclusion",
       "text": "Sentinel lymph node biopsy (SLNB) remains an important staging tool in head and neck melanoma. While advances in imaging and procedural standardization have significantly improved sentinel lymph node detection, diagnostic sensitivity remains limited due to anatomical complexity. False-negative results occur predominantly in specific drainage regions, particularly cervical level II, and may lead to clinically relevant understaging with potential implications for treatment decision-making. Tumor thickness remains a strong predictor of sentinel node positivity but does not distinguish between true-positive and false-negative findings, underscoring the role of anatomical and technical factors. The lack of an association between sentinel lymph node status and overall survival should be interpreted with caution and may reflect both the limited sample size and the impact of modern systemic therapies. These findings highlight the need for careful interpretation of negative SLNB results and support risk-adapted follow-up strategies, particularly in anatomically high-risk regions.",
       "order": 16
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Amin MB",
+        "Greene FL",
+        "Edge SB",
+        "et al."
+      ],
+      "title": "The eighth edition AJCC cancer staging manual continuing to build a bridge from a population-based to a more personalized approach to cancer staging",
+      "journal": "CA Cancer J Clin",
+      "year": "2017",
+      "volume": "67",
+      "issue": "2",
+      "fpage": "93",
+      "lpage": "99",
+      "pmid": "28094848",
+      "doi": "10.3322/caac.21388"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Chao C",
+        "Wong SL",
+        "Edwards MJ",
+        "et al."
+      ],
+      "title": "Sentinel lymph node biopsy for head and neck melanomas",
+      "journal": "Ann Surg Oncol",
+      "year": "2003",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "21",
+      "lpage": "26",
+      "doi": "10.1245/ASO.2003.06.007",
+      "pmid": "12513955"
+    },
+    {
+      "ref_id": "CR3",
+      "authors": [
+        "de Rosa N",
+        "Lyman GH",
+        "Silbermins D",
+        "et al."
+      ],
+      "title": "Sentinel node biopsy for head and neck melanoma: a systematic review",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2011",
+      "volume": "145",
+      "issue": "3",
+      "fpage": "375",
+      "lpage": "382",
+      "doi": "10.1177/0194599811408554",
+      "pmid": "21540313"
+    },
+    {
+      "ref_id": "CR4",
+      "authors": [
+        "Downey J",
+        "DeVries K",
+        "Lano IM",
+        "et al."
+      ],
+      "title": "False-negative sentinel lymph node biopsy for melanoma: a single-surgeon experience",
+      "journal": "Can J Surg",
+      "year": "2024",
+      "volume": "67",
+      "fpage": "E337",
+      "lpage": "E344",
+      "doi": "10.1503/cjs.016023",
+      "pmid": "39332833",
+      "pmc_id": "PMC11444684"
+    },
+    {
+      "ref_id": "CR5",
+      "authors": [
+        "Eggermont AMM",
+        "Spatz A",
+        "Robert C"
+      ],
+      "title": "Cutaneous melanoma",
+      "journal": "Lancet",
+      "year": "2014",
+      "volume": "383",
+      "issue": "9919",
+      "fpage": "816",
+      "lpage": "827",
+      "doi": "10.1016/S0140-6736(13)60802-8",
+      "pmid": "24054424"
+    },
+    {
+      "ref_id": "CR6",
+      "authors": [
+        "Eggermont AMM",
+        "Blank CU",
+        "Mandala M",
+        "et al."
+      ],
+      "title": "Adjuvant pembrolizumab versus placebo in resected stage III melanoma",
+      "journal": "N Engl J Med",
+      "year": "2018",
+      "volume": "378",
+      "issue": "19",
+      "fpage": "1789",
+      "lpage": "1801",
+      "doi": "10.1056/NEJMoa1802357",
+      "pmid": "29658430"
+    },
+    {
+      "ref_id": "CR7",
+      "authors": [
+        "Faries MB",
+        "Thompson JF",
+        "Cochran AJ",
+        "et al."
+      ],
+      "title": "Completion dissection or observation for sentinel-node metastasis in melanoma",
+      "journal": "N Engl J Med",
+      "year": "2017",
+      "volume": "376",
+      "issue": "23",
+      "fpage": "2211",
+      "lpage": "2222",
+      "doi": "10.1056/NEJMoa1613210",
+      "pmid": "28591523",
+      "pmc_id": "PMC5548388"
+    },
+    {
+      "ref_id": "CR8",
+      "authors": [
+        "Garbe C",
+        "Amaral T",
+        "Peris K",
+        "et al."
+      ],
+      "title": "European consensus-based interdisciplinary guideline for melanoma. Part 1: diagnostics—update 2022",
+      "journal": "Eur J Cancer",
+      "year": "2022",
+      "volume": "170",
+      "fpage": "236",
+      "lpage": "255",
+      "doi": "10.1016/j.ejca.2022.03.008",
+      "pmid": "35570085"
+    },
+    {
+      "ref_id": "CR9",
+      "authors": [
+        "Garbe C",
+        "Amaral T",
+        "Peris K",
+        "et al."
+      ],
+      "title": "European consensus-based interdisciplinary guideline for melanoma. Part 2: Treatment—update 2024",
+      "journal": "Eur J Cancer",
+      "year": "2024",
+      "volume": "215",
+      "fpage": "115153",
+      "doi": "10.1016/j.ejca.2024.115153",
+      "pmid": "39709737"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Hanks JE",
+        "Kovatch KJ",
+        "Ali SA",
+        "et al."
+      ],
+      "title": "Sentinel lymph node biopsy in head and neck melanoma: long-term outcomes, prognostic value, accuracy, and safety",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2020",
+      "volume": "162",
+      "issue": "4",
+      "fpage": "520",
+      "lpage": "529",
+      "doi": "10.1177/0194599819899934",
+      "pmid": "32041486",
+      "pmc_id": "PMC8012010"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "Karim RZ",
+        "Scolyer RA",
+        "Li W",
+        "et al."
+      ],
+      "title": "False-negative sentinel lymph node biopsies in melanoma may result from deficiencies in nuclear medicine, surgery, or pathology",
+      "journal": "Ann Surg",
+      "year": "2008",
+      "volume": "247",
+      "issue": "6",
+      "fpage": "1003",
+      "lpage": "1010",
+      "doi": "10.1097/SLA.0b013e3181724f5e",
+      "pmid": "18520228"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Lachiewicz AM",
+        "Berwick M",
+        "Wiggins CL",
+        "Thomas NE"
+      ],
+      "title": "Survival differences between patients with scalp or neck melanoma and those with melanoma of other sites in the SEER program",
+      "journal": "Arch Dermatol",
+      "year": "2008",
+      "volume": "144",
+      "issue": "4",
+      "fpage": "515",
+      "lpage": "521",
+      "doi": "10.1001/archderm.144.4.515",
+      "pmid": "18427046"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Leiter U",
+        "Stadler R",
+        "Mauch C",
+        "et al."
+      ],
+      "title": "Complete lymph node dissection versus no dissection in patients with sentinel lymph node biopsy positive melanoma (DeCOG-SLT): a multicentre, randomised, phase 3 trial",
+      "journal": "Lancet Oncol",
+      "year": "2016",
+      "volume": "17",
+      "issue": "6",
+      "fpage": "757",
+      "lpage": "767",
+      "doi": "10.1016/S1470-2045(16)00141-8",
+      "pmid": "27161539"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Miller MW",
+        "Vetto JT",
+        "Monroe MM",
+        "et al."
+      ],
+      "title": "False-negative sentinel lymph node biopsy in head and neck melanoma",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2011",
+      "volume": "145",
+      "issue": "5",
+      "fpage": "775",
+      "lpage": "781",
+      "doi": "10.1177/0194599811411878",
+      "pmid": "21659495"
+    },
+    {
+      "ref_id": "CR15",
+      "authors": [
+        "Morton DL",
+        "Wen DR",
+        "Wong JH"
+      ],
+      "title": "Technical details of intraoperative lymphatic mapping for early stage melanoma",
+      "journal": "Arch Surg",
+      "year": "1992",
+      "volume": "127",
+      "issue": "4",
+      "fpage": "392",
+      "lpage": "399",
+      "doi": "10.1001/archsurg.1992.01420040034005",
+      "pmid": "1558490"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Morton DL",
+        "Thompson JF",
+        "Cochran AJ",
+        "et al."
+      ],
+      "title": "Sentinel-node biopsy or nodal observation in melanoma",
+      "journal": "N Engl J Med",
+      "year": "2006",
+      "volume": "355",
+      "issue": "13",
+      "fpage": "1307",
+      "lpage": "1317",
+      "doi": "10.1056/NEJMoa060992",
+      "pmid": "17005948"
+    },
+    {
+      "ref_id": "CR17",
+      "authors": [
+        "Morton DL",
+        "Thompson JF",
+        "Cochran AJ",
+        "et al."
+      ],
+      "title": "Final trial report of sentinel-node biopsy versus nodal observation in melanoma",
+      "journal": "N Engl J Med",
+      "year": "2014",
+      "volume": "370",
+      "issue": "7",
+      "fpage": "599",
+      "lpage": "609",
+      "doi": "10.1056/NEJMoa1310460",
+      "pmid": "24521106",
+      "pmc_id": "PMC4058881"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Pasha T",
+        "Arain Z",
+        "Buscombe J",
+        "et al."
+      ],
+      "title": "Association of complex lymphatic drainage in head and neck cutaneous melanoma with sentinel lymph node biopsy outcomes: a cohort study and literature review",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "issue": "5",
+      "fpage": "416",
+      "lpage": "423",
+      "doi": "10.1001/jamaoto.2023.0076",
+      "pmid": "36892824",
+      "pmc_id": "PMC9999281"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Spoerl S",
+        "Forschner A",
+        "Leiter U",
+        "et al."
+      ],
+      "title": "Head and neck melanoma: outcome and predictors in a population-based cohort study",
+      "journal": "Head Face Med",
+      "year": "2021",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "45",
+      "doi": "10.1186/s13005-021-00295-x",
+      "pmid": "34686191",
+      "pmc_id": "PMC8532308"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Swetter SM",
+        "Tsao H",
+        "Bichakjian CK",
+        "et al."
+      ],
+      "title": "Guidelines of care for the management of primary cutaneous melanoma",
+      "journal": "J Am Acad Dermatol",
+      "year": "2019",
+      "volume": "80",
+      "issue": "1",
+      "fpage": "208",
+      "lpage": "250",
+      "doi": "10.1016/j.jaad.2018.08.055",
+      "pmid": "30392755"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Veenstra HJ",
+        "Wouters MW",
+        "Kroon BB",
+        "et al."
+      ],
+      "title": "Less false-negative sentinel node procedures in melanoma patients with experience and proper collaboration",
+      "journal": "J Surg Oncol",
+      "year": "2011",
+      "volume": "104",
+      "issue": "5",
+      "fpage": "454",
+      "lpage": "457",
+      "doi": "10.1002/jso.21967",
+      "pmid": "21538361"
+    },
+    {
+      "ref_id": "CR22",
+      "authors": [
+        "Weber J",
+        "Mandala M",
+        "Del Vecchio M",
+        "et al."
+      ],
+      "title": "Adjuvant nivolumab versus ipilimumab in resected stage III or IV melanoma",
+      "journal": "N Engl J Med",
+      "year": "2017",
+      "volume": "377",
+      "issue": "19",
+      "fpage": "1824",
+      "lpage": "1835",
+      "doi": "10.1056/NEJMoa1709030",
+      "pmid": "28891423"
     }
   ]
 }

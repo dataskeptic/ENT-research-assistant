@@ -28,7 +28,8 @@
     "pmc_id": "PMC13198310",
     "pmid": "42127901",
     "full_text_available": true,
-    "section_count": 20
+    "section_count": 20,
+    "reference_count": 76
   },
   "sections": [
     {
@@ -130,6 +131,1459 @@
       "section": "Quantification And Statistical Analysis",
       "text": "Missing values for outcome measures and covariates varied by cohort (for example, up to 29.8% for cognitive tests in CHARLS and up to 24.2% for ADL measures in TILDA). The detailed information on missing data for each wave within each cohort is provided in Tables S5 , S6 , S7 , S8 , S9 , S10 , and S11 . Most missingness was deemed to be Missing at Random (MAR), based on the assumption that the missingness could be explained by other observed covariates. Therefore, we performed 25 imputations via chained equations (using the mice package in R) to fill in missing outcome variables and covariates for each wave within each cohort, 73 thereby reducing potential bias from attrition or non-response. The imputation model included wave-specific covariates—age (years), gender (women/men), education (primary school or less; secondary school; college or above), marital status (married/partnered vs. unmarried/divorced/widowed), family income level (categorized as low, middle and high level), current smoking (yes/no), current alcohol use (yes/no), physical activity (any moderate or vigorous activity vs. none), diagnosed hypertension, diagnosed diabetes, and diagnosed cardiovascular disease (all doctor-diagnosed, yes/no), health insurance status (yes/no), intergenerational support (yes/no)—as well as all component variables used to construct the probable dementia outcome, including memory impairment, temporal orientation impairment, executive function impairment, functional impairment, IQCODE, and self-reported dementia (all coded as yes/no). After constructing all variables within each cohort, we harmonized exposure variables, covariates, and outcome measures across cohorts for pooled analyses, following the harmonized strategies described in Tables S3 and S4 . The baseline characteristics of the participants were described by overall and country income levels (High-income, Middle-income). Continuous variables are presented as means and standard deviation (SD) or medians (interquartile range) as appropriate, and categorical variables as counts and percentages. To account for potential confounding in the non-randomized comparison of non-users vs. hearing aid users (and poor hearing aid effective vs. good hearing aid effective users), we employed an inverse probability of treatment weighting (IPTW) approach. We estimated propensity scores using logistic regression to determine the likelihood of hearing aid use (yes vs. no) at baseline, including all covariates listed above. Similarly, for analyses involving hearing aid effectiveness, we used multinomial logistic regression to estimate propensity scores for three groups (no aid, good effectiveness, poor effectiveness), given the covariates. Each participant was then weighted by the inverse of the probability of their observed treatment status. We examined covariate balance before and after weighting by calculating standardized mean differences (SMD) between groups, and the groups were considered homogeneous for each variable when the SMD was ≤0.1 after weighting. 74 For probable dementia incidence, we fitted Cox proportional hazards models (with time since baseline as the timescale) to estimate hazard ratios (HRs) and 95% confidence intervals (CI) for the association between hearing aid use and probable dementia. To address between-cohort heterogeneity, we included cohort as a shared frailty in the model. The proportional hazards (PH) assumption was tested graphically using plots of the log-cumulative hazard. This assumption was verified not only for the primary harmonized cohort but also within each individual cohort and for the analyses stratified by country income level, as the curves for the compared groups were consistently found to be approximately parallel. The primary Cox model compared hearing aid users to non-users among hearing-impaired individuals in the harmonized cohort and then performed stratified analyses by country income level (High-income vs. Middle-income) to evaluate potential variations in the associations. As a supplementary analysis, we also fitted the model within each individual cohort to examine cohort-specific associations. All models were weighted by IPTWs. We conducted a parallel set of IPTW-weighted Cox models to examine the effectiveness of hearing aids, treating non-users as the reference group. In these models, we estimated the hazard of probable dementia for two groups of hearing aid users: those with good and poor effectiveness, relative to hearing-impaired non-users. Separate models for these effectiveness analyses were also conducted within each country’s income level and each individual cohort. To explore potential association modification, we performed subgroup analyses stratified by the following key sociodemographic factors: age group (55–69 vs. ≥70 years), gender, education level (primary or less vs. secondary and above), marital status (married/partnered vs. unmarried/others), family income level (low, middle, vs. high), health insurance status (yes vs. no), and SDI (low, middle, vs. high). Within each stratum, we fitted the IPTW-weighted Cox model for both hearing aid use and effectiveness. To ensure statistical stability, analyses were restricted to subgroups with at least 100 participants. 75 p -values for the subgroup estimates were adjusted for multiple comparisons using the Bonferroni method. We formally tested for interaction by adding product terms to the Cox models and assessing their significance with likelihood ratio tests. We carried out several sensitivity analyses to assess the robustness of our findings. First, to reduce potential reverse causation, we excluded individuals who developed probable dementia within the first 3 years of follow-up and refit the models. Second, since dementia risk accelerates at older ages, we restricted the sample to participants aged 60 and above at baseline to see if results were consistent in this older subset. Third, we limited the analysis to participants who had at least two follow-up waves after baseline, ensuring they were observed over time beyond a single assessment. Fourth, we applied a more stringent definition of probable dementia by requiring the cognitive impairment to be sustained. If a participant met cognitive impairment criteria at one wave but then improved by ≥ 1 SD in a subsequent wave (suggesting transient delirium or measurement error), we did not count the initial event as probable dementia. Fifth, to test the robustness of our findings to the heterogeneous components of our probable dementia definition, we conducted two separate sensitivity analyses. The first excluded cases were identified via the informant-based IQCODE (which was not available in all cohorts), while the second excluded cases were based on the broad self-reported criterion of memory-related disease. Sixth, to address exposure misclassification resulting from changes in hearing aid use over time, we conducted two sensitivity analyses: one excluding participants who initiated hearing aid use during follow-up, and another excluding those who used hearing aids at baseline but subsequently discontinued them in the first round of follow-up (non-persistent use). The ELSA and TILDA cohorts were excluded from both analyses due to the timing of their hearing aid measurements. Seventh, to enhance measurement validity, we repeated the analyses while restricting multiple imputations exclusively to missing covariates and deliberately omitting imputations for the outcome variable. Eighth, to minimize potential bias introduced by imputation, we conducted additional analyses using unimputed data. Ninth, we used competing risk models with death as a competing risk of probable dementia. TILDA was not included in this sensitivity analysis since death was not measured in TILDA. Tenth, to account for country-level context, our primary models included the SDI as a covariate. To assess the robustness of our findings to the choice of this indicator and better understand the role of national-level factors, we also conducted sensitivity analyses using separate models that controlled for the UHC index instead of the SDI. To formally assess the potential impact of unmeasured confounding factors on our primary associations, we calculated the E-value. The E-value quantifies the minimum strength of association that a potential unmeasured confounder would need to have with both the exposure and the outcome to completely negate the observed association. 76 All analyses were conducted using R version 4.3.2, with significance levels set at p < 0.05.",
       "order": 19
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1",
+      "authors": [
+        "Livingston G.",
+        "Huntley J.",
+        "Liu K.Y.",
+        "Costafreda S.G.",
+        "Selbæk G.",
+        "Alladi S.",
+        "Ames D.",
+        "Banerjee S.",
+        "Burns A.",
+        "Brayne C.",
+        "et al."
+      ],
+      "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "journal": "Lancet",
+      "year": "2024",
+      "volume": "404",
+      "fpage": "572",
+      "lpage": "628",
+      "doi": "10.1016/s0140-6736(24)01296-0",
+      "pmid": "39096926"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2",
+      "authors": [
+        "Chadha S.",
+        "Kamenov K.",
+        "Cieza A."
+      ],
+      "title": "The world report on hearing, 2021",
+      "journal": "Bull. World Health Organ.",
+      "year": "2021",
+      "volume": "99",
+      "doi": "10.2471/blt.21.285643",
+      "pmc_id": "PMC8085630",
+      "pmid": "33953438"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3",
+      "title": "Amplifying the global issue of hearing loss",
+      "journal": "Lancet Global Health",
+      "year": "2022",
+      "volume": "10",
+      "doi": "10.1016/s2214-109x(22)00390-4",
+      "pmid": "36113508"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4",
+      "authors": [
+        "Ferguson M.A.",
+        "Kitterick P.T.",
+        "Chong L.Y.",
+        "Edmondson-Jones M.",
+        "Barker F.",
+        "Hoare D.J."
+      ],
+      "title": "Hearing aids for mild to moderate hearing loss in adults",
+      "journal": "Cochrane Database Syst. Rev.",
+      "year": "2017",
+      "volume": "9",
+      "doi": "10.1002/14651858.CD012023.pub2",
+      "pmc_id": "PMC6483809",
+      "pmid": "28944461"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5",
+      "authors": [
+        "Yeo B.S.Y.",
+        "Song H.",
+        "Toh E.M.S.",
+        "Ng L.S.",
+        "Ho C.S.H.",
+        "Ho R.",
+        "Merchant R.A.",
+        "Tan B.K.J.",
+        "Loh W.S."
+      ],
+      "title": "Association of Hearing Aids and Cochlear Implants With Cognitive Decline and Dementia: A Systematic Review and Meta-analysis",
+      "journal": "JAMA Neurol.",
+      "year": "2023",
+      "volume": "80",
+      "fpage": "134",
+      "lpage": "141",
+      "doi": "10.1001/jamaneurol.2022.4427",
+      "pmid": "36469314",
+      "pmc_id": "PMC9856596"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6",
+      "authors": [
+        "Lin F.R.",
+        "Pike J.R.",
+        "Albert M.S.",
+        "Arnold M.",
+        "Burgard S.",
+        "Chisolm T.",
+        "Couper D.",
+        "Deal J.A.",
+        "Goman A.M.",
+        "Glynn N.W.",
+        "et al."
+      ],
+      "title": "Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial",
+      "journal": "Lancet",
+      "year": "2023",
+      "volume": "402",
+      "fpage": "786",
+      "lpage": "797",
+      "doi": "10.1016/s0140-6736(23)01406-x",
+      "pmid": "37478886",
+      "pmc_id": "PMC10529382"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7",
+      "authors": [
+        "Cantuaria M.L.",
+        "Pedersen E.R.",
+        "Waldorff F.B.",
+        "Wermuth L.",
+        "Pedersen K.M.",
+        "Poulsen A.H.",
+        "Raaschou-Nielsen O.",
+        "Sørensen M.",
+        "Schmidt J.H."
+      ],
+      "title": "Hearing Loss, Hearing Aid Use, and Risk of Dementia in Older Adults",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2024",
+      "volume": "150",
+      "fpage": "157",
+      "lpage": "164",
+      "doi": "10.1001/jamaoto.2023.3509",
+      "pmid": "38175662",
+      "pmc_id": "PMC10767640"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8",
+      "authors": [
+        "Mahmoudi E.",
+        "Basu T.",
+        "Langa K.",
+        "McKee M.M.",
+        "Zazove P.",
+        "Alexander N.",
+        "Kamdar N."
+      ],
+      "title": "Can Hearing Aids Delay Time to Diagnosis of Dementia, Depression, or Falls in Older Adults?",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2019",
+      "volume": "67",
+      "fpage": "2362",
+      "lpage": "2369",
+      "doi": "10.1111/jgs.16109",
+      "pmid": "31486068"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9",
+      "authors": [
+        "Deal J.A.",
+        "Betz J.",
+        "Yaffe K.",
+        "Harris T.",
+        "Purchase-Helzner E.",
+        "Satterfield S.",
+        "Pratt S.",
+        "Govil N.",
+        "Simonsick E.M.",
+        "Lin F.R."
+      ],
+      "title": "Hearing Impairment and Incident Dementia and Cognitive Decline in Older Adults: The Health ABC Study",
+      "journal": "J. Gerontol. A Biol. Sci. Med. Sci.",
+      "year": "2017",
+      "volume": "72",
+      "fpage": "703",
+      "lpage": "709",
+      "doi": "10.1093/gerona/glw069",
+      "pmid": "27071780",
+      "pmc_id": "PMC5964742"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10",
+      "authors": [
+        "Amieva H.",
+        "Ouvrard C.",
+        "Meillon C.",
+        "Rullier L.",
+        "Dartigues J.F."
+      ],
+      "title": "Death, Depression, Disability, and Dementia Associated With Self-reported Hearing Problems: A 25-Year Study",
+      "journal": "J. Gerontol. A Biol. Sci. Med. Sci.",
+      "year": "2018",
+      "volume": "73",
+      "fpage": "1383",
+      "lpage": "1389",
+      "doi": "10.1093/gerona/glx250",
+      "pmid": "29304204"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11",
+      "authors": [
+        "Bucholc M.",
+        "McClean P.L.",
+        "Bauermeister S.",
+        "Todd S.",
+        "Ding X.",
+        "Ye Q.",
+        "Wang D.",
+        "Huang W.",
+        "Maguire L.P."
+      ],
+      "title": "Association of the use of hearing aids with the conversion from mild cognitive impairment to dementia and progression of dementia: A longitudinal retrospective study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2021",
+      "volume": "7",
+      "doi": "10.1002/trc2.12122",
+      "pmc_id": "PMC7882528",
+      "pmid": "33614893"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12",
+      "authors": [
+        "Amieva H.",
+        "Ouvrard C.",
+        "Giulioli C.",
+        "Meillon C.",
+        "Rullier L.",
+        "Dartigues J.F."
+      ],
+      "title": "Self-Reported Hearing Loss, Hearing Aids, and Cognitive Decline in Elderly Adults: A 25-Year Study",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2015",
+      "volume": "63",
+      "fpage": "2099",
+      "lpage": "2104",
+      "doi": "10.1111/jgs.13649",
+      "pmid": "26480972"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13",
+      "authors": [
+        "Cribb L.",
+        "Moreno-Betancur M.",
+        "Pase M.P.",
+        "Wolfe R.",
+        "Britt C.",
+        "Zhou Z.",
+        "Shah R.C.",
+        "Rance G.",
+        "Sheets K.M.",
+        "Chong T.T.J.",
+        "et al."
+      ],
+      "title": "Treating Hearing Loss With Hearing Aids for the Prevention of Cognitive Decline and Dementia",
+      "journal": "Neurology",
+      "year": "2026",
+      "volume": "106",
+      "doi": "10.1212/wnl.0000000000214572",
+      "pmid": "41861267"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14",
+      "authors": [
+        "Stevenson J.S.",
+        "Clifton L.",
+        "Kuźma E.",
+        "Littlejohns T.J."
+      ],
+      "title": "Speech-in-noise hearing impairment is associated with an increased risk of incident dementia in 82,039 UK Biobank participants",
+      "journal": "Alzheimer's Dement.",
+      "year": "2022",
+      "volume": "18",
+      "fpage": "445",
+      "lpage": "456",
+      "doi": "10.1002/alz.12416",
+      "pmid": "34288382"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15",
+      "authors": [
+        "Bucholc M.",
+        "Bauermeister S.",
+        "Kaur D.",
+        "McClean P.L.",
+        "Todd S."
+      ],
+      "title": "The impact of hearing impairment and hearing aid use on progression to mild cognitive impairment in cognitively healthy adults: An observational cohort study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2022",
+      "volume": "8",
+      "doi": "10.1002/trc2.12248",
+      "pmc_id": "PMC8863441",
+      "pmid": "35229022"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16",
+      "authors": [
+        "Engdahl B.",
+        "Aarhus L."
+      ],
+      "title": "Prevalence and predictors of self-reported hearing aid use and benefit in Norway: the HUNT study",
+      "journal": "BMC Public Health",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "474",
+      "doi": "10.1186/s12889-024-17852-z",
+      "pmid": "38355451",
+      "pmc_id": "PMC10867996"
+    },
+    {
+      "ref_id": "bib17",
+      "label": "17",
+      "authors": [
+        "Dawes P.",
+        "Emsley R.",
+        "Cruickshanks K.J.",
+        "Moore D.R.",
+        "Fortnum H.",
+        "Edmondson-Jones M.",
+        "McCormack A.",
+        "Munro K.J."
+      ],
+      "title": "Hearing loss and cognition: the role of hearing AIDS, social isolation and depression",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "doi": "10.1371/journal.pone.0119616",
+      "pmc_id": "PMC4356542",
+      "pmid": "25760329"
+    },
+    {
+      "ref_id": "bib18",
+      "label": "18",
+      "authors": [
+        "Lesko C.R.",
+        "Jacobson L.P.",
+        "Althoff K.N.",
+        "Abraham A.G.",
+        "Gange S.J.",
+        "Moore R.D.",
+        "Modur S.",
+        "Lau B."
+      ],
+      "title": "Collaborative, pooled and harmonized study designs for epidemiologic research: challenges and opportunities",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2018",
+      "volume": "47",
+      "fpage": "654",
+      "lpage": "668",
+      "doi": "10.1093/ije/dyx283",
+      "pmid": "29438495",
+      "pmc_id": "PMC5913631"
+    },
+    {
+      "ref_id": "bib19",
+      "label": "19",
+      "authors": [
+        "Hooper E.",
+        "Brown L.J.E.",
+        "Dawes P.",
+        "Leroi I.",
+        "Armitage C.J."
+      ],
+      "title": "What are the Correlates of Hearing Aid Use for People Living With Dementia?",
+      "journal": "J. Aging Health",
+      "year": "2025",
+      "volume": "37",
+      "fpage": "210",
+      "lpage": "219",
+      "doi": "10.1177/08982643241238253",
+      "pmid": "38497649",
+      "pmc_id": "PMC11829505"
+    },
+    {
+      "ref_id": "bib20",
+      "label": "20",
+      "authors": [
+        "Maharani A.",
+        "Dawes P.",
+        "Nazroo J.",
+        "Tampubolon G.",
+        "Pendleton N."
+      ],
+      "title": "Longitudinal Relationship Between Hearing Aid Use and Cognitive Function in Older Americans",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2018",
+      "volume": "66",
+      "fpage": "1130",
+      "lpage": "1136",
+      "doi": "10.1111/jgs.15363",
+      "pmid": "29637544"
+    },
+    {
+      "ref_id": "bib21",
+      "label": "21",
+      "authors": [
+        "West J.S.",
+        "Smith S.L.",
+        "Dupre M.E."
+      ],
+      "title": "Self-reported hearing loss, hearing aid use, and cognitive function among U.S. older adults",
+      "journal": "Int. J. Popul. Stud.",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "17",
+      "lpage": "26",
+      "doi": "10.18063/ijps.v8i1.1308",
+      "pmid": "37304046",
+      "pmc_id": "PMC10256138"
+    },
+    {
+      "ref_id": "bib22",
+      "label": "22",
+      "authors": [
+        "Thai A.",
+        "Khan S.I.",
+        "Choi J.",
+        "Ma Y.",
+        "Megwalu U.C."
+      ],
+      "title": "Associations of Hearing Loss Severity and Hearing Aid Use With Hospitalization Among Older US Adults",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2022",
+      "volume": "148",
+      "fpage": "1005",
+      "lpage": "1012",
+      "doi": "10.1001/jamaoto.2022.2399",
+      "pmid": "36048464",
+      "pmc_id": "PMC9437822"
+    },
+    {
+      "ref_id": "bib23",
+      "label": "23",
+      "raw_citation": "American Speech-Language-Hearing Association. Aural Rehabilitation for Adults. 2025; Available from: https://www.asha.org/practice-portal/professional-issues/aural-rehabilitation-for-adults/?srsltid=AfmBOoqFPTSKTtaCch7tTTK8F_Np749Qpe2b-xolFn0OowzOWijuD-kM#collapse_1 ."
+    },
+    {
+      "ref_id": "bib24",
+      "label": "24",
+      "authors": [
+        "Slade K.",
+        "Plack C.J.",
+        "Nuttall H.E."
+      ],
+      "title": "The Effects of Age-Related Hearing Loss on the Brain and Cognitive Function",
+      "journal": "Trends Neurosci.",
+      "year": "2020",
+      "volume": "43",
+      "fpage": "810",
+      "lpage": "821",
+      "doi": "10.1016/j.tins.2020.07.005",
+      "pmid": "32826080"
+    },
+    {
+      "ref_id": "bib25",
+      "label": "25",
+      "authors": [
+        "Tun P.A.",
+        "McCoy S.",
+        "Wingfield A."
+      ],
+      "title": "Aging, hearing acuity, and the attentional costs of effortful listening",
+      "journal": "Psychol. Aging",
+      "year": "2009",
+      "volume": "24",
+      "fpage": "761",
+      "lpage": "766",
+      "doi": "10.1037/a0014802",
+      "pmid": "19739934",
+      "pmc_id": "PMC2773464"
+    },
+    {
+      "ref_id": "bib26",
+      "label": "26",
+      "authors": [
+        "Giroud N.",
+        "Lemke U.",
+        "Reich P.",
+        "Matthes K.L.",
+        "Meyer M."
+      ],
+      "title": "The impact of hearing aids and age-related hearing loss on auditory plasticity across three months - An electrical neuroimaging study",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "353",
+      "fpage": "162",
+      "lpage": "175",
+      "doi": "10.1016/j.heares.2017.06.012",
+      "pmid": "28705608"
+    },
+    {
+      "ref_id": "bib27",
+      "label": "27",
+      "authors": [
+        "Pichora-Fuller M.K.",
+        "Mick P.",
+        "Reed M."
+      ],
+      "title": "Hearing, Cognition, and Healthy Aging: Social and Public Health Implications of the Links between Age-Related Declines in Hearing and Cognition",
+      "journal": "Semin. Hear.",
+      "year": "2015",
+      "volume": "36",
+      "fpage": "122",
+      "lpage": "139",
+      "doi": "10.1055/s-0035-1555116",
+      "pmid": "27516713",
+      "pmc_id": "PMC4906310"
+    },
+    {
+      "ref_id": "bib28",
+      "label": "28",
+      "authors": [
+        "Mikkola T.M.",
+        "Polku H.",
+        "Portegijs E.",
+        "Rantakokko M.",
+        "Tsai L.T.",
+        "Rantanen T.",
+        "Viljanen A."
+      ],
+      "title": "Self-reported hearing is associated with time spent out-of-home and withdrawal from leisure activities in older community-dwelling adults",
+      "journal": "Aging Clin. Exp. Res.",
+      "year": "2016",
+      "volume": "28",
+      "fpage": "297",
+      "lpage": "302",
+      "doi": "10.1007/s40520-015-0389-1",
+      "pmid": "26063637"
+    },
+    {
+      "ref_id": "bib29",
+      "label": "29",
+      "authors": [
+        "Ren Y.",
+        "Savadlou A.",
+        "Park S.",
+        "Siska P.",
+        "Epp J.R.",
+        "Sargin D."
+      ],
+      "title": "The impact of loneliness and social isolation on the development of cognitive decline and Alzheimer's Disease",
+      "journal": "Front. Neuroendocrinol.",
+      "year": "2023",
+      "volume": "69",
+      "doi": "10.1016/j.yfrne.2023.101061",
+      "pmid": "36758770"
+    },
+    {
+      "ref_id": "bib30",
+      "label": "30",
+      "authors": [
+        "Dintica C.S.",
+        "Calderón-Larrañaga A.",
+        "Vetrano D.L.",
+        "Xu W."
+      ],
+      "title": "Association Between Sensory Impairment and Dementia: The Roles of Social Network and Leisure Activity",
+      "journal": "J. Alzheimers Dis.",
+      "year": "2023",
+      "volume": "94",
+      "fpage": "585",
+      "lpage": "595",
+      "doi": "10.3233/jad-230041",
+      "pmid": "37334593",
+      "pmc_id": "PMC10357179"
+    },
+    {
+      "ref_id": "bib31",
+      "label": "31",
+      "authors": [
+        "Griffiths T.D.",
+        "Lad M.",
+        "Kumar S.",
+        "Holmes E.",
+        "McMurray B.",
+        "Maguire E.A.",
+        "Billig A.J.",
+        "Sedley W."
+      ],
+      "title": "How Can Hearing Loss Cause Dementia?",
+      "journal": "Neuron",
+      "year": "2020",
+      "volume": "108",
+      "fpage": "401",
+      "lpage": "412",
+      "doi": "10.1016/j.neuron.2020.08.003",
+      "pmid": "32871106",
+      "pmc_id": "PMC7664986"
+    },
+    {
+      "ref_id": "bib32",
+      "label": "32",
+      "authors": [
+        "Hughes S.E.",
+        "Hutchings H.A.",
+        "Rapport F.L.",
+        "McMahon C.M.",
+        "Boisvert I."
+      ],
+      "title": "Social Connectedness and Perceived Listening Effort in Adult Cochlear Implant Users: A Grounded Theory to Establish Content Validity for a New Patient-Reported Outcome Measure",
+      "journal": "Ear Hear.",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "922",
+      "lpage": "934",
+      "doi": "10.1097/aud.0000000000000553",
+      "pmid": "29424766"
+    },
+    {
+      "ref_id": "bib33",
+      "label": "33",
+      "authors": [
+        "Gregory S.",
+        "Billings J.",
+        "Wilson D.",
+        "Livingston G.",
+        "Schilder A.G.",
+        "Costafreda S.G."
+      ],
+      "title": "Experiences of hearing aid use among patients with mild cognitive impairment and Alzheimer's disease dementia: A qualitative study",
+      "journal": "SAGE Open Med.",
+      "year": "2020",
+      "volume": "8",
+      "doi": "10.1177/2050312120904572",
+      "pmc_id": "PMC7054731",
+      "pmid": "32166027"
+    },
+    {
+      "ref_id": "bib34",
+      "label": "34",
+      "authors": [
+        "Reed N.S.",
+        "Chen J.",
+        "Huang A.R.",
+        "Pike J.R.",
+        "Arnold M.",
+        "Burgard S.",
+        "Chen Z.",
+        "Chisolm T.",
+        "Couper D.",
+        "Cudjoe T.K.M.",
+        "et al."
+      ],
+      "title": "Hearing Intervention, Social Isolation, and Loneliness: A Secondary Analysis of the ACHIEVE Randomized Clinical Trial",
+      "journal": "JAMA Intern. Med.",
+      "year": "2025",
+      "volume": "185",
+      "fpage": "797",
+      "lpage": "806",
+      "doi": "10.1001/jamainternmed.2025.1140",
+      "pmid": "40354063",
+      "pmc_id": "PMC12070280"
+    },
+    {
+      "ref_id": "bib35",
+      "label": "35",
+      "authors": [
+        "Groechel R.C.",
+        "Liu A.C.",
+        "Lutsey P.L.",
+        "Palta P.",
+        "Kucharska-Newton A.M.",
+        "Koton S.",
+        "Sharrett A.R.",
+        "Gross A.L.",
+        "Walker K.A.",
+        "Gottesman R.F."
+      ],
+      "title": "Associations between mid-life social relationships and the risk of incident dementia: The ARIC study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2025",
+      "volume": "21",
+      "doi": "10.1002/alz.70365",
+      "pmc_id": "PMC12260128",
+      "pmid": "40660753"
+    },
+    {
+      "ref_id": "bib36",
+      "label": "36",
+      "authors": [
+        "Dawes P.",
+        "Völter C."
+      ],
+      "title": "Do hearing loss interventions prevent dementia?",
+      "journal": "Z. Gerontol. Geriatr.",
+      "year": "2023",
+      "volume": "56",
+      "fpage": "261",
+      "lpage": "268",
+      "doi": "10.1007/s00391-023-02178-z",
+      "pmid": "37140632",
+      "pmc_id": "PMC10289956"
+    },
+    {
+      "ref_id": "bib37",
+      "label": "37",
+      "authors": [
+        "Munson Klyn N.A.",
+        "Mohammed Shaikh Z.",
+        "Dhar S."
+      ],
+      "title": "Health Literacy and Self-Reported Hearing Aid Use in the Health and Retirement Study",
+      "journal": "Ear Hear.",
+      "year": "2020",
+      "volume": "41",
+      "fpage": "386",
+      "lpage": "394",
+      "doi": "10.1097/aud.0000000000000770",
+      "pmid": "31369472"
+    },
+    {
+      "ref_id": "bib38",
+      "label": "38",
+      "authors": [
+        "Saunders G.H.",
+        "Frederick M.T.",
+        "Silverman S.C.",
+        "Nielsen C.",
+        "Laplante-Lévesque A."
+      ],
+      "title": "Health behavior theories as predictors of hearing-aid uptake and outcomes",
+      "journal": "Int. J. Audiol.",
+      "year": "2016",
+      "volume": "55",
+      "fpage": "S59",
+      "lpage": "S68",
+      "doi": "10.3109/14992027.2016.1144240",
+      "pmid": "27145934"
+    },
+    {
+      "ref_id": "bib39",
+      "label": "39",
+      "authors": [
+        "Mahmoudi E.",
+        "Zazove P.",
+        "Meade M.",
+        "McKee M.M."
+      ],
+      "title": "Association Between Hearing Aid Use and Health Care Use and Cost Among Older Adults With Hearing Loss",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2018",
+      "volume": "144",
+      "fpage": "498",
+      "lpage": "505",
+      "doi": "10.1001/jamaoto.2018.0273",
+      "pmid": "29710214",
+      "pmc_id": "PMC6145737"
+    },
+    {
+      "ref_id": "bib40",
+      "label": "40",
+      "authors": [
+        "Waterworth C.J.",
+        "Marella M.",
+        "O'Donovan J.",
+        "Bright T.",
+        "Dowell R.",
+        "Bhutta M.F."
+      ],
+      "title": "Barriers to access to ear and hearing care services in low- and middle- income countries: A scoping review",
+      "journal": "Glob. Public Health",
+      "year": "2022",
+      "volume": "17",
+      "fpage": "3869",
+      "lpage": "3893",
+      "doi": "10.1080/17441692.2022.2053734",
+      "pmid": "35319345"
+    },
+    {
+      "ref_id": "bib41",
+      "label": "41",
+      "authors": [
+        "Li J.N.",
+        "Chen S.",
+        "Zhai L.",
+        "Han D.Y.",
+        "Eshraghi A.A.",
+        "Feng Y.",
+        "Yang S.M.",
+        "Liu X.Z."
+      ],
+      "title": "The Advances in Hearing Rehabilitation and Cochlear Implants in China",
+      "journal": "Ear Hear.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "647",
+      "lpage": "652",
+      "doi": "10.1097/aud.0000000000000441",
+      "pmid": "28471842",
+      "pmc_id": "PMC5659892"
+    },
+    {
+      "ref_id": "bib42",
+      "label": "42",
+      "authors": [
+        "He P.",
+        "Wen X.",
+        "Hu X.",
+        "Gong R.",
+        "Luo Y.",
+        "Guo C.",
+        "Chen G.",
+        "Zheng X."
+      ],
+      "title": "Hearing Aid Acquisition in Chinese Older Adults With Hearing Loss",
+      "journal": "Am. J. Public Health",
+      "year": "2018",
+      "volume": "108",
+      "fpage": "241",
+      "lpage": "247",
+      "doi": "10.2105/ajph.2017.304165",
+      "pmid": "29267059",
+      "pmc_id": "PMC5846583"
+    },
+    {
+      "ref_id": "bib43",
+      "label": "43",
+      "raw_citation": "World health Organization. WHO promotes access to ear and hearing care in communities. 2023; Available from: https://www.who.int/news/item/03-03-2023-who-promotes-access-to-ear-and-hearing-care-in-communities ."
+    },
+    {
+      "ref_id": "bib44",
+      "label": "44",
+      "authors": [
+        "Ye X.",
+        "Zhu D.",
+        "Chen S.",
+        "He P."
+      ],
+      "title": "Cost-Effectiveness Analysis of Hearing Aids for Middle-Aged and Older Adults in China: A Randomized Controlled Trial",
+      "journal": "Otol. Neurotol.",
+      "year": "2023",
+      "volume": "44",
+      "fpage": "e456",
+      "lpage": "e462",
+      "doi": "10.1097/mao.0000000000003907",
+      "pmid": "37306959"
+    },
+    {
+      "ref_id": "bib45",
+      "label": "45",
+      "authors": [
+        "Louw C.",
+        "Swanepoel D.W.",
+        "Eikelboom R.H."
+      ],
+      "title": "Self-Reported Hearing Loss and Pure Tone Audiometry for Screening in Primary Health Care Clinics",
+      "journal": "J. Prim. Care Community Health",
+      "year": "2018",
+      "volume": "9",
+      "doi": "10.1177/2150132718803156",
+      "pmc_id": "PMC6170964",
+      "pmid": "30278815"
+    },
+    {
+      "ref_id": "bib46",
+      "label": "46",
+      "authors": [
+        "Portelli D.",
+        "Galletti C.",
+        "Loteta S.",
+        "Freni L.",
+        "Ciodaro F.",
+        "Alibrandi A.",
+        "Alberti G."
+      ],
+      "title": "Patients' satisfaction and efficacy of modern conventional hearing aids: A comprehensive analysis of the self-reported user experiences in adult people",
+      "journal": "Braz. J. Otorhinolaryngol.",
+      "year": "2025",
+      "volume": "91",
+      "doi": "10.1016/j.bjorl.2025.101565",
+      "pmc_id": "PMC11848458",
+      "pmid": "39914047"
+    },
+    {
+      "ref_id": "bib47",
+      "label": "47",
+      "authors": [
+        "Nondahl D.M.",
+        "Cruickshanks K.J.",
+        "Wiley T.L.",
+        "Tweed T.S.",
+        "Klein R.",
+        "Klein B.E."
+      ],
+      "title": "Accuracy of self-reported hearing loss",
+      "journal": "Audiology",
+      "year": "1998",
+      "volume": "37",
+      "fpage": "295",
+      "lpage": "301",
+      "doi": "10.3109/00206099809072983",
+      "pmid": "9776206"
+    },
+    {
+      "ref_id": "bib48",
+      "label": "48",
+      "authors": [
+        "Cox R.M.",
+        "Alexander G.C."
+      ],
+      "title": "The abbreviated profile of hearing aid benefit",
+      "journal": "Ear Hear.",
+      "year": "1995",
+      "volume": "16",
+      "fpage": "176",
+      "lpage": "186",
+      "doi": "10.1097/00003446-199504000-00005",
+      "pmid": "7789669"
+    },
+    {
+      "ref_id": "bib49",
+      "label": "49",
+      "authors": [
+        "Cox R.M.",
+        "Alexander G.C."
+      ],
+      "title": "The International Outcome Inventory for Hearing Aids (IOI-HA): psychometric properties of the English version",
+      "journal": "Int. J. Audiol.",
+      "year": "2002",
+      "volume": "41",
+      "fpage": "30",
+      "lpage": "35",
+      "doi": "10.3109/14992020209101309",
+      "pmid": "12467367"
+    },
+    {
+      "ref_id": "bib50",
+      "label": "50",
+      "authors": [
+        "Yu J.",
+        "Wang P.",
+        "Xie S.",
+        "Amin J.",
+        "Mueller C.",
+        "Hou X.",
+        "Chen X.",
+        "Underwood B.R.",
+        "Tang S.",
+        "Chen S."
+      ],
+      "title": "Prevalence and progress of underdiagnosis of probable dementia: a repeated cross-sectional study in 19 European countries",
+      "journal": "BMC Med.",
+      "year": "2025",
+      "volume": "23",
+      "fpage": "395",
+      "doi": "10.1186/s12916-025-04196-7",
+      "pmid": "40597117",
+      "pmc_id": "PMC12219912"
+    },
+    {
+      "ref_id": "bib51",
+      "label": "51",
+      "authors": [
+        "Igne P.",
+        "Daly M.",
+        "Sutin A.",
+        "Steptoe A.",
+        "Robinson E."
+      ],
+      "title": "The psychological legacy of past obesity and early mortality: evidence from two longitudinal studies",
+      "journal": "BMC Med.",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "448",
+      "doi": "10.1186/s12916-023-03148-3",
+      "pmid": "37974151",
+      "pmc_id": "PMC10655273"
+    },
+    {
+      "ref_id": "bib52",
+      "label": "52",
+      "authors": [
+        "He D.",
+        "Wang Z.",
+        "Li J.",
+        "Yu K.",
+        "He Y.",
+        "He X.",
+        "Liu Y.",
+        "Li Y.",
+        "Fu R.",
+        "Zhou D.",
+        "Zhu Y."
+      ],
+      "title": "Changes in frailty and incident cardiovascular disease in three prospective cohorts",
+      "journal": "Eur. Heart J.",
+      "year": "2024",
+      "volume": "45",
+      "fpage": "1058",
+      "lpage": "1068",
+      "doi": "10.1093/eurheartj/ehad885",
+      "pmid": "38241094"
+    },
+    {
+      "ref_id": "bib53",
+      "label": "53",
+      "authors": [
+        "Zhao Y.",
+        "Hu Y.",
+        "Smith J.P.",
+        "Strauss J.",
+        "Yang G."
+      ],
+      "title": "Cohort profile: the China Health and Retirement Longitudinal Study (CHARLS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2014",
+      "volume": "43",
+      "fpage": "61",
+      "lpage": "68",
+      "doi": "10.1093/ije/dys203",
+      "pmid": "23243115",
+      "pmc_id": "PMC3937970"
+    },
+    {
+      "ref_id": "bib54",
+      "label": "54",
+      "raw_citation": "Korea Employment Information Service (KEIS). Korean longitudinal study of ageing (KLoSA). 2015; Available from: https://survey.keis.or.kr/eng/klosa/klosa01.jsp ."
+    },
+    {
+      "ref_id": "bib55",
+      "label": "55",
+      "authors": [
+        "Steptoe A.",
+        "Breeze E.",
+        "Banks J.",
+        "Nazroo J."
+      ],
+      "title": "Cohort profile: the English longitudinal study of ageing",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2013",
+      "volume": "42",
+      "fpage": "1640",
+      "lpage": "1648",
+      "doi": "10.1093/ije/dys168",
+      "pmid": "23143611",
+      "pmc_id": "PMC3900867"
+    },
+    {
+      "ref_id": "bib56",
+      "label": "56",
+      "authors": [
+        "Börsch-Supan A.",
+        "Brandt M.",
+        "Hunkler C.",
+        "Kneip T.",
+        "Korbmacher J.",
+        "Malter F.",
+        "Schaan B.",
+        "Stuck S.",
+        "Zuber S."
+      ],
+      "title": "Data Resource Profile: the Survey of Health, Ageing and Retirement in Europe (SHARE)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2013",
+      "volume": "42",
+      "fpage": "992",
+      "lpage": "1001",
+      "doi": "10.1093/ije/dyt088",
+      "pmid": "23778574",
+      "pmc_id": "PMC3780997"
+    },
+    {
+      "ref_id": "bib57",
+      "label": "57",
+      "authors": [
+        "Whelan B.J.",
+        "Savva G.M."
+      ],
+      "title": "Design and methodology of the Irish Longitudinal Study on Ageing",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2013",
+      "volume": "61",
+      "fpage": "S265",
+      "lpage": "S268",
+      "doi": "10.1111/jgs.12199",
+      "pmid": "23662718"
+    },
+    {
+      "ref_id": "bib58",
+      "label": "58",
+      "authors": [
+        "Sonnega A.",
+        "Faul J.D.",
+        "Ofstedal M.B.",
+        "Langa K.M.",
+        "Phillips J.W.R.",
+        "Weir D.R."
+      ],
+      "title": "Cohort Profile: the Health and Retirement Study (HRS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2014",
+      "volume": "43",
+      "fpage": "576",
+      "lpage": "585",
+      "doi": "10.1093/ije/dyu067",
+      "pmid": "24671021",
+      "pmc_id": "PMC3997380"
+    },
+    {
+      "ref_id": "bib59",
+      "label": "59",
+      "authors": [
+        "Wong R.",
+        "Michaels-Obregon A.",
+        "Palloni A."
+      ],
+      "title": "Cohort Profile: The Mexican Health and Aging Study (MHAS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2017",
+      "volume": "46",
+      "doi": "10.1093/ije/dyu263",
+      "pmc_id": "PMC5837398",
+      "pmid": "25626437"
+    },
+    {
+      "ref_id": "bib60",
+      "label": "60",
+      "authors": [
+        "Knoetze M.",
+        "Manchaiah V.",
+        "Mothemela B.",
+        "Swanepoel D.W."
+      ],
+      "title": "Factors Influencing Hearing Help-Seeking and Hearing Aid Uptake in Adults: A Systematic Review of the Past Decade",
+      "journal": "Trends Hear.",
+      "year": "2023",
+      "volume": "27",
+      "doi": "10.1177/23312165231157255",
+      "pmc_id": "PMC9940236",
+      "pmid": "36798964"
+    },
+    {
+      "ref_id": "bib61",
+      "label": "61",
+      "raw_citation": "Shwetha Grace Eapen Kathryn Elizabeth Young Eric Metreau. World Bank country classifications by income level for 2024-2025. 2024; Available from: https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025 ."
+    },
+    {
+      "ref_id": "bib62",
+      "label": "62",
+      "authors": [
+        "Liu W.",
+        "Meng Q.",
+        "Wang Y.",
+        "Yang C.",
+        "Liu L.",
+        "Wang H.",
+        "Su Z.",
+        "Kong G.",
+        "Zhao Y.",
+        "Zhang L."
+      ],
+      "title": "The association between reduced kidney function and hearing loss: a cross-sectional study",
+      "journal": "BMC Nephrol.",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "145",
+      "doi": "10.1186/s12882-020-01810-z",
+      "pmid": "32321468",
+      "pmc_id": "PMC7178984"
+    },
+    {
+      "ref_id": "bib63",
+      "label": "63",
+      "authors": [
+        "Ahmadi-Abhari S.",
+        "Guzman-Castillo M.",
+        "Bandosz P.",
+        "Shipley M.J.",
+        "Muniz-Terrera G.",
+        "Singh-Manoux A.",
+        "Kivimäki M.",
+        "Steptoe A.",
+        "Capewell S.",
+        "O'Flaherty M.",
+        "Brunner E.J."
+      ],
+      "title": "Temporal trend in dementia incidence since 2002 and projections for prevalence in England and Wales to 2040: modelling study",
+      "journal": "BMJ",
+      "year": "2017",
+      "volume": "358",
+      "doi": "10.1136/bmj.j2856",
+      "pmc_id": "PMC5497174",
+      "pmid": "28679494"
+    },
+    {
+      "ref_id": "bib64",
+      "label": "64",
+      "authors": [
+        "Power M.C.",
+        "Bennett E.E.",
+        "Turner R.W.",
+        "Dowling N.M.",
+        "Ciarleglio A.",
+        "Glymour M.M.",
+        "Gianattasio K.Z."
+      ],
+      "title": "Trends in Relative Incidence and Prevalence of Dementia Across Non-Hispanic Black and White Individuals in the United States, 2000-2016",
+      "journal": "JAMA Neurol.",
+      "year": "2021",
+      "volume": "78",
+      "fpage": "275",
+      "lpage": "284",
+      "doi": "10.1001/jamaneurol.2020.4471",
+      "pmid": "33252617",
+      "pmc_id": "PMC7953306"
+    },
+    {
+      "ref_id": "bib65",
+      "label": "65",
+      "authors": [
+        "Lin Z.",
+        "Qian Y.",
+        "Gill T.M.",
+        "Hou X.",
+        "Allore H.",
+        "Chen S.",
+        "Chen X."
+      ],
+      "title": "Absence of care among community-dwelling older adults with dementia and functional limitations",
+      "journal": "Nat. Aging",
+      "year": "2025",
+      "volume": "5",
+      "fpage": "548",
+      "lpage": "557",
+      "doi": "10.1038/s43587-025-00836-y",
+      "pmid": "40097773",
+      "pmc_id": "PMC12003173"
+    },
+    {
+      "ref_id": "bib66",
+      "label": "66",
+      "authors": [
+        "Wang M.",
+        "Fan C.",
+        "Han Y.",
+        "Wang Y.",
+        "Cai H.",
+        "Zhong W.",
+        "Yang X.",
+        "Wang Z.",
+        "Wang H.",
+        "Han Y."
+      ],
+      "title": "Associations of modifiable dementia risk factors with dementia and cognitive decline: evidence from three prospective cohorts",
+      "journal": "Front. Public Health",
+      "year": "2025",
+      "volume": "13",
+      "doi": "10.3389/fpubh.2025.1529969",
+      "pmc_id": "PMC11774717",
+      "pmid": "39882349"
+    },
+    {
+      "ref_id": "bib67",
+      "label": "67",
+      "authors": [
+        "Mejia-Arango S.",
+        "Gutierrez L.M."
+      ],
+      "title": "Prevalence and incidence rates of dementia and cognitive impairment no dementia in the Mexican population: data from the Mexican Health and Aging Study",
+      "journal": "J. Aging Health",
+      "year": "2011",
+      "volume": "23",
+      "fpage": "1050",
+      "lpage": "1074",
+      "doi": "10.1177/0898264311421199",
+      "pmid": "21948770",
+      "pmc_id": "PMC3557523"
+    },
+    {
+      "ref_id": "bib68",
+      "label": "68",
+      "authors": [
+        "Du M.",
+        "Liu M.",
+        "Liu J."
+      ],
+      "title": "Effects of physical and psychological multimorbidity on the risk of dementia: multinational prospective cohorts and a meta-analysis",
+      "journal": "BMC Med.",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "423",
+      "doi": "10.1186/s12916-024-03642-2",
+      "pmid": "39334426",
+      "pmc_id": "PMC11437643"
+    },
+    {
+      "ref_id": "bib69",
+      "label": "69",
+      "authors": [
+        "Nakanishi M.",
+        "Yamasaki S.",
+        "Nakashima T.",
+        "Miyamoto Y.",
+        "Cooper C.",
+        "Richards M.",
+        "Stanyon D.",
+        "Sakai M.",
+        "Yoshii H.",
+        "Nishida A."
+      ],
+      "title": "Association Between Dementia, Change in Home-Care Use, and Depressive Symptoms During the COVID-19 Pandemic: A Longitudinal Study Using Data from Three Cohort Studies",
+      "journal": "J. Alzheimers Dis.",
+      "year": "2024",
+      "volume": "99",
+      "fpage": "403",
+      "lpage": "415",
+      "doi": "10.3233/jad-240097",
+      "pmid": "38640160"
+    },
+    {
+      "ref_id": "bib70",
+      "label": "70",
+      "authors": [
+        "Han C.",
+        "Jo S.A.",
+        "Jo I.",
+        "Kim E.",
+        "Park M.H.",
+        "Kang Y."
+      ],
+      "title": "An adaptation of the Korean mini-mental state examination (K-MMSE) in elderly Koreans: demographic influence and population-based norms (the AGE study)",
+      "journal": "Arch. Gerontol. Geriatr.",
+      "year": "2008",
+      "volume": "47",
+      "fpage": "302",
+      "lpage": "310",
+      "doi": "10.1016/j.archger.2007.08.012",
+      "pmid": "17936377"
+    },
+    {
+      "ref_id": "bib71",
+      "label": "71",
+      "authors": [
+        "Harrison J.K.",
+        "Fearon P.",
+        "Noel-Storr A.H.",
+        "McShane R.",
+        "Stott D.J.",
+        "Quinn T.J."
+      ],
+      "title": "Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) for the diagnosis of dementia within a secondary care setting",
+      "journal": "Cochrane Database Syst. Rev.",
+      "year": "2015",
+      "volume": "3",
+      "doi": "10.1002/14651858.CD010772.pub2",
+      "pmid": "25754745"
+    },
+    {
+      "ref_id": "bib72",
+      "label": "72",
+      "authors": [
+        "Sarant J.",
+        "Harris D.",
+        "Busby P.",
+        "Maruff P.",
+        "Schembri A.",
+        "Lemke U.",
+        "Launer S."
+      ],
+      "title": "The Effect of Hearing Aid Use on Cognition in Older Adults: Can We Delay Decline or Even Improve Cognitive Function?",
+      "journal": "J. Clin. Med.",
+      "year": "2020",
+      "volume": "9",
+      "doi": "10.3390/jcm9010254",
+      "pmc_id": "PMC7020090",
+      "pmid": "31963547"
+    },
+    {
+      "ref_id": "bib73",
+      "label": "73",
+      "authors": [
+        "Stef van B.",
+        "Groothuis-Oudshoorn K."
+      ],
+      "title": "mice: Multivariate Imputation by Chained Equations in R",
+      "journal": "J. Stat. Software",
+      "year": "2011",
+      "volume": "45",
+      "fpage": "1",
+      "lpage": "67",
+      "doi": "10.18637/jss.v045.i03"
+    },
+    {
+      "ref_id": "bib74",
+      "label": "74",
+      "authors": [
+        "Austin P.C."
+      ],
+      "title": "Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity-score matched samples",
+      "journal": "Stat. Med.",
+      "year": "2009",
+      "volume": "28",
+      "fpage": "3083",
+      "lpage": "3107",
+      "doi": "10.1002/sim.3697",
+      "pmid": "19757444",
+      "pmc_id": "PMC3472075"
+    },
+    {
+      "ref_id": "bib75",
+      "label": "75",
+      "authors": [
+        "Button K.S.",
+        "Ioannidis J.P.A.",
+        "Mokrysz C.",
+        "Nosek B.A.",
+        "Flint J.",
+        "Robinson E.S.J.",
+        "Munafò M.R."
+      ],
+      "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2013",
+      "volume": "14",
+      "fpage": "365",
+      "lpage": "376",
+      "doi": "10.1038/nrn3475",
+      "pmid": "23571845"
+    },
+    {
+      "ref_id": "bib76",
+      "label": "76",
+      "authors": [
+        "VanderWeele T.J.",
+        "Ding P."
+      ],
+      "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+      "journal": "Ann. Intern. Med.",
+      "year": "2017",
+      "volume": "167",
+      "fpage": "268",
+      "lpage": "274",
+      "doi": "10.7326/m16-2607",
+      "pmid": "28693043"
     }
   ]
 }

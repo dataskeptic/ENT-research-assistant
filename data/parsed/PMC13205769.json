@@ -15,7 +15,8 @@
     "pmc_id": "PMC13205769",
     "pmid": "42187609",
     "full_text_available": true,
-    "section_count": 15
+    "section_count": 15,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -92,6 +93,918 @@
       "section": "Conclusion",
       "text": "Our study identified ZIP transporters, particularly SLC39A13 , as key regulators of CAF activation and tumor microenvironmental remodeling in HNSCC. These findings provide new insights into the role of zinc homeostasis in tumor biology and suggest that targeting ZIP transporter-mediated pathways may represent a novel therapeutic strategy for HNSCC.",
       "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-curroncol-33-00292",
+      "label": "1.",
+      "authors": [
+        "Leemans C.R.",
+        "Snijders P.J.F.",
+        "Brakenhoff R.H."
+      ],
+      "title": "The Molecular Landscape of Head and Neck Cancer",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2018",
+      "volume": "18",
+      "fpage": "269",
+      "lpage": "282",
+      "doi": "10.1038/nrc.2018.11",
+      "pmid": "29497144"
+    },
+    {
+      "ref_id": "B2-curroncol-33-00292",
+      "label": "2.",
+      "authors": [
+        "Leemans C.R.",
+        "Braakhuis B.J.",
+        "Brakenhoff R.H."
+      ],
+      "title": "The Molecular Biology of Head and Neck Cancer",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2011",
+      "volume": "11",
+      "fpage": "9",
+      "lpage": "22",
+      "doi": "10.1038/nrc2982",
+      "pmid": "21160525"
+    },
+    {
+      "ref_id": "B3-curroncol-33-00292",
+      "label": "3.",
+      "authors": [
+        "Johnson D.E.",
+        "Burtness B.",
+        "Leemans C.R.",
+        "Lui V.W.Y.",
+        "Bauman J.E.",
+        "Grandis J.R."
+      ],
+      "title": "Head and Neck Squamous Cell Carcinoma",
+      "journal": "Nat. Rev. Primer",
+      "year": "2020",
+      "volume": "6",
+      "fpage": "92",
+      "doi": "10.1038/s41572-020-00224-3",
+      "pmid": "33243986",
+      "pmc_id": "PMC7944998"
+    },
+    {
+      "ref_id": "B4-curroncol-33-00292",
+      "label": "4.",
+      "authors": [
+        "Siegel R.L.",
+        "Miller K.D.",
+        "Wagle N.S.",
+        "Jemal A."
+      ],
+      "title": "Cancer Statistics, 2023",
+      "journal": "CA Cancer J. Clin.",
+      "year": "2023",
+      "volume": "73",
+      "fpage": "17",
+      "lpage": "48",
+      "doi": "10.3322/caac.21763",
+      "pmid": "36633525"
+    },
+    {
+      "ref_id": "B5-curroncol-33-00292",
+      "label": "5.",
+      "authors": [
+        "Burtness B.",
+        "Harrington K.J.",
+        "Greil R.",
+        "Soulières D.",
+        "Tahara M.",
+        "de Castro G.",
+        "Psyrri A.",
+        "Basté N.",
+        "Neupane P.",
+        "Bratland Å.",
+        "et al."
+      ],
+      "title": "Pembrolizumab Alone or with Chemotherapy versus Cetuximab with Chemotherapy for Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck (KEYNOTE-048): A Randomised, Open-Label, Phase 3 Study",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "1915",
+      "lpage": "1928",
+      "doi": "10.1016/S0140-6736(19)32591-7",
+      "pmid": "31679945"
+    },
+    {
+      "ref_id": "B6-curroncol-33-00292",
+      "label": "6.",
+      "authors": [
+        "Ferris R.L.",
+        "Blumenschein G.",
+        "Fayette J.",
+        "Guigay J.",
+        "Colevas A.D.",
+        "Licitra L.",
+        "Harrington K.",
+        "Kasper S.",
+        "Vokes E.E.",
+        "Even C.",
+        "et al."
+      ],
+      "title": "Nivolumab for Recurrent Squamous-Cell Carcinoma of the Head and Neck",
+      "journal": "N. Engl. J. Med.",
+      "year": "2016",
+      "volume": "375",
+      "fpage": "1856",
+      "lpage": "1867",
+      "doi": "10.1056/NEJMoa1602252",
+      "pmid": "27718784",
+      "pmc_id": "PMC5564292"
+    },
+    {
+      "ref_id": "B7-curroncol-33-00292",
+      "label": "7.",
+      "authors": [
+        "Quail D.F.",
+        "Joyce J.A."
+      ],
+      "title": "Microenvironmental Regulation of Tumor Progression and Metastasis",
+      "journal": "Nat. Med.",
+      "year": "2013",
+      "volume": "19",
+      "fpage": "1423",
+      "lpage": "1437",
+      "doi": "10.1038/nm.3394",
+      "pmid": "24202395",
+      "pmc_id": "PMC3954707"
+    },
+    {
+      "ref_id": "B8-curroncol-33-00292",
+      "label": "8.",
+      "authors": [
+        "Binnewies M.",
+        "Roberts E.W.",
+        "Kersten K.",
+        "Chan V.",
+        "Fearon D.F.",
+        "Merad M.",
+        "Coussens L.M.",
+        "Gabrilovich D.I.",
+        "Ostrand-Rosenberg S.",
+        "Hedrick C.C.",
+        "et al."
+      ],
+      "title": "Understanding the Tumor Immune Microenvironment (TIME) for Effective Therapy",
+      "journal": "Nat. Med.",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "541",
+      "lpage": "550",
+      "doi": "10.1038/s41591-018-0014-x",
+      "pmid": "29686425",
+      "pmc_id": "PMC5998822"
+    },
+    {
+      "ref_id": "B9-curroncol-33-00292",
+      "label": "9.",
+      "authors": [
+        "Wang G.",
+        "Zhang M.",
+        "Cheng M.",
+        "Wang X.",
+        "Li K.",
+        "Chen J.",
+        "Chen Z.",
+        "Chen S.",
+        "Chen J.",
+        "Xiong G.",
+        "et al."
+      ],
+      "title": "Tumor Microenvironment in Head and Neck Squamous Cell Carcinoma: Functions and Regulatory Mechanisms",
+      "journal": "Cancer Lett.",
+      "year": "2021",
+      "volume": "507",
+      "fpage": "55",
+      "lpage": "69",
+      "doi": "10.1016/j.canlet.2021.03.009",
+      "pmid": "33741424"
+    },
+    {
+      "ref_id": "B10-curroncol-33-00292",
+      "label": "10.",
+      "authors": [
+        "Kalluri R."
+      ],
+      "title": "The Biology and Function of Fibroblasts in Cancer",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2016",
+      "volume": "16",
+      "fpage": "582",
+      "lpage": "598",
+      "doi": "10.1038/nrc.2016.73",
+      "pmid": "27550820"
+    },
+    {
+      "ref_id": "B11-curroncol-33-00292",
+      "label": "11.",
+      "authors": [
+        "Sahai E.",
+        "Astsaturov I.",
+        "Cukierman E.",
+        "DeNardo D.G.",
+        "Egeblad M.",
+        "Evans R.M.",
+        "Fearon D.",
+        "Greten F.R.",
+        "Hingorani S.R.",
+        "Hunter T.",
+        "et al."
+      ],
+      "title": "A Framework for Advancing Our Understanding of Cancer-Associated Fibroblasts",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "174",
+      "lpage": "186",
+      "doi": "10.1038/s41568-019-0238-1",
+      "pmid": "31980749",
+      "pmc_id": "PMC7046529"
+    },
+    {
+      "ref_id": "B12-curroncol-33-00292",
+      "label": "12.",
+      "authors": [
+        "Chen Y.",
+        "McAndrews K.M.",
+        "Kalluri R."
+      ],
+      "title": "Clinical and Therapeutic Relevance of Cancer-Associated Fibroblasts",
+      "journal": "Nat. Rev. Clin. Oncol.",
+      "year": "2021",
+      "volume": "18",
+      "fpage": "792",
+      "lpage": "804",
+      "doi": "10.1038/s41571-021-00546-5",
+      "pmid": "34489603",
+      "pmc_id": "PMC8791784"
+    },
+    {
+      "ref_id": "B13-curroncol-33-00292",
+      "label": "13.",
+      "authors": [
+        "Öhlund D.",
+        "Handly-Santana A.",
+        "Biffi G.",
+        "Elyada E.",
+        "Almeida A.S.",
+        "Ponz-Sarvise M.",
+        "Corbo V.",
+        "Oni T.E.",
+        "Hearn S.A.",
+        "Lee E.J.",
+        "et al."
+      ],
+      "title": "Distinct Populations of Inflammatory Fibroblasts and Myofibroblasts in Pancreatic Cancer",
+      "journal": "J. Exp. Med.",
+      "year": "2017",
+      "volume": "214",
+      "fpage": "579",
+      "lpage": "596",
+      "doi": "10.1084/jem.20162024",
+      "pmid": "28232471",
+      "pmc_id": "PMC5339682"
+    },
+    {
+      "ref_id": "B14-curroncol-33-00292",
+      "label": "14.",
+      "authors": [
+        "Biffi G.",
+        "Tuveson D.A."
+      ],
+      "title": "Diversity and Biology of Cancer-Associated Fibroblasts",
+      "journal": "Physiol. Rev.",
+      "year": "2021",
+      "volume": "101",
+      "fpage": "147",
+      "lpage": "176",
+      "doi": "10.1152/physrev.00048.2019",
+      "pmid": "32466724",
+      "pmc_id": "PMC7864232"
+    },
+    {
+      "ref_id": "B15-curroncol-33-00292",
+      "label": "15.",
+      "authors": [
+        "Puram S.V.",
+        "Tirosh I.",
+        "Parikh A.S.",
+        "Patel A.P.",
+        "Yizhak K.",
+        "Gillespie S.",
+        "Rodman C.",
+        "Luo C.L.",
+        "Mroz E.A.",
+        "Emerick K.S.",
+        "et al."
+      ],
+      "title": "Single-Cell Transcriptomic Analysis of Primary and Metastatic Tumor Ecosystems in Head and Neck Cancer",
+      "journal": "Cell",
+      "year": "2017",
+      "volume": "171",
+      "fpage": "1611",
+      "lpage": "1624.e24",
+      "doi": "10.1016/j.cell.2017.10.044",
+      "pmid": "29198524",
+      "pmc_id": "PMC5878932"
+    },
+    {
+      "ref_id": "B16-curroncol-33-00292",
+      "label": "16.",
+      "authors": [
+        "Mariathasan S.",
+        "Turley S.J.",
+        "Nickles D.",
+        "Castiglioni A.",
+        "Yuen K.",
+        "Wang Y.",
+        "Kadel E.E.",
+        "Koeppen H.",
+        "Astarita J.L.",
+        "Cubas R.",
+        "et al."
+      ],
+      "title": "TGFβ Attenuates Tumour Response to PD-L1 Blockade by Contributing to Exclusion of T Cells",
+      "journal": "Nature",
+      "year": "2018",
+      "volume": "554",
+      "fpage": "544",
+      "lpage": "548",
+      "doi": "10.1038/nature25501",
+      "pmid": "29443960",
+      "pmc_id": "PMC6028240"
+    },
+    {
+      "ref_id": "B17-curroncol-33-00292",
+      "label": "17.",
+      "authors": [
+        "Kambe T.",
+        "Tsuji T.",
+        "Hashimoto A.",
+        "Itsumura N."
+      ],
+      "title": "The Physiological, Biochemical, and Molecular Roles of Zinc Transporters in Zinc Homeostasis and Metabolism",
+      "journal": "Physiol. Rev.",
+      "year": "2015",
+      "volume": "95",
+      "fpage": "749",
+      "lpage": "784",
+      "doi": "10.1152/physrev.00035.2014",
+      "pmid": "26084690"
+    },
+    {
+      "ref_id": "B18-curroncol-33-00292",
+      "label": "18.",
+      "authors": [
+        "Lichten L.A.",
+        "Cousins R.J."
+      ],
+      "title": "Mammalian Zinc Transporters: Nutritional and Physiologic Regulation",
+      "journal": "Annu. Rev. Nutr.",
+      "year": "2009",
+      "volume": "29",
+      "fpage": "153",
+      "lpage": "176",
+      "doi": "10.1146/annurev-nutr-033009-083312",
+      "pmid": "19400752"
+    },
+    {
+      "ref_id": "B19-curroncol-33-00292",
+      "label": "19.",
+      "authors": [
+        "Chen B.",
+        "Yu P.",
+        "Chan W.N.",
+        "Xie F.",
+        "Zhang Y.",
+        "Liang L.",
+        "Leung K.T.",
+        "Lo K.W.",
+        "Yu J.",
+        "Tse G.M.K.",
+        "et al."
+      ],
+      "title": "Cellular Zinc Metabolism and Zinc Signaling: From Biological Functions to Diseases and Therapeutic Targets",
+      "journal": "Signal Transduct. Target. Ther.",
+      "year": "2024",
+      "volume": "9",
+      "fpage": "6",
+      "doi": "10.1038/s41392-023-01679-y",
+      "pmid": "38169461",
+      "pmc_id": "PMC10761908"
+    },
+    {
+      "ref_id": "B20-curroncol-33-00292",
+      "label": "20.",
+      "authors": [
+        "Franklin R.B.",
+        "Costello L.C."
+      ],
+      "title": "Zinc as an Anti-Tumor Agent in Prostate Cancer and in Other Cancers",
+      "journal": "Arch. Biochem. Biophys.",
+      "year": "2007",
+      "volume": "463",
+      "fpage": "211",
+      "lpage": "217",
+      "doi": "10.1016/j.abb.2007.02.033",
+      "pmid": "17400177",
+      "pmc_id": "PMC1991338"
+    },
+    {
+      "ref_id": "B21-curroncol-33-00292",
+      "label": "21.",
+      "authors": [
+        "Zhou Y.",
+        "Huang G.",
+        "Liu M.",
+        "Zhang M.",
+        "Wu B.",
+        "Gu J."
+      ],
+      "title": "SLC30 (ZnT) and SLC39 (ZIP) Zinc Transporter Families: From Gatekeepers of Zinc Homeostasis to Promoters of Tumorigenesis and Targets for Clinical Therapy",
+      "journal": "Front. Immunol.",
+      "year": "2026",
+      "volume": "16",
+      "elocation_id": "1750534",
+      "doi": "10.3389/fimmu.2025.1750534",
+      "pmid": "41583444",
+      "pmc_id": "PMC12827705"
+    },
+    {
+      "ref_id": "B22-curroncol-33-00292",
+      "label": "22.",
+      "authors": [
+        "Bendellaa M.",
+        "Lelièvre P.",
+        "Coll J.-L.",
+        "Sancey L.",
+        "Deniaud A.",
+        "Busser B."
+      ],
+      "title": "Roles of Zinc in Cancers: From Altered Metabolism to Therapeutic Applications",
+      "journal": "Int. J. Cancer",
+      "year": "2024",
+      "volume": "154",
+      "fpage": "7",
+      "lpage": "20",
+      "doi": "10.1002/ijc.34679",
+      "pmid": "37610131"
+    },
+    {
+      "ref_id": "B23-curroncol-33-00292",
+      "label": "23.",
+      "authors": [
+        "Chen R.",
+        "Yang Y.",
+        "Miao X.",
+        "Qin Z.",
+        "Ni C."
+      ],
+      "title": "Zinc Dyshomeostasis: An Emerging Hallmark of Cancer",
+      "journal": "Oncol. Transl. Med.",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "101",
+      "doi": "10.1097/ot9.0000000000000087"
+    },
+    {
+      "ref_id": "B24-curroncol-33-00292",
+      "label": "24.",
+      "authors": [
+        "Takahashi H.",
+        "Hagiwara H.",
+        "Tada H.",
+        "Uchida M.",
+        "Matsuyama T.",
+        "Chikamatsu K."
+      ],
+      "title": "Cancer-Associated Fibroblast Heterogeneity Shapes Prognosis and Immune Landscapes in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancers",
+      "year": "2026",
+      "volume": "18",
+      "elocation_id": "215",
+      "doi": "10.3390/cancers18020215",
+      "pmid": "41595137",
+      "pmc_id": "PMC12838901"
+    },
+    {
+      "ref_id": "B25-curroncol-33-00292",
+      "label": "25.",
+      "authors": [
+        "Takahashi H.",
+        "Rokudai S.",
+        "Kawabata-Iwakawa R.",
+        "Sakakura K.",
+        "Oyama T.",
+        "Nishiyama M.",
+        "Chikamatsu K."
+      ],
+      "title": "AKT3 Is a Novel Regulator of Cancer-Associated Fibroblasts in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "1233",
+      "doi": "10.3390/cancers13061233",
+      "pmid": "33799788",
+      "pmc_id": "PMC7998536"
+    },
+    {
+      "ref_id": "B26-curroncol-33-00292",
+      "label": "26.",
+      "authors": [
+        "Takahashi H.",
+        "Sakakura K.",
+        "Kawabata-Iwakawa R.",
+        "Rokudai S.",
+        "Toyoda M.",
+        "Nishiyama M.",
+        "Chikamatsu K."
+      ],
+      "title": "Immunosuppressive Activity of Cancer-Associated Fibroblasts in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancer Immunol. Immunother.",
+      "year": "2015",
+      "volume": "64",
+      "fpage": "1407",
+      "lpage": "1417",
+      "doi": "10.1007/s00262-015-1742-0",
+      "pmid": "26201938",
+      "pmc_id": "PMC11029788"
+    },
+    {
+      "ref_id": "B27-curroncol-33-00292",
+      "label": "27.",
+      "authors": [
+        "Taylor K.M.",
+        "Vichova P.",
+        "Jordan N.",
+        "Hiscox S.",
+        "Hendley R.",
+        "Nicholson R.I."
+      ],
+      "title": "ZIP7-Mediated Intracellular Zinc Transport Contributes to Aberrant Growth Factor Signaling in Antihormone-Resistant Breast Cancer Cells",
+      "journal": "Endocrinology",
+      "year": "2008",
+      "volume": "149",
+      "fpage": "4912",
+      "lpage": "4920",
+      "doi": "10.1210/en.2008-0351",
+      "pmid": "18583420"
+    },
+    {
+      "ref_id": "B28-curroncol-33-00292",
+      "label": "28.",
+      "authors": [
+        "Fukada T.",
+        "Civic N.",
+        "Furuichi T.",
+        "Shimoda S.",
+        "Mishima K.",
+        "Higashiyama H.",
+        "Idaira Y.",
+        "Asada Y.",
+        "Kitamura H.",
+        "Yamasaki S.",
+        "et al."
+      ],
+      "title": "The Zinc Transporter SLC39A13/ZIP13 Is Required for Connective Tissue Development; Its Involvement in BMP/TGF-Beta Signaling Pathways",
+      "journal": "PLoS ONE",
+      "year": "2008",
+      "volume": "3",
+      "elocation_id": "e3642",
+      "doi": "10.1371/annotation/a6c35a12-e8eb-43a0-9d00-5078fa6da1bb",
+      "pmid": "18985159",
+      "pmc_id": "PMC2575416"
+    },
+    {
+      "ref_id": "B29-curroncol-33-00292",
+      "label": "29.",
+      "authors": [
+        "Wynn T.A.",
+        "Ramalingam T.R."
+      ],
+      "title": "Mechanisms of Fibrosis: Therapeutic Translation for Fibrotic Disease",
+      "journal": "Nat. Med.",
+      "year": "2012",
+      "volume": "18",
+      "fpage": "1028",
+      "lpage": "1040",
+      "doi": "10.1038/nm.2807",
+      "pmid": "22772564",
+      "pmc_id": "PMC3405917"
+    },
+    {
+      "ref_id": "B30-curroncol-33-00292",
+      "label": "30.",
+      "authors": [
+        "Hinz B."
+      ],
+      "title": "The Myofibroblast: Paradigm for a Mechanically Active Cell",
+      "journal": "J. Biomech.",
+      "year": "2010",
+      "volume": "43",
+      "fpage": "146",
+      "lpage": "155",
+      "doi": "10.1016/j.jbiomech.2009.09.020",
+      "pmid": "19800625"
+    },
+    {
+      "ref_id": "B31-curroncol-33-00292",
+      "label": "31.",
+      "authors": [
+        "Fukada T.",
+        "Yamasaki S.",
+        "Nishida K.",
+        "Murakami M.",
+        "Hirano T."
+      ],
+      "title": "Zinc Homeostasis and Signaling in Health and Diseases: Zinc Signaling",
+      "journal": "J. Biol. Inorg. Chem. JBIC Publ. Soc. Biol. Inorg. Chem.",
+      "year": "2011",
+      "volume": "16",
+      "fpage": "1123",
+      "lpage": "1134",
+      "doi": "10.1007/s00775-011-0797-4",
+      "pmc_id": "PMC3176402",
+      "pmid": "21660546"
+    },
+    {
+      "ref_id": "B32-curroncol-33-00292",
+      "label": "32.",
+      "authors": [
+        "Taylor K.M.",
+        "Hiscox S.",
+        "Nicholson R.I.",
+        "Hogstrand C.",
+        "Kille P."
+      ],
+      "title": "Protein Kinase CK2 Triggers Cytosolic Zinc Signaling Pathways by Phosphorylation of Zinc Channel ZIP7",
+      "journal": "Sci. Signal.",
+      "year": "2012",
+      "volume": "5",
+      "fpage": "ra11",
+      "doi": "10.1126/scisignal.2002585",
+      "pmid": "22317921",
+      "pmc_id": "PMC3428905"
+    },
+    {
+      "ref_id": "B33-curroncol-33-00292",
+      "label": "33.",
+      "authors": [
+        "Hogstrand C.",
+        "Kille P.",
+        "Nicholson R.I.",
+        "Taylor K.M."
+      ],
+      "title": "Zinc Transporters and Cancer: A Potential Role for ZIP7 as a Hub for Tyrosine Kinase Activation",
+      "journal": "Trends Mol. Med.",
+      "year": "2009",
+      "volume": "15",
+      "fpage": "101",
+      "lpage": "111",
+      "doi": "10.1016/j.molmed.2009.01.004",
+      "pmid": "19246244"
+    },
+    {
+      "ref_id": "B34-curroncol-33-00292",
+      "label": "34.",
+      "authors": [
+        "Ni C.",
+        "Lou X.",
+        "Yao X.",
+        "Wang L.",
+        "Wan J.",
+        "Duan X.",
+        "Liang J.",
+        "Zhang K.",
+        "Yang Y.",
+        "Zhang L.",
+        "et al."
+      ],
+      "title": "ZIP1+ Fibroblasts Protect Lung Cancer against Chemotherapy via Connexin-43 Mediated Intercellular Zn 2+ Transfer",
+      "journal": "Nat. Commun.",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "5919",
+      "doi": "10.1038/s41467-022-33521-4",
+      "pmid": "36207295",
+      "pmc_id": "PMC9547061"
+    },
+    {
+      "ref_id": "B35-curroncol-33-00292",
+      "label": "35.",
+      "authors": [
+        "Kagara N.",
+        "Tanaka N.",
+        "Noguchi S.",
+        "Hirano T."
+      ],
+      "title": "Zinc and Its Transporter ZIP10 Are Involved in Invasive Behavior of Breast Cancer Cells",
+      "journal": "Cancer Sci.",
+      "year": "2007",
+      "volume": "98",
+      "fpage": "692",
+      "lpage": "697",
+      "doi": "10.1111/j.1349-7006.2007.00446.x",
+      "pmid": "17359283",
+      "pmc_id": "PMC11159674"
+    },
+    {
+      "ref_id": "B36-curroncol-33-00292",
+      "label": "36.",
+      "authors": [
+        "Alzahrani A.M.",
+        "Taylor K.M."
+      ],
+      "title": "Zinc Transporters of the LIV-1 Subfamily in Various Cancers: Molecular Insights and Research Priorities for Saudi Arabia",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2025",
+      "volume": "26",
+      "elocation_id": "8080",
+      "doi": "10.3390/ijms26168080",
+      "pmid": "40869403",
+      "pmc_id": "PMC12387058"
+    },
+    {
+      "ref_id": "B37-curroncol-33-00292",
+      "label": "37.",
+      "authors": [
+        "Luo Y.",
+        "Shen Y.",
+        "Ju Z.",
+        "Zhang Z."
+      ],
+      "title": "ZIP7 (SLC39A7) Expression in Colorectal Cancer and Its Correlation with Clinical Prognosis",
+      "journal": "Transl. Cancer Res.",
+      "year": "2020",
+      "volume": "9",
+      "fpage": "6471",
+      "lpage": "6478",
+      "doi": "10.21037/tcr-20-2640",
+      "pmid": "35117255",
+      "pmc_id": "PMC8798949"
+    },
+    {
+      "ref_id": "B38-curroncol-33-00292",
+      "label": "38.",
+      "authors": [
+        "Chen L.",
+        "Zhou J.",
+        "Li L.",
+        "Zhao J.",
+        "Li H.",
+        "Zheng W.",
+        "Xu J.",
+        "Jing Z."
+      ],
+      "title": "SLC39A7 Promotes Malignant Behaviors in Glioma via the TNF-α-Mediated NF-κB Signaling Pathway",
+      "journal": "J. Cancer",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "4530",
+      "lpage": "4541",
+      "doi": "10.7150/jca.54158",
+      "pmid": "34149917",
+      "pmc_id": "PMC8210565"
+    },
+    {
+      "ref_id": "B39-curroncol-33-00292",
+      "label": "39.",
+      "authors": [
+        "Ziliotto S.",
+        "Gee J.M.W.",
+        "Ellis I.O.",
+        "Green A.R.",
+        "Finlay P.",
+        "Gobbato A.",
+        "Taylor K.M."
+      ],
+      "title": "Activated Zinc Transporter ZIP7 as an Indicator of Anti-Hormone Resistance in Breast Cancer",
+      "journal": "Met. Integr. Biometal. Sci.",
+      "year": "2019",
+      "volume": "11",
+      "fpage": "1579",
+      "lpage": "1592",
+      "doi": "10.1039/c9mt00136k",
+      "pmc_id": "PMC6796783",
+      "pmid": "31483418"
+    },
+    {
+      "ref_id": "B40-curroncol-33-00292",
+      "label": "40.",
+      "authors": [
+        "Zhou H.",
+        "Zhu Y.",
+        "Qi H.",
+        "Liang L.",
+        "Wu H.",
+        "Yuan J.",
+        "Hu Q."
+      ],
+      "title": "Evaluation of the Prognostic Values of Solute Carrier (SLC) Family 39 Genes for Patients with Lung Adenocarcinoma",
+      "journal": "Aging",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "5312",
+      "lpage": "5331",
+      "doi": "10.18632/aging.202452",
+      "pmid": "33535184",
+      "pmc_id": "PMC7950255"
+    },
+    {
+      "ref_id": "B41-curroncol-33-00292",
+      "label": "41.",
+      "authors": [
+        "Cheng X.",
+        "Wang J.",
+        "Liu C.",
+        "Jiang T.",
+        "Yang N.",
+        "Liu D.",
+        "Zhao H.",
+        "Xu Z."
+      ],
+      "title": "Zinc Transporter SLC39A13/ZIP13 Facilitates the Metastasis of Human Ovarian Cancer Cells via Activating Src/FAK Signaling Pathway",
+      "journal": "J. Exp. Clin. Cancer Res. CR",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "199",
+      "doi": "10.1186/s13046-021-01999-3",
+      "pmid": "34154618",
+      "pmc_id": "PMC8215834"
+    },
+    {
+      "ref_id": "B42-curroncol-33-00292",
+      "label": "42.",
+      "authors": [
+        "Haase H.",
+        "Rink L."
+      ],
+      "title": "Zinc Signals and Immune Function",
+      "journal": "BioFactors",
+      "year": "2014",
+      "volume": "40",
+      "fpage": "27",
+      "lpage": "40",
+      "doi": "10.1002/biof.1114",
+      "pmid": "23804522"
+    },
+    {
+      "ref_id": "B43-curroncol-33-00292",
+      "label": "43.",
+      "authors": [
+        "Prasad A.S."
+      ],
+      "title": "Zinc in Human Health: Effect of Zinc on Immune Cells",
+      "journal": "Mol. Med.",
+      "year": "2008",
+      "volume": "14",
+      "fpage": "353",
+      "lpage": "357",
+      "doi": "10.2119/2008-00033.Prasad",
+      "pmid": "18385818",
+      "pmc_id": "PMC2277319"
+    },
+    {
+      "ref_id": "B44-curroncol-33-00292",
+      "label": "44.",
+      "authors": [
+        "Wessels I.",
+        "Maywald M.",
+        "Rink L."
+      ],
+      "title": "Zinc as a Gatekeeper of Immune Function",
+      "journal": "Nutrients",
+      "year": "2017",
+      "volume": "9",
+      "elocation_id": "1286",
+      "doi": "10.3390/nu9121286",
+      "pmid": "29186856",
+      "pmc_id": "PMC5748737"
+    },
+    {
+      "ref_id": "B45-curroncol-33-00292",
+      "label": "45.",
+      "authors": [
+        "Qu Y.-Y.",
+        "Guo R.-Y.",
+        "Luo M.-L.",
+        "Zhou Q."
+      ],
+      "title": "Pan-Cancer Analysis of the Solute Carrier Family 39 Genes in Relation to Oncogenic, Immune Infiltrating, and Therapeutic Targets",
+      "journal": "Front. Genet.",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "757582",
+      "doi": "10.3389/fgene.2021.757582",
+      "pmid": "34925450",
+      "pmc_id": "PMC8675640"
     }
   ]
 }

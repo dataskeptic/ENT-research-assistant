@@ -17,7 +17,8 @@
     "pmc_id": "PMC13122131",
     "pmid": "42028751",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 33
   },
   "sections": [
     {
@@ -114,6 +115,657 @@
       "section": "Discussion",
       "text": "Previous findings have revealed a critical role for ANGPTL4 in cancer growth and progression, angiogenesis, metastasis and anoikis resistance. ANGPTL4 has diverse roles of pro- and anti-tumorigenesis in different cancers ( 7 ), but its roles in HNSCC have been reported in a few studies ( 8 , 9 ). A previous study reported that EGF-induced ANGPTL4 plays a role in the regulation and progression of cancer metastasis ( 8 ); however, its inhibitory roles for tumor progression have not been fully elucidated. The findings of the present study suggest an inhibitory association of ANGPTL4 with tumor progression in OPSCC, which are supported by clinical outcomes and complementary in vitro and TCGA-based analyses. The present study revealed that higher ANGPTL4 expression (≥7.7%) in patients with OPSCC was significantly associated with improved OS and DFS. This finding suggested that ANGPTL4 could act as a tumor suppressor in OPSCC. Several studies have previously reported the correlation between the expression level of ANGPTL4 and survival rates in various cancers. Similar results were reported for gastric carcinoma ( 16 ), hepatocellular carcinoma ( 17 ) and triple-negative breast carcinoma ( 18 ). There have also been studies of no correlation between the expression of ANGPTL4 and prognoses of urothelial ( 19 ) and colorectal ( 23 ) carcinomas. Some studies reported that high ANGPTL4 expression was associated with poor prognoses of cervical ( 14 ), colorectal ( 10 ) and tongue ( 13 ) carcinomas. These variations suggest that the role of ANGPTL4 can differ with histology or tumor origin. The current analysis using TCGA data indicated that the expression and prognostic impact of ANGPTL4 differed across the subsites of HNSCC, with poorer survival in tongue SCC, whereas no significant association was observed in laryngeal SCC. These subsite-specific patterns may reflect differences in etiologic exposures, oncogenic drivers and tumor microenvironmental states across anatomic locations, as genomic, transcriptional and microenvironmental heterogeneity has been reported among HPV-negative HNSCC arising from different subsites ( 24 ). In addition, ANGPTL4 is increasingly recognized as a context-dependent secreted factor whose functions can diverge based on the tumor type and microenvironment, and may be proteolytically processed into different forms that may have distinct biological functions ( 7 , 25 ). Accordingly, the clinical significance of ANGPTL4 may not be uniform across HNSCC and may require subsite-specific validation as a prognostic biomarker. On the other hand, a plausible explanation for the discrepancy with prior HNSCC studies ( 8 , 9 ) is that ANGPTL4 may exert distinct functions depending on the anatomic subsite and molecular context. In addition, HPV-positive OPSCC represents a distinct subtype, and HPV status may modify the clinical relevance of ANGPTL4 expression. Consistent with this, the current stratified analyses by p16 status demonstrated that the favorable prognosis of high ANGPTL4 expression was evident in the p16-positive subgroup, whereas no significant association was observed in the p16-negative subgroup. Notably, the TCGA-based GSEA revealed that low ANGPTL4 expression was associated with enrichment of cell cycle-related gene sets. These observations raise the hypothesis that the prognostic relevance of ANGPTL4 may be more pronounced in HPV-related tumors with deregulated checkpoints; however, this interpretation remains hypothesis-generating and warrants further validation in larger cohorts and mechanistic studies. On the other hand, the results of the present study demonstrated a favorable prognosis, which differed from those of prior studies describing a promotive role of ANGPTL4 in HNSCC ( 8 , 9 ). These studies primarily used metastasis-related in vitro assays (for example, anoikis resistance and invasion/migration) under specific stimuli, whereas the present study focused on clinical prognosis in OPSCC and proliferation-related phenotypes. Therefore, these context-dependent differences may account for the apparent discrepancy with prior studies. The present study demonstrated that the downregulation of ANGPTL4 significantly increased the expression level of Ki-67 in immunofluorescence staining with the increase of MKI67 mRNA expression and promoted cell proliferation in the CellTiter-Glo 2.0 assay. These findings suggested that ANGPTL4 can have an inhibitory role in cell proliferation in the HNSCC cell line FaDu. Previous studies have reported that ANGPTL4 has both promoting and inhibiting roles in cell proliferation in various cancers. Ito et al ( 15 ) reported that ANGPTL4 inhibited cell proliferation in vitro and in vivo by regulating angiogenesis and vascular leakiness. Ng et al ( 17 ) reported several mechanisms of ANGPTL4 in suppressing tumor progression, invasion and metastasis of HCC. Overexpression of ANGPTL4 suppressed tumor growth by enhancing tumor cell apoptosis, indicating that suppression of ANGPTL4 in HCC may be a way to escape from apoptosis ( 17 ). In addition, treatment with ANGPTL4-overexpressing adenovirus via portal vein significantly suppressed the formation of new vessels in the tumor by repressing the expression of vascular endothelial growth factor and suppressing the activation of Raf-MEK-Erk signaling pathway, suggesting an anti-angiogenic effect of ANGPTL4 on HCC. These in vitro findings were consistent with an antiproliferative association of ANGPTL4. However, the current functional assessments were limited to proliferation endpoints (CellTiter-Glo 2.0 assay and Ki-67), and other malignant phenotypes, including cell cycle progression, apoptosis, migration and invasion, were not examined. Furthermore, these functional observations were derived from siRNA-mediated knockdown without complementary rescue or overexpression experiments; therefore, off-target effects cannot be fully excluded. On the other hand, RT-qPCR revealed altered expression of apoptosis-related genes after ANGPTL4 knockdown in FaDu cells. However, because apoptosis was not directly assessed using dedicated functional assays, these RT-qPCR findings should be interpreted as hypothesis-generating rather than as functional evidence of altered apoptosis. In OPSCC, further studies are needed to clarify the mechanism of the inhibitory role of ANGPTL4 for tumor cell proliferation. GSEA using TCGA data revealed that both the HALLMARK_E2F_TARGETS and HALLMARK_G2M_CHECKPOINT pathways were significantly enriched in the low ANGPTL4 group in OPSCC. These gene sets represent crucial regulators of cell cycle progression, particularly in the transition through the G1/S phase (E2F targets) and the G2/M checkpoint ( 26 , 27 ). High E2F activity increases the expression of genes involved in DNA replication and cell cycle progression, directly promoting proliferation ( 26 ). HALLMARK_G2M_CHECKPOINT includes genes that control the G2/M transition, ensuring cells only divide when DNA is correctly replicated. Activation of this checkpoint signature reflects increased cell cycle activity and is often observed in rapidly proliferating tumor cells ( 27 ). The present results of GSEA suggest that low ANGPTL4 expression is associated with enrichment of cell cycle-related gene sets in OPSCC. Because these transcriptomic findings are correlative, the mechanistic interpretation should be considered hypothesis-generating and will require dedicated validation, including flow cytometric cell-cycle analysis and protein-level assessment of key regulators. Furthermore, GSEA showed that inflammation- and immune-related signatures such as HALLMARK_TNFA_SIGNALING_VIA_NFKB,HALLMARK_INTERFERON_GAMMA_RESPONSE, and HALLMARK_INFLAMMATORY_RESPONSE were strongly suppressed. It is hypothesized that the decreased ANGPTL4 expression may be involved in the suppression of inflammatory signaling and may have some effect on the tumor microenvironment. In the analysis of DEGs, CDH3 and NDRG1 were significantly upregulated in the high ANGPTL4 expression group. CDH3 is a classical cadherin that plays a crucial role in maintaining epithelial cell-cell adhesion, contributing to the integrity of epithelial structures in normal tissues ( 28 ). In HNSCC, the high CDH3 expression was associated with poor prognosis and an advanced T stage ( 29 , 30 ). On the other hand, NDRG1 is recognized as a tumor suppressor, which was reported to be associated with epithelial-mesenchymal transformation ( 31 , 32 ). A decrease in NDRG1 expression is associated with the promotion of tumor proliferation ( 33 ). In oral SCC, knockdown of NDRG1 using short hairpin RNA significantly promoted cell proliferation, while overexpression of NDRG1 caused cell cycle arrest at the S phase and suppressed proliferation. This suggested that NDRG1 acts to inhibit cell proliferation ( 33 ). In addition, knockdown of NDRG1 enhanced cell proliferation, migration and invasion in nasopharyngeal carcinoma and increased tumor formation in mice ( 32 ). The significant reduction of these two genes ( NDRG1 and CDH3 ) in the low ANGPTL4 expression group using TCGA data suggests that the expression of these genes is closely related to the impact of ANGPTL4 on tumor proliferation. To further analyze the function of the ANGPTL4 , a larger case study is required. The present study has certain limitations. First, the IHC analysis was retrospective and conducted at a single institution. Second, the cutoff value for ANGPTL4 positivity in IHC was relatively low. The evaluation was performed by a single evaluator, and formal reproducibility metrics (for example, Cohen's kappa) were not assessed; therefore, scoring variability cannot be excluded. Third, functional validation was limited to a single cell line, which was not derived from OPSCC and may not fully recapitulate OPSCC biology. In addition, in vivo experiments were not performed; therefore, the present study was unable to establish a causal role of ANGPTL4 in tumor growth. Further studies are needed to elucidate the mechanisms by which ANGPTL4 regulates cancer development. The present study demonstrated significant associations of ANGPTL4 expression with prognosis in patients with OPSCC and showed that ANGPTL4 inhibited cell proliferation in the HNSCC cell line FaDu. ANGPTL4 may serve as a prognostic biomarker in OPSCC. Further in vivo studies are warranted to establish causality and clarify its clinical relevance.",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b1-or-55-6-09122",
+      "label": "1",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Jemal A"
+      ],
+      "title": "Cancer statistics, 2020",
+      "journal": "CA Cancer J Clin",
+      "year": "2020",
+      "volume": "70",
+      "fpage": "7",
+      "lpage": "30",
+      "pmid": "31912902",
+      "doi": "10.3322/caac.21590"
+    },
+    {
+      "ref_id": "b2-or-55-6-09122",
+      "label": "2",
+      "authors": [
+        "Carvalho AL",
+        "Nishimoto IN",
+        "Califano JA",
+        "Kowalski LP"
+      ],
+      "title": "Trends in incidence and prognosis for head and neck cancer in the United States: A site-specific analysis of the SEER database",
+      "journal": "Int J Cancer",
+      "year": "2005",
+      "volume": "114",
+      "fpage": "806",
+      "lpage": "816",
+      "doi": "10.1002/ijc.20740",
+      "pmid": "15609302"
+    },
+    {
+      "ref_id": "b3-or-55-6-09122",
+      "label": "3",
+      "authors": [
+        "Janz TA",
+        "Graboyes EM",
+        "Nguyen SA",
+        "Ellis MA",
+        "Neskey DM",
+        "Harruff EE",
+        "Lentsch EJ"
+      ],
+      "title": "A comparison of the NCDB and SEER database for research involving head and neck cancer",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2019",
+      "volume": "160",
+      "fpage": "284",
+      "lpage": "294",
+      "doi": "10.1177/0194599818792205",
+      "pmid": "30129822"
+    },
+    {
+      "ref_id": "b4-or-55-6-09122",
+      "label": "4",
+      "title": "Head and neck cancers, version 2.2025",
+      "year": "2025"
+    },
+    {
+      "ref_id": "b5-or-55-6-09122",
+      "label": "5",
+      "authors": [
+        "Pich A",
+        "Chiusa L",
+        "Navone R"
+      ],
+      "title": "Prognostic relevance of cell proliferation in head and neck tumors",
+      "journal": "Ann Oncol",
+      "year": "2004",
+      "volume": "15",
+      "fpage": "1319",
+      "lpage": "1329",
+      "doi": "10.1093/annonc/mdh299",
+      "pmid": "15319236"
+    },
+    {
+      "ref_id": "b6-or-55-6-09122",
+      "label": "6",
+      "authors": [
+        "Oike Y",
+        "Akao M",
+        "Kubota Y",
+        "Suda T"
+      ],
+      "title": "Angiopoietin-like proteins: Potential new targets for metabolic syndrome therapy",
+      "journal": "Trends Mol Med",
+      "year": "2005",
+      "volume": "11",
+      "fpage": "473",
+      "lpage": "479",
+      "doi": "10.1016/j.molmed.2005.08.002",
+      "pmid": "16154386"
+    },
+    {
+      "ref_id": "b7-or-55-6-09122",
+      "label": "7",
+      "authors": [
+        "Tan MJ",
+        "Teo Z",
+        "Sng MK",
+        "Zhu P",
+        "Tan NS"
+      ],
+      "title": "Emerging roles of angiopoietin-like 4 in human cancer",
+      "journal": "Mol Cancer Res",
+      "year": "2012",
+      "volume": "10",
+      "fpage": "677",
+      "lpage": "688",
+      "doi": "10.1158/1541-7786.MCR-11-0519",
+      "pmid": "22661548"
+    },
+    {
+      "ref_id": "b8-or-55-6-09122",
+      "label": "8",
+      "authors": [
+        "Liao YH",
+        "Chiang KH",
+        "Shieh JM",
+        "Huang CR",
+        "Shen CJ",
+        "Huang WC",
+        "Chen BK"
+      ],
+      "title": "Epidermal growth factor-induced ANGPTL4 enhances anoikis resistance and tumour metastasis in head and neck squamous cell carcinoma",
+      "journal": "Oncogene",
+      "year": "2017",
+      "volume": "36",
+      "fpage": "2228",
+      "lpage": "2242",
+      "doi": "10.1038/onc.2016.371",
+      "pmid": "27797381",
+      "pmc_id": "PMC5415642"
+    },
+    {
+      "ref_id": "b9-or-55-6-09122",
+      "label": "9",
+      "authors": [
+        "Chiang KH",
+        "Shieh JM",
+        "Shen CJ",
+        "Chang TW",
+        "Wu PT",
+        "Hsu JY",
+        "Tsai JP",
+        "Chang WC",
+        "Chen BK"
+      ],
+      "title": "Epidermal growth factor-induced COX-2 regulates metastasis of head and neck squamous cell carcinoma through upregulation of angiopoietin-like 4",
+      "journal": "Cancer Sci",
+      "year": "2020",
+      "volume": "111",
+      "fpage": "2004",
+      "lpage": "2015",
+      "doi": "10.1111/cas.14400",
+      "pmid": "32227417",
+      "pmc_id": "PMC7293094"
+    },
+    {
+      "ref_id": "b10-or-55-6-09122",
+      "label": "10",
+      "authors": [
+        "Kim SH",
+        "Park YY",
+        "Kim SW",
+        "Lee JS",
+        "Wang D",
+        "DuBois RN"
+      ],
+      "title": "ANGPTL4 induction by prostaglandin E2 under hypoxic conditions promotes colorectal cancer progression",
+      "journal": "Cancer Res",
+      "year": "2011",
+      "volume": "71",
+      "fpage": "7010",
+      "lpage": "7020",
+      "doi": "10.1158/0008-5472.CAN-11-1262",
+      "pmid": "21937683",
+      "pmc_id": "PMC3217078"
+    },
+    {
+      "ref_id": "b11-or-55-6-09122",
+      "label": "11",
+      "authors": [
+        "Zhu X",
+        "Guo X",
+        "Wu S",
+        "Wei L"
+      ],
+      "title": "ANGPTL4 correlates with NSCLC progression and regulates epithelial-mesenchymal transition via ERK pathway",
+      "journal": "Lung",
+      "year": "2016",
+      "volume": "194",
+      "fpage": "637",
+      "lpage": "646",
+      "doi": "10.1007/s00408-016-9895-y",
+      "pmid": "27166634"
+    },
+    {
+      "ref_id": "b12-or-55-6-09122",
+      "label": "12",
+      "authors": [
+        "Li X",
+        "Chen T",
+        "Shi Q",
+        "Li J",
+        "Cai S",
+        "Zhou P",
+        "Zhong Y",
+        "Yao L"
+      ],
+      "title": "Angiopoietin-like 4 enhances metastasis and inhibits apoptosis via inducing bone morphogenetic protein 7 in colorectal cancer cells",
+      "journal": "Biochem Biophys Res Commun",
+      "year": "2015",
+      "volume": "467",
+      "fpage": "128",
+      "lpage": "134",
+      "doi": "10.1016/j.bbrc.2015.09.104",
+      "pmid": "26417691"
+    },
+    {
+      "ref_id": "b13-or-55-6-09122",
+      "label": "13",
+      "authors": [
+        "Huang Z",
+        "Xie J",
+        "Lin S",
+        "Li S",
+        "Huang Z",
+        "Wang Y",
+        "Ye J"
+      ],
+      "title": "The downregulation of ANGPTL4 inhibits the migration and proliferation of tongue squamous cell carcinoma",
+      "journal": "Arch Oral Biol",
+      "year": "2016",
+      "volume": "71",
+      "fpage": "144",
+      "lpage": "149",
+      "doi": "10.1016/j.archoralbio.2016.07.011",
+      "pmid": "27505034"
+    },
+    {
+      "ref_id": "b14-or-55-6-09122",
+      "label": "14",
+      "authors": [
+        "Nie D",
+        "Zheng Q",
+        "Liu L",
+        "Mao X",
+        "Li Z"
+      ],
+      "title": "Up-regulated of angiopoietin-like protein 4 predicts poor prognosis in cervical cancer",
+      "journal": "J Cancer",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "1896",
+      "lpage": "1901",
+      "doi": "10.7150/jca.29916",
+      "pmid": "31205547",
+      "pmc_id": "PMC6547978"
+    },
+    {
+      "ref_id": "b15-or-55-6-09122",
+      "label": "15",
+      "authors": [
+        "Ito Y",
+        "Oike Y",
+        "Yasunaga K",
+        "Hamada K",
+        "Miyata K",
+        "Matsumoto S",
+        "Sugano S",
+        "Tanihara H",
+        "Masuho Y",
+        "Suda T"
+      ],
+      "title": "Inhibition of angiogenesis and vascular leakiness by angiopoietin-related protein 4",
+      "journal": "Cancer Res",
+      "year": "2003",
+      "volume": "63",
+      "fpage": "6651",
+      "lpage": "6657",
+      "pmid": "14583458"
+    },
+    {
+      "ref_id": "b16-or-55-6-09122",
+      "label": "16",
+      "authors": [
+        "Kubo H",
+        "Kitajima Y",
+        "Kai K",
+        "Nakamura J",
+        "Miyake S",
+        "Yanagihara K",
+        "Morito K",
+        "Tanaka T",
+        "Shida M",
+        "Noshiro H"
+      ],
+      "title": "Regulation and clinical significance of the hypoxia-induced expression of ANGPTL4 in gastric cancer",
+      "journal": "Oncol Lett",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "1026",
+      "lpage": "1034",
+      "doi": "10.3892/ol.2015.4011",
+      "pmid": "26893686",
+      "pmc_id": "PMC4734226"
+    },
+    {
+      "ref_id": "b17-or-55-6-09122",
+      "label": "17",
+      "authors": [
+        "Ng KTP",
+        "Xu A",
+        "Cheng Q",
+        "Guo DY",
+        "Lim ZX",
+        "Sun CK",
+        "Fung JH",
+        "Poon RT",
+        "Fan ST",
+        "Lo CM",
+        "Man K"
+      ],
+      "title": "Clinical relevance and therapeutic potential of angiopoietin-like protein 4 in hepatocellular carcinoma",
+      "journal": "Mol Cancer",
+      "year": "2014",
+      "volume": "13",
+      "fpage": "196",
+      "doi": "10.1186/1476-4598-13-196",
+      "pmid": "25148701",
+      "pmc_id": "PMC4149052"
+    },
+    {
+      "ref_id": "b18-or-55-6-09122",
+      "label": "18",
+      "authors": [
+        "Cai YC",
+        "Yang H",
+        "Wang KF",
+        "Chen TH",
+        "Jiang WQ",
+        "Shi YX"
+      ],
+      "title": "ANGPTL4 overexpression inhibits tumor cell adhesion and migration and predicts favorable prognosis of triple-negative breast cancer",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "878",
+      "doi": "10.1186/s12885-020-07343-w",
+      "pmid": "32928141",
+      "pmc_id": "PMC7489026"
+    },
+    {
+      "ref_id": "b19-or-55-6-09122",
+      "label": "19",
+      "authors": [
+        "Hsieh HY",
+        "Jou YC",
+        "Tung CL",
+        "Tsai YS",
+        "Wang YH",
+        "Chi CL",
+        "Lin RI",
+        "Hung SK",
+        "Chuang YM",
+        "Wu SF",
+        "et al."
+      ],
+      "title": "Epigenetic silencing of the dual-role signal mediator, ANGPTL4 in tumor tissues and its overexpression in the urothelial carcinoma microenvironment",
+      "journal": "Oncogene",
+      "year": "2018",
+      "volume": "37",
+      "fpage": "673",
+      "lpage": "686",
+      "doi": "10.1038/onc.2017.375",
+      "pmid": "29035390"
+    },
+    {
+      "ref_id": "b20-or-55-6-09122",
+      "label": "20",
+      "title": "AJCC cancer staging manual",
+      "year": "2018"
+    },
+    {
+      "ref_id": "b21-or-55-6-09122",
+      "label": "21",
+      "title": "WHO classification of head and neck tumours",
+      "year": "2017"
+    },
+    {
+      "ref_id": "b22-or-55-6-09122",
+      "label": "22",
+      "authors": [
+        "Livak KJ",
+        "Schmittgen TD"
+      ],
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(−Delta Delta C(T)) method",
+      "journal": "Methods",
+      "year": "2001",
+      "volume": "25",
+      "fpage": "402",
+      "lpage": "408",
+      "doi": "10.1006/meth.2001.1262",
+      "pmid": "11846609"
+    },
+    {
+      "ref_id": "b23-or-55-6-09122",
+      "label": "23",
+      "authors": [
+        "Nakayama T",
+        "Hirakawa H",
+        "Shibata K",
+        "Nazneen A",
+        "Abe K",
+        "Nagayasu T",
+        "Taguchi T"
+      ],
+      "title": "Expression of angiopoietin-like 4 (ANGPTL4) in human colorectal cancer: ANGPTL4 promotes venous invasion and distant metastasis",
+      "journal": "Oncol Rep",
+      "year": "2011",
+      "volume": "25",
+      "fpage": "929",
+      "lpage": "935",
+      "doi": "10.3892/or.2011.1176",
+      "pmid": "21308352"
+    },
+    {
+      "ref_id": "b24-or-55-6-09122",
+      "label": "24",
+      "authors": [
+        "Kim HAJ",
+        "Zeng PYF",
+        "Shaikh MH",
+        "Mundi N",
+        "Ghasemi F",
+        "Di Gravio E",
+        "Khan H",
+        "MacNeil D",
+        "Khan MI",
+        "Patel K",
+        "et al."
+      ],
+      "title": "All HPV-negative head and neck cancers are not the same: Analysis of the TCGA dataset reveals that anatomical sites have distinct mutation, transcriptome, hypoxia, and tumor microenvironment profiles",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "116",
+      "fpage": "105260",
+      "doi": "10.1016/j.oraloncology.2021.105260",
+      "pmid": "33725617"
+    },
+    {
+      "ref_id": "b25-or-55-6-09122",
+      "label": "25",
+      "authors": [
+        "Adhikary T",
+        "Brandt DT",
+        "Kaddatz K",
+        "Stockert J",
+        "Naruhn S",
+        "Meissner W",
+        "Finkernagel F",
+        "Obert J",
+        "Lieber S",
+        "Scharfe M",
+        "et al."
+      ],
+      "title": "Inverse PPARβ/δ agonists suppress oncogenic signaling to the ANGPTL4 gene and inhibit cancer cell invasion",
+      "journal": "Oncogene",
+      "year": "2013",
+      "volume": "32",
+      "fpage": "5241",
+      "lpage": "5252",
+      "doi": "10.1038/onc.2012.549",
+      "pmid": "23208498",
+      "pmc_id": "PMC3938163"
+    },
+    {
+      "ref_id": "b26-or-55-6-09122",
+      "label": "26",
+      "authors": [
+        "Kent LN",
+        "Leone G"
+      ],
+      "title": "The broken cycle: E2F dysfunction in cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2019",
+      "volume": "19",
+      "fpage": "326",
+      "lpage": "338",
+      "doi": "10.1038/s41568-019-0143-7",
+      "pmid": "31053804"
+    },
+    {
+      "ref_id": "b27-or-55-6-09122",
+      "label": "27",
+      "authors": [
+        "Oshi M",
+        "Takahashi H",
+        "Tokumaru Y",
+        "Yan L",
+        "Rashid OM",
+        "Nagahashi M",
+        "Matsuyama R",
+        "Endo I",
+        "Takabe K"
+      ],
+      "title": "The E2F pathway score as a predictive biomarker of response to neoadjuvant therapy in ER+/HER2-breast cancer",
+      "journal": "Cells",
+      "year": "2020",
+      "volume": "9",
+      "fpage": "1643",
+      "doi": "10.3390/cells9071643",
+      "pmid": "32650578",
+      "pmc_id": "PMC7407968"
+    },
+    {
+      "ref_id": "b28-or-55-6-09122",
+      "label": "28",
+      "authors": [
+        "Sun L",
+        "Hu H",
+        "Peng L",
+        "Zhou Z",
+        "Zhao X",
+        "Pan J",
+        "Sun L",
+        "Yang Z",
+        "Ran Y"
+      ],
+      "title": "P-cadherin promotes liver metastasis and is associated with poor prognosis in colon cancer",
+      "journal": "Am J Pathol",
+      "year": "2011",
+      "volume": "179",
+      "fpage": "380",
+      "lpage": "390",
+      "doi": "10.1016/j.ajpath.2011.03.046",
+      "pmid": "21703417",
+      "pmc_id": "PMC3123784"
+    },
+    {
+      "ref_id": "b29-or-55-6-09122",
+      "label": "29",
+      "authors": [
+        "Liu L",
+        "Oh C",
+        "Lim MA",
+        "Zheng S",
+        "Piao Y",
+        "Ohm S",
+        "Shan Y",
+        "Piao S",
+        "Shen S",
+        "Kim YI",
+        "et al."
+      ],
+      "title": "Dual blockage of P-cadherin and c-Met synergistically inhibits the growth of head and neck cancer",
+      "journal": "Cell Oncol (Dordr)",
+      "year": "2025",
+      "volume": "48",
+      "fpage": "1019",
+      "lpage": "1033",
+      "doi": "10.1007/s13402-025-01061-w",
+      "pmid": "40392501",
+      "pmc_id": "PMC12238114"
+    },
+    {
+      "ref_id": "b30-or-55-6-09122",
+      "label": "30",
+      "authors": [
+        "Wang H",
+        "Yu T",
+        "Mao L"
+      ],
+      "title": "Placental-Cadherin, a biomarker for local immune status and poor prognosis among patients with tongue squamous cell carcinoma",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2022",
+      "volume": "279",
+      "fpage": "3597",
+      "lpage": "3609",
+      "doi": "10.1007/s00405-021-07181-x",
+      "pmid": "34825969"
+    },
+    {
+      "ref_id": "b31-or-55-6-09122",
+      "label": "31",
+      "authors": [
+        "Dong X",
+        "Hong Y",
+        "Sun H",
+        "Chen C",
+        "Zhao X",
+        "Sun B"
+      ],
+      "title": "NDRG1 suppresses vasculogenic mimicry and tumor aggressiveness in gastric carcinoma",
+      "journal": "Oncol Lett",
+      "year": "2019",
+      "volume": "18",
+      "fpage": "3003",
+      "lpage": "3016",
+      "pmid": "31452779",
+      "doi": "10.3892/ol.2019.10642",
+      "pmc_id": "PMC6704281"
+    },
+    {
+      "ref_id": "b32-or-55-6-09122",
+      "label": "32",
+      "authors": [
+        "Hu ZY",
+        "Xie WB",
+        "Yang F",
+        "Xiao LW",
+        "Wang XY",
+        "Chen SY",
+        "Li ZG"
+      ],
+      "title": "NDRG1 attenuates epithelial-mesenchymal transition of nasopharyngeal cancer cells via blocking Smad2 signaling",
+      "journal": "Biochim Biophys Acta",
+      "year": "2015",
+      "volume": "1852",
+      "fpage": "1876",
+      "lpage": "1886",
+      "doi": "10.1016/j.bbadis.2015.06.009",
+      "pmid": "26071641",
+      "pmc_id": "PMC4561576"
+    },
+    {
+      "ref_id": "b33-or-55-6-09122",
+      "label": "33",
+      "authors": [
+        "Lee JC",
+        "Chung LC",
+        "Chen YJ",
+        "Feng TH",
+        "Juang HH"
+      ],
+      "title": "N-myc downstream-regulated gene 1 downregulates cell proliferation, invasiveness, and tumorigenesis in human oral squamous cell carcinoma",
+      "journal": "Cancer Lett",
+      "year": "2014",
+      "volume": "355",
+      "fpage": "242",
+      "lpage": "252",
+      "doi": "10.1016/j.canlet.2014.08.035",
+      "pmid": "25218595"
     }
   ]
 }

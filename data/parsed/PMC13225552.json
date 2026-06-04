@@ -12,7 +12,8 @@
     "pmc_id": "PMC13225552",
     "pmid": "42216348",
     "full_text_available": true,
-    "section_count": 22
+    "section_count": 22,
+    "reference_count": 35
   },
   "sections": [
     {
@@ -124,6 +125,620 @@
       "section": "Conclusion",
       "text": "In this NHANES-based cross-sectional study of U.S. adults aged ≥60 years with objectively defined hearing impairment, we developed and validated models to predict clinically relevant depressive symptoms (PHQ-9 ≥10). The LR model demonstrated the most balanced performance in the independent validation set (AUC = 0.862; Brier score = 0.053) and was translated into a nomogram and an online calculator to support individualized risk estimation. This tool may facilitate risk stratification and targeted screening in clinical and public health settings. External validation and, where necessary, recalibration are required before broader implementation in other populations and care contexts.",
       "order": 21
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Dalton DS",
+        "Cruickshanks KJ",
+        "Klein BEK",
+        "Klein R",
+        "Wiley TL",
+        "Nondahl DM"
+      ],
+      "title": "The impact of hearing loss on quality of life in older adults.",
+      "journal": "Gerontologist",
+      "year": "2003",
+      "volume": "43",
+      "fpage": "661",
+      "lpage": "8",
+      "pmid": "14570962",
+      "doi": "10.1093/geront/43.5.661"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Lohi V",
+        "Ohtonen P",
+        "Sorri M",
+        "Mäki-Torkko E",
+        "Hannula S"
+      ],
+      "title": "Prevalence and incidence of hearing impairment among adults: a 13-year follow-up study.",
+      "journal": "Int J Audiol",
+      "year": "2021",
+      "volume": "60",
+      "fpage": "687",
+      "lpage": "94",
+      "pmid": "33426978",
+      "doi": "10.1080/14992027.2020.1865581"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Bainbridge KE",
+        "Wallhagen MI"
+      ],
+      "title": "Hearing loss in an aging American population: extent, impact, and management.",
+      "journal": "Annu Rev Public Health",
+      "year": "2014",
+      "volume": "35",
+      "fpage": "139",
+      "lpage": "52",
+      "pmid": "24641557",
+      "doi": "10.1146/annurev-publhealth-032013-182510"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Zheng Q",
+        "Xu Z",
+        "Li N",
+        "Wang Y",
+        "Zhang T",
+        "Jing J"
+      ],
+      "title": "Age-related hearing loss in older adults: etiology and rehabilitation strategies.",
+      "journal": "Front Neurosci",
+      "year": "2024",
+      "volume": "18",
+      "fpage": "1428564",
+      "pmid": "39411148",
+      "doi": "10.3389/fnins.2024.1428564",
+      "pmc_id": "PMC11473498"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Britt CJ",
+        "Storey E",
+        "Woods RL",
+        "et al."
+      ],
+      "title": "Age-related hearing loss: a cross-sectional study of healthy older Australians.",
+      "journal": "Gerontology",
+      "year": "2024",
+      "volume": "71",
+      "fpage": "1",
+      "lpage": "12",
+      "doi": "10.1159/000541895",
+      "pmc_id": "PMC11854973",
+      "pmid": "39571551"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Lee KY"
+      ],
+      "title": "Pathophysiology of age-related hearing loss (peripheral and central).",
+      "journal": "Korean J Audiol",
+      "year": "2013",
+      "volume": "17",
+      "fpage": "45",
+      "lpage": "9",
+      "pmid": "24653905",
+      "doi": "10.7874/kja.2013.17.2.45",
+      "pmc_id": "PMC3936539"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Haile LM",
+        "Kamenov K",
+        "Briant PS",
+        "et al."
+      ],
+      "title": "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the Global Burden of Disease Study 2019.",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "397",
+      "fpage": "996",
+      "lpage": "1009",
+      "pmid": "33714390",
+      "doi": "10.1016/S0140-6736(21)00516-X",
+      "pmc_id": "PMC7960691"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Chang HP",
+        "Chou P"
+      ],
+      "title": "Presbycusis among older Chinese people in Taipei, Taiwan: a community-based study.",
+      "journal": "Int J Audiol",
+      "year": "2007",
+      "volume": "46",
+      "fpage": "738",
+      "lpage": "45",
+      "pmid": "18049963",
+      "doi": "10.1080/14992020701558529"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Zhang Y",
+        "He X",
+        "Liu Y",
+        "Tian C",
+        "Yang H",
+        "Zhang L"
+      ],
+      "title": "The association between hearing loss and depression in the China health and retirement longitudinal study.",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "20537",
+      "pmid": "40595946",
+      "doi": "10.1038/s41598-025-05749-9",
+      "pmc_id": "PMC12219285"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Arlinger S"
+      ],
+      "title": "Negative consequences of uncorrected hearing loss—a review.",
+      "journal": "Int J Audiol",
+      "year": "2003",
+      "volume": "42",
+      "fpage": "17",
+      "lpage": "20",
+      "pmid": "12918624"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Hu T",
+        "Zhao X",
+        "Wu M",
+        "et al."
+      ],
+      "title": "Prevalence of depression in older adults: a systematic review and meta-analysis.",
+      "journal": "Psychiatry Res",
+      "year": "2022",
+      "volume": "311",
+      "fpage": "114511",
+      "pmid": "35316691",
+      "doi": "10.1016/j.psychres.2022.114511"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Wei J",
+        "Li Y",
+        "Gui X"
+      ],
+      "title": "Association of hearing loss and risk of depression: a systematic review and meta-analysis.",
+      "journal": "Front Neurol",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "1446262",
+      "pmid": "39497727",
+      "doi": "10.3389/fneur.2024.1446262",
+      "pmc_id": "PMC11532142"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Cosh S",
+        "Helmer C",
+        "Delcourt C",
+        "Robins TG",
+        "Tully PJ"
+      ],
+      "title": "Depression in elderly patients with hearing loss: current perspectives.",
+      "journal": "Clin Interv Aging",
+      "year": "2019",
+      "volume": "14",
+      "fpage": "1471",
+      "lpage": "80",
+      "pmid": "31616138",
+      "doi": "10.2147/CIA.S195824",
+      "pmc_id": "PMC6698612"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Zhang G",
+        "Dong S",
+        "Wang L"
+      ],
+      "title": "Construction of a machine learning-based risk prediction model for depression in middle-aged and elderly patients with cardiovascular metabolic diseases in China: a longitudinal study.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "1904",
+      "pmid": "40410764",
+      "doi": "10.1186/s12889-025-23075-7",
+      "pmc_id": "PMC12101033"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Qin M",
+        "Qiao M",
+        "Dong Y",
+        "Wang H"
+      ],
+      "title": "Development and validation of a depression risk prediction model for middle-aged and elderly adults with sensory impairment: evidence from the China health and retirement longitudinal study.",
+      "journal": "PLoS One",
+      "year": "2025",
+      "volume": "20",
+      "fpage": "e0332907",
+      "pmid": "40982465",
+      "doi": "10.1371/journal.pone.0332907",
+      "pmc_id": "PMC12453246"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Chen J",
+        "Lin Y",
+        "Hu R",
+        "Hu C"
+      ],
+      "title": "Prediction model for depression risk in middle-aged and elderly patients with metabolic syndrome: a nomogram and interpretable machine learning approach based on CHARLS.",
+      "journal": "BMC Psychiatry",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "987",
+      "pmid": "41088036",
+      "doi": "10.1186/s12888-025-07434-7",
+      "pmc_id": "PMC12522473"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Jin T",
+        "Halili A"
+      ],
+      "title": "Predicting the risk of depression in older adults with disability using machine learning: an analysis based on CHARLS data.",
+      "journal": "Front Artif Intell",
+      "year": "2025",
+      "volume": "8",
+      "fpage": "1624171",
+      "pmid": "40673213",
+      "doi": "10.3389/frai.2025.1624171",
+      "pmc_id": "PMC12263909"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Hong S",
+        "Lu B",
+        "Wang S",
+        "Jiang Y"
+      ],
+      "title": "Comparison of logistic regression and machine learning methods for predicting depression risks among disabled elderly individuals: results from the China Health and Retirement Longitudinal Study.",
+      "journal": "BMC Psychiatry",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "128",
+      "pmid": "39953491",
+      "doi": "10.1186/s12888-025-06577-x",
+      "pmc_id": "PMC11829540"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Du J",
+        "Tao X",
+        "Zhu L",
+        "et al."
+      ],
+      "title": "A risk prediction system for depression in middle-aged and older adults grounded in machine learning and visualization technology: a cohort study.",
+      "journal": "Front Public Health",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "1606316",
+      "pmid": "40535435",
+      "doi": "10.3389/fpubh.2025.1606316",
+      "pmc_id": "PMC12173875"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "journal": "World report on hearing",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Kroenke K",
+        "Spitzer RL",
+        "Williams JBW"
+      ],
+      "title": "The PHQ-9: validity of a brief depression severity measure.",
+      "journal": "J Gen Intern Med",
+      "year": "2001",
+      "volume": "16",
+      "fpage": "606",
+      "lpage": "13",
+      "pmid": "11556941",
+      "doi": "10.1046/j.1525-1497.2001.016009606.x",
+      "pmc_id": "PMC1495268"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Yeung A",
+        "Fung F",
+        "Yu SC",
+        "et al."
+      ],
+      "title": "Validation of the Patient Health Questionnaire-9 for depression screening among Chinese Americans.",
+      "journal": "Compr Psychiatry",
+      "year": "2008",
+      "volume": "49",
+      "fpage": "211",
+      "lpage": "7",
+      "pmid": "18243896",
+      "doi": "10.1016/j.comppsych.2006.06.002",
+      "pmc_id": "PMC2268021"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Sun Y",
+        "Kong Z",
+        "Song Y",
+        "Liu J",
+        "Wang X"
+      ],
+      "title": "The validity and reliability of the PHQ-9 on screening of depression in neurology: a cross sectional study.",
+      "journal": "BMC Psychiatry",
+      "year": "2022",
+      "volume": "22",
+      "fpage": "98",
+      "pmid": "35139810",
+      "doi": "10.1186/s12888-021-03661-w",
+      "pmc_id": "PMC8827244"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Levis B",
+        "Benedetti A",
+        "Thombs BD"
+      ],
+      "title": "Accuracy of Patient Health Questionnaire-9 (PHQ-9) for screening to detect major depression: individual participant data meta-analysis.",
+      "journal": "BMJ",
+      "year": "2019",
+      "volume": "365",
+      "fpage": "l1476",
+      "pmid": "30967483",
+      "doi": "10.1136/bmj.l1476",
+      "pmc_id": "PMC6454318"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "title": "老年听力损失诊断与干预专家共识 (2019).",
+      "journal": "中华耳鼻咽喉头颈外科杂志",
+      "year": "2019",
+      "volume": "54",
+      "fpage": "166",
+      "lpage": "73"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Zhao H",
+        "Wang X",
+        "Shi Y"
+      ],
+      "title": "The effect of hearing impairment and social participation on depressive symptoms in older adults: a cross-lagged analysis.",
+      "journal": "Front Comput Neurosci",
+      "year": "2023",
+      "volume": "17",
+      "fpage": "1240587",
+      "pmid": "37614610",
+      "doi": "10.3389/fncom.2023.1240587",
+      "pmc_id": "PMC10442535"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Li CM",
+        "Zhang X",
+        "Hoffman HJ",
+        "Cotch MF",
+        "Themann CL",
+        "Wilson MR"
+      ],
+      "title": "Hearing impairment associated with depression in US adults, National Health and Nutrition Examination Survey 2005-2010.",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "140",
+      "fpage": "293",
+      "lpage": "302",
+      "pmid": "24604103",
+      "doi": "10.1001/jamaoto.2014.42",
+      "pmc_id": "PMC4102382"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Scinicariello F",
+        "Przybyla J",
+        "Carroll Y",
+        "Eichwald J",
+        "Decker J",
+        "Breysse PN"
+      ],
+      "title": "Age and sex differences in hearing loss association with depressive symptoms: analyses of NHANES 2011-2012.",
+      "journal": "Psychol Med",
+      "year": "2019",
+      "volume": "49",
+      "fpage": "962",
+      "lpage": "8",
+      "pmid": "29909806",
+      "doi": "10.1017/S0033291718001617",
+      "pmc_id": "PMC8114788"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "Harjono Hadiwiardjo Y",
+        "Damayanti R"
+      ],
+      "title": "Biopsychosocial factors associated with depression in the elderly: a systematic literature review.",
+      "journal": "F1000Res",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1068"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Li E",
+        "Ai F",
+        "Tian Q",
+        "Yang H",
+        "Tang P",
+        "Guo B"
+      ],
+      "title": "Develop and validate machine learning models to predict the risk of depressive symptoms in older adults with cognitive impairment.",
+      "journal": "BMC Psychiatry",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "219",
+      "pmid": "40069646",
+      "doi": "10.1186/s12888-025-06657-y",
+      "pmc_id": "PMC11895390"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Aoki M",
+        "Okuda H",
+        "Ishihara H",
+        "et al."
+      ],
+      "title": "Hearing loss is associated with hippocampal atrophy and high cortisol/dehydroepiandrosterone sulphate ratio in older adults.",
+      "journal": "Int J Audiol",
+      "year": "2021",
+      "volume": "60",
+      "fpage": "293",
+      "lpage": "9",
+      "pmid": "33100039",
+      "doi": "10.1080/14992027.2020.1831703"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Li IH",
+        "Shih JH",
+        "Jhao YT",
+        "et al."
+      ],
+      "title": "Regulation of noise-induced loss of serotonin transporters with resveratrol in a rat model using 4-[18F]-ADAM/small-animal positron emission tomography.",
+      "journal": "Molecules",
+      "year": "2019",
+      "volume": "24",
+      "fpage": "1344",
+      "pmid": "30959762",
+      "doi": "10.3390/molecules24071344",
+      "pmc_id": "PMC6480549"
+    },
+    {
+      "ref_id": "R33",
+      "label": "[33]",
+      "authors": [
+        "Huber M",
+        "Reuter L",
+        "Weitgasser L",
+        "Pletzer B",
+        "Rösch S",
+        "Illg A"
+      ],
+      "title": "Hearing loss, depression, and cognition in younger and older adult CI candidates.",
+      "journal": "Front Neurol",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1272210",
+      "pmid": "37900591",
+      "doi": "10.3389/fneur.2023.1272210",
+      "pmc_id": "PMC10613094"
+    },
+    {
+      "ref_id": "R34",
+      "label": "[34]",
+      "authors": [
+        "Bainbridge KE",
+        "Ramachandran V"
+      ],
+      "title": "Hearing aid use among older U.S. adults; the national health and nutrition examination survey, 2005-2006 and 2009-2010.",
+      "journal": "Ear Hear",
+      "year": "2014",
+      "volume": "35",
+      "fpage": "289",
+      "lpage": "94",
+      "pmid": "24521924",
+      "doi": "10.1097/01.aud.0000441036.40169.29",
+      "pmc_id": "PMC3999213"
+    },
+    {
+      "ref_id": "R35",
+      "label": "[35]",
+      "authors": [
+        "Christodoulou E",
+        "Ma J",
+        "Collins GS",
+        "Steyerberg EW",
+        "Verbakel JY",
+        "Van Calster B"
+      ],
+      "title": "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models.",
+      "journal": "J Clin Epidemiol",
+      "year": "2019",
+      "volume": "110",
+      "fpage": "12",
+      "lpage": "22",
+      "pmid": "30763612",
+      "doi": "10.1016/j.jclinepi.2019.02.004"
     }
   ]
 }

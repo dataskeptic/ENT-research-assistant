@@ -15,7 +15,8 @@
     "pmc_id": "PMC13193820",
     "pmid": "42181208",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 43
   },
   "sections": [
     {
@@ -112,6 +113,809 @@
       "section": "Discussion",
       "text": "Novel therapeutic approaches are urgently required for patients with aggressive thyroid cancer (TC) showing resistance to conventional therapies and tyrosine-kinase inhibitors (TKIs) ( 20 ). Aiming to identify a novel molecular target for TC treatment, we investigated the DNA damage response (DDR) pathway in TC cell lines, with known TP53 mutational profile and response to the TKI Lenvatinib ( 7 ). Pharmacological approaches targeting p53 have been tested in preclinical models of TC, either by directly restoring p53 function ( 17 , 21 ), or by targeting the MDM2-p53 interaction with APG115 ( 22 ). Alterations that can affect p53 function are highly variable, including loss of its expression or truncated forms, as well as genetic mutations in upstream regulators such as the histone acetyltransferase CREBBP/EP300, which promotes p53 stabilization, or in its negative regulator MDM2 ( 23 ). Therefore, we chose an indirect approach by addressing other molecules involved in the p53 activation pathway, such as the DDR. Interestingly, some key players of the DDR pathway are targets exploited for the treatment of several tumors ( 11 , 12 ) but less studied in TC ( 24 – 26 ). Here, we characterized the DDR pathway in a panel of TC cell lines and found a significant variability in the expression of some key proteins (ATM, CHK1, CHK2), particularly in p53-defective TC cells, indicating that tumor cells use different mechanisms to cope with the absence of p53 function ( 27 ). Moreover, p53-defective TC cell lines displayed genomic instability, as demonstrated by higher levels of γH2AX, a marker of DNA damage, compared to p53-proficient TC cells. Consistently, genomic instability in TC is known to confer increased aggressiveness to cancer cells ( 9 , 28 – 30 ). In p53-proficient TC cells, double strand breaks DNA damage caused by DX primarily activates the ATM-CHK2 pathway. Activated ATM phosphorylates CHK2, which stabilizes p53, leading to cell cycle arrest, DNA repair, or apoptosis. Because p53 efficiently regulates the damage response, activation of the ATR-CHK1 pathway is usually not required in response to double strand breaks. In p53-defective cells, although ATM-CHK2 is still activated, the absence of functional p53 impairs proper cell cycle control. Consequently, cells accumulate replication stress, which triggers activation of the ATR-CHK1 pathway as a compensatory mechanism when p53 function is lost ( 31 ). DX can also induce accumulation of reactive oxygen species contributing to DNA damage formation and further activation of CHK1 ( 32 ). Therefore, CHK1 was chosen as the molecular target for this study, given that CHK1 inhibition has been shown to induce synthetic lethality in other p53-defective cancers ( 12 , 33 – 35 ). To the best of our knowledge, CHK1 inhibitors have not yet been evaluated in TC, either in vitro or in vivo . Among the second generation of CHK1 inhibitors, Prexasertib (PX) proved highly selective for CHK1 kinase, competing with its ATP-binding site, and is in Phase I and II clinical trials for solid and hematological tumors ( 12 , 19 ). Due to the synthetic lethality induced by the concomitant loss of function of both CHK1 and p53, we found that PX exerts a greater antiproliferative effect in p53-defective TC cell lines by inducing DNA damage accumulation. Indeed, in the absence of functional p53, these cells cannot properly activate the canonical ATM-CHK2-p53 pathway following DNA damage induced by Doxorubicin. As a result, they become highly dependent on compensatory pathways, particularly ATR-CHK1, to manage replication stress and DNA lesions. PX-mediated CHK1 inhibition removes this critical backup mechanism, preventing efficient DNA damage detection and repair and impairing cell cycle checkpoint enforcement. This leads to accumulation of unrepaired DNA lesions, increased genomic instability, and ultimately replicative catastrophe, leading to cell death. Indeed, in some TC cell lines the CDC25c phosphatase, a downstream effector of CHK1, was inactivated (dephosphorylated) due to CHK1 inhibition by PX. Consequently, in the presence of functional p53, as in the TPC-1 cell line, PX induced the cell cycle block in G2/M phase due to p21-mediated inhibition of the pro-mitotic complex CyclinB1/CDK1, as already reported ( 36 ). Instead, in p53-defective TC cell lines where PX effectively induced CDC25c inactivation, we found replicative failure (i.e. cell cycle block in S phase) because neither the p53/p21 axis nor the CHK1/CDC25c one could prevent CyclinB1/CDK1 complex to promote G2/M checkpoint blockade to repair DNA before mitosis. This effect may eventually induce a replication-fork collapse in the following S phase, as described in other p53-defective tumors ( 37 , 38 ). Due to replicative failure, TC cells died as demonstrated by increased levels of apoptotic markers, particularly in p53-defective cells, as previously proposed by King and colleagues ( 19 ). Notably, p53-proficient IHH-4 cell line shows comparable results with the p53-defective TC cells in response to PX treatment, likely because it harbors gene mutations in p53 regulators, namely the histone acetyltransferase EP300/CREBBP involved in p53 stabilization. The only cell line with apparent resistance to PX, B-CPAP, showed limited antiproliferative effect and partial inhibition of pCHK1(S296). It is likely that B-CPAP cells resist CHK1 inhibition by keeping low basal CHK1 activation, despite its high protein expression, because they rely on other pathways to cope with DNA damage. For instance, a CHK1-inhibitor-resistant cell line from aggressive ovarian cancer was proven to delay G2/M phase progression, thus preventing replication failure ( 39 ). Our study discovered that p53-defective TC cell lines were particularly affected by stress sensitization. Indeed, the combination of the lowest doses of PX and DX were able to further reduce cell proliferation compared to single treatments, due to increased cell death in all p53-defective TC cells, including the PX-resistant B-CPAP cell line. These findings are in line with the findings observed in other cancers ( 40 , 41 ) and are relevant for the translational purposes of our study, aiming to propose novel treatment strategies that might reduce drug doses and related side effects in advanced TC patients. Indeed, CHK1 inhibitors combined with lower doses of Gemcitabine have already shown promising results in Phase I and II clinical trials in other tumors ( 42 , 43 ). Collectively, the aim of this study was meant to explore the DDR pathway rewiring in p53-defective TC, which emerged to take advantage of CHK1 axis as a backup strategy to cope with the most dangerous form of DNA damages, the double strand breaks, in the absence of p53 functionality. This prompted a novel translational rationale for targeting CHK1 dependence in p53-altered TC and supporting further preclinical development of combined PX and DX regimens in this challenging disease context. In conclusion, this study demonstrates for the first time that the inhibition of the DNA damage response kinase CHK1 by Prexasertib is effective against thyroid cancer cell lines with different types of p53 alterations as well as mutations in EP300/CREBBP, encoding for p53 regulators. The anti-proliferative effect of PX is primarily due to the induction of cell replicative failure and cell death at low nanomolar concentrations, following the synthetic lethality principle. Furthermore, by combining treatments with the translational aim of reducing drug doses and side effects, we show that the effect of PX on aggressive TC cell lines is potentiated by Doxorubicin in p53-defective cell lines. Thus, the evaluation of p53 functional status could help predict which patients might benefit from PX treatment. Future studies in animal models are needed to confirm these in vitro findings.",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Smallridge RC",
+        "Marlow LA",
+        "Copland JA"
+      ],
+      "title": "Anaplastic thyroid cancer: molecular pathogenesis and emerging therapies",
+      "journal": "Endocr Relat Cancer",
+      "year": "2009",
+      "volume": "16",
+      "fpage": "17",
+      "lpage": "44",
+      "doi": "10.1677/ERC-08-0154",
+      "pmid": "18987168",
+      "pmc_id": "PMC2829440"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "De Leo S",
+        "Trevisan M",
+        "Fugazzola L"
+      ],
+      "title": "Recent advances in the management of anaplastic thyroid cancer",
+      "journal": "Thyroid Res",
+      "year": "2020",
+      "volume": "13",
+      "fpage": "17",
+      "doi": "10.1186/s13044-020-00091-w",
+      "pmid": "33292371",
+      "pmc_id": "PMC7684758"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Tirrò E",
+        "Martorana F",
+        "Romano C",
+        "Vitale SR",
+        "Motta G",
+        "Di Gregorio S",
+        "et al."
+      ],
+      "title": "Molecular alterations in thyroid cancer: from bench to clinical practice",
+      "journal": "Genes",
+      "year": "2019",
+      "volume": "10",
+      "elocation_id": "709",
+      "doi": "10.3390/genes10090709",
+      "pmid": "31540307",
+      "pmc_id": "PMC6771012"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Porter A",
+        "Wong DJ"
+      ],
+      "title": "Perspectives on the treatment of advanced thyroid cancer: approved therapies, resistance mechanisms, and future directions",
+      "journal": "Front Oncol",
+      "year": "2020",
+      "volume": "10",
+      "elocation_id": "592202",
+      "doi": "10.3389/fonc.2020.592202",
+      "pmid": "33569345",
+      "pmc_id": "PMC7868523"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Hou H",
+        "Qin K",
+        "Liang Y",
+        "Zhang C",
+        "Liu D",
+        "Jiang H",
+        "et al."
+      ],
+      "title": "Concurrent TP53 mutations predict poor outcomes of EGFR-TKI treatments in Chinese patients with advanced NSCLC",
+      "journal": "Cancer Manag Res",
+      "year": "2019",
+      "volume": "11",
+      "doi": "10.2147/CMAR.S201513",
+      "pmid": "31417310",
+      "pmc_id": "PMC6594053"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Tang J",
+        "Sui CJ",
+        "Wang DF",
+        "Lu XY",
+        "Luo GJ",
+        "Zhao Q",
+        "et al."
+      ],
+      "title": "Targeted sequencing reveals the mutational landscape responsible for sorafenib therapy in advanced hepatocellular carcinoma",
+      "journal": "Theranostics",
+      "year": "2020",
+      "volume": "10",
+      "doi": "10.7150/thno.41616",
+      "pmid": "32373219",
+      "pmc_id": "PMC7196302"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Cirello V",
+        "Colombo C",
+        "Tosi D",
+        "Manzo A",
+        "Borghi MO",
+        "Gianelli U",
+        "et al."
+      ],
+      "title": "TP53 alterations associate with poor response to lenvatinib in patients with advanced thyroid cancer",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2025",
+      "volume": "1",
+      "elocation_id": "dgaf056",
+      "doi": "10.1210/clinem/dgaf056",
+      "pmid": "39891677"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Manzella L",
+        "Stella S",
+        "Pennisi MS",
+        "Tirrò E",
+        "Massimino M",
+        "Romano C",
+        "et al."
+      ],
+      "title": "New insights in thyroid cancer and p53 family proteins",
+      "journal": "Int J Mol Sci",
+      "year": "2017",
+      "volume": "18",
+      "elocation_id": "1325",
+      "doi": "10.3390/ijms18061325",
+      "pmid": "28635633",
+      "pmc_id": "PMC5486146"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Shahedian B",
+        "Shi Y",
+        "Zou M",
+        "Farid NR"
+      ],
+      "title": "Thyroid carcinoma is characterized by genomic instability: evidence from p53 mutations",
+      "journal": "Mol Genet Metab",
+      "year": "2001",
+      "volume": "72",
+      "doi": "10.1006/mgme.2000.3114",
+      "pmid": "11161841"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Nakashima M",
+        "Suzuki K",
+        "Meirmanov S",
+        "Naruke Y",
+        "Matsuu-Matsuyama M",
+        "Shichijo K",
+        "et al."
+      ],
+      "title": "Foci formation of P53-binding protein 1 in thyroid tumors: activation of genomic instability during thyroid carcinogenesis",
+      "journal": "Int J Cancer",
+      "year": "2008",
+      "volume": "122",
+      "doi": "10.1002/ijc.23223",
+      "pmid": "17985346"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "O’Connor MJ"
+      ],
+      "title": "Targeting the DNA damage response in cancer",
+      "journal": "Mol Cell",
+      "year": "2015",
+      "volume": "60",
+      "doi": "10.1016/j.molcel.2015.10.040",
+      "pmid": "26590714"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Gorecki L",
+        "Andrs M",
+        "Korabecny J"
+      ],
+      "title": "Clinical candidates targeting the ATR–CHK1–WEE1 axis in cancer",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "795",
+      "doi": "10.3390/cancers13040795",
+      "pmid": "33672884",
+      "pmc_id": "PMC7918546"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Angius G",
+        "Tomao S",
+        "Stati V",
+        "Vici P",
+        "Bianco V",
+        "Tomao F"
+      ],
+      "title": "Prexasertib, a checkpoint kinase inhibitor: from preclinical data to clinical development",
+      "journal": "Cancer Chemother Pharmacol",
+      "year": "2020",
+      "volume": "85",
+      "fpage": "9",
+      "lpage": "20",
+      "doi": "10.1007/s00280-019-03950-y",
+      "pmid": "31512029"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Cirello V",
+        "Colombo C",
+        "Tosi D",
+        "Manzo A",
+        "Borghi MO",
+        "Gianelli U",
+        "et al."
+      ],
+      "title": "Data from: TP53 Alterations Associate with Poor Response to Lenvatinib in Patients with Advanced Thyroid Cancer",
+      "journal": "Zenodo",
+      "year": "2024",
+      "doi": "10.5281/zenodo.14288828",
+      "pmid": "39891677"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Vera J",
+        "Raatz Y",
+        "Wolkenhauer O",
+        "Kottek T",
+        "Bhattacharya A",
+        "Simon JC",
+        "et al."
+      ],
+      "title": "Chk1 and Wee1 control genotoxic-stress induced G2-M arrest in melanoma cells",
+      "journal": "Cell Signal",
+      "year": "2015",
+      "volume": "27",
+      "doi": "10.1016/j.cellsig.2015.01.020",
+      "pmid": "25683911"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Vávrová J",
+        "Zárybnická L",
+        "Lukášová E",
+        "Řezáčová M",
+        "Novotná E",
+        "Sinkorová Z",
+        "et al."
+      ],
+      "title": "Inhibition of ATR kinase with the selective inhibitor VE-821 results in radiosensitization of cells of promyelocytic leukaemia (HL- 60)",
+      "journal": "Radiat Environ Biophys",
+      "year": "2013",
+      "volume": "52",
+      "doi": "10.1007/s00411-013-0486-5",
+      "pmid": "23934411"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Grassi ES",
+        "Vezzoli V",
+        "Negri I",
+        "Labadi A",
+        "Fugazzola L",
+        "Vitale G",
+        "et al."
+      ],
+      "title": "SP600125 has a remarkable anticancer potential against undifferentiated thyroid cancer through selective action on ROCK and p53 pathways",
+      "journal": "Oncotarget",
+      "year": "2015",
+      "volume": "6",
+      "doi": "10.18632/oncotarget.5799",
+      "pmid": "26415230",
+      "pmc_id": "PMC4742184"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Schindelin J",
+        "Arganda-Carreras I",
+        "Frise E",
+        "Kaynig V",
+        "Longair M",
+        "Pietzsch T",
+        "et al."
+      ],
+      "title": "Fiji: an open-source platform for biological-image analysis",
+      "journal": "Nat Methods",
+      "year": "2012",
+      "volume": "9",
+      "doi": "10.1038/nmeth.2019",
+      "pmid": "22743772",
+      "pmc_id": "PMC3855844"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "King C",
+        "Diaz HB",
+        "McNeely S",
+        "Barnard D",
+        "Dempsey J",
+        "Blosser W"
+      ],
+      "title": "LY2606368 causes replication catastrophe and antitumor effects through CHK1-dependent mechanisms",
+      "journal": "Mol Cancer Ther",
+      "year": "2015",
+      "volume": "14",
+      "doi": "10.1158/1535-7163.MCT-14-1037",
+      "pmid": "26141948"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Filetti S",
+        "Durante C",
+        "Hartl D",
+        "Leboulleux S",
+        "Locati LD",
+        "Newbold K",
+        "et al."
+      ],
+      "title": "Thyroid cancer: ESMO clinical practice guidelines for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol",
+      "year": "2019",
+      "volume": "30",
+      "doi": "10.1093/annonc/mdz400",
+      "pmid": "31549998"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Messina RL",
+        "Sanfilippo M",
+        "Vella V",
+        "Pandini G",
+        "Vigneri P",
+        "Nicolosi ML",
+        "et al."
+      ],
+      "title": "Reactivation of p53 mutants by p53 reactivation and induction of massive apoptosis in thyroid cancer cells",
+      "journal": "Int J Cancer",
+      "year": "2012",
+      "volume": "130",
+      "doi": "10.1002/ijc.26228",
+      "pmid": "21647879"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Chen H",
+        "Luo D",
+        "Zhang L",
+        "Lin X",
+        "Luo Q",
+        "Yi H",
+        "et al."
+      ],
+      "title": "Restoration of p53 using the novel MDM2-p53 antagonist APG115 suppresses dedifferentiated papillary thyroid cancer cells",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "doi": "10.18632/oncotarget.17398",
+      "pmid": "28498808",
+      "pmc_id": "PMC5522123"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Tomicic MT",
+        "Dawood M",
+        "Efferth T"
+      ],
+      "title": "Epigenetic alterations upstream and downstream of p53 signaling in colorectal carcinoma",
+      "journal": "Cancers (Basel)",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "4072",
+      "doi": "10.3390/cancers13164072",
+      "pmid": "34439227",
+      "pmc_id": "PMC8394868"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Juhlin CC"
+      ],
+      "title": "Aberrant DNA repair as a potential contributor for the clonal evolution in subsets of anaplastic thyroid carcinomas arising through dedifferentiation: implications for future therapeutic algorithms",
+      "journal": "Cancer Drug Resist",
+      "year": "2020",
+      "volume": "3",
+      "fpage": "992",
+      "lpage": "1000",
+      "doi": "10.20517/cdr.2020.66",
+      "pmid": "35582231",
+      "pmc_id": "PMC8992567"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Lavarone E",
+        "Puppin C",
+        "Passon N",
+        "Filetti S",
+        "Russo D",
+        "Damante G"
+      ],
+      "title": "The PARP inhibitor PJ34 modifies proliferation, NIS expression and epigenetic marks in thyroid cancer cell lines",
+      "journal": "Mol Cell Endocrinol",
+      "year": "2013",
+      "volume": "365",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1016/j.mce.2012.08.019",
+      "pmid": "22982218"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Lu YL",
+        "Huang YT",
+        "Wu MH",
+        "Chou TC",
+        "J Wong R",
+        "Lin SF"
+      ],
+      "title": "Efficacy of adavosertib therapy against anaplastic thyroid cancer",
+      "journal": "Endocr Relat Cancer",
+      "year": "2021",
+      "volume": "28",
+      "doi": "10.1530/ERC-21-0001",
+      "pmid": "33769310",
+      "pmc_id": "PMC8197631"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Sasaki K",
+        "Takahashi S",
+        "Ouchi K",
+        "Otsuki Y",
+        "Wakayama S",
+        "Ishioka C"
+      ],
+      "title": "Different impacts of TP53 mutations on cell cycle-related gene expression among cancer types",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "4868",
+      "doi": "10.1038/s41598-023-32092-8",
+      "pmid": "36964217",
+      "pmc_id": "PMC10039000"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Prete A",
+        "Matrone A",
+        "Gambale C",
+        "Torregrossa L",
+        "Minaldi E",
+        "Romei C",
+        "et al."
+      ],
+      "title": "Poorly differentiated and anaplastic thyroid cancer: insights into genomics, microenvironment and new drugs",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "3200",
+      "doi": "10.3390/cancers13133200",
+      "pmid": "34206867",
+      "pmc_id": "PMC8267688"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Landa I",
+        "Ibrahimpasic T",
+        "Boucai L",
+        "Sinha R",
+        "Knauf JA",
+        "Shah RH",
+        "et al."
+      ],
+      "title": "Genomic and transcriptomic hallmarks of poorly differentiated and anaplastic thyroid cancers",
+      "journal": "J Clin Invest",
+      "year": "2016",
+      "volume": "126",
+      "doi": "10.1172/JCI85271",
+      "pmid": "26878173",
+      "pmc_id": "PMC4767360"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "title": "Integrated genomic characterization of papillary thyroid carcinoma",
+      "journal": "Cell",
+      "year": "2014",
+      "volume": "159",
+      "doi": "10.1016/j.cell.2014.09.050",
+      "pmid": "25417114",
+      "pmc_id": "PMC4243044"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Reinhardt HC",
+        "Aslanian AS",
+        "Lees JA",
+        "Yaffe MB"
+      ],
+      "title": "p53-deficient cells rely on ATM- and ATR-mediated checkpoint signaling through the p38MAPK/MK2 pathway for survival after DNA damage",
+      "journal": "Cancer Cell",
+      "year": "2007",
+      "volume": "11",
+      "doi": "10.1016/j.ccr.2006.11.024",
+      "pmid": "17292828",
+      "pmc_id": "PMC2742175"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Kurz EU",
+        "Douglas P",
+        "Lees-Miller SP"
+      ],
+      "title": "Doxorubicin activates ATM-dependent phosphorylation of multiple downstream targets in part through the generation of reactive oxygen species",
+      "journal": "J Biol Chem",
+      "year": "2004",
+      "volume": "279",
+      "doi": "10.1074/jbc.M406879200",
+      "pmid": "15489221"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Gatti-Mays ME",
+        "Karzai FH",
+        "Soltani SN",
+        "Zimmer A",
+        "Green JE",
+        "Lee MJ",
+        "et al."
+      ],
+      "title": "A phase II single arm pilot study of the CHK1 inhibitor prexasertib (LY2606368) in BRCA wild‐type, advanced triple‐negative breast cancer",
+      "journal": "Oncologist",
+      "year": "2020",
+      "volume": "25",
+      "fpage": "1013",
+      "doi": "10.1634/theoncologist.2020-0491",
+      "pmid": "32510664",
+      "pmc_id": "PMC7938394"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Italiano A",
+        "Infante JR",
+        "Shapiro GI",
+        "Moore KN",
+        "LoRusso PM",
+        "Hamilton E",
+        "et al."
+      ],
+      "title": "Phase I study of the checkpoint kinase 1 inhibitor GDC-0575 in combination with gemcitabine in patients with refractory solid tumors",
+      "journal": "Ann Oncol",
+      "year": "2018",
+      "volume": "29",
+      "doi": "10.1093/annonc/mdy076",
+      "pmid": "29788155"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Konstantinopoulos PA",
+        "Lee JM",
+        "Gao B",
+        "Miller R",
+        "Lee JY",
+        "Colombo N",
+        "et al."
+      ],
+      "title": "A phase 2 study of prexasertib (LY2606368) in platinum resistant or refractory recurrent ovarian cancer",
+      "journal": "Gynecol Oncol",
+      "year": "2022",
+      "volume": "167",
+      "doi": "10.1016/j.ygyno.2022.09.019",
+      "pmid": "36192237",
+      "pmc_id": "PMC10673677"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Ranjan A",
+        "Iwakuma T"
+      ],
+      "title": "Non-canonical cell death induced by p53",
+      "journal": "Int J Mol Sci",
+      "year": "2016",
+      "volume": "17",
+      "elocation_id": "2068",
+      "doi": "10.3390/ijms17122068",
+      "pmid": "27941671",
+      "pmc_id": "PMC5187868"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Heidler CL",
+        "Roth EK",
+        "Thiemann M",
+        "Blattmann C",
+        "Perez RL",
+        "Huber PE",
+        "et al."
+      ],
+      "title": "Prexasertib (LY2606368) reduces clonogenic survival by inducing apoptosis in primary patient-derived osteosarcoma cells and synergizes with cisplatin and talazoparib",
+      "journal": "Int J Cancer",
+      "year": "2020",
+      "volume": "147",
+      "doi": "10.1002/ijc.32814",
+      "pmid": "31782150",
+      "pmc_id": "PMC7384073"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Zhao X",
+        "Kim IK",
+        "Kallakury B",
+        "Chahine JJ",
+        "Iwama E",
+        "Pierobon M",
+        "et al."
+      ],
+      "title": "Acquired small cell lung cancer resistance to Chk1 inhibitors involves Wee1 up-regulation",
+      "journal": "Mol Oncol",
+      "year": "2021",
+      "volume": "15",
+      "doi": "10.1002/1878-0261.12882",
+      "pmid": "33320980",
+      "pmc_id": "PMC8024728"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Nair J",
+        "Huang TT",
+        "Murai J",
+        "Haynes B",
+        "Steeg PS",
+        "Pommier Y",
+        "et al."
+      ],
+      "title": "Resistance to the CHK1 inhibitor prexasertib involves functionally distinct CHK1 activities in BRCA wild-type ovarian cancer",
+      "journal": "Oncogene",
+      "year": "2020",
+      "volume": "39",
+      "doi": "10.1038/s41388-020-1383-4",
+      "pmid": "32647134",
+      "pmc_id": "PMC7426265"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Walton MI",
+        "Eve PD",
+        "Hayes A",
+        "Valenti MR",
+        "De Haven Brandon AK"
+      ],
+      "title": "CCT244747 is a novel potent and selective CHK1 inhibitor with oral efficacy alone and in combination with genotoxic anticancer drugs",
+      "journal": "Clin Cancer Res",
+      "year": "2012",
+      "volume": "18",
+      "doi": "10.1158/1078-0432.CCR-12-1322",
+      "pmid": "22929806",
+      "pmc_id": "PMC3474704"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "Ghelli Luserna Di Rorà A",
+        "Ghetti M",
+        "Ledda L",
+        "Ferrari A",
+        "Bocconcelli M",
+        "Padella A",
+        "et al."
+      ],
+      "title": "Exploring the ATR-CHK1 pathway in the response of doxorubicin-induced DNA damages in acute lymphoblastic leukemia cells",
+      "journal": "Cell Biol Toxicol",
+      "year": "2023",
+      "volume": "39",
+      "fpage": "795",
+      "lpage": "811",
+      "doi": "10.1007/s10565-021-09640-x",
+      "pmid": "34519926",
+      "pmc_id": "PMC10406704"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Calvo E",
+        "Braiteh F",
+        "Von Hoff D",
+        "McWilliams R",
+        "Becerra C",
+        "Galsky MD",
+        "et al."
+      ],
+      "title": "Phase I study of CHK1 inhibitor LY2603618 in combination with gemcitabine in patients with solid tumors",
+      "journal": "Oncology",
+      "year": "2016",
+      "volume": "91",
+      "doi": "10.1159/000448621",
+      "pmid": "27598338"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "Jones R",
+        "Plummer R",
+        "Moreno V",
+        "Carter L",
+        "Roda D",
+        "Garralda E",
+        "et al."
+      ],
+      "title": "A phase I/II trial of oral SRA737 (a Chk1 inhibitor) given in combination with low-dose gemcitabine in patients with advanced cancer",
+      "journal": "Clin Cancer Res",
+      "year": "2023",
+      "volume": "29",
+      "doi": "10.1158/1078-0432.CCR-22-2074",
+      "pmid": "36378548",
+      "pmc_id": "PMC10539020"
     }
   ]
 }

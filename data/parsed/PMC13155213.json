@@ -12,7 +12,8 @@
     "pmc_id": "PMC13155213",
     "pmid": "41917716",
     "full_text_available": true,
-    "section_count": 14
+    "section_count": 14,
+    "reference_count": 21
   },
   "sections": [
     {
@@ -84,6 +85,378 @@
       "section": "Conclusion",
       "text": "In this exploratory extreme-group analysis, a right fronto-temporal delta-gamma imbalance emerged as a candidate connectivity signature of objectively verified hyperacusis in tinnitus. The gamma-band reduction showed consistent effects across PLV and wPLI, providing converging evidence for genuine neural synchrony changes, while the delta-band increase was not replicated in wPLI and warrants cautious interpretation. Because no connectivity features survived BH-FDR correction and CIs were wide, these preliminary findings should be interpreted cautiously and warrant replication in larger cohorts with rigorous control of potential myogenic confounding.",
       "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Tyler RS",
+        "Pienkowski M",
+        "Roncancio ER",
+        "et al."
+      ],
+      "title": "A review of hyperacusis and future directions: part I. Definitions and manifestations",
+      "journal": "Am J Audiol",
+      "year": "2014",
+      "volume": "23",
+      "fpage": "402",
+      "lpage": "419",
+      "pmid": "25104073",
+      "doi": "10.1044/2014_AJA-14-0010"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Prevalence and characteristics of patients with severe hyperacusis among patients seen in a tinnitus and hyperacusis clinic",
+      "journal": "J Am Acad Audiol",
+      "year": "2018",
+      "volume": "29",
+      "fpage": "626",
+      "lpage": "633",
+      "pmid": "29988010",
+      "doi": "10.3766/jaaa.17015"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Shin SH",
+        "Byun SW",
+        "Lee HY"
+      ],
+      "title": "Analysis of loudness discomfort level tests in tinnitus patients",
+      "journal": "Audiol Neurotol",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "367",
+      "lpage": "373",
+      "doi": "10.1159/000538128",
+      "pmid": "38432195"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Sheldrake J",
+        "Diehl PU",
+        "Schaette R"
+      ],
+      "title": "Audiometric characteristics of hyperacusis patients",
+      "journal": "Front Neurol",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "105",
+      "pmid": "26029161",
+      "doi": "10.3389/fneur.2015.00105",
+      "pmc_id": "PMC4432660"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Auerbach BD",
+        "Rodrigues PV",
+        "Salvi RJ"
+      ],
+      "title": "Central gain control in tinnitus and hyperacusis",
+      "journal": "Front Neurol",
+      "year": "2014",
+      "volume": "5",
+      "fpage": "206",
+      "pmid": "25386157",
+      "doi": "10.3389/fneur.2014.00206",
+      "pmc_id": "PMC4208401"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Vinck M",
+        "Oostenveld R",
+        "van Wingerden M",
+        "Battaglia F",
+        "Pennartz CMA"
+      ],
+      "title": "An improved index of phase-synchronization for electrophysiological data in the presence of volume-conduction, noise and sample-size bias",
+      "journal": "Neuroimage",
+      "year": "2011",
+      "volume": "55",
+      "fpage": "1548",
+      "lpage": "1565",
+      "pmid": "21276857",
+      "doi": "10.1016/j.neuroimage.2011.01.055"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Gu JW",
+        "Halpin CF",
+        "Nam EC",
+        "Levine RA",
+        "Melcher JR"
+      ],
+      "title": "Tinnitus, diminished sound-level tolerance, and elevated auditory activity in humans with clinically normal hearing sensitivity",
+      "journal": "J Neurophysiol",
+      "year": "2010",
+      "volume": "104",
+      "fpage": "3361",
+      "lpage": "3370",
+      "pmid": "20881196",
+      "doi": "10.1152/jn.00226.2010",
+      "pmc_id": "PMC3007631"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Park Y",
+        "Shin SH",
+        "Byun SW",
+        "Lee ZY",
+        "Lee HY"
+      ],
+      "title": "Audiological and psychological assessment of tinnitus patients with normal hearing",
+      "journal": "Front Neurol",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1102294",
+      "pmid": "36712420",
+      "doi": "10.3389/fneur.2022.1102294",
+      "pmc_id": "PMC9878854"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Kim SJ",
+        "Shin SH",
+        "Byun SW",
+        "Lee HY"
+      ],
+      "title": "Resting state EEG reveals no reliable biomarkers of tinnitus laterality",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "35820",
+      "pmid": "41087589",
+      "doi": "10.1038/s41598-025-19789-8",
+      "pmc_id": "PMC12521524"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Schlee W",
+        "Hartmann T",
+        "Langguth B",
+        "Weisz N"
+      ],
+      "title": "Abnormal resting-state cortical coupling in chronic tinnitus",
+      "journal": "BMC Neurosci",
+      "year": "2009",
+      "volume": "10",
+      "fpage": "11",
+      "pmid": "19228390",
+      "doi": "10.1186/1471-2202-10-11",
+      "pmc_id": "PMC2649130"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Fries P"
+      ],
+      "title": "Neuronal gamma-band synchronization as a fundamental process in cortical computation",
+      "journal": "Annu Rev Neurosci",
+      "year": "2009",
+      "volume": "32",
+      "fpage": "209",
+      "lpage": "224",
+      "pmid": "19400723",
+      "doi": "10.1146/annurev.neuro.051508.135603"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Factors related to uncomfortable loudness levels for patients seen in a tinnitus and hyperacusis clinic",
+      "journal": "Int J Audiol",
+      "year": "2017",
+      "volume": "56",
+      "fpage": "793",
+      "lpage": "800",
+      "pmid": "28622055",
+      "doi": "10.1080/14992027.2017.1335888"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Jahn KN",
+        "Koach CE"
+      ],
+      "title": "Hyperacusis diagnosis and management in the United States: clinical audiology practice patterns",
+      "journal": "Am J Audiol",
+      "year": "2023",
+      "volume": "32",
+      "fpage": "950",
+      "lpage": "961",
+      "pmid": "37917915",
+      "doi": "10.1044/2023_AJA-23-00118",
+      "pmc_id": "PMC11001428"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Buzsáki G",
+        "Wang XJ"
+      ],
+      "title": "Mechanisms of gamma oscillations",
+      "journal": "Annu Rev Neurosci",
+      "year": "2012",
+      "volume": "35",
+      "fpage": "203",
+      "lpage": "225",
+      "pmid": "22443509",
+      "doi": "10.1146/annurev-neuro-062111-150444",
+      "pmc_id": "PMC4049541"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Wertz J",
+        "Rüttiger L",
+        "Bender B",
+        "et al."
+      ],
+      "title": "Differential cortical activation patterns: pioneering sub-classification of tinnitus with and without hyperacusis by combining audiometry, gamma oscillations, and hemodynamics",
+      "journal": "Front Neurosci",
+      "year": "2024",
+      "volume": "17",
+      "fpage": "1232446",
+      "pmid": "38239827",
+      "doi": "10.3389/fnins.2023.1232446",
+      "pmc_id": "PMC10794389"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Hofmeier B",
+        "Wertz J",
+        "Refat F",
+        "et al."
+      ],
+      "title": "Functional biomarkers that distinguish between tinnitus with and without hyperacusis",
+      "journal": "Clin Transl Med",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "e378",
+      "pmid": "34047478",
+      "doi": "10.1002/ctm2.378",
+      "pmc_id": "PMC8140185"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Vanneste S",
+        "Song JJ",
+        "De Ridder D"
+      ],
+      "title": "Thalamocortical dysrhythmia detected by machine learning",
+      "journal": "Nat Commun",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "1103",
+      "pmid": "29549239",
+      "doi": "10.1038/s41467-018-02820-0",
+      "pmc_id": "PMC5856824"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Han JJ",
+        "Jang JH",
+        "Ridder DD",
+        "Vanneste S",
+        "Koo JW",
+        "Song JJ"
+      ],
+      "title": "Increased parietal circuit-breaker activity in delta frequency band and abnormal delta/theta band connectivity in salience network in hyperacusis subjects",
+      "journal": "PLoS One",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "e0191858",
+      "pmid": "29370266",
+      "doi": "10.1371/journal.pone.0191858",
+      "pmc_id": "PMC5785008"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Uddin LQ"
+      ],
+      "title": "Bring the Noise: reconceptualizing spontaneous neural activity",
+      "journal": "Trends Cogn Sci",
+      "year": "2020",
+      "volume": "24",
+      "fpage": "734",
+      "lpage": "746",
+      "pmid": "32600967",
+      "doi": "10.1016/j.tics.2020.06.003",
+      "pmc_id": "PMC7429348"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Arnal LH",
+        "Kleinschmidt A",
+        "Spinelli L",
+        "Giraud AL",
+        "Mégevand P"
+      ],
+      "title": "The rough sound of salience enhances aversion through neural synchronisation",
+      "journal": "Nat Commun",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "3671",
+      "pmid": "31413319",
+      "doi": "10.1038/s41467-019-11626-7",
+      "pmc_id": "PMC6694125"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Weber S",
+        "Bühler J",
+        "Bolton TAW",
+        "Aybek S"
+      ],
+      "title": "Altered brain network dynamics in motor functional neurological disorders: the role of the right temporo-parietal junction",
+      "journal": "Transl Psychiatry",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "167",
+      "pmid": "40374624",
+      "doi": "10.1038/s41398-025-03385-5",
+      "pmc_id": "PMC12081630"
     }
   ]
 }

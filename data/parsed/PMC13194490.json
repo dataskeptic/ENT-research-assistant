@@ -15,7 +15,8 @@
     "pmc_id": "PMC13194490",
     "pmid": "42183233",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -77,6 +78,859 @@
       "section": "Conclusion",
       "text": "In conclusion, we report a case of unresectable locally advanced ESCC that was successfully treated with an innovative three-stage strategy integrating immune checkpoint inhibitors (ICIs) with definitive chemoradiotherapy (dCRT), achieving a durable complete response. This case suggests that immunotherapy may hold significant potential for improving outcomes of conventional chemoradiotherapy. Notably, sustained antitumor efficacy was maintained even after treatment discontinuation due to severe immune-related adverse events, such as immune-related diabetes. Our experience underscores the necessity for close monitoring and management of endocrine immune-related adverse events. Though the results are encouraging, the nature of single-case studies calls for cautious interpretation. Moving forward, this case highlights the need to validate such integrated approaches in prospective trials, define optimal therapeutic sequencing, and identify biomarkers(PD-L1, TMB, MSI, etc.) to better predict response and toxicity, thereby guiding more personalized treatment strategies.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Laversanne M",
+        "Soerjomataram I",
+        "Jemal A",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA: Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "doi": "10.3322/caac.21660",
+      "pmid": "33538338"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Han B",
+        "Zheng R",
+        "Zeng H",
+        "Wang S",
+        "Sun K",
+        "Chen R",
+        "et al."
+      ],
+      "title": "Cancer incidence and mortality in China, 2022",
+      "journal": "J Natl Cancer Center",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "47",
+      "lpage": "53",
+      "doi": "10.1016/j.jncc.2024.01.006",
+      "pmid": "39036382",
+      "pmc_id": "PMC11256708"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Njei B",
+        "McCarty TR",
+        "Birk JW",
+        "et al."
+      ],
+      "title": "Trends in esophageal cancer survival in United States adults from 1973 to 2009: A SEER database analysis",
+      "journal": "J Gastroenterol hepatology",
+      "year": "2016",
+      "volume": "31",
+      "doi": "10.1111/jgh.13289",
+      "pmid": "26749521",
+      "pmc_id": "PMC4885788"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Sun JM",
+        "Shen L",
+        "Shah MA",
+        "Enzinger P",
+        "Adenis A",
+        "Doi T",
+        "et al."
+      ],
+      "title": "Pembrolizumab plus chemotherapy versus chemotherapy alone for first-line treatment of advanced oesophageal cancer (KEYNOTE-590): a randomised, placebo-controlled, phase 3 study",
+      "journal": "Lancet (London England)",
+      "year": "2021",
+      "volume": "398",
+      "doi": "10.1016/S0140-6736(21)01234-4",
+      "pmid": "34454674"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Zhang W",
+        "Yan C",
+        "Zhang T",
+        "Chen X",
+        "Dong J",
+        "Zhao J",
+        "et al."
+      ],
+      "title": "Addition of camrelizumab to docetaxel, cisplatin, and radiation therapy in patients with locally advanced esophageal squamous cell carcinoma: a phase 1b study",
+      "journal": "Oncoimmunology",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "1971418",
+      "doi": "10.1080/2162402X.2021.1971418",
+      "pmid": "34616588",
+      "pmc_id": "PMC8489938"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Li C",
+        "Zhao S",
+        "Zheng Y",
+        "Han Y",
+        "Chen X",
+        "Cheng Z",
+        "et al."
+      ],
+      "title": "Preoperative pembrolizumab combined with chemoradiotherapy for oesophageal squamous cell carcinoma (PALACE-1)",
+      "journal": "Eur J Cancer (Oxford England: 1990)",
+      "year": "2021",
+      "volume": "144",
+      "doi": "10.1016/j.ejca.2020.11.039",
+      "pmid": "33373868"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Xi M",
+        "Xu C",
+        "Liao Z",
+        "Hofstetter WL",
+        "Blum Murphy M",
+        "Maru DM",
+        "et al."
+      ],
+      "title": "The impact of histology on recurrence patterns in esophageal cancer treated with definitive chemoradiotherapy",
+      "journal": "Radiotherapy Oncol J Eur Soc Ther Radiol Oncol",
+      "year": "2017",
+      "volume": "124",
+      "doi": "10.1016/j.radonc.2017.06.019",
+      "pmid": "28687396"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Zhu Y",
+        "Wen J",
+        "Li Q",
+        "Chen B",
+        "Zhao L",
+        "Liu S",
+        "et al."
+      ],
+      "title": "Toripalimab combined with definitive chemoradiotherapy in locally advanced oesophageal squamous cell carcinoma (EC-CRT-001): a single-arm, phase 2 trial",
+      "journal": "Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "doi": "10.1016/S1470-2045(23)00060-8",
+      "pmid": "36990609"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Shah MA",
+        "Bennouna J",
+        "Doi T",
+        "Shen L",
+        "Kato K",
+        "Adenis A",
+        "et al."
+      ],
+      "title": "KEYNOTE-975 study design: a Phase III study of definitive chemoradiotherapy plus pembrolizumab in patients with esophageal carcinoma",
+      "journal": "Future Oncol (London England)",
+      "year": "2021",
+      "volume": "17",
+      "doi": "10.2217/fon-2020-0969",
+      "pmid": "33533655",
+      "pmc_id": "PMC7927908"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Yu R",
+        "Wang W",
+        "Li T",
+        "Li J",
+        "Zhao K",
+        "Wang W",
+        "et al."
+      ],
+      "title": "RATIONALE 311: tislelizumab plus concurrent chemoradiotherapy for localized esophageal squamous cell carcinoma",
+      "journal": "Future Oncol (London England)",
+      "year": "2021",
+      "volume": "17",
+      "doi": "10.2217/fon-2021-0632",
+      "pmid": "34269067"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Huang J",
+        "Xu J",
+        "Chen Y",
+        "Zhuang W",
+        "Zhuang W",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Camrelizumab versus investigator’s choice of chemotherapy as second-line therapy for advanced or metastatic oesophageal squamous cell carcinoma (ESCORT): a multicentre, randomised, open-label, phase 3 study",
+      "journal": "Lancet Oncol",
+      "year": "2020",
+      "volume": "21",
+      "doi": "10.1016/S1470-2045(20)30110-8",
+      "pmid": "32416073"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Ogoshi K",
+        "Satou H",
+        "Isono K",
+        "Mitomi T",
+        "Mitomi T",
+        "Endoh M",
+        "et al."
+      ],
+      "title": "A randomized trial in combination with radiotherapy and radiochemotherapy",
+      "journal": "Am J Clin Oncol",
+      "year": "1995",
+      "volume": "18",
+      "doi": "10.1097/00000421-199506000-00007",
+      "pmid": "7747709"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Akturk HK",
+        "Kahramangil D",
+        "Sarwal A",
+        "Hoffecker L",
+        "Murad MH",
+        "Michels AW",
+        "et al."
+      ],
+      "title": "Immune checkpoint inhibitor-induced Type 1 diabetes: a systematic review and meta-analysis",
+      "journal": "Diabetic medicine: J Br Diabetic Assoc",
+      "year": "2019",
+      "volume": "36",
+      "doi": "10.1111/dme.14050",
+      "pmid": "31199005",
+      "pmc_id": "PMC6698212"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Stamatouli AM",
+        "Quandt Z",
+        "Perdigoto AL",
+        "Clark P",
+        "Kluger H",
+        "Weiss S",
+        "et al."
+      ],
+      "title": "Collateral damage: insulin-dependent diabetes induced with checkpoint inhibitors",
+      "journal": "Diabetes",
+      "year": "2018",
+      "volume": "67",
+      "doi": "10.2337/dbi18-0002",
+      "pmid": "29937434",
+      "pmc_id": "PMC6054443"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Kroemer G",
+        "Galluzzi L",
+        "Kepp O",
+        "Zitvogel L"
+      ],
+      "title": "Immunogenic cell death in cancer therapy",
+      "journal": "Annu Rev Immunol",
+      "year": "2013",
+      "volume": "31",
+      "fpage": "51",
+      "lpage": "72",
+      "doi": "10.1146/annurev-immunol-032712-100008",
+      "pmid": "23157435"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Obeid M",
+        "Tesniere A",
+        "Ghiringhelli F",
+        "Fimia GM",
+        "Apetoh L",
+        "Perfettini J-L",
+        "et al."
+      ],
+      "title": "Calreticulin exposure dictates the immunogenicity of cancer cell death",
+      "journal": "Nat Med",
+      "year": "2007",
+      "volume": "13",
+      "fpage": "54",
+      "lpage": "61",
+      "doi": "10.1038/nm1523",
+      "pmid": "17187072"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Krysko DV",
+        "Garg AD",
+        "Kaczmarek A",
+        "Krysko O",
+        "Agostinis P",
+        "Vandenabeele P",
+        "et al."
+      ],
+      "title": "Immunogenic cell death and DAMPs in cancer therapy",
+      "journal": "Nat Rev Cancer",
+      "year": "2012",
+      "volume": "12",
+      "doi": "10.1038/nrc3380",
+      "pmid": "23151605"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Theelen W",
+        "Peulen H",
+        "Lalezari F",
+        "van der Noort V",
+        "de Vries J",
+        "Aerts J",
+        "et al."
+      ],
+      "title": "Effect of pembrolizumab after stereotactic body radiotherapy vs pembrolizumab alone on tumor response in patients with advanced non-small cell lung cancer: results of the PEMBRO-RT phase 2 randomized clinical trial",
+      "journal": "JAMA Oncol",
+      "year": "2019",
+      "volume": "5",
+      "doi": "10.1001/jamaoncol.2019.1478",
+      "pmid": "31294749",
+      "pmc_id": "PMC6624814"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Kurtulus S",
+        "Madi A",
+        "Escobar G",
+        "Klapholz M",
+        "Nyman J",
+        "Christian E",
+        "et al."
+      ],
+      "title": "Checkpoint blockade immunotherapy induces dynamic changes in PD-1 - CD8 + Tumor-infiltrating T cells",
+      "journal": "Immunity",
+      "year": "2019",
+      "volume": "50",
+      "doi": "10.1016/j.immuni.2018.11.014",
+      "pmid": "30635236",
+      "pmc_id": "PMC6336113"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Zeng J",
+        "See AP",
+        "Phallen J",
+        "Jackson CM",
+        "Jackson CM",
+        "Belcaid Z",
+        "et al."
+      ],
+      "title": "Anti-PD-1 blockade and stereotactic radiation produce long-term survival in mice with intracranial gliomas",
+      "journal": "Int J Radiat oncology biology physics",
+      "year": "2013",
+      "volume": "86",
+      "doi": "10.1016/j.ijrobp.2012.12.025",
+      "pmid": "23462419",
+      "pmc_id": "PMC3963403"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Deng L",
+        "Liang H",
+        "Burnette B",
+        "Beckett M",
+        "Beckett M",
+        "Darga T",
+        "et al."
+      ],
+      "title": "Irradiation and anti-PD-L1 treatment synergistically promote antitumor immunity in mice",
+      "journal": "J Clin Invest",
+      "year": "2014",
+      "volume": "124",
+      "doi": "10.1172/JCI67313",
+      "pmid": "24382348",
+      "pmc_id": "PMC3904601"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Lin X",
+        "Zeng T",
+        "Xiong J",
+        "Zhang Q",
+        "Jiang P",
+        "Li X",
+        "et al."
+      ],
+      "title": "Combined α-programmed death-1 monoclonal antibody blockade and fractionated radiation therapy reduces tumor growth in mouse EL4 lymphoma",
+      "journal": "Cancer Biol Ther",
+      "year": "2019",
+      "volume": "20",
+      "doi": "10.1080/15384047.2018.1550569",
+      "pmid": "30572778",
+      "pmc_id": "PMC6605991"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Xue Y",
+        "Gao S",
+        "Gou J",
+        "Yin T",
+        "He H",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "Platinum-based chemotherapy in combination with PD-1/PD-L1 inhibitors: preclinical and clinical studies and mechanism of action",
+      "journal": "Expert Opin Drug delivery",
+      "year": "2021",
+      "volume": "18",
+      "fpage": "187",
+      "lpage": "203",
+      "doi": "10.1080/17425247.2021.1825376",
+      "pmid": "32954856"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Peng F",
+        "Wu J",
+        "Lian H",
+        "Wu S",
+        "Niu S",
+        "Xing X",
+        "et al."
+      ],
+      "title": "Induction chemotherapy plus camrelizumab followed by concurrent chemoradiotherapy in unresectable locally advanced esophageal squamous cell carcinoma: a single-arm phase II trial",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "10292",
+      "doi": "10.1038/s41467-025-65206-z",
+      "pmid": "41271680",
+      "pmc_id": "PMC12638862"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Antonia SJ",
+        "Villegas A",
+        "Daniel D",
+        "Vicente D",
+        "Murakami S",
+        "Hui R",
+        "et al."
+      ],
+      "title": "Overall survival with durvalumab after chemoradiotherapy in stage III NSCLC",
+      "year": "2018",
+      "volume": "379",
+      "doi": "10.1056/NEJMoa1809697",
+      "pmid": "30280658"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Wang J",
+        "Cheng YJ",
+        "Wang J",
+        "Liu Q",
+        "Wu Y",
+        "Liu Y",
+        "et al."
+      ],
+      "title": "Consolidative camrelizumab following definitive concurrent chemoradiotherapy with involved-field irradiation in locally advanced esophageal squamous cell carcinoma: A single-arm phase 2 trial",
+      "journal": "J Clin Oncol",
+      "year": "2025",
+      "volume": "43",
+      "doi": "10.1200/JCO.2025.43.16_suppl.2597",
+      "pmid": "42031221"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Chen C",
+        "Wang Z",
+        "Ding Y",
+        "Qin Y"
+      ],
+      "title": "Manipulating T-cell metabolism to enhance immunotherapy in solid tumor",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "1090429",
+      "doi": "10.3389/fimmu.2022.1090429",
+      "pmid": "36618408",
+      "pmc_id": "PMC9812959"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Pan X",
+        "Wang J",
+        "Zhang L",
+        "Li G",
+        "Huang B"
+      ],
+      "title": "Metabolic plasticity of T cell fate decision",
+      "journal": "Chin Med J",
+      "year": "2024",
+      "volume": "137",
+      "doi": "10.1097/cm9.0000000000002989",
+      "pmid": "38086394",
+      "pmc_id": "PMC10997312"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Rodler S",
+        "Aydogdu C",
+        "Brinkmann I",
+        "Berg E",
+        "Kopliku R",
+        "Götz M",
+        "et al."
+      ],
+      "title": "Toxicity-induced discontinuation of immune checkpoint inhibitors in metastatic urothelial cancer: 6-year experience from a specialized uro-oncology center",
+      "journal": "Cancers",
+      "year": "2024",
+      "volume": "16",
+      "elocation_id": "2246",
+      "doi": "10.3390/cancers16122246",
+      "pmid": "38927951",
+      "pmc_id": "PMC11201648"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Horiguchi M",
+        "Uno H",
+        "Wei LJ"
+      ],
+      "title": "Patients with advanced melanoma who discontinued treatment with nivolumab and ipilimumab as a result of adverse events lived significantly longer than patients who continued treatment",
+      "journal": "J Clin Oncol Off J Am Soc Clin Oncol",
+      "year": "2018",
+      "volume": "36",
+      "doi": "10.1200/JCO.2017.76.0983",
+      "pmid": "29337638"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Schadendorf D",
+        "Wolchok JD",
+        "Hodi FS",
+        "Chiarion-Sileni V",
+        "Gonzalez R",
+        "Rutkowski P",
+        "et al."
+      ],
+      "title": "Efficacy and safety outcomes in patients with advanced melanoma who discontinued treatment with nivolumab and ipilimumab because of adverse events: A pooled analysis of randomized phase II and III trials",
+      "journal": "J Clin Oncol Off J Am Soc Clin Oncol",
+      "year": "2017",
+      "volume": "35",
+      "doi": "10.1200/JCO.2017.73.2289",
+      "pmid": "28841387",
+      "pmc_id": "PMC5791828"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Pecci F",
+        "Thummalapalli R",
+        "Alden SL",
+        "Ricciuti B",
+        "Alessi JV",
+        "Elkrief A",
+        "et al."
+      ],
+      "title": "Factors associated with disease progression after discontinuation of immune checkpoint inhibitors for immune-related toxicity in patients with advanced non-small cell lung cancer",
+      "journal": "Clin Cancer research: an Off J Am Assoc Cancer Res",
+      "year": "2025",
+      "volume": "31",
+      "doi": "10.1158/1078-0432.CCR-24-2990",
+      "pmid": "40247431",
+      "pmc_id": "PMC12709584"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Imagawa A",
+        "Hanafusa T",
+        "Awata T",
+        "Ikegami H",
+        "Uchigata Y",
+        "Osawa H",
+        "et al."
+      ],
+      "title": "Report of the Committee of the Japan Diabetes Society on the Research of Fulminant and Acute-onset Type 1 Diabetes Mellitus: New diagnostic criteria of fulminant type 1 diabetes mellitus (2012)",
+      "journal": "J Diabetes Invest",
+      "year": "2012",
+      "volume": "3",
+      "doi": "10.1111/jdi.12024",
+      "pmid": "24843620",
+      "pmc_id": "PMC4015434"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Liu J",
+        "Shi Y",
+        "Liu X",
+        "Ikegami H",
+        "Uchigata Y",
+        "Osawa H",
+        "et al."
+      ],
+      "title": "Clinical characteristics and outcomes of immune checkpoint inhibitor-induced diabetes mellitus",
+      "journal": "Transl Oncol",
+      "year": "2022",
+      "volume": "24",
+      "elocation_id": "101473",
+      "doi": "10.1016/j.tranon.2022.101473",
+      "pmid": "35905639",
+      "pmc_id": "PMC9334308"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Liu YC",
+        "Liu H",
+        "Zhao SL",
+        "Chen K",
+        "Jin P"
+      ],
+      "title": "Clinical and HLA genotype analysis of immune checkpoint inhibitor-associated diabetes mellitus: a single-center case series from China",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1164120",
+      "doi": "10.3389/fimmu.2023.1164120",
+      "pmid": "37359544",
+      "pmc_id": "PMC10288983"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Go SH",
+        "Cho YK",
+        "Koh EH"
+      ],
+      "title": "Risk factors and survival outcomes of immune checkpoint inhibitor-induced type 1 diabetes mellitus: A retrospective cohort study",
+      "journal": "Diabetes Metab J",
+      "year": "2026",
+      "volume": "50",
+      "doi": "10.4093/dmj.2024.0455",
+      "pmid": "40692269",
+      "pmc_id": "PMC12813390"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Wright JJ",
+        "Powers AC",
+        "Johnson DB"
+      ],
+      "title": "Endocrine toxicities of immune checkpoint inhibitors",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2021",
+      "volume": "17",
+      "doi": "10.1038/s41574-021-00484-3",
+      "pmid": "33875857",
+      "pmc_id": "PMC8769055"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Chen Y",
+        "Wang X",
+        "Duan S"
+      ],
+      "title": "Immune checkpoint inhibitor-associated diabetes mellitus: mechanisms, clinical manifestations, and management strategies",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2026",
+      "volume": "16",
+      "elocation_id": "1679751",
+      "doi": "10.3389/fendo.2025.1679751",
+      "pmid": "41607457",
+      "pmc_id": "PMC12834766"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "de Filette JM",
+        "Pen JJ",
+        "Decoster L",
+        "Vissers T",
+        "Bravenboer B",
+        "et al."
+      ],
+      "title": "Immune checkpoint inhibitors and type 1 diabetes mellitus: a case report and systematic review",
+      "journal": "Eur J endocrinology",
+      "year": "2019",
+      "volume": "181",
+      "doi": "10.1530/EJE-19-0291",
+      "pmid": "31330498",
+      "pmc_id": "PMC6709545"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Dougan M",
+        "Pietropaolo M"
+      ],
+      "title": "Time to dissect the autoimmune etiology of cancer antibody immunotherapy",
+      "journal": "J Clin Invest",
+      "year": "2020",
+      "volume": "130",
+      "fpage": "51",
+      "lpage": "61",
+      "doi": "10.1172/JCI131194",
+      "pmid": "31895048",
+      "pmc_id": "PMC6934191"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "Imagawa A",
+        "Hanafusa T",
+        "Miyagawa J",
+        "Matsuzawa Y"
+      ],
+      "title": "A novel subtype of type 1 diabetes mellitus characterized by a rapid onset and an absence of diabetes-related antibodies",
+      "journal": "Osaka IDDM Study Group New Engl J Med",
+      "year": "2000",
+      "volume": "342",
+      "doi": "10.1056/NEJM200002033420501",
+      "pmid": "10655528"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Kapke J",
+        "Shaheen Z",
+        "Kilari D",
+        "Knudson P",
+        "Wong S"
+      ],
+      "title": "Immune checkpoint inhibitor-associated type 1 diabetes mellitus: case series, review of the literature, and optimal management",
+      "journal": "Case Rep Oncol",
+      "year": "2017",
+      "volume": "10",
+      "fpage": "897",
+      "lpage": "909",
+      "doi": "10.1159/000480634",
+      "pmid": "29279690",
+      "pmc_id": "PMC5731100"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "ElSayed NA",
+        "Aleppo G",
+        "Aroda VR",
+        "Bannuru R",
+        "Brown F",
+        "Bruemmer D",
+        "et al."
+      ],
+      "title": "Classification and diagnosis of diabetes: standards of care in diabetes-2023",
+      "journal": "Diabetes Care",
+      "year": "2023",
+      "volume": "46",
+      "doi": "10.2337/dc23-S002",
+      "pmid": "36507649",
+      "pmc_id": "PMC9810477"
+    },
+    {
+      "ref_id": "B44",
+      "label": "44",
+      "authors": [
+        "Noble JA",
+        "Valdes AM"
+      ],
+      "title": "Genetics of the HLA region in the prediction of type 1 diabetes",
+      "journal": "Curr Diabetes Rep",
+      "year": "2011",
+      "volume": "11",
+      "doi": "10.1007/s11892-011-0223-x",
+      "pmid": "21912932",
+      "pmc_id": "PMC3233362"
+    },
+    {
+      "ref_id": "B45",
+      "label": "45",
+      "authors": [
+        "Tisch R",
+        "McDevitt H"
+      ],
+      "title": "Insulin-dependent diabetes mellitus",
+      "journal": "Cell",
+      "year": "1996",
+      "volume": "85",
+      "doi": "10.1016/s0092-8674(00)81106-x",
+      "pmid": "8616883"
     }
   ]
 }

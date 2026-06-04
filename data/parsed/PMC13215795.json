@@ -16,7 +16,8 @@
     "pmc_id": "PMC13215795",
     "pmid": "42222094",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 40
   },
   "sections": [
     {
@@ -78,6 +79,746 @@
       "section": "Conclusion",
       "text": "This study successfully developed and validated a nomogram model integrating clinical, ultrasonographic, and innovative spatial location features. The model demonstrated good predictive performance, particularly clarifying that specific tumor spatial locations (e.g., isthmus, middle/inferior pole adjacent to the posterior capsule) are important independent predictors of CLNM. This tool aids in the preoperative identification of high-risk PTMC patients, provides an objective basis for formulating individualized surgical plans, and is expected to help reduce overtreatment and optimize the utilization of medical resources.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Jemal A"
+      ],
+      "title": "Cancer statistics, 2020",
+      "journal": "CA Cancer J Clin",
+      "year": "2020",
+      "volume": "70",
+      "fpage": "7",
+      "lpage": "30",
+      "doi": "10.3322/caac.21590",
+      "pmid": "31912902"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Sugitani I",
+        "Ito Y",
+        "Takeuchi D",
+        "Nakayama H",
+        "Masaki C",
+        "Shindo H",
+        "et al."
+      ],
+      "title": "Indications and strategy for active surveillance of adult low-risk papillary thyroid microcarcinoma: Consensus statements from the Japan Association of Endocrine Surgery Task Force on Management for Papillary Thyroid Microcarcinoma",
+      "journal": "Thyroid",
+      "year": "2021",
+      "volume": "31",
+      "doi": "10.1089/thy.2020.0330",
+      "pmid": "33023426",
+      "pmc_id": "PMC7891203"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Huang C",
+        "Cong S",
+        "Shang S",
+        "Wang M",
+        "Zheng H",
+        "Wu S",
+        "et al."
+      ],
+      "title": "Web-based ultrasonic nomogram predicts preoperative central lymph node metastasis of cN0 papillary thyroid microcarcinoma",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "734900",
+      "doi": "10.3389/fendo.2021.734900",
+      "pmid": "34557165",
+      "pmc_id": "PMC8453195"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Malik AA",
+        "Aziz F",
+        "Beshyah SA",
+        "Aldahmani KM"
+      ],
+      "title": "Characteristics and management of papillary thyroid microcarcinoma in the United Arab Emirates: Experience from a large tertiary hospital",
+      "journal": "Saudi J Med Med Sci",
+      "year": "2022",
+      "volume": "10",
+      "doi": "10.4103/sjmms.sjmms_393_21",
+      "pmid": "35283703",
+      "pmc_id": "PMC8869268"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Didehban S",
+        "Abdollahi A",
+        "Meysamie A"
+      ],
+      "title": "Evaluation of etiology, clinical manifestations, diagnosis, follow-up, histopathology and prognosis factors in papillary thyroid microcarcinoma: A systematic review and meta-analysis",
+      "journal": "Iran J Pathol",
+      "year": "2023",
+      "volume": "18",
+      "doi": "10.30699/ijp.2023.2005196.3134",
+      "pmid": "38024552",
+      "pmc_id": "PMC10646744"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Nagaoka R",
+        "Ebina A",
+        "Toda K",
+        "Jikuzono T",
+        "Saitou M",
+        "Sen M",
+        "et al."
+      ],
+      "title": "Multifocality and progression of papillary thyroid microcarcinoma during active surveillance",
+      "journal": "World J Surg",
+      "year": "2021",
+      "volume": "45",
+      "doi": "10.1007/s00268-021-06185-2",
+      "pmid": "34100116"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Wang K",
+        "Li H",
+        "Zhao J",
+        "Yao J",
+        "Lu Y",
+        "Dong J",
+        "et al."
+      ],
+      "title": "Potential diagnostic of lymph node metastasis and prognostic values of TM4SFs in papillary thyroid carcinoma patients",
+      "journal": "Front Cell Dev Biol",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "1001954",
+      "doi": "10.3389/fcell.2022.1001954",
+      "pmid": "36568979",
+      "pmc_id": "PMC9773885"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Haugen BR"
+      ],
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: What is new and what has changed",
+      "journal": "Cancer",
+      "year": "2017",
+      "volume": "123",
+      "doi": "10.1002/cncr.30360",
+      "pmid": "27741354"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Alsubaie KM",
+        "Alsubaie HM",
+        "Alzahrani FR",
+        "Alessa MA",
+        "Abdulmonem SK",
+        "Merdad MA",
+        "et al."
+      ],
+      "title": "Prophylactic central neck dissection for clinically node-negative papillary thyroid carcinoma",
+      "journal": "Laryngoscope",
+      "year": "2022",
+      "volume": "132",
+      "doi": "10.1002/lary.29912",
+      "pmid": "34708877"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Ringel MD",
+        "Sosa JA",
+        "Baloch Z",
+        "Bischoff L",
+        "Bloom G",
+        "Brent GA",
+        "et al."
+      ],
+      "title": "2025 american thyroid association management guidelines for adult patients with differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "841",
+      "lpage": "985",
+      "doi": "10.1177/10507256251363120",
+      "pmid": "40844370",
+      "pmc_id": "PMC13090833"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Oda H",
+        "Miyauchi A",
+        "Ito Y",
+        "Sasai H",
+        "Masuoka H",
+        "Yabuta T",
+        "et al."
+      ],
+      "title": "Comparison of the costs of active surveillance and immediate surgery in the management of low-risk papillary microcarcinoma of the thyroid",
+      "journal": "Endocr J",
+      "year": "2017",
+      "volume": "64",
+      "fpage": "59",
+      "lpage": "64",
+      "doi": "10.1507/endocrj.ej16-0381",
+      "pmid": "27667647"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Gong W",
+        "Zhang R",
+        "Zhang S",
+        "Zhai Y",
+        "Zheng C",
+        "Zhang D"
+      ],
+      "title": "Comparison between thermal ablation and surgery in low risk papillary thyroid carcinoma: a prospective study",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1398208",
+      "doi": "10.3389/fendo.2024.1398208",
+      "pmid": "39149120",
+      "pmc_id": "PMC11324463"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Zhao ZL",
+        "Wang SR",
+        "Kuo J",
+        "Cekic B",
+        "Liang L",
+        "Ghazi HA",
+        "et al."
+      ],
+      "title": "2024 international expert consensus on US-guided thermal ablation for T1N0M0 papillary thyroid cancer",
+      "journal": "Radiology",
+      "year": "2025",
+      "volume": "315",
+      "elocation_id": "e240347",
+      "doi": "10.1148/radiol.240347",
+      "pmid": "40261172"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Sinclair CF",
+        "Baek JH",
+        "Hands KE",
+        "Hodak SP",
+        "Huber TC",
+        "Hussain I",
+        "et al."
+      ],
+      "title": "General principles for the safe performance, training, and adoption of ablation techniques for benign thyroid nodules: An American Thyroid Association statement",
+      "journal": "Thyroid",
+      "year": "2023",
+      "volume": "33",
+      "doi": "10.1089/thy.2023.0281",
+      "pmid": "37642289",
+      "pmc_id": "PMC10611977"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Wang Y",
+        "Nie F",
+        "Wang G",
+        "Liu T",
+        "Dong T",
+        "Sun Y"
+      ],
+      "title": "Value of combining clinical factors, conventional ultrasound, and contrast-enhanced ultrasound features in preoperative prediction of central lymph node metastases of different sized papillary thyroid carcinomas",
+      "journal": "Cancer Manag Res",
+      "year": "2021",
+      "volume": "13",
+      "doi": "10.2147/cmar.s299157",
+      "pmid": "33907464",
+      "pmc_id": "PMC8064616"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Chen J",
+        "Li XL",
+        "Zhao CK",
+        "Wang D",
+        "Wang Q",
+        "Li MX",
+        "et al."
+      ],
+      "title": "Conventional ultrasound, immunohistochemical factors and BRAF(V600E) mutation in predicting central cervical lymph node metastasis of papillary thyroid carcinoma",
+      "journal": "Ultrasound Med Biol",
+      "year": "2018",
+      "volume": "44",
+      "doi": "10.1016/j.ultrasmedbio.2018.06.020",
+      "pmid": "30100099"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Kawano S",
+        "Miyauchi A",
+        "Ito Y"
+      ],
+      "title": "Routine chest computed tomography at presentation does not identify distant metastasis in cT1aN0 papillary thyroid carcinoma",
+      "journal": "Thyroid",
+      "year": "2020",
+      "volume": "30",
+      "doi": "10.1089/thy.2020.0073",
+      "pmid": "32368954",
+      "pmc_id": "PMC7692892"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Fang F",
+        "Gong Y",
+        "Liao L",
+        "Ye F",
+        "Zuo Z",
+        "Li X",
+        "et al."
+      ],
+      "title": "Value of contrast-enhanced ultrasound for evaluation of cervical lymph node metastasis in papillary thyroid carcinoma",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "812475",
+      "doi": "10.3389/fendo.2022.812475",
+      "pmid": "35185795",
+      "pmc_id": "PMC8850786"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Luo Y",
+        "Zhao Y",
+        "Chen K",
+        "Shen J",
+        "Shi J",
+        "Lu S",
+        "et al."
+      ],
+      "title": "Clinical analysis of cervical lymph node metastasis risk factors in patients with papillary thyroid microcarcinoma",
+      "journal": "J Endocrinol Invest",
+      "year": "2019",
+      "volume": "42",
+      "doi": "10.1007/s40618-018-0908-y",
+      "pmid": "29876836",
+      "pmc_id": "PMC6394766"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Sun S",
+        "Zhou Q",
+        "Hu T"
+      ],
+      "title": "A model based on ultrasound and clinical factors to predict central lymph node metastasis in cN0 papillary thyroid microcarcinoma",
+      "journal": "Heliyon",
+      "year": "2024",
+      "volume": "10",
+      "elocation_id": "e33891",
+      "doi": "10.1016/j.heliyon.2024.e33891",
+      "pmid": "39071653",
+      "pmc_id": "PMC11283140"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Wu X",
+        "Li B",
+        "Zheng C",
+        "He X"
+      ],
+      "title": "Risk factors for central lymph node metastases in patients with papillary thyroid microcarcinoma",
+      "journal": "Endocr Pract",
+      "year": "2018",
+      "volume": "24",
+      "doi": "10.4158/ep-2018-0305",
+      "pmid": "30289307"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Zhang X",
+        "Zhu J",
+        "Ai X",
+        "Dang M",
+        "Huang P"
+      ],
+      "title": "An ultrasound-based nomogram for predicting central lymph node metastasis in papillary thyroid microcarcinoma",
+      "journal": "Med Ultrason",
+      "year": "2024",
+      "volume": "26",
+      "doi": "10.11152/mu-4411",
+      "pmid": "39078991"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Hosmer DW",
+        "Lemeshow S",
+        "Sturdivant RX"
+      ],
+      "journal": "Applied logistic regression",
+      "year": "2013"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Liu Y",
+        "Liao L",
+        "Yan D",
+        "Liu J",
+        "Liu W",
+        "Liu S",
+        "et al."
+      ],
+      "title": "The impact of age at diagnosis on central lymph node metastasis in clinically low-risk papillary thyroid microcarcinoma patients",
+      "journal": "Thyroid Res",
+      "year": "2025",
+      "volume": "18",
+      "elocation_id": "6",
+      "doi": "10.1186/s13044-025-00224-z",
+      "pmid": "40033421",
+      "pmc_id": "PMC11877933"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Liu C",
+        "Liu Y",
+        "Zhang L",
+        "Dong Y",
+        "Hu S",
+        "Xia Y",
+        "et al."
+      ],
+      "title": "Risk factors for high-volume lymph node metastases in cN0 papillary thyroid microcarcinoma",
+      "journal": "Gland Surg",
+      "year": "2019",
+      "volume": "8",
+      "doi": "10.21037/gs.2019.10.04",
+      "pmid": "31741886",
+      "pmc_id": "PMC6842761"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Tessler FN",
+        "Middleton WD",
+        "Grant EG",
+        "Hoang JK",
+        "Berland LL",
+        "Teefey SA",
+        "et al."
+      ],
+      "title": "ACR thyroid imaging, reporting and data system (TI-RADS): white paper of the ACR TI-RADS committee",
+      "journal": "J Am Coll Radiol",
+      "year": "2017",
+      "volume": "14",
+      "doi": "10.1016/j.jacr.2017.12.035",
+      "pmid": "28372962"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Chen X",
+        "Lin S",
+        "Lin Y",
+        "Wu S",
+        "Zhuo M",
+        "Zhang A",
+        "et al."
+      ],
+      "title": "BRAF-activated WT1 contributes to cancer growth and regulates autophagy and apoptosis in papillary thyroid carcinoma",
+      "journal": "J Transl Med",
+      "year": "2022",
+      "volume": "20",
+      "fpage": "79",
+      "doi": "10.1186/s12967-022-03260-7",
+      "pmid": "35123502",
+      "pmc_id": "PMC8818187"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Yang L",
+        "Zhao R",
+        "Qiao P",
+        "Cui J",
+        "Chen X",
+        "Fan J",
+        "et al."
+      ],
+      "title": "The novel oncogenic factor TET3 combines with AHR to promote thyroid cancer lymphangiogenesis via the HIF-1alpha/VEGF signaling pathway",
+      "journal": "Cancer Cell Int",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "206",
+      "doi": "10.1186/s12935-023-03021-6",
+      "pmid": "37718440",
+      "pmc_id": "PMC10506260"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Zeng J",
+        "Wu G",
+        "Jia H",
+        "Liu C",
+        "Liu C",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Stimulated Raman scattering microscopy reveals aberrant triglyceride accumulation in lymphatic metastasis of papillary thyroid carcinoma",
+      "journal": "Anal Chem",
+      "year": "2024",
+      "volume": "96",
+      "doi": "10.1021/acs.analchem.4c00306",
+      "pmid": "38567982"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Fujimoto N",
+        "Dieterich LC"
+      ],
+      "title": "Mechanisms and clinical significance of tumor lymphatic invasion",
+      "journal": "Cells",
+      "year": "2021",
+      "volume": "10",
+      "issue": "10",
+      "fpage": "2585",
+      "doi": "10.3390/cells10102585",
+      "pmid": "34685565",
+      "pmc_id": "PMC8533989"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Karaman S",
+        "Detmar M"
+      ],
+      "title": "Mechanisms of lymphatic metastasis",
+      "journal": "J Clin Invest",
+      "year": "2014",
+      "volume": "124",
+      "doi": "10.1172/jci71606",
+      "pmid": "24590277",
+      "pmc_id": "PMC3938272"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Osborne D",
+        "Choudhary R",
+        "Vyas A",
+        "Kampa P",
+        "Abbas LF",
+        "Chigurupati HD",
+        "et al."
+      ],
+      "title": "Hashimoto's thyroiditis effects on papillary thyroid carcinoma outcomes: A systematic review",
+      "journal": "Cureus",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "e28054",
+      "doi": "10.7759/cureus.28054",
+      "pmid": "36120263",
+      "pmc_id": "PMC9476374"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Lee J-H",
+        "Kim Y",
+        "Choi J-W",
+        "Kim Y-S"
+      ],
+      "title": "The association between papillary thyroid carcinoma and histologically proven Hashimoto's thyroiditis: a meta-analysis",
+      "journal": "Eur J Endocrinol",
+      "year": "2013",
+      "volume": "168",
+      "doi": "10.1530/eje-12-0903",
+      "pmid": "23211578"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Ahn D",
+        "Heo SJ",
+        "Park JH",
+        "Kim JH",
+        "Sohn JH",
+        "Park JY",
+        "et al."
+      ],
+      "title": "Clinical relationship between Hashimoto's thyroiditis and papillary thyroid cancer",
+      "journal": "Acta Oncol",
+      "year": "2011",
+      "volume": "50",
+      "doi": "10.3109/0284186x.2011.602109",
+      "pmid": "21871002"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Xue J",
+        "Qu N",
+        "Liu H",
+        "Bi M",
+        "Cao X"
+      ],
+      "title": "Value of multimodal ultrasound combined with BRAF gene in evaluating cervical lymph node metastasis of papillary thyroid microcarcinoma",
+      "journal": "Ultrasound Med Biol",
+      "year": "2024",
+      "volume": "50",
+      "doi": "10.1016/j.ultrasmedbio.2024.04.005",
+      "pmid": "38704301"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Likhterov I",
+        "Reis LL",
+        "Urken ML"
+      ],
+      "title": "Central compartment management in patients with papillary thyroid cancer presenting with metastatic disease to the lateral neck: Anatomic pathways of lymphatic spread",
+      "journal": "Head Neck",
+      "year": "2017",
+      "volume": "39",
+      "doi": "10.1002/hed.24568",
+      "pmid": "28252836"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Qubain SW",
+        "Nakano S",
+        "Baba M",
+        "Takao S",
+        "Aikou T"
+      ],
+      "title": "Distribution of lymph node micrometastasis in pN0 well-differentiated thyroid carcinoma",
+      "journal": "Surgery",
+      "year": "2002",
+      "volume": "131",
+      "doi": "10.1067/msy.2002.120657",
+      "pmid": "11894028"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Liu SJ",
+        "Dang HX",
+        "Lim DA",
+        "Feng FY",
+        "Maher CA"
+      ],
+      "title": "Long noncoding RNAs in cancer metastasis",
+      "journal": "Nat Rev Cancer",
+      "year": "2021",
+      "volume": "21",
+      "doi": "10.1038/s41568-021-00353-1",
+      "pmid": "33953369",
+      "pmc_id": "PMC8288800"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Attard A",
+        "Paladino NC",
+        "Lo Monte AI",
+        "Falco N",
+        "Melfa G",
+        "Rotolo G",
+        "et al."
+      ],
+      "title": "Skip metastases to lateral cervical lymph nodes in differentiated thyroid cancer: a systematic review",
+      "journal": "BMC Surg",
+      "year": "2019",
+      "volume": "18",
+      "fpage": "112",
+      "doi": "10.1186/s12893-018-0435-y",
+      "pmid": "31074393",
+      "pmc_id": "PMC7402576"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Bachar G",
+        "Buda I",
+        "Cohen M",
+        "Hadar T",
+        "Hilly O",
+        "Schwartz N",
+        "et al."
+      ],
+      "title": "Size discrepancy between sonographic and pathological evaluation of solitary papillary thyroid carcinoma",
+      "journal": "Eur J Radiol",
+      "year": "2013",
+      "volume": "82",
+      "doi": "10.1016/j.ejrad.2013.07.002",
+      "pmid": "23948454"
     }
   ]
 }

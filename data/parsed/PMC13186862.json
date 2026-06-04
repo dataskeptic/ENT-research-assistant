@@ -14,7 +14,8 @@
     "pmc_id": "PMC13186862",
     "pmid": "42154291",
     "full_text_available": true,
-    "section_count": 13
+    "section_count": 13,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -81,6 +82,810 @@
       "section": "Conclusion",
       "text": "In this pilot study, we demonstrate the feasibility of detailed longitudinal reconstruction of therapeutic trajectories in VEXAS, enabling fine-grained analysis of glucocorticoid exposure in relation to disease activity and flare risk. In this small cohort, exploratory analyses suggested increased relapse risk below 15 mg/day, relatively low flare risk above 20 mg/day, and potential variation in glucocorticoid sensitivity across clinical manifestations. Differences according to concomitant therapies were mainly observed at lower doses, whereas at higher doses such effects were not clearly detectable in this limited sample, underscoring the importance of explicitly integrating glucocorticoid dose into response definitions and outcome measures in future prospective studies. These findings should be considered hypothesis-generating rather than definitive. The primary contribution of this work is to delineate preliminary dose–response signals and provide quantitative and methodological groundwork for a larger, prospective, adequately powered study. Such studies will be required to validate dose thresholds and phenotype-informed tapering strategies in VEXAS.",
       "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Beck DB",
+        "Ferrada MA",
+        "Sikora KA",
+        "et al."
+      ],
+      "title": "Somatic mutations in UBA1 and severe adult-onset autoinflammatory disease",
+      "journal": "N Engl J Med",
+      "year": "2020",
+      "volume": "383",
+      "fpage": "2628",
+      "lpage": "2638",
+      "doi": "10.1056/NEJMoa2026834",
+      "pmid": "33108101",
+      "pmc_id": "PMC7847551"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Georgin-Lavialle S",
+        "Terrier B",
+        "Guedon AF",
+        "et al."
+      ],
+      "title": "Further characterization of clinical and laboratory features occurring in VEXAS syndrome in a large-scale analysis of multicenter case-series of 116 French patients",
+      "journal": "Br J Dermatol",
+      "year": "2021",
+      "volume": "186",
+      "fpage": "564",
+      "lpage": "574",
+      "doi": "10.1111/bjd.20805",
+      "pmid": "34632574"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Beaumesnil S",
+        "Boucher S",
+        "Lavigne C",
+        "et al."
+      ],
+      "title": "Ear, nose, throat, and bronchial involvements in VEXAS syndrome: specifying the spectrum of clinical features",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2022",
+      "volume": "148",
+      "fpage": "284",
+      "lpage": "286",
+      "doi": "10.1001/jamaoto.2021.4092",
+      "pmid": "35050349"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Kouranloo K",
+        "Ashley A",
+        "Zhao SS",
+        "Dey M"
+      ],
+      "title": "Pulmonary manifestations in VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome: a systematic review",
+      "journal": "Rheumatol Int",
+      "year": "2023",
+      "volume": "43",
+      "fpage": "1023",
+      "lpage": "1032",
+      "doi": "10.1007/s00296-022-05266-2",
+      "pmid": "36617363",
+      "pmc_id": "PMC10126013"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Lacombe V",
+        "Kosmider O",
+        "Prévost M",
+        "et al."
+      ],
+      "title": "Severe joint involvement in VEXAS syndrome: a case report",
+      "journal": "Ann Intern Med",
+      "year": "2021",
+      "doi": "10.7326/L21-0023",
+      "pmid": "33780294"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Lacombe V",
+        "Hadjadj J",
+        "Georgin-Lavialle S",
+        "et al."
+      ],
+      "title": "Vacuoles in bone marrow progenitors: VEXAS syndrome and beyond",
+      "journal": "Lancet Haematol",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "e160",
+      "lpage": "e167",
+      "doi": "10.1016/S2352-3026(23)00375-7",
+      "pmid": "38302223"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Hadjadj J",
+        "Nguyen Y",
+        "Mouloudj D",
+        "et al."
+      ],
+      "title": "Efficacy and safety of targeted therapies in VEXAS syndrome: retrospective study from the FRENVEX",
+      "journal": "Ann Rheum Dis",
+      "year": "2024",
+      "doi": "10.1136/ard-2024-225640",
+      "pmid": "38777378"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Heiblig M",
+        "Ferrada MA",
+        "Koster MJ",
+        "et al."
+      ],
+      "title": "Ruxolitinib is more effective than other JAK inhibitors to treat VEXAS syndrome: a retrospective multicenter study",
+      "journal": "Blood",
+      "year": "2022",
+      "volume": "140",
+      "fpage": "927",
+      "lpage": "931",
+      "doi": "10.1182/blood.2022016642",
+      "pmid": "35609174",
+      "pmc_id": "PMC9412002"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Jachiet V",
+        "Kosmider O",
+        "Beydon M",
+        "et al."
+      ],
+      "title": "Efficacy and safety of azacitidine for VEXAS syndrome: a large-scale retrospective study from the FRENVEX group",
+      "journal": "Blood",
+      "year": "2025",
+      "doi": "10.1182/blood.2024028133",
+      "pmid": "40373272"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Al-Hakim A",
+        "Trikha R",
+        "Phyu Htut EE",
+        "et al."
+      ],
+      "title": "Treatment outcomes in patients with VEXAS syndrome: a retrospective cohort study",
+      "journal": "Lancet Rheumatol",
+      "year": "2025",
+      "volume": "7",
+      "fpage": "e472",
+      "lpage": "e484",
+      "doi": "10.1016/S2665-9913(25)00034-7",
+      "pmid": "40412417"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Kouranloo K",
+        "Dey M",
+        "Almutawa J",
+        "et al."
+      ],
+      "title": "Clinical characteristics, disease trajectories and management of vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic (VEXAS) syndrome: a systematic review",
+      "journal": "Rheumatol Int",
+      "year": "2023",
+      "volume": "44",
+      "fpage": "1219",
+      "lpage": "1232",
+      "doi": "10.1007/s00296-023-05513-0",
+      "pmid": "38129348"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Turturice BA",
+        "Fike A",
+        "Patel BA",
+        "et al."
+      ],
+      "title": "Disease trajectories and glucocorticoid exposure in VEXAS syndrome treated with cytokine-directed therapies",
+      "journal": "Ann Rheum Dis",
+      "year": "2025",
+      "volume": "85",
+      "fpage": "370",
+      "lpage": "378",
+      "doi": "10.1016/j.ard.2025.05.021",
+      "pmid": "40581580",
+      "pmc_id": "PMC12276827"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Kirino Y",
+        "Maeda A",
+        "Asano T",
+        "et al."
+      ],
+      "title": "Low remission rates and high incidence of adverse events in a prospective VEXAS syndrome registry",
+      "journal": "Rheumatol (Oxf)",
+      "year": "2025",
+      "volume": "64",
+      "fpage": "3872",
+      "lpage": "3878",
+      "doi": "10.1093/rheumatology/keae530",
+      "pmid": "39340799"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Koster MJ",
+        "Kourelis T",
+        "Reichard KK",
+        "et al."
+      ],
+      "title": "Clinical heterogeneity of the VEXAS syndrome",
+      "journal": "Mayo Clin Proc",
+      "year": "2021",
+      "volume": "96",
+      "fpage": "2653",
+      "lpage": "2659",
+      "doi": "10.1016/j.mayocp.2021.06.006",
+      "pmid": "34489099"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Mekinian AM",
+        "Georgin-Lavaille S",
+        "Ferrada MA",
+        "et al."
+      ],
+      "title": "American College of Rheumatology guidance statement for diagnosis and management of VEXAS developed by the International VEXAS working group expert panel",
+      "journal": "Arthritis Rheumatol",
+      "year": "2025",
+      "volume": "78",
+      "fpage": "509",
+      "lpage": "522",
+      "doi": "10.1002/art.43287",
+      "pmid": "40787890",
+      "pmc_id": "PMC12991921"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Oray M",
+        "Abu Samra K",
+        "Ebrahimiadib N",
+        "et al."
+      ],
+      "title": "Long-term side effects of glucocorticoids",
+      "journal": "Expert Opin Drug Saf",
+      "year": "2016",
+      "volume": "15",
+      "fpage": "457",
+      "lpage": "465",
+      "doi": "10.1517/14740338.2016.1140743",
+      "pmid": "26789102"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Ribier V",
+        "Hadjadj J",
+        "Jachiet V",
+        "et al."
+      ],
+      "title": "Mapping the infectious burden in VEXAS syndrome: a systematic review and rationale for prevention",
+      "journal": "Lancet Rheumatol",
+      "year": "2025",
+      "volume": "7",
+      "fpage": "e734",
+      "lpage": "e744",
+      "doi": "10.1016/S2665-9913(25)00225-5",
+      "pmid": "40915301"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "De Valence B",
+        "Delaune M",
+        "Nguyen Y",
+        "et al."
+      ],
+      "title": "Serious infections in patients with VEXAS syndrome: data from the French VEXAS registry",
+      "journal": "Ann Rheum Dis",
+      "year": "2024",
+      "volume": "83",
+      "fpage": "372",
+      "lpage": "381",
+      "doi": "10.1136/ard-2023-224819",
+      "pmid": "38071510"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Czech M",
+        "Cuellar-Rodriguez J",
+        "Patel BA",
+        "et al."
+      ],
+      "title": "Opportunistic infections, mortality risk, and prevention strategies in patients with vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic (VEXAS) syndrome",
+      "journal": "Open Forum Infect Dis",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "ofae405",
+      "doi": "10.1093/ofid/ofae405",
+      "pmid": "39077052",
+      "pmc_id": "PMC11285395"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Weeks LD",
+        "Hammond D",
+        "Savic S",
+        "et al."
+      ],
+      "title": "POS1124 development of a consensus definition of VEXAS flare for use in clinical research",
+      "journal": "Ann Rheum Dis",
+      "year": "2025",
+      "volume": "84",
+      "fpage": "1206",
+      "doi": "10.1016/j.ard.2025.06.475"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Benlidayi IC",
+        "Gupta L"
+      ],
+      "title": "CAse-BAsed REview sTandards (CABARET): considerations for authors, reviewers, and editors",
+      "journal": "J Korean Med Sci",
+      "year": "2024",
+      "volume": "39",
+      "fpage": "e225",
+      "doi": "10.3346/jkms.2024.39.e225",
+      "pmid": "39106889",
+      "pmc_id": "PMC11301009"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Rana G",
+        "Singh G",
+        "Mehta M",
+        "Mollaeian A"
+      ],
+      "title": "From diagnostic uncertainty to targeted therapy: a case-based review of VEXAS syndrome",
+      "journal": "Rheumatol Int",
+      "year": "2025",
+      "volume": "45",
+      "fpage": "217",
+      "doi": "10.1007/s00296-025-05963-8",
+      "pmid": "40905972"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Stone JH",
+        "Tuckwell K",
+        "Dimonaco S",
+        "et al."
+      ],
+      "title": "Trial of tocilizumab in giant-cell arteritis",
+      "journal": "N Engl J Med",
+      "year": "2017",
+      "volume": "377",
+      "fpage": "317",
+      "lpage": "328",
+      "doi": "10.1056/NEJMoa1613849",
+      "pmid": "28745999"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Jayne DRW",
+        "Merkel PA",
+        "Schall TJ",
+        "Bekker P"
+      ],
+      "title": "Avacopan for the treatment of ANCA-associated vasculitis",
+      "journal": "N Engl J Med",
+      "year": "2021",
+      "volume": "384",
+      "fpage": "599",
+      "lpage": "609",
+      "doi": "10.1056/NEJMoa2023386",
+      "pmid": "33596356"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Khitri M-Y",
+        "Guedon AF",
+        "Georgin-Lavialle S",
+        "et al."
+      ],
+      "title": "Comparison between idiopathic and VEXAS-relapsing polychondritis: analysis of a French case series of 95 patients",
+      "journal": "RMD Open",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "e002255",
+      "doi": "10.1136/rmdopen-2022-002255",
+      "pmid": "35868738",
+      "pmc_id": "PMC9315905"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Kermani TA",
+        "Warrington KJ",
+        "Cuthbertson D",
+        "et al."
+      ],
+      "title": "Disease relapses among patients with giant cell arteritis: a prospective, longitudinal cohort study",
+      "journal": "J Rheumatol",
+      "year": "2015",
+      "volume": "42",
+      "fpage": "1213",
+      "lpage": "1217",
+      "doi": "10.3899/jrheum.141347",
+      "pmid": "25877501",
+      "pmc_id": "PMC4505815"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Mathian A",
+        "Pha M",
+        "Haroche J",
+        "et al."
+      ],
+      "title": "Withdrawal of low-dose prednisone in SLE patients with a clinically quiescent disease for more than 1 year: a randomised clinical trial",
+      "journal": "Ann Rheum Dis",
+      "year": "2020",
+      "volume": "79",
+      "fpage": "339",
+      "lpage": "346",
+      "doi": "10.1136/annrheumdis-2019-216303",
+      "pmid": "31852672"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Ferrada MA",
+        "Savic S",
+        "Cardona DO",
+        "et al."
+      ],
+      "title": "Translation of cytoplasmic UBA1 contributes to VEXAS syndrome pathogenesis",
+      "journal": "Blood",
+      "year": "2022",
+      "volume": "140",
+      "fpage": "1496",
+      "lpage": "1506",
+      "doi": "10.1182/blood.2022016985",
+      "pmid": "35793467",
+      "pmc_id": "PMC9523373"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Chen H-L",
+        "Shen L-J",
+        "Hsu P-N",
+        "et al."
+      ],
+      "title": "Cumulative burden of glucocorticoid-related adverse events in patients with systemic lupus erythematosus: findings from a 12-year longitudinal study",
+      "journal": "J Rheumatol",
+      "year": "2018",
+      "volume": "45",
+      "fpage": "83",
+      "lpage": "89",
+      "doi": "10.3899/jrheum.160214",
+      "pmid": "29142034"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Sawah SA",
+        "Zhang X",
+        "Zhu B",
+        "et al."
+      ],
+      "title": "Effect of corticosteroid use by dose on the risk of developing organ damage over time in systemic lupus erythematosus—the Hopkins Lupus Cohort",
+      "journal": "Lupus Sci Med",
+      "year": "2015",
+      "doi": "10.1136/lupus-2014-000066",
+      "pmid": "25861455",
+      "pmc_id": "PMC4378372"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "George MD",
+        "Baker JF",
+        "Winthrop K",
+        "et al."
+      ],
+      "title": "Risk for serious infection with low-dose glucocorticoids in patients with rheumatoid arthritis",
+      "journal": "Ann Intern Med",
+      "year": "2020",
+      "volume": "173",
+      "fpage": "870",
+      "lpage": "878",
+      "doi": "10.7326/M20-1594",
+      "pmid": "32956604",
+      "pmc_id": "PMC8073808"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Waki D",
+        "Nishimura K",
+        "Tokumasu H",
+        "et al."
+      ],
+      "title": "Initial high-dose corticosteroids and renal impairment are risk factors for early severe infections in elderly patients with antineutrophil cytoplasmic autoantibody-associated vasculitis: a retrospective observational study",
+      "journal": "Medicine",
+      "year": "2020",
+      "volume": "99",
+      "fpage": "e19173",
+      "doi": "10.1097/MD.0000000000019173",
+      "pmid": "32080098",
+      "pmc_id": "PMC7034627"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Wilson JC",
+        "Sarsour K",
+        "Collinson N",
+        "et al."
+      ],
+      "title": "Serious adverse effects associated with glucocorticoid therapy in patients with giant cell arteritis (GCA): a nested case-control analysis",
+      "journal": "Semin Arthritis Rheum",
+      "year": "2017",
+      "volume": "46",
+      "fpage": "819",
+      "lpage": "827",
+      "doi": "10.1016/j.semarthrit.2016.11.006",
+      "pmid": "28040244"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Wilson JC",
+        "Sarsour K",
+        "Collinson N",
+        "et al."
+      ],
+      "title": "Incidence of outcomes potentially associated with corticosteroid therapy in patients with giant cell arteritis",
+      "journal": "Semin Arthritis Rheum",
+      "year": "2017",
+      "volume": "46",
+      "fpage": "650",
+      "lpage": "656",
+      "doi": "10.1016/j.semarthrit.2016.10.001",
+      "pmid": "27839741"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Mizumaki H",
+        "Gao S",
+        "Wu Z",
+        "et al."
+      ],
+      "title": "In depth transcriptomic profiling defines a landscape of dysfunctional immune responses in patients with VEXAS syndrome",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "4690",
+      "doi": "10.1038/s41467-025-59890-0",
+      "pmid": "40394087",
+      "pmc_id": "PMC12092610"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Breillat P",
+        "Carbone F",
+        "Lereclus E",
+        "et al."
+      ],
+      "title": "Impaired cytotoxic function and exhausted phenotype of natural killer cells in VEXAS syndrome",
+      "journal": "Blood",
+      "year": "2025",
+      "volume": "146",
+      "fpage": "1950",
+      "lpage": "1963",
+      "doi": "10.1182/blood.2024028216",
+      "pmid": "40729686"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Kosmider O",
+        "Possémé C",
+        "Templé M",
+        "et al."
+      ],
+      "title": "VEXAS syndrome is characterized by inflammasome activation and monocyte dysregulation",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "910",
+      "doi": "10.1038/s41467-024-44811-4",
+      "pmid": "38291039",
+      "pmc_id": "PMC10828464"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Stuck AE",
+        "Minder CE",
+        "Frey FJ"
+      ],
+      "title": "Risk of infectious complications in patients taking glucocorticosteroids",
+      "journal": "Rev Infect Dis",
+      "year": "1989",
+      "volume": "11",
+      "fpage": "954",
+      "lpage": "963",
+      "doi": "10.1093/clinids/11.6.954",
+      "pmid": "2690289"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Kong F",
+        "Liu Z",
+        "Jain VG",
+        "et al."
+      ],
+      "title": "Inhibition of IRAK1 ubiquitination determines glucocorticoid sensitivity for TLR9-induced inflammation in macrophages",
+      "journal": "J Immunol",
+      "year": "2017",
+      "volume": "199",
+      "fpage": "3654",
+      "lpage": "3667",
+      "doi": "10.4049/jimmunol.1700443",
+      "pmid": "29038250",
+      "pmc_id": "PMC5672817"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Zhou J",
+        "Cidlowski J"
+      ],
+      "title": "The human glucocorticoid receptor: one gene, multiple proteins and diverse responses",
+      "journal": "Steroids",
+      "year": "2005",
+      "volume": "70",
+      "fpage": "407",
+      "lpage": "417",
+      "doi": "10.1016/j.steroids.2005.02.006",
+      "pmid": "15862824"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Panettieri RA",
+        "Schaafsma D",
+        "Amrani Y",
+        "et al."
+      ],
+      "title": "Non-genomic effects of glucocorticoids: an updated view",
+      "journal": "Trends Pharmacol Sci",
+      "year": "2019",
+      "volume": "40",
+      "fpage": "38",
+      "lpage": "49",
+      "doi": "10.1016/j.tips.2018.11.002",
+      "pmid": "30497693",
+      "pmc_id": "PMC7106476"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Syed AP",
+        "Greulich F",
+        "Ansari SA",
+        "Uhlenhaut NH"
+      ],
+      "title": "Anti-inflammatory glucocorticoid action: genomic insights and emerging concepts",
+      "journal": "Curr Opin Pharmacol",
+      "year": "2020",
+      "volume": "53",
+      "fpage": "35",
+      "lpage": "44",
+      "doi": "10.1016/j.coph.2020.03.003",
+      "pmid": "32416533"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Pálinkás L",
+        "Talabér G",
+        "Boldizsár F",
+        "et al."
+      ],
+      "title": "Developmental shift in TcR-mediated rescue of thymocytes from glucocorticoid-induced apoptosis",
+      "journal": "Immunobiology",
+      "year": "2008",
+      "volume": "213",
+      "fpage": "39",
+      "lpage": "50",
+      "doi": "10.1016/j.imbio.2007.06.004",
+      "pmid": "18207026"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Molteni R",
+        "Fiumara M",
+        "Campochiaro C",
+        "et al."
+      ],
+      "title": "Mechanisms of hematopoietic clonal dominance in VEXAS syndrome",
+      "journal": "Nat Med",
+      "year": "2025",
+      "volume": "31",
+      "fpage": "1911",
+      "lpage": "1924",
+      "doi": "10.1038/s41591-025-03623-9",
+      "pmid": "40195449",
+      "pmc_id": "PMC12176642"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Lacombe V",
+        "Beucher A",
+        "Urbanski G",
+        "et al."
+      ],
+      "title": "Distinction between clonal and paraclonal cutaneous involvements in VEXAS syndrome",
+      "journal": "Exp Hematol Oncol",
+      "year": "2022",
+      "volume": "11",
+      "fpage": "6",
+      "doi": "10.1186/s40164-022-00262-5",
+      "pmid": "35172893",
+      "pmc_id": "PMC8848791"
     }
   ]
 }

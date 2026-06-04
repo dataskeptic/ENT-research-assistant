@@ -18,7 +18,8 @@
     "pmc_id": "PMC13052149",
     "pmid": "41880827",
     "full_text_available": true,
-    "section_count": 13
+    "section_count": 13,
+    "reference_count": 32
   },
   "sections": [
     {
@@ -85,6 +86,507 @@
       "section": "Conclusion",
       "text": "This study presented a high-quality, clinically annotated dataset enabling precise segmentation and classification of three oral mucosal diseases. Exhibiting strong model performance and practical applicability, it functioned as a robust benchmark for advancing AI tools that promote early, equitable, and accurate dental diagnostics. The dataset fulfilled a pressing gap in dental AI by supplying extensive data on diverse oral health conditions, thereby supporting research in domains such as 3D reconstruction, image translation, and segmentation.",
       "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib0001",
+      "label": "1",
+      "authors": [
+        "Jain N.",
+        "Dutt U.",
+        "Radenkov I.",
+        "Jain S."
+      ],
+      "title": "WHO's global oral health status report 2022: Actions, discussion and implementation",
+      "journal": "Oral Diseases",
+      "year": "2023",
+      "doi": "10.1111/odi.14516",
+      "pmid": "36680388"
+    },
+    {
+      "ref_id": "bib0002",
+      "label": "2",
+      "authors": [
+        "Pentenero M.",
+        "Carcieri C.",
+        "Carbone M.",
+        "Conrotto D.",
+        "Broccoletti R.",
+        "Gandolfo S."
+      ],
+      "title": "Rising prevalence of oral potentially malignant disorders among young adults",
+      "journal": "Journal of Oral Pathology & Medicine",
+      "year": "2019",
+      "volume": "48",
+      "issue": "8",
+      "fpage": "662",
+      "lpage": "668",
+      "doi": "10.1111/jop.12876"
+    },
+    {
+      "ref_id": "bib0003",
+      "label": "3",
+      "authors": [
+        "Topol E.J."
+      ],
+      "title": "High-performance medicine: the convergence of human and artificial intelligence",
+      "journal": "Nature Medicine",
+      "year": "2019",
+      "volume": "25",
+      "fpage": "44",
+      "lpage": "56",
+      "doi": "10.1038/s41591-018-0300-7",
+      "pmid": "30617339"
+    },
+    {
+      "ref_id": "bib0004",
+      "label": "4",
+      "authors": [
+        "Rajpurkar P.",
+        "Chen E.",
+        "Banerjee O.",
+        "et al."
+      ],
+      "title": "AI in health and medicine",
+      "journal": "Nature Medicine",
+      "year": "2022",
+      "volume": "28",
+      "fpage": "31",
+      "lpage": "38",
+      "doi": "10.1038/s41591-021-01614-0",
+      "pmid": "35058619"
+    },
+    {
+      "ref_id": "bib0005",
+      "label": "5",
+      "authors": [
+        "He J.",
+        "Baxter S.L.",
+        "Xu J.",
+        "et al."
+      ],
+      "title": "The practical implementation of artificial intelligence technologies in medicine",
+      "journal": "Nature Medicine",
+      "year": "2019",
+      "volume": "25",
+      "fpage": "30",
+      "lpage": "36",
+      "doi": "10.1038/s41591-018-0307-0",
+      "pmc_id": "PMC6995276",
+      "pmid": "30617336"
+    },
+    {
+      "ref_id": "bib0006",
+      "label": "6",
+      "authors": [
+        "Rajpurkar P.",
+        "Lungren M.P.",
+        "et al."
+      ],
+      "title": "The current and future state of AI interpretation of medical images",
+      "journal": "New England Journal of Medicine",
+      "year": "2023",
+      "volume": "388",
+      "issue": "21",
+      "fpage": "1981",
+      "lpage": "1990",
+      "doi": "10.1056/NEJMra2301725",
+      "pmid": "37224199"
+    },
+    {
+      "ref_id": "bib0007",
+      "label": "7",
+      "authors": [
+        "Schwendicke F.",
+        "Samek W.",
+        "Krois J."
+      ],
+      "title": "Artificial intelligence in dentistry: Chances and challenges",
+      "journal": "Journal of Dental Research",
+      "year": "2020",
+      "volume": "99",
+      "issue": "7",
+      "fpage": "769",
+      "lpage": "774",
+      "doi": "10.1177/0022034520915714",
+      "pmid": "32315260",
+      "pmc_id": "PMC7309354"
+    },
+    {
+      "ref_id": "bib0008",
+      "label": "8",
+      "authors": [
+        "Lee J.H.",
+        "Kim D.H.",
+        "Jeong S.N.",
+        "Choi SH."
+      ],
+      "title": "Detection and diagnosis of dental caries using a deep learning-based convolutional neural network algorithm",
+      "journal": "Journal of dentistry",
+      "year": "2018",
+      "volume": "77",
+      "fpage": "106",
+      "lpage": "111",
+      "doi": "10.1016/j.jdent.2018.07.015",
+      "pmid": "30056118"
+    },
+    {
+      "ref_id": "bib0009",
+      "label": "9",
+      "authors": [
+        "Ronneberger O.",
+        "Fischer P.",
+        "Brox T."
+      ],
+      "journal": "Medical Image Computing and Computer-Assisted Intervention–MICCAI 2015: 18th International Conference",
+      "year": "2015",
+      "fpage": "234",
+      "lpage": "241",
+      "doi": "10.1007/978-3-319-24574-4_28"
+    },
+    {
+      "ref_id": "bib0010",
+      "label": "10",
+      "authors": [
+        "Liang-Chieh C.",
+        "Yukun Z.",
+        "et al."
+      ],
+      "journal": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "year": "2018",
+      "fpage": "801",
+      "lpage": "818",
+      "doi": "10.1007/978-3-030-01234-2_49"
+    },
+    {
+      "ref_id": "bib0011",
+      "label": "11",
+      "authors": [
+        "Vijay B.",
+        "Alex K.",
+        "Roberto C."
+      ],
+      "title": "SegNet: A deep convolutional encoder-decoder architecture for image segmentation",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
+      "year": "2017",
+      "volume": "39",
+      "issue": "12",
+      "fpage": "2481",
+      "lpage": "2495",
+      "doi": "10.1109/TPAMI.2016.2644615",
+      "pmid": "28060704"
+    },
+    {
+      "ref_id": "bib0012",
+      "label": "12",
+      "authors": [
+        "Jung S.-K.",
+        "Kim T.-W."
+      ],
+      "title": "Importance of data quality in AI-based dental diagnosis: Challenges and solutions",
+      "journal": "Journal of Dental Sciences",
+      "year": "2021",
+      "volume": "16",
+      "issue": "3",
+      "fpage": "789",
+      "lpage": "797",
+      "doi": "10.1016/j.jds.2021.02.006"
+    },
+    {
+      "ref_id": "bib0013",
+      "label": "13",
+      "authors": [
+        "Martino F.",
+        "Bloisi D D",
+        "Pennisi A.",
+        "et al."
+      ],
+      "title": "Deep learning-based pixel-wise lesion segmentation on oral squamous cell carcinoma images",
+      "journal": "Applied Sciences",
+      "year": "2020",
+      "volume": "10",
+      "issue": "22",
+      "fpage": "8285",
+      "doi": "10.3390/app10228285"
+    },
+    {
+      "ref_id": "bib0014",
+      "label": "14",
+      "authors": [
+        "Chandrashekar H.S.",
+        "Geetha Kiran A.",
+        "Murali S.",
+        "Dinesh M.S.",
+        "Nanditha B.R."
+      ],
+      "title": "Oral image dataset",
+      "journal": "Mendeley Data",
+      "year": "2021",
+      "volume": "V2",
+      "doi": "10.17632/mhjyrn35p4.2"
+    },
+    {
+      "ref_id": "bib0015",
+      "label": "15",
+      "doi": "10.1038/s41597-024-04099-x",
+      "pmc_id": "PMC11604672",
+      "pmid": "39609419"
+    },
+    {
+      "ref_id": "bib0016",
+      "label": "16",
+      "authors": [
+        "Zhang R.",
+        "et al."
+      ],
+      "title": "Research and application of deep learning models with multi-scale feature fusion for lesion segmentation in oral mucosal diseases",
+      "journal": "Bioengineering",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1107",
+      "doi": "10.3390/bioengineering11111107",
+      "pmid": "39593767",
+      "pmc_id": "PMC11591966"
+    },
+    {
+      "ref_id": "bib0017",
+      "label": "17",
+      "authors": [
+        "Jiang C.",
+        "Wu R.",
+        "Liu Y.",
+        "et al."
+      ],
+      "title": "A high-order focus interaction model and oral ulcer dataset for oral ulcer segmentation",
+      "journal": "Scientific Reports",
+      "year": "2024",
+      "volume": "14",
+      "doi": "10.1038/s41598-024-69125-9",
+      "pmc_id": "PMC11362486",
+      "pmid": "39209880"
+    },
+    {
+      "ref_id": "bib0018",
+      "label": "18",
+      "authors": [
+        "González-Moles MÁ",
+        "Ramos-García P."
+      ],
+      "title": "Malignant transformation of oral lichen planus: where are we now?",
+      "journal": "Med Oral Patol Oral Cir Bucal",
+      "year": "2025",
+      "volume": "30",
+      "issue": "1",
+      "fpage": "e65",
+      "lpage": "e75",
+      "doi": "10.4317/medoral.26834",
+      "pmid": "39396138",
+      "pmc_id": "PMC11801671"
+    },
+    {
+      "ref_id": "bib0019",
+      "label": "19",
+      "authors": [
+        "Serban A.E.",
+        "Nicolae C.",
+        "Parlatescu I.",
+        "Tovaru S."
+      ],
+      "title": "Oral leukoplakia. A five-year follow-up study",
+      "journal": "Maedica (Bucur)",
+      "year": "2023",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "645",
+      "lpage": "650",
+      "doi": "10.26574/maedica.2023.18.4.645",
+      "pmid": "38348072",
+      "pmc_id": "PMC10859208"
+    },
+    {
+      "ref_id": "bib0020",
+      "label": "20",
+      "authors": [
+        "Porter C."
+      ],
+      "title": "Oral and maxillofacial medicine: the basis of diagnosis and treatment, 3rd edition",
+      "journal": "Br Dent J",
+      "year": "2013",
+      "volume": "214",
+      "fpage": "426",
+      "doi": "10.1038/sj.bdj.2013.423"
+    },
+    {
+      "ref_id": "bib0021",
+      "label": "21",
+      "authors": [
+        "Long J.",
+        "Shelhamer E.",
+        "Darrell T."
+      ],
+      "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": "2015",
+      "fpage": "3431",
+      "lpage": "3440",
+      "doi": "10.1109/CVPR.2015.7298965",
+      "pmid": "27244717"
+    },
+    {
+      "ref_id": "bib0022",
+      "label": "22",
+      "doi": "10.48550/arXiv.1804.03999"
+    },
+    {
+      "ref_id": "bib0023",
+      "label": "23",
+      "authors": [
+        "Russell B.C.",
+        "Torralba A.",
+        "Murphy K.P.",
+        "et al."
+      ],
+      "title": "LabelMe: A database and web-based tool for image annotation",
+      "journal": "International Journal of Computer Vision",
+      "year": "2008",
+      "volume": "77",
+      "fpage": "157",
+      "lpage": "173",
+      "doi": "10.1007/s11263-007-0090-8"
+    },
+    {
+      "ref_id": "bib0024",
+      "label": "24",
+      "doi": "10.48550/arXiv.1706.06169"
+    },
+    {
+      "ref_id": "bib0025",
+      "label": "25",
+      "authors": [
+        "Cheng B.",
+        "Xiang M.",
+        "Zhao Z.",
+        "et al."
+      ],
+      "title": "OralTriD: A Clinical Image Dataset for AI-Based Segmentation of Three Oral Diseases [Data set]",
+      "journal": "Zenodo",
+      "year": "2025",
+      "doi": "10.5281/zenodo.15702341"
+    },
+    {
+      "ref_id": "bib0026",
+      "label": "26",
+      "authors": [
+        "Vinayahalingam S.",
+        "Kempers S.",
+        "Schoep J.",
+        "et al."
+      ],
+      "title": "Intra-oral scan segmentation using deep learning",
+      "journal": "BMC Oral Health",
+      "year": "2023",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "643",
+      "doi": "10.1186/s12903-023-03362-8",
+      "pmid": "37670290",
+      "pmc_id": "PMC10481506"
+    },
+    {
+      "ref_id": "bib0027",
+      "label": "27",
+      "doi": "10.21203/rs.3.rs-5235140/v1"
+    },
+    {
+      "ref_id": "bib0028",
+      "label": "28",
+      "authors": [
+        "Yan L.",
+        "Wang C.",
+        "Zhong F.",
+        "Wang Y."
+      ],
+      "journal": "IEEE 22nd International Symposium on Biomedical Imaging (ISBI)",
+      "year": "2025",
+      "fpage": "1",
+      "lpage": "4",
+      "doi": "10.1109/ISBI60581.2025.10980803"
+    },
+    {
+      "ref_id": "bib0029",
+      "label": "29",
+      "authors": [
+        "de la Rosa E.",
+        "Reyes M.",
+        "Liew SL.",
+        "et al."
+      ],
+      "title": "DeepISLES: a clinically validated ischemic stroke segmentation model from the ISLES'22 challenge",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "7357",
+      "doi": "10.1038/s41467-025-62373-x",
+      "pmid": "40783484",
+      "pmc_id": "PMC12335569"
+    },
+    {
+      "ref_id": "bib0030",
+      "label": "30",
+      "authors": [
+        "Huang Y.",
+        "Liu W.",
+        "Yao C.",
+        "et al."
+      ],
+      "title": "A multimodal dental dataset facilitating machine learning research and clinic services",
+      "journal": "Sci Data",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "1291",
+      "doi": "10.1038/s41597-024-04130-1",
+      "pmc_id": "PMC11603170",
+      "pmid": "39604495"
+    },
+    {
+      "ref_id": "bib0031",
+      "label": "31",
+      "authors": [
+        "Samaranayake L.",
+        "Tuygunov N.",
+        "Schwendicke F.",
+        "et al."
+      ],
+      "title": "The Transformative Role of Artificial Intelligence in Dentistry: A Comprehensive Overview. Part 1: Fundamentals of AI, and its Contemporary Applications in Dentistry",
+      "journal": "Int Dent J",
+      "year": "2025 Apr",
+      "volume": "75",
+      "issue": "2",
+      "fpage": "383",
+      "lpage": "396",
+      "doi": "10.1016/j.identj.2025.02.005",
+      "pmid": "40074616",
+      "pmc_id": "PMC11976540"
+    },
+    {
+      "ref_id": "bib0032",
+      "label": "32",
+      "authors": [
+        "Tuygunov N.",
+        "Samaranayake L.",
+        "Khurshid Z.",
+        "et al."
+      ],
+      "title": "The Transformative Role of Artificial Intelligence in Dentistry: A Comprehensive Overview Part 2: The Promise and Perils, and the International Dental Federation Communique",
+      "journal": "Int Dent J",
+      "year": "2025 Apr",
+      "volume": "75",
+      "issue": "2",
+      "fpage": "397",
+      "lpage": "404",
+      "doi": "10.1016/j.identj.2025.02.006",
+      "pmid": "40011130",
+      "pmc_id": "PMC11976557"
     }
   ]
 }

@@ -13,7 +13,8 @@
     "pmc_id": "PMC13227142",
     "pmid": "42169636",
     "full_text_available": true,
-    "section_count": 28
+    "section_count": 28,
+    "reference_count": 34
   },
   "sections": [
     {
@@ -155,6 +156,684 @@
       "section": "Discussion",
       "text": "The present study identified ZBTB16 as a novel regulator of copper homeostasis in esophageal cancer and linked the dysregulation of ZBTB16 expression to copper-dependent oxidative stress and cell death. The present study demonstrated that ZBTB16 was significantly upregulated in primary esophageal cancer tumors as well as multiple esophageal cancer cell lines. Additionally, the present study demonstrated that functional depletion of ZBTB16 suppressed proliferation and migration in vitro and restrained xenograft growth in vivo. Mechanistically, ZBTB16 knockdown remodeled the copper-handling network, reducing ATP7A and ATP7B expression while upregulating CTR1 and FDX1; this resulted in intracellular copper accumulation, mitochondrial depolarization, elevated ROS and MDA levels and decreased GSH levels. Notably, restoring ATP7B expression partially reversed the effects of ZBTB16 knockdown on copper accumulation, ROS production and apoptosis, indicating that the ZBTB16/ATP7B axis represented a key copper efflux thereby regulating cuproptosis in esophageal cancer. These findings integrated well with established mechanisms of copper homeostasis, notably that CTR1 mediates high-affinity copper import while ATP7A and ATP7B drive copper export and compartmentalization to prevent toxicity ( 24 ). ZBTB16 is a broad-complex, tramtrack and bric-à-brac domain-containing zinc finger transcription factor that exhibits context-dependent roles in cancer biology ( 25 ). Prior research has demonstrated that ZBTB16 exhibits both tumor-suppressive and pro-survival activities depending on cell lineage and ZBTB16 isoform usage ( 25 , 26 ). The data obtained in the present study indicated that ZBTB16 expression was elevated in esophageal cancer and supported tumor cell fitness, thus exerting an oncogenic role in this context. Notably, a hepatocytic ZBTB16 isoform lacking the BTB domain has been shown to physically interact with the C-terminus of ATP7B and co-localize with ATP7B in the trans-Golgi network ( 26 ), offering a plausible molecular bridge by which ZBTB16 influences copper export. Copper is an important but potentially toxic biomolecule; cells maintain tight control of copper homeostasis via CTR11-mediated uptake and ATP7A- and ATP7B-mediated trafficking and efflux of copper ions ( 27 , 28 ). By upregulating ATP7A and ATP7B and downregulating CTR1, ZBTB16 biased the cellular network of copper homeostasis towards lower intracellular copper levels, therefore limiting copper-driven oxidative stress. Concomitant downregulation of FDX1 by ZBTB16 may have further reduced cell susceptibility to cuproptosis, which is a regulated cell-death program triggered when copper binds to lipoylated tricarboxylic acid cycle enzymes such as DLAT, promoting their aggregation and increasing proteotoxic stress ( 29 , 30 ). FDX1 functions upstream of this pathway and is required for copper-dependent cell death; as such, the loss of functional FDX1 confers resistance to cuproptosis ( 30 ). Therefore, the downregulation of ATP7A and ATP7B and upregulation CTR11 and FDX11 induced by ZBTB16 deficiency created a cuprotoxic environment that resulted in copper accumulation, mitochondrial depolarization and heightened oxidative injury. The present study demonstrated that ZBTB16 knockdown induced copper accumulation and increased oxidative stress in esophageal cancer cells, and that these changes were partially rescued by ATP7B overexpression; this strongly indicated that ZBTB16 knockdown-induced effects were caused by perturbed copper handling rather than a non-specific stress response. While ROS bursts and changes in MDA and GSH levels are not unique to cuproptosis, the coordinated shifts in protein expression, copper overload, mitochondrial depolarization and ATP7B-mediated rescue of the tumoral phenotype observed in the present study collectively indicated that ZBTB16 knockdown induced copper-driven cytotoxicity in a manner consistent with cuproptosis-like mechanisms ( 31 , 32 ). To classify the ZBTB16-regulated pathway as a cuproptotic mechanism, future studies should establishing orthogonal hallmarks, for example, testing cytotoxic dependence on FDX1, monitoring lipoylated DLAT oligomerization and assessing cellular sensitivity to copper chelation or ionophore perturbations, as these concepts have only been predicted by the current cuproptosis framework ( 33 , 34 ). In xenograft experiments, ZBTB16 knockdown reduced tumor burden without affecting host body weight and reproduced the molecular signature observed in vitro : ATP7B suppression with concomitant increases in CTR1 and FDX1 expression. These data suggested that tumor-intrinsic ZBTB16 increased tumor volume, at least in part, by enforcing copper efflux and dampening copper-dependent toxicity. The present study supported a model in which ZBTB16 promoted esophageal cancer cell proliferation and tumor growth ( in vivo ) by safeguarding copper homeostasis; this was achieved by upregulating ATP7A and ATP7B and inhibiting the expression CTR1 and FDX1, therefore restraining copper-dependent cytotoxicity. These results suggested that measuring ZBTB16 expression in patient tumors could provide important prognostic insights and help to identify patients that are susceptible to therapies that induce oxidative or copper-mediated stress.",
       "order": 27
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b1-mmr-34-1-13912",
+      "label": "1",
+      "authors": [
+        "Zhu H",
+        "Ma X",
+        "Ye T",
+        "Wang H",
+        "Wang Z",
+        "Liu Q",
+        "Zhao K"
+      ],
+      "title": "Esophageal cancer in China: Practice and research in the new era",
+      "journal": "Int J Cancer",
+      "year": "2023",
+      "volume": "152",
+      "fpage": "1741",
+      "lpage": "1751",
+      "doi": "10.1002/ijc.34301",
+      "pmid": "36151861"
+    },
+    {
+      "ref_id": "b2-mmr-34-1-13912",
+      "label": "2",
+      "authors": [
+        "Lander S",
+        "Lander E",
+        "Gibson MK"
+      ],
+      "title": "Esophageal cancer: Overview, risk factors, and reasons for the rise",
+      "journal": "Curr Gastroenterol Rep",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "275",
+      "lpage": "279",
+      "doi": "10.1007/s11894-023-00899-0",
+      "pmid": "37812328"
+    },
+    {
+      "ref_id": "b3-mmr-34-1-13912",
+      "label": "3",
+      "authors": [
+        "Eisner DC"
+      ],
+      "title": "Esophageal cancer: Treatment advances and need for screening",
+      "journal": "JAAPA",
+      "year": "2024",
+      "volume": "37",
+      "fpage": "19",
+      "lpage": "24",
+      "doi": "10.1097/01.JAA.0001007328.84376.da",
+      "pmid": "38484297"
+    },
+    {
+      "ref_id": "b4-mmr-34-1-13912",
+      "label": "4",
+      "authors": [
+        "Sakanaka K"
+      ],
+      "title": "Treatment strategy for early-stage esophageal cancer",
+      "journal": "Jpn J Radiol",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "677",
+      "lpage": "684",
+      "doi": "10.1007/s11604-024-01547-x",
+      "pmid": "38485881",
+      "pmc_id": "PMC11217109"
+    },
+    {
+      "ref_id": "b5-mmr-34-1-13912",
+      "label": "5",
+      "authors": [
+        "Wei MT",
+        "Friedland S"
+      ],
+      "title": "Early esophageal cancer: What the gastroenterologist needs to know",
+      "journal": "Gastroenterol Clin North Am",
+      "year": "2021",
+      "volume": "50",
+      "fpage": "791",
+      "lpage": "808",
+      "doi": "10.1016/j.gtc.2021.07.004",
+      "pmid": "34717871"
+    },
+    {
+      "ref_id": "b6-mmr-34-1-13912",
+      "label": "6",
+      "authors": [
+        "Mwachiro M",
+        "White R"
+      ],
+      "title": "Management of esophageal cancer treatment in Resource-limited settings",
+      "journal": "Thorac Surg Clin",
+      "year": "2022",
+      "volume": "32",
+      "fpage": "397",
+      "lpage": "404",
+      "doi": "10.1016/j.thorsurg.2022.04.007",
+      "pmid": "35961747"
+    },
+    {
+      "ref_id": "b7-mmr-34-1-13912",
+      "label": "7",
+      "authors": [
+        "Chen L",
+        "Min J",
+        "Wang F"
+      ],
+      "title": "Copper homeostasis and cuproptosis in health and disease",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2022",
+      "volume": "7",
+      "fpage": "378",
+      "doi": "10.1038/s41392-022-01229-y",
+      "pmid": "36414625",
+      "pmc_id": "PMC9681860"
+    },
+    {
+      "ref_id": "b8-mmr-34-1-13912",
+      "label": "8",
+      "authors": [
+        "Tian Z",
+        "Jiang S",
+        "Zhou J",
+        "Zhang W"
+      ],
+      "title": "Copper homeostasis and cuproptosis in mitochondria",
+      "journal": "Life Sci",
+      "year": "2023",
+      "volume": "334",
+      "fpage": "122223",
+      "doi": "10.1016/j.lfs.2023.122223",
+      "pmid": "38084674"
+    },
+    {
+      "ref_id": "b9-mmr-34-1-13912",
+      "label": "9",
+      "authors": [
+        "Wang W",
+        "Lu K",
+        "Jiang X",
+        "Wei Q",
+        "Zhu L",
+        "Wang X",
+        "Jin H",
+        "Feng L"
+      ],
+      "title": "Ferroptosis inducers enhanced cuproptosis induced by copper ionophores in primary liver cancer",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2023",
+      "volume": "42",
+      "fpage": "142",
+      "doi": "10.1186/s13046-023-02720-2",
+      "pmid": "37277863",
+      "pmc_id": "PMC10242978"
+    },
+    {
+      "ref_id": "b10-mmr-34-1-13912",
+      "label": "10",
+      "authors": [
+        "Wu Z",
+        "Huang Z",
+        "Zhou X",
+        "Gao C",
+        "Peng Z",
+        "Zheng X",
+        "Zhang Y",
+        "Du Z",
+        "Wu B"
+      ],
+      "title": "Comprehensive analysis of cuproptosis genes and cuproptosis-related genes as prognosis factors in esophageal squamous cell carcinoma",
+      "journal": "Genomics",
+      "year": "2023",
+      "volume": "115",
+      "fpage": "110732",
+      "doi": "10.1016/j.ygeno.2023.110732",
+      "pmid": "37866660"
+    },
+    {
+      "ref_id": "b11-mmr-34-1-13912",
+      "label": "11",
+      "authors": [
+        "Li L",
+        "Wang Y",
+        "Tian R",
+        "Yang T",
+        "Liu Y",
+        "Shan B",
+        "Zhao L"
+      ],
+      "title": "TRIM21-Mediated K11-linked Ubiquitination of ID1 suppresses tumorigenesis and promotes cuproptosis in esophageal squamous cell carcinoma",
+      "journal": "Adv Sci (Weinh)",
+      "year": "2025",
+      "volume": "12",
+      "fpage": "e02501",
+      "doi": "10.1002/advs.202502501",
+      "pmid": "40652518",
+      "pmc_id": "PMC12462935"
+    },
+    {
+      "ref_id": "b12-mmr-34-1-13912",
+      "label": "12",
+      "authors": [
+        "Feng A",
+        "He L",
+        "Li Z",
+        "Wang Z",
+        "Sun M",
+        "Zhao Z",
+        "Zhang Z",
+        "Fang K",
+        "Wu H",
+        "Wang X",
+        "et al."
+      ],
+      "title": "TRIM21 promotes K63-linked ubiquitination of ALKBH5 and suppresses cuproptosis via down-regulation of LIAS in esophageal squamous cell carcinoma",
+      "journal": "Commun Biol",
+      "year": "2025",
+      "volume": "8",
+      "fpage": "1783",
+      "doi": "10.1038/s42003-025-09201-6",
+      "pmid": "41413718",
+      "pmc_id": "PMC12715190"
+    },
+    {
+      "ref_id": "b13-mmr-34-1-13912",
+      "label": "13",
+      "authors": [
+        "Ko JH",
+        "Son W",
+        "Bae GY",
+        "Kang JH",
+        "Oh W",
+        "Yoo OJ"
+      ],
+      "title": "A new hepatocytic isoform of PLZF lacking the BTB domain interacts with ATP7B, the Wilson disease protein, and positively regulates ERK signal transduction",
+      "journal": "J Cell Biochem",
+      "year": "2006",
+      "volume": "99",
+      "fpage": "719",
+      "lpage": "734",
+      "doi": "10.1002/jcb.20980",
+      "pmid": "16676348"
+    },
+    {
+      "ref_id": "b14-mmr-34-1-13912",
+      "label": "14",
+      "authors": [
+        "Zhang C",
+        "Huang T",
+        "Li L"
+      ],
+      "title": "Targeting cuproptosis for cancer therapy: Mechanistic insights and clinical perspectives",
+      "journal": "J Hematol Oncol",
+      "year": "2024",
+      "volume": "17",
+      "fpage": "68",
+      "doi": "10.1186/s13045-024-01589-8",
+      "pmid": "39152464",
+      "pmc_id": "PMC11328505"
+    },
+    {
+      "ref_id": "b15-mmr-34-1-13912",
+      "label": "15",
+      "authors": [
+        "Zhang B",
+        "Li J",
+        "Wang Y",
+        "Liu X",
+        "Yang X",
+        "Liao Z",
+        "Deng S",
+        "Deng Y",
+        "Zhou Z",
+        "Tian Y",
+        "et al."
+      ],
+      "title": "Deubiquitinase USP7 stabilizes KDM5B and promotes tumor progression and cisplatin resistance in nasopharyngeal carcinoma through the ZBTB16/TOP2A axis",
+      "journal": "Cell Death Differ",
+      "year": "2024",
+      "volume": "31",
+      "fpage": "309",
+      "lpage": "321",
+      "doi": "10.1038/s41418-024-01257-x",
+      "pmid": "38287116",
+      "pmc_id": "PMC10923876"
+    },
+    {
+      "ref_id": "b16-mmr-34-1-13912",
+      "label": "16",
+      "authors": [
+        "Liu D",
+        "Du Q",
+        "Zhu Y",
+        "Guo Y",
+        "Guo Y"
+      ],
+      "title": "UHRF1 knockdown induces cell cycle arrest and apoptosis in breast cancer cells through the ZBTB16/ANXA7/Cyclin B1 axis",
+      "journal": "Acta Biochim Biophys Sin (Shanghai)",
+      "year": "2024",
+      "volume": "56",
+      "fpage": "1633",
+      "lpage": "1643",
+      "doi": "10.3724/abbs.2024148",
+      "pmid": "39308302",
+      "pmc_id": "PMC11659777"
+    },
+    {
+      "ref_id": "b17-mmr-34-1-13912",
+      "label": "17",
+      "authors": [
+        "Wang K",
+        "Guo D",
+        "Yan T",
+        "Sun S",
+        "Wang Y",
+        "Zheng H",
+        "Wang G",
+        "Du J"
+      ],
+      "title": "ZBTB16 inhibits DNA replication and induces cell cycle arrest by targeting WDHD1 transcription in lung adenocarcinoma",
+      "journal": "Oncogene",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "1796",
+      "lpage": "1810",
+      "doi": "10.1038/s41388-024-03041-0",
+      "pmid": "38654107"
+    },
+    {
+      "ref_id": "b18-mmr-34-1-13912",
+      "label": "18",
+      "authors": [
+        "Livak KJ",
+        "Schmittgen TD"
+      ],
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(−Delta Delta C(T)) method",
+      "journal": "Methods",
+      "year": "2001",
+      "volume": "25",
+      "fpage": "402",
+      "lpage": "408",
+      "doi": "10.1006/meth.2001.1262",
+      "pmid": "11846609"
+    },
+    {
+      "ref_id": "b19-mmr-34-1-13912",
+      "label": "19",
+      "authors": [
+        "De Vleeschauwer SI",
+        "van de Ven M",
+        "Oudin A",
+        "Debusschere K",
+        "Connor K",
+        "Byrne AT",
+        "Ram D",
+        "Rhebergen AM",
+        "Raeves YD",
+        "Dahlhoff M",
+        "et al."
+      ],
+      "title": "OBSERVE: Guidelines for the refinement of rodent cancer models",
+      "journal": "Nat Protoc",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "2571",
+      "lpage": "2596",
+      "doi": "10.1038/s41596-024-00998-w",
+      "pmid": "38992214"
+    },
+    {
+      "ref_id": "b20-mmr-34-1-13912",
+      "label": "20",
+      "authors": [
+        "Percie du Sert N",
+        "Hurst V",
+        "Ahluwalia A",
+        "Alam S",
+        "Avey MT",
+        "Baker M",
+        "Browne WJ",
+        "Clark A",
+        "Cuthill IC",
+        "Dirnagl U",
+        "et al."
+      ],
+      "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+      "journal": "PLoS Biol",
+      "year": "2020",
+      "volume": "18",
+      "fpage": "e3000410",
+      "doi": "10.1371/journal.pbio.3000410",
+      "pmid": "32663219",
+      "pmc_id": "PMC7360023"
+    },
+    {
+      "ref_id": "b21-mmr-34-1-13912",
+      "label": "21",
+      "authors": [
+        "Mao Y",
+        "Su X",
+        "Guo Q",
+        "Yao X",
+        "Zhao Q",
+        "Guo Y",
+        "Wang Y",
+        "Li X",
+        "Lu Y"
+      ],
+      "title": "Long non-coding RNA LINC00930 targeting miR-6792-3p/ZBTB16 regulates the proliferation and EMT of pancreatic cancer",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "638",
+      "doi": "10.1186/s12885-024-12365-9",
+      "pmid": "38789960",
+      "pmc_id": "PMC11127394"
+    },
+    {
+      "ref_id": "b22-mmr-34-1-13912",
+      "label": "22",
+      "authors": [
+        "Członkowska A",
+        "Litwin T",
+        "Dusek P",
+        "Ferenci P",
+        "Lutsenko S",
+        "Medici V",
+        "Rybakowski JK",
+        "Weiss KH",
+        "Schilsky ML"
+      ],
+      "title": "Wilson disease",
+      "journal": "Nat Rev Dis Primers",
+      "year": "2018",
+      "volume": "4",
+      "fpage": "21",
+      "doi": "10.1038/s41572-018-0018-3",
+      "pmid": "30190489",
+      "pmc_id": "PMC6416051"
+    },
+    {
+      "ref_id": "b23-mmr-34-1-13912",
+      "label": "23",
+      "authors": [
+        "Feng Y",
+        "Yang Z",
+        "Wang J",
+        "Zhao H"
+      ],
+      "title": "Cuproptosis: Unveiling a new frontier in cancer biology and therapeutics",
+      "journal": "Cell Commun Signal",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "249",
+      "doi": "10.1186/s12964-024-01625-7",
+      "pmid": "38693584",
+      "pmc_id": "PMC11064406"
+    },
+    {
+      "ref_id": "b24-mmr-34-1-13912",
+      "label": "24",
+      "authors": [
+        "Betancourt-Cuellar SL",
+        "Benveniste MFK",
+        "Palacio DP",
+        "Hofstetter WL"
+      ],
+      "title": "Esophageal Cancer: Tumor-Node-Metastasis Staging",
+      "journal": "Radiol Clin North Am",
+      "year": "2021",
+      "volume": "59",
+      "fpage": "219",
+      "lpage": "229",
+      "doi": "10.1016/j.rcl.2020.11.008",
+      "pmid": "33551083"
+    },
+    {
+      "ref_id": "b25-mmr-34-1-13912",
+      "label": "25",
+      "authors": [
+        "Yao X",
+        "Zhao Q",
+        "Guo Y",
+        "Wang Y",
+        "Li X",
+        "Lu Y"
+      ],
+      "title": "Long non-coding RNA LINC00930 targeting miR-6792-3p/ZBTB16 regulates the proliferation and EMT of pancreatic cancer",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "638",
+      "doi": "10.1186/s12885-024-12365-9",
+      "pmid": "38789960",
+      "pmc_id": "PMC11127394"
+    },
+    {
+      "ref_id": "b26-mmr-34-1-13912",
+      "label": "26",
+      "authors": [
+        "Cao C",
+        "Xu M",
+        "Peng T",
+        "Liu X",
+        "Lin S",
+        "Xu Y",
+        "Chu T",
+        "Liu S",
+        "Wu P",
+        "Hu B",
+        "et al."
+      ],
+      "title": "Blocking CXCR4+ CD4+ T cells reprograms Treg-mediated immunosuppression via modulating the Rho-GTPase/NF-κB signaling axis",
+      "journal": "Genome Med",
+      "year": "2025",
+      "volume": "17",
+      "fpage": "85",
+      "doi": "10.1186/s13073-025-01515-8",
+      "pmid": "40760450",
+      "pmc_id": "PMC12323159"
+    },
+    {
+      "ref_id": "b27-mmr-34-1-13912",
+      "label": "27",
+      "authors": [
+        "Fabiani E",
+        "Cicconi L",
+        "Nardozza AM",
+        "Cristiano A",
+        "Rossi M",
+        "Ottone T",
+        "Falconi G",
+        "Divona M",
+        "Testi AM",
+        "Annibali O",
+        "et al."
+      ],
+      "title": "Mutational profile of ZBTB16-RARA-positive acute myeloid leukemia",
+      "journal": "Cancer Med",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "3839",
+      "lpage": "3847",
+      "doi": "10.1002/cam4.3904",
+      "pmid": "34042280",
+      "pmc_id": "PMC8209618"
+    },
+    {
+      "ref_id": "b28-mmr-34-1-13912",
+      "label": "28",
+      "authors": [
+        "Liu X",
+        "Luo B",
+        "Wu X",
+        "Tang Z"
+      ],
+      "title": "Cuproptosis and cuproptosis-related genes: Emerging potential therapeutic targets in breast cancer",
+      "journal": "Biochim Biophys Acta Rev Cancer",
+      "year": "2023",
+      "volume": "1878",
+      "fpage": "189013",
+      "doi": "10.1016/j.bbcan.2023.189013",
+      "pmid": "37918452"
+    },
+    {
+      "ref_id": "b29-mmr-34-1-13912",
+      "label": "29",
+      "authors": [
+        "Liu N",
+        "Chen M"
+      ],
+      "title": "Crosstalk between ferroptosis and cuproptosis: From mechanism to potential clinical application",
+      "journal": "Biomed Pharmacother",
+      "year": "2024",
+      "volume": "171",
+      "fpage": "116115",
+      "doi": "10.1016/j.biopha.2023.116115",
+      "pmid": "38181713"
+    },
+    {
+      "ref_id": "b30-mmr-34-1-13912",
+      "label": "30",
+      "authors": [
+        "Xiao Y",
+        "Yin J",
+        "Liu P",
+        "Zhang X",
+        "Lin Y",
+        "Guo J"
+      ],
+      "title": "Triptolide-induced cuproptosis is a novel antitumor strategy for the treatment of cervical cancer",
+      "journal": "Cell Mol Biol Lett",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "113",
+      "doi": "10.1186/s11658-024-00623-4",
+      "pmid": "39198750",
+      "pmc_id": "PMC11360305"
+    },
+    {
+      "ref_id": "b31-mmr-34-1-13912",
+      "label": "31",
+      "authors": [
+        "Li L",
+        "Zhou H",
+        "Zhang C"
+      ],
+      "title": "Cuproptosis in cancer: Biological implications and therapeutic opportunities",
+      "journal": "Cell Mol Biol Lett",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "91",
+      "doi": "10.1186/s11658-024-00608-3",
+      "pmid": "38918694",
+      "pmc_id": "PMC11201306"
+    },
+    {
+      "ref_id": "b32-mmr-34-1-13912",
+      "label": "32",
+      "authors": [
+        "Hu J",
+        "Zhu J",
+        "Chen T",
+        "Zhao Y",
+        "Xu Q",
+        "Wang Y"
+      ],
+      "title": "Cuproptosis in cancer therapy: Mechanisms, therapeutic application and future prospects",
+      "journal": "J Mater Chem B",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "12191",
+      "lpage": "12206",
+      "doi": "10.1039/D4TB01877J",
+      "pmid": "39526989"
+    },
+    {
+      "ref_id": "b33-mmr-34-1-13912",
+      "label": "33",
+      "authors": [
+        "Parsanathan R"
+      ],
+      "title": "Copper's dual role: Unravelling the link between copper homeostasis, cuproptosis, and cardiovascular diseases",
+      "journal": "Hypertens Res",
+      "year": "2024",
+      "volume": "47",
+      "fpage": "1440",
+      "lpage": "1442",
+      "doi": "10.1038/s41440-024-01636-4",
+      "pmid": "38467792"
+    },
+    {
+      "ref_id": "b34-mmr-34-1-13912",
+      "label": "34",
+      "authors": [
+        "Wen H",
+        "Qu C",
+        "Wang Z",
+        "Gao H",
+        "Liu W",
+        "Wang H",
+        "Sun H",
+        "Gu J",
+        "Yang Z",
+        "Wang X"
+      ],
+      "title": "Cuproptosis enhances docetaxel chemosensitivity by inhibiting autophagy via the DLAT/mTOR pathway in prostate cancer",
+      "journal": "FASEB J",
+      "year": "2023",
+      "volume": "37",
+      "fpage": "e23145",
+      "doi": "10.1096/fj.202300980R",
+      "pmid": "37584654"
     }
   ]
 }

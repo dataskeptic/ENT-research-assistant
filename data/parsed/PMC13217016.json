@@ -19,7 +19,8 @@
     "pmc_id": "PMC13217016",
     "pmid": "41702693",
     "full_text_available": true,
-    "section_count": 9
+    "section_count": 9,
+    "reference_count": 21
   },
   "sections": [
     {
@@ -66,6 +67,388 @@
       "section": "Discussion",
       "text": "In three independent cases with a strong clinical suspicion of a TPS, we identified a low-grade mosaic VHL, NF1 and NF2 PV via multiple tissue sampling combined with deep sequencing. These cases illustrate that recent developments in somatic DNA testing can be complementary to germline DNA testing when a germline DNA test fails to detect the causative PV in blood despite a strong clinical suspicion for a TPS. Mosaicism, described in various TPS, 16 18 can be diagnostically challenging, as illustrated by the lengthy journey to diagnosis in our three cases. The first challenge is to identify tissues containing the causative PV. As the presence of the PV in mosaic cases may be limited to specific tissues, a potential PV can be missed if only a blood sample is investigated. In some TPS, the affected tissues can easily be recognised and tested, like the neurofibromas in NF1. For other tumours, like paragangliomas in VHL, imaging techniques might help to identify affected tissues. However, when specific clues for affected tissue are absent, detection of mosaicism is more difficult, and to detect low-level mosaicism, analysing multiple tissue is often necessary. Another challenge can be to obtain a sample of the tissue of interest. For example, to reach intracranial tumours in NF2 or cerebellar haemangioblastomas in VHL might be difficult or even impossible. Also, sometimes for other tumours the affected tissue might not (yet) be available due to an intended wait-and-scan strategy. NF2 has a high rate of mosaicism. Evans et al found a high rate of NF2 mosaics at VAFs between 0.2% and 30% in blood in 1055 NF2 cases who met clinical criteria for NF2 with a negative family history. 12 Mosaic cases in which the PV is absent in peripheral blood or those with a VAF <10% are likely to be missed in routine genetic diagnostics, as these tests are focused on detecting heterozygous PV with VAFs ~50%. As a result, filter settings often filter out variants with a low VAF. In addition, the lower number of reads generated in routine diagnostics is generally not suitable to detect low level mosaicism. The three cases presented here illustrate the complementary use of somatic DNA testing. Our VHL case adds to the few reported case studies on VHL mosaicism. 1619 21 Recently, no VHL PV was identified in the blood of an 11-year-old with an apparently sporadic brainstem haemangioblastoma. Somatic VHL testing after developing additional haemangioblastoma confirmed VHL mosaicism. 20 These VHL cases illustrate that multiple tissue testing with combined deep sequencing should be considered early in the diagnostic process in case of a high clinical suspicion for VHL, as it can significantly shorten the time to diagnosis. This is especially important in young patients in which the early clinical presentation is suspicious of VHL. Mosaicism has also been described in other TPS, like Li-Fraumeni syndrome, tuberous sclerosis complex and PTEN hamartoma tumour syndrome. 16 18 Therefore, the combination of multiple tissue testing and deep sequencing can also be used to search for mosaicism in other TPS. 16 Accordingly, we recommend a similar approach involving multiple tissue sampling and deep sequencing for patients with a high clinical suspicion of other TPS. Detection of mosaicism can have important medical and psychological consequences for patients and their families. First, confirmation of mosaicism can provide more accurate genetic counselling for patients themselves. Second, it can give patients of childbearing ages more information regarding the risk of passing on the TPS, which in general is considered to be lower in mosaic cases than in full heterozygous cases. 16 In addition to this, it provides these patients with the option of invasive prenatal testing for the PV. 12 13 16 20 Third, identification of the mosaic PV provides children of affected patients the opportunity to perform a DNA test to determine whether they inherited the PV. Only descendants who inherited the NF2 or VHL mutation will then be advised screening instead of screening all children of parents with a clinical diagnosis of NF2 and VHL lacking a molecular diagnosis. In addition, confirmation of a mosaic PV is also informative for siblings. As this means it is a de novo PV and screening is no longer recommended for siblings. In the era of personalised medicine with the development of new treatment options for TPS-associated tumours, detection of mosaicism also becomes more important. In addition, but equally important, a clear genetic diagnosis offers patients acknowledgement and confirmation of their symptoms with subsequent psychological benefits. Lastly, shortening the time to diagnosis can save patients the psychological burden of a diagnostic odyssey. An important limitation of the suggested approach is that multiple tissue testing combined with deep sequencing might not be possible for every patient suspected of having a mosaic TPS. As described above, it is not always possible to retrieve multiple tissues from a patient for somatic DNA testing. In patients with only one tumour or tissue of interest ( eg , CAL) available for sampling, it might still be possible to detect mosaicism. A possible strategy in those cases could be to investigate that tissue for somatic mutations, followed by deep sequencing (>100 reads) of DNA extracted from blood, with special attention to the variants identified in the tissue. If one of these variants is detected in the DNA extracted from blood at a low percentage of the reads, this confirms mosaicism. In addition, depending on the technique used for genetic analysis, the number of reads available for analysis might be limited. For instance, in our NF2 case, the variant was only detected in 14 of the 1555 reads. Unfortunately, the resources for such deep sequencing are not always available. Lastly, the costs of this combined approach can also be a limitation. Given the limitations and costs, this approach should currently be reserved for cases strongly suggestive of mosaic TPS, especially in patients who meet the clinical diagnostic criteria for these TPS, without affected siblings or parents. For example, for NF1 and VHL, this approach can also be considered if one of the clinical criteria is met. For NF2, we would suggest this approach in case of a unilateral vestibular schwannoma and a second NF2-related tumour. In conclusion, recent advances in NGS along with the opportunity of multi-tissue sampling are an effective strategy in the detection of low-level mosaicism, enabling earlier and more accurate diagnosis, refined genetic counselling and optimised clinical management for patients and family members.",
       "order": 8
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Martínez-Glez V",
+        "Tenorio J",
+        "Nevado J",
+        "et al."
+      ],
+      "title": "A six-attribute classification of genetic mosaicism",
+      "journal": "Genet Med",
+      "year": "2020",
+      "volume": "22",
+      "fpage": "1743",
+      "lpage": "57",
+      "doi": "10.1038/s41436-020-0877-3",
+      "pmid": "32661356",
+      "pmc_id": "PMC8581815"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Vera-Rodriguez M",
+        "Rubio C"
+      ],
+      "title": "Assessing the true incidence of mosaicism in preimplantation embryos",
+      "journal": "Fertil Steril",
+      "year": "2017",
+      "volume": "107",
+      "fpage": "1107",
+      "lpage": "12",
+      "doi": "10.1016/j.fertnstert.2017.03.019",
+      "pmid": "28433370"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Campbell IM",
+        "Shaw CA",
+        "Stankiewicz P",
+        "et al."
+      ],
+      "title": "Somatic mosaicism: implications for disease and transmission genetics",
+      "journal": "Trends Genet",
+      "year": "2015",
+      "volume": "31",
+      "fpage": "382",
+      "lpage": "92",
+      "doi": "10.1016/j.tig.2015.03.013",
+      "pmid": "25910407",
+      "pmc_id": "PMC4490042"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Garcia-Linares C",
+        "Fernández-Rodríguez J",
+        "Terribas E",
+        "et al."
+      ],
+      "title": "Dissecting loss of heterozygosity (LOH) in neurofibromatosis type 1-associated neurofibromas: Importance of copy neutral LOH",
+      "journal": "Hum Mutat",
+      "year": "2011",
+      "volume": "32",
+      "fpage": "78",
+      "lpage": "90",
+      "doi": "10.1002/humu.21387",
+      "pmid": "21031597",
+      "pmc_id": "PMC3151547"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Wang LH",
+        "Wu CF",
+        "Rajasekaran N",
+        "et al."
+      ],
+      "title": "Loss of Tumor Suppressor Gene Function in Human Cancer: An Overview",
+      "journal": "Cell Physiol Biochem",
+      "year": "2018",
+      "volume": "51",
+      "fpage": "2647",
+      "lpage": "93",
+      "doi": "10.1159/000495956",
+      "pmid": "30562755"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Jacoby LB",
+        "Jones D",
+        "Davis K",
+        "et al."
+      ],
+      "title": "Molecular analysis of the NF2 tumor-suppressor gene in schwannomatosis",
+      "journal": "Am J Hum Genet",
+      "year": "1997",
+      "volume": "61",
+      "fpage": "1293",
+      "lpage": "302",
+      "doi": "10.1086/301633",
+      "pmid": "9399891",
+      "pmc_id": "PMC1716092"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Louise M Binderup M",
+        "Smerdel M",
+        "Borgwadt L",
+        "et al."
+      ],
+      "title": "von Hippel-Lindau disease: Updated guideline for diagnosis and surveillance",
+      "journal": "Eur J Med Genet",
+      "year": "2022",
+      "volume": "65",
+      "fpage": "104538",
+      "doi": "10.1016/j.ejmg.2022.104538",
+      "pmid": "35709961"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Wolters WPG",
+        "Dreijerink KMA",
+        "Giles RH",
+        "et al."
+      ],
+      "title": "Multidisciplinary integrated care pathway for von Hippel-Lindau disease",
+      "journal": "Cancer",
+      "year": "2022",
+      "volume": "128",
+      "fpage": "2871",
+      "lpage": "9",
+      "doi": "10.1002/cncr.34265",
+      "pmid": "35579632",
+      "pmc_id": "PMC9542729"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Legius E",
+        "Messiaen L",
+        "Wolkenstein P",
+        "et al."
+      ],
+      "title": "Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome: an international consensus recommendation",
+      "journal": "Genet Med",
+      "year": "2021",
+      "volume": "23",
+      "fpage": "1506",
+      "lpage": "13",
+      "doi": "10.1038/s41436-021-01170-5",
+      "pmid": "34012067",
+      "pmc_id": "PMC8354850"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Plotkin SR",
+        "Messiaen L",
+        "Legius E",
+        "et al."
+      ],
+      "title": "Updated diagnostic criteria and nomenclature for neurofibromatosis type 2 and schwannomatosis: An international consensus recommendation",
+      "journal": "Genet Med",
+      "year": "2022",
+      "volume": "24",
+      "fpage": "1967",
+      "lpage": "77",
+      "doi": "10.1016/j.gim.2022.05.007",
+      "pmid": "35674741"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Halliday D",
+        "Emmanouil B",
+        "Evans DGR"
+      ],
+      "title": "Updated protocol for genetic testing, screening and clinical management of individuals at risk of NF2-related schwannomatosis",
+      "journal": "Clin Genet",
+      "year": "2023",
+      "volume": "103",
+      "fpage": "540",
+      "lpage": "52",
+      "doi": "10.1111/cge.14310",
+      "pmid": "36762955"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Evans DG",
+        "Hartley CL",
+        "Smith PT",
+        "et al."
+      ],
+      "title": "Incidence of mosaicism in 1055 de novo NF2 cases: much higher than previous estimates with high utility of next-generation sequencing",
+      "journal": "Genet Med",
+      "year": "2020",
+      "volume": "22",
+      "fpage": "53",
+      "lpage": "9",
+      "doi": "10.1038/s41436-019-0598-7",
+      "pmid": "31273341"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "García-Romero MT",
+        "Parkin P",
+        "Lara-Corrales I"
+      ],
+      "title": "Mosaic Neurofibromatosis Type 1: A Systematic Review",
+      "journal": "Pediatr Dermatol",
+      "year": "2016",
+      "volume": "33",
+      "fpage": "9",
+      "lpage": "17",
+      "doi": "10.1111/pde.12673",
+      "pmid": "26338194"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "van Lier MGF",
+        "Wagner A",
+        "van Leerdam ME",
+        "et al."
+      ],
+      "title": "A review on the molecular diagnostics of Lynch syndrome: a central role for the pathology laboratory",
+      "journal": "J Cell Mol Med",
+      "year": "2010",
+      "volume": "14",
+      "fpage": "181",
+      "lpage": "97",
+      "doi": "10.1111/j.1582-4934.2009.00977.x",
+      "pmid": "19929944",
+      "pmc_id": "PMC3837620"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Dubbink HJ",
+        "Atmodimedjo PN",
+        "van Marion R",
+        "et al."
+      ],
+      "title": "Diagnostic Detection of Allelic Losses and Imbalances by Next-Generation Sequencing: 1p/19q Co-Deletion Analysis of Gliomas",
+      "journal": "J Mol Diagn",
+      "year": "2016",
+      "volume": "18",
+      "fpage": "775",
+      "lpage": "86",
+      "doi": "10.1016/j.jmoldx.2016.06.002",
+      "pmid": "27461031"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Chen JL",
+        "Miller DT",
+        "Schmidt LS",
+        "et al."
+      ],
+      "title": "Mosaicism in Tumor Suppressor Gene Syndromes: Prevalence, Diagnostic Strategies, and Transmission Risk",
+      "journal": "Annu Rev Genomics Hum Genet",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "331",
+      "lpage": "61",
+      "doi": "10.1146/annurev-genom-120121-105450",
+      "pmid": "36044908"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Geurts-Giele WR",
+        "Rosenberg EH",
+        "Rens A van",
+        "et al."
+      ],
+      "title": "Somatic mosaicism by a de novo MLH1 mutation as a cause of Lynch syndrome",
+      "journal": "Mol Genet Genomic Med",
+      "year": "2019",
+      "volume": "7",
+      "elocation_id": "e00699",
+      "doi": "10.1002/mgg3.699",
+      "pmid": "31104363",
+      "pmc_id": "PMC6625132"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Steinke-Lange V",
+        "de Putter R",
+        "Holinski-Feder E",
+        "et al."
+      ],
+      "title": "Somatic mosaics in hereditary tumor predisposition syndromes",
+      "journal": "Eur J Med Genet",
+      "year": "2021",
+      "volume": "64",
+      "fpage": "104360",
+      "doi": "10.1016/j.ejmg.2021.104360",
+      "pmid": "34655802"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Whitman A",
+        "Damodharan S",
+        "Bhatia A",
+        "et al."
+      ],
+      "title": "Hemangioblastoma and mosaic von Hippel Lindau disease: rare presentation and review of the literature",
+      "journal": "Childs Nerv Syst",
+      "year": "2023",
+      "volume": "39",
+      "fpage": "1361",
+      "lpage": "3",
+      "doi": "10.1007/s00381-023-05859-7",
+      "pmid": "36708374"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Santarpia L",
+        "Sarlis NJ",
+        "Santarpia M",
+        "et al."
+      ],
+      "title": "Mosaicism in von Hippel-Lindau disease: an event important to recognize",
+      "journal": "J Cell Mol Med",
+      "year": "2007",
+      "volume": "11",
+      "fpage": "1408",
+      "lpage": "15",
+      "doi": "10.1111/j.1582-4934.2007.00122.x",
+      "pmid": "18205710",
+      "pmc_id": "PMC4401302"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Oldfield LE",
+        "Grzybowski J",
+        "Grenier S",
+        "et al."
+      ],
+      "title": "VHL mosaicism: the added value of multi-tissue analysis",
+      "journal": "NPJ Genom Med",
+      "year": "2022",
+      "volume": "7",
+      "elocation_id": "21",
+      "doi": "10.1038/s41525-022-00291-3",
+      "pmid": "35304467",
+      "pmc_id": "PMC8933488"
     }
   ]
 }

@@ -20,7 +20,8 @@
     "pmc_id": "PMC13221563",
     "pmid": "42203995",
     "full_text_available": true,
-    "section_count": 13
+    "section_count": 13,
+    "reference_count": 35
   },
   "sections": [
     {
@@ -87,6 +88,597 @@
       "section": "Conclusion",
       "text": "In conclusion, this study demonstrates that large EV represent a feasible and clinically accessible platform for immunophenotypic biomarker analysis in HNSCC. PD-L1 expression on large EV correlated with tumor burden, indicating potential utility for disease monitoring and immune status assessment. Taken together, these findings support an exploratory marker panel approach, in which PD-L1 showed the clearest association with tumor burden, whereas EGFR, EPCAM, and MUC1 were most informative in combination rather than as standalone markers. Furthermore, combined evaluation of EGFR, EPCAM, and MUC1 enabled high-sensitivity discrimination between HNSCC and SQCCL, providing a minimally invasive diagnostic adjunct in clinically challenging cases. These findings warrant validation in larger cohorts and integration with tissue-level molecular and immune profiling to confirm their translational applicability.",
       "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Bray F",
+        "Ferlay J",
+        "Soerjomataram I",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2018",
+      "volume": "68",
+      "fpage": "394",
+      "lpage": "424",
+      "doi": "10.3322/caac.21492",
+      "pmid": "30207593"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "raw_citation": "Head and neck squamous cell carcinomas. In: Onkopedia. https://www.onkopedia.com/en/onkopedia/guidelines/head-and-neck-squamous-cell-carcinomas . Accessed 2 Oct 2025"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Leemans CR",
+        "Snijders PJF",
+        "Brakenhoff RH"
+      ],
+      "title": "The molecular landscape of head and neck cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2018",
+      "volume": "18",
+      "fpage": "269",
+      "lpage": "282",
+      "doi": "10.1038/nrc.2018.11",
+      "pmid": "29497144"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.3389/fimmu.2025.1597202",
+      "pmc_id": "PMC12116449",
+      "pmid": "40438103"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Qu X",
+        "Li J-W",
+        "Chan J",
+        "Meehan K"
+      ],
+      "title": "Extracellular vesicles in head and neck cancer: a potential new trend in diagnosis, prognosis, and treatment",
+      "journal": "Int J Mol Sci",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "8260",
+      "doi": "10.3390/ijms21218260",
+      "pmid": "33158181",
+      "pmc_id": "PMC7662588"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Mishra V",
+        "Singh A",
+        "Chen X",
+        "et al."
+      ],
+      "title": "Application of liquid biopsy as multi-functional biomarkers in head and neck cancer",
+      "journal": "Br J Cancer",
+      "year": "2022",
+      "volume": "126",
+      "fpage": "361",
+      "lpage": "370",
+      "doi": "10.1038/s41416-021-01626-0",
+      "pmid": "34876674",
+      "pmc_id": "PMC8810877"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Menck K",
+        "Sivaloganathan S",
+        "Bleckmann A",
+        "Binder C"
+      ],
+      "title": "Microvesicles in cancer: small size, large potential",
+      "journal": "Int J Mol Sci",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "E5373",
+      "doi": "10.3390/ijms21155373",
+      "pmc_id": "PMC7432491",
+      "pmid": "32731639"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Hou P-P",
+        "Chen H-Z"
+      ],
+      "title": "Extracellular vesicles in the tumor immune microenvironment",
+      "journal": "Cancer Lett",
+      "year": "2021",
+      "volume": "516",
+      "fpage": "48",
+      "lpage": "56",
+      "doi": "10.1016/j.canlet.2021.05.032",
+      "pmid": "34082025"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Zhong W-Q",
+        "Ren J-G",
+        "Xiong X-P",
+        "et al."
+      ],
+      "title": "Increased salivary microvesicles are associated with the prognosis of patients with oral squamous cell carcinoma",
+      "journal": "J Cell Mol Med",
+      "year": "2019",
+      "volume": "23",
+      "fpage": "4054",
+      "lpage": "4062",
+      "doi": "10.1111/jcmm.14291",
+      "pmid": "30907490",
+      "pmc_id": "PMC6533497"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Zlotogorski-Hurvitz A",
+        "Dekel BZ",
+        "Malonek D",
+        "et al."
+      ],
+      "title": "FTIR-based spectrum of salivary exosomes coupled with computational-aided discriminating analysis in the diagnosis of oral cancer",
+      "journal": "J Cancer Res Clin Oncol",
+      "year": "2019",
+      "volume": "145",
+      "fpage": "685",
+      "lpage": "694",
+      "doi": "10.1007/s00432-018-02827-6",
+      "pmid": "30603907",
+      "pmc_id": "PMC11810221"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Theodoraki M-N",
+        "Yerneni S",
+        "Gooding WE",
+        "et al."
+      ],
+      "title": "Circulating exosomes measure responses to therapy in head and neck cancer patients treated with cetuximab, ipilimumab, and IMRT",
+      "journal": "Oncoimmunology",
+      "year": "2019",
+      "volume": "8",
+      "fpage": "1593805",
+      "doi": "10.1080/2162402X.2019.1593805",
+      "pmid": "31143513",
+      "pmc_id": "PMC6527269"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Menck K",
+        "Bleckmann A",
+        "Wachter A",
+        "et al."
+      ],
+      "title": "Characterisation of tumour-derived microvesicles in cancer patients’ blood and correlation with clinical outcome",
+      "journal": "J Extracell Vesicles",
+      "year": "2017",
+      "volume": "6",
+      "fpage": "1340745",
+      "doi": "10.1080/20013078.2017.1340745",
+      "pmid": "28804596",
+      "pmc_id": "PMC5533131"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Schöne N",
+        "Kemper M",
+        "Menck K",
+        "et al."
+      ],
+      "title": "PD-L1 on large extracellular vesicles is a predictive biomarker for therapy response in tissue PD-L1-low and—negative patients with non-small cell lung cancer",
+      "journal": "J Extracell Vesicles",
+      "year": "2024",
+      "volume": "13",
+      "fpage": "e12418",
+      "doi": "10.1002/jev2.12418",
+      "pmid": "38453684",
+      "pmc_id": "PMC10920108"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Julich-Haertel H",
+        "Urban SK",
+        "Krawczyk M",
+        "et al."
+      ],
+      "title": "Cancer-associated circulating large extracellular vesicles in cholangiocarcinoma and hepatocellular carcinoma",
+      "journal": "J Hepatol",
+      "year": "2017",
+      "volume": "67",
+      "fpage": "282",
+      "lpage": "292",
+      "doi": "10.1016/j.jhep.2017.02.024",
+      "pmid": "28267620"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Vagner T",
+        "Spinelli C",
+        "Minciacchi VR",
+        "et al."
+      ],
+      "title": "Large extracellular vesicles carry most of the tumour DNA circulating in prostate cancer patient plasma",
+      "journal": "J Extracell Vesicles",
+      "year": "2018",
+      "volume": "7",
+      "fpage": "1505403",
+      "doi": "10.1080/20013078.2018.1505403",
+      "pmid": "30108686",
+      "pmc_id": "PMC6084494"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Vergori L",
+        "Martinez MC",
+        "Bigot P"
+      ],
+      "title": "Circulating large extracellular vesicles carrying CA9 in the diagnosis and prognosis of clear-cell renal cell carcinoma",
+      "journal": "Clin Transl Med",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "e358",
+      "doi": "10.1002/ctm2.358",
+      "pmid": "33783991",
+      "pmc_id": "PMC8002908"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Menck K",
+        "Bleckmann A",
+        "Schulz M",
+        "et al."
+      ],
+      "title": "Isolation and characterization of microvesicles from peripheral blood",
+      "journal": "J Vis Exp",
+      "year": "2017",
+      "doi": "10.3791/55057",
+      "pmid": "28117819",
+      "pmc_id": "PMC5408706"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Buentzel J",
+        "Klemp HG",
+        "Kraetzner R",
+        "et al."
+      ],
+      "title": "Metabolomic profiling of blood-derived microvesicles in breast cancer patients",
+      "journal": "Int J Mol Sci",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "13540",
+      "doi": "10.3390/ijms222413540",
+      "pmid": "34948336",
+      "pmc_id": "PMC8707654"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Pang Z",
+        "Lu Y",
+        "Zhou G",
+        "et al."
+      ],
+      "title": "MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation",
+      "journal": "Nucleic Acids Res",
+      "year": "2024",
+      "volume": "52",
+      "fpage": "W398",
+      "lpage": "W406",
+      "doi": "10.1093/nar/gkae253",
+      "pmid": "38587201",
+      "pmc_id": "PMC11223798"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Milano MT",
+        "Peterson CR",
+        "Zhang H",
+        "et al."
+      ],
+      "title": "Second primary lung cancer after head and neck squamous cell cancer: population-based study of risk factors",
+      "journal": "Head Neck",
+      "year": "2012",
+      "volume": "34",
+      "fpage": "1782",
+      "lpage": "1788",
+      "doi": "10.1002/hed.22006",
+      "pmid": "22319019"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Müller M",
+        "Li J",
+        "Giger R",
+        "Elicin O"
+      ],
+      "title": "Head and neck cancer with synchronous nodules of the lung as a diagnostic and therapeutic challenge—a systematic review",
+      "journal": "Oral Oncol",
+      "year": "2023",
+      "volume": "145",
+      "fpage": "106529",
+      "doi": "10.1016/j.oraloncology.2023.106529",
+      "pmid": "37506514"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Machiels J-P",
+        "Leemans RC",
+        "Golusinski W",
+        "et al."
+      ],
+      "title": "Squamous cell carcinoma of the oral cavity, larynx, oropharynx and hypopharynx: EHNS-ESMO-ESTRO clinical practice guidelines for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol",
+      "year": "2020",
+      "volume": "31",
+      "fpage": "1462",
+      "lpage": "1475",
+      "doi": "10.1016/j.annonc.2020.07.011",
+      "pmid": "33239190"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Barak V",
+        "Meirovitz A",
+        "Leibovici V",
+        "et al."
+      ],
+      "title": "The diagnostic and prognostic value of tumor markers (CEA, SCC, CYFRA 21–1, TPS) in head and neck cancer patients",
+      "journal": "Anticancer Res",
+      "year": "2015",
+      "volume": "35",
+      "fpage": "5519",
+      "lpage": "5524",
+      "pmid": "26408719"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "doi": "10.13201/j.issn.1001-1781.2017.15.010",
+      "pmid": "29798354"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Büntzel J",
+        "Hornig A",
+        "Glatzel M",
+        "et al."
+      ],
+      "title": "Tumor markers and lymphatic metastasis in head and neck cancer patients",
+      "journal": "Anticancer Res",
+      "year": "2005",
+      "volume": "25",
+      "fpage": "1539",
+      "lpage": "1542",
+      "pmid": "16033056"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Bellairs JA",
+        "Hasina R",
+        "Agrawal N"
+      ],
+      "title": "Tumor DNA: an emerging biomarker in head and neck cancer",
+      "journal": "Cancer Metastasis Rev",
+      "year": "2017",
+      "volume": "36",
+      "fpage": "515",
+      "lpage": "523",
+      "doi": "10.1007/s10555-017-9685-x",
+      "pmid": "28801876",
+      "pmc_id": "PMC5839661"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Kabzinski J",
+        "Maczynska M",
+        "Majsterek I"
+      ],
+      "title": "MicroRNA as a novel biomarker in the diagnosis of head and neck cancer",
+      "journal": "Biomolecules",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "844",
+      "doi": "10.3390/biom11060844",
+      "pmid": "34198889",
+      "pmc_id": "PMC8228566"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Pramanik R",
+        "Arora S",
+        "Sharma P",
+        "et al."
+      ],
+      "title": "Cell-free EBV DNA as a biomarker during clinical management of nasopharyngeal carcinoma in a nonendemic region",
+      "journal": "J Med Virol",
+      "year": "2022",
+      "volume": "94",
+      "fpage": "720",
+      "lpage": "728",
+      "doi": "10.1002/jmv.27440",
+      "pmid": "34750844"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Bossi P",
+        "Chan AT",
+        "Licitra L",
+        "et al."
+      ],
+      "title": "Nasopharyngeal carcinoma: ESMO-EURACAN clinical practice guidelines for diagnosis, treatment and follow-up†",
+      "journal": "Ann Oncol",
+      "year": "2021",
+      "volume": "32",
+      "fpage": "452",
+      "lpage": "465",
+      "doi": "10.1016/j.annonc.2020.12.007",
+      "pmid": "33358989"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Green R",
+        "King M",
+        "Reid H",
+        "et al."
+      ],
+      "title": "Management of pulmonary nodules in head and neck cancer patients—our experience and interpretation of the British Thoracic Society guidelines",
+      "journal": "Surgeon",
+      "year": "2017",
+      "volume": "15",
+      "fpage": "227",
+      "lpage": "230",
+      "doi": "10.1016/j.surge.2016.10.002",
+      "pmid": "27838234"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Auber M",
+        "Fröhlich D",
+        "Drechsel O",
+        "et al."
+      ],
+      "title": "Serum-free media supplements carry miRNAs that co-purify with extracellular vesicles",
+      "journal": "J Extracell Vesicles",
+      "year": "2019",
+      "volume": "8",
+      "fpage": "1656042",
+      "doi": "10.1080/20013078.2019.1656042",
+      "pmid": "31552133",
+      "pmc_id": "PMC6746277"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Theodoraki M-N",
+        "Yerneni SS",
+        "Hoffmann TK",
+        "et al."
+      ],
+      "title": "Clinical significance of PD-L1+ exosomes in plasma of head and neck cancer patients",
+      "journal": "Clin Cancer Res",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "896",
+      "lpage": "905",
+      "doi": "10.1158/1078-0432.CCR-17-2664",
+      "pmid": "29233903",
+      "pmc_id": "PMC6126905"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Lu D",
+        "Zhou X",
+        "Sun H",
+        "et al."
+      ],
+      "title": "Risk of second primary cancer in patients with head and neck squamous cell carcinoma: A systemic review and meta-analysis",
+      "journal": "Clin Oral Investig",
+      "year": "2023",
+      "volume": "27",
+      "fpage": "4897",
+      "lpage": "4910",
+      "doi": "10.1007/s00784-023-05066-3",
+      "pmid": "37540282"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Yilmaz E",
+        "Gan GN",
+        "Schroeder TM",
+        "et al."
+      ],
+      "title": "Role of molecular signature to differentiate second primary lung cancer from metastasis in a patient with squamous cell carcinoma of oral cavity",
+      "journal": "Cancer Rep (Hoboken)",
+      "year": "2021",
+      "volume": "4",
+      "fpage": "e1363",
+      "doi": "10.1002/cnr2.1363",
+      "pmid": "34161676",
+      "pmc_id": "PMC8388157"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Kandioler D",
+        "Dekan G",
+        "End A",
+        "et al."
+      ],
+      "title": "Molecular genetic differentiation between primary lung cancers and lung metastases of other tumors",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "1996",
+      "volume": "111",
+      "fpage": "827",
+      "lpage": "831",
+      "doi": "10.1016/s0022-5223(96)70343-4",
+      "pmid": "8614143"
     }
   ]
 }

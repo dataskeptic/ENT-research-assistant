@@ -15,7 +15,8 @@
     "pmc_id": "PMC13199357",
     "pmid": "42199434",
     "full_text_available": true,
-    "section_count": 22
+    "section_count": 22,
+    "reference_count": 31
   },
   "sections": [
     {
@@ -127,6 +128,592 @@
       "section": "Conclusion",
       "text": "In conclusion, this study systematically compared multiple survival modeling strategies in elderly patients with locally advanced ESCC treated with definitive radiotherapy and showed that model performance was endpoint dependent. Ridge regression showed the most consistent performance for OS, whereas no single model was uniformly superior for PFS across all evaluation metrics, supporting an exploratory rather than definitive interpretation of model ranking. Nutritional-inflammatory biomarkers, particularly GNRI, PNI, and BMI, contributed stable prognostic information, especially for OS. Calibration and decision-curve analyses further supported the overall performance of the selected models, and the exploratory age-stratified findings also suggest that prognostic model behavior may differ between younger-old and oldest-old patients. Ridge-based threshold analyses further showed that model-derived predicted risk could be translated into clinically meaningful high- and low-risk groups and may help prioritize earlier nutritional assessment and closer supportive monitoring in higher-risk elderly patients. External validation and future incorporation of dynamic or multi-omics biomarkers will be necessary before broader clinical application.",
       "order": 21
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Morgan E",
+        "Soerjomataram I",
+        "Rumgay H",
+        "Coleman HG",
+        "Thrift AP",
+        "Vignat J",
+        "et al."
+      ],
+      "title": "The global landscape of esophageal squamous cell carcinoma and esophageal adenocarcinoma incidence and mortality in 2020 and projections to 2040: New estimates from Globocan 2020",
+      "journal": "Gastroenterology",
+      "year": "2022",
+      "volume": "163",
+      "fpage": "649",
+      "lpage": "658.e2",
+      "doi": "10.1053/j.gastro.2022.05.054",
+      "pmid": "35671803"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Hamamoto Y",
+        "Murakami K",
+        "Kato K",
+        "Kitagawa Y"
+      ],
+      "title": "Management of elderly patients with esophageal squamous cell cancer",
+      "journal": "Jpn J Clin Oncol",
+      "year": "2022",
+      "volume": "52",
+      "doi": "10.1093/jjco/hyac067",
+      "pmid": "35511482",
+      "pmc_id": "PMC9354502"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Ajani JA",
+        "D’Amico TA",
+        "Bentrem DJ",
+        "Cooke D",
+        "Corvera C",
+        "Das P",
+        "et al."
+      ],
+      "title": "Esophageal and esophagogastric junction cancers, version 2.2023, Nccn clinical practice guidelines in oncology",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "393",
+      "lpage": "422",
+      "doi": "10.6004/jnccn.2023.0019",
+      "pmid": "37015332"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Li J",
+        "Mei X",
+        "Sun D",
+        "Guo M",
+        "Xie M",
+        "Chen X"
+      ],
+      "title": "A nutrition and inflammation-related nomogram to predict overall survival in surgically resected esophageal squamous cell carcinoma (Escc) patients",
+      "journal": "Nutr Cancer",
+      "year": "2022",
+      "volume": "74",
+      "doi": "10.1080/01635581.2021.1957131",
+      "pmid": "34369223"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Qiu J",
+        "Yang J",
+        "Yu Y",
+        "Wang Z",
+        "Lin H",
+        "Ke D",
+        "et al."
+      ],
+      "title": "Prognostic value of pre-therapeutic nutritional risk factors in elderly patients with locally advanced esophageal squamous cell carcinoma receiving definitive chemoradiotherapy or radiotherapy",
+      "journal": "BMC Cancer",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "597",
+      "doi": "10.1186/s12885-023-11044-5",
+      "pmid": "37380982",
+      "pmc_id": "PMC10303855"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Arends J"
+      ],
+      "title": "Malnutrition in cancer patients: Causes, consequences and treatment options",
+      "journal": "Eur J Surg Oncol",
+      "year": "2024",
+      "volume": "50",
+      "elocation_id": "107074",
+      "doi": "10.1016/j.ejso.2023.107074",
+      "pmid": "37783594"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Jiang Y",
+        "Xu D",
+        "Song H",
+        "Qiu B",
+        "Tian D",
+        "Li Z",
+        "et al."
+      ],
+      "title": "Inflammation and nutrition-based biomarkers in the prognosis of oesophageal cancer: A systematic review and meta-analysis",
+      "journal": "BMJ Open",
+      "year": "2021",
+      "volume": "11",
+      "elocation_id": "e048324",
+      "doi": "10.1136/bmjopen-2020-048324",
+      "pmid": "34593492",
+      "pmc_id": "PMC8487212"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Fan H",
+        "Ma W",
+        "Fu Y",
+        "Yi T",
+        "Tian J"
+      ],
+      "title": "Association of geriatric nutritional risk index with survival outcomes in patients with esophageal squamous cell carcinoma: A meta-analysis",
+      "journal": "Nutr Cancer",
+      "year": "2022",
+      "volume": "74",
+      "doi": "10.1080/01635581.2022.2028865",
+      "pmid": "35179086"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Xiao FK",
+        "Wang L",
+        "Zhang WC",
+        "Wang LD",
+        "Zhao LS"
+      ],
+      "title": "Preoperative prognostic nutritional index is a significant predictor of survival in esophageal squamous cell carcinoma patients",
+      "journal": "Nutr Cancer",
+      "year": "2021",
+      "volume": "73",
+      "doi": "10.1080/01635581.2020.1757129",
+      "pmid": "32336142"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Wu Z",
+        "Zhang Z",
+        "Gu C"
+      ],
+      "title": "Prognostic and clinicopathological impact of systemic inflammation response index (Siri) on patients with esophageal cancer: A meta-analysis",
+      "journal": "Syst Rev",
+      "year": "2025",
+      "volume": "14",
+      "fpage": "104",
+      "doi": "10.1186/s13643-025-02847-7",
+      "pmid": "40346701",
+      "pmc_id": "PMC12063246"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Szincsak S",
+        "Király P",
+        "Szegvari G",
+        "Horváth M",
+        "Dora D",
+        "Lohinai Z"
+      ],
+      "title": "Predicting immunotherapy efficacy with machine learning in gastrointestinal cancers: A systematic review and meta-analysis",
+      "journal": "Int J Mol Sci",
+      "year": "2025",
+      "volume": "26",
+      "elocation_id": "5937",
+      "doi": "10.3390/ijms26135937",
+      "pmid": "40649716",
+      "pmc_id": "PMC12250185"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Zhang K",
+        "Ye B",
+        "Wu L",
+        "Ni S",
+        "Li Y",
+        "Wang Q",
+        "et al."
+      ],
+      "title": "Machine learning-based prediction of survival prognosis in esophageal squamous cell carcinoma",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "13532",
+      "doi": "10.1038/s41598-023-40780-8",
+      "pmid": "37598277",
+      "pmc_id": "PMC10439907"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Tian F",
+        "He X",
+        "Wang S",
+        "Liang Y",
+        "Wang Z",
+        "Hu M",
+        "et al."
+      ],
+      "title": "Integrating single-cell sequencing and machine learning to uncover the role of mitophagy in subtyping and prognosis of esophageal cancer",
+      "journal": "Apoptosis",
+      "year": "2025",
+      "volume": "30",
+      "doi": "10.1007/s10495-024-02061-1",
+      "pmid": "39948301"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Yu C",
+        "Bian Y",
+        "Gao Y",
+        "Jiao Y",
+        "Xu Y",
+        "Wang W",
+        "et al."
+      ],
+      "title": "Machine learning-based lactate-related genes signature predicts clinical outcomes and unveils novel therapeutic targets in esophageal squamous cell carcinoma",
+      "journal": "Cancer Lett",
+      "year": "2025",
+      "volume": "613",
+      "elocation_id": "217458",
+      "doi": "10.1016/j.canlet.2025.217458",
+      "pmid": "39864540"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Yang Z",
+        "Gong J",
+        "Li J",
+        "Sun H",
+        "Pan Y",
+        "Zhao L"
+      ],
+      "title": "The gap before real clinical application of imaging-based machine-learning and radiomic models for chemoradiation outcome prediction in esophageal cancer: A systematic review and meta-analysis",
+      "journal": "Int J Surg",
+      "year": "2023",
+      "volume": "109",
+      "doi": "10.1097/js9.0000000000000441",
+      "pmid": "37463039",
+      "pmc_id": "PMC10442126"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Shi Z",
+        "Zhang Z",
+        "Liu Z",
+        "Zhao L",
+        "Ye Z",
+        "Dekker A",
+        "et al."
+      ],
+      "title": "Methodological quality of machine learning-based quantitative imaging analysis studies in esophageal cancer: A systematic review of clinical outcome prediction after concurrent chemoradiotherapy",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "year": "2022",
+      "volume": "49",
+      "doi": "10.1007/s00259-021-05658-9",
+      "pmid": "34939174",
+      "pmc_id": "PMC9206619"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Cui Y",
+        "Li Z",
+        "Xiang M",
+        "Han D",
+        "Yin Y",
+        "Ma C"
+      ],
+      "title": "Machine learning models predict overall survival and progression free survival of non-surgical esophageal cancer patients with chemoradiotherapy based on Ct image radiomics signatures",
+      "journal": "Radiat Oncol",
+      "year": "2022",
+      "volume": "17",
+      "fpage": "212",
+      "doi": "10.1186/s13014-022-02186-0",
+      "pmid": "36575480",
+      "pmc_id": "PMC9795769"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Huang Y",
+        "Bazzazzadehgan S",
+        "Li J",
+        "Arabshomali A",
+        "Li M",
+        "Bhattacharya K",
+        "et al."
+      ],
+      "title": "Comparison of machine learning methods versus traditional Cox regression for survival prediction in cancer using real-world data: A systematic literature review and meta-analysis",
+      "journal": "BMC Med Res Methodol",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "243",
+      "doi": "10.1186/s12874-025-02694-z",
+      "pmid": "41152747",
+      "pmc_id": "PMC12570641"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Friedrich S",
+        "Groll A",
+        "Ickstadt K",
+        "Kneib T",
+        "Pauly M",
+        "Rahnenführer J",
+        "et al."
+      ],
+      "title": "Regularization approaches in clinical biostatistics: A review of methods and their applications",
+      "journal": "Stat Methods Med Res",
+      "year": "2023",
+      "volume": "32",
+      "doi": "10.1177/09622802221133557",
+      "pmid": "36384320",
+      "pmc_id": "PMC9896544"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Wu H",
+        "Yu Y",
+        "Zheng Q",
+        "Liu T",
+        "Wu Y",
+        "Wang Z",
+        "et al."
+      ],
+      "title": "Benefit of chemotherapy based on platinum with definitive radiotherapy in older patients with locally advanced esophageal squamous cell carcinoma",
+      "journal": "Radiat Oncol",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "207",
+      "doi": "10.1186/s13014-021-01931-1",
+      "pmid": "34717670",
+      "pmc_id": "PMC8557531"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "D’Journo XB"
+      ],
+      "title": "Clinical implication of the innovations of the 8(th) edition of the Tnm classification for esophageal and esophago-gastric cancer",
+      "journal": "J Thorac Dis",
+      "year": "2018",
+      "volume": "10",
+      "doi": "10.21037/jtd.2018.03.182",
+      "pmid": "30345104",
+      "pmc_id": "PMC6178301"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Zhao Q",
+        "Hu G",
+        "Xiao W",
+        "Chen Y",
+        "Shen M",
+        "Tang Q",
+        "et al."
+      ],
+      "title": "Comparison of definitive chemoradiotherapy and radiotherapy alone in patients older than 75 years with locally advanced esophageal carcinoma: A retrospective cohort study",
+      "journal": "Med (Baltimore)",
+      "year": "2017",
+      "volume": "96",
+      "elocation_id": "e7920",
+      "doi": "10.1097/md.0000000000007920",
+      "pmid": "28858114",
+      "pmc_id": "PMC5585508"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Kato A",
+        "Aoyama T",
+        "Maezawa Y",
+        "Hashimoto I",
+        "Hara K",
+        "Kazama K",
+        "et al."
+      ],
+      "title": "Geriatric nutritional risk index is an independent prognostic factor for patients with esophageal cancer who receive curative treatment",
+      "journal": "Anticancer Res",
+      "year": "2024",
+      "volume": "44",
+      "doi": "10.21873/anticanres.16816",
+      "pmid": "38159974"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Chen SB",
+        "Liu DT",
+        "Chen YP"
+      ],
+      "title": "The impact of preoperative nutritional status on the survival of patients with esophageal squamous cell carcinoma",
+      "journal": "Front Surg",
+      "year": "2021",
+      "volume": "8",
+      "elocation_id": "752792",
+      "doi": "10.3389/fsurg.2021.752792",
+      "pmid": "34988110",
+      "pmc_id": "PMC8722666"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Hong H",
+        "He Y",
+        "Huang W",
+        "Li Y",
+        "Shen Y",
+        "Sun D",
+        "et al."
+      ],
+      "title": "Correlation of nutritional support and immunonutritional indicators with prognosis and survival in esophageal squamous cell carcinoma patients undergoing concurrent chemoradiotherapy",
+      "journal": "Nutr J",
+      "year": "2025",
+      "volume": "24",
+      "fpage": "177",
+      "doi": "10.1186/s12937-025-01247-w",
+      "pmid": "41267055",
+      "pmc_id": "PMC12632025"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Chen MF",
+        "Hsieh CC",
+        "Chen PT",
+        "Lu MS"
+      ],
+      "title": "Role of nutritional status in the treatment outcome for esophageal squamous cell carcinoma",
+      "journal": "Nutrients",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "2997",
+      "doi": "10.3390/nu13092997",
+      "pmid": "34578883",
+      "pmc_id": "PMC8466664"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Cong MH",
+        "Li SL",
+        "Cheng GW",
+        "Liu JY",
+        "Song CX",
+        "Deng YB",
+        "et al."
+      ],
+      "title": "An interdisciplinary nutrition support team improves clinical and hospitalized outcomes of esophageal cancer patients with concurrent chemoradiotherapy",
+      "journal": "Chin Med J (Engl)",
+      "year": "2015",
+      "volume": "128",
+      "doi": "10.4103/0366-6999.168963",
+      "pmid": "26608978",
+      "pmc_id": "PMC4795249"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Doğan Akagündüz D",
+        "Türker PF"
+      ],
+      "title": "Nutritional support in older patients with esophageal cancer undergoing chemoradiotherapy",
+      "journal": "Nutr Cancer",
+      "year": "2022",
+      "volume": "74",
+      "doi": "10.1080/01635581.2022.2096245",
+      "pmid": "35786221"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Kimura Y",
+        "Gakuhara A",
+        "Fukuda S",
+        "Fukuda Y",
+        "Yoshihara T",
+        "Koga C",
+        "et al."
+      ],
+      "title": "Nutritional management during chemotherapy and chemoradiotherapy for advanced esophageal cancer",
+      "journal": "Esophagus",
+      "year": "2025",
+      "volume": "22",
+      "doi": "10.1007/s10388-025-01117-8",
+      "pmid": "40155587",
+      "pmc_id": "PMC12167285"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Boyle E",
+        "Elliott JA"
+      ],
+      "title": "Novel nutrition strategies in gastric and esophageal cancer",
+      "journal": "Expert Rev Gastroenterol Hepatol",
+      "year": "2025",
+      "volume": "19",
+      "fpage": "89",
+      "lpage": "104",
+      "doi": "10.1080/17474124.2025.2457444",
+      "pmid": "39864091"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Geng Y",
+        "Zhu D",
+        "Wu C",
+        "Wu J",
+        "Wang Q",
+        "Li R",
+        "et al."
+      ],
+      "title": "A novel systemic inflammation response index (Siri) for predicting postoperative survival of patients with esophageal squamous cell carcinoma",
+      "journal": "Int Immunopharmacol",
+      "year": "2018",
+      "volume": "65",
+      "doi": "10.1016/j.intimp.2018.10.002",
+      "pmid": "30408627"
     }
   ]
 }

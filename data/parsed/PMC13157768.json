@@ -20,7 +20,8 @@
     "pmc_id": "PMC13157768",
     "pmid": "42103358",
     "full_text_available": true,
-    "section_count": 25
+    "section_count": 25,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -147,6 +148,816 @@
       "section": "Discussion",
       "text": "Pain is suggested to be the initial symptom of oral cancer and is reported to be a common complaint in patients both pretreatment and post-treatment. 29 Pretreatment pain is a signal of poor pathological features, including PNI and lymph node metastasis in OSCC. Immune modulation of the microenvironment affects cancer progression and pain signaling, indicating the important role of nerve tissue in cancer development. 30 Tumor-associated nerves induce local inflammation and promote resistance to anti-PD-1 therapy. The results revealed that non-responders had higher rates of PNI, nerve damage, and degeneration, together with more infiltration of M2 macrophages and Tregs. 31 Neuroinflammation, mitochondrial dysfunction, and cellular metabolism were also observed in OSCC. 32 Although the prognostic value of PNI remains debated, emerging evidence indicates its role in promoting head and neck cancer. 33 In this study, our evidence depicted that PNI is associated with the poor prognosis of patients with OSCC, and the depth of tumor invasion has the greatest impact on PNI. Recently, there has been a growing number of studies reporting on the mechanisms underlying the regulation of the neural and immune microenvironments in tumors. Among the studies, CGRP derived from nociceptive neurons is most well studied; the CGRP and neural growth factor in gastric tumors stimulate the cancer cell growth. 34 NGF secretion from cancer-associated fibroblasts promotes the invasion of neural tissue around the invasion margin and further accelerates CRC proliferation. 35 The neural and matrix interactions also inhibit the function of natural killer cells in PDAC. 36 In head and neck cancer, neurogenic CGRP induces cytoprotective autophagy in cancer cells. 9 T cells are important members of the TME, and their activities are also affected by CGRP. For example, the CGRP-RAMP1 signal promotes the T helper type 1 differentiation to increase the antiviral function. 15 Conversely, the interaction between CGRP and RAMP1 receptor on CD8 + T leads to the upregulation of PD-1 and CTLA-4, affecting cancer immunosurveillance. 16 In our study, Tregs were recruited to the PNI region, and the levels of RAMP1 and immune checkpoint molecules increased after co-culture with nerve tissue, establishing a relationship between nerves and Tregs. The enhanced expression of RAMP1 and immune checkpoint molecules observed in PNI + regions may reflect intensified neuro-immune interactions within the neural niche microenvironment. 37 In the context of PNI, sensory neurons release neuropeptides, including CGRP, which signals through the CGRP receptor complex containing RAMP1. Increased RAMP1 expression may sensitize immune cells to CGRP-mediated signaling, thereby amplifying downstream cAMP-dependent pathways. 38 Such activation may promote an immunosuppressive phenotype characterized by Treg recruitment and functional stabilization, accompanied by increased expression of immune checkpoint molecules, including PD-1 and CTLA-4. Additionally, CGRP signaling may indirectly enhance checkpoint expression by upregulating immunoregulatory cytokines, including IL-10 and TGF-β. 39 Together, these findings suggest that neural signaling in PNI + regions contributes to the reinforcement of immune checkpoint activation and immune evasion. The feasibility of targeting the interactions between peripheral nerves and the tumor immune microenvironment as a therapeutic strategy is increasingly being recognized, particularly by disrupting the connections between nerves and immune cells or nerves and tumor cells. 8 Potential targets include adrenergic signaling, 40 GABA, 41 acetylcholine, 42 dopamine, 43 and CGRP signaling. 9 Blockade of tumor-associated neural activities impairs the tumor’s survival capacity by inhibiting the tumor growth signaling, altering its metabolism status, and reversing the immunosuppressive microenvironment. In this study, we designed two combination immunotherapy strategies targeting distinct mechanisms within the neural niche. The first combined a neutralizing anti-CCL5 antibody with anti-CTLA-4 to inhibit Treg recruitment and enhance CD8 + T cell activation. The second approach targeted the CGRP–RAMP1 axis by combining rimegepant with anti-PD-1 to suppress Treg function and restore anti-tumor immunity. Both regimens revealed significant therapeutic efficacy. Notably, rimegepant plus anti-PD-1 achieved significant anti-tumor effects and was also associated with a reduction in Treg infiltration. Given that anti-CTLA-4 therapy is associated with a higher risk of immune-related adverse events affecting major organs such as the heart, liver, lungs, kidneys, and gastrointestinal tract due to the disruption of immune tolerance, the combination of rimegepant and anti-PD-1 may represent a safer and effective therapeutic strategy. 44 45 With advances in single-cell RNA sequencing and spatial transcriptomics, we can elucidate the differences in the TME between oral cancers with and without PNI. However, neuronal cells are relatively difficult to capture during single-cell RNA sequencing, making it challenging to directly visualize neurons in spatial transcriptomics data. Future research may leverage high-resolution spatial transcriptomics to enable finer characterization of tumor tissue structures and deeper investigation into the underlying biological mechanisms. In summary, our findings demonstrate that PNI facilitates the formation of an immunosuppressive microenvironment through its impact on Tregs, thereby providing a theoretical and experimental foundation for future investigations.",
       "order": 24
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Ren ZH",
+        "Hu CY",
+        "He HR",
+        "et al."
+      ],
+      "title": "Global and regional burdens of oral cancer from 1990 to 2017: Results from the global burden of disease study",
+      "journal": "Cancer Commun (Lond )",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "81",
+      "lpage": "92",
+      "doi": "10.1002/cac2.12009",
+      "pmid": "32067418",
+      "pmc_id": "PMC7163731"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Fuchs HE",
+        "et al."
+      ],
+      "title": "Cancer statistics, 2022",
+      "journal": "CA Cancer J Clin",
+      "year": "2022",
+      "volume": "72",
+      "fpage": "7",
+      "lpage": "33",
+      "doi": "10.3322/caac.21708",
+      "pmid": "35020204"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Hanahan D",
+        "Weinberg RA"
+      ],
+      "title": "Hallmarks of cancer: the next generation",
+      "journal": "Cell",
+      "year": "2011",
+      "volume": "144",
+      "fpage": "646",
+      "lpage": "74",
+      "doi": "10.1016/j.cell.2011.02.013",
+      "pmid": "21376230"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Hanahan D",
+        "Monje M"
+      ],
+      "title": "Cancer hallmarks intersect with neuroscience in the tumor microenvironment",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "573",
+      "lpage": "80",
+      "doi": "10.1016/j.ccell.2023.02.012",
+      "pmid": "36917953",
+      "pmc_id": "PMC10202656"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Venkatesh HS",
+        "Johung TB",
+        "Caretti V",
+        "et al."
+      ],
+      "title": "Neuronal Activity Promotes Glioma Growth through Neuroligin-3 Secretion",
+      "journal": "Cell",
+      "year": "2015",
+      "volume": "161",
+      "fpage": "803",
+      "lpage": "16",
+      "doi": "10.1016/j.cell.2015.04.012",
+      "pmid": "25913192",
+      "pmc_id": "PMC4447122"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Guo X",
+        "Pan Y",
+        "Xiong M",
+        "et al."
+      ],
+      "title": "Midkine activation of CD8 + T cells establishes a neuron-immune-cancer axis responsible for low-grade glioma growth",
+      "journal": "Nat Commun",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "2177",
+      "doi": "10.1038/s41467-020-15770-3",
+      "pmid": "32358581",
+      "pmc_id": "PMC7195398"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Xu Q",
+        "Cao Y",
+        "Kong F",
+        "et al."
+      ],
+      "title": "Multiple cancer cell types release LIF and Gal3 to hijack neural signals",
+      "journal": "Cell Res",
+      "year": "2024",
+      "volume": "34",
+      "fpage": "345",
+      "lpage": "54",
+      "doi": "10.1038/s41422-024-00946-z",
+      "pmid": "38467743",
+      "pmc_id": "PMC11061112"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Yaniv D",
+        "Mattson B",
+        "Talbot S",
+        "et al."
+      ],
+      "title": "Targeting the peripheral neural-tumour microenvironment for cancer therapy",
+      "journal": "Nat Rev Drug Discov",
+      "year": "2024",
+      "volume": "23",
+      "fpage": "780",
+      "lpage": "96",
+      "doi": "10.1038/s41573-024-01017-z",
+      "pmid": "39242781",
+      "pmc_id": "PMC12123372"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Zhang Y",
+        "Lin C",
+        "Liu Z",
+        "et al."
+      ],
+      "title": "Cancer cells co-opt nociceptive nerves to thrive in nutrient-poor environments and upon nutrient-starvation therapies",
+      "journal": "Cell Metab",
+      "year": "2022",
+      "volume": "34",
+      "fpage": "1999",
+      "lpage": "2017",
+      "doi": "10.1016/j.cmet.2022.10.012",
+      "pmid": "36395769"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Burtness B",
+        "Harrington KJ",
+        "Greil R",
+        "et al."
+      ],
+      "title": "Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048): a randomised, open-label, phase 3 study",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "1915",
+      "lpage": "28",
+      "doi": "10.1016/S0140-6736(19)32591-7",
+      "pmid": "31679945"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Huppert LA",
+        "Green MD",
+        "Kim L",
+        "et al."
+      ],
+      "title": "Tissue-specific Tregs in cancer metastasis: opportunities for precision immunotherapy",
+      "journal": "Cell Mol Immunol",
+      "year": "2022",
+      "volume": "19",
+      "fpage": "33",
+      "lpage": "45",
+      "doi": "10.1038/s41423-021-00742-4",
+      "pmid": "34417572",
+      "pmc_id": "PMC8752797"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Tay C",
+        "Tanaka A",
+        "Sakaguchi S"
+      ],
+      "title": "Tumor-infiltrating regulatory T cells as targets of cancer immunotherapy",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "450",
+      "lpage": "65",
+      "doi": "10.1016/j.ccell.2023.02.014",
+      "pmid": "36917950"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Montauti E",
+        "Weinberg SE",
+        "Chu P",
+        "et al."
+      ],
+      "title": "A deubiquitination module essential for T reg fitness in the tumor microenvironment",
+      "journal": "Sci Adv",
+      "year": "2022",
+      "volume": "8",
+      "elocation_id": "eabo4116",
+      "doi": "10.1126/sciadv.abo4116",
+      "pmid": "36427305",
+      "pmc_id": "PMC9699683"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Liu Z",
+        "Zhang Z",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Spatial transcriptomics reveals that metabolic characteristics define the tumor immunosuppression microenvironment via iCAF transformation in oral squamous cell carcinoma",
+      "journal": "Int J Oral Sci",
+      "year": "2024",
+      "volume": "16",
+      "elocation_id": "9",
+      "doi": "10.1038/s41368-023-00267-8",
+      "pmid": "38287007",
+      "pmc_id": "PMC10824761"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Hou Y",
+        "Sun L",
+        "LaFleur MW",
+        "et al."
+      ],
+      "title": "Neuropeptide signalling orchestrates T cell differentiation",
+      "journal": "Nature New Biol",
+      "year": "2024",
+      "volume": "635",
+      "fpage": "444",
+      "lpage": "52",
+      "doi": "10.1038/s41586-024-08049-w",
+      "pmc_id": "PMC11951087",
+      "pmid": "39415015"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Balood M",
+        "et al."
+      ],
+      "title": "Nociceptor neurons affect cancer immunosurveillance",
+      "journal": "Nature New Biol",
+      "year": "2022",
+      "volume": "611",
+      "fpage": "405",
+      "lpage": "12",
+      "doi": "10.1038/s41586-022-05374-w",
+      "pmc_id": "PMC9646485",
+      "pmid": "36323780"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Xu S",
+        "Hu E",
+        "Cai Y",
+        "et al."
+      ],
+      "title": "Using clusterProfiler to characterize multiomics data",
+      "journal": "Nat Protoc",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "3292",
+      "lpage": "320",
+      "doi": "10.1038/s41596-024-01020-z",
+      "pmid": "39019974"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Mootha VK",
+        "et al."
+      ],
+      "title": "PGC-1α-responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes",
+      "journal": "Nat Genet",
+      "year": "2003",
+      "volume": "34",
+      "fpage": "267",
+      "lpage": "73",
+      "doi": "10.1038/ng1180",
+      "pmid": "12808457"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Subramanian A",
+        "Tamayo P",
+        "Mootha VK",
+        "et al."
+      ],
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2005",
+      "volume": "102",
+      "fpage": "15545",
+      "lpage": "50",
+      "doi": "10.1073/pnas.0506580102",
+      "pmid": "16199517",
+      "pmc_id": "PMC1239896"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Aran D",
+        "et al."
+      ],
+      "title": "Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage",
+      "journal": "Nat Immunol",
+      "year": "2019",
+      "volume": "20",
+      "fpage": "163",
+      "lpage": "72",
+      "doi": "10.1038/s41590-018-0276-y",
+      "pmid": "30643263",
+      "pmc_id": "PMC6340744"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Hu C",
+        "Li T",
+        "Xu Y",
+        "et al."
+      ],
+      "title": "CellMarker 2.0: an updated database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data",
+      "journal": "Nucleic Acids Res",
+      "year": "2023",
+      "volume": "51",
+      "fpage": "D870",
+      "lpage": "6",
+      "doi": "10.1093/nar/gkac947",
+      "pmid": "36300619",
+      "pmc_id": "PMC9825416"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Cable DM",
+        "Murray E",
+        "Zou LS",
+        "et al."
+      ],
+      "title": "Robust decomposition of cell type mixtures in spatial transcriptomics",
+      "journal": "Nat Biotechnol",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "517",
+      "lpage": "26",
+      "doi": "10.1038/s41587-021-00830-w",
+      "pmid": "33603203",
+      "pmc_id": "PMC8606190"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Hahsler M",
+        "Piekenbrock M",
+        "Doran D dbscan"
+      ],
+      "title": "Fast Density-Based Clustering with R",
+      "journal": "J Stat Softw",
+      "year": "2019",
+      "doi": "10.18637/jss.v091.i01"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Xun Z",
+        "Ding X",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Reconstruction of the tumor spatial microenvironment along the malignant-boundary-nonmalignant axis",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "933",
+      "doi": "10.1038/s41467-023-36560-7",
+      "pmid": "36806082",
+      "pmc_id": "PMC9941488"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Cang Z",
+        "Zhao Y",
+        "Almet AA",
+        "et al."
+      ],
+      "title": "Screening cell-cell communication in spatial transcriptomics via collective optimal transport",
+      "journal": "Nat Methods",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "218",
+      "lpage": "28",
+      "doi": "10.1038/s41592-022-01728-4",
+      "pmid": "36690742",
+      "pmc_id": "PMC9911355"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Wolf FA",
+        "Angerer P",
+        "Theis FJ"
+      ],
+      "title": "SCANPY: large-scale single-cell gene expression data analysis",
+      "journal": "Genome Biol",
+      "year": "2018",
+      "volume": "19",
+      "elocation_id": "15",
+      "doi": "10.1186/s13059-017-1382-0",
+      "pmid": "29409532",
+      "pmc_id": "PMC5802054"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Jin S",
+        "Guerrero-Juarez CF",
+        "Zhang L",
+        "et al."
+      ],
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "1088",
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "33597522",
+      "pmc_id": "PMC7889871"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Baruch EN",
+        "Gleber-Netto FO",
+        "Nagarajan P",
+        "et al."
+      ],
+      "title": "Cancer-induced nerve injury promotes resistance to anti-PD-1 therapy",
+      "journal": "Nature New Biol",
+      "year": "2025",
+      "volume": "646",
+      "fpage": "462",
+      "lpage": "73",
+      "doi": "10.1038/s41586-025-09370-8",
+      "pmc_id": "PMC12406299",
+      "pmid": "40836096"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "Dios PD",
+        "Lestón JS"
+      ],
+      "title": "Oral cancer pain",
+      "journal": "Oral Oncol",
+      "year": "2010",
+      "volume": "46",
+      "fpage": "448",
+      "lpage": "51",
+      "doi": "10.1016/j.oraloncology.2010.02.017",
+      "pmid": "20308009"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Ye Y",
+        "Jensen DD",
+        "Viet CT",
+        "et al."
+      ],
+      "title": "Advances in Head and Neck Cancer Pain",
+      "journal": "J Dent Res",
+      "year": "2022",
+      "volume": "101",
+      "fpage": "1025",
+      "lpage": "33",
+      "doi": "10.1177/00220345221088527",
+      "pmid": "35416080",
+      "pmc_id": "PMC9305840"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Baruch EN",
+        "Nagarajan P",
+        "Gleber-Netto FO",
+        "et al."
+      ],
+      "title": "Inflammation induced by tumor-associated nerves promotes resistance to anti-PD-1 therapy in cancer patients and is targetable by interleukin-6 blockade",
+      "journal": "Res Sq",
+      "year": "2023",
+      "doi": "10.21203/rs.3.rs-3161761/v1"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Zhang M",
+        "Yuan M",
+        "Asam K",
+        "et al."
+      ],
+      "title": "Perineural Invasion Exhibits Traits of Neurodegeneration",
+      "journal": "J Dent Res",
+      "year": "2025",
+      "volume": "104",
+      "fpage": "1352",
+      "lpage": "60",
+      "doi": "10.1177/00220345251334379",
+      "pmid": "40492439",
+      "pmc_id": "PMC12678856"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Rutkowski K",
+        "Gola M",
+        "Godlewski J",
+        "et al."
+      ],
+      "title": "Understanding the role of nerves in head and neck cancers - a review",
+      "journal": "Oncol Rev",
+      "year": "2024",
+      "volume": "18",
+      "elocation_id": "1514004",
+      "doi": "10.3389/or.2024.1514004",
+      "pmid": "39906323",
+      "pmc_id": "PMC11791411"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Zhi X",
+        "Wu F",
+        "Qian J",
+        "et al."
+      ],
+      "title": "Nociceptive neurons promote gastric tumour progression via a CGRP-RAMP1 axis",
+      "journal": "Nature New Biol",
+      "year": "2025",
+      "volume": "640",
+      "fpage": "802",
+      "lpage": "10",
+      "doi": "10.1038/s41586-025-08591-1",
+      "pmc_id": "PMC13022952",
+      "pmid": "39972142"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "authors": [
+        "Kobayashi H",
+        "Iida T",
+        "Ochiai Y",
+        "et al."
+      ],
+      "title": "Neuro-Mesenchymal Interaction Mediated by a β2-Adrenergic Nerve Growth Factor Feedforward Loop Promotes Colorectal Cancer Progression",
+      "journal": "Cancer Discov",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "202",
+      "lpage": "26",
+      "doi": "10.1158/2159-8290.CD-24-0287",
+      "pmid": "39137067",
+      "pmc_id": "PMC11729495"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36",
+      "authors": [
+        "Wang K",
+        "Ni B",
+        "Xie Y",
+        "et al."
+      ],
+      "title": "Nociceptor neurons promote PDAC progression and cancer pain by interaction with cancer-associated fibroblasts and suppression of natural killer cells",
+      "journal": "Cell Res",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "362",
+      "lpage": "80",
+      "doi": "10.1038/s41422-025-01098-4",
+      "pmid": "40122998",
+      "pmc_id": "PMC12012126"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37",
+      "authors": [
+        "Zhang Y",
+        "Guo Y",
+        "Liu Z",
+        "et al."
+      ],
+      "title": "Cancer cells co-opt an inter-organ neuroimmune circuit to escape immune surveillance",
+      "journal": "Cell",
+      "year": "2025",
+      "volume": "188",
+      "fpage": "6754",
+      "lpage": "73",
+      "doi": "10.1016/j.cell.2025.09.029",
+      "pmid": "41138728"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "authors": [
+        "Wu M",
+        "Song G",
+        "Li J",
+        "et al."
+      ],
+      "title": "Innervation of nociceptor neurons in the spleen promotes germinal center responses and humoral immunity",
+      "journal": "Cell",
+      "year": "2024",
+      "volume": "187",
+      "fpage": "2935",
+      "lpage": "51",
+      "doi": "10.1016/j.cell.2024.04.027",
+      "pmid": "38772371"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39",
+      "authors": [
+        "Volobueva MN",
+        "Suleymanova EM",
+        "Smirnova MP",
+        "et al."
+      ],
+      "title": "A Single Episode of Cortical Spreading Depolarization Increases mRNA Levels of Proinflammatory Cytokines, Calcitonin Gene-Related Peptide and Pannexin-1 Channels in the Cerebral Cortex",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "24",
+      "elocation_id": "85",
+      "doi": "10.3390/ijms24010085",
+      "pmid": "36613527",
+      "pmc_id": "PMC9820231"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Wang HM",
+        "Liao ZX",
+        "Komaki R",
+        "et al."
+      ],
+      "title": "Improved survival outcomes with the incidental use of beta-blockers among patients with non-small-cell lung cancer treated with definitive radiation therapy",
+      "journal": "Ann Oncol",
+      "year": "2013",
+      "volume": "24",
+      "fpage": "1312",
+      "lpage": "9",
+      "doi": "10.1093/annonc/mds616",
+      "pmid": "23300016",
+      "pmc_id": "PMC3629895"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41",
+      "authors": [
+        "Zhang X",
+        "Du Z",
+        "Liu J",
+        "et al."
+      ],
+      "title": "Γ-aminobutyric acid receptors affect the progression and migration of tumor cells",
+      "journal": "J Recept Signal Transduct Res",
+      "year": "2014",
+      "volume": "34",
+      "fpage": "431",
+      "lpage": "9",
+      "doi": "10.3109/10799893.2013.856918",
+      "pmid": "25167198"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "authors": [
+        "Chen J",
+        "Cheuk IWY",
+        "Shin VY",
+        "et al."
+      ],
+      "title": "Acetylcholine receptors: Key players in cancer development",
+      "journal": "Surg Oncol",
+      "year": "2019",
+      "volume": "31",
+      "fpage": "46",
+      "lpage": "53",
+      "doi": "10.1016/j.suronc.2019.09.003",
+      "pmid": "31536927"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "authors": [
+        "Grant CE",
+        "Flis AL",
+        "Ryan BM"
+      ],
+      "title": "Understanding the role of dopamine in cancer: past, present and future",
+      "journal": "Carcinogenesis",
+      "year": "2022",
+      "volume": "43",
+      "fpage": "517",
+      "lpage": "27",
+      "doi": "10.1093/carcin/bgac045",
+      "pmid": "35616105",
+      "pmc_id": "PMC9391687"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "authors": [
+        "Martins F",
+        "Sofiya L",
+        "Sykiotis GP",
+        "et al."
+      ],
+      "title": "Adverse effects of immune-checkpoint inhibitors: epidemiology, management and surveillance",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2019",
+      "volume": "16",
+      "fpage": "563",
+      "lpage": "80",
+      "doi": "10.1038/s41571-019-0218-0",
+      "pmid": "31092901"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "Skoulidis F",
+        "Araujo HA",
+        "Do MT",
+        "et al."
+      ],
+      "title": "CTLA4 blockade abrogates KEAP1/STK11-related resistance to PD-(L)1 inhibitors",
+      "journal": "Nature New Biol",
+      "year": "2024",
+      "volume": "635",
+      "fpage": "462",
+      "lpage": "71",
+      "doi": "10.1038/s41586-024-07943-7",
+      "pmc_id": "PMC11560846",
+      "pmid": "39385035"
     }
   ]
 }

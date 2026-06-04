@@ -14,7 +14,8 @@
     "pmc_id": "PMC13218183",
     "pmid": "42203284",
     "full_text_available": true,
-    "section_count": 10
+    "section_count": 10,
+    "reference_count": 35
   },
   "sections": [
     {
@@ -66,6 +67,500 @@
       "section": "Discussion",
       "text": "The addition of PD-1 immune checkpoint inhibitors to chemotherapy demonstrated significant efficacy in cancer management. However, accessing approved PD-1 therapies has considerable financial implications and poses a substantial burden for patients and healthcare payers worldwide. In the USA, uniform pricing models exacerbate this economic pressure by pricing new therapies on their initial approved indication; thus, new approved therapies for the ESCC setting inherit high prices established by their earlier approvals in other cancers. Previous cost-effectiveness analyses of Food and Drug Administration (FDA)-approved PD-1 inhibitors in advanced ESCC showed that none were cost-effective in the US setting at a US$100 000 per QALY threshold, and some are marginally cost-effective at US$150 000 per QALY. 11 15 Some economic evaluations employed network meta-analyses to indirectly compare PD-1 inhibitors by anchoring to a placebo arm, suggesting that tislelizumab provided greater QALY gains than pembrolizumab or nivolumab. 30 31 Other network meta-analyses also indicated that tislelizumab was associated with improved OS compared with pembrolizumab and nivolumab. 32 34 However, these analyses produced wide CIs, and head-to-head comparisons cannot be reliably inferred from indirect evidence. Therefore, this analysis focused on a more robust strategy by replicating the RATIONALE-306 trial design and inferring the initial age distribution from US patients to directly compare tislelizumab plus chemotherapy against chemotherapy alone across multiple guideline-supported backbones, preserving internal validity and avoiding indirect comparisons limitations. Current US pricing provides important context for our value-based pricing analysis. Pembrolizumab costs approximately US$11 146 per cycle, and nivolumab costs US$7620 per cycle for ESCC treatment. 22 Based on recent market entry data, tislelizumab might be priced at approximately US$10 031 per cycle (representing a 10% discount to pembrolizumab). 35 At the upper bound of our value-based range (US$7160/cycle), tislelizumab would be priced approximately 36% lower than pembrolizumab and 6% lower than nivolumab, potentially enhancing formulary positioning and payer coverage decisions specifically as a first-line treatment. However, our modelling demonstrates that tislelizumab at its anticipated market price of US$10 031 per cycle would not achieve cost-effectiveness for the overall population at any conventional willingness-to-pay threshold. The gap between this price and the value-based ceiling (US$7160/cycle at a US$200 000/QALY threshold) has a direct implication for patient access, particularly for uninsured and underinsured populations facing high out-of-pocket costs. Pricing within the value-based range could improve patient access by reducing cost-sharing and potentially expanding coverage through preferred formulary selection. From a market competition perspective, value-based pricing could position tislelizumab as a cost-effective alternative. Our base-case analysis used pooled RATIONALE-306 population data without stratification by geographic region, patient race, or any other subgroup. The trial reported variation in outcomes across geographic-based subgroups, with HRs of OS of 0.49 in patients from Japan to 0.70 in patients from other Asian countries. Separate race-based analyses showed HRs of 0.69 for Asian and other races compared with 0.61 for White patients. These subgroup differences in treatment effect also have implications for value-based pricing across patient populations. Stronger survival benefits in certain subgroups could position tislelizumab at a higher value-based price, further supporting its competitive positioning relative to current first-line treatments. Our scenario analyses varying OS HRs ( figure 3 ) provided value-based pricing estimates that reflected this population heterogeneity documented in the trial. This economic evaluation has several limitations. First, the absence of extended follow-up data of the trial participants might have introduced uncertainty about projected outcomes. To mitigate the potential bias, we simulated the model with a life-time horizon and used survival estimates from the published trial survival curves. Second, we did not consider the cost of supportive and end-of-life care. Third, we used the utility estimates for health states and adverse events from previous economic studies, as the RCT of tislelizumab lacked health state utility data. To validate our findings, we performed sensitivity analyses, adjusting all variables by 20% and additionally tested wider uncertainty ranges for health state utilities by varying them by 30% ( online supplemental eTables 4-6 ). Fourth, in our analysis, we used generic pricing for the NCCN-preferred oxaliplatin chemotherapy backbone and second-line paclitaxel. Since both treatment arms were assumed to have identical chemotherapy regimens, chemotherapy costs cancel out in the incremental cost-effectiveness calculation, so the differential cost will be entirely due to the additional per-cycle treatment of tislelizumab. Therefore, using alternative regimens does not change the incremental costs, ICER, or value-based pricing thresholds. Despite these limitations, this research offered valuable insights for policymakers and healthcare professionals regarding tislelizumab cost-effectiveness across a range of WTP thresholds and patient populations. In conclusion, this study determined the economic value of adding tislelizumab to the chemotherapy regimen in the context of the US healthcare system for patients with advanced, unresectable, or metastatic oesophageal squamous cell carcinoma.",
       "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Jiang Y",
+        "Lin Y",
+        "Wen Y",
+        "et al."
+      ],
+      "title": "Global trends in the burden of esophageal cancer, 1990-2019: results from the Global Burden of Disease Study 2019",
+      "journal": "J Thorac Dis",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "348",
+      "lpage": "64",
+      "doi": "10.21037/jtd-22-856",
+      "pmid": "36910098",
+      "pmc_id": "PMC9992583"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "title": "Key statistics for esophageal cancer",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Ben-Umeh K",
+        "Duru EE",
+        "Tawfik AG",
+        "et al."
+      ],
+      "title": "SA36 Economic Burden of Esophageal Cancer: A Systematic Review of Global Evidence",
+      "journal": "Value Health",
+      "year": "2023",
+      "volume": "26",
+      "elocation_id": "S403",
+      "doi": "10.1016/j.jval.2023.03.2252"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Yabroff KR",
+        "Mariotto A",
+        "Tangka F",
+        "et al."
+      ],
+      "title": "Annual Report to the Nation on the Status of Cancer, Part 2: Patient Economic Burden Associated With Cancer Care",
+      "journal": "J Natl Cancer Inst",
+      "year": "2021",
+      "volume": "113",
+      "fpage": "1670",
+      "lpage": "82",
+      "doi": "10.1093/jnci/djab192",
+      "pmid": "34698839",
+      "pmc_id": "PMC9891103"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Mariotto AB",
+        "Enewold L",
+        "Zhao J",
+        "et al."
+      ],
+      "title": "Medical Care Costs Associated with Cancer Survivorship in the United States",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2020",
+      "volume": "29",
+      "fpage": "1304",
+      "lpage": "12",
+      "doi": "10.1158/1055-9965.EPI-19-1534",
+      "pmid": "32522832",
+      "pmc_id": "PMC9514601"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "title": "Survival rates for esophageal cancer"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Doki Y",
+        "Ajani JA",
+        "Kato K",
+        "et al."
+      ],
+      "title": "Nivolumab Combination Therapy in Advanced Esophageal Squamous-Cell Carcinoma",
+      "journal": "N Engl J Med",
+      "year": "2022",
+      "volume": "386",
+      "fpage": "449",
+      "lpage": "62",
+      "doi": "10.1056/NEJMoa2111380",
+      "pmid": "35108470"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Sun J-M",
+        "Shen L",
+        "Shah MA",
+        "et al."
+      ],
+      "title": "Pembrolizumab plus chemotherapy versus chemotherapy alone for first-line treatment of advanced oesophageal cancer (KEYNOTE-590): a randomised, placebo-controlled, phase 3 study",
+      "journal": "The Lancet",
+      "year": "2021",
+      "volume": "398",
+      "fpage": "759",
+      "lpage": "71",
+      "doi": "10.1016/S0140-6736(21)01234-4",
+      "pmid": "34454674"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "title": "National comprehensive cancer network. nccn clinical practice guidelines in oncology: esophageal and esophagogastric junction cancers",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Xu J",
+        "Kato K",
+        "Raymond E",
+        "et al."
+      ],
+      "title": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first-line treatment for advanced or metastatic oesophageal squamous cell carcinoma (RATIONALE-306): a global, randomised, placebo-controlled, phase 3 study",
+      "journal": "The Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "483",
+      "lpage": "95",
+      "doi": "10.1016/S1470-2045(23)00108-0",
+      "pmid": "37080222"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Ye Z-M",
+        "Xu Z",
+        "Wang H-L",
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of pembrolizumab plus chemotherapy versus chemotherapy as the first-line treatment for advanced esophageal cancer",
+      "journal": "Cancer Med",
+      "year": "2023",
+      "volume": "12",
+      "fpage": "6182",
+      "lpage": "9",
+      "doi": "10.1002/cam4.5350",
+      "pmid": "36271484",
+      "pmc_id": "PMC10028044"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Zhu Y",
+        "Liu K",
+        "Ding D",
+        "et al."
+      ],
+      "title": "Pembrolizumab Plus Chemotherapy as First-Line Treatment for Advanced Esophageal Cancer: A Cost-Effectiveness Analysis",
+      "journal": "Adv Ther",
+      "year": "2022",
+      "volume": "39",
+      "fpage": "2614",
+      "lpage": "29",
+      "doi": "10.1007/s12325-022-02101-9",
+      "pmid": "35394255"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Qu T",
+        "Zhang S",
+        "Zhong Y",
+        "et al."
+      ],
+      "title": "Cost Effectiveness of Adding Pembrolizumab to Platinum and Fluoropyrimidine-Based Chemotherapy as First-Line Treatment for Advanced Esophageal Cancer: A US Healthcare Payer’s Perspective",
+      "journal": "Pharmacoeconomics",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "1247",
+      "lpage": "59",
+      "doi": "10.1007/s40273-022-01196-w",
+      "pmid": "36241842"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Cao X",
+        "Zhang M",
+        "Li N",
+        "et al."
+      ],
+      "title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric cancer, gastroesophageal junction cancer, and esophageal adenocarcinoma: a cost-effectiveness analysis",
+      "journal": "Ther Adv Med Oncol",
+      "year": "2023",
+      "volume": "15",
+      "doi": "10.1177/17588359231171038",
+      "pmc_id": "PMC10201153",
+      "pmid": "37223263"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Cao X",
+        "Cai H",
+        "Li N",
+        "et al."
+      ],
+      "title": "First-line nivolumab plus ipilimumab or chemotherapy versus chemotherapy alone for advanced esophageal cancer: a cost-effectiveness analysis",
+      "journal": "Ther Adv Med Oncol",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "17588359221122733",
+      "doi": "10.1177/17588359221122733",
+      "pmid": "36147862",
+      "pmc_id": "PMC9486256"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Husereau D",
+        "Drummond M",
+        "Augustovski F",
+        "et al."
+      ],
+      "title": "Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR CHEERS II Good Practices Task Force",
+      "journal": "Value Health",
+      "year": "2022",
+      "volume": "25",
+      "fpage": "10",
+      "lpage": "31",
+      "doi": "10.1016/j.jval.2021.10.008",
+      "pmid": "35031088"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "title": "Surveillance, epidemiology, and end results (seer) program research data (2010–2015), stage iv esophageal cancer incidence by age"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Rohatgi A"
+      ],
+      "title": "WebPlotDigitizer 4.7",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Auget J-L",
+        "Balakrishnan N",
+        "Mesbah M",
+        "et al."
+      ],
+      "journal": "Advances in statistical methods for the health sciences: Applications to Cancer and AIDS Studies, Genome Sequence Analysis, and Survival Analysis",
+      "year": "2007"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Arias E",
+        "Xu JQ",
+        "Kochanek KD"
+      ],
+      "title": "United States Life Tables, 2021",
+      "journal": "Natl Vital Stat Rep",
+      "year": "2023",
+      "volume": "72",
+      "fpage": "1",
+      "lpage": "64",
+      "doi": "10.15620/cdc:132418",
+      "pmid": "38048433"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "title": "Body measurements"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "title": "Average sales price, q1 2024"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "title": "Physician fee schedule",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Insinga RP",
+        "Vanness DJ",
+        "Feliciano JL",
+        "et al."
+      ],
+      "title": "Cost-effectiveness of pembrolizumab in combination with chemotherapy versus chemotherapy and pembrolizumab monotherapy in the first-line treatment of squamous non-small-cell lung cancer in the US",
+      "journal": "Curr Med Res Opin",
+      "year": "2019",
+      "volume": "35",
+      "fpage": "1241",
+      "lpage": "56",
+      "doi": "10.1080/03007995.2019.1571297",
+      "pmid": "30649973"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "title": "CPI inflation calculator",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Zheng Z",
+        "Chen H",
+        "Cai H",
+        "et al."
+      ],
+      "title": "First-Line Tislelizumab for Advanced or Metastatic Esophageal Squamous Cell Carcinoma:A Cost-Effectiveness Analysis",
+      "journal": "Expert Rev Pharmacoecon Outcomes Res",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "397",
+      "lpage": "404",
+      "doi": "10.1080/14737167.2023.2290609",
+      "pmid": "38031985"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Zhou C",
+        "Wei J",
+        "Xu K",
+        "et al."
+      ],
+      "title": "Cost-Effectiveness Analysis of Tislelizumab Plus Chemotherapy as First-Line Treatment for Advanced or Metastatic Esophageal Squamous Cell Carcinoma in China",
+      "journal": "Risk Manag Healthc Policy",
+      "year": "2023",
+      "volume": "16",
+      "fpage": "2447",
+      "lpage": "58",
+      "doi": "10.2147/RMHP.S436750",
+      "pmid": "38024498",
+      "pmc_id": "PMC10657759"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Briggs A",
+        "Claxton K",
+        "Sculpher M"
+      ],
+      "journal": "Decision modelling for health economic evaluation",
+      "year": "2006"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "Cutler RL",
+        "Fernandez-Llimos F",
+        "Frommer M",
+        "et al."
+      ],
+      "title": "Economic impact of medication non-adherence by disease groups: a systematic review",
+      "journal": "BMJ Open",
+      "year": "2018",
+      "volume": "8",
+      "elocation_id": "e016982",
+      "doi": "10.1136/bmjopen-2017-016982",
+      "pmc_id": "PMC5780689",
+      "pmid": "29358417"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Zhao Y",
+        "Liu R",
+        "Zhu J",
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of immune checkpoint inhibitors for first-line treatment of advanced esophageal squamous cell carcinoma based on fractional polynomial network meta-analysis",
+      "journal": "Research Square 2024",
+      "year": "2024",
+      "doi": "10.21203/rs.3.rs-3896491/v1"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Xu K",
+        "Yu M",
+        "Sun Q",
+        "et al."
+      ],
+      "title": "Cost-effectiveness of PD-1 inhibitors combined with chemotherapy for first-line treatment of oesophageal squamous cell carcinoma in China: a comprehensive analysis",
+      "journal": "Ann Med",
+      "year": "2025",
+      "volume": "57",
+      "elocation_id": "2482019",
+      "doi": "10.1080/07853890.2025.2482019",
+      "pmid": "40131366",
+      "pmc_id": "PMC11938309"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Wang C",
+        "Cai T",
+        "Wei J",
+        "et al."
+      ],
+      "title": "Efficacy and safety of first-line immune checkpoint inhibitor combination therapies in patients with advanced esophageal squamous cell carcinoma: a network meta-analysis",
+      "journal": "Front Oncol",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "1369848",
+      "doi": "10.3389/fonc.2024.1369848",
+      "pmid": "39600642",
+      "pmc_id": "PMC11588640"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Ibrahim A",
+        "Shalabi L",
+        "Gadelmawla AF",
+        "et al."
+      ],
+      "title": "Efficacy and safety of immune checkpoint inhibitors for advanced or metastatic esophageal squamous cell carcinoma: A network meta-analysis",
+      "journal": "Eur J Pharmacol",
+      "year": "2025",
+      "volume": "1002",
+      "fpage": "177797",
+      "doi": "10.1016/j.ejphar.2025.177797",
+      "pmid": "40543743"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Tian J-Z",
+        "Zhang L",
+        "Lin F-Y",
+        "et al."
+      ],
+      "title": "The efficacy and safety of PD-1 inhibitors combined with chemotherapy treatment for advanced esophageal cancer: a network meta-analysis",
+      "journal": "Front Med",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "1515263",
+      "doi": "10.3389/fmed.2024.1515263",
+      "pmc_id": "PMC11759289",
+      "pmid": "39867925"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "title": "BeiGene announces availability of tevimbra (tislelizumab-jsgr) in the U.S",
+      "year": "2025"
     }
   ]
 }

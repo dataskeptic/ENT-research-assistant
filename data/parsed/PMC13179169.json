@@ -27,7 +27,8 @@
     "pmc_id": "PMC13179169",
     "pmid": "41535566",
     "full_text_available": true,
-    "section_count": 11
+    "section_count": 11,
+    "reference_count": 29
   },
   "sections": [
     {
@@ -84,6 +85,527 @@
       "section": "Conclusion",
       "text": "The timing of surgery following neoadjuvant therapy did not influence prognosis in patients with advanced ESCC withing 56-day interval, regardless of the neoadjuvant therapy regimen. However, earlier surgery following neoadjuvant CRT, as opposed to neoadjuvant chemotherapy, may help to mitigate surgical complexity and anastomotic leakage-associated risks, and could contribute to avoiding potential adverse prognostic impacts associated with delayed surgery.",
       "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "et al."
+      ],
+      "title": "Global Cancer Statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin.",
+      "year": "2021",
+      "volume": "71",
+      "fpage": "209",
+      "lpage": "249",
+      "pmid": "33538338",
+      "doi": "10.3322/caac.21660"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Liu C-Q",
+        "Ma Y-L",
+        "Qin Q",
+        "et al."
+      ],
+      "title": "Epidemiology of esophageal cancer in 2020 and projections to 2030 and 2040",
+      "journal": "Thorac Cancer.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "3",
+      "lpage": "11",
+      "doi": "10.1111/1759-7714.14745",
+      "pmid": "36482832",
+      "pmc_id": "PMC9807450"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Fuchs HE",
+        "et al."
+      ],
+      "title": "Cancer statistics, 2022",
+      "journal": "CA Cancer J Clin.",
+      "year": "2022",
+      "volume": "72",
+      "fpage": "7",
+      "lpage": "33",
+      "pmid": "35020204",
+      "doi": "10.3322/caac.21708"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Lordick F",
+        "Mariette C",
+        "Haustermans K",
+        "et al."
+      ],
+      "title": "Oesophageal cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol.",
+      "year": "2016",
+      "volume": "27",
+      "fpage": "v50",
+      "lpage": "v57",
+      "doi": "10.1093/annonc/mdw329",
+      "pmid": "27664261"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "343",
+      "lpage": "372",
+      "doi": "10.1007/s10388-023-00993-2",
+      "pmid": "36933136",
+      "pmc_id": "PMC10024303"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan Esophageal Society: part 2",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "373",
+      "lpage": "389",
+      "doi": "10.1007/s10388-023-00994-1",
+      "pmid": "36995449",
+      "pmc_id": "PMC10235142"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Shapiro J",
+        "van Hagen P",
+        "Lingsma HF",
+        "et al."
+      ],
+      "title": "Prolonged time to surgery after neoadjuvant chemoradiotherapy increases histopathological response without affecting survival in patients with esophageal or junctional cancer",
+      "journal": "Ann Surg.",
+      "year": "2014",
+      "volume": "260",
+      "fpage": "807",
+      "lpage": "13",
+      "doi": "10.1097/SLA.0000000000000966",
+      "pmid": "25379852"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Singla S",
+        "Gabriel E",
+        "Alnaji R",
+        "et al."
+      ],
+      "title": "Complete pathologic response is independent of the timing of esophagectomy following neoadjuvant chemoradiation for esophageal cancer",
+      "journal": "J Gastrointest Oncol.",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "73",
+      "lpage": "79",
+      "doi": "10.21037/jgo.2017.09.11",
+      "pmid": "29564173",
+      "pmc_id": "PMC5848031"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Tsang JS",
+        "Tong DKH",
+        "Lam KO",
+        "et al."
+      ],
+      "title": "Appropriate timing for surgery after neoadjuvant chemoradiation for esophageal cancer",
+      "journal": "Dis Esophagus.",
+      "year": "2017",
+      "volume": "30",
+      "fpage": "1",
+      "lpage": "8",
+      "doi": "10.1093/dote/dox062",
+      "pmid": "28859363"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Franko J",
+        "McAvoy S"
+      ],
+      "title": "Timing of esophagectomy after neoadjuvant chemoradiation treatment in squamous cell carcinoma",
+      "journal": "Surgery.",
+      "year": "2018",
+      "volume": "164",
+      "fpage": "455",
+      "lpage": "459",
+      "doi": "10.1016/j.surg.2018.04.026",
+      "pmid": "29903507"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Müller A-K",
+        "Lenschow C",
+        "Palmes D",
+        "et al."
+      ],
+      "title": "Timing of esophagectomy in multimodal therapy of esophageal cancer: Impact of time interval between neoadjuvant therapy and surgery on outcome and response",
+      "journal": "Chir Z Alle Geb Oper Medizen.",
+      "year": "2015",
+      "volume": "86",
+      "fpage": "874",
+      "lpage": "80",
+      "doi": "10.1007/s00104-014-2916-6",
+      "pmid": "25662991"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Ranney DN",
+        "Mulvihill MS",
+        "Yerokun BA",
+        "et al."
+      ],
+      "title": "Surgical resection after neoadjuvant chemoradiation for oesophageal adenocarcinoma: what is the optimal timing?",
+      "journal": "Eur J Cardio-Thorac Surg Off J Eur Assoc Cardio-Thorac Surg.",
+      "year": "2017",
+      "volume": "52",
+      "fpage": "543",
+      "lpage": "551",
+      "doi": "10.1093/ejcts/ezx132",
+      "pmid": "28498967"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Haisley KR",
+        "Laird AE",
+        "Nabavizadeh N",
+        "et al."
+      ],
+      "title": "Association of intervals between neoadjuvant chemoradiation and surgical resection with pathologic complete response and survival in patients with esophageal cancer",
+      "journal": "JAMA Surg.",
+      "year": "2016",
+      "volume": "151",
+      "fpage": "e162743",
+      "doi": "10.1001/jamasurg.2016.2743",
+      "pmid": "27627765"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Chidambaram S",
+        "Owen R",
+        "Sgromo B",
+        "et al."
+      ],
+      "title": "Delayed surgical intervention after chemoradiotherapy in esophageal cancer: (DICE) study",
+      "journal": "Ann Surg.",
+      "year": "2023",
+      "volume": "278",
+      "fpage": "701",
+      "lpage": "708",
+      "doi": "10.1097/SLA.0000000000006028",
+      "pmid": "37477039"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "van der Werf LR",
+        "Dikken JL",
+        "van der Willik EM",
+        "et al."
+      ],
+      "title": "Time interval between neoadjuvant chemoradiotherapy and surgery for oesophageal or junctional cancer: a nationwide study",
+      "journal": "Eur J Cancer Oxf Engl",
+      "year": "1990",
+      "volume": "2018",
+      "issue": "91",
+      "fpage": "76",
+      "lpage": "85",
+      "doi": "10.1016/j.ejca.2017.12.009",
+      "pmid": "29353163"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Maramara T",
+        "Shridhar R",
+        "Blinn P",
+        "et al."
+      ],
+      "title": "Timing after neoadjuvant therapy predicts mortality in patients undergoing esophagectomy: a propensity score-matched analysis",
+      "journal": "J Gastrointest Surg.",
+      "year": "2023",
+      "volume": "27",
+      "fpage": "2342",
+      "lpage": "2351",
+      "doi": "10.1007/s11605-023-05851-1",
+      "pmid": "37848687"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Nilsson K",
+        "Klevebro F",
+        "Sunde B",
+        "et al."
+      ],
+      "title": "Oncological outcomes of standard versus prolonged time to surgery after neoadjuvant chemoradiotherapy for oesophageal cancer in the multicentre, randomised, controlled NeoRes II trial",
+      "journal": "Ann Oncol.",
+      "year": "2023",
+      "volume": "34",
+      "fpage": "1015",
+      "lpage": "1024",
+      "doi": "10.1016/j.annonc.2023.08.010",
+      "pmid": "37657554"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Kato K",
+        "Machida R",
+        "Ito Y",
+        "et al."
+      ],
+      "title": "Doublet chemotherapy, triplet chemotherapy, or doublet chemotherapy combined with radiotherapy as neoadjuvant treatment for locally advanced oesophageal cancer (JCOG1109 NExT): a randomised, controlled, open-label, phase 3 trial",
+      "journal": "Lancet Lond Engl.",
+      "year": "2024",
+      "volume": "404",
+      "fpage": "55",
+      "lpage": "66",
+      "doi": "10.1016/S0140-6736(24)00745-1",
+      "pmid": "38876133"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Nakamura K",
+        "Kato K",
+        "Igaki H",
+        "et al."
+      ],
+      "title": "Three-arm phase III trial comparing cisplatin plus 5-FU (CF) versus docetaxel, cisplatin plus 5-FU (DCF) versus radiotherapy with CF (CF-RT) as preoperative therapy for locally advanced esophageal cancer (JCOG1109, NExT study)",
+      "journal": "Jpn J Clin Oncol.",
+      "year": "2013",
+      "volume": "43",
+      "fpage": "752",
+      "lpage": "755",
+      "doi": "10.1093/jjco/hyt061",
+      "pmid": "23625063"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "title": "Japanese classification of esophageal cancer. Part I",
+      "journal": "Esophagus.",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "36",
+      "doi": "10.1007/s10388-016-0551-7",
+      "pmid": "28111535",
+      "pmc_id": "PMC5222932"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Azab B",
+        "Amundson JR",
+        "Picado O",
+        "et al."
+      ],
+      "title": "Impact of chemoradiation-to-surgery interval on pathological complete response and short- and long-term overall survival in esophageal cancer patients",
+      "journal": "Ann Surg Oncol.",
+      "year": "2019",
+      "volume": "26",
+      "fpage": "861",
+      "lpage": "868",
+      "doi": "10.1245/s10434-018-6897-4",
+      "pmid": "30311162"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Klevebro F",
+        "Nilsson K",
+        "Lindblad M",
+        "et al."
+      ],
+      "title": "Association between time interval from neoadjuvant chemoradiotherapy to surgery and complete histological tumor response in esophageal and gastroesophageal junction cancer: a national cohort study",
+      "journal": "Dis Esophagus.",
+      "year": "2020",
+      "volume": "33",
+      "fpage": "doz078",
+      "doi": "10.1093/dote/doz078",
+      "pmid": "31676895",
+      "pmc_id": "PMC7203996"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Liu J",
+        "Zeng X",
+        "Zhou X",
+        "et al."
+      ],
+      "title": "Longer interval between neoadjuvant chemoradiotherapy and surgery is associated with improved pathological response, but does not accurately estimate survival in patients with resectable esophageal cancer",
+      "journal": "Oncol Lett.",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "155",
+      "doi": "10.3892/ol.2023.13741",
+      "pmid": "36936022",
+      "pmc_id": "PMC10018328"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Lefèvre JH",
+        "Mineur L",
+        "Cachanado M",
+        "et al."
+      ],
+      "title": "Does a longer waiting period after neoadjuvant radio-chemotherapy improve the oncological prognosis of rectal cancer? Three years’ follow-up results of the greccar-6 randomized multicenter trial",
+      "journal": "Ann Surg.",
+      "year": "2019",
+      "volume": "270",
+      "fpage": "747",
+      "lpage": "754",
+      "doi": "10.1097/SLA.0000000000003530",
+      "pmid": "31634178"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Collard MK",
+        "Mineur L",
+        "Nekrouf C",
+        "et al."
+      ],
+      "title": "Final results of the GRECCAR-6 trial on waiting period following neoadjuvant radiochemotherapy for locally advanced rectal cancer: 5 years of follow-up",
+      "journal": "Dis Colon Rectum.",
+      "year": "2025",
+      "volume": "68",
+      "fpage": "199",
+      "lpage": "208",
+      "doi": "10.1097/DCR.0000000000003477",
+      "pmid": "39508462"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Yoshizumi K",
+        "Saito N",
+        "Wu Y",
+        "et al."
+      ],
+      "title": "Adipose-derived stem cells and wound healing are progressively impaired long-term after radiotherapy in mice",
+      "journal": "Plast Reconstr Surg Glob Open.",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "e6419",
+      "doi": "10.1097/GOX.0000000000006419",
+      "pmid": "39872086",
+      "pmc_id": "PMC11771654"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Fountain MD",
+        "Abernathy LM",
+        "Lonardo F",
+        "et al."
+      ],
+      "title": "Radiation-induced esophagitis is mitigated by soy isoflavones",
+      "journal": "Front Oncol.",
+      "year": "2015",
+      "volume": "5",
+      "fpage": "238",
+      "doi": "10.3389/fonc.2015.00238",
+      "pmid": "26557504",
+      "pmc_id": "PMC4617099"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Zhou Y",
+        "Sheng X",
+        "Deng F",
+        "et al."
+      ],
+      "title": "Radiation-induced muscle fibrosis rat model: establishment and valuation",
+      "journal": "Radiat Oncol Lond Engl.",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "160",
+      "doi": "10.1186/s13014-018-1104-0",
+      "pmc_id": "PMC6114061",
+      "pmid": "30157899"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Lin G",
+        "Han S-Y",
+        "Xu Y-P",
+        "et al."
+      ],
+      "title": "Increasing the interval between neoadjuvant chemoradiotherapy and surgery in esophageal cancer: a meta-analysis of published studies",
+      "journal": "Dis Esophagus.",
+      "year": "2016",
+      "volume": "29",
+      "fpage": "1107",
+      "lpage": "1114",
+      "doi": "10.1111/dote.12432",
+      "pmid": "26542065"
     }
   ]
 }

@@ -14,7 +14,8 @@
     "pmc_id": "PMC13189790",
     "pmid": "42181211",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 39
   },
   "sections": [
     {
@@ -76,6 +77,753 @@
       "section": "Discussion",
       "text": "This multicenter retrospective cohort study is, to our knowledge, the first to compare progression outcomes during active surveillance between isthmic and non-isthmic highly suspicious thyroid nodules. Observed differences in progression indicators were not statistically significant, but the results should be interpreted cautiously due to sparse events and multiplicity. Within these limitations, active surveillance may be feasible for selected isthmic nodules under careful monitoring. AS has been widely validated in low-risk PTC, particularly for nodules ≤10 mm in maximum diameter. Over time, its application has expanded to include selected nodules measuring 10–20 mm without high-risk features ( 28 , 30 – 33 ). A ≥3 mm increase in maximum diameter remains the most widely adopted threshold for defining disease progression in large-scale studies, particularly in East Asia. Although this definition may be considered conservative, its consistency across studies enhances comparability and supports its continued use in observational cohorts like ours ( 30 , 33 – 35 ). Isthmic nodules have often been regarded as less suitable for active surveillance because of their proximity to the anterior capsule and trachea, which may raise concern for earlier capsular involvement or extrathyroidal extension ( 15 ). Consequently, some surveillance protocols have excluded isthmic nodules or favored earlier intervention. In the present study, however, isthmic location was not associated with a higher rate of structural progression, which is in line with emerging evidence from surgical and ablation cohorts suggesting that isthmic location alone may not indicate more aggressive behavior ( 16 , 18 , 36 – 39 ). Although maximum diameter was comparable between the two groups at baseline and at the end of follow-up, non-isthmic nodules showed larger tumor volumes. This discrepancy highlights an important limitation of using maximum diameter alone to assess interval growth during surveillance. Changes in a single axis may underestimate multidirectional or asymmetric enlargement, whereas volume incorporates all three orthogonal dimensions and may better reflect overall tumor expansion. At the same time, volume estimation based on the ellipsoid formula remains sensitive to measurement variability and may be less reliable for irregularly shaped nodules. For this reason, we additionally evaluated directional growth indicators based on changes in one, two, or three orthogonal diameters as descriptive measures of structural change during surveillance. Although these indicators did not differ significantly between groups, they should be interpreted as exploratory descriptors of growth pattern rather than as confirmatory endpoints. The incidence of newly developed suspicious lesions was low in both groups (3.03% in the isthmus group vs. 1.92% in the non-isthmus group; p = .50). In the non-isthmus group, 6 of 8 new lesions (75.0%) developed between 13 and 24 months, and the remaining 2 appeared at 34 and 77 months. The single case in the isthmus group occurred at 19 months. These findings suggest that new lesions were mostly clustered within the first two years of follow-up, underscoring the importance of intensified surveillance during the early and intermediate phases of AS. It is also important to emphasize that the emergence of a new suspicious lesion does not necessarily indicate progression of the original index nodule, but may reflect the multifocal nature of papillary thyroid carcinoma. Therefore, interpretation of this indicator should be approached with caution in the context of AS. Although the isthmus group had higher proportions of ACR TI-RADS 5 and Bethesda category VI nodules, disease progression rates were not significantly different. This suggests that sonographic and cytologic features alone may not fully predict structural progression during AS, particularly when patient preferences and physician discretion influence management decisions. In our institution, isthmic location is often perceived as a potential high-risk feature. Nevertheless, many patients opted for continued AS even when nodules were anatomically adjacent to critical structures. This variability underscores the complex interplay between biological, clinical, and behavioral factors in real-world AS implementation. In this study, cytological confirmation was available only in a minority of cases. Accordingly, this cohort should be interpreted primarily as a real-world active surveillance cohort of highly suspicious ACR TI-RADS 5 nodules, rather than a conventional biopsy-confirmed papillary thyroid microcarcinoma cohort. Although this differs from most published active surveillance series, it reflects a pragmatic clinical scenario in which some patients with highly suspicious ultrasound findings choose surveillance without prior FNA. Additionally, although cytological (Bethesda category) and molecular ( BRAF mutation) data were available for a subset of patients, the sample size was insufficient to support robust subgroup analyses. For instance, it remains unclear whether nodules with Bethesda category VI or BRAF -positive status are more likely to exhibit disease progression during AS. Future studies with larger cohorts and more complete molecular profiling are warranted to explore whether these factors independently influence the behavior of isthmic or non-isthmic nodules. The ACR TI-RADS is one of the most widely adopted ultrasound-based risk stratification systems globally. Its diagnostic criteria—solid composition, marked hypoechogenicity, microcalcifications, irregular margins, and taller-than-wide shape—are consistent with those used in other major systems, including EU-TIRADS, K-TIRADS, and C-TIRADS ( Table 4 ). Therefore, our findings may serve as a useful reference for clinicians across diverse diagnostic frameworks, particularly when evaluating nodules in anatomically sensitive locations such as the thyroid isthmus. This study has several limitations. First, the retrospective design may have introduced selection bias and unmeasured confounding. Second, although the study was conducted across multiple centers, the isthmus subgroup remained relatively small and progression events were infrequent, resulting in wide confidence intervals and limited power to detect small-to-moderate between-group differences. In addition, because the boundary of the thyroid isthmus is not sharply demarcated on all transverse ultrasound images, nodules located near the predefined border of the isthmic zone may have been susceptible to classification uncertainty, which could have attenuated true location-related differences in progression risk and contributed to the observed similarity in outcomes. Third, despite a median follow-up of 47 months, longer observation is still needed to capture late progression events. In this multicenter retrospective cohort, highly suspicious thyroid nodules (ACR TI-RADS 5) located in the isthmus were not associated with higher progression rates than non-isthmic nodules during a median follow-up of 47 months. These findings support the potential feasibility of active surveillance for selected isthmic nodules under careful monitoring. However, given the retrospective design, the relatively small size of the isthmus subgroup, the low number of progression events, and the resulting limited statistical power, definitive conclusions regarding equivalence or formal comparability with non-isthmic nodules cannot be drawn. Larger prospective studies are needed to further clarify the role of active surveillance in this setting.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Aschebrook-Kilfoy B",
+        "Ward MH",
+        "Sabra MM",
+        "Devesa SS"
+      ],
+      "title": "Thyroid cancer incidence patterns in the United States by histologic type, 1992-2006",
+      "journal": "Thyroid",
+      "year": "2011",
+      "volume": "21",
+      "doi": "10.1089/thy.2010.0021",
+      "pmid": "21186939",
+      "pmc_id": "PMC3025182"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Chen DW",
+        "Lang BHH",
+        "McLeod DSA",
+        "Newbold K",
+        "Haymart MR"
+      ],
+      "title": "Thyroid cancer",
+      "journal": "Lancet",
+      "year": "2023",
+      "volume": "401",
+      "doi": "10.1016/j.ecl.2017.04.011",
+      "pmid": "37023783"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Boucai L",
+        "Zafereo M",
+        "Cabanillas ME"
+      ],
+      "title": "Thyroid cancer: a review",
+      "journal": "Jama",
+      "year": "2024",
+      "volume": "331",
+      "doi": "10.1001/jama.2023.26348",
+      "pmid": "38319329"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Kim JH",
+        "Baek JH",
+        "Lim HK",
+        "Ahn HS",
+        "Baek SM",
+        "Choi YJ",
+        "et al."
+      ],
+      "title": "2017 thyroid radiofrequency ablation guideline: Korean Society of Thyroid Radiology",
+      "journal": "Korean J Radiol",
+      "year": "2018",
+      "volume": "19",
+      "doi": "10.3348/kjr.2018.19.4.632",
+      "pmid": "29962870",
+      "pmc_id": "PMC6005940"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Xu D",
+        "Ge M",
+        "Yang A",
+        "Cheng R",
+        "Sun H",
+        "Wang H",
+        "et al."
+      ],
+      "title": "Expert consensus workshop report: Guidelines for thermal ablation of thyroid tumors (2019 edition)",
+      "journal": "J Cancer Res Ther",
+      "year": "2020",
+      "volume": "16",
+      "doi": "10.4103/jcrt.jcrt_558_19",
+      "pmid": "33004735"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Han ZY",
+        "Dou JP",
+        "Zheng L",
+        "Xu M",
+        "Ren J",
+        "Wang H",
+        "et al."
+      ],
+      "title": "Chinese guidelines for ultrasound-guided thermal ablation of thyroid nodules (2024 edition)",
+      "journal": "Int J Surg",
+      "year": "2025",
+      "volume": "111",
+      "doi": "10.1097/js9.0000000000002209",
+      "pmid": "39728668"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Mauri G",
+        "Hegedüs L",
+        "Bandula S",
+        "Cazzato RL",
+        "Czarniecka A",
+        "Dudeck O",
+        "et al."
+      ],
+      "title": "European Thyroid Association and Cardiovascular and Interventional Radiological Society of Europe 2021 clinical practice guideline for the use of minimally invasive treatments in Malignant thyroid lesions",
+      "journal": "Eur Thyroid J",
+      "year": "2021",
+      "volume": "10",
+      "doi": "10.1159/000516469",
+      "pmid": "34178704",
+      "pmc_id": "PMC8215982"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Lee JY",
+        "Lee MK",
+        "Lim HK",
+        "Lee CY",
+        "Sung JY",
+        "Yoon JH",
+        "et al."
+      ],
+      "title": "Standardized ultrasound evaluation for active surveillance of low-risk thyroid microcarcinoma in adults: 2024 Korean Society of Thyroid Radiology consensus statement",
+      "journal": "Korean J Radiol",
+      "year": "2024",
+      "volume": "25",
+      "doi": "10.3348/jksr.2024.0132",
+      "pmid": "39473087",
+      "pmc_id": "PMC11524690"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Kim MJ",
+        "Moon JH",
+        "Lee EK",
+        "Song YS",
+        "Jung KY",
+        "Lee JY",
+        "et al."
+      ],
+      "title": "Active surveillance for low-risk thyroid cancers: a review of current practice guidelines",
+      "journal": "Endocrinol Metab (Seoul)",
+      "year": "2024",
+      "volume": "39",
+      "fpage": "47",
+      "lpage": "60",
+      "doi": "10.3803/enm.2024.1937",
+      "pmid": "38356210",
+      "pmc_id": "PMC10901665"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Luo H",
+        "Yan F",
+        "Lan L",
+        "Ma B",
+        "Zhao H",
+        "He Y",
+        "et al."
+      ],
+      "title": "Ultrasonographic features, nodule size, capsular invasion, and lymph node metastasis of solitary papillary carcinoma of thyroid isthmus",
+      "journal": "Front Oncol",
+      "year": "2020",
+      "volume": "10",
+      "elocation_id": "558363",
+      "doi": "10.3389/fonc.2020.558363",
+      "pmid": "33117691",
+      "pmc_id": "PMC7551305"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Lee YS",
+        "Jeong JJ",
+        "Nam KH",
+        "Chung WY",
+        "Chang HS",
+        "Park CS"
+      ],
+      "title": "Papillary carcinoma located in the thyroid isthmus",
+      "journal": "World J Surg",
+      "year": "2010",
+      "volume": "34",
+      "doi": "10.1007/s00268-009-0298-6",
+      "pmid": "20020291"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Karatzas T",
+        "Charitoudis G",
+        "Vasileiadis D",
+        "Kapetanakis S",
+        "Vasileiadis I"
+      ],
+      "title": "Surgical treatment for dominant Malignant nodules of the isthmus of the thyroid gland: a case control study",
+      "journal": "Int J Surg",
+      "year": "2015",
+      "volume": "18",
+      "doi": "10.1016/j.ijsu.2015.04.039",
+      "pmid": "25900600"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Lyu YS",
+        "Pyo JS",
+        "Cho WJ",
+        "Kim SY",
+        "Kim JH"
+      ],
+      "title": "Clinicopathological significance of papillary thyroid carcinoma located in the isthmus: a meta-analysis",
+      "journal": "World J Surg",
+      "year": "2021",
+      "volume": "45",
+      "doi": "10.1007/s00268-021-06178-1",
+      "pmid": "34117511"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Hahn SY",
+        "Han BK",
+        "Ko EY",
+        "Shin JH",
+        "Ko ES"
+      ],
+      "title": "Ultrasound findings of papillary thyroid carcinoma originating in the isthmus: comparison with lobe-originating papillary thyroid carcinoma",
+      "journal": "AJR Am J Roentgenol",
+      "year": "2014",
+      "volume": "203",
+      "doi": "10.2214/ajr.13.10746",
+      "pmid": "25148169"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Jasim S",
+        "Golding A",
+        "Bimston D",
+        "Alshalalfa M",
+        "Chen Y",
+        "Jiang R",
+        "et al."
+      ],
+      "title": "Cytologic and molecular assessment of isthmus thyroid nodules and carcinomas",
+      "journal": "Thyroid",
+      "year": "2025",
+      "volume": "35",
+      "doi": "10.1089/thy.2024.0254",
+      "pmid": "39527399"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Song Q",
+        "Gao H",
+        "Tian X",
+        "Ren L",
+        "Lan Y",
+        "Yan L",
+        "et al."
+      ],
+      "title": "Evaluation of ultrasound-guided radiofrequency ablation as a treatment option for papillary thyroid microcarcinoma in the isthmus: a retrospective study",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "599471",
+      "doi": "10.3389/fendo.2020.599471",
+      "pmid": "33633683",
+      "pmc_id": "PMC7900160"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Cao XJ",
+        "Zhao ZL",
+        "Wei Y",
+        "Peng LL",
+        "Li Y",
+        "Wu J",
+        "et al."
+      ],
+      "title": "Microwave ablation for papillary thyroid cancer located in the thyroid isthmus: a preliminary study",
+      "journal": "Int J Hyperthermia",
+      "year": "2021",
+      "volume": "38",
+      "doi": "10.1080/02656736.2021.1880028",
+      "pmid": "33530750"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Zheng L",
+        "Liu FY",
+        "Yu J",
+        "Cheng ZG",
+        "Yu XL",
+        "Dong XC",
+        "et al."
+      ],
+      "title": "Thermal ablation for papillary thyroid microcarcinoma located in the isthmus: a study with 3 years of follow-up",
+      "journal": "Future Oncol",
+      "year": "2022",
+      "volume": "18",
+      "doi": "10.2217/fon-2021-0463",
+      "pmid": "35048734"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Xiao J",
+        "Yan L",
+        "Li Y",
+        "Li X",
+        "Yang Z",
+        "Zhang M",
+        "et al."
+      ],
+      "title": "Radiofrequency ablation for papillary thyroid cancer located in isthmus: comparison with that originated in thyroid lobe",
+      "journal": "Int J Hyperthermia",
+      "year": "2023",
+      "volume": "40",
+      "elocation_id": "2266668",
+      "doi": "10.1080/02656736.2023.2266668",
+      "pmid": "37940133"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Song Q",
+        "Gao H",
+        "Ren L",
+        "Tian X",
+        "Lan Y",
+        "Yan L",
+        "et al."
+      ],
+      "title": "Radiofrequency ablation versus total thyroidectomy in patients with papillary thyroid microcarcinoma located in the isthmus: a retrospective cohort study",
+      "journal": "Int J Hyperthermia",
+      "year": "2021",
+      "volume": "38",
+      "doi": "10.1080/02656736.2021.1916625",
+      "pmid": "33899651"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Tessler FN",
+        "Middleton WD",
+        "Grant EG",
+        "Hoang JK",
+        "Berland LL",
+        "Teefey SA",
+        "et al."
+      ],
+      "title": "ACR thyroid imaging, reporting and data system (TI-RADS): white paper of the ACR TI-RADS committee",
+      "journal": "J Am Coll Radiol",
+      "year": "2017",
+      "volume": "14",
+      "doi": "10.1016/j.jacr.2017.12.035",
+      "pmid": "28372962"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Ha EJ",
+        "Chung SR",
+        "Na DG",
+        "Ahn HS",
+        "Chung J",
+        "Lee JY",
+        "et al."
+      ],
+      "title": "2021 Korean thyroid imaging reporting and data system and imaging-based management of thyroid nodules: Korean Society of Thyroid Radiology consensus statement and recommendations",
+      "journal": "Korean J Radiol",
+      "year": "2021",
+      "volume": "22",
+      "doi": "10.3348/kjr.2021.0713",
+      "pmid": "34719893",
+      "pmc_id": "PMC8628155"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Russ G",
+        "Bonnema SJ",
+        "Erdogan MF",
+        "Durante C",
+        "Ngu R",
+        "Leenhardt L"
+      ],
+      "title": "European Thyroid Association guidelines for ultrasound Malignancy risk stratification of thyroid nodules in adults: the EU-TIRADS",
+      "journal": "Eur Thyroid J",
+      "year": "2017",
+      "volume": "6",
+      "doi": "10.1159/000478927",
+      "pmid": "29167761",
+      "pmc_id": "PMC5652895"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Zhou J",
+        "Yin L",
+        "Wei X",
+        "Zhang S",
+        "Song Y",
+        "Luo B",
+        "et al."
+      ],
+      "title": "2020 Chinese guidelines for ultrasound Malignancy risk stratification of thyroid nodules: the C-TIRADS",
+      "journal": "Endocrine",
+      "year": "2020",
+      "volume": "70",
+      "doi": "10.1007/s12020-020-02441-y",
+      "pmid": "32827126"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Zhu F",
+        "Li F",
+        "Xie X",
+        "Wu Y",
+        "Wang W"
+      ],
+      "title": "Investigating the impact of tumor location and size on the risk of recurrence for papillary thyroid carcinoma in the isthmus",
+      "journal": "Cancer Med",
+      "year": "2023",
+      "volume": "12",
+      "doi": "10.1002/cam4.6023",
+      "pmid": "37132252",
+      "pmc_id": "PMC10315713"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Seok J",
+        "Choi JY",
+        "Yu HW",
+        "Jung YH",
+        "Ahn SH",
+        "Jeong WJ"
+      ],
+      "title": "Papillary thyroid cancers of the thyroid isthmus: the pattern of nodal metastasis and the significance of extrathyroidal extension",
+      "journal": "Ann Surg Oncol",
+      "year": "2020",
+      "volume": "27",
+      "doi": "10.1245/s10434-020-08215-0",
+      "pmid": "31970571"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Lun Y",
+        "Wu X",
+        "Xia Q",
+        "Han Y",
+        "Zhang X",
+        "Liu Z",
+        "et al."
+      ],
+      "title": "Hashimoto's thyroiditis as a risk factor of papillary thyroid cancer may improve cancer prognosis",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2013",
+      "volume": "148",
+      "fpage": "396",
+      "lpage": "402",
+      "doi": "10.1177/0194599812472426",
+      "pmid": "23300224"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Lee JY",
+        "Kim JH",
+        "Kim YK",
+        "Lee CY",
+        "Lee EK",
+        "Moon JH",
+        "et al."
+      ],
+      "title": "US predictors of papillary thyroid microcarcinoma progression at active surveillance",
+      "journal": "Radiology",
+      "year": "2023",
+      "volume": "309",
+      "elocation_id": "e230006",
+      "doi": "10.1148/radiol.230006",
+      "pmid": "37906009"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Cibas ES",
+        "Ali SZ"
+      ],
+      "title": "The Bethesda system for reporting thyroid cytopathology",
+      "journal": "Thyroid",
+      "year": "2009",
+      "volume": "19",
+      "doi": "10.1089/thy.2009.0274",
+      "pmid": "19888858"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Sakai T",
+        "Sugitani I",
+        "Ebina A",
+        "Fukuoka O",
+        "Toda K",
+        "Mitani H",
+        "et al."
+      ],
+      "title": "Active surveillance for T1bN0M0 papillary thyroid carcinoma",
+      "journal": "Thyroid",
+      "year": "2019",
+      "volume": "29",
+      "fpage": "59",
+      "lpage": "63",
+      "doi": "10.1089/thy.2018.0462",
+      "pmid": "30560718"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Ju SH",
+        "Ji YB",
+        "Song M",
+        "Lim JY",
+        "Heo DB",
+        "Kim MG",
+        "et al."
+      ],
+      "title": "Feasibility of active surveillance in patients with clinically T1b papillary thyroid carcinoma ≤1.5 cm in preoperative ultrasonography: MASTER study",
+      "journal": "Eur Thyroid J",
+      "year": "2024",
+      "volume": "13",
+      "elocation_id": "e230258",
+      "doi": "10.1530/etj-23-0258",
+      "pmid": "38484463",
+      "pmc_id": "PMC11046321"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Sugitani I",
+        "Ito Y",
+        "Takeuchi D",
+        "Nakayama H",
+        "Masaki C",
+        "Shindo H",
+        "et al."
+      ],
+      "title": "Indications and strategy for active surveillance of adult low-risk papillary thyroid microcarcinoma: consensus statements from the Japan Association of Endocrine Surgery Task Force on Management for Papillary Thyroid Microcarcinoma",
+      "journal": "Thyroid",
+      "year": "2021",
+      "volume": "31",
+      "doi": "10.1089/thy.2020.0330",
+      "pmid": "33023426",
+      "pmc_id": "PMC7891203"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Miyauchi A",
+        "Ito Y",
+        "Fujishima M",
+        "Miya A",
+        "Onoda N",
+        "Kihara M",
+        "et al."
+      ],
+      "title": "Long-term outcomes of active surveillance and immediate surgery for adult patients with low-risk papillary thyroid microcarcinoma: 30-year experience",
+      "journal": "Thyroid",
+      "year": "2023",
+      "volume": "33",
+      "doi": "10.1089/thy.2023.0076",
+      "pmid": "37166389",
+      "pmc_id": "PMC10354707"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Altshuler B",
+        "Bikas A",
+        "Pappa T",
+        "Marqusee E",
+        "Cho NL",
+        "Nehs MA",
+        "et al."
+      ],
+      "title": "Nonoperative, active surveillance of larger Malignant and suspicious thyroid nodules",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2024",
+      "volume": "109",
+      "fpage": "1996",
+      "lpage": "2002",
+      "doi": "10.1210/clinem/dgae082",
+      "pmid": "38349208"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Ho AS",
+        "Kim S",
+        "Zalt C",
+        "Melany ML",
+        "Chen IE",
+        "Vasquez J",
+        "et al."
+      ],
+      "title": "Expanded parameters in active surveillance for low-risk papillary thyroid carcinoma: a nonrandomized controlled trial",
+      "journal": "JAMA Oncol",
+      "year": "2022",
+      "volume": "8",
+      "doi": "10.1001/jamaoncol.2022.3875",
+      "pmid": "36107411",
+      "pmc_id": "PMC9478884"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Zhao ZL",
+        "Wang SR",
+        "Dong G",
+        "Liu Y",
+        "He JF",
+        "Shi LL",
+        "et al."
+      ],
+      "title": "Microwave ablation versus surgical resection for US-detected multifocal T1N0M0 papillary thyroid carcinoma: a 10-center study",
+      "journal": "Radiology",
+      "year": "2024",
+      "volume": "311",
+      "elocation_id": "e230459",
+      "doi": "10.1148/radiol.230459",
+      "pmid": "38563669"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Yan L",
+        "Yang Z",
+        "Li Y",
+        "Li X",
+        "Xiao J",
+        "Jing H",
+        "et al."
+      ],
+      "title": "Five-year outcome between radiofrequency ablation vs surgery for unilateral multifocal papillary thyroid microcarcinoma",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2023",
+      "volume": "108",
+      "doi": "10.1210/clinem/dgad360",
+      "pmid": "37318878"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Zheng L",
+        "Dou JP",
+        "Han ZY",
+        "Liu FY",
+        "Yu J",
+        "Cheng ZG",
+        "et al."
+      ],
+      "title": "Microwave ablation for papillary thyroid microcarcinoma with and without US-detected capsule invasion: a multicenter prospective cohort study",
+      "journal": "Radiology",
+      "year": "2023",
+      "volume": "307",
+      "elocation_id": "e220661",
+      "doi": "10.1148/radiol.220661",
+      "pmid": "36880949"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Wu J",
+        "Zhao ZL",
+        "Cao XJ",
+        "Wei Y",
+        "Peng LL",
+        "Li Y",
+        "et al."
+      ],
+      "title": "A feasibility study of microwave ablation for papillary thyroid cancer close to the thyroid capsule",
+      "journal": "Int J Hyperthermia",
+      "year": "2021",
+      "volume": "38",
+      "doi": "10.1080/02656736.2021.1962549",
+      "pmid": "34384314"
     }
   ]
 }

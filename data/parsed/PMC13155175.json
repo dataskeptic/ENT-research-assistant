@@ -19,7 +19,8 @@
     "pmc_id": "PMC13155175",
     "pmid": "41556601",
     "full_text_available": true,
-    "section_count": 11
+    "section_count": 11,
+    "reference_count": 17
   },
   "sections": [
     {
@@ -76,6 +77,203 @@
       "section": "Discussion",
       "text": "This national analysis of Medicare claims provides the most comprehensive geographic characterization of TORS utilization for OPSCC to date and quantifies how TORS programs are structured across hospital labor markets. We found that, despite approximately 30% growth in procedure volume from 2017 to 2023, TORS remains predominantly concentrated in academic medical centers, with 86% of procedures performed at teaching hospitals and relatively few cases in rural settings. Market structure analysis reinforced this concentration. In our cohort, 64.7% of GLMAs exhibited single‐hospital monopolies (HHI = 10 000) and an additional 28.4% showed duopoly‐level concentration. Taken together, more than 90% of TORS procedures stratified by GLMAs were in highly concentrated hospital markets. These patterns contrast with prior work in general surgery, where robotic surgery has been shown to diffuse rapidly across hospitals and procedures once programs are launched, rather than remaining anchored in a single hospital within a market [ 14 ]. The clustering of TORS within a small number of hospitals and markets likely reflects both structural and clinical factors. Survey data point to differences in practice patterns between fellowship‐trained and non–fellowship‐trained surgeons, regional variation, and barriers related to cost and credentialing [ 6 , 15 ]. Given the capital investment, advanced training, and referral networks needed to sustain a TORS program, it is not surprising that use is concentrated in larger centers. We note that market concentration is conditional on the definition used; we used CMS GLMAs because they provide a stable, hospital‐linked geography available uniformly through IPPS linkage. Residence‐based hospital referral region assignment was not feasible because beneficiary residence ZIP/county was unavailable in our analytic extract. These patterns have important implications. Concentration at high‐volume centers has been associated with improved outcomes in complex surgical procedures, including lower positive margin rates and reduced mortality in TORS [ 4 ]. Consistent with a volume–outcome relationship, the six highest‐volume GLMAs, accounting for one‐third of all Medicare TORS procedures, demonstrated characteristics consistent with centers of excellence: near‐universal teaching hospital status (96.2%), multiple TORS surgeons (7–25 per market), and sustained case volume. However, surgeon‐to‐procedure ratios within these markets varied dramatically (6.7–17.2 procedures per surgeon), suggesting heterogeneous practice patterns even within high‐volume environments. This raises questions about optimal case distribution and the minimum annual volume threshold needed to maintain competency [ 4 , 15 ]. At the same time, centralization may exacerbate geographic disparities. Patients in rural areas must often travel long distances to reach high‐volume centers, and those unable to do so may receive alternative, potentially more morbid treatments or forego TORS entirely. In our cohort, TORS performed in rural hospitals was associated with a 64% longer adjusted length of stay (IRR: 1.64, 95% CI: 1.26–2.13) compared to metropolitan centers, which may reflect both differences in patient selection and less institutional experience. Balancing the benefits of centralization with equitable access is particularly important in OPSCC, where treatment is usually non‐emergent and allows time for referral, yet structural and socioeconomic barriers often persist. Because our cohort is limited to inpatient stays, LOS associations may be influenced by selection into inpatient admission, unmeasured clinical severity and complications, and local discharge practices. This analysis leverages the comprehensiveness of Medicare claims to provide the first county‐level mapping of TORS utilization, capturing procedures across all hospital types rather than only Commission on Cancer‐accredited facilities. By linking to IPPS files, we could characterize hospital attributes and calculate market concentration metrics previously unavailable in TORS literature, allowing us to frame TORS as a regionally centralized service line rather than a hospital‐level technology. However, there are several limitations. First, our Medicare dataset captures primarily fee‐for‐service beneficiaries over 65, while HPV‐associated oropharyngeal cancer also affects younger patients [ 16 , 17 ]. We excluded sites that performed only a single TORS procedure annually. As a result, our analysis underestimates the absolute number of TORS cases, and the geographic distribution of TORS may differ in commercially insured populations and in estimates that include all eligible beneficiaries. Cases where TORS was performed outpatient or observation status (including staged neck management) would not be captured, although requiring neck dissection may reduce under‐ascertainment for typical admitted surgical episodes. If outpatient/observation capture differs systematically by hospital type or geography, market concentration estimates could be biased; accordingly, HHI results should be interpreted within this inpatient, neck‐dissection–anchored framework. Second, claims data cannot assess clinical appropriateness—we cannot determine whether low TORS utilization in certain regions reflects lack of access or appropriate patient selection. Third, we cannot observe patients who were TORS candidates but received alternative treatments due to access barriers. In summary, TORS for OPSCC remains concentrated in teaching hospitals within metropolitan areas, with most cases occurring in a few select regions. While this centralization may optimize outcomes for patients who access these centers, it creates substantial geographic disparities that may systematically disadvantage rural and underserved populations. Our findings provide essential data for health systems planning to expand access to minimally invasive surgical options while ensuring optimal oncologic outcomes.",
       "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "hed70179-bib-0001",
+      "label": "1",
+      "title": "Updated Estimates of Patients With Oropharyngeal Cancer in the US",
+      "journal": "JAMA Network Open",
+      "year": "2025",
+      "volume": "8",
+      "issue": "10",
+      "fpage": "e2539258",
+      "doi": "10.1001/jamanetworkopen.2025.39258",
+      "pmid": "41134572",
+      "pmc_id": "PMC12552931"
+    },
+    {
+      "ref_id": "hed70179-bib-0002",
+      "label": "2",
+      "title": "Increase in Primary Surgical Treatment of T1 and T2 Oropharyngeal Squamous Cell Carcinoma and Rates of Adverse Pathologic Features: National Cancer Data Base",
+      "journal": "Cancer",
+      "year": "2016",
+      "volume": "122",
+      "issue": "10",
+      "fpage": "1523",
+      "lpage": "1532",
+      "doi": "10.1002/cncr.29938",
+      "pmid": "26970050",
+      "pmc_id": "PMC4860079"
+    },
+    {
+      "ref_id": "hed70179-bib-0003",
+      "label": "3",
+      "title": "Transoral Robotic Surgery in the Multidisciplinary Care of Patients With Oropharyngeal Squamous Cell Carcinoma: ASCO Guideline",
+      "journal": "Journal of Clinical Oncology",
+      "year": "2025",
+      "volume": "43",
+      "issue": "11",
+      "fpage": "1369",
+      "lpage": "1392",
+      "doi": "10.1200/jco-24-02755",
+      "pmid": "39933131"
+    },
+    {
+      "ref_id": "hed70179-bib-0004",
+      "label": "4",
+      "title": "Transoral Robotic Surgery Adoption and Safety in Treatment of Oropharyngeal Cancers",
+      "journal": "Cancer",
+      "year": "2022",
+      "volume": "128",
+      "issue": "4",
+      "fpage": "685",
+      "lpage": "696",
+      "doi": "10.1002/cncr.33995",
+      "pmid": "34762303",
+      "pmc_id": "PMC9446338"
+    },
+    {
+      "ref_id": "hed70179-bib-0005",
+      "label": "5",
+      "title": "Comparison of Survival After Transoral Robotic Surgery vs Nonrobotic Surgery in Patients With Early‐Stage Oropharyngeal Squamous Cell Carcinoma",
+      "journal": "JAMA Oncology",
+      "year": "2020",
+      "volume": "6",
+      "issue": "10",
+      "fpage": "1555",
+      "lpage": "1562",
+      "doi": "10.1001/jamaoncol.2020.3172",
+      "pmid": "32816023",
+      "pmc_id": "PMC7441465"
+    },
+    {
+      "ref_id": "hed70179-bib-0006",
+      "label": "6",
+      "title": "Surgeon Practice Patterns in Transoral Robotic Surgery for HPV‐Related Oropharyngeal Cancer",
+      "journal": "Oral Oncology",
+      "year": "2021",
+      "volume": "121",
+      "elocation_id": "105460",
+      "doi": "10.1016/j.oraloncology.2021.105460",
+      "pmid": "34298289"
+    },
+    {
+      "ref_id": "hed70179-bib-0007",
+      "label": "7",
+      "title": "Practice Patterns in Transoral Robotic Surgery: Results of an American Head and Neck Society Survey",
+      "journal": "Journal of Robotic Surgery",
+      "year": "2023",
+      "volume": "17",
+      "issue": "2",
+      "fpage": "549",
+      "lpage": "556",
+      "doi": "10.1007/s11701-022-01448-z",
+      "pmid": "35933632"
+    },
+    {
+      "ref_id": "hed70179-bib-0008",
+      "label": "8",
+      "title": "Patterns of Referral and Outcomes in Oropharyngeal Cancer Management",
+      "journal": "Oral Oncology",
+      "year": "2025",
+      "volume": "168",
+      "elocation_id": "107602",
+      "doi": "10.1016/j.oraloncology.2025.107602",
+      "pmid": "40819388"
+    },
+    {
+      "ref_id": "hed70179-bib-0009",
+      "label": "9",
+      "title": "Provider Specific Data for Public Use in Text Format",
+      "year": "2025"
+    },
+    {
+      "ref_id": "hed70179-bib-0010",
+      "label": "10",
+      "title": "“Federal Medicaid Disproportionate Share Hospital (DSH) Reductions,”",
+      "year": "2024"
+    },
+    {
+      "ref_id": "hed70179-bib-0011",
+      "label": "11",
+      "title": "“Indirect Medical Education (IME),”"
+    },
+    {
+      "ref_id": "hed70179-bib-0012",
+      "label": "12",
+      "title": "Association Between Hospital Market Concentration and Costs of Laryngectomy",
+      "journal": "JAMA Otolaryngology. Head and Neck Surgery",
+      "year": "2019",
+      "volume": "145",
+      "issue": "10",
+      "fpage": "939",
+      "lpage": "947",
+      "doi": "10.1001/jamaoto.2019.2303",
+      "pmid": "31465102",
+      "pmc_id": "PMC6716289"
+    },
+    {
+      "ref_id": "hed70179-bib-0013",
+      "label": "13",
+      "journal": "Create Charts and Maps",
+      "year": "2012"
+    },
+    {
+      "ref_id": "hed70179-bib-0014",
+      "label": "14",
+      "title": "Trends in the Adoption of Robotic Surgery for Common Surgical Procedures",
+      "journal": "JAMA Network Open",
+      "year": "2020",
+      "volume": "3",
+      "issue": "1",
+      "elocation_id": "e1918911",
+      "doi": "10.1001/jamanetworkopen.2019.18911",
+      "pmid": "31922557",
+      "pmc_id": "PMC6991252"
+    },
+    {
+      "ref_id": "hed70179-bib-0015",
+      "label": "15",
+      "title": "Lower Survival for Surgical Treatment of Human Papillomavirus–Related Oropharynx Cancer at Community Cancer Centers",
+      "journal": "JNCI Journal of the National Cancer Institute",
+      "year": "2025",
+      "volume": "117",
+      "issue": "3",
+      "fpage": "423",
+      "lpage": "435",
+      "doi": "10.1093/jnci/djae220",
+      "pmid": "39250754",
+      "pmc_id": "PMC11884852"
+    },
+    {
+      "ref_id": "hed70179-bib-0016",
+      "label": "16",
+      "title": "Oral Cavity and Oropharyngeal Squamous Cell Carcinoma in Young Adults: A Review of the Literature",
+      "journal": "Radiology and Oncology",
+      "year": "2014",
+      "volume": "48",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.2478/raon-2013-0057",
+      "pmid": "24587773",
+      "pmc_id": "PMC3908841"
+    },
+    {
+      "ref_id": "hed70179-bib-0017",
+      "label": "17",
+      "title": "Human Papillomavirus and Rising Oropharyngeal Cancer Incidence in the United States",
+      "journal": "Journal of Clinical Oncology",
+      "year": "2011",
+      "volume": "29",
+      "issue": "32",
+      "fpage": "4294",
+      "lpage": "4301",
+      "doi": "10.1200/jco.2011.36.4596",
+      "pmid": "21969503",
+      "pmc_id": "PMC3221528"
     }
   ]
 }

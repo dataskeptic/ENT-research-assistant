@@ -20,7 +20,8 @@
     "pmc_id": "PMC13201838",
     "pmid": "42183964",
     "full_text_available": true,
-    "section_count": 17
+    "section_count": 17,
+    "reference_count": 20
   },
   "sections": [
     {
@@ -107,6 +108,394 @@
       "section": "Discussion",
       "text": "Biphenotypic sinonasal sarcoma (BSNS) is characterized by a low-grade infiltrative mesenchymal neoplasm with dual neural and myogenic differentiation, most often harboring PAX3 rearrangement or other related fusions. BSNS is generally indolent, however, over time some cases show high-grade transformation, raising questions about biological evolution. Although upon high grade transformation the fusion gene remains constant, clinical behavior and morphology change dramatically. We hypothesize that epigenetic reprogramming may be a driving mechanism in this transformation. DNA methylation is stable, reproducible, and useful in tumor classification. It is a technique that identifies patterns of methylcytosine groups on DNA, a type of epigenetic marker that reflects cell type and tumor evolution. It has been used to refine the classification of high-grade sinonasal tumors, revealed distinct molecular entities for sinonasal undifferentiated carcinomas, and provided a reliable molecular tool for diagnosis and prognosis stratification [ 13 , 14 ]. A recent study conducted by Costa et al. analyzed fourteen cases of BSNS using DNA methylation profiling and RNA sequencing to investigate whether fusion type or high-grade transformation affects the tumor’s molecular identity. Despite diverse gene fusions, BSNS cases consistently converged together as a distinct epigenetic group, separate from other sinonasal and soft tissue tumors. This finding was unaffected by tumor grade; two tumors with PAX3::MAML3 and FUS::POU2AF3 showed synchronous and metachronous high-grade transformation, respectively [ 10 ]. We investigated cases of BSNS with high-grade transformation to identify temporal epigenetic alterations (1 synchronous, 3 metachronous/late recurrence). Upon transformation, BSNS frequently exhibits focal or diffuse rhabdomyosarcomatous differentiation, as observed in the present study, including in cases harboring a PAX3::FOXO1 fusion. On the other hand, a recent study by Dermawan et al. identified the PAX3::MAML3 fusion in two cases of ARMS that were epigenetically distinct from BSNS [ 11 ]. This illustrates the utility of epigenetic profiling to distinguish genetically overlapping tumor types. Additionally, the detection of a non- FOXO1 rearrangement in ARMS carries significant clinical implications, as current therapeutic protocols rely heavily on FOXO1 status for risk stratification and treatment decisions in pediatric rhabdomyosarcomas [ 15 ]. While adjuvant radiation therapy (photon or proton beam) remains the standard approach for most sinonasal tumors—particularly in patients with advanced T-stage, bony or neural invasion, dural or intracranial involvement, positive margins, or tumors not amenable to complete resection due to high surgical morbidity [ 16 ], there are currently no established guidelines for the management of low-grade BSNS or BSNS with high-grade transformation. To better understand the biology of HGRT in BSNS, we performed DNA methylation profiling on both the low- and high-grade components and compared them with other predominantly low-grade BSNS, fusion-positive and fusion-negative ARMS, ERMS, and other small round blue cell tumors. Comparison of methylomes revealed that both components of the PAX3::MAML3 BSNS cases, as well as one PAX3::FOXO1 case, converged with conventional BSNS. However, one PAX3::FOXO1 -positive BSNS case demonstrated divergent DNA methylome over time: while the low-grade component converged with conventional low-grade BSNS, the high-grade component overlapped with ERMS. Although our findings largely align with the previous study on BSNS by Costa et al. [ 10 ], the single case of high-grade BSNS with PAX3::FOXO1 rearrangement that demonstrates epigenetic shift over time warrants further investigation to determine whether this phenomenon is unique to PAX3::FOXO1 -associated BSNS or may also occur in other tumor types over the course of oncogenic transformation. Alternatively, what we observed could represent selective overgrowth of a clone within a tumor that already exhibited intratumoral methylation heterogeneity. Elucidating the underlying pathogenesis would likely require advanced techniques, such as single-cell methylation profiling, in future studies. Interestingly, for the aforementioned case, molecular testing of both components revealed a pathogenic BCOR mutation. BCOR alterations have been observed predominantly in conventional ERMS [ 17 ]. This finding raises the possibility that this case acquired an ERMS-like epigenetic profile upon transformation, possibly due to BCOR alterations. However, this needs to be further elucidated across both low- and high-grade BSNS, as well as in cases harboring PAX3::FOXO1 . With regard to the variants identified in the low-grade BSNS component that were not detected in the HGRT component, ATM and SETD2 mutations had relatively low variant allele frequencies (VAFs) (6% and 25%, respectively), compared with the BCOR variant (VAF of 86%). This may be attributed to technical variations in sensitivity between different sequencing attempts. Another possibility is intratumoral heterogeneity and clonal divergence, whereby a subclone that harbors only a subset of the variants (ie, BCOR ) subsequently recurs and acquires additional genomic alterations during the course of oncogenic transformation. The PAX3::FOXO1 fusion results from the chromosomal translocation t(2;13)(q35;q14), commonly observed in ARMS. In this fusion, the N-terminal portion of PAX3 —comprising the paired box domain (exons 2–4) and the homeobox domain (exons 5–7)—is fused in-frame with the C-terminal region of FOXO1 , which includes the forkhead DNA-binding domain and a strong transactivation domain (typically exons 2–7) [ 18 , 19 ]. The PAX3::MAML3 fusion arises from the chromosomal rearrangement t(2;4)(q35;q31). Similar to PAX3::FOXO1 , it retains the N-terminal DNA-binding domains of PAX3 (paired box domain, exons 2–4; homeobox domain, exons 5–7) fused to the robust transcriptional activation domain of MAML3 (exon 2 onward) [ 2 , 4 , 11 , 20 ]. The chimeric protein in both fusions acts as an aberrant transcription factor, inducing significant chromatin remodeling and lineage shifts, which presumably leads to the dual myogenic and neural differentiation observed in low-grade BSNS [ 2 , 4 , 20 ]. Upon high-grade transformation, the methylome of BSNS typically remains stable, suggesting epigenetic and biological similarity over time. However, in rare cases, epigenetic and biological divergence may occur. In conclusion, this study comprehensively investigated biphenotypic sinonasal sarcoma (BSNS) from multiple angles. It included both short- and long-term clinical follow-up of patients and performed longitudinal methylation profiling across low-grade and synchronous/metachronous high-grade rhabdomyosarcomatous components. The methylomes of BSNS with MAML3 or FOXO1 rearrangements were compared to those of fusion-positive and fusion-negative rhabdomyosarcomas, revealing epigenetic patterns in high-grade HGRT that are consistent with conventional BSNS (Patient 2, 3, and 4). These findings build upon and consolidate previous work (Costa et al. [ 10 ]), supporting the utility of DNA methylation profiling in prognostication and therapeutic stratification, particularly in cases of BSNS with HGRT. However, one limitation is that, aside from BSNS cases, clustering analyses relied on publicly available methylation datasets, which may differ in quality, platform, and data preprocessing pipelines. While the study successfully distinguished high-grade BSNS with HGRT from ARMS and ERMS in 3 of the patients, the distinct methylation profile observed in the HGRT component of patient 1 (with PAX3::FOXO1 fusion) warrants further investigation. It remains unclear whether this finding represents a coincidental epigenetic divergence or a phenomenon that could be observed in additional cases. Clarifying this may have implications for biological classification and therapeutic decision-making in future studies.",
       "order": 16
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Lewis JT",
+        "Oliveira AM",
+        "Nascimento AG",
+        "et al."
+      ],
+      "title": "Low-grade sinonasal sarcoma with neural and myogenic features: a clinicopathologic analysis of 28 cases",
+      "journal": "Am J Surg Pathol",
+      "year": "2012",
+      "volume": "36",
+      "issue": "4",
+      "fpage": "517",
+      "lpage": "525",
+      "doi": "10.1097/PAS.0b013e3182426886",
+      "pmid": "22301502"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Wang X",
+        "Bledsoe KL",
+        "Graham RP",
+        "et al."
+      ],
+      "title": "Recurrent PAX3-MAML3 fusion in biphenotypic sinonasal sarcoma",
+      "journal": "Nat Genet",
+      "year": "2014",
+      "volume": "46",
+      "issue": "7",
+      "fpage": "666",
+      "lpage": "668",
+      "doi": "10.1038/ng.2989",
+      "pmid": "24859338",
+      "pmc_id": "PMC4236026"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Wong WJ",
+        "Lauria A",
+        "Hornick JL",
+        "Xiao S",
+        "Fletcher JA",
+        "Marino-Enriquez A"
+      ],
+      "title": "Alternate PAX3-FOXO1 oncogenic fusion in biphenotypic sinonasal sarcoma",
+      "journal": "Genes Chromosomes Cancer",
+      "year": "2016",
+      "volume": "55",
+      "issue": "1",
+      "fpage": "25",
+      "lpage": "29",
+      "doi": "10.1002/gcc.22295",
+      "pmid": "26355893",
+      "pmc_id": "PMC4919599"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Fritchie KJ",
+        "Jin L",
+        "Wang X",
+        "et al."
+      ],
+      "title": "Fusion gene profile of biphenotypic sinonasal sarcoma: an analysis of 44 cases",
+      "journal": "Histopathology",
+      "year": "2016",
+      "volume": "69",
+      "issue": "6",
+      "fpage": "930",
+      "lpage": "936",
+      "doi": "10.1111/his.13045",
+      "pmid": "27454570"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Viramontes A",
+        "Mueller N",
+        "Gocke CD",
+        "Deklotz TR",
+        "Ozdemirli M"
+      ],
+      "title": "Novel PAX3::INO80D fusion in biphenotypic sinonasal sarcoma in an adult",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "issue": "9",
+      "fpage": "849",
+      "lpage": "850",
+      "doi": "10.1001/jamaoto.2023.1708",
+      "pmid": "37440250"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Bell D",
+        "Phan J",
+        "DeMonte F",
+        "Hanna EY"
+      ],
+      "title": "High-grade transformation of low-grade biphenotypic sinonasal sarcoma: radiological, morphophenotypic variation and confirmatory molecular analysis",
+      "journal": "Ann Diagn Pathol",
+      "year": "2022",
+      "volume": "57",
+      "fpage": "151889",
+      "doi": "10.1016/j.anndiagpath.2021.151889",
+      "pmid": "35030392"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Hasnie S",
+        "Glenn C",
+        "Peterson JEG",
+        "El Rassi ET",
+        "McKinney KA"
+      ],
+      "title": "High-grade biphenotypic sinonasal sarcoma: a case report",
+      "journal": "J Neurol Surg Rep",
+      "year": "2022",
+      "volume": "83",
+      "issue": "3",
+      "fpage": "e105",
+      "lpage": "e109",
+      "doi": "10.1055/s-0042-1755599",
+      "pmid": "36110919",
+      "pmc_id": "PMC9470382"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Meyer A",
+        "Klubíčková N",
+        "Mosaieby E",
+        "et al."
+      ],
+      "title": "Biphenotypic sinonasal sarcoma with PAX3::MAML3 fusion transforming into high-grade rhabdomyosarcoma: report of an emerging rare phenomenon",
+      "journal": "Virchows Arch",
+      "year": "2023",
+      "volume": "482",
+      "issue": "4",
+      "fpage": "777",
+      "lpage": "782",
+      "doi": "10.1007/s00428-023-03501-0",
+      "pmid": "36719455",
+      "pmc_id": "PMC10067655"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Verma A",
+        "Seethala RR",
+        "Wang H"
+      ],
+      "title": "Biphenotypic sinonasal sarcoma with high-grade features: a diagnostic challenge",
+      "journal": "Int J Surg Pathol",
+      "year": "2024",
+      "volume": "32",
+      "issue": "5",
+      "fpage": "957",
+      "lpage": "961",
+      "doi": "10.1177/10668969231204961",
+      "pmid": "37853732"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Gomes YM",
+        "de Castro JVA",
+        "Gomes NM",
+        "et al."
+      ],
+      "title": "Epigenetic profiling of biphenotypic sinonasal sarcoma across fusion variants and high-grade transformation",
+      "journal": "Hum Pathol",
+      "year": "2026",
+      "volume": "172",
+      "fpage": "106076",
+      "doi": "10.1016/j.humpath.2026.106076",
+      "pmid": "41720166"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Dermawan JK",
+        "Malik F",
+        "Gross JM",
+        "et al."
+      ],
+      "title": "Novel PAX3::MAML3 fusion identified in alveolar rhabdomyosarcoma, using DNA methylation profiling to expand the genetic spectrum of “Fusion-Positive” cases",
+      "journal": "Mod Pathol",
+      "year": "2024",
+      "volume": "37",
+      "issue": "11",
+      "fpage": "100594",
+      "doi": "10.1016/j.modpat.2024.100594",
+      "pmid": "39147032"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Clay MR",
+        "Patel A",
+        "Tran Q",
+        "et al."
+      ],
+      "title": "Methylation profiling reveals novel molecular classes of rhabdomyosarcoma",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "22213",
+      "doi": "10.1038/s41598-021-01649-w",
+      "pmid": "34782706",
+      "pmc_id": "PMC8592993"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Jurmeister P",
+        "Glöß S",
+        "Roller R",
+        "et al."
+      ],
+      "title": "DNA methylation-based classification of sinonasal tumors",
+      "journal": "Nat Commun",
+      "year": "2022",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "7148",
+      "doi": "10.1038/s41467-022-34815-3",
+      "pmid": "36443295",
+      "pmc_id": "PMC9705411"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Dogan S",
+        "Vasudevaraja V",
+        "Xu B",
+        "et al."
+      ],
+      "title": "DNA methylation-based classification of sinonasal undifferentiated carcinoma",
+      "journal": "Mod Pathol",
+      "year": "2019",
+      "volume": "32",
+      "issue": "10",
+      "fpage": "1447",
+      "lpage": "1459",
+      "doi": "10.1038/s41379-019-0285-x",
+      "pmid": "31186531",
+      "pmc_id": "PMC7391258"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Haduong JH",
+        "Heske CM",
+        "Allen-Rhoades W",
+        "et al."
+      ],
+      "title": "An update on rhabdomyosarcoma risk stratification and the rationale for current and future Children’s Oncology Group clinical trials",
+      "journal": "Pediatr Blood Cancer",
+      "year": "2022",
+      "volume": "69",
+      "issue": "4",
+      "fpage": "e29511",
+      "doi": "10.1002/pbc.29511",
+      "pmid": "35129294",
+      "pmc_id": "PMC8976559"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Contrera KJ",
+        "Woody NM",
+        "Rahman M",
+        "Sindwani R",
+        "Burkey BB"
+      ],
+      "title": "Clinical management of emerging sinonasal malignancies",
+      "journal": "Head Neck",
+      "year": "2020",
+      "volume": "42",
+      "issue": "8",
+      "fpage": "2202",
+      "lpage": "2212",
+      "doi": "10.1002/hed.26150",
+      "pmid": "32212360"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Sharma AE",
+        "Dermawan JK",
+        "Chiang S",
+        "Wexler LH",
+        "Antonescu CR"
+      ],
+      "title": "Botryoid-type embryonal rhabdomyosarcoma: a comprehensive clinicopathologic and molecular appraisal with cross-comparison to its conventional-type counterpart",
+      "journal": "Am J Surg Pathol",
+      "year": "2024",
+      "volume": "48",
+      "issue": "12",
+      "fpage": "1557",
+      "lpage": "1567",
+      "doi": "10.1097/PAS.0000000000002300",
+      "pmid": "39210566",
+      "pmc_id": "PMC12117734"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Galili N",
+        "Davis RJ",
+        "Fredericks WJ",
+        "et al."
+      ],
+      "title": "Fusion of a fork head domain gene to PAX3 in the solid tumour alveolar rhabdomyosarcoma",
+      "journal": "Nat Genet",
+      "year": "1993",
+      "volume": "5",
+      "issue": "3",
+      "fpage": "230",
+      "lpage": "235",
+      "doi": "10.1038/ng1193-230",
+      "pmid": "8275086"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Shapiro DN",
+        "Sublett JE",
+        "Li B",
+        "Downing JR",
+        "Naeve CW"
+      ],
+      "title": "Fusion of PAX3 to a member of the forkhead family of transcription factors in human alveolar rhabdomyosarcoma",
+      "journal": "Cancer Res",
+      "year": "1993",
+      "volume": "53",
+      "issue": "21",
+      "fpage": "5108",
+      "lpage": "5112",
+      "pmid": "8221646"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Le Loarer F",
+        "Laffont S",
+        "Lesluyes T",
+        "et al."
+      ],
+      "title": "Clinicopathologic and molecular features of a series of 41 biphenotypic sinonasal sarcomas expanding their molecular spectrum",
+      "journal": "Am J Surg Pathol",
+      "year": "2019",
+      "volume": "43",
+      "issue": "6",
+      "fpage": "747",
+      "lpage": "754",
+      "doi": "10.1097/PAS.0000000000001238",
+      "pmid": "30829729",
+      "pmc_id": "PMC8261894"
     }
   ]
 }

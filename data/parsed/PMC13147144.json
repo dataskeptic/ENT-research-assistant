@@ -12,7 +12,8 @@
     "pmc_id": "PMC13147144",
     "pmid": "42028750",
     "full_text_available": true,
-    "section_count": 24
+    "section_count": 24,
+    "reference_count": 43
   },
   "sections": [
     {
@@ -134,6 +135,903 @@
       "section": "Discussion",
       "text": "The present study performed an integrated epigenetic and functional analysis to investigate the role of DNA methylation in oral squamous cell carcinoma. Through a meta-analysis of methylation datasets from head and neck squamous cell carcinoma, it identified seven hypermethylated genes (ITGA4, ITGA8, ZFP82, PCDH17, PHYHIPL, USP44 and ZFN132) frequently altered in tumor tissues ( Table SI ) ( 17 – 27 ). Among these candidates, ITGA4 were consistently hypermethylated in OSCC cell lines but unmethylated in normal oral keratinocytes, suggesting their potential roles as tumor suppressor genes epigenetically silenced during OSCC development. These findings were further supported by TCGA gene expression data and Kaplan-Meier survival analyses, which showed a negative correlation between the methylation of these genes and patient prognosis. Focusing on ITGA4, the present study explored its tumor-suppressive function and regulatory mechanisms in OSCC. The results supported the following key conclusions: i) In MSP, ITGA4 is a DNA hypermethylation-driven gene in OSCC cell lines; ii) ITGA4 expression is significantly lower in OSCC cells than in normal cells, which suggests that epigenetic silencing of ITGA4 may contribute to OSCC development; iii) ITGA4 overexpression inhibits OSCC cell proliferation, migration and colony formation and induces apoptosis, which indicates its regulatory role as a tumor suppressor gene; and iv) ITGA4 inhibits the expression of key mesenchymal markers involved in EMT, further supporting its regulatory role in OSCC progression. In addition, MSP analysis confirmed that ITGA4 was methylated in various OSCC-derived cell lines, and treatment with the DNA methyltransferase inhibitor 5-aza-2′-deoxycytidine restored ITGA4 expression, indicating that promoter hypermethylation is a primary mechanism of its transcriptional silencing. However, these results, while strongly suggestive, do not fully establish methylation as the direct causal mechanism. To conclusively demonstrate causality, additional mechanistic approaches such as targeted promoter demethylation using CRISPR/dCas9-TET1 will be used to investigate the methylation-specific luciferase reporter assays, or bisulfite sequencing before and after epigenetic editing. In addition, DNA methylation often cooperates with repressive histone marks such as H3K9me3 or H3K27me3 and analyzing these additional layers would provide a more complete understanding of the epigenetic mechanisms underlying ITGA4 inactivation in further study. ITGA4 is a heterodimeric transmembrane protein that promotes cell survival, proliferation, migration, invasion and tumor invasion and metastasis ( 10 ). However, the role of ITGA4 in tumorigenesis remains controversial. Previous studies have suggested that ITGA4 expression has been implicated in tumor progression and poor prognosis across multiple cancer types, including gastric, OSCC, chronic lymphocytic leukemia and HER2-positive breast cancers ( 9 – 12 , 28 – 31 ). Furthermore, elevated ITGA4 levels contribute to the pathogenesis of gastrointestinal stromal tumors and MYCN-low neuroblastoma, correlating with reduced overall survival ( 30 ). By contrast, a study focusing on colorectal cancer and rectal adenocarcinoma patients found that low ITGA4 expression was associated with poorer overall survival, indicating a possible protective role of ITGA4 in this cancer type ( 10 , 11 ). This association highlights the potential of ITGA4 not only as a diagnostic marker but also as a therapeutic target in the management of OSCC. Despite the evidence supporting the potential significance of ITGA4 in OSCC, additional studies are needed to elucidate the mechanisms by which ITGA4 methylation influences various stages of tumor formation and to explore its potential clinical applications. In addition to ITGA4, another candidate, ZFP82 (also known as ZNF545), a KRAB-ZFP family tumor suppressor, is frequently hypermethylated in various cancers, leading to its downregulation ( 32 – 35 ). ZFP82 has been shown to inhibit tumorigenesis in esophageal cancer by suppressing proliferation and invasion while promoting apoptosis ( 36 ). In the present study, Kaplan-Meier and SMART analyses indicated that ZFP82 hypermethylation was associated with poorer survival in OSCC patients. Although ZFP82 also appeared as a hypermethylated candidate in the initial screening, several factors led the present study to prioritize ITGA4 for functional investigation. Unlike ITGA4, ZFP82 showed partial methylation even in iNOK cells and displayed considerable variability in mRNA expression among OSCC cell lines, suggesting that its epigenetic alteration is less OSCC-specific. In addition, 5-aza treatment produced only modest restoration of ZFP82 expression, and no consistent evidence linked ZFP82 to tumor-suppressive pathways. By analyzing the proteomic profile, the present study demonstrated that ITGA4 overexpression significantly decreased SNX5 levels in FaDu cells. SNX5 is a member of the sorting nexin family involved in endosomal trafficking, which has recently been implicated in tumorigenesis. Beyond its role in endosomal trafficking, SNX5 has been reported to regulate receptor recycling, intracellular signaling, and apoptotic pathways, including modulation of caspase-2 activity ( 37 ). SNX5-mediated control of growth factor receptor turnover can influence proliferative and invasive behavior and dysregulated SNX5 expression has been associated with aggressive phenotypes in papillary thyroid carcinoma and head and neck cancers ( 38 , 39 ). These findings indicate that SNX5 functions as a critical regulator linking endosomal homeostasis to cancer-related signaling, supporting its relevance in OSCC biology. The present study observed consistent downregulation of SNX5 at both the mRNA and protein levels upon ITGA4 overexpression. Moreover, siRNA-mediated knockdown of SNX5 was similar to the above observed anti-proliferative and pro-apoptotic effects of ITGA4, providing functional validation of this regulatory axis. However, the mechanism that regulates SNX5 in carcinogenesis has not been clearly elucidated. The finding of the present study that ITGA4-mediated suppression of SNX5 expression is a key mechanism underlying the antitumor effects of ITGA4 on OSCC is a novel and important contribution to understanding OSCC pathogenesis. While the results consistently showed that ITGA4 overexpression suppressed SNX5 and that SNX5 depletion reproduced the effects of ITGA4, the direct signaling mechanism linking these molecules remains undefined. The observed reduction in EMT markers and cytoskeletal remodeling suggested that ITGA4-dependent modulation of FAK/Src/Rho pathways may indirectly affect SNX5, but further studies are needed. Experiments using a CAM xenograft model indicated that ITGA4 overexpression or siSNX5 significantly inhibited OSCC cells driven angiogenesis. This finding is clinically relevant, as angiogenesis is a critical process in the progression and metastasis of OSCC. It also enhances our understanding of not only the anticancer role of ITGA4 in inhibiting tumor progression but also its potential therapeutic value through its ability to suppress angiogenesis. Although the CAM assays demonstrated tumor-suppressive effects of ITGA4, these findings cannot fully establish its role in OSCC progression. Future, more comprehensive in vivo studies will investigate the effect of ITGA4 on tumor growth, invasion and metastasis. Despite these findings, studies on epigenetic regulation and implications of ITGA4 in OSCC are still limited in identifying precancerous tissues, prognosis and treatment-related biomarkers for clinical applications and in developing therapeutics. In particular, further research is needed to evaluate the methylation status of ITGA4 in precancerous lesions and to determine its prognostic and predictive value in clinical settings. Additionally, the therapeutic potential of epigenetic drugs (epidrugs) to restore ITGA4 function warrants further investigation. The roles of other hypermethylated genes, such as ZFP82, also deserve exploration as possible diagnostic or therapeutic targets. In the present study, iNOK cells were used as a non-malignant comparator to assess OSCC-specific epigenetic alterations. Multiple independent studies have shown that iNOK cells exhibit low expression of oncogenic markers such as PLK1, HSF1, HDAC8 and HOXC6/Bcl-2 and display biophysical properties distinct from OSCC cell lines, supporting their use as a reliable non-tumorigenic epithelial reference ( 40 – 43 ). Although the detailed immortalization procedure for iNOK has been described for related HPV16 E6/E7-immortalized oral keratinocyte models within the same research network, additional molecular characterization, including baseline methylation and transcriptomic profiling, would further strengthen their validation as a normal comparator in future studies. In conclusion, the present study demonstrated that ITGA4 is a key epigenetically silenced tumor suppressor gene in OSCC and that its antitumor effects are at least partially mediated by the downregulation of SNX5. These findings not only improve novel mechanistic insights into OSCC pathogenesis but also suggest that ITGA4 could serve as a potential prognostic biomarker and a therapeutic target for OSCC.",
       "order": 23
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b1-or-55-6-09124",
+      "label": "1",
+      "authors": [
+        "Portela A",
+        "Esteller M"
+      ],
+      "title": "Epigenetic modifications and human disease",
+      "journal": "Nat Biotechnol",
+      "year": "2010",
+      "volume": "28",
+      "fpage": "1057",
+      "lpage": "1068",
+      "doi": "10.1038/nbt.1685",
+      "pmid": "20944598"
+    },
+    {
+      "ref_id": "b2-or-55-6-09124",
+      "label": "2",
+      "authors": [
+        "Recillas-Targa F"
+      ],
+      "title": "Cancer epigenetics: An overview",
+      "journal": "Arch Med Res",
+      "year": "2022",
+      "volume": "53",
+      "fpage": "732",
+      "lpage": "740",
+      "doi": "10.1016/j.arcmed.2022.11.003",
+      "pmid": "36411173"
+    },
+    {
+      "ref_id": "b3-or-55-6-09124",
+      "label": "3",
+      "authors": [
+        "Kulis M",
+        "Esteller M"
+      ],
+      "title": "DNA methylation and cancer",
+      "journal": "Adv Genet",
+      "year": "2010",
+      "volume": "70",
+      "fpage": "27",
+      "lpage": "56",
+      "doi": "10.1016/B978-0-12-380866-0.60002-2",
+      "pmid": "20920744"
+    },
+    {
+      "ref_id": "b4-or-55-6-09124",
+      "label": "4",
+      "authors": [
+        "Kim SY",
+        "Han YK",
+        "Song JM",
+        "Lee CH",
+        "Kang K",
+        "Yi JM",
+        "Park HR"
+      ],
+      "title": "Aberrantly hypermethylated tumor suppressor genes were identified in oral squamous cell carcinoma (OSCC)",
+      "journal": "Clin Epigenetics",
+      "year": "2019",
+      "volume": "11",
+      "fpage": "116",
+      "doi": "10.1186/s13148-019-0715-0",
+      "pmid": "31405379",
+      "pmc_id": "PMC6689875"
+    },
+    {
+      "ref_id": "b5-or-55-6-09124",
+      "label": "5",
+      "authors": [
+        "Irimie AI",
+        "Ciocan C",
+        "Gulei D",
+        "Mehterov N",
+        "Atanasov AG",
+        "Dudea D",
+        "Berindan-Neagoe I"
+      ],
+      "title": "Current insights into oral cancer epigenetics",
+      "journal": "Int J Mol Sci",
+      "year": "2018",
+      "volume": "19",
+      "fpage": "670",
+      "doi": "10.3390/ijms19030670",
+      "pmid": "29495520",
+      "pmc_id": "PMC5877531"
+    },
+    {
+      "ref_id": "b6-or-55-6-09124",
+      "label": "6",
+      "authors": [
+        "Towle R",
+        "Truong D",
+        "Hogg K",
+        "Robinson WP",
+        "Poh CF",
+        "Garnis C"
+      ],
+      "title": "Global analysis of DNA methylation changes during progression of oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2013",
+      "volume": "49",
+      "fpage": "1033",
+      "lpage": "1042",
+      "doi": "10.1016/j.oraloncology.2013.08.005",
+      "pmid": "24035722"
+    },
+    {
+      "ref_id": "b7-or-55-6-09124",
+      "label": "7",
+      "authors": [
+        "Hema KN",
+        "Smitha T",
+        "Sheethal HS",
+        "Mirnalini SA"
+      ],
+      "title": "Epigenetics in oral squamous cell carcinoma",
+      "journal": "J Oral Maxillofac Pathol",
+      "year": "2017",
+      "volume": "21",
+      "fpage": "252",
+      "lpage": "259",
+      "doi": "10.4103/jomfp.JOMFP_150_17",
+      "pmid": "28932035",
+      "pmc_id": "PMC5596676"
+    },
+    {
+      "ref_id": "b8-or-55-6-09124",
+      "label": "8",
+      "authors": [
+        "Mascolo M",
+        "Siano M",
+        "Ilardi G",
+        "Russo D",
+        "Merolla F",
+        "Rosa G",
+        "Staibano S"
+      ],
+      "title": "Epigenetic disregulation in oral cancer",
+      "journal": "Int J Mol Sci",
+      "year": "2012",
+      "volume": "13",
+      "fpage": "2331",
+      "lpage": "2353",
+      "doi": "10.3390/ijms13022331",
+      "pmid": "22408457",
+      "pmc_id": "PMC3292026"
+    },
+    {
+      "ref_id": "b9-or-55-6-09124",
+      "label": "9",
+      "authors": [
+        "Jafarpour S",
+        "Yazdi M",
+        "Nedaeinia R",
+        "Vatandoost N",
+        "Ferns GA",
+        "Salehi R"
+      ],
+      "title": "Status of integrin subunit alpha 4 promoter DNA methylation in colorectal cancer and other malignant tumors: A systematic review and meta-analysis",
+      "journal": "Res Pharm Sci",
+      "year": "2023",
+      "volume": "18",
+      "fpage": "231",
+      "lpage": "243",
+      "doi": "10.4103/1735-5362.371580",
+      "pmid": "37593168",
+      "pmc_id": "PMC10427793"
+    },
+    {
+      "ref_id": "b10-or-55-6-09124",
+      "label": "10",
+      "authors": [
+        "Fang T",
+        "Yin X",
+        "Wang Y",
+        "Wang H",
+        "Wang X",
+        "Xue Y"
+      ],
+      "title": "Lymph node metastasis-related Gene ITGA4 promotes the proliferation, migration, and invasion of gastric cancer cells by regulating tumor immune microenvironment",
+      "journal": "J Oncol",
+      "year": "2022",
+      "volume": "2022",
+      "fpage": "1315677",
+      "doi": "10.1155/2022/1315677",
+      "pmid": "36254221",
+      "pmc_id": "PMC9569201"
+    },
+    {
+      "ref_id": "b11-or-55-6-09124",
+      "label": "11",
+      "authors": [
+        "Mo J",
+        "Zhang J",
+        "Huang H",
+        "Liu C",
+        "Cheng Y",
+        "Mo Y",
+        "Wu S",
+        "Zhong Y",
+        "Zhong C",
+        "Zhang B"
+      ],
+      "title": "The early predictive effect of low expression of the ITGA4 in colorectal cancer",
+      "journal": "J Gastrointest Oncol",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "265",
+      "lpage": "278",
+      "doi": "10.21037/jgo-22-92",
+      "pmid": "35284127",
+      "pmc_id": "PMC8899742"
+    },
+    {
+      "ref_id": "b12-or-55-6-09124",
+      "label": "12",
+      "authors": [
+        "Young SA",
+        "McCabe KE",
+        "Bartakova A",
+        "Delaney J",
+        "Pizzo DP",
+        "Newbury RO",
+        "Varner JA",
+        "Schlaepfer DD",
+        "Stupack DG"
+      ],
+      "title": "Integrin α4 enhances metastasis and may be associated with poor prognosis in MYCN-low neuroblastoma",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0120815",
+      "doi": "10.1371/journal.pone.0120815",
+      "pmid": "25973900",
+      "pmc_id": "PMC4431816"
+    },
+    {
+      "ref_id": "b13-or-55-6-09124",
+      "label": "13",
+      "authors": [
+        "Gerecke C",
+        "Scholtka B",
+        "Löwenstein Y",
+        "Fait I",
+        "Gottschalk U",
+        "Rogoll D",
+        "Melcher R",
+        "Kleuser B"
+      ],
+      "title": "Hypermethylation of ITGA4, TFPI2 and VIMENTIN promoters is increased in inflamed colon tissue: Putative risk markers for colitis-associated cancer",
+      "journal": "J Cancer Res Clin Oncol",
+      "year": "2015",
+      "volume": "141",
+      "fpage": "2097",
+      "lpage": "2107",
+      "doi": "10.1007/s00432-015-1972-8",
+      "pmid": "25902909",
+      "pmc_id": "PMC11823741"
+    },
+    {
+      "ref_id": "b14-or-55-6-09124",
+      "label": "14",
+      "authors": [
+        "Park KH",
+        "Min BM"
+      ],
+      "title": "Cell behavior of human papillomavirus-immortalized and tumorigenic human oral keratinocytes does not depend on the integrin expression",
+      "journal": "Int J Oral Biol",
+      "year": "2007",
+      "volume": "32",
+      "fpage": "93",
+      "lpage": "101"
+    },
+    {
+      "ref_id": "b15-or-55-6-09124",
+      "label": "15",
+      "authors": [
+        "Livak KJ",
+        "Schmittgen TD"
+      ],
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(−Delta Delta C(T)) method",
+      "journal": "Methods",
+      "year": "2001",
+      "volume": "25",
+      "fpage": "402",
+      "lpage": "408",
+      "doi": "10.1006/meth.2001.1262",
+      "pmid": "11846609"
+    },
+    {
+      "ref_id": "b16-or-55-6-09124",
+      "label": "16",
+      "authors": [
+        "Ribatti D"
+      ],
+      "title": "The chick embryo chorioallantoic membrane (CAM) assay",
+      "journal": "Reprod Toxicol",
+      "year": "2017",
+      "volume": "70",
+      "fpage": "97",
+      "lpage": "101",
+      "doi": "10.1016/j.reprotox.2016.11.004",
+      "pmid": "27832950"
+    },
+    {
+      "ref_id": "b17-or-55-6-09124",
+      "label": "17",
+      "authors": [
+        "Shi C",
+        "Liu S",
+        "Tian X",
+        "Miao C",
+        "Wang R",
+        "Ma X",
+        "Wang X",
+        "Cao Y"
+      ],
+      "title": "Prognostic and therapeutic prediction by screening signature combinations from transcriptome-methylome interactions in oral squamous cell carcinoma",
+      "journal": "Sci Rep",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "11400",
+      "lpage": "11414",
+      "doi": "10.1038/s41598-022-15534-7",
+      "pmid": "35794182",
+      "pmc_id": "PMC9259703"
+    },
+    {
+      "ref_id": "b18-or-55-6-09124",
+      "label": "18",
+      "authors": [
+        "Chen CY",
+        "Wu JJ",
+        "Lin YJ",
+        "Hsu CH",
+        "Hu JM",
+        "Chang PK"
+      ],
+      "title": "Significance of hypermethylation of Tumor-suppressor genes PTGER4 and ZNF43 at CpG Sites in the prognosis of colorectal cancer",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "10225",
+      "doi": "10.3390/ijms231810225",
+      "pmid": "36142151",
+      "pmc_id": "PMC9499344"
+    },
+    {
+      "ref_id": "b19-or-55-6-09124",
+      "label": "19",
+      "authors": [
+        "Xue Y",
+        "Liu L",
+        "Zhang Y",
+        "He Y",
+        "Wang J",
+        "Ma Z"
+      ],
+      "title": "Unraveling the key role of chromatin structure in cancer development through epigenetic landscape characterization of oral cancer",
+      "journal": "Mol Cancer",
+      "year": "2024",
+      "volume": "23",
+      "fpage": "190",
+      "lpage": "214",
+      "doi": "10.1186/s12943-024-02100-0",
+      "pmid": "39243015",
+      "pmc_id": "PMC11378415"
+    },
+    {
+      "ref_id": "b20-or-55-6-09124",
+      "label": "20",
+      "authors": [
+        "Ouadid-Ahidouch H",
+        "Rodat-Despoix L",
+        "Matifat F",
+        "Morin G",
+        "Ahidouch A"
+      ],
+      "title": "DNA methylation of channel-related genes in cancers",
+      "journal": "Biochim Biophys Acta",
+      "year": "2015",
+      "volume": "1848",
+      "fpage": "2621",
+      "lpage": "2628",
+      "doi": "10.1016/j.bbamem.2015.02.015",
+      "pmid": "25703813"
+    },
+    {
+      "ref_id": "b21-or-55-6-09124",
+      "label": "21",
+      "authors": [
+        "Pearson P",
+        "Smith K",
+        "Sood N",
+        "Chia E",
+        "Follett A",
+        "Prystowsky MB"
+      ],
+      "title": "Kruppel-family zinc finger proteins as emerging epigenetic biomarkers in head and neck squamous cell carcinoma",
+      "journal": "J Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "52",
+      "fpage": "41",
+      "lpage": "56",
+      "doi": "10.1186/s40463-023-00640-x",
+      "pmid": "37254212",
+      "pmc_id": "PMC10228066"
+    },
+    {
+      "ref_id": "b22-or-55-6-09124",
+      "label": "22",
+      "authors": [
+        "Gissi DB",
+        "Fabbri VP",
+        "Gabusi A",
+        "Lenzi J",
+        "Morandi L",
+        "Melotti S"
+      ],
+      "title": "Pre-operative evaluation of DNA methylation profile in oral squamous cell carcinoma can predict tumor aggressive potential",
+      "journal": "Int J Mol Sci",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "6691",
+      "lpage": "6706",
+      "doi": "10.3390/ijms21186691",
+      "pmid": "32937734",
+      "pmc_id": "PMC7555204"
+    },
+    {
+      "ref_id": "b23-or-55-6-09124",
+      "label": "23",
+      "authors": [
+        "Jafarpour S",
+        "Saberi F",
+        "Yazdi M",
+        "Nedaeinia R",
+        "Amini G",
+        "Ferns G"
+      ],
+      "title": "Association between colorectal cancer and the degree of ITGA4 promoter methylation in peripheral blood mononuclear cells",
+      "journal": "Gene Reports",
+      "year": "2022",
+      "volume": "27",
+      "fpage": "101580",
+      "doi": "10.1016/j.genrep.2022.101580"
+    },
+    {
+      "ref_id": "b24-or-55-6-09124",
+      "label": "24",
+      "authors": [
+        "Zhong B",
+        "Liao Q",
+        "Wang X",
+        "Wang X",
+        "Zhang J"
+      ],
+      "title": "The roles of epigenetic regulation in cholangiocarcinogenesis",
+      "journal": "Biomed Pharmacother",
+      "year": "2023",
+      "volume": "166",
+      "fpage": "115290",
+      "lpage": "115299",
+      "doi": "10.1016/j.biopha.2023.115290",
+      "pmid": "37557012"
+    },
+    {
+      "ref_id": "b25-or-55-6-09124",
+      "label": "25",
+      "authors": [
+        "Inchanalkar M",
+        "Srivatsa S",
+        "Ambatipudi S",
+        "Bhosale PG",
+        "Patil A",
+        "Schäffer AA"
+      ],
+      "title": "Genome-wide DNA methylation profiling of HPV-negative leukoplakia and gingivobuccal complex cancers",
+      "journal": "Clin Epigenetics",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "93",
+      "lpage": "109",
+      "doi": "10.1186/s13148-023-01510-z",
+      "pmid": "37245006",
+      "pmc_id": "PMC10225107"
+    },
+    {
+      "ref_id": "b26-or-55-6-09124",
+      "label": "26",
+      "authors": [
+        "Haruki S",
+        "Imoto I",
+        "Kozaki K",
+        "Matsui T",
+        "Kawachi H",
+        "Komatsu S"
+      ],
+      "title": "Frequent silencing of protocadherin 17, a candidate tumour suppressor for esophageal squamous cell carcinoma",
+      "journal": "Carcinogenesis",
+      "year": "2010",
+      "volume": "31",
+      "fpage": "1027",
+      "lpage": "1036",
+      "doi": "10.1093/carcin/bgq053",
+      "pmid": "20200074"
+    },
+    {
+      "ref_id": "b27-or-55-6-09124",
+      "label": "27",
+      "authors": [
+        "Wu J",
+        "Cheng J",
+        "Zhang F",
+        "Luo X",
+        "Zhang Z",
+        "Chen S"
+      ],
+      "title": "Estrogen receptor α is involved in the regulation of ITGA8 methylation in estrogen receptor-positive breast cancer",
+      "journal": "Ann Transl Med",
+      "year": "2020",
+      "volume": "16",
+      "fpage": "993",
+      "lpage": "1005",
+      "doi": "10.21037/atm-20-5220",
+      "pmid": "32953793",
+      "pmc_id": "PMC7475494"
+    },
+    {
+      "ref_id": "b28-or-55-6-09124",
+      "label": "28",
+      "authors": [
+        "Attia HR",
+        "Ibrahim MH",
+        "El-Aziz SHA",
+        "Hassan NM",
+        "Osman RA",
+        "Hagag HA",
+        "Yassa ME",
+        "Abdelrahman AH",
+        "Salama",
+        "Sobeih ME"
+      ],
+      "title": "ITGA4 gene methylation status in chronic lymphocytic leukemia",
+      "journal": "Future Sci OA",
+      "year": "2020",
+      "volume": "6",
+      "fpage": "FSO583",
+      "doi": "10.2144/fsoa-2020-0034",
+      "pmid": "32802392",
+      "pmc_id": "PMC7421236"
+    },
+    {
+      "ref_id": "b29-or-55-6-09124",
+      "label": "29",
+      "authors": [
+        "Strelnikov VV",
+        "Kuznetsova EB",
+        "Tanas AS",
+        "Rudenko VV",
+        "Kalinkin AI",
+        "Poddubskaya EV",
+        "Kekeeva TV",
+        "Chesnokova GG",
+        "Trotsenko ID",
+        "Larin SS",
+        "et al."
+      ],
+      "title": "Abnormal promoter DNA hypermethylation of the integrin, nidogen, and dystroglycan genes in breast cancer",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "2264",
+      "doi": "10.1038/s41598-021-81851-y",
+      "pmid": "33500458",
+      "pmc_id": "PMC7838398"
+    },
+    {
+      "ref_id": "b30-or-55-6-09124",
+      "label": "30",
+      "authors": [
+        "Yen CY",
+        "Huang CY",
+        "Hou MF",
+        "Yang YH",
+        "Chang CH",
+        "Huang HW",
+        "Chen CH",
+        "Chang HW"
+      ],
+      "title": "Evaluating the performance of fibronectin 1 (FN1), integrin α4β1 (ITGA4), syndecan-2 (SDC2), and glycoprotein CD44 as the potential biomarkers of oral squamous cell carcinoma (OSCC)",
+      "journal": "Biomarkers",
+      "year": "2013",
+      "volume": "18",
+      "fpage": "63",
+      "lpage": "72",
+      "doi": "10.3109/1354750X.2012.737025",
+      "pmid": "23116545"
+    },
+    {
+      "ref_id": "b31-or-55-6-09124",
+      "label": "31",
+      "authors": [
+        "Pulkka OP",
+        "Mpindi JP",
+        "Tynninen O",
+        "Nilsson B",
+        "Kallioniemi O",
+        "Sihto H",
+        "Joensuu H"
+      ],
+      "title": "Clinical relevance of integrin alpha 4 in gastrointestinal stromal tumours",
+      "journal": "J Cell Mol Med",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "2220",
+      "lpage": "2230",
+      "doi": "10.1111/jcmm.13502",
+      "pmid": "29377440",
+      "pmc_id": "PMC5867167"
+    },
+    {
+      "ref_id": "b32-or-55-6-09124",
+      "label": "32",
+      "authors": [
+        "Wang S",
+        "Cheng Y",
+        "Du W",
+        "Lu L",
+        "Zhou L",
+        "Wang H",
+        "Kang W",
+        "Li X",
+        "Tao Q",
+        "Sung JJ",
+        "et al."
+      ],
+      "title": "Zinc-finger protein 545 is a novel tumour suppressor that acts by inhibiting ribosomal RNA transcription in gastric cancer",
+      "journal": "Gut",
+      "year": "2013",
+      "volume": "62",
+      "fpage": "833",
+      "lpage": "841",
+      "doi": "10.1136/gutjnl-2011-301776",
+      "pmid": "22580414"
+    },
+    {
+      "ref_id": "b33-or-55-6-09124",
+      "label": "33",
+      "authors": [
+        "Xiao Y",
+        "Xiang T",
+        "Luo X",
+        "Li C",
+        "Li Q",
+        "Peng W",
+        "Li L",
+        "Li S",
+        "Wang Z",
+        "Tang L",
+        "et al."
+      ],
+      "title": "Zinc-finger protein 545 inhibits cell proliferation as a tumor suppressor through inducing apoptosis and is disrupted by promoter methylation in breast cancer",
+      "journal": "PLoS One",
+      "year": "2014",
+      "volume": "9",
+      "fpage": "e110990",
+      "doi": "10.1371/journal.pone.0110990",
+      "pmid": "25360542",
+      "pmc_id": "PMC4215924"
+    },
+    {
+      "ref_id": "b34-or-55-6-09124",
+      "label": "34",
+      "authors": [
+        "Cheng Y",
+        "Liang P",
+        "Geng H",
+        "Wang Z",
+        "Li L",
+        "Cheng SH",
+        "Ying J",
+        "Su X",
+        "Ng KM",
+        "Ng MH",
+        "et al."
+      ],
+      "title": "A novel 19q13 nucleolar zinc finger protein suppresses tumor cell growth through inhibiting ribosome biogenesis and inducing apoptosis but is frequently silenced in multiple carcinomas",
+      "journal": "Mol Cancer Res",
+      "year": "2012",
+      "volume": "10",
+      "fpage": "925",
+      "lpage": "936",
+      "doi": "10.1158/1541-7786.MCR-11-0594",
+      "pmid": "22679109"
+    },
+    {
+      "ref_id": "b35-or-55-6-09124",
+      "label": "35",
+      "authors": [
+        "Wang S",
+        "Wong CC",
+        "Zhang Y",
+        "Huang J",
+        "Li C",
+        "Zhai J",
+        "Wang G",
+        "Wei H",
+        "Zhang X",
+        "He HH",
+        "et al."
+      ],
+      "title": "ZNF545 loss promotes ribosome biogenesis and protein translation to initiate colorectal tumorigenesis in mice",
+      "journal": "Oncogene",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "6590",
+      "lpage": "6600",
+      "doi": "10.1038/s41388-021-01938-8",
+      "pmid": "34615997",
+      "pmc_id": "PMC8639438"
+    },
+    {
+      "ref_id": "b36-or-55-6-09124",
+      "label": "36",
+      "authors": [
+        "Ye L",
+        "Xiang T",
+        "Fan Y",
+        "Zhang D",
+        "Li L",
+        "Zhang C",
+        "He X",
+        "Xiang Q",
+        "Tao Q",
+        "Ren G"
+      ],
+      "title": "The 19q13 KRAB Zinc-finger protein ZFP82 suppresses the growth and invasion of esophageal carcinoma cells through inhibiting NF-κB transcription and inducing apoptosis",
+      "journal": "Epigenomics",
+      "year": "2019",
+      "volume": "11",
+      "fpage": "65",
+      "lpage": "80",
+      "doi": "10.2217/epi-2018-0092",
+      "pmid": "30211622"
+    },
+    {
+      "ref_id": "b37-or-55-6-09124",
+      "label": "37",
+      "authors": [
+        "Ara S",
+        "Kikuchi T",
+        "Matsumiya H",
+        "Kojima T",
+        "Kubo T",
+        "Ye RC",
+        "Sato A",
+        "Kon S",
+        "Honma T",
+        "Asakura K",
+        "et al."
+      ],
+      "title": "Sorting nexin 5 of a new diagnostic marker of papillary thyroid carcinoma regulates Caspase-2",
+      "journal": "Cancer Sci",
+      "year": "2012",
+      "volume": "103",
+      "fpage": "1356",
+      "lpage": "1362",
+      "doi": "10.1111/j.1349-7006.2012.02296.x",
+      "pmid": "22486813",
+      "pmc_id": "PMC7659183"
+    },
+    {
+      "ref_id": "b38-or-55-6-09124",
+      "label": "38",
+      "authors": [
+        "Jitsukawa S",
+        "Kamekura R",
+        "Kawata K",
+        "Ito F",
+        "Sato A",
+        "Matsumiya H",
+        "Nagaya T",
+        "Yamashita K",
+        "Kubo T",
+        "Kikuchi T",
+        "et al."
+      ],
+      "title": "Loss of sorting nexin 5 stabilizes internalized growth factor receptors to promote thyroid cancer progression",
+      "journal": "J Pathol",
+      "year": "2017",
+      "volume": "243",
+      "fpage": "342",
+      "lpage": "353",
+      "doi": "10.1002/path.4951",
+      "pmid": "28771744"
+    },
+    {
+      "ref_id": "b39-or-55-6-09124",
+      "label": "39",
+      "authors": [
+        "Cai J",
+        "Sun M",
+        "Hu B",
+        "Windle B",
+        "Ge X",
+        "Li G",
+        "Sun Y"
+      ],
+      "title": "Sorting nexin 5 controls head and neck squamous cell carcinoma progression by modulating FBW7",
+      "journal": "J Cancer",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "2942",
+      "lpage": "2952",
+      "doi": "10.7150/jca.31055",
+      "pmid": "31281471",
+      "pmc_id": "PMC6590026"
+    },
+    {
+      "ref_id": "b40-or-55-6-09124",
+      "label": "40",
+      "authors": [
+        "Ahn MY",
+        "Yoon JH"
+      ],
+      "title": "Histone deacetylase 8 as a novel therapeutic target in oral squamous cell carcinoma",
+      "journal": "Oncol Rep",
+      "year": "2017",
+      "volume": "37",
+      "fpage": "145",
+      "lpage": "152",
+      "doi": "10.3892/or.2016.5280",
+      "pmid": "28004115"
+    },
+    {
+      "ref_id": "b41-or-55-6-09124",
+      "label": "41",
+      "authors": [
+        "Moon SM",
+        "Kim SA",
+        "Yoon JH",
+        "Ahn SG"
+      ],
+      "title": "HOXC6 is deregulated in human head and neck squamous cell carcinoma and modulates Bcl-2 expression",
+      "journal": "J Biol Chem",
+      "year": "2012",
+      "volume": "287",
+      "fpage": "35678",
+      "lpage": "35688",
+      "doi": "10.1074/jbc.M112.361675",
+      "pmid": "22896703",
+      "pmc_id": "PMC3471680"
+    },
+    {
+      "ref_id": "b42-or-55-6-09124",
+      "label": "42",
+      "authors": [
+        "Kim SA",
+        "Kwon SM",
+        "Yoon JH",
+        "Ahn SG"
+      ],
+      "title": "The antitumor effect of PLK1 and HSF1 double knockdown on human oral carcinoma cells",
+      "journal": "Int J Oncol",
+      "year": "2010",
+      "volume": "36",
+      "fpage": "867",
+      "lpage": "872",
+      "pmid": "20198330",
+      "doi": "10.3892/ijo_00000564"
+    },
+    {
+      "ref_id": "b43-or-55-6-09124",
+      "label": "43",
+      "authors": [
+        "Choi WJ",
+        "Jeon DI",
+        "Ahn SG",
+        "Yoon JH",
+        "Kim S",
+        "Lee BH"
+      ],
+      "title": "Full-field optical coherence microscopy for identifying live cancer cells by quantitative measurement of refractive index distribution",
+      "journal": "Opt Express",
+      "year": "2010",
+      "volume": "18",
+      "fpage": "23285",
+      "lpage": "23295",
+      "doi": "10.1364/OE.18.023285",
+      "pmid": "21164669"
     }
   ]
 }

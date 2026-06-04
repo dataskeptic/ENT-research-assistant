@@ -24,7 +24,8 @@
     "pmc_id": "PMC13193068",
     "pmid": "42048110",
     "full_text_available": true,
-    "section_count": 9
+    "section_count": 9,
+    "reference_count": 16
   },
   "sections": [
     {
@@ -71,6 +72,243 @@
       "section": "Author Contribution Statement",
       "text": "LK curated the data, designed the methodology, performed formal analysis, and wrote the original draft of the manuscript. AD conceived the study, curated the data, performed formal analysis, and reviewed and edited the manuscript. LLT, KK, RKH, YK, YA, and GS curated the data. JBZ, EA, AW, GH, and NM reviewed and edited the manuscript. SS designed the methodology and reviewed and edited the manuscript. IF conceived the study, designed the methodology, and reviewed and edited the manuscript.",
       "order": 8
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1",
+      "title": "Differentiated thyroid cancer: reexamination of risk groups and outcome of treatment",
+      "journal": "Arch Surg",
+      "year": "1998",
+      "volume": "133",
+      "fpage": "419",
+      "lpage": "425",
+      "doi": "10.1001/archsurg.133.4.419",
+      "pmid": "9565123"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2",
+      "authors": [
+        "et al."
+      ],
+      "title": "Sorafenib in radioactive iodine-refractory, locally advanced or metastatic differentiated thyroid cancer: a randomised, double-blind, phase 3 trial",
+      "journal": "Lancet",
+      "year": "2014",
+      "volume": "384",
+      "fpage": "319",
+      "lpage": "328",
+      "pmid": "24768112",
+      "doi": "10.1016/S0140-6736(14)60421-9",
+      "pmc_id": "PMC4366116"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3",
+      "authors": [
+        "et al."
+      ],
+      "title": "Lenvatinib versus placebo in radioiodine-refractory thyroid cancer",
+      "journal": "N Engl J Med",
+      "year": "2015",
+      "volume": "372",
+      "fpage": "621",
+      "lpage": "630",
+      "doi": "10.1056/nejmoa1406470",
+      "pmid": "25671254"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4",
+      "authors": [
+        "et al."
+      ],
+      "title": "The efficacy and safety of anlotinib in neoadjuvant treatment of locally advanced thyroid cancer: a single-arm phase II clinical trial",
+      "journal": "Thyroid",
+      "year": "2021",
+      "volume": "31",
+      "fpage": "1808",
+      "lpage": "1813",
+      "doi": "10.1089/thy.2021.0307",
+      "pmid": "34610756"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neoadjuvant treatment of locally advanced thyroid cancer: a preliminary Latin American experience",
+      "journal": "Thyroid",
+      "year": "2024",
+      "volume": "34",
+      "fpage": "949",
+      "lpage": "952",
+      "doi": "10.1089/thy.2024.0090",
+      "pmid": "38757613"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neoadjuvant multikinase inhibitor in patients with locally advanced unresectable thyroid carcinoma",
+      "journal": "Front Endocrinol",
+      "year": "2019",
+      "volume": "10",
+      "elocation_id": "712",
+      "doi": "10.3389/fendo.2019.00712",
+      "pmc_id": "PMC6817485",
+      "pmid": "31695679"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7",
+      "authors": [
+        "et al."
+      ],
+      "title": "Assessment of two commercial comprehensive gene panels for personalized cancer treatment",
+      "journal": "J Pers Med",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "42",
+      "doi": "10.3390/jpm13010042",
+      "pmid": "36675703",
+      "pmc_id": "PMC9863125"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8",
+      "authors": [
+        "et al."
+      ],
+      "title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1)",
+      "journal": "Eur J Cancer",
+      "year": "2009",
+      "volume": "45",
+      "fpage": "228",
+      "lpage": "247",
+      "doi": "10.1016/j.ejca.2008.10.026",
+      "pmid": "19097774"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9",
+      "authors": [
+        "et al."
+      ],
+      "title": "Pathological assessment of resection specimens after neoadjuvant therapy for metastatic melanoma",
+      "journal": "Ann Oncol",
+      "year": "2018",
+      "volume": "29",
+      "fpage": "1861",
+      "lpage": "1868",
+      "doi": "10.1093/annonc/mdy226",
+      "pmid": "29945191",
+      "pmc_id": "PMC6096739"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neoadjuvant therapy to improve resectability of advanced thyroid cancer: a real-world experience",
+      "journal": "Head Neck",
+      "year": "2024",
+      "volume": "46",
+      "fpage": "2496",
+      "lpage": "2507",
+      "doi": "10.1002/hed.27735",
+      "pmid": "38488238",
+      "pmc_id": "PMC12922590"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neoadjuvant systemic therapy for inoperable differentiated thyroid cancers: impact on tumor resectability",
+      "journal": "Surgery",
+      "year": "2024",
+      "volume": "177",
+      "elocation_id": "108836",
+      "doi": "10.1016/j.surg.2024.08.046",
+      "pmid": "39472260"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12",
+      "title": "Adverse effects of tyrosine kinase inhibitors in cancer therapy: pathophysiology, mechanisms and clinical management",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2023",
+      "volume": "8",
+      "fpage": "262",
+      "doi": "10.1038/s41392-023-01469-6",
+      "pmid": "37414756",
+      "pmc_id": "PMC10326056"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13",
+      "authors": [
+        "et al."
+      ],
+      "title": "Histological findings of thyroid cancer after lenvatinib therapy",
+      "journal": "Histopathology",
+      "year": "2023",
+      "volume": "83",
+      "fpage": "657",
+      "lpage": "663",
+      "doi": "10.1111/his.15013",
+      "pmid": "37501641"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14",
+      "authors": [
+        "et al."
+      ],
+      "title": "Immunomodulatory activity of lenvatinib contributes to antitumor activity in the Hepa1-6 hepatocellular carcinoma model",
+      "journal": "Cancer Sci",
+      "year": "2018",
+      "volume": "109",
+      "fpage": "3993",
+      "lpage": "4002",
+      "doi": "10.1111/cas.13806",
+      "pmid": "30447042",
+      "pmc_id": "PMC6272102"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15",
+      "authors": [
+        "et al."
+      ],
+      "title": "Lenvatinib activates anti-tumor immunity by suppressing immunoinhibitory infiltrates in the tumor microenvironment of advanced hepatocellular carcinoma",
+      "journal": "Commun Med",
+      "year": "2023",
+      "volume": "3",
+      "elocation_id": "152",
+      "doi": "10.1038/s43856-023-00390-x",
+      "pmid": "37880538",
+      "pmc_id": "PMC10600115"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16",
+      "title": "Modified recist (mRECIST) assessment for hepatocellular carcinoma",
+      "journal": "Semin Liver Dis",
+      "year": "2010",
+      "volume": "30",
+      "fpage": "052",
+      "lpage": "060",
+      "doi": "10.1055/s-0030-1247132",
+      "pmc_id": "PMC12268942",
+      "pmid": "20175033"
     }
   ]
 }

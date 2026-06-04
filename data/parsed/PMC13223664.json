@@ -17,7 +17,8 @@
     "pmc_id": "PMC13223664",
     "pmid": "42208982",
     "full_text_available": true,
-    "section_count": 27
+    "section_count": 27,
+    "reference_count": 60
   },
   "sections": [
     {
@@ -154,6 +155,1086 @@
       "section": "Discussion",
       "text": "Tumor immune evasion arises from a complex interplay between extrinsic cues within the TME and intrinsic stress-adaptive programs in tumor cells. 23 42 In this study, we identify ATF4, a core downstream effector of the PERK branch of the UPR, 39 as a tumor-intrinsic regulator that links chronic cellular stress to immune suppression. We demonstrate that ATF4 stabilizes PD-L1 protein by suppressing autophagy-dependent degradation through an ROS-AKT-mTOR signaling axis, thereby sustaining immune checkpoint signaling independently of inflammatory cues. By integrating single-cell transcriptomics, mechanistic analyses, and in vivo immunotherapy models, our findings establish ATF4 as a key molecular conduit. It translates chronic stress adaptation into immune checkpoint stabilization, CD8 + T-cell dysfunction, and resistance to immune checkpoint blockade. These findings highlight stress signaling as an actionable dimension of cancer immunoregulation. Accumulating evidence highlights the context-dependent yet functionally convergent roles of ATF4 in immunosuppression across diverse cellular compartments within the TME. 26 42 Consistent with our study, ATF4 drives tumor growth in immunocompetent mice but not in nude mice across lung cancer and melanoma, 43 underscoring a conserved immune-dependent mechanism. In human fibrosarcoma, ATF4 knockdown suppresses tumor growth primarily by disrupting amino acid metabolism, particularly through downregulation of asparagine synthetase, accompanied by an initial surge in protective autophagy. 44 Beyond cancer cells, ATF4 also exerts cell type-specific effects within the TME. In CD8 + T cells, chronic ATF4 activation driven by hypoxia and metabolic stress induces mitochondrial dysfunction and terminal exhaustion, thereby limiting responsiveness to anti-PD-1 therapy. 22 In the myeloid compartment, PERK-ATF4 signaling in macrophages promotes immunosuppressive M2 polarization and proliferation via enhanced serine biosynthesis, 45 and drives a glycolytic phenotype in monocyte-derived macrophages within glioblastoma. 46 Our previous work further demonstrated that PERK-ATF4 activation in macrophages contributes to an immunosuppressive microenvironment in lymph node of patients with oral cancer. 47 Additionally, CHOP, a key downstream effector of ATF4, is essential for the immunosuppressive function of myeloid-derived suppressor cells. 48 Beyond immune cells, ATF4-mediated PHGDH expression in endothelial cells supports pathological angiogenesis and restricts T-cell infiltration. 49 More recently, tumor-intrinsic ATF4 has been implicated in non-cell-autonomous immune evasion via neuroimmune circuits that suppress tumor-draining lymph node immunity. 50 Here, we report that PERK-ATF4 activation in tumor cells further amplifies immunosuppression by impeding autophagic degradation of PD-L1. Collectively, these findings establish the PERK-ATF4 axis as a central regulator of tumor immune evasion across multiple cell types and cancer contexts. ROS is integral to the TME, serving as both metabolic byproducts and signaling intermediates that regulate antigen presentation, immune checkpoint stability, and immune cell function. 51 Sustained ATF4 activation under chronic stress has been linked to cellular redox imbalance, 41 as prolonged ATF4 signaling disrupts mitochondrial function and promotes ROS accumulation in both hepatocytes and tumor-infiltrating lymphocytes. 22 52 Genetic manipulation of ATF4 in tumor cells revealed that ATF4-dependent ROS accumulation activates AKT-mTOR signaling, consistent with the well-established role of ROS in activating this pathway. 53 Prior studies have shown that mitochondrial redox imbalance can activate PI3K-AKT signaling. 54 Here, we identify a tumor-intrinsic ATF4-ROS axis that suppresses autophagy and stabilizes PD-L1 in an AKT-mTOR-dependent manner, coupling stress adaptation to immune evasion. Notably, ROS scavenging disrupted this signaling cascade, restored PD-L1 degradation, and enhanced antitumor immunity, positioning ROS as a key downstream effector of ATF4 in tumors. As the most important immune checkpoint molecule, PD-L1 stability has emerged as a key determinant of immune checkpoint activity in tumors. 6 Although IFN-γ-driven transcription mediates rapid PD-L1 induction, 55 accumulating evidence indicates that post-translational mechanisms controlling PD-L1 turnover are essential for sustaining immune suppression under prolonged immune pressure. 56 PD-L1 stability is regulated at multiple levels, including ubiquitination, glycosylation, and lysosomal trafficking. For instance, CMTM6 preserves PD-L1 expression by limiting ubiquitin-mediated degradation, 57 whereas inflammatory signaling through the IL-6-JAK1 axis enhances PD-L1 stability via phosphorylation-dependent glycosylation. 58 In addition, lysosomal and autophagy-related pathways have been implicated in PD-L1 turnover, as mTOR inhibition can promote TFEB (nuclear transcriptional factor EB)-dependent PD-L1 degradation and enhance antitumor T-cell responses. 59 Consistent with these regulatory mechanisms, we identify a stress-responsive mechanism in which tumor-intrinsic ATF4 restrains autophagic flux via the ROS-AKT-mTOR axis, limiting PD-L1 degradation and sustaining immune checkpoint expression. Notably, ATF4 knockdown not only reduced PD-L1 but also increased MHC-I expression, suggesting a potential link between PD-L1 regulation and antigen presentation. Recent studies have shown that PD-L1 possesses intrinsic E3 ubiquitin ligase activity that promotes β2-microglobulin (β2m) degradation and reduces surface MHC-I. 60 Thus, ATF4 knockdown may indirectly enhance MHC-I expression by alleviating PD-L1-mediated β2m degradation. The identification of ATF4 as a tumor-intrinsic driver of immune evasion carries important translational implications. Unlike immune checkpoint ligands that are primarily induced by inflammatory cues, 40 ATF4 activation reflects intrinsic stress states common to solid tumors, including hypoxia, nutrient deprivation, and proteotoxic stress. Consistent with this distinction, elevated tumor ATF4 expression stratified non-responders to PD-1 blockade and correlated with poorer survival, supporting its potential utility as a predictive biomarker of immunotherapy resistance. Although direct pharmacologic inhibition of ATF4 remains challenging, multiple upstream components of the PERK arm of the UPR and ER stress-adaptive signaling are pharmacologically tractable. 23 39 These findings provide a mechanistic rationale for combining ER stress-targeting strategies with immune checkpoint blockade, particularly in tumors characterized by high intrinsic stress signaling and immune exclusion. One limitation of this study is the relatively small clinical sample size, which may limit the generalizability of our findings and warrants validation in larger, multicenter cohorts. In addition, the precise molecular mechanism by which ATF4 regulates ROS remains to be fully elucidated. Furthermore, although genetic approaches demonstrate that ATF4 depletion enhances immunotherapy efficacy, the development of pharmacological inhibitors targeting ATF4 will be essential for clinical translation.",
       "order": 26
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Swanton C",
+        "Bernard E",
+        "Abbosh C",
+        "et al."
+      ],
+      "title": "Embracing cancer complexity: Hallmarks of systemic disease",
+      "journal": "Cell",
+      "year": "2024",
+      "volume": "187",
+      "fpage": "1589",
+      "lpage": "616",
+      "doi": "10.1016/j.cell.2024.02.009",
+      "pmid": "38552609",
+      "pmc_id": "PMC12077170"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Jassim A",
+        "Rahrmann EP",
+        "Simons BD",
+        "et al."
+      ],
+      "title": "Cancers make their own luck: theories of cancer origins",
+      "journal": "Nat Rev Cancer",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "710",
+      "lpage": "24",
+      "doi": "10.1038/s41568-023-00602-5",
+      "pmid": "37488363"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Waldman AD",
+        "Fritz JM",
+        "Lenardo MJ"
+      ],
+      "title": "A guide to cancer immunotherapy: from T cell basic science to clinical practice",
+      "journal": "Nat Rev Immunol",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "651",
+      "lpage": "68",
+      "doi": "10.1038/s41577-020-0306-5",
+      "pmid": "32433532",
+      "pmc_id": "PMC7238960"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Kraehenbuehl L",
+        "Weng C-H",
+        "Eghbali S",
+        "et al."
+      ],
+      "title": "Enhancing immunotherapy in cancer by targeting emerging immunomodulatory pathways",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2022",
+      "volume": "19",
+      "fpage": "37",
+      "lpage": "50",
+      "doi": "10.1038/s41571-021-00552-7",
+      "pmid": "34580473"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Sharma P",
+        "Allison JP"
+      ],
+      "title": "The future of immune checkpoint therapy",
+      "journal": "Science",
+      "year": "2015",
+      "volume": "348",
+      "fpage": "56",
+      "lpage": "61",
+      "doi": "10.1126/science.aaa8172",
+      "pmid": "25838373"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Yi M",
+        "Niu M",
+        "Xu L",
+        "et al."
+      ],
+      "title": "Regulation of PD-L1 expression in the tumor microenvironment",
+      "journal": "J Hematol Oncol",
+      "year": "2021",
+      "volume": "14",
+      "elocation_id": "10",
+      "doi": "10.1186/s13045-020-01027-5",
+      "pmid": "33413496",
+      "pmc_id": "PMC7792099"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Yamaguchi H",
+        "Hsu J-M",
+        "Yang W-H",
+        "et al."
+      ],
+      "title": "Mechanisms regulating PD-L1 expression in cancers and associated opportunities for novel small-molecule therapeutics",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2022",
+      "volume": "19",
+      "fpage": "287",
+      "lpage": "305",
+      "doi": "10.1038/s41571-022-00601-9",
+      "pmid": "35132224"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Boussiotis VA"
+      ],
+      "title": "Molecular and Biochemical Aspects of the PD-1 Checkpoint Pathway",
+      "journal": "N Engl J Med",
+      "year": "2016",
+      "volume": "375",
+      "fpage": "1767",
+      "lpage": "78",
+      "doi": "10.1056/NEJMra1514296",
+      "pmid": "27806234",
+      "pmc_id": "PMC5575761"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Jiang X",
+        "Wang J",
+        "Deng X",
+        "et al."
+      ],
+      "title": "Role of the tumor microenvironment in PD-L1/PD-1-mediated tumor immune escape",
+      "journal": "Mol Cancer",
+      "year": "2019",
+      "volume": "18",
+      "elocation_id": "10",
+      "doi": "10.1186/s12943-018-0928-4",
+      "pmid": "30646912",
+      "pmc_id": "PMC6332843"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Le DT",
+        "Uram JN",
+        "Wang H",
+        "et al."
+      ],
+      "title": "PD-1 Blockade in Tumors with Mismatch-Repair Deficiency",
+      "journal": "N Engl J Med",
+      "year": "2015",
+      "volume": "372",
+      "fpage": "2509",
+      "lpage": "20",
+      "doi": "10.1056/NEJMoa1500596",
+      "pmid": "26028255",
+      "pmc_id": "PMC4481136"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Wolchok JD"
+      ],
+      "title": "Checkpoint blockade: the end of the beginning",
+      "journal": "Nat Rev Immunol",
+      "year": "2021",
+      "volume": "21",
+      "elocation_id": "621",
+      "doi": "10.1038/s41577-021-00617-9",
+      "pmid": "34580460"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Pang K",
+        "Shi Z-D",
+        "Wei L-Y",
+        "et al."
+      ],
+      "title": "Research progress of therapeutic effects and drug resistance of immunotherapy based on PD-1/PD-L1 blockade",
+      "journal": "Drug Resist Updat",
+      "year": "2023",
+      "volume": "66",
+      "fpage": "100907",
+      "doi": "10.1016/j.drup.2022.100907",
+      "pmid": "36527888"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Dong H",
+        "Zhu G",
+        "Tamada K",
+        "et al."
+      ],
+      "title": "B7-H1, a third member of the B7 family, co-stimulates T-cell proliferation and interleukin-10 secretion",
+      "journal": "Nat Med",
+      "year": "1999",
+      "volume": "5",
+      "fpage": "1365",
+      "lpage": "9",
+      "doi": "10.1038/70932",
+      "pmid": "10581077"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Ikeda S",
+        "Okamoto T",
+        "Okano S",
+        "et al."
+      ],
+      "title": "PD-L1 Is Upregulated by Simultaneous Amplification of the PD-L1 and JAK2 Genes in Non-Small Cell Lung Cancer",
+      "journal": "J Thorac Oncol",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "62",
+      "lpage": "71",
+      "doi": "10.1016/j.jtho.2015.09.010",
+      "pmid": "26762740"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Yi M",
+        "Zheng X",
+        "Niu M",
+        "et al."
+      ],
+      "title": "Combination strategies with PD-1/PD-L1 blockade: current advances and future directions",
+      "journal": "Mol Cancer",
+      "year": "2022",
+      "volume": "21",
+      "elocation_id": "28",
+      "doi": "10.1186/s12943-021-01489-2",
+      "pmid": "35062949",
+      "pmc_id": "PMC8780712"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Xie F",
+        "Xu M",
+        "Lu J",
+        "et al."
+      ],
+      "title": "The role of exosomal PD-L1 in tumor progression and immunotherapy",
+      "journal": "Mol Cancer",
+      "year": "2019",
+      "volume": "18",
+      "elocation_id": "146",
+      "doi": "10.1186/s12943-019-1074-3",
+      "pmid": "31647023",
+      "pmc_id": "PMC6813045"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Chen G",
+        "Huang AC",
+        "Zhang W",
+        "et al."
+      ],
+      "title": "Exosomal PD-L1 contributes to immunosuppression and is associated with anti-PD-1 response",
+      "journal": "Nature New Biol",
+      "year": "2018",
+      "volume": "560",
+      "fpage": "382",
+      "lpage": "6",
+      "doi": "10.1038/s41586-018-0392-8",
+      "pmc_id": "PMC6095740",
+      "pmid": "30089911"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Wu B",
+        "Huang X",
+        "Shi X",
+        "et al."
+      ],
+      "title": "LAMTOR1 decreased exosomal PD-L1 to enhance immunotherapy efficacy in non-small cell lung cancer",
+      "journal": "Mol Cancer",
+      "year": "2024",
+      "volume": "23",
+      "elocation_id": "184",
+      "doi": "10.1186/s12943-024-02099-4",
+      "pmid": "39223601",
+      "pmc_id": "PMC11367890"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Chen Z-K",
+        "Zheng S",
+        "Long Y",
+        "et al."
+      ],
+      "title": "High-throughput screening identifies ibuprofen as an sEV PD-L1 inhibitor for synergistic cancer immunotherapy",
+      "journal": "Mol Ther",
+      "year": "2024",
+      "volume": "32",
+      "fpage": "3580",
+      "lpage": "96",
+      "doi": "10.1016/j.ymthe.2024.08.027",
+      "pmid": "39217416",
+      "pmc_id": "PMC11489553"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Park J",
+        "Hsueh P-C",
+        "Li Z",
+        "et al."
+      ],
+      "title": "Microenvironment-driven metabolic adaptations guiding CD8 + T cell anti-tumor immunity",
+      "journal": "Immunity",
+      "year": "2023",
+      "volume": "56",
+      "fpage": "32",
+      "lpage": "42",
+      "doi": "10.1016/j.immuni.2022.12.008",
+      "pmid": "36630916"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Bi M",
+        "Naczki C",
+        "Koritzinsky M",
+        "et al."
+      ],
+      "title": "ER stress-regulated translation increases tolerance to extreme hypoxia and promotes tumor growth",
+      "journal": "EMBO J",
+      "year": "2005",
+      "volume": "24",
+      "fpage": "3470",
+      "lpage": "81",
+      "doi": "10.1038/sj.emboj.7600777",
+      "pmid": "16148948",
+      "pmc_id": "PMC1276162"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Alicea Pauneto CDM",
+        "Riesenberg BP",
+        "Gandy EJ",
+        "et al."
+      ],
+      "title": "Intra-tumoral hypoxia promotes CD8 + T cell dysfunction via chronic activation of integrated stress response transcription factor ATF4",
+      "journal": "Immunity",
+      "year": "2025",
+      "volume": "58",
+      "fpage": "2489",
+      "lpage": "504",
+      "doi": "10.1016/j.immuni.2025.09.003",
+      "pmid": "41005293",
+      "pmc_id": "PMC12666857"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Chen X",
+        "Cubillos-Ruiz JR"
+      ],
+      "title": "Endoplasmic reticulum stress signals in the tumour and its microenvironment",
+      "journal": "Nat Rev Cancer",
+      "year": "2021",
+      "volume": "21",
+      "fpage": "71",
+      "lpage": "88",
+      "doi": "10.1038/s41568-020-00312-2",
+      "pmid": "33214692",
+      "pmc_id": "PMC7927882"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Walter P",
+        "Ron D"
+      ],
+      "title": "The unfolded protein response: from stress pathway to homeostatic regulation",
+      "journal": "Science",
+      "year": "2011",
+      "volume": "334",
+      "fpage": "1081",
+      "lpage": "6",
+      "doi": "10.1126/science.1209038",
+      "pmid": "22116877"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Vanacker H",
+        "Vetters J",
+        "Moudombi L",
+        "et al."
+      ],
+      "title": "Emerging Role of the Unfolded Protein Response in Tumor Immunosurveillance",
+      "journal": "Trends Cancer",
+      "year": "2017",
+      "volume": "3",
+      "fpage": "491",
+      "lpage": "505",
+      "doi": "10.1016/j.trecan.2017.05.005",
+      "pmid": "28718404"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Grootjans J",
+        "Kaser A",
+        "Kaufman RJ",
+        "et al."
+      ],
+      "title": "The unfolded protein response in immunity and inflammation",
+      "journal": "Nat Rev Immunol",
+      "year": "2016",
+      "volume": "16",
+      "fpage": "469",
+      "lpage": "84",
+      "doi": "10.1038/nri.2016.62",
+      "pmid": "27346803",
+      "pmc_id": "PMC5310224"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Liu H-M",
+        "Xiong X-P",
+        "Yu Z-L",
+        "et al."
+      ],
+      "title": "Neoadjuvant immunotherapy with or without chemotherapy in locally advanced oral squamous cell carcinoma: Randomized, two-arm, phase 2 trial",
+      "journal": "Cell Rep Med",
+      "year": "2025",
+      "volume": "6",
+      "elocation_id": "101930",
+      "doi": "10.1016/j.xcrm.2025.101930",
+      "pmid": "39889711",
+      "pmc_id": "PMC11866509"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Judd NP",
+        "Allen CT",
+        "Winkler AE",
+        "et al."
+      ],
+      "title": "Comparative analysis of tumor-infiltrating lymphocytes in a syngeneic mouse model of oral cancer",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2012",
+      "volume": "147",
+      "fpage": "493",
+      "lpage": "500",
+      "doi": "10.1177/0194599812442037",
+      "pmid": "22434099",
+      "pmc_id": "PMC6346425"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "Wang Z",
+        "Guo Y",
+        "Hu K",
+        "et al."
+      ],
+      "title": "Hepatocellular carcinoma cells downregulate PGAM2 via SIRT2-mediated deacetylation modification to enhance aerobic glycolysis",
+      "journal": "NPJ Precis Oncol",
+      "year": "2025",
+      "volume": "9",
+      "elocation_id": "143",
+      "doi": "10.1038/s41698-025-00930-9",
+      "pmid": "40379975",
+      "pmc_id": "PMC12084564"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Nordstrøm LU",
+        "Sironi J",
+        "Aranda E",
+        "et al."
+      ],
+      "title": "Discovery of autophagy inhibitors with antiproliferative activity in lung and pancreatic cancer cells",
+      "journal": "ACS Med Chem Lett",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "134",
+      "lpage": "9",
+      "doi": "10.1021/ml500348p",
+      "pmid": "25699157",
+      "pmc_id": "PMC4329578"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Feng H",
+        "Wang J",
+        "Tao L",
+        "et al."
+      ],
+      "title": "α-hederin decreases the glycolysis level in intestinal epithelial cells via SNX10-mediated DEPDC5 degradation",
+      "journal": "J Pharm Anal",
+      "year": "2025",
+      "volume": "15",
+      "elocation_id": "101301",
+      "doi": "10.1016/j.jpha.2025.101301",
+      "pmid": "41487148",
+      "pmc_id": "PMC12756552"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Yan L"
+      ],
+      "title": "Abstract #DDT01-1: MK-2206: A potent oral allosteric AKT inhibitor",
+      "journal": "Cancer Res",
+      "year": "2009",
+      "volume": "69"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Hirai H",
+        "Sootome H",
+        "Nakatsuru Y",
+        "et al."
+      ],
+      "title": "MK-2206, an allosteric Akt inhibitor, enhances antitumor efficacy by standard chemotherapeutic agents or molecular targeted drugs in vitro and in vivo",
+      "journal": "Mol Cancer Ther",
+      "year": "2010",
+      "volume": "9",
+      "fpage": "1956",
+      "lpage": "67",
+      "doi": "10.1158/1535-7163.MCT-09-1012",
+      "pmid": "20571069"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Ma J",
+        "Ye W",
+        "Yang Y",
+        "et al."
+      ],
+      "title": "The interaction between autophagy and the epithelial-mesenchymal transition mediated by NICD/ULK1 is involved in the formation of diabetic cataracts",
+      "journal": "Mol Med",
+      "year": "2022",
+      "volume": "28",
+      "elocation_id": "116",
+      "doi": "10.1186/s10020-022-00540-2",
+      "pmid": "36104669",
+      "pmc_id": "PMC9476327"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "authors": [
+        "Jin J",
+        "Hu K",
+        "Ye M",
+        "et al."
+      ],
+      "title": "Rapamycin Reduces Podocyte Apoptosis and is Involved in Autophagy and mTOR/ P70S6K/4EBP1 Signaling",
+      "journal": "Cell Physiol Biochem",
+      "year": "2018",
+      "volume": "48",
+      "fpage": "765",
+      "lpage": "72",
+      "doi": "10.1159/000491905",
+      "pmid": "30025409"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36",
+      "authors": [
+        "Li X",
+        "Römer G",
+        "Kerindongo RP",
+        "et al."
+      ],
+      "title": "Sodium Glucose Co-Transporter 2 Inhibitors Ameliorate Endothelium Barrier Dysfunction Induced by Cyclic Stretch through Inhibition of Reactive Oxygen Species",
+      "journal": "IJMS",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "6044",
+      "doi": "10.3390/ijms22116044",
+      "pmid": "34205045",
+      "pmc_id": "PMC8199893"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37",
+      "authors": [
+        "Zhang L-Z",
+        "Yang J-G",
+        "Chen G-L",
+        "et al."
+      ],
+      "title": "PD-1/CD80 + small extracellular vesicles from immunocytes induce cold tumours featured with enhanced adaptive immunosuppression",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "3884",
+      "doi": "10.1038/s41467-024-48200-9",
+      "pmid": "38719909",
+      "pmc_id": "PMC11079016"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "authors": [
+        "Zhang L",
+        "Lin H",
+        "Liang J",
+        "et al."
+      ],
+      "title": "Programmed death-ligand 1 regulates ameloblastoma growth and recurrence",
+      "journal": "Int J Oral Sci",
+      "year": "2025",
+      "volume": "17",
+      "elocation_id": "29",
+      "doi": "10.1038/s41368-025-00364-w",
+      "pmid": "40240323",
+      "pmc_id": "PMC12003687"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39",
+      "authors": [
+        "Hetz C",
+        "Zhang K",
+        "Kaufman RJ"
+      ],
+      "title": "Mechanisms, regulation and functions of the unfolded protein response",
+      "journal": "Nat Rev Mol Cell Biol",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "421",
+      "lpage": "38",
+      "doi": "10.1038/s41580-020-0250-z",
+      "pmid": "32457508",
+      "pmc_id": "PMC8867924"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Dunn GP",
+        "Koebel CM",
+        "Schreiber RD"
+      ],
+      "title": "Interferons, immunity and cancer immunoediting",
+      "journal": "Nat Rev Immunol",
+      "year": "2006",
+      "volume": "6",
+      "fpage": "836",
+      "lpage": "48",
+      "doi": "10.1038/nri1961",
+      "pmid": "17063185"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41",
+      "authors": [
+        "Ozgur R",
+        "Uzilday B",
+        "Iwata Y",
+        "et al."
+      ],
+      "title": "Interplay between the unfolded protein response and reactive oxygen species: a dynamic duo",
+      "journal": "J Exp Bot",
+      "year": "2018",
+      "volume": "69",
+      "fpage": "3333",
+      "lpage": "45",
+      "doi": "10.1093/jxb/ery040",
+      "pmid": "29415271"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "authors": [
+        "Bettigole SE",
+        "Glimcher LH"
+      ],
+      "title": "Endoplasmic reticulum stress in immunity",
+      "journal": "Annu Rev Immunol",
+      "year": "2015",
+      "volume": "33",
+      "fpage": "107",
+      "lpage": "38",
+      "doi": "10.1146/annurev-immunol-032414-112116",
+      "pmid": "25493331"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "authors": [
+        "Bossowski JP",
+        "Pillai R",
+        "Kilian J",
+        "et al."
+      ],
+      "title": "The integrated stress response promotes immune evasion through lipocalin 2",
+      "journal": "Nature New Biol",
+      "year": "2026",
+      "volume": "652",
+      "fpage": "1329",
+      "lpage": "38",
+      "doi": "10.1038/s41586-026-10143-0",
+      "pmc_id": "PMC13128482",
+      "pmid": "41708864"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "authors": [
+        "Ye J",
+        "Kumanova M",
+        "Hart LS",
+        "et al."
+      ],
+      "title": "The GCN2-ATF4 pathway is critical for tumour cell survival and proliferation in response to nutrient deprivation",
+      "journal": "EMBO J",
+      "year": "2010",
+      "volume": "29",
+      "fpage": "2082",
+      "lpage": "96",
+      "doi": "10.1038/emboj.2010.81",
+      "pmid": "20473272",
+      "pmc_id": "PMC2892366"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "Raines LN",
+        "Zhao H",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "PERK is a critical metabolic hub for immunosuppressive function in macrophages",
+      "journal": "Nat Immunol",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "431",
+      "lpage": "45",
+      "doi": "10.1038/s41590-022-01145-x",
+      "pmid": "35228694",
+      "pmc_id": "PMC9112288"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46",
+      "authors": [
+        "De Leo A",
+        "Ugolini A",
+        "Yu X",
+        "et al."
+      ],
+      "title": "Glucose-driven histone lactylation promotes the immunosuppressive activity of monocyte-derived macrophages in glioblastoma",
+      "journal": "Immunity",
+      "year": "2024",
+      "volume": "57",
+      "fpage": "1105",
+      "lpage": "23",
+      "doi": "10.1016/j.immuni.2024.04.006",
+      "pmid": "38703775",
+      "pmc_id": "PMC11114377"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47",
+      "authors": [
+        "Zhang W",
+        "Li J-B",
+        "Liu H-M",
+        "et al."
+      ],
+      "title": "PERK+ Macrophages Drive Immunotherapy Resistance in Lymph Node Metastases of Oral Squamous Cell Carcinoma",
+      "journal": "Clin Cancer Res",
+      "year": "2025",
+      "volume": "31",
+      "fpage": "1894",
+      "lpage": "911",
+      "doi": "10.1158/1078-0432.CCR-24-3135",
+      "pmid": "40036693"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48",
+      "authors": [
+        "Thevenot PT",
+        "Sierra RA",
+        "Raber PL",
+        "et al."
+      ],
+      "title": "The stress-response sensor chop regulates the function and accumulation of myeloid-derived suppressor cells in tumors",
+      "journal": "Immunity",
+      "year": "2014",
+      "volume": "41",
+      "fpage": "389",
+      "lpage": "401",
+      "doi": "10.1016/j.immuni.2014.08.015",
+      "pmid": "25238096",
+      "pmc_id": "PMC4171711"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49",
+      "authors": [
+        "Zhang D",
+        "Li AM",
+        "Hu G",
+        "et al."
+      ],
+      "title": "PHGDH-mediated endothelial metabolism drives glioblastoma resistance to chimeric antigen receptor T cell immunotherapy",
+      "journal": "Cell Metab",
+      "year": "2023",
+      "volume": "35",
+      "fpage": "517",
+      "lpage": "34",
+      "doi": "10.1016/j.cmet.2023.01.010",
+      "pmid": "36804058",
+      "pmc_id": "PMC10088869"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50",
+      "authors": [
+        "Zhang Y",
+        "Guo Y",
+        "Liu Z",
+        "et al."
+      ],
+      "title": "Cancer cells co-opt an inter-organ neuroimmune circuit to escape immune surveillance",
+      "journal": "Cell",
+      "year": "2025",
+      "volume": "188",
+      "fpage": "6754",
+      "lpage": "73",
+      "doi": "10.1016/j.cell.2025.09.029",
+      "pmid": "41138728"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51",
+      "authors": [
+        "Cheung EC",
+        "Vousden KH"
+      ],
+      "title": "The role of ROS in tumour development and progression",
+      "journal": "Nat Rev Cancer",
+      "year": "2022",
+      "volume": "22",
+      "fpage": "280",
+      "lpage": "97",
+      "doi": "10.1038/s41568-021-00435-0",
+      "pmid": "35102280"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52",
+      "authors": [
+        "Hao L",
+        "Zhong W",
+        "Dong H",
+        "et al."
+      ],
+      "title": "ATF4 activation promotes hepatic mitochondrial dysfunction by repressing NRF1-TFAM signalling in alcoholic steatohepatitis",
+      "journal": "Gut",
+      "year": "2021",
+      "volume": "70",
+      "fpage": "1933",
+      "lpage": "45",
+      "doi": "10.1136/gutjnl-2020-321548",
+      "pmid": "33177163",
+      "pmc_id": "PMC8110597"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53",
+      "authors": [
+        "Zhao Y",
+        "Hu X",
+        "Liu Y",
+        "et al."
+      ],
+      "title": "ROS signaling under metabolic stress: cross-talk between AMPK and AKT pathway",
+      "journal": "Mol Cancer",
+      "year": "2017",
+      "volume": "16",
+      "elocation_id": "79",
+      "doi": "10.1186/s12943-017-0648-1",
+      "pmid": "28407774",
+      "pmc_id": "PMC5390360"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54",
+      "authors": [
+        "Sun B",
+        "Ding P",
+        "Song Y",
+        "et al."
+      ],
+      "title": "FDX1 downregulation activates mitophagy and the PI3K/AKT signaling pathway to promote hepatocellular carcinoma progression by inducing ROS production",
+      "journal": "Redox Biol",
+      "year": "2024",
+      "volume": "75",
+      "fpage": "103302",
+      "doi": "10.1016/j.redox.2024.103302",
+      "pmid": "39128228",
+      "pmc_id": "PMC11366913"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55",
+      "authors": [
+        "Garcia-Diaz A",
+        "Shin DS",
+        "Moreno BH",
+        "et al."
+      ],
+      "title": "Interferon Receptor Signaling Pathways Regulating PD-L1 and PD-L2 Expression",
+      "journal": "Cell Rep",
+      "year": "2017",
+      "volume": "19",
+      "fpage": "1189",
+      "lpage": "201",
+      "doi": "10.1016/j.celrep.2017.04.031",
+      "pmid": "28494868",
+      "pmc_id": "PMC6420824"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56",
+      "authors": [
+        "Burr ML",
+        "Sparbier CE",
+        "Chan Y-C",
+        "et al."
+      ],
+      "title": "CMTM6 maintains the expression of PD-L1 and regulates anti-tumour immunity",
+      "journal": "Nature New Biol",
+      "year": "2017",
+      "volume": "549",
+      "fpage": "101",
+      "lpage": "5",
+      "doi": "10.1038/nature23643",
+      "pmc_id": "PMC5706633",
+      "pmid": "28813417"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57",
+      "authors": [
+        "Mezzadra R",
+        "Sun C",
+        "Jae LT",
+        "et al."
+      ],
+      "title": "Identification of CMTM6 and CMTM4 as PD-L1 protein regulators",
+      "journal": "Nature New Biol",
+      "year": "2017",
+      "volume": "549",
+      "fpage": "106",
+      "lpage": "10",
+      "doi": "10.1038/nature23669",
+      "pmc_id": "PMC6333292",
+      "pmid": "28813410"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58",
+      "authors": [
+        "Chan L-C",
+        "Li C-W",
+        "Xia W",
+        "et al."
+      ],
+      "title": "IL-6/JAK1 pathway drives PD-L1 Y112 phosphorylation to promote cancer immune evasion",
+      "journal": "J Clin Invest",
+      "year": "2019",
+      "volume": "129",
+      "fpage": "3324",
+      "lpage": "38",
+      "doi": "10.1172/JCI126022",
+      "pmid": "31305264",
+      "pmc_id": "PMC6668668"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59",
+      "authors": [
+        "Liu X",
+        "Yin M",
+        "Dong J",
+        "et al."
+      ],
+      "title": "Tubeimoside-1 induces TFEB-dependent lysosomal degradation of PD-L1 and promotes antitumor immunity by targeting mTOR",
+      "journal": "Acta Pharm Sin B",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "3134",
+      "lpage": "49",
+      "doi": "10.1016/j.apsb.2021.03.039",
+      "pmid": "34745852",
+      "pmc_id": "PMC8551420"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60",
+      "authors": [
+        "Zhao Q",
+        "Li C",
+        "Zhang M",
+        "et al."
+      ],
+      "title": "Tumor PD-L1 induces β2m ubiquitylation and degradation for cancer cell immune evasion",
+      "journal": "Cell Res",
+      "year": "2026",
+      "volume": "36",
+      "fpage": "38",
+      "lpage": "50",
+      "doi": "10.1038/s41422-025-01205-5",
+      "pmid": "41478857",
+      "pmc_id": "PMC12765868"
     }
   ]
 }

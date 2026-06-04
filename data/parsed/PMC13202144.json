@@ -37,7 +37,8 @@
     "pmc_id": "PMC13202144",
     "pmid": "42156141",
     "full_text_available": true,
-    "section_count": 17
+    "section_count": 17,
+    "reference_count": 83
   },
   "sections": [
     {
@@ -124,6 +125,1467 @@
       "section": "Discussion",
       "text": "The identification and validation of a biomarker for subjective tinnitus is considered a crucial step in the development of a personalised approach to the diagnosis and treatment of tinnitus. The objective of the TIDE consortium is to develop and validate an objective marker for chronic and constant subjective tinnitus. The development of a biomarker in tinnitus would advance patient management to a new level. European guidelines for the management of tinnitus have investigated the evidence for treatment interventions and concluded in 2018 that only for cognitive–behavioural therapy (CBT) there exists some evidence for treatment benefits, 52 yet these guidelines need updating to be in line with more recently developed evidence for other treatments. 53 However, whereas CBT helps patients coping with tinnitus—it does not suppress it, which according to many patient organisations is the primary requirement. 20 Overall, despite a high societal need, research on tinnitus has been poorly funded, 54 pharmacological interventions failed to provide evidence of treatment benefits 55 and the pipeline for drug development remains thin. 56 European funding incentives such as the ESIT, 57 Tinnitus Assessment Causes and Treatments and Unification of Treatments and Interventions for Tinnitus Patients 58 have helped in providing a basis for further developments, but more is needed. Recent treatment innovations such as notch music therapy, 59 direct vagus nerve stimulation 60 61 and bimodal stimulation 62 63 have raised hopes for tinnitus patients, but primary outcome measures still rely on subjective assessments with questionnaires, 26 and minimal clinically important difference levels that are not always consistent. 64 Despite the use of different assessment methods between preclinical research and clinical trials, research overall supports the translational potential of animal research. GPIAS, which is used for the assessment of tinnitus in animals, has been inspired by prepulse inhibition, a validated measure of temporal processing that has been used for nearly half a century for understanding the mechanisms underlying complex disorders like schizophrenia. GPIAS relies on an objective reflex response that has been validated against conditional behavioural paradigms 33 34 and various neural correlates. 65 67 However, because GPIAS shares resemblance with gap detection, a subjective test used for the assessment of auditory gating, it has been criticised and misunderstood. Animals and humans with tinnitus can subjectively ‘detect’ this silent gap, even when the carrier frequency closely matches that of the perceived tinnitus. 37 68 However, cumulative evidence points towards a rapid subconscious inhibitory mechanism. While both PPI and GPIAS relay their motor reflex mechanisms via the inferior colliculus and the caudal pontine reticular nucleus, PPI is relayed in the lateral globus pallidus and GPIAS is mediated in the auditory cortex. 39 Elegant optogenetic experiments in mice have evidenced that inhibitory interneurons in the auditory cortex are sensitive to the sound offset and onset, overall involving a comparison of pregap and postgap spiking activity to regulate the inhibition of the motor reflex to a pulse stimulus. 40 Although the mechanisms underlying the poorer inhibition happening in animals with tinnitus at specific frequencies are not clearly understood, we hypothesise that it may involve an interference with the ability of interneurons in the auditory cortex to properly inhibit the startle response. GPIAS tests based on the blinking reflex response in humans with tinnitus using the electro-oculographic response failed to provide strong test–retest reliability. 36 Pilot studies from TIDE have shown that inhibition measures with the MEG are 50 times less variable than electrooculography (EOG), and thus would plausibly offer a more reliable comparison between tinnitus and non-tinnitus controls. Alterations in error prediction have also been postulated as a relevant mechanism for tinnitus generation, with changes to this predictive coding system measured using neurophysiology. 41 4869 Particularly, sensory oddball tasks probe different features of the predictive coding network and characterise them in different components of the neural response. Oddball paradigms usually consist of a standard stimulus that is randomly interspersed with a deviant stimulus, which being novel elicits a surprise. One of the theories behind this is that the brain records a temporary memory trace of the standard (which can be hypothesised to be the prediction) and the difference between the response of the deviant and the standard is the prediction error. 50 Oddball paradigms produce early and late components in infants and adults that record changes in sensory and cognitive processes. MMN is a frontocentral negativity occurring around 100–200 ms poststimulus presentation 70 that is known to encode prediction errors. 71 In infants, pitch, 72 73 timing, 74 75 and deviants in melodies 76 create mismatch responses showing a very early sign of encoding prediction errors. 69 Furthermore, MMN components change after only a few hours of exposure, reflecting learning. 69 77 For a long time, it was debated that MMN responses represented neural adaptation patterns given that they were recorded in response to changes in stimulus characteristics. 78 However, more recent studies in both adult humans and monkeys show that MMNs generated by the omission of a stimulus in a sequence cannot be explained by neural adaptation and are a reliable marker to prediction errors. 50 69 79 While MMNs record sensory prediction errors, changes in cognitive components and more complex processes such as updating of sensory memory occur later in time. In infants, an increase in a late positive component between 700 and 1000 ms called the positive slow wave (PSW) 80 is traditionally considered a marker representing the updating of memory specifically in response to partially encoded infrequent stimuli. 69 81 82 The PSW is also considered an early precursor of the P300 component observed in adults in response to oddball paradigms. 81 83 Although the P300 is usually recorded to the target and novelty stimulus its credibility to be a marker for prediction error is gaining traction. 42 50 69 TIDE will determine the reliability of GPIAS and the oddball paradigm across several clinical sites. In conclusion, the value of an objective, robust biomarker would be transformative in tinnitus treatment, including risk reduction associated with inappropriate treatment regimen or inability to detect an efficacy signal rapidly. Discovering and confirming a biomarker associated with tinnitus is considered a pivotal stage in advancing personalised methods for diagnosing this condition. In conclusion, this clinical study will enhance our understanding of the neurobiological background of tinnitus by directly testing two candidate mechanisms derived from contemporary tinnitus models. By determining whether these biomarkers track tinnitus presence and/or perceived intensity—and whether they vary systematically with key clinical features (eg, hearing loss, hyperacusis, distress)—the project will help resolve ongoing uncertainty about which brain processes are most closely linked to tinnitus generation and maintenance, versus those reflecting comorbidities or general auditory dysfunction. Importantly, identifying robust, reproducible neurophysiological signatures (even if limited to specific subgroups) would support a more mechanistically grounded phenotyping of tinnitus, shifting the field away from trial-and-error management toward a data-driven framework that can better guide stratification in clinical trials and accelerate translational progress.",
       "order": 16
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "De Ridder D",
+        "Schlee W",
+        "Vanneste S",
+        "et al."
+      ],
+      "title": "Tinnitus and tinnitus disorder: Theoretical and operational definitions (an international multidisciplinary proposal)",
+      "journal": "Prog Brain Res",
+      "year": "2021",
+      "volume": "260",
+      "fpage": "1",
+      "lpage": "25",
+      "doi": "10.1016/bs.pbr.2020.12.002",
+      "pmid": "33637213"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Langguth B",
+        "Kreuzer PM",
+        "Kleinjung T",
+        "et al."
+      ],
+      "title": "Tinnitus: causes and clinical management",
+      "journal": "Lancet Neurol",
+      "year": "2013",
+      "volume": "12",
+      "fpage": "920",
+      "lpage": "30",
+      "doi": "10.1016/S1474-4422(13)70160-1",
+      "pmid": "23948178"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Baguley D",
+        "McFerran D",
+        "Hall D"
+      ],
+      "title": "Tinnitus",
+      "journal": "Lancet",
+      "year": "2013",
+      "volume": "382",
+      "fpage": "1600",
+      "lpage": "7",
+      "doi": "10.1016/S0140-6736(13)60142-7",
+      "pmid": "23827090"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "De Ridder D",
+        "Elgoyhen AB",
+        "Romo R",
+        "et al."
+      ],
+      "title": "Phantom percepts: tinnitus and pain as persisting aversive memory networks",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2011",
+      "volume": "108",
+      "fpage": "8075",
+      "lpage": "80",
+      "doi": "10.1073/pnas.1018466108",
+      "pmid": "21502503",
+      "pmc_id": "PMC3100980"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Elgoyhen AB",
+        "Langguth B",
+        "De Ridder D",
+        "et al."
+      ],
+      "title": "Tinnitus: perspectives from human neuroimaging",
+      "journal": "Nat Rev Neurosci",
+      "year": "2015",
+      "volume": "16",
+      "fpage": "632",
+      "lpage": "42",
+      "doi": "10.1038/nrn4003",
+      "pmid": "26373470"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Shore SE",
+        "Roberts LE",
+        "Langguth B"
+      ],
+      "title": "Maladaptive plasticity in tinnitus--triggers, mechanisms and treatment",
+      "journal": "Nat Rev Neurol",
+      "year": "2016",
+      "volume": "12",
+      "fpage": "150",
+      "lpage": "60",
+      "doi": "10.1038/nrneurol.2016.12",
+      "pmid": "26868680",
+      "pmc_id": "PMC4895692"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Jarach CM",
+        "Lugo A",
+        "Scala M",
+        "et al."
+      ],
+      "title": "Global Prevalence and Incidence of Tinnitus: A Systematic Review and Meta-analysis",
+      "journal": "JAMA Neurol",
+      "year": "2022",
+      "volume": "79",
+      "fpage": "888",
+      "lpage": "900",
+      "doi": "10.1001/jamaneurol.2022.2189",
+      "pmid": "35939312",
+      "pmc_id": "PMC9361184"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Lugo A",
+        "Trpchevska N",
+        "Liu X",
+        "et al."
+      ],
+      "title": "Sex-Specific Association of Tinnitus With Suicide Attempts",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2019",
+      "volume": "145",
+      "fpage": "685",
+      "lpage": "7",
+      "doi": "10.1001/jamaoto.2019.0566",
+      "pmid": "31046059",
+      "pmc_id": "PMC6499121"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Molnár A",
+        "Mavrogeni P",
+        "Tamás L",
+        "et al."
+      ],
+      "title": "Correlation Between Tinnitus Handicap and Depression and Anxiety Scores",
+      "journal": "Ear Nose Throat J",
+      "year": "2025",
+      "volume": "104",
+      "fpage": "NP565",
+      "lpage": "71",
+      "doi": "10.1177/01455613221139211",
+      "pmid": "36346819"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Jackson R",
+        "Vijendren A",
+        "Phillips J"
+      ],
+      "title": "Objective Measures of Tinnitus: a Systematic Review",
+      "journal": "Otol Neurotol",
+      "year": "2019",
+      "volume": "40",
+      "fpage": "154",
+      "lpage": "63",
+      "doi": "10.1097/MAO.0000000000002116",
+      "pmid": "30624396"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Vanneste S",
+        "De Ridder D"
+      ],
+      "title": "Deafferentation-based pathophysiological differences in phantom sound: Tinnitus with and without hearing loss",
+      "journal": "Neuroimage",
+      "year": "2016",
+      "volume": "129",
+      "fpage": "80",
+      "lpage": "94",
+      "doi": "10.1016/j.neuroimage.2015.12.002",
+      "pmid": "26708013"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Mavrogeni P",
+        "Maihoub S",
+        "Molnár A"
+      ],
+      "title": "Speech recognition thresholds correlate with tinnitus intensity in individuals with primary subjective tinnitus",
+      "journal": "Front Neurol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1672762",
+      "doi": "10.3389/fneur.2025.1672762",
+      "pmid": "40959506",
+      "pmc_id": "PMC12434969"
+    },
+    {
+      "ref_id": "R13",
+      "label": "12",
+      "authors": [
+        "Molnár A",
+        "Mavrogeni P",
+        "Mavrogenis A",
+        "et al."
+      ],
+      "title": "Levels of 25-hydroxyvitamin D 3 in individuals with primary subjective tinnitus and their associations with tinnitus occurrence and severity",
+      "journal": "Front Neurol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1751366",
+      "doi": "10.3389/fneur.2025.1751366",
+      "pmid": "41602974",
+      "pmc_id": "PMC12832500"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Edvall NK",
+        "Mehraei G",
+        "Claeson M",
+        "et al."
+      ],
+      "title": "Alterations in auditory brain stem response distinguish occasional and constant tinnitus",
+      "journal": "J Clin Invest",
+      "year": "2022",
+      "volume": "132",
+      "doi": "10.1172/JCI155094",
+      "pmc_id": "PMC8884914",
+      "pmid": "35077399"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Vanneste S",
+        "Song JJ",
+        "Ridder D"
+      ],
+      "title": "Thalamocortical dysrhythmia detected by machine learning",
+      "journal": "Nat Commun",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "1103",
+      "doi": "10.1038/s41467-018-02820-0",
+      "pmid": "29549239",
+      "pmc_id": "PMC5856824"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Moring JC",
+        "Husain FT",
+        "Gray J",
+        "et al."
+      ],
+      "title": "Invariant structural and functional brain regions associated with tinnitus: A meta-analysis",
+      "journal": "PLoS One",
+      "year": "2022",
+      "volume": "17",
+      "elocation_id": "e0276140",
+      "doi": "10.1371/journal.pone.0276140",
+      "pmid": "36256642",
+      "pmc_id": "PMC9578602"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Cederroth CR",
+        "Hong M-G",
+        "Freydin MB",
+        "et al."
+      ],
+      "title": "Screening for Circulating Inflammatory Proteins Does Not Reveal Plasma Biomarkers of Constant Tinnitus",
+      "journal": "J Assoc Res Otolaryngol",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "593",
+      "lpage": "606",
+      "doi": "10.1007/s10162-023-00920-3",
+      "pmid": "38079022",
+      "pmc_id": "PMC10752855"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Amanat S",
+        "Gallego-Martinez A",
+        "Sollini J",
+        "et al."
+      ],
+      "title": "Burden of rare variants in synaptic genes in patients with severe tinnitus: An exome based extreme phenotype study",
+      "journal": "EBioMedicine",
+      "year": "2021",
+      "volume": "66",
+      "elocation_id": "103309",
+      "doi": "10.1016/j.ebiom.2021.103309",
+      "pmid": "33813136",
+      "pmc_id": "PMC8047463"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Zimmerman BJ",
+        "Abraham I",
+        "Schmidt SA",
+        "et al."
+      ],
+      "title": "Dissociating tinnitus patients from healthy controls using resting-state cyclicity analysis and clustering",
+      "journal": "Netw Neurosci",
+      "year": "2019",
+      "volume": "3",
+      "fpage": "67",
+      "lpage": "89",
+      "doi": "10.1162/netn_a_00053",
+      "pmid": "30793074",
+      "pmc_id": "PMC6326732"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "McFerran DJ",
+        "Stockdale D",
+        "Holme R",
+        "et al."
+      ],
+      "title": "Why Is There No Cure for Tinnitus?",
+      "journal": "Front Neurosci",
+      "year": "2019",
+      "volume": "13",
+      "elocation_id": "802",
+      "doi": "10.3389/fnins.2019.00802",
+      "pmid": "31447630",
+      "pmc_id": "PMC6691100"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Khalfa S",
+        "Dubal S",
+        "Veuillet E",
+        "et al."
+      ],
+      "title": "Psychometric normalization of a hyperacusis questionnaire",
+      "journal": "ORL J Otorhinolaryngol Relat Spec",
+      "year": "2002",
+      "volume": "64",
+      "fpage": "436",
+      "lpage": "42",
+      "doi": "10.1159/000067570",
+      "pmid": "12499770"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Fackrell K",
+        "Fearnley C",
+        "Hoare DJ",
+        "et al."
+      ],
+      "title": "Hyperacusis Questionnaire as a Tool for Measuring Hypersensitivity to Sound in a Tinnitus Research Population",
+      "journal": "Biomed Res Int",
+      "year": "2015",
+      "volume": "2015",
+      "elocation_id": "290425",
+      "doi": "10.1155/2015/290425",
+      "pmid": "26557658",
+      "pmc_id": "PMC4628763"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Müller K",
+        "Edvall NK",
+        "Idrizbegovic E",
+        "et al."
+      ],
+      "title": "Validation of Online Versions of Tinnitus Questionnaires Translated into Swedish",
+      "journal": "Front Aging Neurosci",
+      "year": "2016",
+      "volume": "8",
+      "elocation_id": "272",
+      "doi": "10.3389/fnagi.2016.00272",
+      "pmid": "27920720",
+      "pmc_id": "PMC5118447"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Genitsaridi E",
+        "Partyka M",
+        "Gallus S",
+        "et al."
+      ],
+      "title": "Standardised profiling for tinnitus research: The European School for Interdisciplinary Tinnitus Research Screening Questionnaire (ESIT-SQ)",
+      "journal": "Hear Res",
+      "year": "2019",
+      "volume": "377",
+      "fpage": "353",
+      "lpage": "9",
+      "doi": "10.1016/j.heares.2019.02.017",
+      "pmid": "30871820"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Newman CW",
+        "Jacobson GP",
+        "Spitzer JB"
+      ],
+      "title": "Development of the Tinnitus Handicap Inventory",
+      "journal": "Arch Otolaryngol Head Neck Surg",
+      "year": "1996",
+      "volume": "122",
+      "fpage": "143",
+      "lpage": "8",
+      "doi": "10.1001/archotol.1996.01890140029007",
+      "pmid": "8630207"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Hall DA",
+        "Haider H",
+        "Szczepek AJ",
+        "et al."
+      ],
+      "title": "Systematic review of outcome domains and instruments used in clinical trials of tinnitus treatments in adults",
+      "journal": "Trials",
+      "year": "2016",
+      "volume": "17",
+      "elocation_id": "270",
+      "doi": "10.1186/s13063-016-1399-9",
+      "pmid": "27250987",
+      "pmc_id": "PMC4888312"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Zeman F",
+        "Koller M",
+        "Figueiredo R",
+        "et al."
+      ],
+      "title": "Tinnitus handicap inventory for evaluating treatment effects: which changes are clinically relevant?",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2011",
+      "volume": "145",
+      "fpage": "282",
+      "lpage": "7",
+      "doi": "10.1177/0194599811403882",
+      "pmid": "21493265"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Meikle MB",
+        "Henry JA",
+        "Griest SE",
+        "et al."
+      ],
+      "title": "The tinnitus functional index: development of a new clinical measure for chronic, intrusive tinnitus",
+      "journal": "Ear Hear",
+      "year": "2012",
+      "volume": "33",
+      "fpage": "153",
+      "lpage": "76",
+      "doi": "10.1097/AUD.0b013e31822f67c0",
+      "pmid": "22156949"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "Henry JA",
+        "Griest S",
+        "Thielman E",
+        "et al."
+      ],
+      "title": "Tinnitus Functional Index: Development, validation, outcomes research, and clinical application",
+      "journal": "Hear Res",
+      "year": "2016",
+      "volume": "334",
+      "fpage": "58",
+      "lpage": "64",
+      "doi": "10.1016/j.heares.2015.06.004",
+      "pmid": "26074306"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Zigmond AS",
+        "Snaith RP"
+      ],
+      "title": "The hospital anxiety and depression scale",
+      "journal": "Acta Psychiatr Scand",
+      "year": "1983",
+      "volume": "67",
+      "fpage": "361",
+      "lpage": "70",
+      "doi": "10.1111/j.1600-0447.1983.tb09716.x",
+      "pmid": "6880820"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Levenstein S",
+        "Prantera C",
+        "Varvo V",
+        "et al."
+      ],
+      "title": "Development of the Perceived Stress Questionnaire: a new tool for psychosomatic research",
+      "journal": "J Psychosom Res",
+      "year": "1993",
+      "volume": "37",
+      "fpage": "19",
+      "lpage": "32",
+      "doi": "10.1016/0022-3999(93)90120-5",
+      "pmid": "8421257"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Shabestari PS",
+        "Edvall NK",
+        "Vinding MC",
+        "et al."
+      ],
+      "title": "Inhibition of Cortical Evoked Responses to Sound Pulses by Preceding Silent Gaps",
+      "journal": "J Assoc Res Otolaryngol",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "515",
+      "lpage": "29",
+      "doi": "10.1007/s10162-025-00999-w",
+      "pmid": "40699523",
+      "pmc_id": "PMC12528562"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Turner JG",
+        "Brozoski TJ",
+        "Bauer CA",
+        "et al."
+      ],
+      "title": "Gap detection deficits in rats with tinnitus: a potential novel screening tool",
+      "journal": "Behav Neurosci",
+      "year": "2006",
+      "volume": "120",
+      "fpage": "188",
+      "lpage": "95",
+      "doi": "10.1037/0735-7044.120.1.188",
+      "pmid": "16492129"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Turner JG",
+        "Parrish J"
+      ],
+      "title": "Gap detection methods for assessing salicylate-induced tinnitus and hyperacusis in rats",
+      "journal": "Am J Audiol",
+      "year": "2008",
+      "volume": "17",
+      "fpage": "S185",
+      "lpage": "92",
+      "doi": "10.1044/1059-0889(2008/08-0006)",
+      "pmid": "18978200"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "authors": [
+        "Galazyuk A",
+        "Hébert S"
+      ],
+      "title": "Gap-Prepulse Inhibition of the Acoustic Startle Reflex (GPIAS) for Tinnitus Assessment: Current Status and Future Directions",
+      "journal": "Front Neurol",
+      "year": "2015",
+      "volume": "6",
+      "elocation_id": "88",
+      "doi": "10.3389/fneur.2015.00088",
+      "pmid": "25972836",
+      "pmc_id": "PMC4411996"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36",
+      "authors": [
+        "Fournier P",
+        "Hébert S"
+      ],
+      "title": "Gap detection deficits in humans with tinnitus as assessed with the acoustic startle paradigm: does tinnitus fill in the gap?",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "295",
+      "fpage": "16",
+      "lpage": "23",
+      "doi": "10.1016/j.heares.2012.05.011",
+      "pmid": "22688322"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37",
+      "authors": [
+        "Boyen K",
+        "Başkent D",
+        "van Dijk P"
+      ],
+      "title": "The Gap Detection Test: Can It Be Used to Diagnose Tinnitus?",
+      "journal": "Ear Hear",
+      "year": "2015",
+      "volume": "36",
+      "fpage": "e138",
+      "lpage": "45",
+      "doi": "10.1097/AUD.0000000000000156",
+      "pmid": "25822647",
+      "pmc_id": "PMC4478067"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "authors": [
+        "Bowen GP",
+        "Lin D",
+        "Taylor MK",
+        "et al."
+      ],
+      "title": "Auditory cortex lesions in the rat impair both temporal acuity and noise increment thresholds, revealing a common neural substrate",
+      "journal": "Cereb Cortex",
+      "year": "2003",
+      "volume": "13",
+      "fpage": "815",
+      "lpage": "22",
+      "doi": "10.1093/cercor/13.8.815",
+      "pmid": "12853367"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39",
+      "authors": [
+        "Moreno-Paublete R",
+        "Canlon B",
+        "Cederroth CR"
+      ],
+      "title": "Differential Neural Responses Underlying the Inhibition of the Startle Response by Pre-Pulses or Gaps in Mice",
+      "journal": "Front Cell Neurosci",
+      "year": "2017",
+      "volume": "11",
+      "elocation_id": "19",
+      "doi": "10.3389/fncel.2017.00019",
+      "pmid": "28239338",
+      "pmc_id": "PMC5302757"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Weible AP",
+        "Moore AK",
+        "Liu C",
+        "et al."
+      ],
+      "title": "Perceptual gap detection is mediated by gap termination responses in auditory cortex",
+      "journal": "Curr Biol",
+      "year": "2014",
+      "volume": "24",
+      "fpage": "1447",
+      "lpage": "55",
+      "doi": "10.1016/j.cub.2014.05.031",
+      "pmid": "24980499",
+      "pmc_id": "PMC4131718"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41",
+      "authors": [
+        "Hullfish J",
+        "Sedley W",
+        "Vanneste S"
+      ],
+      "title": "Prediction and perception: Insights for (and from) tinnitus",
+      "journal": "Neurosci Biobehav Rev",
+      "year": "2019",
+      "volume": "102",
+      "fpage": "1",
+      "lpage": "12",
+      "doi": "10.1016/j.neubiorev.2019.04.008",
+      "pmid": "30998951"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "authors": [
+        "Mohan A",
+        "Luckey A",
+        "Weisz N",
+        "et al."
+      ],
+      "title": "Predisposition to domain-wide maladaptive changes in predictive coding in auditory phantom perception",
+      "journal": "Neuroimage",
+      "year": "2022",
+      "volume": "248",
+      "doi": "10.1016/j.neuroimage.2021.118813",
+      "pmid": "34923130"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "authors": [
+        "Sedley W",
+        "Alter K",
+        "Gander PE",
+        "et al."
+      ],
+      "title": "Exposing Pathological Sensory Predictions in Tinnitus Using Auditory Intensity Deviant Evoked Responses",
+      "journal": "J Neurosci",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "10096",
+      "lpage": "103",
+      "doi": "10.1523/JNEUROSCI.1308-19.2019",
+      "pmid": "31699888",
+      "pmc_id": "PMC6978936"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "authors": [
+        "Sedley W",
+        "Friston KJ",
+        "Gander PE",
+        "et al."
+      ],
+      "title": "An Integrative Tinnitus Model Based on Sensory Precision",
+      "journal": "Trends Neurosci",
+      "year": "2016",
+      "volume": "39",
+      "fpage": "799",
+      "lpage": "812",
+      "doi": "10.1016/j.tins.2016.10.004",
+      "pmid": "27871729",
+      "pmc_id": "PMC5152595"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "De Ridder D",
+        "Friston K",
+        "Sedley W",
+        "et al."
+      ],
+      "title": "A parahippocampal-sensory Bayesian vicious circle generates pain or tinnitus: a source-localized EEG study",
+      "journal": "Brain Commun",
+      "year": "2023",
+      "volume": "5",
+      "elocation_id": "fcad132",
+      "doi": "10.1093/braincomms/fcad132",
+      "pmid": "37223127",
+      "pmc_id": "PMC10202557"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46",
+      "authors": [
+        "De Ridder D",
+        "Joos K",
+        "Vanneste S"
+      ],
+      "title": "The enigma of the tinnitus-free dream state in a Bayesian world",
+      "journal": "Neural Plast",
+      "year": "2014",
+      "volume": "2014",
+      "elocation_id": "612147",
+      "doi": "10.1155/2014/612147",
+      "pmid": "25097788",
+      "pmc_id": "PMC4109081"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47",
+      "authors": [
+        "De Ridder D",
+        "Vanneste S"
+      ],
+      "title": "The Bayesian brain in imbalance: Medial, lateral and descending pathways in tinnitus and pain: A perspective",
+      "journal": "Prog Brain Res",
+      "year": "2021",
+      "volume": "262",
+      "fpage": "309",
+      "lpage": "34",
+      "doi": "10.1016/bs.pbr.2020.07.012",
+      "pmid": "33931186"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48",
+      "authors": [
+        "De Ridder D",
+        "Vanneste S",
+        "Freeman W"
+      ],
+      "title": "The Bayesian brain: Phantom percepts resolve sensory uncertainty",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": "2014",
+      "volume": "44",
+      "fpage": "4",
+      "lpage": "15",
+      "doi": "10.1016/j.neubiorev.2012.04.001",
+      "pmid": "22516669"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49",
+      "authors": [
+        "Chao ZC",
+        "Takaura K",
+        "Wang L",
+        "et al."
+      ],
+      "title": "Large-Scale Cortical Networks for Hierarchical Prediction and Prediction Error in the Primate Brain",
+      "journal": "Neuron",
+      "year": "2018",
+      "volume": "100",
+      "fpage": "1252",
+      "lpage": "66",
+      "doi": "10.1016/j.neuron.2018.10.004",
+      "pmid": "30482692"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50",
+      "authors": [
+        "Wacongne C",
+        "Labyt E",
+        "van Wassenhove V",
+        "et al."
+      ],
+      "title": "Evidence for a hierarchy of predictions and prediction errors in human cortex",
+      "journal": "Proc Natl Acad Sci USA",
+      "year": "2011",
+      "volume": "108",
+      "fpage": "20754",
+      "lpage": "9",
+      "doi": "10.1073/pnas.1117807108",
+      "pmid": "22147913",
+      "pmc_id": "PMC3251061"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51",
+      "authors": [
+        "Wacongne C",
+        "Labyt E",
+        "Wassenhove V",
+        "et al."
+      ],
+      "title": "Evidence for a hierarchy of predictions and prediction errors in human cortex",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2011",
+      "volume": "108",
+      "fpage": "20754",
+      "lpage": "9",
+      "doi": "10.1073/pnas.1117807108",
+      "pmid": "22147913",
+      "pmc_id": "PMC3251061"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52",
+      "authors": [
+        "Cima RFF",
+        "Mazurek B",
+        "Haider H",
+        "et al."
+      ],
+      "title": "A multidisciplinary European guideline for tinnitus: diagnostics, assessment, and treatment",
+      "journal": "HNO",
+      "year": "2019",
+      "volume": "67",
+      "fpage": "10",
+      "lpage": "42",
+      "doi": "10.1007/s00106-019-0633-7",
+      "pmid": "30847513"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53",
+      "authors": [
+        "Langguth B",
+        "Kleinjung T",
+        "Schlee W",
+        "et al."
+      ],
+      "title": "Tinnitus Guidelines and Their Evidence Base",
+      "journal": "J Clin Med",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "3087",
+      "doi": "10.3390/jcm12093087",
+      "pmid": "37176527",
+      "pmc_id": "PMC10178961"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54",
+      "authors": [
+        "Cederroth CR",
+        "Canlon B",
+        "Langguth B"
+      ],
+      "title": "Hearing loss and tinnitus--are funders and industry listening",
+      "journal": "Nat Biotechnol",
+      "year": "2013",
+      "volume": "31",
+      "fpage": "972",
+      "lpage": "4",
+      "doi": "10.1038/nbt.2736",
+      "pmid": "24213768"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55",
+      "authors": [
+        "Langguth B",
+        "Elgoyhen AB",
+        "Cederroth CR"
+      ],
+      "title": "Therapeutic Approaches to the Treatment of Tinnitus",
+      "journal": "Annu Rev Pharmacol Toxicol",
+      "year": "2019",
+      "volume": "59",
+      "fpage": "291",
+      "lpage": "313",
+      "doi": "10.1146/annurev-pharmtox-010818-021556",
+      "pmid": "30044727"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56",
+      "authors": [
+        "Dyhrfjeld-Johnsen J",
+        "Cederroth CR"
+      ],
+      "title": "Current Clinical Trials for Tinnitus: Drugs and Biologics",
+      "journal": "Otolaryngol Clin North Am",
+      "year": "2020",
+      "volume": "53",
+      "fpage": "651",
+      "lpage": "66",
+      "doi": "10.1016/j.otc.2020.03.012",
+      "pmid": "32334870"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57",
+      "authors": [
+        "Schlee W",
+        "Hall DA",
+        "Canlon B",
+        "et al."
+      ],
+      "title": "Innovations in Doctoral Training and Research on Tinnitus: The European School on Interdisciplinary Tinnitus Research (ESIT) Perspective",
+      "journal": "Front Aging Neurosci",
+      "year": "2017",
+      "volume": "9",
+      "elocation_id": "447",
+      "doi": "10.3389/fnagi.2017.00447",
+      "pmid": "29375369",
+      "pmc_id": "PMC5770576"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58",
+      "authors": [
+        "Schlee W",
+        "Schoisswohl S",
+        "Staudinger S",
+        "et al."
+      ],
+      "title": "Towards a unification of treatments and interventions for tinnitus patients: The EU research and innovation action UNITI",
+      "journal": "Prog Brain Res",
+      "year": "2021",
+      "volume": "260",
+      "fpage": "441",
+      "lpage": "51",
+      "doi": "10.1016/bs.pbr.2020.12.005",
+      "pmid": "33637231"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59",
+      "authors": [
+        "Okamoto H",
+        "Stracke H",
+        "Stoll W",
+        "et al."
+      ],
+      "title": "Listening to tailor-made notched music reduces tinnitus loudness and tinnitus-related auditory cortex activity",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2010",
+      "volume": "107",
+      "fpage": "1207",
+      "lpage": "10",
+      "doi": "10.1073/pnas.0911268107",
+      "pmid": "20080545",
+      "pmc_id": "PMC2824261"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60",
+      "authors": [
+        "Engineer ND",
+        "Riley JR",
+        "Seale JD",
+        "et al."
+      ],
+      "title": "Reversing pathological neural activity using targeted plasticity",
+      "journal": "Nature New Biol",
+      "year": "2011",
+      "volume": "470",
+      "fpage": "101",
+      "lpage": "4",
+      "doi": "10.1038/nature09656",
+      "pmc_id": "PMC3295231",
+      "pmid": "21228773"
+    },
+    {
+      "ref_id": "R61",
+      "label": "61",
+      "authors": [
+        "Tyler R",
+        "Cacace A",
+        "Stocking C",
+        "et al."
+      ],
+      "title": "Vagus Nerve Stimulation Paired with Tones for the Treatment of Tinnitus: A Prospective Randomized Double-blind Controlled Pilot Study in Humans",
+      "journal": "Sci Rep",
+      "year": "2017",
+      "volume": "7",
+      "elocation_id": "11960",
+      "doi": "10.1038/s41598-017-12178-w",
+      "pmid": "28931943",
+      "pmc_id": "PMC5607328"
+    },
+    {
+      "ref_id": "R62",
+      "label": "62",
+      "authors": [
+        "Jones GR",
+        "Martel DT",
+        "Riffle TL",
+        "et al."
+      ],
+      "title": "Reversing Synchronized Brain Circuits Using Targeted Auditory-Somatosensory Stimulation to Treat Phantom Percepts: A Randomized Clinical Trial",
+      "journal": "JAMA Netw Open",
+      "year": "2023",
+      "volume": "6",
+      "elocation_id": "e2315914",
+      "doi": "10.1001/jamanetworkopen.2023.15914",
+      "pmid": "37266943",
+      "pmc_id": "PMC10238951"
+    },
+    {
+      "ref_id": "R63",
+      "label": "63",
+      "authors": [
+        "Conlon B",
+        "Langguth B",
+        "Hamilton C",
+        "et al."
+      ],
+      "title": "Bimodal neuromodulation combining sound and tongue stimulation reduces tinnitus symptoms in a large randomized clinical study",
+      "journal": "Sci Transl Med",
+      "year": "2020",
+      "volume": "12",
+      "elocation_id": "eabb2830",
+      "doi": "10.1126/scitranslmed.abb2830",
+      "pmid": "33028707"
+    },
+    {
+      "ref_id": "R64",
+      "label": "64",
+      "authors": [
+        "Langguth B",
+        "De Ridder D"
+      ],
+      "title": "Minimal Clinically Important Difference of Tinnitus Outcome Measurement Instruments—A Scoping Review",
+      "journal": "JCM",
+      "year": "2023",
+      "volume": "12",
+      "fpage": "7117",
+      "doi": "10.3390/jcm12227117",
+      "pmid": "38002730",
+      "pmc_id": "PMC10671865"
+    },
+    {
+      "ref_id": "R65",
+      "label": "65",
+      "authors": [
+        "Li S",
+        "Kalappa BI",
+        "Tzounopoulos T"
+      ],
+      "title": "Noise-induced plasticity of KCNQ2/3 and HCN channels underlies vulnerability and resilience to tinnitus",
+      "journal": "Elife",
+      "year": "2015",
+      "volume": "4",
+      "doi": "10.7554/eLife.07242",
+      "pmc_id": "PMC4592936",
+      "pmid": "26312501"
+    },
+    {
+      "ref_id": "R66",
+      "label": "66",
+      "authors": [
+        "Kalappa BI",
+        "Soh H",
+        "Duignan KM",
+        "et al."
+      ],
+      "title": "Potent KCNQ2/3-specific channel activator suppresses in vivo epileptic activity and prevents the development of tinnitus",
+      "journal": "J Neurosci",
+      "year": "2015",
+      "volume": "35",
+      "fpage": "8829",
+      "lpage": "42",
+      "doi": "10.1523/JNEUROSCI.5176-14.2015",
+      "pmid": "26063916",
+      "pmc_id": "PMC4461688"
+    },
+    {
+      "ref_id": "R67",
+      "label": "67",
+      "authors": [
+        "Li S",
+        "Choi V",
+        "Tzounopoulos T"
+      ],
+      "title": "Pathogenic plasticity of Kv7.2/3 channel activity is essential for the induction of tinnitus",
+      "journal": "Proc Natl Acad Sci USA",
+      "year": "2013",
+      "volume": "110",
+      "fpage": "9980",
+      "lpage": "5",
+      "doi": "10.1073/pnas.1302770110",
+      "pmid": "23716673",
+      "pmc_id": "PMC3683764"
+    },
+    {
+      "ref_id": "R68",
+      "label": "68",
+      "authors": [
+        "Campolo J",
+        "Lobarinas E",
+        "Salvi R"
+      ],
+      "title": "Does tinnitus “fill in” the silent gaps?",
+      "journal": "Noise Health",
+      "year": "2013",
+      "volume": "15",
+      "fpage": "398",
+      "lpage": "405",
+      "doi": "10.4103/1463-1741.121232",
+      "pmid": "24231418",
+      "pmc_id": "PMC3875329"
+    },
+    {
+      "ref_id": "R69",
+      "label": "69",
+      "authors": [
+        "Yasoda-Mohan A",
+        "Vanneste S"
+      ],
+      "title": "Development, Insults and Predisposing Factors of the Brain’s Predictive Coding System to Chronic Perceptual Disorders-A Life-Course Examination",
+      "journal": "Brain Sci",
+      "year": "2024",
+      "volume": "14",
+      "elocation_id": "86",
+      "doi": "10.3390/brainsci14010086",
+      "pmid": "38248301",
+      "pmc_id": "PMC10813926"
+    },
+    {
+      "ref_id": "R70",
+      "label": "70",
+      "authors": [
+        "Näätänen R",
+        "Paavilainen P",
+        "Rinne T",
+        "et al."
+      ],
+      "title": "The mismatch negativity (MMN) in basic research of central auditory processing: A review",
+      "journal": "Clin Neurophysiol",
+      "year": "2007",
+      "volume": "118",
+      "fpage": "2544",
+      "lpage": "90",
+      "doi": "10.1016/j.clinph.2007.04.026",
+      "pmid": "17931964"
+    },
+    {
+      "ref_id": "R71",
+      "label": "71",
+      "authors": [
+        "Friston K"
+      ],
+      "title": "A theory of cortical responses",
+      "journal": "Philos Trans R Soc Lond B Biol Sci",
+      "year": "2005",
+      "volume": "360",
+      "fpage": "815",
+      "lpage": "36",
+      "doi": "10.1098/rstb.2005.1622",
+      "pmid": "15937014",
+      "pmc_id": "PMC1569488"
+    },
+    {
+      "ref_id": "R72",
+      "label": "72",
+      "authors": [
+        "He C",
+        "Hotson L",
+        "Trainor LJ"
+      ],
+      "title": "Mismatch responses to pitch changes in early infancy",
+      "journal": "J Cogn Neurosci",
+      "year": "2007",
+      "volume": "19",
+      "fpage": "878",
+      "lpage": "92",
+      "doi": "10.1162/jocn.2007.19.5.878",
+      "pmid": "17488211"
+    },
+    {
+      "ref_id": "R73",
+      "label": "73",
+      "authors": [
+        "He C",
+        "Trainor LJ"
+      ],
+      "title": "Finding the pitch of the missing fundamental in infants",
+      "journal": "J Neurosci",
+      "year": "2009",
+      "volume": "29",
+      "fpage": "7718",
+      "lpage": "8822",
+      "doi": "10.1523/JNEUROSCI.0157-09.2009",
+      "pmid": "19535583",
+      "pmc_id": "PMC6665621"
+    },
+    {
+      "ref_id": "R74",
+      "label": "74",
+      "authors": [
+        "Trainor LJ",
+        "Samuel SS",
+        "Desjardins RN",
+        "et al."
+      ],
+      "title": "Measuring temporal resolution in infants using mismatch negativity",
+      "journal": "Neuroreport",
+      "year": "2001",
+      "volume": "12",
+      "fpage": "2443",
+      "lpage": "8",
+      "doi": "10.1097/00001756-200108080-00031",
+      "pmid": "11496126"
+    },
+    {
+      "ref_id": "R75",
+      "label": "75",
+      "authors": [
+        "Trainor L",
+        "McFadden M",
+        "Hodgson L",
+        "et al."
+      ],
+      "title": "Changes in auditory cortex and the development of mismatch negativity between 2 and 6 months of age",
+      "journal": "Int J Psychophysiol",
+      "year": "2003",
+      "volume": "51",
+      "fpage": "5",
+      "lpage": "15",
+      "doi": "10.1016/s0167-8760(03)00148-x",
+      "pmid": "14629918"
+    },
+    {
+      "ref_id": "R76",
+      "label": "76",
+      "authors": [
+        "Tew S",
+        "Fujioka T",
+        "He C",
+        "et al."
+      ],
+      "title": "Neural representation of transposed melody in infants at 6 months of age",
+      "journal": "Ann N Y Acad Sci",
+      "year": "2009",
+      "volume": "1169",
+      "fpage": "287",
+      "lpage": "90",
+      "doi": "10.1111/j.1749-6632.2009.04845.x",
+      "pmid": "19673795"
+    },
+    {
+      "ref_id": "R77",
+      "label": "77",
+      "authors": [
+        "Trainor LJ",
+        "Lee K",
+        "Bosnyak DJ"
+      ],
+      "title": "Cortical plasticity in 4-month-old infants: specific effects of experience with musical timbres",
+      "journal": "Brain Topogr",
+      "year": "2011",
+      "volume": "24",
+      "fpage": "192",
+      "lpage": "203",
+      "doi": "10.1007/s10548-011-0177-y",
+      "pmid": "21445665"
+    },
+    {
+      "ref_id": "R78",
+      "label": "78",
+      "authors": [
+        "Wacongne C",
+        "Changeux J-P",
+        "Dehaene S"
+      ],
+      "title": "A neuronal model of predictive coding accounting for the mismatch negativity",
+      "journal": "J Neurosci",
+      "year": "2012",
+      "volume": "32",
+      "fpage": "3665",
+      "lpage": "78",
+      "doi": "10.1523/JNEUROSCI.5003-11.2012",
+      "pmid": "22423089",
+      "pmc_id": "PMC6703454"
+    },
+    {
+      "ref_id": "R79",
+      "label": "79",
+      "authors": [
+        "Chennu S",
+        "Noreika V",
+        "Gueorguiev D",
+        "et al."
+      ],
+      "title": "Expectation and Attention in Hierarchical Auditory Prediction",
+      "journal": "Journal of Neuroscience",
+      "year": "2013",
+      "volume": "33",
+      "fpage": "11194",
+      "lpage": "205",
+      "doi": "10.1523/JNEUROSCI.0114-13.2013",
+      "pmid": "23825422",
+      "pmc_id": "PMC3718380"
+    },
+    {
+      "ref_id": "R80",
+      "label": "80",
+      "authors": [
+        "Kouider S",
+        "Long B",
+        "Le Stanc L",
+        "et al."
+      ],
+      "title": "Neural dynamics of prediction and surprise in infants",
+      "journal": "Nat Commun",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "8537",
+      "doi": "10.1038/ncomms9537",
+      "pmid": "26460901",
+      "pmc_id": "PMC4633815"
+    },
+    {
+      "ref_id": "R81",
+      "label": "81",
+      "authors": [
+        "De Haan M"
+      ],
+      "journal": "Infant EEG and event-related potentials",
+      "year": "2013"
+    },
+    {
+      "ref_id": "R82",
+      "label": "82",
+      "authors": [
+        "Elsner B",
+        "Jeschonek S",
+        "Pauen S"
+      ],
+      "title": "Event-related potentials for 7-month-olds’ processing of animals and furniture items",
+      "journal": "Dev Cogn Neurosci",
+      "year": "2013",
+      "volume": "3",
+      "fpage": "53",
+      "lpage": "60",
+      "doi": "10.1016/j.dcn.2012.09.002",
+      "pmid": "23245220",
+      "pmc_id": "PMC6987642"
+    },
+    {
+      "ref_id": "R83",
+      "label": "83",
+      "authors": [
+        "Marinović V",
+        "Hoehl S",
+        "Pauen S"
+      ],
+      "title": "Neural correlates of human-animal distinction: an ERP-study on early categorical differentiation with 4- and 7-month-old infants and adults",
+      "journal": "Neuropsychologia",
+      "year": "2014",
+      "volume": "60",
+      "fpage": "60",
+      "lpage": "76",
+      "doi": "10.1016/j.neuropsychologia.2014.05.013",
+      "pmid": "24882151"
     }
   ]
 }

@@ -26,7 +26,8 @@
     "pmc_id": "PMC13222164",
     "pmid": "42215752",
     "full_text_available": true,
-    "section_count": 15
+    "section_count": 15,
+    "reference_count": 15
   },
   "sections": [
     {
@@ -103,6 +104,307 @@
       "section": "Conclusion",
       "text": "The number of cases of adenocarcinoma of the esophagus and gastroesophageal junction registered in German cancer registries has risen over the past two decades. Overall survival improved over time, likely reflecting a combination of changes in stage distribution, treatment allocation, and broader advances in multimodal care. Multimodal therapy was independently associated with improved overall survival in cTNM Stage III disease and Stage II GEJ tumors; these findings are consistent with current guideline-based treatment strategies.",
       "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Porschen R",
+        "Fischbach W",
+        "Gockel I",
+        "Hollerbach S",
+        "Hölscher A",
+        "Jansen PL",
+        "et al."
+      ],
+      "title": "S3-Leitlinie Diagnostik und Therapie der Plattenepithelkarzinome und Adenokarzinome des Ösophagus: Version 3.1 – Juni 2022 – AWMF-Registernummer: 021/023OL",
+      "journal": "Z Für Gastroenterol",
+      "year": "2023",
+      "volume": "61",
+      "issue": "06",
+      "fpage": "701",
+      "lpage": "745",
+      "doi": "10.1055/a-1771-7087",
+      "pmid": "37285870"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Demarest CT",
+        "Chang AC"
+      ],
+      "title": "The Landmark Series: Multimodal Therapy for Esophageal Cancer",
+      "journal": "Ann Surg Oncol",
+      "year": "2021",
+      "volume": "28",
+      "issue": "6",
+      "fpage": "3375",
+      "lpage": "3382",
+      "doi": "10.1245/s10434-020-09565-5",
+      "pmid": "33629251"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Allemani C",
+        "Matsuda T",
+        "Di Carlo V",
+        "Harewood R",
+        "Matz M",
+        "Nikšić M",
+        "et al."
+      ],
+      "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+      "journal": "Lancet",
+      "year": "2018",
+      "volume": "391",
+      "issue": "10125",
+      "fpage": "1023",
+      "lpage": "1075",
+      "doi": "10.1016/S0140-6736(17)33326-3",
+      "pmid": "29395269",
+      "pmc_id": "PMC5879496"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Van Der Sluis PC",
+        "Van Der Sylvia H",
+        "May AM",
+        "Schippers C",
+        "Brosens LAA",
+        "Joore HCA",
+        "et al."
+      ],
+      "title": "Robot-assisted Minimally Invasive Thoracolaparoscopic Esophagectomy Versus Open Transthoracic Esophagectomy for Resectable Esophageal Cancer: A Randomized Controlled Trial",
+      "journal": "Ann Surg",
+      "year": "2019",
+      "volume": "269",
+      "issue": "4",
+      "fpage": "621",
+      "lpage": "630",
+      "doi": "10.1097/SLA.0000000000003031",
+      "pmid": "30308612"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Hoeppner J",
+        "Lordick F",
+        "Brunner T",
+        "Glatz T",
+        "Bronsert P",
+        "Röthling N",
+        "et al."
+      ],
+      "title": "ESOPEC: prospective randomized controlled multicenter phase III trial comparing perioperative chemotherapy (FLOT protocol) to neoadjuvant chemoradiation (CROSS protocol) in patients with adenocarcinoma of the esophagus ( NCT02509286 )",
+      "journal": "BMC Cancer",
+      "year": "2016",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "503",
+      "doi": "10.1186/s12885-016-2564-y",
+      "pmid": "27435280",
+      "pmc_id": "PMC4952147"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "raw_citation": "World Health Organization. International classification of diseases for oncology (ICD-O). 3rd ed., 1st revision. ICD-O. Geneva: World Health Organization (2013) [cited 2024 Oct 31]. Available from: https://iris.who.int/handle/10665/96612"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Hoeppner J",
+        "Glatz T",
+        "Claus R",
+        "Fischer A",
+        "Kraywinkel K",
+        "Brunner T"
+      ],
+      "title": "Das Adenokarzinom des Ösophagus – Bestandsaufnahme einer drastisch zunehmenden Erkrankung",
+      "journal": "DMW - Dtsch Med Wochenschr",
+      "year": "2017",
+      "volume": "142",
+      "issue": "19",
+      "fpage": "1453",
+      "lpage": "1460",
+      "doi": "10.1055/s-0043-115777",
+      "pmid": "28938509"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "title": "or without preoperative chemotherapy in oesophageal cancer: a randomised controlled trial",
+      "journal": "Lancet",
+      "year": "2002",
+      "volume": "359",
+      "issue": "9319",
+      "fpage": "1727",
+      "lpage": "1733",
+      "doi": "10.1016/S0140-6736(02)08651-8",
+      "pmid": "12049861"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Cunningham D",
+        "Allum WH",
+        "Stenning SP",
+        "Thompson JN",
+        "Van de Velde CJH",
+        "Nicolson M",
+        "et al."
+      ],
+      "title": "Perioperative Chemotherapy versus Surgery Alone for Resectable Gastroesophageal Cancer",
+      "journal": "N Engl J Med",
+      "year": "2006",
+      "volume": "355",
+      "issue": "1",
+      "fpage": "11",
+      "lpage": "20",
+      "doi": "10.1056/NEJMoa055531",
+      "pmid": "16822992"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "van Hagen P",
+        "Hulshof MCCM",
+        "van Lanschot JJB",
+        "Steyerberg EW",
+        "Henegouwen MI",
+        "van Wijnhoven B"
+      ],
+      "title": "Preoperative Chemoradiotherapy for Esophageal or Junctional Cancer",
+      "journal": "N Engl J Med",
+      "year": "2012",
+      "volume": "366",
+      "issue": "22",
+      "fpage": "2074",
+      "lpage": "2084",
+      "doi": "10.1056/NEJMoa1112088",
+      "pmid": "22646630"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Al-Batran SE",
+        "Homann N",
+        "Pauligk C",
+        "Goetze TO",
+        "Meiler J",
+        "Kasper S",
+        "et al."
+      ],
+      "title": "Perioperative chemotherapy with fluorouracil plus leucovorin, oxaliplatin, and docetaxel versus fluorouracil or capecitabine plus cisplatin and epirubicin for locally advanced, resectable gastric or gastro-oesophageal junction adenocarcinoma (FLOT4): a randomised, phase 2/3 trial",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "393",
+      "issue": "10184",
+      "fpage": "1948",
+      "lpage": "1957",
+      "doi": "10.1016/S0140-6736(18)32557-1",
+      "pmid": "30982686"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Van Putten M",
+        "De Vos-Geelen J",
+        "Nieuwenhuijzen GAP",
+        "Siersema PD",
+        "Lemmens VEPP",
+        "Rosman C",
+        "et al."
+      ],
+      "title": "Long-term survival improvement in oesophageal cancer in the Netherlands",
+      "journal": "Eur J Cancer",
+      "year": "2018",
+      "volume": "94",
+      "fpage": "138",
+      "lpage": "147",
+      "doi": "10.1016/j.ejca.2018.02.025",
+      "pmid": "29571082"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Hoeppner J",
+        "Brunner T",
+        "Lordick F",
+        "Schmoor C",
+        "Kulemann B",
+        "Neumann UP",
+        "et al."
+      ],
+      "title": "Prospective randomized multicenter phase III trial comparing perioperative chemotherapy (FLOT protocol) to neoadjuvant chemoradiation (CROSS protocol) in patients with adenocarcinoma of the esophagus (ESOPEC trial)",
+      "journal": "J Clin Oncol",
+      "year": "2024",
+      "volume": "42",
+      "issue": "17suppl",
+      "fpage": "LBA1",
+      "lpage": "LBA1",
+      "doi": "10.1200/JCO.2024.42.17_suppl.LBA1",
+      "pmc_id": "PMC4952147",
+      "pmid": "27435280"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Reynolds J",
+        "Preston S",
+        "O’Neill B",
+        "Baeksgaard L",
+        "Griffin S",
+        "Mariette C",
+        "et al."
+      ],
+      "title": "ICORG 10–14: NEOadjuvant trial in Adenocarcinoma of the oEsophagus and oesophagoGastric junction International Study (Neo-AEGIS)",
+      "journal": "BMC Cancer",
+      "year": "2017",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "401",
+      "doi": "10.1186/s12885-017-3386-2",
+      "pmid": "28578652",
+      "pmc_id": "PMC5457631"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Gebauer F",
+        "Plum PS",
+        "Damanakis A",
+        "Chon SH",
+        "Popp F",
+        "Zander T",
+        "et al."
+      ],
+      "title": "Long-Term Postsurgical Outcomes of Neoadjuvant Chemoradiation (CROSS) Versus Chemotherapy (FLOT) for Multimodal Treatment of Adenocarcinoma of the Esophagus and the Esophagogastric Junction",
+      "journal": "Ann Surg Oncol",
+      "year": "2023",
+      "volume": "30",
+      "issue": "12",
+      "fpage": "7422",
+      "lpage": "7433",
+      "doi": "10.1245/s10434-023-13643-9",
+      "pmid": "37210683",
+      "pmc_id": "PMC10562333"
     }
   ]
 }

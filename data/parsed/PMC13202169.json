@@ -27,7 +27,8 @@
     "pmc_id": "PMC13202169",
     "pmid": "42173653",
     "full_text_available": true,
-    "section_count": 36
+    "section_count": 36,
+    "reference_count": 93
   },
   "sections": [
     {
@@ -209,6 +210,1660 @@
       "section": "Discussion",
       "text": "Despite the growing promise of NACI in locally advanced ESCC, significant heterogeneity in clinical response remains a major barrier to its broader success. This variability reflects the complex and dynamic nature of the TME, which plays a central role in determining therapeutic outcomes. To elucidate the underlying mechanisms driving this heterogeneity and identify potential actionable therapeutic strategies, we conducted an in-depth analysis of the TME in a cohort of patients with ESCC who underwent NACI. Leveraging scRNA-seq/scTCR-seq combined with spatial transcriptome profiling, we generated a comprehensive map of cellular composition, functional states, and spatial organization within the TME before and after treatment. These data enabled us to delineate key molecular and cellular determinants of response and resistance, offering new insights into how NACI interacts with the tumor ecosystem in ESCC. Based on established literature, neoadjuvant chemotherapy remodels the ESCC tumor microenvironment primarily through immunogenic cell death and immune cell reorganization. Notably, chemoimmunotherapy further amplifies antitumor immunity beyond chemotherapy by boosting T-cell proliferation, reinvigorating Texs, expanding a proliferative exhausted CD8+ subset, and increasing DC activity. In this context, our integrative spatial and single-cell transcriptomic analysis reveals that these combined mechanisms give rise to unique immune and stromal landscapes linked to differential therapeutic responses. 82 84 In responders, we observed a marked reduction in VEGF signaling activity alongside a shift toward a more permissive immune environment. Notably, the TBZ was enriched with ACKR1+ ECs, CFD+ CAFs and RGS1+CD8+ T cells—cellular subsets that appeared to coordinate a localized immune response. Immunotherapy has been shown to exert divergent effects on Tex populations across different cancers. 85 For instance, in basal cell carcinoma, squamous cell carcinoma and breast cancer, immunotherapy expands terminal Tex cells. Conversely, in lung cancer and melanoma, it enriches precursor exhausted T (Texp) cells. 3886 88 This disparity may stem from varying degrees of immune suppression within distinct tumor types. Previous studies have shown that ESCC presents an immunologically “cold” microenvironment dominated by Tregs and terminal Tex cells. 89 Our findings suggest a unique pattern in ESCC. Specifically, we observed expansion of RGS1+CD8+ T cells and CXCL13+CD8+ T cells, both of which exhibit features of terminal exhaustion, including overexpression of multiple immune checkpoint molecules. Intriguingly, TCR repertoire analysis revealed clonal overlap between post-treatment RGS1+CD8+ T cells and pretreatment CXCL13+CD8+ T cells, indicating a potential transformation from CXCL13+ Tex cells to RGS1+CD8+ T cells following therapy. However, unlike Texp, which are typically associated with better therapeutic responsiveness, RGS1+CD8+ T cells lacked canonical Texp markers, suggesting that their functional state may represent a distinct transitional phase. The absence of clear Texp clusters in our dataset highlights the profound immunosuppressive nature of the ESCC microenvironment and underscores the need for larger-scale studies or in-depth experiment validation to fully characterize T cell plasticity in this disease. Beyond immune reprogramming, our data also highlight a coordinated remodeling of the stromal compartment in responders. The TBZ was notably enriched with ACKR1+ ECs and CFD+ CAFs, both of which exhibited gene expression profiles consistent with immune-supportive functions. These stromal subsets were not only transcriptionally active but also spatially proximal to infiltrating CD8+ T cells, suggesting a direct role in facilitating immune engagement. Mechanistically, we found evidence of MHC-I-mediated interactions between these stromal cells and CD8+ T cells, pointing to a previously underappreciated non-canonical antigen-presenting axis that may enhance local immune activation. Importantly, similar stromal cells have been reported in patients with colorectal cancer responding to immunotherapy. 90 Our findings thus propose that modulating stromal-immune crosstalk through MHC-I pathways could be a promising strategy to improve NACI efficacy in ESCC and other solid tumors with organized stromal-immune architectures. In contrast, non-responders exhibited a markedly different tumor ecosystem characterized by a dominant angiogenesis program driven by VEGF signaling. Malignant epithelial cells in these patients showed elevated expression of VEGFA and VEGFB , leading to the expansion of RGCC+ ECs, which express high levels of VEGFR2 . These ECs, along with MMP11+ CAFs formed a collagen-rich niche that actively suppressed immune infiltration and promoted immunosuppressive cell recruitment. Both RGCC+ ECs and MMP11+ CAFs exhibited robust expression of collagen-related genes such as COL4A1 , COL1A1 , and COL6A3 , suggesting a shared functional role in extracellular matrix remodeling. Furthermore, these stromal populations engaged in reciprocal activation loops via collagen-associated receptor–ligand pairs, reinforcing the structural and biochemical barriers to effective immune surveillance. ST analyses confirmed the close proximity of RGCC+ ECs, MMP11+ CAFs and TNFRSF4+ Tregs, forming a tightly integrated immunosuppressive network. Notably, RGCC+ ECs also expressed PLVAP , a marker associated with endothelial tip cells and immunomodulatory function, further supporting their role in shaping the suppressive landscape. 63 Importantly, our findings extend beyond the physical exclusion of immune cells by collagenous matrices. We demonstrate that VEGF-driven stromal reprogramming actively orchestrates immune evasion by promoting the formation of a structured immunosuppressive niche. 24 This mechanism provides a rationale for targeting both angiogenesis and collagen remodeling as complementary strategies to dismantle this barrier. Clinically, the presence of collagen-high stromal subpopulations in non-responders suggests their potential utility as predictive biomarkers and therapeutic targets. Among these, RGCC+ ECs stand out due to their high expression of VEGFR2 and their central role in vascular-immune crosstalk. Recent studies have shown that anti-VEGF therapies could enhance the efficacy of PD-1 and CTLA-4 blockade in cholangiocarcinoma. Moreover, emerging evidence indicates that blocking the VEGF–VEGFR2 signaling axis in Tregs may disrupt their suppressive function and promote antitumor immunity. 91 Clinical trials have already underscored the benefits of combining anti-angiogenic agents targeting VEGFR2 with immunotherapy or chemotherapy across various relapsed and refractory tumors. 80 92 93 Building on these observations, we confirmed the therapeutic potential of VEGFR2 inhibition in both ESCC cell lines and murine models, demonstrating that it significantly enhances the antitumor effects of PD-1 blockade and standard chemotherapeutic regimens. We recognize that a small sample size may have limited our ability to identify features correlated with response. Additionally, we acknowledge that driver mutation status, including p53 mutations, was not available for this cohort, as targeted sequencing is not part of routine clinical practice and biopsy material was limited. Future studies integrating genomic and transcriptional profiling with targeted sequencing will be essential. Such studies will help explore the relationship between cancer cell intrinsic driver mutations and key features including high CNV burden, genomic instability, mutational burden, and immunogenicity. Additionally, they will facilitate investigation into how these mutations influence TME reprogramming and treatment efficacy. Furthermore, our integrated spatial and single-cell analyses reveal a strong correlation in non-responders: the abundance of RGCC+ ECs and MMP11+ CAFs, together with the collagen-rich matrix they deposit, is associated with restricted immune infiltration. We acknowledge that these observational findings do not establish definitive causality. Definitive evidence will require in vivo loss-of-function studies, including genetic ablation of RGCC+ ECs or MMP11+ CAFs, as well as targeted disruption of the collagen barrier, to rigorously establish whether these stromal features directly drive therapeutic resistance. Our functional signature analyses highlight that neoadjuvant therapy drives profound functional reprogramming within the immune compartment, independent of macroscopic numerical changes. Importantly, the highly heterogeneous and subset-specific nature of these transcriptomic shifts underscores the extreme complexity of TME remodeling. Consequently, while transcriptomic plasticity clearly underpins therapeutic efficacy, fully disentangling the precise mechanisms of this multifaceted immune rewiring will require sophisticated functional studies in the future. Taken together, our study establishes a comprehensive single-cell atlas of the TME in patients with ESCC undergoing NACI. It identifies key cellular mediators of response—including ACKR1+ ECs, CFD+ CAFs, and RGS1+CD8+ T cells—and delineates a resistance signature dominated by RGCC+ ECs, MMP11+ CAFs, Tregs, APOE+ macrophages, and angiogenesis-active malignant cells. Critically, our spatial and functional analyses reveal how these components interact in a coordinated manner to either support or suppress antitumor immunity. These findings provide a strong foundation for developing novel combination therapies that target both immune and stromal compartments to overcome resistance and improve outcomes in ESCC. By integrating mechanistic insights with preclinical validation, our work highlights the importance of tailoring therapeutic strategies to the specific architecture of the tumor microenvironment, paving the way for more precise and effective treatments in this challenging disease setting.",
       "order": 35
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Hiam-Galvez KJ",
+        "Allen BM",
+        "Spitzer MH"
+      ],
+      "title": "Systemic immunity in cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2021",
+      "volume": "21",
+      "fpage": "345",
+      "lpage": "59",
+      "doi": "10.1038/s41568-021-00347-z",
+      "pmid": "33837297",
+      "pmc_id": "PMC8034277"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Schenkel JM",
+        "Pauken KE"
+      ],
+      "title": "Localization, tissue biology and T cell state - implications for cancer immunotherapy",
+      "journal": "Nat Rev Immunol",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "807",
+      "lpage": "23",
+      "doi": "10.1038/s41577-023-00884-8",
+      "pmid": "37253877",
+      "pmc_id": "PMC11448857"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Wang Z-X",
+        "Cui C",
+        "Yao J",
+        "et al."
+      ],
+      "title": "Toripalimab plus chemotherapy in treatment-naïve, advanced esophageal squamous cell carcinoma (JUPITER-06): A multi-center phase 3 trial",
+      "journal": "Cancer Cell",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "277",
+      "lpage": "88",
+      "doi": "10.1016/j.ccell.2022.02.007",
+      "pmid": "35245446"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Liu J",
+        "Yang Y",
+        "Liu Z",
+        "et al."
+      ],
+      "title": "Multicenter, single-arm, phase II trial of camrelizumab and chemotherapy as neoadjuvant treatment for locally advanced esophageal squamous cell carcinoma",
+      "journal": "J Immunother Cancer",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "e004291",
+      "doi": "10.1136/jitc-2021-004291",
+      "pmid": "35338088",
+      "pmc_id": "PMC8961177"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Yin J",
+        "Yuan J",
+        "Li Y",
+        "et al."
+      ],
+      "title": "Neoadjuvant adebrelimab in locally advanced resectable esophageal squamous cell carcinoma: a phase 1b trial",
+      "journal": "Nat Med",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "2068",
+      "lpage": "78",
+      "doi": "10.1038/s41591-023-02469-3",
+      "pmid": "37488287",
+      "pmc_id": "PMC10427424"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Liu J",
+        "Li J",
+        "Lin W",
+        "et al."
+      ],
+      "title": "Neoadjuvant camrelizumab plus chemotherapy for resectable, locally advanced esophageal squamous cell carcinoma (NIC-ESCC2019): A multicenter, phase 2 study",
+      "journal": "Int J Cancer",
+      "year": "2022",
+      "volume": "151",
+      "fpage": "128",
+      "lpage": "37",
+      "doi": "10.1002/ijc.33976",
+      "pmid": "35188268"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Burtness B",
+        "Harrington KJ",
+        "Greil R",
+        "et al."
+      ],
+      "title": "Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048): a randomised, open-label, phase 3 study",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "1915",
+      "lpage": "28",
+      "doi": "10.1016/S0140-6736(19)32591-7",
+      "pmid": "31679945"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Mok TSK",
+        "Wu Y-L",
+        "Kudaba I",
+        "et al."
+      ],
+      "title": "Pembrolizumab versus chemotherapy for previously untreated, PD-L1-expressing, locally advanced or metastatic non-small-cell lung cancer (KEYNOTE-042): a randomised, open-label, controlled, phase 3 trial",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "393",
+      "fpage": "1819",
+      "lpage": "30",
+      "doi": "10.1016/S0140-6736(18)32409-7",
+      "pmid": "30955977"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Sun J-M",
+        "Shen L",
+        "Shah MA",
+        "et al."
+      ],
+      "title": "Pembrolizumab plus chemotherapy versus chemotherapy alone for first-line treatment of advanced oesophageal cancer (KEYNOTE-590): a randomised, placebo-controlled, phase 3 study",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "398",
+      "fpage": "759",
+      "lpage": "71",
+      "doi": "10.1016/S0140-6736(21)01234-4",
+      "pmid": "34454674"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Luo H",
+        "Lu J",
+        "Bai Y",
+        "et al."
+      ],
+      "title": "Effect of Camrelizumab vs Placebo Added to Chemotherapy on Survival and Progression-Free Survival in Patients With Advanced or Metastatic Esophageal Squamous Cell Carcinoma",
+      "journal": "JAMA",
+      "year": "2021",
+      "volume": "326",
+      "fpage": "916",
+      "doi": "10.1001/jama.2021.12836",
+      "pmid": "34519801",
+      "pmc_id": "PMC8441593"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Cabrita R",
+        "Lauss M",
+        "Sanna A",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures improve immunotherapy and survival in melanoma",
+      "journal": "Nature New Biol",
+      "year": "2020",
+      "volume": "577",
+      "fpage": "561",
+      "lpage": "5",
+      "doi": "10.1038/s41586-019-1914-8",
+      "pmid": "31942071"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Liu D",
+        "Lin J-R",
+        "Robitschek EJ",
+        "et al."
+      ],
+      "title": "Evolution of delayed resistance to immunotherapy in a melanoma responder",
+      "journal": "Nat Med",
+      "year": "2021",
+      "volume": "27",
+      "fpage": "985",
+      "lpage": "92",
+      "doi": "10.1038/s41591-021-01331-8",
+      "pmid": "33941922",
+      "pmc_id": "PMC8474080"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Ren L",
+        "Shi L",
+        "Zheng Y"
+      ],
+      "title": "Reference Materials for Improving Reliability of Multiomics Profiling",
+      "journal": "Phenomics",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "487",
+      "lpage": "521",
+      "doi": "10.1007/s43657-023-00153-7",
+      "pmid": "39723231",
+      "pmc_id": "PMC11666855"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Dutta AK",
+        "Alberge J-B",
+        "Sklavenitis-Pistofidis R",
+        "et al."
+      ],
+      "title": "Single-cell profiling of tumour evolution in multiple myeloma - opportunities for precision medicine",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2022",
+      "volume": "19",
+      "fpage": "223",
+      "lpage": "36",
+      "doi": "10.1038/s41571-021-00593-y",
+      "pmid": "35017721"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Liu Y",
+        "Xun Z",
+        "Ma K",
+        "et al."
+      ],
+      "title": "Identification of a tumour immune barrier in the HCC microenvironment that determines the efficacy of immunotherapy",
+      "journal": "J Hepatol",
+      "year": "2023",
+      "volume": "78",
+      "fpage": "770",
+      "lpage": "82",
+      "doi": "10.1016/j.jhep.2023.01.011",
+      "pmid": "36708811"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Goswami S",
+        "Raychaudhuri D",
+        "Singh P",
+        "et al."
+      ],
+      "title": "Myeloid-specific KDM6B inhibition sensitizes glioblastoma to PD1 blockade",
+      "journal": "Nat Cancer",
+      "year": "2023",
+      "volume": "4",
+      "fpage": "1455",
+      "lpage": "73",
+      "doi": "10.1038/s43018-023-00620-0",
+      "pmid": "37653141"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Sorin M",
+        "Rezanejad M",
+        "Karimi E",
+        "et al."
+      ],
+      "title": "Single-cell spatial landscapes of the lung tumour immune microenvironment",
+      "journal": "Nature New Biol",
+      "year": "2023",
+      "volume": "614",
+      "fpage": "548",
+      "lpage": "54",
+      "doi": "10.1038/s41586-022-05672-3",
+      "pmc_id": "PMC9931585",
+      "pmid": "36725934"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Xue R",
+        "Zhang Q",
+        "Cao Q",
+        "et al."
+      ],
+      "title": "Liver tumour immune microenvironment subtypes and neutrophil heterogeneity",
+      "journal": "Nature New Biol",
+      "year": "2022",
+      "volume": "612",
+      "fpage": "141",
+      "lpage": "7",
+      "doi": "10.1038/s41586-022-05400-x",
+      "pmid": "36352227"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Chen Y",
+        "Zhu S",
+        "Liu T",
+        "et al."
+      ],
+      "title": "Epithelial cells activate fibroblasts to promote esophageal cancer development",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "903",
+      "lpage": "18",
+      "doi": "10.1016/j.ccell.2023.03.001",
+      "pmid": "36963399"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Dinh HQ",
+        "Pan F",
+        "Wang G",
+        "et al."
+      ],
+      "title": "Integrated single-cell transcriptome analysis reveals heterogeneity of esophageal squamous cell carcinoma microenvironment",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "7335",
+      "doi": "10.1038/s41467-021-27599-5",
+      "pmid": "34921160",
+      "pmc_id": "PMC8683407"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Liu Z",
+        "Zhang Y",
+        "Ma N",
+        "et al."
+      ],
+      "title": "Progenitor-like exhausted SPRY1 + CD8 + T cells potentiate responsiveness to neoadjuvant PD-1 blockade in esophageal squamous cell carcinoma",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "1852",
+      "lpage": "70",
+      "doi": "10.1016/j.ccell.2023.09.011",
+      "pmid": "37832554"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Yang Z",
+        "Tian H",
+        "Chen X",
+        "et al."
+      ],
+      "title": "Single-cell sequencing reveals immune features of treatment response to neoadjuvant immunochemotherapy in esophageal squamous cell carcinoma",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "doi": "10.1038/s41467-024-52977-0",
+      "pmc_id": "PMC11496748",
+      "pmid": "39438438"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Shang X",
+        "Xie Y",
+        "Yu J",
+        "et al."
+      ],
+      "title": "A prospective study of neoadjuvant pembrolizumab plus chemotherapy for resectable esophageal squamous cell carcinoma: The Keystone-001 trial",
+      "journal": "Cancer Cell",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "1747",
+      "lpage": "63",
+      "doi": "10.1016/j.ccell.2024.09.008",
+      "pmid": "39406186"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Yan Y",
+        "Sun D",
+        "Hu J",
+        "et al."
+      ],
+      "title": "Multi-omic profiling highlights factors associated with resistance to immuno-chemotherapy in non-small-cell lung cancer",
+      "journal": "Nat Genet",
+      "year": "2025",
+      "volume": "57",
+      "fpage": "126",
+      "lpage": "39",
+      "doi": "10.1038/s41588-024-01998-y",
+      "pmid": "39658657"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Qi J",
+        "Sun H",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Single-cell and spatial analysis reveal interaction of FAP+ fibroblasts and SPP1+ macrophages in colorectal cancer",
+      "journal": "Nat Commun",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.1038/s41467-022-29366-6",
+      "pmc_id": "PMC8976074",
+      "pmid": "35365629"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Chang J",
+        "Lu J",
+        "Liu Q",
+        "et al."
+      ],
+      "title": "Single-cell multi-stage spatial evolutional map of esophageal carcinogenesis",
+      "journal": "Cancer Cell",
+      "year": "2025",
+      "volume": "43",
+      "fpage": "380",
+      "lpage": "97",
+      "doi": "10.1016/j.ccell.2025.02.009",
+      "pmid": "40068596"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Chen S",
+        "Zhou Y",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "journal": "Bioinformatics",
+      "year": "2018",
+      "volume": "34",
+      "fpage": "i884",
+      "lpage": "90",
+      "doi": "10.1093/bioinformatics/bty560",
+      "pmid": "30423086",
+      "pmc_id": "PMC6129281"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Stuart T",
+        "Butler A",
+        "Hoffman P",
+        "et al."
+      ],
+      "title": "Comprehensive Integration of Single-Cell Data",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "177",
+      "fpage": "1888",
+      "lpage": "902",
+      "doi": "10.1016/j.cell.2019.05.031",
+      "pmid": "31178118",
+      "pmc_id": "PMC6687398"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "McGinnis CS",
+        "Murrow LM",
+        "Gartner ZJ"
+      ],
+      "title": "DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors",
+      "journal": "Cell Syst",
+      "year": "2019",
+      "volume": "8",
+      "fpage": "329",
+      "lpage": "37",
+      "doi": "10.1016/j.cels.2019.03.003",
+      "pmid": "30954475",
+      "pmc_id": "PMC6853612"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Korsunsky I",
+        "Millard N",
+        "Fan J",
+        "et al."
+      ],
+      "title": "Fast, sensitive and accurate integration of single-cell data with Harmony",
+      "journal": "Nat Methods",
+      "year": "2019",
+      "volume": "16",
+      "fpage": "1289",
+      "lpage": "96",
+      "doi": "10.1038/s41592-019-0619-0",
+      "pmid": "31740819",
+      "pmc_id": "PMC6884693"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Hao Y",
+        "Hao S",
+        "Andersen-Nissen E",
+        "et al."
+      ],
+      "title": "Integrated analysis of multimodal single-cell data",
+      "journal": "Cell",
+      "year": "2021",
+      "volume": "184",
+      "fpage": "3573",
+      "lpage": "87",
+      "doi": "10.1016/j.cell.2021.04.048",
+      "pmid": "34062119",
+      "pmc_id": "PMC8238499"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Hafemeister C",
+        "Satija R"
+      ],
+      "title": "Normalization and variance stabilization of single-cell RNA-seq data using regularized negative binomial regression",
+      "journal": "Genome Biol",
+      "year": "2019",
+      "volume": "20",
+      "doi": "10.1186/s13059-019-1874-1",
+      "pmc_id": "PMC6927181",
+      "pmid": "31870423"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Luoma AM",
+        "Suo S",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "Tissue-resident memory and circulating T cells are early responders to pre-surgical cancer immunotherapy",
+      "journal": "Cell",
+      "year": "2022",
+      "volume": "185",
+      "fpage": "2918",
+      "lpage": "35",
+      "doi": "10.1016/j.cell.2022.06.018",
+      "pmid": "35803260",
+      "pmc_id": "PMC9508682"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Engblom C",
+        "Thrane K",
+        "Lin Q",
+        "et al."
+      ],
+      "title": "Spatial transcriptomics of B cell and T cell receptors reveals lymphocyte clonal dynamics",
+      "journal": "Science",
+      "year": "2023",
+      "volume": "382",
+      "doi": "10.1126/science.adf8486",
+      "pmid": "38060664"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "authors": [
+        "Oksanen J",
+        "Simpson G",
+        "Blanchet F",
+        "et al."
+      ],
+      "title": "Vegan: community ecology package",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36",
+      "authors": [
+        "Khunger A",
+        "Rytlewski JA",
+        "Fields P",
+        "et al."
+      ],
+      "title": "The impact of CTLA-4 blockade and interferon-α on clonality of T-cell repertoire in the tumor microenvironment and peripheral blood of metastatic melanoma patients",
+      "journal": "Oncoimmunology",
+      "year": "2019",
+      "volume": "8",
+      "elocation_id": "e1652538",
+      "doi": "10.1080/2162402X.2019.1652538",
+      "pmid": "31646098",
+      "pmc_id": "PMC6791420"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37",
+      "authors": [
+        "Rytlewski J",
+        "Deng S",
+        "Xie T",
+        "et al."
+      ],
+      "title": "Model to improve specificity for identification of clinically-relevant expanded T cells in peripheral blood",
+      "journal": "PLoS ONE",
+      "year": "2019",
+      "volume": "14",
+      "elocation_id": "e0213684",
+      "doi": "10.1371/journal.pone.0213684",
+      "pmid": "30870493",
+      "pmc_id": "PMC6417670"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "authors": [
+        "Yost KE",
+        "Satpathy AT",
+        "Wells DK",
+        "et al."
+      ],
+      "title": "Clonal replacement of tumor-specific T cells following PD-1 blockade",
+      "journal": "Nat Med",
+      "year": "2019",
+      "volume": "25",
+      "fpage": "1251",
+      "lpage": "9",
+      "doi": "10.1038/s41591-019-0522-3",
+      "pmid": "31359002",
+      "pmc_id": "PMC6689255"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39",
+      "authors": [
+        "Angerer P",
+        "Haghverdi L",
+        "Büttner M",
+        "et al."
+      ],
+      "title": "destiny: diffusion maps for large-scale single-cell data in R",
+      "journal": "Bioinformatics",
+      "year": "2016",
+      "volume": "32",
+      "fpage": "1241",
+      "lpage": "3",
+      "doi": "10.1093/bioinformatics/btv715",
+      "pmid": "26668002"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Patel AP",
+        "Tirosh I",
+        "Trombetta JJ",
+        "et al."
+      ],
+      "title": "Single-cell RNA-seq highlights intratumoral heterogeneity in primary glioblastoma",
+      "journal": "Science",
+      "year": "2014",
+      "volume": "344",
+      "fpage": "1396",
+      "lpage": "401",
+      "doi": "10.1126/science.1254257",
+      "pmid": "24925914",
+      "pmc_id": "PMC4123637"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41",
+      "authors": [
+        "Zhang X",
+        "Peng L",
+        "Luo Y",
+        "et al."
+      ],
+      "title": "Dissecting esophageal squamous-cell carcinoma ecosystem by single-cell transcriptomic analysis",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "doi": "10.1038/s41467-021-25539-x",
+      "pmc_id": "PMC8421382",
+      "pmid": "34489433"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "authors": [
+        "Wu T",
+        "Hu E",
+        "Xu S",
+        "et al."
+      ],
+      "title": "clusterProfiler 4.0: A universal enrichment tool for interpreting omics data",
+      "journal": "Innovation (Camb)",
+      "year": "2021",
+      "volume": "2",
+      "fpage": "100141",
+      "doi": "10.1016/j.xinn.2021.100141",
+      "pmid": "34557778",
+      "pmc_id": "PMC8454663"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "authors": [
+        "Korotkevich G",
+        "Sukhov V",
+        "Budin N",
+        "et al."
+      ],
+      "title": "Fast gene set enrichment analysis",
+      "journal": "Bioinformatics",
+      "year": "2019",
+      "doi": "10.1101/060012"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "authors": [
+        "Liberzon A",
+        "Subramanian A",
+        "Pinchback R",
+        "et al."
+      ],
+      "title": "Molecular signatures database (MSigDB) 3.0",
+      "journal": "Bioinformatics",
+      "year": "2011",
+      "volume": "27",
+      "fpage": "1739",
+      "lpage": "40",
+      "doi": "10.1093/bioinformatics/btr260",
+      "pmid": "21546393",
+      "pmc_id": "PMC3106198"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "Yang D",
+        "Liu J",
+        "Qian H",
+        "et al."
+      ],
+      "title": "Cancer-associated fibroblasts: from basic science to anticancer therapy",
+      "journal": "Exp Mol Med",
+      "year": "2023",
+      "volume": "55",
+      "fpage": "1322",
+      "lpage": "32",
+      "doi": "10.1038/s12276-023-01013-0",
+      "pmid": "37394578",
+      "pmc_id": "PMC10394065"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46",
+      "authors": [
+        "Aibar S",
+        "González-Blas CB",
+        "Moerman T",
+        "et al."
+      ],
+      "title": "SCENIC: single-cell regulatory network inference and clustering",
+      "journal": "Nat Methods",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "1083",
+      "lpage": "6",
+      "doi": "10.1038/nmeth.4463",
+      "pmid": "28991892",
+      "pmc_id": "PMC5937676"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47",
+      "authors": [
+        "Zhang Q",
+        "He Y",
+        "Luo N",
+        "et al."
+      ],
+      "title": "Landscape and Dynamics of Single Immune Cells in Hepatocellular Carcinoma",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "179",
+      "fpage": "829",
+      "lpage": "45",
+      "doi": "10.1016/j.cell.2019.10.003",
+      "pmid": "31675496"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48",
+      "authors": [
+        "Yang J",
+        "Zhang N",
+        "Luo T",
+        "et al."
+      ],
+      "title": "TCellSI: A novel method for T cell state assessment and its applications in immune environment prediction",
+      "journal": "iMeta",
+      "year": "2024",
+      "volume": "3",
+      "doi": "10.1002/imt2.231",
+      "pmc_id": "PMC11487559",
+      "pmid": "39429885"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49",
+      "authors": [
+        "Chu Y",
+        "Dai E",
+        "Li Y",
+        "et al."
+      ],
+      "title": "Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance",
+      "journal": "Nat Med",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "1550",
+      "lpage": "62",
+      "doi": "10.1038/s41591-023-02371-y",
+      "pmid": "37248301",
+      "pmc_id": "PMC11421770"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50",
+      "authors": [
+        "Fan C",
+        "Chen F",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "irGSEA: the integration of single-cell rank-based gene set enrichment analysis",
+      "journal": "Brief Bioinformatics",
+      "year": "2024",
+      "volume": "25",
+      "doi": "10.1093/bib/bbae243",
+      "pmc_id": "PMC11129768",
+      "pmid": "38801700"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51",
+      "authors": [
+        "Jin S",
+        "Plikus MV",
+        "Nie Q"
+      ],
+      "title": "CellChat for systematic analysis of cell–cell communication from single-cell transcriptomics",
+      "journal": "Nat Protoc",
+      "year": "2025",
+      "volume": "20",
+      "fpage": "180",
+      "lpage": "219",
+      "doi": "10.1038/s41596-024-01045-4",
+      "pmid": "39289562"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52",
+      "authors": [
+        "Larsson L",
+        "Franzén L",
+        "Ståhl PL",
+        "et al."
+      ],
+      "title": "Semla: a versatile toolkit for spatially resolved transcriptomics analysis and visualization",
+      "journal": "Bioinformatics",
+      "year": "2023",
+      "volume": "39",
+      "elocation_id": "btad626",
+      "doi": "10.1093/bioinformatics/btad626",
+      "pmid": "37846051",
+      "pmc_id": "PMC10597621"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53",
+      "authors": [
+        "Vahid MR",
+        "Brown EL",
+        "Steen CB",
+        "et al."
+      ],
+      "title": "High-resolution alignment of single-cell and spatial transcriptomes with CytoSPACE",
+      "journal": "Nat Biotechnol",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "1543",
+      "lpage": "8",
+      "doi": "10.1038/s41587-023-01697-9",
+      "pmid": "36879008",
+      "pmc_id": "PMC10635828"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54",
+      "authors": [
+        "Ma N",
+        "Hua R",
+        "Yang Y",
+        "et al."
+      ],
+      "title": "PES1 reduces CD8+ T cell infiltration and immunotherapy sensitivity via interrupting ILF3-IL15 complex in esophageal squamous cell carcinoma",
+      "journal": "J Biomed Sci",
+      "year": "2023",
+      "volume": "30",
+      "doi": "10.1186/s12929-023-00912-8",
+      "pmc_id": "PMC10037800",
+      "pmid": "36959575"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55",
+      "authors": [
+        "Opitz OG",
+        "Harada H",
+        "Suliman Y",
+        "et al."
+      ],
+      "title": "A mouse model of human oral-esophageal cancer",
+      "journal": "J Clin Invest",
+      "year": "2002",
+      "volume": "110",
+      "fpage": "761",
+      "lpage": "9",
+      "doi": "10.1172/JCI15324",
+      "pmid": "12235107",
+      "pmc_id": "PMC151126"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56",
+      "authors": [
+        "Karakasheva TA",
+        "Waldron TJ",
+        "Eruslanov E",
+        "et al."
+      ],
+      "title": "CD38-Expressing Myeloid-Derived Suppressor Cells Promote Tumor Growth in a Murine Model of Esophageal Cancer",
+      "journal": "Cancer Res",
+      "year": "2015",
+      "volume": "75",
+      "fpage": "4074",
+      "lpage": "85",
+      "doi": "10.1158/0008-5472.CAN-14-3639",
+      "pmid": "26294209",
+      "pmc_id": "PMC4592477"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57",
+      "authors": [
+        "Li Y",
+        "Wang Y",
+        "Ren G",
+        "et al."
+      ],
+      "title": "Characterization of novel mouse esophageal squamous cell carcinoma cell lines and their utility as preclinical models",
+      "journal": "Cancer Lett",
+      "year": "2025",
+      "volume": "616",
+      "fpage": "217600",
+      "doi": "10.1016/j.canlet.2025.217600",
+      "pmid": "40024567"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58",
+      "authors": [
+        "Anderson MJ"
+      ],
+      "title": "A new method for non‐parametric multivariate analysis of variance",
+      "journal": "Austral Ecol",
+      "year": "2001",
+      "volume": "26",
+      "fpage": "32",
+      "lpage": "46",
+      "doi": "10.1111/j.1442-9993.2001.01070.pp.x"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59",
+      "authors": [
+        "Eisenhauer EA",
+        "Therasse P",
+        "Bogaerts J",
+        "et al."
+      ],
+      "title": "New response evaluation criteria in solid tumours: Revised RECIST guideline (version 1.1)",
+      "journal": "Eur J Cancer",
+      "year": "2009",
+      "volume": "45",
+      "fpage": "228",
+      "lpage": "47",
+      "doi": "10.1016/j.ejca.2008.10.026",
+      "pmid": "19097774"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60",
+      "authors": [
+        "Wu L",
+        "Yan J",
+        "Bai Y",
+        "et al."
+      ],
+      "title": "An invasive zone in human liver cancer identified by Stereo-seq promotes hepatocyte–tumor cell crosstalk, local immunosuppression and tumor progression",
+      "journal": "Cell Res",
+      "year": "2023",
+      "volume": "33",
+      "fpage": "585",
+      "lpage": "603",
+      "doi": "10.1038/s41422-023-00831-1",
+      "pmid": "37337030",
+      "pmc_id": "PMC10397313"
+    },
+    {
+      "ref_id": "R61",
+      "label": "61",
+      "authors": [
+        "Feng Y",
+        "Ma W",
+        "Zang Y",
+        "et al."
+      ],
+      "title": "Spatially organized tumor-stroma boundary determines the efficacy of immunotherapy in colorectal cancer patients",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "doi": "10.1038/s41467-024-54710-3",
+      "pmc_id": "PMC11599708",
+      "pmid": "39592630"
+    },
+    {
+      "ref_id": "R62",
+      "label": "62",
+      "authors": [
+        "Li Z",
+        "Wang M",
+        "Tan J",
+        "et al."
+      ],
+      "title": "Single-cell RNA sequencing depicts the local cell landscape in thyroid-associated ophthalmopathy",
+      "journal": "Cell Rep Med",
+      "year": "2022",
+      "volume": "3",
+      "elocation_id": "100699",
+      "doi": "10.1016/j.xcrm.2022.100699",
+      "pmid": "35896115",
+      "pmc_id": "PMC9418739"
+    },
+    {
+      "ref_id": "R63",
+      "label": "63",
+      "authors": [
+        "Sharma A",
+        "Seow JJW",
+        "Dutertre C-A",
+        "et al."
+      ],
+      "title": "Onco-fetal Reprogramming of Endothelial Cells Drives Immunosuppressive Macrophages in Hepatocellular Carcinoma",
+      "journal": "Cell",
+      "year": "2020",
+      "volume": "183",
+      "fpage": "377",
+      "lpage": "94",
+      "doi": "10.1016/j.cell.2020.08.040",
+      "pmid": "32976798"
+    },
+    {
+      "ref_id": "R64",
+      "label": "64",
+      "authors": [
+        "Chhabra Y",
+        "Weeraratna AT"
+      ],
+      "title": "Fibroblasts in cancer: Unity in heterogeneity",
+      "journal": "Cell",
+      "year": "2023",
+      "volume": "186",
+      "fpage": "1580",
+      "lpage": "609",
+      "doi": "10.1016/j.cell.2023.03.016",
+      "pmid": "37059066",
+      "pmc_id": "PMC11422789"
+    },
+    {
+      "ref_id": "R65",
+      "label": "65",
+      "authors": [
+        "Zhang H",
+        "Yue X",
+        "Chen Z",
+        "et al."
+      ],
+      "title": "Define cancer-associated fibroblasts (CAFs) in the tumor microenvironment: new opportunities in cancer immunotherapy and advances in clinical trials",
+      "journal": "Mol Cancer",
+      "year": "2023",
+      "volume": "22",
+      "doi": "10.1186/s12943-023-01860-5",
+      "pmc_id": "PMC10544417",
+      "pmid": "37784082"
+    },
+    {
+      "ref_id": "R66",
+      "label": "66",
+      "authors": [
+        "Luo H",
+        "Xia X",
+        "Huang L-B",
+        "et al."
+      ],
+      "title": "Pan-cancer single-cell analysis reveals the heterogeneity and plasticity of cancer-associated fibroblasts in the tumor microenvironment",
+      "journal": "Nat Commun",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.1038/s41467-022-34395-2",
+      "pmc_id": "PMC9636408",
+      "pmid": "36333338"
+    },
+    {
+      "ref_id": "R67",
+      "label": "67",
+      "authors": [
+        "Cords L",
+        "Engler S",
+        "Haberecker M",
+        "et al."
+      ],
+      "title": "Cancer-associated fibroblast phenotypes are associated with patient outcome in non-small cell lung cancer",
+      "journal": "Cancer Cell",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "396",
+      "lpage": "412",
+      "doi": "10.1016/j.ccell.2023.12.021",
+      "pmid": "38242124",
+      "pmc_id": "PMC10929690"
+    },
+    {
+      "ref_id": "R68",
+      "label": "68",
+      "authors": [
+        "Zhao C",
+        "Zheng T",
+        "Wang R",
+        "et al."
+      ],
+      "title": "Synergistically Augmenting Cancer Immunotherapy by Physical Manipulation of Pyroptosis Induction",
+      "journal": "Phenomics",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "298",
+      "lpage": "312",
+      "doi": "10.1007/s43657-023-00140-y",
+      "pmid": "39398428",
+      "pmc_id": "PMC11466912"
+    },
+    {
+      "ref_id": "R69",
+      "label": "69",
+      "authors": [
+        "Cords L",
+        "de Souza N",
+        "Bodenmiller B"
+      ],
+      "title": "Classifying cancer-associated fibroblasts—The good, the bad, and the target",
+      "journal": "Cancer Cell",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "1480",
+      "lpage": "5",
+      "doi": "10.1016/j.ccell.2024.08.011",
+      "pmid": "39255773"
+    },
+    {
+      "ref_id": "R70",
+      "label": "70",
+      "authors": [
+        "Oliveira G",
+        "Wu CJ"
+      ],
+      "title": "Dynamics and specificities of T cells in cancer immunotherapy",
+      "journal": "Nat Rev Cancer",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "295",
+      "lpage": "316",
+      "doi": "10.1038/s41568-023-00560-y",
+      "pmid": "37046001",
+      "pmc_id": "PMC10773171"
+    },
+    {
+      "ref_id": "R71",
+      "label": "71",
+      "authors": [
+        "Liu B",
+        "Zhang Y",
+        "Wang D",
+        "et al."
+      ],
+      "title": "Single-cell meta-analyses reveal responses of tumor-reactive CXCL13+ T cells to immune-checkpoint blockade",
+      "journal": "Nat Cancer",
+      "year": "2022",
+      "volume": "3",
+      "fpage": "1123",
+      "lpage": "36",
+      "doi": "10.1038/s43018-022-00433-7",
+      "pmid": "36138134"
+    },
+    {
+      "ref_id": "R72",
+      "label": "72",
+      "authors": [
+        "Liu Y",
+        "Ye S-Y",
+        "He S",
+        "et al."
+      ],
+      "title": "Single-cell and spatial transcriptome analyses reveal tertiary lymphoid structures linked to tumour progression and immunotherapy response in nasopharyngeal carcinoma",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "doi": "10.1038/s41467-024-52153-4",
+      "pmc_id": "PMC11375053",
+      "pmid": "39231979"
+    },
+    {
+      "ref_id": "R73",
+      "label": "73",
+      "authors": [
+        "Xu X",
+        "Dennett P",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "CTLA4 depletes T cell endogenous and trogocytosed B7 ligands via cis-endocytosis",
+      "journal": "J Exp Med",
+      "year": "2023",
+      "volume": "220",
+      "doi": "10.1084/jem.20221391",
+      "pmc_id": "PMC10103642",
+      "pmid": "37042938"
+    },
+    {
+      "ref_id": "R74",
+      "label": "74",
+      "authors": [
+        "Kloosterman DJ",
+        "Akkari L"
+      ],
+      "title": "Macrophages at the interface of the co-evolving cancer ecosystem",
+      "journal": "Cell",
+      "year": "2023",
+      "volume": "186",
+      "fpage": "1627",
+      "lpage": "51",
+      "doi": "10.1016/j.cell.2023.02.020",
+      "pmid": "36924769"
+    },
+    {
+      "ref_id": "R75",
+      "label": "75",
+      "authors": [
+        "Moon CY",
+        "Belabed M",
+        "Park MD",
+        "et al."
+      ],
+      "title": "Dendritic cell maturation in cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "225",
+      "lpage": "48",
+      "doi": "10.1038/s41568-024-00787-3",
+      "pmid": "39920276",
+      "pmc_id": "PMC11954679"
+    },
+    {
+      "ref_id": "R76",
+      "label": "76",
+      "authors": [
+        "Gu Z",
+        "Yao Y",
+        "Yang G",
+        "et al."
+      ],
+      "title": "Pharmacogenomic landscape of head and neck squamous cell carcinoma informs precision oncology therapy",
+      "journal": "Sci Transl Med",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "eabo5987",
+      "doi": "10.1126/scitranslmed.abo5987",
+      "pmid": "36070368"
+    },
+    {
+      "ref_id": "R77",
+      "label": "77",
+      "authors": [
+        "Liu Y",
+        "Xu C",
+        "Zhang L",
+        "et al."
+      ],
+      "title": "Syndecan-1 inhibition promotes antitumor immune response and facilitates the efficacy of anti-PD1 checkpoint immunotherapy",
+      "journal": "Sci Adv",
+      "year": "2024",
+      "volume": "10",
+      "doi": "10.1126/sciadv.adi7764",
+      "pmc_id": "PMC11389782",
+      "pmid": "39259785"
+    },
+    {
+      "ref_id": "R78",
+      "label": "78",
+      "authors": [
+        "Hashimoto M",
+        "Kojima Y",
+        "Sakamoto T",
+        "et al."
+      ],
+      "title": "Spatial and single-cell colocalisation analysis reveals MDK-mediated immunosuppressive environment with regulatory T cells in colorectal carcinogenesis",
+      "journal": "EBioMedicine",
+      "year": "2024",
+      "volume": "103",
+      "fpage": "105102",
+      "doi": "10.1016/j.ebiom.2024.105102",
+      "pmid": "38614865",
+      "pmc_id": "PMC11121171"
+    },
+    {
+      "ref_id": "R79",
+      "label": "79",
+      "authors": [
+        "Farghaly TA",
+        "Al-Hasani WA",
+        "Abdulwahab HG"
+      ],
+      "title": "An updated patent review of VEGFR-2 inhibitors (2017-present)",
+      "journal": "Expert Opin Ther Pat",
+      "year": "2021",
+      "volume": "31",
+      "fpage": "989",
+      "lpage": "1007",
+      "doi": "10.1080/13543776.2021.1935872",
+      "pmid": "34043477"
+    },
+    {
+      "ref_id": "R80",
+      "label": "80",
+      "authors": [
+        "Cheng H",
+        "Zong L",
+        "Kong Y",
+        "et al."
+      ],
+      "title": "Camrelizumab plus apatinib in patients with high-risk chemorefractory or relapsed gestational trophoblastic neoplasia (CAP 01): a single-arm, open-label, phase 2 trial",
+      "journal": "Lancet Oncol",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "1609",
+      "lpage": "17",
+      "doi": "10.1016/S1470-2045(21)00460-5",
+      "pmid": "34624252"
+    },
+    {
+      "ref_id": "R81",
+      "label": "81",
+      "authors": [
+        "Lin Y",
+        "Qin S",
+        "Li Z",
+        "et al."
+      ],
+      "title": "Apatinib vs Placebo in Patients With Locally Advanced or Metastatic, Radioactive Iodine–Refractory Differentiated Thyroid Cancer",
+      "journal": "JAMA Oncol",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "242",
+      "doi": "10.1001/jamaoncol.2021.6268",
+      "pmid": "34913959",
+      "pmc_id": "PMC8678901"
+    },
+    {
+      "ref_id": "R82",
+      "label": "82",
+      "authors": [
+        "Zhou Z",
+        "Zhang H",
+        "Du J",
+        "et al."
+      ],
+      "title": "A spatiotemporal comparative analysis on tumor immune microenvironment characteristics between neoadjuvant chemotherapy and preoperative immunotherapy for ESCC",
+      "journal": "Cell Death Dis",
+      "year": "2024",
+      "volume": "15",
+      "doi": "10.1038/s41419-024-06986-y",
+      "pmc_id": "PMC11387609",
+      "pmid": "39256364"
+    },
+    {
+      "ref_id": "R83",
+      "label": "83",
+      "authors": [
+        "Croft W",
+        "Evans RPT",
+        "Pearce H",
+        "et al."
+      ],
+      "title": "The single cell transcriptional landscape of esophageal adenocarcinoma and its modulation by neoadjuvant chemotherapy",
+      "journal": "Mol Cancer",
+      "year": "2022",
+      "volume": "21",
+      "doi": "10.1186/s12943-022-01666-x",
+      "pmc_id": "PMC9575245",
+      "pmid": "36253784"
+    },
+    {
+      "ref_id": "R84",
+      "label": "84",
+      "authors": [
+        "Okuda S",
+        "Ohuchida K",
+        "Nakamura S",
+        "et al."
+      ],
+      "title": "Neoadjuvant chemotherapy enhances anti-tumor immune response of tumor microenvironment in human esophageal squamous cell carcinoma",
+      "journal": "iScience",
+      "year": "2023",
+      "volume": "26",
+      "fpage": "106480",
+      "doi": "10.1016/j.isci.2023.106480",
+      "pmid": "37091252",
+      "pmc_id": "PMC10113784"
+    },
+    {
+      "ref_id": "R85",
+      "label": "85",
+      "authors": [
+        "McLane LM",
+        "Abdel-Hakeem MS",
+        "Wherry EJ"
+      ],
+      "title": "CD8 T Cell Exhaustion During Chronic Viral Infection and Cancer",
+      "journal": "Annu Rev Immunol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "457",
+      "lpage": "95",
+      "doi": "10.1146/annurev-immunol-041015-055318",
+      "pmid": "30676822"
+    },
+    {
+      "ref_id": "R86",
+      "label": "86",
+      "authors": [
+        "Bassez A",
+        "Vos H",
+        "Van Dyck L",
+        "et al."
+      ],
+      "title": "A single-cell map of intratumoral changes during anti-PD1 treatment of patients with breast cancer",
+      "journal": "Nat Med",
+      "year": "2021",
+      "volume": "27",
+      "fpage": "820",
+      "lpage": "32",
+      "doi": "10.1038/s41591-021-01323-8",
+      "pmid": "33958794"
+    },
+    {
+      "ref_id": "R87",
+      "label": "87",
+      "authors": [
+        "Liu B",
+        "Hu X",
+        "Feng K",
+        "et al."
+      ],
+      "title": "Temporal single-cell tracing reveals clonal revival and expansion of precursor exhausted T cells during anti-PD-1 therapy in lung cancer",
+      "journal": "Nat Cancer",
+      "year": "2022",
+      "volume": "3",
+      "fpage": "108",
+      "lpage": "21",
+      "doi": "10.1038/s43018-021-00292-8",
+      "pmid": "35121991"
+    },
+    {
+      "ref_id": "R88",
+      "label": "88",
+      "authors": [
+        "Sade-Feldman M",
+        "Yizhak K",
+        "Bjorgaard SL",
+        "et al."
+      ],
+      "title": "Defining T Cell States Associated with Response to Checkpoint Immunotherapy in Melanoma",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "176",
+      "doi": "10.1016/j.cell.2018.12.034",
+      "pmc_id": "PMC6647017",
+      "pmid": "30633907"
+    },
+    {
+      "ref_id": "R89",
+      "label": "89",
+      "authors": [
+        "Zheng Y",
+        "Chen Z",
+        "Han Y",
+        "et al."
+      ],
+      "title": "Immune suppressive landscape in the human esophageal squamous cell carcinoma microenvironment",
+      "journal": "Nat Commun",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "6268",
+      "doi": "10.1038/s41467-020-20019-0",
+      "pmid": "33293583",
+      "pmc_id": "PMC7722722"
+    },
+    {
+      "ref_id": "R90",
+      "label": "90",
+      "authors": [
+        "Li J",
+        "Wu C",
+        "Hu H",
+        "et al."
+      ],
+      "title": "Remodeling of the immune and stromal cell compartment by PD-1 blockade in mismatch repair-deficient colorectal cancer",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "1152",
+      "lpage": "69",
+      "doi": "10.1016/j.ccell.2023.04.011",
+      "pmid": "37172580"
+    },
+    {
+      "ref_id": "R91",
+      "label": "91",
+      "authors": [
+        "Benmebarek M-R",
+        "Oguz C",
+        "Seifert M",
+        "et al."
+      ],
+      "title": "Anti-vascular endothelial growth factor treatment potentiates immune checkpoint blockade through a BAFF- and IL-12-dependent reprogramming of the TME",
+      "journal": "Immunity",
+      "year": "2025",
+      "volume": "58",
+      "fpage": "926",
+      "lpage": "45",
+      "doi": "10.1016/j.immuni.2025.02.017",
+      "pmid": "40088889",
+      "pmc_id": "PMC11981852"
+    },
+    {
+      "ref_id": "R92",
+      "label": "92",
+      "authors": [
+        "Wang T",
+        "Tang J",
+        "Yang H",
+        "et al."
+      ],
+      "title": "Effect of Apatinib Plus Pegylated Liposomal Doxorubicin vs Pegylated Liposomal Doxorubicin Alone on Platinum-Resistant Recurrent Ovarian Cancer",
+      "journal": "JAMA Oncol",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "1169",
+      "doi": "10.1001/jamaoncol.2022.2253",
+      "pmid": "35771546",
+      "pmc_id": "PMC9247861"
+    },
+    {
+      "ref_id": "R93",
+      "label": "93",
+      "authors": [
+        "Ding X",
+        "Zhang W-J",
+        "You R",
+        "et al."
+      ],
+      "title": "Camrelizumab Plus Apatinib in Patients With Recurrent or Metastatic Nasopharyngeal Carcinoma: An Open-Label, Single-Arm, Phase II Study",
+      "journal": "J Clin Oncol",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "2571",
+      "lpage": "82",
+      "doi": "10.1200/JCO.22.01450",
+      "pmid": "36735896",
+      "pmc_id": "PMC10414735"
     }
   ]
 }

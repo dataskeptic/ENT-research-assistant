@@ -15,7 +15,8 @@
     "pmc_id": "PMC12353658",
     "pmid": "40336290",
     "full_text_available": true,
-    "section_count": 8
+    "section_count": 8,
+    "reference_count": 5
   },
   "sections": [
     {
@@ -57,6 +58,73 @@
       "section": "Conclusion",
       "text": "Hypernasality reliability can be rated using the AEPS as a part of the CAPS-A-AM protocol.",
       "order": 7
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "title": "A comparative effectiveness study of speech and surgical outcomes: Study overview",
+      "journal": "Cleft Palate Craniofac J",
+      "year": "2024",
+      "fpage": "10556656241274242",
+      "doi": "10.1177/10556656241274242",
+      "pmid": "39363863"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "Protocol for a prospective observational study of revision palatoplasty versus pharyngoplasty for treatment of velopharyngeal insufficiency following cleft palate repair",
+      "journal": "Cleft Palate Craniofac J",
+      "year": "2024",
+      "volume": "61",
+      "issue": "5",
+      "fpage": "870",
+      "lpage": "881",
+      "doi": "10.1177/10556656221147159",
+      "pmid": "36562144",
+      "pmc_id": "PMC10287832"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "The Americleft Speech Project: a training and reliability study",
+      "journal": "Cleft Palate Craniofac J",
+      "year": "2016",
+      "volume": "53",
+      "issue": "1",
+      "fpage": "93",
+      "lpage": "108",
+      "doi": "10.1597/14-027",
+      "pmid": "25531738",
+      "pmc_id": "PMC5693235"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "Universal parameters for reporting speech outcomes in individuals with cleft palate",
+      "journal": "Cleft Palate Craniofac J",
+      "year": "2008",
+      "volume": "45",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "17",
+      "doi": "10.1597/06-086.1",
+      "pmid": "18215095"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Standardization of videorecorded speech samples for children with cleft palate: Methods to facilitate high-quality speech outcomes data collection",
+      "journal": "Cleft Palate Craniofac J",
+      "year": "2024",
+      "volume": "61",
+      "issue": "12",
+      "fpage": "2090",
+      "lpage": "2096",
+      "doi": "10.1177/10556656231217645",
+      "pmid": "38013453",
+      "pmc_id": "PMC11130073"
     }
   ]
 }

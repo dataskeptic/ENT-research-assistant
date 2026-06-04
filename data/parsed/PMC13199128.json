@@ -15,7 +15,8 @@
     "pmc_id": "PMC13199128",
     "pmid": "42199792",
     "full_text_available": true,
-    "section_count": 14
+    "section_count": 14,
+    "reference_count": 26
   },
   "sections": [
     {
@@ -87,6 +88,482 @@
       "section": "Conclusion",
       "text": "In a real-world clinical practice setting, the evaluated artificial intelligence model demonstrated clinical performance comparable to that of human specialists for indicating fine-needle aspiration biopsy (FNA) in thyroid nodules. Its sensitivity metrics and agreement with commonly used ultrasound classification systems suggest that such tools may contribute to clinical decision-making and help reduce interobserver variability. However, their use should be understood as complementary to clinical judgment, and future prospective studies will be necessary to determine their impact on clinical practice.",
       "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Ezzat S",
+        "Sarti DA",
+        "Cain DR",
+        "Braunstein GD"
+      ],
+      "title": "Thyroid incidentalomas. Prevalence by palpation and ultrasonography",
+      "journal": "Arch Intern Med",
+      "year": "1994",
+      "volume": "154",
+      "doi": "10.1001/archinte.154.16.1838",
+      "pmid": "8053752"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Nguyen XV",
+        "Job J",
+        "Fiorillo LE",
+        "Sipos J"
+      ],
+      "title": "Thyroid incidentalomas: Practice considerations for radiologists in the age of incidental findings",
+      "journal": "Radiol Clin North Am",
+      "year": "2020",
+      "volume": "58",
+      "doi": "10.1016/j.rcl.2020.06.005",
+      "pmid": "33040845"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Kitahara CM",
+        "Schneider AB"
+      ],
+      "title": "Epidemiology of thyroid cancer",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2022",
+      "volume": "31",
+      "doi": "10.1158/1055-9965.epi-21-1440",
+      "pmid": "35775227",
+      "pmc_id": "PMC9473679"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Vaccarella S",
+        "Franceschi S",
+        "Bray F",
+        "Wild CP",
+        "Plummer M",
+        "Dal Maso L"
+      ],
+      "title": "Worldwide thyroid-cancer epidemic? The increasing impact of overdiagnosis",
+      "journal": "N Engl J Med",
+      "year": "2016",
+      "volume": "375",
+      "doi": "10.1056/nejmp1604412",
+      "pmid": "27532827"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Campusano CM",
+        "Bello FM",
+        "González RE",
+        "Lam JE",
+        "Liberman CG",
+        "Munizaga FC",
+        "et al."
+      ],
+      "title": "Consensus report on the diagnosis and management of non palpable thyroid nodules",
+      "journal": "Rev Med Chil",
+      "year": "2004",
+      "volume": "132",
+      "doi": "10.4067/s0034-98872004001000014",
+      "pmid": "15631215"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Tala H",
+        "Díaz RE",
+        "Domínguez Ruiz-Tagle JM",
+        "Sapunar Zenteno J",
+        "Pineda P",
+        "Arroyo Albala P",
+        "et al."
+      ],
+      "title": "Study and management of thyroid nodes by non specialist physicians: SOCHED consensus",
+      "journal": "Rev Med Chil",
+      "year": "2017",
+      "volume": "145",
+      "doi": "10.4067/s0034-98872017000801028",
+      "pmid": "29189861"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Haugen BR",
+        "Alexander EK",
+        "Bible KC",
+        "Doherty GM",
+        "Mandel SJ",
+        "Nikiforov YE",
+        "et al."
+      ],
+      "title": "2015 American thyroid association management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the American thyroid association guidelines task force on thyroid nodules and differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "1",
+      "lpage": "133",
+      "doi": "10.1089/thy.2015.0020",
+      "pmid": "26462967",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Ringel MD",
+        "Sosa JA",
+        "Baloch Z",
+        "Bischoff L",
+        "Bloom G",
+        "Brent GA",
+        "et al."
+      ],
+      "title": "2025 american thyroid association management guidelines for adult patients with differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "841",
+      "lpage": "985",
+      "doi": "10.1177/10507256251363120",
+      "pmid": "40844370",
+      "pmc_id": "PMC13090833"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "de Carlos J",
+        "Garcia J",
+        "Basterra FJ",
+        "Pineda JJ",
+        "Dolores Ollero M",
+        "Toni M",
+        "et al."
+      ],
+      "title": "Interobserver variability in thyroid ultrasound",
+      "journal": "Endocrine",
+      "year": "2024",
+      "volume": "85",
+      "doi": "10.1007/s12020-024-03731-5",
+      "pmid": "38372907"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Lebbink CA",
+        "Links TP",
+        "Czarniecka A",
+        "Dias RP",
+        "Elisei R",
+        "Izatt L",
+        "et al."
+      ],
+      "title": "2022 European Thyroid Association Guidelines for the management of pediatric thyroid nodules and differentiated thyroid carcinoma",
+      "journal": "Eur Thyroid J",
+      "year": "2022",
+      "volume": "11",
+      "doi": "10.1530/ey.20.1.13",
+      "pmid": "36228315",
+      "pmc_id": "PMC9716393"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Polyzos SA",
+        "Anastasilakis AD"
+      ],
+      "title": "Clinical complications following thyroid fine-needle biopsy: a systematic review",
+      "journal": "Clin Endocrinol (Oxf)",
+      "year": "2009",
+      "volume": "71",
+      "doi": "10.1111/j.1365-2265.2009.03522.x",
+      "pmid": "19170717"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "White C",
+        "Weinstein MC",
+        "Fingeret AL",
+        "Randolph GW",
+        "Miyauchi A",
+        "Ito Y",
+        "et al."
+      ],
+      "title": "Is less more? A microsimulation model comparing cost-effectiveness of the revised American Thyroid Association's 2015 to 2009 guidelines for the management of patients with thyroid nodules and differentiated thyroid cancer",
+      "journal": "Ann Surg",
+      "year": "2020",
+      "volume": "271",
+      "doi": "10.1097/sla.0000000000003074",
+      "pmid": "30339630"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Sengul D",
+        "Sengul I"
+      ],
+      "title": "Interpreting the performance of ChatGPT-4.0 and ChatGPT-4omni in thyroidology on answering thyroid question: A multicenter study for thyroidologists",
+      "journal": "Curr Probl Surg",
+      "year": "2026",
+      "volume": "76",
+      "elocation_id": "101999",
+      "doi": "10.1016/j.cpsurg.2026.101999",
+      "pmid": "41796530"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Zhao WJ",
+        "Fu LR",
+        "Huang ZM",
+        "Zhu JQ",
+        "Ma BY"
+      ],
+      "title": "Effectiveness evaluation of computer-aided diagnosis system for the diagnosis of thyroid nodules on ultrasound: A systematic review and meta-analysis",
+      "journal": "Med (Baltimore)",
+      "year": "2019",
+      "volume": "98",
+      "elocation_id": "e16379",
+      "doi": "10.1097/md.0000000000016379",
+      "pmid": "31393347",
+      "pmc_id": "PMC6709241"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Sollini M",
+        "Cozzi L",
+        "Chiti A",
+        "Kirienko M"
+      ],
+      "title": "Texture analysis and machine learning to characterize suspected thyroid nodules and differentiated thyroid cancer: Where do we stand",
+      "journal": "Eur J Radiol",
+      "year": "2018",
+      "volume": "99",
+      "fpage": "1",
+      "lpage": "8",
+      "doi": "10.1016/j.ejrad.2017.12.004",
+      "pmid": "29362138"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Buda M",
+        "Wildman-Tobriner B",
+        "Hoang JK",
+        "Thayer D",
+        "Tessler FN",
+        "Middleton WD",
+        "et al."
+      ],
+      "title": "Management of thyroid nodules seen on US images: Deep learning may match performance of radiologists",
+      "journal": "Radiology",
+      "year": "2019",
+      "volume": "292",
+      "fpage": "695",
+      "lpage": "701",
+      "doi": "10.1148/radiol.2019181343",
+      "pmid": "31287391",
+      "pmc_id": "PMC10257128"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Wei X",
+        "Gao M",
+        "Yu R",
+        "Liu Z",
+        "Gu Q",
+        "Liu X",
+        "et al."
+      ],
+      "title": "Ensemble deep learning model for multicenter classification of thyroid nodules on ultrasound images",
+      "journal": "Med Sci Monit",
+      "year": "2020",
+      "volume": "26",
+      "elocation_id": "e926096",
+      "doi": "10.12659/msm.926096",
+      "pmid": "32555130",
+      "pmc_id": "PMC7325553"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Tessler FN",
+        "Middleton WD",
+        "Grant EG",
+        "Hoang JK",
+        "Berland LL",
+        "Teefey SA",
+        "et al."
+      ],
+      "title": "ACR thyroid imaging, reporting and data system (TI-RADS): White paper of the ACR TI-RADS committee",
+      "journal": "J Am Coll Radiol",
+      "year": "2017",
+      "volume": "14",
+      "doi": "10.1016/j.jacr.2017.12.035",
+      "pmid": "28372962"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Horvath E",
+        "Silva CF",
+        "Majlis S",
+        "Rodriguez I",
+        "Skoknic V",
+        "Castro A",
+        "et al."
+      ],
+      "title": "Prospective validation of the ultrasound based TIRADS (Thyroid Imaging Reporting And Data System) classification: Results in surgically resected thyroid nodules",
+      "journal": "Eur Radiol",
+      "year": "2017",
+      "volume": "27",
+      "doi": "10.1007/s00330-016-4605-y",
+      "pmid": "27718080"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Pozdeyev N",
+        "Dighe M",
+        "Barrio M",
+        "Raeburn C",
+        "Smith H",
+        "Fisher M",
+        "et al."
+      ],
+      "title": "Thyroid cancer polygenic risk score improves classification of thyroid nodules as benign or Malignant",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2024",
+      "volume": "109",
+      "doi": "10.1210/clinem/dgad530",
+      "pmid": "37683082"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Ali SZ",
+        "Baloch ZW",
+        "Cochand-Priollet B",
+        "Schmitt FC",
+        "Vielh P",
+        "VanderLaan PA"
+      ],
+      "title": "The 2023 Bethesda system for reporting thyroid cytopathology",
+      "journal": "Thyroid",
+      "year": "2023",
+      "volume": "33",
+      "doi": "10.1016/j.jasc.2023.05.005",
+      "pmid": "37427847"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Isaac A",
+        "Jeffery CC",
+        "Seikaly H",
+        "Al-Marzouki H",
+        "Harris JR",
+        "O'Connell DA"
+      ],
+      "title": "Predictors of non-diagnostic cytology in surgeon-performed ultrasound guided fine needle aspiration of thyroid nodules",
+      "journal": "J Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "43",
+      "elocation_id": "48",
+      "doi": "10.1186/s40463-014-0048-0",
+      "pmid": "25466726",
+      "pmc_id": "PMC4260212"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Dell'Aquila M",
+        "Granitto A",
+        "Martini M",
+        "Capodimonti S",
+        "Cocomazzi A",
+        "Musarra T",
+        "et al."
+      ],
+      "title": "PD-L1 and thyroid cytology: A possible diagnostic and prognostic marker",
+      "journal": "Cancer Cytopathol",
+      "year": "2020",
+      "volume": "128",
+      "doi": "10.1002/cncy.22224",
+      "pmid": "31821747"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Cibas ES",
+        "Ali SZ"
+      ],
+      "title": "The 2017 Bethesda system for reporting thyroid cytopathology",
+      "journal": "Thyroid",
+      "year": "2017",
+      "volume": "27",
+      "doi": "10.1016/j.jasc.2017.09.002",
+      "pmid": "29091573"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Patel J",
+        "Klopper J",
+        "Cottrill EE"
+      ],
+      "title": "Molecular diagnostics in the evaluation of thyroid nodules: Current use and prospective opportunities",
+      "journal": "Front Endocrinol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1101410",
+      "doi": "10.3389/fendo.2023.1101410",
+      "pmid": "36909304",
+      "pmc_id": "PMC9999006"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Flahault A",
+        "Cadilhac M",
+        "Thomas G"
+      ],
+      "title": "Sample size calculation should be performed for design accuracy in diagnostic test studies",
+      "journal": "J Clin Epidemiol",
+      "year": "2005",
+      "volume": "58",
+      "doi": "10.1016/j.jclinepi.2004.12.009",
+      "pmid": "16018921"
     }
   ]
 }

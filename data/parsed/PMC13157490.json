@@ -13,7 +13,8 @@
     "pmc_id": "PMC13157490",
     "pmid": "42106549",
     "full_text_available": true,
-    "section_count": 23
+    "section_count": 23,
+    "reference_count": 125
   },
   "sections": [
     {
@@ -130,6 +131,1970 @@
       "section": "Statistical Tests",
       "text": "The time–frequency data were statistically analyzed using a non-parametric cluster-based permutation approach using the Fieldtrip toolbox 115 . Independent samples t-tests between two stimulus-types/conditions were calculated for each sample point. Significant values (alpha < 0.05) were clustered based on their adjacency in time and frequency. The critical p-value for each cluster was calculated using the Monte Carlo method with 500 random permutations. If the summed t-value of the observed data cluster was higher than 95% of the random partitions, then the cluster was considered to represent a significant difference between the two compared TFRs. The cluster was plotted as black contours on the respective difference-TFRs. If no significant cluster was found, the difference-TFR would be marked ‘ns’. If significant clusters in the frequency band of interest (delta-theta: 2–7 Hz, alpha: 8–12 Hz and beta: 13–29 Hz) was found in at least one group (NH or CI), the time-course of the oscillatory activity (power average in that frequency band of interest) was calculated and plotted for both groups. For each 2 ms time point, the oscillatory activity was statistically compared between the two groups using independent samples t-tests (alpha < 0.05). As the tests may result in false positives due to multiple comparisons, Bonferroni correction was applied (corrected alpha = 0.000125). Furthermore, since EEG signals are highly temporally correlated 124 , 125 , significance was only considered if it exceeded a minimal time window threshold of 150 ms. The source-level neural activities were also statistically compared between the two groups using independent samples t-tests (alpha < 0.05). The source-level neural activity for each group and each scout was statistically compared using independent samples t-tests firstly to the baseline (zero activity), before performing the group comparison also using independent samples t-tests. Because this analysis yield more sensitive results, we used 4 ms time bin (instead of 2 ms), which resulted in a corrected alpha of 0.00025. In this comparison, significance was considered if it exceeded a minimal time window threshold of 12 ms.",
       "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Walia A",
+        "et al."
+      ],
+      "title": "Electrocochleography and cognition are important predictors of speech perception outcomes in noise for cochlear implant recipients",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.1038/s41598-022-07175-7",
+      "pmid": "35197556",
+      "pmc_id": "PMC8866505"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Moore DR",
+        "Shannon RV"
+      ],
+      "title": "Beyond cochlear implants: Awakening the deafened brain",
+      "journal": "Nat. Neurosci.",
+      "year": "2009",
+      "volume": "12",
+      "fpage": "686",
+      "lpage": "691",
+      "doi": "10.1038/nn.2326",
+      "pmid": "19471266"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Sato M",
+        "Baumhoff P",
+        "Tillein J",
+        "Kral A"
+      ],
+      "title": "Physiological mechanisms in combined electric-acoustic stimulation",
+      "journal": "Otol. Neurotol.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "e215",
+      "lpage": "e223",
+      "doi": "10.1097/MAO.0000000000001428",
+      "pmid": "28806329"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "raw_citation": "Kral, A. & Tillein, J. 2.47 - Cochlear Implants: Neuroprosthetic hearing and the brain. Senses A Compr. Ref. Vol. 1–7, Second Ed. 2, 923–944 (2020)."
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Finke M",
+        "Büchner A",
+        "Ruigendijk E",
+        "Meyer M",
+        "Sandmann P"
+      ],
+      "title": "On the relationship between auditory cognition and speech intelligibility in cochlear implant users: An ERP study",
+      "journal": "Neuropsychologia",
+      "year": "2016",
+      "volume": "87",
+      "fpage": "169",
+      "lpage": "181",
+      "doi": "10.1016/j.neuropsychologia.2016.05.019",
+      "pmid": "27212057"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Abdel-Latif KHA",
+        "Meister H"
+      ],
+      "title": "Speech recognition and listening effort in cochlear implant recipients and normal-hearing listeners",
+      "journal": "Front. Neurosci.",
+      "year": "2022",
+      "volume": "15",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.3389/fnins.2021.725412",
+      "pmc_id": "PMC8867819",
+      "pmid": "35221883"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Hillyer J",
+        "et al."
+      ],
+      "title": "Assessing cognitive abilities in high-performing cochlear implant users",
+      "journal": "Front. Neurosci.",
+      "year": "2019",
+      "volume": "13",
+      "fpage": "1",
+      "lpage": "12",
+      "pmid": "30713488",
+      "doi": "10.3389/fnins.2018.01056",
+      "pmc_id": "PMC6346679"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Raymond MJ",
+        "et al."
+      ],
+      "title": "Association of cognitive impairment screening scores with improvements in speech recognition and quality of life after cochlear implantation",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2023",
+      "volume": "149",
+      "fpage": "344",
+      "lpage": "351",
+      "doi": "10.1001/jamaoto.2022.4825",
+      "pmid": "36729460",
+      "pmc_id": "PMC9896371"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Philips C",
+        "et al."
+      ],
+      "title": "Listening effort and fatigue among cochlear implant users: A scoping review",
+      "journal": "Front. Neurol.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.3389/fneur.2023.1278508",
+      "pmc_id": "PMC10656682",
+      "pmid": "38020642"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "doi": "10.1016/j.bandc.2020.105677",
+      "pmid": "33486194"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "doi": "10.1016/0013-4694(75)90263-1",
+      "pmid": "46819"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Näätänen R",
+        "Picton T"
+      ],
+      "title": "The N1 wave of the human electric and magnetic response to sound: A review and an analysis of the component structure",
+      "journal": "Psychophysiology",
+      "year": "1987",
+      "volume": "24",
+      "fpage": "375",
+      "lpage": "425",
+      "doi": "10.1111/j.1469-8986.1987.tb00311.x",
+      "pmid": "3615753"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Crowley KE",
+        "Colrain IM"
+      ],
+      "title": "A review of the evidence for P2 being an independent component process: Age, sleep and modality",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2004",
+      "volume": "115",
+      "fpage": "732",
+      "lpage": "744",
+      "doi": "10.1016/j.clinph.2003.11.021",
+      "pmid": "15003751"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Sams M",
+        "Paavilainen P",
+        "Alho K"
+      ],
+      "title": "Auditory frequency discrimination and event-related potentials",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1985",
+      "volume": "62",
+      "fpage": "437",
+      "lpage": "448",
+      "doi": "10.1016/0168-5597(85)90054-1",
+      "pmid": "2415340"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Novak GP",
+        "Ritter W",
+        "Vaughan HG",
+        "Wiznitzer ML"
+      ],
+      "title": "Differentiation of negative event-related potentials in an auditory discrimination task",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1990",
+      "volume": "75",
+      "fpage": "255",
+      "lpage": "275",
+      "doi": "10.1016/0013-4694(90)90105-S",
+      "pmid": "1691075"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Polich J",
+        "Kok A"
+      ],
+      "title": "Cognitive and biological determinants of P300: An integrative review",
+      "journal": "Biol. Psychol.",
+      "year": "1995",
+      "volume": "41",
+      "fpage": "103",
+      "lpage": "146",
+      "doi": "10.1016/0301-0511(95)05130-9",
+      "pmid": "8534788"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "doi": "10.3389/fnhum.2024.1460139",
+      "pmc_id": "PMC11743694",
+      "pmid": "39834399"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Romero R",
+        "Polich J"
+      ],
+      "title": "P3(00) habituation from auditory and visual stimuli",
+      "journal": "Physiol. Behav.",
+      "year": "1996",
+      "volume": "59",
+      "fpage": "517",
+      "lpage": "522",
+      "doi": "10.1016/0031-9384(95)02099-3",
+      "pmid": "8700955"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Comerchero MD",
+        "Polich J"
+      ],
+      "title": "P3a and P3b from typical auditory and visual stimuli",
+      "journal": "Clin. Neurophysiol.",
+      "year": "1999",
+      "volume": "110",
+      "fpage": "24",
+      "lpage": "30",
+      "doi": "10.1016/S0168-5597(98)00033-1",
+      "pmid": "10348317"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Polich J"
+      ],
+      "title": "Updating P300: An integrative theory of P3a and P3b",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2007",
+      "volume": "118",
+      "fpage": "2128",
+      "lpage": "2148",
+      "doi": "10.1016/j.clinph.2007.04.019",
+      "pmid": "17573239",
+      "pmc_id": "PMC2715154"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Wronka E",
+        "Kaiser J",
+        "Coenen AML"
+      ],
+      "title": "The auditory P3 from passive and active three-stimulus oddball paradigm",
+      "journal": "Acta Neurobiol. Exp. (Wars).",
+      "year": "2008",
+      "volume": "68",
+      "fpage": "362",
+      "lpage": "372",
+      "doi": "10.55782/ane-2008-1702",
+      "pmid": "18668159"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Yago E",
+        "Escera C",
+        "Alho K",
+        "Giard MH",
+        "Serra-Grabulosa JM"
+      ],
+      "title": "Spatiotemporal dynamics of the auditory novelty-P3 event-related brain potential",
+      "journal": "Cogn. Brain Res.",
+      "year": "2003",
+      "volume": "16",
+      "fpage": "383",
+      "lpage": "390",
+      "doi": "10.1016/S0926-6410(03)00052-1",
+      "pmid": "12706218"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "doi": "10.1371/journal.pone.0045375",
+      "pmc_id": "PMC3448664",
+      "pmid": "23028971"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Layer N",
+        "et al."
+      ],
+      "title": "Electrophysiological differences and similarities in audiovisual speech processing in CI users with unilateral and bilateral hearing loss",
+      "journal": "Curr. Res. Neurobiol.",
+      "year": "2022",
+      "doi": "10.1016/j.crneur.2022.100059",
+      "pmid": "36405629",
+      "pmc_id": "PMC9672392"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Grasel S",
+        "et al."
+      ],
+      "title": "P3 cognitive potential in cochlear implant users",
+      "journal": "Int. Arch. Otorhinolaryngol.",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "408",
+      "lpage": "414",
+      "doi": "10.1055/s-0037-1613687",
+      "pmid": "30357069",
+      "pmc_id": "PMC6197977"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Schierholz I",
+        "et al."
+      ],
+      "title": "An event-related brain potential study of auditory attention in cochlear implant users",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2021",
+      "volume": "132",
+      "fpage": "2290",
+      "lpage": "2305",
+      "doi": "10.1016/j.clinph.2021.03.055",
+      "pmid": "34120838"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Weglage A",
+        "et al."
+      ],
+      "title": "Side-of-implantation effect on functional asymmetry in the auditory cortex of single-sided deaf cochlear-implant users",
+      "journal": "Brain Topogr.",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "431",
+      "lpage": "452",
+      "doi": "10.1007/s10548-022-00902-3",
+      "pmid": "35668310",
+      "pmc_id": "PMC9334411"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Tallon-Baudry C",
+        "Bertrand O",
+        "Delpuech C",
+        "Pernier J"
+      ],
+      "title": "Stimulus specificity of phase-locked and non-phase-locked 40 Hz visual responses in human",
+      "journal": "J. Neurosci.",
+      "year": "1996",
+      "volume": "16",
+      "fpage": "4240",
+      "lpage": "4249",
+      "doi": "10.1523/JNEUROSCI.16-13-04240.1996",
+      "pmid": "8753885",
+      "pmc_id": "PMC6579008"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Klimesch W"
+      ],
+      "title": "EEG alpha and theta oscillations reflect cognitive and memory performance: A review and analysis",
+      "journal": "Brain Res. Rev.",
+      "year": "1999",
+      "volume": "29",
+      "fpage": "169",
+      "lpage": "195",
+      "doi": "10.1016/S0165-0173(98)00056-3",
+      "pmid": "10209231"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "doi": "10.1016/j.cobeha.2024.101388",
+      "pmc_id": "PMC11623317",
+      "pmid": "39651342"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Sauseng P",
+        "et al."
+      ],
+      "title": "A shift of visual spatial attention is selectively associated with human EEG alpha activity",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2005",
+      "volume": "22",
+      "fpage": "2917",
+      "lpage": "2926",
+      "doi": "10.1111/j.1460-9568.2005.04482.x",
+      "pmid": "16324126"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Bastiaansen M",
+        "Hagoort P"
+      ],
+      "title": "Event-induced theta responses as a window on the dynamics of memory",
+      "journal": "Cortex",
+      "year": "2003",
+      "volume": "39",
+      "fpage": "967",
+      "lpage": "992",
+      "doi": "10.1016/S0010-9452(08)70873-6",
+      "pmid": "14584562"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Klimesch W"
+      ],
+      "title": "Alpha-band oscillations, attention, and controlled access to stored information",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2012",
+      "volume": "16",
+      "fpage": "606",
+      "lpage": "617",
+      "doi": "10.1016/j.tics.2012.10.007",
+      "pmid": "23141428",
+      "pmc_id": "PMC3507158"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Bagherzadeh Y",
+        "et al."
+      ],
+      "title": "Alpha synchrony and the neurofeedback control of article alpha synchrony and the neurofeedback control of spatial attention",
+      "journal": "Neuron",
+      "year": "2020",
+      "volume": "105",
+      "fpage": "577",
+      "lpage": "587.e5",
+      "doi": "10.1016/j.neuron.2019.11.001",
+      "pmid": "31812515"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Pascucci D",
+        "et al."
+      ],
+      "title": "EEG brain waves and alpha rhythms: Past, current and future direction",
+      "journal": "Neurosci. Biobehav. Rev.",
+      "year": "2025",
+      "doi": "10.1016/j.neubiorev.2025.106288",
+      "pmid": "40669525"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Kerlin JR",
+        "Shahin AJ",
+        "Miller LM"
+      ],
+      "title": "Attentional gain control of ongoing cortical speech representations in a ‘cocktail party’",
+      "journal": "J. Neurosci.",
+      "year": "2010",
+      "volume": "30",
+      "fpage": "620",
+      "lpage": "628",
+      "doi": "10.1523/JNEUROSCI.3631-09.2010",
+      "pmid": "20071526",
+      "pmc_id": "PMC2832933"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Leavitt MV",
+        "Molholm S",
+        "Gomez-Ramirez M",
+        "Foxe JJ"
+      ],
+      "title": "‘What’ and ‘Where’ in auditory sensory processing: A high-density electrical mapping study of distinct neural processes underlying sound object recognition and sound localization",
+      "journal": "Front. Integr. Neurosci.",
+      "year": "2011",
+      "volume": "5",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.3389/fnint.2011.00023",
+      "pmid": "21734870",
+      "pmc_id": "PMC3124831"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Foster JJ",
+        "Awh E"
+      ],
+      "title": "The role of alpha oscillations in spatial attention: Limited evidence for a suppression account",
+      "journal": "Curr. Opin. Psychol.",
+      "year": "2019",
+      "volume": "29",
+      "fpage": "34",
+      "lpage": "40",
+      "doi": "10.1016/j.copsyc.2018.11.001",
+      "pmid": "30472541",
+      "pmc_id": "PMC6506396"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Noonan MAP",
+        "et al."
+      ],
+      "title": "Distinct mechanisms for distractor suppression and target facilitation",
+      "journal": "J. Neurosci.",
+      "year": "2016",
+      "volume": "36",
+      "fpage": "1797",
+      "lpage": "1807",
+      "doi": "10.1523/JNEUROSCI.2133-15.2016",
+      "pmid": "26865606",
+      "pmc_id": "PMC4748069"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Schneider D",
+        "Herbst SK",
+        "Klatt LI",
+        "Wöstmann M"
+      ],
+      "title": "Target enhancement or distractor suppression? Functionally distinct alpha oscillations form the basis of attention",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2020",
+      "volume": "55",
+      "fpage": "3256",
+      "lpage": "3265",
+      "doi": "10.1111/ejn.15309",
+      "pmid": "33973310"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Gutteling TP",
+        "Sillekens L",
+        "Lavie N",
+        "Jensen O"
+      ],
+      "title": "Alpha oscillations reflect suppression of distractors with increased perceptual load",
+      "journal": "Prog. Neurobiol.",
+      "year": "2022",
+      "volume": "214",
+      "fpage": "102285",
+      "doi": "10.1016/j.pneurobio.2022.102285",
+      "pmid": "35533812",
+      "pmc_id": "PMC7615060"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Wöstmann M",
+        "Alavash M",
+        "Obleser J"
+      ],
+      "title": "Alpha oscillations in the human brain implement distractor suppression independent of target selection",
+      "journal": "J. Neurosci.",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "9797",
+      "lpage": "9805",
+      "doi": "10.1523/JNEUROSCI.1954-19.2019",
+      "pmid": "31641052",
+      "pmc_id": "PMC6891068"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "doi": "10.1038/s44271-024-00081-w",
+      "pmc_id": "PMC11041682",
+      "pmid": "38665356"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Bonnefond M",
+        "Jensen O"
+      ],
+      "title": "The role of alpha oscillations in resisting distraction",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2025",
+      "volume": "29",
+      "fpage": "368",
+      "lpage": "379",
+      "doi": "10.1016/j.tics.2024.11.004",
+      "pmid": "39668059"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Strauß A",
+        "Wöstmann M",
+        "Obleser J"
+      ],
+      "title": "Cortical alpha oscillations as a tool for auditory selective inhibition",
+      "journal": "Front. Hum. Neurosci.",
+      "year": "2014",
+      "volume": "8",
+      "fpage": "1",
+      "lpage": "7",
+      "pmid": "24904385",
+      "doi": "10.3389/fnhum.2014.00350",
+      "pmc_id": "PMC4035601"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Obleser J",
+        "Kayser C"
+      ],
+      "title": "Neural entrainment and attentional selection in the listening brain",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2019",
+      "volume": "23",
+      "fpage": "913",
+      "lpage": "926",
+      "doi": "10.1016/j.tics.2019.08.004",
+      "pmid": "31606386"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "De Vries IEJ",
+        "Marinato G",
+        "Baldauf D"
+      ],
+      "title": "Decoding object-based auditory attention from source-reconstructed MEG alpha oscillations",
+      "journal": "J. Neurosci.",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "8603",
+      "lpage": "8617",
+      "doi": "10.1523/JNEUROSCI.0583-21.2021",
+      "pmid": "34429378",
+      "pmc_id": "PMC8513695"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Paul BT",
+        "Chen J",
+        "Le T",
+        "Lin V",
+        "Dimitrijevic A"
+      ],
+      "title": "Cortical alpha oscillations in cochlear implant users reflect subjective listening effort during speech-in-noise perception",
+      "journal": "PLoS ONE",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "1",
+      "lpage": "22",
+      "doi": "10.1371/journal.pone.0254162",
+      "pmc_id": "PMC8270138",
+      "pmid": "34242290"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Posner MI"
+      ],
+      "title": "Orienting of attention",
+      "journal": "Q. J. Exp. Psychol.",
+      "year": "1980",
+      "volume": "32",
+      "fpage": "3",
+      "lpage": "25",
+      "doi": "10.1080/00335558008248231",
+      "pmid": "7367577"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "raw_citation": "Kahneman, D. Attention and Effort . (1973)."
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Shinn-Cunningham BG"
+      ],
+      "title": "Object-based auditory and visual attention",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2008",
+      "volume": "12",
+      "fpage": "182",
+      "lpage": "186",
+      "doi": "10.1016/j.tics.2008.02.003",
+      "pmid": "18396091",
+      "pmc_id": "PMC2699558"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Petersen SE",
+        "Posner MI"
+      ],
+      "title": "The attention system of the human brain: 20 years after",
+      "journal": "Annu. Rev. Neurosci.",
+      "year": "2012",
+      "volume": "35",
+      "fpage": "73",
+      "lpage": "89",
+      "doi": "10.1146/annurev-neuro-062111-150525",
+      "pmid": "22524787",
+      "pmc_id": "PMC3413263"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Harris AM",
+        "Dux PE",
+        "Jones CN",
+        "Mattingley JB"
+      ],
+      "title": "Distinct roles of theta and alpha oscillations in the involuntary capture of goal-directed attention",
+      "journal": "Neuroimage",
+      "year": "2017",
+      "volume": "152",
+      "fpage": "171",
+      "lpage": "183",
+      "doi": "10.1016/j.neuroimage.2017.03.008",
+      "pmid": "28274832"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Riecke L",
+        "Sack AT",
+        "Schroeder CE"
+      ],
+      "title": "Endogenous delta/theta sound-brain phase entrainment accelerates the buildup of auditory streaming",
+      "journal": "Curr. Biol.",
+      "year": "2015",
+      "volume": "25",
+      "fpage": "3196",
+      "lpage": "3201",
+      "doi": "10.1016/j.cub.2015.10.045",
+      "pmid": "26628008"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "authors": [
+        "Kubetschek C",
+        "Kayser C"
+      ],
+      "title": "Delta/theta band EEG activity shapes the rhythmic perceptual sampling of auditory scenes",
+      "journal": "Sci. Rep.",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.1038/s41598-021-82008-7",
+      "pmid": "33504860",
+      "pmc_id": "PMC7840678"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Palva S",
+        "Palva JM"
+      ],
+      "title": "New vistas for α-frequency band oscillations",
+      "journal": "Trends Neurosci.",
+      "year": "2007",
+      "volume": "30",
+      "fpage": "150",
+      "lpage": "158",
+      "doi": "10.1016/j.tins.2007.02.001",
+      "pmid": "17307258"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "authors": [
+        "Lange F",
+        "Seer C",
+        "Finke M",
+        "Dengler R",
+        "Kopp B"
+      ],
+      "title": "Dual routes to cortical orienting responses: Novelty detection and uncertainty reduction",
+      "journal": "Biol. Psychol.",
+      "year": "2015",
+      "volume": "105",
+      "fpage": "66",
+      "lpage": "71",
+      "doi": "10.1016/j.biopsycho.2015.01.001",
+      "pmid": "25596484"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Näätänen R",
+        "Gaillard AWK",
+        "Mäntysalo S"
+      ],
+      "title": "Early selective-attention effect on evoked potential reinterpreted",
+      "journal": "Acta Psychol.",
+      "year": "1978",
+      "volume": "42",
+      "fpage": "313",
+      "lpage": "329",
+      "doi": "10.1016/0001-6918(78)90006-9",
+      "pmid": "685709"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Huang YT",
+        "Wu CT",
+        "Koike S",
+        "Chao ZC"
+      ],
+      "title": "Dissecting Mismatch Negativity: Early and late subcomponents for detecting deviants in local and global sequence regularities",
+      "journal": "eNeuro",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1523/ENEURO.0050-24.2024",
+      "pmc_id": "PMC11103647",
+      "pmid": "38702187"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Barry RJ",
+        "et al."
+      ],
+      "title": "Brain dynamics in the active vs. passive auditory oddball task: Exploration of narrow-band EEG phase effects",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2007",
+      "volume": "118",
+      "fpage": "2234",
+      "lpage": "2247",
+      "doi": "10.1016/j.clinph.2007.06.059",
+      "pmid": "17709297"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Dimitrijevic A",
+        "Smith ML",
+        "Kadis DS",
+        "Moore DR"
+      ],
+      "title": "Cortical alpha oscillations predict speech intelligibility",
+      "journal": "Front. Hum. Neurosci.",
+      "year": "2017",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.3389/fnhum.2017.00088",
+      "pmid": "28286478",
+      "pmc_id": "PMC5323373"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Weisz N",
+        "Hartmann T",
+        "Müller N",
+        "Lorenz I",
+        "Obleser J"
+      ],
+      "title": "Alpha rhythms in audition: Cognitive and clinical perspectives",
+      "journal": "Front. Psychol.",
+      "year": "2011",
+      "volume": "2",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.3389/fpsyg.2011.00073",
+      "pmid": "21687444",
+      "pmc_id": "PMC3110491"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "authors": [
+        "Kim H"
+      ],
+      "title": "Involvement of the dorsal and ventral attention networks in oddball stimulus processing: A meta-analysis",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2014",
+      "volume": "35",
+      "fpage": "2265",
+      "lpage": "2284",
+      "doi": "10.1002/hbm.22326",
+      "pmid": "23900833",
+      "pmc_id": "PMC6868981"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "authors": [
+        "Bernarding C",
+        "Strauss DJ",
+        "Hannemann R",
+        "Seidler H",
+        "Corona-Strauss FI"
+      ],
+      "title": "Neural correlates of listening effort related factors: Influence of age and hearing impairment",
+      "journal": "Brain Res. Bull.",
+      "year": "2013",
+      "volume": "91",
+      "fpage": "21",
+      "lpage": "30",
+      "doi": "10.1016/j.brainresbull.2012.11.005",
+      "pmid": "23201299"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Looi V",
+        "McDermott H",
+        "McKay C",
+        "Hickson L"
+      ],
+      "title": "Music perception of cochlear implant users compared with that of hearing aid users",
+      "journal": "Ear Hear.",
+      "year": "2008",
+      "volume": "29",
+      "fpage": "421",
+      "lpage": "434",
+      "doi": "10.1097/AUD.0b013e31816a0d0b",
+      "pmid": "18344870"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "authors": [
+        "Goldsworthy RL",
+        "Camarena A",
+        "Bissmeyer SRS"
+      ],
+      "title": "Pitch perception is more robust to interference and better resolved when provided by pulse rate than by modulation frequency of cochlear implant stimulation",
+      "journal": "Hear. Res.",
+      "year": "2021",
+      "doi": "10.1016/j.heares.2021.108319",
+      "pmid": "34340020",
+      "pmc_id": "PMC9343238"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Parr T",
+        "Friston KJ"
+      ],
+      "title": "Attention or salience?",
+      "journal": "Curr. Opin. Psychol.",
+      "year": "2019",
+      "volume": "29",
+      "fpage": "1",
+      "lpage": "5",
+      "doi": "10.1016/j.copsyc.2018.10.006",
+      "pmid": "30359960"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "authors": [
+        "Treisman AM"
+      ],
+      "title": "Selective attention in man",
+      "journal": "Br. Med. Bull.",
+      "year": "1964",
+      "volume": "20",
+      "fpage": "12",
+      "lpage": "16",
+      "doi": "10.1093/oxfordjournals.bmb.a070274",
+      "pmid": "14104089"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "authors": [
+        "Meyer KN",
+        "Du F",
+        "Parks E",
+        "Hopfinger JB"
+      ],
+      "title": "Exogenous vs. endogenous attention: Shifting the balance of fronto-parietal activity",
+      "journal": "Neuropsychologia",
+      "year": "2018",
+      "volume": "111",
+      "fpage": "307",
+      "lpage": "316",
+      "doi": "10.1016/j.neuropsychologia.2018.02.006",
+      "pmid": "29425803"
+    },
+    {
+      "ref_id": "CR70",
+      "label": "70.",
+      "authors": [
+        "Haro S",
+        "Rao HM",
+        "Quatieri TF",
+        "Smalt CJ"
+      ],
+      "title": "EEG alpha and pupil diameter reflect endogenous auditory attention switching and listening effort",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2022",
+      "volume": "55",
+      "fpage": "1262",
+      "lpage": "1277",
+      "doi": "10.1111/ejn.15616",
+      "pmid": "35098604",
+      "pmc_id": "PMC9305413"
+    },
+    {
+      "ref_id": "CR71",
+      "label": "71.",
+      "authors": [
+        "Dimitrijevic A",
+        "Smith ML",
+        "Kadis DS",
+        "Moore DR"
+      ],
+      "title": "Neural indices of listening effort in noisy environments",
+      "journal": "Sci. Rep.",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "11278",
+      "doi": "10.1038/s41598-019-47643-1",
+      "pmid": "31375712",
+      "pmc_id": "PMC6677804"
+    },
+    {
+      "ref_id": "CR72",
+      "label": "72.",
+      "authors": [
+        "Weglage A",
+        "et al."
+      ],
+      "title": "Reduced visual-cortex reorganization before and after cochlear implantation relates to better speech recognition ability",
+      "journal": "J. Neurosci. Res.",
+      "year": "2025",
+      "volume": "103",
+      "fpage": "1",
+      "lpage": "17",
+      "doi": "10.1002/jnr.70042",
+      "pmc_id": "PMC12060631",
+      "pmid": "40342241"
+    },
+    {
+      "ref_id": "CR73",
+      "label": "73.",
+      "authors": [
+        "Carter CS",
+        "et al."
+      ],
+      "title": "Anterior cingulate cortex, error detection, and the online monitoring of performance",
+      "journal": "Science",
+      "year": "1998",
+      "volume": "280",
+      "fpage": "747",
+      "lpage": "749",
+      "doi": "10.1126/science.280.5364.747",
+      "pmid": "9563953"
+    },
+    {
+      "ref_id": "CR74",
+      "label": "74.",
+      "authors": [
+        "Shenhav A",
+        "Botvinick MM",
+        "Cohen JD"
+      ],
+      "title": "The expected value of control: An integrative theory of anterior cingulate cortex function",
+      "journal": "Neuron",
+      "year": "2013",
+      "volume": "79",
+      "fpage": "217",
+      "lpage": "240",
+      "doi": "10.1016/j.neuron.2013.07.007",
+      "pmid": "23889930",
+      "pmc_id": "PMC3767969"
+    },
+    {
+      "ref_id": "CR75",
+      "label": "75.",
+      "authors": [
+        "Ullsperger M",
+        "Danielmeier C",
+        "Jocham G"
+      ],
+      "title": "Neurophysiology of performance monitoring and adaptive behavior",
+      "journal": "Physiol. Rev.",
+      "year": "2014",
+      "volume": "94",
+      "fpage": "35",
+      "lpage": "79",
+      "doi": "10.1152/physrev.00041.2012",
+      "pmid": "24382883"
+    },
+    {
+      "ref_id": "CR76",
+      "label": "76.",
+      "doi": "10.1016/j.celrep.2022.110506",
+      "pmid": "35263590"
+    },
+    {
+      "ref_id": "CR77",
+      "label": "77.",
+      "authors": [
+        "Liang Y",
+        "et al."
+      ],
+      "title": "The anterior cingulate cortex promotes long-term auditory cortical responses through an indirect pathway via the rhinal cortex in mice",
+      "journal": "J. Neurosci.",
+      "year": "2023",
+      "volume": "43",
+      "fpage": "4262",
+      "lpage": "4278",
+      "doi": "10.1523/JNEUROSCI.2252-22.2023",
+      "pmid": "37160368",
+      "pmc_id": "PMC10255050"
+    },
+    {
+      "ref_id": "CR78",
+      "label": "78.",
+      "authors": [
+        "De Pasquale F",
+        "Della Penna S",
+        "Sporns O",
+        "Romani GL",
+        "Corbetta M"
+      ],
+      "title": "A dynamic core network and global efficiency in the resting human brain",
+      "journal": "Cereb. Cortex",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "4015",
+      "lpage": "4033",
+      "doi": "10.1093/cercor/bhv185",
+      "pmid": "26347485",
+      "pmc_id": "PMC5027996"
+    },
+    {
+      "ref_id": "CR79",
+      "label": "79.",
+      "authors": [
+        "Rushworth MFS",
+        "Kolling N",
+        "Sallet J",
+        "Mars RB"
+      ],
+      "title": "Valuation and decision-making in frontal cortex: One or many serial or parallel systems?",
+      "journal": "Curr. Opin. Neurobiol.",
+      "year": "2012",
+      "volume": "22",
+      "fpage": "946",
+      "lpage": "955",
+      "doi": "10.1016/j.conb.2012.04.011",
+      "pmid": "22572389"
+    },
+    {
+      "ref_id": "CR80",
+      "label": "80.",
+      "authors": [
+        "Haber SN",
+        "Liu H",
+        "Seidlitz J",
+        "Bullmore E"
+      ],
+      "title": "Prefrontal connectomics: From anatomy to human imaging",
+      "journal": "Neuropsychopharmacology",
+      "year": "2022",
+      "volume": "47",
+      "fpage": "20",
+      "lpage": "40",
+      "doi": "10.1038/s41386-021-01156-6",
+      "pmid": "34584210",
+      "pmc_id": "PMC8617085"
+    },
+    {
+      "ref_id": "CR81",
+      "label": "81.",
+      "authors": [
+        "Billig AJ",
+        "et al."
+      ],
+      "title": "A sound-sensitive source of alpha oscillations in human non-primary auditory cortex",
+      "journal": "J. Neurosci.",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "8679",
+      "lpage": "8689",
+      "doi": "10.1523/JNEUROSCI.0696-19.2019",
+      "pmid": "31533976",
+      "pmc_id": "PMC6820204"
+    },
+    {
+      "ref_id": "CR82",
+      "label": "82.",
+      "authors": [
+        "Nourski KV",
+        "et al."
+      ],
+      "title": "Gamma activation and alpha suppression within human auditory cortex during a speech cassification task",
+      "journal": "J. Neurosci.",
+      "year": "2022",
+      "volume": "42",
+      "fpage": "5034",
+      "lpage": "5046",
+      "doi": "10.1523/JNEUROSCI.2187-21.2022",
+      "pmid": "35534226",
+      "pmc_id": "PMC9233444"
+    },
+    {
+      "ref_id": "CR83",
+      "label": "83.",
+      "authors": [
+        "Wild CJ",
+        "et al."
+      ],
+      "title": "Effortful listening: The processing of degraded speech depends critically on attention",
+      "journal": "J. Neurosci.",
+      "year": "2012",
+      "volume": "32",
+      "fpage": "14010",
+      "lpage": "14021",
+      "doi": "10.1523/JNEUROSCI.1528-12.2012",
+      "pmid": "23035108",
+      "pmc_id": "PMC6704770"
+    },
+    {
+      "ref_id": "CR84",
+      "label": "84.",
+      "authors": [
+        "Carlén M"
+      ],
+      "title": "What constitutes the Prefrontal Cortex?",
+      "journal": "Science (80-. ).",
+      "year": "2017",
+      "volume": "358",
+      "fpage": "478",
+      "lpage": "482",
+      "doi": "10.1126/science.aan8868",
+      "pmid": "29074767"
+    },
+    {
+      "ref_id": "CR85",
+      "label": "85.",
+      "authors": [
+        "Alain C",
+        "Du Y",
+        "Bernstein LJ",
+        "Barten T",
+        "Banai K"
+      ],
+      "title": "Listening under difficult conditions: An activation likelihood estimation meta-analysis",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "2695",
+      "lpage": "2709",
+      "doi": "10.1002/hbm.24031",
+      "pmid": "29536592",
+      "pmc_id": "PMC6866419"
+    },
+    {
+      "ref_id": "CR86",
+      "label": "86.",
+      "doi": "10.1038/s41467-023-42553-3",
+      "pmc_id": "PMC10643402",
+      "pmid": "37957168"
+    },
+    {
+      "ref_id": "CR87",
+      "label": "87.",
+      "doi": "10.1371/journal.pone.0060093",
+      "pmc_id": "PMC3625188",
+      "pmid": "23593166"
+    },
+    {
+      "ref_id": "CR88",
+      "label": "88.",
+      "authors": [
+        "Butler BE",
+        "Chabot N",
+        "Kral A",
+        "Lomber SG"
+      ],
+      "title": "Origins of thalamic and cortical projections to the posterior auditory field in congenitally deaf cats",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "343",
+      "fpage": "118",
+      "lpage": "127",
+      "doi": "10.1016/j.heares.2016.06.003",
+      "pmid": "27306930"
+    },
+    {
+      "ref_id": "CR89",
+      "label": "89.",
+      "authors": [
+        "Kral A",
+        "Yusuf PA",
+        "Land R"
+      ],
+      "title": "Higher-order auditory areas in congenital deafness: Top-down interactions and corticocortical decoupling",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "343",
+      "fpage": "50",
+      "lpage": "63",
+      "doi": "10.1016/j.heares.2016.08.017",
+      "pmid": "27637669"
+    },
+    {
+      "ref_id": "CR90",
+      "label": "90.",
+      "authors": [
+        "Yusuf PA",
+        "Hubka P",
+        "Tillein J",
+        "Vinck M",
+        "Kral A"
+      ],
+      "title": "Deafness weakens interareal couplings in the auditory cortex",
+      "journal": "Front. Neurosci.",
+      "year": "2021",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.3389/fnins.2020.625721",
+      "pmc_id": "PMC7858676",
+      "pmid": "33551733"
+    },
+    {
+      "ref_id": "CR91",
+      "label": "91.",
+      "authors": [
+        "Poeppel D",
+        "Idsardi WJ",
+        "Van Wassenhove V"
+      ],
+      "title": "Speech perception at the interface of neurobiology and linguistics",
+      "journal": "Philos. Trans. R. Soc. B Biol. Sci.",
+      "year": "2008",
+      "volume": "363",
+      "fpage": "1071",
+      "lpage": "1086",
+      "doi": "10.1098/rstb.2007.2160",
+      "pmc_id": "PMC2606797",
+      "pmid": "17890189"
+    },
+    {
+      "ref_id": "CR92",
+      "label": "92.",
+      "doi": "10.1016/j.neuroimage.2022.119371",
+      "pmid": "35700945"
+    },
+    {
+      "ref_id": "CR93",
+      "label": "93.",
+      "authors": [
+        "Ramnani N",
+        "Owen AM"
+      ],
+      "title": "Anterior prefrontal cortex: Insights into function from anatomy and neuroimaging",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2004",
+      "volume": "5",
+      "fpage": "184",
+      "lpage": "194",
+      "doi": "10.1038/nrn1343",
+      "pmid": "14976518"
+    },
+    {
+      "ref_id": "CR94",
+      "label": "94.",
+      "authors": [
+        "Leber AB",
+        "Turk-Browne NB",
+        "Chun MM"
+      ],
+      "title": "Neural predictors of moment-to-moment fluctuations in cognitive flexibility",
+      "journal": "Proc. Natl. Acad. Sci. U. S. A.",
+      "year": "2008",
+      "volume": "105",
+      "fpage": "13592",
+      "lpage": "13597",
+      "doi": "10.1073/pnas.0805423105",
+      "pmid": "18757744",
+      "pmc_id": "PMC2527350"
+    },
+    {
+      "ref_id": "CR95",
+      "label": "95.",
+      "authors": [
+        "Vincent JL",
+        "Kahn I",
+        "Snyder AZ",
+        "Raichle ME",
+        "Buckner RL"
+      ],
+      "title": "Evidence for a frontoparietal control system revealed by intrinsic functional connectivity",
+      "journal": "J. Neurophysiol.",
+      "year": "2008",
+      "volume": "100",
+      "fpage": "3328",
+      "lpage": "3342",
+      "doi": "10.1152/jn.90355.2008",
+      "pmid": "18799601",
+      "pmc_id": "PMC2604839"
+    },
+    {
+      "ref_id": "CR96",
+      "label": "96.",
+      "authors": [
+        "Hampshire A",
+        "Chamberlain SR",
+        "Monti MM",
+        "Duncan J",
+        "Owen AM"
+      ],
+      "title": "The role of the right inferior frontal gyrus: Inhibition and attentional control",
+      "journal": "Neuroimage",
+      "year": "2010",
+      "volume": "50",
+      "fpage": "1313",
+      "lpage": "1319",
+      "doi": "10.1016/j.neuroimage.2009.12.109",
+      "pmid": "20056157",
+      "pmc_id": "PMC2845804"
+    },
+    {
+      "ref_id": "CR97",
+      "label": "97.",
+      "authors": [
+        "Sacchet MD",
+        "et al."
+      ],
+      "title": "Attention drives synchronization of alpha and beta rhythms between right inferior frontal and primary sensory neocortex",
+      "journal": "J. Neurosci.",
+      "year": "2015",
+      "volume": "35",
+      "fpage": "2074",
+      "lpage": "2082",
+      "doi": "10.1523/JNEUROSCI.1292-14.2015",
+      "pmid": "25653364",
+      "pmc_id": "PMC4315835"
+    },
+    {
+      "ref_id": "CR98",
+      "label": "98.",
+      "authors": [
+        "Corbetta M",
+        "Shulman GL"
+      ],
+      "title": "Control of goal-directed and stimulus-driven attention in the brain",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2002",
+      "volume": "3",
+      "fpage": "201",
+      "lpage": "215",
+      "doi": "10.1038/nrn755",
+      "pmid": "11994752"
+    },
+    {
+      "ref_id": "CR99",
+      "label": "99.",
+      "authors": [
+        "Gratton C",
+        "et al."
+      ],
+      "title": "Functional brain networks are dominated by stable group and individual factors, not cognitive or daily variation",
+      "journal": "Neuron",
+      "year": "2018",
+      "volume": "98",
+      "fpage": "439",
+      "lpage": "452.e5",
+      "doi": "10.1016/j.neuron.2018.03.035",
+      "pmid": "29673485",
+      "pmc_id": "PMC5912345"
+    },
+    {
+      "ref_id": "CR100",
+      "label": "100.",
+      "authors": [
+        "Uddin LQ",
+        "Yeo BTT",
+        "Spreng RN"
+      ],
+      "title": "Towards a universal taxonomy of macro-scale functional human brain networks",
+      "journal": "Brain Topogr.",
+      "year": "2019",
+      "volume": "32",
+      "fpage": "926",
+      "lpage": "942",
+      "doi": "10.1007/s10548-019-00744-6",
+      "pmid": "31707621",
+      "pmc_id": "PMC7325607"
+    },
+    {
+      "ref_id": "CR101",
+      "label": "101.",
+      "authors": [
+        "Oldfield RC"
+      ],
+      "title": "The assessment and analysis of handedness: The Edinburgh inventory",
+      "journal": "Neuropsychologia",
+      "year": "1971",
+      "volume": "9",
+      "fpage": "97",
+      "lpage": "113",
+      "doi": "10.1016/0028-3932(71)90067-4",
+      "pmid": "5146491"
+    },
+    {
+      "ref_id": "CR102",
+      "label": "102.",
+      "authors": [
+        "Bönitz H",
+        "et al."
+      ],
+      "title": "Event-related neuronal responses to acoustic novelty in single-sided deaf cochlear implant users: Initial findings",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2018",
+      "volume": "129",
+      "fpage": "133",
+      "lpage": "142",
+      "doi": "10.1016/j.clinph.2017.10.025",
+      "pmid": "29182915"
+    },
+    {
+      "ref_id": "CR103",
+      "label": "103.",
+      "doi": "10.1162/089892998562997",
+      "pmid": "9802992"
+    },
+    {
+      "ref_id": "CR104",
+      "label": "104.",
+      "authors": [
+        "Thigpen NN",
+        "Kappenman ES",
+        "Keil A"
+      ],
+      "title": "Assessing the internal consistency of the event-related potential: An example analysis",
+      "journal": "Psychophysiology",
+      "year": "2017",
+      "volume": "54",
+      "fpage": "123",
+      "lpage": "138",
+      "doi": "10.1111/psyp.12629",
+      "pmid": "28000264",
+      "pmc_id": "PMC5525326"
+    },
+    {
+      "ref_id": "CR105",
+      "label": "105.",
+      "authors": [
+        "Allen JB",
+        "Hall JL",
+        "Jeng PS"
+      ],
+      "title": "Loudness growth in 1 / 2-octave bands ( LGOB ) –a procedure for the of loudness",
+      "journal": "J. Acoust. Soc. Am.",
+      "year": "1990",
+      "volume": "88",
+      "fpage": "745",
+      "lpage": "753",
+      "doi": "10.1121/1.399778",
+      "pmid": "2212299"
+    },
+    {
+      "ref_id": "CR106",
+      "label": "106.",
+      "authors": [
+        "Zeng F-G"
+      ],
+      "title": "Loudness growth in forward masking: Relation to intensity discrimination",
+      "journal": "J. Acoust. Soc. Am.",
+      "year": "1994",
+      "volume": "96",
+      "fpage": "2127",
+      "lpage": "2132",
+      "doi": "10.1121/1.410154",
+      "pmid": "7963026"
+    },
+    {
+      "ref_id": "CR107",
+      "label": "107.",
+      "authors": [
+        "Sandmann P",
+        "et al."
+      ],
+      "title": "Rapid bilateral improvement in auditory cortex activity in postlingually deafened adults following cochlear implantation",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2015",
+      "volume": "126",
+      "fpage": "594",
+      "lpage": "607",
+      "doi": "10.1016/j.clinph.2014.06.029",
+      "pmid": "25065298"
+    },
+    {
+      "ref_id": "CR108",
+      "label": "108.",
+      "authors": [
+        "Schierholz I",
+        "et al."
+      ],
+      "title": "Auditory and audio–visual processing in patients with cochlear, auditory brainstem, and auditory midbrain implants: An EEG study",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "2206",
+      "lpage": "2225",
+      "doi": "10.1002/hbm.23515",
+      "pmid": "28130910",
+      "pmc_id": "PMC6866801"
+    },
+    {
+      "ref_id": "CR109",
+      "label": "109.",
+      "doi": "10.1155/2011/879716",
+      "pmc_id": "PMC3090754",
+      "pmid": "21584256"
+    },
+    {
+      "ref_id": "CR110",
+      "label": "110.",
+      "authors": [
+        "Oostenveld R",
+        "Fries P",
+        "Maris E",
+        "Schoffelen JM"
+      ],
+      "title": "FieldTrip: Open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data",
+      "journal": "Comput. Intell. Neurosci.",
+      "year": "2011",
+      "doi": "10.1155/2011/156869",
+      "pmid": "21253357",
+      "pmc_id": "PMC3021840"
+    },
+    {
+      "ref_id": "CR111",
+      "label": "111.",
+      "raw_citation": "Mitra; Kumar, Sanjit; Kuo, Y. Digital signal processing a computer-based approach . (2006)."
+    },
+    {
+      "ref_id": "CR112",
+      "label": "112.",
+      "authors": [
+        "Tesche CD",
+        "et al."
+      ],
+      "title": "Signal-space projections of MEG data characterize both distributed and well-localized neuronal sources",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1995",
+      "volume": "95",
+      "fpage": "189",
+      "lpage": "200",
+      "doi": "10.1016/0013-4694(95)00064-6",
+      "pmid": "7555909"
+    },
+    {
+      "ref_id": "CR113",
+      "label": "113.",
+      "authors": [
+        "Uusitalo MA",
+        "Ilmoniemi RJ"
+      ],
+      "title": "Signal-space projection method for separating MEG or EEG into components",
+      "journal": "Med. Biol. Eng. Comput.",
+      "year": "1997",
+      "volume": "35",
+      "fpage": "135",
+      "lpage": "140",
+      "doi": "10.1007/BF02534144",
+      "pmid": "9136207"
+    },
+    {
+      "ref_id": "CR114",
+      "label": "114.",
+      "authors": [
+        "Yaar-Soffer Y",
+        "Herrmann CS",
+        "Henkin Y",
+        "Kral A"
+      ],
+      "title": "Theta and alpha oscillatory signatures of auditory sensory and cognitive loads during complex listening",
+      "journal": "Neuroimage",
+      "year": "2024",
+      "volume": "289",
+      "fpage": "120546",
+      "doi": "10.1016/j.neuroimage.2024.120546",
+      "pmid": "38387743"
+    },
+    {
+      "ref_id": "CR115",
+      "label": "115.",
+      "authors": [
+        "Maris E",
+        "Oostenveld R"
+      ],
+      "title": "Nonparametric statistical testing of EEG- and MEG-data",
+      "journal": "J. Neurosci. Methods.",
+      "year": "2007",
+      "volume": "164",
+      "fpage": "177",
+      "lpage": "190",
+      "doi": "10.1016/j.jneumeth.2007.03.024",
+      "pmid": "17517438"
+    },
+    {
+      "ref_id": "CR116",
+      "label": "116.",
+      "authors": [
+        "Jaiswal A",
+        "et al."
+      ],
+      "title": "Comparison of beamformer implementations for MEG source localization",
+      "journal": "Neuroimage",
+      "year": "2020",
+      "doi": "10.1016/j.neuroimage.2020.116797",
+      "pmid": "32278091",
+      "pmc_id": "PMC7322560"
+    },
+    {
+      "ref_id": "CR117",
+      "label": "117.",
+      "authors": [
+        "Westner BU",
+        "et al."
+      ],
+      "title": "A unified view on beamformers for M/EEG source reconstruction",
+      "journal": "Neuroimage",
+      "year": "2022",
+      "volume": "246",
+      "fpage": "118789",
+      "doi": "10.1016/j.neuroimage.2021.118789",
+      "pmid": "34890794"
+    },
+    {
+      "ref_id": "CR118",
+      "label": "118.",
+      "authors": [
+        "Gramfort A",
+        "Theodore P",
+        "Olivi E",
+        "Maureen C"
+      ],
+      "title": "OpenMEEG: Opensource software for quasistatic biolectromagnetics",
+      "journal": "Biomed. Eng. Online",
+      "year": "2010",
+      "doi": "10.1186/1475-925X-9-45",
+      "pmid": "20819204",
+      "pmc_id": "PMC2949879"
+    },
+    {
+      "ref_id": "CR119",
+      "label": "119.",
+      "authors": [
+        "Van Veen BD",
+        "Van Drongelen W",
+        "Yuchtman M",
+        "Suzuki A"
+      ],
+      "title": "Localization of brain electrical activity via linearly constrained minimum variance spatial filtering",
+      "journal": "IEEE Trans. Biomed. Eng.",
+      "year": "1997",
+      "volume": "44",
+      "fpage": "867",
+      "lpage": "880",
+      "doi": "10.1109/10.623056",
+      "pmid": "9282479"
+    },
+    {
+      "ref_id": "CR120",
+      "label": "120.",
+      "authors": [
+        "Fan L",
+        "et al."
+      ],
+      "title": "The human Brainnetome Atlas: A new brain atlas based on connectional architecture",
+      "journal": "Cereb. Cortex",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "3508",
+      "lpage": "3526",
+      "doi": "10.1093/cercor/bhw157",
+      "pmid": "27230218",
+      "pmc_id": "PMC4961028"
+    },
+    {
+      "ref_id": "CR121",
+      "label": "121.",
+      "authors": [
+        "Alain C",
+        "He Y",
+        "Grady C"
+      ],
+      "title": "The contribution of the inferior parietal lobe to auditory spatial working memory",
+      "journal": "J. Cogn. Neurosci.",
+      "year": "2008",
+      "volume": "20",
+      "fpage": "285",
+      "lpage": "295",
+      "doi": "10.1162/jocn.2008.20014",
+      "pmid": "18275335"
+    },
+    {
+      "ref_id": "CR122",
+      "label": "122.",
+      "authors": [
+        "Oehrn CR",
+        "et al."
+      ],
+      "title": "Neural communication patterns underlying conflict detection, resolution, and adaptation",
+      "journal": "J. Neurosci.",
+      "year": "2014",
+      "volume": "34",
+      "fpage": "10438",
+      "lpage": "10452",
+      "doi": "10.1523/JNEUROSCI.3099-13.2014",
+      "pmid": "25080602",
+      "pmc_id": "PMC6608272"
+    },
+    {
+      "ref_id": "CR123",
+      "label": "123.",
+      "authors": [
+        "van de Nieuwenhuijzen ME",
+        "et al."
+      ],
+      "title": "Decoding of task-relevant and task-irrelevant intracranial EEG representations",
+      "journal": "Neuroimage",
+      "year": "2016",
+      "volume": "137",
+      "fpage": "132",
+      "lpage": "139",
+      "doi": "10.1016/j.neuroimage.2016.05.008",
+      "pmid": "27153977"
+    },
+    {
+      "ref_id": "CR124",
+      "label": "124.",
+      "authors": [
+        "Groppe DM",
+        "Urbach TP",
+        "Kutas M"
+      ],
+      "title": "Mass univariate analysis of event-related brain potentials/fields I: A critical tutorial review",
+      "journal": "Psychophysiology",
+      "year": "2011",
+      "volume": "48",
+      "fpage": "1711",
+      "lpage": "1725",
+      "doi": "10.1111/j.1469-8986.2011.01273.x",
+      "pmid": "21895683",
+      "pmc_id": "PMC4060794"
+    },
+    {
+      "ref_id": "CR125",
+      "label": "125.",
+      "authors": [
+        "Luck SJ"
+      ],
+      "journal": "An Introduction to the Event-Related Potential Technique",
+      "year": "2014"
     }
   ]
 }

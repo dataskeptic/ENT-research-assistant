@@ -13,7 +13,8 @@
     "pmc_id": "PMC13176214",
     "pmid": "42133088",
     "full_text_available": true,
-    "section_count": 30
+    "section_count": 30,
+    "reference_count": 46
   },
   "sections": [
     {
@@ -165,6 +166,732 @@
       "section": "Conclusion",
       "text": "TRIM11 is frequently overexpressed in EC, where it correlates with lymph node metastasis and promotes malignant phenotypes via the β-catenin pathway. Its negative association with dendritic cell infiltration suggests a potential link with immune modulation; however, this requires further experimental validation. Together, these findings suggest that TRIM11 is a pro-oncogenic factor in EC and suggest its potential as a candidate therapeutic target for further investigation.",
       "order": 29
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Aimaiti X",
+        "Wang Y",
+        "Ismtula D",
+        "et al."
+      ],
+      "title": "Bystin is a prognosis and immune biomarker: from pan-cancer analysis to validation in breast cancer",
+      "journal": "Breast Cancer (Dove Med Press)",
+      "year": "2025",
+      "volume": "17",
+      "issue": "0",
+      "fpage": "755",
+      "lpage": "779",
+      "doi": "10.2147/bctt.s537429",
+      "pmid": "40904351",
+      "pmc_id": "PMC12404263"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "issue": "3",
+      "fpage": "229",
+      "lpage": "263",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "CR3",
+      "doi": "10.1016/j.cbi.2019.03.033",
+      "pmid": "30929997"
+    },
+    {
+      "ref_id": "CR4",
+      "doi": "10.1042/BSR20181277",
+      "pmc_id": "PMC6340953",
+      "pmid": "30389710"
+    },
+    {
+      "ref_id": "CR5",
+      "authors": [
+        "Elihamu D",
+        "Li Y",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "CORO1A: a pan-cancer prognosis, diagnostic and immune biomarker based on breast cancer validation",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "15",
+      "issue": "0",
+      "fpage": "1670526",
+      "doi": "10.3389/fonc.2025.1670526",
+      "pmid": "41122645",
+      "pmc_id": "PMC12535887"
+    },
+    {
+      "ref_id": "CR6",
+      "authors": [
+        "Fan W",
+        "Du F",
+        "Liu X"
+      ],
+      "title": "Trim66 confers tumorigenicity of hepatocellular carcinoma cells by regulating gsk-3β-dependent wnt/β-catenin signaling",
+      "journal": "Eur J Pharmacol",
+      "year": "2019",
+      "volume": "850",
+      "fpage": "109",
+      "lpage": "117",
+      "doi": "10.1016/j.ejphar.2019.01.054",
+      "pmid": "30710548"
+    },
+    {
+      "ref_id": "CR7",
+      "doi": "10.3390/cells14231895",
+      "pmc_id": "PMC12690993",
+      "pmid": "41369383"
+    },
+    {
+      "ref_id": "CR8",
+      "authors": [
+        "Gong Z",
+        "Du M",
+        "Li Y",
+        "et al."
+      ],
+      "title": "Machine learning identifies time subtypes linking egfr mutations and immune states in lung adenocarcinoma",
+      "journal": "NPJ Digit Med",
+      "year": "2025",
+      "volume": "8",
+      "issue": "1",
+      "fpage": "796",
+      "doi": "10.1038/s41746-025-02172-2",
+      "pmid": "41299024",
+      "pmc_id": "PMC12749019"
+    },
+    {
+      "ref_id": "CR9",
+      "authors": [
+        "Gou H",
+        "Yang H",
+        "Cheng J",
+        "et al."
+      ],
+      "title": "Yy2 serves as a novel prognostic biomarker correlated with immune microenvironment and glycolysis in esophageal carcinoma",
+      "journal": "Curr Genomics",
+      "year": "2025",
+      "volume": "26",
+      "issue": "4",
+      "fpage": "312",
+      "lpage": "328",
+      "doi": "10.2174/0113892029358348250124064940",
+      "pmid": "41235100",
+      "pmc_id": "PMC12606659"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Hatakeyama S"
+      ],
+      "title": "Trim proteins and cancer.Nat",
+      "journal": "Rev Cancer",
+      "year": "2011",
+      "volume": "11",
+      "issue": "11",
+      "fpage": "792",
+      "lpage": "804",
+      "doi": "10.1038/nrc3139",
+      "pmid": "21979307"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "He S",
+        "Liu Q",
+        "Luo S",
+        "et al."
+      ],
+      "title": "Immune cell infiltration and drug sensitivity in pik3ca-mutated esophageal squamous cell carcinoma: a tcga database analysis",
+      "journal": "Hum Immunol",
+      "year": "2024",
+      "volume": "85",
+      "issue": "6",
+      "fpage": "111167",
+      "doi": "10.1016/j.humimm.2024.111167",
+      "pmid": "39490157"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Huang N",
+        "Sun X",
+        "Li P",
+        "et al."
+      ],
+      "title": "Trim family contribute to tumorigenesis, cancer development, and drug resistance",
+      "journal": "Exp Hematol Oncol",
+      "year": "2022",
+      "volume": "11",
+      "issue": "1",
+      "fpage": "75",
+      "doi": "10.1186/s40164-022-00322-w",
+      "pmid": "36261847",
+      "pmc_id": "PMC9583506"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Huang T",
+        "Tan X",
+        "Huang H",
+        "et al."
+      ],
+      "title": "Targeting cancer-associated fibroblast-secreted wnt2 restores dendritic cell-mediated",
+      "journal": "antitumour Immun Gut",
+      "year": "2022",
+      "volume": "71",
+      "issue": "2",
+      "fpage": "333",
+      "lpage": "344",
+      "doi": "10.1136/gutjnl-2020-322924",
+      "pmc_id": "PMC8762012",
+      "pmid": "33692094"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Huang Y",
+        "Peng M",
+        "Yu W",
+        "Li H"
+      ],
+      "title": "Activation of wnt/β-catenin signaling promotes immune evasion via the β-catenin/ikzf1/ccl5 axis in hepatocellular carcinoma",
+      "journal": "Int Immunopharmacol",
+      "year": "2024",
+      "volume": "138",
+      "issue": "0",
+      "fpage": "112534",
+      "doi": "10.1016/j.intimp.2024.112534",
+      "pmid": "38941667"
+    },
+    {
+      "ref_id": "CR15",
+      "authors": [
+        "Jiaxing Wang QWXL"
+      ],
+      "title": "Emerging roles of trim",
+      "journal": "metabolic Regul Metabolism",
+      "year": "2025",
+      "volume": "174",
+      "issue": "0",
+      "fpage": "156394",
+      "doi": "10.1016/j.metabol.2025.156394",
+      "pmid": "40987417"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Jing Y",
+        "Wang Y",
+        "Li Y",
+        "et al."
+      ],
+      "title": "Diagnostics and immunological function of cenpn in human tumors: from pan-cancer analysis to validation in breast cancer",
+      "journal": "Transl Cancer Res",
+      "year": "2025",
+      "volume": "14",
+      "issue": "2",
+      "fpage": "881",
+      "lpage": "906",
+      "doi": "10.21037/tcr-24-1291",
+      "pmid": "40104708",
+      "pmc_id": "PMC11912047"
+    },
+    {
+      "ref_id": "CR17",
+      "authors": [
+        "Komiya Y",
+        "Habas R"
+      ],
+      "title": "Wnt signal transduction pathways",
+      "journal": "Organogenesis",
+      "year": "2008",
+      "volume": "4",
+      "issue": "2",
+      "fpage": "68",
+      "lpage": "75",
+      "doi": "10.4161/org.4.2.5851",
+      "pmid": "19279717",
+      "pmc_id": "PMC2634250"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Kuempers C",
+        "Jagomast T",
+        "Paulsen F",
+        "et al."
+      ],
+      "title": "TRIM11 expression in non-small cell lung cancer is associated with poor prognosis",
+      "journal": "Histol Histopathol",
+      "year": "2024",
+      "volume": "39",
+      "issue": "4",
+      "fpage": "437",
+      "lpage": "446",
+      "doi": "10.14670/HH-18-647",
+      "pmid": "37409491"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Li J",
+        "Zhang H",
+        "Bei S",
+        "et al."
+      ],
+      "title": "Disruption of wnt/β-catenin pathway elevates the sensitivity of gastric cancer cells to pd-1 antibody",
+      "journal": "Curr Mol Pharmacol",
+      "year": "2022",
+      "volume": "15",
+      "issue": "3",
+      "fpage": "557",
+      "lpage": "569",
+      "doi": "10.2174/1874467214666210617163821",
+      "pmid": "34139974"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Liu W",
+        "Wu Z",
+        "Wang L",
+        "Wang Q",
+        "Sun X",
+        "Niu S"
+      ],
+      "title": "Knockdown of trim11 suppresses cell progression and apoptosis of cervical cancer cells via pi3k/akt pathway",
+      "journal": "Am J Transl Res",
+      "year": "2021",
+      "volume": "13",
+      "issue": "9",
+      "fpage": "10328",
+      "lpage": "10340",
+      "pmid": "34650700",
+      "pmc_id": "PMC8507035"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Liu Y",
+        "Xu Y",
+        "Wang F",
+        "et al."
+      ],
+      "title": "Inhibition of AMPK activity by TRIM11 facilitates cell survival of hepatocellular carcinoma under metabolic stress",
+      "journal": "Clin Transl Med",
+      "year": "2021",
+      "volume": "11",
+      "issue": "12",
+      "fpage": "e617",
+      "doi": "10.1002/ctm2.617",
+      "pmid": "34919347",
+      "pmc_id": "PMC8679837"
+    },
+    {
+      "ref_id": "CR22",
+      "authors": [
+        "Lukas J",
+        "Bartkova J",
+        "Rohde M",
+        "Strauss M"
+      ],
+      "title": "Cyclin D1 is dispensable for G1 control in retinoblastoma gene-deficient cells independently of cdk4 activity",
+      "journal": "Mol Cell Biol",
+      "year": "1995",
+      "volume": "15",
+      "issue": "5",
+      "fpage": "2600",
+      "lpage": "2611",
+      "doi": "10.1128/MCB.15.5.2600",
+      "pmid": "7739541",
+      "pmc_id": "PMC230490"
+    },
+    {
+      "ref_id": "CR23",
+      "authors": [
+        "Luo S",
+        "Li H",
+        "Cai B",
+        "et al."
+      ],
+      "title": "PSD3 as a context-dependent modulator of immune landscape and tumor aggressiveness in esophageal squamous cell carcinoma",
+      "journal": "Front Immunol",
+      "year": "2025",
+      "volume": "16",
+      "issue": "0",
+      "fpage": "1641254",
+      "doi": "10.3389/fimmu.2025.1641254",
+      "pmid": "40895529",
+      "pmc_id": "PMC12394057"
+    },
+    {
+      "ref_id": "CR24",
+      "authors": [
+        "Ma Z",
+        "Zhu T",
+        "Wang H",
+        "Wang B",
+        "Fu L",
+        "Yu G"
+      ],
+      "title": "E2f1 reduces sorafenib’s sensitivity of esophageal carcinoma cells via modulating the mir-29c-3p/col11a1 signaling axis",
+      "journal": "Curr Mol Pharmacol",
+      "year": "2023",
+      "volume": "17",
+      "issue": "0",
+      "fpage": "e193672216",
+      "doi": "10.2174/1874467216666230306101653",
+      "pmid": "36876834"
+    },
+    {
+      "ref_id": "CR25",
+      "authors": [
+        "Matsuo K",
+        "Yoshie O"
+      ],
+      "title": "Multifaceted roles of chemokines and chemokine receptors in tumor immunity",
+      "journal": "Cancers (Basel)",
+      "year": "2021",
+      "volume": "13",
+      "issue": "23",
+      "fpage": "6132",
+      "doi": "10.3390/cancers13236132",
+      "pmid": "34885241",
+      "pmc_id": "PMC8656932"
+    },
+    {
+      "ref_id": "CR26",
+      "authors": [
+        "Mohapatra B",
+        "Lavudi K",
+        "Kokkanti RR",
+        "Patnaik S"
+      ],
+      "title": "Regulation of NLRP3/TRIM family signaling in gut inflammation and colorectal cancer.Biochim Biophys",
+      "journal": "Acta Rev Cancer",
+      "year": "2025",
+      "volume": "1880",
+      "issue": "2",
+      "fpage": "189271",
+      "doi": "10.1016/j.bbcan.2025.189271",
+      "pmid": "39864469"
+    },
+    {
+      "ref_id": "CR27",
+      "authors": [
+        "Mortezaee K"
+      ],
+      "title": "Wnt/β-catenin regulatory roles on pd-(l)1 and immunotherapy responses",
+      "journal": "Clin Exp Med",
+      "year": "2024",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "15",
+      "doi": "10.1007/s10238-023-01274-z",
+      "pmid": "38280119",
+      "pmc_id": "PMC10822012"
+    },
+    {
+      "ref_id": "CR28",
+      "authors": [
+        "Pan Y",
+        "Yu H",
+        "Lu F"
+      ],
+      "title": "TRIM11 Posttranscriptionally Modulated by miR-5193 Facilitates Tumor Growth and Metastasis of Prostate Cancer",
+      "journal": "Technol Cancer Res Treat",
+      "year": "2023",
+      "volume": "22",
+      "issue": "0",
+      "fpage": "15330338231178639",
+      "doi": "10.1177/15330338231178639",
+      "pmid": "37248611",
+      "pmc_id": "PMC10240878"
+    },
+    {
+      "ref_id": "CR29",
+      "authors": [
+        "Pecoraro C",
+        "Faggion B",
+        "Balboni B",
+        "et al."
+      ],
+      "title": "Gsk3β as a novel promising target to overcome chemoresistance in pancreatic cancer",
+      "journal": "Drug Resist Updat",
+      "year": "2021",
+      "volume": "58",
+      "fpage": "100779",
+      "doi": "10.1016/j.drup.2021.100779",
+      "pmid": "34461526"
+    },
+    {
+      "ref_id": "CR30",
+      "authors": [
+        "Pei Y",
+        "Zhu Y",
+        "Wang X"
+      ],
+      "title": "The expression and clinical value of tumor infiltrating dendritic cells in tumor tissues of patients with esophageal cancer",
+      "journal": "J Gastrointest Oncol",
+      "year": "2021",
+      "volume": "12",
+      "issue": "5",
+      "fpage": "1996",
+      "lpage": "2003",
+      "doi": "10.21037/jgo-21-578",
+      "pmid": "34790367",
+      "pmc_id": "PMC8576207"
+    },
+    {
+      "ref_id": "CR31",
+      "authors": [
+        "Plumas J"
+      ],
+      "title": "Harnessing dendritic cells for innovative therapeutic cancer vaccines",
+      "journal": "Curr Opin Oncol",
+      "year": "2021",
+      "volume": "34",
+      "issue": "2",
+      "fpage": "161",
+      "lpage": "168",
+      "doi": "10.1097/CCO.0000000000000815",
+      "pmid": "34930882"
+    },
+    {
+      "ref_id": "CR32",
+      "authors": [
+        "Sharma P",
+        "Zhang X",
+        "Ly K"
+      ],
+      "title": "Hyperglycosylation of prosaposin in tumor dendritic cells drives immune escape",
+      "journal": "Science",
+      "year": "2024",
+      "volume": "383",
+      "issue": "6679",
+      "fpage": "190",
+      "lpage": "200",
+      "doi": "10.1126/science.adg1955",
+      "pmid": "38207022",
+      "pmc_id": "PMC11398950"
+    },
+    {
+      "ref_id": "CR33",
+      "authors": [
+        "Sho Okuda KOSN"
+      ],
+      "title": "Neoadjuvant chemotherapy enhances anti-tumor immune response of tumor microenvironment in human esophageal squamous cell carcinoma. iScience",
+      "journal": "iScience",
+      "year": "2023",
+      "volume": "26",
+      "issue": "4",
+      "fpage": "106480",
+      "doi": "10.1016/j.isci.2023.106480",
+      "pmid": "37091252",
+      "pmc_id": "PMC10113784"
+    },
+    {
+      "ref_id": "CR34",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Fuchs HE"
+      ],
+      "title": "Cancer statistics, 2021.CA",
+      "journal": "Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "issue": "1",
+      "fpage": "7",
+      "lpage": "33",
+      "doi": "10.3322/caac.21654",
+      "pmid": "33433946"
+    },
+    {
+      "ref_id": "CR35",
+      "authors": [
+        "Spranger S",
+        "Bao R",
+        "Gajewski TF"
+      ],
+      "title": "Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity",
+      "journal": "Nature",
+      "year": "2015",
+      "volume": "523",
+      "issue": "7559",
+      "fpage": "231",
+      "lpage": "235",
+      "doi": "10.1038/nature14404",
+      "pmid": "25970248"
+    },
+    {
+      "ref_id": "CR36",
+      "authors": [
+        "Sprooten J",
+        "Vanmeerbeek I",
+        "Datsi A"
+      ],
+      "title": "Lymph node and tumor-associated PD-L1(+)macrophages antagonize dendritic cell vaccines by suppressing CD8(+) T cells",
+      "journal": "Cell Rep Med",
+      "year": "2024",
+      "volume": "5",
+      "issue": "1",
+      "fpage": "101377",
+      "doi": "10.1016/j.xcrm.2023.101377",
+      "pmid": "38232703",
+      "pmc_id": "PMC10829875"
+    },
+    {
+      "ref_id": "CR37",
+      "authors": [
+        "Tang J",
+        "Tian Z",
+        "Liao X",
+        "Wu G"
+      ],
+      "title": "Sox13/trim11/yap axis promotes the proliferation, migration and chemoresistance of anaplastic thyroid cancer",
+      "journal": "Int J Biol Sci",
+      "year": "2021",
+      "volume": "17",
+      "issue": "2",
+      "fpage": "417",
+      "lpage": "429",
+      "doi": "10.7150/ijbs.54194",
+      "pmid": "33613102",
+      "pmc_id": "PMC7893578"
+    },
+    {
+      "ref_id": "CR38",
+      "doi": "10.3390/cancers14205168",
+      "pmc_id": "PMC9599968",
+      "pmid": "36291954"
+    },
+    {
+      "ref_id": "CR39",
+      "doi": "10.21147/j.issn.1000-9604.2025.05.11",
+      "pmc_id": "PMC12614471",
+      "pmid": "41246257"
+    },
+    {
+      "ref_id": "CR40",
+      "authors": [
+        "Wu Y",
+        "He S",
+        "Cao M"
+      ],
+      "title": "Comparative analysis of cancer statistics in china and the united states in 2024",
+      "journal": "Chin Med J (Engl)",
+      "year": "2024",
+      "volume": "137",
+      "issue": "24",
+      "fpage": "3093",
+      "lpage": "3100",
+      "doi": "10.1097/CM9.0000000000003442",
+      "pmid": "39654104",
+      "pmc_id": "PMC11706596"
+    },
+    {
+      "ref_id": "CR41",
+      "authors": [
+        "Xiong J",
+        "Xing S",
+        "Dong Z"
+      ],
+      "title": "Stk31 regulates the proliferation and cell cycle of lung cancer cells via the wnt/betacatenin pathway and feedback regulation by cmyc",
+      "journal": "Oncol Rep",
+      "year": "2020",
+      "volume": "43",
+      "issue": "2",
+      "fpage": "395",
+      "lpage": "404",
+      "doi": "10.3892/or.2019.7441",
+      "pmid": "31894338",
+      "pmc_id": "PMC6967196"
+    },
+    {
+      "ref_id": "CR42",
+      "doi": "10.3390/cancers17142367",
+      "pmc_id": "PMC12294046",
+      "pmid": "40723250"
+    },
+    {
+      "ref_id": "CR43",
+      "authors": [
+        "Zhang P",
+        "Liang X",
+        "Ye B",
+        "et al."
+      ],
+      "title": "Metabolic reprogramming signature predicts immunotherapy efficacy in lung adenocarcinoma: Targeting SLC25A1 to overcome immune resistance",
+      "journal": "Chin J Cancer Res",
+      "year": "2025",
+      "volume": "37",
+      "issue": "6",
+      "fpage": "1000",
+      "lpage": "1019",
+      "doi": "10.21147/j.issn.1000-9604.2025.06.11",
+      "pmid": "41536497",
+      "pmc_id": "PMC12796613"
+    },
+    {
+      "ref_id": "CR44",
+      "authors": [
+        "Zhao Z",
+        "Deng J",
+        "Lu M",
+        "et al."
+      ],
+      "title": "Trim11, a new target of p53, facilitates the migration and invasion of nasopharyngeal carcinoma cells",
+      "journal": "Mol Biol Rep",
+      "year": "2023",
+      "volume": "50",
+      "issue": "1",
+      "fpage": "731",
+      "lpage": "737",
+      "doi": "10.1007/s11033-022-07833-z",
+      "pmid": "36376537",
+      "pmc_id": "PMC9884187"
+    },
+    {
+      "ref_id": "CR45",
+      "authors": [
+        "Zheng S",
+        "Liu T",
+        "Li L",
+        "et al."
+      ],
+      "title": "Slc1a5, unrelated to prognosis, was associated with cd8 + t-cell exclusion in the tumor microenvironment of squamous cell carcinoma",
+      "journal": "Heliyon",
+      "year": "2023",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "e14571",
+      "doi": "10.1016/j.heliyon.2023.e14571",
+      "pmid": "36950604",
+      "pmc_id": "PMC10025928"
+    },
+    {
+      "ref_id": "CR46",
+      "doi": "10.1155/2022/8264059",
+      "pmc_id": "PMC8885197",
+      "pmid": "35237324"
     }
   ]
 }

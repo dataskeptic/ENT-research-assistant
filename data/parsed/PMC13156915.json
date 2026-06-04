@@ -17,7 +17,8 @@
     "pmc_id": "PMC13156915",
     "pmid": "42083285",
     "full_text_available": true,
-    "section_count": 28
+    "section_count": 28,
+    "reference_count": 28
   },
   "sections": [
     {
@@ -159,6 +160,534 @@
       "section": "Conclusion",
       "text": "In summary, we developed and validated a 7-protein prognostic model for HNSCC (CD45, RAPTOR, SETD2, MERIT40_pS29, HER3_pY1289, Hexokinase-I, and BETACATENIN) that robustly stratifies patient risk across multiple cohorts and clinical subgroups. Functional analyses identified RAPTOR as a key regulator of HNSCC progression, associated with modulation of the S100A8/A9–uPA axis and PI3K/AKT/mTOR signaling. Both genetic silencing and pharmacologic inhibition of RAPTOR recapitulated these effects, supporting its functional involvement in HNSCC progression. Within the limitations of retrospective datasets and experimental models, these findings highlight the relevance of protein-based prognostic signatures and RAPTOR-associated pathways in HNSCC.",
       "order": 27
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b1-medscimonit-32-e952169",
+      "label": "1",
+      "authors": [
+        "Liu N",
+        "Wu J",
+        "Deng E",
+        "et al."
+      ],
+      "title": "Immunotherapy and senolytics in head and neck squamous cell carcinoma: phase 2 trial results",
+      "journal": "Nat Med",
+      "year": "2025",
+      "volume": "31",
+      "fpage": "3047",
+      "lpage": "61",
+      "pmid": "40855191",
+      "doi": "10.1038/s41591-025-03873-7"
+    },
+    {
+      "ref_id": "b2-medscimonit-32-e952169",
+      "label": "2",
+      "authors": [
+        "Zandberg DP",
+        "Vujanovic L",
+        "Clump DA",
+        "et al."
+      ],
+      "title": "Randomized phase II study of concurrent versus sequential pembrolizumab in combination with chemoradiation in locally advanced head and neck cancer",
+      "journal": "J Clin Oncol",
+      "year": "2025",
+      "volume": "43",
+      "issue": "23",
+      "fpage": "2572",
+      "lpage": "82",
+      "pmid": "40424564",
+      "doi": "10.1200/JCO-24-01580",
+      "pmc_id": "PMC12316147"
+    },
+    {
+      "ref_id": "b3-medscimonit-32-e952169",
+      "label": "3",
+      "authors": [
+        "Haddad R",
+        "Fayette J",
+        "Teixeira M",
+        "et al."
+      ],
+      "title": "Atezolizumab in high-risk locally advanced squamous cell carcinoma of the head and neck: A randomized clinical trial",
+      "journal": "JAMA",
+      "year": "2025",
+      "volume": "333",
+      "issue": "18",
+      "fpage": "1599",
+      "lpage": "607",
+      "pmid": "40079944",
+      "doi": "10.1001/jama.2025.1483",
+      "pmc_id": "PMC11907359"
+    },
+    {
+      "ref_id": "b4-medscimonit-32-e952169",
+      "label": "4",
+      "authors": [
+        "Saba NF",
+        "Wong SJ",
+        "Nasti T",
+        "et al."
+      ],
+      "title": "Intensity-modulated reirradiation therapy with nivolumab in recurrent or second primary head and neck squamous cell carcinoma: A nonrandomized controlled trial",
+      "journal": "JAMA Oncol",
+      "year": "2024",
+      "volume": "10",
+      "issue": "7",
+      "fpage": "896",
+      "lpage": "904",
+      "pmid": "38780927",
+      "doi": "10.1001/jamaoncol.2024.1143",
+      "pmc_id": "PMC11117153"
+    },
+    {
+      "ref_id": "b5-medscimonit-32-e952169",
+      "label": "5",
+      "authors": [
+        "Uppaluri R",
+        "Haddad RI",
+        "Tao Y",
+        "et al."
+      ],
+      "title": "Neoadjuvant and adjuvant pembrolizumab in locally advanced head and neck cancer",
+      "journal": "N Engl J Med",
+      "year": "2025",
+      "volume": "393",
+      "issue": "1",
+      "fpage": "37",
+      "lpage": "50",
+      "pmid": "40532178",
+      "doi": "10.1056/NEJMoa2415434"
+    },
+    {
+      "ref_id": "b6-medscimonit-32-e952169",
+      "label": "6",
+      "authors": [
+        "Nocini R",
+        "Luchini C",
+        "Mafficini A",
+        "et al."
+      ],
+      "title": "ICGC-ARGO precision medicine: An update on immunotherapy response in metastatic head and neck squamous cell carcinoma",
+      "journal": "Lancet Oncol",
+      "year": "2025",
+      "volume": "26",
+      "issue": "6",
+      "fpage": "691",
+      "lpage": "92",
+      "pmid": "40449496",
+      "doi": "10.1016/S1470-2045(25)00064-6"
+    },
+    {
+      "ref_id": "b7-medscimonit-32-e952169",
+      "label": "7",
+      "authors": [
+        "van den Bosch S",
+        "Doornaert PAH",
+        "Hoebers FJP",
+        "et al."
+      ],
+      "title": "Clinical benefit and safety of reduced elective dose in definitive radiotherapy for head and neck squamous cell carcinoma: The UPGRADE-RT multicenter randomized controlled trial",
+      "journal": "J Clin Oncol",
+      "year": "2025",
+      "volume": "43",
+      "issue": "23",
+      "fpage": "2583",
+      "lpage": "94",
+      "pmid": "40233286",
+      "doi": "10.1200/JCO-24-02194",
+      "pmc_id": "PMC12316137"
+    },
+    {
+      "ref_id": "b8-medscimonit-32-e952169",
+      "label": "8",
+      "authors": [
+        "Holsinger FC",
+        "Ismaila N",
+        "Adkins DR",
+        "et al."
+      ],
+      "title": "Transoral robotic surgery in the multidisciplinary care of patients with oropharyngeal squamous cell carcinoma: ASCO guideline",
+      "journal": "J Clin Oncol",
+      "year": "2025",
+      "volume": "43",
+      "issue": "11",
+      "fpage": "1369",
+      "lpage": "92",
+      "pmid": "39933131",
+      "doi": "10.1200/JCO-24-02755"
+    },
+    {
+      "ref_id": "b9-medscimonit-32-e952169",
+      "label": "9",
+      "authors": [
+        "Huang C",
+        "Chen L",
+        "Savage SR",
+        "et al."
+      ],
+      "title": "Proteogenomic insights into the biology and treatment of HPV-negative head and neck squamous cell carcinoma",
+      "journal": "Cancer Cell",
+      "year": "2021",
+      "volume": "39",
+      "issue": "3",
+      "fpage": "361",
+      "lpage": "79e16",
+      "pmid": "33417831",
+      "doi": "10.1016/j.ccell.2020.12.007",
+      "pmc_id": "PMC7946781"
+    },
+    {
+      "ref_id": "b10-medscimonit-32-e952169",
+      "label": "10",
+      "authors": [
+        "Jeong H",
+        "Oh JH",
+        "Ahn HS",
+        "et al."
+      ],
+      "title": "Proteogenomic profiling predicts outcomes of adjuvant chemotherapy in extrahepatic cholangiocarcinoma",
+      "journal": "J Hepatol",
+      "year": "2026",
+      "volume": "84",
+      "issue": "1",
+      "fpage": "122",
+      "lpage": "34",
+      "pmid": "40803577",
+      "doi": "10.1016/j.jhep.2025.07.031"
+    },
+    {
+      "ref_id": "b11-medscimonit-32-e952169",
+      "label": "11",
+      "authors": [
+        "Barbieri MR",
+        "Andrade CD",
+        "Silva WA",
+        "et al."
+      ],
+      "title": "Expression of human protein S100A7 (psoriasin), preparation of antibody and application to human larynx squamous cell carcinoma",
+      "journal": "BMC Res Notes",
+      "year": "2011",
+      "volume": "4",
+      "fpage": "494",
+      "pmid": "22082027",
+      "doi": "10.1186/1756-0500-4-494",
+      "pmc_id": "PMC3278597"
+    },
+    {
+      "ref_id": "b12-medscimonit-32-e952169",
+      "label": "12",
+      "authors": [
+        "Hu Y",
+        "Han Y",
+        "He M",
+        "et al."
+      ],
+      "title": "S100 proteins in head and neck squamous cell carcinoma (review)",
+      "journal": "Oncol Lett",
+      "year": "2023",
+      "volume": "26",
+      "issue": "2",
+      "fpage": "362",
+      "pmid": "37545618",
+      "doi": "10.3892/ol.2023.13948",
+      "pmc_id": "PMC10398633"
+    },
+    {
+      "ref_id": "b13-medscimonit-32-e952169",
+      "label": "13",
+      "authors": [
+        "Choi JH",
+        "Lee BS",
+        "Jang JY",
+        "et al."
+      ],
+      "title": "Single-cell transcriptome profiling of the stepwise progression of head and neck cancer",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "1055",
+      "pmid": "36828832",
+      "doi": "10.1038/s41467-023-36691-x",
+      "pmc_id": "PMC9958029"
+    },
+    {
+      "ref_id": "b14-medscimonit-32-e952169",
+      "label": "14",
+      "authors": [
+        "Guertin DA",
+        "Stevens DM",
+        "Thoreen CC",
+        "et al."
+      ],
+      "title": "Ablation in mice of the mTORC components raptor, rictor, or mLST8 reveals that mTORC2 is required for signaling to Akt-FOXO and PKCalpha, but not S6K1",
+      "journal": "Dev Cell",
+      "year": "2006",
+      "volume": "11",
+      "issue": "6",
+      "fpage": "859",
+      "lpage": "71",
+      "pmid": "17141160",
+      "doi": "10.1016/j.devcel.2006.10.007"
+    },
+    {
+      "ref_id": "b15-medscimonit-32-e952169",
+      "label": "15",
+      "authors": [
+        "Bai G",
+        "Yue S",
+        "You Y",
+        "et al."
+      ],
+      "title": "An integrated bioinformatics analysis of the S100 in head and neck squamous cell carcinoma",
+      "journal": "Transl Cancer Res",
+      "year": "2023",
+      "volume": "12",
+      "issue": "4",
+      "fpage": "717",
+      "lpage": "31",
+      "pmid": "37180672",
+      "doi": "10.21037/tcr-22-1353",
+      "pmc_id": "PMC10174761"
+    },
+    {
+      "ref_id": "b16-medscimonit-32-e952169",
+      "label": "16",
+      "authors": [
+        "Hu Y",
+        "He M",
+        "Han Y",
+        "et al."
+      ],
+      "title": "Survival prediction in patients with head and neck squamous cell carcinoma and novel mechanistic insights of S100A8/A9",
+      "journal": "Discov Oncol",
+      "year": "2024",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "657",
+      "pmid": "39546127",
+      "doi": "10.1007/s12672-024-01540-w",
+      "pmc_id": "PMC11568106"
+    },
+    {
+      "ref_id": "b17-medscimonit-32-e952169",
+      "label": "17",
+      "authors": [
+        "Argyris PP",
+        "Saavedra F",
+        "Malz C",
+        "et al."
+      ],
+      "title": "Intracellular calprotectin (S100A8/A9) facilitates DNA damage responses and promotes apoptosis in head and neck squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2023",
+      "volume": "137",
+      "fpage": "106304",
+      "pmid": "36608459",
+      "doi": "10.1016/j.oraloncology.2022.106304",
+      "pmc_id": "PMC9877195"
+    },
+    {
+      "ref_id": "b18-medscimonit-32-e952169",
+      "label": "18",
+      "authors": [
+        "Yin H",
+        "Zhang Z",
+        "Zhang Q",
+        "et al."
+      ],
+      "title": "PLAU serves as a prognostic biomarker correlated with perineural invasion in HNSCC",
+      "journal": "Cancer Genet",
+      "year": "2025",
+      "volume": "294-295",
+      "fpage": "145",
+      "lpage": "55",
+      "pmid": "40319793",
+      "doi": "10.1016/j.cancergen.2025.04.008"
+    },
+    {
+      "ref_id": "b19-medscimonit-32-e952169",
+      "label": "19",
+      "authors": [
+        "Sun M",
+        "Zhan N",
+        "Yang Z",
+        "et al."
+      ],
+      "title": "Cuproptosis-related lncRNA JPX regulates malignant cell behavior and epithelial-immune interaction in head and neck squamous cell carcinoma via miR-193b-3p/PLAU axis",
+      "journal": "Int J Oral Sci",
+      "year": "2024",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "63",
+      "pmid": "39511134",
+      "doi": "10.1038/s41368-024-00314-y",
+      "pmc_id": "PMC11543849"
+    },
+    {
+      "ref_id": "b20-medscimonit-32-e952169",
+      "label": "20",
+      "authors": [
+        "Huo Y",
+        "Iadevaia V",
+        "Proud CG"
+      ],
+      "title": "Differing effects of rapamycin and mTOR kinase inhibitors on protein synthesis",
+      "journal": "Biochem Soc Trans",
+      "year": "2011",
+      "volume": "39",
+      "issue": "2",
+      "fpage": "446",
+      "lpage": "50",
+      "pmid": "21428917",
+      "doi": "10.1042/BST0390446"
+    },
+    {
+      "ref_id": "b21-medscimonit-32-e952169",
+      "label": "21",
+      "authors": [
+        "Zhao W",
+        "Xie C",
+        "Zhang X",
+        "et al."
+      ],
+      "title": "Advances in the mTOR signaling pathway and its inhibitor rapamycin in epilepsy",
+      "journal": "Brain Behav",
+      "year": "2023",
+      "volume": "13",
+      "issue": "6",
+      "fpage": "e2995",
+      "pmid": "37221133",
+      "doi": "10.1002/brb3.2995",
+      "pmc_id": "PMC10275542"
+    },
+    {
+      "ref_id": "b22-medscimonit-32-e952169",
+      "label": "22",
+      "authors": [
+        "Patil S",
+        "Bhat MY",
+        "Advani J",
+        "et al."
+      ],
+      "title": "Proteomic and phosphoproteomic profiling of shammah induced signaling in oral keratinocytes",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "issue": "1",
+      "fpage": "9397",
+      "pmid": "33931671",
+      "doi": "10.1038/s41598-021-88345-x",
+      "pmc_id": "PMC8087671"
+    },
+    {
+      "ref_id": "b23-medscimonit-32-e952169",
+      "label": "23",
+      "authors": [
+        "Marquard FE",
+        "Jücker M"
+      ],
+      "title": "PI3K/AKT/mTOR signaling as a molecular target in head and neck cancer",
+      "journal": "Biochem Pharmacol",
+      "year": "2020",
+      "volume": "172",
+      "fpage": "113729",
+      "pmid": "31785230",
+      "doi": "10.1016/j.bcp.2019.113729"
+    },
+    {
+      "ref_id": "b24-medscimonit-32-e952169",
+      "label": "24",
+      "authors": [
+        "Biray Avci C",
+        "Sezgin B",
+        "Goker Bagca B",
+        "et al."
+      ],
+      "title": "PI3K/AKT/mTOR pathway and autophagy regulator genes in paranasal squamous cell carcinoma metastasis",
+      "journal": "Mol Biol Rep",
+      "year": "2020",
+      "volume": "47",
+      "issue": "5",
+      "fpage": "3641",
+      "lpage": "51",
+      "pmid": "32319010",
+      "doi": "10.1007/s11033-020-05458-8"
+    },
+    {
+      "ref_id": "b25-medscimonit-32-e952169",
+      "label": "25",
+      "authors": [
+        "Sun W",
+        "Long G",
+        "Wang J",
+        "et al."
+      ],
+      "title": "Prognostic role of epidermal growth factor receptor in nasopharyngeal carcinoma: A meta-analysis",
+      "journal": "Head Neck",
+      "year": "2014",
+      "volume": "36",
+      "issue": "10",
+      "fpage": "1508",
+      "lpage": "16",
+      "pmid": "23996630",
+      "doi": "10.1002/hed.23481"
+    },
+    {
+      "ref_id": "b26-medscimonit-32-e952169",
+      "label": "26",
+      "authors": [
+        "Egloff AM",
+        "Grandis JR"
+      ],
+      "title": "Targeting epidermal growth factor receptor and SRC pathways in head and neck cancer",
+      "journal": "Semin Oncol",
+      "year": "2008",
+      "volume": "35",
+      "issue": "3",
+      "fpage": "286",
+      "lpage": "97",
+      "pmid": "18544443",
+      "doi": "10.1053/j.seminoncol.2008.03.008",
+      "pmc_id": "PMC2587085"
+    },
+    {
+      "ref_id": "b27-medscimonit-32-e952169",
+      "label": "27",
+      "authors": [
+        "Camacho M",
+        "Agüero A",
+        "Sumarroca A",
+        "et al."
+      ],
+      "title": "Prognostic value of CD45 transcriptional expression in head and neck cancer",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2018",
+      "volume": "275",
+      "issue": "1",
+      "fpage": "225",
+      "lpage": "32",
+      "pmid": "29177949",
+      "doi": "10.1007/s00405-017-4806-2"
+    },
+    {
+      "ref_id": "b28-medscimonit-32-e952169",
+      "label": "28",
+      "authors": [
+        "Wu ZH",
+        "Yun T",
+        "Cheng Q"
+      ],
+      "title": "Data mining identifies six proteins that can act as prognostic markers for head and neck squamous cell carcinoma",
+      "journal": "Cell Transplant",
+      "year": "2020",
+      "volume": "29",
+      "fpage": "963689720929308",
+      "pmid": "32452220",
+      "doi": "10.1177/0963689720929308",
+      "pmc_id": "PMC7563932"
     }
   ]
 }

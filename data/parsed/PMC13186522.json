@@ -14,7 +14,8 @@
     "pmc_id": "PMC13186522",
     "pmid": "42155139",
     "full_text_available": true,
-    "section_count": 16
+    "section_count": 16,
+    "reference_count": 50
   },
   "sections": [
     {
@@ -96,6 +97,898 @@
       "section": "Conclusion",
       "text": "In this review, we provide a detailed and systematic analysis of tinnitus app content by categorizing intervention components and BCTs. By applying an established BCT framework, this study offers a structured and theory-informed overview of current app-based interventions. A variety of intervention components were identified at least once (eg, relaxation training, sound therapy, and information on tinnitus). However, the component most frequently implemented was sounds (eg, white noise and nature sounds), highlighting a discrepancy between commonly implemented features and evidence-based treatment recommendations. Core CBT elements, which are recommended in tinnitus treatment guidelines, were offered less frequently. Patients with tinnitus searching for support in app stores are confronted with a large number of easily accessible apps, yet the content and theoretical grounding of these apps vary substantially. In light of the limited scientific evaluation of these apps, future research on their efficacy as well as potential negative effects is highly needed. Importantly, this review provides a transparent and reproducible foundation for such evaluations by systematically mapping existing intervention components and BCTs. Overall, this study provides an overview for research and practice by summarizing current tinnitus app content and identifying key gaps that can inform evidence-based app development and future research priorities.",
       "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "authors": [
+        "Baguley D",
+        "McFerran D",
+        "Hall D"
+      ],
+      "title": "Tinnitus",
+      "journal": "The Lancet",
+      "year": "2013",
+      "volume": "382",
+      "issue": "9904",
+      "fpage": "1600",
+      "lpage": "1607",
+      "doi": "10.1016/S0140-6736(13)60142-7",
+      "pmid": "23827090"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "authors": [
+        "Jarach CM",
+        "Lugo A",
+        "Scala M",
+        "et al."
+      ],
+      "title": "Global prevalence and incidence of tinnitus: a systematic review and meta-analysis",
+      "journal": "JAMA Neurol",
+      "year": "2022",
+      "volume": "79",
+      "issue": "9",
+      "fpage": "888",
+      "lpage": "900",
+      "doi": "10.1001/jamaneurol.2022.2189",
+      "pmid": "35939312",
+      "pmc_id": "PMC9361184"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "authors": [
+        "Biswas R",
+        "Lugo A",
+        "Akeroyd MA",
+        "Schlee W",
+        "Gallus S",
+        "Hall DA"
+      ],
+      "title": "Tinnitus prevalence in Europe: a multi-country cross-sectional population study",
+      "journal": "Lancet Reg Health Eur",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "100250",
+      "doi": "10.1016/j.lanepe.2021.100250",
+      "pmid": "34950918",
+      "pmc_id": "PMC8671623"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "authors": [
+        "Gallus S",
+        "Lugo A",
+        "Garavello W",
+        "et al."
+      ],
+      "title": "Prevalence and determinants of tinnitus in the Italian adult population",
+      "journal": "Neuroepidemiology",
+      "year": "2015",
+      "volume": "45",
+      "issue": "1",
+      "fpage": "12",
+      "lpage": "19",
+      "doi": "10.1159/000431376",
+      "pmid": "26182874"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "authors": [
+        "Bhatt JM",
+        "Bhattacharyya N",
+        "Lin HW"
+      ],
+      "title": "Relationships between tinnitus and the prevalence of anxiety and depression",
+      "journal": "Laryngoscope",
+      "year": "2017",
+      "volume": "127",
+      "issue": "2",
+      "fpage": "466",
+      "lpage": "469",
+      "doi": "10.1002/lary.26107",
+      "pmid": "27301552",
+      "pmc_id": "PMC5812676"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "authors": [
+        "Manchaiah V",
+        "Beukes EW",
+        "Granberg S",
+        "et al."
+      ],
+      "title": "Problems and life effects experienced by tinnitus research study volunteers: an exploratory study using the ICF classification",
+      "journal": "J Am Acad Audiol",
+      "year": "2018",
+      "volume": "29",
+      "issue": "10",
+      "fpage": "936",
+      "lpage": "947",
+      "doi": "10.3766/jaaa.17094",
+      "pmid": "30479266"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "authors": [
+        "McCormack A",
+        "Edmondson-Jones M",
+        "Fortnum H",
+        "et al."
+      ],
+      "title": "Investigating the association between tinnitus severity and symptoms of depression and anxiety, while controlling for neuroticism, in a large middle-aged UK population",
+      "journal": "Int J Audiol",
+      "year": "2015",
+      "volume": "54",
+      "issue": "9",
+      "fpage": "599",
+      "lpage": "604",
+      "doi": "10.3109/14992027.2015.1014577",
+      "pmid": "25766493",
+      "pmc_id": "PMC4673512"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "authors": [
+        "Fuller TE",
+        "Haider HF",
+        "Kikidis D",
+        "et al."
+      ],
+      "title": "Different teams, same conclusions? A systematic review of existing clinical guidelines for the assessment and treatment of tinnitus in adults",
+      "journal": "Front Psychol",
+      "year": "2017",
+      "volume": "8",
+      "elocation_id": "206",
+      "doi": "10.3389/fpsyg.2017.00206",
+      "pmid": "28275357",
+      "pmc_id": "PMC5319986"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "authors": [
+        "Andersson G"
+      ],
+      "title": "Internet-delivered psychological treatments for tinnitus: a brief historical review",
+      "journal": "Am J Audiol",
+      "year": "2022",
+      "volume": "31",
+      "issue": "3S",
+      "fpage": "1013",
+      "lpage": "1018",
+      "doi": "10.1044/2022_AJA-21-00245",
+      "pmid": "35442718"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "authors": [
+        "Ebert DD",
+        "Van Daele T",
+        "Nordgreen T",
+        "et al."
+      ],
+      "title": "Internet- and mobile-based psychological interventions: applications, efficacy, and potential for improving mental health",
+      "journal": "Eur Psychol",
+      "year": "2018",
+      "volume": "23",
+      "issue": "2",
+      "fpage": "167",
+      "lpage": "187",
+      "doi": "10.1027/1016-9040/a000318"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "authors": [
+        "Grundy Q",
+        "Chiu K",
+        "Held F",
+        "Continella A",
+        "Bero L",
+        "Holz R"
+      ],
+      "title": "Data sharing practices of medicines related apps and the mobile ecosystem: traffic, content, and network analysis",
+      "journal": "BMJ",
+      "year": "2019",
+      "volume": "364",
+      "elocation_id": "l920",
+      "doi": "10.1136/bmj.l920",
+      "pmid": "30894349",
+      "pmc_id": "PMC6425456"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "authors": [
+        "Weisel KK",
+        "Fuhrmann LM",
+        "Berking M",
+        "Baumeister H",
+        "Cuijpers P",
+        "Ebert DD"
+      ],
+      "title": "Standalone smartphone apps for mental health-a systematic review and meta-analysis",
+      "journal": "NPJ Digit Med",
+      "year": "2019",
+      "volume": "2",
+      "issue": "1",
+      "elocation_id": "118",
+      "doi": "10.1038/s41746-019-0188-8",
+      "pmid": "31815193",
+      "pmc_id": "PMC6889400"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "authors": [
+        "Beukes EW",
+        "Manchaiah V",
+        "Allen PM",
+        "Baguley DM",
+        "Andersson G"
+      ],
+      "title": "Internet-based interventions for adults with hearing loss, tinnitus, and vestibular disorders: a systematic review and meta-analysis",
+      "journal": "Trends Hear",
+      "year": "2019",
+      "volume": "23",
+      "elocation_id": "2331216519851749",
+      "doi": "10.1177/2331216519851749",
+      "pmid": "31328660",
+      "pmc_id": "PMC6647231"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "authors": [
+        "Deshpande AK",
+        "Shimunova T"
+      ],
+      "title": "A comprehensive evaluation of tinnitus apps",
+      "journal": "Am J Audiol",
+      "year": "2019",
+      "volume": "28",
+      "issue": "3",
+      "fpage": "605",
+      "lpage": "616",
+      "doi": "10.1044/2019_AJA-18-0135",
+      "pmid": "31330114"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "authors": [
+        "Mehdi M",
+        "Stach M",
+        "Riha C",
+        "et al."
+      ],
+      "title": "Smartphone and mobile health apps for tinnitus: systematic identification, analysis, and assessment",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2020",
+      "volume": "8",
+      "issue": "8",
+      "elocation_id": "e21767",
+      "doi": "10.2196/21767",
+      "pmid": "32808939",
+      "pmc_id": "PMC7463412"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "authors": [
+        "Greenwell K",
+        "Sereda M",
+        "Coulson N",
+        "El Refaie A",
+        "Hoare DJ"
+      ],
+      "title": "A systematic review of techniques and effects of self-help interventions for tinnitus: application of taxonomies from health psychology",
+      "journal": "Int J Audiol",
+      "year": "2016",
+      "volume": "55",
+      "issue": "sup3",
+      "fpage": "S79",
+      "lpage": "89",
+      "doi": "10.3109/14992027.2015.1137363",
+      "pmid": "27146036"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "authors": [
+        "Mehdi M",
+        "Riha C",
+        "Neff P",
+        "et al."
+      ],
+      "title": "Smartphone apps in the context of tinnitus: systematic review",
+      "journal": "Sensors (Basel)",
+      "year": "2020",
+      "volume": "20",
+      "issue": "6",
+      "elocation_id": "1725",
+      "doi": "10.3390/s20061725",
+      "pmid": "32204540",
+      "pmc_id": "PMC7146490"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "authors": [
+        "Sereda M",
+        "Smith S",
+        "Newton K",
+        "Stockdale D"
+      ],
+      "title": "Mobile apps for management of tinnitus: users’ survey, quality assessment, and content analysis",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2019",
+      "volume": "7",
+      "issue": "1",
+      "elocation_id": "e10353",
+      "doi": "10.2196/10353",
+      "pmid": "30672739",
+      "pmc_id": "PMC6364200"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "authors": [
+        "Michie S",
+        "Richardson M",
+        "Johnston M",
+        "et al."
+      ],
+      "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques: building an international consensus for the reporting of behavior change interventions",
+      "journal": "Ann Behav Med",
+      "year": "2013",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "81",
+      "lpage": "95",
+      "doi": "10.1007/s12160-013-9486-6",
+      "pmid": "23512568"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "authors": [
+        "Michie S",
+        "Wood CE",
+        "Johnston M",
+        "Abraham C",
+        "Francis JJ",
+        "Hardeman W"
+      ],
+      "title": "Behaviour change techniques: The development and evaluation of a taxonomic method for reporting and describing behaviour change interventions (a suite of five studies involving consensus methods, randomised controlled trials and analysis of qualitative data)",
+      "journal": "Health Technol Assess",
+      "year": "2015",
+      "volume": "19",
+      "issue": "99",
+      "fpage": "1",
+      "lpage": "188",
+      "doi": "10.3310/hta19990",
+      "pmid": "26616119",
+      "pmc_id": "PMC4781650"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "authors": [
+        "Beukes EW",
+        "Manchaiah V",
+        "Andersson G",
+        "Maidment DW"
+      ],
+      "title": "Application of the behavior change wheel within the context of internet-based cognitive behavioral therapy for tinnitus management",
+      "journal": "Am J Audiol",
+      "year": "2022",
+      "volume": "31",
+      "issue": "2",
+      "fpage": "433",
+      "lpage": "444",
+      "doi": "10.1044/2022_AJA-21-00160",
+      "pmid": "35436419",
+      "pmc_id": "PMC9524758"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "authors": [
+        "Greenwell K",
+        "Featherstone D",
+        "Hoare DJ"
+      ],
+      "title": "The application of intervention coding methodology to describe the tinnitus e-programme, an internet-delivered self-help intervention for tinnitus",
+      "journal": "Am J Audiol",
+      "year": "2015",
+      "volume": "24",
+      "issue": "3",
+      "fpage": "311",
+      "lpage": "315",
+      "doi": "10.1044/2015_AJA-14-0089",
+      "pmid": "26649537"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "authors": [
+        "Rinn A",
+        "Hannibal S",
+        "Goetsch S",
+        "Weise C",
+        "Lehr D"
+      ],
+      "title": "Mit Apps gegen den Tinnitus? Ein systematisches Review zu Qualität, Interventionselementen und Techniken der Verhaltensänderung [Article in German]",
+      "journal": "Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz",
+      "year": "2024",
+      "volume": "67",
+      "issue": "2",
+      "fpage": "203",
+      "lpage": "214",
+      "doi": "10.1007/s00103-023-03805-1",
+      "pmid": "38085358",
+      "pmc_id": "PMC10834554"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Mobile applications for tinnitus: a review of quality, intervention components and behavior change techniques",
+      "journal": "OSF (Open Science Framework)"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "authors": [
+        "Messner EM",
+        "Terhorst Y",
+        "Barke A",
+        "et al."
+      ],
+      "title": "The German version of the Mobile App Rating Scale (MARS-G): development and validation study",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2020",
+      "volume": "8",
+      "issue": "3",
+      "elocation_id": "e14479",
+      "doi": "10.2196/14479",
+      "pmid": "32217504",
+      "pmc_id": "PMC7148545"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "authors": [
+        "Thompson DM",
+        "Hall DA",
+        "Walker DM",
+        "Hoare DJ"
+      ],
+      "title": "Psychological therapy for people with tinnitus: a scoping review of treatment components",
+      "journal": "Ear Hear",
+      "year": "2017",
+      "volume": "38",
+      "issue": "2",
+      "fpage": "149",
+      "lpage": "158",
+      "doi": "10.1097/AUD.0000000000000363",
+      "pmid": "27541331",
+      "pmc_id": "PMC5325252"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "German S3 guideline: 017/064: chronic tinnitus",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "authors": [
+        "Weise C"
+      ],
+      "title": "Tinnitus",
+      "journal": "Psychotherapeut",
+      "year": "2011",
+      "volume": "56",
+      "issue": "1",
+      "fpage": "61",
+      "lpage": "78",
+      "doi": "10.1007/s00278-010-0791-2"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "authors": [
+        "Zenner HP",
+        "Delb W",
+        "Kröner-Herwig B",
+        "et al."
+      ],
+      "title": "A multidisciplinary systematic review of the treatment for chronic idiopathic tinnitus",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2017",
+      "volume": "274",
+      "issue": "5",
+      "fpage": "2079",
+      "lpage": "2091",
+      "doi": "10.1007/s00405-016-4401-y",
+      "pmid": "27995315"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "authors": [
+        "Weise C",
+        "Kleinstäuber M",
+        "Kaldo V",
+        "Andersson G"
+      ],
+      "journal": "Mit Tinnitus Leben Lernen: Ein Manual Für Therapeuten Und Betroffene [Book in German]",
+      "year": "2016",
+      "doi": "10.1007/978-3-642-54763-8"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "authors": [
+        "Lühnen J",
+        "Albrecht M",
+        "Mühlhauser I",
+        "Steckelberg A"
+      ],
+      "title": "Leitlinie evidenzbasierte Gesundheitsinformation",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "authors": [
+        "Stoyanov SR",
+        "Hides L",
+        "Kavanagh DJ",
+        "Zelenko O",
+        "Tjondronegoro D",
+        "Mani M"
+      ],
+      "title": "Mobile app rating scale: a new tool for assessing the quality of health mobile apps",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2015",
+      "volume": "3",
+      "issue": "1",
+      "elocation_id": "e27",
+      "doi": "10.2196/mhealth.3422",
+      "pmid": "25760773",
+      "pmc_id": "PMC4376132"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "journal": "BCT Taxonomy",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "journal": "IBM SPSS Statistics for Windows",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "authors": [
+        "Cima RFF",
+        "Kikidis D",
+        "Mazurek B",
+        "et al."
+      ],
+      "title": "Tinnitus healthcare: a survey revealing extensive variation in opinion and practices across Europe",
+      "journal": "BMJ Open",
+      "year": "2020",
+      "volume": "10",
+      "issue": "1",
+      "elocation_id": "e029346",
+      "doi": "10.1136/bmjopen-2019-029346",
+      "pmid": "31969359",
+      "pmc_id": "PMC7045098"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "authors": [
+        "Meijers S",
+        "Stegeman I",
+        "van der Leun JA",
+        "Assegaf SA",
+        "Smit AL"
+      ],
+      "title": "Analysis and comparison of clinical practice guidelines regarding treatment recommendations for chronic tinnitus in adults: a systematic review",
+      "journal": "BMJ Open",
+      "year": "2023",
+      "volume": "13",
+      "issue": "9",
+      "elocation_id": "e072754",
+      "doi": "10.1136/bmjopen-2023-072754",
+      "pmid": "37714675",
+      "pmc_id": "PMC10510943"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "authors": [
+        "Hesser H",
+        "Weise C",
+        "Westin VZ",
+        "Andersson G"
+      ],
+      "title": "A systematic review and meta-analysis of randomized controlled trials of cognitive-behavioral therapy for tinnitus distress",
+      "journal": "Clin Psychol Rev",
+      "year": "2011",
+      "volume": "31",
+      "issue": "4",
+      "fpage": "545",
+      "lpage": "553",
+      "doi": "10.1016/j.cpr.2010.12.006",
+      "pmid": "21237544"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "authors": [
+        "Martinengo L",
+        "Stona AC",
+        "Griva K",
+        "et al."
+      ],
+      "title": "Self-guided cognitive behavioral therapy apps for depression: systematic assessment of features, functionality, and congruence with evidence",
+      "journal": "J Med Internet Res",
+      "year": "2021",
+      "volume": "23",
+      "issue": "7",
+      "elocation_id": "e27619",
+      "doi": "10.2196/27619",
+      "pmid": "34328431",
+      "pmc_id": "PMC8367167"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "authors": [
+        "Pryce H",
+        "Moutela T",
+        "Bunker C",
+        "Shaw R"
+      ],
+      "title": "Tinnitus groups: a model of social support and social connectedness from peer interaction",
+      "journal": "Br J Health Psychol",
+      "year": "2019",
+      "volume": "24",
+      "issue": "4",
+      "fpage": "913",
+      "lpage": "930",
+      "doi": "10.1111/bjhp.12386",
+      "pmid": "31449732",
+      "pmc_id": "PMC6899850"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "authors": [
+        "Thompson P",
+        "Pryce H",
+        "Refaie E"
+      ],
+      "title": "Group or individual tinnitus therapy: what matters to participants?",
+      "journal": "Audiol Med",
+      "year": "2011",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "110",
+      "lpage": "116",
+      "doi": "10.3109/1651386X.2011.604470"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "authors": [
+        "Sereda M",
+        "Xia J",
+        "El Refaie A",
+        "Hall DA",
+        "Hoare DJ"
+      ],
+      "title": "Sound therapy (using amplification devices and/or sound generators) for tinnitus",
+      "journal": "Cochrane Database Syst Rev",
+      "year": "2018",
+      "volume": "12",
+      "issue": "12",
+      "elocation_id": "CD013094",
+      "doi": "10.1002/14651858.CD013094.pub2",
+      "pmid": "30589445",
+      "pmc_id": "PMC6517157"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "authors": [
+        "Abouzari M",
+        "Goshtasbi K",
+        "Sarna B",
+        "et al."
+      ],
+      "title": "Adapting personal therapies using a mobile application for tinnitus rehabilitation: a preliminary study",
+      "journal": "Ann Otol Rhinol Laryngol",
+      "year": "2021",
+      "volume": "130",
+      "issue": "6",
+      "fpage": "571",
+      "lpage": "577",
+      "doi": "10.1177/0003489420962818",
+      "pmid": "33030042",
+      "pmc_id": "PMC8051360"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43.",
+      "authors": [
+        "Mehdi M",
+        "Dode A",
+        "Pryss R",
+        "Schlee W",
+        "Reichert M",
+        "Hauck FJ"
+      ],
+      "title": "Contemporary review of smartphone apps for tinnitus management and treatment",
+      "journal": "Brain Sci",
+      "year": "2020",
+      "volume": "10",
+      "issue": "11",
+      "elocation_id": "867",
+      "doi": "10.3390/brainsci10110867",
+      "pmid": "33212928",
+      "pmc_id": "PMC7698350"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44.",
+      "authors": [
+        "Nagaraj MK",
+        "Prabhu P"
+      ],
+      "title": "Internet/smartphone-based applications for the treatment of tinnitus: a systematic review",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2020",
+      "volume": "277",
+      "issue": "3",
+      "fpage": "649",
+      "lpage": "657",
+      "doi": "10.1007/s00405-019-05743-8",
+      "pmid": "31807891"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45.",
+      "authors": [
+        "Oron Y",
+        "Ben David BM",
+        "Doron G"
+      ],
+      "title": "Brief cognitive-behavioral training for tinnitus relief using a mobile application: a pilot open trial",
+      "journal": "Health Informatics J",
+      "year": "2022",
+      "volume": "28",
+      "issue": "1",
+      "elocation_id": "14604582221083483",
+      "doi": "10.1177/14604582221083483",
+      "pmid": "35349777"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46.",
+      "authors": [
+        "Schlee W",
+        "Neff P",
+        "Simoes J",
+        "et al."
+      ],
+      "title": "Smartphone-guided educational counseling and self-help for chronic tinnitus",
+      "journal": "J Clin Med",
+      "year": "2022",
+      "volume": "11",
+      "issue": "7",
+      "elocation_id": "1825",
+      "doi": "10.3390/jcm11071825",
+      "pmid": "35407432",
+      "pmc_id": "PMC8999555"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47.",
+      "authors": [
+        "Walter U",
+        "Pennig S",
+        "Kottmann T",
+        "Bleckmann L",
+        "Röschmann-Doose K",
+        "Schlee W"
+      ],
+      "title": "Randomized controlled trial of a smartphone-based cognitive behavioral therapy for chronic tinnitus",
+      "journal": "PLOS Digit Health",
+      "year": "2023",
+      "volume": "2",
+      "issue": "9",
+      "elocation_id": "e0000337",
+      "doi": "10.1371/journal.pdig.0000337",
+      "pmid": "37676883",
+      "pmc_id": "PMC10484427"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48.",
+      "authors": [
+        "Sander LB",
+        "Schorndanner J",
+        "Terhorst Y",
+        "et al."
+      ],
+      "title": "“Help for trauma from the app stores?” A systematic review and standardised rating of apps for post-traumatic stress disorder (PTSD)",
+      "journal": "Eur J Psychotraumatol",
+      "year": "2020",
+      "volume": "11",
+      "issue": "1",
+      "elocation_id": "1701788",
+      "doi": "10.1080/20008198.2019.1701788",
+      "pmid": "32002136",
+      "pmc_id": "PMC6968629"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49.",
+      "authors": [
+        "Schoeppe S",
+        "Alley S",
+        "Rebar AL",
+        "et al."
+      ],
+      "title": "Apps to improve diet, physical activity and sedentary behaviour in children and adolescents: a review of quality, features and behaviour change techniques",
+      "journal": "Int J Behav Nutr Phys Act",
+      "year": "2017",
+      "volume": "14",
+      "issue": "1",
+      "elocation_id": "83",
+      "doi": "10.1186/s12966-017-0538-3",
+      "pmid": "28646889",
+      "pmc_id": "PMC5483249"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50.",
+      "authors": [
+        "Brown HM",
+        "Bucher T",
+        "Collins CE",
+        "Rollo ME"
+      ],
+      "title": "A review of pregnancy iPhone apps assessing their quality, inclusion of behaviour change techniques, and nutrition information",
+      "journal": "Matern Child Nutr",
+      "year": "2019",
+      "volume": "15",
+      "issue": "3",
+      "elocation_id": "e12768",
+      "doi": "10.1111/mcn.12768",
+      "pmid": "30569549",
+      "pmc_id": "PMC7650606"
     }
   ]
 }

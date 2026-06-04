@@ -12,7 +12,8 @@
     "pmc_id": "PMC13149990",
     "pmid": "42091689",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 46
   },
   "sections": [
     {
@@ -109,6 +110,715 @@
       "section": "Conclusion",
       "text": "PORT after in operated high-risk salivary gland cancer patients is the standard of care. However, the overall survival of many of these patients remains unsatisfactory. So far, there is no clear evidence of the benefits of PORCT after surgery for salivary gland cancer. This meta-analysis was performed to determine whether PORCT leads to better prognosis than PORT in patients undergoing primary surgery for salivary gland cancer. A total of 11 retrospective clinical studies including 26,612 adult patients were analyzed. The meta-analysis could not demonstrate a benefit of PORCT compared to PORT with regard to overall survival. To avoid overinterpretation of the non-significant findings, it should be emphasized that there was substantial clinical heterogeneity across the included studies in terms of histology, primary tumor site (major vs. minor salivary glands), stage distribution, and treatment protocols (including chemotherapy regimens and radiotherapy techniques). The retrospective design of the included studies and this heterogeneity resulted in a high degree of uncertainty about the treatment effects. Treatment effects may differ across specific subgroups. More robust data from high-quality cohort studies or randomized controlled studies are urgently needed. Therefore, the results of the RTOG-1008 phase II/III trial will be very important. This trial will answer the question whether patients with operated high-risk salivary gland carcinoma benefit from PORCT with cisplatin compared with PORT. Beyond this, there is an urgent need for alternatives to classical chemotherapy as adjuvant treatment in patients with operated high-risk salivary gland cancer.",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Joshi NP",
+        "Broughman JR"
+      ],
+      "title": "Postoperative management of salivary gland tumors.",
+      "journal": "Curr. Treat. Options. Oncol.",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "23",
+      "doi": "10.1007/s11864-021-00820-9",
+      "pmid": "33560478"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Scarpa A",
+        "et al."
+      ],
+      "title": "Post-operative radiotherapy in adenoid cystic carcinoma of salivary glands versus surgery alone: What is the evidence about survival and local control? A systematic review and meta-analysis",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2024",
+      "volume": "281",
+      "fpage": "563",
+      "lpage": "571",
+      "doi": "10.1007/s00405-023-08252-x",
+      "pmid": "37796320"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Wang J",
+        "et al."
+      ],
+      "title": "The current position of postoperative radiotherapy for salivary gland cancer: A systematic review and meta-analysis.",
+      "journal": "Cancers",
+      "year": "2024",
+      "doi": "10.3390/cancers16132375",
+      "pmid": "39001437",
+      "pmc_id": "PMC11240508"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Bernier J",
+        "Cooper JS"
+      ],
+      "title": "Chemoradiation after surgery for high-risk head and neck cancer patients: How strong is the evidence?",
+      "journal": "Oncologist",
+      "year": "2005",
+      "volume": "10",
+      "fpage": "215",
+      "lpage": "224",
+      "doi": "10.1634/theoncologist.10-3-215",
+      "pmid": "15793225"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Guntinas-Lichius O",
+        "et al."
+      ],
+      "title": "Incidence, treatment, and outcome of parotid carcinoma, 1996–2011: A population-based study in Thuringia, Germany",
+      "journal": "J. Cancer Res. Clin. Oncol.",
+      "year": "2015",
+      "volume": "141",
+      "fpage": "1679",
+      "lpage": "1688",
+      "doi": "10.1007/s00432-015-1961-y",
+      "pmid": "25800621",
+      "pmc_id": "PMC11824054"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Arya S",
+        "Kaji AH",
+        "Boermeester MA"
+      ],
+      "title": "PRISMA reporting guidelines for meta-analyses and systematic reviews",
+      "journal": "JAMA Surg.",
+      "year": "2021",
+      "volume": "156",
+      "fpage": "789",
+      "lpage": "790",
+      "doi": "10.1001/jamasurg.2021.0546",
+      "pmid": "33825806"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Chiaravalli S",
+        "et al."
+      ],
+      "title": "Salivary gland carcinomas in children and adolescents: The Italian TREP project experience",
+      "journal": "Pediatr. Blood Cancer",
+      "year": "2014",
+      "volume": "61",
+      "fpage": "1961",
+      "lpage": "1968",
+      "doi": "10.1002/pbc.25139",
+      "pmid": "25132368"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "raw_citation": "National Cancer Institute. Common Terminology Criteria for Adverse Events (CTCAE) . https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm (2025)."
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Tierney JF",
+        "Stewart LA",
+        "Ghersi D",
+        "Burdett S",
+        "Sydes MR"
+      ],
+      "title": "Practical methods for incorporating summary time-to-event data into meta-analysis",
+      "journal": "Trials",
+      "year": "2007",
+      "volume": "8",
+      "fpage": "16",
+      "doi": "10.1186/1745-6215-8-16",
+      "pmid": "17555582",
+      "pmc_id": "PMC1920534"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Spruance SL",
+        "Reid JE",
+        "Grace M",
+        "Samore M"
+      ],
+      "title": "Hazard ratio in clinical trials",
+      "journal": "Antimicrob. Agents Chemother.",
+      "year": "2004",
+      "volume": "48",
+      "fpage": "2787",
+      "lpage": "2792",
+      "doi": "10.1128/aac.48.8.2787-2792.2004",
+      "pmid": "15273082",
+      "pmc_id": "PMC478551"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Cox DR"
+      ],
+      "title": "Regression models and life-tables",
+      "journal": "J. R. Stat. Soc. B",
+      "year": "1972",
+      "volume": "34",
+      "fpage": "186",
+      "lpage": "202",
+      "doi": "10.1111/j.2517-6161.1972.tb00899.x"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Balduzzi S",
+        "Rücker G",
+        "Schwarzer G"
+      ],
+      "title": "How to perform a meta-analysis with R: A practical tutorial",
+      "journal": "Evid. Based Ment. Health",
+      "year": "2019",
+      "volume": "22",
+      "fpage": "153",
+      "lpage": "160",
+      "doi": "10.1136/ebmental-2019-300117",
+      "pmid": "31563865",
+      "pmc_id": "PMC10231495"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Viechtbauer W"
+      ],
+      "title": "Conducting meta-analyses in R with the metafor package",
+      "journal": "J. Stat. Softw.",
+      "year": "2010",
+      "volume": "36",
+      "fpage": "1",
+      "lpage": "48",
+      "doi": "10.18637/jss.v036.i03"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "raw_citation": "Harrer, M., Cuijpers, P., Furukawa, T. & Ebert, D. D. dmetar: Companion R Package For The Guide ‘Doing Meta-Analysis in R’. R package version 0.1.0. (2019)."
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "raw_citation": "Schwarzer, G., Carpenter, J. R. & Rücker, G. Statistical Methods for Sensitivity Analysis in Meta-Analysis - Package ‘metasens’ , https://link.springer.com/book/ , 10.1007/978-3-319-21416-0> (2019)."
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Hartung J",
+        "Knapp G"
+      ],
+      "title": "A refined method for the meta-analysis of controlled clinical trials with binary outcome",
+      "journal": "Stat. Med.",
+      "year": "2001",
+      "volume": "20",
+      "fpage": "3875",
+      "lpage": "3889",
+      "doi": "10.1002/sim.1009",
+      "pmid": "11782040"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Higgins JP",
+        "Thompson SG"
+      ],
+      "title": "Quantifying heterogeneity in a meta-analysis",
+      "journal": "Stat. Med.",
+      "year": "2002",
+      "volume": "21",
+      "fpage": "1539",
+      "lpage": "1558",
+      "doi": "10.1002/sim.1186",
+      "pmid": "12111919"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Egger M",
+        "Davey Smith G",
+        "Schneider M",
+        "Minder C"
+      ],
+      "title": "Bias in meta-analysis detected by a simple, graphical test",
+      "journal": "BMJ",
+      "year": "1997",
+      "volume": "315",
+      "fpage": "629",
+      "lpage": "634",
+      "doi": "10.1136/bmj.315.7109.629",
+      "pmid": "9310563",
+      "pmc_id": "PMC2127453"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Baujat B",
+        "Mahé C",
+        "Pignon JP",
+        "Hill C"
+      ],
+      "title": "A graphical method for exploring heterogeneity in meta-analyses: Application to a meta-analysis of 65 trials",
+      "journal": "Stat. Med.",
+      "year": "2002",
+      "volume": "21",
+      "fpage": "2641",
+      "lpage": "2652",
+      "doi": "10.1002/sim.1221",
+      "pmid": "12228882"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Viechtbauer W",
+        "Cheung MW"
+      ],
+      "title": "Outlier and influence diagnostics for meta-analysis",
+      "journal": "Res. Synth. Methods",
+      "year": "2010",
+      "volume": "1",
+      "fpage": "112",
+      "lpage": "125",
+      "doi": "10.1002/jrsm.11",
+      "pmid": "26061377"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Amini A",
+        "et al."
+      ],
+      "title": "Association of adjuvant chemoradiotherapy vs radiotherapy alone with survival in patients with resected major salivary gland carcinoma: Data from the National Cancer Data Base",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2016",
+      "volume": "142",
+      "fpage": "1100",
+      "lpage": "1110",
+      "doi": "10.1001/jamaoto.2016.2168",
+      "pmid": "27541166"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Cheraghlou S",
+        "et al."
+      ],
+      "title": "Adjuvant therapy in major salivary gland cancers: Analysis of 8580 patients in the National Cancer Database",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "fpage": "1343",
+      "lpage": "1355",
+      "doi": "10.1002/hed.24984",
+      "pmid": "29756412"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Gordon AJ",
+        "et al."
+      ],
+      "title": "Adoption of adjuvant chemotherapy in high-risk salivary gland malignancies",
+      "journal": "Head Neck",
+      "year": "2023",
+      "volume": "45",
+      "fpage": "167",
+      "lpage": "177",
+      "doi": "10.1002/hed.27222",
+      "pmid": "36245302"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Torabi SJ",
+        "et al."
+      ],
+      "title": "Multi-modality treatment and survival in sinonasal minor salivary gland tumors",
+      "journal": "Journal of Neurological Surgery Part B: Skull Base",
+      "year": "2020",
+      "volume": "81",
+      "fpage": "198",
+      "lpage": "205",
+      "doi": "10.1055/s-0039-1683437",
+      "pmid": "32206540",
+      "pmc_id": "PMC7082160"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Yan F",
+        "et al."
+      ],
+      "title": "Timing of postoperative radiation therapy for major salivary gland cancers",
+      "journal": "Head Neck",
+      "year": "2024",
+      "volume": "46",
+      "fpage": "2861",
+      "lpage": "2869",
+      "doi": "10.1002/hed.27845",
+      "pmid": "38864240"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Kang NW",
+        "et al."
+      ],
+      "title": "No survival benefit from adding chemotherapy to adjuvant radiation in advanced major salivary gland cancer",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "20862",
+      "doi": "10.1038/s41598-022-25468-9",
+      "pmid": "36460788",
+      "pmc_id": "PMC9718855"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Onderdonk BE",
+        "et al."
+      ],
+      "title": "Adjuvant treatment for high-risk salivary gland malignancies and prognostic stratification based on a 20-year single institution experience",
+      "journal": "Health Sci. Rep.",
+      "year": "2020",
+      "volume": "3",
+      "fpage": "e195",
+      "doi": "10.1002/hsr2.195",
+      "pmid": "33043152",
+      "pmc_id": "PMC7539565"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Qiu Z",
+        "et al."
+      ],
+      "title": "Platinum-based adjuvant chemoradiotherapy versus adjuvant radiotherapy in patients with head and neck adenoid cystic carcinoma",
+      "journal": "J. Cancer Res. Clin. Oncol.",
+      "year": "2024",
+      "volume": "150",
+      "fpage": "195",
+      "doi": "10.1007/s00432-024-05719-0",
+      "pmid": "38625410",
+      "pmc_id": "PMC11021222"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Tanvetyanon T",
+        "et al."
+      ],
+      "title": "Adjuvant chemoradiotherapy versus with radiotherapy alone for locally advanced salivary gland carcinoma among older patients",
+      "journal": "Head Neck",
+      "year": "2016",
+      "volume": "38",
+      "fpage": "863",
+      "lpage": "870",
+      "doi": "10.1002/hed.24172",
+      "pmid": "26340707"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Xu P",
+        "et al."
+      ],
+      "title": "Outcome of adenoid cystic carcinoma of head and neck after postoperative intensity modulation radiotherapy: A single institution study",
+      "journal": "Cancer Manag. Res.",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "2411",
+      "lpage": "2417",
+      "doi": "10.2147/cmar.S283494",
+      "pmid": "33758540",
+      "pmc_id": "PMC7979337"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "van Herpen C",
+        "et al."
+      ],
+      "title": "Salivary gland cancer: ESMO-European Reference Network on Rare Adult Solid Cancers (EURACAN) clinical practice guideline for diagnosis, treatment and follow-up",
+      "journal": "ESMO Open",
+      "year": "2022",
+      "volume": "7",
+      "fpage": "100602",
+      "doi": "10.1016/j.esmoop.2022.100602",
+      "pmid": "36567082",
+      "pmc_id": "PMC9808465"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Geiger JL",
+        "et al."
+      ],
+      "title": "Management of salivary gland malignancy: ASCO guideline",
+      "journal": "J. Clin. Oncol.",
+      "year": "2021",
+      "volume": "39",
+      "fpage": "1909",
+      "lpage": "1941",
+      "doi": "10.1200/JCO.21.00449",
+      "pmid": "33900808"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Locati LD",
+        "et al."
+      ],
+      "title": "Current management and future challenges in salivary glands cancer",
+      "journal": "Front. Oncol.",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1264287",
+      "doi": "10.3389/fonc.2023.1264287",
+      "pmid": "37795454",
+      "pmc_id": "PMC10546333"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Turchan WT",
+        "Korpics MC",
+        "Rooney M",
+        "Koshy M",
+        "Spiotto MT"
+      ],
+      "title": "Impact of anatomic site of distant metastasis on survival in salivary gland cancers",
+      "journal": "Head Neck",
+      "year": "2021",
+      "volume": "43",
+      "fpage": "2589",
+      "lpage": "2601",
+      "doi": "10.1002/hed.26727",
+      "pmid": "33961718",
+      "pmc_id": "PMC8662576"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Freitag V",
+        "et al."
+      ],
+      "title": "High-grade salivary gland cancer: Is surgery followed by radiotherapy an adequate treatment to reach tumor control? Results from a tertiary referral centre focussing on incidence and management of distant metastases",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2022",
+      "volume": "279",
+      "fpage": "2553",
+      "lpage": "2563",
+      "doi": "10.1007/s00405-021-07024-9",
+      "pmid": "34436631",
+      "pmc_id": "PMC8986716"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Rühle A",
+        "et al."
+      ],
+      "title": "Radiation-induced toxicities and outcomes after radiotherapy are independent of patient age in elderly salivary gland cancer patients: Results from a matched-pair analysis of a rare disease",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2021",
+      "volume": "278",
+      "fpage": "2537",
+      "lpage": "2548",
+      "doi": "10.1007/s00405-020-06393-x",
+      "pmid": "33000299",
+      "pmc_id": "PMC8165074"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Taylor KJ",
+        "et al."
+      ],
+      "title": "Serious long-term effects of head and neck cancer from the survivors’ point of view.",
+      "journal": "Healthcare",
+      "year": "2023",
+      "doi": "10.3390/healthcare11060906",
+      "pmid": "36981562",
+      "pmc_id": "PMC10048748"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Taylor KJ",
+        "et al."
+      ],
+      "title": "Long-term health-related quality of life in head and neck cancer survivors: A large multinational study",
+      "journal": "Int. J. Cancer",
+      "year": "2024",
+      "volume": "154",
+      "fpage": "1772",
+      "lpage": "1785",
+      "doi": "10.1002/ijc.34861",
+      "pmid": "38312044"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Fasano M",
+        "et al."
+      ],
+      "title": "Immunotherapy for head and neck cancer: Present and future",
+      "journal": "Crit. Rev. Oncol. Hematol.",
+      "year": "2022",
+      "volume": "174",
+      "fpage": "103679",
+      "doi": "10.1016/j.critrevonc.2022.103679",
+      "pmid": "35395371"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Vos JL",
+        "et al."
+      ],
+      "title": "Nivolumab plus ipilimumab in advanced salivary gland cancer: A phase 2 trial",
+      "journal": "Nat. Med.",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "3077",
+      "lpage": "3089",
+      "doi": "10.1038/s41591-023-02518-x",
+      "pmid": "37620627",
+      "pmc_id": "PMC11293616"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Hanna GJ",
+        "et al."
+      ],
+      "title": "The benefits of adjuvant Trastuzumab for HER-2-Positive salivary gland cancers",
+      "journal": "Oncologist",
+      "year": "2020",
+      "volume": "25",
+      "fpage": "598",
+      "lpage": "608",
+      "doi": "10.1634/theoncologist.2019-0841",
+      "pmid": "32310325",
+      "pmc_id": "PMC7356716"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "van Boxtel W",
+        "et al."
+      ],
+      "title": "Adjuvant androgen deprivation therapy for poor-risk, androgen receptor-positive salivary duct carcinoma",
+      "journal": "Eur. J. Cancer",
+      "year": "2019",
+      "volume": "110",
+      "fpage": "62",
+      "lpage": "70",
+      "doi": "10.1016/j.ejca.2018.12.035",
+      "pmid": "30771738"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "raw_citation": "Guntinas-Lichius, O. et al. Salivary Gland Carcinomas. Onkopedia guidelines. (2024). https://www.onkopedia.com/en/onkopedia/guidelines/salivary-gland-carcinomas/@@guideline/html/index.html"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Hsieh CE",
+        "et al."
+      ],
+      "title": "Adding concurrent chemotherapy to postoperative radiotherapy improves locoregional control but not overall survival in patients with salivary gland adenoid cystic carcinoma-a propensity score matched study",
+      "journal": "Radiat. Oncol.",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "47",
+      "doi": "10.1186/s13014-016-0617-7",
+      "pmid": "27000157",
+      "pmc_id": "PMC4802842"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Yan W",
+        "et al."
+      ],
+      "title": "Postoperative chemoradiotherapy versus radiotherapy alone in major salivary gland cancers: A stratified study based on the external validation of the distant metastasis risk score model.",
+      "journal": "Cancers",
+      "year": "2022",
+      "doi": "10.3390/cancers14225583",
+      "pmid": "36428676",
+      "pmc_id": "PMC9688786"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Zhang D",
+        "Li L",
+        "Wen T",
+        "Ma F"
+      ],
+      "title": "Clinical value of adjuvant therapy on the prognosis of ductal carcinoma of the major salivary gland: A large-scale cohort study",
+      "journal": "Eur. Arch. Otorhinolaryngo.",
+      "year": "2023",
+      "volume": "280",
+      "fpage": "409",
+      "lpage": "417",
+      "doi": "10.1007/s00405-022-07599-x",
+      "pmid": "36036273"
     }
   ]
 }

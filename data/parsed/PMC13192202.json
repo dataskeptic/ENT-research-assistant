@@ -27,7 +27,8 @@
     "pmc_id": "PMC13192202",
     "pmid": "42157179",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 18
   },
   "sections": [
     {
@@ -124,6 +125,349 @@
       "section": "Conclusion",
       "text": "Altogether, our findings demonstrate that ddPCR offers a robust, sensitive, and highly specific platform for the detection and monitoring of HPV status in HNSCC patients. In primary tumor tissue, ddPCR outperforms p16 INK4a IHC in specificity while maintaining comparable sensitivity when applied to tumor-derived gDNA. Its ability to detect both the presence and transcriptional activity of the viral oncogenes HPV16 E6/E7 further enhances diagnostic precision and prognostic stratification. Our data also highlight the utility of liquid biopsy specimens for HPV detection. At baseline, plasma and oral rinse samples showed strong concordance with tumor-derived results and demonstrated no false-positive findings in healthy controls, supporting liquid biopsy as a viable alternative when tumor tissue is inaccessible or insufficient. Longitudinal analyses further indicate that serial ddPCR testing can provide clinically relevant information for monitoring treatment response. The observed patterns of HPV clearance following surgery and the loss of HPV clearance prior to radiologically confirmed recurrence underscore the potential of ddPCR-based assays as a prognostic tool in patient surveillance. OPSCC-specific analyses reinforce these conclusions. Even within the oropharynx where p16 IHC traditionally achieves its highest diagnostic performance ddPCR identified transcriptionally active HPV16 in only 9 of 14 p16-positive tumors, whereas 5 OPSCCs showed p16 overexpression without molecular evidence of HPV16. Conversely, ddPCR detected one p16-negative but HPV16-positive OPSCC case. These findings demonstrate that ddPCR improves diagnostic specificity and prevents misclassification even in the anatomical subsite where surrogate marker performance is strongest. High concordance across tumor tissue, plasma, and oral rinse in truly HPV16-driven OPSCC further supports ddPCR as a biologically grounded diagnostic and monitoring tool. However, given the small number of recurrence events with HPV re-detection in our cohort, further studies in larger, prospectively collected populations are required to refine the sensitivity of this approach and to elucidate biological determinants of variable HPV shedding. While ddPCR-based HPV detection in liquid biopsies is a promising adjunct for postoperative monitoring, its application for screening asymptomatic or unselected at-risk populations remains exploratory and requires rigorous evaluation before clinical implementation.",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Soerjomataram I",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "issue": "3",
+      "fpage": "229",
+      "lpage": "63",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Vigneswaran N",
+        "Williams MD"
+      ],
+      "title": "Epidemiologic trends in head and neck cancer and aids in diagnosis",
+      "journal": "Oral Maxillofac Surg Clin N Am",
+      "year": "2014",
+      "volume": "26",
+      "issue": "2",
+      "fpage": "123",
+      "lpage": "41",
+      "doi": "10.1016/j.coms.2014.01.001",
+      "pmc_id": "PMC4040236",
+      "pmid": "24794262"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Chaturvedi AK",
+        "Graubard BI",
+        "Broutian T",
+        "Pickard RKL",
+        "Tong Z",
+        "Xiao W",
+        "et al."
+      ],
+      "title": "NHANES 2009–2012 findings: association of sexual behaviors with higher prevalence of oral oncogenic human papillomavirus infections in U.S",
+      "journal": "Men. Cancer Res",
+      "year": "2015",
+      "volume": "75",
+      "fpage": "2468",
+      "lpage": "77",
+      "doi": "10.1158/0008-5472.can-14-2843",
+      "pmid": "25873485",
+      "pmc_id": "PMC4470779"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Johnson DE",
+        "Burtness B",
+        "Leemans CR",
+        "Lui VWY",
+        "Bauman JE",
+        "Grandis JR"
+      ],
+      "title": "Head and neck squamous cell carcinoma",
+      "journal": "Nat Rev Dis Prim",
+      "year": "2020",
+      "volume": "6",
+      "fpage": "92",
+      "doi": "10.1038/s41572-020-00224-3",
+      "pmid": "33243986",
+      "pmc_id": "PMC7944998"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Martel CD",
+        "Plummer M",
+        "Vignat J",
+        "Franceschi S"
+      ],
+      "title": "Worldwide burden of cancer attributable to HPV by site, country and HPV type",
+      "journal": "Int. J Cancer",
+      "year": "2017",
+      "volume": "141",
+      "fpage": "664",
+      "lpage": "70",
+      "doi": "10.1002/ijc.30716",
+      "pmid": "28369882",
+      "pmc_id": "PMC5520228"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Ang KK",
+        "Harris J",
+        "Wheeler R",
+        "Weber R",
+        "Rosenthal I",
+        "Nguyen-Tân PF",
+        "et al."
+      ],
+      "title": "Human papillomavirus and survival of patients with oropharyngeal cancer",
+      "journal": "N Engl J Med",
+      "year": "2010",
+      "volume": "363",
+      "issue": "1",
+      "fpage": "24",
+      "lpage": "35",
+      "doi": "10.1056/nejmoa0912217",
+      "pmid": "20530316",
+      "pmc_id": "PMC2943767"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Spiotto MT",
+        "Taniguchi CM",
+        "Klopp AH",
+        "Colbert LE",
+        "Lin SH",
+        "Wang L",
+        "et al."
+      ],
+      "title": "Biology of the radio- and chemo-responsiveness in HPV malignancies",
+      "journal": "Semin Radiat Oncol",
+      "year": "2021",
+      "volume": "31",
+      "fpage": "274",
+      "lpage": "85",
+      "doi": "10.1016/j.semradonc.2021.02.009",
+      "pmid": "34455983",
+      "pmc_id": "PMC8689584"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Prigge E",
+        "Arbyn M",
+        "Doeberitz MVK",
+        "Reuschenbach M"
+      ],
+      "title": "Diagnostic accuracy of p16INK4a immunohistochemistry in oropharyngeal squamous cell carcinomas: a systematic review and meta-analysis",
+      "journal": "Int. J Cancer",
+      "year": "2017",
+      "volume": "140",
+      "issue": "5",
+      "fpage": "1186",
+      "lpage": "98",
+      "doi": "10.1002/ijc.30516",
+      "pmid": "27859245"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Lewis JS"
+      ],
+      "title": "p16 immunohistochemistry as a standalone test for risk stratification in oropharyngeal squamous cell carcinoma",
+      "journal": "Head Neck Pathol",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "75",
+      "lpage": "82",
+      "doi": "10.1007/s12105-012-0369-0",
+      "pmid": "22782226",
+      "pmc_id": "PMC3394161"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Smeets SJ",
+        "Hesselink AT",
+        "Speel EM",
+        "Haesevoets A",
+        "Snijders PJF",
+        "Pawlita M",
+        "et al."
+      ],
+      "title": "A novel algorithm for reliable detection of human papillomavirus in paraffin embedded head and neck cancer specimen",
+      "journal": "Int. J Cancer",
+      "year": "2007",
+      "volume": "121",
+      "fpage": "2465",
+      "lpage": "72",
+      "doi": "10.1002/ijc.22980",
+      "pmid": "17680565"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "doi": "10.1002/hed.21269",
+      "pmid": "19787782"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Crowley E",
+        "Nicolantonio FD",
+        "Loupakis F",
+        "Bardelli A"
+      ],
+      "title": "Liquid biopsy: monitoring cancer-genetics in the blood",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2013",
+      "volume": "10",
+      "issue": "8",
+      "fpage": "472",
+      "lpage": "84",
+      "doi": "10.1038/nrclinonc.2013.110",
+      "pmid": "23836314"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Alix-Panabières C",
+        "Pantel K"
+      ],
+      "title": "Circulating tumor cells: liquid biopsy of cancer",
+      "journal": "Clin Chem",
+      "year": "2013",
+      "volume": "59",
+      "fpage": "110",
+      "lpage": "18",
+      "doi": "10.1373/clinchem.2012.194258",
+      "pmid": "23014601"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Ma L",
+        "Guo H",
+        "Zhao Y",
+        "et al."
+      ],
+      "title": "Liquid biopsy in cancer: current status, challenges and future prospects",
+      "journal": "Sig Transduct Target Ther",
+      "year": "2024",
+      "volume": "9",
+      "fpage": "336",
+      "doi": "10.1038/s41392-024-02021-w",
+      "pmc_id": "PMC11609310",
+      "pmid": "39617822"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Sheriff S",
+        "Saba M",
+        "Patel R",
+        "et al."
+      ],
+      "title": "A scoping review of factors influencing the implementation of liquid biopsy for cancer care",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2025",
+      "volume": "44",
+      "fpage": "50",
+      "doi": "10.1186/s13046-025-03322-w",
+      "pmid": "39934875",
+      "pmc_id": "PMC11817833"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Elm EV",
+        "Altman DG",
+        "Egger M",
+        "Pocock SJ",
+        "Gøtzsche PC",
+        "Vandenbroucke JP",
+        "et al."
+      ],
+      "title": "The strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies",
+      "journal": "Lancet",
+      "year": "2007",
+      "volume": "370",
+      "fpage": "1453",
+      "lpage": "57",
+      "doi": "10.1016/s0140-6736(07)61602-x",
+      "pmid": "18064739"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Kuhs KAL",
+        "Brenner JC",
+        "Holsinger FC",
+        "Rettig EM"
+      ],
+      "title": "Circulating tumor HPV DNA for Surveillance of HPV-Positive oropharyngeal squamous cell carcinoma: a narrative review",
+      "journal": "JAMA Oncol",
+      "year": "2023",
+      "volume": "9",
+      "issue": "12",
+      "fpage": "1716",
+      "lpage": "24",
+      "doi": "10.1001/jamaoncol.2023.4042",
+      "pmid": "37824111",
+      "pmc_id": "PMC12011137"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Lechner M",
+        "Frampton GM",
+        "Fenton T",
+        "Feber A",
+        "Palmer G",
+        "Jay A",
+        "et al."
+      ],
+      "title": "Targeted next-generation sequencing of head and neck squamous cell carcinoma identifies novel genetic alterations in HPV+ and HPV- tumors",
+      "journal": "Genome Med",
+      "year": "2013",
+      "volume": "5",
+      "fpage": "49",
+      "doi": "10.1186/gm453",
+      "pmid": "23718828",
+      "pmc_id": "PMC4064312"
     }
   ]
 }

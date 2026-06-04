@@ -26,7 +26,8 @@
     "pmc_id": "PMC13179888",
     "pmid": "42143176",
     "full_text_available": true,
-    "section_count": 25
+    "section_count": 25,
+    "reference_count": 69
   },
   "sections": [
     {
@@ -153,6 +154,1023 @@
       "section": "Conclusion",
       "text": "Future directions in VS research include: (1) integrating multi-omic profiling (genome, methylome, transcriptome) into routine evaluation to classify tumors by pathway dependencies and immune/angiogenic states (IES vs. IDS); (2) conducting biomarker-stratified clinical trials with standardized volumetric measures and co-primary, patient-relevant functional endpoints; and (3) validating combinatorial signaling and epigenetic therapies to identify synergistic treatment strategies. Clinically, success should be defined by durable tumor control with maximal preservation of patient-relevant outcomes such as hearing and facial nerve function. Advances in biological insight, therapeutic precision, clinical trial design, and patient-centered care are expected to shift VS management from invasive default approaches toward personalized, mechanism-based strategies that prioritize quality of life.",
       "order": 24
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "doi": "10.3389/fonc.2021.655260",
+      "pmc_id": "PMC8079768",
+      "pmid": "33937063"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "L CM JLM"
+      ],
+      "title": "Vestibular Schwannomas",
+      "journal": "N Engl J Med",
+      "year": "2021",
+      "volume": "384",
+      "fpage": "1335",
+      "lpage": "1348",
+      "doi": "10.1056/NEJMra2020394",
+      "pmid": "33826821"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Bin-Alamer O",
+        "Osama M",
+        "Sheehan JP"
+      ],
+      "title": "The evolution of stereotactic radiosurgery for vestibular schwannomas: recent evidence and outcomes",
+      "journal": "J Neurooncol",
+      "year": "2025",
+      "volume": "176",
+      "fpage": "1",
+      "doi": "10.1007/s11060-025-05252-1",
+      "pmid": "41085808",
+      "pmc_id": "PMC12521331"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.1227/neu.0000000000003508",
+      "pmid": "40372032"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "pmid": "29517885"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "raw_citation": "Evans DG (1998) NF2-related schwannomatosis. National Library of Medicine"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Colciago A",
+        "Melfi S",
+        "Giannotti G",
+        "et al."
+      ],
+      "title": "Tumor suppressor Nf2/merlin drives Schwann cell changes following electromagnetic field exposure through Hippo-dependent mechanisms",
+      "journal": "Cell Death Discov",
+      "year": "2015",
+      "volume": "1",
+      "fpage": "15021",
+      "doi": "10.1038/cddiscovery.2015.21",
+      "pmid": "27551454",
+      "pmc_id": "PMC4979489"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Tsuchiya T",
+        "Miyawaki S",
+        "Teranishi Y",
+        "et al."
+      ],
+      "title": "Current molecular understanding of central nervous system schwannomas",
+      "journal": "Acta Neuropathol Commun",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "24",
+      "doi": "10.1186/s40478-025-01937-w",
+      "pmid": "39910685",
+      "pmc_id": "PMC11796276"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "doi": "10.3390/cancers13236032",
+      "pmc_id": "PMC8657309",
+      "pmid": "34885143"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "raw_citation": "Mubbashir MS, De Jesus O (2023) Vestibular schwannoma. National Library of Medicine"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Torres-Martín M",
+        "Lassaletta L",
+        "de Campos JM",
+        "et al."
+      ],
+      "title": "Genome-wide methylation analysis in vestibular schwannomas shows putative mechanisms of gene expression modulation and global hypomethylation at the HOX gene cluster",
+      "journal": "Genes Chromosomes Cancer",
+      "year": "2015",
+      "volume": "54",
+      "fpage": "197",
+      "lpage": "209",
+      "doi": "10.1002/gcc.22232",
+      "pmid": "25533176"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Zhao F",
+        "Teng X-F",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "Multiplatform molecular analyses reveal two molecular subgroups of NF2-related schwannomatosis vestibular schwannomas with distinct tumour microenvironment and therapeutic vulnerabilities",
+      "journal": "Acta Neuropathol",
+      "year": "2025",
+      "volume": "149",
+      "fpage": "47",
+      "doi": "10.1007/s00401-025-02883-6",
+      "pmid": "40343504"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Bush ML",
+        "Oblinger J",
+        "Brendel V",
+        "et al."
+      ],
+      "title": "AR42, a novel histone deacetylase inhibitor, as a potential therapy for vestibular schwannomas and meningiomas",
+      "journal": "Neuro Oncol",
+      "year": "2011",
+      "volume": "13",
+      "fpage": "983",
+      "lpage": "999",
+      "doi": "10.1093/neuonc/nor072",
+      "pmid": "21778190",
+      "pmc_id": "PMC3158011"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Doddrell RDS",
+        "Dun X-P",
+        "Shivane A",
+        "et al."
+      ],
+      "title": "Loss of SOX10 function contributes to the phenotype of human Merlin-null schwannoma cells",
+      "journal": "Brain",
+      "year": "2013",
+      "volume": "136",
+      "fpage": "549",
+      "lpage": "563",
+      "doi": "10.1093/brain/aws353",
+      "pmid": "23413263",
+      "pmc_id": "PMC3572932"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Lee JD",
+        "Kwon TJ",
+        "Kim U-K",
+        "Lee W-S"
+      ],
+      "title": "Genetic and Epigenetic Alterations of the NF2 Gene in Sporadic Vestibular Schwannomas",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e30418",
+      "doi": "10.1371/journal.pone.0030418",
+      "pmid": "22295085",
+      "pmc_id": "PMC3266248"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "doi": "10.1093/noajnl/vdad099",
+      "pmc_id": "PMC10496940",
+      "pmid": "37706198"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "doi": "10.1016/bs.acr.2025.09.002",
+      "pmid": "41198343"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Evans DG",
+        "Trueman L",
+        "Wallace A",
+        "et al."
+      ],
+      "title": "Genotype/phenotype correlations in type 2 neurofibromatosis (NF2): evidence for more severe disease associated with truncating mutations",
+      "journal": "J Med Genet",
+      "year": "1998",
+      "volume": "35",
+      "fpage": "450",
+      "doi": "10.1136/jmg.35.6.450",
+      "pmid": "9643284",
+      "pmc_id": "PMC1051337"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Plotkin SR",
+        "Duda DG",
+        "Muzikansky A",
+        "et al."
+      ],
+      "title": "Multicenter, Prospective, Phase II and Biomarker Study of High-Dose Bevacizumab as Induction Therapy in Patients With Neurofibromatosis Type 2 and Progressive Vestibular Schwannoma",
+      "journal": "J Clin Oncol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "3446",
+      "lpage": "3454",
+      "doi": "10.1200/JCO.19.01367",
+      "pmid": "31626572",
+      "pmc_id": "PMC7098833"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Goutagny S",
+        "Raymond E",
+        "Esposito-Farese M",
+        "et al."
+      ],
+      "title": "Phase II study of mTORC1 inhibition by everolimus in neurofibromatosis type 2 patients with growing vestibular schwannomas",
+      "journal": "J Neurooncol",
+      "year": "2015",
+      "volume": "122",
+      "fpage": "313",
+      "lpage": "320",
+      "doi": "10.1007/s11060-014-1710-0",
+      "pmid": "25567352"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Zhao F",
+        "Li S",
+        "Zhang S",
+        "et al."
+      ],
+      "title": "Phase II trial of icotinib in adult patients with neurofibromatosis type 2 and progressive vestibular schwannoma",
+      "journal": "J Neurosurg",
+      "year": "2023",
+      "volume": "138",
+      "fpage": "1680",
+      "lpage": "1687",
+      "doi": "10.3171/2022.9.JNS22699",
+      "pmid": "36272122"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Karajannis MA",
+        "Legault G",
+        "Hagiwara M",
+        "et al."
+      ],
+      "title": "Phase II trial of lapatinib in adult and pediatric patients with neurofibromatosis type 2 and progressive vestibular schwannomas",
+      "journal": "Neuro Oncol",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "1163",
+      "lpage": "1170",
+      "doi": "10.1093/neuonc/nos146",
+      "pmid": "22844108",
+      "pmc_id": "PMC3424212"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Plotkin SR",
+        "Yohay K",
+        "Nghiemphu P",
+        "et al."
+      ],
+      "title": "Brigatinib in NF2-Related Schwannomatosis with Progressive Tumors",
+      "journal": "N Engl J Med",
+      "year": "2024",
+      "volume": "390",
+      "fpage": "2284",
+      "lpage": "2294",
+      "doi": "10.1056/NEJMoa2400985",
+      "pmid": "38904277"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Gregory GE",
+        "Jones AP",
+        "Haley MJ",
+        "et al."
+      ],
+      "title": "The comparable tumour microenvironment in sporadic and NF2-related schwannomatosis vestibular schwannoma",
+      "journal": "Brain Commun",
+      "year": "2023",
+      "volume": "5",
+      "fpage": "fcad197",
+      "doi": "10.1093/braincomms/fcad197",
+      "pmid": "37680691",
+      "pmc_id": "PMC10481781"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Håvik AL",
+        "Bruland O",
+        "Myrseth E",
+        "et al."
+      ],
+      "title": "Genetic landscape of sporadic vestibular schwannoma",
+      "journal": "J Neurosurg JNS",
+      "year": "2018",
+      "volume": "128",
+      "fpage": "911",
+      "lpage": "922",
+      "doi": "10.3171/2016.10.JNS161384",
+      "pmid": "28409725"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Agnihotri S",
+        "Jalali S",
+        "Wilson MR",
+        "et al."
+      ],
+      "title": "The genomic landscape of schwannoma",
+      "journal": "Nat Genet",
+      "year": "2016",
+      "volume": "48",
+      "fpage": "1339",
+      "lpage": "1348",
+      "doi": "10.1038/ng.3688",
+      "pmid": "27723760"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Wakabayashi T",
+        "Wasano K",
+        "Nakamura K",
+        "et al."
+      ],
+      "title": "Comprehensive Genetic Analysis of NF2 in Sporadic Vestibular Schwannoma",
+      "journal": "Laryngoscope Investig Otolaryngol",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "e70265",
+      "doi": "10.1002/lio2.70265",
+      "pmid": "41019916",
+      "pmc_id": "PMC12475970"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Evans DGR",
+        "Ramsden RT",
+        "Shenton A",
+        "et al."
+      ],
+      "title": "Mosaicism in neurofibromatosis type 2: an update of risk based on uni/bilaterality of vestibular schwannoma at presentation and sensitive mutation analysis including multiple ligation-dependent probe amplification",
+      "journal": "J Med Genet",
+      "year": "2007",
+      "volume": "44",
+      "fpage": "424",
+      "doi": "10.1136/jmg.2006.047753",
+      "pmid": "17307835",
+      "pmc_id": "PMC2598002"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Breun M",
+        "Schulz T",
+        "Monoranu CM",
+        "et al."
+      ],
+      "title": "Pathogenic Variants and Allele Loss of the NF2 and LZTR1 Gene in Sporadic Vestibular Schwannoma",
+      "journal": "Vivo (Brooklyn)",
+      "year": "2025",
+      "volume": "39",
+      "fpage": "1251",
+      "doi": "10.21873/invivo.13929",
+      "pmc_id": "PMC12042009",
+      "pmid": "40295009"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "doi": "10.3892/ol.2021.12825",
+      "pmc_id": "PMC8185703",
+      "pmid": "34113392"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Smith MJ",
+        "Bowers NL",
+        "Bulman M",
+        "et al."
+      ],
+      "title": "Revisiting neurofibromatosis type 2 diagnostic criteria to exclude LZTR1-related schwannomatosis",
+      "journal": "Neurology",
+      "year": "2017",
+      "volume": "88",
+      "fpage": "87",
+      "lpage": "92",
+      "doi": "10.1212/WNL.0000000000003418",
+      "pmid": "27856782",
+      "pmc_id": "PMC5200853"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Petrilli AM",
+        "Fernández-Valle C"
+      ],
+      "title": "Role of Merlin/NF2 inactivation in tumor biology",
+      "journal": "Oncogene",
+      "year": "2016",
+      "volume": "35",
+      "fpage": "537",
+      "lpage": "548",
+      "doi": "10.1038/onc.2015.125",
+      "pmid": "25893302",
+      "pmc_id": "PMC4615258"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Chiasson-MacKenzie C",
+        "Vitte J",
+        "Liu C-H",
+        "et al."
+      ],
+      "title": "Cellular mechanisms of heterogeneity in NF2-mutant schwannoma",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1559",
+      "doi": "10.1038/s41467-023-37226-0",
+      "pmid": "36944680",
+      "pmc_id": "PMC10030849"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Oh J-E",
+        "Ohta T",
+        "Satomi K",
+        "et al."
+      ],
+      "title": "Alterations in the NF2/LATS1/LATS2/YAP Pathway in Schwannomas",
+      "journal": "J Neuropathol Exp Neurol",
+      "year": "2015",
+      "volume": "74",
+      "fpage": "952",
+      "lpage": "959",
+      "doi": "10.1097/NEN.0000000000000238",
+      "pmid": "26360373"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Laraba L",
+        "Hillson L",
+        "de Guibert JG",
+        "et al."
+      ],
+      "title": "Inhibition of YAP/TAZ-driven TEAD activity prevents growth of NF2-null schwannoma and meningioma",
+      "journal": "Brain",
+      "year": "2023",
+      "volume": "146",
+      "fpage": "1697",
+      "lpage": "1713",
+      "doi": "10.1093/brain/awac342",
+      "pmid": "36148553",
+      "pmc_id": "PMC10115179"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Agnihotri S",
+        "Gugel I",
+        "Remke M",
+        "et al."
+      ],
+      "title": "Gene-expression profiling elucidates molecular signaling networks that can be therapeutically targeted in vestibular schwannoma: Laboratory investigation",
+      "journal": "J Neurosurg JNS",
+      "year": "2014",
+      "volume": "121",
+      "fpage": "1434",
+      "lpage": "1445",
+      "doi": "10.3171/2014.6.JNS131433",
+      "pmid": "25245477"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "James MF",
+        "Stivison E",
+        "Beauchamp R",
+        "et al."
+      ],
+      "title": "Regulation of mTOR Complex 2 Signaling in Neurofibromatosis 2–Deficient Target Cell Types",
+      "journal": "Mol Cancer Res",
+      "year": "2012",
+      "volume": "10",
+      "fpage": "649",
+      "lpage": "659",
+      "doi": "10.1158/1541-7786.MCR-11-0425-T",
+      "pmid": "22426462"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Wong HK",
+        "Shimizu A",
+        "Kirkpatrick ND",
+        "et al."
+      ],
+      "title": "Merlin/NF2 regulates angiogenesis in schwannomas through a Rac1/semaphorin 3F-dependent mechanism",
+      "journal": "Neoplasia",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "84",
+      "lpage": "94",
+      "doi": "10.1593/neo.111600",
+      "pmid": "22431917",
+      "pmc_id": "PMC3306254"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "doi": "10.1073/pnas.1512570112",
+      "pmc_id": "PMC4664377",
+      "pmid": "26554010"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Chiranth S",
+        "Langer SW",
+        "Poulsen HS",
+        "Urup T"
+      ],
+      "title": "A systematic review of targeted therapy for vestibular schwannoma in patients with NF2-related schwannomatosis",
+      "journal": "Neurooncol Adv",
+      "year": "2023",
+      "volume": "5",
+      "fpage": "vdad099",
+      "doi": "10.1093/noajnl/vdad099",
+      "pmid": "37706198",
+      "pmc_id": "PMC10496940"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Plotkin SR",
+        "Stemmer-Rachamimov AO",
+        "Barker IIFG",
+        "et al."
+      ],
+      "title": "Hearing Improvement after Bevacizumab in Patients with Neurofibromatosis Type 2",
+      "journal": "N Engl J Med",
+      "year": "2025",
+      "volume": "361",
+      "fpage": "358",
+      "lpage": "367",
+      "doi": "10.1056/NEJMoa0902579",
+      "pmc_id": "PMC4816642",
+      "pmid": "19587327"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Blakeley JO",
+        "Ye X",
+        "Duda DG",
+        "et al."
+      ],
+      "title": "Efficacy and Biomarker Study of Bevacizumab for Hearing Loss Resulting From Neurofibromatosis Type 2–Associated Vestibular Schwannomas",
+      "journal": "J Clin Oncol",
+      "year": "2016",
+      "volume": "34",
+      "fpage": "1669",
+      "lpage": "1675",
+      "doi": "10.1200/JCO.2015.64.3817",
+      "pmid": "26976425",
+      "pmc_id": "PMC4872317"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "doi": "10.1097/MAO.0000000000004759",
+      "pmid": "41250253"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Morris KA",
+        "Golding JF",
+        "Blesing C",
+        "et al."
+      ],
+      "title": "Toxicity profile of bevacizumab in the UK Neurofibromatosis type 2 cohort",
+      "journal": "J Neurooncol",
+      "year": "2017",
+      "volume": "131",
+      "fpage": "117",
+      "lpage": "124",
+      "doi": "10.1007/s11060-016-2276-9",
+      "pmid": "27796735"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Fuse MA",
+        "Dinh CT",
+        "Vitte J",
+        "et al."
+      ],
+      "title": "Preclinical assessment of MEK1/2 inhibitors for neurofibromatosis type 2–associated schwannomas reveals differences in efficacy and drug resistance development",
+      "journal": "Neuro Oncol",
+      "year": "2019",
+      "volume": "21",
+      "fpage": "486",
+      "lpage": "497",
+      "doi": "10.1093/neuonc/noz002",
+      "pmid": "30615146",
+      "pmc_id": "PMC6422635"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Halliday D",
+        "Emmanouil B",
+        "Pretorius P",
+        "et al."
+      ],
+      "title": "Genetic Severity Score predicts clinical phenotype in NF2",
+      "journal": "J Med Genet",
+      "year": "2017",
+      "volume": "54",
+      "fpage": "657",
+      "doi": "10.1136/jmedgenet-2017-104519",
+      "pmid": "28848060",
+      "pmc_id": "PMC5740551"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Röhrich M",
+        "Koelsche C",
+        "Schrimpf D",
+        "et al."
+      ],
+      "title": "Methylation-based classification of benign and malignant peripheral nerve sheath tumors",
+      "journal": "Acta Neuropathol",
+      "year": "2016",
+      "volume": "131",
+      "fpage": "877",
+      "lpage": "887",
+      "doi": "10.1007/s00401-016-1540-6",
+      "pmid": "26857854"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "doi": "10.18632/oncotarget.28254",
+      "pmc_id": "PMC9295707",
+      "pmid": "35875610"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "González-Rodriguez MA",
+        "Troutman S",
+        "Bayle S",
+        "et al."
+      ],
+      "title": "Synergistic effects of combined BET and FAK inhibition against Vestibular Schwannomas in NF2-related Schwannomatosis",
+      "journal": "Oncogene",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "2995",
+      "lpage": "3002",
+      "doi": "10.1038/s41388-024-03144-8",
+      "pmid": "39209965"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "doi": "10.18632/oncotarget.1422",
+      "pmc_id": "PMC3926832",
+      "pmid": "24259290"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Torres-Martin M",
+        "Lassaletta L",
+        "de Campos JM",
+        "et al."
+      ],
+      "title": "Global Profiling in Vestibular Schwannomas Shows Critical Deregulation of MicroRNAs and Upregulation in Those Included in Chromosomal Region 14q32",
+      "journal": "PLoS ONE",
+      "year": "2013",
+      "doi": "10.1371/journal.pone.0065868",
+      "pmid": "23776562",
+      "pmc_id": "PMC3679163"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Yin X",
+        "Huo Z",
+        "Yan S",
+        "et al."
+      ],
+      "title": "MiR-205 Inhibits Sporadic Vestibular Schwannoma Cell Proliferation by Targeting Cyclin-Dependent Kinase 14",
+      "journal": "World Neurosurg",
+      "year": "2021",
+      "volume": "147",
+      "fpage": "e25",
+      "lpage": "e31",
+      "doi": "10.1016/j.wneu.2020.11.043",
+      "pmid": "33217595"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Shi J",
+        "Lu D",
+        "Gu R",
+        "et al."
+      ],
+      "title": "Integrated Analysis of Transcriptome and Differential Methylation of Neurofibromatosis Type 2 Vestibular Schwannomas",
+      "journal": "World Neurosurg",
+      "year": "2022",
+      "volume": "157",
+      "fpage": "e66",
+      "lpage": "e76",
+      "doi": "10.1016/j.wneu.2021.09.094",
+      "pmid": "34587518"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Xiao G",
+        "Huang B",
+        "Guo M",
+        "et al."
+      ],
+      "title": "Long non-coding RNA BRCAT54 sponges microRNA-21 in vestibular schwannoma to suppress cell proliferation",
+      "journal": "Bioengineered",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "4301",
+      "lpage": "4308",
+      "doi": "10.1080/21655979.2022.2031410",
+      "pmid": "35137654",
+      "pmc_id": "PMC8973964"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "doi": "10.3389/fneur.2023.1268359",
+      "pmc_id": "PMC10598552",
+      "pmid": "37885485"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Sass HCR",
+        "Hansen M",
+        "Borup R",
+        "et al."
+      ],
+      "title": "Tumor miRNA expression profile is related to vestibular schwannoma growth rate",
+      "journal": "Acta Neurochir (Wien)",
+      "year": "2020",
+      "volume": "162",
+      "fpage": "1187",
+      "lpage": "1195",
+      "doi": "10.1007/s00701-020-04238-4",
+      "pmid": "32016588"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "doi": "10.1097/MAO.0b013e3182009665",
+      "pmid": "21157293"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Sabha N",
+        "Au K",
+        "Agnihotri S",
+        "et al."
+      ],
+      "title": "Investigation of the In Vitro Therapeutic Efficacy of Nilotinib in Immortalized Human NF2-Null Vestibular Schwannoma Cells",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e39412",
+      "doi": "10.1371/journal.pone.0039412",
+      "pmid": "22745749",
+      "pmc_id": "PMC3379978"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Landegger LD",
+        "Pan B",
+        "Askew C",
+        "et al."
+      ],
+      "title": "A synthetic AAV vector enables safe and efficient gene transfer to the mammalian inner ear",
+      "journal": "Nat Biotechnol",
+      "year": "2017",
+      "volume": "35",
+      "fpage": "280",
+      "lpage": "284",
+      "doi": "10.1038/nbt.3781",
+      "pmid": "28165475",
+      "pmc_id": "PMC5340646"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Hızlı Ömer C",
+        "Sebahattin K",
+        "Serdar",
+        "et al."
+      ],
+      "title": "Quantitative Vestibular Labyrinthine Otopathology in Temporal Bones with Vestibular Schwannoma",
+      "journal": "Otolaryngology–Head Neck Surg",
+      "year": "2016",
+      "volume": "154",
+      "fpage": "150",
+      "lpage": "156",
+      "doi": "10.1177/0194599815601070",
+      "pmc_id": "PMC12167653",
+      "pmid": "26307578"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Edvardsson Rasmussen J",
+        "Li P",
+        "Laurell G",
+        "et al."
+      ],
+      "title": "Hearing loss and its association with the proteome of perilymph, cerebrospinal fluid, and tumor tissue in patients with vestibular schwannoma",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "14118",
+      "doi": "10.1038/s41598-024-64352-6",
+      "pmid": "38898156",
+      "pmc_id": "PMC11187212"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Dilwali S",
+        "Landegger LD",
+        "Soares VYR",
+        "et al."
+      ],
+      "title": "Secreted Factors from Human Vestibular Schwannomas Can Cause Cochlear Damage",
+      "journal": "Sci Rep",
+      "year": "2015",
+      "volume": "5",
+      "fpage": "18599",
+      "doi": "10.1038/srep18599",
+      "pmid": "26690506",
+      "pmc_id": "PMC4686978"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "doi": "10.3389/fonc.2019.00503",
+      "pmc_id": "PMC6581743",
+      "pmid": "31245296"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "doi": "10.1097/MAO.0000000000004376",
+      "pmc_id": "PMC11913242",
+      "pmid": "39792982"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Oishi N",
+        "Noguchi M",
+        "Fujioka M",
+        "et al."
+      ],
+      "title": "Correlation between genotype and phenotype with special attention to hearing in 14 Japanese cases of NF2-related schwannomatosis",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "6595",
+      "doi": "10.1038/s41598-023-33812-w",
+      "pmid": "37087513",
+      "pmc_id": "PMC10122645"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "doi": "10.3389/fneur.2019.00978",
+      "pmc_id": "PMC6759574",
+      "pmid": "31620068"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Asthagiri AR",
+        "Vasquez RA",
+        "Butman JA",
+        "et al."
+      ],
+      "title": "Mechanisms of Hearing Loss in Neurofibromatosis Type 2",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e46132",
+      "doi": "10.1371/journal.pone.0046132",
+      "pmid": "23049959",
+      "pmc_id": "PMC3458837"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "doi": "10.1097/01.mao.0000226291.42165.22",
+      "pmid": "16983315"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "doi": "10.1126/science.289.5477.304",
+      "pmid": "10894779"
     }
   ]
 }

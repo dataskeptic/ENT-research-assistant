@@ -14,7 +14,8 @@
     "pmc_id": "PMC13183160",
     "pmid": "42152397",
     "full_text_available": true,
-    "section_count": 29
+    "section_count": 29,
+    "reference_count": 44
   },
   "sections": [
     {
@@ -161,6 +162,825 @@
       "section": "Conclusion",
       "text": "In summary, thyroid cancer incidence has increased globally and across BRICS countries over the past 3 decades, with substantial heterogeneity driven by distinct age, period, and cohort effects. The global burden is projected to continue rising, particularly among middle-aged and older women. These findings highlight the need to advance etiological research, optimize risk-based diagnostic strategies, and strengthen international collaboration and data integration. Through these efforts, targeted prevention and control strategies can be implemented to reduce the growing public health burden of thyroid cancer.",
       "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Qu N",
+        "Hui Z",
+        "Shen Z",
+        "et al."
+      ],
+      "title": "Thyroid cancer and COVID-19: prospects for therapeutic approaches and drug development.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "873027",
+      "pmid": "35600591",
+      "doi": "10.3389/fendo.2022.873027",
+      "pmc_id": "PMC9114699"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Miranda-Filho A",
+        "Lortet-Tieulent J",
+        "Bray F",
+        "et al."
+      ],
+      "title": "Thyroid cancer incidence trends by histology in 25 countries: a population-based study.",
+      "journal": "Lancet Diabetes Endocrinol",
+      "year": "2021",
+      "volume": "9",
+      "fpage": "225",
+      "lpage": "34",
+      "pmid": "33662333",
+      "doi": "10.1016/S2213-8587(21)00027-9"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Sanabria A",
+        "Kowalski LP",
+        "Shah JP",
+        "et al."
+      ],
+      "title": "Growing incidence of thyroid carcinoma in recent years: factors underlying overdiagnosis.",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "fpage": "855",
+      "lpage": "66",
+      "pmid": "29206325",
+      "doi": "10.1002/hed.25029",
+      "pmc_id": "PMC5849517"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Han B",
+        "Zheng R",
+        "Zeng H",
+        "et al."
+      ],
+      "title": "Cancer incidence and mortality in China, 2022.",
+      "journal": "J Natl Cancer Cent",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "47",
+      "lpage": "53",
+      "pmid": "39036382",
+      "doi": "10.1016/j.jncc.2024.01.006",
+      "pmc_id": "PMC11256708"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "La Vecchia C",
+        "Malvezzi M",
+        "Bosetti C",
+        "et al."
+      ],
+      "title": "Thyroid cancer mortality and incidence: a global overview.",
+      "journal": "Int J Cancer",
+      "year": "2015",
+      "volume": "136",
+      "fpage": "2187",
+      "lpage": "95",
+      "pmid": "25284703",
+      "doi": "10.1002/ijc.29251"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Kitahara CM",
+        "Sosa JA"
+      ],
+      "title": "The changing incidence of thyroid cancer.",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2016",
+      "volume": "12",
+      "fpage": "646",
+      "lpage": "53",
+      "pmid": "27418023",
+      "doi": "10.1038/nrendo.2016.110",
+      "pmc_id": "PMC10311569"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Vriens MR",
+        "Weng J",
+        "Suh I",
+        "et al."
+      ],
+      "title": "MicroRNA expression profiling is a potential diagnostic tool for thyroid cancer.",
+      "journal": "Cancer",
+      "year": "2012",
+      "volume": "118",
+      "fpage": "3426",
+      "lpage": "32",
+      "pmid": "22006248",
+      "doi": "10.1002/cncr.26587",
+      "pmc_id": "PMC6959539"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Zhai M",
+        "Zhang D",
+        "Long J",
+        "et al."
+      ],
+      "title": "The global burden of thyroid cancer and its attributable risk factor in 195 countries and territories: a systematic analysis for the Global Burden of Disease Study.",
+      "journal": "Cancer Med",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "4542",
+      "lpage": "54",
+      "pmid": "34002931",
+      "doi": "10.1002/cam4.3970",
+      "pmc_id": "PMC8267141"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Tang M",
+        "Li J",
+        "Sun M",
+        "et al."
+      ],
+      "title": "Global, regional, and national trends in thyroid cancer burden (1990–2021): insights from the GBD 2021 study.",
+      "journal": "Biomol Biomed",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "2680",
+      "lpage": "95",
+      "pmid": "40530706",
+      "doi": "10.17305/bb.2025.12503",
+      "pmc_id": "PMC12461265"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Zhao Q",
+        "Chen M",
+        "Fu L",
+        "Yang Y",
+        "Zhan Y"
+      ],
+      "title": "Assessing and projecting the global burden of thyroid cancer, 1990–2030: analysis of the Global Burden of Disease Study.",
+      "journal": "J Glob Health",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "04090",
+      "pmid": "38577809",
+      "doi": "10.7189/jogh.14.04090",
+      "pmc_id": "PMC10995745"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Mubarik S",
+        "Luo L",
+        "Iqbal M",
+        "Nawsherwan",
+        "Bai J",
+        "Yu C"
+      ],
+      "title": "More recent insights into the breast cancer burden across BRICS-Plus: health consequences in key nations with emerging economies using the Global Burden of Disease Study 2019.",
+      "journal": "Front Oncol",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1100300",
+      "pmid": "36761973",
+      "doi": "10.3389/fonc.2023.1100300",
+      "pmc_id": "PMC9902930"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Liu Z",
+        "Wang Z",
+        "Xu M",
+        "Ma J",
+        "Sun Y",
+        "Huang Y"
+      ],
+      "title": "The priority areas and possible pathways for health cooperation in BRICS countries.",
+      "journal": "Glob Health Res Policy",
+      "year": "2023",
+      "volume": "8",
+      "fpage": "36",
+      "pmid": "37641146",
+      "doi": "10.1186/s41256-023-00318-x",
+      "pmc_id": "PMC10464194"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "van Wyk S",
+        "Moir M",
+        "Banerjee A",
+        "et al."
+      ],
+      "title": "The COVID-19 pandemic in BRICS: milestones, interventions, and molecular epidemiology.",
+      "journal": "PLOS Glob Public Health",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "e0003023",
+      "pmid": "39705269",
+      "doi": "10.1371/journal.pgph.0003023",
+      "pmc_id": "PMC11661601"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Wang Y",
+        "Zhu J",
+        "Wang S",
+        "Zhou J"
+      ],
+      "title": "The trends of lung cancer burden in BRICS from 1990 to 2021 and its projection to 2035.",
+      "journal": "Front Oncol",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "1511530",
+      "pmid": "39830644",
+      "doi": "10.3389/fonc.2024.1511530",
+      "pmc_id": "PMC11739153"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Gong Y",
+        "Jiang Q",
+        "Zhai M",
+        "Tang T",
+        "Liu S"
+      ],
+      "title": "Thyroid cancer trends in China and its comparative analysis with G20 countries: projections for 2020–2040.",
+      "journal": "J Glob Health",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "04131",
+      "pmid": "38873786",
+      "doi": "10.7189/jogh.14.04131",
+      "pmc_id": "PMC11177899"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Rosenberg PS",
+        "Miranda-Filho A",
+        "Whiteman DC"
+      ],
+      "title": "Comparative age-period-cohort analysis.",
+      "journal": "BMC Med Res Methodol",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "238",
+      "pmid": "37853346",
+      "doi": "10.1186/s12874-023-02039-8",
+      "pmc_id": "PMC10585891"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Chu F",
+        "Chen L",
+        "Guan Q",
+        "et al."
+      ],
+      "title": "Global burden of prostate cancer: age-period-cohort analysis from 1990 to 2021 and projections until 2040.",
+      "journal": "World J Surg Oncol",
+      "year": "2025",
+      "volume": "23",
+      "fpage": "98",
+      "pmid": "40114188",
+      "doi": "10.1186/s12957-025-03733-1",
+      "pmc_id": "PMC11924780"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Huang J",
+        "Man Y",
+        "Shi Z",
+        "Fu X",
+        "Shi W",
+        "Liang X"
+      ],
+      "title": "Global, regional, and national burden of maternal disorders, 1990–2021: a systematic analysis from the Global Burden of Disease Study 2021.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "2576",
+      "pmid": "40730990",
+      "doi": "10.1186/s12889-025-23814-w",
+      "pmc_id": "PMC12306129"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Lin C",
+        "An H",
+        "Lin J",
+        "Cao Y",
+        "Yang Z"
+      ],
+      "title": "Comparison of incidence trends of early-onset and late-onset type 2 diabetes in the Asia-Pacific region, 1990–2021: a join point regression analysis based on the Global Burden of Disease Study 2021.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "1466428",
+      "pmid": "40046875",
+      "doi": "10.3389/fendo.2025.1466428",
+      "pmc_id": "PMC11879835"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Zhang L",
+        "Jiang L",
+        "Xu R",
+        "Zhang X",
+        "Zhang B",
+        "Yue R"
+      ],
+      "title": "Epidemiological study of thyroid cancer at global, regional, and national levels from 1990 to 2021: an analysis derived from the Global Burden of Disease Study 2021.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "1644270",
+      "pmid": "40933379",
+      "doi": "10.3389/fendo.2025.1644270",
+      "pmc_id": "PMC12417126"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Cui YL",
+        "Bao X",
+        "Liu D-M",
+        "Mu H",
+        "Yu G"
+      ],
+      "title": "Gallbladder and biliary tract cancer burden trends in Brazil, Russian Federation, India, China, and South Africa in 1990–2021.",
+      "journal": "World J Gastrointest Oncol",
+      "year": "2025",
+      "volume": "17",
+      "fpage": "109245",
+      "pmid": "40837750",
+      "doi": "10.4251/wjgo.v17.i8.109245",
+      "pmc_id": "PMC12362550"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Jiang J",
+        "Xie Z",
+        "Wang Q",
+        "et al."
+      ],
+      "title": "Epidemiological trends in gastrointestinal cancers and risk factors across U.S. states from 2000 to 2021: a systematic analysis for the Global Burden of Disease Study 2021.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "43",
+      "pmid": "39762826",
+      "doi": "10.1186/s12889-024-21192-3",
+      "pmc_id": "PMC11702109"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Bao WQ",
+        "Zi H",
+        "Yuan Q-Q",
+        "Li L-Y",
+        "Deng T"
+      ],
+      "title": "Global burden of thyroid cancer and its attributable risk factors in 204 countries and territories from 1990 to 2019.",
+      "journal": "Thorac Cancer",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "2494",
+      "lpage": "503",
+      "pmid": "34355519",
+      "doi": "10.1111/1759-7714.14099",
+      "pmc_id": "PMC8447914"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Doubi A",
+        "Al-Qannass A",
+        "Al-Angari SS",
+        "Al-Qahtani KH",
+        "Alessa M",
+        "Al-Dhahri S"
+      ],
+      "title": "Trends in thyroid carcinoma among thyroidectomy patients: a 12-year multicenter study.",
+      "journal": "Ann Saudi Med",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "345",
+      "lpage": "9",
+      "pmid": "31580696",
+      "doi": "10.5144/0256-4947.2019.345",
+      "pmc_id": "PMC6832316"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Li Y",
+        "Piao J",
+        "Li M"
+      ],
+      "title": "Secular trends in the epidemiologic patterns of thyroid cancer in China over three decades: an updated systematic analysis of Global Burden of Disease Study 2019 data.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "707233",
+      "pmid": "34526968",
+      "doi": "10.3389/fendo.2021.707233",
+      "pmc_id": "PMC8435774"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Jin Q",
+        "Wu J",
+        "Huang C",
+        "et al."
+      ],
+      "title": "Global landscape of early-onset thyroid cancer: current burden, temporal trend and future projections on the basis of GLOBOCAN 2022.",
+      "journal": "J Glob Health",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "04113",
+      "pmid": "40208804",
+      "doi": "10.7189/jogh.15.04113",
+      "pmc_id": "PMC11984623"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Liang Q",
+        "Qi Z",
+        "Li Y"
+      ],
+      "title": "Machine learning to predict the occurrence of thyroid nodules: towards a quantitative approach for judicious utilization of thyroid ultrasonography.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "1385836",
+      "pmid": "38774231",
+      "doi": "10.3389/fendo.2024.1385836",
+      "pmc_id": "PMC11106422"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Mathew IE",
+        "Mathew A"
+      ],
+      "title": "Rising thyroid cancer incidence in southern India: an epidemic of overdiagnosis?",
+      "journal": "J Endocr Soc",
+      "year": "2017",
+      "volume": "1",
+      "fpage": "480",
+      "lpage": "7",
+      "pmid": "29264503",
+      "doi": "10.1210/js.2017-00097",
+      "pmc_id": "PMC5686600"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "Panato C",
+        "Vaccarella S",
+        "Dal Maso L",
+        "et al."
+      ],
+      "title": "Thyroid cancer incidence in India between 2006 and 2014 and impact of overdiagnosis.",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2020",
+      "volume": "105",
+      "fpage": "2507",
+      "lpage": "14",
+      "pmid": "32297630",
+      "doi": "10.1210/clinem/dgaa192",
+      "pmc_id": "PMC7947989"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Drozdovitch V",
+        "Khrouch V",
+        "Maceika E",
+        "et al."
+      ],
+      "title": "Reconstruction of radiation doses in a case-control study of thyroid cancer following the Chernobyl accident.",
+      "journal": "Health Phys",
+      "year": "2010",
+      "volume": "99",
+      "fpage": "1",
+      "lpage": "16",
+      "pmid": "20539120",
+      "doi": "10.1097/HP.0b013e3181c910dd",
+      "pmc_id": "PMC2885044"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Janiak MK",
+        "Kamiński G"
+      ],
+      "title": "Thyroid cancer in regions most contaminated after the Chernobyl disaster.",
+      "journal": "J Biomed Phys Eng",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "299",
+      "lpage": "308",
+      "pmid": "39027710",
+      "doi": "10.31661/jbpe.v0i0.2402-1722",
+      "pmc_id": "PMC11252555"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Cardis E",
+        "Hatch M"
+      ],
+      "title": "The Chernobyl accident–an epidemiological perspective.",
+      "journal": "Clin Oncol (R Coll Radiol)",
+      "year": "2011",
+      "volume": "23",
+      "fpage": "251",
+      "lpage": "60",
+      "pmid": "21396807",
+      "doi": "10.1016/j.clon.2011.01.510",
+      "pmc_id": "PMC3107017"
+    },
+    {
+      "ref_id": "R33",
+      "label": "[33]",
+      "authors": [
+        "Drozd VM",
+        "Saenko VA",
+        "Brenner AV",
+        "et al."
+      ],
+      "title": "Major factors affecting incidence of childhood thyroid cancer in Belarus after the Chernobyl accident: do nitrates in drinking water play a role?",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0137226",
+      "pmid": "26397978",
+      "doi": "10.1371/journal.pone.0137226",
+      "pmc_id": "PMC4580601"
+    },
+    {
+      "ref_id": "R34",
+      "label": "[34]",
+      "authors": [
+        "Veiga LH",
+        "Neta G",
+        "Aschebrook-Kilfoy B",
+        "Ron E",
+        "Devesa SS"
+      ],
+      "title": "Thyroid cancer incidence patterns in Sao Paulo, Brazil, and the U.S. SEER program, 1997–2008.",
+      "journal": "Thyroid",
+      "year": "2013",
+      "volume": "23",
+      "fpage": "748",
+      "lpage": "57",
+      "pmid": "23410185",
+      "doi": "10.1089/thy.2012.0532",
+      "pmc_id": "PMC3675840"
+    },
+    {
+      "ref_id": "R35",
+      "label": "[35]",
+      "authors": [
+        "Li M",
+        "Dal Maso L",
+        "Pizzato M",
+        "Vaccarella S"
+      ],
+      "title": "Evolving epidemiological patterns of thyroid cancer and estimates of overdiagnosis in 2013–17 in 63 countries worldwide: a population-based study.",
+      "journal": "Lancet Diabetes Endocrinol",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "824",
+      "lpage": "36",
+      "pmid": "39389067",
+      "doi": "10.1016/S2213-8587(24)00223-7"
+    },
+    {
+      "ref_id": "R36",
+      "label": "[36]",
+      "authors": [
+        "Kang HY",
+        "Kim I",
+        "Kim Y-Y",
+        "Bahk J",
+        "Khang Y-H"
+      ],
+      "title": "Income differences in screening, incidence, postoperative complications, and mortality of thyroid cancer in South Korea: a national population-based time trend study.",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "1096",
+      "pmid": "33176753",
+      "doi": "10.1186/s12885-020-07597-4",
+      "pmc_id": "PMC7661203"
+    },
+    {
+      "ref_id": "R37",
+      "label": "[37]",
+      "authors": [
+        "Shen Y",
+        "Wang X",
+        "Wang L",
+        "et al."
+      ],
+      "title": "Modifiable risk factors for thyroid cancer: lifestyle and residence environment.",
+      "journal": "Endokrynol Pol",
+      "year": "2024",
+      "volume": "75",
+      "fpage": "119",
+      "lpage": "29",
+      "pmid": "38497372",
+      "doi": "10.5603/ep.97258"
+    },
+    {
+      "ref_id": "R38",
+      "label": "[38]",
+      "authors": [
+        "Sun LM",
+        "Chung L-M",
+        "Lin C-L",
+        "Kao C-H"
+      ],
+      "title": "Uterine fibroids increase the risk of thyroid cancer.",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2020",
+      "volume": "17",
+      "fpage": "3821",
+      "pmid": "32481566",
+      "doi": "10.3390/ijerph17113821",
+      "pmc_id": "PMC7312070"
+    },
+    {
+      "ref_id": "R39",
+      "label": "[39]",
+      "authors": [
+        "Zong L",
+        "Liu G",
+        "He H",
+        "Huang D"
+      ],
+      "title": "Causal association of sleep traits with the risk of thyroid cancer: a Mendelian randomization study.",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "605",
+      "pmid": "38760772",
+      "doi": "10.1186/s12885-024-12376-6",
+      "pmc_id": "PMC11102272"
+    },
+    {
+      "ref_id": "R40",
+      "label": "[40]",
+      "authors": [
+        "Fan L",
+        "Meng F",
+        "Gao Y",
+        "Liu P"
+      ],
+      "title": "Insufficient iodine nutrition may affect the thyroid cancer incidence in China.",
+      "journal": "Br J Nutr",
+      "year": "2021",
+      "volume": "126",
+      "fpage": "1852",
+      "lpage": "60",
+      "pmid": "33597052",
+      "doi": "10.1017/S0007114521000593"
+    },
+    {
+      "ref_id": "R41",
+      "label": "[41]",
+      "authors": [
+        "Chen YX",
+        "Hong H-Z",
+        "Gao Z-H",
+        "et al."
+      ],
+      "title": "Global trend and disparity in the burden of thyroid cancer attributable to high body-mass index from 1990 to 2021 and projection to 2049: a systematic analysis based on the Global Burden of Disease Study 2021.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "1051",
+      "pmid": "40102768",
+      "doi": "10.1186/s12889-025-21960-9",
+      "pmc_id": "PMC11921707"
+    },
+    {
+      "ref_id": "R42",
+      "label": "[42]",
+      "authors": [
+        "Zablotska LB",
+        "Nadyrov EA",
+        "Polyanskaya ON",
+        "et al."
+      ],
+      "title": "Risk of thyroid follicular adenoma among children and adolescents in Belarus exposed to iodine-131 after the Chornobyl accident.",
+      "journal": "Am J Epidemiol",
+      "year": "2015",
+      "volume": "182",
+      "fpage": "781",
+      "lpage": "90",
+      "pmid": "26443421",
+      "doi": "10.1093/aje/kwv127",
+      "pmc_id": "PMC4751233"
+    },
+    {
+      "ref_id": "R43",
+      "label": "[43]",
+      "authors": [
+        "Haugen BR",
+        "Alexander EK",
+        "Bible KC",
+        "et al."
+      ],
+      "title": "2015 American Thyroid Association management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer.",
+      "journal": "Thyroid",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "1",
+      "lpage": "133",
+      "pmid": "26462967",
+      "doi": "10.1089/thy.2015.0020",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "R44",
+      "label": "[44]",
+      "authors": [
+        "LeClair K",
+        "Bell KJL",
+        "Furuya-Kanamori L",
+        "Doi SA",
+        "Francis DO",
+        "Davies L"
+      ],
+      "title": "Evaluation of gender inequity in thyroid cancer diagnosis: differences by sex in US thyroid cancer incidence compared with a meta-analysis of subclinical thyroid cancer rates at autopsy.",
+      "journal": "JAMA Intern Med",
+      "year": "2021",
+      "volume": "181",
+      "fpage": "1351",
+      "lpage": "8",
+      "pmid": "34459841",
+      "doi": "10.1001/jamainternmed.2021.4804",
+      "pmc_id": "PMC8406211"
     }
   ]
 }

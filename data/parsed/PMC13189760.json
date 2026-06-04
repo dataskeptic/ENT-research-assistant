@@ -17,7 +17,8 @@
     "pmc_id": "PMC13189760",
     "pmid": "42183251",
     "full_text_available": true,
-    "section_count": 16
+    "section_count": 16,
+    "reference_count": 32
   },
   "sections": [
     {
@@ -99,6 +100,633 @@
       "section": "Conclusion",
       "text": "There was no significant difference in pCR between sequential and concurrent immunochemotherapy, but the concurrent strategy led to an increased risk of nausea/vomiting, diarrhea, and fatal irAEs.",
       "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Soerjomataram I",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "issue": "3",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Han B",
+        "Zheng R",
+        "Zeng H",
+        "Wang S",
+        "Sun K",
+        "Chen R",
+        "et al."
+      ],
+      "title": "Cancer incidence and mortality in China, 2022",
+      "journal": "J Natl Cancer Cent",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "47",
+      "lpage": "53",
+      "doi": "10.1016/j.jncc.2024.01.006",
+      "pmid": "39036382",
+      "pmc_id": "PMC11256708"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Kojima T",
+        "Shah MA",
+        "Muro K",
+        "François E",
+        "Adenis A",
+        "Hsu CH",
+        "et al."
+      ],
+      "title": "Randomized phase III KEYNOTE-181 study of pembrolizumab versus chemotherapy in advanced esophageal cancer",
+      "journal": "J Clin Oncol",
+      "year": "2020",
+      "volume": "38",
+      "doi": "10.1200/JCO.20.01888",
+      "pmid": "33026938"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Sun JM",
+        "Shen L",
+        "Shah MA",
+        "Enzinger P",
+        "Adenis A",
+        "Doi T",
+        "et al."
+      ],
+      "title": "Pembrolizumab plus chemotherapy versus chemotherapy alone for first-line treatment of advanced oesophageal cancer (KEYNOTE-590): a randomised, placebo-controlled, phase 3 study",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "398",
+      "doi": "10.1016/S0140-6736(21)01234-4",
+      "pmid": "34454674"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Luo H",
+        "Lu J",
+        "Bai Y",
+        "Mao T",
+        "Wang J",
+        "Fan Q",
+        "et al."
+      ],
+      "title": "Effect of camrelizumab vs placebo added to chemotherapy on survival and progression-free survival in patients with advanced or metastatic esophageal squamous cell carcinoma: The ESCORT-1st randomized clinical trial",
+      "journal": "JAMA",
+      "year": "2021",
+      "volume": "326",
+      "doi": "10.1001/jama.2021.12836",
+      "pmid": "34519801",
+      "pmc_id": "PMC8441593"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Lu Z",
+        "Wang J",
+        "Shu Y",
+        "Liu L",
+        "Kong L",
+        "Yang L",
+        "et al."
+      ],
+      "title": "Sintilimab versus placebo in combination with chemotherapy as first line treatment for locally advanced or metastatic oesophageal squamous cell carcinoma (ORIENT-15): multicentre, randomised, double blind, phase 3 trial",
+      "journal": "BMJ",
+      "year": "2022",
+      "volume": "377",
+      "elocation_id": "e068714",
+      "doi": "10.1136/bmj-2021-068714",
+      "pmid": "35440464",
+      "pmc_id": "PMC9016493"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Xu J",
+        "Kato K",
+        "Raymond E",
+        "Hubner RA",
+        "Shu Y",
+        "Pan Y",
+        "et al."
+      ],
+      "title": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first-line treatment for advanced or metastatic oesophageal squamous cell carcinoma (RATIONALE-306): a global, randomised, placebo-controlled, phase 3 study",
+      "journal": "Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "doi": "10.1016/S1470-2045(23)00108-0",
+      "pmid": "37080222"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Wang ZX",
+        "Cui C",
+        "Yao J",
+        "Zhang Y",
+        "Li M",
+        "Feng J",
+        "et al."
+      ],
+      "title": "Toripalimab plus chemotherapy in treatment-naïve, advanced esophageal squamous cell carcinoma (JUPITER-06): A multi-center phase 3 trial",
+      "journal": "Cancer Cell",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "277",
+      "lpage": "288.e3",
+      "doi": "10.1016/j.ccell.2022.02.007",
+      "pmid": "35245446"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Wu M",
+        "Huang Q",
+        "Xie Y",
+        "Wu X",
+        "Ma H",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Improvement of the anticancer efficacy of PD-1/PD-L1 blockade via combination therapy and PD-L1 regulation",
+      "journal": "J Hematol Oncol",
+      "year": "2022",
+      "volume": "15",
+      "elocation_id": "24",
+      "doi": "10.1186/s13045-022-01242-2",
+      "pmid": "35279217",
+      "pmc_id": "PMC8917703"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Galluzzi L",
+        "Vitale I",
+        "Aaronson SA",
+        "Abrams JM",
+        "Adam D",
+        "Agostinis P",
+        "et al."
+      ],
+      "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+      "journal": "Cell Death Differ",
+      "year": "2018",
+      "volume": "25",
+      "fpage": "486",
+      "lpage": "541",
+      "doi": "10.1038/s41418-017-0012-4",
+      "pmid": "29362479",
+      "pmc_id": "PMC5864239"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Patel SA",
+        "Minn AJ"
+      ],
+      "title": "Combination cancer therapy with immune checkpoint blockade: mechanisms and strategies",
+      "journal": "Immunity",
+      "year": "2018",
+      "volume": "48",
+      "doi": "10.1016/j.immuni.2018.03.007",
+      "pmid": "29562193",
+      "pmc_id": "PMC6948191"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Galluzzi L",
+        "Vitale I",
+        "Warren S",
+        "Adjemian S",
+        "Agostinis P",
+        "Martinez AB",
+        "et al."
+      ],
+      "title": "Consensus guidelines for the definition, detection and interpretation of immunogenic cell death",
+      "journal": "J Immunother Cancer",
+      "year": "2020",
+      "volume": "8",
+      "elocation_id": "e000337",
+      "doi": "10.1136/jitc-2019-000337",
+      "pmid": "32209603",
+      "pmc_id": "PMC7064135"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Salas-Benito D",
+        "Pérez-Gracia JL",
+        "Ponz-Sarvisé M",
+        "Rodriguez-Ruiz ME",
+        "Martínez-Forero I",
+        "Castañón E",
+        "et al."
+      ],
+      "title": "Paradigms on immunotherapy combinations with chemotherapy",
+      "journal": "Cancer Discov",
+      "year": "2021",
+      "volume": "11",
+      "doi": "10.1158/2159-8290.CD-20-1312",
+      "pmid": "33712487"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Yao W",
+        "Zhao X",
+        "Gong Y",
+        "Zhang M",
+        "Zhang L",
+        "Wu Q",
+        "et al."
+      ],
+      "title": "Impact of the combined timing of PD-1/PD-L1 inhibitors and chemotherapy on the outcomes in patients with refractory lung cancer",
+      "journal": "ESMO Open",
+      "year": "2021",
+      "volume": "6",
+      "elocation_id": "100094",
+      "doi": "10.1016/j.esmoop.2021.100094",
+      "pmid": "33780892",
+      "pmc_id": "PMC8041717"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Bezu L",
+        "Sauvat A",
+        "Humeau J",
+        "Gomes-da-Silva LC",
+        "Iribarren K",
+        "Forveille S",
+        "et al."
+      ],
+      "title": "eIF2α phosphorylation is pathognomonic for immunogenic cell death",
+      "journal": "Cell Death Differ",
+      "year": "2018",
+      "volume": "25",
+      "doi": "10.1038/s41418-017-0044-9",
+      "pmid": "29358668",
+      "pmc_id": "PMC6113215"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Beyranvand Nejad E",
+        "van der Sluis TC",
+        "van Duikeren S",
+        "van Duikeren S",
+        "Yagita H",
+        "Janssen GM",
+        "et al."
+      ],
+      "title": "Tumor eradication by cisplatin is sustained by CD80/86-mediated costimulation of CD8+ T cells",
+      "journal": "Cancer Res",
+      "year": "2016",
+      "volume": "76",
+      "doi": "10.1158/0008-5472.CAN-16-0881",
+      "pmid": "27569212"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Bally APR",
+        "Austin JW",
+        "Boss JM"
+      ],
+      "title": "Genetic and epigenetic regulation of PD-1 expression",
+      "journal": "J Immunol",
+      "year": "2016",
+      "volume": "196",
+      "doi": "10.4049/jimmunol.1502643",
+      "pmid": "26945088",
+      "pmc_id": "PMC4780223"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Voorwerk L",
+        "Slagter M",
+        "Horlings HM",
+        "Sikorska K",
+        "van de Vijver KK",
+        "de Maaker M",
+        "et al."
+      ],
+      "title": "Immune induction strategies in metastatic triple-negative breast cancer to enhance the sensitivity to PD-1 blockade: the TONIC trial",
+      "journal": "Nat Med",
+      "year": "2019",
+      "volume": "25",
+      "doi": "10.1038/s41591-019-0432-4",
+      "pmid": "31086347"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Fu D",
+        "Wu J",
+        "Lai J",
+        "Liu Y",
+        "Zhou L",
+        "Chen L",
+        "et al."
+      ],
+      "title": "T cell recruitment triggered by optimal dose platinum compounds contributes to the therapeutic efficacy of sequential PD-1 blockade in a mouse model of colon cancer",
+      "journal": "Am J Cancer Res",
+      "year": "2020",
+      "volume": "10",
+      "pmc_id": "PMC7061747",
+      "pmid": "32195021"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Weir GM",
+        "Hrytsenko O",
+        "Quinton T",
+        "et al."
+      ],
+      "title": "Anti-PD-1 increases the clonality and activity of tumor infiltrating antigen specific T cells induced by a potent immune therapy consisting of vaccine and metronomic cyclophosphamide",
+      "journal": "J Immunother Cancer",
+      "year": "2016",
+      "volume": "4",
+      "fpage": "68",
+      "doi": "10.1186/s40425-016-0169-2",
+      "pmid": "27777777",
+      "pmc_id": "PMC5067905"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Messenheimer DJ",
+        "Jensen SM",
+        "Afentoulis ME",
+        "Wegmann KW",
+        "Feng Z",
+        "Friedman DJ",
+        "et al."
+      ],
+      "title": "Timing of PD-1 blockade is critical to effective combination immunotherapy with anti-OX40",
+      "journal": "Clin Cancer Res",
+      "year": "2017",
+      "volume": "23",
+      "doi": "10.1158/1078-0432.CCR-16-2677",
+      "pmid": "28855348",
+      "pmc_id": "PMC5641261"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "He X",
+        "Du Y",
+        "Wang Z",
+        "Wang X",
+        "Duan J",
+        "Wan R",
+        "et al."
+      ],
+      "title": "Upfront dose-reduced chemotherapy synergizes with immunotherapy to optimize chemoimmunotherapy in squamous cell lung carcinoma",
+      "journal": "J Immunother Cancer",
+      "year": "2020",
+      "volume": "8",
+      "elocation_id": "e000807",
+      "doi": "10.1136/jitc-2020-000807",
+      "pmid": "33115941",
+      "pmc_id": "PMC7594539"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Huo Y",
+        "Wang D",
+        "Yang S",
+        "Xu Y",
+        "Qin G",
+        "Zhao C",
+        "et al."
+      ],
+      "title": "Optimal timing of anti-PD-1 antibody combined with chemotherapy administration in patients with NSCLC",
+      "journal": "J Immunother Cancer",
+      "year": "2024",
+      "volume": "12",
+      "elocation_id": "e009627",
+      "doi": "10.1136/jitc-2024-009627",
+      "pmid": "39706602",
+      "pmc_id": "PMC11667274"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Gao L",
+        "Lu J",
+        "Zhang P",
+        "Hong ZN",
+        "Kang M"
+      ],
+      "title": "Toripalimab combined with docetaxel and cisplatin neoadjuvant therapy for locally advanced esophageal squamous cell carcinoma: a single-center, single-arm clinical trial (ESONICT-2)",
+      "journal": "J Gastrointest Oncol",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.21037/jgo-22-131",
+      "pmid": "35557591",
+      "pmc_id": "PMC9086050"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Xu J",
+        "Bai Y",
+        "Xu N",
+        "Li E",
+        "Wang B",
+        "Wang J",
+        "et al."
+      ],
+      "title": "Tislelizumab plus chemotherapy as first-line treatment for advanced esophageal squamous cell carcinoma and gastric/gastroesophageal junction adenocarcinoma",
+      "journal": "Clin Cancer Res",
+      "year": "2020",
+      "volume": "26",
+      "doi": "10.1158/1078-0432.CCR-19-3561",
+      "pmid": "32561664"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Xing W",
+        "Zhao L",
+        "Zheng Y",
+        "Liu B",
+        "Liu X",
+        "Li T",
+        "et al."
+      ],
+      "title": "The sequence of chemotherapy and toripalimab might influence the efficacy of neoadjuvant chemoimmunotherapy in locally advanced esophageal squamous cell cancer-a phase II study",
+      "journal": "Front Immunol",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "772450",
+      "doi": "10.3389/fimmu.2021.772450",
+      "pmid": "34938292",
+      "pmc_id": "PMC8685246"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Rice TW",
+        "Ishwaran H",
+        "Ferguson MK",
+        "Blackstone EH",
+        "Goldstraw P"
+      ],
+      "title": "Cancer of the esophagus and esophagogastric junction: an eighth edition staging primer",
+      "journal": "J Thorac Oncol",
+      "year": "2017",
+      "volume": "12",
+      "fpage": "36",
+      "lpage": "42",
+      "doi": "10.1016/j.jtho.2016.10.016",
+      "pmid": "27810391",
+      "pmc_id": "PMC5591443"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Zhang X",
+        "Jain D"
+      ],
+      "title": "Updates in staging and pathologic evaluation of esophageal carcinoma following neoadjuvant therapy",
+      "journal": "Ann N Y Acad Sci",
+      "year": "2020",
+      "volume": "1482",
+      "doi": "10.1111/nyas.14462",
+      "pmid": "32892349"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Qin J",
+        "Xue L",
+        "Hao A",
+        "Guo X",
+        "Jiang T",
+        "Ni Y",
+        "et al."
+      ],
+      "title": "Neoadjuvant chemotherapy with or without camrelizumab in resectable esophageal squamous cell carcinoma: the randomized phase 3 ESCORT-NEO/NCCES01 trial",
+      "journal": "Nat Med",
+      "year": "2024",
+      "volume": "30",
+      "doi": "10.1038/s41591-024-03064-w",
+      "pmid": "38956195",
+      "pmc_id": "PMC11405280"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Liu B",
+        "Hu X",
+        "Feng K",
+        "Gao R",
+        "Xue Z",
+        "Zhang S",
+        "et al."
+      ],
+      "title": "Temporal single-cell tracing reveals clonal revival and expansion of precursor exhausted T cells during anti-PD-1 therapy in lung cancer",
+      "journal": "Nat Cancer",
+      "year": "2021",
+      "volume": "3",
+      "doi": "10.1038/s43018-021-00292-8",
+      "pmid": "35121991"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Mazzaschi G",
+        "Facchinetti F",
+        "Missale G",
+        "Canetti D",
+        "Madeddu D",
+        "Zecca A",
+        "et al."
+      ],
+      "title": "The circulating pool of functionally competent NK and CD8+ cells predicts the outcome of anti-PD1 treatment in advanced NSCLC",
+      "journal": "Lung Cancer",
+      "year": "2019",
+      "volume": "127",
+      "doi": "10.1016/j.lungcan.2018.11.038",
+      "pmid": "30642544"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Luoma AM",
+        "Suo S",
+        "Wang Y",
+        "Gunasti L",
+        "Porter CBM",
+        "Nabilsi N",
+        "et al."
+      ],
+      "title": "Tissue-resident memory and circulating T cells are early responders to pre-surgical cancer immunotherapy",
+      "journal": "Cell",
+      "year": "2022",
+      "volume": "185",
+      "fpage": "2918",
+      "lpage": "2935.e29",
+      "doi": "10.1016/j.cell.2022.06.018",
+      "pmid": "35803260",
+      "pmc_id": "PMC9508682"
     }
   ]
 }

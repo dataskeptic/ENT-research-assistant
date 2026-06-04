@@ -20,7 +20,8 @@
     "pmc_id": "PMC13143274",
     "pmid": "42084044",
     "full_text_available": true,
-    "section_count": 24
+    "section_count": 24,
+    "reference_count": 96
   },
   "sections": [
     {
@@ -142,6 +143,1634 @@
       "section": "Statistical Analysis",
       "text": "All analyses of variance were calculated with IBM SPSS Statistics for Windows, Version 29.0 (IBM Corp, Armonk, NY). The family-wise error rate of all multiple post-hoc comparisons was controlled by Bonferroni correction of the significance levels.",
       "order": 23
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "authors": [
+        "Adams JC",
+        "Schulte BA"
+      ],
+      "title": "Histopathologic observations of the aging gerbil cochlea",
+      "journal": "Hearing Research",
+      "year": "1997",
+      "volume": "104",
+      "fpage": "101",
+      "lpage": "111",
+      "doi": "10.1016/s0378-5955(96)00184-0",
+      "pmid": "9119754"
+    },
+    {
+      "ref_id": "bib2",
+      "authors": [
+        "Beutelmann R"
+      ],
+      "journal": "Software Heritage",
+      "year": "2026"
+    },
+    {
+      "ref_id": "bib3",
+      "authors": [
+        "Bharadwaj HM",
+        "Verhulst S",
+        "Shaheen L",
+        "Liberman MC",
+        "Shinn-Cunningham BG"
+      ],
+      "title": "Cochlear neuropathy and the coding of supra-threshold sound",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": "2014",
+      "volume": "8",
+      "elocation_id": "26",
+      "doi": "10.3389/fnsys.2014.00026",
+      "pmid": "24600357",
+      "pmc_id": "PMC3930880"
+    },
+    {
+      "ref_id": "bib4",
+      "authors": [
+        "Bourien J",
+        "Tang Y",
+        "Batrel C",
+        "Huet A",
+        "Lenoir M",
+        "Ladrech S",
+        "Desmadryl G",
+        "Nouvian R",
+        "Puel JL",
+        "Wang J"
+      ],
+      "title": "Contribution of auditory nerve fibers to compound action potential of the auditory nerve",
+      "journal": "Journal of Neurophysiology",
+      "year": "2014",
+      "volume": "112",
+      "fpage": "1025",
+      "lpage": "1039",
+      "doi": "10.1152/jn.00738.2013",
+      "pmid": "24848461"
+    },
+    {
+      "ref_id": "bib5",
+      "authors": [
+        "Bovee S",
+        "Klump GM",
+        "Pyott SJ",
+        "Sielaff C",
+        "Köppl C"
+      ],
+      "title": "Cochlear ribbon synapses in aged gerbils",
+      "journal": "International Journal of Molecular Sciences",
+      "year": "2024",
+      "volume": "25",
+      "elocation_id": "2738",
+      "doi": "10.3390/ijms25052738",
+      "pmid": "38473985",
+      "pmc_id": "PMC10931817"
+    },
+    {
+      "ref_id": "bib6",
+      "authors": [
+        "Bramhall NF",
+        "McMillan GP",
+        "Kujawa SG",
+        "Konrad-Martin D"
+      ],
+      "title": "Use of non-invasive measures to predict cochlear synapse counts",
+      "journal": "Hearing Research",
+      "year": "2018",
+      "volume": "370",
+      "fpage": "113",
+      "lpage": "119",
+      "doi": "10.1016/j.heares.2018.10.006",
+      "pmid": "30366194",
+      "pmc_id": "PMC7161203"
+    },
+    {
+      "ref_id": "bib7",
+      "authors": [
+        "Bramhall N",
+        "Beach EF",
+        "Epp B",
+        "Le Prell CG",
+        "Lopez-Poveda EA",
+        "Plack CJ",
+        "Schaette R",
+        "Verhulst S",
+        "Canlon B"
+      ],
+      "title": "The search for noise-induced cochlear synaptopathy in humans: Mission impossible?",
+      "journal": "Hearing Research",
+      "year": "2019",
+      "volume": "377",
+      "fpage": "88",
+      "lpage": "103",
+      "doi": "10.1016/j.heares.2019.02.016",
+      "pmid": "30921644"
+    },
+    {
+      "ref_id": "bib8",
+      "authors": [
+        "Buran BN",
+        "Strenzke N",
+        "Neef A",
+        "Gundelfinger ED",
+        "Moser T",
+        "Liberman MC"
+      ],
+      "title": "Onset coding is degraded in auditory nerve fibers from mutant mice lacking synaptic ribbons",
+      "journal": "The Journal of Neuroscience",
+      "year": "2010",
+      "volume": "30",
+      "fpage": "7587",
+      "lpage": "7597",
+      "doi": "10.1523/JNEUROSCI.0389-10.2010",
+      "pmid": "20519533",
+      "pmc_id": "PMC2901931"
+    },
+    {
+      "ref_id": "bib9",
+      "authors": [
+        "Burton JA",
+        "Mackey CA",
+        "MacDonald KS",
+        "Hackett TA",
+        "Ramachandran R"
+      ],
+      "title": "Changes in audiometric threshold and frequency selectivity correlate with cochlear histopathology in macaque monkeys with permanent noise-induced hearing loss",
+      "journal": "Hearing Research",
+      "year": "2020",
+      "volume": "398",
+      "elocation_id": "108082",
+      "doi": "10.1016/j.heares.2020.108082",
+      "pmid": "33045479",
+      "pmc_id": "PMC7769151"
+    },
+    {
+      "ref_id": "bib10",
+      "authors": [
+        "Cai R",
+        "Montgomery SC",
+        "Graves KA",
+        "Caspary DM",
+        "Cox BC"
+      ],
+      "title": "The FBN rat model of aging: investigation of ABR waveforms and ribbon synapse changes",
+      "journal": "Neurobiology of Aging",
+      "year": "2018",
+      "volume": "62",
+      "fpage": "53",
+      "lpage": "63",
+      "doi": "10.1016/j.neurobiolaging.2017.09.034",
+      "pmid": "29107847",
+      "pmc_id": "PMC5743589"
+    },
+    {
+      "ref_id": "bib11",
+      "authors": [
+        "Carcagno S",
+        "Plack CJ"
+      ],
+      "title": "Relations between speech-reception, psychophysical temporal processing, and subcortical electrophysiological measures of auditory function in humans",
+      "journal": "Hearing Research",
+      "year": "2022",
+      "volume": "417",
+      "elocation_id": "108456",
+      "doi": "10.1016/j.heares.2022.108456",
+      "pmid": "35149333",
+      "pmc_id": "PMC8935383"
+    },
+    {
+      "ref_id": "bib12",
+      "authors": [
+        "Caspary DM",
+        "Milbrandt JC",
+        "Helfert RH"
+      ],
+      "title": "Central auditory aging: GABA changes in the inferior colliculus",
+      "journal": "Experimental Gerontology",
+      "year": "1995",
+      "volume": "30",
+      "fpage": "349",
+      "lpage": "360",
+      "doi": "10.1016/0531-5565(94)00052-5",
+      "pmid": "7556513"
+    },
+    {
+      "ref_id": "bib13",
+      "authors": [
+        "Castaño-González K",
+        "Köppl C",
+        "Pyott SJ"
+      ],
+      "title": "The crucial role of diverse animal models to investigate cochlear aging and hearing loss",
+      "journal": "Hearing Research",
+      "year": "2024",
+      "volume": "445",
+      "elocation_id": "108989",
+      "doi": "10.1016/j.heares.2024.108989",
+      "pmid": "38518394"
+    },
+    {
+      "ref_id": "bib14",
+      "authors": [
+        "Davis KA",
+        "Ding J",
+        "Benson TE",
+        "Voigt HF"
+      ],
+      "title": "Response properties of units in the dorsal cochlear nucleus of unanesthetized decerebrate gerbil",
+      "journal": "Journal of Neurophysiology",
+      "year": "1996",
+      "volume": "75",
+      "fpage": "1411",
+      "lpage": "1431",
+      "doi": "10.1152/jn.1996.75.4.1411",
+      "pmid": "8727387"
+    },
+    {
+      "ref_id": "bib15",
+      "authors": [
+        "Eipert L",
+        "Selle A",
+        "Klump GM"
+      ],
+      "title": "Uncertainty in location, level and fundamental frequency results in informational masking in a vowel discrimination task for young and elderly subjects",
+      "journal": "Hearing Research",
+      "year": "2019",
+      "volume": "377",
+      "fpage": "142",
+      "lpage": "152",
+      "doi": "10.1016/j.heares.2019.03.015",
+      "pmid": "30933706"
+    },
+    {
+      "ref_id": "bib16",
+      "authors": [
+        "Faulstich M",
+        "Kössl M"
+      ],
+      "title": "Neuronal response to cochlear distortion products in the anteroventral cochlear nucleus of the gerbil",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "1999",
+      "volume": "105",
+      "fpage": "491",
+      "lpage": "502",
+      "doi": "10.1121/1.424586",
+      "pmid": "9921673"
+    },
+    {
+      "ref_id": "bib17",
+      "authors": [
+        "Füllgrabe C",
+        "Moore BCJ",
+        "Stone MA"
+      ],
+      "title": "Age-group differences in speech identification despite matched audiometrically normal hearing: contributions from auditory temporal processing and cognition",
+      "journal": "Frontiers in Aging Neuroscience",
+      "year": "2014",
+      "volume": "6",
+      "elocation_id": "347",
+      "doi": "10.3389/fnagi.2014.00347",
+      "pmid": "25628563",
+      "pmc_id": "PMC4292733"
+    },
+    {
+      "ref_id": "bib18",
+      "authors": [
+        "Füllgrabe C",
+        "Moody M",
+        "Moore BCJ"
+      ],
+      "title": "No evidence for a link between noise exposure and auditory temporal processing for young adults with normal audiograms",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2020",
+      "volume": "147",
+      "fpage": "EL465",
+      "lpage": "EL470",
+      "doi": "10.1121/10.0001346",
+      "pmid": "32611153"
+    },
+    {
+      "ref_id": "bib19",
+      "authors": [
+        "Gleich O",
+        "Hamann I",
+        "Klump GM",
+        "Kittel M",
+        "Strutz J"
+      ],
+      "title": "Boosting GABA improves impaired auditory temporal resolution in the gerbil",
+      "journal": "Neuroreport",
+      "year": "2003",
+      "volume": "14",
+      "fpage": "1877",
+      "lpage": "1880",
+      "doi": "10.1097/00001756-200310060-00024",
+      "pmid": "14534439"
+    },
+    {
+      "ref_id": "bib20",
+      "authors": [
+        "Gleich O",
+        "Netz J",
+        "Strutz J"
+      ],
+      "title": "Comparing the inferior colliculus of young and old gerbils (Meriones unguiculatus) with an emphasis on GABA",
+      "journal": "Experimental Gerontology",
+      "year": "2014",
+      "volume": "57",
+      "fpage": "155",
+      "lpage": "162",
+      "doi": "10.1016/j.exger.2014.05.018",
+      "pmid": "24879972"
+    },
+    {
+      "ref_id": "bib21",
+      "authors": [
+        "Gleich O",
+        "Semmler P",
+        "Strutz J"
+      ],
+      "title": "Behavioral auditory thresholds and loss of ribbon synapses at inner hair cells in aged gerbils",
+      "journal": "Experimental Gerontology",
+      "year": "2016",
+      "volume": "84",
+      "fpage": "61",
+      "lpage": "70",
+      "doi": "10.1016/j.exger.2016.08.011",
+      "pmid": "27569111"
+    },
+    {
+      "ref_id": "bib22",
+      "authors": [
+        "Gómez-Álvarez M",
+        "Johannesen PT",
+        "Coelho-de-Sousa SL",
+        "Klump GM",
+        "Lopez-Poveda EA"
+      ],
+      "title": "The relative contribution of cochlear synaptopathy and reduced inhibition to age-related hearing impairment for people with normal audiograms",
+      "journal": "Trends in Hearing",
+      "year": "2023",
+      "volume": "27",
+      "elocation_id": "23312165231213191",
+      "doi": "10.1177/23312165231213191",
+      "pmid": "37956654",
+      "pmc_id": "PMC10644751"
+    },
+    {
+      "ref_id": "bib23",
+      "authors": [
+        "Gratton MA",
+        "Schulte BA"
+      ],
+      "title": "Alterations in microvasculature are associated with atrophy of the stria vascularis in quiet-aged gerbils",
+      "journal": "Hearing Research",
+      "year": "1995",
+      "volume": "82",
+      "fpage": "44",
+      "lpage": "52",
+      "doi": "10.1016/0378-5955(94)00161-i",
+      "pmid": "7744712"
+    },
+    {
+      "ref_id": "bib24",
+      "authors": [
+        "Guest H",
+        "Munro KJ",
+        "Prendergast G",
+        "Millman RE",
+        "Plack CJ"
+      ],
+      "title": "Impaired speech perception in noise with a normal audiogram: No evidence for cochlear synaptopathy and no relation to lifetime noise exposure",
+      "journal": "Hearing Research",
+      "year": "2018",
+      "volume": "364",
+      "fpage": "142",
+      "lpage": "151",
+      "doi": "10.1016/j.heares.2018.03.008",
+      "pmid": "29680183",
+      "pmc_id": "PMC5993872"
+    },
+    {
+      "ref_id": "bib25",
+      "authors": [
+        "Guinan JJ"
+      ],
+      "journal": "Auditory and Vestibular Efferents",
+      "year": "2011",
+      "fpage": "39",
+      "lpage": "81"
+    },
+    {
+      "ref_id": "bib26",
+      "authors": [
+        "Hamann I",
+        "Gleich O",
+        "Klump GM",
+        "Kittel MC",
+        "Boettcher FA",
+        "Schmiedt RA",
+        "Strutz J"
+      ],
+      "title": "Behavioral and evoked-potential thresholds in young and old Mongolian gerbils (Meriones unguiculatus)",
+      "journal": "Hearing Research",
+      "year": "2002",
+      "volume": "171",
+      "fpage": "82",
+      "lpage": "95",
+      "doi": "10.1016/s0378-5955(02)00454-9",
+      "pmid": "12204352"
+    },
+    {
+      "ref_id": "bib27",
+      "authors": [
+        "Harrison RV",
+        "Evans EF"
+      ],
+      "title": "Some aspects of temporal coding by single cochlear fibres from regions of cochlear hair cell degeneration in the guinea pig",
+      "journal": "Archives of Oto-Rhino-Laryngology",
+      "year": "1979",
+      "volume": "224",
+      "fpage": "71",
+      "lpage": "78",
+      "doi": "10.1007/BF00455226",
+      "pmid": "485951"
+    },
+    {
+      "ref_id": "bib28",
+      "authors": [
+        "Heeringa AN",
+        "Zhang L",
+        "Ashida G",
+        "Beutelmann R",
+        "Steenken F",
+        "Köppl C"
+      ],
+      "title": "Temporal coding of single auditory nerve fibers is not degraded in aging gerbils",
+      "journal": "The Journal of Neuroscience",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "343",
+      "lpage": "354",
+      "doi": "10.1523/JNEUROSCI.2784-18.2019",
+      "pmid": "31719164",
+      "pmc_id": "PMC6948943"
+    },
+    {
+      "ref_id": "bib29",
+      "authors": [
+        "Heeringa AN",
+        "Jüchter C",
+        "Beutelmann R",
+        "Klump GM",
+        "Köppl C"
+      ],
+      "title": "Altered neural encoding of vowels in noise does not affect behavioral vowel discrimination in gerbils with age-related hearing loss",
+      "journal": "Frontiers in Neuroscience",
+      "year": "2023",
+      "volume": "17",
+      "elocation_id": "1238941",
+      "doi": "10.3389/fnins.2023.1238941",
+      "pmid": "38033551",
+      "pmc_id": "PMC10682387"
+    },
+    {
+      "ref_id": "bib30",
+      "authors": [
+        "Heeringa AN"
+      ],
+      "title": "Single-unit data for sensory neuroscience: Responses from the auditory nerve of young-adult and aging gerbils",
+      "journal": "Scientific Data",
+      "year": "2024",
+      "volume": "11",
+      "elocation_id": "411",
+      "doi": "10.1038/s41597-024-03259-3",
+      "pmid": "38649691",
+      "pmc_id": "PMC11035566"
+    },
+    {
+      "ref_id": "bib31",
+      "authors": [
+        "Heil P",
+        "Neubauer H",
+        "Irvine DRF",
+        "Brown M"
+      ],
+      "title": "Spontaneous activity of auditory-nerve fibers: insights into stochastic processes at ribbon synapses",
+      "journal": "The Journal of Neuroscience",
+      "year": "2007",
+      "volume": "27",
+      "fpage": "8457",
+      "lpage": "8474",
+      "doi": "10.1523/JNEUROSCI.1512-07.2007",
+      "pmid": "17670993",
+      "pmc_id": "PMC6673073"
+    },
+    {
+      "ref_id": "bib32",
+      "authors": [
+        "Hellstrom LI",
+        "Schmiedt RA"
+      ],
+      "title": "Compound action potential input/output functions in young and quiet-aged gerbils",
+      "journal": "Hearing Research",
+      "year": "1990",
+      "volume": "50",
+      "fpage": "163",
+      "lpage": "174",
+      "doi": "10.1016/0378-5955(90)90042-n",
+      "pmid": "2076969"
+    },
+    {
+      "ref_id": "bib33",
+      "authors": [
+        "Hellstrom LI",
+        "Schmiedt RA"
+      ],
+      "title": "Measures of tuning and suppression in single-fiber and whole-nerve responses in young and quiet-aged gerbils",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "1996",
+      "volume": "100",
+      "fpage": "3275",
+      "lpage": "3285",
+      "doi": "10.1121/1.417211",
+      "pmid": "8914310"
+    },
+    {
+      "ref_id": "bib34",
+      "authors": [
+        "Henry KS",
+        "Heinz MG"
+      ],
+      "title": "Diminished temporal coding with sensorineural hearing loss emerges in background noise",
+      "journal": "Nature Neuroscience",
+      "year": "2012",
+      "volume": "15",
+      "fpage": "1362",
+      "lpage": "1364",
+      "doi": "10.1038/nn.3216",
+      "pmid": "22960931",
+      "pmc_id": "PMC3458164"
+    },
+    {
+      "ref_id": "bib35",
+      "authors": [
+        "Henry KS",
+        "Kale S",
+        "Heinz MG"
+      ],
+      "title": "Distorted tonotopic coding of temporal envelope and fine structure with noise-induced hearing loss",
+      "journal": "The Journal of Neuroscience",
+      "year": "2016",
+      "volume": "36",
+      "fpage": "2227",
+      "lpage": "2237",
+      "doi": "10.1523/JNEUROSCI.3944-15.2016",
+      "pmid": "26888932",
+      "pmc_id": "PMC4756156"
+    },
+    {
+      "ref_id": "bib36",
+      "authors": [
+        "Henry KS",
+        "Sayles M",
+        "Hickox AE",
+        "Heinz MG"
+      ],
+      "title": "Divergent auditory nerve encoding deficits between two common etiologies of sensorineural hearing loss",
+      "journal": "The Journal of Neuroscience",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "6879",
+      "lpage": "6887",
+      "doi": "10.1523/JNEUROSCI.0038-19.2019",
+      "pmid": "31285299",
+      "pmc_id": "PMC6733559"
+    },
+    {
+      "ref_id": "bib37",
+      "authors": [
+        "Henry KS",
+        "Abrams KS"
+      ],
+      "title": "Normal tone-in-noise sensitivity in trained budgerigars despite substantial auditory-nerve injury: no evidence of hidden hearing loss",
+      "journal": "The Journal of Neuroscience",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "118",
+      "lpage": "129",
+      "doi": "10.1523/JNEUROSCI.2104-20.2020",
+      "pmid": "33177067",
+      "pmc_id": "PMC7786208"
+    },
+    {
+      "ref_id": "bib38",
+      "authors": [
+        "Henry KS"
+      ],
+      "title": "Animal models of hidden hearing loss: Does auditory-nerve-fiber loss cause real-world listening difficulties?",
+      "journal": "Molecular and Cellular Neurosciences",
+      "year": "2022",
+      "volume": "118",
+      "elocation_id": "103692",
+      "doi": "10.1016/j.mcn.2021.103692",
+      "pmid": "34883241",
+      "pmc_id": "PMC8928575"
+    },
+    {
+      "ref_id": "bib39",
+      "authors": [
+        "Jeng J",
+        "Ceriani F",
+        "Olt J",
+        "Brown SDM",
+        "Holley MC",
+        "Bowl MR",
+        "Johnson SL",
+        "Marcotti W"
+      ],
+      "title": "Pathophysiological changes in inner hair cell ribbon synapses in the ageing mammalian cochlea",
+      "journal": "The Journal of Physiology",
+      "year": "2020",
+      "volume": "598",
+      "fpage": "4339",
+      "lpage": "4355",
+      "doi": "10.1113/JP280018",
+      "pmid": "32710572",
+      "pmc_id": "PMC7612121"
+    },
+    {
+      "ref_id": "bib40",
+      "authors": [
+        "Johannesen PT",
+        "Buzo BC",
+        "Lopez-Poveda EA"
+      ],
+      "title": "Evidence for age-related cochlear synaptopathy in humans unconnected to speech-in-noise intelligibility deficits",
+      "journal": "Hearing Research",
+      "year": "2019",
+      "volume": "374",
+      "fpage": "35",
+      "lpage": "48",
+      "doi": "10.1016/j.heares.2019.01.017",
+      "pmid": "30710791"
+    },
+    {
+      "ref_id": "bib41",
+      "authors": [
+        "Joris PX",
+        "Yin TCT"
+      ],
+      "title": "Responses to amplitude-modulated tones in the auditory nerve of the cat",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "1992",
+      "volume": "91",
+      "fpage": "215",
+      "lpage": "232",
+      "doi": "10.1121/1.402757",
+      "pmid": "1737873"
+    },
+    {
+      "ref_id": "bib42",
+      "authors": [
+        "Joris PX",
+        "Smith PH",
+        "Yin TCT"
+      ],
+      "title": "Enhancement of neural synchronization in the anteroventral cochlear nucleus",
+      "journal": "II. Responses in the Tuning Curve Tail. Journal of Neurophysiology",
+      "year": "1994",
+      "volume": "71",
+      "fpage": "1037",
+      "lpage": "1051",
+      "doi": "10.1152/jn.1994.71.3.1037",
+      "pmid": "8201400"
+    },
+    {
+      "ref_id": "bib43",
+      "authors": [
+        "Joris PX",
+        "Schreiner CE",
+        "Rees A"
+      ],
+      "title": "Neural processing of amplitude-modulated sounds",
+      "journal": "Physiological Reviews",
+      "year": "2004",
+      "volume": "84",
+      "fpage": "541",
+      "lpage": "577",
+      "doi": "10.1152/physrev.00029.2003",
+      "pmid": "15044682"
+    },
+    {
+      "ref_id": "bib44",
+      "authors": [
+        "Kale S",
+        "Heinz MG"
+      ],
+      "title": "Envelope coding in auditory nerve fibers following noise-induced hearing loss",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2010",
+      "volume": "11",
+      "fpage": "657",
+      "lpage": "673",
+      "doi": "10.1007/s10162-010-0223-6",
+      "pmid": "20556628",
+      "pmc_id": "PMC2975881"
+    },
+    {
+      "ref_id": "bib45",
+      "authors": [
+        "Kale S",
+        "Micheyl C",
+        "Heinz MG"
+      ],
+      "title": "Effects of sensorineural hearing loss on temporal coding of harmonic and inharmonic tone complexes in the auditory nerve",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "year": "2013",
+      "volume": "787",
+      "fpage": "109",
+      "lpage": "118",
+      "doi": "10.1007/978-1-4614-1590-9_13",
+      "pmid": "23716215",
+      "pmc_id": "PMC3757517"
+    },
+    {
+      "ref_id": "bib46",
+      "authors": [
+        "Kale S",
+        "Micheyl C",
+        "Heinz MG"
+      ],
+      "title": "Implications of within-fiber temporal coding for perceptual studies of F0 discrimination and discrimination of harmonic and inharmonic tone complexes",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2014",
+      "volume": "15",
+      "fpage": "465",
+      "lpage": "482",
+      "doi": "10.1007/s10162-014-0451-2",
+      "pmid": "24658856",
+      "pmc_id": "PMC4010596"
+    },
+    {
+      "ref_id": "bib47",
+      "authors": [
+        "Keine C",
+        "Rübsamen R"
+      ],
+      "title": "Inhibition shapes acoustic responsiveness in spherical bushy cells",
+      "journal": "The Journal of Neuroscience",
+      "year": "2015",
+      "volume": "35",
+      "fpage": "8579",
+      "lpage": "8592",
+      "doi": "10.1523/JNEUROSCI.0133-15.2015",
+      "pmid": "26041924",
+      "pmc_id": "PMC6605330"
+    },
+    {
+      "ref_id": "bib48",
+      "authors": [
+        "Kessler M",
+        "Mamach M",
+        "Beutelmann R",
+        "Lukacevic M",
+        "Eilert S",
+        "Bascuñana P",
+        "Fasel A",
+        "Bengel FM",
+        "Bankstahl JP",
+        "Ross TL",
+        "Klump GM",
+        "Berding G"
+      ],
+      "title": "GABA(A) receptors in the Mongolian gerbil: a PET study using [(18)F]flumazenil to determine receptor binding in young and old animals",
+      "journal": "Molecular Imaging and Biology",
+      "year": "2020",
+      "volume": "22",
+      "fpage": "335",
+      "lpage": "347",
+      "doi": "10.1007/s11307-019-01371-0",
+      "pmid": "31102039"
+    },
+    {
+      "ref_id": "bib49",
+      "authors": [
+        "Kittel M",
+        "Wagner E",
+        "Klump GM"
+      ],
+      "title": "An estimate of the auditory-filter bandwidth in the Mongolian gerbil",
+      "journal": "Hearing Research",
+      "year": "2002",
+      "volume": "164",
+      "fpage": "69",
+      "lpage": "76",
+      "doi": "10.1016/s0378-5955(01)00411-7",
+      "pmid": "11950526"
+    },
+    {
+      "ref_id": "bib50",
+      "authors": [
+        "Kobrina A",
+        "Schrode KM",
+        "Screven LA",
+        "Javaid H",
+        "Weinberg MM",
+        "Brown G",
+        "Board R",
+        "Villavisanis DF",
+        "Dent ML",
+        "Lauer AM"
+      ],
+      "title": "Linking anatomical and physiological markers of auditory system degeneration with behavioral hearing assessments in a mouse ( Mus musculus ) model of age-related hearing loss",
+      "journal": "Neurobiology of Aging",
+      "year": "2020",
+      "volume": "96",
+      "fpage": "87",
+      "lpage": "103",
+      "doi": "10.1016/j.neurobiolaging.2020.08.012",
+      "pmid": "32950782",
+      "pmc_id": "PMC8080312"
+    },
+    {
+      "ref_id": "bib51",
+      "authors": [
+        "Kujawa SG",
+        "Liberman MC"
+      ],
+      "title": "Adding insult to injury: cochlear nerve degeneration after “temporary” noise-induced hearing loss",
+      "journal": "The Journal of Neuroscience",
+      "year": "2009",
+      "volume": "29",
+      "fpage": "14077",
+      "lpage": "14085",
+      "doi": "10.1523/JNEUROSCI.2845-09.2009",
+      "pmid": "19906956",
+      "pmc_id": "PMC2812055"
+    },
+    {
+      "ref_id": "bib52",
+      "authors": [
+        "Lang H",
+        "Schulte BA",
+        "Schmiedt RA"
+      ],
+      "title": "Ouabain induces apoptotic cell death in type I spiral ganglion neurons, but not type II neurons",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2005",
+      "volume": "6",
+      "fpage": "63",
+      "lpage": "74",
+      "doi": "10.1007/s10162-004-5021-6",
+      "pmid": "15735933",
+      "pmc_id": "PMC2504640"
+    },
+    {
+      "ref_id": "bib53",
+      "authors": [
+        "Lauer AM",
+        "Jimenez SV",
+        "Delano PH"
+      ],
+      "title": "Olivocochlear efferent effects on perception and behavior",
+      "journal": "Hearing Research",
+      "year": "2022",
+      "volume": "419",
+      "elocation_id": "108207",
+      "doi": "10.1016/j.heares.2021.108207",
+      "pmid": "33674070",
+      "pmc_id": "PMC8371060"
+    },
+    {
+      "ref_id": "bib54",
+      "authors": [
+        "Liberman MC",
+        "Epstein MJ",
+        "Cleveland SSS",
+        "Wang H",
+        "Maison SF"
+      ],
+      "title": "Toward a differential diagnosis of hidden hearing loss in humans",
+      "journal": "PLOS ONE",
+      "year": "2016",
+      "volume": "11",
+      "elocation_id": "e0162726",
+      "doi": "10.1371/journal.pone.0162726",
+      "pmid": "27618300",
+      "pmc_id": "PMC5019483"
+    },
+    {
+      "ref_id": "bib55",
+      "authors": [
+        "Liberman MC"
+      ],
+      "title": "Noise-induced and age-related hearing loss: new perspectives and potential therapies",
+      "journal": "F1000Research",
+      "year": "2017",
+      "volume": "6",
+      "elocation_id": "927",
+      "doi": "10.12688/f1000research.11310.1",
+      "pmid": "28690836",
+      "pmc_id": "PMC5482333"
+    },
+    {
+      "ref_id": "bib56",
+      "authors": [
+        "Liberman MC",
+        "Kujawa SG"
+      ],
+      "title": "Cochlear synaptopathy in acquired sensorineural hearing loss: Manifestations and mechanisms",
+      "journal": "Hearing Research",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "138",
+      "lpage": "147",
+      "doi": "10.1016/j.heares.2017.01.003",
+      "pmid": "28087419",
+      "pmc_id": "PMC5438769"
+    },
+    {
+      "ref_id": "bib57",
+      "authors": [
+        "Lin HW",
+        "Furman AC",
+        "Kujawa SG",
+        "Liberman MC"
+      ],
+      "title": "Primary neural degeneration in the Guinea pig cochlea after reversible noise-induced threshold shift",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2011",
+      "volume": "12",
+      "fpage": "605",
+      "lpage": "616",
+      "doi": "10.1007/s10162-011-0277-0",
+      "pmid": "21688060",
+      "pmc_id": "PMC3173555"
+    },
+    {
+      "ref_id": "bib58",
+      "authors": [
+        "Lopez-Poveda EA"
+      ],
+      "title": "Why do I hear but not understand? Stochastic undersampling as a model of degraded neural encoding of speech",
+      "journal": "Frontiers in Neuroscience",
+      "year": "2014",
+      "volume": "8",
+      "elocation_id": "348. 10.3389/fnins.2014.00348",
+      "doi": "10.3389/fnins.2014.00348",
+      "pmid": "25400543",
+      "pmc_id": "PMC4214224"
+    },
+    {
+      "ref_id": "bib59",
+      "authors": [
+        "Mackey CA",
+        "McCrate J",
+        "MacDonald KS",
+        "Feller J",
+        "Liberman L",
+        "Liberman MC",
+        "Hackett TA",
+        "Ramachandran R"
+      ],
+      "title": "Correlations between cochlear pathophysiology and behavioral measures of temporal and spatial processing in noise exposed macaques",
+      "journal": "Hearing Research",
+      "year": "2021",
+      "volume": "401",
+      "elocation_id": "108156",
+      "doi": "10.1016/j.heares.2020.108156",
+      "pmid": "33373804",
+      "pmc_id": "PMC8487072"
+    },
+    {
+      "ref_id": "bib60",
+      "authors": [
+        "Marmel F",
+        "Plack CJ",
+        "Hopkins K",
+        "Carlyon RP",
+        "Gockel HE",
+        "Moore BCJ"
+      ],
+      "title": "The role of excitation-pattern cues in the detection of frequency shifts in bandpass-filtered complex tones",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2015",
+      "volume": "137",
+      "fpage": "2687",
+      "lpage": "2697",
+      "doi": "10.1121/1.4919315",
+      "pmid": "25994700",
+      "pmc_id": "PMC5044982"
+    },
+    {
+      "ref_id": "bib61",
+      "authors": [
+        "Mathew AK",
+        "Purdy SC",
+        "Welch D",
+        "Pontoppidan NH",
+        "Rønne FM"
+      ],
+      "title": "Electrophysiological and behavioural processing of complex acoustic cues",
+      "journal": "Clinical Neurophysiology",
+      "year": "2016",
+      "volume": "127",
+      "fpage": "779",
+      "lpage": "789",
+      "doi": "10.1016/j.clinph.2015.04.002",
+      "pmid": "25921025"
+    },
+    {
+      "ref_id": "bib62",
+      "authors": [
+        "Miller RL",
+        "Schilling JR",
+        "Franck KR",
+        "Young ED"
+      ],
+      "title": "Effects of acoustic trauma on the representation of the vowel “eh” in cat auditory nerve fibers",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "1997",
+      "volume": "101",
+      "fpage": "3602",
+      "lpage": "3616",
+      "doi": "10.1121/1.418321",
+      "pmid": "9193048"
+    },
+    {
+      "ref_id": "bib63",
+      "authors": [
+        "Moore GA",
+        "Moore BCJ"
+      ],
+      "title": "Perception of the low pitch of frequency-shifted complexes",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2003",
+      "volume": "113",
+      "fpage": "977",
+      "lpage": "985",
+      "doi": "10.1121/1.1536631",
+      "pmid": "12597191"
+    },
+    {
+      "ref_id": "bib64",
+      "authors": [
+        "Moore BC",
+        "Glasberg BR",
+        "Hopkins K"
+      ],
+      "title": "Frequency discrimination of complex tones by hearing-impaired subjects: Evidence for loss of ability to use temporal fine structure",
+      "journal": "Hearing Research",
+      "year": "2006",
+      "volume": "222",
+      "fpage": "16",
+      "lpage": "27",
+      "doi": "10.1016/j.heares.2006.08.007",
+      "pmid": "17030477"
+    },
+    {
+      "ref_id": "bib65",
+      "authors": [
+        "Moore BCJ",
+        "Sek A"
+      ],
+      "title": "Development of a fast method for determining sensitivity to temporal fine structure",
+      "journal": "International Journal of Audiology",
+      "year": "2009",
+      "volume": "48",
+      "fpage": "161",
+      "lpage": "171",
+      "doi": "10.1080/14992020802475235",
+      "pmid": "19085395"
+    },
+    {
+      "ref_id": "bib66",
+      "authors": [
+        "Moore BCJ",
+        "Glasberg BR",
+        "Stoev M",
+        "Füllgrabe C",
+        "Hopkins K"
+      ],
+      "title": "The influence of age and high-frequency hearing loss on sensitivity to temporal fine structure at low frequencies (L)",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2012",
+      "volume": "131",
+      "fpage": "1003",
+      "lpage": "1006",
+      "doi": "10.1121/1.3672808",
+      "pmid": "22352474"
+    },
+    {
+      "ref_id": "bib67",
+      "authors": [
+        "Moore BCJ"
+      ],
+      "journal": "Auditory Processing of Temporal Fine Structure",
+      "year": "2014",
+      "fpage": "1",
+      "lpage": "196",
+      "doi": "10.1142/9064"
+    },
+    {
+      "ref_id": "bib68",
+      "authors": [
+        "Moore BCJ"
+      ],
+      "title": "The roles of temporal envelope and fine structure information in auditory perception",
+      "journal": "Acoustical Science and Technology",
+      "year": "2019",
+      "volume": "40",
+      "fpage": "61",
+      "lpage": "83",
+      "doi": "10.1250/ast.40.61"
+    },
+    {
+      "ref_id": "bib69",
+      "authors": [
+        "Müller M"
+      ],
+      "title": "The cochlear place-frequency map of the adult and developing mongolian gerbil",
+      "journal": "Hearing Research",
+      "year": "1996",
+      "volume": "94",
+      "fpage": "148",
+      "lpage": "156",
+      "doi": "10.1016/0378-5955(95)00230-8",
+      "pmid": "8789820"
+    },
+    {
+      "ref_id": "bib70",
+      "journal": "Methods and welfare considerations in behavioral research with animals: report of a national institutes of health workshop. (Morrison A, Evans H, Ator N, Nakamura R, Eds.)",
+      "year": "2002"
+    },
+    {
+      "ref_id": "bib71",
+      "authors": [
+        "O’Brien WJ",
+        "Lingrel JB",
+        "Wallick ET"
+      ],
+      "title": "Ouabain binding kinetics of the rat alpha two and alpha three isoforms of the sodium-potassium adenosine triphosphate",
+      "journal": "Archives of Biochemistry and Biophysics",
+      "year": "1994",
+      "volume": "310",
+      "fpage": "32",
+      "lpage": "39",
+      "doi": "10.1006/abbi.1994.1136",
+      "pmid": "8161218"
+    },
+    {
+      "ref_id": "bib72",
+      "authors": [
+        "Parthasarathy A",
+        "Kujawa SG"
+      ],
+      "title": "Synaptopathy in the aging cochlea: characterizing early-neural deficits in auditory temporal envelope processing",
+      "journal": "The Journal of Neuroscience",
+      "year": "2018",
+      "volume": "38",
+      "fpage": "7108",
+      "lpage": "7119",
+      "doi": "10.1523/JNEUROSCI.3240-17.2018",
+      "pmid": "29976623",
+      "pmc_id": "PMC6596096"
+    },
+    {
+      "ref_id": "bib73",
+      "authors": [
+        "Parthasarathy A",
+        "Hancock KE",
+        "Bennett K",
+        "DeGruttola V",
+        "Polley DB"
+      ],
+      "title": "Bottom-up and top-down neural signatures of disordered multi-talker speech perception in adults with normal hearing",
+      "journal": "eLife",
+      "year": "2020",
+      "volume": "9",
+      "elocation_id": "e51419",
+      "doi": "10.7554/eLife.51419",
+      "pmid": "31961322",
+      "pmc_id": "PMC6974362"
+    },
+    {
+      "ref_id": "bib74",
+      "authors": [
+        "Prendergast G",
+        "Millman RE",
+        "Guest H",
+        "Munro KJ",
+        "Kluk K",
+        "Dewey RS",
+        "Hall DA",
+        "Heinz MG",
+        "Plack CJ"
+      ],
+      "title": "Effects of noise exposure on young adults with normal audiograms II: Behavioral measures",
+      "journal": "Hearing Research",
+      "year": "2017",
+      "volume": "356",
+      "fpage": "74",
+      "lpage": "86",
+      "doi": "10.1016/j.heares.2017.10.007",
+      "pmid": "29126651",
+      "pmc_id": "PMC5714059"
+    },
+    {
+      "ref_id": "bib75",
+      "authors": [
+        "Prendergast G",
+        "Couth S",
+        "Millman RE",
+        "Guest H",
+        "Kluk K",
+        "Munro KJ",
+        "Plack CJ"
+      ],
+      "title": "Effects of age and noise exposure on proxy measures of cochlear synaptopathy",
+      "journal": "Trends in Hearing",
+      "year": "2019",
+      "volume": "23",
+      "elocation_id": "2331216519877301",
+      "doi": "10.1177/2331216519877301",
+      "pmid": "31558119",
+      "pmc_id": "PMC6767746"
+    },
+    {
+      "ref_id": "bib76",
+      "authors": [
+        "Romero GE",
+        "Trussell LO"
+      ],
+      "title": "Central circuitry and function of the cochlear efferent systems",
+      "journal": "Hearing Research",
+      "year": "2022",
+      "volume": "425",
+      "elocation_id": "108516",
+      "doi": "10.1016/j.heares.2022.108516",
+      "pmid": "35606211"
+    },
+    {
+      "ref_id": "bib77",
+      "authors": [
+        "Rose JE",
+        "Brugge JF",
+        "Anderson DJ",
+        "Hind JE"
+      ],
+      "title": "Phase-locked response to low-frequency tones in single auditory nerve fibers of the squirrel monkey",
+      "journal": "Journal of Neurophysiology",
+      "year": "1967",
+      "volume": "30",
+      "fpage": "769",
+      "lpage": "793",
+      "doi": "10.1152/jn.1967.30.4.769",
+      "pmid": "4962851"
+    },
+    {
+      "ref_id": "bib78",
+      "authors": [
+        "Ruggero MA",
+        "Rich NC"
+      ],
+      "title": "Furosemide alters organ of corti mechanics: evidence for feedback of outer hair cells upon the basilar membrane",
+      "journal": "The Journal of Neuroscience",
+      "year": "1991",
+      "volume": "11",
+      "fpage": "1057",
+      "lpage": "1067",
+      "doi": "10.1523/JNEUROSCI.11-04-01057.1991",
+      "pmid": "2010805",
+      "pmc_id": "PMC3580957"
+    },
+    {
+      "ref_id": "bib79",
+      "authors": [
+        "Schindelin J",
+        "Arganda-Carreras I",
+        "Frise E",
+        "Kaynig V",
+        "Longair M",
+        "Pietzsch T",
+        "Preibisch S",
+        "Rueden C",
+        "Saalfeld S",
+        "Schmid B",
+        "Tinevez JY",
+        "White DJ",
+        "Hartenstein V",
+        "Eliceiri K",
+        "Tomancak P",
+        "Cardona A"
+      ],
+      "title": "Fiji: an open-source platform for biological-image analysis",
+      "journal": "Nature Methods",
+      "year": "2012",
+      "volume": "9",
+      "fpage": "676",
+      "lpage": "682",
+      "doi": "10.1038/nmeth.2019",
+      "pmid": "22743772",
+      "pmc_id": "PMC3855844"
+    },
+    {
+      "ref_id": "bib80",
+      "authors": [
+        "Schmiedt RA",
+        "Mills JH",
+        "Boettcher FA"
+      ],
+      "title": "Age-related loss of activity of auditory-nerve fibers",
+      "journal": "Journal of Neurophysiology",
+      "year": "1996",
+      "volume": "76",
+      "fpage": "2799",
+      "lpage": "2803",
+      "doi": "10.1152/jn.1996.76.4.2799",
+      "pmid": "8899648"
+    },
+    {
+      "ref_id": "bib81",
+      "authors": [
+        "Schmiedt RA",
+        "Okamura H-O",
+        "Lang H",
+        "Schulte BA"
+      ],
+      "title": "Ouabain application to the round window of the gerbil cochlea: a model of auditory neuropathy and apoptosis",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2002",
+      "volume": "3",
+      "fpage": "223",
+      "lpage": "233",
+      "doi": "10.1007/s1016200220017",
+      "pmid": "12382099",
+      "pmc_id": "PMC3962734"
+    },
+    {
+      "ref_id": "bib82",
+      "authors": [
+        "Schofield BR"
+      ],
+      "journal": "Auditory and Vestibular Efferents",
+      "year": "2011",
+      "fpage": "261",
+      "lpage": "290"
+    },
+    {
+      "ref_id": "bib83",
+      "authors": [
+        "Schulte BA",
+        "Schmiedt RA"
+      ],
+      "title": "Lateral wall Na, K-ATPase and endocochlear potentials decline with age in quiet-reared gerbils",
+      "journal": "Hearing Research",
+      "year": "1992",
+      "volume": "61",
+      "fpage": "35",
+      "lpage": "46",
+      "doi": "10.1016/0378-5955(92)90034-K",
+      "pmid": "1326507"
+    },
+    {
+      "ref_id": "bib84",
+      "authors": [
+        "Sergeyenko Y",
+        "Lall K",
+        "Liberman MC",
+        "Kujawa SG"
+      ],
+      "title": "Age-related cochlear synaptopathy: an early-onset contributor to auditory functional decline",
+      "journal": "The Journal of Neuroscience",
+      "year": "2013",
+      "volume": "33",
+      "fpage": "13686",
+      "lpage": "13694",
+      "doi": "10.1523/JNEUROSCI.1783-13.2013",
+      "pmid": "23966690",
+      "pmc_id": "PMC3755715"
+    },
+    {
+      "ref_id": "bib85",
+      "authors": [
+        "Shi L",
+        "Chang Y",
+        "Li X",
+        "Aiken SJ",
+        "Liu L",
+        "Wang J"
+      ],
+      "title": "Coding deficits in noise-induced hidden hearing loss may stem from incomplete repair of ribbon synapses in the cochlea",
+      "journal": "Frontiers in Neuroscience",
+      "year": "2016",
+      "volume": "10",
+      "elocation_id": "231",
+      "doi": "10.3389/fnins.2016.00231",
+      "pmid": "27252621",
+      "pmc_id": "PMC4879136"
+    },
+    {
+      "ref_id": "bib86",
+      "authors": [
+        "Sinex DG",
+        "López DE",
+        "Warr WB"
+      ],
+      "title": "Electrophysiological responses of cochlear root neurons",
+      "journal": "Hearing Research",
+      "year": "2001",
+      "volume": "158",
+      "fpage": "28",
+      "lpage": "38",
+      "doi": "10.1016/s0378-5955(01)00293-3",
+      "pmid": "11506934"
+    },
+    {
+      "ref_id": "bib87",
+      "authors": [
+        "Sinnott JM",
+        "Brown CH",
+        "Brown FE"
+      ],
+      "title": "Frequency and intensity discrimination in Mongolian gerbils, African monkeys and humans",
+      "journal": "Hearing Research",
+      "year": "1992",
+      "volume": "59",
+      "fpage": "205",
+      "lpage": "212",
+      "doi": "10.1016/0378-5955(92)90117-6",
+      "pmid": "1618711"
+    },
+    {
+      "ref_id": "bib88",
+      "authors": [
+        "Steenken F",
+        "Heeringa AN",
+        "Beutelmann R",
+        "Zhang L",
+        "Bovee S",
+        "Klump GM",
+        "Köppl C"
+      ],
+      "title": "Age-related decline in cochlear ribbon synapses and its relation to different metrics of auditory-nerve activity",
+      "journal": "Neurobiology of Aging",
+      "year": "2021",
+      "volume": "108",
+      "fpage": "133",
+      "lpage": "145",
+      "doi": "10.1016/j.neurobiolaging.2021.08.019",
+      "pmid": "34601244"
+    },
+    {
+      "ref_id": "bib89",
+      "authors": [
+        "Steenken F",
+        "Bovee S",
+        "Köppl C"
+      ],
+      "title": "Immunolabeling and counting ribbon synapses in young adult and aged gerbil cochleae",
+      "journal": "Journal of Visualized Experiments",
+      "year": "2022a",
+      "volume": "182",
+      "elocation_id": "e63874",
+      "doi": "10.3791/63874",
+      "pmid": "35532259"
+    },
+    {
+      "ref_id": "bib90",
+      "authors": [
+        "Steenken F",
+        "Oetjen H",
+        "Beutelmann R",
+        "Carney LH",
+        "Koeppl C",
+        "Klump GM"
+      ],
+      "title": "Neural processing and perception of Schroeder-phase harmonic tone complexes in the gerbil: Relating single-unit neurophysiology to behavior",
+      "journal": "The European Journal of Neuroscience",
+      "year": "2022b",
+      "volume": "56",
+      "fpage": "4060",
+      "lpage": "4085",
+      "doi": "10.1111/ejn.15744",
+      "pmid": "35724973",
+      "pmc_id": "PMC9632632"
+    },
+    {
+      "ref_id": "bib91",
+      "authors": [
+        "Steenken F",
+        "Pektaş A",
+        "Köppl C"
+      ],
+      "title": "Age-related changes in olivocochlear efferent innervation in gerbils",
+      "journal": "Frontiers in Synaptic Neuroscience",
+      "year": "2024",
+      "volume": "16",
+      "elocation_id": "1422330",
+      "doi": "10.3389/fnsyn.2024.1422330",
+      "pmid": "38887655",
+      "pmc_id": "PMC11180762"
+    },
+    {
+      "ref_id": "bib92",
+      "authors": [
+        "Tarnowski BI",
+        "Schmiedt RA",
+        "Hellstrom LI",
+        "Lee FS",
+        "Adams JC"
+      ],
+      "title": "Age-related changes in cochleas of mongolian gerbils",
+      "journal": "Hearing Research",
+      "year": "1991",
+      "volume": "54",
+      "fpage": "123",
+      "lpage": "134",
+      "doi": "10.1016/0378-5955(91)90142-v",
+      "pmid": "1917712"
+    },
+    {
+      "ref_id": "bib93",
+      "authors": [
+        "Versteegh CPC",
+        "Meenderink SWF",
+        "van der Heijden M"
+      ],
+      "title": "Response characteristics in the apex of the gerbil cochlea studied through auditory nerve recordings",
+      "journal": "Journal of the Association for Research in Otolaryngology",
+      "year": "2011",
+      "volume": "12",
+      "fpage": "301",
+      "lpage": "316",
+      "doi": "10.1007/s10162-010-0255-y",
+      "pmid": "21213012",
+      "pmc_id": "PMC3085685"
+    },
+    {
+      "ref_id": "bib94",
+      "authors": [
+        "Viana LM",
+        "O’Malley JT",
+        "Burgess BJ",
+        "Jones DD",
+        "Oliveira CACP",
+        "Santos F",
+        "Merchant SN",
+        "Liberman LD",
+        "Liberman MC"
+      ],
+      "title": "Cochlear neuropathy in human presbycusis: Confocal analysis of hidden hearing loss in post-mortem tissue",
+      "journal": "Hearing Research",
+      "year": "2015",
+      "volume": "327",
+      "fpage": "78",
+      "lpage": "88",
+      "doi": "10.1016/j.heares.2015.04.014",
+      "pmid": "26002688",
+      "pmc_id": "PMC4554812"
+    },
+    {
+      "ref_id": "bib95",
+      "authors": [
+        "Wu PZ",
+        "Liberman LD",
+        "Bennett K",
+        "de Gruttola V",
+        "O’Malley JT",
+        "Liberman MC"
+      ],
+      "title": "Primary neural degeneration in the human cochlea: evidence for hidden hearing loss in the aging ear",
+      "journal": "Neuroscience",
+      "year": "2019",
+      "volume": "407",
+      "fpage": "8",
+      "lpage": "20",
+      "doi": "10.1016/j.neuroscience.2018.07.053",
+      "pmid": "30099118",
+      "pmc_id": "PMC6369025"
+    },
+    {
+      "ref_id": "bib96",
+      "authors": [
+        "Wu P-Z",
+        "O’Malley JT",
+        "de Gruttola V",
+        "Liberman MC"
+      ],
+      "title": "Primary neural degeneration in noise-exposed human cochleas: correlations with outer hair cell loss and word-discrimination scores",
+      "journal": "The Journal of Neuroscience",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "4439",
+      "lpage": "4447",
+      "doi": "10.1523/JNEUROSCI.3238-20.2021",
+      "pmid": "33883202",
+      "pmc_id": "PMC8152611"
     }
   ]
 }

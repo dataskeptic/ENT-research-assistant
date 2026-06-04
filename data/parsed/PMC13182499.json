@@ -33,7 +33,8 @@
     "pmc_id": "PMC13182499",
     "pmid": "42140743",
     "full_text_available": true,
-    "section_count": 26
+    "section_count": 26,
+    "reference_count": 25
   },
   "sections": [
     {
@@ -165,6 +166,451 @@
       "section": "Discussion",
       "text": "Currently, treatment options remain limited after progression with ICIs in advanced solid tumors such as NSCLC, HNSCC and melanoma. Resistance mechanisms to immunotherapies have been heterogeneous, and various agents including LBPs have been developed to restore the TME to immune-inflamed status. CJRB-101 was combined with pembrolizumab to overcome the limitations of anti-PD-1 inhibitors given as monotherapy. 22 24 This rationale was supported by preclinical studies showing that CJRB-101 modulates the TME by inducing M2-to-M1 macrophage repolarization and enhancing CD8 + cytotoxic T-cell activation, leading to sustained antitumor activity. In vitro macrophage–T-cell co-culture assays further demonstrated macrophage-mediated activation of T-cell cytotoxicity, supporting the immunostimulatory network induced within the TME. In addition, the CM isolated from CJRB-101 recapitulated the antitumor activity of the live strain, and further purification and mechanism studies aimed to identify the active molecular components are ongoing ( online supplemental Figures 5 and 6 ). Although our study included patients with HNSCC and melanoma, most of the patients enrolled in this study were treatment-naïve NSCLC with PD-L1 expression of >50%. Current treatment guidelines recommend anti-PD-1 inhibitors as monotherapy or in combination with cytotoxic chemotherapy for patients without actionable genetic alterations and with PD-L1 expression of > 50%. 25 Our study showed that the addition of CJRB-101 to pembrolizumab in treatment-naïve NSCLC with PD-L1 expression of > 50% resulted in an ORR of 58% which is numerically higher compared with pembrolizumab monotherapy (44.8%) in the pivotal KEYNOTE-024 study. 2 Despite the added benefit in terms of numerical increase in response rate for ICI-naïve metastatic NSCLC, marginal benefit was observed across ICI-refractory cohorts (NSCLC, ORR 5%; HNSCC and melanoma 0%). In the future, understanding the mechanism of resistance to ICI in the perspective of gut microbiome is paramount in identifying patients who benefit from subsequent therapies. Modulating the gut microbiome has been a challenge due to differences in diet composition across ethnicities, resulting in various reports of specific strains being associated with responses to immunotherapy. 4 Although FMTs have shown clinical activity in ICI-refractory melanoma in a subset of patients, 6 the process is not easily applicable and reproducible in the clinical settings. To this end, various LBPs focusing on a specific strain have been developed, but the robustness of clinical activity remains arbitrary. Currently, the focus has shifted from identifying a specific strain to changes in microbial diversity in gut microbiome, which adds complexities to pinpointing the role of gut microbiome in resistance mechanisms to immunotherapy. In our study, stool metagenomics analysis revealed that the amount of L. mesenteroides increased after administration of CJRB-101 plus pembrolizumab. These changes were consistently observed in the following weeks in a subset of patients. Furthermore, CJRB-101 resulted in microbial diversity and butyrate-producing bacteria increased from baseline. CJRB-101 originates from a food, kimchi, supporting a favorable safety profile and enabling a convenient oral capsule formulation that offers practical advantages over FMT. Although exploratory endpoints such as stool metagenomics analysis were conducted to delineate patient-selection and rationalization for the addition of CJRB-101 to pembrolizumab in treatment-naïve NSCLC with PD-L1 expression of > 50%, we did not identify robust patient-selection tools. Considering that diet, antibiotics, and probiotics may modulate the gut microbiome, further extensive studies should be carried out prior to generalization of L. mesenteroides as therapeutic response to treatment. Notably, CJRB-101 was well-tolerated with no grade 3 treatment-related toxicities and can be safely administered with pembrolizumab. However, the few toxicity profiles observed in the study, such as AST/ALT increase and diarrhea of grade 1 and 2. Limitations include the limited number of sample size enrolled for ICI-refractory HNSCC and melanoma for further investigation. None of the patients with melanoma were recruited in the ICI-naïve cohort. Hence, whether the combination of CJRB-101 plus pembrolizumab augments the antitumor activity seen in NSCLC is similarly observed in melanoma remains unknown. Overall, the addition of CJRB-101 with pembrolizumab resulted in improvement of response rates in ICI-naïve, metastatic NSCLC without actionable genomic alteration and with PD-L1 expression of > 50%. The combination was well-tolerated with no new safety signals observed.",
       "order": 25
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Lee JB",
+        "Kim HR",
+        "Ha SJ"
+      ],
+      "title": "Immune Checkpoint Inhibitors in 10 Years: Contribution of Basic Research and Clinical Application in Cancer Immunotherapy",
+      "journal": "Immune Netw",
+      "year": "2022",
+      "volume": "22",
+      "elocation_id": "e2",
+      "doi": "10.4110/in.2022.22.e2",
+      "pmid": "35291660",
+      "pmc_id": "PMC8901707"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Reck M",
+        "Rodríguez-Abreu D",
+        "Robinson AG",
+        "et al."
+      ],
+      "title": "Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer",
+      "journal": "N Engl J Med",
+      "year": "2016",
+      "volume": "375",
+      "fpage": "1823",
+      "lpage": "33",
+      "doi": "10.1056/NEJMoa1606774",
+      "pmid": "27718847"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Gandhi L",
+        "Rodríguez-Abreu D",
+        "Gadgeel S",
+        "et al."
+      ],
+      "title": "Pembrolizumab plus Chemotherapy in Metastatic Non-Small-Cell Lung Cancer",
+      "journal": "N Engl J Med",
+      "year": "2018",
+      "volume": "378",
+      "fpage": "2078",
+      "lpage": "92",
+      "doi": "10.1056/NEJMoa1801005",
+      "pmid": "29658856"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Bum Lee J",
+        "Huang Y",
+        "Oya Y",
+        "et al."
+      ],
+      "title": "Modulating the gut microbiome in non-small cell lung cancer: Challenges and opportunities",
+      "journal": "Lung Cancer (Auckl)",
+      "year": "2024",
+      "volume": "194",
+      "fpage": "107862",
+      "doi": "10.1016/j.lungcan.2024.107862",
+      "pmid": "38959670"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Xie M",
+        "Li X",
+        "Lau HC-H",
+        "et al."
+      ],
+      "title": "The gut microbiota in cancer immunity and immunotherapy",
+      "journal": "Cell Mol Immunol",
+      "year": "2025",
+      "volume": "22",
+      "fpage": "1012",
+      "lpage": "31",
+      "doi": "10.1038/s41423-025-01326-2",
+      "pmid": "40770084",
+      "pmc_id": "PMC12398524"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Davar D",
+        "Dzutsev AK",
+        "McCulloch JA",
+        "et al."
+      ],
+      "title": "Fecal microbiota transplant overcomes resistance to anti-PD-1 therapy in melanoma patients",
+      "journal": "Science",
+      "year": "2021",
+      "volume": "371",
+      "fpage": "595",
+      "lpage": "602",
+      "doi": "10.1126/science.abf3363",
+      "pmid": "33542131",
+      "pmc_id": "PMC8097968"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Lee S-H",
+        "Cho S-Y",
+        "Yoon Y",
+        "et al."
+      ],
+      "title": "Bifidobacterium bifidum strains synergize with immune checkpoint inhibitors to reduce tumour burden in mice",
+      "journal": "Nat Microbiol",
+      "year": "2021",
+      "volume": "6",
+      "fpage": "277",
+      "lpage": "88",
+      "doi": "10.1038/s41564-020-00831-6",
+      "pmid": "33432149"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Min A",
+        "Synn C",
+        "Kang S",
+        "et al."
+      ],
+      "title": "Abstract 6433: A novel bacterial strain, CJRB-101, induces anti-cancer effects by repolarization of M2 to CXCL9 and CXCL10 dual expressing M1 macrophages in humanized non-small cell lung cancer mice models",
+      "journal": "Cancer Res",
+      "year": "2023",
+      "volume": "83",
+      "fpage": "6433",
+      "doi": "10.1158/1538-7445.AM2023-6433"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Lee JB",
+        "Ahn JS",
+        "Nagasaka M",
+        "et al."
+      ],
+      "title": "First-in-human study of CJRB-101, a live biotherapeutic product in combination with pembrolizumab in selected types of advanced or metastatic cancer",
+      "journal": "JCO",
+      "year": "2025",
+      "volume": "43",
+      "fpage": "8547",
+      "doi": "10.1200/JCO.2025.43.16_suppl.8547"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Chalita M",
+        "Kim YO",
+        "Park S",
+        "et al."
+      ],
+      "title": "EzBioCloud: a genome-driven database and platform for microbiome identification and discovery",
+      "journal": "Int J Syst Evol Microbiol",
+      "year": "2024",
+      "volume": "74",
+      "elocation_id": "006421",
+      "doi": "10.1099/ijsem.0.006421",
+      "pmid": "38888585",
+      "pmc_id": "PMC11261700"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Wood DE",
+        "Lu J",
+        "Langmead B"
+      ],
+      "title": "Improved metagenomic analysis with Kraken 2",
+      "journal": "Genome Biol",
+      "year": "2019",
+      "volume": "20",
+      "elocation_id": "257",
+      "doi": "10.1186/s13059-019-1891-0",
+      "pmid": "31779668",
+      "pmc_id": "PMC6883579"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Chalita M",
+        "Ha SM",
+        "Kim YO",
+        "et al."
+      ],
+      "title": "Improved Metagenomic Taxonomic Profiling Using a Curated Core Gene-Based Bacterial Database Reveals Unrecognized Species in the Genus Streptococcus",
+      "journal": "Pathogens",
+      "year": "2020",
+      "volume": "9",
+      "elocation_id": "204",
+      "doi": "10.3390/pathogens9030204",
+      "pmid": "32164338",
+      "pmc_id": "PMC7157611"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Langmead B",
+        "Salzberg SL"
+      ],
+      "title": "Fast gapped-read alignment with Bowtie 2",
+      "journal": "Nat Methods",
+      "year": "2012",
+      "volume": "9",
+      "fpage": "357",
+      "lpage": "9",
+      "doi": "10.1038/nmeth.1923",
+      "pmid": "22388286",
+      "pmc_id": "PMC3322381"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Danecek P",
+        "Bonfield JK",
+        "Liddle J",
+        "et al."
+      ],
+      "title": "Twelve years of SAMtools and BCFtools",
+      "journal": "Gigascience",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "giab008",
+      "doi": "10.1093/gigascience/giab008",
+      "pmid": "33590861",
+      "pmc_id": "PMC7931819"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Quinlan AR",
+        "Hall IM"
+      ],
+      "title": "BEDTools: a flexible suite of utilities for comparing genomic features",
+      "journal": "Bioinformatics",
+      "year": "2010",
+      "volume": "26",
+      "fpage": "841",
+      "lpage": "2",
+      "doi": "10.1093/bioinformatics/btq033",
+      "pmid": "20110278",
+      "pmc_id": "PMC2832824"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Bolyen E",
+        "Rideout JR",
+        "Dillon MR",
+        "et al."
+      ],
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "journal": "Nat Biotechnol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "852",
+      "lpage": "7",
+      "doi": "10.1038/s41587-019-0209-9",
+      "pmid": "31341288",
+      "pmc_id": "PMC7015180"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Martin M"
+      ],
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "journal": "EMBnet j",
+      "year": "2011",
+      "volume": "17",
+      "fpage": "10",
+      "doi": "10.14806/ej.17.1.200"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Callahan BJ",
+        "McMurdie PJ",
+        "Rosen MJ",
+        "et al."
+      ],
+      "title": "DADA2: High-resolution sample inference from Illumina amplicon data",
+      "journal": "Nat Methods",
+      "year": "2016",
+      "volume": "13",
+      "fpage": "581",
+      "lpage": "3",
+      "doi": "10.1038/nmeth.3869",
+      "pmid": "27214047",
+      "pmc_id": "PMC4927377"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Bokulich NA",
+        "Kaehler BD",
+        "Rideout JR",
+        "et al."
+      ],
+      "title": "Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2’s q2-feature-classifier plugin",
+      "journal": "Microbiome",
+      "year": "2018",
+      "volume": "6",
+      "elocation_id": "90",
+      "doi": "10.1186/s40168-018-0470-z",
+      "pmid": "29773078",
+      "pmc_id": "PMC5956843"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Rognes T",
+        "Flouri T",
+        "Nichols B",
+        "et al."
+      ],
+      "title": "VSEARCH: a versatile open source tool for metagenomics",
+      "journal": "PeerJ",
+      "year": "2016",
+      "volume": "4",
+      "elocation_id": "e2584",
+      "doi": "10.7717/peerj.2584",
+      "pmid": "27781170",
+      "pmc_id": "PMC5075697"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Kim DK",
+        "Synn C-B",
+        "Lee W",
+        "et al."
+      ],
+      "title": "Denfivontinib Activates Effector T Cells Through the NLRP3 Inflammasome, Yielding Potent Anticancer Effects by Combination with Pembrolizumab",
+      "journal": "Mol Cancer Ther",
+      "year": "2025",
+      "volume": "24",
+      "fpage": "354",
+      "lpage": "69",
+      "doi": "10.1158/1535-7163.MCT-24-0501",
+      "pmid": "39632711",
+      "pmc_id": "PMC11876964"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Jenkins RW",
+        "Aref AR",
+        "Lizotte PH",
+        "et al."
+      ],
+      "title": "Ex Vivo Profiling of PD-1 Blockade Using Organotypic Tumor Spheroids",
+      "journal": "Cancer Discov",
+      "year": "2018",
+      "volume": "8",
+      "fpage": "196",
+      "lpage": "215",
+      "doi": "10.1158/2159-8290.CD-17-0833",
+      "pmid": "29101162",
+      "pmc_id": "PMC5809290"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Patnaik A",
+        "Kang SP",
+        "Rasco D",
+        "et al."
+      ],
+      "title": "Phase I Study of Pembrolizumab (MK-3475; Anti-PD-1 Monoclonal Antibody) in Patients with Advanced Solid Tumors",
+      "journal": "Clin Cancer Res",
+      "year": "2015",
+      "volume": "21",
+      "fpage": "4286",
+      "lpage": "93",
+      "doi": "10.1158/1078-0432.CCR-14-2607",
+      "pmid": "25977344"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Lindauer A",
+        "Valiathan CR",
+        "Mehta K",
+        "et al."
+      ],
+      "title": "Translational Pharmacokinetic/Pharmacodynamic Modeling of Tumor Growth Inhibition Supports Dose-Range Selection of the Anti-PD-1 Antibody Pembrolizumab",
+      "journal": "CPT Pharmacometrics Syst Pharmacol",
+      "year": "2017",
+      "volume": "6",
+      "fpage": "11",
+      "lpage": "20",
+      "doi": "10.1002/psp4.12130",
+      "pmid": "27863176",
+      "pmc_id": "PMC5270293"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Riely GJ",
+        "Wood DE",
+        "Aisner DL",
+        "et al."
+      ],
+      "title": "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2025",
+      "volume": "23",
+      "fpage": "354",
+      "lpage": "62",
+      "doi": "10.6004/jnccn.2025.0043",
+      "pmid": "40930154"
     }
   ]
 }

@@ -14,7 +14,8 @@
     "pmc_id": "PMC13212525",
     "pmid": "42212140",
     "full_text_available": true,
-    "section_count": 29
+    "section_count": 29,
+    "reference_count": 65
   },
   "sections": [
     {
@@ -161,6 +162,1252 @@
       "section": "Conclusion",
       "text": "We conducted an exploratory scRNA-seq analysis to characterize the putative CSC-like epithelial cells in AEG and identified candidate hub regulators pivotal for AEG stemness maintenance. Among these, VASN was further screened out as a candidate marker. High VASN expression was associated with an unfavorable prognosis in AEG patients, and VASN knockdown not only suppressed AEG cell migration and invasion abilities but also acted as a candidate modulator of AEG cell stemness by suppressing the Wnt/β-catenin signaling pathway. These results suggest VASN as a prognostic biomarker and may play a tumor-suppressive role in modulating AEG stemness. Further investigations into the molecular mechanisms underlying VASN’s interactions with its targets in regulating cancer cell biology are warranted. Collectively, our findings provide preliminary evidence for the potential involvement of VASN in AEG CSCs-like characteristics, and provide new research directions for CSC-targeted therapy in AEG.",
       "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Laversanne M",
+        "Soerjomataram I",
+        "Jemal A",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA: A Cancer J For Clin",
+      "year": "2021",
+      "volume": "71",
+      "doi": "10.3322/caac.21660",
+      "pmid": "33538338"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "He F",
+        "Wang S",
+        "Zheng R",
+        "Gu J",
+        "Zeng H",
+        "Sun K",
+        "et al."
+      ],
+      "title": "Trends of gastric cancer burdens attributable to risk factors in China from 2000 to 2050",
+      "journal": "Lancet Reg Health West Pac",
+      "year": "2024",
+      "volume": "44",
+      "elocation_id": "101003",
+      "doi": "10.1016/j.lanwpc.2023.101003",
+      "pmid": "38269331",
+      "pmc_id": "PMC10806286"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Morgan E",
+        "Arnold M",
+        "Camargo MC",
+        "Gini A",
+        "Kunzmann AT",
+        "Matsuda T",
+        "et al."
+      ],
+      "title": "The current and future incidence and mortality of gastric cancer in 185 countries, 2020-40: A population-based modelling study",
+      "journal": "EClinicalMedicine",
+      "year": "2022",
+      "volume": "47",
+      "elocation_id": "101404",
+      "doi": "10.1016/j.eclinm.2022.101404",
+      "pmid": "35497064",
+      "pmc_id": "PMC9046108"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Prasetyanti PR",
+        "Medema JP"
+      ],
+      "title": "Intra-tumor heterogeneity from a cancer stem cell perspective",
+      "journal": "Mol Cancer",
+      "year": "2017",
+      "volume": "16",
+      "fpage": "41",
+      "doi": "10.1186/s12943-017-0600-4",
+      "pmid": "28209166",
+      "pmc_id": "PMC5314464"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Yang K",
+        "Yi T"
+      ],
+      "title": "Tumor cell stemness in gastrointestinal cancer: regulation and targeted therapy",
+      "journal": "Front Mol Biosci",
+      "year": "2023",
+      "volume": "10",
+      "elocation_id": "1297611",
+      "doi": "10.3389/fmolb.2023.1297611",
+      "pmid": "38455361",
+      "pmc_id": "PMC10918437"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Shibue T",
+        "Weinberg RA"
+      ],
+      "title": "EMT, CSCs, and drug resistance: the mechanistic link and clinical implications",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2017",
+      "volume": "14",
+      "doi": "10.1038/nrclinonc.2017.44",
+      "pmid": "28397828",
+      "pmc_id": "PMC5720366"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Dinneen K",
+        "Baird AM",
+        "Ryan C",
+        "Sheils O"
+      ],
+      "title": "The role of cancer stem cells in drug resistance in gastroesophageal junction adenocarcinoma",
+      "journal": "Front Mol Biosci",
+      "year": "2021",
+      "volume": "8",
+      "elocation_id": "600373",
+      "doi": "10.3389/fmolb.2021.600373",
+      "pmid": "33628765",
+      "pmc_id": "PMC7897661"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Rice TW",
+        "Patil DT",
+        "Blackstone EH"
+      ],
+      "title": "8th edition AJCC/UICC staging of cancers of the esophagus and esophagogastric junction: application to clinical practice",
+      "journal": "Ann Cardiothoracic Surg",
+      "year": "2017",
+      "volume": "6",
+      "doi": "10.21037/acs.2017.03.14",
+      "pmid": "28447000",
+      "pmc_id": "PMC5387145"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Abdi E",
+        "Latifi-Navid S",
+        "Zahri S",
+        "Yazdanbod A",
+        "Pourfarzi F"
+      ],
+      "title": "Risk factors predisposing to cardia gastric adenocarcinoma: insights and new perspectives",
+      "journal": "Cancer Med",
+      "year": "2019",
+      "volume": "8",
+      "doi": "10.1002/cam4.2497",
+      "pmid": "31448582",
+      "pmc_id": "PMC6792520"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Stuart T",
+        "Satija R"
+      ],
+      "title": "Integrative single-cell analysis",
+      "journal": "Nat Rev Genet",
+      "year": "2019",
+      "volume": "20",
+      "doi": "10.1038/s41576-019-0093-7",
+      "pmid": "30696980"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Huang D",
+        "Ma N",
+        "Li X",
+        "Gou Y",
+        "Duan Y",
+        "Liu B",
+        "et al."
+      ],
+      "title": "Advances in single-cell RNA sequencing and its applications in cancer research",
+      "journal": "J Hematol Oncol",
+      "year": "2023",
+      "volume": "16",
+      "fpage": "98",
+      "doi": "10.1186/s13045-023-01494-6",
+      "pmid": "37612741",
+      "pmc_id": "PMC10463514"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Ji Q",
+        "Jiang X",
+        "Wang M",
+        "Xin Z",
+        "Zhang W",
+        "Qu J",
+        "et al."
+      ],
+      "title": "Multimodal omics approaches to aging and age-related diseases",
+      "journal": "Phenomics",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "56",
+      "lpage": "71",
+      "doi": "10.1007/s43657-023-00125-x",
+      "pmid": "38605908",
+      "pmc_id": "PMC11003952"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Sun F",
+        "Li H",
+        "Sun D",
+        "Fu S",
+        "Gu L",
+        "Shao X",
+        "et al."
+      ],
+      "title": "Single-cell omics: experimental workflow, data analyses and applications",
+      "journal": "Sci China Life Sci",
+      "year": "2025",
+      "volume": "68",
+      "fpage": "5",
+      "lpage": "102",
+      "doi": "10.1007/s11427-023-2561-0",
+      "pmid": "39060615"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Ding J",
+        "Sharon N",
+        "Bar-Joseph Z"
+      ],
+      "title": "Temporal modelling using single-cell transcriptomics",
+      "journal": "Nat Rev Genet",
+      "year": "2022",
+      "volume": "23",
+      "doi": "10.1038/s41576-021-00444-7",
+      "pmid": "35102309",
+      "pmc_id": "PMC10354343"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Dumitrascu B",
+        "Villar S",
+        "Mixon DG",
+        "Engelhardt BE"
+      ],
+      "title": "Optimal marker gene selection for cell type discrimination in single cell analyses",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "1186",
+      "doi": "10.1038/s41467-021-21453-4",
+      "pmid": "33608535",
+      "pmc_id": "PMC7895823"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Kumar V",
+        "Ramnarayanan K",
+        "Sundar R",
+        "Padmanabhan N",
+        "Srivastava S",
+        "Koiwa M",
+        "et al."
+      ],
+      "title": "Single-cell atlas of lineage states, tumor microenvironment, and subtype-specific expression programs in gastric cancer",
+      "journal": "Cancer Discov",
+      "year": "2022",
+      "volume": "12",
+      "doi": "10.1158/2159-8290.cd-21-0683",
+      "pmid": "34642171",
+      "pmc_id": "PMC9394383"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Stuart T",
+        "Butler A",
+        "Hoffman P",
+        "Hafemeister C",
+        "Papalexi E",
+        "Mauck WM",
+        "et al."
+      ],
+      "title": "Comprehensive integration of single-cell data",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "177",
+      "fpage": "1888",
+      "lpage": "1902.e21",
+      "doi": "10.1016/j.cell.2019.05.031",
+      "pmid": "31178118",
+      "pmc_id": "PMC6687398"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Korsunsky I",
+        "Millard N",
+        "Fan J",
+        "Slowikowski K",
+        "Zhang F",
+        "Wei K",
+        "et al."
+      ],
+      "title": "Fast, sensitive and accurate integration of single-cell data with Harmony",
+      "journal": "Nat Methods",
+      "year": "2019",
+      "volume": "16",
+      "doi": "10.1038/s41592-019-0619-0",
+      "pmid": "31740819",
+      "pmc_id": "PMC6884693"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Zhang X",
+        "Lan Y",
+        "Xu J",
+        "Quan F",
+        "Zhao E",
+        "Deng C",
+        "et al."
+      ],
+      "title": "CellMarker: a manually curated resource of cell markers in human and mouse",
+      "journal": "Nucleic Acids Res",
+      "year": "2019",
+      "volume": "47",
+      "doi": "10.1093/nar/gky900",
+      "pmid": "30289549",
+      "pmc_id": "PMC6323899"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Zhang L",
+        "Li Z",
+        "Skrzypczynska KM",
+        "Fang Q",
+        "Zhang W",
+        "O’Brien SA",
+        "et al."
+      ],
+      "title": "Single-cell analyses inform mechanisms of myeloid-targeted therapies i n colon cancer",
+      "journal": "Cell",
+      "year": "2020",
+      "volume": "181",
+      "fpage": "442",
+      "lpage": "459.e29",
+      "doi": "10.1016/j.cell.2020.03.048",
+      "pmid": "32302573"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Gulati GS",
+        "Sikandar SS",
+        "Wesche DJ",
+        "Manjunath A",
+        "Bharadwaj A",
+        "Berger MJ",
+        "et al."
+      ],
+      "title": "Single-cell transcriptional diversity is a hallmark of developmental potential",
+      "journal": "Science",
+      "year": "2020",
+      "volume": "367",
+      "doi": "10.1126/science.aax0249",
+      "pmid": "31974247",
+      "pmc_id": "PMC7694873"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Qiu X",
+        "Hill A",
+        "Packer J",
+        "Lin D",
+        "Ma Y-A",
+        "Trapnell C"
+      ],
+      "title": "Single-cell mRNA quantification and differential analysis with Census",
+      "journal": "Nat Methods",
+      "year": "2017",
+      "volume": "14",
+      "doi": "10.1038/nmeth.4150",
+      "pmid": "28114287",
+      "pmc_id": "PMC5330805"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Street K",
+        "Risso D",
+        "Fletcher RB",
+        "Das D",
+        "Ngai J",
+        "Yosef N",
+        "et al."
+      ],
+      "title": "Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics",
+      "journal": "BMC Genomics",
+      "year": "2018",
+      "volume": "19",
+      "elocation_id": "477",
+      "doi": "10.1186/s12864-018-4772-0",
+      "pmid": "29914354",
+      "pmc_id": "PMC6007078"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Yu G",
+        "Wang L-G",
+        "Han Y",
+        "He Q-Y"
+      ],
+      "title": "clusterProfiler: an R package for comparing biological themes among gene clusters",
+      "journal": "OMICS",
+      "year": "2012",
+      "volume": "16",
+      "doi": "10.1089/omi.2011.0118",
+      "pmid": "22455463",
+      "pmc_id": "PMC3339379"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Liberzon A",
+        "Birger C",
+        "Thorvaldsdóttir H",
+        "Ghandi M",
+        "Mesirov JP",
+        "Tamayo P"
+      ],
+      "title": "The molecular signatures database (MSigDB) hallmark gene set collection",
+      "journal": "Cell Syst",
+      "year": "2015",
+      "volume": "1",
+      "doi": "10.1016/j.cels.2015.12.004",
+      "pmid": "26771021",
+      "pmc_id": "PMC4707969"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Hänzelmann S",
+        "Castelo R",
+        "Guinney J"
+      ],
+      "title": "GSVA: gene set variation analysis for microarray and RNA-Seq data",
+      "journal": "BMC Bioinf",
+      "year": "2013",
+      "volume": "14",
+      "fpage": "7",
+      "doi": "10.1186/1471-2105-14-7",
+      "pmc_id": "PMC3618321",
+      "pmid": "23323831"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Van de Sande B",
+        "Flerin C",
+        "Davie K",
+        "De Waegeneer M",
+        "Hulselmans G",
+        "Aibar S",
+        "et al."
+      ],
+      "title": "A scalable SCENIC workflow for single-cell gene regulatory network analysis",
+      "journal": "Nat Protoc",
+      "year": "2020",
+      "volume": "15",
+      "doi": "10.1038/s41596-020-0336-2",
+      "pmid": "32561888"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Jin S",
+        "Guerrero-Juarez CF",
+        "Zhang L",
+        "Chang I",
+        "Ramos R",
+        "Kuan C-H",
+        "et al."
+      ],
+      "title": "Inference and analysis of cell-cell communication using CellChat",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "1088",
+      "doi": "10.1038/s41467-021-21246-9",
+      "pmid": "33597522",
+      "pmc_id": "PMC7889871"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Morabito S",
+        "Reese F",
+        "Rahimzadeh N",
+        "Miyoshi E",
+        "Swarup V"
+      ],
+      "title": "hdWGCNA identifies co-expression networks in high-dimensional transcriptomics data",
+      "journal": "Cell Rep Methods",
+      "year": "2023",
+      "volume": "3",
+      "issue": "(6)",
+      "fpage": "100498",
+      "doi": "10.1016/j.crmeth.2023.100498",
+      "pmid": "37426759",
+      "pmc_id": "PMC10326379"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Yoon S-J",
+        "Park J",
+        "Shin Y",
+        "Choi Y",
+        "Park SW",
+        "Kang S-G",
+        "et al."
+      ],
+      "title": "Deconvolution of diffuse gastric cancer and the suppression of CD34 on the BALB/c nude mice model",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "314",
+      "doi": "10.1186/s12885-020-06814-4",
+      "pmid": "32293340",
+      "pmc_id": "PMC7160933"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Goldman MJ",
+        "Craft B",
+        "Hastie M",
+        "Repečka K",
+        "McDade F",
+        "Kamath A",
+        "et al."
+      ],
+      "title": "Visualizing and interpreting cancer genomics data via the Xena platform",
+      "journal": "Nat Biotechnol",
+      "year": "2020",
+      "volume": "38",
+      "doi": "10.1038/s41587-020-0546-8",
+      "pmid": "32444850",
+      "pmc_id": "PMC7386072"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Wagner GP",
+        "Kin K",
+        "Lynch VJ"
+      ],
+      "title": "Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples",
+      "journal": "Theory Biosci = Theorie Den Biowissenschaften",
+      "year": "2012",
+      "volume": "131",
+      "doi": "10.1007/s12064-012-0162-3",
+      "pmid": "22872506"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Malta TM",
+        "Sokolov A",
+        "Gentles AJ",
+        "Burzykowski T",
+        "Poisson L",
+        "Weinstein JN",
+        "et al."
+      ],
+      "title": "Machine learning identifies stemness features associated with oncogenic dedifferentiation",
+      "journal": "Cell",
+      "year": "2018",
+      "volume": "173",
+      "fpage": "338",
+      "lpage": "354.e15",
+      "doi": "10.1016/j.cell.2018.03.034",
+      "pmid": "29625051",
+      "pmc_id": "PMC5902191"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Jiang P",
+        "Gu S",
+        "Pan D",
+        "Fu J",
+        "Sahu A",
+        "Hu X",
+        "et al."
+      ],
+      "title": "Signatures of T cell dysfunction and exclusion predict cancer immunotherapy response",
+      "journal": "Nat Med",
+      "year": "2018",
+      "volume": "24",
+      "doi": "10.1038/s41591-018-0136-1",
+      "pmid": "30127393",
+      "pmc_id": "PMC6487502"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Aran D",
+        "Hu Z",
+        "Butte AJ"
+      ],
+      "title": "xCell: digitally portraying the tissue cellular heterogeneity landscape",
+      "journal": "Genome Biol",
+      "year": "2017",
+      "volume": "18",
+      "fpage": "220",
+      "doi": "10.1186/s13059-017-1349-1",
+      "pmid": "29141660",
+      "pmc_id": "PMC5688663"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Yin X",
+        "Feng C",
+        "Han L",
+        "Ma Y",
+        "Jiao Y",
+        "Wang J",
+        "et al."
+      ],
+      "title": "Diallyl disulfide inhibits the metastasis of type II esophageal-gastric junction adenocarcinoma cells via NF-κB and PI3K/AKT signaling pathways in vitro",
+      "journal": "Oncol Rep",
+      "year": "2018",
+      "volume": "39",
+      "doi": "10.3892/or.2017.6113",
+      "pmid": "29207122"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Liu H",
+        "Yan R",
+        "Xiao Z",
+        "Huang X",
+        "Yao J",
+        "Liu J",
+        "et al."
+      ],
+      "title": "Targeting DCLK1 attenuates tumor stemness and evokes antitumor immunity in triple-negative breast cancer by inhibiting IL-6/STAT3 signaling",
+      "journal": "Breast Cancer Res",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "43",
+      "doi": "10.1186/s13058-023-01642-3",
+      "pmid": "37069669",
+      "pmc_id": "PMC10108533"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Ren L",
+        "Shi L",
+        "Zheng Y"
+      ],
+      "title": "Reference materials for improving reliability of multiomics profiling",
+      "journal": "Phenomics",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "487",
+      "lpage": "521",
+      "doi": "10.1007/s43657-023-00153-7",
+      "pmid": "39723231",
+      "pmc_id": "PMC11666855"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Taieb J",
+        "Bennouna J",
+        "Penault-Llorca F",
+        "Basile D",
+        "Samalin E",
+        "Zaanan A"
+      ],
+      "title": "Treatment of gastric adenocarcinoma: a rapidly evolving landscape",
+      "journal": "Eur J Cancer",
+      "year": "2023",
+      "volume": "195",
+      "fpage": "113370",
+      "doi": "10.1016/j.ejca.2023.113370",
+      "pmid": "37948843"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Perez Holguin RA",
+        "Olecki EJ",
+        "Stahl KA",
+        "Wong WG",
+        "Vining CC",
+        "Dixon MEB",
+        "et al."
+      ],
+      "title": "Management of clinical T2N0 esophageal and gastroesophageal junction adenocarcinoma: what is the optimal treatment",
+      "journal": "J Gastrointestinal Surg",
+      "year": "2022",
+      "volume": "26",
+      "doi": "10.1007/s11605-022-05441-7",
+      "pmid": "36042124"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "Joshi SS",
+        "Maron SB",
+        "Catenacci DV"
+      ],
+      "title": "Pembrolizumab for treatment of advanced gastric and gastroesophageal junction adenocarcinoma",
+      "journal": "Future Oncol",
+      "year": "2018",
+      "volume": "14",
+      "doi": "10.2217/fon-2017-0436",
+      "pmid": "29094609",
+      "pmc_id": "PMC5827797"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Lei ZN",
+        "Teng QX",
+        "Koya J",
+        "Liu Y",
+        "Chen Z",
+        "Zeng L",
+        "et al."
+      ],
+      "title": "The correlation between cancer stem cells and epithelial-mesenchymal transition: molecular mechanisms and significance in cancer theragnosis",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1417201",
+      "doi": "10.3389/fimmu.2024.1417201",
+      "pmid": "39403386",
+      "pmc_id": "PMC11471544"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "Zhou Y",
+        "Xu J",
+        "Luo H",
+        "Meng X",
+        "Chen M",
+        "Zhu D"
+      ],
+      "title": "Wnt signaling pathway in cancer immunotherapy",
+      "journal": "Cancer Lett",
+      "year": "2022",
+      "volume": "525",
+      "fpage": "84",
+      "lpage": "96",
+      "doi": "10.1016/j.canlet.2021.10.034",
+      "pmid": "34740608"
+    },
+    {
+      "ref_id": "B44",
+      "label": "44",
+      "authors": [
+        "Cheng X",
+        "Tan X",
+        "Wang W",
+        "Zhang Z",
+        "Zhu R",
+        "Wu M",
+        "et al."
+      ],
+      "title": "Long-chain acylcarnitines induce senescence of invariant natural killer T cells in hepatocellular carcinoma",
+      "journal": "Cancer Res",
+      "year": "2023",
+      "volume": "83",
+      "doi": "10.1158/0008-5472.can-22-2273",
+      "pmid": "36512635"
+    },
+    {
+      "ref_id": "B45",
+      "label": "45",
+      "authors": [
+        "Borlongan MC",
+        "Wang H"
+      ],
+      "title": "Profiling and targeting cancer stem cell signaling pathways for cancer therapeutics",
+      "journal": "Front Cell Dev Biol",
+      "year": "2023",
+      "volume": "11",
+      "elocation_id": "1125174",
+      "doi": "10.3389/fcell.2023.1125174",
+      "pmid": "37305676",
+      "pmc_id": "PMC10247984"
+    },
+    {
+      "ref_id": "B46",
+      "label": "46",
+      "authors": [
+        "de Streel G",
+        "Lucas S"
+      ],
+      "title": "Targeting immunosuppression by TGF-β1 for cancer immunotherapy",
+      "journal": "Biochem Pharmacol",
+      "year": "2021",
+      "volume": "192",
+      "elocation_id": "114697",
+      "doi": "10.1016/j.bcp.2021.114697",
+      "pmid": "34302795",
+      "pmc_id": "PMC8484859"
+    },
+    {
+      "ref_id": "B47",
+      "label": "47",
+      "authors": [
+        "Failla CM",
+        "Carbone ML",
+        "Ramondino C",
+        "Bruni E",
+        "Orecchia A"
+      ],
+      "title": "Vascular endothelial growth factor (VEGF) family and the immune system: activators or inhibitors",
+      "journal": "Biomedicines",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "6",
+      "doi": "10.20944/preprints202411.1593.v1",
+      "pmc_id": "PMC11763294",
+      "pmid": "39857591"
+    },
+    {
+      "ref_id": "B48",
+      "label": "48",
+      "authors": [
+        "Jin M",
+        "Cao W",
+        "Chen B",
+        "Xiong M",
+        "Cao G"
+      ],
+      "title": "Tumor-derived lactate creates a favorable niche for tumor via supplying energy source for tumor and modulating the tumor microenvironment",
+      "journal": "Front Cell Dev Biol",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "808859",
+      "doi": "10.3389/fcell.2022.808859",
+      "pmid": "35646923",
+      "pmc_id": "PMC9136137"
+    },
+    {
+      "ref_id": "B49",
+      "label": "49",
+      "authors": [
+        "Liu G",
+        "Chen T",
+        "Ding Z",
+        "Wang Y",
+        "Wei Y",
+        "Wei X"
+      ],
+      "title": "Inhibition of FGF-FGFR and VEGF-VEGFR signalling in cancer treatment",
+      "journal": "Cell Proliferation",
+      "year": "2021",
+      "volume": "54",
+      "elocation_id": "e13009",
+      "doi": "10.1111/cpr.13009",
+      "pmid": "33655556",
+      "pmc_id": "PMC8016646"
+    },
+    {
+      "ref_id": "B50",
+      "label": "50",
+      "authors": [
+        "Tie Y",
+        "Tang F",
+        "Peng D",
+        "Zhang Y",
+        "Shi H"
+      ],
+      "title": "TGF-beta signal transduction: biology, function and therapy for diseases",
+      "journal": "Mol BioMed",
+      "year": "2022",
+      "volume": "3",
+      "fpage": "45",
+      "doi": "10.1186/s43556-022-00109-9",
+      "pmid": "36534225",
+      "pmc_id": "PMC9761655"
+    },
+    {
+      "ref_id": "B51",
+      "label": "51",
+      "authors": [
+        "Ma R",
+        "Sun J-H",
+        "Wang Y-Y"
+      ],
+      "title": "The role of transforming growth factor-β (TGF-β) in the formation of exhausted CD8 + T cells",
+      "journal": "Clin Exp Med",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "128",
+      "doi": "10.1007/s10238-024-01394-0",
+      "pmid": "38884843",
+      "pmc_id": "PMC11182817"
+    },
+    {
+      "ref_id": "B52",
+      "label": "52",
+      "authors": [
+        "Tan X",
+        "Zhao X",
+        "Hu Z",
+        "Jiang D-S",
+        "Ma Z",
+        "Sun L",
+        "et al."
+      ],
+      "title": "Targeting Setdb1 in T cells induces transplant tolerance without compromising antitumor immunity",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "4534",
+      "doi": "10.1038/s41467-025-58841-z",
+      "pmid": "40374612",
+      "pmc_id": "PMC12081883"
+    },
+    {
+      "ref_id": "B53",
+      "label": "53",
+      "authors": [
+        "Tan X",
+        "Qi C",
+        "Zhao X",
+        "Sun L",
+        "Wu M",
+        "Sun W",
+        "et al."
+      ],
+      "title": "ERK inhibition promotes engraftment of allografts by reprogramming T-cell metabolism",
+      "journal": "Adv Sci",
+      "year": "2023",
+      "volume": "10",
+      "elocation_id": "2206768",
+      "doi": "10.1002/advs.202206768",
+      "pmid": "37013935",
+      "pmc_id": "PMC10238213"
+    },
+    {
+      "ref_id": "B54",
+      "label": "54",
+      "authors": [
+        "Zhao R",
+        "Xie J",
+        "Chen H",
+        "Gong X",
+        "Peng C",
+        "Xie J",
+        "et al."
+      ],
+      "title": "VASN drives gastric tumorigenesis via activation of the COL4A1/PI3K/AKT axis during Helicobacter pylori infection",
+      "journal": "Br J Cancer",
+      "year": "2025",
+      "volume": "133",
+      "doi": "10.1038/s41416-025-03081-7",
+      "pmid": "40550854",
+      "pmc_id": "PMC12356896"
+    },
+    {
+      "ref_id": "B55",
+      "label": "55",
+      "authors": [
+        "Xiao B",
+        "Hang J",
+        "Lei T",
+        "He Y",
+        "Kuang Z",
+        "Wang L",
+        "et al."
+      ],
+      "title": "Identification of key genes relevant to the prognosis of ER-positive and ER-negative breast cancer based on a prognostic prediction system",
+      "journal": "Mol Biol Rep",
+      "year": "2019",
+      "volume": "46",
+      "doi": "10.1007/s11033-019-04663-4",
+      "pmid": "30888555"
+    },
+    {
+      "ref_id": "B56",
+      "label": "56",
+      "authors": [
+        "Li R",
+        "Tao T",
+        "Ren Q",
+        "Xie S",
+        "Gao X",
+        "Wu J",
+        "et al."
+      ],
+      "title": "Key genes are associated with the prognosis of glioma, and melittin can regulate the expression of these genes in glioma U87 cells",
+      "journal": "BioMed Res Int",
+      "year": "2022",
+      "volume": "2022",
+      "elocation_id": "7033478",
+      "doi": "10.1155/2022/7033478",
+      "pmid": "39281062",
+      "pmc_id": "PMC11401668"
+    },
+    {
+      "ref_id": "B57",
+      "label": "57",
+      "authors": [
+        "Kang D",
+        "Huang S",
+        "Liao Y",
+        "Mi S",
+        "Zhou J",
+        "Feng Y",
+        "et al."
+      ],
+      "title": "Vasorin (VASN) overexpression promotes pulmonary metastasis and resistance to adjuvant chemotherapy in patients with locally advanced rectal cancer",
+      "journal": "J Transl Med",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "742",
+      "doi": "10.1186/s12967-024-05473-4",
+      "pmid": "39107788",
+      "pmc_id": "PMC11301854"
+    },
+    {
+      "ref_id": "B58",
+      "label": "58",
+      "authors": [
+        "Liang W",
+        "Guo B",
+        "Ye J",
+        "Liu H",
+        "Deng W",
+        "Lin C",
+        "et al."
+      ],
+      "title": "Vasorin stimulates Malignant progression and angiogenesis in glioma",
+      "journal": "Cancer Sci",
+      "year": "2019",
+      "volume": "110",
+      "doi": "10.1111/cas.14103",
+      "pmid": "31215106",
+      "pmc_id": "PMC6676100"
+    },
+    {
+      "ref_id": "B59",
+      "label": "59",
+      "authors": [
+        "Liang W",
+        "Zuo J",
+        "Liu M",
+        "Su Y",
+        "Guo B",
+        "Hou J",
+        "et al."
+      ],
+      "title": "VASN promotes colorectal cancer progression by activating the YAP/TAZ and AKT signaling pathways via YAP",
+      "journal": "FASEB J",
+      "year": "2023",
+      "volume": "37",
+      "elocation_id": "e22688",
+      "doi": "10.1096/fj.202201181r",
+      "pmid": "36468780"
+    },
+    {
+      "ref_id": "B60",
+      "label": "60",
+      "authors": [
+        "Wan F",
+        "Li H",
+        "Huang S",
+        "Sun J",
+        "Li J",
+        "Li Y",
+        "et al."
+      ],
+      "title": "Vasorin promotes proliferation and migration via STAT3 signaling and acts as a promising therapeutic target of hepatocellular carcinoma",
+      "journal": "Cell Signalling",
+      "year": "2023",
+      "volume": "110",
+      "elocation_id": "110809",
+      "doi": "10.1016/j.cellsig.2023.110809",
+      "pmid": "37454705"
+    },
+    {
+      "ref_id": "B61",
+      "label": "61",
+      "authors": [
+        "Man J",
+        "Yu X",
+        "Huang H",
+        "Zhou W",
+        "Xiang C",
+        "Huang H",
+        "et al."
+      ],
+      "title": "Hypoxic induction of vasorin regulates Notch1 turnover to maintain glioma stem-like cells",
+      "journal": "Cell Stem Cell",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "104",
+      "lpage": "118.e6",
+      "doi": "10.1016/j.stem.2017.10.005",
+      "pmid": "29198941",
+      "pmc_id": "PMC5756127"
+    },
+    {
+      "ref_id": "B62",
+      "label": "62",
+      "authors": [
+        "Zhao Y",
+        "Xiao C",
+        "Li S",
+        "Huang A",
+        "Li H",
+        "Dong J",
+        "et al."
+      ],
+      "title": "CD71-mediated effects of soluble vasorin on tumor progression, angiogenesis and immunosuppression",
+      "journal": "Int J Mol Sci",
+      "year": "2025",
+      "volume": "26",
+      "elocation_id": "4913",
+      "doi": "10.3390/ijms26104913",
+      "pmid": "40430053",
+      "pmc_id": "PMC12111917"
+    },
+    {
+      "ref_id": "B63",
+      "label": "63",
+      "authors": [
+        "Xue C",
+        "Chu Q",
+        "Shi Q",
+        "Zeng Y",
+        "Lu J",
+        "Li L"
+      ],
+      "title": "Wnt signaling pathways in biology and disease: mechanisms and therapeutic advances",
+      "journal": "Signal Transduction Targeted Ther",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "106",
+      "doi": "10.1038/s41392-025-02142-w",
+      "pmid": "40180907",
+      "pmc_id": "PMC11968978"
+    },
+    {
+      "ref_id": "B64",
+      "label": "64",
+      "authors": [
+        "Andrique C",
+        "Bonnet AL",
+        "Dang J",
+        "Lesieur J",
+        "Krautzberger AM",
+        "Baroukh B",
+        "et al."
+      ],
+      "title": "Vasorin as an actor of bone turnover",
+      "journal": "J Cell Physiol",
+      "year": "2024",
+      "volume": "239",
+      "elocation_id": "e31257",
+      "doi": "10.1002/jcp.31257",
+      "pmid": "38504496"
+    },
+    {
+      "ref_id": "B65",
+      "label": "65",
+      "authors": [
+        "Karstens K-F",
+        "Stüben BO",
+        "Reeh M"
+      ],
+      "title": "Oesophageal adenocarcinomas: Where do we stand today",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "109",
+      "doi": "10.3390/cancers13010109",
+      "pmid": "33396388",
+      "pmc_id": "PMC7796319"
     }
   ]
 }

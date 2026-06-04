@@ -17,7 +17,8 @@
     "pmc_id": "PMC13194212",
     "pmid": "42168667",
     "full_text_available": true,
-    "section_count": 11
+    "section_count": 11,
+    "reference_count": 31
   },
   "sections": [
     {
@@ -74,6 +75,593 @@
       "section": "Conclusion",
       "text": "In conclusion, the use of the NECKCHECK checklist is associated with improved interobserver agreement and diagnostic accuracy in the radiological assessment of OCSCC. The tool enhances the identification of key parameters relevant for TNM staging and therapeutic planning while reducing diagnostic variability. NECKCHECK should be regarded as a complementary and educational resource that supports standardized image interpretation within multidisciplinary clinical practice. However, it should be emphasized that this tool is intended as a complementary resource and should not replace comprehensive clinical assessment or multidisciplinary decision-making.",
       "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Bray F",
+        "Ferlay J",
+        "Soerjomataram I",
+        "Siegel RL",
+        "Torre LA",
+        "Jemal A"
+      ],
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2018",
+      "volume": "68",
+      "issue": "6",
+      "fpage": "394",
+      "lpage": "424",
+      "doi": "10.3322/caac.21492",
+      "pmid": "30207593"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Sarode G",
+        "Maniyar N",
+        "Sarode SC",
+        "Jafer M",
+        "Patil S",
+        "Awan KH"
+      ],
+      "title": "Epidemiologic aspects of oral cancer",
+      "journal": "Dis Mon",
+      "year": "2020",
+      "volume": "66",
+      "issue": "12",
+      "fpage": "100988",
+      "doi": "10.1016/j.disamonth.2020.100988",
+      "pmid": "32605720"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Mahajan A",
+        "Ahuja A",
+        "Sable N",
+        "Stambuk HE"
+      ],
+      "title": "Imaging in oral cancers: a comprehensive review",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "104",
+      "fpage": "104658",
+      "doi": "10.1016/j.oraloncology.2020.104658",
+      "pmid": "32208340"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Pfister DG",
+        "Spencer S",
+        "Adelstein D",
+        "Adkins D",
+        "Anzai Y",
+        "Brizel DM",
+        "et al."
+      ],
+      "title": "Head and neck cancers, version 2.2020, NCCN clinical practice guidelines in oncology",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2020",
+      "volume": "18",
+      "issue": "7",
+      "fpage": "873",
+      "lpage": "98",
+      "doi": "10.6004/jnccn.2020.0031",
+      "pmid": "32634781"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Butler KL",
+        "Chang Y",
+        "DeMoya M",
+        "Feinstein A",
+        "Ferrada P",
+        "Maduekwe U",
+        "et al."
+      ],
+      "title": "Needs assessment for a focused radiology curriculum in surgical residency: a multicenter study",
+      "journal": "Am J Surg",
+      "year": "2016",
+      "volume": "211",
+      "issue": "1",
+      "fpage": "279",
+      "lpage": "87",
+      "doi": "10.1016/j.amjsurg.2015.05.027",
+      "pmid": "26329901"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Lozada KN",
+        "Bernstein JM"
+      ],
+      "title": "Current status of radiology training in otolaryngology residency programs",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2018",
+      "volume": "144",
+      "issue": "3",
+      "fpage": "218",
+      "lpage": "221",
+      "doi": "10.1001/jamaoto.2017.2881",
+      "pmid": "29346475",
+      "pmc_id": "PMC5885872"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Amin MB",
+        "Greene FL",
+        "Edge SB"
+      ],
+      "journal": "AJCC Cancer Staging Manual",
+      "year": "2017"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Baba A",
+        "Hashimoto K",
+        "Kayama R",
+        "Yamauchi H",
+        "Ikeda K",
+        "Ojiri H"
+      ],
+      "title": "Radiological approach for the newly incorporated T staging factor, depth of invasion (DOI), of the oral tongue cancer in the 8th edition of American Joint Committee on Cancer (AJCC) staging manual: assessment of the necessity for elective neck dissection",
+      "journal": "Jpn J Radiol",
+      "year": "2020",
+      "volume": "38",
+      "issue": "9",
+      "fpage": "821",
+      "lpage": "32",
+      "doi": "10.1007/s11604-020-00982-w",
+      "pmid": "32356237"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Baba A",
+        "Okuyama Y",
+        "Yamauchi H",
+        "Ikeda K",
+        "Ogino N",
+        "Kozakai A",
+        "et al."
+      ],
+      "title": "Magnetic resonance imaging findings of styloglossus and hyoglossus muscle invasion: relationship to depth of invasion and clinical significance as a predictor of advisability of elective neck dissection in node negative oral tongue cancer",
+      "journal": "Eur J Radiol",
+      "year": "2019",
+      "volume": "118",
+      "fpage": "19",
+      "lpage": "24",
+      "doi": "10.1016/j.ejrad.2019.06.023",
+      "pmid": "31439241"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Mannelli G",
+        "Arcuri F",
+        "Agostini T",
+        "Innocenti M",
+        "Raffaini M",
+        "Spinelli G"
+      ],
+      "title": "Classification of tongue cancer resection and treatment algorithm",
+      "journal": "J Surg Oncol",
+      "year": "2018",
+      "volume": "117",
+      "issue": "5",
+      "fpage": "1092",
+      "lpage": "1099",
+      "doi": "10.1002/jso.24991",
+      "pmid": "29432642"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Otsuru M",
+        "Yanamoto S",
+        "Naruse T",
+        "Omori K",
+        "Morishita K",
+        "Sumi M",
+        "et al."
+      ],
+      "title": "Surgical treatment and prognosis of posteriorly invading oral cancer: potential clinical significance of pterygomandibular raphe",
+      "journal": "J Dent Sci",
+      "year": "2023",
+      "volume": "18",
+      "issue": "1",
+      "fpage": "81",
+      "lpage": "6",
+      "doi": "10.1016/j.jds.2022.07.008",
+      "pmid": "36643228",
+      "pmc_id": "PMC9831833"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Bouhir S",
+        "Mortuaire G",
+        "Dubrulle-Berthelot F",
+        "Leroy X",
+        "Deken-Delannoy V",
+        "Rysman B",
+        "et al."
+      ],
+      "title": "Radiological assessment of mandibular invasion in squamous cell carcinoma of the oral cavity and oropharynx",
+      "journal": "Eur Ann Otorhinolaryngol Head Neck Dis",
+      "year": "2019",
+      "volume": "136",
+      "issue": "5",
+      "fpage": "361",
+      "lpage": "6",
+      "doi": "10.1016/j.anorl.2019.05.005",
+      "pmid": "31196801"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Kumar A",
+        "Singh R",
+        "Santhosh M",
+        "Vijay S",
+        "Surendran N",
+        "Sahu GC",
+        "et al."
+      ],
+      "title": "Role of structures in the masticator space in selecting patients with resectable T4b oral cancer: findings from a survival analysis",
+      "journal": "Int J Oral Maxillofac Surg",
+      "year": "2021",
+      "volume": "50",
+      "issue": "5",
+      "fpage": "579",
+      "lpage": "84",
+      "doi": "10.1016/j.ijom.2020.07.026",
+      "pmid": "32861555"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "raw_citation": "Ventura AJR, Salamé F, Cano B, Pallardó Y, Andres AT, Fuentes CR SERAM 2012 EPOS [Text] [Internet]. European Congress of Radiology - SERAM 2012; 2012 [cited 2023 Jan 22]. El espacio carotídeo cervical. Ademas de la carótida, ¿qué hay? Available from: https://epos.myesr.org/poster/esr/seram2012/S-0539"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Brea Álvarez B",
+        "Tuñón Gómez M"
+      ],
+      "title": "Diseminación perineural en tumores de cabeza y cuello",
+      "journal": "Radiologia",
+      "year": "2014",
+      "volume": "56",
+      "issue": "5",
+      "fpage": "400",
+      "lpage": "12",
+      "doi": "10.1016/j.rx.2014.04.006",
+      "pmid": "25002354"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "raw_citation": "Ojiri H, editor. Diagnostic Imaging in Head and Neck Cancer [Internet]. Singapore: Springer Singapore (2020) [cited 2023 May 23]. Available from: http://link.springer.com/ 10.1007/978-981-15-3188-0 doi:10.1007/978-981-15-3188-0"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Akamatsu M",
+        "Makino T",
+        "Morita S",
+        "Noda Y",
+        "Kariya S",
+        "Onoda T",
+        "et al."
+      ],
+      "title": "Midline involvement and perineural invasion predict contralateral neck metastasis that affects overall and disease-free survival in locally advanced oral tongue squamous cell carcinoma",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "1010252",
+      "doi": "10.3389/fonc.2022.1010252",
+      "pmid": "36387194",
+      "pmc_id": "PMC9644196"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Rao D",
+        "Sandhu SJS",
+        "Ormsby C",
+        "Natter P",
+        "Haymes D",
+        "Cohen I",
+        "et al."
+      ],
+      "title": "Review of the pterygomandibular raphe",
+      "journal": "Neurographics",
+      "year": "2017",
+      "volume": "7",
+      "issue": "2",
+      "fpage": "121",
+      "lpage": "5",
+      "doi": "10.3174/ng.2170196"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Brandão Neto JDS",
+        "Aires FT",
+        "Dedivitis RA",
+        "Matos LL",
+        "Cernea CR"
+      ],
+      "title": "Comparison between magnetic resonance and computed tomography in detecting mandibular invasion in oral cancer: a systematic review and diagnostic meta-analysis",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "78",
+      "fpage": "114",
+      "lpage": "8",
+      "doi": "10.1016/j.oraloncology.2018.01.026",
+      "pmid": "29496038"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Král D",
+        "Pink R",
+        "Šašková L",
+        "Michálek J",
+        "Tvrdý P"
+      ],
+      "title": "Bone invasion by oral squamous cell carcinoma",
+      "journal": "Acta Chir Plast",
+      "year": "2021",
+      "volume": "63",
+      "issue": "3",
+      "fpage": "139",
+      "lpage": "44",
+      "doi": "10.48095/ccachp2021139",
+      "pmid": "34814695"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Slieker FJB",
+        "Rombout D",
+        "de Bree R",
+        "Cann EMV"
+      ],
+      "title": "Local recurrence and survival after treatment of oral squamous cell carcinoma of the maxilla: a systematic review and meta-analysis",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2022",
+      "volume": "133",
+      "issue": "6",
+      "fpage": "626",
+      "lpage": "38",
+      "doi": "10.1016/j.oooo.2021.10.003",
+      "pmid": "35165055"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Patel S",
+        "Bhatt AA"
+      ],
+      "title": "Imaging of the sublingual and submandibular spaces",
+      "journal": "Insights Imaging",
+      "year": "2018",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "391",
+      "lpage": "401",
+      "doi": "10.1007/s13244-018-0615-4",
+      "pmid": "29675626",
+      "pmc_id": "PMC5990998"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "La’Porte SJ",
+        "Juttla JK",
+        "Lingam RK"
+      ],
+      "title": "Imaging the floor of the mouth and the sublingual space",
+      "journal": "Radiographics",
+      "year": "2011",
+      "volume": "31",
+      "issue": "5",
+      "fpage": "1215",
+      "lpage": "1230",
+      "doi": "10.1148/rg.315105062",
+      "pmid": "21918039"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Jakhetiya A",
+        "Kaul P",
+        "Pandey A",
+        "Patel T",
+        "Kumar Meena J",
+        "Pal Singh M",
+        "et al."
+      ],
+      "title": "Distribution and determinants of submandibular gland involvement in oral cavity squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "118",
+      "fpage": "105316",
+      "doi": "10.1016/j.oraloncology.2021.105316",
+      "pmid": "33940532"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Cakir Cetin A",
+        "Dogan E",
+        "Ozay H",
+        "Kumus O",
+        "Erdag TK",
+        "Karabay N",
+        "et al."
+      ],
+      "title": "Submandibular gland invasion and feasibility of gland-sparing neck dissection in oral cavity carcinoma",
+      "journal": "J Laryngol Otol",
+      "year": "2018",
+      "volume": "132",
+      "issue": "5",
+      "fpage": "446",
+      "lpage": "51",
+      "doi": "10.1017/S0022215118000592",
+      "pmid": "29720283"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Trivedi NP"
+      ],
+      "title": "Oral cancer involving masticator space (T4b): review of literature and future directions",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "issue": "10",
+      "fpage": "2288",
+      "lpage": "94",
+      "doi": "10.1002/hed.25211",
+      "pmid": "29756367"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Kontopodis N",
+        "Igoumenakis D",
+        "Mastorakis G",
+        "Logothetis I",
+        "Daskalakis N",
+        "Ioannou CV"
+      ],
+      "title": "Local metastatic neck cancer involving the distal internal carotid artery treated with en bloc resection and arterial reconstruction after mandibular osteotomy",
+      "journal": "Vasc Spec Int",
+      "year": "2020",
+      "volume": "36",
+      "issue": "4",
+      "fpage": "252",
+      "lpage": "7",
+      "doi": "10.5758/vsi.200046",
+      "pmc_id": "PMC7790687",
+      "pmid": "33177248"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Kudva A",
+        "Dhara V",
+        "Patil B",
+        "Sankaran M"
+      ],
+      "title": "Caution with carotids: a necessary cognizance",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "121",
+      "fpage": "105392",
+      "doi": "10.1016/j.oraloncology.2021.105392",
+      "pmid": "34167899"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Keerthi R",
+        "Dutta A",
+        "Agarwal S",
+        "Kani V",
+        "Khatua A"
+      ],
+      "title": "Perineural invasion of oral squamous cell carcinoma: a new hurdle for surgeons",
+      "journal": "J Maxillofac Oral Surg",
+      "year": "2018",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "59",
+      "lpage": "63",
+      "doi": "10.1007/s12663-016-0943-1",
+      "pmid": "29382995",
+      "pmc_id": "PMC5772014"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Qiao X",
+        "Liu W",
+        "Cao Y",
+        "Miao C",
+        "Yang W",
+        "Su N",
+        "et al."
+      ],
+      "title": "Performance of different imaging techniques in the diagnosis of head and neck cancer mandibular invasion: a systematic review and meta-analysis",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "86",
+      "fpage": "150",
+      "lpage": "64",
+      "doi": "10.1016/j.oraloncology.2018.09.024",
+      "pmid": "30409295"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Ferrero-Coloma SM",
+        "Izquierdo-Luzón J",
+        "Pereira-Expósito A",
+        "Quesada JA",
+        "Ferrero-Coloma C",
+        "Sancho-Mestre M",
+        "et al."
+      ],
+      "title": "NECKCHECK PROJECT: enhancing diagnostic accuracy in oropharyngeal squamous cell carcinoma through computer-based radiological tools",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "19645",
+      "doi": "10.1038/s41598-025-03895-8",
+      "pmid": "40467734",
+      "pmc_id": "PMC12137671"
     }
   ]
 }

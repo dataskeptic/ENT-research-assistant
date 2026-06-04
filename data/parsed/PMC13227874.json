@@ -21,7 +21,8 @@
     "pmc_id": "PMC13227874",
     "pmid": "42231490",
     "full_text_available": true,
-    "section_count": 29
+    "section_count": 29,
+    "reference_count": 90
   },
   "sections": [
     {
@@ -168,6 +169,1700 @@
       "section": "Statistics",
       "text": "This study has a mixed design. A between-subject design with 4 groups (experimental time point: 1d, 7d, 56d, 84d) for 3 treatments (115 dB, 90 dB, and Ctrl), with 3 within-subject levels was established. Each of the hypotheses were tested separately for each auditory CNS area of interest (CIC and MGV). Since the primary objective of the current study was to track the pathological effects of various noise exposure conditions at 4 time points, the resulting data was compared between the experimental groups or treatments (115 dB, 90 dB and Ctrl) for each brain region within each experimental time point (1d, 7d, 56d and 84d). Data is always shown in mean ± Standard Deviation (SD). The resulting means of the experimental groups were compared using one-way ANOVA and the Tukey post-hoc test was applied to account for multiple comparisons, when homogeneity of variances in the data was assumed. In cases where homogeneity of variances was not given, Welch’s ANOVA followed by the Games-Howell post-hoc multiple comparisons test was performed. Taking into account the sample size collected and the robustness of the previously described statistical analysis against the normality assumption, violations of normality in data distribution were not taken into account in the present study. During the correlation analysis, Spearman correlations ranks were calculated due to the lack of normality and linear relationships between investigated variables. The software SPSS (IBM SPSS Statistics, version 29.0.0.0. (241), New York, USA), Microsoft Excel and GraphPad Prism 9 software were used for conducting statistical analyses. The alpha error level was set at p ≤ 0.05.",
       "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Ding T",
+        "Yan A",
+        "Liu K"
+      ],
+      "title": "What is noise-induced hearing loss?",
+      "journal": "Br J Hosp Med",
+      "year": "2019",
+      "volume": "80",
+      "issue": "9",
+      "fpage": "525",
+      "lpage": "529",
+      "doi": "10.12968/hmed.2019.80.9.525",
+      "pmid": "31498679"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Basner M",
+        "Babisch W",
+        "Davis A",
+        "Brink M",
+        "Clark C",
+        "Janssen S",
+        "et al."
+      ],
+      "title": "Auditory and non-auditory effects of noise on health",
+      "journal": "Lancet",
+      "year": "2014",
+      "volume": "383",
+      "issue": "9924",
+      "fpage": "1325",
+      "lpage": "1332",
+      "doi": "10.1016/S0140-6736(13)61613-X",
+      "pmid": "24183105",
+      "pmc_id": "PMC3988259"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Natarajan N",
+        "Batts S",
+        "Stankovic KM"
+      ],
+      "title": "Noise-induced hearing loss",
+      "journal": "J Clin Med",
+      "year": "2023",
+      "doi": "10.3390/jcm12062347",
+      "pmc_id": "PMC10059082",
+      "pmid": "36983347"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.3390/ijerph14101139",
+      "pmc_id": "PMC5664640",
+      "pmid": "28953238"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Themann CL",
+        "Masterson EA"
+      ],
+      "title": "Occupational noise exposure: a review of its effects, epidemiology, and impact with recommendations for reducing its burden",
+      "journal": "J Acoust Soc Am",
+      "year": "2019",
+      "volume": "146",
+      "issue": "5",
+      "fpage": "3879",
+      "lpage": "3905",
+      "doi": "10.1121/1.5134465",
+      "pmid": "31795665"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Knipper M",
+        "Van Dijk P",
+        "Nunes I",
+        "Rüttiger L",
+        "Zimmermann U"
+      ],
+      "title": "Advances in the neurobiology of hearing disorders: recent developments regarding the basis of tinnitus and hyperacusis",
+      "journal": "Prog Neurobiol",
+      "year": "2013",
+      "volume": "111",
+      "fpage": "17",
+      "lpage": "33",
+      "doi": "10.1016/j.pneurobio.2013.08.002",
+      "pmid": "24012803"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Nelson DI",
+        "Nelson RY",
+        "Concha-Barrientos M",
+        "Fingerhut M"
+      ],
+      "title": "The global burden of occupational noise-induced hearing loss",
+      "journal": "Am J Ind Med",
+      "year": "2005",
+      "volume": "48",
+      "issue": "6",
+      "fpage": "446",
+      "lpage": "458",
+      "doi": "10.1002/ajim.20223",
+      "pmid": "16299704"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Le TN",
+        "Straatman LV",
+        "Lea J",
+        "Westerberg B"
+      ],
+      "title": "Current insigHTS in noise-induced hearing loss: a literature review of the underlying mechanism, pathophysiology, asymmetry, and management options",
+      "journal": "J Otolaryngol",
+      "year": "2017",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.1186/s40463-017-0219-x",
+      "pmc_id": "PMC5442866",
+      "pmid": "28535812"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "title": "Cochlear synaptopathy in acquired sensorineural hearing loss: Manifestations and mechanisms",
+      "journal": "Hear Res",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "138",
+      "lpage": "147",
+      "doi": "10.1016/j.heares.2017.01.003",
+      "pmid": "28087419",
+      "pmc_id": "PMC5438769"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Kujawa SG",
+        "Liberman MC"
+      ],
+      "title": "Adding insult to injury: cochlear nerve degeneration after “temporary” noise-induced hearing loss",
+      "journal": "J Neurosci",
+      "year": "2009",
+      "volume": "29",
+      "issue": "45",
+      "fpage": "14077",
+      "lpage": "14085",
+      "doi": "10.1523/JNEUROSCI.2845-09.2009",
+      "pmid": "19906956",
+      "pmc_id": "PMC2812055"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Henderson D",
+        "Bielefeld EC",
+        "Harris KC",
+        "Hu BH"
+      ],
+      "title": "The role of oxidative stress in noise-induced hearing loss",
+      "journal": "Ear Hear",
+      "year": "2006",
+      "volume": "27",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.1097/01.aud.0000191942.36672.f3",
+      "pmid": "16446561"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Kurabi A",
+        "Keithley EM",
+        "Housley GD",
+        "Ryan AF",
+        "Wong ACY"
+      ],
+      "title": "Cellular mechanisms of noise-induced hearing loss",
+      "journal": "Hear Res",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "129",
+      "lpage": "137",
+      "doi": "10.1016/j.heares.2016.11.013",
+      "pmid": "27916698",
+      "pmc_id": "PMC6750278"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Sliwinska-Kowalska M",
+        "Davis A"
+      ],
+      "title": "Noise-induced hearing loss",
+      "journal": "Noise Health",
+      "year": "2012",
+      "volume": "14",
+      "issue": "61",
+      "fpage": "274",
+      "lpage": "280",
+      "doi": "10.4103/1463-1741.104893",
+      "pmid": "23257577"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Hickman TT",
+        "Hashimoto K",
+        "Liberman LD",
+        "Liberman MC"
+      ],
+      "title": "Synaptic migration and reorganization after noise exposure suggests regeneration in a mature mammalian cochlea",
+      "journal": "Sci Rep",
+      "year": "2020",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "14",
+      "doi": "10.1038/s41598-020-76553-w",
+      "pmid": "33203940",
+      "pmc_id": "PMC7672098"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Daniel E"
+      ],
+      "title": "Noise and hearing loss: a review",
+      "journal": "J Sch Health",
+      "year": "2007",
+      "volume": "77",
+      "issue": "5",
+      "fpage": "225",
+      "lpage": "231",
+      "doi": "10.1111/j.1746-1561.2007.00197.x",
+      "pmid": "17430434"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Ding-Pfennigdorff D",
+        "Smolders JWT",
+        "Müller M",
+        "Klinke R"
+      ],
+      "title": "Hair cell loss and regeneration after severe acoustic overstimulation in the adult pigeon",
+      "journal": "Hear Res",
+      "year": "1998",
+      "volume": "120",
+      "issue": "1–2",
+      "fpage": "109",
+      "lpage": "120",
+      "doi": "10.1016/S0378-5955(98)00055-0",
+      "pmid": "9667435"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Xu XM",
+        "Feng Y",
+        "Wang J",
+        "Salvi R",
+        "Yin X",
+        "Gao J",
+        "et al."
+      ],
+      "title": "Auditory–limbic–cerebellum interactions and cognitive impairments in noise-induced hearing loss",
+      "journal": "CNS Neurosci Ther",
+      "year": "2023",
+      "volume": "29",
+      "issue": "3",
+      "fpage": "932",
+      "lpage": "940",
+      "doi": "10.1111/cns.14028",
+      "pmid": "36377461",
+      "pmc_id": "PMC9928548"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Gröschel M",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Differential impact of temporary and permanent noise-induced hearing loss on neuronal cell density in the mouse central auditory pathway",
+      "journal": "J Neurotrauma",
+      "year": "2010",
+      "volume": "27",
+      "issue": "8",
+      "fpage": "1499",
+      "lpage": "1507",
+      "doi": "10.1089/neu.2009.1246",
+      "pmid": "20504154"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Basta D",
+        "Tzschentke B",
+        "Ernst A"
+      ],
+      "title": "Noise-induced cell death in the mouse medial geniculate body and primary auditory cortex",
+      "journal": "Neurosci Lett",
+      "year": "2005",
+      "volume": "381",
+      "issue": "1–2",
+      "fpage": "199",
+      "lpage": "204",
+      "doi": "10.1016/j.neulet.2005.02.034",
+      "pmid": "15882817"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Fröhlich F",
+        "Ernst A",
+        "Strübing I",
+        "Basta D",
+        "Gröschel M"
+      ],
+      "title": "Apoptotic mechanisms after repeated noise trauma in the mouse medial geniculate body and primary auditory cortex",
+      "journal": "Exp Brain Res",
+      "year": "2017",
+      "volume": "235",
+      "issue": "12",
+      "fpage": "3673",
+      "lpage": "3682",
+      "doi": "10.1007/s00221-017-5091-4",
+      "pmid": "28918463"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Gröschel M",
+        "Manchev T",
+        "Fröhlich F",
+        "Jansen S",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Neurodegeneration after repeated noise trauma in the mouse lower auditory pathway",
+      "journal": "Neurosci Lett",
+      "year": "2024",
+      "doi": "10.1016/j.neulet.2023.137571",
+      "pmid": "38013120"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Gröschel M",
+        "Ryll J",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Acute and long-term effects of noise exposure on the neuronal spontaneous activity in cochlear nucleus and inferior colliculus brain slices",
+      "journal": "Biomed Res Int",
+      "year": "2014",
+      "doi": "10.1155/2014/909260",
+      "pmc_id": "PMC4119618",
+      "pmid": "25110707"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Salvi RJ",
+        "Wang J",
+        "Ding D"
+      ],
+      "title": "Auditory plasticity and hyperactivity following cochlear damage",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "261",
+      "lpage": "274",
+      "doi": "10.1016/S0378-5955(00)00136-2",
+      "pmid": "10962190"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Schrode KM",
+        "Muniak MA",
+        "Kim YH",
+        "Lauer AM"
+      ],
+      "title": "Central compensation in auditory brainstem after damaging noise exposure",
+      "journal": "eNeuro",
+      "year": "2018",
+      "doi": "10.1523/ENEURO.0250-18.2018",
+      "pmc_id": "PMC6096756",
+      "pmid": "30123822"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Hickox AE",
+        "Liberman MC"
+      ],
+      "title": "Is noise-induced cochlear neuropathy key to the generation of hyperacusis or tinnitus?",
+      "journal": "J Neurophysiol",
+      "year": "2014",
+      "volume": "111",
+      "issue": "3",
+      "fpage": "552",
+      "lpage": "564",
+      "doi": "10.1152/jn.00184.2013",
+      "pmid": "24198321",
+      "pmc_id": "PMC3921399"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "raw_citation": "Hickox AE. Noise-induced cochlear neuronal degeneration and its role in hyperacusis- and tinnitus-like behavior. Diss Abstr Int. 2014;74(8-B)."
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Kalappa BI",
+        "Brozoski TJ",
+        "Turner JG",
+        "Caspary DM"
+      ],
+      "title": "Single unit hyperactivity and bursting in the auditory thalamus of awake rats directly correlates with behavioural evidence of tinnitus",
+      "journal": "J Physiol",
+      "year": "2014",
+      "volume": "592",
+      "issue": "22",
+      "fpage": "5065",
+      "lpage": "5078",
+      "doi": "10.1113/jphysiol.2014.278572",
+      "pmid": "25217380",
+      "pmc_id": "PMC4259543"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Knipper M",
+        "Singer W",
+        "Schwabe K",
+        "Hagberg GE",
+        "Li Hegner Y",
+        "Rüttiger L",
+        "et al."
+      ],
+      "title": "Disturbed balance of inhibitory signaling links hearing loss and cognition",
+      "journal": "Front Neural Circuits",
+      "year": "2022",
+      "volume": "15",
+      "fpage": "6",
+      "doi": "10.3389/fncir.2021.785603",
+      "pmc_id": "PMC8770933",
+      "pmid": "35069123"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Middleton JW",
+        "Kiritani T",
+        "Pedersen C",
+        "Turner JG",
+        "Shepherd GMG",
+        "Tzounopoulos T"
+      ],
+      "title": "Mice with behavioral evidence of tinnitus exhibit dorsal cochlear nucleus hyperactivity because of decreased GABAergic inhibition",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2011",
+      "volume": "108",
+      "issue": "18",
+      "fpage": "7601",
+      "lpage": "7606",
+      "doi": "10.1073/pnas.1100223108",
+      "pmid": "21502491",
+      "pmc_id": "PMC3088638"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Aarnisalo AA",
+        "Pirvola U",
+        "Liang XQ",
+        "Miller J",
+        "Ylikoski J"
+      ],
+      "title": "Apoptosis in auditory brainstem neurons after a severe noise trauma of the organ of corti: Intracochlear GDNF treatment reduces the number of apoptotic cells",
+      "journal": "ORL",
+      "year": "2000",
+      "volume": "62",
+      "issue": "6",
+      "fpage": "330",
+      "lpage": "334",
+      "doi": "10.1159/000027764",
+      "pmid": "11054017"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Fröhlich F",
+        "Gröschel M",
+        "Strübing I",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Apoptosis in the cochlear nucleus and inferior colliculus upon repeated noise exposure",
+      "journal": "Noise Health",
+      "year": "2018",
+      "volume": "20",
+      "issue": "97",
+      "fpage": "223",
+      "doi": "10.4103/nah.NAH_30_18",
+      "pmid": "31823909",
+      "pmc_id": "PMC6924190"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Knipper M",
+        "van Dijk P",
+        "Schulze H",
+        "Mazurek B",
+        "Krauss P",
+        "Scheper V",
+        "et al."
+      ],
+      "title": "The Neural Bases of Tinnitus: Lessons from Deafness and Cochlear Implants",
+      "journal": "J Neurosci",
+      "year": "2020",
+      "volume": "40",
+      "issue": "38",
+      "fpage": "7190",
+      "lpage": "7202",
+      "doi": "10.1523/JNEUROSCI.1314-19.2020",
+      "pmid": "32938634",
+      "pmc_id": "PMC7534911"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Basta D",
+        "Ernest A"
+      ],
+      "title": "Noise-induced changes of neuronal spontaneous activity in mice inferior colliculus brain slices",
+      "journal": "Neurosci Lett",
+      "year": "2004",
+      "volume": "368",
+      "issue": "3",
+      "fpage": "297",
+      "lpage": "302",
+      "doi": "10.1016/j.neulet.2004.07.030",
+      "pmid": "15364415"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Manzoor NF",
+        "Licari FG",
+        "Klapchar M",
+        "Elkin RL",
+        "Gao Y",
+        "Chen G",
+        "et al."
+      ],
+      "title": "Noise-induced hyperactivity in the inferior colliculus: Its relationship with hyperactivity in the dorsal cochlear nucleus",
+      "journal": "J Neurophysiol",
+      "year": "2012",
+      "volume": "108",
+      "issue": "4",
+      "fpage": "976",
+      "lpage": "988",
+      "doi": "10.1152/jn.00833.2011",
+      "pmid": "22552192",
+      "pmc_id": "PMC3424082"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Mulders WHAM",
+        "Robertson D"
+      ],
+      "title": "Development of hyperactivity after acoustic trauma in the guinea pig inferior colliculus",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "298",
+      "fpage": "104",
+      "lpage": "108",
+      "doi": "10.1016/j.heares.2012.12.008",
+      "pmid": "23276730"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Singer W",
+        "Gröschel M",
+        "Zuccotti A",
+        "Mueller S",
+        "Ernst A",
+        "Basta D",
+        "et al."
+      ],
+      "title": "The aftermath of tinnitus-inducing inner ear damage for auditory brainstem responses and MEMR imaging of central brain activity in the rat",
+      "journal": "Hear Balance Commun",
+      "year": "2020",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "225",
+      "lpage": "233",
+      "doi": "10.1080/21695717.2020.1816116"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "doi": "10.1371/journal.pone.0035955",
+      "pmc_id": "PMC3343051",
+      "pmid": "22570693"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Cai R",
+        "Kalappa BI",
+        "Brozoski TJ",
+        "Ling LL",
+        "Caspary DM"
+      ],
+      "title": "Is GABA neurotransmission enhanced in auditory thalamus relative to inferior colliculus?",
+      "journal": "J Neurophysiol",
+      "year": "2014",
+      "volume": "111",
+      "issue": "2",
+      "fpage": "229",
+      "lpage": "238",
+      "doi": "10.1152/jn.00556.2013",
+      "pmid": "24155003",
+      "pmc_id": "PMC3921384"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Hackett TA"
+      ],
+      "title": "VGLUT1 and VGLUT2 mRNA expression in the primate auditory pathway",
+      "journal": "Hear Res",
+      "year": "2011",
+      "volume": "274",
+      "issue": "1-2",
+      "fpage": "129",
+      "lpage": "141",
+      "doi": "10.1016/j.heares.2010.11.001",
+      "pmid": "21111036",
+      "pmc_id": "PMC3073021"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Varela-Nieto I",
+        "Murillo-Cuesta S",
+        "Calvino M",
+        "Cediel R",
+        "Lassaletta L"
+      ],
+      "title": "Drug development for noise-induced hearing loss",
+      "journal": "Expert Opin Drug Discov",
+      "year": "2020",
+      "volume": "15",
+      "issue": "12",
+      "fpage": "1457",
+      "lpage": "1471",
+      "doi": "10.1080/17460441.2020.1806232",
+      "pmid": "32838572"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Aldhafeeri FM",
+        "MacKenzie I",
+        "Kay T",
+        "Alghamdi J",
+        "Sluming V"
+      ],
+      "title": "Neuroanatomical correlates of tinnitus revealed by cortical thickness analysis and diffusion tensor imaging",
+      "journal": "Neuroradiology",
+      "year": "2012",
+      "volume": "54",
+      "issue": "8",
+      "fpage": "883",
+      "lpage": "892",
+      "doi": "10.1007/s00234-012-1044-6",
+      "pmid": "22614806"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Benson RR",
+        "Gattu R",
+        "Cacace AT"
+      ],
+      "title": "Left hemisphere fractional anisotropy increase in noise-induced tinnitus: a diffusion tensor imaging (DTI) study of white matter tracts in the brain",
+      "journal": "Hear Res",
+      "year": "2014",
+      "volume": "309",
+      "fpage": "8",
+      "lpage": "16",
+      "doi": "10.1016/j.heares.2013.10.005",
+      "pmid": "24212050"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Mühlau M",
+        "Rauschecker JP",
+        "Oestreicher E",
+        "Gaser C",
+        "Röttinger M",
+        "Wohlschläger AM",
+        "et al."
+      ],
+      "title": "Structural brain changes in tinnitus",
+      "journal": "Cereb Cortex",
+      "year": "2006",
+      "volume": "16",
+      "issue": "9",
+      "fpage": "1283",
+      "lpage": "1288",
+      "doi": "10.1093/cercor/bhj070",
+      "pmid": "16280464"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Talavage TM",
+        "Gonzalez-Castillo J",
+        "Scott S"
+      ],
+      "title": "Auditory neuroimaging with fMRI and PET",
+      "journal": "Hear Res",
+      "year": "2014",
+      "volume": "307",
+      "issue": "1",
+      "fpage": "4",
+      "lpage": "15",
+      "doi": "10.1016/j.heares.2013.09.009",
+      "pmid": "24076424",
+      "pmc_id": "PMC3893048"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Wolak T",
+        "Cieśla K",
+        "Rusiniak M",
+        "Piłka A",
+        "Lewandowska M",
+        "Pluta A",
+        "et al."
+      ],
+      "title": "Influence of acoustic overstimulation on the central auditory system: an functional magnetic resonance imaging (fMRI) study",
+      "journal": "Med Sci Monit",
+      "year": "2016",
+      "volume": "22",
+      "fpage": "4623",
+      "lpage": "4635",
+      "doi": "10.12659/MSM.897929",
+      "pmid": "27893698",
+      "pmc_id": "PMC5132427"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Boyen K",
+        "Langers DRM",
+        "de Kleine E",
+        "van Dijk P"
+      ],
+      "title": "Gray matter in the brain: differences associated with tinnitus and hearing loss",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "295",
+      "fpage": "67",
+      "lpage": "78",
+      "doi": "10.1016/j.heares.2012.02.010",
+      "pmid": "22446179"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Dewey RS",
+        "Hall DA",
+        "Guest H",
+        "Prendergast G",
+        "Plack CJ",
+        "Francis ST"
+      ],
+      "title": "The physiological bases of hidden noise-induced hearing loss: protocol for a functional neuroimaging study",
+      "journal": "JMIR Res Protoc",
+      "year": "2018",
+      "doi": "10.2196/resprot.9095",
+      "pmc_id": "PMC5866298",
+      "pmid": "29523503"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Holt AG",
+        "Bissig D",
+        "Mirza N",
+        "Rajah G",
+        "Berkowitz B"
+      ],
+      "title": "Evidence of key tinnitus-related brain regions documented by a unique combination of manganese-enhanced MRI and acoustic startle reflex testing",
+      "journal": "PLoS ONE",
+      "year": "2010",
+      "doi": "10.1371/journal.pone.0014260",
+      "pmc_id": "PMC3002264",
+      "pmid": "21179508"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Huang R",
+        "Wang A",
+        "Ba X",
+        "Zhang G",
+        "Li C",
+        "Liu Q"
+      ],
+      "title": "Association functional MRI studies of resting-state amplitude of low frequency fluctuation and voxel-based morphometry in patients with occupational noise-induced hearing loss",
+      "journal": "J Occup Environ Med",
+      "year": "2020",
+      "volume": "62",
+      "issue": "7",
+      "fpage": "472",
+      "lpage": "477",
+      "doi": "10.1097/JOM.0000000000001869",
+      "pmid": "32730022"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Husain FT",
+        "Medina RE",
+        "Davis CW",
+        "Szymko-bennett Y",
+        "Simonyan K",
+        "Pajor NM",
+        "et al."
+      ],
+      "title": "Neuroanatomical changes due to hearing loss and chronic tinnitus: a combined VBM and DTI study",
+      "journal": "Brain Res",
+      "year": "2011",
+      "doi": "10.1016/j.brainres.2010.10.095",
+      "pmc_id": "PMC3018274",
+      "pmid": "21047501"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Koops EA",
+        "de Kleine E",
+        "van Dijk P"
+      ],
+      "title": "Gray matter declines with age and hearing loss, but is partially maintained in tinnitus",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "issue": "1",
+      "fpage": "88182",
+      "doi": "10.1038/s41598-021-88182-y",
+      "pmc_id": "PMC8044284",
+      "pmid": "33850261"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Landgrebe M",
+        "Langguth B",
+        "Rosengarth K",
+        "Braun S",
+        "Koch A",
+        "Kleinjung T",
+        "et al."
+      ],
+      "title": "Structural brain changes in tinnitus: grey matter decrease in auditory and non-auditory brain areas",
+      "journal": "Neuroimage",
+      "year": "2009",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "213",
+      "lpage": "218",
+      "doi": "10.1016/j.neuroimage.2009.01.069",
+      "pmid": "19413945"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Leaver AM",
+        "Turesky TK",
+        "Seydell-Greenwald A",
+        "Morgan S",
+        "Kim HJ",
+        "Rauschecker JP"
+      ],
+      "title": "Intrinsic network activity in tinnitus investigated using functional MRI",
+      "journal": "Hum Brain Mapp",
+      "year": "2016",
+      "volume": "37",
+      "issue": "8",
+      "fpage": "2717",
+      "lpage": "2735",
+      "doi": "10.1002/hbm.23204",
+      "pmid": "27091485",
+      "pmc_id": "PMC4945432"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Gröschel M",
+        "Müller S",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "The possible impact of noise-induced Ca2+-dependent activity in the central auditory pathway: a manganese-enhanced MRI study",
+      "journal": "Neuroimage",
+      "year": "2011",
+      "volume": "57",
+      "issue": "1",
+      "fpage": "190",
+      "lpage": "197",
+      "doi": "10.1016/j.neuroimage.2011.04.022",
+      "pmid": "21530663"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "authors": [
+        "Hildebrandt H",
+        "Hoffmann NA",
+        "Illing RB"
+      ],
+      "title": "Synaptic reorganization in the adult rat’s ventral cochlear nucleus following its total sensory deafferentation",
+      "journal": "PLoS ONE",
+      "year": "2011",
+      "doi": "10.1371/journal.pone.0023686",
+      "pmc_id": "PMC3161744",
+      "pmid": "21887295"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Möhrle D",
+        "Hofmeier B",
+        "Amend M",
+        "Wolpert S",
+        "Ni K",
+        "Bing D",
+        "et al."
+      ],
+      "title": "Enhanced Central Neural Gain Compensates Acoustic Trauma-induced Cochlear Impairment, but Unlikely Correlates with Tinnitus and Hyperacusis",
+      "journal": "Neuroscience",
+      "year": "2019",
+      "volume": "407",
+      "fpage": "146",
+      "lpage": "169",
+      "doi": "10.1016/j.neuroscience.2018.12.038",
+      "pmid": "30599268"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "authors": [
+        "Illing RB",
+        "Kraus KS",
+        "Meidinger MA"
+      ],
+      "title": "Reconnecting neuronal networks in the auditory brainstem following unilateral deafening",
+      "journal": "Hear Res",
+      "year": "2005",
+      "volume": "206",
+      "issue": "1–2",
+      "fpage": "185",
+      "lpage": "199",
+      "doi": "10.1016/j.heares.2005.01.016",
+      "pmid": "16081008"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Kraus KS",
+        "Ding D",
+        "Zhou Y",
+        "Salvi RJ"
+      ],
+      "title": "Central auditory plasticity after carboplatin-induced unilateral inner ear damage in the chinchilla: up-regulation of GAP-43 in the ventral cochlear nucleus",
+      "journal": "Hear Res",
+      "year": "2009",
+      "volume": "255",
+      "issue": "1–2",
+      "fpage": "33",
+      "lpage": "43",
+      "doi": "10.1016/j.heares.2009.05.001",
+      "pmid": "19435600",
+      "pmc_id": "PMC2777517"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Muly SM",
+        "Gross JS",
+        "Morest DK",
+        "Potashner SJ"
+      ],
+      "title": "Synaptophysin in the cochlear nucleus following acoustic trauma",
+      "journal": "Exp Neurol",
+      "year": "2002",
+      "volume": "177",
+      "issue": "1",
+      "fpage": "202",
+      "lpage": "221",
+      "doi": "10.1006/exnr.2002.7963",
+      "pmid": "12429223"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Dong S",
+        "Rodger J",
+        "Mulders WHAM",
+        "Robertson D"
+      ],
+      "title": "Tonotopic changes in GABA receptor expression in guinea pig inferior colliculus after partial unilateral hearing loss",
+      "journal": "Brain Res",
+      "year": "2010",
+      "volume": "1342",
+      "fpage": "24",
+      "lpage": "32",
+      "doi": "10.1016/j.brainres.2010.04.067",
+      "pmid": "20438718"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Ibrahim BA",
+        "Llano DA"
+      ],
+      "title": "Aging and central auditory disinhibition: is it a reflection of homeostatic downregulation or metabolic vulnerability?",
+      "journal": "Brain Sci",
+      "year": "2019",
+      "doi": "10.3390/brainsci9120351",
+      "pmc_id": "PMC6955996",
+      "pmid": "31805729"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Llano DA",
+        "Turner J",
+        "Caspary DM"
+      ],
+      "title": "Diminished cortical inhibition in an aging mouse model of chronic tinnitus",
+      "journal": "J Neurosci",
+      "year": "2012",
+      "volume": "32",
+      "issue": "46",
+      "fpage": "16141",
+      "lpage": "16148",
+      "doi": "10.1523/JNEUROSCI.2499-12.2012",
+      "pmid": "23152598",
+      "pmc_id": "PMC3517907"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "authors": [
+        "Ito T",
+        "Oliver DL"
+      ],
+      "title": "Origins of glutamatergic terminals in the inferior colliculus identified by retrograde transport and expression of VGLUT1 and VGLUT2 genes",
+      "journal": "Front Neuroanat",
+      "year": "2010",
+      "volume": "4",
+      "fpage": "1",
+      "lpage": "11",
+      "doi": "10.3389/fnana.2010.00135",
+      "pmid": "21048892",
+      "pmc_id": "PMC2967334"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "authors": [
+        "Ito T",
+        "Oliver DL"
+      ],
+      "title": "The basic circuit of the IC: tectothalamic neurons with different patterns of synaptic organization send different messages to the thalamus",
+      "journal": "Front Neural Circuits",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "1",
+      "lpage": "9",
+      "doi": "10.3389/fncir.2012.00048",
+      "pmid": "22855671",
+      "pmc_id": "PMC3405314"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Benson CG",
+        "Gross JS",
+        "Suneja SK",
+        "Potashner SJ"
+      ],
+      "title": "Synaptophysin immunoreactivity in the cochlear nucleus after unilateral cochlear or ossicular removal",
+      "journal": "Synapse",
+      "year": "1997",
+      "volume": "25",
+      "issue": "3",
+      "fpage": "243",
+      "lpage": "257",
+      "doi": "10.1002/(SICI)1098-2396(199703)25:3<243::AID-SYN3>3.0.CO;2-B",
+      "pmid": "9068122"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "authors": [
+        "Kaliyappan K",
+        "Nakuci J",
+        "Preda M",
+        "Schweser F",
+        "Muldoon S",
+        "Krishnan Muthaiah VP"
+      ],
+      "title": "Correlation of histomorphometric changes with diffusion tensor imaging for evaluation of blast-induced auditory neurodegeneration in chinchilla",
+      "journal": "J Neurotrauma",
+      "year": "2021",
+      "volume": "38",
+      "issue": "23",
+      "fpage": "3248",
+      "lpage": "3259",
+      "doi": "10.1089/neu.2020.7556",
+      "pmid": "34605670",
+      "pmc_id": "PMC8917894"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Kiefer L",
+        "Koch L",
+        "Merdan-Desik M",
+        "Gaese BH",
+        "Nowotny M"
+      ],
+      "title": "Comparing the electrophysiological effects of traumatic noise exposure between rodents",
+      "journal": "J Neurophysiol",
+      "year": "2022",
+      "volume": "127",
+      "issue": "2",
+      "fpage": "452",
+      "lpage": "462",
+      "doi": "10.1152/jn.00081.2021",
+      "pmid": "35020518"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "authors": [
+        "Kurioka T",
+        "Lee MY",
+        "Heeringa AN",
+        "Beyer LA",
+        "Swiderski DL",
+        "Kanicki AC",
+        "et al."
+      ],
+      "title": "Selective hair cell ablation and noise exposure lead to different patterns of changes in the cochlea and the cochlear nucleus",
+      "journal": "Neuroscience",
+      "year": "2016",
+      "volume": "332",
+      "fpage": "242",
+      "lpage": "257",
+      "doi": "10.1016/j.neuroscience.2016.07.001",
+      "pmid": "27403879",
+      "pmc_id": "PMC4969227"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "authors": [
+        "Reuss S",
+        "Closhen C",
+        "Riemann R",
+        "Jaumann M",
+        "Knipper M",
+        "Rüttiger L",
+        "et al."
+      ],
+      "title": "Absence of early neuronal death in the olivocochlear system following acoustic overstimulation",
+      "journal": "Anat Rec",
+      "year": "2016",
+      "volume": "299",
+      "issue": "1",
+      "fpage": "103",
+      "lpage": "110",
+      "doi": "10.1002/ar.23277",
+      "pmid": "26452751"
+    },
+    {
+      "ref_id": "CR70",
+      "label": "70.",
+      "authors": [
+        "Schecklmann M",
+        "Lehner A",
+        "Poeppl TB",
+        "Kreuzer PM",
+        "Rupprecht R",
+        "Rackl J",
+        "et al."
+      ],
+      "title": "Auditory cortex is implicated in tinnitus distress: a voxel-based morphometry study",
+      "journal": "Brain Struct Funct",
+      "year": "2013",
+      "volume": "218",
+      "issue": "4",
+      "fpage": "1061",
+      "lpage": "1070",
+      "doi": "10.1007/s00429-013-0520-z",
+      "pmid": "23435735"
+    },
+    {
+      "ref_id": "CR71",
+      "label": "71.",
+      "authors": [
+        "Schneider P",
+        "Andermann M",
+        "Wengenroth M",
+        "Goebel R",
+        "Flor H",
+        "Rupp A",
+        "et al."
+      ],
+      "title": "Reduced volume of Heschl’s gyrus in tinnitus",
+      "journal": "Neuroimage",
+      "year": "2009",
+      "volume": "45",
+      "issue": "3",
+      "fpage": "927",
+      "lpage": "939",
+      "doi": "10.1016/j.neuroimage.2008.12.045",
+      "pmid": "19168138"
+    },
+    {
+      "ref_id": "CR72",
+      "label": "72.",
+      "authors": [
+        "Brozoski TJ",
+        "Odintsov B",
+        "Bauer C"
+      ],
+      "title": "Gamma-aminobutyric acid and glutamic acid levels in the auditory pathway of rats with chronic tinnitus: a direct determination using high resolution point-resolved proton magnetic resonance spectroscopy (1H-MRS)",
+      "journal": "Front Syst Neurosci",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "1",
+      "lpage": "12",
+      "doi": "10.3389/fnsys.2012.00009",
+      "pmid": "22383901",
+      "pmc_id": "PMC3285819"
+    },
+    {
+      "ref_id": "CR73",
+      "label": "73.",
+      "authors": [
+        "Wójcik J",
+        "Kochański B",
+        "Cieśla K",
+        "Lewandowska M",
+        "Karpiesz L",
+        "Niedziałek I",
+        "et al."
+      ],
+      "title": "An MR spectroscopy study of temporal areas excluding primary auditory cortex and frontal regions in subjective bilateral and unilateral tinnitus",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "16",
+      "doi": "10.1038/s41598-023-45024-3",
+      "pmid": "37891242",
+      "pmc_id": "PMC10611771"
+    },
+    {
+      "ref_id": "CR74",
+      "label": "74.",
+      "authors": [
+        "Gao F",
+        "Wang G",
+        "Ma W",
+        "Ren F",
+        "Li M",
+        "Dong Y",
+        "et al."
+      ],
+      "title": "Decreased auditory GABA+ concentrations in presbycusis demonstrated by edited magnetic resonance spectroscopy",
+      "journal": "Neuroimage",
+      "year": "2015",
+      "volume": "106",
+      "fpage": "311",
+      "lpage": "316",
+      "doi": "10.1016/j.neuroimage.2014.11.023",
+      "pmid": "25463460",
+      "pmc_id": "PMC4285773"
+    },
+    {
+      "ref_id": "CR75",
+      "label": "75.",
+      "authors": [
+        "Isler B",
+        "von Burg N",
+        "Kleinjung T",
+        "Meyer M",
+        "Stämpfli P",
+        "Zölch N",
+        "et al."
+      ],
+      "title": "Lower glutamate and GABA levels in auditory cortex of tinnitus patients: a 2D-JPRESS MR spectroscopy study",
+      "journal": "Sci Rep",
+      "year": "2022",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "14",
+      "doi": "10.1038/s41598-022-07835-8",
+      "pmid": "35260698",
+      "pmc_id": "PMC8904839"
+    },
+    {
+      "ref_id": "CR76",
+      "label": "76.",
+      "authors": [
+        "Sedley W",
+        "Parikh J",
+        "Edden RAE",
+        "Tait V",
+        "Blamire A",
+        "Griffiths TD"
+      ],
+      "title": "Human auditory cortex neurochemistry reflects the presence and severity of tinnitus",
+      "journal": "J Neurosci",
+      "year": "2015",
+      "volume": "35",
+      "issue": "44",
+      "fpage": "14822",
+      "lpage": "14828",
+      "doi": "10.1523/JNEUROSCI.2695-15.2015",
+      "pmid": "26538652",
+      "pmc_id": "PMC4635131"
+    },
+    {
+      "ref_id": "CR77",
+      "label": "77.",
+      "authors": [
+        "Park SS",
+        "Lee DH",
+        "Lee SM",
+        "Lee CH",
+        "Kim SY"
+      ],
+      "title": "Noise exposure alters MMP9 and brevican expression in the rat primary auditory cortex",
+      "journal": "BMC Neurosci",
+      "year": "2020",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1186/s12868-020-00567-3",
+      "pmid": "32334536",
+      "pmc_id": "PMC7183651"
+    },
+    {
+      "ref_id": "CR78",
+      "label": "78.",
+      "authors": [
+        "Heeringa AN",
+        "Stefanescu RA",
+        "Raphael Y",
+        "Shore SE"
+      ],
+      "title": "Altered vesicular glutamate transporter distributions in the mouse cochlear nucleus following cochlear insult",
+      "journal": "Neuroscience",
+      "year": "2016",
+      "volume": "315",
+      "fpage": "114",
+      "lpage": "124",
+      "doi": "10.1016/j.neuroscience.2015.12.009",
+      "pmid": "26705736",
+      "pmc_id": "PMC4715966"
+    },
+    {
+      "ref_id": "CR79",
+      "label": "79.",
+      "authors": [
+        "Zeng C",
+        "Yang Z",
+        "Shreve L",
+        "Bledsoe S",
+        "Shore S"
+      ],
+      "title": "Somatosensory projections to cochlear nucleus are upregulated after unilateral deafness",
+      "journal": "J Neurosci",
+      "year": "2012",
+      "volume": "32",
+      "issue": "45",
+      "fpage": "15791",
+      "lpage": "15801",
+      "doi": "10.1523/JNEUROSCI.2598-12.2012",
+      "pmid": "23136418",
+      "pmc_id": "PMC3501653"
+    },
+    {
+      "ref_id": "CR80",
+      "label": "80.",
+      "authors": [
+        "Zeng C",
+        "Nannapaneni N",
+        "Zhou J",
+        "Hughes LF",
+        "Shore S"
+      ],
+      "title": "Cochlear damage changes the distribution of vesicular glutamate transporters associated with auditory and nonauditory inputs to the cochlear nucleus",
+      "journal": "J Neurosci",
+      "year": "2009",
+      "volume": "29",
+      "issue": "13",
+      "fpage": "4210",
+      "lpage": "4217",
+      "doi": "10.1523/JNEUROSCI.0208-09.2009",
+      "pmid": "19339615",
+      "pmc_id": "PMC4487620"
+    },
+    {
+      "ref_id": "CR81",
+      "label": "81.",
+      "authors": [
+        "Abbott SD",
+        "Hughes LF",
+        "Bauer CA",
+        "Salvi R",
+        "Caspary DM"
+      ],
+      "title": "Detection of glutamate decarboxylase isoforms in rat inferior colliculus following acoustic exposure",
+      "journal": "Neuroscience",
+      "year": "1999",
+      "volume": "93",
+      "issue": "4",
+      "fpage": "1375",
+      "lpage": "1381",
+      "doi": "10.1016/S0306-4522(99)00300-0",
+      "pmid": "10501462"
+    },
+    {
+      "ref_id": "CR82",
+      "label": "82.",
+      "authors": [
+        "Basta D",
+        "Ernst A"
+      ],
+      "title": "Effects of salicylate on spontaneous activity in inferior colliculus brain slices",
+      "journal": "Neurosci Res",
+      "year": "2004",
+      "volume": "50",
+      "issue": "2",
+      "fpage": "237",
+      "lpage": "243",
+      "doi": "10.1016/j.neures.2004.07.003",
+      "pmid": "15380332"
+    },
+    {
+      "ref_id": "CR83",
+      "label": "83.",
+      "authors": [
+        "Çakır A",
+        "Ecevit MC",
+        "Bal R",
+        "Gürkan S",
+        "Alpay HC",
+        "Şerbetçioğlu MB"
+      ],
+      "title": "Assessment of synaptic plasticity via long-term potentiation in young mice on the day after acoustic trauma: implications for tinnitus",
+      "journal": "J Int Adv Otol",
+      "year": "2015",
+      "volume": "11",
+      "issue": "3",
+      "fpage": "196",
+      "lpage": "201",
+      "doi": "10.5152/iao.2015.1047",
+      "pmid": "26915149"
+    },
+    {
+      "ref_id": "CR84",
+      "label": "84.",
+      "authors": [
+        "Kou ZZ",
+        "Qu J",
+        "Zhang DL",
+        "Li H",
+        "Li YQ"
+      ],
+      "title": "Noise-induced hearing loss is correlated with alterations in the expression of GABAB receptors and PKC gamma in the murine cochlear nucleus complex",
+      "journal": "Front Neuroanat",
+      "year": "2013",
+      "volume": "7",
+      "issue": "JUL",
+      "fpage": "1",
+      "lpage": "11",
+      "pmid": "23908607",
+      "doi": "10.3389/fnana.2013.00025",
+      "pmc_id": "PMC3726868"
+    },
+    {
+      "ref_id": "CR85",
+      "label": "85.",
+      "authors": [
+        "Milbrandt JC",
+        "Holder TM",
+        "Wilson MC",
+        "Salvi RJ",
+        "Caspary DM"
+      ],
+      "title": "GAD levels and muscimol binding in rat inferior colliculus following acoustic trauma",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "251",
+      "lpage": "260",
+      "doi": "10.1016/S0378-5955(00)00135-0",
+      "pmid": "10962189"
+    },
+    {
+      "ref_id": "CR86",
+      "label": "86.",
+      "authors": [
+        "Mossop JE",
+        "Wilson MJ",
+        "Caspary DM",
+        "Moore DR"
+      ],
+      "title": "Down-regulation of inhibition following unilateral deafening",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "183",
+      "lpage": "187",
+      "doi": "10.1016/S0378-5955(00)00054-X",
+      "pmid": "10962184"
+    },
+    {
+      "ref_id": "CR87",
+      "label": "87.",
+      "authors": [
+        "Caruyer E",
+        "et al."
+      ],
+      "title": "Design of Multishell Sampling Schemes with Uniform Coverage in Diffusion MRI",
+      "journal": "Magn Reson Med",
+      "year": "2013",
+      "volume": "69",
+      "issue": "6",
+      "fpage": "1534",
+      "lpage": "1540",
+      "doi": "10.1002/mrm.24736",
+      "pmid": "23625329",
+      "pmc_id": "PMC5381389"
+    },
+    {
+      "ref_id": "CR88",
+      "label": "88.",
+      "authors": [
+        "Boehm-Sturm P",
+        "Füchtemeier M",
+        "Foddis M",
+        "Mueller S",
+        "Trueman RC",
+        "Zille M",
+        "et al."
+      ],
+      "title": "Neuroimaging biomarkers predict brain structural connectivity change in a mouse model of vascular cognitive impairment",
+      "journal": "Stroke",
+      "year": "2017",
+      "volume": "48",
+      "issue": "2",
+      "fpage": "468",
+      "lpage": "475",
+      "doi": "10.1161/STROKEAHA.116.014394",
+      "pmid": "28070001",
+      "pmc_id": "PMC5266417"
+    },
+    {
+      "ref_id": "CR89",
+      "label": "89.",
+      "authors": [
+        "Rubinov M",
+        "Sporns O"
+      ],
+      "title": "Complex network measures of brain connectivity: uses and interpretations",
+      "journal": "Neuroimage",
+      "year": "2010",
+      "volume": "52",
+      "issue": "3",
+      "fpage": "1059",
+      "lpage": "1069",
+      "doi": "10.1016/j.neuroimage.2009.10.003",
+      "pmid": "19819337"
+    },
+    {
+      "ref_id": "CR90",
+      "label": "90.",
+      "raw_citation": "Paxinos, George. & Franklin KBJ (2001). The Mouse Brain in Stereotaxic coordinates. Vol. 35, J Neurosci. 2001."
     }
   ]
 }

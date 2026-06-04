@@ -10,7 +10,8 @@
     "pmc_id": "PMC13197356",
     "pmid": "41537841",
     "full_text_available": true,
-    "section_count": 28
+    "section_count": 28,
+    "reference_count": 30
   },
   "sections": [
     {
@@ -152,6 +153,429 @@
       "section": "Fazit Für Die Praxis",
       "text": "Künstliche Intelligenz (KI) und Robotik sind nicht nur neue Werkzeuge, sondern sie verändern die Strukturen der medizinischen Praxis selbst – Wissen, Entscheidungsmaßstäbe und Verantwortungsbeziehungen. Verantwortlicher Einsatz bedeutet nicht technologische Zurückhaltung, sondern die aktive Gestaltung von Bedingungen, unter denen Medizin menschlich, gerecht und vertrauenswürdig bleibt. Ethische Prinzipien wie Wohltun, Nicht-Schaden, Gerechtigkeit und Respekt vor der Autonomie bleiben zentral, müssen aber in konkrete Prozesse und Institutionen übersetzt werden. Epistemische Transparenz ist Voraussetzung für begründetes Vertrauen. Systeme müssen in ihren Annahmen, Zielsetzungen, Grenzen und Unsicherheiten nachvollziehbar sein. Verantwortung im Technologieeinsatz ist geteilt und erfordert klare Zuständigkeiten und Rechenschaftswege. Legitimation des Einsatzes neuer Technologien muss diskursiv erfolgen – durch partizipative, pluralistische Entscheidungsprozesse, die divergierende Werte sichtbar machen.",
       "order": 27
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Beauchamp TL",
+        "Childress JF"
+      ],
+      "journal": "Principles of Biomedical Ethics",
+      "year": "2019"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Haider ST",
+        "Sharaf K",
+        "Baumeister P",
+        "Reichel CA"
+      ],
+      "title": "Künstliche Intelligenz in der Hals-Nasen-Ohren-Heilkunde",
+      "journal": "HNO",
+      "year": "2022",
+      "volume": "70",
+      "fpage": "87",
+      "lpage": "93",
+      "doi": "10.1007/s00106-021-01095-0",
+      "pmid": "34374811",
+      "pmc_id": "PMC8353610"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Schuler PJ",
+        "Boehm F",
+        "Schild LR",
+        "et al."
+      ],
+      "title": "Robotik in der Kopf-Hals-Chirurgie",
+      "journal": "HNO",
+      "year": "2021",
+      "volume": "69",
+      "fpage": "131",
+      "lpage": "139",
+      "doi": "10.1007/s00106-020-00934-w",
+      "pmid": "32910258"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Bünte C"
+      ],
+      "title": "Künstliche Intelligenz – Ein Überblick über die aktuelle und zukünftige Bedeutung von KI in der Wirtschaft und im Gesundheitswesen in Europa",
+      "journal": "Künstliche Intelligenz im Gesundheitswesen",
+      "year": "2022"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Funer F"
+      ],
+      "title": "The Deception of Certainty: how Non-Interpretable Machine Learning Outcomes Challenge the Epistemic Authority of Physicians. A deliberative-relational Approach",
+      "journal": "Med Health Care and Philos",
+      "year": "2022",
+      "volume": "25",
+      "fpage": "167",
+      "lpage": "178",
+      "doi": "10.1007/s11019-022-10076-1",
+      "pmid": "35538267",
+      "pmc_id": "PMC9089291"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Funer F"
+      ],
+      "title": "Accuracy and Interpretability: Struggling with the Epistemic Foundations of Machine Learning-Generated Medical Information and Their Practical Implications for the Doctor-Patient Relationship",
+      "journal": "Philos Technol",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "5",
+      "doi": "10.1007/s13347-022-00505-7"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Funer F",
+        "Wiesing U"
+      ],
+      "title": "Physician’s autonomy in the face of AI support: walking the ethical tightrope",
+      "journal": "Front Med",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1324963",
+      "doi": "10.3389/fmed.2024.1324963",
+      "pmc_id": "PMC11007068",
+      "pmid": "38606162"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Funer F",
+        "Liedtke W",
+        "Tinnemeyer S",
+        "et al."
+      ],
+      "title": "Responsibility and decision-making authority in using clinical decision support systems: an empirical-ethical exploration of German prospective professionals’ preferences and concerns",
+      "journal": "J Med Ethics",
+      "year": "2024",
+      "volume": "50",
+      "fpage": "6",
+      "lpage": "11",
+      "doi": "10.1136/jme-2022-108814",
+      "pmc_id": "PMC10803986",
+      "pmid": "37217277"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Funer F",
+        "Schneider D",
+        "Heyen N",
+        "et al."
+      ],
+      "title": "Impacts of Clinical Decision Support Systems on the Relationship, Communication, and Shared Decision-Making Between Health Care Professionals and Patients: Multistakeholder Interview Study",
+      "journal": "J Med Internet Res",
+      "year": "2024",
+      "volume": "26",
+      "fpage": "e55717",
+      "doi": "10.2196/55717",
+      "pmid": "39178023",
+      "pmc_id": "PMC11380058"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Lorenzini G",
+        "Arbelaez Ossa L",
+        "Shaw DM",
+        "Elger BS"
+      ],
+      "title": "Artificial intelligence and the doctor-patient relationship expanding the paradigm of shared decision making",
+      "journal": "bioethics",
+      "year": "2023",
+      "volume": "37",
+      "fpage": "424",
+      "lpage": "429",
+      "doi": "10.1111/bioe.13158",
+      "pmid": "36964989"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Dalton-Brown S"
+      ],
+      "title": "The Ethics of Medical AI and the Physician-Patient Relationship",
+      "journal": "Camb Q Healthc Ethics",
+      "year": "2020",
+      "volume": "29",
+      "issue": "1",
+      "fpage": "115",
+      "lpage": "121",
+      "doi": "10.1017/S0963180119000847",
+      "pmid": "31858938"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "title": "Stellungnahme „Entscheidungsunterstützung ärztlicher Tätigkeit durch Künstliche Intelligenz",
+      "journal": "Dtsch Ärztebl",
+      "year": "2021",
+      "volume": "118",
+      "issue": "33/34",
+      "fpage": "A1",
+      "lpage": "A8",
+      "doi": "10.3238/arztebl.zeko_sn_cdss_2021"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "journal": "Mensch und Maschine – Herausforderungen durch Künstliche Intelligenz",
+      "year": "2023"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "raw_citation": "EU High-level Expert Group on Artificial Intelligence (2019) Ethics guideline for trustworthy AI. European Commission. https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "title": "Ethics and governance of artificial intelligence for health",
+      "journal": "Guidance on large multi-modal models",
+      "year": "2024"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Jobin A",
+        "Ienca M",
+        "Vayena E"
+      ],
+      "title": "The global landscape of AI ethics guidelines",
+      "journal": "Nat Mach Intell",
+      "year": "2019",
+      "volume": "1",
+      "fpage": "389",
+      "lpage": "399",
+      "doi": "10.1038/s42256-019-0088-2"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Ratti E",
+        "Morrison M",
+        "Jakab I"
+      ],
+      "title": "Ethical and social considerations of applying artificial intelligence in healthcare—a twopronged scoping review",
+      "journal": "BMC Med Ethics",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "68",
+      "doi": "10.1186/s12910-025-01198-1",
+      "pmid": "40420080",
+      "pmc_id": "PMC12107984"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Stahl BC",
+        "Coeckelbergh M"
+      ],
+      "title": "Ethics of healthcare robotics: Towards responsible research and innovation",
+      "journal": "Rob Auton Syst",
+      "year": "2016",
+      "volume": "86",
+      "fpage": "152",
+      "lpage": "161",
+      "doi": "10.1016/j.robot.2016.08.018"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Haltaufderheide J",
+        "Pfisterer-Heise S",
+        "Pieper D",
+        "Ranisch R"
+      ],
+      "title": "The ethical landscape of robot-assisted surgery: a systematic review",
+      "journal": "J Robotic Surg",
+      "year": "2025",
+      "volume": "19",
+      "fpage": "102",
+      "doi": "10.1007/s11701-025-02228-1",
+      "pmc_id": "PMC11885409",
+      "pmid": "40050538"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Brenneis A",
+        "Gehring P",
+        "Lamadé A"
+      ],
+      "title": "Zwischen fachlichen Standards und wilder Innovation: Zur Begutachtung von Big Data- und KI-Projekten in Forschungs-Ethikkommissionen",
+      "journal": "Ethik Medizin",
+      "year": "2024",
+      "volume": "36",
+      "fpage": "473",
+      "lpage": "491",
+      "doi": "10.1007/s00481-024-00811-y"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "McDougall RJ"
+      ],
+      "title": "Computer knows best? The need for value-flexibility in medical AI",
+      "journal": "J Med Ethics",
+      "year": "2019",
+      "volume": "45",
+      "issue": "3",
+      "fpage": "156",
+      "lpage": "160",
+      "doi": "10.1136/medethics-2018-105118",
+      "pmid": "30467198"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Palmer A",
+        "Schwan D"
+      ],
+      "title": "More Process, Less Principles: The Ethics of Deploying AI and Robotics in Medicine",
+      "journal": "Camb Q Healthc Ethics",
+      "year": "2024",
+      "volume": "33",
+      "issue": "1",
+      "fpage": "121",
+      "lpage": "134",
+      "doi": "10.1017/S0963180123000087",
+      "pmid": "37092348"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "raw_citation": "Hallensleben S, Hustedt C, Fetic L et al (2020) From Principles to Practice: An interdisciplinary framework to operationalize AI ethics. https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/WKIO_2020_final.pdf . Zugegriffen: 13. Okt. 2025"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "McLennan S",
+        "Fiske A",
+        "Tigard D",
+        "et al."
+      ],
+      "title": "Embedded ethics: a proposal for integrating ethics into the development of medical AI",
+      "journal": "BMC Med Ethics",
+      "year": "2022",
+      "doi": "10.1186/s12910-022-00746-3",
+      "pmid": "35081955",
+      "pmc_id": "PMC8793193"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Ghassemi M",
+        "Oakden-Rayner L",
+        "Beam AL"
+      ],
+      "title": "The false hope of current approaches to explainable artificial intelligence in health care",
+      "journal": "Lancet Digit Health",
+      "year": "2021",
+      "volume": "3",
+      "issue": "11",
+      "fpage": "e745",
+      "lpage": "e750",
+      "doi": "10.1016/S2589-7500(21)00208-9",
+      "pmid": "34711379"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "De Winter J",
+        "Kosolosky L"
+      ],
+      "title": "The Epistemic Integrity of Scientific Research",
+      "journal": "Sci Eng Ethics",
+      "year": "2013",
+      "doi": "10.1007/s11948-012-9394-3",
+      "pmid": "23054672"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Wright C"
+      ],
+      "journal": "Beyond Prediction—Structuring Epistemic Integrity in Artificial Reasoning Systems",
+      "year": "2025"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "van de Poel Ibo",
+        "Royakkers Lambèr",
+        "Zwart Sjoerd D."
+      ],
+      "journal": "Moral Responsibility and the Problem of Many Hands",
+      "year": "2015"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Santoni de Sio F",
+        "Menacci G"
+      ],
+      "title": "Four responsibility gaps with artificial intelligence: Why they matter and how to address them",
+      "journal": "Philos Technol",
+      "year": "2021",
+      "doi": "10.1007/s13347-021-00450-x"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Bratan T",
+        "Schneider D",
+        "Funer F",
+        "et al."
+      ],
+      "title": "Unterstützung ärztlicher und pflegerischer Tätigkeit durch KI: Handlungsempfehlungen für eine verantwortbare Gestaltung und Nutzung",
+      "journal": "Bundesgesundheitsblatt",
+      "year": "2024",
+      "volume": "67",
+      "fpage": "1039",
+      "lpage": "1046",
+      "doi": "10.1007/s00103-024-03918-1",
+      "pmc_id": "PMC11349829",
+      "pmid": "39017712"
     }
   ]
 }

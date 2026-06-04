@@ -25,7 +25,8 @@
     "pmc_id": "PMC13200314",
     "pmid": "42178533",
     "full_text_available": true,
-    "section_count": 21
+    "section_count": 21,
+    "reference_count": 41
   },
   "sections": [
     {
@@ -132,6 +133,793 @@
       "section": "Conclusion",
       "text": "In conclusion, we demonstrated in in vitro experiments and human tissue samples that immunostaining with NIR-fluorescent IRDye800CW-labeled anti-EpCAM antibodies VU1D9 and MT201 (adecatumumab) allows clear microscopic differentiation of HNSCC tissue from adjacent non-malignant HNSCC stroma and mucosa. The relevance EpCAM expression in non-HNSCC salivary gland tissue (moderate) and mucosa (low) as potential limitation warrants further detailed investigation. As a future outlook, particularly the antibody-dye construct IRDye800CW-MT201 might be a promising candidate for follow-up studies assessing its intraoperative applicability for ex vivo or in vivo fluorescence-guided surgery to potentially enhance margin assessment and concomitantly complete cancer resection in primary and recurrent HNSCC.",
       "order": 20
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Laversanne M",
+        "Soerjomataram I",
+        "Jemal A",
+        "et al."
+      ],
+      "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "issue": "3",
+      "fpage": "209",
+      "lpage": "49",
+      "pmid": "33538338",
+      "doi": "10.3322/caac.21660"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Chow LQM"
+      ],
+      "title": "Head and Neck Cancer",
+      "journal": "N Engl J Med",
+      "year": "2020",
+      "volume": "382",
+      "issue": "1",
+      "fpage": "60",
+      "lpage": "72",
+      "doi": "10.1056/NEJMra1715715",
+      "pmid": "31893516"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Li MM",
+        "Puram SV",
+        "Silverman DA",
+        "Old MO",
+        "Rocco JW",
+        "Kang SY"
+      ],
+      "title": "Margin Analysis in Head and Neck Cancer: State of the Art and Future Directions",
+      "journal": "Ann Surg Oncol",
+      "year": "2019",
+      "volume": "26",
+      "issue": "12",
+      "fpage": "4070",
+      "lpage": "80",
+      "doi": "10.1245/s10434-019-07645-9",
+      "pmid": "31385128",
+      "pmc_id": "PMC7382965"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Golusinski W"
+      ],
+      "title": "Functional Organ Preservation Surgery in Head and Neck Cancer: Transoral Robotic Surgery and Beyond",
+      "journal": "Front Oncol",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "293",
+      "doi": "10.3389/fonc.2019.00293",
+      "pmid": "31058091",
+      "pmc_id": "PMC6479210"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "doi": "10.1111/coa.14263",
+      "pmc_id": "PMC11792437",
+      "pmid": "39629534"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "van Keulen S",
+        "Nishio N",
+        "Fakurnejad S",
+        "Birkeland A",
+        "Martin BA",
+        "Lu G",
+        "et al."
+      ],
+      "title": "The Clinical Application of Fluorescence-Guided Surgery in Head and Neck Cancer",
+      "journal": "J Nucl Med",
+      "year": "2019",
+      "volume": "60",
+      "issue": "6",
+      "fpage": "758",
+      "lpage": "63",
+      "doi": "10.2967/jnumed.118.222810",
+      "pmid": "30733319",
+      "pmc_id": "PMC6581234"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Lee YJ",
+        "Krishnan G",
+        "Nishio N",
+        "van den Berg NS",
+        "Lu G",
+        "Martin BA",
+        "et al."
+      ],
+      "title": "Intraoperative Fluorescence-Guided Surgery in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Laryngoscope",
+      "year": "2021",
+      "volume": "131",
+      "issue": "3",
+      "fpage": "529",
+      "lpage": "34",
+      "doi": "10.1002/lary.28822",
+      "pmid": "33593036"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Martin E",
+        "Hom M",
+        "Mani L",
+        "Rosenthal EL"
+      ],
+      "title": "Current and Future Applications of Fluorescence-Guided Surgery in Head and Neck Cancer",
+      "journal": "Surg Oncol Clin N Am",
+      "year": "2022",
+      "volume": "31",
+      "issue": "4",
+      "fpage": "695",
+      "lpage": "706",
+      "doi": "10.1016/j.soc.2022.07.001",
+      "pmid": "36243502"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "doi": "10.3390/biomedicines12102337",
+      "pmc_id": "PMC11505575",
+      "pmid": "39457649"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "De Ravin E",
+        "Venkatesh S",
+        "Harmsen S",
+        "Delikatny EJ",
+        "Husson MA",
+        "Lee JYK",
+        "et al."
+      ],
+      "title": "Indocyanine green fluorescence-guided surgery in head and neck cancer: A systematic review",
+      "journal": "Am J Otolaryngol",
+      "year": "2022",
+      "volume": "43",
+      "issue": "5",
+      "fpage": "103570",
+      "doi": "10.1016/j.amjoto.2022.103570",
+      "pmid": "35939987"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Filip P",
+        "Lerner DK",
+        "Kominsky E",
+        "Schupper A",
+        "Liu K",
+        "Khan NM",
+        "et al."
+      ],
+      "title": "5-Aminolevulinic Acid Fluorescence-Guided Surgery in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Laryngoscope",
+      "year": "2024",
+      "volume": "134",
+      "issue": "2",
+      "fpage": "741",
+      "lpage": "8",
+      "doi": "10.1002/lary.30910",
+      "pmid": "37540051"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Voskuil FJ",
+        "de Jongh SJ",
+        "Hooghiemstra WTR",
+        "Linssen MD",
+        "Steinkamp PJ",
+        "de Visscher S",
+        "et al."
+      ],
+      "title": "Fluorescence-guided imaging for resection margin evaluation in head and neck cancer patients using cetuximab-800CW: A quantitative dose-escalation study",
+      "journal": "Theranostics",
+      "year": "2020",
+      "volume": "10",
+      "issue": "9",
+      "fpage": "3994",
+      "lpage": "4005",
+      "doi": "10.7150/thno.43227",
+      "pmid": "32226534",
+      "pmc_id": "PMC7086353"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Wang C",
+        "Xu X",
+        "Folaron M",
+        "Gunn JR",
+        "Hodge S",
+        "Chen EY",
+        "et al."
+      ],
+      "title": "Improved Discrimination of Tumors with Low and Heterogeneous EGFR Expression in Fluorescence-Guided Surgery Through Paired-Agent Protocols",
+      "journal": "Mol Imaging Biol",
+      "year": "2023",
+      "volume": "25",
+      "issue": "1",
+      "fpage": "110",
+      "lpage": "21",
+      "doi": "10.1007/s11307-021-01656-3",
+      "pmid": "34651290",
+      "pmc_id": "PMC9527767"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Ter Weele EJ",
+        "van Terwisscha AG",
+        "Linssen MD",
+        "Nagengast WB",
+        "Lindner I",
+        "Jorritsma-Smit A",
+        "et al."
+      ],
+      "title": "Development, preclinical safety, formulation, and stability of clinical grade bevacizumab-800CW, a new near infrared fluorescent imaging agent for first in human use",
+      "journal": "Eur J Pharm Biopharm",
+      "year": "2016",
+      "volume": "104",
+      "fpage": "226",
+      "lpage": "34",
+      "doi": "10.1016/j.ejpb.2016.05.008",
+      "pmid": "27179587"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Odenthal J",
+        "Rijpkema M",
+        "Bos D",
+        "Wagena E",
+        "Croes H",
+        "Grenman R",
+        "et al."
+      ],
+      "title": "Targeting CD44v6 for fluorescence-guided surgery in head and neck squamous cell carcinoma",
+      "journal": "Sci Rep",
+      "year": "2018",
+      "volume": "8",
+      "issue": "1",
+      "fpage": "10467",
+      "doi": "10.1038/s41598-018-28059-9",
+      "pmid": "29992954",
+      "pmc_id": "PMC6041314"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Mizushima T",
+        "Ohnishi S",
+        "Shimizu Y",
+        "Hatanaka Y",
+        "Hatanaka KC",
+        "Hosono H",
+        "et al."
+      ],
+      "title": "Fluorescent imaging of superficial head and neck squamous cell carcinoma using a gamma-glutamyltranspeptidase-activated targeting agent: a pilot study",
+      "journal": "BMC Cancer",
+      "year": "2016",
+      "volume": "16",
+      "fpage": "411",
+      "doi": "10.1186/s12885-016-2421-z",
+      "pmid": "27387955",
+      "pmc_id": "PMC4936014"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Steinkamp PJ",
+        "Voskuil FJ",
+        "van der Vegt B",
+        "Doff JJ",
+        "Schepman KP",
+        "de Visscher S",
+        "et al."
+      ],
+      "title": "A Standardized Framework for Fluorescence-Guided Margin Assessment for Head and Neck Cancer Using a Tumor Acidosis Sensitive Optical Imaging Agent",
+      "journal": "Mol Imaging Biol",
+      "year": "2021",
+      "volume": "23",
+      "issue": "6",
+      "fpage": "809",
+      "lpage": "17",
+      "doi": "10.1007/s11307-021-01614-z",
+      "pmid": "34031845",
+      "pmc_id": "PMC8578180"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Gires O",
+        "Pan M",
+        "Schinke H",
+        "Canis M",
+        "Baeuerle PA"
+      ],
+      "title": "Expression and function of epithelial cell adhesion molecule EpCAM: where are we after 40 years?",
+      "journal": "Cancer Metastasis Rev",
+      "year": "2020",
+      "volume": "39",
+      "issue": "3",
+      "fpage": "969",
+      "lpage": "87",
+      "doi": "10.1007/s10555-020-09898-3",
+      "pmid": "32507912",
+      "pmc_id": "PMC7497325"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Keller L",
+        "Werner S",
+        "Pantel K"
+      ],
+      "title": "Biology and clinical relevance of EpCAM",
+      "journal": "Cell Stress",
+      "year": "2019",
+      "volume": "3",
+      "issue": "6",
+      "fpage": "165",
+      "lpage": "80",
+      "doi": "10.15698/cst2019.06.188",
+      "pmid": "31225512",
+      "pmc_id": "PMC6558934"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Umemori K",
+        "Ono K",
+        "Eguchi T",
+        "Kawai H",
+        "Nakamura T",
+        "Ogawa T",
+        "et al."
+      ],
+      "title": "EpEX, the soluble extracellular domain of EpCAM, resists cetuximab treatment of EGFR-high head and neck squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2023",
+      "volume": "142",
+      "fpage": "106433",
+      "doi": "10.1016/j.oraloncology.2023.106433",
+      "pmid": "37236125"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Baumeister P",
+        "Hollmann A",
+        "Kitz J",
+        "Afthonidou A",
+        "Simon F",
+        "Shakhtour J",
+        "et al."
+      ],
+      "title": "High Expression of EpCAM and Sox2 is a Positive Prognosticator of Clinical Outcome for Head and Neck Carcinoma",
+      "journal": "Sci Rep",
+      "year": "2018",
+      "volume": "8",
+      "issue": "1",
+      "fpage": "14582",
+      "doi": "10.1038/s41598-018-32178-8",
+      "pmid": "30275505",
+      "pmc_id": "PMC6167386"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Spizzo G",
+        "Fong D",
+        "Wurm M",
+        "Ensinger C",
+        "Obrist P",
+        "Hofer C",
+        "et al."
+      ],
+      "title": "EpCAM expression in primary tumour tissues and metastases: an immunohistochemical analysis",
+      "journal": "J Clin Pathol",
+      "year": "2011",
+      "volume": "64",
+      "issue": "5",
+      "fpage": "415",
+      "lpage": "20",
+      "doi": "10.1136/jcp.2011.090274",
+      "pmid": "21415054",
+      "pmc_id": "PMC3088404"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Munz M",
+        "Murr A",
+        "Kvesic M",
+        "Rau D",
+        "Mangold S",
+        "Pflanz S",
+        "et al."
+      ],
+      "title": "Side-by-side analysis of five clinically tested anti-EpCAM monoclonal antibodies",
+      "journal": "Cancer Cell Int",
+      "year": "2010",
+      "volume": "10",
+      "fpage": "44",
+      "doi": "10.1186/1475-2867-10-44",
+      "pmid": "21044305",
+      "pmc_id": "PMC2989956"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Marshall MV",
+        "Draney D",
+        "Sevick-Muraca EM",
+        "Olive DM"
+      ],
+      "title": "Single-dose intravenous toxicity study of IRDye 800CW in Sprague-Dawley rats",
+      "journal": "Mol Imaging Biol",
+      "year": "2010",
+      "volume": "12",
+      "issue": "6",
+      "fpage": "583",
+      "lpage": "94",
+      "doi": "10.1007/s11307-010-0317-x",
+      "pmid": "20376568",
+      "pmc_id": "PMC2978892"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Gao RW",
+        "Teraphongphom N",
+        "de Boer E",
+        "van den Berg NS",
+        "Divi V",
+        "Kaplan MJ",
+        "et al."
+      ],
+      "title": "Safety of panitumumab-IRDye800CW and cetuximab-IRDye800CW for fluorescence-guided surgical navigation in head and neck cancers",
+      "journal": "Theranostics",
+      "year": "2018",
+      "volume": "8",
+      "issue": "9",
+      "fpage": "2488",
+      "lpage": "95",
+      "doi": "10.7150/thno.24487",
+      "pmid": "29721094",
+      "pmc_id": "PMC5928904"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Zhou J",
+        "Schwenk-Zieger S",
+        "Kranz G",
+        "Walz C",
+        "Klauschen F",
+        "Dhawan S",
+        "et al."
+      ],
+      "title": "Isolation and characterization of head and neck cancer-derived peritumoral and cancer-associated fibroblasts",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "984138",
+      "doi": "10.3389/fonc.2022.984138",
+      "pmid": "36544698",
+      "pmc_id": "PMC9760815"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Berger J",
+        "Zech HB",
+        "Hoffer K",
+        "von Bargen CM",
+        "Nordquist L",
+        "Bussmann L",
+        "et al."
+      ],
+      "title": "Kinomic comparison of snap frozen and ex vivo-cultured head and neck tumors",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "123",
+      "fpage": "105603",
+      "doi": "10.1016/j.oraloncology.2021.105603",
+      "pmid": "34798574"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Stogbauer F",
+        "Beck S",
+        "Ourailidis I",
+        "Hess J",
+        "Poremba C",
+        "Lauterbach M",
+        "et al."
+      ],
+      "title": "Tumour budding-based grading as independent prognostic biomarker in HPV-positive and HPV-negative head and neck cancer",
+      "journal": "Br J Cancer",
+      "year": "2023",
+      "volume": "128",
+      "issue": "12",
+      "fpage": "2295",
+      "lpage": "306",
+      "doi": "10.1038/s41416-023-02240-y",
+      "pmid": "37045906",
+      "pmc_id": "PMC10241901"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "doi": "10.3390/cancers13112635",
+      "pmc_id": "PMC8198309",
+      "pmid": "34071997"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Lindgren G",
+        "Wennerberg J",
+        "Ekblad L"
+      ],
+      "title": "Cell line dependent expression of EpCAM influences the detection of circulating tumor cells with CellSearch",
+      "journal": "Laryngoscope Investig Otolaryngol",
+      "year": "2017",
+      "volume": "2",
+      "issue": "4",
+      "fpage": "194",
+      "lpage": "8",
+      "doi": "10.1002/lio2.83",
+      "pmid": "28894840",
+      "pmc_id": "PMC5562942"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Heider KH",
+        "Kuthan H",
+        "Stehle G",
+        "Munzert G"
+      ],
+      "title": "CD44v6: a target for antibody-based cancer therapy",
+      "journal": "Cancer Immunol Immunother",
+      "year": "2004",
+      "volume": "53",
+      "issue": "7",
+      "fpage": "567",
+      "lpage": "79",
+      "doi": "10.1007/s00262-003-0494-4",
+      "pmid": "14762695",
+      "pmc_id": "PMC11032850"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Li D",
+        "Li X",
+        "Zhao J",
+        "Tan F"
+      ],
+      "title": "Advances in nuclear medicine-based molecular imaging in head and neck squamous cell carcinoma",
+      "journal": "J Transl Med",
+      "year": "2022",
+      "volume": "20",
+      "issue": "1",
+      "fpage": "358",
+      "doi": "10.1186/s12967-022-03559-5",
+      "pmid": "35962347",
+      "pmc_id": "PMC9373390"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Dirheimer L",
+        "Cortese S",
+        "Dolivet G",
+        "Merlin JL",
+        "Marchal F",
+        "Mastronicola R",
+        "et al."
+      ],
+      "title": "Fluorescence Imaging-Assessed Surgical Margin Detection in Head and Neck Oncology by Passive and Active Targeting",
+      "journal": "Mol Diagn Ther",
+      "year": "2025",
+      "volume": "29",
+      "issue": "4",
+      "fpage": "465",
+      "lpage": "81",
+      "doi": "10.1007/s40291-025-00781-x",
+      "pmid": "40342044",
+      "pmc_id": "PMC12227469"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "doi": "10.3390/diagnostics12051275",
+      "pmc_id": "PMC9141664",
+      "pmid": "35626430"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "doi": "10.3390/cancers12061474",
+      "pmc_id": "PMC7352159",
+      "pmid": "32516897"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Andratschke M",
+        "Hagedorn H",
+        "Nerlich A"
+      ],
+      "title": "Expression of the Epithelial Cell Adhesion Molecule and Cytokeratin 8 in Head and Neck Squamous Cell Cancer: A Comparative Study",
+      "journal": "Anticancer Res",
+      "year": "2015",
+      "volume": "35",
+      "issue": "7",
+      "fpage": "3953",
+      "lpage": "60",
+      "pmid": "26124342"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Imrich S",
+        "Hachmeister M",
+        "Gires O"
+      ],
+      "title": "EpCAM and its potential role in tumor-initiating cells",
+      "journal": "Cell Adh Migr",
+      "year": "2012",
+      "volume": "6",
+      "issue": "1",
+      "fpage": "30",
+      "lpage": "8",
+      "doi": "10.4161/cam.18953",
+      "pmid": "22647938",
+      "pmc_id": "PMC3364135"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Andratschke M",
+        "Hagedorn H",
+        "Luebbers CW",
+        "Schmitt B",
+        "Lang S",
+        "Zeidler R",
+        "et al."
+      ],
+      "title": "Limited suitability of EpCAM for molecular staging of tumor borders in head and neck cancer",
+      "journal": "Anticancer Res",
+      "year": "2006",
+      "volume": "26",
+      "issue": "1A",
+      "fpage": "153",
+      "lpage": "8",
+      "pmid": "16475692"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Bortot B",
+        "Mangogna A",
+        "Di Lorenzo G",
+        "Stabile G",
+        "Ricci G",
+        "Biffi S"
+      ],
+      "title": "Image-guided cancer surgery: a narrative review on imaging modalities and emerging nanotechnology strategies",
+      "journal": "J Nanobiotechnol",
+      "year": "2023",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "155",
+      "doi": "10.1186/s12951-023-01926-y",
+      "pmc_id": "PMC10193783",
+      "pmid": "37202750"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Day KE",
+        "Sweeny L",
+        "Kulbersh B",
+        "Zinn KR",
+        "Rosenthal EL"
+      ],
+      "title": "Preclinical comparison of near-infrared-labeled cetuximab and panitumumab for optical imaging of head and neck squamous cell carcinoma",
+      "journal": "Mol Imaging Biol",
+      "year": "2013",
+      "volume": "15",
+      "issue": "6",
+      "fpage": "722",
+      "lpage": "9",
+      "doi": "10.1007/s11307-013-0652-9",
+      "pmid": "23715932",
+      "pmc_id": "PMC3951369"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Leunig A",
+        "Mehlmann M",
+        "Betz C",
+        "Stepp H",
+        "Arbogast S",
+        "Grevers G",
+        "et al."
+      ],
+      "title": "Fluorescence staining of oral cancer using a topical application of 5-aminolevulinic acid: fluorescence microscopic studies",
+      "journal": "J Photochem Photobiol B",
+      "year": "2001",
+      "volume": "60",
+      "issue": "1",
+      "fpage": "44",
+      "lpage": "9",
+      "doi": "10.1016/S1011-1344(01)00117-8",
+      "pmid": "11386680"
     }
   ]
 }

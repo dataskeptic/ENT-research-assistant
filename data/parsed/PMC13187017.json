@@ -12,7 +12,8 @@
     "pmc_id": "PMC13187017",
     "pmid": "42140987",
     "full_text_available": true,
-    "section_count": 29
+    "section_count": 29,
+    "reference_count": 39
   },
   "sections": [
     {
@@ -159,6 +160,540 @@
       "section": "Conclusion",
       "text": "In summary, 18β-GRA inhibited the proliferation of SCC-9 tongue squamous cell carcinoma cells. This effect was associated with the induction of G0/G1 phase cell cycle arrest, promotion of apoptosis, modulation of autophagic markers, and suppression of the PI3K–AKT signaling pathway. Integrated proteomic and network pharmacology analyses further suggested that the anticancer activity of 18β-GRA may involve multi-target regulation across multiple biological pathways. While additional mechanistic investigations and in vivo validation are necessary, our findings provide a molecular basis for further exploring 18β-GRA as a potential therapeutic candidate for TSCC.",
       "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Kim YJ",
+        "Kim JH"
+      ],
+      "title": "Increasing incidence and improving survival of oral tongue squamous cell carcinoma",
+      "journal": "Sci. Rep.",
+      "year": "2020",
+      "volume": "10",
+      "fpage": "7877",
+      "doi": "10.1038/s41598-020-64748-0",
+      "pmid": "32398670",
+      "pmc_id": "PMC7217912"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Lenoci D",
+        "et al."
+      ],
+      "title": "Oral cancer in young adults: Incidence, risk factors, prognosis, and molecular biomarkers",
+      "journal": "Front. Oncol.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "1452909",
+      "doi": "10.3389/fonc.2024.1452909",
+      "pmid": "39421447",
+      "pmc_id": "PMC11484398"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Katirachi SK",
+        "Sui M",
+        "Wu S",
+        "Li Y",
+        "Wang B"
+      ],
+      "title": "The prevalence of HPV in oral cavity squamous cell carcinoma: A systematic review and meta-analysis",
+      "journal": "Viruses",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "2222",
+      "doi": "10.3390/v15020451",
+      "pmid": "36851665",
+      "pmc_id": "PMC9964223"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Wu N",
+        "Li Y",
+        "Zhang R",
+        "Yang H",
+        "Chen S"
+      ],
+      "title": "High incidence of HPV infection in minors with oral squamous cell carcinoma",
+      "journal": "Diagn. Pathol.",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "51",
+      "doi": "10.1186/s13000-024-01470-9",
+      "pmid": "38461286",
+      "pmc_id": "PMC10925008"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "raw_citation": "Kritpracha, N. et al. Impact of Human Papillomavirus Status on Survival of Patients with Tongue Cancer: A Multicenter Cohort Study (Heliyon, 2025) (in press)."
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "doi": "10.3390/diagnostics15222847",
+      "pmc_id": "PMC12651312",
+      "pmid": "41300872"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "doi": "10.1002/micr.70071",
+      "pmid": "40503748"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "doi": "10.1097/GOX.0000000000007100",
+      "pmc_id": "PMC12520226",
+      "pmid": "41098423"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Yi CR",
+        "Goo EH",
+        "Park SW",
+        "Lee JY",
+        "Kim MJ"
+      ],
+      "title": "Preliminary functional outcomes and quality of life after tongue reconstruction with free flaps",
+      "journal": "J. Reconstr. Microsurg",
+      "year": "2020",
+      "volume": "36",
+      "fpage": "123",
+      "lpage": "130"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Mitea G",
+        "et al."
+      ],
+      "title": "Molecular targets of plant-derived bioactive compounds in oral squamous cell carcinoma: An update on preclinical and clinical data",
+      "journal": "Cancers (Basel)",
+      "year": "2024",
+      "volume": "16",
+      "fpage": "534",
+      "doi": "10.3390/cancers16213612",
+      "pmid": "39518052",
+      "pmc_id": "PMC11545343"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "doi": "10.3390/ph18081098",
+      "pmc_id": "PMC12389067",
+      "pmid": "40872490"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Wu Y",
+        "et al."
+      ],
+      "title": "Cardamonin suppresses proliferation and induces apoptosis of oral squamous cell carcinoma via inhibition of the PI3K/AKT pathway",
+      "journal": "Sci. Rep.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "2187"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Chen L",
+        "Gong J",
+        "Yong X",
+        "Li Y",
+        "Wang S"
+      ],
+      "title": "A review of typical biological activities of glycyrrhetinic acid and its derivatives",
+      "journal": "RSC Adv.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "6557",
+      "lpage": "6597",
+      "doi": "10.1039/D3RA08025K",
+      "pmid": "38390501",
+      "pmc_id": "PMC10882267"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Shinu P",
+        "et al."
+      ],
+      "title": "Pharmacological features of 18β-glycyrrhetinic acid: A pentacyclic triterpenoid of therapeutic potential",
+      "journal": "Plants (Basel)",
+      "year": "2023",
+      "volume": "12",
+      "issue": "5",
+      "fpage": "1086",
+      "pmid": "36903944",
+      "doi": "10.3390/plants12051086",
+      "pmc_id": "PMC10005454"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Yuan L",
+        "et al."
+      ],
+      "title": "18β-glycyrrhetinic acid regulates mitochondrial ribosomal protein L35-associated apoptosis signaling pathways to inhibit proliferation of gastric carcinoma cells",
+      "journal": "World J. Gastroenterol.",
+      "year": "2022",
+      "volume": "28",
+      "issue": "22",
+      "fpage": "2437",
+      "lpage": "2456",
+      "doi": "10.3748/wjg.v28.i22.2437",
+      "pmid": "35979263",
+      "pmc_id": "PMC9258276"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Hsu YC",
+        "et al."
+      ],
+      "title": "18β-Glycyrrhetinic acid modulated autophagy is cytotoxic to luminal A subtype breast cancer cells",
+      "journal": "Int. J. Med. Sci.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "444",
+      "lpage": "454",
+      "doi": "10.7150/ijms.80302",
+      "pmid": "37057216",
+      "pmc_id": "PMC10087636"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Khalil H",
+        "et al."
+      ],
+      "title": "Amelioration effect of 18β-glycyrrhetinic acid on methylation inhibitors in diethylnitrosamine-induced hepatocarcinogenesis",
+      "journal": "Front. Immunol.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "1206990",
+      "doi": "10.3389/fimmu.2023.1206990",
+      "pmid": "38322013",
+      "pmc_id": "PMC10844948"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "doi": "10.3390/ijms22126180",
+      "pmc_id": "PMC8226931",
+      "pmid": "34201116"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "raw_citation": "Li, J. et al. C.Asiatic acid induces apoptosis and cell-cycle arrest, and enhances radiosensitivity in human tongue squamous cell carcinoma SCC-15 cells via Raf/MEK/ERK signalling. Front. Pharmacol . 12, 690612 (2021)."
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Su L",
+        "et al."
+      ],
+      "title": "Q.Epigenetic inhibitor AR-42 differentially affects cell cycle transit in TAZ-expressing tongue squamous cell carcinoma",
+      "journal": "J. Cancer",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "364",
+      "lpage": "373",
+      "doi": "10.7150/jca.32436",
+      "pmid": "31897232",
+      "pmc_id": "PMC6930442"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Hsu YC",
+        "et al."
+      ],
+      "title": "18β-Glycyrrhetinic acid modulated autophagy is cytotoxic to luminal A subtype breast cancer cells",
+      "journal": "Int. J. Med. Sci.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "444",
+      "lpage": "454",
+      "doi": "10.7150/ijms.80302",
+      "pmid": "37057216",
+      "pmc_id": "PMC10087636"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Guo Q",
+        "et al."
+      ],
+      "title": "18β-Glycyrrhetinic acid inhibits non-small cell lung cancer progression by suppressing PI3K/AKT signalling and epithelial–mesenchymal transition",
+      "journal": "Biomed. Pharmacother",
+      "year": "2024",
+      "volume": "173",
+      "fpage": "116304",
+      "doi": "10.1016/j.biopha.2024.116304",
+      "pmid": "38401519"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "doi": "10.3390/antiox13040468",
+      "pmc_id": "PMC11047483",
+      "pmid": "38671916"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Cai H",
+        "Chen X",
+        "Zhang J",
+        "Wang J"
+      ],
+      "title": "18β-Glycyrrhetinic acid inhibits migration and invasion of human gastric cancer cells via the ROS/PKC-α/ERK pathway",
+      "journal": "J. Nat. Med.",
+      "year": "2018",
+      "volume": "72",
+      "fpage": "252",
+      "lpage": "259",
+      "doi": "10.1007/s11418-017-1145-y",
+      "pmid": "29098529"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Wang S",
+        "et al."
+      ],
+      "title": "W.18β-Glycyrrhetinic acid exhibits potent antitumor effects against colorectal cancer via inhibition of cell proliferation and migration",
+      "journal": "Int. J. Oncol.",
+      "year": "2017",
+      "volume": "51",
+      "fpage": "615",
+      "lpage": "624",
+      "doi": "10.3892/ijo.2017.4059",
+      "pmid": "28656212"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Ma X",
+        "et al."
+      ],
+      "title": "18β-Glycyrrhetinic acid suppresses Lewis lung cancer growth through protecting immune cells from ferroptosis",
+      "journal": "Cancer Chemother. Pharmacol.",
+      "year": "2024",
+      "volume": "93",
+      "fpage": "575",
+      "lpage": "585",
+      "doi": "10.1007/s00280-024-04639-7",
+      "pmid": "38383823"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Li WX",
+        "et al."
+      ],
+      "title": "Application of 18β-glycyrrhetinic acid in the structural modification of natural products: A review",
+      "journal": "Mol. Divers.",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "739",
+      "lpage": "781",
+      "doi": "10.1007/s11030-024-10864-2",
+      "pmid": "38683490"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Quan W",
+        "et al."
+      ],
+      "title": "Use of 18β-glycyrrhetinic acid nanocrystals to enhance anti-inflammatory activity by improving topical delivery",
+      "journal": "Colloids Surf. B Biointerfaces",
+      "year": "2021",
+      "volume": "205",
+      "fpage": "111791",
+      "doi": "10.1016/j.colsurfb.2021.111791",
+      "pmid": "34022703"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Zuo Z",
+        "He L",
+        "Duan X",
+        "Peng Z",
+        "Han J"
+      ],
+      "title": "Glycyrrhizic acid exhibits strong anticancer activity in colorectal cancer cells via SIRT3 inhibition",
+      "journal": "Bioengineered",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "2720",
+      "lpage": "2731",
+      "doi": "10.1080/21655979.2021.2001925",
+      "pmid": "34747319",
+      "pmc_id": "PMC8974138"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "raw_citation": "Hsu, P. C. & Hsu, Y. C. Therapeutic targeting of apoptosis, autophagy and necroptosis in oral cancers. Biomedicines 13 , 1745 (2025)."
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Honoki K",
+        "et al."
+      ],
+      "title": "Honokiol inhibits in vitro and in vivo growth of oral squamous cell carcinoma through induction of autophagy via the PI3K/Akt and mTOR pathways",
+      "journal": "J. Cell. Mol. Med.",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "1894",
+      "lpage": "1908",
+      "doi": "10.1111/jcmm.13474",
+      "pmid": "29363886",
+      "pmc_id": "PMC5824386"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Conlon GA",
+        "Murray GI"
+      ],
+      "title": "Recent advances in understanding the roles of matrix metalloproteinases in tumour invasion and metastasis",
+      "journal": "J. Pathol.",
+      "year": "2019",
+      "volume": "247",
+      "fpage": "629",
+      "lpage": "640",
+      "doi": "10.1002/path.5225",
+      "pmid": "30582157"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Abdel-Hamid NM",
+        "Abass SA"
+      ],
+      "title": "Matrix metalloproteinase contribution in management of cancer proliferation, metastasis and drug targeting",
+      "journal": "Mol. Biol. Rep.",
+      "year": "2021",
+      "volume": "48",
+      "fpage": "6525",
+      "lpage": "6538",
+      "doi": "10.1007/s11033-021-06635-z",
+      "pmid": "34379286"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "doi": "10.1038/s41591-020-01195-4",
+      "pmc_id": "PMC7895475",
+      "pmid": "33442008"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "doi": "10.1016/j.cell.2023.03.003",
+      "pmc_id": "PMC10511214",
+      "pmid": "37059065"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Hebert JD",
+        "Neal JW",
+        "Winslow MM"
+      ],
+      "title": "Dissecting metastasis using preclinical models and methods",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "391",
+      "lpage": "407",
+      "doi": "10.1038/s41568-023-00568-4",
+      "pmid": "37138029"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "doi": "10.1016/j.ccell.2023.02.016",
+      "pmid": "36917948"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Ma J",
+        "et al."
+      ],
+      "title": "iProX: An integrated proteome resource",
+      "journal": "Nucleic Acids Res.",
+      "year": "2019",
+      "volume": "47",
+      "issue": "D1",
+      "fpage": "D1211",
+      "lpage": "D1217",
+      "doi": "10.1093/nar/gky869",
+      "pmid": "30252093",
+      "pmc_id": "PMC6323926"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Chen T",
+        "et al."
+      ],
+      "title": "iProX in 2021: Connecting proteomics data sharing with big data",
+      "journal": "Nucleic Acids Res.",
+      "year": "2022",
+      "volume": "50",
+      "issue": "D1",
+      "fpage": "D1522",
+      "lpage": "D1527",
+      "doi": "10.1093/nar/gkab1081",
+      "pmid": "34871441",
+      "pmc_id": "PMC8728291"
     }
   ]
 }

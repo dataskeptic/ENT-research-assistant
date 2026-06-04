@@ -23,7 +23,8 @@
     "pmc_id": "PMC13227178",
     "pmid": "41016592",
     "full_text_available": true,
-    "section_count": 27
+    "section_count": 27,
+    "reference_count": 54
   },
   "sections": [
     {
@@ -160,6 +161,1096 @@
       "section": "Declaration Of Competing Interest",
       "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
       "order": 26
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b0005",
+      "label": "1",
+      "authors": [
+        "Chen Y.P.",
+        "Chan A.T.C.",
+        "Le Q.T.",
+        "Blanchard P.",
+        "Sun Y.",
+        "Ma J."
+      ],
+      "title": "Nasopharyngeal carcinoma",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "64",
+      "lpage": "80",
+      "doi": "10.1016/s0140-6736(19)30956-0",
+      "pmid": "31178151"
+    },
+    {
+      "ref_id": "b0010",
+      "label": "2",
+      "authors": [
+        "Bray F.",
+        "Laversanne M.",
+        "Sung H.",
+        "Ferlay J.",
+        "Siegel R.L.",
+        "Soerjomataram I.",
+        "et al."
+      ],
+      "title": "GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2022",
+      "volume": "74",
+      "issue": "2024",
+      "fpage": "229",
+      "lpage": "263",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "b0015",
+      "label": "3",
+      "authors": [
+        "Tang L.L.",
+        "Chen Y.P.",
+        "Chen C.B.",
+        "Chen M.Y.",
+        "Chen N.Y.",
+        "Chen X.Z.",
+        "et al."
+      ],
+      "title": "The Chinese Society of Clinical Oncology (CSCO) clinical guidelines for the diagnosis and treatment of nasopharyngeal carcinoma",
+      "journal": "Cancer Commun (Lond)",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "1195",
+      "lpage": "1227",
+      "doi": "10.1002/cac2.12218",
+      "pmid": "34699681",
+      "pmc_id": "PMC8626602"
+    },
+    {
+      "ref_id": "b0020",
+      "label": "4",
+      "authors": [
+        "Conn V.M.",
+        "Chinnaiyan A.M.",
+        "Conn S.J."
+      ],
+      "title": "Circular RNA in cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "597",
+      "lpage": "613",
+      "doi": "10.1038/s41568-024-00721-7",
+      "pmid": "39075222"
+    },
+    {
+      "ref_id": "b0025",
+      "label": "5",
+      "authors": [
+        "Kristensen L.S.",
+        "Andersen M.S.",
+        "Stagsted L.V.W.",
+        "Ebbesen K.K.",
+        "Hansen T.B.",
+        "Kjems J."
+      ],
+      "title": "The biogenesis, biology and characterization of circular RNAs",
+      "journal": "Nat Rev Genet",
+      "year": "2019",
+      "volume": "20",
+      "fpage": "675",
+      "lpage": "691",
+      "doi": "10.1038/s41576-019-0158-7",
+      "pmid": "31395983"
+    },
+    {
+      "ref_id": "b0030",
+      "label": "6",
+      "authors": [
+        "Slack F.J.",
+        "Chinnaiyan A.M."
+      ],
+      "title": "The role of Non-coding RNAs in oncology",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "179",
+      "fpage": "1033",
+      "lpage": "1055",
+      "doi": "10.1016/j.cell.2019.10.017",
+      "pmid": "31730848",
+      "pmc_id": "PMC7347159"
+    },
+    {
+      "ref_id": "b0035",
+      "label": "7",
+      "authors": [
+        "Mo Y.",
+        "Wang Y.",
+        "Zhang S.",
+        "Xiong F.",
+        "Yan Q.",
+        "Jiang X.",
+        "et al."
+      ],
+      "title": "Circular RNA circRNF13 inhibits proliferation and metastasis of nasopharyngeal carcinoma via SUMO2",
+      "journal": "Mol Cancer",
+      "year": "2021",
+      "volume": "20",
+      "fpage": "112",
+      "doi": "10.1186/s12943-021-01409-4",
+      "pmid": "34465340",
+      "pmc_id": "PMC8406723"
+    },
+    {
+      "ref_id": "b0040",
+      "label": "8",
+      "authors": [
+        "Fan C.",
+        "Qu H.",
+        "Xiong F.",
+        "Tang Y.",
+        "Tang T.",
+        "Zhang L.",
+        "et al."
+      ],
+      "title": "CircARHGAP12 promotes nasopharyngeal carcinoma migration and invasion via ezrin-mediated cytoskeletal remodeling",
+      "journal": "Cancer Lett",
+      "year": "2021",
+      "volume": "496",
+      "fpage": "41",
+      "lpage": "56",
+      "doi": "10.1016/j.canlet.2020.09.006",
+      "pmid": "32931883"
+    },
+    {
+      "ref_id": "b0045",
+      "label": "9",
+      "authors": [
+        "Wang Y.",
+        "Yan Q.",
+        "Mo Y.",
+        "Liu Y.",
+        "Wang Y.",
+        "Zhang S.",
+        "et al."
+      ],
+      "title": "Splicing factor derived circular RNA circCAMSAP1 accelerates nasopharyngeal carcinoma tumorigenesis via a SERPINH1/c-Myc positive feedback loop",
+      "journal": "Mol Cancer",
+      "year": "2022",
+      "volume": "21",
+      "fpage": "62",
+      "doi": "10.1186/s12943-022-01502-2",
+      "pmid": "35227262",
+      "pmc_id": "PMC8883650"
+    },
+    {
+      "ref_id": "b0050",
+      "label": "10",
+      "authors": [
+        "Mo Y.",
+        "Wang Y.",
+        "Wang Y.",
+        "Deng X.",
+        "Yan Q.",
+        "Fan C.",
+        "et al."
+      ],
+      "title": "Circular RNA circPVT1 promotes nasopharyngeal carcinoma metastasis via the β-TrCP/c-Myc/SRSF1 positive feedback loop",
+      "journal": "Mol Cancer",
+      "year": "2022",
+      "volume": "21",
+      "fpage": "192",
+      "doi": "10.1186/s12943-022-01659-w",
+      "pmid": "36199071",
+      "pmc_id": "PMC9533486"
+    },
+    {
+      "ref_id": "b0055",
+      "label": "11",
+      "authors": [
+        "Ge J.",
+        "Wang J.",
+        "Xiong F.",
+        "Jiang X.",
+        "Zhu K.",
+        "Wang Y.",
+        "et al."
+      ],
+      "title": "Epstein-Barr virus-encoded circular RNA CircBART2.2 promotes immune escape of nasopharyngeal carcinoma by regulating PD-L1",
+      "journal": "Cancer Res",
+      "year": "2021",
+      "volume": "81",
+      "fpage": "5074",
+      "lpage": "5088",
+      "doi": "10.1158/0008-5472.Can-20-4321",
+      "pmid": "34321242",
+      "pmc_id": "PMC8974435"
+    },
+    {
+      "ref_id": "b0060",
+      "label": "12",
+      "authors": [
+        "Hong X.",
+        "Li Q.",
+        "Li J.",
+        "Chen K.",
+        "He Q.",
+        "Zhao Y.",
+        "et al."
+      ],
+      "title": "CircIPO7 promotes nasopharyngeal carcinoma metastasis and cisplatin chemoresistance by facilitating YBX1 nuclear localization",
+      "journal": "Clin Cancer Res",
+      "year": "2022",
+      "volume": "28",
+      "fpage": "4521",
+      "lpage": "4535",
+      "doi": "10.1158/1078-0432.Ccr-22-0991",
+      "pmid": "35917517"
+    },
+    {
+      "ref_id": "b0065",
+      "label": "13",
+      "authors": [
+        "Cheng Y.",
+        "Zhu Y.",
+        "Xiao M.",
+        "Zhang Y.",
+        "Wang Z.",
+        "Chen H.",
+        "et al."
+      ],
+      "title": "circRNA_0067717 promotes paclitaxel resistance in nasopharyngeal carcinoma by acting as a scaffold for TRIM41 and p53",
+      "journal": "Cell Oncol (Dordr)",
+      "year": "2023",
+      "volume": "46",
+      "fpage": "677",
+      "lpage": "695",
+      "doi": "10.1007/s13402-023-00776-y",
+      "pmid": "36705889",
+      "pmc_id": "PMC12974661"
+    },
+    {
+      "ref_id": "b0070",
+      "label": "14",
+      "authors": [
+        "Qu H.",
+        "Wang Y.",
+        "Yan Q.",
+        "Fan C.",
+        "Zhang X.",
+        "Wang D.",
+        "et al."
+      ],
+      "title": "CircCDYL2 bolsters radiotherapy resistance in nasopharyngeal carcinoma by promoting RAD51 translation initiation for enhanced homologous recombination repair",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "122",
+      "doi": "10.1186/s13046-024-03049-0",
+      "pmid": "38654320",
+      "pmc_id": "PMC11036759"
+    },
+    {
+      "ref_id": "b0075",
+      "label": "15",
+      "authors": [
+        "Zhou X.",
+        "Yuan G.",
+        "Wu Y.",
+        "Yan S.",
+        "Jiang Q.",
+        "Tang S."
+      ],
+      "title": "EIF4A3-induced circFIP1L1 represses miR-1253 and promotes radiosensitivity of nasopharyngeal carcinoma",
+      "journal": "Cell Mol Life Sci",
+      "year": "2022",
+      "volume": "79",
+      "fpage": "357",
+      "doi": "10.1007/s00018-022-04350-x",
+      "pmid": "35680727",
+      "pmc_id": "PMC11072984"
+    },
+    {
+      "ref_id": "b0080",
+      "label": "16",
+      "authors": [
+        "Tang L.",
+        "Xiong W.",
+        "Zhang L.",
+        "Wang D.",
+        "Wang Y.",
+        "Wu Y.",
+        "et al."
+      ],
+      "title": "circSETD3 regulates MAPRE1 through miR-615-5p and miR-1538 sponges to promote migration and invasion in nasopharyngeal carcinoma",
+      "journal": "Oncogene",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "307",
+      "lpage": "321",
+      "doi": "10.1038/s41388-020-01531-5",
+      "pmid": "33122825"
+    },
+    {
+      "ref_id": "b0085",
+      "label": "17",
+      "authors": [
+        "Liu C.X.",
+        "Chen L.L."
+      ],
+      "title": "Circular RNAs: characterization, cellular roles, and applications",
+      "journal": "Cell",
+      "year": "2022",
+      "volume": "185",
+      "fpage": "2016",
+      "lpage": "2034",
+      "doi": "10.1016/j.cell.2022.04.021",
+      "pmid": "35584701"
+    },
+    {
+      "ref_id": "b0090",
+      "label": "18",
+      "authors": [
+        "Ma A.",
+        "Yang Y.",
+        "Lu L.",
+        "Zhang Y.",
+        "Zhang X.",
+        "Zheng J.",
+        "et al."
+      ],
+      "title": "Emerging roles of circular RNAs in nasopharyngeal carcinoma: functions and implications",
+      "journal": "Cell Death Discov",
+      "year": "2024",
+      "volume": "10",
+      "fpage": "192",
+      "doi": "10.1038/s41420-024-01964-x",
+      "pmid": "38664370",
+      "pmc_id": "PMC11045839"
+    },
+    {
+      "ref_id": "b0095",
+      "label": "19",
+      "authors": [
+        "Ge J.",
+        "Meng Y.",
+        "Guo J.",
+        "Chen P.",
+        "Wang J.",
+        "Shi L.",
+        "et al."
+      ],
+      "title": "Human papillomavirus-encoded circular RNA circE7 promotes immune evasion in head and neck squamous cell carcinoma",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "8609",
+      "doi": "10.1038/s41467-024-52981-4",
+      "pmid": "39366979",
+      "pmc_id": "PMC11452643"
+    },
+    {
+      "ref_id": "b0100",
+      "label": "20",
+      "authors": [
+        "Wu P.",
+        "Hou X.",
+        "Peng M.",
+        "Deng X.",
+        "Yan Q.",
+        "Fan C.",
+        "et al."
+      ],
+      "title": "Circular RNA circRILPL1 promotes nasopharyngeal carcinoma malignant progression by activating the Hippo-YAP signaling pathway",
+      "journal": "Cell Death Differ",
+      "year": "2023",
+      "volume": "30",
+      "fpage": "1679",
+      "lpage": "1694",
+      "doi": "10.1038/s41418-023-01171-8",
+      "pmid": "37173390",
+      "pmc_id": "PMC10307875"
+    },
+    {
+      "ref_id": "b0105",
+      "label": "21",
+      "authors": [
+        "Ju J.",
+        "Zhang H.",
+        "Lin M.",
+        "Yan Z.",
+        "An L.",
+        "Cao Z.",
+        "et al."
+      ],
+      "title": "The alanyl-tRNA synthetase AARS1 moonlights as a lactyltransferase to promote YAP signaling in gastric cancer",
+      "journal": "J Clin Invest",
+      "year": "2024",
+      "volume": "134",
+      "doi": "10.1172/jci174587",
+      "pmc_id": "PMC11093599",
+      "pmid": "38512451"
+    },
+    {
+      "ref_id": "b0110",
+      "label": "22",
+      "authors": [
+        "Yang Z.",
+        "Yan C.",
+        "Ma J.",
+        "Peng P.",
+        "Ren X.",
+        "Cai S.",
+        "et al."
+      ],
+      "title": "Lactylome analysis suggests lactylation-dependent mechanisms of metabolic adaptation in hepatocellular carcinoma",
+      "journal": "Nat Metab",
+      "year": "2023",
+      "volume": "5",
+      "fpage": "61",
+      "lpage": "79",
+      "doi": "10.1038/s42255-022-00710-w",
+      "pmid": "36593272"
+    },
+    {
+      "ref_id": "b0115",
+      "label": "23",
+      "authors": [
+        "Schiapparelli P.",
+        "Guerrero-Cazares H.",
+        "Magaña-Maldonado R.",
+        "Hamilla S.M.",
+        "Ganaha S."
+      ],
+      "title": "Goulin Lippi Fernandes E et al , NKCC1 regulates migration ability of glioblastoma cells by modulation of actin dynamics and interacting with Cofilin",
+      "journal": "EBioMedicine",
+      "year": "2017",
+      "volume": "21",
+      "fpage": "94",
+      "lpage": "103",
+      "doi": "10.1016/j.ebiom.2017.06.020",
+      "pmid": "28679472",
+      "pmc_id": "PMC5514434"
+    },
+    {
+      "ref_id": "b0120",
+      "label": "24",
+      "authors": [
+        "Zhang H.J.",
+        "Chang W.J.",
+        "Jia C.Y.",
+        "Qiao L.",
+        "Zhou J.",
+        "Chen Q.",
+        "et al."
+      ],
+      "title": "Destrin contributes to lung adenocarcinoma progression by activating Wnt/β-catenin signaling pathway",
+      "journal": "Mol Cancer Res",
+      "year": "2020",
+      "volume": "18",
+      "fpage": "1789",
+      "lpage": "1802",
+      "doi": "10.1158/1541-7786.Mcr-20-0187",
+      "pmid": "32878967"
+    },
+    {
+      "ref_id": "b0125",
+      "label": "25",
+      "authors": [
+        "Zong Z.",
+        "Xie F.",
+        "Wang S.",
+        "Wu X.",
+        "Zhang Z.",
+        "Yang B.",
+        "et al."
+      ],
+      "title": "Alanyl-tRNA synthetase, AARS1, is a lactate sensor and lactyltransferase that lactylates p53 and contributes to tumorigenesis",
+      "journal": "Cell",
+      "year": "2024",
+      "volume": "187",
+      "fpage": "2375",
+      "lpage": "2392.e2333",
+      "doi": "10.1016/j.cell.2024.04.002",
+      "pmid": "38653238"
+    },
+    {
+      "ref_id": "b0130",
+      "label": "26",
+      "authors": [
+        "Ning W.",
+        "Qin F.",
+        "Zhou Z.",
+        "Yang H.",
+        "Li C.",
+        "Guo Y."
+      ],
+      "title": "HybridKla: a hybrid deep learning framework for lactylation site prediction",
+      "journal": "Brief Bioinform",
+      "year": "2025",
+      "volume": "26",
+      "doi": "10.1093/bib/bbaf375",
+      "pmc_id": "PMC12309240",
+      "pmid": "40736746"
+    },
+    {
+      "ref_id": "b0135",
+      "label": "27",
+      "authors": [
+        "Meng Q.",
+        "Sun H.",
+        "Zhang Y.",
+        "Yang X.",
+        "Hao S.",
+        "Liu B.",
+        "et al."
+      ],
+      "title": "Lactylation stabilizes DCBLD1 activating the pentose phosphate pathway to promote cervical cancer progression",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "36",
+      "doi": "10.1186/s13046-024-02943-x",
+      "pmid": "38291438",
+      "pmc_id": "PMC10829273"
+    },
+    {
+      "ref_id": "b0140",
+      "label": "28",
+      "authors": [
+        "Chen Y.",
+        "Wu J.",
+        "Zhai L.",
+        "Zhang T.",
+        "Yin H.",
+        "Gao H.",
+        "et al."
+      ],
+      "title": "Metabolic regulation of homologous recombination repair by MRE11 lactylation",
+      "journal": "Cell",
+      "year": "2024",
+      "volume": "187",
+      "fpage": "294",
+      "lpage": "311.e221",
+      "doi": "10.1016/j.cell.2023.11.022",
+      "pmid": "38128537",
+      "pmc_id": "PMC11725302"
+    },
+    {
+      "ref_id": "b0145",
+      "label": "29",
+      "authors": [
+        "Wei Y.",
+        "Fu J.",
+        "Zhang H.",
+        "Ling Y.",
+        "Tang X.",
+        "Liu S.",
+        "et al."
+      ],
+      "title": "N6-methyladenosine modification promotes hepatocarcinogenesis through circ-CDYL-enriched and EpCAM-positive liver tumor-initiating exosomes",
+      "journal": "iScience",
+      "year": "2023",
+      "volume": "26",
+      "doi": "10.1016/j.isci.2023.108022",
+      "pmc_id": "PMC10638478",
+      "pmid": "37954137"
+    },
+    {
+      "ref_id": "b0150",
+      "label": "30",
+      "authors": [
+        "Wei Y.",
+        "Chen X.",
+        "Liang C.",
+        "Ling Y.",
+        "Yang X.",
+        "Ye X.",
+        "et al."
+      ],
+      "title": "A noncoding regulatory rnas network driven by Circ-CDYL Acts specifically in the early stages hepatocellular carcinoma",
+      "journal": "Hepatology",
+      "year": "2020",
+      "volume": "71",
+      "fpage": "130",
+      "lpage": "147",
+      "doi": "10.1002/hep.30795",
+      "pmid": "31148183"
+    },
+    {
+      "ref_id": "b0155",
+      "label": "31",
+      "authors": [
+        "Liang G.",
+        "Ling Y.",
+        "Mehrpour M.",
+        "Saw P.E.",
+        "Liu Z.",
+        "Tan W.",
+        "et al."
+      ],
+      "title": "Autophagy-associated circRNA circCDYL augments autophagy and promotes breast cancer progression",
+      "journal": "Mol Cancer",
+      "year": "2020",
+      "volume": "19",
+      "fpage": "65",
+      "doi": "10.1186/s12943-020-01152-2",
+      "pmid": "32213200",
+      "pmc_id": "PMC7093993"
+    },
+    {
+      "ref_id": "b0160",
+      "label": "32",
+      "authors": [
+        "Kong R.",
+        "Wei W.",
+        "Man Q.",
+        "Chen L.",
+        "Jia Y.",
+        "Zhang H.",
+        "et al."
+      ],
+      "title": "Hypoxia-induced circ-CDYL-EEF1A2 transcriptional complex drives lung metastasis of cancer stem cells from hepatocellular carcinoma",
+      "journal": "Cancer Lett",
+      "year": "2023",
+      "volume": "578",
+      "doi": "10.1016/j.canlet.2023.216442",
+      "pmid": "37852428"
+    },
+    {
+      "ref_id": "b0165",
+      "label": "33",
+      "authors": [
+        "Wang J.",
+        "Luo J.",
+        "Liu G.",
+        "Li X."
+      ],
+      "title": "Circular RNA hsa_circ_0008285 inhibits colorectal cancer cell proliferation and migration via the miR-382-5p/PTEN axis",
+      "journal": "Biochem Biophys Res Commun",
+      "year": "2020",
+      "volume": "527",
+      "fpage": "503",
+      "lpage": "510",
+      "doi": "10.1016/j.bbrc.2020.03.165",
+      "pmid": "32423803"
+    },
+    {
+      "ref_id": "b0170",
+      "label": "34",
+      "authors": [
+        "Certo M.",
+        "Llibre A.",
+        "Lee W.",
+        "Mauro C."
+      ],
+      "title": "Understanding lactate sensing and signalling",
+      "journal": "Trends Endocrinol Metab",
+      "year": "2022",
+      "volume": "33",
+      "fpage": "722",
+      "lpage": "735",
+      "doi": "10.1016/j.tem.2022.07.004",
+      "pmid": "35999109"
+    },
+    {
+      "ref_id": "b0175",
+      "label": "35",
+      "authors": [
+        "Liu Q.",
+        "Bode A.M.",
+        "Chen X.",
+        "Luo X."
+      ],
+      "title": "Metabolic reprogramming in nasopharyngeal carcinoma: Mechanisms and therapeutic opportunities",
+      "journal": "Biochim Biophys Acta",
+      "year": "2023",
+      "volume": "1878",
+      "doi": "10.1016/j.bbcan.2023.189023",
+      "pmid": "37979733"
+    },
+    {
+      "ref_id": "b0180",
+      "label": "36",
+      "authors": [
+        "Bononi G.",
+        "Masoni S.",
+        "Di Bussolo V.",
+        "Tuccinardi T.",
+        "Granchi C.",
+        "Minutolo F."
+      ],
+      "title": "Historical perspective of tumor glycolysis: a century with Otto Warburg",
+      "journal": "Semin Cancer Biol",
+      "year": "2022",
+      "volume": "86",
+      "fpage": "325",
+      "lpage": "333",
+      "doi": "10.1016/j.semcancer.2022.07.003",
+      "pmid": "35809880"
+    },
+    {
+      "ref_id": "b0185",
+      "label": "37",
+      "authors": [
+        "Zhang Y.",
+        "Peng Q.",
+        "Zheng J.",
+        "Yang Y.",
+        "Zhang X.",
+        "Ma A.",
+        "et al."
+      ],
+      "title": "The function and mechanism of lactate and lactylation in tumor metabolism and microenvironment",
+      "journal": "Genes Dis",
+      "year": "2023",
+      "volume": "10",
+      "fpage": "2029",
+      "lpage": "2037",
+      "doi": "10.1016/j.gendis.2022.10.006",
+      "pmid": "37492749",
+      "pmc_id": "PMC10363641"
+    },
+    {
+      "ref_id": "b0190",
+      "label": "38",
+      "authors": [
+        "Plebanek M.P.",
+        "Xue Y.",
+        "Nguyen Y.V.",
+        "DeVito N.C.",
+        "Wang X.",
+        "Holtzhausen A.",
+        "et al."
+      ],
+      "title": "A lactate-SREBP2 signaling axis drives tolerogenic dendritic cell maturation and promotes cancer progression",
+      "journal": "Sci Immunol",
+      "year": "2024",
+      "volume": "9",
+      "doi": "10.1126/sciimmunol.adi4191",
+      "pmc_id": "PMC11926670",
+      "pmid": "38728412"
+    },
+    {
+      "ref_id": "b0195",
+      "label": "39",
+      "authors": [
+        "Ding R.",
+        "Yu X.",
+        "Hu Z.",
+        "Dong Y.",
+        "Huang H.",
+        "Zhang Y.",
+        "et al."
+      ],
+      "title": "Lactate modulates RNA splicing to promote CTLA-4 expression in tumor-infiltrating regulatory T cells",
+      "journal": "Immunity",
+      "year": "2024",
+      "volume": "57",
+      "fpage": "528",
+      "lpage": "540.e526",
+      "doi": "10.1016/j.immuni.2024.01.019",
+      "pmid": "38417442"
+    },
+    {
+      "ref_id": "b0200",
+      "label": "40",
+      "authors": [
+        "Yan C.",
+        "Yang Z.",
+        "Chen P.",
+        "Yeh Y.",
+        "Sun C.",
+        "Xie T.",
+        "et al."
+      ],
+      "title": "GPR65 sensing tumor-derived lactate induces HMGB1 release from TAM via the cAMP/PKA/CREB pathway to promote glioma progression",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "105",
+      "doi": "10.1186/s13046-024-03025-8",
+      "pmid": "38576043",
+      "pmc_id": "PMC10993467"
+    },
+    {
+      "ref_id": "b0205",
+      "label": "41",
+      "authors": [
+        "Zhang D.",
+        "Tang Z.",
+        "Huang H.",
+        "Zhou G.",
+        "Cui C.",
+        "Weng Y.",
+        "et al."
+      ],
+      "title": "Metabolic regulation of gene expression by histone lactylation",
+      "journal": "Nature",
+      "year": "2019",
+      "volume": "574",
+      "fpage": "575",
+      "lpage": "580",
+      "doi": "10.1038/s41586-019-1678-1",
+      "pmid": "31645732",
+      "pmc_id": "PMC6818755"
+    },
+    {
+      "ref_id": "b0210",
+      "label": "42",
+      "authors": [
+        "Kotsiliti E."
+      ],
+      "title": "Lactylation and HCC progression",
+      "journal": "Nat Rev Gastroenterol Hepatol",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "131",
+      "doi": "10.1038/s41575-023-00746-7",
+      "pmid": "36750619"
+    },
+    {
+      "ref_id": "b0215",
+      "label": "43",
+      "authors": [
+        "Xie B.",
+        "Zhang M.",
+        "Li J.",
+        "Cui J.",
+        "Zhang P.",
+        "Liu F.",
+        "et al."
+      ],
+      "title": "KAT8-catalyzed lactylation promotes eEF1A2-mediated protein synthesis and colorectal carcinogenesis",
+      "journal": "PNAS",
+      "year": "2024",
+      "volume": "121",
+      "doi": "10.1073/pnas.2314128121",
+      "pmc_id": "PMC10895275",
+      "pmid": "38359291"
+    },
+    {
+      "ref_id": "b0220",
+      "label": "44",
+      "authors": [
+        "Wan N.",
+        "Wang N.",
+        "Yu S.",
+        "Zhang H.",
+        "Tang S.",
+        "Wang D.",
+        "et al."
+      ],
+      "title": "Cyclic immonium ion of lactyllysine reveals widespread lactylation in the human proteome",
+      "journal": "Nat Methods",
+      "year": "2022",
+      "volume": "19",
+      "fpage": "854",
+      "lpage": "864",
+      "doi": "10.1038/s41592-022-01523-1",
+      "pmid": "35761067"
+    },
+    {
+      "ref_id": "b0225",
+      "label": "45",
+      "authors": [
+        "Yamaguchi H.",
+        "Lorenz M.",
+        "Kempiak S.",
+        "Sarmiento C.",
+        "Coniglio S.",
+        "Symons M.",
+        "et al."
+      ],
+      "title": "Molecular mechanisms of invadopodium formation: the role of the N-WASP-Arp2/3 complex pathway and cofilin",
+      "journal": "J Cell Biol",
+      "year": "2005",
+      "volume": "168",
+      "fpage": "441",
+      "lpage": "452",
+      "doi": "10.1083/jcb.200407076",
+      "pmid": "15684033",
+      "pmc_id": "PMC2171731"
+    },
+    {
+      "ref_id": "b0230",
+      "label": "46",
+      "authors": [
+        "Jin Z.L.",
+        "Yao X.R.",
+        "Wen L.",
+        "Hao G.",
+        "Kwon J.W.",
+        "Hao J.",
+        "et al."
+      ],
+      "title": "AIP1 and Cofilin control the actin dynamics to modulate the asymmetric division and cytokinesis in mouse oocytes",
+      "journal": "FASEB J",
+      "year": "2020",
+      "volume": "34",
+      "fpage": "11292",
+      "lpage": "11306",
+      "doi": "10.1096/fj.202000093R",
+      "pmid": "32602619"
+    },
+    {
+      "ref_id": "b0235",
+      "label": "47",
+      "authors": [
+        "Kaji N.",
+        "Muramoto A.",
+        "Mizuno K."
+      ],
+      "title": "LIM kinase-mediated cofilin phosphorylation during mitosis is required for precise spindle positioning",
+      "journal": "J Biol Chem",
+      "year": "2008",
+      "volume": "283",
+      "fpage": "4983",
+      "lpage": "4992",
+      "doi": "10.1074/jbc.M708644200",
+      "pmid": "18079118"
+    },
+    {
+      "ref_id": "b0240",
+      "label": "48",
+      "authors": [
+        "Yao B.",
+        "Li Y.",
+        "Chen T.",
+        "Niu Y.",
+        "Wang Y.",
+        "Yang Y.",
+        "et al."
+      ],
+      "title": "Hypoxia-induced cofilin 1 promotes hepatocellular carcinoma progression by regulating the PLD1/AKT pathway",
+      "journal": "Clin Transl Med",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "e366",
+      "doi": "10.1002/ctm2.366",
+      "pmid": "33784016",
+      "pmc_id": "PMC7982636"
+    },
+    {
+      "ref_id": "b0245",
+      "label": "49",
+      "authors": [
+        "Wang F.",
+        "Wu D.",
+        "Xu Z.",
+        "Chen J.",
+        "Zhang J.",
+        "Li X.",
+        "et al."
+      ],
+      "title": "miR-182-5p affects human bladder cancer cell proliferation, migration and invasion through regulating Cofilin 1",
+      "journal": "Cancer Cell Int",
+      "year": "2019",
+      "volume": "19",
+      "fpage": "42",
+      "doi": "10.1186/s12935-019-0758-5",
+      "pmid": "30858759",
+      "pmc_id": "PMC6394052"
+    },
+    {
+      "ref_id": "b0250",
+      "label": "50",
+      "authors": [
+        "Giardino E.",
+        "Catalano R.",
+        "Barbieri A.M.",
+        "Treppiedi D.",
+        "Mangili F.",
+        "Spada A.",
+        "et al."
+      ],
+      "title": "Cofilin is a mediator of RET-promoted medullary thyroid carcinoma cell migration, invasion and proliferation",
+      "journal": "Mol Cell Endocrinol",
+      "year": "2019",
+      "volume": "495",
+      "doi": "10.1016/j.mce.2019.110519",
+      "pmid": "31352037"
+    },
+    {
+      "ref_id": "b0255",
+      "label": "51",
+      "authors": [
+        "Baker T.M.",
+        "Waheed S.",
+        "Syed V."
+      ],
+      "title": "RNA interference screening identifies clathrin-B and cofilin-1 as mediators of MT1-MMP in endometrial cancer",
+      "journal": "Exp Cell Res",
+      "year": "2018",
+      "volume": "370",
+      "fpage": "663",
+      "lpage": "670",
+      "doi": "10.1016/j.yexcr.2018.07.031",
+      "pmid": "30036538"
+    },
+    {
+      "ref_id": "b0260",
+      "label": "52",
+      "authors": [
+        "Zebda N.",
+        "Bernard O.",
+        "Bailly M.",
+        "Welti S.",
+        "Lawrence D.S.",
+        "Condeelis J.S."
+      ],
+      "title": "Phosphorylation of ADF/cofilin abolishes EGF-induced actin nucleation at the leading edge and subsequent lamellipod extension",
+      "journal": "J Cell Biol",
+      "year": "2000",
+      "volume": "151",
+      "fpage": "1119",
+      "lpage": "1128",
+      "doi": "10.1083/jcb.151.5.1119",
+      "pmid": "11086013",
+      "pmc_id": "PMC2174362"
+    },
+    {
+      "ref_id": "b0265",
+      "label": "53",
+      "authors": [
+        "Weng W.",
+        "Gu X.",
+        "Yang Y.",
+        "Zhang Q.",
+        "Deng Q.",
+        "Zhou J.",
+        "et al."
+      ],
+      "title": "N-terminal α-amino SUMOylation of cofilin-1 is critical for its regulation of actin depolymerization",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "5688",
+      "doi": "10.1038/s41467-023-41520-2",
+      "pmid": "37709794",
+      "pmc_id": "PMC10502023"
+    },
+    {
+      "ref_id": "b0270",
+      "label": "54",
+      "authors": [
+        "Zemła J.",
+        "Danilkiewicz J.",
+        "Orzechowska B.",
+        "Pabijan J.",
+        "Seweryn S.",
+        "Lekka M."
+      ],
+      "title": "Atomic force microscopy as a tool for assessing the cellular elasticity and adhesiveness to identify cancer cells and tissues",
+      "journal": "Semin Cell Dev Biol",
+      "year": "2018",
+      "volume": "73",
+      "fpage": "115",
+      "lpage": "124",
+      "doi": "10.1016/j.semcdb.2017.06.029",
+      "pmid": "28694112"
     }
   ]
 }

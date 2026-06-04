@@ -15,7 +15,8 @@
     "pmc_id": "PMC13201498",
     "pmid": "42206060",
     "full_text_available": true,
-    "section_count": 23
+    "section_count": 23,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -132,6 +133,834 @@
       "section": "Conclusion",
       "text": "This study support PNI as a clinically relevant and biologically informative phenotype in HNSCC and provide a framework for improving prognostic stratification and guiding future mechanistic and therapeutic studies targeting neuroimmune and regulatory programs associated with PNI.",
       "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Laversanne M",
+        "Soerjomataram I",
+        "Jemal A",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA: A Cancer J For Clin",
+      "year": "2021",
+      "volume": "71",
+      "doi": "10.3322/caac.21660",
+      "pmid": "33538338"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Johnson DE",
+        "Burtness B",
+        "Leemans CR",
+        "Lui VWY",
+        "Bauman JE",
+        "Grandis JR",
+        "et al."
+      ],
+      "title": "Head and neck squamous cell carcinoma",
+      "journal": "Nat Rev Dis Primers",
+      "year": "2020",
+      "volume": "6",
+      "elocation_id": "92",
+      "doi": "10.1038/s41572-020-00224-3",
+      "pmid": "33243986",
+      "pmc_id": "PMC7944998"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Ang KK",
+        "Harris J",
+        "Wheeler R",
+        "Weber R",
+        "Rosenthal DI",
+        "Nguyen-Tân PF",
+        "et al."
+      ],
+      "title": "Human papillomavirus and survival of patients with oropharyngeal cancer",
+      "journal": "N Engl J Med",
+      "year": "2010",
+      "volume": "363",
+      "doi": "10.1056/nejmoa0912217",
+      "pmid": "20530316",
+      "pmc_id": "PMC2943767"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Leemans CR",
+        "Snijders PJF",
+        "Brakenhoff RH"
+      ],
+      "title": "The molecular landscape of head and neck cancer",
+      "journal": "Nat Rev Cancer",
+      "year": "2018",
+      "volume": "18",
+      "doi": "10.1038/nrc.2018.11",
+      "pmid": "29497144"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Liebig C",
+        "Ayala G",
+        "Wilks JA",
+        "Berger DH",
+        "Albo D"
+      ],
+      "title": "Perineural invasion in cancer: A review of the literature",
+      "journal": "Cancer",
+      "year": "2009",
+      "volume": "115",
+      "doi": "10.1002/cncr.24396",
+      "pmid": "19484787"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Batsakis JG"
+      ],
+      "title": "Nerves and neurotropic carcinomas",
+      "journal": "Ann Otology Rhinology Laryngology",
+      "year": "1985",
+      "volume": "94",
+      "pmid": "4026129"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Schmitd LB",
+        "Scanlon CS",
+        "D'Silva NJ"
+      ],
+      "title": "Perineural invasion in head and neck cancer",
+      "journal": "J Dent Res",
+      "year": "2018",
+      "volume": "97",
+      "doi": "10.1177/0022034518756297",
+      "pmid": "29443582",
+      "pmc_id": "PMC6728584"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Binmadi N",
+        "Alsharif M",
+        "Almazrooa S",
+        "Aljohani S",
+        "Akeel S",
+        "Osailan S",
+        "et al."
+      ],
+      "title": "Perineural invasion is a significant prognostic factor in oral squamous cell carcinoma: A systematic review and meta-analysis",
+      "journal": "Diagnostics (Basel Switzerland)",
+      "year": "2023",
+      "volume": "13",
+      "elocation_id": "3339",
+      "doi": "10.3390/diagnostics13213339",
+      "pmid": "37958235",
+      "pmc_id": "PMC10649820"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Nemzek WR",
+        "Hecht S",
+        "Gandour-Edwards R",
+        "Donald P",
+        "McKennan K"
+      ],
+      "title": "Perineural spread of head and neck tumors: How accurate is MR imaging",
+      "journal": "AJNR Am J Neuroradiology",
+      "year": "1998",
+      "volume": "19",
+      "pmc_id": "PMC8337413",
+      "pmid": "9576658"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Doyle B",
+        "Fudenberg G",
+        "Imakaev M",
+        "Mirny LA"
+      ],
+      "title": "Chromatin loops as allosteric modulators of enhancer-promoter interactions",
+      "journal": "PloS Comput Biol",
+      "year": "2014",
+      "volume": "10",
+      "elocation_id": "e1003867",
+      "doi": "10.1371/journal.pcbi.1003867",
+      "pmid": "25340767",
+      "pmc_id": "PMC4207457"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Razin SV",
+        "Ulianov SV",
+        "Iarovaia OV"
+      ],
+      "title": "Enhancer function in the 3D genome",
+      "journal": "Genes",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1277",
+      "doi": "10.3390/genes14061277",
+      "pmid": "37372457",
+      "pmc_id": "PMC10298269"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Xu X",
+        "Lu X",
+        "Chen L",
+        "Peng K",
+        "Ji F"
+      ],
+      "title": "Downregulation of MMP1 functions in preventing perineural invasion of pancreatic cancer through blocking the NT-3/TrkC signaling pathway",
+      "journal": "J Clin Lab Anal",
+      "year": "2022",
+      "volume": "36",
+      "elocation_id": "e24719",
+      "doi": "10.1002/jcla.24719",
+      "pmid": "36181286",
+      "pmc_id": "PMC9701873"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Huang C",
+        "Li Y",
+        "Guo Y",
+        "Zhang Z",
+        "Lian G",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "MMP1/PAR1/SP/NK1R paracrine loop modulates early perineural invasion of pancreatic cancer cells",
+      "journal": "Theranostics",
+      "year": "2018",
+      "volume": "8",
+      "doi": "10.7150/thno.24281",
+      "pmid": "29896303",
+      "pmc_id": "PMC5996366"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Chen Y",
+        "Huang L",
+        "Gan RH",
+        "Yuan S",
+        "Lan T",
+        "Zheng D",
+        "et al."
+      ],
+      "title": "IL-8 activates fibroblasts to promote the invasion of HNSCC cells via STAT3-MMP1",
+      "journal": "Cell Death Discov",
+      "year": "2024",
+      "volume": "10",
+      "elocation_id": "65",
+      "doi": "10.1038/s41420-024-01833-7",
+      "pmid": "38320998",
+      "pmc_id": "PMC10847094"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Fang Q",
+        "Chen X",
+        "Cao F",
+        "Xu P",
+        "Zhao Z",
+        "Lin R",
+        "et al."
+      ],
+      "title": "SPHK1 promotes HNSCC immune evasion by regulating the MMP1-PD-L1 axis",
+      "journal": "Theranostics",
+      "year": "2024",
+      "volume": "14",
+      "doi": "10.7150/thno.102390",
+      "pmid": "39629135",
+      "pmc_id": "PMC11610131"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Güven HE",
+        "Doğan L",
+        "Gülçelik MA",
+        "Gülçelik NE"
+      ],
+      "title": "Adiponectin: A predictor for breast cancer survival",
+      "journal": "Eur J Breast Health",
+      "year": "2019",
+      "volume": "15",
+      "doi": "10.5152/ejbh.2018.4349",
+      "pmc_id": "PMC6385722",
+      "pmid": "30816355"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Sato S"
+      ],
+      "title": "Adipo-oncology: Adipocyte-derived factors govern engraftment, survival, and progression of metastatic cancers",
+      "journal": "Cell Communication Signaling: CCS",
+      "year": "2024",
+      "volume": "22",
+      "elocation_id": "52",
+      "doi": "10.1186/s12964-024-01474-4",
+      "pmid": "38238841",
+      "pmc_id": "PMC10797898"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Silverman DA",
+        "Martinez VK",
+        "Dougherty PM",
+        "Myers JN",
+        "Calin GA",
+        "Amit M",
+        "et al."
+      ],
+      "title": "Cancer-associated neurogenesis and nerve-cancer cross-talk",
+      "journal": "Cancer Res",
+      "year": "2021",
+      "volume": "81",
+      "doi": "10.1158/0008-5472.can-20-2793",
+      "pmid": "33334813",
+      "pmc_id": "PMC7969424"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Bakst RL",
+        "Xiong H",
+        "Chen CH",
+        "Deborde S",
+        "Lyubchik A",
+        "Zhou Y",
+        "et al."
+      ],
+      "title": "Inflammatory monocytes promote perineural invasion via CCL2-mediated recruitment and cathepsin B expression",
+      "journal": "Cancer Res",
+      "year": "2017",
+      "volume": "77",
+      "doi": "10.1158/0008-5472.can-17-1612",
+      "pmid": "28951461",
+      "pmc_id": "PMC5831809"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Mohamed S",
+        "Callanan D",
+        "Sheahan P",
+        "Feeley L"
+      ],
+      "title": "Significance of location and extent of perineural invasion in early-stage oral cavity squamous cell carcinoma",
+      "journal": "Histopathology",
+      "year": "2025",
+      "volume": "86",
+      "doi": "10.1111/his.15406",
+      "pmid": "39762203",
+      "pmc_id": "PMC11964579"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Brandwein-Gensler M",
+        "Teixeira MS",
+        "Lewis CM",
+        "Lee B",
+        "Rolnitzky L",
+        "Hille JJ",
+        "et al."
+      ],
+      "title": "Oral squamous cell carcinoma: Histologic risk assessment, but not margin status, is strongly predictive of local disease-free and overall survival",
+      "journal": "Am J Surg Pathol",
+      "year": "2005",
+      "volume": "29",
+      "doi": "10.1097/01.pas.0000149687.90710.21",
+      "pmid": "15644773"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Kim S",
+        "Karin M"
+      ],
+      "title": "Role of TLR2-dependent inflammation in metastatic progression",
+      "journal": "Ann N Y Acad Sci",
+      "year": "2011",
+      "volume": "1217",
+      "doi": "10.1111/j.1749-6632.2010.05882.x",
+      "pmid": "21276007",
+      "pmc_id": "PMC4383094"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Liu YD",
+        "Ji CB",
+        "Li SB",
+        "Yan F",
+        "Gu QS",
+        "Balic JJ",
+        "et al."
+      ],
+      "title": "Toll-like receptor 2 stimulation promotes colorectal cancer cell growth via PI3K/akt and NF-κB signaling pathways",
+      "journal": "Int Immunopharmacol",
+      "year": "2018",
+      "volume": "59",
+      "doi": "10.1016/j.intimp.2018.04.033",
+      "pmid": "29689497"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Sim ES",
+        "Nguyen HCB",
+        "Hanna GJ",
+        "Uppaluri R"
+      ],
+      "title": "Current progress and future directions of immunotherapy in head and neck squamous cell carcinoma: A narrative review",
+      "journal": "JAMA Otolaryngology-- Head Neck Surg",
+      "year": "2025",
+      "volume": "151",
+      "doi": "10.1001/jamaoto.2024.5254",
+      "pmid": "40048196",
+      "pmc_id": "PMC12815376"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Guo Q",
+        "Jin Y",
+        "Chen X",
+        "Ye X",
+        "Shen X",
+        "Lin M",
+        "et al."
+      ],
+      "title": "NF-κB in biology and targeted therapy: New insights and translational implications",
+      "journal": "Signal Transduction Targeted Ther",
+      "year": "2024",
+      "volume": "9",
+      "elocation_id": "53",
+      "doi": "10.1038/s41392-024-01757-9",
+      "pmid": "38433280",
+      "pmc_id": "PMC10910037"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Feng AC",
+        "Thomas BJ",
+        "Purbey PK",
+        "de Melo FM",
+        "Liu X",
+        "Daly AE",
+        "et al."
+      ],
+      "title": "The transcription factor NF-κB orchestrates nucleosome remodeling during the primary response to toll-like receptor 4 signaling",
+      "journal": "Immunity",
+      "year": "2024",
+      "volume": "57",
+      "doi": "10.1016/j.immuni.2024.02.004",
+      "pmid": "38430908",
+      "pmc_id": "PMC10984581"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Mann JE",
+        "Ludwig ML",
+        "Kulkarni A",
+        "Scheftz EB",
+        "Murray IR",
+        "Zhai J",
+        "et al."
+      ],
+      "title": "Microbe-mediated activation of toll-like receptor 2 drives PDL1 expression in HNSCC",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "4782",
+      "doi": "10.3390/cancers13194782",
+      "pmid": "34638266",
+      "pmc_id": "PMC8508280"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Li S",
+        "Xiao H"
+      ],
+      "title": "Perineural invasion as a neuro-immune niche in head and neck cancer: mechanisms of immune evasion and therapeutic implications",
+      "journal": "Front Immunol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1719675",
+      "doi": "10.3389/fimmu.2025.1719675",
+      "pmid": "41445745",
+      "pmc_id": "PMC12722934"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Hnisz D",
+        "Abraham BJ",
+        "Lee TI",
+        "Lau A",
+        "Saint-André V",
+        "Sigova AA",
+        "et al."
+      ],
+      "title": "Super-enhancers in the control of cell identity and disease",
+      "journal": "Cell",
+      "year": "2013",
+      "volume": "155",
+      "doi": "10.1016/j.cell.2013.09.053",
+      "pmid": "24119843",
+      "pmc_id": "PMC3841062"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Dong J",
+        "Li J",
+        "Li Y",
+        "Ma Z",
+        "Yu Y",
+        "Wang CY",
+        "et al."
+      ],
+      "title": "Transcriptional super-enhancers control cancer stemness and metastasis genes in squamous cell carcinoma",
+      "journal": "Nat Commun",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "3974",
+      "doi": "10.1038/s41467-021-24137-1",
+      "pmid": "34172737",
+      "pmc_id": "PMC8233332"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Liu S",
+        "Dai W",
+        "Jin B",
+        "Jiang F",
+        "Huang H",
+        "Hou W",
+        "et al."
+      ],
+      "title": "Effects of super-enhancers in cancer metastasis: Mechanisms and therapeutic targets",
+      "journal": "Mol Cancer",
+      "year": "2024",
+      "volume": "23",
+      "elocation_id": "122",
+      "doi": "10.1186/s12943-024-02033-8",
+      "pmid": "38844984",
+      "pmc_id": "PMC11157854"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Xu Y",
+        "Wu Y",
+        "Zhang S",
+        "Ma P",
+        "Jin X",
+        "Wang Z",
+        "et al."
+      ],
+      "title": "A tumor-specific super-enhancer drives immune evasion by guiding synchronous expression of PD-L1 and PD-L2",
+      "journal": "Cell Rep",
+      "year": "2019",
+      "volume": "29",
+      "doi": "10.1016/j.celrep.2019.10.093",
+      "pmid": "31825827"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Blayney JW",
+        "Francis H",
+        "Rampasekova A",
+        "Camellato B",
+        "Mitchell L",
+        "Stolper R",
+        "et al."
+      ],
+      "title": "Super-enhancers include classical enhancers and facilitators to fully activate gene expression",
+      "journal": "Cell",
+      "year": "2023",
+      "volume": "186",
+      "doi": "10.1016/j.cell.2023.11.030",
+      "pmid": "38101409",
+      "pmc_id": "PMC10858684"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Qian H",
+        "Zhu M",
+        "Tan X",
+        "Zhang Y",
+        "Liu X",
+        "Yang L"
+      ],
+      "title": "Super-enhancers and the super-enhancer reader BRD4: tumorigenic factors and therapeutic targets",
+      "journal": "Cell Death Discovery",
+      "year": "2023",
+      "volume": "9",
+      "elocation_id": "470",
+      "doi": "10.1038/s41420-023-01775-6",
+      "pmid": "38135679",
+      "pmc_id": "PMC10746725"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Younesi FS",
+        "Miller AE",
+        "Barker TH",
+        "Rossi FMV",
+        "Hinz B"
+      ],
+      "title": "Fibroblast and myofibroblast activation in normal tissue repair and fibrosis",
+      "journal": "Nat Rev Mol Cell Biol",
+      "year": "2024",
+      "volume": "25",
+      "doi": "10.1038/s41580-024-00716-0",
+      "pmid": "38589640"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Leone P",
+        "Malerba E",
+        "Susca N",
+        "Favoino E",
+        "Perosa F",
+        "Brunori G",
+        "et al."
+      ],
+      "title": "Endothelial cells in tumor microenvironment: Insights and perspectives",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1367875",
+      "doi": "10.3389/fimmu.2024.1367875",
+      "pmid": "38426109",
+      "pmc_id": "PMC10902062"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Lanitis E",
+        "Irving M",
+        "Coukos G"
+      ],
+      "title": "Tumour-associated vasculature in T cell homing and immunity: Opportunities for cancer therapy",
+      "journal": "Nat Rev Immunol",
+      "year": "2025",
+      "volume": "25",
+      "doi": "10.1038/s41577-025-01187-w",
+      "pmid": "40579467"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Kozole SL",
+        "Beningo KA"
+      ],
+      "title": "Myosin light chains in the progression of cancer",
+      "journal": "Cells",
+      "year": "2024",
+      "volume": "13",
+      "elocation_id": "2081",
+      "doi": "10.3390/cells13242081",
+      "pmid": "39768172",
+      "pmc_id": "PMC11674124"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Chen SH",
+        "Zhang BY",
+        "Zhou B",
+        "Zhu CZ",
+        "Sun LQ",
+        "Feng YJ"
+      ],
+      "title": "Perineural invasion of cancer: A complex crosstalk between cells and molecules in the perineural niche",
+      "journal": "Am J Cancer Res",
+      "year": "2019",
+      "volume": "9",
+      "pmc_id": "PMC6356921",
+      "pmid": "30755808"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Liu YT",
+        "Sun ZJ"
+      ],
+      "title": "Turning cold tumors into hot tumors by improving T-cell infiltration",
+      "journal": "Theranostics",
+      "year": "2021",
+      "volume": "11",
+      "doi": "10.7150/thno.58390",
+      "pmid": "33859752",
+      "pmc_id": "PMC8039952"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "Mellman I",
+        "Chen DS",
+        "Powles T",
+        "Turley SJ"
+      ],
+      "title": "The cancer-immunity cycle: Indication, genotype, and immunotype",
+      "journal": "Immunity",
+      "year": "2023",
+      "volume": "56",
+      "doi": "10.1016/j.immuni.2023.09.011",
+      "pmid": "37820582"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Vermare A",
+        "Guérin MV",
+        "Peranzoni E",
+        "Bercovici N"
+      ],
+      "title": "Dynamic CD8+ T cell cooperation with macrophages and monocytes for successful cancer immunotherapy",
+      "journal": "Cancers",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "3546",
+      "doi": "10.3390/cancers14143546",
+      "pmid": "35884605",
+      "pmc_id": "PMC9318008"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "de Ruiter EJ",
+        "Ooft ML",
+        "Devriese LA",
+        "Willems SM"
+      ],
+      "title": "The prognostic role of tumor infiltrating T-lymphocytes in squamous cell carcinoma of the head and neck: A systematic review and meta-analysis",
+      "journal": "Oncoimmunology",
+      "year": "2017",
+      "volume": "6",
+      "elocation_id": "e1356148",
+      "doi": "10.1080/2162402x.2017.1356148",
+      "pmid": "29147608",
+      "pmc_id": "PMC5674970"
+    },
+    {
+      "ref_id": "B44",
+      "label": "44",
+      "authors": [
+        "Zhang L",
+        "Wang WQ",
+        "Chen JH",
+        "Feng J",
+        "Liao YZ",
+        "Zou Y",
+        "et al."
+      ],
+      "title": "Tumor-infiltrating immune cells and survival in head and neck squamous cell carcinoma: A retrospective computational study",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "elocation_id": "6390",
+      "doi": "10.1038/s41598-024-56738-3",
+      "pmid": "38493212",
+      "pmc_id": "PMC10944537"
+    },
+    {
+      "ref_id": "B45",
+      "label": "45",
+      "authors": [
+        "Contrera KJ",
+        "Spector ME",
+        "Pantanowitz L",
+        "Abukhiran IM",
+        "Vujanovic L",
+        "Whiteside TL",
+        "et al."
+      ],
+      "title": "CD8+ tumor-infiltrating lymphocytes in head and neck cancer: A review",
+      "journal": "JCO Precis Oncol",
+      "year": "2024",
+      "elocation_id": "e2400183",
+      "doi": "10.1200/PO.24.00183",
+      "pmid": "39565979",
+      "pmc_id": "PMC12319790"
     }
   ]
 }

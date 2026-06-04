@@ -16,7 +16,8 @@
     "pmc_id": "PMC13206948",
     "pmid": "42196165",
     "full_text_available": true,
-    "section_count": 23
+    "section_count": 23,
+    "reference_count": 53
   },
   "sections": [
     {
@@ -133,6 +134,1004 @@
       "section": "Conclusion",
       "text": "This study represents an exploratory analysis of peripheral blood transcriptomic alterations associated with chronic occupational noise exposure and sensorineural hearing loss. The signals observed were dominated by immune-related transcripts, including interferon-associated and host-defense-related genes, with more limited evidence of alterations in RNA-processing-related pathways. These findings suggest that occupational NIHL may be associated with detectable peripheral blood transcriptional changes; however, the results require validation in larger independent cohorts before biological or clinical utility can be established.",
       "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-ijms-27-04182",
+      "label": "1.",
+      "authors": [
+        "Themann C.L.",
+        "Masterson E.A."
+      ],
+      "title": "Occupational noise exposure: A review of its effects, epidemiology, and impact with recommendations for reducing its burden",
+      "journal": "J. Acoust. Soc. Am.",
+      "year": "2019",
+      "volume": "146",
+      "fpage": "3879",
+      "doi": "10.1121/1.5134465",
+      "pmid": "31795665"
+    },
+    {
+      "ref_id": "B2-ijms-27-04182",
+      "label": "2.",
+      "authors": [
+        "Seidman M.D.",
+        "Standring R.T."
+      ],
+      "title": "Noise and quality of life",
+      "journal": "Int. J. Environ. Res. Public Health",
+      "year": "2010",
+      "volume": "7",
+      "fpage": "3730",
+      "lpage": "3738",
+      "doi": "10.3390/ijerph7103730",
+      "pmid": "21139857",
+      "pmc_id": "PMC2996188"
+    },
+    {
+      "ref_id": "B3-ijms-27-04182",
+      "label": "3.",
+      "authors": [
+        "Masterson E.A.",
+        "Bushnell P.T.",
+        "Themann C.L.",
+        "Morata T.C."
+      ],
+      "title": "Hearing Impairment Among Noise-Exposed Workers—United States, 2003–2012",
+      "journal": "MMWR Morb. Mortal. Wkly. Rep.",
+      "year": "2016",
+      "volume": "65",
+      "fpage": "389",
+      "lpage": "394",
+      "doi": "10.15585/mmwr.mm6515a2",
+      "pmid": "27101435"
+    },
+    {
+      "ref_id": "B4-ijms-27-04182",
+      "label": "4.",
+      "authors": [
+        "Lie A.",
+        "Skogstad M.",
+        "Johannessen H.A.",
+        "Tynes T.",
+        "Mehlum I.S.",
+        "Nordby K.C.",
+        "Engdahl B.",
+        "Tambs K."
+      ],
+      "title": "Occupational noise exposure and hearing: A systematic review",
+      "journal": "Int. Arch. Occup. Environ. Health",
+      "year": "2016",
+      "volume": "89",
+      "fpage": "351",
+      "lpage": "372",
+      "doi": "10.1007/s00420-015-1083-5",
+      "pmid": "26249711",
+      "pmc_id": "PMC4786595"
+    },
+    {
+      "ref_id": "B5-ijms-27-04182",
+      "label": "5.",
+      "authors": [
+        "Henderson D.",
+        "Bielefeld E.C.",
+        "Harris K.C.",
+        "Hu B.H."
+      ],
+      "title": "The role of oxidative stress in noise-induced hearing loss",
+      "journal": "Ear Hear.",
+      "year": "2006",
+      "volume": "27",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.1097/01.aud.0000191942.36672.f3",
+      "pmid": "16446561"
+    },
+    {
+      "ref_id": "B6-ijms-27-04182",
+      "label": "6.",
+      "authors": [
+        "Fetoni A.R.",
+        "De Bartolo P.",
+        "Eramo S.L.",
+        "Rolesi R.",
+        "Paciello F.",
+        "Bergamini C.",
+        "Fato R.",
+        "Paludetti G.",
+        "Petrosini L.",
+        "Troiani D."
+      ],
+      "title": "Noise-induced hearing loss (NIHL) as a target of oxidative stress-mediated damage: Cochlear and cortical responses after an increase in antioxidant defense",
+      "journal": "J. Neurosci.",
+      "year": "2013",
+      "volume": "33",
+      "fpage": "4011",
+      "lpage": "4023",
+      "doi": "10.1523/JNEUROSCI.2282-12.2013",
+      "pmid": "23447610",
+      "pmc_id": "PMC6619303"
+    },
+    {
+      "ref_id": "B7-ijms-27-04182",
+      "label": "7.",
+      "authors": [
+        "Kujawa S.G.",
+        "Liberman M.C."
+      ],
+      "title": "Adding insult to injury: Cochlear nerve degeneration after “temporary” noise-induced hearing loss",
+      "journal": "J. Neurosci.",
+      "year": "2009",
+      "volume": "29",
+      "fpage": "14077",
+      "lpage": "14085",
+      "doi": "10.1523/JNEUROSCI.2845-09.2009",
+      "pmid": "19906956",
+      "pmc_id": "PMC2812055"
+    },
+    {
+      "ref_id": "B8-ijms-27-04182",
+      "label": "8.",
+      "authors": [
+        "Fujioka M.",
+        "Kanzaki S.",
+        "Okano H.J.",
+        "Masuda M.",
+        "Ogawa K.",
+        "Okano H."
+      ],
+      "title": "Proinflammatory cytokines expression in noise-induced damaged cochlea",
+      "journal": "J. Neurosci. Res.",
+      "year": "2006",
+      "volume": "83",
+      "fpage": "575",
+      "lpage": "583",
+      "doi": "10.1002/jnr.20764",
+      "pmid": "16429448"
+    },
+    {
+      "ref_id": "B9-ijms-27-04182",
+      "label": "9.",
+      "authors": [
+        "Le Prell C.G.",
+        "Spankovich C.",
+        "Lobarinas E.",
+        "Griffiths S.K."
+      ],
+      "title": "Extended high-frequency thresholds in college students: Effects of music player use and other recreational noise",
+      "journal": "J. Am. Acad. Audiol.",
+      "year": "2013",
+      "volume": "24",
+      "fpage": "725",
+      "lpage": "739",
+      "doi": "10.3766/jaaa.24.8.9",
+      "pmid": "24131608",
+      "pmc_id": "PMC4111237"
+    },
+    {
+      "ref_id": "B10-ijms-27-04182",
+      "label": "10.",
+      "authors": [
+        "Wang Q.",
+        "Shen Y.",
+        "Hu H.",
+        "Fan C.",
+        "Zhang A.",
+        "Ding R.",
+        "Ye B.",
+        "Xiang M."
+      ],
+      "title": "Systematic Transcriptome Analysis of Noise-Induced Hearing Loss Pathogenesis Suggests Inflammatory Activities and Multiple Susceptible Molecules and Pathways",
+      "journal": "Front. Genet.",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "968",
+      "doi": "10.3389/fgene.2020.00968",
+      "pmid": "33005175",
+      "pmc_id": "PMC7483666"
+    },
+    {
+      "ref_id": "B11-ijms-27-04182",
+      "label": "11.",
+      "authors": [
+        "Cao R.",
+        "Takechi M.",
+        "Wang X.",
+        "Furutera T.",
+        "Nojiri T.",
+        "Koyabu D.",
+        "Li J."
+      ],
+      "title": "Temporal and regulatory dynamics of the inner ear transcriptome during development in mice",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "21196",
+      "doi": "10.1038/s41598-022-25808-9",
+      "pmid": "36476755",
+      "pmc_id": "PMC9729293"
+    },
+    {
+      "ref_id": "B12-ijms-27-04182",
+      "label": "12.",
+      "authors": [
+        "Liew C.C.",
+        "Ma J.",
+        "Tang H.C.",
+        "Zheng R.",
+        "Dempsey A.A."
+      ],
+      "title": "The peripheral blood transcriptome dynamically reflects system wide biology: A potential diagnostic tool",
+      "journal": "J. Lab. Clin. Med.",
+      "year": "2006",
+      "volume": "147",
+      "fpage": "126",
+      "lpage": "132",
+      "doi": "10.1016/j.lab.2005.10.005",
+      "pmid": "16503242"
+    },
+    {
+      "ref_id": "B13-ijms-27-04182",
+      "label": "13.",
+      "authors": [
+        "Rai V.",
+        "Wood M.B.",
+        "Feng H.",
+        "Schabla N.M.",
+        "Tu S.",
+        "Zuo J."
+      ],
+      "title": "The immune response after noise damage in the cochlea is characterized by a heterogeneous mix of adaptive and innate immune cells",
+      "journal": "Sci. Rep.",
+      "year": "2020",
+      "volume": "10",
+      "fpage": "15167",
+      "doi": "10.1038/s41598-020-72181-6",
+      "pmid": "32938973",
+      "pmc_id": "PMC7495466"
+    },
+    {
+      "ref_id": "B14-ijms-27-04182",
+      "label": "14.",
+      "authors": [
+        "Yang S.",
+        "Cai Q.",
+        "Bard J.",
+        "Jamison J.",
+        "Wang J.",
+        "Yang W.",
+        "Hu B.H."
+      ],
+      "title": "Variation analysis of transcriptome changes reveals cochlear genes and their associated functions in cochlear susceptibility to acoustic overstimulation",
+      "journal": "Hear. Res.",
+      "year": "2015",
+      "volume": "330",
+      "fpage": "78",
+      "lpage": "89",
+      "doi": "10.1016/j.heares.2015.04.010",
+      "pmid": "26024952",
+      "pmc_id": "PMC4662632"
+    },
+    {
+      "ref_id": "B15-ijms-27-04182",
+      "label": "15.",
+      "authors": [
+        "Wang D.",
+        "Li C.",
+        "Shi L.",
+        "Lin D.",
+        "Weng S.",
+        "Yang X.",
+        "Li P.",
+        "Zhang Z.",
+        "Zhang W.",
+        "Guo Y.",
+        "et al."
+      ],
+      "title": "Exploring biomarkers for noise-induced hearing loss through mitochondrial DNA methylation analysis",
+      "journal": "Front. Pharmacol.",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1561791",
+      "doi": "10.3389/fphar.2025.1561791",
+      "pmid": "40689209",
+      "pmc_id": "PMC12271232"
+    },
+    {
+      "ref_id": "B16-ijms-27-04182",
+      "label": "16.",
+      "authors": [
+        "Lobarinas E.",
+        "Spankovich C.",
+        "Le Prell C.G."
+      ],
+      "title": "Evidence of “hidden hearing loss” following noise exposures that produce robust TTS and ABR wave-I amplitude reductions",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "155",
+      "lpage": "163",
+      "doi": "10.1016/j.heares.2016.12.009",
+      "pmid": "28003148"
+    },
+    {
+      "ref_id": "B17-ijms-27-04182",
+      "label": "17.",
+      "authors": [
+        "Schoggins J.W.",
+        "Rice C.M."
+      ],
+      "title": "Interferon-stimulated genes and their antiviral effector functions",
+      "journal": "Curr. Opin. Virol.",
+      "year": "2011",
+      "volume": "1",
+      "fpage": "519",
+      "lpage": "525",
+      "doi": "10.1016/j.coviro.2011.10.008",
+      "pmid": "22328912",
+      "pmc_id": "PMC3274382"
+    },
+    {
+      "ref_id": "B18-ijms-27-04182",
+      "label": "18.",
+      "authors": [
+        "Demers-Mathieu V."
+      ],
+      "title": "Optimal Selection of IFN-alpha-Inducible Genes to Determine Type I Interferon Signature Improves the Diagnosis of Systemic Lupus Erythematosus",
+      "journal": "Biomedicines",
+      "year": "2023",
+      "volume": "11",
+      "elocation_id": "864",
+      "doi": "10.3390/biomedicines11030864",
+      "pmid": "36979843",
+      "pmc_id": "PMC10045398"
+    },
+    {
+      "ref_id": "B19-ijms-27-04182",
+      "label": "19.",
+      "authors": [
+        "Othman A.",
+        "Sekheri M.",
+        "Filep J.G."
+      ],
+      "title": "Roles of neutrophil granule proteins in orchestrating inflammation and immunity",
+      "journal": "FEBS J.",
+      "year": "2022",
+      "volume": "289",
+      "fpage": "3932",
+      "lpage": "3953",
+      "doi": "10.1111/febs.15803",
+      "pmid": "33683814",
+      "pmc_id": "PMC9546106"
+    },
+    {
+      "ref_id": "B20-ijms-27-04182",
+      "label": "20.",
+      "authors": [
+        "Herdendorf T.J.",
+        "Mishra N.",
+        "Fatehi S.",
+        "Gido C.D.",
+        "Prakash O.",
+        "Geisbrecht B.V."
+      ],
+      "title": "New advances in understanding inhibition of myeloperoxidase and neutrophil serine proteases by two families of staphylococcal innate immune evasion proteins",
+      "journal": "Arch. Biochem. Biophys.",
+      "year": "2024",
+      "volume": "761",
+      "fpage": "110177",
+      "doi": "10.1016/j.abb.2024.110177",
+      "pmid": "39393662",
+      "pmc_id": "PMC11560548"
+    },
+    {
+      "ref_id": "B21-ijms-27-04182",
+      "label": "21.",
+      "authors": [
+        "Lin W.",
+        "Chen H.",
+        "Chen X.",
+        "Guo C."
+      ],
+      "title": "The Roles of Neutrophil-Derived Myeloperoxidase (MPO) in Diseases: The New Progress",
+      "journal": "Antioxidants",
+      "year": "2024",
+      "volume": "13",
+      "elocation_id": "132",
+      "doi": "10.3390/antiox13010132",
+      "pmid": "38275657",
+      "pmc_id": "PMC10812636"
+    },
+    {
+      "ref_id": "B22-ijms-27-04182",
+      "label": "22.",
+      "authors": [
+        "Ishina I.A.",
+        "Zakharova M.Y.",
+        "Kurbatskaia I.N.",
+        "Mamedov A.E.",
+        "Belogurov A.A.",
+        "Gabibov A.G."
+      ],
+      "title": "MHC Class II Presentation in Autoimmunity",
+      "journal": "Cells",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "314",
+      "doi": "10.3390/cells12020314",
+      "pmid": "36672249",
+      "pmc_id": "PMC9856717"
+    },
+    {
+      "ref_id": "B23-ijms-27-04182",
+      "label": "23.",
+      "authors": [
+        "Cruz-Tapias P.",
+        "Castiblanco J.",
+        "Anaya J.M."
+      ],
+      "title": "Major histocompatibility complex: Antigen processing and presentation",
+      "journal": "Autoimmunity from Bench to Bedside",
+      "year": "2013",
+      "fpage": "169",
+      "pmid": "29087650"
+    },
+    {
+      "ref_id": "B24-ijms-27-04182",
+      "label": "24.",
+      "authors": [
+        "Abualrous E.T.",
+        "Sticht J.",
+        "Freund C."
+      ],
+      "title": "Major histocompatibility complex (MHC) class I and class II proteins: Impact of polymorphism on antigen presentation",
+      "journal": "Curr. Opin. Immunol.",
+      "year": "2021",
+      "volume": "70",
+      "fpage": "95",
+      "lpage": "104",
+      "doi": "10.1016/j.coi.2021.04.009",
+      "pmid": "34052735"
+    },
+    {
+      "ref_id": "B25-ijms-27-04182",
+      "label": "25.",
+      "authors": [
+        "Nguyen L.P.",
+        "Pan J.",
+        "Dinh T.T.",
+        "Hadeiba H.",
+        "O’Hara E.",
+        "Ebtikar A.",
+        "Hertweck A.",
+        "Gokmen M.R.",
+        "Lord G.M.",
+        "Jenner R.G.",
+        "et al."
+      ],
+      "title": "Role and species-specific expression of colon T cell homing receptor GPR15 in colitis",
+      "journal": "Nat. Immunol.",
+      "year": "2015",
+      "volume": "16",
+      "fpage": "207",
+      "lpage": "213",
+      "doi": "10.1038/ni.3079",
+      "pmid": "25531831",
+      "pmc_id": "PMC4338558"
+    },
+    {
+      "ref_id": "B26-ijms-27-04182",
+      "label": "26.",
+      "authors": [
+        "Okamoto Y.",
+        "Shikano S."
+      ],
+      "title": "Emerging roles of a chemoattractant receptor GPR15 and ligands in pathophysiology",
+      "journal": "Front. Immunol.",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1179456",
+      "doi": "10.3389/fimmu.2023.1179456",
+      "pmid": "37457732",
+      "pmc_id": "PMC10348422"
+    },
+    {
+      "ref_id": "B27-ijms-27-04182",
+      "label": "27.",
+      "authors": [
+        "Watkins N.J.",
+        "Bohnsack M.T."
+      ],
+      "title": "The box C/D and H/ACA snoRNPs: Key players in the modification, processing and the dynamic folding of ribosomal RNA",
+      "journal": "Wiley Interdiscip. Rev. RNA",
+      "year": "2012",
+      "volume": "3",
+      "fpage": "397",
+      "lpage": "414",
+      "doi": "10.1002/wrna.117",
+      "pmid": "22065625"
+    },
+    {
+      "ref_id": "B28-ijms-27-04182",
+      "label": "28.",
+      "authors": [
+        "Bratkovic T.",
+        "Bozic J.",
+        "Rogelj B."
+      ],
+      "title": "Functional diversity of small nucleolar RNAs",
+      "journal": "Nucleic Acids Res.",
+      "year": "2020",
+      "volume": "48",
+      "fpage": "1627",
+      "lpage": "1651",
+      "doi": "10.1093/nar/gkz1140",
+      "pmid": "31828325",
+      "pmc_id": "PMC7038934"
+    },
+    {
+      "ref_id": "B29-ijms-27-04182",
+      "label": "29.",
+      "authors": [
+        "Krogh N.",
+        "Jansson M.D.",
+        "Hafner S.J.",
+        "Tehler D.",
+        "Birkedal U.",
+        "Christensen-Dalsgaard M.",
+        "Lund A.H.",
+        "Nielsen H."
+      ],
+      "title": "Profiling of 2′-O-Me in human rRNA reveals a subset of fractionally modified positions and provides evidence for ribosome heterogeneity",
+      "journal": "Nucleic Acids Res.",
+      "year": "2016",
+      "volume": "44",
+      "fpage": "7884",
+      "lpage": "7895",
+      "doi": "10.1093/nar/gkw482",
+      "pmid": "27257078",
+      "pmc_id": "PMC5027482"
+    },
+    {
+      "ref_id": "B30-ijms-27-04182",
+      "label": "30.",
+      "authors": [
+        "Dieci G.",
+        "Preti M.",
+        "Montanini B."
+      ],
+      "title": "Eukaryotic snoRNAs: A paradigm for gene expression flexibility",
+      "journal": "Genomics",
+      "year": "2009",
+      "volume": "94",
+      "fpage": "83",
+      "lpage": "88",
+      "doi": "10.1016/j.ygeno.2009.05.002",
+      "pmid": "19446021"
+    },
+    {
+      "ref_id": "B31-ijms-27-04182",
+      "label": "31.",
+      "authors": [
+        "Fujioka M.",
+        "Okano H.",
+        "Ogawa K."
+      ],
+      "title": "Inflammatory and immune responses in the cochlea: Potential therapeutic targets for sensorineural hearing loss",
+      "journal": "Front. Pharmacol.",
+      "year": "2014",
+      "volume": "5",
+      "elocation_id": "287",
+      "doi": "10.3389/fphar.2014.00287",
+      "pmid": "25566079",
+      "pmc_id": "PMC4274906"
+    },
+    {
+      "ref_id": "B32-ijms-27-04182",
+      "label": "32.",
+      "authors": [
+        "Berndt H.",
+        "Harnisch C.",
+        "Rammelt C.",
+        "Stohr N.",
+        "Zirkel A.",
+        "Dohm J.C.",
+        "Himmelbauer H.",
+        "Tavanez J.P.",
+        "Huttelmaier S.",
+        "Wahle E."
+      ],
+      "title": "Maturation of mammalian H/ACA box snoRNAs: PAPD5-dependent adenylation and PARN-dependent trimming",
+      "journal": "RNA",
+      "year": "2012",
+      "volume": "18",
+      "fpage": "958",
+      "lpage": "972",
+      "doi": "10.1261/rna.032292.112",
+      "pmid": "22442037",
+      "pmc_id": "PMC3334704"
+    },
+    {
+      "ref_id": "B33-ijms-27-04182",
+      "label": "33.",
+      "authors": [
+        "Patel M.",
+        "Hu Z.",
+        "Bard J.",
+        "Jamison J.",
+        "Cai Q.",
+        "Hu B.H."
+      ],
+      "title": "Transcriptome characterization by RNA-Seq reveals the involvement of the complement components in noise-traumatized rat cochleae",
+      "journal": "Neuroscience",
+      "year": "2013",
+      "volume": "248",
+      "fpage": "1",
+      "lpage": "16",
+      "doi": "10.1016/j.neuroscience.2013.05.038",
+      "pmid": "23727008",
+      "pmc_id": "PMC3868636"
+    },
+    {
+      "ref_id": "B34-ijms-27-04182",
+      "label": "34.",
+      "authors": [
+        "Jongkamonwiwat N.",
+        "Ramirez M.A.",
+        "Edassery S.",
+        "Wong A.C.Y.",
+        "Yu J.",
+        "Abbott T.",
+        "Pak K.",
+        "Ryan A.F.",
+        "Savas J.N."
+      ],
+      "title": "Noise Exposures Causing Hearing Loss Generate Proteotoxic Stress and Activate the Proteostasis Network",
+      "journal": "Cell Rep.",
+      "year": "2020",
+      "volume": "33",
+      "fpage": "108431",
+      "doi": "10.1016/j.celrep.2020.108431",
+      "pmid": "33238128",
+      "pmc_id": "PMC7722268"
+    },
+    {
+      "ref_id": "B35-ijms-27-04182",
+      "label": "35.",
+      "authors": [
+        "Sutton G.J.",
+        "Poppe D.",
+        "Simmons R.K.",
+        "Walsh K.",
+        "Nawaz U.",
+        "Lister R.",
+        "Gagnon-Bartsch J.A.",
+        "Voineagu I."
+      ],
+      "title": "Comprehensive evaluation of deconvolution methods for human brain gene expression",
+      "journal": "Nat. Commun.",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "1358",
+      "doi": "10.1038/s41467-022-28655-4",
+      "pmid": "35292647",
+      "pmc_id": "PMC8924248"
+    },
+    {
+      "ref_id": "B36-ijms-27-04182",
+      "label": "36.",
+      "authors": [
+        "Akthar M.",
+        "Nair N.",
+        "Carter L.M.",
+        "Vital E.M.",
+        "Sutton E.",
+        "McHugh N.",
+        "Bruce I.N.",
+        "Reynolds J.A."
+      ],
+      "title": "Deconvolution of whole blood transcriptomics identifies changes in immune cell composition in patients with systemic lupus erythematosus (SLE) treated with mycophenolate mofetil",
+      "journal": "Arthritis Res. Ther.",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "111",
+      "doi": "10.1186/s13075-023-03089-5",
+      "pmid": "37391799",
+      "pmc_id": "PMC10311871"
+    },
+    {
+      "ref_id": "B37-ijms-27-04182",
+      "label": "37.",
+      "authors": [
+        "Boltz T.",
+        "Schwarz T.",
+        "Bot M.",
+        "Hou K.",
+        "Caggiano C.",
+        "Lapinska S.",
+        "Duan C.",
+        "Boks M.P.",
+        "Kahn R.S.",
+        "Zaitlen N.",
+        "et al."
+      ],
+      "title": "Cell-type deconvolution of bulk-blood RNA-seq reveals biological insights into neuropsychiatric disorders",
+      "journal": "Am. J. Hum. Genet.",
+      "year": "2024",
+      "volume": "111",
+      "fpage": "323",
+      "lpage": "337",
+      "doi": "10.1016/j.ajhg.2023.12.018",
+      "pmid": "38306997",
+      "pmc_id": "PMC10870131"
+    },
+    {
+      "ref_id": "B38-ijms-27-04182",
+      "label": "38.",
+      "authors": [
+        "Newman A.M.",
+        "Steen C.B.",
+        "Liu C.L.",
+        "Gentles A.J.",
+        "Chaudhuri A.A.",
+        "Scherer F.",
+        "Khodadoust M.S.",
+        "Esfahani M.S.",
+        "Luca B.A.",
+        "Steiner D.",
+        "et al."
+      ],
+      "title": "Determining cell type abundance and expression from bulk tissues with digital cytometry",
+      "journal": "Nat. Biotechnol.",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "773",
+      "lpage": "782",
+      "doi": "10.1038/s41587-019-0114-2",
+      "pmid": "31061481",
+      "pmc_id": "PMC6610714"
+    },
+    {
+      "ref_id": "B39-ijms-27-04182",
+      "label": "39.",
+      "authors": [
+        "Vorn R.",
+        "Edwards K.A.",
+        "Hentig J.",
+        "Yun S.",
+        "Kim H.S.",
+        "Lai C.",
+        "Devoto C.",
+        "Yarnell A.M.",
+        "Polejaeva E.",
+        "Dell K.C.",
+        "et al."
+      ],
+      "title": "A Pilot Study of Whole-Blood Transcriptomic Analysis to Identify Genes Associated with Repetitive Low-Level Blast Exposure in Career Breachers",
+      "journal": "Biomedicines",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "690",
+      "doi": "10.3390/biomedicines10030690",
+      "pmid": "35327492",
+      "pmc_id": "PMC8945695"
+    },
+    {
+      "ref_id": "B40-ijms-27-04182",
+      "label": "40.",
+      "title": "Biomarkers and surrogate endpoints: Preferred definitions and conceptual framework",
+      "journal": "Clin. Pharmacol. Ther.",
+      "year": "2001",
+      "volume": "69",
+      "fpage": "89",
+      "lpage": "95",
+      "doi": "10.1067/mcp.2001.113989",
+      "pmid": "11240971"
+    },
+    {
+      "ref_id": "B41-ijms-27-04182",
+      "label": "41.",
+      "authors": [
+        "Pepe M.S.",
+        "Etzioni R.",
+        "Feng Z.",
+        "Potter J.D.",
+        "Thompson M.L.",
+        "Thornquist M.",
+        "Winget M.",
+        "Yasui Y."
+      ],
+      "title": "Phases of biomarker development for early detection of cancer",
+      "journal": "J. Natl. Cancer Inst.",
+      "year": "2001",
+      "volume": "93",
+      "fpage": "1054",
+      "lpage": "1061",
+      "doi": "10.1093/jnci/93.14.1054",
+      "pmid": "11459866"
+    },
+    {
+      "ref_id": "B42-ijms-27-04182",
+      "label": "42.",
+      "authors": [
+        "Teutsch S.M.",
+        "Bradley L.A.",
+        "Palomaki G.E.",
+        "Haddow J.E.",
+        "Piper M.",
+        "Calonge N.",
+        "Dotson W.D.",
+        "Douglas M.P.",
+        "Berg A.O."
+      ],
+      "title": "The Evaluation of Genomic Applications in Practice and Prevention (EGAPP) Initiative: Methods of the EGAPP Working Group",
+      "journal": "Genet. Med.",
+      "year": "2009",
+      "volume": "11",
+      "fpage": "3",
+      "lpage": "14",
+      "doi": "10.1097/GIM.0b013e318184137c",
+      "pmid": "18813139",
+      "pmc_id": "PMC2743609"
+    },
+    {
+      "ref_id": "B43-ijms-27-04182",
+      "label": "43.",
+      "authors": [
+        "Simon R.M.",
+        "Paik S.",
+        "Hayes D.F."
+      ],
+      "title": "Use of archived specimens in evaluation of prognostic and predictive biomarkers",
+      "journal": "J. Natl. Cancer Inst.",
+      "year": "2009",
+      "volume": "101",
+      "fpage": "1446",
+      "lpage": "1452",
+      "doi": "10.1093/jnci/djp335",
+      "pmid": "19815849",
+      "pmc_id": "PMC2782246"
+    },
+    {
+      "ref_id": "B44-ijms-27-04182",
+      "label": "44.",
+      "authors": [
+        "Bossuyt P.M.",
+        "Reitsma J.B.",
+        "Bruns D.E.",
+        "Gatsonis C.A.",
+        "Glasziou P.P.",
+        "Irwig L.",
+        "Lijmer J.G.",
+        "Moher D.",
+        "Rennie D.",
+        "de Vet H.C.",
+        "et al."
+      ],
+      "title": "STARD 2015: An updated list of essential items for reporting diagnostic accuracy studies",
+      "journal": "BMJ",
+      "year": "2015",
+      "volume": "351",
+      "fpage": "h5527",
+      "doi": "10.1136/bmj.h5527",
+      "pmid": "26511519",
+      "pmc_id": "PMC4623764"
+    },
+    {
+      "ref_id": "B45-ijms-27-04182",
+      "label": "45.",
+      "authors": [
+        "Sweeney T.E.",
+        "Wong H.R.",
+        "Khatri P."
+      ],
+      "title": "Robust classification of bacterial and viral infections via integrated host gene expression diagnostics",
+      "journal": "Sci. Transl. Med.",
+      "year": "2016",
+      "volume": "8",
+      "fpage": "346ra391",
+      "doi": "10.1126/scitranslmed.aaf7165",
+      "pmid": "27384347",
+      "pmc_id": "PMC5348917"
+    },
+    {
+      "ref_id": "B46-ijms-27-04182",
+      "label": "46.",
+      "authors": [
+        "Wei M.",
+        "Wang L.",
+        "Su X.",
+        "Zhao B.",
+        "You Z."
+      ],
+      "title": "Multi-hop graph structural modeling for cancer-related circRNA-miRNA interaction prediction",
+      "journal": "Pattern Recognit.",
+      "year": "2026",
+      "volume": "170",
+      "fpage": "112078",
+      "doi": "10.1016/j.patcog.2025.112078"
+    },
+    {
+      "ref_id": "B47-ijms-27-04182",
+      "label": "47.",
+      "authors": [
+        "Wang X.",
+        "Wang C.",
+        "Ji B.",
+        "Wang J.",
+        "Zheng M.",
+        "Song L.",
+        "Peng S.",
+        "Shang X."
+      ],
+      "title": "Multimodal pre-training models of molecular representation for drug discovery",
+      "journal": "Natl. Sci. Rev.",
+      "year": "2026",
+      "volume": "13",
+      "fpage": "nwaf495",
+      "doi": "10.1093/nsr/nwaf495",
+      "pmid": "41536313",
+      "pmc_id": "PMC12798728"
+    },
+    {
+      "ref_id": "B48-ijms-27-04182",
+      "label": "48.",
+      "authors": [
+        "Cui Y.",
+        "Peng C.",
+        "Xia Z.",
+        "Yang C.",
+        "Guo Y."
+      ],
+      "title": "A survey of sequence-to-graph mapping algorithms in the pangenome era",
+      "journal": "Genome Biol.",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "138",
+      "doi": "10.1186/s13059-025-03606-6",
+      "pmid": "40405275",
+      "pmc_id": "PMC12096488"
+    },
+    {
+      "ref_id": "B49-ijms-27-04182",
+      "label": "49.",
+      "authors": [
+        "Wei M.M.",
+        "Wang L.",
+        "Zhao B.W.",
+        "Su X.R.",
+        "You Z.H.",
+        "Huang D.S."
+      ],
+      "title": "Integrating Transformer and Graph Attention Network for circRNA-miRNA Interaction Prediction",
+      "journal": "IEEE J. Biomed. Health Inform.",
+      "year": "2025",
+      "volume": "29",
+      "fpage": "6105",
+      "lpage": "6113",
+      "doi": "10.1109/JBHI.2025.3561197",
+      "pmid": "40232907"
+    },
+    {
+      "ref_id": "B50-ijms-27-04182",
+      "label": "50.",
+      "title": "GeneCards: The Human Gene"
+    },
+    {
+      "ref_id": "B51-ijms-27-04182",
+      "label": "51.",
+      "title": "KEGG Pathway"
+    },
+    {
+      "ref_id": "B52-ijms-27-04182",
+      "label": "52.",
+      "title": "Reactome Pathway"
+    },
+    {
+      "ref_id": "B53-ijms-27-04182",
+      "label": "53.",
+      "title": "NCBI Gene"
     }
   ]
 }

@@ -12,7 +12,8 @@
     "pmc_id": "PMC13152053",
     "pmid": "41708055",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 47
   },
   "sections": [
     {
@@ -74,6 +75,735 @@
       "section": "Conclusion",
       "text": "HNC rehabilitation is widely acknowledged as essential to patient care, but heterogeneity in terminology, guidelines, variation in service provision, and persistent implementation barriers limit its effectiveness [ 12 , 17 ]. Harmonization of protocols, expansion of evidence-based interventions, and detailed guidance for AHPs across functional disciplines are urgently needed. AI can advance collaboration and reduce variation in clinical practice. AI applications in rehabilitation show the highest TRL in patient education, counseling, telehealth communication, and real-time monitoring for dietetics, physiotherapy, and speech therapy, while lower readiness technologies focus on multidisciplinary decision support, personalized exercise plans, mental health detection, and automated speech disorder assessment. In multidisciplinary collaborations, the assistance of LLMs is well evaluated in fictional cases, but the future lies in reducing labor-intensive work and integrating assistive technologies between multiple AHPs in real-world clinical settings [ 23 ▪▪ ]. We therefore recommend investing in multidisciplinary collaboration to accelerate AI development and implementation, ultimately improving the full trajectory of HNC care: from diagnosis to treatment and rehabilitation.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Gormley M",
+        "Creaney G",
+        "Schache A",
+        "et al."
+      ],
+      "title": "Reviewing the epidemiology of head and neck cancer: definitions, trends and risk factors",
+      "journal": "Br Dent J",
+      "year": "2022",
+      "volume": "233",
+      "fpage": "780",
+      "lpage": "786",
+      "pmid": "36369568",
+      "doi": "10.1038/s41415-022-5166-x",
+      "pmc_id": "PMC9652141"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Giraldi L",
+        "Leoncini E",
+        "Pastorino R",
+        "et al."
+      ],
+      "title": "Alcohol and cigarette consumption predict mortality in patients with head and neck cancer: a pooled analysis within the International Head and Neck Cancer Epidemiology (INHANCE) Consortium",
+      "journal": "Ann Oncol",
+      "year": "2017",
+      "volume": "28",
+      "fpage": "2843",
+      "lpage": "2851",
+      "pmid": "28945835",
+      "doi": "10.1093/annonc/mdx486",
+      "pmc_id": "PMC5834132"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Gooi Z",
+        "Chan JYK",
+        "Fakhry C"
+      ],
+      "title": "The epidemiology of the human papillomavirus related to oropharyngeal head and neck cancer",
+      "journal": "Laryngoscope",
+      "year": "2016",
+      "volume": "126",
+      "fpage": "894",
+      "lpage": "900",
+      "pmid": "26845348",
+      "doi": "10.1002/lary.25767"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Cramer JD",
+        "Burtness B",
+        "Le QT",
+        "Ferris RL"
+      ],
+      "title": "The changing therapeutic landscape of head and neck cancer",
+      "journal": "Nat Rev Clin Oncol",
+      "year": "2019",
+      "volume": "16",
+      "fpage": "669",
+      "lpage": "683",
+      "pmid": "31189965",
+      "doi": "10.1038/s41571-019-0227-z"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Brady G",
+        "Stephen S",
+        "Starmer H"
+      ],
+      "title": "Functional and survivorship considerations after treatment of primary and recurrent head and neck cancer",
+      "journal": "Otolaryngol Clin North Am",
+      "year": "2026",
+      "volume": "59",
+      "fpage": "259",
+      "lpage": "270",
+      "pmid": "40962597",
+      "doi": "10.1016/j.otc.2025.08.013"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Kar ARAM",
+        "Bhaumik U",
+        "Rao VUS"
+      ],
+      "title": "Psychological issues in head and neck cancer survivors: need for addressal in rehabilitation",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "110",
+      "fpage": "104859",
+      "pmid": "32564916",
+      "doi": "10.1016/j.oraloncology.2020.104859"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Tschiesner U",
+        "Linseisen E",
+        "Baumann S",
+        "et al."
+      ],
+      "title": "Assessment of functioning in patients with head and neck cancer according to the International Classification of Functioning, Disability, and Health (ICF): a multicenter study",
+      "journal": "Laryngoscope",
+      "year": "2009",
+      "volume": "119",
+      "fpage": "915",
+      "lpage": "923",
+      "pmid": "19358200",
+      "doi": "10.1002/lary.20211"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Tschiesner U"
+      ],
+      "title": "Beurteilung von Funktionsfähigkeit bei Patienten mit Kopf-Hals-Tumoren, auf Basis der Internationalen Klassifikation für Funktionsfähigkeit, Behinderung und Gesundheit (ICF)",
+      "journal": "Laryngo-Rhino-Otol George",
+      "year": "2011",
+      "volume": "90",
+      "fpage": "527",
+      "lpage": "534",
+      "doi": "10.1055/s-0031-1284414",
+      "pmid": "21913149"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Cheng JT",
+        "Emos MR",
+        "Leite V",
+        "et al."
+      ],
+      "title": "Rehabilitation interventions in head and neck cancer: a scoping review",
+      "journal": "Am J Phys Med Rehabil",
+      "year": "2024",
+      "volume": "103",
+      "fpage": "S62",
+      "lpage": "71",
+      "pmid": "38364033",
+      "doi": "10.1097/PHM.0000000000002384"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Eades M",
+        "Murphy J",
+        "Carney S",
+        "et al."
+      ],
+      "title": "Effect of an interdisciplinary rehabilitation program on quality of life in patients with head and neck cancer: review of clinical experience",
+      "journal": "Head Neck",
+      "year": "2013",
+      "volume": "35",
+      "fpage": "343",
+      "lpage": "349",
+      "pmid": "22422558",
+      "doi": "10.1002/hed.22972"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Passchier E",
+        "Stuiver MM",
+        "van der Molen L",
+        "et al."
+      ],
+      "title": "Feasibility and impact of a dedicated multidisciplinary rehabilitation program on health-related quality of life in advanced head and neck cancer patients",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2016",
+      "volume": "273",
+      "fpage": "1577",
+      "lpage": "1587",
+      "pmid": "26024692",
+      "doi": "10.1007/s00405-015-3648-z"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Parke SC",
+        "Langelier DM",
+        "Cheng JT",
+        "et al."
+      ],
+      "title": "State of rehabilitation research in the head and neck cancer population: functional impact vs. impairment-focused outcomes",
+      "journal": "Curr Oncol Rep",
+      "year": "2022",
+      "volume": "24",
+      "fpage": "517",
+      "lpage": "532",
+      "pmid": "35182293",
+      "doi": "10.1007/s11912-022-01227-x"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13▪▪",
+      "authors": [
+        "Hulsen T",
+        "Scheper M"
+      ],
+      "title": "AI in healthcare: do not forget about allied healthcare",
+      "journal": "AI Multidiscipl",
+      "year": "2025",
+      "volume": "6",
+      "fpage": "114"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Baker K",
+        "Roe J",
+        "Brady G",
+        "Cruickshank S"
+      ],
+      "title": "Prehabilitation and rehabilitation guidelines for allied healthcare professionals working in head and neck cancer: a narrative review",
+      "journal": "Disabil Rehabil",
+      "year": "2025",
+      "volume": "Advance online publication",
+      "fpage": "1",
+      "lpage": "16",
+      "doi": "10.1080/09638288.2025.2587005",
+      "pmid": "41268643"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Rodriguez AM",
+        "Komar A",
+        "Ringash J",
+        "et al."
+      ],
+      "title": "A scoping review of rehabilitation interventions for survivors of head and neck cancer",
+      "journal": "Disabil Rehabil",
+      "year": "2019",
+      "volume": "41",
+      "fpage": "2093",
+      "lpage": "2107",
+      "pmid": "29976091",
+      "doi": "10.1080/09638288.2018.1459880"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Ringash J",
+        "Bernstein LJ",
+        "Devins G",
+        "et al."
+      ],
+      "title": "Head and neck cancer survivorship: learning the needs, meeting the needs",
+      "journal": "Semin Radiat Oncol",
+      "year": "2018",
+      "volume": "28",
+      "fpage": "64",
+      "lpage": "74",
+      "pmid": "29173757",
+      "doi": "10.1016/j.semradonc.2017.08.008"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Verdonck-de Leeuw I",
+        "Dawson C",
+        "Licitra L",
+        "et al."
+      ],
+      "title": "European Head and Neck Society recommendations for head and neck cancer survivorship care",
+      "journal": "Oral Oncol",
+      "year": "2022",
+      "volume": "133",
+      "fpage": "106047",
+      "pmid": "35932637",
+      "doi": "10.1016/j.oraloncology.2022.106047"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Jansen F",
+        "Eerenstein SE",
+        "Arman S",
+        "et al."
+      ],
+      "title": "Return to work up to 5 years after the end of treatment among patients with head and neck cancer",
+      "journal": "JAMA Otolaryngol Neck Surg",
+      "year": "2025",
+      "volume": "151",
+      "fpage": "297",
+      "lpage": "310",
+      "doi": "10.1001/jamaoto.2024.4991",
+      "pmc_id": "PMC11803513",
+      "pmid": "39913126"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Passchier E",
+        "Beck A-JCC",
+        "Stuiver MM",
+        "et al."
+      ],
+      "title": "Organization of head and neck cancer rehabilitation care: a national survey among healthcare professionals in Dutch head and neck cancer centers",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2024",
+      "volume": "281",
+      "fpage": "2575",
+      "lpage": "2585",
+      "pmid": "38324056",
+      "doi": "10.1007/s00405-024-08488-1",
+      "pmc_id": "PMC11023954"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Mewes JC",
+        "Steuten LM",
+        "IJzerman MJ",
+        "Van Harten WH"
+      ],
+      "title": "Effectiveness of multidimensional cancer survivor rehabilitation and cost-effectiveness of cancer rehabilitation in general: a systematic review",
+      "journal": "Oncologist",
+      "year": "2012",
+      "volume": "17",
+      "fpage": "1581",
+      "lpage": "1593",
+      "pmid": "22982580",
+      "doi": "10.1634/theoncologist.2012-0151",
+      "pmc_id": "PMC3528391"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "raw_citation": "The Netherlands Cancer Institute. Multidiscipinaire Hoofd-Hals Revalidatie (HHR) Multidisciplinary Head and Neck Rehabilitation (HHR) 2.0 [Internet]. 2nd edn. Amsterdam, Netherlands: The Netherlands Cancer Institute; 2016 [cited 2025 Dec 1]. https://www.avl.nl/voorbereiding-afspraak/afdelingen-en-centra/avl-hoofd-halskankercentrum/hhr-hnr-20/ [Accessed 1 December 2025]."
+    },
+    {
+      "ref_id": "R22",
+      "label": "22▪▪",
+      "authors": [
+        "Hao J"
+      ],
+      "title": "Harnessing artificial intelligence for cancer rehabilitation: a call to action",
+      "journal": "Support Care Cancer",
+      "year": "2025",
+      "volume": "33",
+      "fpage": "961",
+      "pmid": "41102514",
+      "doi": "10.1007/s00520-025-10047-1"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23▪▪",
+      "authors": [
+        "Marcaccini G",
+        "Seth I",
+        "Novo J",
+        "et al."
+      ],
+      "title": "Leveraging artificial intelligence for personalized rehabilitation programs for head and neck surgery patients",
+      "journal": "Technologies",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "142"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Srinivasan Y",
+        "Liu A",
+        "Rameau A"
+      ],
+      "title": "Machine learning in the evaluation of voice and swallowing in the head and neck cancer patient",
+      "journal": "Curr Opin Otolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "32",
+      "fpage": "105",
+      "lpage": "112",
+      "pmid": "38116798",
+      "doi": "10.1097/MOO.0000000000000948"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Lee J",
+        "Yoo I-S",
+        "Kim J-H",
+        "et al."
+      ],
+      "title": "Development of AI-generated medical responses using the ChatGPT for cancer patients",
+      "journal": "Comput Methods Programs Biomed",
+      "year": "2024",
+      "volume": "254",
+      "fpage": "108302",
+      "pmid": "38996805",
+      "doi": "10.1016/j.cmpb.2024.108302"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26▪",
+      "authors": [
+        "Ahmed SK"
+      ],
+      "title": "The future of oral cancer care: integrating ChatGPT into clinical practice",
+      "journal": "Oral Oncol Rep",
+      "year": "2024",
+      "volume": "10",
+      "fpage": "100317"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27▪",
+      "authors": [
+        "Bonnechère B"
+      ],
+      "title": "Unlocking the black box? A comprehensive exploration of large language models in rehabilitation",
+      "journal": "Am J Phys Med Rehabil",
+      "year": "2024",
+      "volume": "103",
+      "fpage": "532",
+      "lpage": "537",
+      "pmid": "38261757",
+      "doi": "10.1097/PHM.0000000000002440"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28▪",
+      "authors": [
+        "Georgiou GP"
+      ],
+      "title": "Transforming speech-language pathology with AI: opportunities, challenges, and ethical guidelines",
+      "journal": "Healthcare",
+      "year": "2025",
+      "fpage": "13",
+      "pmid": "41095546",
+      "doi": "10.3390/healthcare13192460",
+      "pmc_id": "PMC12524231"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29▪",
+      "authors": [
+        "Balo E",
+        "Ökte B",
+        "Selvi Balo S"
+      ],
+      "title": "Artificial intelligence in assessment and intervention of speech and language disorders: a literature review",
+      "journal": "Eur Res J",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "1235",
+      "lpage": "1243"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30▪",
+      "authors": [
+        "Shu K",
+        "Mao S",
+        "Zhang Z",
+        "et al."
+      ],
+      "title": "Recent advancements and future directions in automatic swallowing analysis via videofluoroscopy: a review",
+      "journal": "Comput Methods Programs Biomed",
+      "year": "2025",
+      "volume": "259",
+      "fpage": "108505",
+      "pmid": "39579458",
+      "doi": "10.1016/j.cmpb.2024.108505"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31▪",
+      "authors": [
+        "Kassem H",
+        "Beevi AA",
+        "Basheer S",
+        "et al."
+      ],
+      "title": "Investigation and assessment of AI's role in nutrition – an updated narrative review of the evidence",
+      "journal": "Nutrients",
+      "year": "2025",
+      "fpage": "17",
+      "pmid": "39796624",
+      "doi": "10.3390/nu17010190",
+      "pmc_id": "PMC11723148"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32▪",
+      "authors": [
+        "Janssen SM",
+        "Bouzembrak Y",
+        "Tekinerdogan B"
+      ],
+      "title": "Artificial intelligence in malnutrition: a systematic literature review",
+      "journal": "Adv Nutr",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "100264",
+      "pmid": "38971229",
+      "doi": "10.1016/j.advnut.2024.100264",
+      "pmc_id": "PMC11403436"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33▪",
+      "authors": [
+        "Zhang Z",
+        "Wang J"
+      ],
+      "title": "Can AI replace psychotherapists? Exploring the future of mental healthcare",
+      "journal": "Front Psychiatry",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "1444382",
+      "pmid": "39544371",
+      "doi": "10.3389/fpsyt.2024.1444382",
+      "pmc_id": "PMC11560757"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34▪",
+      "authors": [
+        "Garkisch M",
+        "Goldkind L"
+      ],
+      "title": "Considering a unified model of artificial intelligence enhanced social work: a systematic review",
+      "journal": "J Hum Rights Soc Work",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "23",
+      "lpage": "42"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35▪",
+      "authors": [
+        "Bulan PMP",
+        "Kuizon DAY",
+        "Casaña RSE",
+        "et al."
+      ],
+      "title": "A scoping review on artificial intelligence in occupational therapy",
+      "journal": "OTJR Occup Ther J Res",
+      "year": "2025",
+      "fpage": "15394492251379332",
+      "doi": "10.1177/15394492251379332",
+      "pmid": "41121544"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36▪",
+      "authors": [
+        "Saber AF",
+        "Ahmed SK",
+        "Hussein S",
+        "Qurbani K"
+      ],
+      "title": "Artificial intelligence-assisted nursing interventions in psychiatry for oral cancer patients: A concise narrative review",
+      "journal": "Oral Oncol Rep",
+      "year": "2024",
+      "volume": "10",
+      "fpage": "100343"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37▪",
+      "authors": [
+        "Liu H",
+        "Xie Q"
+      ],
+      "title": "Applications of artificial intelligence in rehabilitation: technological innovation and transformation of clinical practice",
+      "journal": "SLAS Technol",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "100360",
+      "pmid": "41161419",
+      "doi": "10.1016/j.slast.2025.100360"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "doi": "10.1007/978-981-96-6069-8_6"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39▪",
+      "authors": [
+        "Attoh-Mensah E",
+        "Boujut A",
+        "Desmons M",
+        "Perrochon A"
+      ],
+      "title": "Artificial intelligence in personalized rehabilitation: current applications and a SWOT analysis",
+      "journal": "Front Digit Health Frontiers",
+      "year": "2025",
+      "volume": "7",
+      "fpage": "1606088",
+      "doi": "10.3389/fdgth.2025.1606088",
+      "pmc_id": "PMC12328449",
+      "pmid": "40778384"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Karlov M",
+        "Abedi A",
+        "Khan SS"
+      ],
+      "title": "Rehabilitation exercise quality assessment through supervised contrastive learning with hard and soft negatives",
+      "journal": "Med Biol Eng Comput",
+      "year": "2025",
+      "volume": "63",
+      "fpage": "15",
+      "lpage": "28",
+      "pmid": "39083136",
+      "doi": "10.1007/s11517-024-03177-x"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41▪",
+      "authors": [
+        "Shammas-Toma M",
+        "Sampieri G",
+        "Xie M",
+        "et al."
+      ],
+      "title": "Wearable technologies in head and neck oncology: scoping review",
+      "journal": "JMIR MHealth UHealth",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "e72372",
+      "lpage": "e172372",
+      "pmid": "41071984",
+      "doi": "10.2196/72372",
+      "pmc_id": "PMC12513687"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "raw_citation": "BRIDGE2HE. TRL assessment | NCP portal management | Horizon Europe NCP Portal [Internet]. NCP Portal. 2022 [cited 2025 Dec 18]. https://horizoneuropencpportal.eu/store/trl-assessment [Accessed 18 December 2025]."
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "raw_citation": "US FDA. Artificial Intelligence-Enabled Medical Devices [Internet]. US Food Drug Administration. FDA; 2025 [cited 2025 Dec 17]. https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices [Accessed 17 December 2025]."
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "doi": "10.1007/978-3-031-23175-9"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "Liu H",
+        "Xie Q"
+      ],
+      "title": "Applications of artificial intelligence in rehabilitation: technological innovation and transformation of clinical practice",
+      "journal": "SLAS Technol",
+      "year": "2025",
+      "fpage": "100360",
+      "pmid": "41161419",
+      "doi": "10.1016/j.slast.2025.100360"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46",
+      "authors": [
+        "Dibbelt S",
+        "Schaidhammer M",
+        "Fleischer C",
+        "Greitemann B"
+      ],
+      "title": "Patient–doctor interaction in rehabilitation: the relationship between perceived interaction quality and long-term treatment results",
+      "journal": "Patient Educ Couns",
+      "year": "2009",
+      "volume": "76",
+      "fpage": "328",
+      "lpage": "335",
+      "pmid": "19683407",
+      "doi": "10.1016/j.pec.2009.07.031"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47",
+      "authors": [
+        "Rodríguez-Nogueira Ó",
+        "Alba-Pérez E",
+        "Álvarez-Álvarez MJ",
+        "Moreno-Poyato AR"
+      ],
+      "title": "Physical therapist characteristics and therapeutic relationship process construct factors that improve patient health outcomes in physical therapy: a systematic review",
+      "journal": "Physiother Theory Pract",
+      "year": "2025",
+      "volume": "41",
+      "fpage": "1952",
+      "lpage": "1967",
+      "pmid": "39987510",
+      "doi": "10.1080/09593985.2025.2469162"
     }
   ]
 }

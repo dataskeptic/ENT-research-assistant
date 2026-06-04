@@ -13,7 +13,8 @@
     "pmc_id": "PMC13183014",
     "pmid": "42152361",
     "full_text_available": true,
-    "section_count": 24
+    "section_count": 24,
+    "reference_count": 43
   },
   "sections": [
     {
@@ -135,6 +136,781 @@
       "section": "Conclusion",
       "text": "Through systematic bibliometric methods, this study delineates the developmental landscape, knowledge structure, and evolutionary trajectory of global research on SIT and AD from 2014 to 2025. The results indicate a consistently active and growing field, entering a phase of rapid development particularly after 2019. Multiple countries and associated research institutions have gradually established stable collaborative models, progressively accelerating the integrated development of research in neural mechanisms, psycho-behavioral aspects, and clinical management, thereby fostering advancements in both diagnostic/therapeutic standardization and personalized treatment. Crucially, burst detection revealed the evolutionary path of research hotspots: shifting from early epidemiological characterizations, towards explorations of neuropsychological comorbidity mechanisms, and ultimately converging on innovative intervention strategies like neuromodulation and digital therapeutics. These findings not only corroborate the pioneering contributions of scholars like Gerhard Andersson in researching the mechanisms of CBT [ 26 ] but also provide systematic evidence for understanding the complete knowledge chain from basic research to clinical translation in this field. From a clinical translation perspective, the knowledge map constructed in this study offers guidance for optimizing diagnostic and therapeutic practices. On one hand, identifying core authors and collaboration networks can assist research management bodies in precisely locating leading teams, thereby fostering interdisciplinary collaboration and optimizing resource allocation. On the other hand, it provides a theoretical pathway for developing emerging research directions, such as real-time neurofeedback technology [ 28 ] and MLA, [ 42 , 43 ] for formulating individualized treatment plans. Looking ahead, integrating multimodal neuroimaging data with artificial intelligence algorithms to build a biomarker system for tinnitus-anxiety comorbidity, coupled with the deep integration of telemedicine and digital therapeutics, holds the potential to overcome the spatiotemporal limitations of traditional diagnosis and treatment models, thereby enhancing the accessibility and efficiency of healthcare services. In summary, this study not only systematically illustrates the knowledge architecture and developmental trajectory of the SIT and AD field but also provides a theoretical basis for fostering interdisciplinary collaboration, optimizing research resource allocation, and driving clinical translation innovation. It holds significant academic value and clinical relevance for the future development of this domain.",
       "order": 23
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Baguley D",
+        "McFerran D",
+        "Hall D"
+      ],
+      "title": "Tinnitus.",
+      "journal": "Lancet",
+      "year": "2013",
+      "volume": "382",
+      "fpage": "1600",
+      "lpage": "7",
+      "pmid": "23827090",
+      "doi": "10.1016/S0140-6736(13)60142-7"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "McCormack A",
+        "Edmondson-Jones M",
+        "Somerset S",
+        "Hall D"
+      ],
+      "title": "A systematic review of the reporting of tinnitus prevalence and severity.",
+      "journal": "Hear Res",
+      "year": "2016",
+      "volume": "337",
+      "fpage": "70",
+      "lpage": "9",
+      "pmid": "27246985",
+      "doi": "10.1016/j.heares.2016.05.009"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Mazurek B",
+        "Haupt H",
+        "Olze H",
+        "Szczepek AJ"
+      ],
+      "title": "Stress and tinnitus-from bedside to bench and back.",
+      "journal": "Front Syst Neurosci",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "47",
+      "pmid": "22701404",
+      "doi": "10.3389/fnsys.2012.00047",
+      "pmc_id": "PMC3371598"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Yu M",
+        "Chen H",
+        "Pei M",
+        "Zhan S",
+        "Li B"
+      ],
+      "title": "Bidirectional association of tinnitus and psychological distress among nurses at one-year follow-up: a propensity score-matched cohort study from China.",
+      "journal": "Asian Nurs Res (Korean Soc Nurs Sci)",
+      "year": "2025",
+      "volume": "19",
+      "fpage": "418",
+      "lpage": "25",
+      "pmid": "40907657",
+      "doi": "10.1016/j.anr.2025.06.003"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Cima RFF",
+        "Mazurek B",
+        "Haider H",
+        "et al."
+      ],
+      "title": "A multidisciplinary European guideline for tinnitus: diagnostics, assessment, and treatment.",
+      "journal": "HNO",
+      "year": "2019",
+      "volume": "67",
+      "fpage": "10",
+      "lpage": "42",
+      "pmid": "30847513",
+      "doi": "10.1007/s00106-019-0633-7"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Engelke M",
+        "Simões JP",
+        "Basso L",
+        "et al."
+      ],
+      "title": "Understanding tinnitus symptom dynamics and clinical improvement through intensive longitudinal data.",
+      "journal": "NPJ Digit Med",
+      "year": "2025",
+      "volume": "8",
+      "fpage": "27",
+      "pmid": "39809918",
+      "doi": "10.1038/s41746-024-01425-w",
+      "pmc_id": "PMC11733005"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Elgoyhen AB",
+        "Langguth B",
+        "De Ridder D",
+        "Vanneste S"
+      ],
+      "title": "Tinnitus: perspectives from human neuroimaging.",
+      "journal": "Nat Rev Neurosci",
+      "year": "2015",
+      "volume": "16",
+      "fpage": "632",
+      "lpage": "42",
+      "pmid": "26373470",
+      "doi": "10.1038/nrn4003"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Ali JA"
+      ],
+      "title": "Musical hallucinations and deafness: a case report and review of the literature.",
+      "journal": "Neuropsychiatry Neuropsychol Behav Neurol",
+      "year": "2002",
+      "volume": "15",
+      "fpage": "66",
+      "lpage": "70",
+      "pmid": "11877553"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Maudoux A",
+        "Lefebvre P",
+        "Cabay J-E",
+        "et al."
+      ],
+      "title": "Auditory resting-state network connectivity in tinnitus: a functional MRI study.",
+      "journal": "PLoS One",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "7",
+      "lpage": "8",
+      "doi": "10.1371/journal.pone.0036222",
+      "pmc_id": "PMC3344851",
+      "pmid": "22574141"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Golm D",
+        "Schmidt-Samoa C",
+        "Dechent P",
+        "Kröner-Herwig B"
+      ],
+      "title": "Neural correlates of tinnitus related distress: an fMRI-study.",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "295",
+      "fpage": "87",
+      "lpage": "99",
+      "pmid": "22445697",
+      "doi": "10.1016/j.heares.2012.03.003"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Andersson G",
+        "Eriksson J",
+        "Lundh LG",
+        "Lyttkens L"
+      ],
+      "title": "Tinnitus and cognitive interference: a stroop paradigm study.",
+      "journal": "J Speech Lang Hear Res",
+      "year": "2000",
+      "volume": "43",
+      "fpage": "1168",
+      "lpage": "73",
+      "pmid": "11063238",
+      "doi": "10.1044/jslhr.4305.1168"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Lovato A",
+        "Monzani D",
+        "Kambo Y",
+        "Franz L",
+        "Frosolini A",
+        "De Filippis C"
+      ],
+      "title": "The Efficacy of wireless auditory training in unilateral hearing loss rehabilitation.",
+      "journal": "Audiol Res",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "554",
+      "lpage": "61",
+      "pmid": "39051190",
+      "doi": "10.3390/audiolres14040046",
+      "pmc_id": "PMC11270199"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Gninenko N",
+        "Trznadel S",
+        "Daskalou D",
+        "et al."
+      ],
+      "title": "Functional MRI neurofeedback outperforms cognitive behavioral therapy for reducing tinnitus distress: a prospective randomized clinical trial.",
+      "journal": "Radiology",
+      "year": "2024",
+      "volume": "310",
+      "fpage": "e231143",
+      "pmid": "38349241",
+      "doi": "10.1148/radiol.231143"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Huang X",
+        "Jiang D",
+        "Kong D",
+        "et al."
+      ],
+      "title": "Predicting individual response to acupuncture in sensorineural tinnitus using integrated functional near-infrared spectroscopy and machine learning: protocol for a model development and validation study.",
+      "journal": "J Multidiscip Healthc",
+      "year": "2025",
+      "volume": "18",
+      "fpage": "6579",
+      "lpage": "93",
+      "pmid": "41089742",
+      "doi": "10.2147/JMDH.S550296",
+      "pmc_id": "PMC12517182"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "van Eck NJ",
+        "Waltman L"
+      ],
+      "title": "Software survey: VOSviewer, a computer program for bibliometric mapping.",
+      "journal": "Scientometrics",
+      "year": "2010",
+      "volume": "84",
+      "fpage": "523",
+      "lpage": "38",
+      "pmid": "20585380",
+      "doi": "10.1007/s11192-009-0146-3",
+      "pmc_id": "PMC2883932"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Chen C"
+      ],
+      "journal": "Citespace: A Practical Guide For Mapping Scientific Literature",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Aria M",
+        "Cuccurullo C"
+      ],
+      "title": "Bibliometrix: an R-tool for comprehensive science mapping analysis.",
+      "journal": "J Informetr",
+      "year": "2017",
+      "volume": "11",
+      "fpage": "959",
+      "lpage": "75"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "De Ridder D",
+        "Vanneste S",
+        "Weisz N",
+        "et al."
+      ],
+      "title": "An integrative model of auditory phantom perception: tinnitus as a unified percept of interacting separable subnetworks.",
+      "journal": "Neurosci Biobehav Rev",
+      "year": "2014",
+      "volume": "44",
+      "fpage": "16",
+      "lpage": "32",
+      "pmid": "23597755",
+      "doi": "10.1016/j.neubiorev.2013.03.021"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Vanneste S",
+        "De Ridder D"
+      ],
+      "title": "The auditory and non-auditory brain areas involved in tinnitus. An emergent property of multiple parallel overlapping subnetworks.",
+      "journal": "Front Syst Neurosci",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "31",
+      "pmid": "22586375",
+      "doi": "10.3389/fnsys.2012.00031",
+      "pmc_id": "PMC3347475"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Liu Y",
+        "Lv H",
+        "Zhao P",
+        "et al."
+      ],
+      "title": "Neuroanatomical alterations in patients with early stage of unilateral pulsatile tinnitus: a voxel-based morphometry study.",
+      "journal": "Neural Plast",
+      "year": "2018",
+      "volume": "2018",
+      "fpage": "4756471",
+      "pmid": "29681925",
+      "doi": "10.1155/2018/4756471",
+      "pmc_id": "PMC5851320"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Lehner A",
+        "Schecklmann M",
+        "Greenlee MW",
+        "Rupprecht R",
+        "Langguth B"
+      ],
+      "title": "Triple-site rTMS for the treatment of chronic tinnitus: a randomized controlled trial.",
+      "journal": "Sci Rep",
+      "year": "2016",
+      "volume": "6",
+      "fpage": "22302",
+      "pmid": "26927363",
+      "doi": "10.1038/srep22302",
+      "pmc_id": "PMC4772792"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Peng L",
+        "Mu K",
+        "Liu A",
+        "et al."
+      ],
+      "title": "Transauricular vagus nerve stimulation at auricular acupoints Kindey (CO10), Yidan (CO11), Liver (CO12) and Shenmen (TF4) can induce auditory and limbic cortices activation measured by fMRI.",
+      "journal": "Hear Res",
+      "year": "2018",
+      "volume": "359",
+      "fpage": "1",
+      "lpage": "12",
+      "pmid": "29305037",
+      "doi": "10.1016/j.heares.2017.12.003"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Trevis KJ",
+        "Tailby C",
+        "Grayden DB",
+        "McLachlan NM",
+        "Jackson GD",
+        "Wilson SJ"
+      ],
+      "title": "Identification of a neurocognitive mechanism underpinning awareness of chronic tinnitus.",
+      "journal": "Sci Rep",
+      "year": "2017",
+      "volume": "7",
+      "fpage": "15220",
+      "pmid": "29123218",
+      "doi": "10.1038/s41598-017-15574-4",
+      "pmc_id": "PMC5680329"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Newman CW",
+        "Jacobson GP",
+        "Spitzer JB"
+      ],
+      "title": "Development of the tinnitus handicap inventory.",
+      "journal": "Arch Otolaryngol Head Neck Surg",
+      "year": "1996",
+      "volume": "122",
+      "fpage": "143",
+      "lpage": "8",
+      "pmid": "8630207",
+      "doi": "10.1001/archotol.1996.01890140029007"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Zigmond AS",
+        "Snaith RP"
+      ],
+      "title": "The hospital anxiety and depression scale.",
+      "journal": "Acta Psychiatr Scand",
+      "year": "1983",
+      "volume": "67",
+      "fpage": "361",
+      "lpage": "70",
+      "pmid": "6880820",
+      "doi": "10.1111/j.1600-0447.1983.tb09716.x"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Andersson G",
+        "Porsaeus D",
+        "Wiklund M",
+        "Kaldo V",
+        "Larsen HC"
+      ],
+      "title": "Treatment of tinnitus in the elderly: a controlled trial of cognitive behavior therapy.",
+      "journal": "Int J Audiol",
+      "year": "2005",
+      "volume": "44",
+      "fpage": "671",
+      "lpage": "5",
+      "pmid": "16379495",
+      "doi": "10.1080/14992020500266720"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Langguth B",
+        "Kreuzer PM",
+        "Kleinjung T",
+        "De Ridder D"
+      ],
+      "title": "Tinnitus: causes and clinical management.",
+      "journal": "Lancet Neurol",
+      "year": "2013",
+      "volume": "12",
+      "fpage": "920",
+      "lpage": "30",
+      "pmid": "23948178",
+      "doi": "10.1016/S1474-4422(13)70160-1"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Vanneste S",
+        "Plazier M",
+        "der Loo E",
+        "de Heyning PV",
+        "Congedo M",
+        "De Ridder D"
+      ],
+      "title": "The neural correlates of tinnitus-related distress.",
+      "journal": "Neuroimage",
+      "year": "2010",
+      "volume": "52",
+      "fpage": "470",
+      "lpage": "80",
+      "pmid": "20417285",
+      "doi": "10.1016/j.neuroimage.2010.04.029"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "Kim SJ",
+        "Shin S-H",
+        "Byun SW",
+        "Lee HY"
+      ],
+      "title": "Resting state EEG reveals no reliable biomarkers of tinnitus laterality.",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "35820",
+      "pmid": "41087589",
+      "doi": "10.1038/s41598-025-19789-8",
+      "pmc_id": "PMC12521524"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Jin Y",
+        "Li M",
+        "Li M",
+        "et al."
+      ],
+      "title": "Machine-learning models with multiple imputation with sequential nearest neighbors imputation for predicting the prognosis of idiopathic sudden sensorineural hearing loss patients.",
+      "journal": "Ear Hear",
+      "year": "2025",
+      "volume": "47",
+      "fpage": "182",
+      "lpage": "91",
+      "pmid": "40859427",
+      "doi": "10.1097/AUD.0000000000001711",
+      "pmc_id": "PMC12700688"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Huang L",
+        "Chen M",
+        "Fan S",
+        "et al."
+      ],
+      "title": "Machine learning identification of tinnitus-related features in auditory peripheral spontaneous activity in a guinea pig noise-induced tinnitus model.",
+      "journal": "Hear Res",
+      "year": "2025",
+      "volume": "465",
+      "fpage": "109371",
+      "pmid": "40684719",
+      "doi": "10.1016/j.heares.2025.109371"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Zhao Y",
+        "Kouvaros S",
+        "Schneider NA",
+        "et al."
+      ],
+      "title": "Cell type-specific plasticity in synaptic, intrinsic, and sound response properties of deep-layer cortical neurons after noise trauma.",
+      "journal": "Sci Adv",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "eadx9737",
+      "pmid": "40971419",
+      "doi": "10.1126/sciadv.adx9737",
+      "pmc_id": "PMC12448056"
+    },
+    {
+      "ref_id": "R33",
+      "label": "[33]",
+      "authors": [
+        "Shetty KR",
+        "Ridge SE",
+        "Kanumuri V",
+        "Zhu A",
+        "Brown MC",
+        "Lee DJ"
+      ],
+      "title": "Clinical and scientific innovations in auditory brainstem implants.",
+      "journal": "World J Otorhinolaryngol Head Neck Surg",
+      "year": "2021",
+      "volume": "7",
+      "fpage": "109",
+      "lpage": "15",
+      "pmid": "33997720",
+      "doi": "10.1016/j.wjorl.2021.02.002",
+      "pmc_id": "PMC8103538"
+    },
+    {
+      "ref_id": "R34",
+      "label": "[34]",
+      "authors": [
+        "Ma L",
+        "Ono M",
+        "Qin L",
+        "Kato N"
+      ],
+      "title": "Acoustic trauma induced the alteration of the activity balance of excitatory and inhibitory neurons in the inferior colliculus of mice.",
+      "journal": "Hear Res",
+      "year": "2020",
+      "volume": "391",
+      "fpage": "107957",
+      "pmid": "32278945",
+      "doi": "10.1016/j.heares.2020.107957"
+    },
+    {
+      "ref_id": "R35",
+      "label": "[35]",
+      "authors": [
+        "Xia C",
+        "Yin M",
+        "Wu C",
+        "Ji Y",
+        "Zhou Y"
+      ],
+      "title": "Neuroglial activation in the auditory cortex and medial geniculate body of salicylate-induced tinnitus rats.",
+      "journal": "Am J Transl Res",
+      "year": "2020",
+      "volume": "12",
+      "fpage": "6043",
+      "lpage": "59",
+      "pmid": "33194013",
+      "pmc_id": "PMC7653558"
+    },
+    {
+      "ref_id": "R36",
+      "label": "[36]",
+      "authors": [
+        "Jiang C",
+        "Ding Z",
+        "Zan T",
+        "et al."
+      ],
+      "title": "Pathophysiological insights and multimodal interventions in chronic tinnitus, anxiety, and sleep disorders.",
+      "journal": "Nat Sci Sleep",
+      "year": "2025",
+      "volume": "17",
+      "fpage": "2257",
+      "lpage": "73",
+      "pmid": "41018853",
+      "doi": "10.2147/NSS.S548093",
+      "pmc_id": "PMC12474699"
+    },
+    {
+      "ref_id": "R37",
+      "label": "[37]",
+      "authors": [
+        "Raeisi Z",
+        "Sodagartojgi A",
+        "Sharafkhani F",
+        "et al."
+      ],
+      "title": "Enhanced classification of tinnitus patients using EEG microstates and deep learning techniques.",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "15959",
+      "pmid": "40335585",
+      "doi": "10.1038/s41598-025-01129-5",
+      "pmc_id": "PMC12059128"
+    },
+    {
+      "ref_id": "R38",
+      "label": "[38]",
+      "authors": [
+        "Sobhany M",
+        "Lotfi Y",
+        "Talebian S",
+        "Bakhshi E",
+        "Javanbakht M"
+      ],
+      "title": "Tinnitus rehabilitation through electrical stimulation as a neuromodulation method: a scoping review.",
+      "journal": "Indian J Otolaryngol Head Neck Surg",
+      "year": "2025",
+      "volume": "77",
+      "fpage": "1996",
+      "lpage": "2003",
+      "pmid": "40226247",
+      "doi": "10.1007/s12070-025-05426-3",
+      "pmc_id": "PMC11985721"
+    },
+    {
+      "ref_id": "R39",
+      "label": "[39]",
+      "authors": [
+        "Zhao B-W",
+        "Su X-R",
+        "Yang Y",
+        "et al."
+      ],
+      "title": "A heterogeneous information network learning model with neighborhood-level structural representation for predicting lncRNA-miRNA interactions.",
+      "journal": "Comput Struct Biotechnol J",
+      "year": "2024",
+      "volume": "23",
+      "fpage": "2924",
+      "lpage": "33",
+      "pmid": "39963422",
+      "doi": "10.1016/j.csbj.2024.06.032",
+      "pmc_id": "PMC11832017"
+    },
+    {
+      "ref_id": "R40",
+      "label": "[40]",
+      "authors": [
+        "Ravipati A",
+        "Pradeep T",
+        "Tosti A"
+      ],
+      "title": "The 100 most cited androgenetic alopecia articles: an analysis of altmetrics data from 2015 to 2022.",
+      "journal": "Skin Appendage Disord",
+      "year": "2024",
+      "volume": "10",
+      "fpage": "370",
+      "lpage": "5",
+      "pmid": "39386303",
+      "doi": "10.1159/000538913",
+      "pmc_id": "PMC11460846"
+    },
+    {
+      "ref_id": "R41",
+      "label": "[41]",
+      "authors": [
+        "Fox ES",
+        "McDonnell JM",
+        "Wall J",
+        "Darwish S",
+        "Healy D",
+        "Butler JS"
+      ],
+      "title": "The correlation between altmetric score and traditional measures of article impact for studies published within the surgeon journal.",
+      "journal": "Surgeon",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "18",
+      "lpage": "24",
+      "pmid": "37802706",
+      "doi": "10.1016/j.surge.2023.09.005"
+    },
+    {
+      "ref_id": "R42",
+      "label": "[42]",
+      "authors": [
+        "Nordlie E",
+        "Elander J",
+        "Värendh M",
+        "et al."
+      ],
+      "title": "Precision and prediction matter: investigating hearing recovery measur ements and prognosis in sudden sensorineural hearing loss.",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2026",
+      "volume": "283",
+      "fpage": "205",
+      "lpage": "14",
+      "pmid": "41053460",
+      "doi": "10.1007/s00405-025-09675-4",
+      "pmc_id": "PMC12904936"
+    },
+    {
+      "ref_id": "R43",
+      "label": "[43]",
+      "authors": [
+        "Zhang C",
+        "Wang Y",
+        "Zhao C",
+        "Xue R",
+        "Hu C",
+        "Guo B"
+      ],
+      "title": "Identifying psychological and clinical risk factors for moderate-to-severe tinnitus in older patients with hearing loss: a multivariable prediction model.",
+      "journal": "Front Neurol",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "1647071",
+      "pmid": "40771979",
+      "doi": "10.3389/fneur.2025.1647071",
+      "pmc_id": "PMC12325010"
     }
   ]
 }

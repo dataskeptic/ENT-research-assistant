@@ -20,7 +20,8 @@
     "pmc_id": "PMC13152134",
     "pmid": "42096439",
     "full_text_available": true,
-    "section_count": 15
+    "section_count": 15,
+    "reference_count": 26
   },
   "sections": [
     {
@@ -97,6 +98,308 @@
       "section": "Conclusion",
       "text": "This study revealed significant biases in publicly available otoscopic image datasets that impact the generalizability and reliability of AI models in diagnosing middle ear conditions. The findings demonstrate that AI models often rely on dataset-specific artifacts, such as lighting conditions and framing inconsistencies, rather than only clinical features in the region of the tympanic membrane, leading to compromised performance in external settings. Addressing these biases requires rigorous data curation, including the elimination of redundant images, standardized imaging protocols, patient-centered data partitioning to improve model generalizability, and rigorous quality assessment prior to embarking on analysis. Furthermore, ensuring consistency in image acquisition settings and implementing automated tympanic membrane detection can enhance diagnostic accuracy while reducing variability introduced by different operators and imaging equipment. Future research should focus on refining AI training strategies through feature disentanglement techniques, expanding dataset diversity to include varied populations and clinical settings, and integrating multi-expert annotations to improve data quality and reliability. These efforts are crucial for developing AI-based diagnostic tools that are robust, promote access to high-quality healthcare, and have clinical applicability across diverse healthcare environments.",
       "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "pone.0338867.ref001",
+      "label": "1",
+      "year": "2021"
+    },
+    {
+      "ref_id": "pone.0338867.ref002",
+      "label": "2",
+      "title": "The social determinants of otitis media in aboriginal children in Australia: are we addressing the primary causes? A systematic content review",
+      "journal": "BMC Public Health",
+      "year": "2020",
+      "volume": "20",
+      "issue": "1",
+      "fpage": "492",
+      "doi": "10.1186/s12889-020-08570-3",
+      "pmid": "32295570",
+      "pmc_id": "PMC7161003"
+    },
+    {
+      "ref_id": "pone.0338867.ref003",
+      "label": "3",
+      "title": "The Etiology, Pathophysiology, and Management of Otitis Media with Effusion",
+      "journal": "Curr Infect Dis Rep",
+      "year": "2003",
+      "volume": "5",
+      "issue": "3",
+      "fpage": "205",
+      "lpage": "12",
+      "doi": "10.1007/s11908-003-0075-x",
+      "pmid": "12760817",
+      "pmc_id": "PMC7089124"
+    },
+    {
+      "ref_id": "pone.0338867.ref004",
+      "label": "4",
+      "year": "2004"
+    },
+    {
+      "ref_id": "pone.0338867.ref005",
+      "label": "5",
+      "title": "Global burden of hearing impairment and ear disease",
+      "journal": "J Laryngol Otol",
+      "year": "2019",
+      "volume": "133",
+      "issue": "1",
+      "fpage": "18",
+      "lpage": "25",
+      "doi": "10.1017/S0022215118001275",
+      "pmid": "30047343"
+    },
+    {
+      "ref_id": "pone.0338867.ref006",
+      "label": "6",
+      "title": "Primary care management of otitis media among Australian children",
+      "journal": "Med J Aust",
+      "year": "2009",
+      "volume": "191",
+      "doi": "10.5694/j.1326-5377.2009.tb02928.x",
+      "pmid": "19883358"
+    },
+    {
+      "ref_id": "pone.0338867.ref007",
+      "label": "7",
+      "title": "Otitis media in Aboriginal children: the discordance between burden of illness and access to services in rural/remote and urban Australia",
+      "journal": "J Paediatr Child Health",
+      "year": "2009",
+      "volume": "45",
+      "fpage": "425",
+      "lpage": "30",
+      "doi": "10.1111/j.1440-1754.2009.01532.x",
+      "pmid": "19722295"
+    },
+    {
+      "ref_id": "pone.0338867.ref008",
+      "label": "8",
+      "title": "Inequality in the distribution of ear, nose and throat specialists in 15 Latin American countries: an ecological study",
+      "journal": "BMJ Open",
+      "year": "2019",
+      "volume": "9",
+      "issue": "7",
+      "doi": "10.1136/bmjopen-2019-030220",
+      "pmid": "31326937",
+      "pmc_id": "PMC6661698"
+    },
+    {
+      "ref_id": "pone.0338867.ref009",
+      "label": "9",
+      "title": "Artificial intelligence to classify ear disease from otoscopy: A systematic review and meta-analysis",
+      "journal": "Clin Otolaryngol",
+      "year": "2022",
+      "volume": "47",
+      "issue": "3",
+      "fpage": "401",
+      "lpage": "13",
+      "doi": "10.1111/coa.13925",
+      "pmid": "35253378",
+      "pmc_id": "PMC9310803"
+    },
+    {
+      "ref_id": "pone.0338867.ref010",
+      "label": "10",
+      "title": "Artificial intelligence to detect tympanic membrane perforations",
+      "journal": "J Laryngol Otol",
+      "year": "2020",
+      "volume": "134",
+      "issue": "4",
+      "fpage": "311",
+      "lpage": "5",
+      "doi": "10.1017/S0022215120000717",
+      "pmid": "32238202"
+    },
+    {
+      "ref_id": "pone.0338867.ref011",
+      "label": "11",
+      "title": "An Artificial Intelligence Computer-vision Algorithm to Triage Otoscopic Images From Australian Aboriginal and Torres Strait Islander Children",
+      "journal": "Otol Neurotol",
+      "year": "2022",
+      "volume": "43",
+      "issue": "4",
+      "fpage": "481",
+      "lpage": "8",
+      "doi": "10.1097/MAO.0000000000003484",
+      "pmid": "35239622"
+    },
+    {
+      "ref_id": "pone.0338867.ref012",
+      "label": "12",
+      "title": "Otitis media detection using tympanic membrane images with a novel multi-class machine learning algorithm",
+      "journal": "PeerJ Comput Sci",
+      "year": "2021",
+      "volume": "7",
+      "doi": "10.7717/peerj-cs.405",
+      "pmid": "33817048",
+      "pmc_id": "PMC7959604"
+    },
+    {
+      "ref_id": "pone.0338867.ref013",
+      "label": "13",
+      "title": "Chronic otitis media with multiple complications",
+      "journal": "J Craniofac Surg",
+      "year": "2023",
+      "volume": "13",
+      "doi": "10.1097/SCS.0b013e318292c7b6",
+      "pmid": "23851882"
+    },
+    {
+      "ref_id": "pone.0338867.ref014",
+      "label": "14",
+      "title": "A Deep Learning Approach to Predict Conductive Hearing Loss in Patients With Otitis Media With Effusion Using Otoscopic Images",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2022",
+      "volume": "148",
+      "issue": "7",
+      "fpage": "612",
+      "lpage": "20",
+      "doi": "10.1001/jamaoto.2022.0900",
+      "pmid": "35588049",
+      "pmc_id": "PMC9121299"
+    },
+    {
+      "ref_id": "pone.0338867.ref015",
+      "label": "15",
+      "title": "Evaluating the generalizability of deep learning image classification algorithms to detect middle ear disease using otoscopy",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "5368",
+      "doi": "10.1038/s41598-023-31921-0",
+      "pmid": "37005441",
+      "pmc_id": "PMC10067817"
+    },
+    {
+      "ref_id": "pone.0338867.ref016",
+      "label": "16",
+      "title": "Association between surgical skin markings in dermoscopic images and diagnostic performance of a deep learning convolutional neural network for Melanoma Recognition",
+      "journal": "JAMA Dermatol",
+      "year": "2019",
+      "volume": "155",
+      "issue": "10",
+      "fpage": "1135",
+      "lpage": "41",
+      "doi": "10.1001/jamadermatol.2019.1735",
+      "pmid": "31411641",
+      "pmc_id": "PMC6694463"
+    },
+    {
+      "ref_id": "pone.0338867.ref017",
+      "label": "17",
+      "title": "“Shortcuts” Causing Bias in Radiology Artificial Intelligence: Causes, Evaluation, and Mitigation",
+      "journal": "J Am Coll Radiol",
+      "year": "2023",
+      "volume": "20",
+      "issue": "9",
+      "fpage": "842",
+      "lpage": "51",
+      "doi": "10.1016/j.jacr.2023.06.025",
+      "pmid": "37506964",
+      "pmc_id": "PMC11192466"
+    },
+    {
+      "ref_id": "pone.0338867.ref018",
+      "label": "18",
+      "title": "Shortcut learning in deep neural networks",
+      "journal": "Nature Machine Intelligence",
+      "year": "2020",
+      "volume": "2",
+      "fpage": "665",
+      "lpage": "73",
+      "doi": "10.1038/s42256-020-00257-z"
+    },
+    {
+      "ref_id": "pone.0338867.ref019",
+      "label": "19",
+      "title": "Computer-aided diagnosis of external and middle ear conditions: A machine learning approach",
+      "journal": "PLoS One",
+      "year": "2020",
+      "volume": "15",
+      "issue": "3",
+      "doi": "10.1371/journal.pone.0229226",
+      "pmid": "32163427",
+      "pmc_id": "PMC7067442"
+    },
+    {
+      "ref_id": "pone.0338867.ref020",
+      "label": "20",
+      "title": "OtoMatch: Content-based eardrum image retrieval using deep learning",
+      "journal": "PLoS One",
+      "year": "2020",
+      "volume": "15",
+      "issue": "5",
+      "doi": "10.1371/journal.pone.0232776",
+      "pmid": "32413096",
+      "pmc_id": "PMC7228122"
+    },
+    {
+      "ref_id": "pone.0338867.ref021",
+      "label": "21",
+      "title": "Fusing fine-tuned deep features for recognizing different tympanic membranes",
+      "journal": "Biocybern Biomed Eng",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "40",
+      "lpage": "51",
+      "doi": "10.1016/j.bbe.2019.11.001"
+    },
+    {
+      "ref_id": "pone.0338867.ref022",
+      "label": "22",
+      "title": "Determination of tympanic membrane region in the middle ear otoscope images with convolutional neural network based YOLO method",
+      "journal": "Dokuz Eylül Üniversitesi Mühendislik Fakültesi Fen ve Mühendislik Dergisi",
+      "year": "2020",
+      "volume": "22",
+      "fpage": "919",
+      "lpage": "28"
+    },
+    {
+      "ref_id": "pone.0338867.ref023",
+      "label": "23",
+      "title": "Expert recommendations on collection and annotation of otoscopy images for intelligent medicine",
+      "journal": "Intelligent Medicine",
+      "year": "2022",
+      "volume": "2",
+      "issue": "4",
+      "fpage": "230",
+      "lpage": "4",
+      "doi": "10.1016/j.imed.2022.01.001"
+    },
+    {
+      "ref_id": "pone.0338867.ref024",
+      "label": "24",
+      "title": "Tele-otology for Aboriginal and Torres Strait Islander People Living in Rural and Remote Areas",
+      "journal": "Laryngoscope",
+      "year": "2024",
+      "volume": "134",
+      "issue": "12",
+      "fpage": "5096",
+      "lpage": "102",
+      "doi": "10.1002/lary.31624",
+      "pmid": "38982868"
+    },
+    {
+      "ref_id": "pone.0338867.ref025",
+      "label": "25",
+      "title": "Open access guide to audiology and hearing aids for otolaryngologists",
+      "journal": "Pretoria",
+      "year": "2014"
+    },
+    {
+      "ref_id": "pone.0338867.ref026",
+      "label": "26",
+      "title": "Deep learning models for COVID-19 chest x-ray classification: Preventing shortcut learning using feature disentanglement",
+      "journal": "PLoS One",
+      "year": "2022",
+      "volume": "17",
+      "issue": "10",
+      "doi": "10.1371/journal.pone.0274098",
+      "pmid": "36201483",
+      "pmc_id": "PMC9536609"
     }
   ]
 }

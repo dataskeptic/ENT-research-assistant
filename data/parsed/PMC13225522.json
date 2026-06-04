@@ -12,7 +12,8 @@
     "pmc_id": "PMC13225522",
     "pmid": "42216389",
     "full_text_available": true,
-    "section_count": 10
+    "section_count": 10,
+    "reference_count": 28
   },
   "sections": [
     {
@@ -64,6 +65,506 @@
       "section": "Conclusion",
       "text": "To summarize, SNPs were utilized as IVs to determine the causality of coffee intake with thyroid cancer incidence. Genetically predicted coffee consumption was not causally related to thyroid cancer incidence, with no confounding bias or horizontal pleiotropy. Consequently, considering the above-mentioned limitations, future studies are warranted to verify the above findings, and more data on coffee and thyroid cancer, data across ethnic groups, and data on the nonlinear relationship between coffee intake and thyroid cancer are needed to understand more fully the relationship between coffee intake and thyroid cancer risk.",
       "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "fpage": "229",
+      "lpage": "63",
+      "pmid": "38572751",
+      "doi": "10.3322/caac.21834"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Davies L",
+        "Welch HG"
+      ],
+      "title": "Current thyroid cancer trends in the United States.",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "140",
+      "fpage": "317",
+      "lpage": "22",
+      "pmid": "24557566",
+      "doi": "10.1001/jamaoto.2014.1"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Zimmermann MB",
+        "Galetti V"
+      ],
+      "title": "Iodine intake as a risk factor for thyroid cancer: a comprehensive review of animal and human studies.",
+      "journal": "Thyroid Res",
+      "year": "2015",
+      "volume": "8",
+      "fpage": "8",
+      "pmid": "26146517",
+      "doi": "10.1186/s13044-015-0020-8",
+      "pmc_id": "PMC4490680"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Butt MS",
+        "Sultan MT"
+      ],
+      "title": "Coffee and its consumption: benefits and risks.",
+      "journal": "Crit Rev Food Sci Nutr",
+      "year": "2011",
+      "volume": "51",
+      "fpage": "363",
+      "lpage": "73",
+      "pmid": "21432699",
+      "doi": "10.1080/10408390903586412"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Li G",
+        "Ma D",
+        "Zhang Y",
+        "Zheng W",
+        "Wang P"
+      ],
+      "title": "Coffee consumption and risk of colorectal cancer: a meta-analysis of observational studies.",
+      "journal": "Public Health Nutr",
+      "year": "2013",
+      "volume": "16",
+      "fpage": "346",
+      "lpage": "57",
+      "pmid": "22694939",
+      "doi": "10.1017/S1368980012002601",
+      "pmc_id": "PMC10271502"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Li YM",
+        "Peng J",
+        "Li LZ"
+      ],
+      "title": "Coffee consumption associated with reduced risk of oral cancer: a meta-analysis.",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2016",
+      "volume": "121",
+      "fpage": "381",
+      "lpage": "9.e1",
+      "pmid": "26972538",
+      "doi": "10.1016/j.oooo.2015.12.006"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Wierzejska R"
+      ],
+      "title": "Coffee consumption vs. cancer risk – a review of scientific data.",
+      "journal": "Rocz Panstw Zakl Hig",
+      "year": "2015",
+      "volume": "66",
+      "fpage": "293",
+      "lpage": "8",
+      "pmid": "26656410"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Bøhn SK",
+        "Blomhoff R",
+        "Paur I"
+      ],
+      "title": "Coffee and cancer risk, epidemiological evidence, and molecular mechanisms.",
+      "journal": "Mol Nutr Food Res",
+      "year": "2014",
+      "volume": "58",
+      "fpage": "915",
+      "lpage": "30",
+      "pmid": "24668519",
+      "doi": "10.1002/mnfr.201300526"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Katan MB"
+      ],
+      "title": "Commentary: Mendelian randomization, 18 years on.",
+      "journal": "Int J Epidemiol",
+      "year": "2004",
+      "volume": "33",
+      "fpage": "10",
+      "lpage": "1",
+      "pmid": "15075137",
+      "doi": "10.1093/ije/dyh023"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Poole R",
+        "Kennedy OJ",
+        "Roderick P",
+        "Fallowfield JA",
+        "Hayes PC",
+        "Parkes J"
+      ],
+      "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes.",
+      "journal": "BMJ",
+      "year": "2017",
+      "volume": "359",
+      "fpage": "j5024",
+      "pmid": "29167102",
+      "doi": "10.1136/bmj.j5024",
+      "pmc_id": "PMC5696634"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Burgess S",
+        "Thompson SG"
+      ],
+      "title": "Multivariable Mendelian randomization: the use of pleiotropic genetic variants to estimate causal effects.",
+      "journal": "Am J Epidemiol",
+      "year": "2015",
+      "volume": "181",
+      "fpage": "251",
+      "lpage": "60",
+      "pmid": "25632051",
+      "doi": "10.1093/aje/kwu283",
+      "pmc_id": "PMC4325677"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Zhang H",
+        "Wu Z",
+        "Chen Q",
+        "et al."
+      ],
+      "title": "Subtype-specific causal effects of hypothyroidism on obstructive sleep apnea: a bidirectional Mendelian randomization study.",
+      "journal": "Medicine (Baltimore)",
+      "year": "2025",
+      "volume": "104",
+      "fpage": "e43266",
+      "pmid": "40629611",
+      "doi": "10.1097/MD.0000000000043266",
+      "pmc_id": "PMC12237354"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Sanderson E",
+        "Spiller W",
+        "Bowden J"
+      ],
+      "title": "Testing and correcting for weak and pleiotropic instruments in two-sample multivariable Mendelian randomization.",
+      "journal": "Stat Med",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "5434",
+      "lpage": "52",
+      "pmid": "34338327",
+      "doi": "10.1002/sim.9133",
+      "pmc_id": "PMC9479726"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Ong JS",
+        "Law MH",
+        "An J",
+        "et al."
+      ],
+      "title": "Association between coffee consumption and overall risk of being diagnosed with or dying from cancer among >300 000 UK Biobank participants in a large-scale Mendelian randomization study.",
+      "journal": "Int J Epidemiol",
+      "year": "2019",
+      "volume": "48",
+      "fpage": "1447",
+      "lpage": "56",
+      "pmid": "31412118",
+      "doi": "10.1093/ije/dyz144"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Sudlow C",
+        "Gallacher J",
+        "Allen N",
+        "et al."
+      ],
+      "title": "UK Biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age.",
+      "journal": "PLoS Med",
+      "year": "2015",
+      "volume": "12",
+      "fpage": "e1001779",
+      "pmid": "25826379",
+      "doi": "10.1371/journal.pmed.1001779",
+      "pmc_id": "PMC4380465"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Köhler A",
+        "Chen B",
+        "Gemignani F",
+        "et al."
+      ],
+      "title": "Genome-wide association study on differentiated thyroid cancer.",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2013",
+      "volume": "98",
+      "fpage": "E1674",
+      "lpage": "81",
+      "pmid": "23894154",
+      "doi": "10.1210/jc.2013-1941"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Pierce BL",
+        "Ahsan H",
+        "Vanderweele TJ"
+      ],
+      "title": "Power and instrument strength requirements for Mendelian randomization studies using multiple genetic variants.",
+      "journal": "Int J Epidemiol",
+      "year": "2011",
+      "volume": "40",
+      "fpage": "740",
+      "lpage": "52",
+      "pmid": "20813862",
+      "doi": "10.1093/ije/dyq151",
+      "pmc_id": "PMC3147064"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Verbanck M",
+        "Chen CY",
+        "Neale B",
+        "Do R"
+      ],
+      "title": "Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases.",
+      "journal": "Nat Genet",
+      "year": "2018",
+      "volume": "50",
+      "fpage": "693",
+      "lpage": "8",
+      "pmid": "29686387",
+      "doi": "10.1038/s41588-018-0099-7",
+      "pmc_id": "PMC6083837"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Bowden J",
+        "Davey Smith G",
+        "Burgess S"
+      ],
+      "title": "Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression.",
+      "journal": "Int J Epidemiol",
+      "year": "2015",
+      "volume": "44",
+      "fpage": "512",
+      "lpage": "25",
+      "pmid": "26050253",
+      "doi": "10.1093/ije/dyv080",
+      "pmc_id": "PMC4469799"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Bowden J",
+        "Davey Smith G",
+        "Haycock PC",
+        "Burgess S"
+      ],
+      "title": "Consistent estimation in Mendelian randomization with some invalid instruments using a weighted median estimator.",
+      "journal": "Genet Epidemiol",
+      "year": "2016",
+      "volume": "40",
+      "fpage": "304",
+      "lpage": "14",
+      "pmid": "27061298",
+      "doi": "10.1002/gepi.21965",
+      "pmc_id": "PMC4849733"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Burgess S",
+        "Butterworth A",
+        "Thompson SG"
+      ],
+      "title": "Mendelian randomization analysis with multiple genetic variants using summarized data.",
+      "journal": "Genet Epidemiol",
+      "year": "2013",
+      "volume": "37",
+      "fpage": "658",
+      "lpage": "65",
+      "pmid": "24114802",
+      "doi": "10.1002/gepi.21758",
+      "pmc_id": "PMC4377079"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Ludwig IA",
+        "Clifford MN",
+        "Lean ME",
+        "Ashihara H",
+        "Crozier A"
+      ],
+      "title": "Coffee: biochemistry and potential impact on health.",
+      "journal": "Food Funct",
+      "year": "2014",
+      "volume": "5",
+      "fpage": "1695",
+      "lpage": "717",
+      "pmid": "24671262",
+      "doi": "10.1039/c4fo00042k"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Kim SY",
+        "Yoo DM",
+        "Min C",
+        "Choi HG"
+      ],
+      "title": "Association between coffee consumption/physical exercise and gastric, hepatic, colon, breast, uterine cervix, lung, thyroid, prostate, and bladder cancer.",
+      "journal": "Nutrients",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "3927",
+      "pmid": "34836181",
+      "doi": "10.3390/nu13113927",
+      "pmc_id": "PMC8620757"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Michikawa T",
+        "Inoue M",
+        "Shimazu T",
+        "et al."
+      ],
+      "title": "Green tea and coffee consumption and its association with thyroid cancer risk: a population-based cohort study in Japan.",
+      "journal": "Cancer Causes Control",
+      "year": "2011",
+      "volume": "22",
+      "fpage": "985",
+      "lpage": "93",
+      "pmid": "21562752",
+      "doi": "10.1007/s10552-011-9771-2"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Riza E",
+        "Linos A",
+        "Petralias A",
+        "de Martinis L",
+        "Duntas L",
+        "Linos D"
+      ],
+      "title": "The effect of Greek herbal tea consumption on thyroid cancer: a case-control study.",
+      "journal": "Eur J Public Health",
+      "year": "2015",
+      "volume": "25",
+      "fpage": "1001",
+      "lpage": "5",
+      "pmid": "25842380",
+      "doi": "10.1093/eurpub/ckv063"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Park SY",
+        "Freedman ND",
+        "Haiman CA",
+        "Le Marchand L",
+        "Wilkens LR",
+        "Setiawan VW"
+      ],
+      "title": "Prospective study of coffee consumption and cancer incidence in non-white populations.",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2018",
+      "volume": "27",
+      "fpage": "928",
+      "lpage": "35",
+      "pmid": "29777049",
+      "doi": "10.1158/1055-9965.EPI-18-0093",
+      "pmc_id": "PMC6072575"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Takezaki T",
+        "Hirose K",
+        "Inoue M",
+        "et al."
+      ],
+      "title": "Risk factors of thyroid cancer among women in Tokai, Japan.",
+      "journal": "J Epidemiol",
+      "year": "1996",
+      "volume": "6",
+      "fpage": "140",
+      "lpage": "7",
+      "pmid": "8952218",
+      "doi": "10.2188/jea.6.140"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Han MA",
+        "Kim JH"
+      ],
+      "title": "Coffee consumption and the risk of thyroid cancer: a systematic review and meta-analysis.",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "129",
+      "pmid": "28134794",
+      "doi": "10.3390/ijerph14020129",
+      "pmc_id": "PMC5334683"
     }
   ]
 }

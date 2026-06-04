@@ -19,7 +19,8 @@
     "pmc_id": "PMC13186207",
     "pmid": "41623203",
     "full_text_available": true,
-    "section_count": 11
+    "section_count": 11,
+    "reference_count": 45
   },
   "sections": [
     {
@@ -76,6 +77,493 @@
       "section": "Conclusion",
       "text": "This study presents the first approach to near real-time deep learning-based laryngeal benign lesion detection using YOLO-based object detection with a temporal tracking system. YOLO12, enhanced with a simple tracking pipeline, demonstrated good accuracy in identifying and localizing vocal fold polyps in stroboscopic videos, demonstrating potential for AI-assisted diagnosis. However, performance lagged that reported in colonoscopy, likely due to the anatomical complexity of the larynx and combined motion of the flexible laryngoscope and the vocal folds. With larger and more diverse datasets, advanced temporal modeling, and multi-class detection capabilities, future AI systems could assist otolaryngologists with the detection and identification of varied vocal fold pathologies in real-time, reducing the likelihood of missed lesions amongst less experienced clinicians.",
       "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "title": "Deep learning-enabled medical computer vision",
+      "journal": "NPJ Digit Med",
+      "year": "2021",
+      "volume": "4",
+      "issue": "1",
+      "fpage": "5",
+      "doi": "10.1038/s41746-020-00376-2",
+      "pmid": "33420381",
+      "pmc_id": "PMC7794558"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "Computer vision and machine learning for medical image analysis: recent advances, challenges, and way forward",
+      "journal": "Artif Intell Surg",
+      "year": "2022",
+      "volume": "2",
+      "issue": "1",
+      "fpage": "24",
+      "lpage": "45"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "Automatic classification of informative laryngoscopic images using deep learning",
+      "journal": "Laryngoscope Investig Otolaryngol",
+      "year": "2022",
+      "volume": "7",
+      "issue": "2",
+      "fpage": "460",
+      "lpage": "466",
+      "doi": "10.1002/lio2.754",
+      "pmc_id": "PMC9008155",
+      "pmid": "35434326"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "Sociodemographic reporting in videomics research: a review of practices in otolaryngology - head and neck surgery",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2024",
+      "volume": "281",
+      "issue": "11",
+      "fpage": "6047",
+      "lpage": "6056",
+      "doi": "10.1007/s00405-024-08659-0",
+      "pmid": "38704768"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Applications of artificial intelligence to office laryngoscopy: a scoping review",
+      "journal": "Laryngoscope",
+      "year": "2022",
+      "volume": "132",
+      "issue": "10",
+      "fpage": "1993",
+      "lpage": "2016",
+      "doi": "10.1002/lary.30113",
+      "pmid": "34582043"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "title": "Computer-aided diagnosis of laryngeal cancer via deep learning based on laryngoscopic images",
+      "journal": "EBioMedicine",
+      "year": "2019",
+      "volume": "48",
+      "fpage": "92",
+      "lpage": "99",
+      "doi": "10.1016/j.ebiom.2019.08.027",
+      "pmid": "31594753",
+      "pmc_id": "PMC6838439"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "title": "Automatic recognition of laryngoscopic images using a deep-learning technique",
+      "journal": "Laryngoscope",
+      "year": "2020",
+      "volume": "130",
+      "issue": "11",
+      "fpage": "E686",
+      "lpage": "E693",
+      "doi": "10.1002/lary.28544",
+      "pmid": "32068890"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "title": "Artificial intelligence and laryngeal cancer: from screening to prognosis: a state of the art review",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "168",
+      "issue": "3",
+      "fpage": "319",
+      "lpage": "329",
+      "doi": "10.1177/01945998221149713",
+      "pmid": "35787073"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "title": "Applications of artificial intelligence to office laryngoscopy: a scoping review",
+      "journal": "Laryngoscope",
+      "year": "2022",
+      "volume": "132",
+      "issue": "10",
+      "fpage": "1993",
+      "lpage": "2016",
+      "doi": "10.1002/lary.29886",
+      "pmid": "34582043"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "title": "Artificial convolutional neural network in object detection and semantic segmentation for medical imaging analysis",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "11",
+      "doi": "10.3389/fonc.2021.638182",
+      "pmc_id": "PMC7986719",
+      "pmid": "33768000"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "title": "Deep learning-based object detection algorithms in medical imaging: systematic review",
+      "journal": "Heliyon",
+      "year": "2025",
+      "volume": "11",
+      "issue": "1",
+      "doi": "10.1016/j.heliyon.2024.e41137",
+      "pmc_id": "PMC11699422",
+      "pmid": "39758372"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "title": "A comprehensive systematic review of YOLO for medical object detection (2018 to 2023)",
+      "journal": "IEEE Access",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "57815",
+      "lpage": "57836",
+      "doi": "10.1109/ACCESS.2024.3381234"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "journal": "Mask R-CNN",
+      "year": "2017",
+      "fpage": "2961",
+      "lpage": "2969",
+      "doi": "10.1109/ICCV.2017.322"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "journal": "Fast R-CNN",
+      "year": "2015",
+      "fpage": "1440",
+      "lpage": "1448",
+      "doi": "10.1109/ICCV.2015.169"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "title": "Faster R-CNN: towards real-time object detection with region proposal networks",
+      "journal": "IEEE Trans Pattern Anal Mach Intell",
+      "year": "2017",
+      "volume": "39",
+      "issue": "6",
+      "fpage": "1137",
+      "lpage": "1149",
+      "doi": "10.1109/TPAMI.2016.2577031",
+      "pmid": "27295650"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "journal": "You Only Look Once: Unified, Real-Time Object Detection",
+      "year": "2016",
+      "fpage": "779",
+      "lpage": "788",
+      "doi": "10.1109/CVPR.2016.91"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "title": "Yolo-ob: an improved anchor-free real-time multiscale colon polyp detector in colonoscopy",
+      "journal": "Biomed Signal Process Control",
+      "year": "2025",
+      "volume": "103",
+      "doi": "10.1016/j.bspc.2024.107326"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "title": "An efficient real-time colonic polyp detection with YOLO algorithms trained by using negative samples and large datasets",
+      "journal": "Computers in Biology and Medicine",
+      "year": "2022",
+      "volume": "141",
+      "doi": "10.1016/j.compbiomed.2021.105031",
+      "pmid": "34802713"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "title": "Real-time multi-class detection of colorectal polyps based on the colon-YOLO network",
+      "journal": "Alexandria Engineering Journal",
+      "year": "2025",
+      "volume": "127",
+      "fpage": "595",
+      "lpage": "605",
+      "doi": "10.1016/j.aej.2025.05.045"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "title": "A robust real-time deep learning based automatic polyp detection system",
+      "journal": "Computers in Biology and Medicine",
+      "year": "2021",
+      "volume": "134",
+      "fpage": "104519",
+      "doi": "10.1016/j.compbiomed.2021.104519",
+      "pmid": "34090014"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "journal": "Cancer Prevention, Detection, and Intervention",
+      "year": "2025",
+      "fpage": "124",
+      "lpage": "132",
+      "doi": "10.1007/978-3-031-73376-5_12"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "title": "CRH-YOLO for precise and efficient detection of gastrointestinal polyps",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "30033",
+      "doi": "10.1038/s41598-024-81842-9",
+      "pmid": "39627309",
+      "pmc_id": "PMC11615362"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "title": "Artificial intelligence-assisted colonoscopy for polyp detection : a systematic review and meta-analysis",
+      "journal": "Ann Intern Med",
+      "year": "2024",
+      "volume": "177",
+      "issue": "12",
+      "fpage": "1652",
+      "lpage": "1663",
+      "doi": "10.7326/ANNALS-24-00981",
+      "pmid": "39531400"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Real-time computer-aided detection of colorectal neoplasia during colonoscopy : a systematic review and meta-analysis",
+      "journal": "Ann Intern Med",
+      "year": "2023",
+      "volume": "176",
+      "issue": "9",
+      "fpage": "1209",
+      "lpage": "1220",
+      "doi": "10.7326/M22-3678",
+      "pmid": "37639719"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "title": "Ai and polyp detection during colonoscopy",
+      "journal": "Cancers (Basel)",
+      "year": "2025",
+      "volume": "17",
+      "issue": "5",
+      "fpage": "797",
+      "doi": "10.3390/cancers17050797",
+      "pmid": "40075645",
+      "pmc_id": "PMC11898786"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "journal": "Multi-frame collaboration for effective endoscopic video polyp detection via spatial-temporal feature transformation",
+      "year": "2021",
+      "doi": "10.48550/arXiv.2107.03609"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "Polyp-Alert: Near real-time feedback during colonoscopy",
+      "journal": "Computer Methods and Programs in Biomedicine",
+      "year": "2015",
+      "volume": "120",
+      "issue": "3",
+      "fpage": "164",
+      "lpage": "179",
+      "doi": "10.1016/j.cmpb.2015.04.002",
+      "pmid": "25952076"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "title": "Improving real-time detection of laryngeal lesions in endoscopic images using a decoupled super-resolution enhanced YOLO",
+      "journal": "Computer Methods and Programs in Biomedicine",
+      "year": "2025",
+      "volume": "260",
+      "doi": "10.1016/j.cmpb.2024.108539",
+      "pmid": "39689500"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "title": "Detection of laryngeal carcinoma during endoscopy using artificial intelligence",
+      "journal": "Head & Neck",
+      "year": "2023",
+      "volume": "45",
+      "issue": "9",
+      "fpage": "2217",
+      "lpage": "26",
+      "pmid": "37377069",
+      "doi": "10.1002/hed.27441"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "title": "Convolutional neural network-based vocal cord tumor classification technique for home-based self-prescreening purpose",
+      "journal": "BioMedical Engineering OnLine",
+      "year": "2023",
+      "volume": "22",
+      "issue": "1",
+      "fpage": "81",
+      "pmid": "37596652",
+      "doi": "10.1186/s12938-023-01139-2",
+      "pmc_id": "PMC10439563"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "title": "A deep learning pipeline for automated classification of vocal fold polyps in flexible laryngoscopy",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2024",
+      "volume": "281",
+      "issue": "4",
+      "fpage": "2055",
+      "lpage": "2062",
+      "doi": "10.1007/s00405-023-08190-8",
+      "pmid": "37695363"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "journal": "Coco"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "journal": "Yolo11"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "journal": "Yolo12"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "journal": "Train"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "journal": "Grad-cam: visual explanations from deep networks via gradient-based localization",
+      "year": "2019",
+      "doi": "10.48550/arXiv.1610.02391"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "title": "Watt) FSN (Tech. # yolo12: redefining object detection with an attention-centric architecture",
+      "journal": "Medium. February",
+      "year": "20visualizations comparing YOLO11 and YOLO12 model 25"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "journal": "Temporal context framework for endoscopy artefact segmentation and detection",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "title": "Improving difficult direct laryngoscopy prediction using deep learning and minimal image analysis: a single-center prospective study",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "14209",
+      "doi": "10.1038/s41598-024-65060-x",
+      "pmid": "38902319",
+      "pmc_id": "PMC11190276"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "title": "Deep learning-based facial analysis for predicting difficult videolaryngoscopy: a feasibility study",
+      "journal": "Anaesthesia",
+      "year": "2024",
+      "volume": "79",
+      "issue": "4",
+      "fpage": "399",
+      "lpage": "409",
+      "doi": "10.1111/anae.16194",
+      "pmid": "38093485"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "title": "Use HiResCAM instead of Grad-CAM for faithful explanations of convolutional neural networks",
+      "journal": "November",
+      "year": "2021",
+      "doi": "10.48550/arXiv.2011.08891"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "title": "Deep learning localizes and identifies polyps in real time with 96% accuracy in screening colonoscopy",
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "volume": "155",
+      "issue": "4",
+      "fpage": "1069",
+      "lpage": "1078",
+      "doi": "10.1053/j.gastro.2018.06.037",
+      "pmid": "29928897",
+      "pmc_id": "PMC6174102"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43.",
+      "title": "Colorectal polyp detection in colonoscopy images using YOLO-V8 network",
+      "journal": "SIViP",
+      "year": "2024",
+      "volume": "18",
+      "issue": "3",
+      "fpage": "2047",
+      "lpage": "2058",
+      "doi": "10.1007/s11760-023-02835-1"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44.",
+      "title": "Artificial intelligence-assisted polyp detection for colonoscopy: initial experience",
+      "journal": "Gastroenterology",
+      "year": "2018",
+      "volume": "154",
+      "issue": "8",
+      "fpage": "2027",
+      "lpage": "2029",
+      "doi": "10.1053/j.gastro.2018.04.003",
+      "pmid": "29653147"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45.",
+      "title": "Artificial intelligence empowers the second-observer strategy for colonoscopy: a randomized clinical trial",
+      "journal": "Gastroenterol Rep (Oxf)",
+      "year": "2023",
+      "volume": "11",
+      "doi": "10.1093/gastro/goac081",
+      "pmc_id": "PMC9850273",
+      "pmid": "36686571"
     }
   ]
 }

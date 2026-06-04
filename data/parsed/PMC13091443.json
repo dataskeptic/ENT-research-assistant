@@ -19,7 +19,8 @@
     "pmc_id": "PMC13091443",
     "pmid": "41962510",
     "full_text_available": true,
-    "section_count": 31
+    "section_count": 31,
+    "reference_count": 63
   },
   "sections": [
     {
@@ -176,6 +177,1052 @@
       "section": "Limitations",
       "text": "In summary, we revealed that the expression of chemerin can regulate the NLRP3/GSDMD-N pathway to promote tumour progression. However, this study did not elaborate on the regulation between pyroptosis and lipid metabolism. Furthermore, the detection of GSDMD-mediated pyroptosis (e.g. IHC staining for GSDMD-N and measurement of inflammatory cytokine secretion) was performed at fixed time points in in vitro cell models and clinical tissue samples, which reflects only a transient state of the dynamic pyroptosis process rather than its continuous and dynamic changes during tumour progression. Pyroptosis is a spatiotemporally regulated cellular process: its initiation, execution and subsequent inflammatory factor release exhibit distinct kinetic characteristics in response to different stimuli (e.g. oxidative stress, immune cell attack) and at different stages of tumour development. Our fixed-time-point detection cannot fully reveal the temporal and spatial dynamics of GSDMD activation, as well as the subsequent paracrine regulation of surviving tumour cells in the tumour microenvironment. In addition, the heterogeneity of tumour cells and the complexity of the tumour microenvironment lead to the asynchronous occurrence of pyroptosis in different tumour cell subpopulations, which makes the snapshot data unable to reflect on the pyroptosis status of the entire tumour tissue comprehensively. In the future, we will continue to investigate the relationship between pyroptosis and lipid metabolism, as well as their potential underlying mechanisms.",
       "order": 30
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib0001",
+      "label": "1",
+      "authors": [
+        "Sung H.",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "issue": "3",
+      "fpage": "209",
+      "lpage": "249",
+      "pmid": "33538338",
+      "doi": "10.3322/caac.21660"
+    },
+    {
+      "ref_id": "bib0002",
+      "label": "2",
+      "authors": [
+        "Mumtaz M.",
+        "et al."
+      ],
+      "title": "Secreted protein markers in oral squamous cell carcinoma (OSCC)",
+      "journal": "Clin Proteomics",
+      "year": "2022",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "4",
+      "pmid": "35130834",
+      "doi": "10.1186/s12014-022-09341-5",
+      "pmc_id": "PMC8903575"
+    },
+    {
+      "ref_id": "bib0003",
+      "label": "3",
+      "authors": [
+        "Chai A.W.Y.",
+        "Lim K.P.",
+        "Cheong S.C."
+      ],
+      "title": "Translational genomics and recent advances in oral squamous cell carcinoma",
+      "journal": "Semin Cancer Biol",
+      "year": "2020",
+      "volume": "61",
+      "fpage": "71",
+      "lpage": "83",
+      "pmid": "31542510",
+      "doi": "10.1016/j.semcancer.2019.09.011"
+    },
+    {
+      "ref_id": "bib0004",
+      "label": "4",
+      "authors": [
+        "Guha N.",
+        "et al."
+      ],
+      "title": "Betel quid chewing and the risk of oral and oropharyngeal cancers: a meta-analysis with implications for cancer control",
+      "journal": "Int J Cancer",
+      "year": "2014",
+      "volume": "135",
+      "issue": "6",
+      "fpage": "1433",
+      "lpage": "1443",
+      "pmid": "24302487",
+      "doi": "10.1002/ijc.28643"
+    },
+    {
+      "ref_id": "bib0005",
+      "label": "5",
+      "authors": [
+        "Chow L.Q.M."
+      ],
+      "title": "Head and neck cancer",
+      "journal": "N Engl J Med",
+      "year": "2020",
+      "volume": "382",
+      "issue": "1",
+      "fpage": "60",
+      "lpage": "72",
+      "pmid": "31893516",
+      "doi": "10.1056/NEJMra1715715"
+    },
+    {
+      "ref_id": "bib0006",
+      "label": "6",
+      "authors": [
+        "Sasahira T.",
+        "Kirita T."
+      ],
+      "title": "Hallmarks of cancer-related newly prognostic factors of oral squamous cell carcinoma",
+      "journal": "Int J Mol Sci",
+      "year": "2018",
+      "volume": "19",
+      "issue": "8",
+      "fpage": "2413",
+      "pmid": "30115834",
+      "doi": "10.3390/ijms19082413",
+      "pmc_id": "PMC6121568"
+    },
+    {
+      "ref_id": "bib0007",
+      "label": "7",
+      "authors": [
+        "Cookson B.T.",
+        "Brennan M.A."
+      ],
+      "title": "Pro-inflammatory programmed cell death",
+      "journal": "Trends Microbiol",
+      "year": "2001",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "113",
+      "lpage": "114",
+      "pmid": "11303500",
+      "doi": "10.1016/s0966-842x(00)01936-3"
+    },
+    {
+      "ref_id": "bib0008",
+      "label": "8",
+      "authors": [
+        "He W.T.",
+        "et al."
+      ],
+      "title": "Gasdermin D is an executor of pyroptosis and required for interleukin-1β secretion",
+      "journal": "Cell Res",
+      "year": "2015",
+      "volume": "25",
+      "issue": "12",
+      "fpage": "1285",
+      "lpage": "1298",
+      "pmid": "26611636",
+      "doi": "10.1038/cr.2015.139",
+      "pmc_id": "PMC4670995"
+    },
+    {
+      "ref_id": "bib0009",
+      "label": "9",
+      "authors": [
+        "Shi J.",
+        "et al."
+      ],
+      "title": "Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death",
+      "journal": "Nature",
+      "year": "2015",
+      "volume": "526",
+      "issue": "7575",
+      "fpage": "660",
+      "lpage": "665",
+      "pmid": "26375003",
+      "doi": "10.1038/nature15514"
+    },
+    {
+      "ref_id": "bib0010",
+      "label": "10",
+      "authors": [
+        "Wang Y.",
+        "et al."
+      ],
+      "title": "Chemotherapy drugs induce pyroptosis through caspase-3 cleavage of a gasdermin",
+      "journal": "Nature",
+      "year": "2017",
+      "volume": "547",
+      "issue": "7661",
+      "fpage": "99",
+      "lpage": "103",
+      "pmid": "28459430",
+      "doi": "10.1038/nature22393"
+    },
+    {
+      "ref_id": "bib0011",
+      "label": "11",
+      "authors": [
+        "Aglietti R.A.",
+        "et al."
+      ],
+      "title": "GsdmD p30 elicited by caspase-11 during pyroptosis forms pores in membranes",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2016",
+      "volume": "113",
+      "issue": "28",
+      "fpage": "7858",
+      "lpage": "7863",
+      "pmid": "27339137",
+      "doi": "10.1073/pnas.1607769113",
+      "pmc_id": "PMC4948338"
+    },
+    {
+      "ref_id": "bib0012",
+      "label": "12",
+      "authors": [
+        "Fink S.L.",
+        "Cookson B.T."
+      ],
+      "title": "Apoptosis, pyroptosis, and necrosis: mechanistic description of dead and dying eukaryotic cells",
+      "journal": "Infect Immun",
+      "year": "2005",
+      "volume": "73",
+      "issue": "4",
+      "fpage": "1907",
+      "lpage": "1916",
+      "pmid": "15784530",
+      "doi": "10.1128/IAI.73.4.1907-1916.2005",
+      "pmc_id": "PMC1087413"
+    },
+    {
+      "ref_id": "bib0013",
+      "label": "13",
+      "authors": [
+        "Miao E.A.",
+        "Rajan J.V.",
+        "Aderem A."
+      ],
+      "title": "Caspase-1-induced pyroptotic cell death",
+      "journal": "Immunol Rev",
+      "year": "2011",
+      "volume": "243",
+      "issue": "1",
+      "fpage": "206",
+      "lpage": "214",
+      "pmid": "21884178",
+      "doi": "10.1111/j.1600-065X.2011.01044.x",
+      "pmc_id": "PMC3609431"
+    },
+    {
+      "ref_id": "bib0014",
+      "label": "14",
+      "authors": [
+        "Cao Z.",
+        "et al."
+      ],
+      "title": "Pyroptosis in diabetes and diabetic nephropathy",
+      "journal": "Clin Chim Acta",
+      "year": "2022",
+      "volume": "531",
+      "fpage": "188",
+      "lpage": "196",
+      "pmid": "35427562",
+      "doi": "10.1016/j.cca.2022.04.011"
+    },
+    {
+      "ref_id": "bib0015",
+      "label": "15",
+      "authors": [
+        "Mu X.",
+        "et al."
+      ],
+      "title": "Pyroptosis and inflammasomes in diabetic wound healing",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.3389/fendo.2022.950798",
+      "pmc_id": "PMC9389066",
+      "pmid": "35992142"
+    },
+    {
+      "ref_id": "bib0016",
+      "label": "16",
+      "authors": [
+        "Zheng X.",
+        "et al."
+      ],
+      "title": "The role and mechanism of pyroptosis and potential therapeutic targets in sepsis: a review",
+      "journal": "Front Immunol",
+      "year": "2021",
+      "volume": "12",
+      "doi": "10.3389/fimmu.2021.711939",
+      "pmc_id": "PMC8293747",
+      "pmid": "34305952"
+    },
+    {
+      "ref_id": "bib0017",
+      "label": "17",
+      "authors": [
+        "Liang S.",
+        "et al."
+      ],
+      "title": "Predicting the prognosis in patients with sepsis by a pyroptosis-related gene signature",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.3389/fimmu.2022.1110602",
+      "pmc_id": "PMC9811195",
+      "pmid": "36618365"
+    },
+    {
+      "ref_id": "bib0018",
+      "label": "18",
+      "authors": [
+        "Wen R.",
+        "et al."
+      ],
+      "title": "Molecular mechanisms and functions of pyroptosis in sepsis and sepsis-associated organ dysfunction",
+      "journal": "Front Cell Infect Microbiol",
+      "year": "2022",
+      "volume": "12",
+      "doi": "10.3389/fcimb.2022.962139",
+      "pmc_id": "PMC9372372",
+      "pmid": "35967871"
+    },
+    {
+      "ref_id": "bib0019",
+      "label": "19",
+      "authors": [
+        "Lin X.",
+        "et al."
+      ],
+      "title": "Focus on ferroptosis, pyroptosis, apoptosis and autophagy of vascular endothelial cells to the strategic targets for the treatment of atherosclerosis",
+      "journal": "Arch Biochem Biophys",
+      "year": "2022",
+      "volume": "715",
+      "doi": "10.1016/j.abb.2021.109098",
+      "pmid": "34856194"
+    },
+    {
+      "ref_id": "bib0020",
+      "label": "20",
+      "authors": [
+        "Liu X.",
+        "et al."
+      ],
+      "title": "Roles of pyroptosis in atherosclerosis pathogenesis",
+      "journal": "Biomed Pharmacother",
+      "year": "2023",
+      "volume": "166",
+      "doi": "10.1016/j.biopha.2023.115369",
+      "pmid": "37643484"
+    },
+    {
+      "ref_id": "bib0021",
+      "label": "21",
+      "authors": [
+        "Carlos D.",
+        "et al."
+      ],
+      "title": "Mitochondrial DNA activates the NLRP3 inflammasome and predisposes to type 1 diabetes in murine model",
+      "journal": "Front Immunol",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "164",
+      "pmid": "28289409",
+      "doi": "10.3389/fimmu.2017.00164",
+      "pmc_id": "PMC5326761"
+    },
+    {
+      "ref_id": "bib0022",
+      "label": "22",
+      "authors": [
+        "Liu S.",
+        "et al."
+      ],
+      "title": "MiR-17-5p inhibits TXNIP/NLRP3 inflammasome pathway and suppresses pancreatic β-cell pyroptosis in diabetic mice",
+      "journal": "Front Cardiovasc Med",
+      "year": "2021",
+      "volume": "8",
+      "doi": "10.3389/fcvm.2021.768029",
+      "pmc_id": "PMC8645844",
+      "pmid": "34881312"
+    },
+    {
+      "ref_id": "bib0023",
+      "label": "23",
+      "authors": [
+        "Li S.",
+        "et al."
+      ],
+      "title": "Chemotherapeutic drugs-induced pyroptosis mediated by gasdermin E promotes the progression and chemoresistance of pancreatic cancer",
+      "journal": "Cancer Lett",
+      "year": "2023",
+      "volume": "564",
+      "doi": "10.1016/j.canlet.2023.216206",
+      "pmid": "37120007"
+    },
+    {
+      "ref_id": "bib0024",
+      "label": "24",
+      "authors": [
+        "Yang S.",
+        "et al."
+      ],
+      "title": "Simvastatin inhibits tumour growth and migration by mediating caspase-1-dependent pyroptosis in glioblastoma multiforme",
+      "journal": "World Neurosurg",
+      "year": "2022",
+      "volume": "165",
+      "fpage": "e12",
+      "lpage": "e21",
+      "pmid": "35342027",
+      "doi": "10.1016/j.wneu.2022.03.089"
+    },
+    {
+      "ref_id": "bib0025",
+      "label": "25",
+      "authors": [
+        "Wei Q.",
+        "et al."
+      ],
+      "title": "E2-induced activation of the NLRP3 inflammasome triggers pyroptosis and inhibits autophagy in HCC cells",
+      "journal": "Oncol Res",
+      "year": "2019",
+      "volume": "27",
+      "issue": "7",
+      "fpage": "827",
+      "lpage": "834",
+      "pmid": "30940293",
+      "doi": "10.3727/096504018X15462920753012",
+      "pmc_id": "PMC7848400"
+    },
+    {
+      "ref_id": "bib0026",
+      "label": "26",
+      "authors": [
+        "Ma X.",
+        "et al."
+      ],
+      "title": "Loss of AIM2 expression promotes hepatocarcinoma progression through activation of mTOR-S6K1 pathway",
+      "journal": "Oncotarget",
+      "year": "2016",
+      "volume": "7",
+      "issue": "24",
+      "fpage": "36185",
+      "lpage": "36197",
+      "pmid": "27167192",
+      "doi": "10.18632/oncotarget.9154",
+      "pmc_id": "PMC5094992"
+    },
+    {
+      "ref_id": "bib0027",
+      "label": "27",
+      "authors": [
+        "Wang S.",
+        "et al."
+      ],
+      "title": "GSDME is related to prognosis and response to chemotherapy in oral cancer",
+      "journal": "J Dent Res",
+      "year": "2022",
+      "volume": "101",
+      "issue": "7",
+      "fpage": "848",
+      "lpage": "858",
+      "pmid": "35148659",
+      "doi": "10.1177/00220345211073072"
+    },
+    {
+      "ref_id": "bib0028",
+      "label": "28",
+      "authors": [
+        "Zi M.",
+        "et al."
+      ],
+      "title": "Improved antitumour immunity of chemotherapy in OSCC treatment by gasdermin-E mediated pyroptosis",
+      "journal": "Apoptosis",
+      "year": "2023",
+      "volume": "28",
+      "issue": "3–4",
+      "fpage": "348",
+      "lpage": "361",
+      "pmid": "36370260",
+      "doi": "10.1007/s10495-022-01792-3"
+    },
+    {
+      "ref_id": "bib0029",
+      "label": "29",
+      "authors": [
+        "Liu Y.",
+        "et al."
+      ],
+      "title": "DNASE1L3 regulates macrophage polarization through the NLRP3-GSDMD signalling pathway affecting hepatocellular carcinoma progression",
+      "journal": "Mol Biol Cell",
+      "year": "2026",
+      "volume": "37",
+      "issue": "1",
+      "fpage": "ar6",
+      "pmid": "41296515",
+      "doi": "10.1091/mbc.E25-05-0265",
+      "pmc_id": "PMC12699793"
+    },
+    {
+      "ref_id": "bib0030",
+      "label": "30",
+      "authors": [
+        "Xie Y.",
+        "et al."
+      ],
+      "title": "Chemerin/CMKLR1 axis promotes inflammation and pyroptosis by activating NLRP3 inflammasome in diabetic cardiomyopathy rat",
+      "journal": "Front Physiol",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "381",
+      "pmid": "32390873",
+      "doi": "10.3389/fphys.2020.00381",
+      "pmc_id": "PMC7191320"
+    },
+    {
+      "ref_id": "bib0031",
+      "label": "31",
+      "authors": [
+        "Helfer G.",
+        "Wu Q.F."
+      ],
+      "title": "Chemerin: a multifaceted adipokine involved in metabolic disorders",
+      "journal": "J Endocrinol",
+      "year": "2018",
+      "volume": "238",
+      "issue": "2",
+      "fpage": "R79",
+      "lpage": "R94",
+      "pmid": "29848608",
+      "doi": "10.1530/JOE-18-0174",
+      "pmc_id": "PMC6026924"
+    },
+    {
+      "ref_id": "bib0032",
+      "label": "32",
+      "authors": [
+        "Gao C.",
+        "et al."
+      ],
+      "title": "Chemerin promotes proliferation and migration of ovarian cancer cells by upregulating expression of PD-L1",
+      "journal": "J Zhejiang Univ Sci B",
+      "year": "2022",
+      "volume": "23",
+      "issue": "2",
+      "fpage": "164",
+      "lpage": "170",
+      "pmid": "35187890",
+      "doi": "10.1631/jzus.B2100392",
+      "pmc_id": "PMC8861558"
+    },
+    {
+      "ref_id": "bib0033",
+      "label": "33",
+      "authors": [
+        "Kumar J.D.",
+        "et al."
+      ],
+      "title": "The role of chemerin and ChemR23 in stimulating the invasion of squamous oesophageal cancer cells",
+      "journal": "Br J Cancer",
+      "year": "2016",
+      "volume": "114",
+      "issue": "10",
+      "fpage": "1152",
+      "lpage": "1159",
+      "pmid": "27092781",
+      "doi": "10.1038/bjc.2016.93",
+      "pmc_id": "PMC4865978"
+    },
+    {
+      "ref_id": "bib0034",
+      "label": "34",
+      "authors": [
+        "Hu X.",
+        "et al."
+      ],
+      "title": "Neutrophils promote tumour progression in oral squamous cell carcinoma by regulating EMT and JAK2/STAT3 signalling through chemerin",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "doi": "10.3389/fonc.2022.812044",
+      "pmc_id": "PMC8831747",
+      "pmid": "35155249"
+    },
+    {
+      "ref_id": "bib0035",
+      "label": "35",
+      "authors": [
+        "Wang H.",
+        "et al."
+      ],
+      "title": "NLRP3 promotes tumour growth and metastasis in human oral squamous cell carcinoma",
+      "journal": "BMC Cancer",
+      "year": "2018",
+      "volume": "18",
+      "issue": "1",
+      "fpage": "500",
+      "pmid": "29716544",
+      "doi": "10.1186/s12885-018-4403-9",
+      "pmc_id": "PMC5930757"
+    },
+    {
+      "ref_id": "bib0036",
+      "label": "36",
+      "authors": [
+        "Quan X.Z.",
+        "et al."
+      ],
+      "title": "HOXA9-induced chemerin signals through CMKLR1/AMPK/TXNIP/NLRP3 pathway to induce pyroptosis of trophoblasts and aggravate preeclampsia",
+      "journal": "Exp Cell Res",
+      "year": "2021",
+      "volume": "408",
+      "issue": "2",
+      "doi": "10.1016/j.yexcr.2021.112802",
+      "pmid": "34461109"
+    },
+    {
+      "ref_id": "bib0037",
+      "label": "37",
+      "authors": [
+        "Gao J.",
+        "et al."
+      ],
+      "title": "Downregulation of GSDMD attenuates tumour proliferation via the intrinsic mitochondrial apoptotic pathway and inhibition of EGFR/Akt signalling and predicts a good prognosis in non‑small cell lung cancer",
+      "journal": "Oncol Rep",
+      "year": "2018",
+      "volume": "40",
+      "issue": "4",
+      "fpage": "1971",
+      "lpage": "1984",
+      "pmid": "30106450",
+      "doi": "10.3892/or.2018.6634",
+      "pmc_id": "PMC6111570"
+    },
+    {
+      "ref_id": "bib0038",
+      "label": "38",
+      "authors": [
+        "Peng J.",
+        "et al."
+      ],
+      "title": "CD147 expression is associated with tumour proliferation in bladder cancer via GSDMD",
+      "journal": "Biomed Res Int",
+      "year": "2020",
+      "doi": "10.1155/2020/7638975",
+      "pmc_id": "PMC7054768",
+      "pmid": "32149134"
+    },
+    {
+      "ref_id": "bib0039",
+      "label": "39",
+      "authors": [
+        "Gao F.",
+        "et al."
+      ],
+      "title": "Neutrophils regulate tumour angiogenesis in oral squamous cell carcinoma and the role of Chemerin",
+      "journal": "Int Immunopharmacol",
+      "year": "2023",
+      "volume": "121",
+      "doi": "10.1016/j.intimp.2023.110540",
+      "pmid": "37354780"
+    },
+    {
+      "ref_id": "bib0040",
+      "label": "40",
+      "authors": [
+        "Khan M.",
+        "et al."
+      ],
+      "title": "Pyroptosis relates to tumour microenvironment remodeling and prognosis: a pan-cancer perspective",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.3389/fimmu.2022.1062225",
+      "pmc_id": "PMC9808401",
+      "pmid": "36605187"
+    },
+    {
+      "ref_id": "bib0041",
+      "label": "41",
+      "authors": [
+        "Wu M.",
+        "et al."
+      ],
+      "title": "A PLK1 kinase inhibitor enhances the chemosensitivity of cisplatin by inducing pyroptosis in oesophageal squamous cell carcinoma",
+      "journal": "EBioMedicine",
+      "year": "2019",
+      "volume": "41",
+      "fpage": "244",
+      "lpage": "255",
+      "pmid": "30876762",
+      "doi": "10.1016/j.ebiom.2019.02.012",
+      "pmc_id": "PMC6442225"
+    },
+    {
+      "ref_id": "bib0042",
+      "label": "42",
+      "authors": [
+        "Hergueta-Redondo M.",
+        "et al."
+      ],
+      "title": "Gasdermin-B promotes invasion and metastasis in breast cancer cells",
+      "journal": "PLoS One",
+      "year": "2014",
+      "volume": "9",
+      "issue": "3",
+      "doi": "10.1371/journal.pone.0090099",
+      "pmc_id": "PMC3967990",
+      "pmid": "24675552"
+    },
+    {
+      "ref_id": "bib0043",
+      "label": "43",
+      "authors": [
+        "Xie D.",
+        "et al."
+      ],
+      "title": "Macrophages promote growth, migration and epithelial-mesenchymal transition of renal cell carcinoma by regulating GSDMD/IL-1β axis",
+      "journal": "Cytokine",
+      "year": "2022",
+      "volume": "159",
+      "doi": "10.1016/j.cyto.2022.156021",
+      "pmid": "36057231"
+    },
+    {
+      "ref_id": "bib0044",
+      "label": "44",
+      "authors": [
+        "Hu K.",
+        "et al."
+      ],
+      "title": "Integrated analysis of expression, prognostic value and immune infiltration of GSDMs in hepatocellular carcinoma",
+      "journal": "Aging (Albany NY)",
+      "year": "2021",
+      "volume": "13",
+      "issue": "21",
+      "fpage": "24117",
+      "lpage": "24135",
+      "pmid": "34731088",
+      "doi": "10.18632/aging.203669",
+      "pmc_id": "PMC8610125"
+    },
+    {
+      "ref_id": "bib0045",
+      "label": "45",
+      "authors": [
+        "Wang G.",
+        "et al."
+      ],
+      "title": "High pyroptosis activity in pancreatic adenocarcinoma: poor prognosis and oxaliplatin resistance",
+      "journal": "Apoptosis",
+      "year": "2024",
+      "volume": "29",
+      "issue": "3–4",
+      "fpage": "344",
+      "lpage": "356",
+      "pmid": "37848674",
+      "doi": "10.1007/s10495-023-01901-w"
+    },
+    {
+      "ref_id": "bib0046",
+      "label": "46",
+      "authors": [
+        "Huang Y.",
+        "et al."
+      ],
+      "title": "PEG2-induced pyroptosis regulates the expression of HMGB1 and promotes hEM15A migration in endometriosis",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "23",
+      "issue": "19",
+      "fpage": "11707",
+      "pmid": "36233009",
+      "doi": "10.3390/ijms231911707",
+      "pmc_id": "PMC9570047"
+    },
+    {
+      "ref_id": "bib0047",
+      "label": "47",
+      "authors": [
+        "Tan G.",
+        "et al."
+      ],
+      "title": "HMGB1 released from GSDME-mediated pyroptotic epithelial cells participates in the tumourigenesis of colitis-associated colorectal cancer through the ERK1/2 pathway",
+      "journal": "J Hematol Oncol",
+      "year": "2020",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "149",
+      "pmid": "33160389",
+      "doi": "10.1186/s13045-020-00985-0",
+      "pmc_id": "PMC7648939"
+    },
+    {
+      "ref_id": "bib0048",
+      "label": "48",
+      "authors": [
+        "Gao X.",
+        "et al."
+      ],
+      "title": "Upregulation of HMGB1 in tumour-associated macrophages induced by tumour cell-derived lactate further promotes colorectal cancer progression",
+      "journal": "J Transl Med",
+      "year": "2023",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "53",
+      "pmid": "36709284",
+      "doi": "10.1186/s12967-023-03918-w",
+      "pmc_id": "PMC9883966"
+    },
+    {
+      "ref_id": "bib0049",
+      "label": "49",
+      "authors": [
+        "He H.",
+        "et al."
+      ],
+      "title": "USP24-GSDMB complex promotes bladder cancer proliferation via activation of the STAT3 pathway",
+      "journal": "Int J Biol Sci",
+      "year": "2021",
+      "volume": "17",
+      "issue": "10",
+      "fpage": "2417",
+      "lpage": "2429",
+      "pmid": "34326684",
+      "doi": "10.7150/ijbs.54442",
+      "pmc_id": "PMC8315027"
+    },
+    {
+      "ref_id": "bib0050",
+      "label": "50",
+      "authors": [
+        "Yu P.",
+        "et al."
+      ],
+      "title": "Pyroptosis: mechanisms and diseases",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2021",
+      "volume": "6",
+      "issue": "1",
+      "fpage": "128",
+      "pmid": "33776057",
+      "doi": "10.1038/s41392-021-00507-5",
+      "pmc_id": "PMC8005494"
+    },
+    {
+      "ref_id": "bib0051",
+      "label": "51",
+      "authors": [
+        "Mantsounga C.S.",
+        "et al."
+      ],
+      "title": "Macrophage IL-1β promotes arteriogenesis by autocrine STAT3- and NF-κB-mediated transcription of pro-angiogenic VEGF-A",
+      "journal": "Cell Rep",
+      "year": "2022",
+      "volume": "38",
+      "issue": "5",
+      "doi": "10.1016/j.celrep.2022.110309",
+      "pmc_id": "PMC8865931",
+      "pmid": "35108537"
+    },
+    {
+      "ref_id": "bib0052",
+      "label": "52",
+      "authors": [
+        "Ji H.",
+        "et al."
+      ],
+      "title": "IL-18, a therapeutic target for immunotherapy boosting, promotes temozolomide chemoresistance via the PI3K/AKT pathway in glioma",
+      "journal": "J Transl Med",
+      "year": "2024",
+      "volume": "22",
+      "issue": "1",
+      "fpage": "951",
+      "pmid": "39434175",
+      "doi": "10.1186/s12967-024-05755-x",
+      "pmc_id": "PMC11492732"
+    },
+    {
+      "ref_id": "bib0053",
+      "label": "53",
+      "authors": [
+        "Wu W.",
+        "et al."
+      ],
+      "title": "Dixdc1 targets CyclinD1 and p21 via PI3K pathway activation to promote Schwann cell proliferation after sciatic nerve crush",
+      "journal": "Biochem Biophys Res Commun",
+      "year": "2016",
+      "volume": "478",
+      "issue": "2",
+      "fpage": "956",
+      "lpage": "963",
+      "pmid": "27521891",
+      "doi": "10.1016/j.bbrc.2016.08.058"
+    },
+    {
+      "ref_id": "bib0054",
+      "label": "54",
+      "authors": [
+        "He Y.",
+        "et al."
+      ],
+      "title": "Targeting PI3K/Akt signal transduction for cancer therapy",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2021",
+      "volume": "6",
+      "issue": "1",
+      "fpage": "425",
+      "pmid": "34916492",
+      "doi": "10.1038/s41392-021-00828-5",
+      "pmc_id": "PMC8677728"
+    },
+    {
+      "ref_id": "bib0055",
+      "label": "55",
+      "authors": [
+        "Huang C.",
+        "et al."
+      ],
+      "title": "Targeting pyroptosis for cancer immunotherapy: mechanistic insights and clinical perspectives",
+      "journal": "Mol Cancer",
+      "year": "2025",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "131",
+      "pmid": "40319304",
+      "doi": "10.1186/s12943-025-02344-4",
+      "pmc_id": "PMC12049004"
+    },
+    {
+      "ref_id": "bib0056",
+      "label": "56",
+      "authors": [
+        "Li M.",
+        "et al."
+      ],
+      "title": "The role of pyroptosis and gasdermin family in tumour progression and immune microenvironment",
+      "journal": "Exp Hematol Oncol",
+      "year": "2023",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "103",
+      "pmid": "38066523",
+      "doi": "10.1186/s40164-023-00464-5",
+      "pmc_id": "PMC10704735"
+    },
+    {
+      "ref_id": "bib0057",
+      "label": "57",
+      "authors": [
+        "Oh S.",
+        "et al."
+      ],
+      "title": "Attenuating effects of dieckol on high-fat diet-induced nonalcoholic fatty liver disease by decreasing the NLRP3 inflammasome and pyroptosis",
+      "journal": "Mar Drugs",
+      "year": "2021",
+      "volume": "19",
+      "issue": "6",
+      "fpage": "318",
+      "pmid": "34070893",
+      "doi": "10.3390/md19060318",
+      "pmc_id": "PMC8227003"
+    },
+    {
+      "ref_id": "bib0058",
+      "label": "58",
+      "authors": [
+        "Gurcel L.",
+        "et al."
+      ],
+      "title": "Caspase-1 activation of lipid metabolic pathways in response to bacterial pore-forming toxins promotes cell survival",
+      "journal": "Cell",
+      "year": "2006",
+      "volume": "126",
+      "issue": "6",
+      "fpage": "1135",
+      "lpage": "1145",
+      "pmid": "16990137",
+      "doi": "10.1016/j.cell.2006.07.033"
+    },
+    {
+      "ref_id": "bib0059",
+      "label": "59",
+      "authors": [
+        "Zou J.",
+        "Yan C.",
+        "Wan J.B."
+      ],
+      "title": "Red yeast rice ameliorates non-alcoholic fatty liver disease through inhibiting lipid synthesis and NF-κB/NLRP3 inflammasome-mediated hepatic inflammation in mice",
+      "journal": "Chin Med",
+      "year": "2022",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "17",
+      "pmid": "35078487",
+      "doi": "10.1186/s13020-022-00573-z",
+      "pmc_id": "PMC8788078"
+    },
+    {
+      "ref_id": "bib0060",
+      "label": "60",
+      "authors": [
+        "Ren Y.",
+        "et al."
+      ],
+      "title": "USP48 stabilizes gasdermin E to promote pyroptosis in cancer",
+      "journal": "Cancer Res",
+      "year": "2023",
+      "volume": "83",
+      "issue": "7",
+      "fpage": "1074",
+      "lpage": "1093",
+      "pmid": "36607699",
+      "doi": "10.1158/0008-5472.CAN-22-1812"
+    },
+    {
+      "ref_id": "bib0061",
+      "label": "61",
+      "authors": [
+        "Qiu Z.",
+        "et al."
+      ],
+      "title": "Lipopolysaccharide (LPS) aggravates high glucose- and hypoxia/reoxygenation-induced injury through activating ROS-dependent NLRP3 inflammasome-mediated pyroptosis in H9C2 cardiomyocytes",
+      "journal": "J Diabetes Res",
+      "year": "2019",
+      "volume": "2019",
+      "doi": "10.1155/2019/8151836",
+      "pmc_id": "PMC6398034",
+      "pmid": "30911553"
+    },
+    {
+      "ref_id": "bib0062",
+      "label": "62",
+      "authors": [
+        "Gao W.",
+        "et al."
+      ],
+      "title": "TRIM21 regulates pyroptotic cell death by promoting Gasdermin D oligomerization",
+      "journal": "Cell Death Differ",
+      "year": "2022",
+      "volume": "29",
+      "issue": "2",
+      "fpage": "439",
+      "lpage": "450",
+      "pmid": "34511601",
+      "doi": "10.1038/s41418-021-00867-z",
+      "pmc_id": "PMC8817046"
+    },
+    {
+      "ref_id": "bib0063",
+      "label": "63",
+      "authors": [
+        "Jorgensen I.",
+        "Miao E.A."
+      ],
+      "title": "Pyroptotic cell death defends against intracellular pathogens",
+      "journal": "Immunol Rev",
+      "year": "2015",
+      "volume": "265",
+      "issue": "1",
+      "fpage": "130",
+      "lpage": "142",
+      "pmid": "25879289",
+      "doi": "10.1111/imr.12287",
+      "pmc_id": "PMC4400865"
     }
   ]
 }

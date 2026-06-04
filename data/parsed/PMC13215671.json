@@ -28,7 +28,8 @@
     "pmc_id": "PMC13215671",
     "pmid": "42187018",
     "full_text_available": true,
-    "section_count": 19
+    "section_count": 19,
+    "reference_count": 49
   },
   "sections": [
     {
@@ -125,6 +126,904 @@
       "section": "Mtrf Analysis",
       "text": "To validate the linguistic features from our HM-LSTM models, we also examined baseline models for the linguistic features using mTRF analysis. Our predictors include phoneme, syllable, word, phrase, and sentence (i.e. marking a value of 1 at each unit boundary offset). Our EEG data spans the entire 10 min duration for each condition, sampled at 10 ms intervals. Since our speech stimuli were computer-synthesized, the phoneme and syllable boundaries were automatically generated. The word boundaries were manually annotated by a native Mandarin speaker, as in Li et al., 2022 . The phrase boundaries were automatically annotated by the Stanford parser ( Levy and Manning, 2003 ) and manually checked by a native Mandarin speaker. These rate models are represented as five distinct binary time series, each aligned with the timing of the corresponding linguistic unit, making them well suited for mTRF analysis. Note that the rate regressors only encode the timing of linguistic unit boundaries, while the model-derived features encode the representational content of the linguistic input. We also extracted the envelope at 10 ms intervals for both attended and unattended speech. We computed mTRFs independently for each subject and sensor using a basis of 50 ms Hamming windows spanning –100 to 300 ms relative to all linguistic boundaries and envelope onset. The mTRF analysis was conducted using the Python package Eelbrain (v.0.39.8).",
       "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "authors": [
+        "Apoux F",
+        "Bacon SP"
+      ],
+      "title": "Relative importance of temporal information in various frequency regions for consonant identification in quiet and in noise",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2004",
+      "volume": "116",
+      "fpage": "1671",
+      "lpage": "1680",
+      "doi": "10.1121/1.1781329",
+      "pmid": "15478433"
+    },
+    {
+      "ref_id": "bib2",
+      "authors": [
+        "Badri R",
+        "Siegel JH",
+        "Wright BA"
+      ],
+      "title": "Auditory filter shapes and high-frequency hearing in adults who have impaired speech in noise performance despite clinically normal audiograms",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2011",
+      "volume": "129",
+      "fpage": "852",
+      "lpage": "863",
+      "doi": "10.1121/1.3523476",
+      "pmid": "21361443",
+      "pmc_id": "PMC3070989"
+    },
+    {
+      "ref_id": "bib3",
+      "authors": [
+        "Bemis DK",
+        "Pylkkänen L"
+      ],
+      "title": "Simple composition: a magnetoencephalography investigation into the comprehension of minimal linguistic phrases",
+      "journal": "The Journal of Neuroscience",
+      "year": "2011",
+      "volume": "31",
+      "fpage": "2801",
+      "lpage": "2814",
+      "doi": "10.1523/JNEUROSCI.5003-10.2011",
+      "pmid": "21414902",
+      "pmc_id": "PMC6623787"
+    },
+    {
+      "ref_id": "bib4",
+      "authors": [
+        "Bharadwaj HM",
+        "Mai AR",
+        "Simpson JM",
+        "Choi I",
+        "Heinz MG",
+        "Shinn-Cunningham BG"
+      ],
+      "title": "Non-invasive assays of cochlear synaptopathy - candidates and considerations",
+      "journal": "Neuroscience",
+      "year": "2019",
+      "volume": "407",
+      "fpage": "53",
+      "lpage": "66",
+      "doi": "10.1016/j.neuroscience.2019.02.031",
+      "pmid": "30853540",
+      "pmc_id": "PMC6513698"
+    },
+    {
+      "ref_id": "bib5",
+      "authors": [
+        "Blank IA",
+        "Fedorenko E"
+      ],
+      "title": "No evidence for differences among language regions in their temporal receptive windows",
+      "journal": "NeuroImage",
+      "year": "2020",
+      "volume": "219",
+      "elocation_id": "116925",
+      "doi": "10.1016/j.neuroimage.2020.116925",
+      "pmid": "32407994",
+      "pmc_id": "PMC9392830"
+    },
+    {
+      "ref_id": "bib6",
+      "authors": [
+        "Brodbeck C",
+        "Hong LE",
+        "Simon JZ"
+      ],
+      "title": "Rapid transformation from auditory to linguistic representations of continuous speech",
+      "journal": "Current Biology",
+      "year": "2018",
+      "volume": "28",
+      "fpage": "3976",
+      "lpage": "3983",
+      "doi": "10.1016/j.cub.2018.10.042",
+      "pmid": "30503620",
+      "pmc_id": "PMC6339854"
+    },
+    {
+      "ref_id": "bib7",
+      "authors": [
+        "Brungart DS"
+      ],
+      "title": "Informational and energetic masking effects in the perception of two simultaneous talkers",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "2001",
+      "volume": "109",
+      "fpage": "1101",
+      "lpage": "1109",
+      "doi": "10.1121/1.1345696",
+      "pmid": "11303924"
+    },
+    {
+      "ref_id": "bib8",
+      "authors": [
+        "Caucheteux C",
+        "King JR"
+      ],
+      "title": "Brains and algorithms partially converge in natural language processing",
+      "journal": "Communications Biology",
+      "year": "2022",
+      "volume": "5",
+      "elocation_id": "134",
+      "doi": "10.1038/s42003-022-03036-1",
+      "pmid": "35173264",
+      "pmc_id": "PMC8850612"
+    },
+    {
+      "ref_id": "bib9",
+      "authors": [
+        "Chang CHC",
+        "Nastase SA",
+        "Hasson U"
+      ],
+      "title": "Information flow across the cortical timescale hierarchy during narrative construction",
+      "journal": "PNAS",
+      "year": "2022",
+      "volume": "119",
+      "elocation_id": "e2209307119",
+      "doi": "10.1073/pnas.2209307119",
+      "pmid": "36508677",
+      "pmc_id": "PMC9907070"
+    },
+    {
+      "ref_id": "bib10",
+      "authors": [
+        "Cherry EC"
+      ],
+      "title": "Some experiments on the recognition of speech, with one and with two ears",
+      "journal": "The Journal of the Acoustical Society of America",
+      "year": "1953",
+      "volume": "25",
+      "fpage": "975",
+      "lpage": "979",
+      "doi": "10.1121/1.1907229"
+    },
+    {
+      "ref_id": "bib11",
+      "authors": [
+        "Chung J",
+        "Ahn S",
+        "Bengio Y"
+      ],
+      "journal": "Hierarchical Multiscale Recurrent Neural Networks",
+      "year": "2017"
+    },
+    {
+      "ref_id": "bib12",
+      "authors": [
+        "Collins MJ",
+        "Cullen JK",
+        "Berlin CI"
+      ],
+      "title": "Auditory signal processing in a hearing-impaired subject with residual ultra-audiometric hearing",
+      "journal": "Audiology",
+      "year": "1981",
+      "volume": "20",
+      "fpage": "347",
+      "lpage": "361",
+      "doi": "10.3109/00206098109072707",
+      "pmid": "7259630"
+    },
+    {
+      "ref_id": "bib13",
+      "authors": [
+        "Ding N",
+        "Simon JZ"
+      ],
+      "title": "Emergence of neural encoding of auditory objects while listening to competing speakers",
+      "journal": "PNAS",
+      "year": "2012",
+      "volume": "109",
+      "fpage": "11854",
+      "lpage": "11859",
+      "doi": "10.1073/pnas.1205381109",
+      "pmid": "22753470",
+      "pmc_id": "PMC3406818"
+    },
+    {
+      "ref_id": "bib14",
+      "authors": [
+        "Ding Nai",
+        "Melloni L",
+        "Zhang H",
+        "Tian X",
+        "Poeppel D"
+      ],
+      "title": "Cortical tracking of hierarchical linguistic structures in connected speech",
+      "journal": "Nature Neuroscience",
+      "year": "2016",
+      "volume": "19",
+      "fpage": "158",
+      "lpage": "164",
+      "doi": "10.1038/nn.4186",
+      "pmid": "26642090",
+      "pmc_id": "PMC4809195"
+    },
+    {
+      "ref_id": "bib15",
+      "authors": [
+        "Du Y",
+        "Buchsbaum BR",
+        "Grady CL",
+        "Alain C"
+      ],
+      "title": "Increased activity in frontal motor cortex compensates impaired speech perception in older adults",
+      "journal": "Nature Communications",
+      "year": "2016",
+      "volume": "7",
+      "elocation_id": "12241",
+      "doi": "10.1038/ncomms12241",
+      "pmid": "27483187",
+      "pmc_id": "PMC4974649"
+    },
+    {
+      "ref_id": "bib16",
+      "authors": [
+        "Fuglsang SA",
+        "Märcher-Rørsted J",
+        "Dau T",
+        "Hjortkjær J"
+      ],
+      "title": "Effects of sensorineural hearing loss on cortical synchronization to competing speech during selective attention",
+      "journal": "The Journal of Neuroscience",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "2562",
+      "lpage": "2572",
+      "doi": "10.1523/JNEUROSCI.1936-19.2020",
+      "pmid": "32094201",
+      "pmc_id": "PMC7083526"
+    },
+    {
+      "ref_id": "bib17",
+      "authors": [
+        "Gao C",
+        "Li J",
+        "Chen J",
+        "Huang S"
+      ],
+      "journal": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "year": "2024",
+      "fpage": "11295",
+      "lpage": "11308",
+      "doi": "10.18653/v1/2024.acl-long.609"
+    },
+    {
+      "ref_id": "bib18",
+      "authors": [
+        "Gazzaley A",
+        "Cooney JW",
+        "Rissman J",
+        "D’Esposito M"
+      ],
+      "title": "Top-down suppression deficit underlies working memory impairment in normal aging",
+      "journal": "Nature Neuroscience",
+      "year": "2005",
+      "volume": "8",
+      "fpage": "1298",
+      "lpage": "1300",
+      "doi": "10.1038/nn1543",
+      "pmid": "16158065"
+    },
+    {
+      "ref_id": "bib19",
+      "authors": [
+        "Gazzaley A",
+        "Clapp W",
+        "Kelley J",
+        "McEvoy K",
+        "Knight RT",
+        "D’Esposito M"
+      ],
+      "title": "Age-related top-down suppression deficit in the early stages of cortical visual memory processing",
+      "journal": "PNAS",
+      "year": "2008",
+      "volume": "105",
+      "fpage": "13122",
+      "lpage": "13126",
+      "doi": "10.1073/pnas.0806074105",
+      "pmid": "18765818",
+      "pmc_id": "PMC2529045"
+    },
+    {
+      "ref_id": "bib20",
+      "authors": [
+        "Goldstein A",
+        "Zada Z",
+        "Buchnik E",
+        "Schain M",
+        "Price A",
+        "Aubrey B",
+        "Nastase SA",
+        "Feder A",
+        "Emanuel D",
+        "Cohen A",
+        "Jansen A",
+        "Gazula H",
+        "Choe G",
+        "Rao A",
+        "Kim C",
+        "Casto C",
+        "Fanda L",
+        "Doyle W",
+        "Friedman D",
+        "Dugan P",
+        "Melloni L",
+        "Reichart R",
+        "Devore S",
+        "Flinker A",
+        "Hasenfratz L",
+        "Levy O",
+        "Hassidim A",
+        "Brenner M",
+        "Matias Y",
+        "Norman KA",
+        "Devinsky O",
+        "Hasson U"
+      ],
+      "title": "Shared computational principles for language processing in humans and deep language models",
+      "journal": "Nature Neuroscience",
+      "year": "2022",
+      "volume": "25",
+      "fpage": "369",
+      "lpage": "380",
+      "doi": "10.1038/s41593-022-01026-4",
+      "pmid": "35260860",
+      "pmc_id": "PMC8904253"
+    },
+    {
+      "ref_id": "bib21",
+      "authors": [
+        "Goossens T",
+        "Vercammen C",
+        "Wouters J",
+        "van Wieringen A"
+      ],
+      "title": "Aging affects neural synchronization to speech-related acoustic modulations",
+      "journal": "Frontiers in Aging Neuroscience",
+      "year": "2016",
+      "volume": "8",
+      "elocation_id": "133",
+      "doi": "10.3389/fnagi.2016.00133",
+      "pmid": "27378906",
+      "pmc_id": "PMC4908923"
+    },
+    {
+      "ref_id": "bib22",
+      "authors": [
+        "Goossens T",
+        "Vercammen C",
+        "Wouters J",
+        "van Wieringen A"
+      ],
+      "title": "Neural envelope encoding predicts speech perception performance for normal-hearing and hearing-impaired adults",
+      "journal": "Hearing Research",
+      "year": "2018",
+      "volume": "370",
+      "fpage": "189",
+      "lpage": "200",
+      "doi": "10.1016/j.heares.2018.07.012",
+      "pmid": "30131201"
+    },
+    {
+      "ref_id": "bib23",
+      "authors": [
+        "Gwilliams L",
+        "King JR",
+        "Marantz A",
+        "Poeppel D"
+      ],
+      "title": "Neural dynamics of phoneme sequences reveal position-invariant code for content and order",
+      "journal": "Nature Communications",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "6606",
+      "doi": "10.1038/s41467-022-34326-1",
+      "pmid": "36329058",
+      "pmc_id": "PMC9633780"
+    },
+    {
+      "ref_id": "bib24",
+      "authors": [
+        "Hasson U",
+        "Yang E",
+        "Vallines I",
+        "Heeger DJ",
+        "Rubin N"
+      ],
+      "title": "A hierarchy of temporal receptive windows in human cortex",
+      "journal": "The Journal of Neuroscience",
+      "year": "2008",
+      "volume": "28",
+      "fpage": "2539",
+      "lpage": "2550",
+      "doi": "10.1523/JNEUROSCI.5487-07.2008",
+      "pmid": "18322098",
+      "pmc_id": "PMC2556707"
+    },
+    {
+      "ref_id": "bib25",
+      "authors": [
+        "Honey CJ",
+        "Thesen T",
+        "Donner TH",
+        "Silbert LJ",
+        "Carlson CE",
+        "Devinsky O",
+        "Doyle WK",
+        "Rubin N",
+        "Heeger DJ",
+        "Hasson U"
+      ],
+      "title": "Slow cortical dynamics and the accumulation of information over long timescales",
+      "journal": "Neuron",
+      "year": "2012",
+      "volume": "76",
+      "fpage": "423",
+      "lpage": "434",
+      "doi": "10.1016/j.neuron.2012.08.011",
+      "pmid": "23083743",
+      "pmc_id": "PMC3517908"
+    },
+    {
+      "ref_id": "bib26",
+      "authors": [
+        "Hubel DH",
+        "Wiesel TN"
+      ],
+      "title": "Receptive fields, binocular interaction and functional architecture in the cat’s visual cortex",
+      "journal": "The Journal of Physiology",
+      "year": "1962",
+      "volume": "160",
+      "fpage": "106",
+      "lpage": "154",
+      "doi": "10.1113/jphysiol.1962.sp006837",
+      "pmid": "14449617",
+      "pmc_id": "PMC1359523"
+    },
+    {
+      "ref_id": "bib27",
+      "authors": [
+        "Lerner Y",
+        "Honey CJ",
+        "Silbert LJ",
+        "Hasson U"
+      ],
+      "title": "Topographic mapping of a hierarchy of temporal receptive windows using a narrated story",
+      "journal": "The Journal of Neuroscience",
+      "year": "2011",
+      "volume": "31",
+      "fpage": "2906",
+      "lpage": "2915",
+      "doi": "10.1523/JNEUROSCI.3684-10.2011",
+      "pmid": "21414912",
+      "pmc_id": "PMC3089381"
+    },
+    {
+      "ref_id": "bib28",
+      "authors": [
+        "Levy R",
+        "Manning CD"
+      ],
+      "title": "Is it harder to parse Chinese, or the Chinese Treebank?",
+      "year": "2003",
+      "doi": "10.3115/1075096.1075152"
+    },
+    {
+      "ref_id": "bib29",
+      "authors": [
+        "Levy SC",
+        "Freed DJ",
+        "Nilsson M",
+        "Moore BCJ",
+        "Puria S"
+      ],
+      "title": "Extended high-frequency bandwidth improves speech reception in the presence of spatially separated masking speech",
+      "journal": "Ear and Hearing",
+      "year": "2015",
+      "volume": "36",
+      "fpage": "e214",
+      "lpage": "e224",
+      "doi": "10.1097/AUD.0000000000000161",
+      "pmid": "25856543",
+      "pmc_id": "PMC4549240"
+    },
+    {
+      "ref_id": "bib30",
+      "authors": [
+        "Li J",
+        "Pylkkänen L"
+      ],
+      "title": "Disentangling semantic composition and semantic association in the left temporal lobe",
+      "journal": "The Journal of Neuroscience",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "6526",
+      "lpage": "6538",
+      "doi": "10.1523/JNEUROSCI.2317-20.2021",
+      "pmid": "34131034",
+      "pmc_id": "PMC8318083"
+    },
+    {
+      "ref_id": "bib31",
+      "authors": [
+        "Li J",
+        "Bhattasali S",
+        "Zhang S",
+        "Franzluebbers B",
+        "Luh WM",
+        "Spreng RN",
+        "Brennan JR",
+        "Yang Y",
+        "Pallier C",
+        "Hale J"
+      ],
+      "title": "Le Petit Prince multilingual naturalistic fMRI corpus",
+      "journal": "Scientific Data",
+      "year": "2022",
+      "volume": "9",
+      "elocation_id": "530",
+      "doi": "10.1038/s41597-022-01625-7",
+      "pmid": "36038567",
+      "pmc_id": "PMC9424229"
+    },
+    {
+      "ref_id": "bib32",
+      "authors": [
+        "Li J",
+        "Lai M",
+        "Pylkkänen L"
+      ],
+      "title": "Semantic composition in experimental and naturalistic paradigms",
+      "journal": "Imaging Neuroscience",
+      "year": "2024",
+      "volume": "2",
+      "fpage": "1",
+      "lpage": "17",
+      "doi": "10.1162/imag_a_00072",
+      "pmid": "40800519",
+      "pmc_id": "PMC12224452"
+    },
+    {
+      "ref_id": "bib33",
+      "authors": [
+        "Luo H",
+        "Poeppel D"
+      ],
+      "title": "Phase patterns of neuronal responses reliably discriminate speech in human auditory cortex",
+      "journal": "Neuron",
+      "year": "2007",
+      "volume": "54",
+      "fpage": "1001",
+      "lpage": "1010",
+      "doi": "10.1016/j.neuron.2007.06.004",
+      "pmid": "17582338",
+      "pmc_id": "PMC2703451"
+    },
+    {
+      "ref_id": "bib34",
+      "authors": [
+        "McDermott JH"
+      ],
+      "title": "The cocktail party problem",
+      "journal": "Current Biology",
+      "year": "2009",
+      "volume": "19",
+      "fpage": "R1024",
+      "lpage": "R1027",
+      "doi": "10.1016/j.cub.2009.09.005",
+      "pmid": "19948136"
+    },
+    {
+      "ref_id": "bib35",
+      "authors": [
+        "Mesgarani N",
+        "Chang EF"
+      ],
+      "title": "Selective cortical representation of attended speaker in multi-talker speech perception",
+      "journal": "Nature",
+      "year": "2012",
+      "volume": "485",
+      "fpage": "233",
+      "lpage": "236",
+      "doi": "10.1038/nature11020",
+      "pmid": "22522927",
+      "pmc_id": "PMC3870007"
+    },
+    {
+      "ref_id": "bib36",
+      "authors": [
+        "Millman RE",
+        "Mattys SL",
+        "Gouws AD",
+        "Prendergast G"
+      ],
+      "title": "Magnified neural envelope coding predicts deficits in speech perception in noise",
+      "journal": "The Journal of Neuroscience",
+      "year": "2017",
+      "volume": "37",
+      "fpage": "7727",
+      "lpage": "7736",
+      "doi": "10.1523/JNEUROSCI.2722-16.2017",
+      "pmid": "28694336",
+      "pmc_id": "PMC5551064"
+    },
+    {
+      "ref_id": "bib37",
+      "authors": [
+        "Motlagh Zadeh L",
+        "Silbert NH",
+        "Sternasty K",
+        "Swanepoel DW",
+        "Hunter LL",
+        "Moore DR"
+      ],
+      "title": "Extended high-frequency hearing enhances speech perception in noise",
+      "journal": "PNAS",
+      "year": "2019",
+      "volume": "116",
+      "fpage": "23753",
+      "lpage": "23759",
+      "doi": "10.1073/pnas.1903315116",
+      "pmid": "31685611",
+      "pmc_id": "PMC6876232"
+    },
+    {
+      "ref_id": "bib38",
+      "authors": [
+        "Murray JD",
+        "Bernacchia A",
+        "Freedman DJ",
+        "Romo R",
+        "Wallis JD",
+        "Cai X",
+        "Padoa-Schioppa C",
+        "Pasternak T",
+        "Seo H",
+        "Lee D",
+        "Wang XJ"
+      ],
+      "title": "A hierarchy of intrinsic timescales across primate cortex",
+      "journal": "Nature Neuroscience",
+      "year": "2014",
+      "volume": "17",
+      "fpage": "1661",
+      "lpage": "1663",
+      "doi": "10.1038/nn.3862",
+      "pmid": "25383900",
+      "pmc_id": "PMC4241138"
+    },
+    {
+      "ref_id": "bib39",
+      "authors": [
+        "Nelson MJ",
+        "El Karoui I",
+        "Giber K",
+        "Yang X",
+        "Cohen L",
+        "Koopman H",
+        "Cash SS",
+        "Naccache L",
+        "Hale JT",
+        "Pallier C",
+        "Dehaene S"
+      ],
+      "title": "Neurophysiological dynamics of phrase-structure building during sentence processing",
+      "journal": "PNAS",
+      "year": "2017",
+      "volume": "114",
+      "fpage": "E3669",
+      "lpage": "E3678",
+      "doi": "10.1073/pnas.1701590114",
+      "pmid": "28416691",
+      "pmc_id": "PMC5422821"
+    },
+    {
+      "ref_id": "bib40",
+      "authors": [
+        "O’Sullivan JA",
+        "Power AJ",
+        "Mesgarani N",
+        "Rajaram S",
+        "Foxe JJ",
+        "Shinn-Cunningham BG",
+        "Slaney M",
+        "Shamma SA",
+        "Lalor EC"
+      ],
+      "title": "Attentional selection in a cocktail party environment can be decoded from single-trial EEG",
+      "journal": "Cerebral Cortex",
+      "year": "2015",
+      "volume": "25",
+      "fpage": "1697",
+      "lpage": "1706",
+      "doi": "10.1093/cercor/bht355",
+      "pmid": "24429136",
+      "pmc_id": "PMC4481604"
+    },
+    {
+      "ref_id": "bib41",
+      "authors": [
+        "Parthasarathy A",
+        "Herrmann B",
+        "Bartlett EL"
+      ],
+      "title": "Aging alters envelope representations of speech-like sounds in the inferior colliculus",
+      "journal": "Neurobiology of Aging",
+      "year": "2019",
+      "volume": "73",
+      "fpage": "30",
+      "lpage": "40",
+      "doi": "10.1016/j.neurobiolaging.2018.08.023",
+      "pmid": "30316050",
+      "pmc_id": "PMC6251750"
+    },
+    {
+      "ref_id": "bib42",
+      "authors": [
+        "Presacco A",
+        "Simon JZ",
+        "Anderson S"
+      ],
+      "title": "Evidence of degraded representation of speech in noise, in the aging midbrain and cortex",
+      "journal": "Journal of Neurophysiology",
+      "year": "2016",
+      "volume": "116",
+      "fpage": "2346",
+      "lpage": "2355",
+      "doi": "10.1152/jn.00372.2016",
+      "pmid": "27535374",
+      "pmc_id": "PMC5110639"
+    },
+    {
+      "ref_id": "bib43",
+      "authors": [
+        "Schmitt LM",
+        "Erb J",
+        "Tune S",
+        "Rysop AU",
+        "Hartwigsen G",
+        "Obleser J"
+      ],
+      "title": "Predicting speech from a cortical hierarchy of event-based time scales",
+      "journal": "Science Advances",
+      "year": "2021",
+      "volume": "7",
+      "elocation_id": "eabi6070",
+      "doi": "10.1126/sciadv.abi6070",
+      "pmid": "34860554",
+      "pmc_id": "PMC8641937"
+    },
+    {
+      "ref_id": "bib44",
+      "authors": [
+        "Schrimpf M",
+        "Blank IA",
+        "Tuckute G",
+        "Kauf C",
+        "Hosseini EA",
+        "Kanwisher N",
+        "Tenenbaum JB",
+        "Fedorenko E"
+      ],
+      "title": "The neural architecture of language: Integrative modeling converges on predictive processing",
+      "journal": "PNAS",
+      "year": "2021",
+      "volume": "118",
+      "elocation_id": "e2105646118",
+      "doi": "10.1073/pnas.2105646118",
+      "pmid": "34737231",
+      "pmc_id": "PMC8694052"
+    },
+    {
+      "ref_id": "bib45",
+      "authors": [
+        "Shinn-Cunningham BG"
+      ],
+      "title": "Object-based auditory and visual attention",
+      "journal": "Trends in Cognitive Sciences",
+      "year": "2008",
+      "volume": "12",
+      "fpage": "182",
+      "lpage": "186",
+      "doi": "10.1016/j.tics.2008.02.003",
+      "pmid": "18396091",
+      "pmc_id": "PMC2699558"
+    },
+    {
+      "ref_id": "bib46",
+      "authors": [
+        "Sugimoto Y",
+        "Yoshida R",
+        "Jeong H",
+        "Koizumi M",
+        "Brennan JR",
+        "Oseki Y"
+      ],
+      "title": "Localizing syntactic composition with left-corner recurrent neural network grammars",
+      "journal": "Neurobiology of Language",
+      "year": "2024",
+      "volume": "5",
+      "fpage": "201",
+      "lpage": "224",
+      "doi": "10.1162/nol_a_00118",
+      "pmid": "38645619",
+      "pmc_id": "PMC11025653"
+    },
+    {
+      "ref_id": "bib47",
+      "authors": [
+        "Wang Q",
+        "Yang L",
+        "Qian M",
+        "Hong Y",
+        "Wang X",
+        "Huang Z",
+        "Wu H"
+      ],
+      "title": "Acute recreational noise-induced cochlear synaptic dysfunction in humans with normal hearing: a prospective cohort study",
+      "journal": "Frontiers in Neuroscience",
+      "year": "2021",
+      "volume": "15",
+      "elocation_id": "659011",
+      "doi": "10.3389/fnins.2021.659011",
+      "pmid": "33897366",
+      "pmc_id": "PMC8062885"
+    },
+    {
+      "ref_id": "bib48",
+      "authors": [
+        "Zhang B",
+        "Lv H",
+        "Guo P",
+        "Shao Q",
+        "Yang C",
+        "Xie L",
+        "Xu X",
+        "Bu H",
+        "Chen X",
+        "Zeng C",
+        "Wu D",
+        "Peng Z"
+      ],
+      "title": "WENETSPEECH: A 10000+ Hours Multi-Domain Mandarin Corpus for Speech Recognition",
+      "year": "2021",
+      "doi": "10.1109/ICASSP43922.2022.9746682"
+    },
+    {
+      "ref_id": "bib49",
+      "authors": [
+        "Zion Golumbic EM",
+        "Ding N",
+        "Bickel S",
+        "Lakatos P",
+        "Schevon CA",
+        "McKhann GM",
+        "Goodman RR",
+        "Emerson R",
+        "Mehta AD",
+        "Simon JZ",
+        "Poeppel D",
+        "Schroeder CE"
+      ],
+      "title": "Mechanisms underlying selective neuronal tracking of attended speech at a “cocktail party”",
+      "journal": "Neuron",
+      "year": "2013",
+      "volume": "77",
+      "fpage": "980",
+      "lpage": "991",
+      "doi": "10.1016/j.neuron.2012.12.037",
+      "pmid": "23473326",
+      "pmc_id": "PMC3891478"
     }
   ]
 }

@@ -17,7 +17,8 @@
     "pmc_id": "PMC13181356",
     "pmid": "41885891",
     "full_text_available": true,
-    "section_count": 14
+    "section_count": 14,
+    "reference_count": 43
   },
   "sections": [
     {
@@ -89,6 +90,613 @@
       "section": "Discussion",
       "text": "Evidence suggests that lncRNAs play key roles in cancer development. Research has identified multiple cancer-associated lncRNAs, including those involved in OSCC [ 27 , 28 ]. MIR17HG , a lncRNA located on human chromosome 13q31, modulates the development and progression of various types of human cancer by regulating tumor growth and apoptosis. For example, overexpression of MIR17HG down-regulates a proapoptotic gene during the development of lung cancer [ 29 ]. MIR17HG encodes the polycistronic miR-17-92 cluster, which contains six miRNAs (miR-17, miR-18a, miR-19a, miR-20a, miR-19b-1, and miR-92a-1). Each member of this cluster plays a unique role across different types of cancer. For instance, miR-18a and miR-92a promote cell proliferation, cell migration, and cell-cycle progression in lung cancer by targeting Sprouty 4 [ 30 ]. Conversely, miR-18a suppresses the proliferation of bladder cancer cells by down-regulating DICER1 [ 31 ]. The miR-17-92 cluster plays a complex role in OSCC, with individual members exhibiting divergent biological activities. Notably, miR-92a and miR-19a promote the proliferation and motility of OCSS cells by targeting forkhead box P1 and G protein-coupled receptor kinase 6, respectively [ 32 , 33 ]. By contrast, miR-17/20a and miR-18a suppress tumor motility by targeting integrin β8 and hypoxia-inducible factor-1α, respectively [ 34 , 35 ]. Collectively, these findings suggest that the miR-17-92 cluster plays both oncogenic and tumor-suppressive roles in OSCC, depending on the specific miRNA and cellular context. MIR17HG may influence the aberrant expression of the miR-17-92 cluster and has been reported to play a distinct role in human papilloma virus–related HNSCC [ 36 ]. Genetic variants can influence gene expression or alter gene structure, thereby contributing to cancer progression. MIR17HG polymorphisms are strongly associated with the development of several types of cancer [ 14–16 ]. Our study revealed that carriers of the rs75267932 G allele exhibited a significantly increased risk of developing larger tumors in the dominant model (AG + GG). By contrast, Xu et al. [ 37 ] reported that rs7336610 and rs1428, but not rs75267932, were associated with an increased HNSCC risk in the Chinese Han population. Although both studies involved Asian populations, our cohort exclusively included patients with TSCC, whereas the cohort analyzed by Xu et al. [ 37 ] predominantly included patients with thyroid or nasopharyngeal squamous cell carcinoma. Interstudy differences in tumor types may explain the observed discrepancies. Betel quid chewing, smoking, alcohol consumption, and combinations of these habits have been implicated in the pathogenesis of OSCC. In the present study, we analyzed the combined effects of MIR17HG SNPs and these lifestyle-related risk factors on TSCC progression. Our findings revealed that the association between rs75267932 and an increased risk of developing larger tumors was stronger in patients with TSCC who chewed betel quid, smoked cigarettes, or consumed alcohol than in the overall TSCC cohort. Patients with TSCC who smoked or consumed alcohol and carried the rs75267932 variant were more likely to present with advanced disease. However, among patients without a history of betel quid chewing or smoking, carriers of the rs75267932 variant had a reduced risk of developing high-grade tumors. Notably, both the tumor-promoting and the protective effects of this SNP became more pronounced when patients with TSCC were stratified by combined exposure or nonexposure to lifestyle-related risk factors. Together, these findings suggest that specific MIR17HG polymorphisms influence the clinical progression of TSCC, particularly in individuals with certain lifestyle exposure patterns. These habits have been associated with substantial epigenetic changes, such as methylation of DNA, modification of histone proteins, and dysregulation of noncoding RNAs that drive cancer progression. For example, the DLK1-MEG3 imprinting locus contains the large miR-379/656 cluster, which serves as a tumor suppressor [ 38 ] and is epigenetically silenced in Taiwanese patients with OSCC who chew betel nuts [ 39 ]. Notably, miR-487b is a tumor suppressor that is silenced through epigenetic mechanisms during tobacco-induced pulmonary carcinogenesis [ 40 ]. We propose that these lifestyle-related risk factors epigenetically regulate the miR-17-92 cluster to promote OSCC progression; however, this hypothesis requires further investigation. A growing body of evidence suggests that MIR17HG functions as a molecular sponge that binds specific miRNAs and subsequently up-regulates the expression of their target genes to modulate cancer progression. For example, MIR17HG promotes the metastasis of colorectal cancer by sponging miR-138-5p and up-regulating the expression of its target gene HK1 [ 10 ]. MIR17HG also sponges miR-21, thereby increasing PTEN expression and regulating chemoresistance in acute myeloid leukemia cells [ 41 ]. Numerous SNPs influence miRNA–lncRNA interactions [ 42 ]. In our study, the potential interactions between candidate miRNAs and rs75267932 were predicted using BiBiServ2-RNAhybrid [ 22 ]. We observed that the hybridization energy was lower for the interaction between the rs75267932 A allele and miR-4684-5p than for that between the rs75267932 G allele and miR-4684-5p ( Figure 2 ). Therefore, the G allele enhances the binding affinity of MIR17HG for miR-4684-5p ( P = 0.0081). To date, limited information is available on the association between miR-4684-5p and cancer. Only one study published on Research Square ( https://www.researchsquare.com/article/rs-31503/v1 ) reported that the lncRNA FAM83H-AS1 promotes tumorigenesis in esophageal squamous cell carcinoma by sponging miR-4684-5p and subsequently up-regulating the expression of its target gene ZBTB38 . The miRNA target prediction database miRDB [ 43 ] ranks ZBTB38 as the top target of miR-4684-5p in HSC-3 TSCC cells ( Figure 3 A). In addition to HSC-3 cells, the miRDB database also identifies ZBTB38 as the top predicted target of miR-4684-5p in other TSCC cell lines, including CAL-27, SCC-9, and SCC-15 (Supplementary Figure S1). An analysis of data from TCGA-HNSCC cohort revealed significantly higher ZBTB38 transcript levels in tumor tissues than in normal tissues ( Figure 3 B) and in higher-grade tumors than in lower-grade ones ( Figure 3 C), highlighting a potential oncogenic role of ZBTB38 in HNSCC. In addition to ZBTB38, CPSF7 , and HMGB2 expression levels were also significantly elevated in TCGA-paired normal and primary HNSCC samples ( Figure 3 D). Taken together, these findings suggest that MIR17HG functions as a competing endogenous RNA to sponge miR-4684-5p, thereby up-regulating the oncogenic targets, including ZBTB38, CPSF7 , and HMGB2 , and accelerating OSCC development. The rs75267932 SNP in MIR17HG may modulate the interaction between MIR17HG and miR-4684-5p. The detailed regulatory circuitry underlying these interactions needs to be further evaluated. Several limitations should be acknowledged. First, the present study was not conducted as a double-blind randomized controlled trial; therefore, residual bias may remain. Second, all TSCC cases included in the SNP analysis were derived from a Taiwanese population, whereas the clinicopathological correlations of MIR17HG expression were evaluated using the TCGA-HNSCC cohort, which predominantly comprises non-Asian individuals. Therefore, further validation in Taiwanese cohorts is warranted. Additionally, the lack of long-term follow-up data limited our ability to evaluate survival outcomes associated with MIR17HG polymorphisms. Finally, established risk factors for oral cancer progression, including periodontal disease and chronic Porphyromonas gingivalis infection, were not adjusted for in the multivariable analysis. To the best of our knowledge, the present study is the first to demonstrate the distinct allelic effects of the MIR17HG SNP rs75267932 and their contribution to the pathogenesis of TSCC in a male Taiwanese population. The combined effects of the rs75267932 genotype and lifestyle-related risk factors (betel nut chewing, cigarette smoking, and alcohol consumption) further underscore a causal role of this SNP in TSCC development. These findings highlight a potential synergistic interaction between genetic susceptibility and environmental exposure. We further observed that the rs75267932 G allele may enhance the binding affinity of miR-4684-5p to MIR17HG , thereby accelerating OSCC progression through the up-regulation of ZBTB38 . Nevertheless, these findings should be validated in future studies.",
       "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1.",
+      "title": "Oral squamous cell carcinoma of tongue: histological risk assessment. A pilot study",
+      "journal": "Med. Oral. Patol. Oral. Cir. Bucal.",
+      "year": "2019",
+      "volume": "24",
+      "fpage": "e603",
+      "lpage": "e609",
+      "doi": "10.4317/medoral.23011",
+      "pmid": "31422411",
+      "pmc_id": "PMC6764715"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2.",
+      "title": "Tobacco and oral squamous cell carcinoma: a review of carcinogenic pathways",
+      "journal": "Tob. Induc. Dis.",
+      "year": "2019",
+      "volume": "17",
+      "fpage": "29",
+      "doi": "10.18332/tid/111652",
+      "pmid": "31582940",
+      "pmc_id": "PMC6752112"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Alcohol and tobacco increases risk of high risk HPV infection in head and neck cancer patients: study from north-east region of India",
+      "journal": "PloS ONE",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0140700",
+      "doi": "10.1371/journal.pone.0140700",
+      "pmid": "26473489",
+      "pmc_id": "PMC4608822"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4.",
+      "title": "Primary oral squamous cell carcinoma: an analysis of 703 cases in southern Taiwan",
+      "journal": "Oral. Oncol.",
+      "year": "1999",
+      "volume": "35",
+      "fpage": "173",
+      "lpage": "179",
+      "doi": "10.1016/S1368-8375(98)00101-8",
+      "pmid": "10435152"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5.",
+      "title": "Head and neck cancer",
+      "journal": "Lancet",
+      "year": "2008",
+      "volume": "371",
+      "fpage": "1695",
+      "lpage": "1709",
+      "doi": "10.1016/S0140-6736(08)60728-X",
+      "pmid": "18486742",
+      "pmc_id": "PMC7720415"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Oral squamous cell carcinomas: state of the field and emerging directions",
+      "journal": "Int. J. Oral. Sci.",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "44",
+      "doi": "10.1038/s41368-023-00249-w",
+      "pmid": "37736748",
+      "pmc_id": "PMC10517027"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Prospective study on factors affecting the prognosis of oral cancer in a Chinese population",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "4352",
+      "lpage": "4359",
+      "doi": "10.18632/oncotarget.13842",
+      "pmid": "28032596",
+      "pmc_id": "PMC5354837"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8.",
+      "title": "mir-17-92, a cluster of miRNAs in the midst of the cancer network",
+      "journal": "Int. J. Biochem. Cell Biol.",
+      "year": "2010",
+      "volume": "42",
+      "fpage": "1348",
+      "lpage": "1354",
+      "doi": "10.1016/j.biocel.2010.03.004",
+      "pmid": "20227518",
+      "pmc_id": "PMC3681296"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9.",
+      "authors": [
+        "et al."
+      ],
+      "title": "MIR17HG-miR-18a/19a axis, regulated by interferon regulatory factor-1, promotes gastric cancer metastasis via Wnt/β-catenin signalling",
+      "journal": "Cell Death. Dis.",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "454",
+      "doi": "10.1038/s41419-019-1685-z",
+      "pmid": "31186404",
+      "pmc_id": "PMC6560107"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10.",
+      "authors": [
+        "et al."
+      ],
+      "title": "LncRNA MIR17HG promotes colorectal cancer liver metastasis by mediating a glycolysis-associated positive feedback circuit",
+      "journal": "Oncogene",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "4709",
+      "lpage": "4724",
+      "doi": "10.1038/s41388-021-01859-6",
+      "pmid": "34145399",
+      "pmc_id": "PMC8282501"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11.",
+      "authors": [
+        "et al."
+      ],
+      "title": "LncRNA MIR17HG suppresses breast cancer proliferation and migration as ceRNA to target FAM135A by sponging miR-454-3p",
+      "journal": "Mol. Biotechnol.",
+      "year": "2023",
+      "volume": "65",
+      "fpage": "2071",
+      "lpage": "2085",
+      "doi": "10.1007/s12033-023-00706-1",
+      "pmid": "36943627",
+      "pmc_id": "PMC10625951"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12.",
+      "title": "LncRNA MIR17HG inhibits non-small cell lung cancer by upregulating miR-142-3p to downregulate Bach-1",
+      "journal": "BMC Pulm. Med.",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "78",
+      "doi": "10.1186/s12890-020-1112-3",
+      "pmid": "32228546",
+      "pmc_id": "PMC7104535"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13.",
+      "title": "A systematic review and meta-analysis of the association between long non-coding RNA polymorphisms and cancer risk",
+      "journal": "Mutat. Res.",
+      "year": "2017",
+      "volume": "771",
+      "fpage": "1",
+      "lpage": "14",
+      "doi": "10.1016/j.mrrev.2016.10.002",
+      "pmid": "28342449"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Genetic variants in MIR17HG affect the susceptibility and prognosis of glioma in a Chinese Han population",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "976",
+      "doi": "10.1186/s12885-020-07417-9",
+      "pmid": "33036577",
+      "pmc_id": "PMC7547478"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15.",
+      "authors": [
+        "et al."
+      ],
+      "title": "MIR17HG polymorphism (rs7318578) is associated with liver cancer risk in the Chinese Han population",
+      "journal": "Biosci. Rep.",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "BSR20193312",
+      "doi": "10.1042/BSR20193312",
+      "pmid": "32748943",
+      "pmc_id": "PMC7457078"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association between polymorphisms of MIR17HG and risk of colorectal cancer in the Chinese Han population",
+      "journal": "Mol. Genet. Genomic Med.",
+      "year": "2019",
+      "volume": "7",
+      "fpage": "e667",
+      "doi": "10.1002/mgg3.667",
+      "pmid": "30941921",
+      "pmc_id": "PMC6565593"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Combined impacts of genetic variants of long non-coding RNA MALAT1 and the environmental carcinogen on the susceptibility to and progression of oral squamous cell carcinoma",
+      "journal": "Front. Oncol.",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "684941",
+      "doi": "10.3389/fonc.2021.684941",
+      "pmid": "34268119",
+      "pmc_id": "PMC8276129"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18.",
+      "title": "A functional variant at the miRNA binding site in HMGB1 gene is associated with risk of oral squamous cell carcinoma",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "34630",
+      "lpage": "34642",
+      "doi": "10.18632/oncotarget.16120",
+      "pmid": "28423715",
+      "pmc_id": "PMC5470997"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19.",
+      "title": "dbSNP: a database of single nucleotide polymorphisms",
+      "journal": "Nucleic. Acids. Res.",
+      "year": "2000",
+      "volume": "28",
+      "fpage": "352",
+      "lpage": "355",
+      "doi": "10.1093/nar/28.1.352",
+      "pmid": "10592272",
+      "pmc_id": "PMC102496"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Genetic variations of melatonin receptor type 1A are associated with the clinicopathologic development of urothelial cell carcinoma",
+      "journal": "Int. J. Med. Sci.",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "1130",
+      "lpage": "1135",
+      "doi": "10.7150/ijms.20629",
+      "pmid": "29104467",
+      "pmc_id": "PMC5666544"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21.",
+      "authors": [
+        "et al."
+      ],
+      "title": "UALCAN: a portal for facilitating tumor subgroup gene expression and survival analyses",
+      "journal": "Neoplasia",
+      "year": "2017",
+      "volume": "19",
+      "fpage": "649",
+      "lpage": "658",
+      "doi": "10.1016/j.neo.2017.05.002",
+      "pmid": "28732212",
+      "pmc_id": "PMC5516091"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22.",
+      "title": "Fast and effective prediction of microRNA/target duplexes",
+      "journal": "RNA",
+      "year": "2004",
+      "volume": "10",
+      "fpage": "1507",
+      "lpage": "1517",
+      "doi": "10.1261/rna.5248604",
+      "pmid": "15383676",
+      "pmc_id": "PMC1370637"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association of interleukin-10 genotypes and oral cancer susceptibility in selected Malaysian population: a case-control study",
+      "journal": "Asian Pac. J. Cancer Prev.",
+      "year": "2019",
+      "volume": "20",
+      "fpage": "935",
+      "lpage": "941",
+      "doi": "10.31557/APJCP.2019.20.3.935",
+      "pmid": "30912418",
+      "pmc_id": "PMC6825797"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Polymorphisms in ERCC5 rs17655 and ERCC1 rs735482 genes associated with the survival of male patients with postoperative oral squamous cell carcinoma treated with adjuvant concurrent chemoradiotherapy",
+      "journal": "J. Clin. Med.",
+      "year": "2019",
+      "volume": "8",
+      "fpage": "33",
+      "doi": "10.3390/jcm8010033",
+      "pmid": "30609649",
+      "pmc_id": "PMC6351919"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Tobacco smoking, alcohol drinking, betel quid chewing, and the risk of head and neck cancer in an East Asian population",
+      "journal": "Head Neck",
+      "year": "2019",
+      "volume": "41",
+      "fpage": "92",
+      "lpage": "102",
+      "doi": "10.1002/hed.25383",
+      "pmid": "30552826"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Do betel quid and areca nut chewing deteriorate prognosis of oral cancer? A systematic review, meta-analysis, and research agenda",
+      "journal": "Oral Dis.",
+      "year": "2020",
+      "volume": "27",
+      "fpage": "1366",
+      "lpage": "1375",
+      "doi": "10.1111/odi.13456",
+      "pmid": "32492239"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27.",
+      "title": "Emerging roles of lncRNA in cancer and therapeutic opportunities",
+      "journal": "Am. J. Cancer Res.",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "1354",
+      "lpage": "1366",
+      "pmid": "31392074",
+      "pmc_id": "PMC6682721"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Long non-coding RNAs in oral squamous cell carcinoma: biologic function, mechanisms and clinical implications",
+      "journal": "Mol. Cancer",
+      "year": "2019",
+      "volume": "18",
+      "fpage": "102",
+      "doi": "10.1186/s12943-019-1021-3",
+      "pmid": "31133028",
+      "pmc_id": "PMC6535863"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29.",
+      "authors": [
+        "et al."
+      ],
+      "title": "A polycistronic microRNA cluster, miR-17-92, is overexpressed in human lung cancers and enhances cell proliferation",
+      "journal": "Cancer Res.",
+      "year": "2005",
+      "volume": "65",
+      "fpage": "9628",
+      "lpage": "9632",
+      "doi": "10.1158/0008-5472.CAN-05-2352",
+      "pmid": "16266980"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Downregulated miR-18a and miR-92a synergistically suppress non-small cell lung cancer via targeting Sprouty 4",
+      "journal": "Bioengineered",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "11281",
+      "lpage": "11295",
+      "doi": "10.1080/21655979.2022.2066755",
+      "pmid": "35484993",
+      "pmc_id": "PMC9208480"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31.",
+      "title": "microRNA-18a, a member of the oncogenic miR-17-92 cluster, targets Dicer and suppresses cell proliferation in bladder cancer T24 cells",
+      "journal": "Mol. Med. Rep.",
+      "year": "2012",
+      "volume": "5",
+      "fpage": "167",
+      "lpage": "172",
+      "pmid": "21935572",
+      "doi": "10.3892/mmr.2011.591"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32.",
+      "title": "MiR-92a regulates oral squamous cell carcinoma (OSCC) cell growth by targeting FOXP1 expression",
+      "journal": "Biomed. Pharmacother.",
+      "year": "2018",
+      "volume": "104",
+      "fpage": "77",
+      "lpage": "86",
+      "doi": "10.1016/j.biopha.2018.05.025",
+      "pmid": "29772443"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33.",
+      "authors": [
+        "et al."
+      ],
+      "title": "miR-19a may function as a biomarker of oral squamous cell carcinoma (OSCC) by regulating the signaling pathway of miR-19a/GRK6/GPCRs/PKC in a Chinese population",
+      "journal": "J. Oral Pathol. Med.",
+      "year": "2023",
+      "volume": "52",
+      "fpage": "971",
+      "lpage": "979",
+      "doi": "10.1111/jop.13478",
+      "pmid": "37706561"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34.",
+      "authors": [
+        "et al."
+      ],
+      "title": "MicroRNA-17/20a functions to inhibit cell migration and can be used a prognostic marker in oral squamous cell carcinoma",
+      "journal": "Oral Oncol.",
+      "year": "2013",
+      "volume": "49",
+      "fpage": "923",
+      "lpage": "931",
+      "doi": "10.1016/j.oraloncology.2013.03.430",
+      "pmid": "23602254"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35.",
+      "title": "MicroRNA-18a regulates the metastatic properties of oral squamous cell carcinoma cells via HIF-1α expression",
+      "journal": "BMC Oral Health",
+      "year": "2022",
+      "volume": "22",
+      "fpage": "378",
+      "doi": "10.1186/s12903-022-02425-6",
+      "pmid": "36064348",
+      "pmc_id": "PMC9442921"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36.",
+      "title": "Role of non-coding RNAs in head and neck squamous cell carcinoma: a narrative review",
+      "journal": "Oral Dis.",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "1417",
+      "lpage": "1427",
+      "doi": "10.1111/odi.12782",
+      "pmid": "28941018"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37.",
+      "authors": [
+        "et al."
+      ],
+      "title": "The genetic polymorphisms in the MIR17HG gene are associated with the risk of head and neck squamous cell carcinoma in the Chinese Han population",
+      "journal": "Biomed. Res. Int.",
+      "year": "2020",
+      "volume": "2020",
+      "fpage": "2329196",
+      "doi": "10.1155/2020/2329196",
+      "pmid": "33299861",
+      "pmc_id": "PMC7707933"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Regulation and tumor-suppressive function of the miR-379/miR-656 (C14MC) cluster in cervical cancer",
+      "journal": "Mol. Oncol.",
+      "year": "2024",
+      "volume": "18",
+      "fpage": "1608",
+      "lpage": "1630",
+      "doi": "10.1002/1878-0261.13611",
+      "pmid": "38400534",
+      "pmc_id": "PMC11161731"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39.",
+      "title": "Aberrant expression of microRNA clusters in head and neck cancer development and progression: current and future translational impacts",
+      "journal": "Pharmaceuticals (Basel)",
+      "year": "2021",
+      "volume": "14",
+      "fpage": "194",
+      "doi": "10.3390/ph14030194",
+      "pmid": "33673471",
+      "pmc_id": "PMC7997248"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cigarette smoke mediates epigenetic repression of miR-487b during pulmonary carcinogenesis",
+      "journal": "J. Clin. Invest.",
+      "year": "2013",
+      "volume": "123",
+      "fpage": "1241",
+      "lpage": "1261",
+      "doi": "10.1172/JCI61271",
+      "pmid": "23426183",
+      "pmc_id": "PMC3582115"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41.",
+      "title": "Long non-coding RNA MIR17HG sponges microRNA-21 to upregulate PTEN and regulate homoharringtonine-based chemoresistance of acute myeloid leukemia cells",
+      "journal": "Oncol. Lett.",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "24",
+      "doi": "10.3892/ol.2021.13142",
+      "pmid": "34868361",
+      "pmc_id": "PMC8630824"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42.",
+      "title": "lncRNASNP: a database of SNPs in lncRNAs and their potential functions in human and mouse",
+      "journal": "Nucleic. Acids. Res.",
+      "year": "2015",
+      "volume": "43",
+      "fpage": "D181",
+      "lpage": "D186",
+      "doi": "10.1093/nar/gku1000",
+      "pmid": "25332392",
+      "pmc_id": "PMC4383871"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43.",
+      "title": "miRDB: an online database for prediction of functional microRNA targets",
+      "journal": "Nucleic. Acids. Res.",
+      "year": "2020",
+      "volume": "48",
+      "fpage": "D127",
+      "lpage": "D131",
+      "doi": "10.1093/nar/gkz757",
+      "pmid": "31504780",
+      "pmc_id": "PMC6943051"
     }
   ]
 }

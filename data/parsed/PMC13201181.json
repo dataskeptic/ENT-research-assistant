@@ -18,7 +18,8 @@
     "pmc_id": "PMC13201181",
     "pmid": "42205260",
     "full_text_available": true,
-    "section_count": 16
+    "section_count": 16,
+    "reference_count": 40
   },
   "sections": [
     {
@@ -100,6 +101,757 @@
       "section": "Conclusion",
       "text": "In conclusion, this propensity score-matched study provides preliminary evidence that cumulative CRD is a potent, independent risk factor for malignancy in patients with thyroid nodules. This association follows a dose-response relationship, with a non-linear acceleration in risk at higher levels of chronodisruption, suggesting a threshold effect. Furthermore, beyond its role in carcinogenesis, CRD was independently associated with tumor aggressiveness, most notably LNM. These findings suggest the potential utility of assessing a patient’s circadian health as a novel, modifiable factor for both risk stratification and potential prevention in the management of thyroid nodules.",
       "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Guth S",
+        "Theune U",
+        "Aberle J",
+        "Galach A",
+        "Bamberger CM"
+      ],
+      "title": "Very high prevalence of thyroid nodules detected by high frequency (13 MHz) ultrasound examination",
+      "journal": "Eur J Clin Invest",
+      "year": "2009",
+      "volume": "39",
+      "fpage": "699",
+      "lpage": "706",
+      "doi": "10.1111/j.1365-2362.2009.02162.x",
+      "pmid": "19601965"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Haugen BR",
+        "Alexander EK",
+        "Bible KC",
+        "Doherty GM",
+        "Mandel SJ",
+        "Nikiforov YE",
+        "et al."
+      ],
+      "title": "2015 american thyroid association management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the american thyroid association guidelines task force on thyroid nodules and differentiated thyroid cancer",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2016",
+      "volume": "26",
+      "issue": "1",
+      "doi": "10.1089/thy.2015.0020",
+      "pmid": "26462967",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Zhu Q",
+        "Liu J",
+        "Hu J",
+        "Zhang Y"
+      ],
+      "title": "The epidemiological landscape of thyroid cancer and estimates of overdiagnosis in China: A population-based study",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2025",
+      "volume": "35",
+      "doi": "10.1089/thy.2024.0583",
+      "pmid": "39970038"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Li M",
+        "Dal Maso L",
+        "Pizzato M",
+        "Vaccarella S"
+      ],
+      "title": "Evolving epidemiological patterns of thyroid cancer and estimates of overdiagnosis in 2013–17 in 63 countries worldwide: a population-based study",
+      "journal": "Lancet Diabetes Endocrinol",
+      "year": "2024",
+      "volume": "12",
+      "doi": "10.1016/s2213-8587(24)00223-7",
+      "pmid": "39389067"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Smith JR",
+        "Kamihara J",
+        "Church AJ",
+        "Asch E",
+        "Cherella CE",
+        "Fox VL",
+        "et al."
+      ],
+      "title": "Thyroid nodules in children with familial adenomatous polyposis",
+      "journal": "Am J Gastroenterol",
+      "year": "2022",
+      "volume": "117",
+      "doi": "10.14309/ajg.0000000000001747",
+      "pmid": "35333786"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Kitahara CM",
+        "Sosa JA"
+      ],
+      "title": "The changing incidence of thyroid cancer",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2016",
+      "volume": "12",
+      "doi": "10.1038/nrendo.2016.110",
+      "pmid": "27418023",
+      "pmc_id": "PMC10311569"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Ruan W",
+        "Yuan X",
+        "Eltzschig HK"
+      ],
+      "title": "Circadian rhythm as a therapeutic target",
+      "journal": "Nat Rev Drug Discov",
+      "year": "2021",
+      "volume": "20",
+      "fpage": "287",
+      "lpage": "307",
+      "doi": "10.1038/s41573-020-00109-w",
+      "pmid": "33589815",
+      "pmc_id": "PMC8525418"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Roenneberg T",
+        "Merrow M"
+      ],
+      "title": "The circadian clock and human health",
+      "journal": "Curr Biology: CB",
+      "year": "2016",
+      "volume": "26",
+      "doi": "10.1016/j.cub.2016.04.011",
+      "pmid": "27218855"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Sancar A",
+        "Lindsey-Boltz LA",
+        "Gaddameedhi S",
+        "Selby CP",
+        "Ye R",
+        "Chiou YY",
+        "et al."
+      ],
+      "title": "Circadian clock, cancer, and chemotherapy",
+      "journal": "Biochemistry",
+      "year": "2014",
+      "volume": "54",
+      "doi": "10.1021/bi5007354",
+      "pmid": "25302769",
+      "pmc_id": "PMC4303322"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Malik S",
+        "Stokes J III",
+        "Manne U",
+        "Singh R",
+        "Mishra MK"
+      ],
+      "title": "Understanding the significance of biological clock and its impact on cancer incidence",
+      "journal": "Cancer Lett",
+      "year": "2021",
+      "volume": "527",
+      "fpage": "80",
+      "lpage": "94",
+      "doi": "10.1016/j.canlet.2021.12.006",
+      "pmid": "34906624",
+      "pmc_id": "PMC8816870"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Zhou Z",
+        "Zhang R",
+        "Zhang Y",
+        "Xu Y",
+        "Wang R",
+        "Chen S",
+        "et al."
+      ],
+      "title": "Circadian disruption in cancer hallmarks: Novel insight into the molecular mechanisms of tumorigenesis and cancer treatment",
+      "journal": "Cancer Lett",
+      "year": "2024",
+      "volume": "604",
+      "elocation_id": "217273",
+      "doi": "10.1016/j.canlet.2024.217273",
+      "pmid": "39306230"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Straif K",
+        "Baan R",
+        "Grosse Y",
+        "Secretan B",
+        "El Ghissassi F",
+        "Bouvard V",
+        "et al."
+      ],
+      "title": "Carcinogenicity of shift-work, painting, and fire-fighting",
+      "journal": "Lancet Oncol",
+      "year": "2007",
+      "volume": "8",
+      "doi": "10.1016/s1470-2045(07)70373-x",
+      "pmid": "19271347"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Reiter RJ",
+        "Rosales-Corral SA",
+        "Tan DX",
+        "Acuna-Castroviejo D",
+        "Qin L",
+        "Yang SF",
+        "et al."
+      ],
+      "title": "Melatonin, a full service anti-cancer agent: Inhibition of initiation, progression and metastasis",
+      "journal": "Int J Mol Sci",
+      "year": "2017",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "843",
+      "doi": "10.3390/ijms18040843",
+      "pmid": "28420185",
+      "pmc_id": "PMC5412427"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Zhao H",
+        "Yin JY",
+        "Yang WS",
+        "Qin Q",
+        "Li TT",
+        "Shi Y",
+        "et al."
+      ],
+      "title": "Sleep duration and cancer risk: a systematic review and meta-analysis of prospective studies",
+      "journal": "Asian Pacific J Cancer Prevention: APJCP",
+      "year": "2013",
+      "volume": "14",
+      "doi": "10.7314/apjcp.2013.14.12.7509",
+      "pmid": "24460326"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Schernhammer ES",
+        "Laden F",
+        "Speizer FE",
+        "Willett WC",
+        "Hunter DJ",
+        "Kawachi I",
+        "et al."
+      ],
+      "title": "Night-shift work and risk of colorectal cancer in the nurses' health study",
+      "journal": "J Natl Cancer Institute",
+      "year": "2003",
+      "volume": "95",
+      "doi": "10.1093/jnci/95.11.825",
+      "pmid": "12783938"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Schernhammer ES",
+        "Laden F",
+        "Speizer FE",
+        "Willett WC",
+        "Hunter DJ",
+        "Kawachi I",
+        "et al."
+      ],
+      "title": "Rotating night shifts and risk of breast cancer in women participating in the nurses' health study",
+      "journal": "J Natl Cancer Inst",
+      "year": "2001",
+      "volume": "93",
+      "doi": "10.1093/jnci/93.20.1563",
+      "pmid": "11604480"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Sigurdardottir LG",
+        "Valdimarsdottir UA",
+        "Mucci LA",
+        "Fall K",
+        "Rider JR",
+        "Schernhammer E",
+        "et al."
+      ],
+      "title": "Sleep disruption among older men and risk of prostate cancer",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2013",
+      "volume": "22",
+      "doi": "10.1158/1055-9965.epi-12-1227-t",
+      "pmid": "23652374",
+      "pmc_id": "PMC3652595"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Lou X",
+        "Wang H",
+        "Tu Y",
+        "Tan W",
+        "Jiang C",
+        "Sun J",
+        "et al."
+      ],
+      "title": "Alterations of sleep quality and circadian rhythm genes expression in elderly thyroid nodule patients and risks associated with thyroid Malignancy",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "13682",
+      "doi": "10.1038/s41598-021-93106-x",
+      "pmid": "34211057",
+      "pmc_id": "PMC8249375"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Yan Y",
+        "Wang X",
+        "Wu H",
+        "Chen C",
+        "Li X",
+        "Yang R",
+        "et al."
+      ],
+      "title": "Short night-time sleep duration is associated with thyroid nodules: A community-based survey from Guangzhou, China",
+      "journal": "Postgrad Med",
+      "year": "2023",
+      "volume": "135",
+      "doi": "10.1080/00325481.2022.2139485",
+      "pmid": "36268949"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Afrashteh S",
+        "Fararouei M",
+        "Parad MT",
+        "Mirahmadizadeh A"
+      ],
+      "title": "Sleep quality, stress and thyroid cancer: a case-control study",
+      "journal": "J Endocrinol Invest",
+      "year": "2022",
+      "volume": "45",
+      "doi": "10.1007/s40618-022-01751-4",
+      "pmid": "35112324"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Zhang Y",
+        "Zhou S",
+        "Liu S",
+        "Wang Y",
+        "Zhou H",
+        "Wang J",
+        "et al."
+      ],
+      "title": "Association between night eating frequency and thyroid function and sensitivity: a cross-sectional study from the NHANES database",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1489459",
+      "doi": "10.3389/fendo.2024.1489459",
+      "pmid": "39764244",
+      "pmc_id": "PMC11700809"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Ji C",
+        "Ou Y",
+        "Yu W",
+        "Lv J",
+        "Zhang F",
+        "Li H",
+        "et al."
+      ],
+      "title": "Thyroid-stimulating hormone-thyroid hormone signaling contributes to circadian regulation through repressing clock2/npas2 in zebrafish",
+      "journal": "J Genet Genomics = Yi Chuan Xue Bao",
+      "year": "2023",
+      "volume": "51",
+      "fpage": "61",
+      "lpage": "74",
+      "doi": "10.1016/j.jgg.2023.05.015",
+      "pmid": "37328030"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Javaid U",
+        "Kennedy D",
+        "Addison C",
+        "Tsatlidis V",
+        "Razvi S"
+      ],
+      "title": "Frequency, determinants and costs of thyroid function testing in a laboratory serving a large population",
+      "journal": "Eur J Endocrinol",
+      "year": "2022",
+      "volume": "186",
+      "doi": "10.1530/eje-21-1172",
+      "pmid": "35275844"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Sheppard MC"
+      ],
+      "title": "Thyrotrophin receptor expression: does it help in assessing the prognosis of thyroid cancer",
+      "journal": "Clin Endocrinol",
+      "year": "1993",
+      "volume": "39",
+      "doi": "10.1111/j.1365-2265.1993.tb02364.x",
+      "pmid": "8222288"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Rowe CW",
+        "Paul JW",
+        "Gedye C",
+        "Tolosa JM",
+        "Bendinelli C",
+        "McGrath S",
+        "et al."
+      ],
+      "title": "Targeting the TSH receptor in thyroid cancer",
+      "journal": "Endocrine-related Cancer",
+      "year": "2017",
+      "volume": "24",
+      "doi": "10.1530/erc-17-0010",
+      "pmid": "28351942"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Zong D",
+        "Sun B",
+        "Ye Q",
+        "Cao H",
+        "Guan H",
+        "et al."
+      ],
+      "title": "Circadian gene BMAL1 regulation of cellular senescence in thyroid aging",
+      "journal": "Aging Cell",
+      "year": "2025",
+      "volume": "24",
+      "elocation_id": "e70119",
+      "doi": "10.1111/acel.70119",
+      "pmid": "40434135",
+      "pmc_id": "PMC12341809"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Putilov AA",
+        "Budkevich EV",
+        "Budkevich RO"
+      ],
+      "title": "A review of evidence for the involvement of the circadian clock genes into Malignant transformation of thyroid tissue",
+      "journal": "Clocks Sleep",
+      "year": "2023",
+      "volume": "5",
+      "doi": "10.3390/clockssleep5030029",
+      "pmid": "37489438",
+      "pmc_id": "PMC10366820"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Putilov A"
+      ],
+      "title": "Prospects of testing diurnal profiles of expressions of TSH-R and circadian clock genes in thyrocytes for identification of preoperative biomarkers for thyroid carcinoma",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "23",
+      "issue": "20",
+      "fpage": "12208",
+      "doi": "10.3390/ijms232012208",
+      "pmid": "36293065",
+      "pmc_id": "PMC9603503"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Yang M",
+        "Huang J",
+        "Zhang S",
+        "Zhao X",
+        "Feng D",
+        "Feng X"
+      ],
+      "title": "Melatonin mitigated circadian disruption and cardiovascular toxicity caused by 6-benzylaminopurine exposure in zebrafish",
+      "journal": "Ecotoxicology Environ Saf",
+      "year": "2021",
+      "volume": "223",
+      "elocation_id": "112555",
+      "doi": "10.1016/j.ecoenv.2021.112555",
+      "pmid": "34332249"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Yang H",
+        "Zhang Z",
+        "Ding X",
+        "Jiang X",
+        "Tan L",
+        "Lin C",
+        "et al."
+      ],
+      "title": "RP58 knockdown contributes to hypoxia-ischemia-induced pineal dysfunction and circadian rhythm disruption in neonatal rats",
+      "journal": "J Pineal Res",
+      "year": "2023",
+      "volume": "75",
+      "elocation_id": "e12885",
+      "doi": "10.1111/jpi.12885",
+      "pmid": "37183291"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Luo J",
+        "Sands M",
+        "Wactawski-Wende J",
+        "Song Y",
+        "Margolis KL",
+        "et al."
+      ],
+      "title": "Sleep disturbance and incidence of thyroid cancer in postmenopausal women the Women's Health Initiative",
+      "journal": "Am J Epidemiol",
+      "year": "2012",
+      "volume": "177",
+      "doi": "10.1093/aje/kws193",
+      "pmid": "23221728",
+      "pmc_id": "PMC3590038"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Papantoniou K",
+        "Konrad P",
+        "Haghayegh S",
+        "Strohmaier S",
+        "Eliassen AH",
+        "Schernhammer E"
+      ],
+      "title": "Rotating night shift work, sleep, and thyroid cancer risk in the nurses' health study 2",
+      "journal": "Cancers",
+      "year": "2023",
+      "volume": "15",
+      "issue": "23",
+      "fpage": "5673",
+      "doi": "10.3390/cancers15235673",
+      "pmid": "38067376",
+      "pmc_id": "PMC10705158"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Schumm MA",
+        "Shu ML",
+        "Hughes EG",
+        "Nikiforov YE",
+        "Nikiforova MN",
+        "Wald AI",
+        "et al."
+      ],
+      "title": "Prognostic value of preoperative molecular testing and implications for initial surgical management in thyroid nodules harboring suspected (Bethesda V) or known (Bethesda VI) papillary thyroid cancer",
+      "journal": "JAMA Otolaryngology-- Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "doi": "10.1001/jamaoto.2023.1494",
+      "pmid": "37382944",
+      "pmc_id": "PMC10311424"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Landa I",
+        "Cabanillas ME"
+      ],
+      "title": "Genomic alterations in thyroid cancer: biological and clinical insights",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2023",
+      "volume": "20",
+      "issue": "2",
+      "doi": "10.1038/s41574-023-00920-6",
+      "pmid": "38049644"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Jasim S",
+        "Golding A",
+        "Bimston D",
+        "Alshalalfa M",
+        "Chen Y",
+        "Jiang R",
+        "et al."
+      ],
+      "title": "Cytologic and molecular assessment of isthmus thyroid nodules and carcinomas",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2024",
+      "volume": "35",
+      "doi": "10.1089/thy.2024.0254",
+      "pmid": "39527399"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Abiri B",
+        "Ramezani Ahmadi A",
+        "Valizadeh A",
+        "Abbaspour F",
+        "Valizadeh M",
+        "Hedayati M"
+      ],
+      "title": "Obesity and thyroid cancer: unraveling the connection through a systematic review and meta-analysis of cohort studies",
+      "journal": "J Diabetes Metab Disord",
+      "year": "2024",
+      "volume": "23",
+      "doi": "10.1007/s40200-024-01425-3",
+      "pmid": "38932807",
+      "pmc_id": "PMC11196530"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Franchini F",
+        "Palatucci G",
+        "Colao A",
+        "Ungaro P",
+        "Macchia PE",
+        "Nettore IC"
+      ],
+      "title": "Obesity and thyroid cancer risk: An update",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2022",
+      "volume": "19",
+      "issue": "3",
+      "fpage": "1116",
+      "doi": "10.3390/ijerph19031116",
+      "pmid": "35162142",
+      "pmc_id": "PMC8834607"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Mou YK",
+        "Ren C",
+        "Li YM",
+        "Yu GH",
+        "Zheng GB",
+        "Song H",
+        "et al."
+      ],
+      "title": "Correlation analysis of clock genes and MEN2 medullary thyroid carcinoma",
+      "journal": "Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "year": "2022",
+      "volume": "57",
+      "doi": "10.3760/cma.j.cn115330-20211225-00822",
+      "pmid": "36177562"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Mao J",
+        "Zhang Q",
+        "Zhang H",
+        "Zheng K",
+        "Wang R",
+        "Wang G",
+        "et al."
+      ],
+      "title": "Risk factors for lymph node metastasis in papillary thyroid carcinoma: A systematic review and meta-analysis",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "265",
+      "doi": "10.3389/fendo.2020.00265",
+      "pmid": "32477264",
+      "pmc_id": "PMC7242632"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Liu Y",
+        "Wang Y",
+        "Zhao K",
+        "Li D",
+        "Chen Z",
+        "Jiang R",
+        "et al."
+      ],
+      "title": "Lymph node metastasis in young and middle-aged papillary thyroid carcinoma patients: a SEER-based cohort study",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "181",
+      "doi": "10.1186/s12885-020-6675-0",
+      "pmid": "32131769",
+      "pmc_id": "PMC7057480"
     }
   ]
 }

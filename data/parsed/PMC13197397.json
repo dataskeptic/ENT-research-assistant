@@ -18,7 +18,8 @@
     "pmc_id": "PMC13197397",
     "pmid": "42173950",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 54
   },
   "sections": [
     {
@@ -80,6 +81,851 @@
       "section": "Evaluation Of Ablation Craters And Tissue Damage",
       "text": "Optical coherence tomography (OCT, see section \" Preparation and characterization of porcine cartilage models \") was used to measure the depth and width of the laser ablation craters. The lateral resolution is , the axial resolution . Cross-sectional B-scans were analyzed to determine the distance between the crater edges and the deepest point. Each measurement was repeated three times to minimize error. After OCT evaluation, the tissue samples were embedded in Tissue-Tek Cryomold molds ( ) using Tissue Freezing Medium (Leica), frozen at , and then cut into thick sections using a 2800 Frigocut cryostat (Reichert-Jung). Sections were taken at different positions along the laser spot and stained with hematoxylin–eosin (H&E) according to a modified Carl Roth Rapid Staining Kit protocol. Stained sections were examined under an inverted microscope (Nikon) at and magnification. Both overall images and detailed views of the ablated areas were analyzed, and the open-source software Fiji was used for quantitative evaluation of the damaged areas.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Castle JT"
+      ],
+      "title": "Cholesteatoma pearls: Practical points and update",
+      "journal": "Head Neck Pathol.",
+      "year": "2018",
+      "volume": "12",
+      "fpage": "419",
+      "lpage": "429",
+      "doi": "10.1007/s12105-018-0915-5",
+      "pmid": "30069838",
+      "pmc_id": "PMC6081285"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "de Aquino JEAP",
+        "Cruz Filho NA",
+        "de Aquino JNP"
+      ],
+      "title": "Epidemiology of middle ear and mastoid cholesteatomas: Study of 1146 cases",
+      "journal": "Braz. J. Otorhinolaryngol.",
+      "year": "2011",
+      "volume": "77",
+      "fpage": "341",
+      "lpage": "347",
+      "doi": "10.1590/S1808-86942011000300012",
+      "pmid": "21739009",
+      "pmc_id": "PMC9443752"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Leichtle A",
+        "et al."
+      ],
+      "title": "Dynamic Microscopic Optical Coherence Tomography as a New Diagnostic Tool for Otitis Media",
+      "journal": "Photonics",
+      "year": "2023",
+      "volume": "10",
+      "fpage": "685",
+      "doi": "10.3390/photonics10060685"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Leichtle A",
+        "et al."
+      ],
+      "title": "Immunmodulation im Cholesteatom",
+      "journal": "Laryngo-Rhino-Otol.",
+      "year": "2022",
+      "volume": "101",
+      "fpage": "310",
+      "lpage": "319",
+      "doi": "10.1055/a-1516-4447",
+      "pmid": "34233375"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Kuo CL",
+        "et al."
+      ],
+      "title": "Updates and knowledge gaps in cholesteatoma research",
+      "journal": "Biomed Res. Int.",
+      "year": "2015",
+      "volume": "2015",
+      "fpage": "854024",
+      "doi": "10.1155/2015/854024",
+      "pmid": "25866816",
+      "pmc_id": "PMC4381684"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Albera R",
+        "Canale A",
+        "Piumetto E",
+        "Lacilla M",
+        "Dagna F"
+      ],
+      "title": "Ossicular chain lesions in cholesteatoma",
+      "journal": "Acta Otorhinolaryngol. Ital.",
+      "year": "2012",
+      "volume": "32",
+      "fpage": "309",
+      "lpage": "313",
+      "pmid": "23326010",
+      "pmc_id": "PMC3546406"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Lenarz T",
+        "Boenninghaus H-G"
+      ],
+      "journal": "Hals-Nasen-Ohren-Heilkunde",
+      "year": "2012"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Kuo CL",
+        "Liao WH",
+        "Shiao AS"
+      ],
+      "title": "A review of current progress in acquired cholesteatoma management",
+      "journal": "Eur. Arch. Oto-Rhino-Laryngology",
+      "year": "2015",
+      "volume": "272",
+      "fpage": "3601",
+      "lpage": "3609",
+      "doi": "10.1007/s00405-014-3291-0",
+      "pmid": "25227761"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Pontillo V",
+        "et al."
+      ],
+      "title": "Quality of life after cholesteatoma surgery: Comparison between surgical techniques",
+      "journal": "Acta Otorhinolaryngol. Ital.",
+      "year": "2022",
+      "volume": "42",
+      "fpage": "293",
+      "lpage": "299",
+      "doi": "10.14639/0392-100X-N1998",
+      "pmid": "35880370",
+      "pmc_id": "PMC9330745"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Lee J",
+        "et al."
+      ],
+      "title": "NOD1/NOD2-mediated recognition of non-typeable Haemophilus influenzae activates innate immunity during otitis media",
+      "journal": "Innate Immun.",
+      "year": "2019",
+      "volume": "25",
+      "fpage": "503",
+      "lpage": "512",
+      "doi": "10.1177/1753425919872266",
+      "pmid": "31474163",
+      "pmc_id": "PMC6900663"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Leichtle A",
+        "et al."
+      ],
+      "title": "NOD-Like Receptor Signaling in Cholesteatoma",
+      "journal": "Biomed Res. Int.",
+      "year": "2015",
+      "volume": "2015",
+      "fpage": "408169",
+      "doi": "10.1155/2015/408169",
+      "pmid": "25922834",
+      "pmc_id": "PMC4398947"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Kulkarni SV",
+        "Yamagar NM",
+        "Pol SA",
+        "Patel R",
+        "Gilani A"
+      ],
+      "title": "Study of morphological and anthropometric features of human ear ossicles",
+      "journal": "Indian J. Otolaryngol. Head Neck Surg.",
+      "year": "2024",
+      "volume": "76",
+      "fpage": "846",
+      "lpage": "851",
+      "doi": "10.1007/s12070-023-04295-y",
+      "pmid": "38440510",
+      "pmc_id": "PMC10908925"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Mudhol RS",
+        "Narahari S",
+        "Havaldar R"
+      ],
+      "title": "Morphological and anthropometrical features of human ear ossicles",
+      "journal": "J. Anat. Soc. India",
+      "year": "2022",
+      "volume": "71",
+      "fpage": "88",
+      "lpage": "92",
+      "doi": "10.4103/jasi.jasi_67_21"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Farahani RM",
+        "Nooranipour M"
+      ],
+      "title": "Anatomy and anthropometry of human stapes",
+      "journal": "Am. J. Otolaryngol.",
+      "year": "2008",
+      "volume": "29",
+      "fpage": "42",
+      "lpage": "47",
+      "doi": "10.1016/j.amjoto.2007.01.004",
+      "pmid": "18061831"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Sim JH",
+        "Röösli C",
+        "Chatzimichalis M",
+        "Eiber A",
+        "Huber AM"
+      ],
+      "title": "Characterization of stapes anatomy: Investigation of human and guinea pig",
+      "journal": "J. Assoc. Res. Otolaryngol.",
+      "year": "2013",
+      "volume": "14",
+      "fpage": "159",
+      "lpage": "173",
+      "doi": "10.1007/s10162-012-0369-5",
+      "pmid": "23299488",
+      "pmc_id": "PMC3660917"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Dass R",
+        "Grewal BS",
+        "Thapar SP"
+      ],
+      "title": "Human stapes and its variations I. General features",
+      "journal": "J. Laryngol. Otol.",
+      "year": "1966",
+      "volume": "80",
+      "fpage": "11",
+      "lpage": "25",
+      "doi": "10.1017/S0022215100064914",
+      "pmid": "5902150"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Tang R",
+        "et al."
+      ],
+      "title": "Stapes visualization by ultra-high resolution CT in cadaveric heads: A preliminary study",
+      "journal": "Eur. J. Radiol.",
+      "year": "2021",
+      "volume": "141",
+      "fpage": "109786",
+      "doi": "10.1016/j.ejrad.2021.109786",
+      "pmid": "34058698"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Jain S",
+        "Parveen S",
+        "Kumar S",
+        "Talwar D"
+      ],
+      "title": "Validated ossicular measurements on high-resolution computed tomography (CT) in live and cadaveric temporal bones",
+      "journal": "Cureus",
+      "year": "2022",
+      "volume": "14",
+      "fpage": "e22410",
+      "pmid": "35371655",
+      "doi": "10.7759/cureus.22410",
+      "pmc_id": "PMC8941294"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Sodhi S",
+        "Singh Z",
+        "Lal J"
+      ],
+      "title": "Morphometric dimensions of human ear ossicles of males",
+      "journal": "Natl. J. Med. Res.",
+      "year": "2017",
+      "volume": "7",
+      "fpage": "47",
+      "lpage": "51"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Kumar BS",
+        "Anjum A",
+        "Vallinayagam R",
+        "Selvi GP",
+        "Vendhan KE"
+      ],
+      "title": "Morphometry of human ear ossicles",
+      "journal": "Arch. Med. Heal. Sci.",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "234",
+      "lpage": "237",
+      "doi": "10.4103/amhs.amhs_16_23"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Hamilton JW"
+      ],
+      "title": "Systematic preservation of the ossicular chain in cholesteatoma surgery using a fiber-guided laser",
+      "journal": "Otol. Neurotol.",
+      "year": "2010",
+      "volume": "31",
+      "fpage": "1104",
+      "lpage": "1108",
+      "doi": "10.1097/MAO.0b013e3181e9beb3",
+      "pmid": "20616760"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Lau K",
+        "Stavrakas M",
+        "Yardley M",
+        "Ray J"
+      ],
+      "title": "Lasers in cholesteatoma surgery: A systematic review",
+      "journal": "Ear Nose Throat J.",
+      "year": "2021",
+      "volume": "100",
+      "fpage": "94S",
+      "lpage": "99S",
+      "doi": "10.1177/0145561320948772",
+      "pmid": "32809846"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Nishizaki K",
+        "et al."
+      ],
+      "title": "Laser-assisted tympanoplasty for preservation of the ossicular chain in cholesteatoma",
+      "journal": "Am. J. Otolaryngol.",
+      "year": "2001",
+      "volume": "22",
+      "fpage": "424",
+      "lpage": "427",
+      "doi": "10.1053/ajot.2001.28081",
+      "pmid": "11713730"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Hanke A",
+        "Fimmers R",
+        "Frentzen M",
+        "Meister J"
+      ],
+      "title": "Quantitative determination of cut efficiency during soft tissue surgery using diode lasers in the wavelength range between 400 and 1500 nm",
+      "journal": "Lasers. Med. Sci.",
+      "year": "2021",
+      "volume": "36",
+      "fpage": "1633",
+      "lpage": "1647",
+      "doi": "10.1007/s10103-020-03243-4",
+      "pmid": "33496905",
+      "pmc_id": "PMC8433103"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "doi": "10.1002/lsm.70145",
+      "pmid": "42138490"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Fyrmpas G",
+        "Tsetsos N",
+        "Katotomichelakis M",
+        "Rudic M"
+      ],
+      "title": "Lasers in endoscopic middle ear surgery: Where do we stand today?",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2021",
+      "volume": "278",
+      "fpage": "4169",
+      "lpage": "4177",
+      "doi": "10.1007/s00405-021-06807-4",
+      "pmid": "33938993"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Sogandares FM",
+        "Fry ES"
+      ],
+      "title": "Absorption spectrum (340–640 nm) of pure water. I. Photothermal measurements",
+      "journal": "Appl. Opt.",
+      "year": "1997",
+      "volume": "36",
+      "fpage": "8699",
+      "lpage": "8709",
+      "doi": "10.1364/AO.36.008699",
+      "pmid": "18264419"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "raw_citation": "Prahl, S. Optical Absorption of Hemoglobin. https://omlc.org/spectra/hemoglobin/ (1999)."
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Reichelt J",
+        "Winter J",
+        "Meister J",
+        "Frentzen M",
+        "Kraus D"
+      ],
+      "title": "A novel blue light laser system for surgical applications in dentistry: Evaluation of specific laser-tissue interactions in monolayer cultures",
+      "journal": "Clin. Oral. Investig.",
+      "year": "2017",
+      "volume": "21",
+      "fpage": "985",
+      "lpage": "994",
+      "doi": "10.1007/s00784-016-1864-6",
+      "pmid": "27251194"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Hess MM",
+        "Fleischer S",
+        "Ernstberger M"
+      ],
+      "title": "New 445 nm blue laser for laryngeal surgery combines photoangiolytic and cutting properties",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2018",
+      "volume": "275",
+      "fpage": "1557",
+      "lpage": "1567",
+      "doi": "10.1007/s00405-018-4974-8",
+      "pmid": "29675755"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Tam KYA",
+        "Lui KCM",
+        "Cheng H",
+        "Tong MCF",
+        "Chang WT"
+      ],
+      "title": "The role of Trublue laser in cholesteatoma surgery",
+      "journal": "Otol. Neurotol.",
+      "year": "2024",
+      "volume": "45",
+      "fpage": "552",
+      "lpage": "555",
+      "doi": "10.1097/MAO.0000000000004183",
+      "pmid": "38728557"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Miller BJ",
+        "Abdelhamid A",
+        "Karagama Y"
+      ],
+      "title": "Applications of office-based 445 nm blue laser transnasal flexible laser surgery: A case series and review of practice",
+      "journal": "Ear. Nose. Throat. J.",
+      "year": "2021",
+      "volume": "100",
+      "fpage": "105S",
+      "lpage": "112S",
+      "doi": "10.1177/0145561320960544",
+      "pmid": "32970490"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Bertlich M",
+        "et al."
+      ],
+      "title": "Safety and efficacy of blue light laser treatment in Hereditary Hemorrhagic Telangiectasia",
+      "journal": "Lasers. Surg. Med.",
+      "year": "2021",
+      "volume": "53",
+      "fpage": "309",
+      "lpage": "315",
+      "doi": "10.1002/lsm.23289",
+      "pmid": "32573010"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Hoffstetter M",
+        "et al."
+      ],
+      "title": "Middle ear of human and pig: A comparison of structures and mechanics",
+      "journal": "Biomed. Tech. (Berl.)",
+      "year": "2011",
+      "volume": "56",
+      "fpage": "159",
+      "lpage": "165",
+      "doi": "10.1515/bmt.2011.011",
+      "pmid": "21657989"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Walker CB",
+        "et al."
+      ],
+      "title": "Flexible catheter optical coherence tomography of the porcine middle ear via the Eustachian tube using a 3D-printed reflective objective",
+      "journal": "J. Biomed. Opt.",
+      "year": "2025",
+      "volume": "30",
+      "fpage": "076002",
+      "doi": "10.1117/1.JBO.30.7.076002",
+      "pmid": "40621165",
+      "pmc_id": "PMC12223792"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Zopf DA",
+        "et al."
+      ],
+      "title": "Biomechanical evaluation of human and porcine auricular cartilage",
+      "journal": "Laryngoscope",
+      "year": "2015",
+      "volume": "125",
+      "fpage": "E262",
+      "lpage": "E268",
+      "doi": "10.1002/lary.25040",
+      "pmid": "25891012",
+      "pmc_id": "PMC4512857"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Wisotzky EL",
+        "et al."
+      ],
+      "title": "Determination of the optical properties of cholesteatoma in the spectral range of 250 to 800 nm",
+      "journal": "Biomed. Opt. Express",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "1489",
+      "doi": "10.1364/BOE.384742",
+      "pmid": "32206424",
+      "pmc_id": "PMC7075596"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Hibst R",
+        "Keller U"
+      ],
+      "title": "Experimental studies of the application of the Er:YAG laser on dental hard substances: I. Measurement of the ablation rate",
+      "journal": "Lasers Surg. Med.",
+      "year": "1989",
+      "volume": "9",
+      "fpage": "338",
+      "lpage": "344",
+      "doi": "10.1002/lsm.1900090405",
+      "pmid": "2761329"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Braun A",
+        "et al."
+      ],
+      "title": "Efficiency of soft tissue incision with a novel 445-nm semiconductor laser",
+      "journal": "Lasers Med. Sci.",
+      "year": "2018",
+      "volume": "33",
+      "fpage": "27",
+      "lpage": "33",
+      "doi": "10.1007/s10103-017-2320-9",
+      "pmid": "28889322"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Palaghia S-M",
+        "Georgescu S-I",
+        "Sarafoleanu C"
+      ],
+      "title": "The blue light laser technology: A new progress in ENT surgery",
+      "journal": "Rom. J. Rhinol.",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "13",
+      "lpage": "20"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Lin RJ",
+        "et al."
+      ],
+      "title": "Blue Light Laser Results in Less Vocal Fold Scarring Compared to KTP Laser in Normal Rat Vocal Folds",
+      "journal": "Laryngoscope",
+      "year": "2021",
+      "volume": "131",
+      "fpage": "853",
+      "lpage": "858",
+      "doi": "10.1002/lary.28892",
+      "pmid": "32750168"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Balouch B",
+        "et al."
+      ],
+      "title": "Surgical outcome of low-power-density blue laser for vascular lesions of the vocal fold",
+      "journal": "J. Voice",
+      "year": "2024",
+      "volume": "38",
+      "fpage": "1498",
+      "lpage": "1506",
+      "doi": "10.1016/j.jvoice.2022.05.007",
+      "pmid": "35781175"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Wong TW",
+        "Cheng CW",
+        "Hsieh ZJ",
+        "Liang JY"
+      ],
+      "title": "Effects of blue or violet light on the inactivation of Staphylococcus aureus by riboflavin-5′-phosphate photolysis",
+      "journal": "J. Photochem. Photobiol. B. Biol.",
+      "year": "2017",
+      "volume": "173",
+      "fpage": "672",
+      "lpage": "680",
+      "doi": "10.1016/j.jphotobiol.2017.07.009",
+      "pmid": "28715781"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Tomb RM",
+        "et al."
+      ],
+      "title": "Review of the Comparative Susceptibility of Microbial Species to Photoinactivation Using 380–480 nm Violet-Blue Light",
+      "journal": "Photochem. Photobiol.",
+      "year": "2018",
+      "volume": "94",
+      "fpage": "445",
+      "lpage": "458",
+      "doi": "10.1111/php.12883",
+      "pmid": "29350751"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "raw_citation": "Leffers, D. et al. Efficacy of the 445 nm blue laser in the surgical treatment of chronic otitis media. Eur. Arch. Oto-Rhino-Laryngology. (submitted)."
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Fan Y",
+        "Zhang B",
+        "Chang W",
+        "Zhang X",
+        "Liao H"
+      ],
+      "title": "A novel integration of spectral-domain optical-coherence-tomography and laser-ablation system for precision treatment",
+      "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "411",
+      "lpage": "423",
+      "doi": "10.1007/s11548-017-1664-8",
+      "pmid": "28887783"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Jaafar NSA",
+        "et al."
+      ],
+      "title": "The surgical ablation on soft tissues using Ho:YAG laser with deviated beam fiber",
+      "journal": "Opt. Fiber Technol.",
+      "year": "2019",
+      "volume": "52",
+      "fpage": "101937",
+      "doi": "10.1016/j.yofte.2019.101937"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Djalilian HR",
+        "et al."
+      ],
+      "title": "Optical Coherence Tomography of Cholesteatoma",
+      "journal": "Otol. Neurotol.",
+      "year": "2012",
+      "volume": "31",
+      "fpage": "932",
+      "lpage": "935",
+      "doi": "10.1097/MAO.0b013e3181e711b8",
+      "pmc_id": "PMC3376750",
+      "pmid": "20684054"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Liu P",
+        "et al."
+      ],
+      "title": "The Dresden in vivo OCT dataset for automatic middle ear segmentation",
+      "journal": "Sci. Data.",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "242",
+      "doi": "10.1038/s41597-024-03000-0",
+      "pmid": "38409278",
+      "pmc_id": "PMC10967373"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "raw_citation": "Markowicz, A. et al. Imaging middle ear tissues with biofilms and cholesteatoma using polarization-sensitive swept-source optical coherence tomography. in Imaging, Ther. Adv. Technol. Head Neck Surg. Otolaryngol. SPIE, PC1281802 (SPIE, 2024)."
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Wang J",
+        "et al."
+      ],
+      "title": "Fusion of middle ear optical coherence tomography and computed tomography",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2025",
+      "volume": "151",
+      "fpage": "476",
+      "lpage": "484",
+      "doi": "10.1001/jamaoto.2025.0043",
+      "pmid": "40178817",
+      "pmc_id": "PMC11969363"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Yau AY",
+        "Mahboubi H",
+        "Maducdoc M",
+        "Ghavami Y",
+        "Djalilian R"
+      ],
+      "title": "Curved adjustable fiberoptic laser for endoscopic cholesteatoma surgery",
+      "journal": "Otol. Neurotol.",
+      "year": "2014",
+      "volume": "36",
+      "fpage": "61",
+      "lpage": "64",
+      "doi": "10.1097/MAO.0000000000000527",
+      "pmid": "25279936"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Vogel A",
+        "Venugopalan V"
+      ],
+      "title": "Mechanisms of pulsed laser ablation of biological tissues",
+      "journal": "Chem. Rev.",
+      "year": "2003",
+      "volume": "103",
+      "fpage": "577",
+      "lpage": "644",
+      "doi": "10.1021/cr010379n",
+      "pmid": "12580643"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "raw_citation": "Bashkatov, A. N. et al. Optical properties of human skin, subcutaneous and mucous tissues in the wavelength range from 400 to 2000 nm. Journal of Physics D: Applied Physics , 38 (15), 2543–2555 (2005)."
     }
   ]
 }

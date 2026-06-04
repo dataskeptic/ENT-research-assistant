@@ -13,7 +13,8 @@
     "pmc_id": "PMC13186891",
     "pmid": "42154319",
     "full_text_available": true,
-    "section_count": 14
+    "section_count": 14,
+    "reference_count": 53
   },
   "sections": [
     {
@@ -85,6 +86,887 @@
       "section": "Conclusion",
       "text": "The results of this study indicate that low temperatures, typical of the climatic context of Cuneo, play a fundamental role as an environmental risk factor associated with Emergency Department visit for AOM. This result is confirmed in previous publications, which indicate this factor as of primary importance. The pollutants examined (NO₂, O₃, PM 10 ) show a more moderate impact, with varying significance, depending on the statistical model used. Considering the levels of air pollutants observed in Cuneo over the last twenty years, with constantly decreasing trends, further studies are needed, particularly in larger urban contexts, even in a multicenter mode, to confirm these associations. AdaBoost proved to be the most accurate algorithm for predicting daily AOM visits, as confirmed by its strong validation performance. The SHAP analysis highlighted mean temperature as the dominant predictive variable (contributing 44% to model output), with PM 10 , NO₂, and O₃ exerting smaller yet meaningful influences. The DLNM model confirmed a consistent and statistically significant effect of temperature and moderate delayed effects for NO₂ and PM 10 alongside minor but significant short-lag effects for O₃. The integrated approach, based on the combined use of Machine Learning and models capable of estimating short-term delayed (dose-response) effects, proposed in this study, represents a methodological contribution for a deeper epidemiological understanding of the timing and intensity of environmental exposure effects. The complexity of pathogenetic mechanisms in the onset of acute diseases and the interaction between multiple environmental factors constitute a challenge that can benefit from new methodologies to find effective health prevention strategies for diseases associated with adverse environmental conditions.",
       "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Bardou MLD",
+        "Pontarolli D",
+        "Grumach AS"
+      ],
+      "title": "Otitis as a warning sign for inborn errors of immunity (IEI)",
+      "journal": "Curr Allergy Asthma Rep",
+      "year": "2023",
+      "volume": "20",
+      "issue": "10",
+      "fpage": "59",
+      "doi": "10.1007/s11882-023-01079-2",
+      "pmid": "32654069"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Barredo Arrieta A",
+        "Díaz-Rodríguez N",
+        "Del Ser J",
+        "Bennetot A",
+        "Tabik S",
+        "Barbado A",
+        "Garcia S",
+        "Gil-Lopez S",
+        "Molina D",
+        "Benjamins R",
+        "Chatila R",
+        "Herrera F"
+      ],
+      "title": "Explainable Artificial AI",
+      "journal": "Inf Fusion",
+      "year": "2020",
+      "volume": "58",
+      "fpage": "82",
+      "lpage": "115",
+      "doi": "10.1016/j.inffus.2019.12.012"
+    },
+    {
+      "ref_id": "CR3",
+      "authors": [
+        "Berman S"
+      ],
+      "title": "Otitis Media in Children",
+      "journal": "N Engl J Med",
+      "year": "1995",
+      "volume": "332",
+      "fpage": "1560",
+      "lpage": "1565",
+      "doi": "10.1056/NEJM199506083322307",
+      "pmid": "7739711"
+    },
+    {
+      "ref_id": "CR59",
+      "raw_citation": "Bluestone (2007) Otitis media in infants and children. BC Decker, Hamilton"
+    },
+    {
+      "ref_id": "CR4",
+      "authors": [
+        "Biggeri A",
+        "Bellini P",
+        "Terracini B",
+        "MISA"
+      ],
+      "title": "Meta-analysis of the Italian studies on short-term effects of air pollution",
+      "journal": "Epidemiol Prev",
+      "year": "2001",
+      "volume": "25",
+      "issue": "2 Suppl",
+      "fpage": "1",
+      "lpage": "71",
+      "pmid": "11515188"
+    },
+    {
+      "ref_id": "CR6",
+      "authors": [
+        "Bowatte G",
+        "Tham R",
+        "Perret JL",
+        "Bloom MS",
+        "Dong GH",
+        "Waidyatillake N",
+        "Bui D",
+        "Morgan GG",
+        "Jalaludin B",
+        "Lodge CJ",
+        "Dharmage SC"
+      ],
+      "title": "Air Pollution and Otitis Media in Children: A Systematic Review of Literature",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2018",
+      "volume": "15",
+      "issue": "2",
+      "fpage": "257",
+      "doi": "10.3390/ijerph15020257",
+      "pmid": "29401661",
+      "pmc_id": "PMC5858326"
+    },
+    {
+      "ref_id": "CR7",
+      "authors": [
+        "Bridwell RE",
+        "Koyfman A",
+        "Long B"
+      ],
+      "title": "High risk and low prevalence diseases: Acute mastoiditis",
+      "journal": "Am J Emerg Med",
+      "year": "2024",
+      "volume": "79",
+      "fpage": "63",
+      "lpage": "69",
+      "doi": "10.1016/j.ajem.2024.02.009",
+      "pmid": "38368849"
+    },
+    {
+      "ref_id": "CR8",
+      "authors": [
+        "Casselbrant ML",
+        "Mandel EM",
+        "Jung J",
+        "et al."
+      ],
+      "title": "Otitis media: a genome-wide linkage scan with evidence of susceptibility loci within the 17q12 and 10q22.3 regions",
+      "journal": "BMC Med Genet",
+      "year": "2009",
+      "volume": "10",
+      "fpage": "85",
+      "doi": "10.1186/1471-2350-10-85",
+      "pmid": "19728873",
+      "pmc_id": "PMC2751750"
+    },
+    {
+      "ref_id": "CR9",
+      "authors": [
+        "Castronuovo G",
+        "Favia G",
+        "Telesca V",
+        "Vammacigno A"
+      ],
+      "title": "Analyzing the Interactions between Environmental Parameters and Cardiovascular Diseases Using Random Forest and SHAP Algorithms",
+      "journal": "Rev Cardiovasc Med",
+      "year": "2023",
+      "volume": "24",
+      "issue": "11",
+      "fpage": "330",
+      "doi": "10.31083/j.rcm2411330",
+      "pmid": "39076440",
+      "pmc_id": "PMC11262455"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Chicco D",
+        "Warrens MJ",
+        "Jurman G"
+      ],
+      "title": "The coefficient of determination R-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation",
+      "journal": "PeerJ Comput Sci",
+      "year": "2021",
+      "volume": "7",
+      "fpage": "cs",
+      "lpage": "623",
+      "doi": "10.7717/peerj-cs.623",
+      "pmc_id": "PMC8279135",
+      "pmid": "34307865"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "Chonmaitree T",
+        "Revai K",
+        "Grady JJ",
+        "et al."
+      ],
+      "title": "Viral upper respiratory tract infection and otitis media complication in young children",
+      "journal": "Clin Infect Dis",
+      "year": "2008",
+      "volume": "46",
+      "fpage": "815",
+      "lpage": "823",
+      "doi": "10.1086/527385",
+      "pmid": "18279042",
+      "pmc_id": "PMC2744371"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Ding X",
+        "Huang Y",
+        "Tian X",
+        "Zhao Y",
+        "Feng G",
+        "Gao Z"
+      ],
+      "title": "Diagnosis, Treatment, and Management of Otitis Media with Artificial Intelligence",
+      "journal": "Diagnostics (Basel)",
+      "year": "2023",
+      "volume": "13",
+      "issue": "13",
+      "fpage": "2309",
+      "doi": "10.3390/diagnostics13132309",
+      "pmid": "37443702",
+      "pmc_id": "PMC10341128"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Esposito S",
+        "Bianchini S",
+        "Argentiero A",
+        "Gobbi R",
+        "Vicini C",
+        "Principi N"
+      ],
+      "title": "New Approaches and Technologies to Improve Accuracy of Acute Otitis Media Diagnosis",
+      "journal": "Diagnostics (Basel)",
+      "year": "2021",
+      "volume": "11",
+      "issue": "12",
+      "fpage": "2392",
+      "doi": "10.3390/diagnostics11122392",
+      "pmid": "34943628",
+      "pmc_id": "PMC8700495"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Ezzibdeh R",
+        "Munjal T",
+        "Ahmad I",
+        "Valdez TA"
+      ],
+      "title": "Artificial intelligence and tele-otoscopy: A window into the future of pediatric otology",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2022",
+      "volume": "160",
+      "fpage": "111229",
+      "doi": "10.1016/j.ijporl.2022.111229",
+      "pmid": "35816971"
+    },
+    {
+      "ref_id": "CR15",
+      "authors": [
+        "Gasparrini A"
+      ],
+      "title": "Modeling exposure–lag–response associations with distributed lag non-linear models",
+      "journal": "Stat Med",
+      "year": "2014",
+      "volume": "33",
+      "issue": "5",
+      "fpage": "881",
+      "lpage": "899",
+      "doi": "10.1002/sim.5963",
+      "pmid": "24027094",
+      "pmc_id": "PMC4098103"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Gestro M",
+        "Condemi V",
+        "Bardi L",
+        "Fantino C",
+        "Solimene U"
+      ],
+      "title": "Meteorological factors, air pollutants, and emergency department visits for otitis media: A time series study",
+      "journal": "Int J Biometeorol",
+      "year": "2017",
+      "volume": "61",
+      "fpage": "1749",
+      "lpage": "1764",
+      "doi": "10.1007/s00484-017-1336-5",
+      "pmid": "28466414"
+    },
+    {
+      "ref_id": "CR17",
+      "authors": [
+        "Godur DA",
+        "Denton AJ",
+        "Eshraghi N",
+        "Mittal J",
+        "Cooper J",
+        "Moosa M",
+        "Mittal R"
+      ],
+      "title": "Modulation of gut microbiome as a therapeutic modality for auditory disorders",
+      "journal": "Front Cell Neurosci",
+      "year": "2023",
+      "volume": "13",
+      "issue": "5",
+      "fpage": "741",
+      "lpage": "752",
+      "doi": "10.3389/fncel.2023.10603848",
+      "pmc_id": "PMC10603848",
+      "pmid": "37887847"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Gogtay NJ",
+        "Thatte UM"
+      ],
+      "title": "Principles of correlation analysis",
+      "journal": "J Assoc Physicians India",
+      "year": "2017",
+      "volume": "65",
+      "fpage": "78",
+      "lpage": "81",
+      "pmid": "28462548"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Groth A",
+        "Enoksson F",
+        "Hultcrantz M",
+        "Stalfors J",
+        "Stenfeldt K",
+        "Hermansson A"
+      ],
+      "title": "Acute mastoiditis in children aged 0–16 years-a national study of 678 cases in Sweden comparing different age groups",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2012",
+      "volume": "76",
+      "issue": "10",
+      "fpage": "1494",
+      "lpage": "1500",
+      "doi": "10.1016/j.ijporl.2012.06.017",
+      "pmid": "22832239"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Habib A",
+        "Kajbafzadeh M",
+        "Hasan Z",
+        "Wong E",
+        "Gunasekera H",
+        "Perry C",
+        "Sacks R",
+        "Kumar A",
+        "Singh N"
+      ],
+      "title": "Artificial intelligence to classify ear disease from otoscopy: A systematic review and meta-analysis",
+      "journal": "Clin Otolaryngol",
+      "year": "2022",
+      "volume": "47",
+      "issue": "3",
+      "fpage": "401",
+      "lpage": "413",
+      "doi": "10.1111/coa.13957",
+      "pmid": "35253378",
+      "pmc_id": "PMC9310803"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Hoffman HJ",
+        "Daly KA",
+        "Bainbridge KE",
+        "Casselbrant ML",
+        "Homøe P",
+        "Kvestad E",
+        "Kvaerner KJ",
+        "Vernacchio L"
+      ],
+      "title": "Panel 1: Epidemiology, natural history, and risk factors",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2013",
+      "volume": "148",
+      "issue": "4 Suppl",
+      "fpage": "E1",
+      "lpage": "E25",
+      "doi": "10.1177/0194599812460984",
+      "pmid": "23536527"
+    },
+    {
+      "ref_id": "CR23",
+      "authors": [
+        "Kennedy CM",
+        "Pennington AF",
+        "Darrow LA",
+        "Klein M",
+        "Zhai X",
+        "Bates JT",
+        "Russell AG",
+        "Hansen C",
+        "Tolbert PE",
+        "Strickland MJ"
+      ],
+      "title": "Associations of mobile source air pollution during the first year of life with childhood pneumonia, bronchiolitis, and otitis media",
+      "journal": "Environ Epidemiol",
+      "year": "2018",
+      "volume": "2",
+      "issue": "1",
+      "fpage": "e005",
+      "doi": "10.1097/EE9.0000000000000007",
+      "pmc_id": "PMC6133251",
+      "pmid": "30215038"
+    },
+    {
+      "ref_id": "CR24",
+      "authors": [
+        "Lasisi AO",
+        "Olaniyan FA",
+        "Muibi SA",
+        "et al."
+      ],
+      "title": "Clinical and demographic risk factors associated with chronic suppurative otitis media",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2007",
+      "volume": "71",
+      "fpage": "1549",
+      "lpage": "1554",
+      "doi": "10.1016/j.ijporl.2007.04.015",
+      "pmid": "17643499"
+    },
+    {
+      "ref_id": "CR25",
+      "authors": [
+        "Lee S",
+        "Jang M",
+        "Oh HO",
+        "Lee JH",
+        "Myung-Whan SM",
+        "Park MP"
+      ],
+      "title": "Associations between Particulate Matter and Otitis Media in Children: A Meta-Analysis",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2020",
+      "volume": "17",
+      "issue": "12",
+      "fpage": "4604",
+      "doi": "10.3390/ijerph17124604",
+      "pmid": "32604870",
+      "pmc_id": "PMC7345266"
+    },
+    {
+      "ref_id": "CR60",
+      "doi": "10.1289/ehp.1306755",
+      "pmc_id": "PMC3888562",
+      "pmid": "24149084"
+    },
+    {
+      "ref_id": "CR28",
+      "authors": [
+        "Mandel EM",
+        "Doyle WJ",
+        "Winther B",
+        "Alper CM"
+      ],
+      "title": "The incidence, prevalence and burden of OM in unselected children aged 1–8 years followed by weekly otoscopy through the common cold season",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2008",
+      "volume": "72",
+      "fpage": "491",
+      "lpage": "499",
+      "doi": "10.1016/j.ijporl.2007.11.008",
+      "pmid": "18272237",
+      "pmc_id": "PMC2292124"
+    },
+    {
+      "ref_id": "CR29",
+      "authors": [
+        "Mangalathu S",
+        "Hwang SH",
+        "Jeon JS"
+      ],
+      "title": "Failure Mode and Effects Analysis of RC Members Based on Machine-Learning-Based SHapley Additive exPlanations (SHAP) Approach",
+      "journal": "Eng Struct",
+      "year": "2020",
+      "volume": "219",
+      "fpage": "110927",
+      "doi": "10.1016/j.engstruct.2020.110927"
+    },
+    {
+      "ref_id": "CR30",
+      "authors": [
+        "McCormick DP",
+        "Grady JJ",
+        "Diego A",
+        "et al."
+      ],
+      "title": "Acute otitis media severity: association with cytokine gene polymorphisms and other risk factors",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2011",
+      "volume": "75",
+      "fpage": "708",
+      "lpage": "712",
+      "doi": "10.1016/j.ijporl.2011.02.009",
+      "pmid": "21440944",
+      "pmc_id": "PMC3272162"
+    },
+    {
+      "ref_id": "CR31",
+      "authors": [
+        "Monasta L",
+        "Ronfani R",
+        "Marchetti F",
+        "Montico M",
+        "Vecchi Brumatti L",
+        "Bavcar A",
+        "Grasso D",
+        "Barbiero C",
+        "Tamburlini G"
+      ],
+      "title": "Burden of disease caused by otitis media: systematic review and global estimates",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "issue": "4",
+      "fpage": "e36226",
+      "doi": "10.1371/journal.pone.0036226",
+      "pmid": "22558393",
+      "pmc_id": "PMC3340347"
+    },
+    {
+      "ref_id": "CR32",
+      "authors": [
+        "Mun SK",
+        "Chang M"
+      ],
+      "title": "Development of prediction models for the incidence of pediatric acute otitis media using Poisson regression analysis and XGBoost",
+      "journal": "Environ Sci Pollut Res",
+      "year": "2022",
+      "volume": "29",
+      "fpage": "18629",
+      "lpage": "18640",
+      "doi": "10.1007/s11356-022-19897-1",
+      "pmid": "34694557"
+    },
+    {
+      "ref_id": "CR33",
+      "authors": [
+        "Ngombu S",
+        "Binol H",
+        "Gurcan MN",
+        "Moberly AC"
+      ],
+      "title": "Advances in Artificial Intelligence to Diagnose Otitis Media: State of the Art Review",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "168",
+      "issue": "4",
+      "fpage": "635",
+      "lpage": "642",
+      "doi": "10.1177/01945998221101392",
+      "pmid": "35290142"
+    },
+    {
+      "ref_id": "CR34",
+      "authors": [
+        "Nieratschker M",
+        "Haas M",
+        "Lucic M",
+        "Pichler F",
+        "Brkic FF",
+        "Parzefall T",
+        "Riss D",
+        "Liu DT"
+      ],
+      "title": "Fluctuations in emergency department visits related to acute otitis media are associated with extreme meteorological conditions",
+      "journal": "Front Public Health",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "1153111",
+      "doi": "10.3389/fpubh.2023.1153111",
+      "pmid": "37325328",
+      "pmc_id": "PMC10267338"
+    },
+    {
+      "ref_id": "CR35",
+      "authors": [
+        "Nohara Y",
+        "Matsumoto K",
+        "Soejima H",
+        "Nakashima N"
+      ],
+      "title": "Explanation of Machine Learning Models Using Shapley Additive Explanation and Application for Real Data in Hospital",
+      "journal": "Comput Methods Programs Biomed",
+      "year": "2022",
+      "volume": "214",
+      "fpage": "106584",
+      "doi": "10.1016/j.cmpb.2021.106584",
+      "pmid": "34942412"
+    },
+    {
+      "ref_id": "CR36",
+      "raw_citation": "Nti IK, Nyarko-Boateng O, Aning J (2021) Performance of machine learning algorithms with different K Values in K-fold Cross-Validation. I.J. Information Technology and Computer Science. ; Published: December 8. 10.5815/ijitcs.2021.06.05"
+    },
+    {
+      "ref_id": "CR37",
+      "authors": [
+        "Park M",
+        "Han J",
+        "Jang M-j",
+        "Suh M-W",
+        "Lee JH",
+        "Oh SH",
+        "et al."
+      ],
+      "title": "Air pollution influences the incidence of otitis media in children: A national population-based study",
+      "journal": "PLoS ONE",
+      "year": "2018",
+      "volume": "13",
+      "issue": "6",
+      "fpage": "e0199296",
+      "doi": "10.1371/journal.pone.0199296",
+      "pmid": "29953484",
+      "pmc_id": "PMC6023207"
+    },
+    {
+      "ref_id": "CR39",
+      "authors": [
+        "Pizzulli VA",
+        "Telesca V",
+        "Covatariu G"
+      ],
+      "title": "Analysis of Correlation between Climate Change and Human Health Based on a Machine Learning Approach",
+      "journal": "Healthcare",
+      "year": "2021",
+      "volume": "9",
+      "fpage": "86",
+      "doi": "10.3390/healthcare9010086",
+      "pmid": "33477283",
+      "pmc_id": "PMC7829891"
+    },
+    {
+      "ref_id": "CR40",
+      "authors": [
+        "Rapoport N",
+        "Pavelchek C",
+        "Michelson AP",
+        "Shew MA"
+      ],
+      "title": "Artificial Intelligence in Otology and Neurotology",
+      "journal": "Otolaryngol Clin North Am",
+      "year": "2024",
+      "volume": "57",
+      "issue": "5",
+      "fpage": "791",
+      "lpage": "802",
+      "doi": "10.1016/j.otc.2024.04.009",
+      "pmid": "38871535"
+    },
+    {
+      "ref_id": "CR58",
+      "doi": "10.1016/S0140-6736(04)15495-0",
+      "pmid": "14962529"
+    },
+    {
+      "ref_id": "CR42",
+      "authors": [
+        "Scarinzi C",
+        "Alessandrini ER",
+        "Chiusolo M",
+        "et al."
+      ],
+      "title": "Inquinamento atmosferico e ricoveri ospedalieri urgenti in 25 città italiane: risultati del progetto EpiAir2",
+      "journal": "Epidemiol Prev",
+      "year": "2013",
+      "volume": "37",
+      "issue": "4–5",
+      "fpage": "230",
+      "lpage": "241",
+      "pmid": "24293488"
+    },
+    {
+      "ref_id": "CR43",
+      "authors": [
+        "Schilder AGM",
+        "Chonmaitree T",
+        "Cripps AW",
+        "et al."
+      ],
+      "title": "Otitis media",
+      "journal": "Nat Rev Dis Primers",
+      "year": "2016",
+      "volume": "2",
+      "fpage": "16063",
+      "doi": "10.1038/nrdp.2016.63",
+      "pmid": "27604644",
+      "pmc_id": "PMC7097351"
+    },
+    {
+      "ref_id": "CR44",
+      "raw_citation": "Shaikhina T, Bhatt U, Zhang R, Georgatzis K, Xiang A, Weller A (2021) Effects of uncertainty on the quality of feature importance explanations. In: AAAI Workshop on Explainable Agency in Artificial Intelligence. AAAI Press; Available from: https://umangsbhatt.github.io/reports/AAAI_XAI_QB.pdf"
+    },
+    {
+      "ref_id": "CR45",
+      "authors": [
+        "Sheahan P",
+        "Miller I",
+        "Sheahan JN",
+        "Earley MJ",
+        "Blayney AW"
+      ],
+      "title": "Incidence and outcome of middle ear disease in cleft lip and/or cleft palate",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2003",
+      "volume": "67",
+      "issue": "7",
+      "fpage": "785",
+      "lpage": "793",
+      "doi": "10.1016/S0165-5876(03)00098-3",
+      "pmid": "12791455"
+    },
+    {
+      "ref_id": "CR46",
+      "authors": [
+        "Sprem N",
+        "Branica S"
+      ],
+      "title": "Effect of climatic elements on the frequency of secretory otitis media",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "1993",
+      "volume": "250",
+      "issue": "5",
+      "fpage": "286",
+      "lpage": "288",
+      "doi": "10.1007/BF00186227",
+      "pmid": "8217131"
+    },
+    {
+      "ref_id": "CR48",
+      "authors": [
+        "Telesca V",
+        "Castronuovo G",
+        "Favia G",
+        "Marranchelli C",
+        "Pizzulli VA",
+        "Ragosta M"
+      ],
+      "title": "Effects of Meteo-Climatic Factors on Hospital Admissions for Cardiovascular Diseases in the City of Bari, Southern Italy",
+      "journal": "Healthcare",
+      "year": "2023",
+      "volume": "11",
+      "issue": "5",
+      "fpage": "690",
+      "doi": "10.3390/healthcare11050690",
+      "pmid": "36900694",
+      "pmc_id": "PMC10000402"
+    },
+    {
+      "ref_id": "CR49",
+      "authors": [
+        "Tian H",
+        "Xu B",
+        "Wang X",
+        "Wang J",
+        "Zhong C"
+      ],
+      "title": "Study on the correlation between ambient environment-meteorological factors and the number of visits of acute otitis media, Lanzhou China",
+      "journal": "J Otol",
+      "year": "2020",
+      "volume": "15",
+      "fpage": "86",
+      "lpage": "94",
+      "doi": "10.1016/j.joto.2020.01.001",
+      "pmid": "32884558",
+      "pmc_id": "PMC7451727"
+    },
+    {
+      "ref_id": "CR50",
+      "authors": [
+        "Vakharia KT",
+        "Shapiro NL",
+        "Bhattacharyya N"
+      ],
+      "title": "Demographic disparities among children with frequent ear infections in the United States",
+      "journal": "Laryngoscope",
+      "year": "2010",
+      "volume": "120",
+      "fpage": "1667",
+      "lpage": "1670",
+      "doi": "10.1002/lary.21025",
+      "pmid": "20564719"
+    },
+    {
+      "ref_id": "CR51",
+      "authors": [
+        "Wenhui Y",
+        "Zipeng Q",
+        "et al."
+      ],
+      "title": "Early-life ozone exposure and childhood otitis media: Unveiling critical windows of risk",
+      "journal": "Sci Total Environ",
+      "year": "2024",
+      "volume": "953",
+      "fpage": "176124",
+      "doi": "10.1016/j.scitotenv.2024.176124",
+      "pmid": "39250974"
+    },
+    {
+      "ref_id": "CR52",
+      "authors": [
+        "Winther B",
+        "Alper CM",
+        "Mandel EM",
+        "Doyle WJ",
+        "Hendley JO"
+      ],
+      "title": "Temporal relationships between colds, upper respiratory viruses detected by polymerase chain reaction, and otitis media in young children followed through a typical cold season",
+      "journal": "Pediatrics",
+      "year": "2007",
+      "volume": "119",
+      "fpage": "1069",
+      "lpage": "1075",
+      "doi": "10.1542/peds.2006-2442",
+      "pmid": "17545372"
+    },
+    {
+      "ref_id": "CR61",
+      "doi": "10.1186/s12940-016-0196-y",
+      "pmc_id": "PMC5124302",
+      "pmid": "27887621"
+    },
+    {
+      "ref_id": "CR54",
+      "authors": [
+        "Xu Z",
+        "Hu W",
+        "Su H",
+        "Turner LR",
+        "Ye X",
+        "Wang J",
+        "Tong S"
+      ],
+      "title": "Extreme temperatures and paediatric emergency department admissions",
+      "journal": "J Epidemiol Community Health",
+      "year": "2014",
+      "volume": "68",
+      "fpage": "304",
+      "lpage": "311",
+      "doi": "10.1136/jech-2013-202716",
+      "pmid": "24272920"
+    },
+    {
+      "ref_id": "CR55",
+      "authors": [
+        "You E",
+        "Lin V",
+        "Mijovic T",
+        "Eskander A",
+        "Crowson MG"
+      ],
+      "title": "Artificial intelligence applications in otology: a state-of-the-art review",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2020",
+      "volume": "163",
+      "issue": "6",
+      "fpage": "1123",
+      "lpage": "1133",
+      "doi": "10.1177/0194599820931804",
+      "pmid": "32513061"
+    },
+    {
+      "ref_id": "CR56",
+      "authors": [
+        "Zemek R",
+        "Szyszkowicz M",
+        "Rowe MB"
+      ],
+      "title": "Air Pollution and Emergency Department Visits for Otitis Media: A Case-Crossover Study in Edmonton, Canada",
+      "journal": "Environ Health Perspect",
+      "year": "2010",
+      "volume": "118",
+      "fpage": "1631",
+      "lpage": "1636",
+      "doi": "10.1289/ehp.0901483",
+      "pmid": "20663739",
+      "pmc_id": "PMC2974705"
+    },
+    {
+      "ref_id": "CR57",
+      "raw_citation": "Zhang K, Xu P, Zhang J, Explainable AI (2020) in Deep Reinforcement Learning Models: A SHAP Method Applied in Power System Emergency Control. In: Proceedings of the IEEE 4th Conference on Energy Internet and Energy System Integration (EI2). pp. 711–716. 10.1109/EI250167.2020.9347147"
     }
   ]
 }

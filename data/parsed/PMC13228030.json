@@ -17,7 +17,8 @@
     "pmc_id": "PMC13228030",
     "pmid": "42059632",
     "full_text_available": true,
-    "section_count": 13
+    "section_count": 13,
+    "reference_count": 23
   },
   "sections": [
     {
@@ -84,6 +85,291 @@
       "section": "Statistical Analysis",
       "text": "For the multivariate survival analysis, we constructed a Cox proportional hazards model, including the two EBV index variants identified (BZLF1 A205S and BBLF4 L322M), along with key clinical covariates. The clinical variables considered were age at diagnosis, sex, tumor stage, regional lymph node involvement, and distant metastasis status. To avoid small subgroup sizes, disease stage (per the AJCC 8th edition) was dichotomized into early-stage (Stages I–III) versus advanced-stage (Stage IV) NPC for modeling. Nodal involvement (cervical lymph node metastasis) and distant metastases (M1 disease) were included as separate binary covariates. The multivariate Cox model was used to estimate the independent effect of each EBV variant on overall survival while adjusting for these clinical factors. Hazard ratios (HRs) with 95% confidence intervals and Wald test P values were calculated for each variable in the model. All the statistical tests were two-sided, and a P value < 0.05 was considered statistically significant. Statistical analyses were performed using R software (version 4.2.0) and the survival package for Cox regression. Hierarchical clustering of variants was performed using Euclidean distance and average linkage criteria.",
       "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "title": "Nasopharyngeal carcinoma",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "64",
+      "lpage": "80",
+      "doi": "10.1016/S0140-6736(19)30956-0",
+      "pmid": "31178151"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "title": "Why and how Epstein-Barr virus was discovered 50 years ago",
+      "journal": "Curr Top Microbiol Immunol",
+      "year": "2015",
+      "volume": "390",
+      "fpage": "3",
+      "lpage": "15",
+      "doi": "10.1007/978-3-319-22822-8_1",
+      "pmid": "26424640"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "et al."
+      ],
+      "title": "Genome sequencing analysis identifies Epstein-Barr virus subtypes associated with high risk of nasopharyngeal carcinoma",
+      "journal": "Nat Genet",
+      "year": "2019",
+      "volume": "51",
+      "fpage": "1131",
+      "lpage": "1136",
+      "doi": "10.1038/s41588-019-0436-5",
+      "pmid": "31209392",
+      "pmc_id": "PMC6610787"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "title": "High risk Epstein-Barr virus variants characterized by distinct polymorphisms in the EBER locus are strongly associated with nasopharyngeal carcinoma",
+      "journal": "Int J Cancer",
+      "year": "2019",
+      "volume": "144",
+      "fpage": "3031",
+      "lpage": "3042",
+      "doi": "10.1002/ijc.32049",
+      "pmid": "30536939"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "title": "Analysis of plasma Epstein-Barr virus DNA to screen for nasopharyngeal cancer",
+      "journal": "N Engl J Med",
+      "year": "2017",
+      "volume": "377",
+      "fpage": "513",
+      "lpage": "522",
+      "doi": "10.1056/NEJMoa1701717",
+      "pmid": "28792880"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "title": "Epstein-Barr virus strains and variations: geographic or disease-specific variants?",
+      "journal": "J Med Virol",
+      "year": "2017",
+      "volume": "89",
+      "fpage": "373",
+      "lpage": "387",
+      "doi": "10.1002/jmv.24633",
+      "pmid": "27430663"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "title": "Geographic population structure in Epstein-Barr virus revealed by comparative genomics",
+      "journal": "Genome Biol Evol",
+      "year": "2016",
+      "volume": "8",
+      "fpage": "3284",
+      "lpage": "3291",
+      "doi": "10.1093/gbe/evw226",
+      "pmid": "27635051",
+      "pmc_id": "PMC5203774"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "title": "Evaluation of nonviral risk factors for nasopharyngeal carcinoma in a high-risk population of Southern China",
+      "journal": "Int J Cancer",
+      "year": "2009",
+      "volume": "124",
+      "fpage": "2942",
+      "lpage": "2947",
+      "doi": "10.1002/ijc.24293",
+      "pmid": "19296536",
+      "pmc_id": "PMC4406046"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "title": "A comprehensive analysis of genetic diversity of EBV reveals potential high-risk subtypes associated with nasopharyngeal carcinoma in China",
+      "journal": "Virus Evol",
+      "year": "2021",
+      "volume": "7",
+      "elocation_id": "veab010",
+      "doi": "10.1093/ve/veab010",
+      "pmid": "34567789",
+      "pmc_id": "PMC8458747"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "title": "Sounds of silence: synonymous nucleotides as a key to biological regulation and complexity",
+      "journal": "Nucleic Acids Res",
+      "year": "2013",
+      "volume": "41",
+      "fpage": "2073",
+      "lpage": "2094",
+      "doi": "10.1093/nar/gks1205",
+      "pmid": "23293005",
+      "pmc_id": "PMC3575835"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "title": "Genome diversity of Epstein-Barr virus from multiple tumor types and normal infection",
+      "journal": "J Virol",
+      "year": "2015",
+      "volume": "89",
+      "fpage": "5222",
+      "lpage": "5237",
+      "doi": "10.1128/JVI.03614-14",
+      "pmid": "25787276",
+      "pmc_id": "PMC4442510"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "title": "Epstein Barr virus-encoded EBNA1 interference with MHC class I antigen presentation reveals a close correlation between mRNA translation initiation and antigen presentation",
+      "journal": "PLoS Pathog",
+      "year": "2010",
+      "volume": "6",
+      "elocation_id": "e1001151",
+      "doi": "10.1371/journal.ppat.1001151",
+      "pmid": "20976201",
+      "pmc_id": "PMC2954899"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "title": "The Epstein-Barr virus oncogene EBNA1 suppresses natural killer cell responses and apoptosis early after infection of peripheral B cells",
+      "journal": "mBio",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "e0224321",
+      "doi": "10.1128/mBio.02243-21",
+      "pmid": "34781735",
+      "pmc_id": "PMC8593684"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "title": "Epstein-Barr virus LMP2A suppresses MHC class II expression by regulating the B-cell transcription factors E47 and PU.1",
+      "journal": "Blood",
+      "year": "2015",
+      "volume": "125",
+      "fpage": "2228",
+      "lpage": "2238",
+      "doi": "10.1182/blood-2014-08-594689",
+      "pmid": "25631773"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "title": "Latent membrane protein LMP2A impairs recognition of EBV-infected cells by CD8+ T cells",
+      "journal": "PLoS Pathog",
+      "year": "2015",
+      "volume": "11",
+      "elocation_id": "e1004906",
+      "doi": "10.1371/journal.ppat.1004906",
+      "pmid": "26067064",
+      "pmc_id": "PMC4465838"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "title": "Mechanisms of T cell evasion by Epstein-Barr virus and implications for tumor survival",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1289313",
+      "doi": "10.3389/fimmu.2023.1289313",
+      "pmid": "38179040",
+      "pmc_id": "PMC10764432"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "title": "Meta-analysis of Epstein-Barr virus genomes in Southern Chinese identifies genetic variants and high risk viral lineage associated with nasopharyngeal carcinoma",
+      "journal": "PLoS Pathog",
+      "year": "2024",
+      "volume": "20",
+      "elocation_id": "e1012263",
+      "doi": "10.1371/journal.ppat.1012263",
+      "pmid": "38805547",
+      "pmc_id": "PMC11161099"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "title": "Genomic landscape of Epstein-Barr virus in familial nasopharyngeal carcinoma",
+      "journal": "J Gen Virol",
+      "year": "2022",
+      "volume": "103",
+      "doi": "10.1099/jgv.0.001728",
+      "pmid": "35349400"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "title": "Interaction with the Epstein-Barr virus helicase targets Zta to DNA replication compartments",
+      "journal": "J Virol",
+      "year": "2001",
+      "volume": "75",
+      "fpage": "8792",
+      "lpage": "8802",
+      "doi": "10.1128/jvi.75.18.8792-8802.2001",
+      "pmid": "11507224",
+      "pmc_id": "PMC115124"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "title": "Genome-wide analysis of 18 Epstein-Barr viruses isolated from primary nasopharyngeal carcinoma biopsy specimens",
+      "journal": "J Virol",
+      "year": "2017",
+      "volume": "91",
+      "elocation_id": "e00301-17",
+      "doi": "10.1128/JVI.00301-17",
+      "pmid": "28637758",
+      "pmc_id": "PMC5553176"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "title": "Phylogenetic comparison of Epstein-Barr virus genomes",
+      "journal": "J Microbiol",
+      "year": "2018",
+      "volume": "56",
+      "fpage": "525",
+      "lpage": "533",
+      "doi": "10.1007/s12275-018-8039-x",
+      "pmid": "29948828"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "title": "Out-of-Africa migration and clonal expansion of a recombinant Epstein-Barr virus drives frequent nasopharyngeal carcinoma in southern China",
+      "journal": "Natl Sci Rev",
+      "year": "2025",
+      "volume": "12",
+      "elocation_id": "wae438",
+      "doi": "10.1093/nsr/nwae438",
+      "pmc_id": "PMC11954593",
+      "pmid": "40160679"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "title": "Epstein-Barr virus sequence variations among the understudied nasopharyngeal carcinoma patients of diverse ancestries in Southeast Asia",
+      "journal": "J Med Virol",
+      "year": "2025",
+      "volume": "97",
+      "elocation_id": "e70269",
+      "doi": "10.1002/jmv.70269",
+      "pmid": "40042148",
+      "pmc_id": "PMC11881214"
     }
   ]
 }

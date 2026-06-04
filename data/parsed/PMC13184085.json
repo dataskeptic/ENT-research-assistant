@@ -24,7 +24,8 @@
     "pmc_id": "PMC13184085",
     "pmid": "41917211",
     "full_text_available": true,
-    "section_count": 18
+    "section_count": 18,
+    "reference_count": 60
   },
   "sections": [
     {
@@ -116,6 +117,1136 @@
       "section": "Data Sharing",
       "text": "Data underlying the findings described in this manuscript may be obtained in accordance with AstraZeneca’s data sharing policy described at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure . Data for studies directly listed on Vivli can be requested through Vivli at www.vivli.org . Data for studies not listed on Vivli could be requested through Vivli at https://vivli.org/members/enquiries-about-studies-not-listed-on-the-vivli-platform/ . AstraZeneca Vivli member page is also available outlining further details: https://vivli.org/ourmember/astrazeneca/ .",
       "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "O’Connor MJ"
+      ],
+      "title": "Targeting the DNA damage response in cancer",
+      "journal": "Mol Cell",
+      "year": "2015",
+      "volume": "60",
+      "fpage": "547",
+      "lpage": "60",
+      "doi": "10.1016/j.molcel.2015.10.040",
+      "pmid": "26590714"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Zeman MK",
+        "Cimprich KA"
+      ],
+      "title": "Causes and consequences of replication stress",
+      "journal": "Nat Cell Biol",
+      "year": "2014",
+      "volume": "16",
+      "fpage": "2",
+      "lpage": "9",
+      "doi": "10.1038/ncb2897",
+      "pmid": "24366029",
+      "pmc_id": "PMC4354890"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "McGrail DJ",
+        "Pilié PG",
+        "Dai H",
+        "Lam TNA",
+        "Liang Y",
+        "Voorwerk L",
+        "et al."
+      ],
+      "title": "Replication stress response defects are associated with response to immune checkpoint blockade in nonhypermutated cancers",
+      "journal": "Sci Transl Med",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "eabe6201",
+      "doi": "10.1126/scitranslmed.abe6201",
+      "pmid": "34705519",
+      "pmc_id": "PMC8577990"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Cimprich KA",
+        "Cortez D"
+      ],
+      "title": "ATR: an essential regulator of genome integrity",
+      "journal": "Nat Rev Mol Cell Biol",
+      "year": "2008",
+      "volume": "9",
+      "fpage": "616",
+      "lpage": "27",
+      "doi": "10.1038/nrm2450",
+      "pmid": "18594563",
+      "pmc_id": "PMC2663384"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Kim H",
+        "George E",
+        "Ragland R",
+        "Rafail S",
+        "Zhang R",
+        "Krepler C",
+        "et al."
+      ],
+      "title": "Targeting the ATR/CHK1 axis with PARP inhibition results in tumor regression in BRCA-mutant ovarian cancer models",
+      "journal": "Clin Cancer Res",
+      "year": "2017",
+      "volume": "23",
+      "fpage": "3097",
+      "lpage": "108",
+      "doi": "10.1158/1078-0432.CCR-16-2273",
+      "pmid": "27993965",
+      "pmc_id": "PMC5474193"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Kim H",
+        "Xu H",
+        "George E",
+        "Hallberg D",
+        "Kumar S",
+        "Jagannathan V",
+        "et al."
+      ],
+      "title": "Combining PARP with ATR inhibition overcomes PARP inhibitor and platinum resistance in ovarian cancer models",
+      "journal": "Nat Commun",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "3726",
+      "doi": "10.1038/s41467-020-17127-2",
+      "pmid": "32709856",
+      "pmc_id": "PMC7381609"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Wilson Z",
+        "Odedra R",
+        "Wallez Y",
+        "Wijnhoven PWG",
+        "Hughes AM",
+        "Gerrard J",
+        "et al."
+      ],
+      "title": "ATR Inhibitor AZD6738 (ceralasertib) exerts antitumor activity as a monotherapy and in combination with chemotherapy and the PARP inhibitor olaparib",
+      "journal": "Cancer Res",
+      "year": "2022",
+      "volume": "82",
+      "fpage": "1140",
+      "lpage": "52",
+      "doi": "10.1158/0008-5472.CAN-21-2997",
+      "pmid": "35078817",
+      "pmc_id": "PMC9359726"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Foote KM",
+        "Nissink JWM",
+        "McGuire T",
+        "Turner P",
+        "Guichard S",
+        "Yates JWT",
+        "et al."
+      ],
+      "title": "Discovery and characterization of AZD6738, a potent inhibitor of Ataxia Telangiectasia Mutated and Rad3 Related (ATR) kinase with application as an anticancer agent",
+      "journal": "J Med Chem",
+      "year": "2018",
+      "volume": "61",
+      "fpage": "9889",
+      "lpage": "907",
+      "doi": "10.1021/acs.jmedchem.8b01187",
+      "pmid": "30346772"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Kwok M",
+        "Davies N",
+        "Agathanggelou A",
+        "Smith E",
+        "Oldreive C",
+        "Petermann E",
+        "et al."
+      ],
+      "title": "ATR inhibition induces synthetic lethality and overcomes chemoresistance in TP53- or ATM-defective chronic lymphocytic leukemia cells",
+      "journal": "Blood",
+      "year": "2016",
+      "volume": "127",
+      "fpage": "582",
+      "lpage": "95",
+      "doi": "10.1182/blood-2015-05-644872",
+      "pmid": "26563132"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Lloyd RL",
+        "Wijnhoven PWG",
+        "Ramos-Montoya A",
+        "Wilson Z",
+        "Illuzzi G",
+        "Falenta K",
+        "et al."
+      ],
+      "title": "Combined PARP and ATR inhibition potentiates genome instability and cell death in ATM-deficient cancer cells",
+      "journal": "Oncogene",
+      "year": "2020",
+      "volume": "39",
+      "fpage": "4869",
+      "lpage": "83",
+      "doi": "10.1038/s41388-020-1328-y",
+      "pmid": "32444694",
+      "pmc_id": "PMC7299845"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Serra V",
+        "Wang AT",
+        "Castroviejo-Bermejo M",
+        "Polanska UM",
+        "Palafox M",
+        "Herencia-Ropero A",
+        "et al."
+      ],
+      "title": "Identification of a molecularly-defined subset of breast and ovarian cancer models that respond to WEE1 or ATR inhibition, overcoming PARP inhibitor resistance",
+      "journal": "Clin Cancer Res",
+      "year": "2022",
+      "volume": "28",
+      "fpage": "4536",
+      "lpage": "50",
+      "doi": "10.1158/1078-0432.CCR-22-0568",
+      "pmid": "35921524",
+      "pmc_id": "PMC9561606"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "doi": "10.1136/jitc-2019-000340",
+      "pmc_id": "PMC7254123",
+      "pmid": "32461345"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "doi": "10.1136/jitc-2021-004306",
+      "pmc_id": "PMC8938703",
+      "pmid": "35314434"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Patin EC",
+        "Nenclares P",
+        "Chan Wah Hak C",
+        "Dillon MT",
+        "Patrikeev A",
+        "McLaughlin M",
+        "et al."
+      ],
+      "title": "Sculpting the tumour microenvironment by combining radiotherapy and ATR inhibition for curative-intent adjuvant immunotherapy",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "6923",
+      "doi": "10.1038/s41467-024-51236-6",
+      "pmid": "39134540",
+      "pmc_id": "PMC11319479"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Dillon MT",
+        "Barker HE",
+        "Pedersen M",
+        "Hafsi H",
+        "Bhide SA",
+        "Newbold KL",
+        "et al."
+      ],
+      "title": "Radiosensitization by the ATR inhibitor AZD6738 through generation of acentric micronuclei",
+      "journal": "Mol Cancer Ther",
+      "year": "2017",
+      "volume": "16",
+      "fpage": "25",
+      "lpage": "34",
+      "doi": "10.1158/1535-7163.MCT-16-0239",
+      "pmid": "28062704",
+      "pmc_id": "PMC5302142"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "doi": "10.1172/jci.insight.179599",
+      "pmc_id": "PMC11466186",
+      "pmid": "39235982"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Elayapillai SP",
+        "Dogra S",
+        "Lausen J",
+        "Parker M",
+        "Kennedy A",
+        "Benbrook DM",
+        "et al."
+      ],
+      "title": "ATR inhibition increases reliance on PARP-mediated DNA repair revealing an improved therapeutic strategy for cervical cancer",
+      "journal": "Gynecol Oncol",
+      "year": "2024",
+      "volume": "191",
+      "fpage": "182",
+      "lpage": "93",
+      "doi": "10.1016/j.ygyno.2024.10.009",
+      "pmid": "39427557",
+      "pmc_id": "PMC11975412"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "doi": "10.1038/s41416-025-03051-z",
+      "pmc_id": "PMC12322129",
+      "pmid": "40442403"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Aggarwal R",
+        "Umetsu S",
+        "Dhawan M",
+        "Grabowsky J",
+        "Carnevale J",
+        "Howell M",
+        "et al."
+      ],
+      "title": "512O Interim results from a phase II study of the ATR inhibitor ceralasertib in ARID1A-deficient and ARID1A-intact advanced solid tumor malignancies",
+      "journal": "Ann Oncol",
+      "year": "2021",
+      "volume": "32",
+      "fpage": "S583",
+      "doi": "10.1016/j.annonc.2021.08.1034"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "doi": "10.1172/JCI175369",
+      "pmc_id": "PMC10786692",
+      "pmid": "37934611"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Kim R",
+        "Kwon M",
+        "An M",
+        "Kim ST",
+        "Smith SA",
+        "Loembé AB",
+        "et al."
+      ],
+      "title": "Phase II study of ceralasertib (AZD6738) in combination with durvalumab in patients with advanced/metastatic melanoma who have failed prior anti-PD-1 therapy",
+      "journal": "Ann Oncol",
+      "year": "2022",
+      "volume": "33",
+      "fpage": "193",
+      "lpage": "203",
+      "doi": "10.1016/j.annonc.2021.10.009",
+      "pmid": "34710570"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Besse B",
+        "Pons-Tostivint E",
+        "Park K",
+        "Hartl S",
+        "Forde PM",
+        "Hochmair MJ",
+        "et al."
+      ],
+      "title": "Biomarker-directed targeted therapy plus durvalumab in advanced non-small-cell lung cancer: a phase 2 umbrella trial",
+      "journal": "Nat Med",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "716",
+      "lpage": "29",
+      "doi": "10.1038/s41591-024-02808-y",
+      "pmid": "38351187",
+      "pmc_id": "PMC10957481"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "doi": "10.1136/jitc-2022-005041",
+      "pmc_id": "PMC9258491",
+      "pmid": "35790315"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Zhang J",
+        "Shih DJH",
+        "Lin SY"
+      ],
+      "title": "Role of DNA repair defects in predicting immunotherapy response",
+      "journal": "Biomark Res",
+      "year": "2020",
+      "volume": "8",
+      "fpage": "23",
+      "doi": "10.1186/s40364-020-00202-7",
+      "pmid": "32612833",
+      "pmc_id": "PMC7325270"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Yarchoan M",
+        "Johnson BA",
+        "Lutz ER",
+        "Laheru DA",
+        "Jaffee"
+      ],
+      "title": "EM. Targeting neoantigens to augment antitumour immunity",
+      "journal": "Nat Rev Cancer",
+      "year": "2017",
+      "volume": "17",
+      "fpage": "569",
+      "doi": "10.1038/nrc.2017.74",
+      "pmid": "28835723"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Kwon J",
+        "Bakhoum SF"
+      ],
+      "title": "The cytosolic DNA-sensing cGAS-STING pathway in cancer",
+      "journal": "Cancer Discov",
+      "year": "2020",
+      "volume": "10",
+      "fpage": "26",
+      "lpage": "39",
+      "doi": "10.1158/2159-8290.CD-19-0761",
+      "pmid": "31852718",
+      "pmc_id": "PMC7151642"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Ngoi NYL",
+        "Peng G",
+        "Yap TA"
+      ],
+      "title": "A tale of two checkpoints: ATR inhibition and PD-(L)1 blockade",
+      "journal": "Annu Rev Med",
+      "year": "2022",
+      "volume": "73",
+      "fpage": "231",
+      "lpage": "50",
+      "doi": "10.1146/annurev-med-042320-025136",
+      "pmid": "34644155",
+      "pmc_id": "PMC12038691"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Besse B",
+        "Castro G",
+        "Felip E",
+        "Politi KA",
+        "Takahashi T",
+        "Wang J",
+        "et al."
+      ],
+      "title": "LATIFY: Phase 3 study of ceralasertib + durvalumab vs docetaxel in patients with locally advanced or metastatic non-small-cell lung cancer that progressed on or after anti-PD-(L)1 and platinum-based therapy",
+      "journal": "J Clin Oncol",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "TPS9161",
+      "doi": "10.1200/JCO.2023.41.16_suppl.TPS9161"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Hardaker EL",
+        "Sanseviero E",
+        "Karmokar A",
+        "Taylor D",
+        "Milo M",
+        "Michaloglou C",
+        "et al."
+      ],
+      "title": "The ATR inhibitor ceralasertib potentiates cancer checkpoint immunotherapy by regulating the tumor microenvironment",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "1700",
+      "doi": "10.1038/s41467-024-45996-4",
+      "pmid": "38402224",
+      "pmc_id": "PMC10894296"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Yap TA",
+        "Krebs MG",
+        "Postel-Vinay S",
+        "El-Khouiery A",
+        "Soria JC",
+        "Lopez J",
+        "et al."
+      ],
+      "title": "Ceralasertib (AZD6738), an oral ATR kinase inhibitor, in combination with carboplatin in patients with advanced solid tumors: A phase I study",
+      "journal": "Clin Cancer Res",
+      "year": "2021",
+      "volume": "27",
+      "fpage": "5213",
+      "lpage": "24",
+      "doi": "10.1158/1078-0432.CCR-21-1032",
+      "pmid": "34301752",
+      "pmc_id": "PMC9401487"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Dean E",
+        "Krebs MG",
+        "Im S-A",
+        "Campone M",
+        "Postel-Vinay S",
+        "Arkenau T",
+        "et al."
+      ],
+      "title": "Ceralasertib (cer) in combination with olaparib (ola) in patients (pts) with advanced breast cancer (BC): Results of phase I expansion cohorts",
+      "journal": "Cancer Res",
+      "year": "2021",
+      "volume": "81",
+      "fpage": "PS11-18",
+      "doi": "10.1158/1538-7445.SABCS20-PS11-18"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Machiels JP",
+        "Rene Leemans C",
+        "Golusinski W",
+        "Grau C",
+        "Licitra L",
+        "Gregoire V",
+        "et al."
+      ],
+      "title": "Squamous cell carcinoma of the oral cavity, larynx, oropharynx and hypopharynx: EHNS-ESMO-ESTRO Clinical Practice Guidelines for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol",
+      "year": "2020",
+      "volume": "31",
+      "fpage": "1462",
+      "lpage": "75",
+      "doi": "10.1016/j.annonc.2020.07.011",
+      "pmid": "33239190"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Hendriks LE",
+        "Kerr KM",
+        "Menis J",
+        "Mok TS",
+        "Nestle U",
+        "Passaro A",
+        "et al."
+      ],
+      "title": "Non-oncogene-addicted metastatic non-small-cell lung cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol",
+      "year": "2023",
+      "volume": "34",
+      "fpage": "358",
+      "lpage": "76",
+      "doi": "10.1016/j.annonc.2022.12.013",
+      "pmid": "36669645"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Mowery YM",
+        "Niedzwiecki D",
+        "Choe JH",
+        "Kirsch DG",
+        "Brizel DM"
+      ],
+      "title": "Phase I trial of the ATR inhibitor BAY 1895344 combined with stereotactic body radiation therapy and pembrolizumab for recurrent head and neck squamous cell carcinoma",
+      "journal": "J Clin Oncol",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "TPS6108",
+      "doi": "10.1200/JCO.2022.40.16_suppl.TPS6108"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Jones GN",
+        "Rooney C",
+        "Griffin N",
+        "Roudier M",
+        "Young LA",
+        "Garcia-Trinidad A",
+        "et al."
+      ],
+      "title": "pRAD50: a novel and clinically applicable pharmacodynamic biomarker of both ATM and ATR inhibition identified using mass spectrometry and immunohistochemistry",
+      "journal": "Br J Cancer",
+      "year": "2018",
+      "volume": "119",
+      "fpage": "1233",
+      "lpage": "43",
+      "doi": "10.1038/s41416-018-0286-4",
+      "pmid": "30385821",
+      "pmc_id": "PMC6251026"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Villaruz LC",
+        "Jones H",
+        "Dacic S",
+        "Abberbock S",
+        "Kurland BF",
+        "Stabile LP",
+        "et al."
+      ],
+      "title": "ATM protein is deficient in over 40% of lung adenocarcinomas",
+      "journal": "Oncotarget",
+      "year": "2016",
+      "volume": "7",
+      "fpage": "57714",
+      "lpage": "25",
+      "doi": "10.18632/oncotarget.9757",
+      "pmid": "27259260",
+      "pmc_id": "PMC5295384"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Antonia SJ",
+        "Balmanoukian A",
+        "Brahmer J",
+        "Ou SI",
+        "Hellmann MD",
+        "Kim SW",
+        "et al."
+      ],
+      "title": "Clinical activity, tolerability, and long-term follow-up of durvalumab in patients with advanced NSCLC",
+      "journal": "J Thorac Oncol",
+      "year": "2019",
+      "volume": "14",
+      "fpage": "1794",
+      "lpage": "806",
+      "doi": "10.1016/j.jtho.2019.06.010",
+      "pmid": "31228626"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Siu LL",
+        "Even C",
+        "Mesía R",
+        "Remenar E",
+        "Daste A",
+        "Delord JP",
+        "et al."
+      ],
+      "title": "Safety and efficacy of durvalumab with or without tremelimumab in patients with PD-L1-low/negative recurrent or metastatic HNSCC: The phase 2 CONDOR randomized clinical trial",
+      "journal": "JAMA Oncol",
+      "year": "2019",
+      "volume": "5",
+      "fpage": "195",
+      "lpage": "203",
+      "doi": "10.1001/jamaoncol.2018.4628",
+      "pmid": "30383184",
+      "pmc_id": "PMC6439564"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Planchard D",
+        "Reinmuth N",
+        "Orlov S",
+        "Fischer JR",
+        "Sugawara S",
+        "Mandziuk S",
+        "et al."
+      ],
+      "title": "ARCTIC: durvalumab with or without tremelimumab as third-line or later treatment of metastatic non-small-cell lung cancer",
+      "journal": "Ann Oncol",
+      "year": "2020",
+      "volume": "31",
+      "fpage": "609",
+      "lpage": "18",
+      "doi": "10.1016/j.annonc.2020.02.006",
+      "pmid": "32201234"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Jurczak W",
+        "Elmusharaf N",
+        "Fox CP",
+        "Townsend W",
+        "Paulovich AG",
+        "Whiteaker JR",
+        "et al."
+      ],
+      "title": "Phase I/II results of ceralasertib as monotherapy or in combination with acalabrutinib in high-risk relapsed/refractory chronic lymphocytic leukemia",
+      "journal": "Ther Adv Hematol",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "20406207231173489",
+      "doi": "10.1177/20406207231173489",
+      "pmid": "37273420",
+      "pmc_id": "PMC10233611"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Brunner AM",
+        "Liu Y",
+        "Garcia JS",
+        "Mendez L",
+        "Gutierrez C",
+        "Amrein PC",
+        "et al."
+      ],
+      "title": "Clinical activity and Safety of the Oral ATR Inhibitor Ceralasertib (AZD6738) in patients with MDS or CMML after prior HMA therapy",
+      "journal": "Blood",
+      "year": "2024",
+      "volume": "144",
+      "fpage": "1833",
+      "doi": "10.1182/blood-2024-195793"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Reinmuth N",
+        "Juan-Vidal O",
+        "Kowalski D",
+        "Bryl M",
+        "Kryzhanivska A",
+        "Vicente D",
+        "et al."
+      ],
+      "title": "Novel combinations of immunotherapies or DNA damage repair inhibitors in platinum-refractory extensive-stage small cell lung cancer: The phase II BALTIC study",
+      "journal": "Clin Cancer Res",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "4055",
+      "lpage": "67",
+      "doi": "10.1158/1078-0432.CCR-24-0013",
+      "pmid": "39017667",
+      "pmc_id": "PMC11393542"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Robert C",
+        "Lee J",
+        "Sharfman W",
+        "Larkin J",
+        "Ascierto PA",
+        "Weber J",
+        "et al."
+      ],
+      "title": "MONETTE: Phase 2 study of ceralasertib (cerala) ± durvalumab (durva) in patients with advanced melanoma resistant to PD-(L)1 inhibition, presented at 19th International Congress of the Society for Melanoma Research",
+      "journal": "Pigment Cell Melanoma Res",
+      "year": "2023",
+      "volume": "36",
+      "fpage": "86"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Besse B",
+        "Felip E",
+        "Garcia Campelo R",
+        "Cobo M",
+        "Mascaux C",
+        "Madroszyk A",
+        "et al."
+      ],
+      "title": "Randomized open-label controlled study of cancer vaccine OSE2101 versus chemotherapy in HLA-A2-positive patients with advanced non-small-cell lung cancer with resistance to immunotherapy: ATALANTE-1",
+      "journal": "Ann Oncol",
+      "year": "2023",
+      "volume": "34",
+      "fpage": "920",
+      "lpage": "33",
+      "doi": "10.1016/j.annonc.2023.07.006",
+      "pmid": "37704166"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Borghaei H",
+        "Gettinger S",
+        "Vokes EE",
+        "Chow LQM",
+        "Burgio MA",
+        "de Castro Carpeno J",
+        "et al."
+      ],
+      "title": "Five-year outcomes from the randomized, phase III trials CheckMate 017 and 057: Nivolumab versus docetaxel in previously treated non-small-cell lung cancer",
+      "journal": "J Clin Oncol",
+      "year": "2021",
+      "volume": "39",
+      "fpage": "723",
+      "lpage": "33",
+      "doi": "10.1200/JCO.20.01605",
+      "pmid": "33449799",
+      "pmc_id": "PMC8078445"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "de Langen AJ",
+        "Johnson ML",
+        "Mazieres J",
+        "Dingemans AC",
+        "Mountzios G",
+        "Pless M",
+        "et al."
+      ],
+      "title": "Sotorasib versus docetaxel for previously treated non-small-cell lung cancer with KRAS(G12C) mutation: a randomised, open-label, phase 3 trial",
+      "journal": "Lancet",
+      "year": "2023",
+      "volume": "401",
+      "fpage": "733",
+      "lpage": "46",
+      "doi": "10.1016/S0140-6736(23)00221-0",
+      "pmid": "36764316"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Herbst RS",
+        "Garon EB",
+        "Kim DW",
+        "Cho BC",
+        "Gervais R",
+        "Perez-Gracia JL",
+        "et al."
+      ],
+      "title": "Five year survival update from KEYNOTE-010: Pembrolizumab versus docetaxel for previously treated, programmed death-ligand 1-positive advanced NSCLC",
+      "journal": "J Thorac Oncol",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "1718",
+      "lpage": "32",
+      "doi": "10.1016/j.jtho.2021.05.001",
+      "pmid": "34048946"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Lu S",
+        "Wang J",
+        "Cheng Y",
+        "Mok T",
+        "Chang J",
+        "Zhang L",
+        "et al."
+      ],
+      "title": "Nivolumab versus docetaxel in a predominantly Chinese patient population with previously treated advanced non-small cell lung cancer: 2-year follow-up from a randomized, open-label, phase 3 study (CheckMate 078)",
+      "journal": "Lung Cancer",
+      "year": "2021",
+      "volume": "152",
+      "fpage": "7",
+      "lpage": "14",
+      "doi": "10.1016/j.lungcan.2020.11.013",
+      "pmid": "33321441"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Mazieres J",
+        "Rittmeyer A",
+        "Gadgeel S",
+        "Hida T",
+        "Gandara DR",
+        "Cortinovis DL",
+        "et al."
+      ],
+      "title": "Atezolizumab versus docetaxel in pretreated patients with NSCLC: final results rrom the randomized phase 2 POPLAR and phase 3 OAK clinical trials",
+      "journal": "J Thorac Oncol",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "140",
+      "lpage": "50",
+      "doi": "10.1016/j.jtho.2020.09.022",
+      "pmid": "33166718"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Park K",
+        "Ozguroglu M",
+        "Vansteenkiste J",
+        "Spigel D",
+        "Yang JCH",
+        "Ishii H",
+        "et al."
+      ],
+      "title": "Avelumab versus docetaxel in patients with platinum-treated advanced NSCLC: 2-year follow-up from the JAVELIN lung 200 phase 3 trial",
+      "journal": "J Thorac Oncol",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "1369",
+      "lpage": "78",
+      "doi": "10.1016/j.jtho.2021.03.009",
+      "pmid": "33845211"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Neal J",
+        "Pavlakis N",
+        "Kim SW",
+        "Goto Y",
+        "Lim SM",
+        "Mountzios G",
+        "et al."
+      ],
+      "title": "CONTACT-01: A randomized phase III trial of atezolizumab + cabozantinib versus docetaxel for metastatic non-small cell lung cancer after a checkpoint inhibitor and chemotherapy",
+      "journal": "J Clin Oncol",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "2393",
+      "lpage": "403",
+      "doi": "10.1200/JCO.23.02166",
+      "pmid": "38552197",
+      "pmc_id": "PMC11227305"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Mao X",
+        "Lee NK",
+        "Saad SE",
+        "Fong IL"
+      ],
+      "title": "Clinical translation for targeting DNA damage repair in non-small cell lung cancer: a review",
+      "journal": "Transl Lung Cancer Res",
+      "year": "2024",
+      "volume": "13",
+      "fpage": "375",
+      "lpage": "97",
+      "doi": "10.21037/tlcr-23-742",
+      "pmid": "38496700",
+      "pmc_id": "PMC10938103"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Barnieh FM",
+        "Loadman PM",
+        "Falconer RA"
+      ],
+      "title": "Progress towards a clinically-successful ATR inhibitor for cancer therapy",
+      "journal": "Curr Res Pharm Drug Discov",
+      "year": "2021",
+      "volume": "2",
+      "fpage": "100017",
+      "doi": "10.1016/j.crphar.2021.100017",
+      "pmc_id": "PMC8663972",
+      "pmid": "34909652"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Middleton MR",
+        "Dean E",
+        "Evans TRJ",
+        "Shapiro GI",
+        "Pollard J",
+        "Hendriks BS",
+        "et al."
+      ],
+      "title": "Phase 1 study of the ATR inhibitor berzosertib (formerly M6620, VX-970) combined with gemcitabine ± cisplatin in patients with advanced solid tumours",
+      "journal": "Br J Cancer",
+      "year": "2021",
+      "volume": "125",
+      "fpage": "510",
+      "lpage": "9",
+      "doi": "10.1038/s41416-021-01405-x",
+      "pmid": "34040175",
+      "pmc_id": "PMC8368196"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "authors": [
+        "Yap TA",
+        "O’Carrigan B",
+        "Penney MS",
+        "Lim JS",
+        "Brown JS",
+        "de Miguel Luken MJ",
+        "et al."
+      ],
+      "title": "Phase I Trial of first-in-class ATR inhibitor M6620 (VX-970) as monotherapy or in combination with carboplatin in patients with advanced solid tumors",
+      "journal": "J Clin Oncol",
+      "year": "2020",
+      "volume": "38",
+      "fpage": "3195",
+      "lpage": "204",
+      "doi": "10.1200/JCO.19.02404",
+      "pmid": "32568634",
+      "pmc_id": "PMC7499606"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Konstantinopoulos PA",
+        "Cheng SC",
+        "Lee EK",
+        "da Costa A",
+        "Gulhan D",
+        "Wahner Hendrickson AE",
+        "et al."
+      ],
+      "title": "Randomized phase II study of gemcitabine with or without ATR inhibitor berzosertib in platinum-resistant ovarian cancer: Final overall survival and biomarker analyses",
+      "journal": "JCO Precis Oncol",
+      "year": "2024",
+      "volume": "8",
+      "fpage": "e2300635",
+      "doi": "10.1200/PO.23.00635",
+      "pmid": "38635934",
+      "pmc_id": "PMC11095660"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "authors": [
+        "Javed SR",
+        "Lord S",
+        "El Badri S",
+        "Harman R",
+        "Holmes J",
+        "Kamzi F",
+        "et al."
+      ],
+      "title": "CHARIOT: a phase I study of berzosertib with chemoradiotherapy in oesophageal and other solid cancers using time to event continual reassessment method",
+      "journal": "Br J Cancer",
+      "year": "2024",
+      "volume": "130",
+      "fpage": "467",
+      "lpage": "75",
+      "doi": "10.1038/s41416-023-02542-1",
+      "pmid": "38129525",
+      "pmc_id": "PMC10844302"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Yap TA",
+        "Tan DSP",
+        "Terbuch A",
+        "Caldwell R",
+        "Guo C",
+        "Goh BC",
+        "et al."
+      ],
+      "title": "First-in-human hrial of the Oral Ataxia Telangiectasia and RAD3-Related (ATR) inhibitor BAY 1895344 in patients with advanced solid yumors",
+      "journal": "Cancer Discov",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "80",
+      "lpage": "91",
+      "doi": "10.1158/2159-8290.CD-20-0868",
+      "pmid": "32988960",
+      "pmc_id": "PMC9554790"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "doi": "10.1158/2159-8290.CD-24-1500",
+      "pmid": "40516108"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Pittman AN",
+        "Odhiambo DA",
+        "Castillo RJ",
+        "Rickard AG",
+        "Chen J",
+        "Himes JE",
+        "et al."
+      ],
+      "title": "Evaluating the therapeutic potential of ATR inhibitor BAY 1895344 and radiation therapy for head and neck squamous cell carcinoma",
+      "journal": "Clin Cancer Res",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "IA04",
+      "doi": "10.1158/1557-3265.AACRAHNS23-IA04"
     }
   ]
 }

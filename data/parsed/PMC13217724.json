@@ -20,7 +20,8 @@
     "pmc_id": "PMC13217724",
     "pmid": "42174687",
     "full_text_available": true,
-    "section_count": 32
+    "section_count": 32,
+    "reference_count": 36
   },
   "sections": [
     {
@@ -182,6 +183,620 @@
       "section": "Conclusion",
       "text": "Explicit modeling of beam geometry via ray-tracing-derived voxel-level features significantly improves 3D dose prediction for esophageal cancer radiotherapy under heterogeneous and rare beam configurations. Compared with an anatomy-only model, the proposed AADP framework enhances robustness—particularly in low- and intermediate-dose regions—and yields tangible clinical workflow benefits by reducing planning iterations, planning time, and inter-planner variability. These results highlight beam geometry as a critical component for clinically deployable, physics-informed dose prediction and provide a foundation for future extensions to broader modalities, motion-aware scenarios, and adaptive radiotherapy.",
       "order": 31
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "title": ": current status and issues of interest",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2001",
+      "volume": "51",
+      "issue": "4",
+      "fpage": "880",
+      "lpage": "914",
+      "doi": "10.1016/s0360-3016(01)01749-7",
+      "pmid": "11704310"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Gardner SJ",
+        "Kim J",
+        "Chetty IJ"
+      ],
+      "title": "Modern Radiation Therapy Planning and Delivery",
+      "journal": "Hematol Oncol Clin North Am",
+      "year": "2019",
+      "volume": "33",
+      "issue": "6",
+      "fpage": "947",
+      "lpage": "62",
+      "doi": "10.1016/j.hoc.2019.08.005",
+      "pmid": "31668213"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Chung CV",
+        "Khan MS",
+        "Olanrewaju A",
+        "et al."
+      ],
+      "title": "Knowledge-based planning for fully automated radiation therapy treatment planning of 10 different cancer sites",
+      "journal": "Radiother Oncol",
+      "year": "2025",
+      "volume": "202",
+      "fpage": "110609doi",
+      "doi": "10.1016/j.radonc.2024.110609",
+      "pmid": "39486482"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Tol JP",
+        "Delaney AR",
+        "Dahele M",
+        "et al."
+      ],
+      "title": "Evaluation of a knowledge-based planning solution for head and neck cancer",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2015",
+      "volume": "91",
+      "issue": "3",
+      "fpage": "612",
+      "lpage": "20",
+      "doi": "10.1016/j.ijrobp.2014.11.014",
+      "pmid": "25680603"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Hussein M",
+        "South CP",
+        "Barry MA",
+        "et al."
+      ],
+      "title": "Clinical validation and benchmarking of knowledge-based IMRT and VMAT treatment planning in pelvic anatomy",
+      "journal": "Radiother Oncol",
+      "year": "2016",
+      "volume": "120",
+      "issue": "3",
+      "fpage": "473",
+      "lpage": "9",
+      "doi": "10.1016/j.radonc.2016.06.022",
+      "pmid": "27427380"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Babier A",
+        "Boutilier JJ",
+        "McNiven AL",
+        "et al."
+      ],
+      "title": "Knowledge-based automated planning for oropharyngeal cancer",
+      "journal": "Med Phys",
+      "year": "2018",
+      "volume": "45",
+      "issue": "7",
+      "fpage": "2875",
+      "lpage": "83",
+      "doi": "10.1002/mp.12930",
+      "pmid": "29679492"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Babier A",
+        "Zhang B",
+        "Mahmood R",
+        "et al."
+      ],
+      "title": "OpenKBP: The open-access knowledge-based planning grand challenge and dataset",
+      "journal": "Med Phys",
+      "year": "2021",
+      "volume": "48",
+      "issue": "9",
+      "fpage": "5549",
+      "lpage": "61",
+      "doi": "10.1002/mp.14845",
+      "pmid": "34156719"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "doi": "10.3390/diagnostics13040667",
+      "pmc_id": "PMC9955359",
+      "pmid": "36832155"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Fogliata A",
+        "Parabicoli S",
+        "Paganini L",
+        "et al."
+      ],
+      "title": "Knowledge-based DVH estimation and optimization for breast VMAT plans with and without avoidance sectors",
+      "journal": "Radiat Oncol",
+      "year": "2022",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "200",
+      "doi": "10.1186/s13014-022-02172-6",
+      "pmid": "36474297",
+      "pmc_id": "PMC9724419"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "doi": "10.1088/1361-6560/ac08b0",
+      "pmid": "34098549"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Jiao SX",
+        "Wang ML",
+        "Chen LX",
+        "et al."
+      ],
+      "title": "Knowledge-based planning using both the predicted DVH of organ-at risk and planning target volume",
+      "journal": "Med Eng Phys",
+      "year": "2022",
+      "volume": "110",
+      "fpage": "103803",
+      "doi": "10.1016/j.medengphy.2022.103803",
+      "pmid": "35461772"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Cao W",
+        "Gronberg M",
+        "Bilton S",
+        "et al."
+      ],
+      "title": "Dose prediction via deep learning to enhance treatment planning of lung radiotherapy including simultaneous integrated boost techniques",
+      "journal": "Med Phys",
+      "year": "2025",
+      "volume": "52",
+      "issue": "5",
+      "fpage": "3336",
+      "lpage": "47",
+      "doi": "10.1002/mp.17692",
+      "pmid": "39967020",
+      "pmc_id": "PMC12082804"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Barragán-Montero AM",
+        "Thomas M",
+        "Defraene G",
+        "et al."
+      ],
+      "title": "Deep learning dose prediction for IMRT of esophageal cancer: The effect of data quality and quantity on model performance",
+      "journal": "Phys Med",
+      "year": "2021",
+      "volume": "83",
+      "fpage": "52",
+      "lpage": "63",
+      "doi": "10.1016/j.ejmp.2021.02.026",
+      "pmid": "33713919"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Zhang J",
+        "Liu S",
+        "Yan H",
+        "et al."
+      ],
+      "title": "Predicting voxel-level dose distributions for esophageal radiotherapy using densely connected network with dilated convolutions",
+      "journal": "Phys Med Biol",
+      "year": "2020",
+      "volume": "65",
+      "issue": "20",
+      "fpage": "205013",
+      "doi": "10.1088/1361-6560/aba87b",
+      "pmid": "32698170"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Kearney V",
+        "Chan JW",
+        "Haaf S",
+        "et al."
+      ],
+      "title": "DoseNet: a volumetric dose prediction algorithm using 3D fully-convolutional neural networks",
+      "journal": "Phys Med Biol",
+      "year": "2018",
+      "volume": "63",
+      "issue": "23",
+      "fpage": "235022",
+      "doi": "10.1088/1361-6560/aaef74",
+      "pmid": "30511663"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Nguyen D",
+        "Jia X",
+        "Sher D",
+        "et al."
+      ],
+      "title": "3D radiotherapy dose prediction on head and neck cancer patients with a hierarchically densely connected U-net deep learning architecture",
+      "journal": "Phys Med Biol",
+      "year": "2019",
+      "volume": "64",
+      "issue": "6",
+      "fpage": "065020",
+      "doi": "10.1088/1361-6560/ab039b",
+      "pmid": "30703760"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Duan Y",
+        "Wang J",
+        "Wu P",
+        "et al."
+      ],
+      "title": "AS-NeSt: A Novel 3D Deep Learning Model for Radiation Therapy Dose Distribution Prediction in Esophageal Cancer Treatment With Multiple Prescriptions",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2024",
+      "volume": "119",
+      "issue": "3",
+      "fpage": "978",
+      "lpage": "89",
+      "doi": "10.1016/j.ijrobp.2023.12.001",
+      "pmid": "38159780"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Barragán-Montero AM",
+        "Nguyen D",
+        "Lu W",
+        "et al."
+      ],
+      "title": "Three-dimensional dose prediction for lung IMRT patients with deep neural networks: robust learning from heterogeneous beam configurations",
+      "journal": "Med Phys",
+      "year": "2019",
+      "volume": "46",
+      "issue": "8",
+      "fpage": "3679",
+      "lpage": "91",
+      "doi": "10.1002/mp.13597",
+      "pmid": "31102554"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Zhou J",
+        "Peng Z",
+        "Song Y",
+        "et al."
+      ],
+      "title": "A method of using deep learning to predict three-dimensional dose distributions for intensity-modulated radiotherapy of rectal cancer",
+      "journal": "J Appl Clin Med Phys",
+      "year": "2020",
+      "volume": "21",
+      "issue": "5",
+      "fpage": "26",
+      "lpage": "37",
+      "doi": "10.1002/acm2.12849",
+      "pmid": "32281254",
+      "pmc_id": "PMC7286006"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Hansen CR",
+        "Hussein M",
+        "Bernchou U",
+        "et al."
+      ],
+      "title": "Plan quality in radiotherapy treatment planning - Review of the factors and challenges",
+      "journal": "J Med Imaging Radiat Oncol",
+      "year": "2022",
+      "volume": "66",
+      "issue": "2",
+      "fpage": "267",
+      "lpage": "78",
+      "doi": "10.1111/1754-9485.13374",
+      "pmid": "35243775"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Jingu K",
+        "Nihei K",
+        "Ito Y",
+        "et al."
+      ],
+      "title": "Radiotherapy treatment planning for esophageal cancer: JASTRO guidelines 2024 for radiotherapy treatment planning",
+      "journal": "J Radiat Res",
+      "year": "2025",
+      "volume": "66",
+      "issue": "4",
+      "fpage": "354",
+      "lpage": "64",
+      "doi": "10.1093/jrr/rraf029",
+      "pmid": "40460450",
+      "pmc_id": "PMC12283517"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Diedrich B",
+        "Roper J",
+        "Hopkins B",
+        "et al."
+      ],
+      "title": "Integrating knowledge-based planning and noncoplanar oblique VMAT arcs: A study of dose to the heart and immune cells in thoracic radiotherapy",
+      "journal": "Tech Innov Patient Support Radiat Oncol",
+      "year": "2025",
+      "volume": "33",
+      "fpage": "100301",
+      "doi": "10.1016/j.tipsro.2025.100301",
+      "pmid": "39886365",
+      "pmc_id": "PMC11780144"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Bohara G",
+        "Sadeghnejad Barkousaraie A",
+        "Jiang S",
+        "et al."
+      ],
+      "title": "Using deep learning to predict beam-tunable Pareto optimal dose distribution for intensity-modulated radiation therapy",
+      "journal": "Med Phys",
+      "year": "2020",
+      "volume": "47",
+      "issue": "9",
+      "fpage": "3898",
+      "lpage": "912",
+      "doi": "10.1002/mp.14374",
+      "pmid": "32621789",
+      "pmc_id": "PMC7821384"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Miao Y",
+        "Ge R",
+        "Xie C",
+        "et al."
+      ],
+      "title": "Three-dimensional dose prediction based on deep convolutional neural networks for brain cancer in CyberKnife: accurate beam modelling of homogeneous tissue",
+      "journal": "BJR Open",
+      "year": "2024",
+      "volume": "6",
+      "issue": "1",
+      "fpage": "tzae023doi",
+      "doi": "10.1093/bjro/tzae023",
+      "pmid": "39220325",
+      "pmc_id": "PMC11364489"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Siddon RL"
+      ],
+      "title": "Fast calculation of the exact radiological path for a three-dimensional CT array",
+      "journal": "Med Phys",
+      "year": "1985",
+      "volume": "12",
+      "issue": "2",
+      "fpage": "252",
+      "lpage": "5",
+      "doi": "10.1118/1.595715",
+      "pmid": "4000088"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Das IJ",
+        "Andersen A",
+        "Chen ZJ",
+        "et al."
+      ],
+      "title": "State of dose prescription and compliance to international standard (ICRU-83) in intensity modulated radiation therapy among academic institutions",
+      "journal": "Pract Radiat Oncol",
+      "year": "2017",
+      "volume": "7",
+      "issue": "2",
+      "fpage": "e145",
+      "lpage": "55",
+      "doi": "10.1016/j.prro.2016.11.003",
+      "pmid": "28274405"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "raw_citation": "Dice LR. Measures of the amount of ecologic association between species. Ecology. 1945;26(3)."
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "doi": "10.1088/1361-6560/adc236",
+      "pmid": "40101365"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Peng Y",
+        "Liu Y",
+        "Chen Z",
+        "et al."
+      ],
+      "title": "Accuracy Improvement Method Based on Characteristic Database Classification for IMRT Dose Prediction in Cervical Cancer: Scientifically Training Data Selection",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "808580",
+      "doi": "10.3389/fonc.2022.808580",
+      "pmid": "35311133",
+      "pmc_id": "PMC8927290"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Nguyen D",
+        "McBeth R",
+        "Sadeghnejad Barkousaraie A",
+        "et al."
+      ],
+      "title": "Incorporating human and learned domain knowledge into training deep neural networks: A differentiable dose-volume histogram and adversarial inspired framework for generating Pareto optimal dose distributions in radiation therapy",
+      "journal": "Med Phys",
+      "year": "2020",
+      "volume": "47",
+      "issue": "3",
+      "fpage": "837",
+      "lpage": "49",
+      "doi": "10.1002/mp.13955",
+      "pmid": "31821577",
+      "pmc_id": "PMC7819274"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Teng L",
+        "Wang B",
+        "Xu X",
+        "et al."
+      ],
+      "title": "Beam-wise dose composition learning for head and neck cancer dose prediction in radiotherapy",
+      "journal": "Med Image Anal",
+      "year": "2024",
+      "volume": "92",
+      "fpage": "103045doi",
+      "doi": "10.1016/j.media.2023.103045",
+      "pmid": "38071865"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Voruganti Maddali IS",
+        "Cunningham C",
+        "McLeod L",
+        "et al."
+      ],
+      "title": "Optimal management of radiation pneumonitis: Findings of an international Delphi consensus study",
+      "journal": "Lung Cancer",
+      "year": "2024",
+      "volume": "192",
+      "fpage": "107822doi",
+      "doi": "10.1016/j.lungcan.2024.107822",
+      "pmid": "38788551"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Rodrigues G",
+        "Lock M",
+        "D’Souza D",
+        "et al."
+      ],
+      "title": "Prediction of radiation pneumonitis by dose - volume histogram parameters in lung cancer–a systematic review",
+      "journal": "Radiother Oncol",
+      "year": "2004",
+      "volume": "71",
+      "issue": "2",
+      "fpage": "127",
+      "lpage": "38",
+      "doi": "10.1016/j.radonc.2004.02.015",
+      "pmid": "15110445"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Jiao Y",
+        "Wen Y",
+        "Li S",
+        "et al."
+      ],
+      "title": "Integrating radiomics and dosiomics with lung biologically equivalent dose for predicting symptomatic radiation pneumonitis after lung SBRT: A dual-center study",
+      "journal": "Radiother Oncol",
+      "year": "2025",
+      "volume": "212",
+      "fpage": "111129",
+      "doi": "10.1016/j.radonc.2025.111129",
+      "pmid": "40939682"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Ger RB",
+        "Wei L",
+        "Naqa IE",
+        "et al."
+      ],
+      "title": "The Promise and Future of Radiomics for Personalized Radiotherapy Dosing and Adaptation",
+      "journal": "Semin Radiat Oncol",
+      "year": "2023",
+      "volume": "33",
+      "issue": "3",
+      "fpage": "252",
+      "lpage": "61",
+      "doi": "10.1016/j.semradonc.2023.03.003",
+      "pmid": "37331780",
+      "pmc_id": "PMC11214660"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Zhang Z",
+        "Wang Z",
+        "Yan M",
+        "et al."
+      ],
+      "title": "Radiomics and Dosiomics Signature From Whole Lung Predicts Radiation Pneumonitis: A Model Development Study With Prospective External Validation and Decision-curve Analysis",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2023",
+      "volume": "115",
+      "issue": "3",
+      "fpage": "746",
+      "lpage": "58",
+      "doi": "10.1016/j.ijrobp.2022.08.047",
+      "pmid": "36031028"
     }
   ]
 }

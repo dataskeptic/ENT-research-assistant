@@ -14,7 +14,8 @@
     "pmc_id": "PMC13198450",
     "pmid": "42176132",
     "full_text_available": true,
-    "section_count": 18
+    "section_count": 18,
+    "reference_count": 40
   },
   "sections": [
     {
@@ -106,6 +107,653 @@
       "section": "Conclusion",
       "text": "In this study, we evaluated the antimicrobial activity of NCP-3 against a broad panel of bacterial and M. pachydermatis clinical isolates obtained from dogs with otitis externa, including multidrug-resistant strains. The results indicate that NCP-3 exerts marked antimicrobial activity, particularly against S. pseudintermedius , whereas a more heterogeneous and generally reduced activity was observed on Gram-negative and M. pachydermatis clinical strains. Overall, these findings, obtained under in vitro conditions, suggest that NCP-3 is primarily active against Gram-positive bacteria, including multidrug-resistant S. pseudintermedius . However, its limited and variable efficacy against Gram-negative bacteria and M. pachydermatis may restrict its antimicrobial spectrum. Further studies are needed to assess its safety, efficacy, and potential clinical applicability in vivo.",
       "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Bourély C",
+        "Cazeau G",
+        "Jarrige N",
+        "Leblond A",
+        "Madec JY",
+        "Haenni M",
+        "Gay E"
+      ],
+      "title": "Antimicrobial resistance patterns of bacteria isolated from dogs with otitis",
+      "journal": "Epidemiol Infect",
+      "year": "2019",
+      "doi": "10.1017/S0950268818003278",
+      "pmid": "30868979",
+      "pmc_id": "PMC6518499"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Brogden KA"
+      ],
+      "title": "Antimicrobial peptides: pore formers or metabolic inhibitors in bacteria?",
+      "journal": "Nat Rev Microbiol",
+      "year": "2005",
+      "volume": "3",
+      "issue": "3",
+      "fpage": "238",
+      "lpage": "250",
+      "doi": "10.1038/nrmicro1098",
+      "pmid": "15703760"
+    },
+    {
+      "ref_id": "CR3",
+      "authors": [
+        "Callaway TR",
+        "Lillehoj H",
+        "Chuanchuen R",
+        "Gay CG"
+      ],
+      "title": "Alternatives to antibiotics: a symposium on the challenges and solutions for animal health and production",
+      "journal": "Antibiotics",
+      "year": "2021",
+      "doi": "10.3390/antibiotics10050471",
+      "pmid": "33918995",
+      "pmc_id": "PMC8142984"
+    },
+    {
+      "ref_id": "CR4",
+      "authors": [
+        "Cannizzo FT",
+        "Eraso E",
+        "Ezkurra PA",
+        "Villar-Vidal M",
+        "Bollo E",
+        "Castellá G",
+        "Cabañes FJ",
+        "Vidotto V",
+        "Quindós G"
+      ],
+      "title": "Biofilm development by clinical isolates of Malassezia pachydermatis",
+      "journal": "Med Mycol",
+      "year": "2007",
+      "volume": "45",
+      "issue": "4",
+      "fpage": "357",
+      "lpage": "361",
+      "doi": "10.1080/13693780701225767",
+      "pmid": "17510859"
+    },
+    {
+      "ref_id": "CR5",
+      "raw_citation": "Clinical Laboratory Standards Institute (2023) Clinical and Laboratory Standard Institute. Performance standards for antimicrobial susceptibility testing for bacteria isolated from Animals. CLSI Supplement VET01S, Wayne, PA: CLSI ."
+    },
+    {
+      "ref_id": "CR6",
+      "raw_citation": "Clinical and Laboratory Standards Institute (CLSI) (2024) Clinical and Laboratory Standard Institute. Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically; approved standards – 12th edition. CLSI Document M07Ed12, Wayne, PA: CLSI"
+    },
+    {
+      "ref_id": "CR7",
+      "raw_citation": "Clinical and Laboratory Standards Institute (2021) Performance standards for antimicrobial susceptibility testing, 31st edn. CLSI supplement M100. Clinical and Laboratory Standards Institute, Wayne, PA, USA."
+    },
+    {
+      "ref_id": "CR8",
+      "raw_citation": "CLSI (2017) Clinical and Laboratory Standards Institute. Reference method for broth dilution antifungal susceptibility testing of yeasts (4th ed.). CLSI Document M27, Wayne, PA: CLSI"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Čonková E",
+        "Proškovcová M",
+        "Váczi P",
+        "Malinovská Z"
+      ],
+      "title": "In vitro biofilm formation by Malassezia pachydermatis isolates and its susceptibility to azole antifungals",
+      "journal": "J Fungi",
+      "year": "2022",
+      "volume": "8",
+      "issue": "11",
+      "fpage": "1157",
+      "doi": "10.3390/jof8111157",
+      "pmc_id": "PMC9693420",
+      "pmid": "36422031"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "Dégi J",
+        "Imre K",
+        "Cǎtanǎ N",
+        "Morar A",
+        "Sala C",
+        "Herman V"
+      ],
+      "title": "Frequency of isolation and antibiotic resistance of staphylococcal flora from external otitis of dogs",
+      "journal": "Vet Rec",
+      "year": "2013",
+      "doi": "10.1136/vr.101426",
+      "pmid": "23740316"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Dubovskii PV",
+        "Vassilevski AA",
+        "Kozlov SA",
+        "Feofanov AV",
+        "Grishin EV",
+        "Efremov RG"
+      ],
+      "title": "Latarcins: versatile spider venom peptides",
+      "journal": "Cell Mol Life Sci",
+      "year": "2015",
+      "volume": "72",
+      "issue": "23",
+      "fpage": "4501",
+      "lpage": "4522",
+      "doi": "10.1007/s00018-015-2016-x",
+      "pmid": "26286896",
+      "pmc_id": "PMC11113828"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Ebbensgaard A",
+        "Mordhorst H",
+        "Toft Overgaard M",
+        "Gyrup Nielsen C",
+        "Møller Aarestrup F",
+        "Bech Hansen E"
+      ],
+      "title": "Comparative evaluation of the antimicrobial activity of different antimicrobial peptides against a range of pathogenic bacteria",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0144611",
+      "doi": "10.1371/journal.pone.0144611",
+      "pmid": "26656394",
+      "pmc_id": "PMC4684357"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Ghibaudo G",
+        "Santospirito D",
+        "Sala A",
+        "Flisi S",
+        "Taddei S",
+        "Cavirani S",
+        "Cabassi CS"
+      ],
+      "title": "In vitro antimicrobial activity of a gel containing antimicrobial peptide AMP2041, chlorhexidine digluconate and Tris-EDTA on clinical isolates of Pseudomonas aeruginosa from canine otitis",
+      "journal": "Vet Dermatol",
+      "year": "2016",
+      "doi": "10.1111/vde.12371",
+      "pmid": "27545352"
+    },
+    {
+      "ref_id": "CR15",
+      "raw_citation": "Guardabassi L, Houser GA, Frank LA, Papich MG (2008) Guidelines for antimicrobial use in dogs and cats. Guide to antimicrobial use in animals, 183–206"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Guillot J",
+        "Bond R"
+      ],
+      "title": "Malassezia yeasts in veterinary dermatology: an updated overview",
+      "journal": "Vet Dermatol",
+      "year": "2020",
+      "volume": "31",
+      "issue": "6",
+      "fpage": "447",
+      "lpage": "e121",
+      "doi": "10.1111/vde.12867",
+      "pmc_id": "PMC7059102",
+      "pmid": "32181160"
+    },
+    {
+      "ref_id": "CR17",
+      "raw_citation": "Hiemstra PS, Zaat SA (eds) (2013) Antimicrobial Peptides and Innate Immunity. Springer Science & Business Media"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Jarosiewicz M",
+        "Garbacz K",
+        "Neubauer D",
+        "Kamysz W"
+      ],
+      "title": "In vitro efficiency of antimicrobial peptides against staphylococcal pathogens associated with canine pyoderma",
+      "journal": "Animals",
+      "year": "2020",
+      "doi": "10.3390/ani10030470",
+      "pmid": "32168952",
+      "pmc_id": "PMC7143510"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Kano R",
+        "Yokoi S",
+        "Kariya N",
+        "Oshimo K",
+        "Kamata H"
+      ],
+      "title": "Multi-azole-resistant strain of Malassezia pachydermatis isolated from a canine Malassezia dermatitis",
+      "journal": "Med Mycol",
+      "year": "2019",
+      "volume": "57",
+      "issue": "3",
+      "fpage": "346",
+      "lpage": "350",
+      "doi": "10.1093/mmy/myy035",
+      "pmid": "29800467"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Magiorakos AP",
+        "Srinivasan A",
+        "Carey RB",
+        "Carmeli Y",
+        "Falagas ME",
+        "Giske CG",
+        "Harbarth S",
+        "Hindler JF",
+        "Kahlmeter G",
+        "Olsson-Liljequist B",
+        "Paterson DL",
+        "Rice LB",
+        "Stelling J",
+        "Struelens MJ",
+        "Vatopoulos A",
+        "Weber JT",
+        "Monnet DL"
+      ],
+      "title": "Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance",
+      "journal": "Clin Microbiol Infect",
+      "year": "2012",
+      "volume": "18",
+      "issue": "3",
+      "fpage": "268",
+      "lpage": "281",
+      "doi": "10.1111/j.1469-0691.2011.03570.x",
+      "pmid": "21793988"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Mangoni ML",
+        "Maisetta G",
+        "Di Luca M",
+        "Gaddi LMH",
+        "Esin S",
+        "Florio W",
+        "Brancatisano FL",
+        "Barra D",
+        "Campa M",
+        "Batoni G"
+      ],
+      "title": "Comparative analysis of the bactericidal activities of amphibian peptide analogues against multidrug-resistant nosocomial bacterial strains",
+      "journal": "Antimicrob Agents Chemother",
+      "year": "2008",
+      "volume": "52",
+      "issue": "1",
+      "fpage": "85",
+      "lpage": "91",
+      "doi": "10.1128/AAC.00796-07",
+      "pmid": "17954700",
+      "pmc_id": "PMC2223874"
+    },
+    {
+      "ref_id": "CR22",
+      "authors": [
+        "Mezzasalma N",
+        "Spadini C",
+        "Spaggiari C",
+        "Annunziato G",
+        "Andreoli V",
+        "Prosperi A",
+        "Mochen L",
+        "Cavirani S",
+        "Grolli S",
+        "Taddei S",
+        "Costantino G",
+        "Cabassi CS"
+      ],
+      "title": "Antibacterial and antibiofilm activity of Eucalyptus globulus leaf extract, asiatic acid and ursolic acid against bacteria isolated from bovine mastitis",
+      "journal": "Front Vet Sci",
+      "year": "2025",
+      "doi": "10.3389/fvets.2025.1565787",
+      "pmid": "40438412",
+      "pmc_id": "PMC12117823"
+    },
+    {
+      "ref_id": "CR23",
+      "doi": "10.3389/fmicb.2013.00422",
+      "pmc_id": "PMC3884212",
+      "pmid": "24409175"
+    },
+    {
+      "ref_id": "CR24",
+      "authors": [
+        "Needham BD",
+        "Trent MS"
+      ],
+      "title": "Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis",
+      "journal": "Nat Rev Microbiol",
+      "year": "2013",
+      "volume": "11",
+      "fpage": "467",
+      "lpage": "481",
+      "doi": "10.1038/nrmicro3047",
+      "pmid": "23748343",
+      "pmc_id": "PMC6913092"
+    },
+    {
+      "ref_id": "CR25",
+      "authors": [
+        "Oliveira NG",
+        "Souza CM",
+        "Buccini DF",
+        "Cardoso MH",
+        "Franco OL"
+      ],
+      "title": "Antimicrobial peptides: structure, functions and translational applications",
+      "journal": "Nat Rev Microbiol",
+      "year": "2025",
+      "doi": "10.1038/s41579-025-01200-y",
+      "pmid": "40646173"
+    },
+    {
+      "ref_id": "CR26",
+      "authors": [
+        "Palomino JC",
+        "Martin A",
+        "Camacho M",
+        "Guerra H",
+        "Swings J",
+        "Portaels F"
+      ],
+      "title": "Resazurin microtiter assay plate: simple and inexpensive method for detection of drug resistance in Mycobacterium tuberculosis",
+      "journal": "Antimicrob Agents Chemother",
+      "year": "2002",
+      "volume": "46",
+      "issue": "8",
+      "fpage": "2720",
+      "lpage": "2722",
+      "doi": "10.1128/AAC.46.8.2720-2722.2002",
+      "pmid": "12121966",
+      "pmc_id": "PMC127336"
+    },
+    {
+      "ref_id": "CR27",
+      "authors": [
+        "Popa I",
+        "Iancu I",
+        "Iorgoni V",
+        "Degi J",
+        "Gligor A",
+        "Imre K",
+        "Tîrziu E",
+        "Bochis T",
+        "Pop C",
+        "Plotuna A-M",
+        "Nistor P",
+        "Pentea M",
+        "Herman V",
+        "Nichita I"
+      ],
+      "title": "Antimicrobial resistance profile of Staphylococcus pseudintermedius isolated from dogs with otitis externa and healthy dogs: veterinary and zoonotic implications",
+      "journal": "Antibiotics Basel",
+      "year": "2025",
+      "volume": "14",
+      "fpage": "1027",
+      "doi": "10.3390/antibiotics14101027",
+      "pmid": "41148721",
+      "pmc_id": "PMC12562209"
+    },
+    {
+      "ref_id": "CR28",
+      "raw_citation": "Quinn PJ (1994) Clinical veterinary microbiology. (Wolfe Publishing, Ed.). Mosby-Year book limited"
+    },
+    {
+      "ref_id": "CR29",
+      "authors": [
+        "Raman N",
+        "Lee MR",
+        "Lynn DM",
+        "Palecek SP"
+      ],
+      "title": "Antifungal activity of 14-helical β-peptides against planktonic cells and biofilms of Candida species",
+      "journal": "Pharmaceuticals Basel",
+      "year": "2015",
+      "volume": "8",
+      "issue": "3",
+      "fpage": "483",
+      "lpage": "503",
+      "doi": "10.3390/ph8030483",
+      "pmid": "26287212",
+      "pmc_id": "PMC4588179"
+    },
+    {
+      "ref_id": "CR30",
+      "authors": [
+        "Rojas FD",
+        "De Los A. Sosa M",
+        "Fernández MS",
+        "Cattana ME",
+        "Córdoba SB",
+        "Giusiano GE"
+      ],
+      "title": "Antifungal susceptibility of Malassezia furfur , Malassezia sympodialis , and Malassezia globosa to azole drugs and amphotericin B evaluated using a broth microdilution method",
+      "journal": "Med Mycol",
+      "year": "2014",
+      "volume": "52",
+      "issue": "6",
+      "fpage": "641",
+      "lpage": "646",
+      "doi": "10.1093/mmy/myu010",
+      "pmid": "24965946"
+    },
+    {
+      "ref_id": "CR31",
+      "authors": [
+        "Romani AA",
+        "Baroni MC",
+        "Taddei S",
+        "Ghidini F",
+        "Sansoni P",
+        "Cavirani S",
+        "Cabassi CS"
+      ],
+      "title": "In vitro activity of novel in silico-developed antimicrobial peptides against a panel of bacterial pathogens",
+      "journal": "J Pept Sci",
+      "year": "2013",
+      "volume": "19",
+      "issue": "9",
+      "fpage": "554",
+      "lpage": "565",
+      "doi": "10.1002/psc.2532",
+      "pmid": "23893489"
+    },
+    {
+      "ref_id": "CR32",
+      "authors": [
+        "Sala A",
+        "Cabassi CS",
+        "Santospirito D",
+        "Polverini E",
+        "Flisi S",
+        "Cavirani S",
+        "Taddei S"
+      ],
+      "title": "Novel Naja atra cardiotoxin 1 (CTX-1) derived antimicrobial peptides with broad spectrum activity",
+      "journal": "PLoS One",
+      "year": "2018",
+      "doi": "10.1371/journal.pone.0190778",
+      "pmid": "29364903",
+      "pmc_id": "PMC5783354"
+    },
+    {
+      "ref_id": "CR33",
+      "authors": [
+        "Saraiva S",
+        "Calouro R",
+        "de Sousa T",
+        "Dapkevicius MLE",
+        "Mesquita JR",
+        "Coelho AC",
+        "Poeta P"
+      ],
+      "title": "Bacterial agents and antimicrobial-resistance patterns in canine otitis externa",
+      "journal": "Animals",
+      "year": "2025",
+      "volume": "15",
+      "issue": "22",
+      "fpage": "3317",
+      "doi": "10.3390/ani15223317",
+      "pmid": "41302025",
+      "pmc_id": "PMC12649684"
+    },
+    {
+      "ref_id": "CR34",
+      "authors": [
+        "Saridomichelakis MN",
+        "Farmaki R",
+        "Leontides LS",
+        "Koutinas AF"
+      ],
+      "title": "Aetiology of canine otitis externa: a retrospective study of 100 cases",
+      "journal": "Vet Dermatol",
+      "year": "2007",
+      "volume": "18",
+      "issue": "5",
+      "fpage": "341",
+      "lpage": "347",
+      "doi": "10.1111/j.1365-3164.2007.00619.x",
+      "pmid": "17845622"
+    },
+    {
+      "ref_id": "CR35",
+      "authors": [
+        "Sato H",
+        "Feix B"
+      ],
+      "title": "Peptide-membrane interactions and mechanisms of membrane destruction by amphipathic α-helical antimicrobial peptides",
+      "journal": "Biochim Biophys Acta",
+      "year": "2006",
+      "volume": "1758",
+      "issue": "9",
+      "fpage": "1245",
+      "lpage": "1256",
+      "doi": "10.1016/j.bbamem.2006.02.021",
+      "pmid": "16697975"
+    },
+    {
+      "ref_id": "CR36",
+      "authors": [
+        "Spadini C",
+        "Mezzasalma N",
+        "Odigie AE",
+        "Angeli A",
+        "Carta F",
+        "Selleri S",
+        "Gandolfo E",
+        "Taddei S",
+        "Franceschi V",
+        "Minesso S",
+        "Supuran CT",
+        "Cabassi CS"
+      ],
+      "title": "Comparative efficacy of selenoureido carbonic anhydrase inhibitors and azole antifungal drugs against clinical isolates of Malassezia pachydermatis",
+      "journal": "Vet Dermatol",
+      "year": "2025",
+      "doi": "10.1111/vde.13336",
+      "pmid": "40091275",
+      "pmc_id": "PMC12058572"
+    },
+    {
+      "ref_id": "CR37",
+      "authors": [
+        "Thevissen K",
+        "Warnecke DC",
+        "François IEJA",
+        "Leipelt M",
+        "Heinz E",
+        "Ott C",
+        "Zähringer U",
+        "Thomma BPHJ",
+        "Ferket KKA",
+        "Cammue BPA"
+      ],
+      "title": "Defensins from insects and plants interact with fungal glucosylceramides",
+      "journal": "J Biol Chem",
+      "year": "2004",
+      "volume": "279",
+      "issue": "6",
+      "fpage": "3900",
+      "lpage": "3905",
+      "doi": "10.1074/jbc.M311165200",
+      "pmid": "14604982"
+    },
+    {
+      "ref_id": "CR38",
+      "authors": [
+        "Vélez N",
+        "Argel A",
+        "Kissmann AK",
+        "Alpízar-Pedraza D",
+        "Escandón P",
+        "Rosenau F",
+        "Ständker L",
+        "Firacative C"
+      ],
+      "title": "Pore-forming peptide C14R exhibits potent antifungal activity against clinical isolates of Candida albicans and Candida auris",
+      "journal": "Front Cell Infect Microbiol",
+      "year": "2024",
+      "doi": "10.3389/fcimb.2024.1389020",
+      "pmid": "38601736",
+      "pmc_id": "PMC11004338"
+    },
+    {
+      "ref_id": "CR39",
+      "authors": [
+        "Weese JS"
+      ],
+      "title": "The canine and feline skin microbiome in health and disease",
+      "journal": "Vet Dermatol",
+      "year": "2013",
+      "doi": "10.1111/j.1365-3164.2012.01076.x",
+      "pmid": "23331690"
+    },
+    {
+      "ref_id": "CR40",
+      "authors": [
+        "Yeaman MR",
+        "Yount NY"
+      ],
+      "title": "Mechanisms of antimicrobial peptide action and resistance",
+      "journal": "Pharmacol Rev",
+      "year": "2003",
+      "volume": "55",
+      "issue": "1",
+      "fpage": "27",
+      "lpage": "55",
+      "doi": "10.1124/pr.55.1.2",
+      "pmid": "12615953"
+    },
+    {
+      "ref_id": "CR41",
+      "authors": [
+        "Zasloff M"
+      ],
+      "title": "eptides of Multicellular Organisms: My Perspective",
+      "journal": "Adv Exp Med Biol",
+      "year": "2019",
+      "volume": "1117",
+      "fpage": "3",
+      "lpage": "6",
+      "doi": "10.1007/978-981-13-3588-4_1",
+      "pmid": "30980349"
     }
   ]
 }

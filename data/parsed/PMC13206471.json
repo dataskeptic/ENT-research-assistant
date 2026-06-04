@@ -14,7 +14,8 @@
     "pmc_id": "PMC13206471",
     "pmid": "42187590",
     "full_text_available": true,
-    "section_count": 15
+    "section_count": 15,
+    "reference_count": 101
   },
   "sections": [
     {
@@ -91,6 +92,2047 @@
       "section": "Conclusion",
       "text": "Eyelid malignancies present unique surgical challenges due to the anatomical complexity and functional importance of the periocular region. Achieving complete tumor removal while preserving eyelid function and cosmesis remains the primary objective of surgical management. Intraoperative margin control plays a critical role in ensuring oncologic safety while minimizing unnecessary tissue sacrifice. MMS and FSC are both associated with very low and comparable recurrence rates in periocular BCC, with no significant difference in safety demonstrated across studies. From a practical clinical perspective, the choice between MMS and FSC is guided by tumor-related and patient-specific factors rather than a single standardized algorithm. MMS provides comprehensive circumferential margin assessment through en face sectioning and remains widely regarded as the reference standard for tumors with poorly defined margins, aggressive histologic subtypes, or recurrent disease, and those located in anatomically critical areas such as the medial canthus, where subclinical spread is common [ 6 , 34 ]. However, FSC continues to represent a reliable and widely used alternative in oculoplastic practice. When performed with accurate specimen orientation and careful histopathologic evaluation, FSC can achieve recurrence rates comparable to those reported for MMS while allowing single-stage excision and reconstruction [ 37 , 38 , 39 ]. From a cost perspective, MMS is more resource-intensive and time-consuming due to repeated intraoperative margin assessment, and is therefore generally more expensive. FSC is typically more accessible and likely less costly, with current evidence not showing a clear cost-effectiveness advantage for MMS [ 101 ]. Recent technological advances are expanding the role of imaging in tumor detection and margin assessment beyond conventional histopathology. Noninvasive imaging modalities —including FCM, RCM, OCT, LC-OCT, and PI—have shown promising capabilities in visualizing tumor architecture and identifying subclinical extension. These technologies may support presurgical mapping, guide intraoperative decision-making, and potentially reduce operative time and the number of surgical stages required [ 12 , 14 , 58 , 62 , 68 , 90 ]. AI–assisted analysis is also emerging as a valuable adjunct for interpreting histologic and imaging data. Machine learning algorithms have demonstrated high diagnostic accuracy in detecting BCC and other cutaneous malignancies, with the potential to enhance efficiency and reproducibility in margin assessment. However, most available data derive from early clinical or experimental studies, and further validation is required before widespread clinical adoption. Consequently, histopathologic evaluation remains the cornerstone of intraoperative margin control in eyelid tumor surgery [ 99 , 100 ]. Among emerging modalities, in vivo LC-OCT–based margin assessment appears particularly promising for improving surgical efficiency and reducing healthcare resource utilization [ 13 ]. More accurate preoperative delineation of tumor boundaries may limit unnecessary tissue removal, an important consideration in the cosmetically and functionally sensitive periocular region. Improved margin definition may also decrease the number of surgical stages, particularly in micrographic procedures, thereby reducing operative time, histopathologic workload, and personnel demands. Furthermore, AI-supported digital workflows may enhance documentation, reproducibility, and integration into routine clinical practice without requiring substantial additional infrastructure [ 88 , 90 ]. Future research should focus on validating these advanced imaging technologies and AI-driven approaches in larger periocular cohorts, with the goal of improving surgical precision, optimizing workflow efficiency, and ultimately enhancing patient outcomes.",
       "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-curroncol-33-00273",
+      "label": "1.",
+      "authors": [
+        "Cook B."
+      ],
+      "title": "Epidemiologic characteristics and clinical course of patients with malignant eyelid tumors in an incidence cohort in Olmsted county, Minnesota",
+      "journal": "Ophthalmology",
+      "year": "1999",
+      "volume": "106",
+      "fpage": "746",
+      "lpage": "750",
+      "doi": "10.1016/S0161-6420(99)90161-6",
+      "pmid": "10201597"
+    },
+    {
+      "ref_id": "B2-curroncol-33-00273",
+      "label": "2.",
+      "authors": [
+        "Gąsiorowski K.",
+        "Gontarz M.",
+        "Bargiel J.",
+        "Marecik T.",
+        "Szczurowski P.",
+        "Wyszyńska-Pawelec G."
+      ],
+      "title": "Reconstructive Techniques Following Malignant Eyelid Tumour Excision—Our Experience",
+      "journal": "J. Clin. Med.",
+      "year": "2024",
+      "volume": "13",
+      "elocation_id": "6120",
+      "doi": "10.3390/jcm13206120",
+      "pmid": "39458069",
+      "pmc_id": "PMC11508535"
+    },
+    {
+      "ref_id": "B3-curroncol-33-00273",
+      "label": "3.",
+      "authors": [
+        "Silverman N.",
+        "Shinder R."
+      ],
+      "title": "What’s New in Eyelid Tumors",
+      "journal": "Asia-Pac. J. Ophthalmol.",
+      "year": "2017",
+      "volume": "6",
+      "fpage": "143",
+      "lpage": "152",
+      "doi": "10.22608/APO.201701",
+      "pmid": "28399340"
+    },
+    {
+      "ref_id": "B4-curroncol-33-00273",
+      "label": "4.",
+      "authors": [
+        "Desiato V.M.",
+        "Byun Y.J.",
+        "Nguyen S.A.",
+        "Thiers B.H.",
+        "Day T.A."
+      ],
+      "title": "Sebaceous Carcinoma of the Eyelid: A Systematic Review and Meta-Analysis",
+      "journal": "Dermatol. Surg.",
+      "year": "2021",
+      "volume": "47",
+      "fpage": "104",
+      "lpage": "110",
+      "doi": "10.1097/DSS.0000000000002660",
+      "pmid": "33347004"
+    },
+    {
+      "ref_id": "B5-curroncol-33-00273",
+      "label": "5.",
+      "authors": [
+        "Balasubramanian A.",
+        "Kannan N.S."
+      ],
+      "title": "Eyelid Malignancies- Always Quite Challenging",
+      "journal": "J. Clin. Diagn. Res. JCDR",
+      "year": "2017",
+      "volume": "11",
+      "fpage": "XR01",
+      "lpage": "XR04",
+      "doi": "10.7860/JCDR/2017/23695.9582",
+      "pmc_id": "PMC5427420",
+      "pmid": "28511494"
+    },
+    {
+      "ref_id": "B6-curroncol-33-00273",
+      "label": "6.",
+      "authors": [
+        "Sundar G.",
+        "Manjandavida F.P."
+      ],
+      "title": "Excision of Eyelid Tumors: Principles and Techniques",
+      "journal": "Surgical Ophthalmic Oncology",
+      "year": "2019",
+      "fpage": "15",
+      "lpage": "32",
+      "doi": "10.1007/978-3-030-18757-6_3"
+    },
+    {
+      "ref_id": "B7-curroncol-33-00273",
+      "label": "7.",
+      "authors": [
+        "Moul D.K.",
+        "Chern P.L.",
+        "Shumaker P.R.",
+        "Zelac D.E.",
+        "Greenway H.T."
+      ],
+      "title": "Mohs Micrographic Surgery for Eyelid and Periorbital Skin Cancer",
+      "journal": "Int. Ophthalmol. Clin.",
+      "year": "2009",
+      "volume": "49",
+      "fpage": "111",
+      "lpage": "127",
+      "doi": "10.1097/IIO.0b013e3181b80482",
+      "pmid": "20348861"
+    },
+    {
+      "ref_id": "B8-curroncol-33-00273",
+      "label": "8.",
+      "authors": [
+        "Van Lee C.B.",
+        "Ip Vai Ching E.E.F.",
+        "Nasserinejad K.",
+        "Neumann H.A.M.",
+        "Bol M.G.W.",
+        "Dikrama P.K.",
+        "Kelleners-Smeets N.W.J.",
+        "Koljenović S.",
+        "Munte K.",
+        "Noordhoek Hegt V.",
+        "et al."
+      ],
+      "title": "Reliability of diagnosis from Mohs slides: Interpersonal and intrapersonal agreement on basal cell carcinoma presence and histological subtype",
+      "journal": "Br. J. Dermatol.",
+      "year": "2016",
+      "volume": "175",
+      "fpage": "549",
+      "lpage": "554",
+      "doi": "10.1111/bjd.14623",
+      "pmid": "27038202"
+    },
+    {
+      "ref_id": "B9-curroncol-33-00273",
+      "label": "9.",
+      "authors": [
+        "Resti A.G.",
+        "Sacconi R.",
+        "Baccelli N.",
+        "Bandello F."
+      ],
+      "title": "Outcome of 110 Basal Cell Carcinomas of the Eyelid Treated with Frozen Section–Controlled Excision: Mean Follow-up over 5 Years",
+      "journal": "Eur. J. Ophthalmol.",
+      "year": "2014",
+      "volume": "24",
+      "fpage": "476",
+      "lpage": "482",
+      "doi": "10.5301/ejo.5000405",
+      "pmid": "24338583"
+    },
+    {
+      "ref_id": "B10-curroncol-33-00273",
+      "label": "10.",
+      "authors": [
+        "Kose K.",
+        "Fox C.A.",
+        "Rossi A.",
+        "Jain M.",
+        "Cordova M.",
+        "Dusza S.W.",
+        "Ragazzi M.",
+        "Gardini S.",
+        "Moscarella E.",
+        "Diaz A.",
+        "et al."
+      ],
+      "title": "An international 3-center training and reading study to assess basal cell carcinoma surgical margins with ex vivo fluorescence confocal microscopy",
+      "journal": "J. Cutan. Pathol.",
+      "year": "2021",
+      "volume": "48",
+      "fpage": "1010",
+      "lpage": "1019",
+      "doi": "10.1111/cup.13980",
+      "pmid": "33576022",
+      "pmc_id": "PMC8273084"
+    },
+    {
+      "ref_id": "B11-curroncol-33-00273",
+      "label": "11.",
+      "authors": [
+        "Venturini M.",
+        "Gualdi G.",
+        "Zanca A.",
+        "Lorenzi L.",
+        "Pellacani G.",
+        "Calzavara-Pinton P.G."
+      ],
+      "title": "A new approach for presurgical margin assessment by reflectance confocal microscopy of basal cell carcinoma",
+      "journal": "Br. J. Dermatol.",
+      "year": "2016",
+      "volume": "174",
+      "fpage": "380",
+      "lpage": "385",
+      "doi": "10.1111/bjd.14244",
+      "pmid": "26498991"
+    },
+    {
+      "ref_id": "B12-curroncol-33-00273",
+      "label": "12.",
+      "authors": [
+        "Bergeron S.",
+        "Arthurs B.",
+        "Sanft D.-M.",
+        "Mastromonaco C.",
+        "Burnier M.N."
+      ],
+      "title": "Optical Coherence Tomography of Peri-Ocular Skin Cancers: An Optical Biopsy",
+      "journal": "Ocul. Oncol. Pathol.",
+      "year": "2021",
+      "volume": "7",
+      "fpage": "149",
+      "lpage": "158",
+      "doi": "10.1159/000511188",
+      "pmid": "33981698",
+      "pmc_id": "PMC8077514"
+    },
+    {
+      "ref_id": "B13-curroncol-33-00273",
+      "label": "13.",
+      "authors": [
+        "Di Stefani A.",
+        "Cappilli S.",
+        "Cuffaro G.",
+        "Fionda B.",
+        "Pagliara M.M.",
+        "Paradisi A.",
+        "Ricci C.",
+        "Rossi E.",
+        "Sammarco M.G.",
+        "Schinzari G.",
+        "et al."
+      ],
+      "title": "Line-Field Confocal Optical Coherence Tomography Evaluation of Eyelid Skin Lesions",
+      "journal": "Diagnostics",
+      "year": "2023",
+      "volume": "13",
+      "elocation_id": "3590",
+      "doi": "10.3390/diagnostics13233590",
+      "pmid": "38066831",
+      "pmc_id": "PMC10705943"
+    },
+    {
+      "ref_id": "B14-curroncol-33-00273",
+      "label": "14.",
+      "authors": [
+        "Dahlstrand U.",
+        "Sheikh R.",
+        "Malmsjö M."
+      ],
+      "title": "Photoacoustic imaging for intraoperative micrographic control of the surgical margins of eyelid tumours",
+      "journal": "Acta Ophthalmol.",
+      "year": "2020",
+      "volume": "98",
+      "fpage": "E264",
+      "lpage": "E265",
+      "doi": "10.1111/aos.14245",
+      "pmid": "31489789"
+    },
+    {
+      "ref_id": "B15-curroncol-33-00273",
+      "label": "15.",
+      "authors": [
+        "Esteva A.",
+        "Kuprel B.",
+        "Novoa R.A.",
+        "Ko J.",
+        "Swetter S.M.",
+        "Blau H.M.",
+        "Thrun S."
+      ],
+      "title": "Dermatologist-level classification of skin cancer with deep neural networks",
+      "journal": "Nature",
+      "year": "2017",
+      "volume": "542",
+      "fpage": "115",
+      "lpage": "118",
+      "doi": "10.1038/nature21056",
+      "pmid": "28117445",
+      "pmc_id": "PMC8382232"
+    },
+    {
+      "ref_id": "B16-curroncol-33-00273",
+      "label": "16.",
+      "authors": [
+        "Furdova A.",
+        "Kapitanova K.",
+        "Kollarova A.",
+        "Sekac J."
+      ],
+      "title": "Periocular basal cell carcinoma-clinical perspectives",
+      "journal": "Oncol. Rev.",
+      "year": "2020",
+      "volume": "14",
+      "fpage": "36",
+      "lpage": "42",
+      "doi": "10.4081/oncol.2020.420",
+      "pmc_id": "PMC7204832",
+      "pmid": "32395200"
+    },
+    {
+      "ref_id": "B17-curroncol-33-00273",
+      "label": "17.",
+      "authors": [
+        "Rosner M."
+      ],
+      "title": "Basal cell carcinoma",
+      "journal": "Clinical Ophthalmic Oncology",
+      "year": "2007",
+      "fpage": "76",
+      "lpage": "80",
+      "doi": "10.1016/B978-1-4160-3167-3.50020-6"
+    },
+    {
+      "ref_id": "B18-curroncol-33-00273",
+      "label": "18.",
+      "authors": [
+        "Leibovitch I.",
+        "Huilgol S.C.",
+        "Selva D.",
+        "Richards S.",
+        "Paver R."
+      ],
+      "title": "Basal cell carcinoma treated with Mohs surgery in Australia III. Perineural invasion",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2005",
+      "volume": "53",
+      "fpage": "458",
+      "lpage": "463",
+      "doi": "10.1016/j.jaad.2005.04.089",
+      "pmid": "16112353"
+    },
+    {
+      "ref_id": "B19-curroncol-33-00273",
+      "label": "19.",
+      "authors": [
+        "Xu S.",
+        "Sagiv O.",
+        "Rubin M.L.",
+        "Sa H.-S.",
+        "Tetzlaff M.T.",
+        "Nagarajan P.",
+        "Ning J.",
+        "Esmaeli B."
+      ],
+      "title": "Validation Study of the AJCC Cancer Staging Manual, Eighth Edition, Staging System for Eyelid and Periocular Squamous Cell Carcinoma",
+      "journal": "JAMA Ophthalmol.",
+      "year": "2019",
+      "volume": "137",
+      "fpage": "537",
+      "lpage": "542",
+      "doi": "10.1001/jamaophthalmol.2019.0238",
+      "pmid": "30869769",
+      "pmc_id": "PMC6512305"
+    },
+    {
+      "ref_id": "B20-curroncol-33-00273",
+      "label": "20.",
+      "authors": [
+        "Limawararut V.",
+        "Leibovitch I.",
+        "Sullivan T.",
+        "Selva D."
+      ],
+      "title": "Periocular squamous cell carcinoma",
+      "journal": "Clin. Exp. Ophthalmol.",
+      "year": "2007",
+      "volume": "35",
+      "fpage": "174",
+      "lpage": "185",
+      "doi": "10.1111/j.1442-9071.2006.01411.x",
+      "pmid": "17362462"
+    },
+    {
+      "ref_id": "B21-curroncol-33-00273",
+      "label": "21.",
+      "authors": [
+        "Sun M.T.",
+        "Andrew N.H.",
+        "O’Donnell B.",
+        "McNab A.",
+        "Huilgol S.C.",
+        "Selva D."
+      ],
+      "title": "Periocular Squamous Cell Carcinoma: TNM Staging and Recurrence",
+      "journal": "Ophthalmology",
+      "year": "2015",
+      "volume": "122",
+      "fpage": "1512",
+      "lpage": "1516",
+      "doi": "10.1016/j.ophtha.2015.04.002",
+      "pmid": "25972255"
+    },
+    {
+      "ref_id": "B22-curroncol-33-00273",
+      "label": "22.",
+      "authors": [
+        "Lu T.J.",
+        "Fan J.",
+        "Guimaraes De Sousa L.",
+        "Sagiv O.",
+        "Hernandez S.",
+        "Bolanos Gomez L.",
+        "Akhave N.",
+        "Ferrarotto R.",
+        "Esmaeli B."
+      ],
+      "title": "PD-1 Inhibitors for Periocular Squamous Cell Carcinoma With Perineural Spread to the Orbit and Skull Base",
+      "journal": "Ophthalmic Plast. Reconstr. Surg.",
+      "year": "2025",
+      "volume": "41",
+      "fpage": "664",
+      "lpage": "670",
+      "doi": "10.1097/IOP.0000000000002944",
+      "pmid": "40237556"
+    },
+    {
+      "ref_id": "B23-curroncol-33-00273",
+      "label": "23.",
+      "authors": [
+        "Buitrago W.",
+        "Joseph A.K."
+      ],
+      "title": "Sebaceous carcinoma: The great masquerader",
+      "journal": "Dermatol. Ther.",
+      "year": "2008",
+      "volume": "21",
+      "fpage": "459",
+      "lpage": "466",
+      "doi": "10.1111/j.1529-8019.2008.00247.x",
+      "pmid": "19076624"
+    },
+    {
+      "ref_id": "B24-curroncol-33-00273",
+      "label": "24.",
+      "authors": [
+        "Chao A.N.",
+        "Shields C.L.",
+        "Krema H.",
+        "Shields J.A."
+      ],
+      "title": "Outcome of patients with periocular sebaceous gland carcinoma with and without conjunctival intraepithelial invasion",
+      "journal": "Ophthalmology",
+      "year": "2001",
+      "volume": "108",
+      "fpage": "1877",
+      "lpage": "1883",
+      "doi": "10.1016/S0161-6420(01)00719-9",
+      "pmid": "11581065"
+    },
+    {
+      "ref_id": "B25-curroncol-33-00273",
+      "label": "25.",
+      "authors": [
+        "McGrath L.A.",
+        "Currie Z.I.",
+        "Mudhar H.S.",
+        "Tan J.H.Y.",
+        "Salvi S.M."
+      ],
+      "title": "Management of recurrent sebaceous gland carcinoma",
+      "journal": "Eye",
+      "year": "2020",
+      "volume": "34",
+      "fpage": "1685",
+      "lpage": "1692",
+      "doi": "10.1038/s41433-019-0756-9",
+      "pmid": "31896805",
+      "pmc_id": "PMC7608101"
+    },
+    {
+      "ref_id": "B26-curroncol-33-00273",
+      "label": "26.",
+      "authors": [
+        "Jacobs D.",
+        "Huang H.",
+        "Olino K.",
+        "Weiss S.",
+        "Kluger H.",
+        "Judson B.L.",
+        "Zhang Y."
+      ],
+      "title": "Assessment of Age, Period, and Birth Cohort Effects and Trends in Merkel Cell Carcinoma Incidence in the United States",
+      "journal": "JAMA Dermatol.",
+      "year": "2021",
+      "volume": "157",
+      "fpage": "59",
+      "lpage": "65",
+      "doi": "10.1001/jamadermatol.2020.4102",
+      "pmid": "33146688",
+      "pmc_id": "PMC7643047"
+    },
+    {
+      "ref_id": "B27-curroncol-33-00273",
+      "label": "27.",
+      "authors": [
+        "Nayak A.L.",
+        "Pickett A.T.",
+        "Delisle M.",
+        "Dingley B.",
+        "Mallick R.",
+        "Hamilton T.",
+        "Stuart H.",
+        "Talbot M.",
+        "McKinnon G.",
+        "Jost E.",
+        "et al."
+      ],
+      "title": "Survival of Patients With Head and Neck Merkel Cell Cancer: Findings From the Pan-Canadian Merkel Cell Cancer Collaborative",
+      "journal": "JAMA Netw. Open",
+      "year": "2023",
+      "volume": "6",
+      "fpage": "e2344127",
+      "doi": "10.1001/jamanetworkopen.2023.44127",
+      "pmid": "37983027",
+      "pmc_id": "PMC10660167"
+    },
+    {
+      "ref_id": "B28-curroncol-33-00273",
+      "label": "28.",
+      "authors": [
+        "Heath M.",
+        "Jaimes N.",
+        "Lemos B.",
+        "Mostaghimi A.",
+        "Wang L.C.",
+        "Peñas P.F.",
+        "Nghiem P."
+      ],
+      "title": "Clinical characteristics of Merkel cell carcinoma at diagnosis in 195 patients: The AEIOU features",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2008",
+      "volume": "58",
+      "fpage": "375",
+      "lpage": "381",
+      "doi": "10.1016/j.jaad.2007.11.020",
+      "pmid": "18280333",
+      "pmc_id": "PMC2335370"
+    },
+    {
+      "ref_id": "B29-curroncol-33-00273",
+      "label": "29.",
+      "authors": [
+        "Miller R.",
+        "Walker S.",
+        "Shui I.",
+        "Brandtmüller A.",
+        "Cadwell K.",
+        "Scherrer E."
+      ],
+      "title": "Epidemiology and survival outcomes in stages II and III cutaneous melanoma: A systematic review",
+      "journal": "Melanoma Manag.",
+      "year": "2020",
+      "volume": "7",
+      "fpage": "MMT39",
+      "doi": "10.2217/mmt-2019-0022",
+      "pmid": "32399177",
+      "pmc_id": "PMC7212505"
+    },
+    {
+      "ref_id": "B30-curroncol-33-00273",
+      "label": "30.",
+      "authors": [
+        "Chan F.M.",
+        "O’Donnell B.A.",
+        "Whitehead K.",
+        "Ryman W.",
+        "Sullivan T.J."
+      ],
+      "title": "Treatment and Outcomes of Malignant Melanoma of the Eyelid",
+      "journal": "Ophthalmology",
+      "year": "2007",
+      "volume": "114",
+      "fpage": "187",
+      "lpage": "192",
+      "doi": "10.1016/j.ophtha.2006.08.043",
+      "pmid": "17140665"
+    },
+    {
+      "ref_id": "B31-curroncol-33-00273",
+      "label": "31.",
+      "authors": [
+        "Gąsiorowski K.",
+        "Iwulska K.",
+        "Zapała J.",
+        "Wyszyńska-Pawelec G."
+      ],
+      "title": "Periocular basal cell carcinoma: Recurrence risk factors/when to reoperate?",
+      "journal": "Postep. Dermatol. Alergol.",
+      "year": "2020",
+      "volume": "37",
+      "fpage": "927",
+      "lpage": "931",
+      "doi": "10.5114/ada.2020.102109",
+      "pmid": "33603611",
+      "pmc_id": "PMC7874855"
+    },
+    {
+      "ref_id": "B32-curroncol-33-00273",
+      "label": "32.",
+      "authors": [
+        "Strianese D.",
+        "Iuliano A.",
+        "Quaranta Leoni F.M."
+      ],
+      "title": "Secondary Orbital Tumours and Orbital Metastases",
+      "journal": "Oculoplastic, Lacrimal and Orbital Surgery",
+      "year": "2024",
+      "fpage": "351",
+      "lpage": "369",
+      "doi": "10.1007/978-3-031-39638-0_25"
+    },
+    {
+      "ref_id": "B33-curroncol-33-00273",
+      "label": "33.",
+      "authors": [
+        "Gąsiorowski K.",
+        "Gontarz M.",
+        "Marecik T.",
+        "Szczurowski P.",
+        "Bargiel J.",
+        "Zapała J.",
+        "Wyszyńska-Pawelec G."
+      ],
+      "title": "Risk Factors for Orbital Invasion in Malignant Eyelid Tumors, Is Orbital Exenteration Still Necessary?",
+      "journal": "J. Clin. Med.",
+      "year": "2024",
+      "volume": "13",
+      "elocation_id": "726",
+      "doi": "10.3390/jcm13030726",
+      "pmid": "38337420",
+      "pmc_id": "PMC10856173"
+    },
+    {
+      "ref_id": "B34-curroncol-33-00273",
+      "label": "34.",
+      "authors": [
+        "Hernandez-Herrera G.A.",
+        "Calcano G.A.",
+        "Nagelschneider A.A.",
+        "Routman D.M.",
+        "Van Abel K.M."
+      ],
+      "title": "Imaging Modalities for Head and Neck Cancer",
+      "journal": "Surg. Oncol. Clin. N. Am.",
+      "year": "2024",
+      "volume": "33",
+      "fpage": "617",
+      "lpage": "649",
+      "doi": "10.1016/j.soc.2024.04.002",
+      "pmid": "39244284"
+    },
+    {
+      "ref_id": "B35-curroncol-33-00273",
+      "label": "35.",
+      "authors": [
+        "Mohs F.E."
+      ],
+      "title": "Micrographic Surgery for the Microscopically Controlled Excision of Eyelid Cancers",
+      "journal": "Arch. Ophthalmol.",
+      "year": "1986",
+      "volume": "104",
+      "fpage": "901",
+      "lpage": "909",
+      "doi": "10.1001/archopht.1986.01050180135046",
+      "pmid": "3718316"
+    },
+    {
+      "ref_id": "B36-curroncol-33-00273",
+      "label": "36.",
+      "authors": [
+        "Blumenthal S.R.",
+        "Swick M.",
+        "Bayan C.-A.",
+        "Ramanathan D.",
+        "Maher I."
+      ],
+      "title": "Complex Eyelid Reconstruction: A Practical Guide for the Mohs Surgeon",
+      "journal": "Dermatol. Surg.",
+      "year": "2022",
+      "volume": "48",
+      "fpage": "916",
+      "lpage": "923",
+      "doi": "10.1097/DSS.0000000000003526",
+      "pmid": "36054043"
+    },
+    {
+      "ref_id": "B37-curroncol-33-00273",
+      "label": "37.",
+      "authors": [
+        "Malhotra R."
+      ],
+      "title": "The Australian Mohs database, part II*1Periocular basal cell carcinoma outcome at 5-year follow-up",
+      "journal": "Ophthalmology",
+      "year": "2004",
+      "volume": "111",
+      "fpage": "631",
+      "lpage": "636",
+      "doi": "10.1016/j.ophtha.2003.11.004",
+      "pmid": "15051193"
+    },
+    {
+      "ref_id": "B38-curroncol-33-00273",
+      "label": "38.",
+      "authors": [
+        "Nemet A.Y.",
+        "Deckel Y.",
+        "Martin P.A.",
+        "Kourt G.",
+        "Chilov M.",
+        "Sharma V.",
+        "Benger R."
+      ],
+      "title": "Management of Periocular Basal and Squamous Cell Carcinoma: A Series of 485 Cases",
+      "journal": "Am. J. Ophthalmol.",
+      "year": "2006",
+      "volume": "142",
+      "fpage": "293",
+      "lpage": "297",
+      "doi": "10.1016/j.ajo.2006.03.055",
+      "pmid": "16876511"
+    },
+    {
+      "ref_id": "B39-curroncol-33-00273",
+      "label": "39.",
+      "authors": [
+        "Phan K.",
+        "Oh L.J.",
+        "Goyal S.",
+        "Rutherford T.",
+        "Yazdabadi A."
+      ],
+      "title": "Recurrence rates following surgical excision of periocular basal cell carcinomas: Systematic review and meta-analysis",
+      "journal": "J. Dermatol. Treat.",
+      "year": "2020",
+      "volume": "31",
+      "fpage": "597",
+      "lpage": "601",
+      "doi": "10.1080/09546634.2019.1698702",
+      "pmid": "31769708"
+    },
+    {
+      "ref_id": "B40-curroncol-33-00273",
+      "label": "40.",
+      "authors": [
+        "Hartley M.J.",
+        "Meredith P.R.",
+        "Oliphant T."
+      ],
+      "title": "Outcomes of Mohs micrographic surgery for periocular squamous cell carcinoma",
+      "journal": "Eur. J. Ophthalmol.",
+      "year": "2024",
+      "volume": "34",
+      "fpage": "1506",
+      "lpage": "1510",
+      "doi": "10.1177/11206721231225497",
+      "pmid": "38232980"
+    },
+    {
+      "ref_id": "B41-curroncol-33-00273",
+      "label": "41.",
+      "authors": [
+        "Malhotra R."
+      ],
+      "title": "The Australian Mohs database*1Periocular squamous cell carcinoma",
+      "journal": "Ophthalmology",
+      "year": "2004",
+      "volume": "111",
+      "fpage": "617",
+      "lpage": "623",
+      "doi": "10.1016/j.ophtha.2003.07.020",
+      "pmid": "15051191"
+    },
+    {
+      "ref_id": "B42-curroncol-33-00273",
+      "label": "42.",
+      "authors": [
+        "Shi K.",
+        "Wang L.",
+        "Srivastava D.",
+        "Nijhawan R.I."
+      ],
+      "title": "Mohs micrographic surgery for periocular skin cancer: A single-institution experience",
+      "journal": "Arch. Dermatol. Res.",
+      "year": "2022",
+      "volume": "315",
+      "fpage": "1181",
+      "lpage": "1186",
+      "doi": "10.1007/s00403-022-02481-6",
+      "pmid": "36464757"
+    },
+    {
+      "ref_id": "B43-curroncol-33-00273",
+      "label": "43.",
+      "authors": [
+        "Shumaker P.R.",
+        "Kelley B.",
+        "Swann M.H.",
+        "Greenway H.T."
+      ],
+      "title": "Modified Mohs Micrographic Surgery for Periocular Melanoma and Melanoma In Situ: Long-Term Experience at Scripps Clinic",
+      "journal": "Dermatol. Surg.",
+      "year": "2009",
+      "volume": "35",
+      "fpage": "1263",
+      "lpage": "1270",
+      "doi": "10.1111/j.1524-4725.2009.01222.x",
+      "pmid": "19438663"
+    },
+    {
+      "ref_id": "B44-curroncol-33-00273",
+      "label": "44.",
+      "authors": [
+        "Zhou C.",
+        "Wu F.",
+        "Chai P.",
+        "Shi Y.",
+        "Ye J.",
+        "Shi X.",
+        "Tan J.",
+        "Ding Y.",
+        "Luo Y.",
+        "Esmaeli B.",
+        "et al."
+      ],
+      "title": "Mohs micrographic surgery for eyelid sebaceous carcinoma: A multicenter cohort of 360 patients",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2019",
+      "volume": "80",
+      "fpage": "1608",
+      "lpage": "1617.e1",
+      "doi": "10.1016/j.jaad.2018.12.053",
+      "pmid": "30639290"
+    },
+    {
+      "ref_id": "B45-curroncol-33-00273",
+      "label": "45.",
+      "authors": [
+        "McInnis-Smith K.M.",
+        "Asamoah E.M.",
+        "Demer A.M.",
+        "Sharma K.",
+        "Yu C.Y.",
+        "Bradley E.A.",
+        "Tooley A.A.",
+        "Wagner L.H."
+      ],
+      "title": "Mohs Micrographic Surgery With Immunohistochemistry for the Treatment of Periocular Melanoma In Situ",
+      "journal": "Ophthalmic Plast. Reconstr. Surg.",
+      "year": "2025",
+      "volume": "41",
+      "fpage": "78",
+      "lpage": "83",
+      "doi": "10.1097/IOP.0000000000002729",
+      "pmid": "38884530"
+    },
+    {
+      "ref_id": "B46-curroncol-33-00273",
+      "label": "46.",
+      "authors": [
+        "Beaulieu D.",
+        "Fathi R.",
+        "Srivastava D.",
+        "Nijhawan R.I."
+      ],
+      "title": "Current perspectives on Mohs micrographic surgery for melanoma",
+      "journal": "Clin. Cosmet. Investig. Dermatol.",
+      "year": "2018",
+      "volume": "11",
+      "fpage": "309",
+      "lpage": "320",
+      "doi": "10.2147/CCID.S137513",
+      "pmc_id": "PMC6016488",
+      "pmid": "29950878"
+    },
+    {
+      "ref_id": "B47-curroncol-33-00273",
+      "label": "47.",
+      "authors": [
+        "Paridaens D.",
+        "Verdijk R.",
+        "Giordano Resti A.",
+        "Quaranta Leoni F.M."
+      ],
+      "title": "Eyelid Tumour Excision: Frozen Sections Versus Mohs’ surgery",
+      "journal": "Oculoplastic, Lacrimal and Orbital Surgery",
+      "year": "2024",
+      "fpage": "267",
+      "lpage": "274",
+      "doi": "10.1007/978-3-031-39634-2_19"
+    },
+    {
+      "ref_id": "B48-curroncol-33-00273",
+      "label": "48.",
+      "authors": [
+        "Morris D.S.",
+        "Elzaridi E.",
+        "Clarke L.",
+        "Dickinson A.J.",
+        "Lawrence C.M."
+      ],
+      "title": "Periocular basal cell carcinoma: 5-year outcome following Slow Mohs surgery with formalin-fixed paraffin-embedded sections and delayed closure",
+      "journal": "Br. J. Ophthalmol.",
+      "year": "2009",
+      "volume": "93",
+      "fpage": "474",
+      "lpage": "476",
+      "doi": "10.1136/bjo.2008.141325",
+      "pmid": "19060015"
+    },
+    {
+      "ref_id": "B49-curroncol-33-00273",
+      "label": "49.",
+      "authors": [
+        "Şahan B.",
+        "Çiftçi F.",
+        "Özkan F.",
+        "Öztürk V."
+      ],
+      "title": "The Importance of Frozen Section-Controlled Excision in Recurrent Basal Cell Carcinoma of the Eyelids",
+      "journal": "Türk Oftalmol. Derg.",
+      "year": "2016",
+      "volume": "46",
+      "fpage": "277",
+      "lpage": "281",
+      "doi": "10.4274/tjo.48640",
+      "pmid": "28050325",
+      "pmc_id": "PMC5177785"
+    },
+    {
+      "ref_id": "B50-curroncol-33-00273",
+      "label": "50.",
+      "authors": [
+        "McCabe G.A.",
+        "Mulcahy L.T.",
+        "Mulligan N.",
+        "Fulcher T."
+      ],
+      "title": "Recurrence rates of periocular basal cell carcinoma following intra-operative en-face frozen section margin controlled excision",
+      "journal": "Ir. J. Med. Sci.",
+      "year": "2024",
+      "volume": "193",
+      "fpage": "1209",
+      "lpage": "1213",
+      "doi": "10.1007/s11845-024-03620-w",
+      "pmid": "38289579"
+    },
+    {
+      "ref_id": "B51-curroncol-33-00273",
+      "label": "51.",
+      "authors": [
+        "Conway R.M."
+      ],
+      "title": "Surgery for primary basal cell carcinoma including the eyelid margins with intraoperative frozen section control: Comparative interventional study with a minimum clinical follow up of 5 years",
+      "journal": "Br. J. Ophthalmol.",
+      "year": "2004",
+      "volume": "88",
+      "fpage": "236",
+      "lpage": "238",
+      "doi": "10.1136/bjo.2003.025056",
+      "pmid": "14736782",
+      "pmc_id": "PMC1771977"
+    },
+    {
+      "ref_id": "B52-curroncol-33-00273",
+      "label": "52.",
+      "authors": [
+        "Dailey J.R.",
+        "Kennedy R.H.",
+        "Flaharty P.M.",
+        "Eagle R.C.",
+        "Flanagan J.C."
+      ],
+      "title": "Squamous Cell Carcinoma of the Eyelid",
+      "journal": "Ophthalmic Plast. Reconstr. Surg.",
+      "year": "1994",
+      "volume": "10",
+      "fpage": "153",
+      "lpage": "159",
+      "doi": "10.1097/00002341-199409000-00002",
+      "pmid": "7947441"
+    },
+    {
+      "ref_id": "B53-curroncol-33-00273",
+      "label": "53.",
+      "authors": [
+        "Gayre G.S.",
+        "Hybarger C.P.",
+        "Mannor G.",
+        "Meecham W.",
+        "Delfanti J.B.",
+        "Mizono G.S.",
+        "Guerry T.L.",
+        "Chien J.S.",
+        "Sooy C.D.",
+        "Anooshian R.",
+        "et al."
+      ],
+      "title": "Outcomes of excision of 1750 eyelid and periocular skin basal cell and squamous cell carcinomas by modified en face frozen section margin-controlled technique",
+      "journal": "Int. Ophthalmol. Clin.",
+      "year": "2009",
+      "volume": "49",
+      "fpage": "97",
+      "lpage": "110",
+      "doi": "10.1097/IIO.0b013e3181b802ee",
+      "pmid": "20348860"
+    },
+    {
+      "ref_id": "B54-curroncol-33-00273",
+      "label": "54.",
+      "authors": [
+        "Donaldson M.J."
+      ],
+      "title": "Squamous cell carcinoma of the eyelids",
+      "journal": "Br. J. Ophthalmol.",
+      "year": "2002",
+      "volume": "86",
+      "fpage": "1161",
+      "lpage": "1165",
+      "doi": "10.1136/bjo.86.10.1161",
+      "pmid": "12234899",
+      "pmc_id": "PMC1771324"
+    },
+    {
+      "ref_id": "B55-curroncol-33-00273",
+      "label": "55.",
+      "authors": [
+        "Cheung J.J.C.",
+        "Esmaeli B.",
+        "Lam S.C.",
+        "Kwok T.",
+        "Yuen H.K.L."
+      ],
+      "title": "The practice patterns in the management of sebaceous carcinoma of the eyelid in the Asia Pacific region",
+      "journal": "Eye",
+      "year": "2019",
+      "volume": "33",
+      "fpage": "1433",
+      "lpage": "1442",
+      "doi": "10.1038/s41433-019-0432-0",
+      "pmid": "30952958",
+      "pmc_id": "PMC7002764"
+    },
+    {
+      "ref_id": "B56-curroncol-33-00273",
+      "label": "56.",
+      "authors": [
+        "Otsuka A.C.V.G.",
+        "Bertolli E.",
+        "de Macedo M.P.",
+        "Pinto C.A.L.",
+        "Duprat Neto J.P."
+      ],
+      "title": "Intraoperative assessment of surgical margins using “en face” frozen sections in the management of cutaneous carcinomas",
+      "journal": "An. Bras. Dermatol.",
+      "year": "2022",
+      "volume": "97",
+      "fpage": "583",
+      "lpage": "591",
+      "doi": "10.1016/j.abd.2021.09.013",
+      "pmid": "35803765",
+      "pmc_id": "PMC9453531"
+    },
+    {
+      "ref_id": "B57-curroncol-33-00273",
+      "label": "57.",
+      "authors": [
+        "Parashar K.",
+        "Torres A.E.",
+        "Boothby-Shoemaker W.",
+        "Kohli I.",
+        "Veenstra J.",
+        "Neel V.",
+        "Ozog D.M."
+      ],
+      "title": "Imaging technologies for presurgical margin assessment of basal cell carcinoma",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2023",
+      "volume": "88",
+      "fpage": "144",
+      "lpage": "151",
+      "doi": "10.1016/j.jaad.2021.11.010",
+      "pmid": "34793927"
+    },
+    {
+      "ref_id": "B58-curroncol-33-00273",
+      "label": "58.",
+      "authors": [
+        "Boostani M.",
+        "Bozsányi S.",
+        "Suppa M.",
+        "Cantisani C.",
+        "Lőrincz K.",
+        "Bánvölgyi A.",
+        "Holló P.",
+        "Wikonkál N.M.",
+        "Huss W.J.",
+        "Brady K.L.",
+        "et al."
+      ],
+      "title": "Novel imaging techniques for tumor margin detection in basal cell carcinoma: A systematic scoping review of FDA and EMA-approved imaging modalities",
+      "journal": "Int. J. Dermatol.",
+      "year": "2025",
+      "volume": "64",
+      "fpage": "287",
+      "lpage": "301",
+      "doi": "10.1111/ijd.17496",
+      "pmid": "39358676",
+      "pmc_id": "PMC11771686"
+    },
+    {
+      "ref_id": "B59-curroncol-33-00273",
+      "label": "59.",
+      "authors": [
+        "Longo C.",
+        "Ragazzi M.",
+        "Rajadhyaksha M.",
+        "Nehal K.",
+        "Bennassar A.",
+        "Pellacani G.",
+        "Malvehy Guilera J."
+      ],
+      "title": "In Vivo and Ex Vivo Confocal Microscopy for Dermatologic and Mohs Surgeons",
+      "journal": "Dermatol. Clin.",
+      "year": "2016",
+      "volume": "34",
+      "fpage": "497",
+      "lpage": "504",
+      "doi": "10.1016/j.det.2016.05.012",
+      "pmid": "27692455",
+      "pmc_id": "PMC5570550"
+    },
+    {
+      "ref_id": "B60-curroncol-33-00273",
+      "label": "60.",
+      "authors": [
+        "Gareau D.S.",
+        "Karen J.K.",
+        "Dusza S.W.",
+        "Tudisco M.",
+        "Nehal K.S.",
+        "Rajadhyaksha M."
+      ],
+      "title": "Sensitivity and specificity for detecting basal cell carcinomas in Mohs excisions with confocal fluorescence mosaicing microscopy",
+      "journal": "J. Biomed. Opt.",
+      "year": "2009",
+      "volume": "14",
+      "fpage": "034012",
+      "doi": "10.1117/1.3130331",
+      "pmid": "19566305",
+      "pmc_id": "PMC2705883"
+    },
+    {
+      "ref_id": "B61-curroncol-33-00273",
+      "label": "61.",
+      "authors": [
+        "Bennàssar A.",
+        "Vilata A.",
+        "Puig S.",
+        "Malvehy J."
+      ],
+      "title": "Ex vivo fluorescence confocal microscopy for fast evaluation of tumour margins during Mohs surgery",
+      "journal": "Br. J. Dermatol.",
+      "year": "2014",
+      "volume": "170",
+      "fpage": "360",
+      "lpage": "365",
+      "doi": "10.1111/bjd.12671",
+      "pmid": "24117457"
+    },
+    {
+      "ref_id": "B62-curroncol-33-00273",
+      "label": "62.",
+      "authors": [
+        "Longo C.",
+        "Rajadhyaksha M.",
+        "Ragazzi M.",
+        "Nehal K.",
+        "Gardini S.",
+        "Moscarella E.",
+        "Lallas A.",
+        "Zalaudek I.",
+        "Piana S.",
+        "Argenziano G.",
+        "et al."
+      ],
+      "title": "Evaluating ex vivo fluorescence confocal microscopy images of basal cell carcinomas in M ohs excised tissue",
+      "journal": "Br. J. Dermatol.",
+      "year": "2014",
+      "volume": "171",
+      "fpage": "561",
+      "lpage": "570",
+      "doi": "10.1111/bjd.13070",
+      "pmid": "24749970"
+    },
+    {
+      "ref_id": "B63-curroncol-33-00273",
+      "label": "63.",
+      "authors": [
+        "Longo C.",
+        "Ragazzi M.",
+        "Gardini S.",
+        "Piana S.",
+        "Moscarella E.",
+        "Lallas A.",
+        "Raucci M.",
+        "Argenziano G.",
+        "Pellacani G."
+      ],
+      "title": "Ex vivo fluorescence confocal microscopy in conjunction with Mohs micrographic surgery for cutaneous squamous cell carcinoma",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2015",
+      "volume": "73",
+      "fpage": "321",
+      "lpage": "322",
+      "doi": "10.1016/j.jaad.2015.04.027",
+      "pmid": "26183978"
+    },
+    {
+      "ref_id": "B64-curroncol-33-00273",
+      "label": "64.",
+      "authors": [
+        "Jain M.",
+        "Rajadhyaksha M.",
+        "Nehal K."
+      ],
+      "title": "Implementation of fluorescence confocal mosaicking microscopy by “early adopter” Mohs surgeons and dermatologists: Recent progress",
+      "journal": "J. Biomed. Opt.",
+      "year": "2017",
+      "volume": "22",
+      "fpage": "024002",
+      "doi": "10.1117/1.jbo.22.2.024002",
+      "pmid": "28199474",
+      "pmc_id": "PMC5310648"
+    },
+    {
+      "ref_id": "B65-curroncol-33-00273",
+      "label": "65.",
+      "authors": [
+        "Que S.K.T.",
+        "Fraga-Braghiroli N.",
+        "Grant-Kels J.M.",
+        "Rabinovitz H.S.",
+        "Oliviero M.",
+        "Scope A."
+      ],
+      "title": "Through the looking glass: Basics and principles of reflectance confocal microscopy",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2015",
+      "volume": "73",
+      "fpage": "276",
+      "lpage": "284",
+      "doi": "10.1016/j.jaad.2015.04.047",
+      "pmid": "26051696"
+    },
+    {
+      "ref_id": "B66-curroncol-33-00273",
+      "label": "66.",
+      "authors": [
+        "Guitera P.",
+        "Menzies S.W.",
+        "Longo C.",
+        "Cesinaro A.M.",
+        "Scolyer R.A.",
+        "Pellacani G."
+      ],
+      "title": "In Vivo Confocal Microscopy for Diagnosis of Melanoma and Basal Cell Carcinoma Using a Two-Step Method: Analysis of 710 Consecutive Clinically Equivocal Cases",
+      "journal": "J. Investig. Dermatol.",
+      "year": "2012",
+      "volume": "132",
+      "fpage": "2386",
+      "lpage": "2394",
+      "doi": "10.1038/jid.2012.172",
+      "pmid": "22718115"
+    },
+    {
+      "ref_id": "B67-curroncol-33-00273",
+      "label": "67.",
+      "authors": [
+        "Shavlokhova V.",
+        "Vollmer M.",
+        "Vollmer A.",
+        "Gholam P.",
+        "Saravi B.",
+        "Hoffmann J.",
+        "Engel M.",
+        "Elsner J.",
+        "Neumeier F.",
+        "Freudlsperger C."
+      ],
+      "title": "In vivo reflectance confocal microscopy of wounds: Feasibility of intraoperative basal cell carcinoma margin assessment",
+      "journal": "Ann. Transl. Med.",
+      "year": "2021",
+      "volume": "9",
+      "fpage": "1716",
+      "doi": "10.21037/atm-21-3462",
+      "pmid": "35071410",
+      "pmc_id": "PMC8743714"
+    },
+    {
+      "ref_id": "B68-curroncol-33-00273",
+      "label": "68.",
+      "authors": [
+        "Espinasse M.",
+        "Cinotti E.",
+        "Grivet D.",
+        "Labeille B.",
+        "Prade V.",
+        "Douchet C.",
+        "Cambazard F.",
+        "Thuret G.",
+        "Gain P.",
+        "Perrot J.L."
+      ],
+      "title": "‘En face’ ex vivo reflectance confocal microscopy to help the surgery of basal cell carcinoma of the eyelid",
+      "journal": "Clin. Exp. Ophthalmol.",
+      "year": "2017",
+      "volume": "45",
+      "fpage": "442",
+      "lpage": "447",
+      "doi": "10.1111/ceo.12904",
+      "pmid": "27990744"
+    },
+    {
+      "ref_id": "B69-curroncol-33-00273",
+      "label": "69.",
+      "authors": [
+        "Pellacani G.",
+        "Guitera P.",
+        "Longo C.",
+        "Avramidis M.",
+        "Seidenari S.",
+        "Menzies S."
+      ],
+      "title": "The Impact of In Vivo Reflectance Confocal Microscopy for the Diagnostic Accuracy of Melanoma and Equivocal Melanocytic Lesions",
+      "journal": "J. Investig. Dermatol.",
+      "year": "2007",
+      "volume": "127",
+      "fpage": "2759",
+      "lpage": "2765",
+      "doi": "10.1038/sj.jid.5700993",
+      "pmid": "17657243"
+    },
+    {
+      "ref_id": "B70-curroncol-33-00273",
+      "label": "70.",
+      "authors": [
+        "Gambichler T.",
+        "Jaedicke V.",
+        "Terras S."
+      ],
+      "title": "Optical coherence tomography in dermatology: Technical and clinical aspects",
+      "journal": "Arch. Dermatol. Res.",
+      "year": "2011",
+      "volume": "303",
+      "fpage": "457",
+      "lpage": "473",
+      "doi": "10.1007/s00403-011-1152-x",
+      "pmid": "21647692"
+    },
+    {
+      "ref_id": "B71-curroncol-33-00273",
+      "label": "71.",
+      "authors": [
+        "Welzel J.",
+        "Lankenau E.",
+        "Birngruber R.",
+        "Engelhardt R."
+      ],
+      "title": "Optical coherence tomography of the human skin",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "1997",
+      "volume": "37",
+      "fpage": "958",
+      "lpage": "963",
+      "doi": "10.1016/S0190-9622(97)70072-0",
+      "pmid": "9418764"
+    },
+    {
+      "ref_id": "B72-curroncol-33-00273",
+      "label": "72.",
+      "authors": [
+        "Jain M.",
+        "Chang S.-W.",
+        "Singh K.",
+        "Kurtansky N.R.",
+        "Huang S.-L.",
+        "Chen H.H.",
+        "Chen C.-S.J."
+      ],
+      "title": "High-resolution full-field optical coherence tomography microscope for the evaluation of freshly excised skin specimens during Mohs surgery: A feasibility study",
+      "journal": "J. Biophotonics",
+      "year": "2024",
+      "volume": "17",
+      "fpage": "e202300275",
+      "doi": "10.1002/jbio.202300275",
+      "pmid": "37703431",
+      "pmc_id": "PMC10841241"
+    },
+    {
+      "ref_id": "B73-curroncol-33-00273",
+      "label": "73.",
+      "authors": [
+        "Ulrich M.",
+        "Braunmuehl T.",
+        "Kurzen H.",
+        "Dirschka T.",
+        "Kellner C.",
+        "Sattler E.",
+        "Berking C.",
+        "Welzel J.",
+        "Reinhold U."
+      ],
+      "title": "The sensitivity and specificity of optical coherence tomography for the assisted diagnosis of nonpigmented basal cell carcinoma: An observational study",
+      "journal": "Br. J. Dermatol.",
+      "year": "2015",
+      "volume": "173",
+      "fpage": "428",
+      "lpage": "435",
+      "doi": "10.1111/bjd.13853",
+      "pmid": "25904111"
+    },
+    {
+      "ref_id": "B74-curroncol-33-00273",
+      "label": "74.",
+      "authors": [
+        "Adan F.",
+        "Mosterd K.",
+        "Kelleners-Smeets N.W.J.",
+        "Nelemans P.J."
+      ],
+      "title": "Diagnostic Value of Optical Coherence Tomography Image Features for Diagnosis of Basal Cell Carcinoma",
+      "journal": "Acta Derm. Venereol.",
+      "year": "2021",
+      "volume": "101",
+      "fpage": "adv00607",
+      "doi": "10.2340/actadv.v101.421",
+      "pmid": "34724068",
+      "pmc_id": "PMC9455320"
+    },
+    {
+      "ref_id": "B75-curroncol-33-00273",
+      "label": "75.",
+      "authors": [
+        "Meekings A.",
+        "Utz S.",
+        "Ulrich M.",
+        "Bienenfeld A.",
+        "Nandanan N.",
+        "Fisher J.",
+        "McKenzie G.",
+        "Siegel D.M.",
+        "Feldman E.",
+        "Markowitz O."
+      ],
+      "title": "Differentiation of Basal Cell Carcinoma Subtypes in Multi-Beam Swept Source Optical Coherence Tomography (MSS-OCT)",
+      "journal": "J. Drugs Dermatol.",
+      "year": "2016",
+      "volume": "15",
+      "fpage": "545",
+      "lpage": "550",
+      "pmid": "27168263"
+    },
+    {
+      "ref_id": "B76-curroncol-33-00273",
+      "label": "76.",
+      "authors": [
+        "De Carvalho N.",
+        "Schuh S.",
+        "Kindermann N.",
+        "Kästle R.",
+        "Holmes J.",
+        "Welzel J."
+      ],
+      "title": "Optical coherence tomography for margin definition of basal cell carcinoma before micrographic surgery—Recommendations regarding the marking and scanning technique",
+      "journal": "Ski. Res. Technol.",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "145",
+      "lpage": "151",
+      "doi": "10.1111/srt.12407",
+      "pmid": "29057513"
+    },
+    {
+      "ref_id": "B77-curroncol-33-00273",
+      "label": "77.",
+      "authors": [
+        "Alawi S.A.",
+        "Kuck M.",
+        "Wahrlich C.",
+        "Batz S.",
+        "McKenzie G.",
+        "Fluhr J.W.",
+        "Lademann J.",
+        "Ulrich M."
+      ],
+      "title": "Optical coherence tomography for presurgical margin assessment of non-melanoma skin cancer—A practical approach",
+      "journal": "Exp. Dermatol.",
+      "year": "2013",
+      "volume": "22",
+      "fpage": "547",
+      "lpage": "551",
+      "doi": "10.1111/exd.12196",
+      "pmid": "23879814"
+    },
+    {
+      "ref_id": "B78-curroncol-33-00273",
+      "label": "78.",
+      "authors": [
+        "Wang K.X.",
+        "Meekings A.",
+        "Fluhr J.W.",
+        "McKenzie G.",
+        "Lee D.A.",
+        "Fisher J.",
+        "Markowitz O.",
+        "Siegel D.M."
+      ],
+      "title": "Optical Coherence Tomography–Based Optimization of Mohs Micrographic Surgery of Basal Cell Carcinoma: A Pilot Study",
+      "journal": "Dermatol. Surg.",
+      "year": "2013",
+      "volume": "39",
+      "fpage": "627",
+      "lpage": "633",
+      "doi": "10.1111/dsu.12093",
+      "pmid": "23293854"
+    },
+    {
+      "ref_id": "B79-curroncol-33-00273",
+      "label": "79.",
+      "authors": [
+        "Akella S.S.",
+        "Lee J.",
+        "May J.R.",
+        "Puyana C.",
+        "Kravets S.",
+        "Dimitropolous V.",
+        "Tsoukas M.",
+        "Manwar R.",
+        "Avanaki K."
+      ],
+      "title": "Using optical coherence tomography to optimize Mohs micrographic surgery",
+      "journal": "Sci. Rep.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "8900",
+      "doi": "10.1038/s41598-024-53457-7",
+      "pmid": "38632358",
+      "pmc_id": "PMC11024158"
+    },
+    {
+      "ref_id": "B80-curroncol-33-00273",
+      "label": "80.",
+      "authors": [
+        "Rashed D.",
+        "Shah D.",
+        "Freeman A.",
+        "Cook R.J.",
+        "Hopper C.",
+        "Perrett C.M."
+      ],
+      "title": "Rapid ex vivo examination of Mohs specimens using optical coherence tomography",
+      "journal": "Photodiagnosis Photodyn. Ther.",
+      "year": "2017",
+      "volume": "19",
+      "fpage": "243",
+      "lpage": "248",
+      "doi": "10.1016/j.pdpdt.2017.06.006",
+      "pmid": "28619614"
+    },
+    {
+      "ref_id": "B81-curroncol-33-00273",
+      "label": "81.",
+      "authors": [
+        "Levine A.",
+        "Siegel D.",
+        "Markowitz O."
+      ],
+      "title": "Imaging in cutaneous surgery",
+      "journal": "Future Oncol.",
+      "year": "2017",
+      "volume": "13",
+      "fpage": "2329",
+      "lpage": "2340",
+      "doi": "10.2217/fon-2017-0277",
+      "pmid": "29121782"
+    },
+    {
+      "ref_id": "B82-curroncol-33-00273",
+      "label": "82.",
+      "authors": [
+        "Aleissa S.",
+        "Navarrete-Dechent C.",
+        "Cordova M.",
+        "Sahu A.",
+        "Dusza S.W.",
+        "Phillips W.",
+        "Rossi A.",
+        "Lee E.",
+        "Nehal K.S."
+      ],
+      "title": "Presurgical evaluation of basal cell carcinoma using combined reflectance confocal microscopy-optical coherence tomography: A prospective study",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2020",
+      "volume": "82",
+      "fpage": "962",
+      "lpage": "968",
+      "doi": "10.1016/j.jaad.2019.10.028",
+      "pmid": "31634517",
+      "pmc_id": "PMC7513586"
+    },
+    {
+      "ref_id": "B83-curroncol-33-00273",
+      "label": "83.",
+      "authors": [
+        "Sahu A.",
+        "Yélamos O.",
+        "Iftimia N.",
+        "Cordova M.",
+        "Alessi-Fox C.",
+        "Gill M.",
+        "Maguluri G.",
+        "Dusza S.W.",
+        "Navarrete-Dechent C.",
+        "González S.",
+        "et al."
+      ],
+      "title": "Evaluation of a Combined Reflectance Confocal Microscopy–Optical Coherence Tomography Device for Detection and Depth Assessment of Basal Cell Carcinoma",
+      "journal": "JAMA Dermatol.",
+      "year": "2018",
+      "volume": "154",
+      "fpage": "1175",
+      "doi": "10.1001/jamadermatol.2018.2446",
+      "pmid": "30140851",
+      "pmc_id": "PMC6179925"
+    },
+    {
+      "ref_id": "B84-curroncol-33-00273",
+      "label": "84.",
+      "authors": [
+        "Suppa M.",
+        "Palmisano G.",
+        "Tognetti L.",
+        "Lenoir C.",
+        "Cappilli S.",
+        "Fontaine M.",
+        "Orte Cano C.",
+        "Diet G.",
+        "Perez-Anker J.",
+        "Schuh S.",
+        "et al."
+      ],
+      "title": "Line-field confocal optical coherence tomography in melanocytic and non-melanocytic skin tumors",
+      "journal": "Ital. J. Dermatol. Venereol.",
+      "year": "2023",
+      "volume": "158",
+      "fpage": "180",
+      "lpage": "189",
+      "doi": "10.23736/S2784-8671.23.07639-9",
+      "pmid": "37278496"
+    },
+    {
+      "ref_id": "B85-curroncol-33-00273",
+      "label": "85.",
+      "authors": [
+        "Gust C.",
+        "Schuh S.",
+        "Welzel J.",
+        "Daxenberger F.",
+        "Hartmann D.",
+        "French L.E.",
+        "Ruini C.",
+        "Sattler E.C."
+      ],
+      "title": "Line-Field Confocal Optical Coherence Tomography Increases the Diagnostic Accuracy and Confidence for Basal Cell Carcinoma in Equivocal Lesions: A Prospective Study",
+      "journal": "Cancers",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "1082",
+      "doi": "10.3390/cancers14041082",
+      "pmid": "35205830",
+      "pmc_id": "PMC8870684"
+    },
+    {
+      "ref_id": "B86-curroncol-33-00273",
+      "label": "86.",
+      "authors": [
+        "Boostani M.",
+        "Pellacani G.",
+        "Wortsman X.",
+        "Suppa M.",
+        "Goldust M.",
+        "Cantisani C.",
+        "Pietkiewicz P.",
+        "Lőrincz K.",
+        "Bánvölgyi A.",
+        "Wikonkál N.M.",
+        "et al."
+      ],
+      "title": "FDA and EMA-approved noninvasive imaging techniques for basal cell carcinoma subtyping: A systematic review",
+      "journal": "JAAD Int.",
+      "year": "2025",
+      "volume": "21",
+      "fpage": "73",
+      "lpage": "86",
+      "doi": "10.1016/j.jdin.2025.05.006",
+      "pmid": "40689050",
+      "pmc_id": "PMC12270798"
+    },
+    {
+      "ref_id": "B87-curroncol-33-00273",
+      "label": "87.",
+      "authors": [
+        "Fischman S.",
+        "Viel T.",
+        "Perrot J.",
+        "Pérez-Anker J.",
+        "Suppa M.",
+        "Cinotti E.",
+        "Lenoir C.",
+        "Orte Cano C.",
+        "Welzel J.",
+        "Schuh S.",
+        "et al."
+      ],
+      "title": "AI-assisted basal cell carcinoma diagnosis with LC-OCT: A multicentric retrospective study",
+      "journal": "Acad. Dermatol. Venereol.",
+      "year": "2025",
+      "doi": "10.1111/jdv.70099",
+      "pmc_id": "PMC13206264",
+      "pmid": "41109970"
+    },
+    {
+      "ref_id": "B88-curroncol-33-00273",
+      "label": "88.",
+      "authors": [
+        "Mozaffari M.",
+        "Tavernier C.",
+        "Ogien J.",
+        "Godet P.",
+        "Fünfer K.",
+        "Wirsching H.",
+        "Deußing M.",
+        "Sattler E.",
+        "Welzel J.",
+        "Schuh S."
+      ],
+      "title": "Co-Localized Dermoscopy and LC-OCT for AI-Assisted Margin Assessment of Basal Cell Carcinoma: Development of a “BCC-One-Stop-Shop” Workflow",
+      "journal": "Diagnostics",
+      "year": "2026",
+      "volume": "16",
+      "elocation_id": "750",
+      "doi": "10.3390/diagnostics16050750",
+      "pmid": "41828025",
+      "pmc_id": "PMC12984181"
+    },
+    {
+      "ref_id": "B89-curroncol-33-00273",
+      "label": "89.",
+      "authors": [
+        "Battilotti C.",
+        "Ambrosio L.",
+        "Di Lella G.",
+        "Zalaudek I.",
+        "Pellacani G.",
+        "Conforti C."
+      ],
+      "title": "Line-field Confocal Optical Coherence Tomography (LC-OCT) for Monitoring Tumor Clearance in Basal Cell Carcinoma After Cryotherapy",
+      "journal": "Dermatol. Pract. Concept.",
+      "year": "2026",
+      "volume": "16",
+      "fpage": "5895",
+      "doi": "10.5826/dpc.1601a5895",
+      "pmid": "41912163",
+      "pmc_id": "PMC12952831"
+    },
+    {
+      "ref_id": "B90-curroncol-33-00273",
+      "label": "90.",
+      "authors": [
+        "Paradisi A.",
+        "Cornacchia L.",
+        "Cappilli S.",
+        "Abeni D.",
+        "Federico F.",
+        "Di Stefani A.",
+        "Mannino M.",
+        "Peris K."
+      ],
+      "title": "Preoperative evaluation of high-risk basal cell carcinoma with line-field confocal optical coherence tomography (LC-OCT) reduces Mohs micrographic surgery stage number: A case-control study",
+      "journal": "EJC Ski. Cancer",
+      "year": "2024",
+      "volume": "2",
+      "fpage": "100015",
+      "doi": "10.1016/j.ejcskn.2023.100015"
+    },
+    {
+      "ref_id": "B91-curroncol-33-00273",
+      "label": "91.",
+      "authors": [
+        "Jacobsen K.",
+        "Wenande E.",
+        "Glud M.",
+        "Haedersdal M.",
+        "Ortner V.K."
+      ],
+      "title": "Line-field Confocal Optical Coherence Tomography Image Markers of Basal Cell Carcinoma in Excised Mohs Micrographic Surgery Tissue: A Case Series",
+      "journal": "Dermatol. Pract. Concept.",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "5031",
+      "doi": "10.5826/dpc.1501a5031",
+      "pmid": "40117593",
+      "pmc_id": "PMC11928131"
+    },
+    {
+      "ref_id": "B92-curroncol-33-00273",
+      "label": "92.",
+      "authors": [
+        "Verzì A.E.",
+        "Russo A.",
+        "Castellino N.",
+        "Caltabiano R.",
+        "Fallico M.",
+        "Cappellani F.",
+        "Micali G.",
+        "Lacarrubba F."
+      ],
+      "title": "Line-field confocal optical coherence tomography of eyelid margin growths: A case series",
+      "journal": "Ski. Res. Technol.",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "e13559",
+      "doi": "10.1111/srt.13559",
+      "pmc_id": "PMC10765353",
+      "pmid": "38174775"
+    },
+    {
+      "ref_id": "B93-curroncol-33-00273",
+      "label": "93.",
+      "authors": [
+        "Fakhoury J.W.",
+        "Lara J.B.",
+        "Manwar R.",
+        "Zafar M.",
+        "Xu Q.",
+        "Engel R.",
+        "Tsoukas M.M.",
+        "Daveluy S.",
+        "Mehregan D.",
+        "Avanaki K."
+      ],
+      "title": "Photoacoustic imaging for cutaneous melanoma assessment: A comprehensive review",
+      "journal": "J. Biomed. Opt.",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "S11518",
+      "doi": "10.1117/1.JBO.29.S1.S11518",
+      "pmid": "38223680",
+      "pmc_id": "PMC10785699"
+    },
+    {
+      "ref_id": "B94-curroncol-33-00273",
+      "label": "94.",
+      "authors": [
+        "Stridh M.T.",
+        "Hult J.",
+        "Merdasa A.",
+        "Albinsson J.",
+        "Pekar-Lukacs A.",
+        "Gesslein B.",
+        "Dahlstrand U.",
+        "Engelsberg K.",
+        "Berggren J.",
+        "Cinthio M.",
+        "et al."
+      ],
+      "title": "Photoacoustic imaging of periorbital skin cancer ex vivo: Unique spectral signatures of malignant melanoma, basal, and squamous cell carcinoma",
+      "journal": "Biomed. Opt. Express",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "410",
+      "lpage": "425",
+      "doi": "10.1364/BOE.443699",
+      "pmid": "35154881",
+      "pmc_id": "PMC8803040"
+    },
+    {
+      "ref_id": "B95-curroncol-33-00273",
+      "label": "95.",
+      "authors": [
+        "Dahlstrand U.",
+        "Sheikh R.",
+        "Berggren J.",
+        "Hult J.",
+        "Albinsson J.",
+        "Cinthio M.",
+        "Malmsjö M."
+      ],
+      "title": "Spectral Signatures in the Different Layers of the Human Eyelid by Photoacoustic Imaging",
+      "journal": "Lasers Surg. Med.",
+      "year": "2020",
+      "volume": "52",
+      "fpage": "341",
+      "lpage": "346",
+      "doi": "10.1002/lsm.23148",
+      "pmid": "31441078"
+    },
+    {
+      "ref_id": "B96-curroncol-33-00273",
+      "label": "96.",
+      "authors": [
+        "Attia A.B.E.",
+        "Balasundaram G.",
+        "Moothanchery M.",
+        "Dinish U.S.",
+        "Bi R.",
+        "Ntziachristos V.",
+        "Olivo M."
+      ],
+      "title": "A review of clinical photoacoustic imaging: Current and future trends",
+      "journal": "Photoacoustics",
+      "year": "2019",
+      "volume": "16",
+      "fpage": "100144",
+      "doi": "10.1016/j.pacs.2019.100144",
+      "pmid": "31871888",
+      "pmc_id": "PMC6911900"
+    },
+    {
+      "ref_id": "B97-curroncol-33-00273",
+      "label": "97.",
+      "authors": [
+        "Sohn G.K.",
+        "Sohn J.H.",
+        "Yeh J.",
+        "Chen Y.",
+        "Brian Jiang S.I."
+      ],
+      "title": "A deep learning algorithm to detect the presence of basal cell carcinoma on Mohs micrographic surgery frozen sections",
+      "journal": "J. Am. Acad. Dermatol.",
+      "year": "2021",
+      "volume": "84",
+      "fpage": "1437",
+      "lpage": "1438",
+      "doi": "10.1016/j.jaad.2020.06.080",
+      "pmid": "32590033",
+      "pmc_id": "PMC7755738"
+    },
+    {
+      "ref_id": "B98-curroncol-33-00273",
+      "label": "98.",
+      "authors": [
+        "Gorman B.G.",
+        "Lifson M.A.",
+        "Vidal N.Y."
+      ],
+      "title": "Artificial intelligence and frozen section histopathology: A systematic review",
+      "journal": "J. Cutan. Pathol.",
+      "year": "2023",
+      "volume": "50",
+      "fpage": "852",
+      "lpage": "859",
+      "doi": "10.1111/cup.14481",
+      "pmid": "37394789"
+    },
+    {
+      "ref_id": "B99-curroncol-33-00273",
+      "label": "99.",
+      "authors": [
+        "Mirza F.N.",
+        "Haq Z.",
+        "Abdi P.",
+        "Diaz M.J.",
+        "Libby T.J."
+      ],
+      "title": "Artificial Intelligence for Mohs and Dermatologic Surgery: A Systematic Review and Meta-Analysis",
+      "journal": "Dermatol. Surg.",
+      "year": "2024",
+      "volume": "50",
+      "fpage": "799",
+      "lpage": "806",
+      "doi": "10.1097/DSS.0000000000004297",
+      "pmid": "38991503"
+    },
+    {
+      "ref_id": "B100-curroncol-33-00273",
+      "label": "100.",
+      "authors": [
+        "Tan E.",
+        "Lim S.",
+        "Lamont D.",
+        "Epstein R.",
+        "Lim D.",
+        "Lin F.P.Y."
+      ],
+      "title": "Development and validation of a deep learning model for improving detection of nonmelanoma skin cancers treated with Mohs micrographic surgery",
+      "journal": "JAAD Int.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "39",
+      "lpage": "47",
+      "doi": "10.1016/j.jdin.2023.10.007",
+      "pmid": "38089398",
+      "pmc_id": "PMC10711490"
+    },
+    {
+      "ref_id": "B101-curroncol-33-00273",
+      "label": "101.",
+      "authors": [
+        "Essers B.A.B.",
+        "Dirksen C.D.",
+        "Nieman F.H.M.",
+        "Smeets N.W.J.",
+        "Krekels G.A.M.",
+        "Prins M.H.",
+        "Neumann H.A.M."
+      ],
+      "title": "Cost-effectiveness of Mohs Micrographic Surgery vs Surgical Excision for Basal Cell Carcinoma of the Face",
+      "journal": "Arch. Dermatol.",
+      "year": "2006",
+      "volume": "142",
+      "fpage": "187",
+      "lpage": "194",
+      "doi": "10.1001/archderm.142.2.187",
+      "pmid": "16490846"
     }
   ]
 }

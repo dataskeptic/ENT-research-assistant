@@ -21,7 +21,8 @@
     "pmc_id": "PMC13172469",
     "pmid": "42129433",
     "full_text_available": true,
-    "section_count": 18
+    "section_count": 18,
+    "reference_count": 34
   },
   "sections": [
     {
@@ -113,6 +114,503 @@
       "section": "Conclusion",
       "text": "The first clinical study in 14 patients undergoing CI surgery for single-sided deafness showed the feasibility of detecting the SR via EMG measurements directly from the belly of the SM. From the surgical point of view, the retrofacial approach was best suited for patients with an exposed or partially exposed SM respect to the facial nerve, with the best trajectory is in patients with an exposed SM. Therefore, pre-operative planning using high-resolution CT data was mandatory. In general, the procedure was safe, reproducible and reversible. Further investigation is needed to study the relationship between intraoperative SM-EMG-based eSRT and patient’s current levels, to determine how it may facilitate CI programming. Then, it could represent a concrete step towards future closed-loop smart CI devices for measurement during CI fitting.",
       "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "raw_citation": "Deafness and hearing loss. Vol. (World Health Organization, (2024). https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss , 2024)."
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "doi": "10.1155/2014/501738",
+      "pmc_id": "PMC3932199",
+      "pmid": "24688394"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Psarros C",
+        "Abrahams Y"
+      ],
+      "title": "Recent Trends in Cochlear Implant Programming and (Re)habilitation",
+      "journal": "Cochlear Implants: New and Future Directions",
+      "year": "2022",
+      "fpage": "441",
+      "lpage": "471"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "de Andrade KCL",
+        "et al."
+      ],
+      "title": "The Value of Electrically Evoked Stapedius Reflex in Determining the Maximum Comfort Level of a Cochlear Implant",
+      "journal": "J. Am. Acad. Audiol.",
+      "year": "2018",
+      "volume": "29",
+      "fpage": "292",
+      "lpage": "299",
+      "doi": "10.3766/jaaa.16117",
+      "pmid": "29664723"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Lindström B",
+        "Bredberg G"
+      ],
+      "title": "Intraoperative electrical stimulation of the stapedius reflex in children",
+      "journal": "Am. J. Otol",
+      "year": "1997",
+      "volume": "18",
+      "fpage": "S118",
+      "lpage": "119",
+      "pmid": "9391626"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Spivak LG",
+        "Chute PM"
+      ],
+      "title": "The relationship between electrical acoustic reflex thresholds and behavioral comfort levels in children and adult cochlear implant patients",
+      "journal": "Ear Hear.",
+      "year": "1994",
+      "volume": "15",
+      "fpage": "184",
+      "lpage": "192",
+      "doi": "10.1097/00003446-199404000-00008",
+      "pmid": "8020651"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Bresnihan M",
+        "Norman G",
+        "Scott F",
+        "Viani L"
+      ],
+      "title": "Measurement of comfort levels by means of electrical stapedial reflex in children",
+      "journal": "Arch. Otolaryngol. Head Neck Surg.",
+      "year": "2001",
+      "volume": "127",
+      "fpage": "963",
+      "lpage": "966",
+      "doi": "10.1001/archotol.127.8.963",
+      "pmid": "11493206"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Gordon KA",
+        "Papsin BC",
+        "Harrison RV"
+      ],
+      "title": "Toward a battery of behavioral and objective measures to achieve optimal cochlear implant stimulation levels in children",
+      "journal": "Ear Hear.",
+      "year": "2004",
+      "volume": "25",
+      "fpage": "447",
+      "lpage": "463",
+      "doi": "10.1097/01.aud.0000146178.84065.b3",
+      "pmid": "15599192"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Kosaner J",
+        "Anderson I",
+        "Turan Z",
+        "Deibl M"
+      ],
+      "title": "The use of ESRT in fitting children with cochlear implants",
+      "journal": "J. Int. Adv. Otology",
+      "year": "2009",
+      "volume": "5",
+      "fpage": "70",
+      "lpage": "79"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Jerger J",
+        "Oliver TA",
+        "Chmiel RA"
+      ],
+      "title": "Prediction of dynamic range from stapedius reflex in cochlear implant patients",
+      "journal": "Ear Hear.",
+      "year": "1988",
+      "volume": "9",
+      "fpage": "4",
+      "lpage": "8",
+      "doi": "10.1097/00003446-198802000-00010",
+      "pmid": "3342943"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Stephan K",
+        "Welzl-Müller K"
+      ],
+      "title": "Stapedius reflex in patients with an inner ear prosthesis",
+      "journal": "Int. J. Artif. Organs",
+      "year": "1992",
+      "volume": "15",
+      "fpage": "436",
+      "lpage": "439",
+      "doi": "10.1177/039139889201500712",
+      "pmid": "1516996"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Schairer KS",
+        "Feeney MP",
+        "Sanford CA"
+      ],
+      "title": "Acoustic reflex measurement",
+      "journal": "Ear Hear.",
+      "year": "2013",
+      "volume": "34",
+      "issue": "Suppl 1",
+      "fpage": "43s",
+      "lpage": "47s",
+      "doi": "10.1097/AUD.0b013e31829c70d9",
+      "pmid": "23900179"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Kopuz C",
+        "Turgut S",
+        "Kale A",
+        "Aydin ME"
+      ],
+      "title": "Absence of both stapedius tendon and muscle",
+      "journal": "Neurosciences (Riyadh)",
+      "year": "2006",
+      "volume": "11",
+      "fpage": "112",
+      "lpage": "114",
+      "doi": "10.17712/1658-3183.1403",
+      "pmid": "22266561"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Arnold D",
+        "et al."
+      ],
+      "title": "Accessing the Stapedius Muscle Via Novel Surgical Retrofacial Approach: A Cadaveric Feasibility Study",
+      "journal": "Otol Neurotol",
+      "year": "2022",
+      "volume": "43",
+      "fpage": "e174",
+      "lpage": "e180",
+      "doi": "10.1097/MAO.0000000000003413",
+      "pmid": "34855681"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Guntinas-Lichius O",
+        "et al."
+      ],
+      "title": "Accessing the stapedius muscle via novel surgical retrofacial approach during cochlear implantation surgery: Intraoperative results on feasibility and safety",
+      "journal": "PLoS One",
+      "year": "2022",
+      "volume": "17",
+      "fpage": "e0272943",
+      "doi": "10.1371/journal.pone.0272943",
+      "pmid": "35951500",
+      "pmc_id": "PMC9371293"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Volk GF",
+        "et al."
+      ],
+      "title": "Dyna-CT of the temporal bone for case-specific three-dimensional rendering of the stapedial muscle for planning of electrically evoked stapedius reflex threshold determination during cochlear implantation directly from the stapedius muscle via a retrofacial approach: a pilot study",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2020",
+      "volume": "277",
+      "fpage": "975",
+      "lpage": "985",
+      "doi": "10.1007/s00405-019-05773-2",
+      "pmid": "31897721"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Marquez P",
+        "et al."
+      ],
+      "title": "The use of a surgical planning tool for evaluating the optimal surgical accessibility to the stapedius muscle via a retrofacial approach during cochlear implant surgery: a feasibility study",
+      "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "331",
+      "lpage": "343",
+      "doi": "10.1007/s11548-020-02288-8",
+      "pmid": "33185757",
+      "pmc_id": "PMC7880982"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Raghunandhan S",
+        "Ravikumar A",
+        "Kameswaran M",
+        "Mandke K",
+        "Ranjith R"
+      ],
+      "title": "A clinical study of electrophysiological correlates of behavioural comfort levels in cochlear implantees",
+      "journal": "Cochlear Implants Int.",
+      "year": "2014",
+      "volume": "15",
+      "fpage": "145",
+      "lpage": "160",
+      "doi": "10.1179/1754762814Y.0000000064",
+      "pmid": "24606544"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "raw_citation": "Mishra, R. & Nandurkar, A. Correlation between behaviorally measured comfort (c) levels and electrically evoked stapedius reflex thresholds (ESRT) in children with unilateral cochlear implant. Journal Otolaryngology-ENT Research 11 , 201-6 (2019)."
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Djerić D",
+        "Savić D"
+      ],
+      "title": "[Anatomical variations and anomalies of the musculus stapedius tendon. Study by scanning electron microscopy]",
+      "journal": "Ann. Otolaryngol. Chir. Cervicofac.",
+      "year": "1987",
+      "volume": "104",
+      "fpage": "59",
+      "lpage": "63",
+      "pmid": "3566051"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Yilmazer R",
+        "et al."
+      ],
+      "title": "The Feasibility of Retrofacial Approach for Cochlear Implantation",
+      "journal": "Otol Neurotol",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "e550",
+      "lpage": "e556",
+      "doi": "10.1097/MAO.0000000000001878",
+      "pmid": "29957670"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Pau HW",
+        "et al."
+      ],
+      "title": "Electromyographical recording of the electrically elicited stapedius reflex via a bipolar hook electrode",
+      "journal": "Otol Neurotol",
+      "year": "2009",
+      "volume": "30",
+      "fpage": "1",
+      "lpage": "6",
+      "doi": "10.1097/MAO.0b013e31818a0898",
+      "pmid": "18833019"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Almqvist B",
+        "Harris S",
+        "Shallop JK"
+      ],
+      "title": "Objective intraoperative method to record averaged electromyographic stapedius muscle reflexes in cochlear implant patients",
+      "journal": "Audiology",
+      "year": "2000",
+      "volume": "39",
+      "fpage": "146",
+      "lpage": "152",
+      "doi": "10.3109/00206090009073067",
+      "pmid": "10905400"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Zarowski A",
+        "et al."
+      ],
+      "title": "Intraoperative recordings of electromyogenic responses from the human stapedius muscle",
+      "journal": "Hear. Res.",
+      "year": "2021",
+      "volume": "408",
+      "fpage": "108290",
+      "doi": "10.1016/j.heares.2021.108290",
+      "pmid": "34233241"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Pau HW",
+        "Ehrt K",
+        "Just T",
+        "Sievert U",
+        "Dahl R"
+      ],
+      "title": "How reliable is visual assessment of the electrically elicited stapedius reflex threshold during cochlear implant surgery, compared with tympanometry?",
+      "journal": "J. Laryngol Otol",
+      "year": "2011",
+      "volume": "125",
+      "fpage": "271",
+      "lpage": "273",
+      "doi": "10.1017/S0022215110002392",
+      "pmid": "21054912"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "doi": "10.1097/MAO.0000000000001611",
+      "pmid": "29116963"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Van Den Abbeele T",
+        "et al."
+      ],
+      "title": "Multicentre investigation on electrically evoked compound action potential and stapedius reflex: how do these objective measures relate to implant programming parameters?",
+      "journal": "Cochlear Implants Int.",
+      "year": "2012",
+      "volume": "13",
+      "fpage": "26",
+      "lpage": "34",
+      "doi": "10.1179/1754762810Y.0000000001",
+      "pmid": "22340749"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Gnadeberg D",
+        "et al."
+      ],
+      "title": "[Effect of anesthesia on the intraoperative elicited stapedius reflex]",
+      "journal": "Laryngorhinootologie",
+      "year": "1994",
+      "volume": "73",
+      "fpage": "132",
+      "lpage": "135",
+      "doi": "10.1055/s-2007-997095",
+      "pmid": "8172632"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Makhdoum MJ",
+        "Snik AF",
+        "Stollman MH",
+        "de Grood PM",
+        "van den Broek P"
+      ],
+      "title": "The influence of the concentration of volatile anesthetics on the stapedius reflex determined intraoperatively during cochlear implantation in children",
+      "journal": "Am. J. Otol",
+      "year": "1998",
+      "volume": "19",
+      "fpage": "598",
+      "lpage": "603",
+      "pmid": "9752967"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Schultz A",
+        "et al."
+      ],
+      "title": "Intraoperative electrically elicited stapedius reflex threshold is related to the dosage of hypnotic drugs in general anesthesia",
+      "journal": "Ann. Otol Rhinol Laryngol",
+      "year": "2003",
+      "volume": "112",
+      "fpage": "1050",
+      "lpage": "1055",
+      "doi": "10.1177/000348940311201210",
+      "pmid": "14703109"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Crawford MW",
+        "et al."
+      ],
+      "title": "Dose-dependent suppression of the electrically elicited stapedius reflex by general anesthetics in children undergoing cochlear implant surgery",
+      "journal": "Anesth. Analg",
+      "year": "2009",
+      "volume": "108",
+      "fpage": "1480",
+      "lpage": "1487",
+      "doi": "10.1213/ane.0b013e31819bdfd5",
+      "pmid": "19372325"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Andrade KC",
+        "et al."
+      ],
+      "title": "The importance of electrically evoked stapedial reflex in cochlear implant",
+      "journal": "Braz J. Otorhinolaryngol.",
+      "year": "2014",
+      "volume": "80",
+      "fpage": "68",
+      "lpage": "77",
+      "doi": "10.5935/1808-8694.20140014",
+      "pmid": "24626895",
+      "pmc_id": "PMC9443964"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "doi": "10.1017/S0022215124000227",
+      "pmid": "38311334"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "raw_citation": "Hodges, A., Butts, S. & King, J. Cochlear Implants Objective Measures 81–96 (Whurr publishers Los Angeles, 2003)."
     }
   ]
 }

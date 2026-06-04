@@ -16,7 +16,8 @@
     "pmc_id": "PMC13206980",
     "pmid": "42196554",
     "full_text_available": true,
-    "section_count": 15
+    "section_count": 15,
+    "reference_count": 39
   },
   "sections": [
     {
@@ -93,6 +94,781 @@
       "section": "Conclusion",
       "text": "Small extracellular vesicles (sEVs) in the SDF of OSCC patients carry luminal and surface DNA. The sEVs in SDF are enriched in DNA relative to sEVs in paired plasma. DNA associated with the vesicle “corona” consists of large DNase/RNase-sensitive DNA fragments, which support vesicular integrity and modulate the vesicle entry into recipient cells. About 50% of sEV-associated DNA is localized to the vesicular lumen and is protected from enzymatic degradation by DNase/RNase. The levels of vesicular DNA or of the fragment size in the lumen DNA were not different in the sEV obtained from the SDF of HPV(+) vs. HPV(−) OSCC patients. sEVs carrying surface and luminal DNA are significant contributors to the total SDF DNA, and could serve as potentially useful disease biomarkers following further validation in a larger patient cohort.",
       "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-ijms-27-04577",
+      "label": "1.",
+      "authors": [
+        "Brinton L.T.",
+        "Sloane H.S.",
+        "Kester M.",
+        "Kelly K.A."
+      ],
+      "title": "Formation and role of exosomes in cancer",
+      "journal": "Cell. Mol. Life Sci.",
+      "year": "2015",
+      "volume": "72",
+      "fpage": "659",
+      "lpage": "671",
+      "doi": "10.1007/s00018-014-1764-3",
+      "pmid": "25336151",
+      "pmc_id": "PMC5489338"
+    },
+    {
+      "ref_id": "B2-ijms-27-04577",
+      "label": "2.",
+      "authors": [
+        "Maas S.L.N.",
+        "Breakefield X.O.",
+        "Weaver A.M."
+      ],
+      "title": "Extracellular Vesicles: Unique Intercellular Delivery Vehicles",
+      "journal": "Trends Cell Biol.",
+      "year": "2017",
+      "volume": "27",
+      "fpage": "172",
+      "lpage": "188",
+      "doi": "10.1016/j.tcb.2016.11.003",
+      "pmid": "27979573",
+      "pmc_id": "PMC5318253"
+    },
+    {
+      "ref_id": "B3-ijms-27-04577",
+      "label": "3.",
+      "authors": [
+        "van Niel G.",
+        "D’Angelo G.",
+        "Raposo G."
+      ],
+      "title": "Shedding light on the cell biology of extracellular vesicles",
+      "journal": "Nat. Rev. Mol. Cell Biol.",
+      "year": "2018",
+      "volume": "19",
+      "fpage": "213",
+      "lpage": "228",
+      "doi": "10.1038/nrm.2017.125",
+      "pmid": "29339798"
+    },
+    {
+      "ref_id": "B4-ijms-27-04577",
+      "label": "4.",
+      "authors": [
+        "Dixson A.C.",
+        "Dawson T.R.",
+        "Di Vizio D.",
+        "Weaver A.M."
+      ],
+      "title": "Context-specific regulation of extracellular vesicle biogenesis and cargo selection",
+      "journal": "Nat. Rev. Mol. Cell Biol.",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "454",
+      "lpage": "476",
+      "doi": "10.1038/s41580-023-00576-0",
+      "pmid": "36765164",
+      "pmc_id": "PMC10330318"
+    },
+    {
+      "ref_id": "B5-ijms-27-04577",
+      "label": "5.",
+      "authors": [
+        "Atay S.",
+        "Godwin A.K."
+      ],
+      "title": "Tumor-derived exosomes: A message delivery system for tumor progression",
+      "journal": "Commun. Integr. Biol.",
+      "year": "2014",
+      "volume": "7",
+      "fpage": "e28231",
+      "doi": "10.4161/cib.28231",
+      "pmid": "24778765",
+      "pmc_id": "PMC3995727"
+    },
+    {
+      "ref_id": "B6-ijms-27-04577",
+      "label": "6.",
+      "authors": [
+        "Moller A.",
+        "Lobb R.J."
+      ],
+      "title": "The evolving translational potential of small extracellular vesicles in cancer",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "697",
+      "lpage": "709",
+      "doi": "10.1038/s41568-020-00299-w",
+      "pmid": "32958932"
+    },
+    {
+      "ref_id": "B7-ijms-27-04577",
+      "label": "7.",
+      "authors": [
+        "Skotland T.",
+        "Sagini K.",
+        "Sandvig K.",
+        "Llorente A."
+      ],
+      "title": "An emerging focus on lipids in extracellular vesicles",
+      "journal": "Adv. Drug Deliv. Rev.",
+      "year": "2020",
+      "volume": "159",
+      "fpage": "308",
+      "lpage": "321",
+      "doi": "10.1016/j.addr.2020.03.002",
+      "pmid": "32151658"
+    },
+    {
+      "ref_id": "B8-ijms-27-04577",
+      "label": "8.",
+      "authors": [
+        "Buzas E.I."
+      ],
+      "title": "The roles of extracellular vesicles in the immune system",
+      "journal": "Nat. Rev. Immunol.",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "236",
+      "lpage": "250",
+      "doi": "10.1038/s41577-022-00763-8",
+      "pmid": "35927511",
+      "pmc_id": "PMC9361922"
+    },
+    {
+      "ref_id": "B9-ijms-27-04577",
+      "label": "9.",
+      "authors": [
+        "Whiteside T.L."
+      ],
+      "title": "Tumor-Derived Exosomes and Their Role in Cancer Progression",
+      "journal": "Adv. Clin. Chem.",
+      "year": "2016",
+      "volume": "74",
+      "fpage": "103",
+      "lpage": "141",
+      "doi": "10.1016/bs.acc.2015.12.005",
+      "pmid": "27117662",
+      "pmc_id": "PMC5382933"
+    },
+    {
+      "ref_id": "B10-ijms-27-04577",
+      "label": "10.",
+      "authors": [
+        "Yin Y.",
+        "Chen H.",
+        "Wang Y.",
+        "Zhang L.",
+        "Wang X."
+      ],
+      "title": "Roles of extracellular vesicles in the aging microenvironment and age-related diseases",
+      "journal": "J. Extracell. Vesicles",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "e12154",
+      "doi": "10.1002/jev2.12154",
+      "pmid": "34609061",
+      "pmc_id": "PMC8491204"
+    },
+    {
+      "ref_id": "B11-ijms-27-04577",
+      "label": "11.",
+      "authors": [
+        "Quesenberry P.J.",
+        "Aliotta J.",
+        "Deregibus M.C.",
+        "Camussi G."
+      ],
+      "title": "Role of extracellular RNA-carrying vesicles in cell differentiation and reprogramming",
+      "journal": "Stem Cell Res. Ther.",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "153",
+      "doi": "10.1186/s13287-015-0150-x",
+      "pmid": "26334526",
+      "pmc_id": "PMC4558901"
+    },
+    {
+      "ref_id": "B12-ijms-27-04577",
+      "label": "12.",
+      "authors": [
+        "Roudsari Z.O.",
+        "Sadeghi F.",
+        "Anarjan F.S.",
+        "Rahdan F.",
+        "Turaev B.",
+        "Badr I.H.",
+        "Movahedpour A.",
+        "Ehtiati S."
+      ],
+      "title": "Exosome-mediated crosstalk in rheumatoid arthritis: Pathogenic mediators to next-generation therapeutics",
+      "journal": "Clin. Chim. Acta",
+      "year": "2026",
+      "volume": "589",
+      "fpage": "121039",
+      "doi": "10.1016/j.cca.2026.121039",
+      "pmid": "42055307"
+    },
+    {
+      "ref_id": "B13-ijms-27-04577",
+      "label": "13.",
+      "authors": [
+        "Sysak A.",
+        "Gorska S."
+      ],
+      "title": "Extracellular Vesicles in Allergy: From Cellular Communication to Clinical Implications",
+      "journal": "Clin. Rev. Allergy Immunol.",
+      "year": "2026",
+      "volume": "69",
+      "fpage": "38",
+      "doi": "10.1007/s12016-026-09161-7",
+      "pmid": "42053842",
+      "pmc_id": "PMC13128746"
+    },
+    {
+      "ref_id": "B14-ijms-27-04577",
+      "label": "14.",
+      "authors": [
+        "Whiteside T.L."
+      ],
+      "title": "The emerging role of plasma exosomes in diagnosis, prognosis and therapies of patients with cancer",
+      "journal": "Contemp. Oncol.",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "38",
+      "lpage": "40",
+      "doi": "10.5114/wo.2018.73882",
+      "pmc_id": "PMC5885072",
+      "pmid": "29628792"
+    },
+    {
+      "ref_id": "B15-ijms-27-04577",
+      "label": "15.",
+      "authors": [
+        "Cheng J.",
+        "Wang X.",
+        "Yuan X.",
+        "Liu G.",
+        "Chu Q."
+      ],
+      "title": "Emerging roles of exosome-derived biomarkers in cancer theranostics: Messages from novel protein targets",
+      "journal": "Am. J. Cancer Res.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "2226",
+      "lpage": "2248",
+      "pmid": "35693088",
+      "pmc_id": "PMC9185602"
+    },
+    {
+      "ref_id": "B16-ijms-27-04577",
+      "label": "16.",
+      "authors": [
+        "Feltri V.",
+        "Sanfilippo A.",
+        "Tasso R.",
+        "Ciferri M.C."
+      ],
+      "title": "Extracellular vesicles as modulators of cancer metabolism and microenvironment",
+      "journal": "Extracell. Vesicles Circ. Nucleic Acids",
+      "year": "2026",
+      "volume": "7",
+      "fpage": "51",
+      "lpage": "72",
+      "doi": "10.20517/evcna.2025.151",
+      "pmid": "41983056",
+      "pmc_id": "PMC13074290"
+    },
+    {
+      "ref_id": "B17-ijms-27-04577",
+      "label": "17.",
+      "authors": [
+        "Fan L.Z.",
+        "Xu A.L.",
+        "Xu Y.R.",
+        "Yang L.",
+        "Yuan F.",
+        "Nie X."
+      ],
+      "title": "Biological basis and clinical translation prospects of circulating cell-free DNA in precision management of breast cancer (Review)",
+      "journal": "Oncol. Lett.",
+      "year": "2026",
+      "volume": "31",
+      "fpage": "215",
+      "doi": "10.3892/ol.2026.15570",
+      "pmid": "42003932",
+      "pmc_id": "PMC13088249"
+    },
+    {
+      "ref_id": "B18-ijms-27-04577",
+      "label": "18.",
+      "authors": [
+        "Garcia-Pardo M.",
+        "Makarem M.",
+        "Li J.J.N.",
+        "Kelly D.",
+        "Leighl N.B."
+      ],
+      "title": "Integrating circulating-free DNA (cfDNA) analysis into clinical practice: Opportunities and challenges",
+      "journal": "Br. J. Cancer",
+      "year": "2022",
+      "volume": "127",
+      "fpage": "592",
+      "lpage": "602",
+      "doi": "10.1038/s41416-022-01776-9",
+      "pmid": "35347327",
+      "pmc_id": "PMC9381753"
+    },
+    {
+      "ref_id": "B19-ijms-27-04577",
+      "label": "19.",
+      "authors": [
+        "Earland N.",
+        "Semenkovich N.P.",
+        "Ramirez R.J.",
+        "Gerndt S.P.",
+        "Harris P.K.",
+        "Gu Z.",
+        "Hearn A.I.",
+        "Inkman M.",
+        "Szymanski J.J.",
+        "Whitfield D.",
+        "et al."
+      ],
+      "title": "Sensitive MRD Detection from Lymphatic Fluid after Surgery in HPV-Associated Oropharyngeal Cancer",
+      "journal": "Clin. Cancer Res.",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "1409",
+      "lpage": "1421",
+      "doi": "10.1158/1078-0432.CCR-23-1789",
+      "pmid": "37939112",
+      "pmc_id": "PMC10982646"
+    },
+    {
+      "ref_id": "B20-ijms-27-04577",
+      "label": "20.",
+      "authors": [
+        "Qu X.",
+        "Leung T.C.N.",
+        "Ngai S.M.",
+        "Tsai S.N.",
+        "Thakur A.",
+        "Li W.K.",
+        "Lee Y.",
+        "Leung L.",
+        "Ng T.H.",
+        "Yam J.",
+        "et al."
+      ],
+      "title": "Proteomic Analysis of Circulating Extracellular Vesicles Identifies Potential Biomarkers for Lymph Node Metastasis in Oral Tongue Squamous Cell Carcinoma",
+      "journal": "Cells",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "2179",
+      "doi": "10.3390/cells10092179",
+      "pmid": "34571828",
+      "pmc_id": "PMC8468562"
+    },
+    {
+      "ref_id": "B21-ijms-27-04577",
+      "label": "21.",
+      "authors": [
+        "Wang J.",
+        "Man Q.W.",
+        "Fu Q.Y.",
+        "Zhong N.N.",
+        "Wang H.Q.",
+        "Li S.R.",
+        "Gao X.",
+        "Lin H.",
+        "Su F.C.",
+        "Bu L.L.",
+        "et al."
+      ],
+      "title": "Preliminary Extracellular Vesicle Profiling in Drainage Fluid After Neck Dissection in OSCC",
+      "journal": "J. Dent. Res.",
+      "year": "2023",
+      "volume": "102",
+      "fpage": "178",
+      "lpage": "186",
+      "doi": "10.1177/00220345221130013",
+      "pmid": "36331313"
+    },
+    {
+      "ref_id": "B22-ijms-27-04577",
+      "label": "22.",
+      "authors": [
+        "Chetty V.K.",
+        "Ghanam J.",
+        "Anchan S.",
+        "Reinhardt K.",
+        "Brenzel A.",
+        "Gelleri M.",
+        "Cremer C.",
+        "Grueso-Navarro E.",
+        "Schneider M.",
+        "von Neuhoff N.",
+        "et al."
+      ],
+      "title": "Efficient Small Extracellular Vesicles (EV) Isolation Method and Evaluation of EV-Associated DNA Role in Cell-Cell Communication in Cancer",
+      "journal": "Cancers",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "2068",
+      "doi": "10.3390/cancers14092068",
+      "pmid": "35565197",
+      "pmc_id": "PMC9099953"
+    },
+    {
+      "ref_id": "B23-ijms-27-04577",
+      "label": "23.",
+      "authors": [
+        "Garcia-Silva S.",
+        "Gallardo M.",
+        "Peinado H."
+      ],
+      "title": "DNA-Loaded Extracellular Vesicles in Liquid Biopsy: Tiny Players With Big Potential?",
+      "journal": "Front. Cell Dev. Biol.",
+      "year": "2020",
+      "volume": "8",
+      "elocation_id": "622579",
+      "doi": "10.3389/fcell.2020.622579",
+      "pmid": "33575258",
+      "pmc_id": "PMC7872099"
+    },
+    {
+      "ref_id": "B24-ijms-27-04577",
+      "label": "24.",
+      "authors": [
+        "Sharma A.",
+        "Johnson A."
+      ],
+      "title": "Exosome DNA: Critical regulator of tumor immunity and a diagnostic biomarker",
+      "journal": "J. Cell. Physiol.",
+      "year": "2020",
+      "volume": "235",
+      "fpage": "1921",
+      "lpage": "1932",
+      "doi": "10.1002/jcp.29153",
+      "pmid": "31512231"
+    },
+    {
+      "ref_id": "B25-ijms-27-04577",
+      "label": "25.",
+      "authors": [
+        "Spada S.",
+        "Rudqvist N.P.",
+        "Wennerberg E."
+      ],
+      "title": "Isolation of DNA from exosomes",
+      "journal": "Methods Enzymol.",
+      "year": "2020",
+      "volume": "636",
+      "fpage": "173",
+      "lpage": "183",
+      "doi": "10.1016/bs.mie.2020.01.012",
+      "pmid": "32178818"
+    },
+    {
+      "ref_id": "B26-ijms-27-04577",
+      "label": "26.",
+      "authors": [
+        "Thakur B.K.",
+        "Zhang H.",
+        "Becker A.",
+        "Matei I.",
+        "Huang Y.",
+        "Costa-Silva B.",
+        "Zheng Y.",
+        "Hoshino A.",
+        "Brazier H.",
+        "Xiang J.",
+        "et al."
+      ],
+      "title": "Double-stranded DNA in exosomes: A novel biomarker in cancer detection",
+      "journal": "Cell Res.",
+      "year": "2014",
+      "volume": "24",
+      "fpage": "766",
+      "lpage": "769",
+      "doi": "10.1038/cr.2014.44",
+      "pmid": "24710597",
+      "pmc_id": "PMC4042169"
+    },
+    {
+      "ref_id": "B27-ijms-27-04577",
+      "label": "27.",
+      "authors": [
+        "Welsh J.A.",
+        "Goberdhan D.C.I.",
+        "O’Driscoll L.",
+        "Buzas E.I.",
+        "Blenkiron C.",
+        "Bussolati B.",
+        "Cai H.",
+        "Di Vizio D.",
+        "Driedonks T.A.P.",
+        "Erdbrugger U.",
+        "et al."
+      ],
+      "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+      "journal": "J. Extracell. Vesicles",
+      "year": "2024",
+      "volume": "13",
+      "fpage": "e12404",
+      "doi": "10.1002/jev2.12404",
+      "pmid": "38326288",
+      "pmc_id": "PMC10850029"
+    },
+    {
+      "ref_id": "B28-ijms-27-04577",
+      "label": "28.",
+      "authors": [
+        "Ludwig S.",
+        "Floros T.",
+        "Theodoraki M.N.",
+        "Hong C.S.",
+        "Jackson E.K.",
+        "Lang S.",
+        "Whiteside T.L."
+      ],
+      "title": "Suppression of Lymphocyte Functions by Plasma Exosomes Correlates with Disease Activity in Patients with Head and Neck Cancer",
+      "journal": "Clin. Cancer Res.",
+      "year": "2017",
+      "volume": "23",
+      "fpage": "4843",
+      "lpage": "4854",
+      "doi": "10.1158/1078-0432.CCR-16-2819",
+      "pmid": "28400428",
+      "pmc_id": "PMC5559308"
+    },
+    {
+      "ref_id": "B29-ijms-27-04577",
+      "label": "29.",
+      "authors": [
+        "Mondal S.K.",
+        "Haas D.",
+        "Han J.",
+        "Whiteside T.L."
+      ],
+      "title": "Small EV in plasma of triple negative breast cancer patients induce intrinsic apoptosis in activated T cells",
+      "journal": "Commun. Biol.",
+      "year": "2023",
+      "volume": "6",
+      "fpage": "815",
+      "doi": "10.1038/s42003-023-05169-3",
+      "pmid": "37542121",
+      "pmc_id": "PMC10403597"
+    },
+    {
+      "ref_id": "B30-ijms-27-04577",
+      "label": "30.",
+      "authors": [
+        "Mak C.H.",
+        "Wang G.R.",
+        "Li Z.Z.",
+        "Cao L.M.",
+        "Zhang C.X.",
+        "Zhu Z.Q.",
+        "Liu B.",
+        "Bu L.L."
+      ],
+      "title": "Hidden messages in fluids: A review of clinical and fundamental perspectives on post-lymph node dissection drains",
+      "journal": "Int. J. Cancer",
+      "year": "2025",
+      "volume": "156",
+      "fpage": "1103",
+      "lpage": "1113",
+      "doi": "10.1002/ijc.35240",
+      "pmid": "39470623"
+    },
+    {
+      "ref_id": "B31-ijms-27-04577",
+      "label": "31.",
+      "authors": [
+        "Jeppesen D.K.",
+        "Fenix A.M.",
+        "Franklin J.L.",
+        "Higginbotham J.N.",
+        "Zhang Q.",
+        "Zimmerman L.J.",
+        "Liebler D.C.",
+        "Ping J.",
+        "Liu Q.",
+        "Evans R.",
+        "et al."
+      ],
+      "title": "Reassessment of Exosome Composition",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "177",
+      "fpage": "428",
+      "lpage": "445.e418",
+      "doi": "10.1016/j.cell.2019.02.029",
+      "pmid": "30951670",
+      "pmc_id": "PMC6664447"
+    },
+    {
+      "ref_id": "B32-ijms-27-04577",
+      "label": "32.",
+      "authors": [
+        "Elzanowska J.",
+        "Semira C.",
+        "Costa-Silva B."
+      ],
+      "title": "DNA in extracellular vesicles: Biological and clinical aspects",
+      "journal": "Mol. Oncol.",
+      "year": "2021",
+      "volume": "15",
+      "fpage": "1701",
+      "lpage": "1714",
+      "doi": "10.1002/1878-0261.12777",
+      "pmid": "32767659",
+      "pmc_id": "PMC8169445"
+    },
+    {
+      "ref_id": "B33-ijms-27-04577",
+      "label": "33.",
+      "authors": [
+        "Kalluri R.",
+        "LeBleu V.S."
+      ],
+      "title": "The biology, function, and biomedical applications of exosomes",
+      "journal": "Science",
+      "year": "2020",
+      "volume": "367",
+      "fpage": "eaau6977",
+      "doi": "10.1126/science.aau6977",
+      "pmid": "32029601",
+      "pmc_id": "PMC7717626"
+    },
+    {
+      "ref_id": "B34-ijms-27-04577",
+      "label": "34.",
+      "authors": [
+        "Antonyak M.A.",
+        "Cerione R.A."
+      ],
+      "title": "Emerging picture of the distinct traits and functions of microvesicles and exosomes",
+      "journal": "Proc. Natl. Acad. Sci. USA",
+      "year": "2015",
+      "volume": "112",
+      "fpage": "3589",
+      "lpage": "3590",
+      "doi": "10.1073/pnas.1502590112",
+      "pmid": "25762069",
+      "pmc_id": "PMC4378426"
+    },
+    {
+      "ref_id": "B35-ijms-27-04577",
+      "label": "35.",
+      "authors": [
+        "Casanova-Salas I.",
+        "Aguilar D.",
+        "Cordoba-Terreros S.",
+        "Agundez L.",
+        "Brandariz J.",
+        "Herranz N.",
+        "Mas A.",
+        "Gonzalez M.",
+        "Morales-Barrera R.",
+        "Sierra A.",
+        "et al."
+      ],
+      "title": "Circulating tumor extracellular vesicles to monitor metastatic prostate cancer genomics and transcriptomic evolution",
+      "journal": "Cancer Cell",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "1301",
+      "lpage": "1312.e1307",
+      "doi": "10.1016/j.ccell.2024.06.003",
+      "pmid": "38981440"
+    },
+    {
+      "ref_id": "B36-ijms-27-04577",
+      "label": "36.",
+      "authors": [
+        "Gluszko A.",
+        "Kania D.",
+        "Hong C.S.",
+        "Pietrowska M.",
+        "Conway J.F.",
+        "Whiteside T.L."
+      ],
+      "title": "Nucleic Acids on the Surface and Lumen of Tumor-Derived Small Extracellular Vesicles as Potential Cancer Biomarkers",
+      "journal": "Cells",
+      "year": "2026",
+      "volume": "15",
+      "elocation_id": "512",
+      "doi": "10.3390/cells15060512",
+      "pmid": "41892303",
+      "pmc_id": "PMC13025544"
+    },
+    {
+      "ref_id": "B37-ijms-27-04577",
+      "label": "37.",
+      "authors": [
+        "Kontopoulou E.",
+        "Strachan S.",
+        "Reinhardt K.",
+        "Kunz F.",
+        "Walter C.",
+        "Walkenfort B.",
+        "Jastrow H.",
+        "Hasenberg M.",
+        "Giebel B.",
+        "von Neuhoff N.",
+        "et al."
+      ],
+      "title": "Evaluation of dsDNA from extracellular vesicles (EVs) in pediatric AML diagnostics",
+      "journal": "Ann. Hematol.",
+      "year": "2020",
+      "volume": "99",
+      "fpage": "459",
+      "lpage": "475",
+      "doi": "10.1007/s00277-019-03866-w",
+      "pmid": "31932899"
+    },
+    {
+      "ref_id": "B38-ijms-27-04577",
+      "label": "38.",
+      "authors": [
+        "Hong C.S.",
+        "Funk S.",
+        "Muller L.",
+        "Boyiadzis M.",
+        "Whiteside T.L."
+      ],
+      "title": "Isolation of biologically active and morphologically intact exosomes from plasma of patients with cancer",
+      "journal": "J. Extracell. Vesicles",
+      "year": "2016",
+      "volume": "5",
+      "fpage": "29289",
+      "doi": "10.3402/jev.v5.29289",
+      "pmid": "27018366",
+      "pmc_id": "PMC4808740"
+    },
+    {
+      "ref_id": "B39-ijms-27-04577",
+      "label": "39.",
+      "authors": [
+        "Theodoraki M.N.",
+        "Hong C.S.",
+        "Donnenberg V.S.",
+        "Donnenberg A.D.",
+        "Whiteside T.L."
+      ],
+      "title": "Evaluation of Exosome Proteins by on-Bead Flow Cytometry",
+      "journal": "Cytom. Part A",
+      "year": "2021",
+      "volume": "99",
+      "fpage": "372",
+      "lpage": "381",
+      "doi": "10.1002/cyto.a.24193",
+      "pmc_id": "PMC9063195",
+      "pmid": "33448645"
     }
   ]
 }

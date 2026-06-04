@@ -19,7 +19,8 @@
     "pmc_id": "PMC13182566",
     "pmid": "42149660",
     "full_text_available": true,
-    "section_count": 12
+    "section_count": 12,
+    "reference_count": 50
   },
   "sections": [
     {
@@ -81,6 +82,761 @@
       "section": "Data Statement",
       "text": "The data that support the findings of this study are available from the corresponding author upon reasonable request.",
       "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "ref1",
+      "label": "1.",
+      "title": "Cancer statistics, 2023",
+      "journal": "CA Cancer J Clin",
+      "year": "2023",
+      "volume": "73",
+      "issue": "1",
+      "fpage": "17",
+      "lpage": "48",
+      "doi": "10.3322/caac.21763",
+      "pmid": "36633525"
+    },
+    {
+      "ref_id": "ref2",
+      "label": "2.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Heterogeneity of first-line palliative systemic treatment in synchronous metastatic esophagogastric cancer patients: a real-world evidence study",
+      "journal": "Int J Cancer/ Journal international du cancer",
+      "year": "2020",
+      "volume": "146",
+      "issue": "7",
+      "fpage": "1889",
+      "lpage": "901",
+      "doi": "10.1002/ijc.32580",
+      "pmc_id": "PMC7027521",
+      "pmid": "31340065"
+    },
+    {
+      "ref_id": "ref3",
+      "label": "3.",
+      "authors": [
+        "et al."
+      ],
+      "title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649): a randomised, open-label, phase 3 trial",
+      "journal": "Lancet.",
+      "year": "2021",
+      "volume": "398",
+      "issue": "10294",
+      "fpage": "27",
+      "lpage": "40",
+      "doi": "10.1016/S0140-6736(21)00797-2",
+      "pmid": "34102137",
+      "pmc_id": "PMC8436782"
+    },
+    {
+      "ref_id": "ref4",
+      "label": "4.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Pattern of recurrence and patient survival after perioperative chemotherapy with 5-FU, Leucovorin, Oxaliplatin and docetaxel (FLOT) for locally advanced Esophagogastric adenocarcinoma in patients treated outside clinical trials",
+      "journal": "J Clin Med",
+      "year": "2020",
+      "volume": "9",
+      "issue": "8",
+      "doi": "10.3390/jcm9082654",
+      "pmc_id": "PMC7464040",
+      "pmid": "32824326"
+    },
+    {
+      "ref_id": "ref5",
+      "label": "5.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Long-term efficacy of Neoadjuvant Chemoradiotherapy plus surgery for the treatment of locally advanced Esophageal squamous cell carcinoma: the NEOCRTEC5010 randomized clinical trial",
+      "journal": "JAMA Surg",
+      "year": "2021",
+      "volume": "156",
+      "issue": "8",
+      "fpage": "721",
+      "lpage": "9",
+      "doi": "10.1001/jamasurg.2021.2373",
+      "pmid": "34160577",
+      "pmc_id": "PMC8223138"
+    },
+    {
+      "ref_id": "ref6",
+      "label": "6.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Perioperative chemotherapy compared with surgery alone for resectable gastroesophageal adenocarcinoma: an FNCLCC and FFCD multicenter phase III trial",
+      "journal": "J Clin Oncol",
+      "year": "2011",
+      "volume": "29",
+      "issue": "13",
+      "fpage": "1715",
+      "lpage": "21",
+      "doi": "10.1200/JCO.2010.33.0597",
+      "pmid": "21444866"
+    },
+    {
+      "ref_id": "ref7",
+      "label": "7.",
+      "title": "Esophageal cancer: staging system and guidelines for staging and treatment",
+      "journal": "J Thorac Dis",
+      "year": "2014",
+      "volume": "6 Suppl 3",
+      "issue": "Suppl 3",
+      "fpage": "S289",
+      "lpage": "97",
+      "doi": "10.3978/j.issn.2072-1439.2014.03.11",
+      "pmid": "24876933",
+      "pmc_id": "PMC4037413"
+    },
+    {
+      "ref_id": "ref8",
+      "label": "8.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Gastric cancer: ESMO clinical practice guideline for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol Off J Eur Soc Med Oncol / ESMO",
+      "year": "2022",
+      "volume": "33",
+      "issue": "10",
+      "fpage": "1005",
+      "lpage": "20",
+      "doi": "10.1016/j.annonc.2022.07.004",
+      "pmid": "35914639"
+    },
+    {
+      "ref_id": "ref9",
+      "label": "9.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Oesophageal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol Off J Eur Soc Med Oncol / ESMO",
+      "year": "2022",
+      "volume": "33",
+      "issue": "10",
+      "fpage": "992",
+      "lpage": "1004",
+      "doi": "10.1016/j.annonc.2022.07.003",
+      "pmid": "35914638"
+    },
+    {
+      "ref_id": "ref10",
+      "label": "10.",
+      "title": "Comparative study of CEA and CA19-9 in esophageal, gastric and colon cancers individually and in combination (ROC curve analysis)",
+      "journal": "Cancer Biol Med",
+      "year": "2013",
+      "volume": "10",
+      "issue": "3",
+      "fpage": "148",
+      "lpage": "57",
+      "doi": "10.7497/j.issn.2095-3941.2013.03.005",
+      "pmid": "24379990",
+      "pmc_id": "PMC3860340"
+    },
+    {
+      "ref_id": "ref11",
+      "label": "11.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Classic tumor markers in gastric cancer",
+      "journal": "Curr Standards Limitations Clujul Med",
+      "year": "2015",
+      "volume": "88",
+      "issue": "2",
+      "fpage": "111",
+      "lpage": "5",
+      "doi": "10.15386/cjmed-409",
+      "pmc_id": "PMC4576775",
+      "pmid": "26528057"
+    },
+    {
+      "ref_id": "ref12",
+      "label": "12.",
+      "title": "Liquid biopsy in clinical Management of Breast, lung, and colorectal cancer",
+      "journal": "Front Med (Lausanne)",
+      "year": "2018",
+      "volume": "5",
+      "fpage": "9",
+      "doi": "10.3389/fmed.2018.00009",
+      "pmid": "29441349",
+      "pmc_id": "PMC5797586"
+    },
+    {
+      "ref_id": "ref13",
+      "label": "13.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Current perspectives on circulating tumor DNA, precision medicine, and personalized clinical Management of Cancer",
+      "journal": "Mol Cancer Res : MCR",
+      "year": "2020",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "517",
+      "lpage": "28",
+      "doi": "10.1158/1541-7786.MCR-19-0768",
+      "pmid": "31996469"
+    },
+    {
+      "ref_id": "ref14",
+      "label": "14.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Liquid biopsies come of age: towards implementation of circulating tumour DNA",
+      "journal": "Nat Rev Cancer",
+      "year": "2017",
+      "volume": "17",
+      "issue": "4",
+      "fpage": "223",
+      "lpage": "38",
+      "doi": "10.1038/nrc.2017.7",
+      "pmid": "28233803"
+    },
+    {
+      "ref_id": "ref15",
+      "label": "15.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Analysis of circulating tumor DNA and clinical correlates in patients with Esophageal, gastroesophageal junction, and gastric adenocarcinoma",
+      "journal": "Clin Cancer Res : Off J Am Assoc Cancer Res",
+      "year": "2018",
+      "volume": "24",
+      "issue": "24",
+      "fpage": "6248",
+      "lpage": "56",
+      "doi": "10.1158/1078-0432.CCR-18-1128",
+      "pmc_id": "PMC6384095",
+      "pmid": "30348637"
+    },
+    {
+      "ref_id": "ref16",
+      "label": "16.",
+      "title": "Clinical utility and applicability of circulating tumor DNA testing in esophageal cancer: a systematic review and meta-analysis",
+      "journal": "Dis Esophagus",
+      "year": "2022",
+      "volume": "35",
+      "issue": "2",
+      "doi": "10.1093/dote/doab046",
+      "pmc_id": "PMC8832526",
+      "pmid": "34286823"
+    },
+    {
+      "ref_id": "ref17",
+      "label": "17.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating tumor DNA predicts outcome in metastatic gastroesophageal cancer",
+      "journal": "Gastric Cancer : Off J Int Gastric Cancer Assoc Japanese Gastric Cancer Assoc",
+      "year": "2022",
+      "volume": "25",
+      "issue": "5",
+      "fpage": "906",
+      "lpage": "15",
+      "doi": "10.1007/s10120-022-01313-w",
+      "pmc_id": "PMC9365750",
+      "pmid": "35763187"
+    },
+    {
+      "ref_id": "ref18",
+      "label": "18.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Potential clinical utility of a targeted circulating tumor DNA assay in Esophageal adenocarcinoma",
+      "journal": "Ann Surg",
+      "year": "2022",
+      "volume": "276",
+      "issue": "2",
+      "fpage": "e120",
+      "lpage": "6",
+      "doi": "10.1097/SLA.0000000000005177",
+      "pmid": "35737908",
+      "pmc_id": "PMC9259043"
+    },
+    {
+      "ref_id": "ref19",
+      "label": "19.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Targeted sequencing of sorted Esophageal adenocarcinoma cells unveils known and novel mutations in the separated subpopulations",
+      "journal": "Clin Transl Gastroenterol",
+      "year": "2020",
+      "volume": "11",
+      "issue": "9",
+      "fpage": "e00202",
+      "doi": "10.14309/ctg.0000000000000202",
+      "pmid": "33094962",
+      "pmc_id": "PMC7508445"
+    },
+    {
+      "ref_id": "ref20",
+      "label": "20.",
+      "title": "Circulating tumor DNA: current challenges for clinical utility",
+      "journal": "J Clin Invest",
+      "year": "2022",
+      "volume": "132",
+      "issue": "12",
+      "doi": "10.1172/JCI154941",
+      "pmc_id": "PMC9197509",
+      "pmid": "35703177"
+    },
+    {
+      "ref_id": "ref21",
+      "label": "21.",
+      "authors": [
+        "et al."
+      ],
+      "title": "DNA methylation cancer biomarkers: translation to the clinic",
+      "journal": "Front Genet",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "1150",
+      "doi": "10.3389/fgene.2019.01150",
+      "pmid": "31803237",
+      "pmc_id": "PMC6870840"
+    },
+    {
+      "ref_id": "ref22",
+      "label": "22.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Impact of circulating tumor DNA-based detection of molecular residual disease on the conduct and Design of Clinical Trials for solid Tumors",
+      "journal": "JCO Precis Oncol",
+      "year": "2022",
+      "volume": "6",
+      "fpage": "e2100181",
+      "doi": "10.1200/PO.21.00181",
+      "pmid": "35263168",
+      "pmc_id": "PMC8926064"
+    },
+    {
+      "ref_id": "ref23",
+      "label": "23.",
+      "title": "A review of circulating tumor DNA in the diagnosis and monitoring of Esophageal cancer",
+      "journal": "Med Sci Monit",
+      "year": "2022",
+      "volume": "28",
+      "fpage": "e934106",
+      "doi": "10.12659/MSM.934106",
+      "pmid": "35210388",
+      "pmc_id": "PMC8886734"
+    },
+    {
+      "ref_id": "ref24",
+      "label": "24.",
+      "authors": [
+        "et al."
+      ],
+      "title": "A blood test for methylated BCAT1 and IKZF1 vs. a Fecal immunochemical test for detection of colorectal neoplasia",
+      "journal": "Clin Transl Gastro",
+      "year": "2016",
+      "volume": "7",
+      "fpage": "e137",
+      "doi": "10.1038/ctg.2015.67",
+      "pmc_id": "PMC4737873",
+      "pmid": "26765125"
+    },
+    {
+      "ref_id": "ref25",
+      "label": "25.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating epigenetic biomarkers for detection of recurrent colorectal cancer",
+      "journal": "Cancer.",
+      "year": "2020",
+      "volume": "126",
+      "issue": "7",
+      "fpage": "1460",
+      "lpage": "9",
+      "doi": "10.1002/cncr.32695",
+      "pmid": "31909823",
+      "pmc_id": "PMC7155014"
+    },
+    {
+      "ref_id": "ref26",
+      "label": "26.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Evaluating the role of methylated circulating tumor DNA in combination with pathological prognostic factors for predicting recurrence of colorectal cancer",
+      "journal": "Biomark Insights",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "11772719241232870",
+      "doi": "10.1177/11772719241232870",
+      "pmid": "38426070",
+      "pmc_id": "PMC10903227"
+    },
+    {
+      "ref_id": "ref27",
+      "label": "27.",
+      "title": "BCAT1, IKZF1 and SEPT9: methylated DNA biomarkers for detection of pan-gastrointestinal adenocarcinomas",
+      "journal": "Biomarkers.",
+      "year": "2024",
+      "volume": "29",
+      "issue": "4",
+      "fpage": "194",
+      "lpage": "204",
+      "doi": "10.1080/1354750X.2024.2340663",
+      "pmid": "38644767"
+    },
+    {
+      "ref_id": "ref28",
+      "label": "28.",
+      "title": "8th edition AJCC/UICC staging of cancers of the esophagus and esophagogastric junction: application to clinical practice",
+      "journal": "Ann Cardiothorac Surg",
+      "year": "2017",
+      "volume": "6",
+      "issue": "2",
+      "fpage": "119",
+      "lpage": "30",
+      "doi": "10.21037/acs.2017.03.14",
+      "pmid": "28447000",
+      "pmc_id": "PMC5387145"
+    },
+    {
+      "ref_id": "ref29",
+      "label": "29.",
+      "title": "Classification of adenocarcinoma of the oesophagogastric junction",
+      "journal": "Br J Surg",
+      "year": "1998",
+      "volume": "85",
+      "issue": "11",
+      "fpage": "1457",
+      "lpage": "9",
+      "doi": "10.1046/j.1365-2168.1998.00940.x",
+      "pmid": "9823902"
+    },
+    {
+      "ref_id": "ref30",
+      "label": "30.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Evaluation of an assay for methylated BCAT1 and IKZF1 in plasma for detection of colorectal neoplasia",
+      "journal": "BMC Cancer",
+      "year": "2015",
+      "volume": "15",
+      "fpage": "654",
+      "doi": "10.1186/s12885-015-1674-2",
+      "pmid": "26445409",
+      "pmc_id": "PMC4596413"
+    },
+    {
+      "ref_id": "ref31",
+      "label": "31.",
+      "authors": [
+        "et al."
+      ],
+      "title": "A two-gene blood test for methylated DNA sensitive for colorectal cancer",
+      "journal": "PloS One",
+      "year": "2015",
+      "volume": "10",
+      "issue": "4",
+      "fpage": "e0125041",
+      "doi": "10.1371/journal.pone.0125041",
+      "pmid": "25928810",
+      "pmc_id": "PMC4416022"
+    },
+    {
+      "ref_id": "ref32",
+      "label": "32.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Assessment of tumor burden and response to therapy in patients with colorectal cancer using a quantitative ctDNA test for methylated BCAT1/IKZF1",
+      "journal": "Mol Oncol",
+      "year": "2022",
+      "volume": "16",
+      "issue": "10",
+      "fpage": "2031",
+      "lpage": "41",
+      "doi": "10.1002/1878-0261.13178",
+      "pmid": "35000264",
+      "pmc_id": "PMC9120880"
+    },
+    {
+      "ref_id": "ref33",
+      "label": "33.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association between plasma circulating tumor DNA and the prognosis of esophageal cancer patients: a meta-analysis",
+      "journal": "Int J Surg",
+      "year": "2024",
+      "volume": "110",
+      "issue": "7",
+      "fpage": "4370",
+      "lpage": "81",
+      "doi": "10.1097/JS9.0000000000001373",
+      "pmid": "38526514",
+      "pmc_id": "PMC11254190"
+    },
+    {
+      "ref_id": "ref34",
+      "label": "34.",
+      "title": "The potential clinical utility of circulating tumor DNA in Esophageal adenocarcinoma: from early detection to therapy",
+      "journal": "Front Oncol",
+      "year": "2018",
+      "volume": "8",
+      "fpage": "610",
+      "doi": "10.3389/fonc.2018.00610",
+      "pmid": "30619750",
+      "pmc_id": "PMC6297385"
+    },
+    {
+      "ref_id": "ref35",
+      "label": "35.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating tumor DNA sequencing analysis of gastroesophageal adenocarcinoma",
+      "journal": "Clin Cancer Res : Off J Am Assoc Cancer Res",
+      "year": "2019",
+      "volume": "25",
+      "issue": "23",
+      "fpage": "7098",
+      "lpage": "112",
+      "doi": "10.1158/1078-0432.CCR-19-1704",
+      "pmc_id": "PMC6891164",
+      "pmid": "31427281"
+    },
+    {
+      "ref_id": "ref36",
+      "label": "36.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Clinical validation of a targeted methylation-based multi-cancer early detection test using an independent validation set",
+      "journal": "Ann Oncol : Off J Eur Soc Med Oncol / ESMO.",
+      "year": "2021",
+      "volume": "32",
+      "issue": "9",
+      "fpage": "1167",
+      "lpage": "77",
+      "doi": "10.1016/j.annonc.2021.05.806",
+      "pmid": "34176681"
+    },
+    {
+      "ref_id": "ref37",
+      "label": "37.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Deep sequencing of circulating tumor DNA detects molecular residual disease and predicts recurrence in gastric cancer",
+      "journal": "Cell Death Dis",
+      "year": "2020",
+      "volume": "11",
+      "issue": "5",
+      "fpage": "346",
+      "doi": "10.1038/s41419-020-2531-z",
+      "pmid": "32393783",
+      "pmc_id": "PMC7214415"
+    },
+    {
+      "ref_id": "ref38",
+      "label": "38.",
+      "title": "The role of ctDNA in gastric cancer",
+      "journal": "Cancers (Basel)",
+      "year": "2022",
+      "volume": "14",
+      "issue": "20",
+      "doi": "10.3390/cancers14205105",
+      "pmc_id": "PMC9600786",
+      "pmid": "36291888"
+    },
+    {
+      "ref_id": "ref39",
+      "label": "39.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Longitudinal monitoring of circulating tumour DNA improves prognostication and relapse detection in gastroesophageal adenocarcinoma",
+      "journal": "Br J Cancer",
+      "year": "2020",
+      "volume": "123",
+      "issue": "8",
+      "fpage": "1271",
+      "lpage": "9",
+      "doi": "10.1038/s41416-020-1002-8",
+      "pmid": "32719550",
+      "pmc_id": "PMC7555811"
+    },
+    {
+      "ref_id": "ref40",
+      "label": "40.",
+      "title": "Circulating tumor DNA predicts prognosis at different time points in patients with esophageal cancer: a systematic review and meta-analysis",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "1608872",
+      "doi": "10.3389/fonc.2025.1608872",
+      "pmid": "41079086",
+      "pmc_id": "PMC12507613"
+    },
+    {
+      "ref_id": "ref41",
+      "label": "41.",
+      "title": "Clinical correlates of circulating cell-free DNA tumor fraction",
+      "journal": "PloS One",
+      "year": "2021",
+      "volume": "16",
+      "issue": "8",
+      "fpage": "e0256436",
+      "doi": "10.1371/journal.pone.0256436",
+      "pmid": "34432811",
+      "pmc_id": "PMC8386888"
+    },
+    {
+      "ref_id": "ref42",
+      "label": "42.",
+      "title": "Clinicopathological parameters for circulating tumor DNA shedding in surgically resected non-small cell lung cancer with EGFR or KRAS mutation",
+      "journal": "PloS One",
+      "year": "2020",
+      "volume": "15",
+      "issue": "3",
+      "fpage": "e0230622",
+      "doi": "10.1371/journal.pone.0230622",
+      "pmid": "32196518",
+      "pmc_id": "PMC7083310"
+    },
+    {
+      "ref_id": "ref43",
+      "label": "43.",
+      "title": "Liquid biopsy prediction of axillary lymph node metastasis, cancer recurrence, and patient survival in breast cancer: a meta-analysis",
+      "journal": "Medicine (Baltimore)",
+      "year": "2018",
+      "volume": "97",
+      "issue": "42",
+      "fpage": "e12862",
+      "doi": "10.1097/MD.0000000000012862",
+      "pmid": "30334995",
+      "pmc_id": "PMC6211877"
+    },
+    {
+      "ref_id": "ref44",
+      "label": "44.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Analysis of circulating tumor DNA to predict risk of recurrence in patients with Esophageal and gastric cancers",
+      "journal": "JCO Precis Oncol",
+      "year": "2022",
+      "volume": "6",
+      "fpage": "e2200420",
+      "doi": "10.1200/PO.22.00420",
+      "pmid": "36480779",
+      "pmc_id": "PMC10530958"
+    },
+    {
+      "ref_id": "ref45",
+      "label": "45.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating tumor DNA as a prognostic biomarker for recurrence in patients with Locoregional Esophagogastric cancers with a pathologic complete response",
+      "journal": "JCO Precis Oncol",
+      "year": "2024",
+      "volume": "8",
+      "fpage": "e2400288",
+      "doi": "10.1200/PO.24.00288",
+      "pmid": "39642325",
+      "pmc_id": "PMC11634147"
+    },
+    {
+      "ref_id": "ref46",
+      "label": "46.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating tumor DNA predicts recurrence and survival in patients with resectable gastric and gastroesophageal junction cancer",
+      "journal": "Gastric Cancer : Off J Int Gastric Cancer Assoc Japanese Gastric Cancer Assoc",
+      "year": "2025",
+      "volume": "28",
+      "issue": "1",
+      "fpage": "83",
+      "lpage": "95",
+      "doi": "10.1007/s10120-024-01556-9",
+      "pmc_id": "PMC11706848",
+      "pmid": "39369091"
+    },
+    {
+      "ref_id": "ref47",
+      "label": "47.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Circulating tumor DNA analysis for detection of minimal residual disease after Chemoradiotherapy for localized Esophageal cancer",
+      "journal": "Gastroenterology.",
+      "year": "2020",
+      "volume": "158",
+      "issue": "3",
+      "fpage": "494",
+      "lpage": "505.e6",
+      "doi": "10.1053/j.gastro.2019.10.039",
+      "pmid": "31711920",
+      "pmc_id": "PMC7010551"
+    },
+    {
+      "ref_id": "ref48",
+      "label": "48.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Longitudinal circulating tumor DNA analysis during treatment of locally advanced resectable gastric or gastroesophageal junction adenocarcinoma: the PLAGAST prospective biomarker study",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "6815",
+      "doi": "10.1038/s41467-025-62056-7",
+      "pmid": "40707450",
+      "pmc_id": "PMC12289871"
+    },
+    {
+      "ref_id": "ref49",
+      "label": "49.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Neoadjuvant atezolizumab plus chemotherapy in gastric and gastroesophageal junction adenocarcinoma: the phase 2 PANDA trial",
+      "journal": "Nat Med",
+      "year": "2024",
+      "volume": "30",
+      "issue": "2",
+      "fpage": "519",
+      "lpage": "30",
+      "doi": "10.1038/s41591-023-02758-x",
+      "pmid": "38191613",
+      "pmc_id": "PMC10878980"
+    },
+    {
+      "ref_id": "ref50",
+      "label": "50.",
+      "title": "Circulating tumor DNA for diagnosis, prognosis and treatment of gastrointestinal malignancies",
+      "journal": "World J Clin Oncol",
+      "year": "2022",
+      "volume": "13",
+      "issue": "6",
+      "fpage": "473",
+      "lpage": "84",
+      "doi": "10.5306/wjco.v13.i6.473",
+      "pmid": "35949436",
+      "pmc_id": "PMC9244970"
     }
   ]
 }

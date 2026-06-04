@@ -19,7 +19,8 @@
     "pmc_id": "PMC13201994",
     "pmid": "42161549",
     "full_text_available": true,
-    "section_count": 25
+    "section_count": 25,
+    "reference_count": 63
   },
   "sections": [
     {
@@ -146,6 +147,1076 @@
       "section": "Dissemination",
       "text": "Any amendments to the protocol will only be implemented after approval from the Brighton and Sussex Medical School ethics committee. Any important protocol modifications will be updated in the trial registry. At the end of the study, data will be collated into a single spreadsheet, with a data key indicating the content of each variable. The behavioural and questionnaire data will be stored in open data file formats (e.g., as comma delimited text files (.csv)). MRI images will be stored in DICOM and NIFTI file formats. All formats will allow anonymised sharing and long-term validity of the data. All original raw data will be retained for future use and access requests. Study data will be deposited in the University of Sussex server via Figshare ( www.sussex.figshare.com ) or another online data repository (e.g. www.OpenfMRI.org ) where appropriate. The data that will be deposited at the group level, allowing other users to undertake the same analyses as those reported in the published studies, as well as new ones. Anonymised individual participant datasets and supporting metadata will be made available upon request. For the datasets containing individual anonymised patient data, a data-sharing agreement will be required. Trial results will be published in peer-reviewed journals regardless of the outcome of the study (i.e., if the results are inconclusive or demonstrate that taVNS is not effective for the treatment of misophonia). Results will also be shared at national or international conferences. All publication rights belong to the principal investigator and authorship determined according to the Contributor Roles Taxonomy (CRediT) system 63",
       "order": 24
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Swedo SE",
+        "Baguley DM",
+        "Denys D",
+        "et al."
+      ],
+      "title": "Consensus Definition of Misophonia: A Delphi Study",
+      "journal": "Front Neurosci",
+      "year": "2022",
+      "volume": "16",
+      "elocation_id": "841816",
+      "doi": "10.3389/fnins.2022.841816",
+      "pmid": "35368272",
+      "pmc_id": "PMC8969743"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Dibb B",
+        "Golding SE"
+      ],
+      "title": "A longitudinal investigation of quality of life and negative emotions in misophonia",
+      "journal": "Front Neurosci",
+      "year": "2022",
+      "volume": "16",
+      "elocation_id": "900474",
+      "doi": "10.3389/fnins.2022.900474",
+      "pmid": "35937869",
+      "pmc_id": "PMC9354518"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Rinaldi LJ",
+        "Smees R",
+        "Ward J",
+        "et al."
+      ],
+      "title": "Poorer Well-Being in Children With Misophonia: Evidence From the Sussex Misophonia Scale for Adolescents",
+      "journal": "Front Psychol",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "808379",
+      "doi": "10.3389/fpsyg.2022.808379",
+      "pmid": "35465571",
+      "pmc_id": "PMC9019493"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Dixon LJ",
+        "Schadegg MJ",
+        "Clark HL",
+        "et al."
+      ],
+      "title": "Prevalence, phenomenology, and impact of misophonia in a nationally representative sample of U.S. adults",
+      "journal": "J Psychopathol Clin Sci",
+      "year": "2024",
+      "volume": "133",
+      "fpage": "403",
+      "lpage": "12",
+      "doi": "10.1037/abn0000904",
+      "pmid": "38780601"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Vitoratou S",
+        "Hayes C",
+        "Uglik-Marucha N",
+        "et al."
+      ],
+      "title": "Misophonia in the UK: Prevalence and norms from the S-Five in a UK representative sample",
+      "journal": "PLoS One",
+      "year": "2023",
+      "volume": "18",
+      "elocation_id": "e0282777",
+      "doi": "10.1371/journal.pone.0282777",
+      "pmid": "36947525",
+      "pmc_id": "PMC10032546"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Altınöz AE",
+        "Ünal NE",
+        "Tosun Altınöz Ş"
+      ],
+      "title": "The effectiveness of Cognitive Behavioral Psychotherapy in Misophonia: A Case Report",
+      "journal": "J Clin Psy",
+      "year": "2018",
+      "volume": "21",
+      "fpage": "414",
+      "lpage": "7",
+      "doi": "10.5505/kpd.2018.18480"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Jager IJ",
+        "Vulink NCC",
+        "Bergfeld IO",
+        "et al."
+      ],
+      "title": "Cognitive behavioral therapy for misophonia: A randomized clinical trial",
+      "journal": "Depress Anxiety",
+      "year": "2021",
+      "volume": "38",
+      "fpage": "708",
+      "lpage": "18",
+      "doi": "10.1002/da.23127",
+      "pmc_id": "PMC8359510",
+      "pmid": "33336858"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Schröder AE",
+        "Vulink NC",
+        "van Loon AJ",
+        "et al."
+      ],
+      "title": "Cognitive behavioral therapy is effective in misophonia: An open trial",
+      "journal": "J Affect Disord",
+      "year": "2017",
+      "volume": "217",
+      "fpage": "289",
+      "lpage": "94",
+      "doi": "10.1016/j.jad.2017.04.017",
+      "pmid": "28441620"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Sarigedik E",
+        "Yurteri N"
+      ],
+      "title": "Misophonia Successfully Treated of With Fluoxetine: A Case Report",
+      "journal": "Clin Neuropharmacol",
+      "year": "2021",
+      "volume": "44",
+      "fpage": "191",
+      "lpage": "2",
+      "doi": "10.1097/WNF.0000000000000465",
+      "pmid": "34269321"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Webb J"
+      ],
+      "title": "β-Blockers for the Treatment of Misophonia and Misokinesia",
+      "journal": "Clin Neuropharmacol",
+      "year": "2022",
+      "volume": "45",
+      "fpage": "13",
+      "lpage": "4",
+      "doi": "10.1097/WNF.0000000000000492",
+      "pmid": "35029865"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Neacsiu AD",
+        "Beynel L",
+        "Gerlus N",
+        "et al."
+      ],
+      "title": "An experimental examination of neurostimulation and cognitive restructuring as potential components for Misophonia interventions",
+      "journal": "J Affect Disord",
+      "year": "2024",
+      "volume": "350",
+      "fpage": "274",
+      "lpage": "85",
+      "doi": "10.1016/j.jad.2024.01.120",
+      "pmid": "38228276"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Smith EEA",
+        "Guzick AG",
+        "Draper IA",
+        "et al."
+      ],
+      "title": "Perceptions of various treatment approaches for adults and children with misophonia",
+      "journal": "J Affect Disord",
+      "year": "2022",
+      "volume": "316",
+      "fpage": "76",
+      "lpage": "82",
+      "doi": "10.1016/j.jad.2022.08.020",
+      "pmid": "35970326",
+      "pmc_id": "PMC9884516"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Mattson SA",
+        "D’Souza J",
+        "Wojcik KD",
+        "et al."
+      ],
+      "title": "A systematic review of treatments for misophonia",
+      "journal": "Pers Med Psychiatry",
+      "year": "2023",
+      "volume": "39–40",
+      "elocation_id": "100104",
+      "doi": "10.1016/j.pmip.2023.100104",
+      "pmc_id": "PMC10276561",
+      "pmid": "37333720"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Neacsiu AD",
+        "Szymkiewicz V",
+        "Galla JT",
+        "et al."
+      ],
+      "title": "The neurobiology of misophonia and implications for novel, neuroscience-driven interventions",
+      "journal": "Front Neurosci",
+      "year": "2022",
+      "volume": "16",
+      "elocation_id": "893903",
+      "doi": "10.3389/fnins.2022.893903",
+      "pmid": "35958984",
+      "pmc_id": "PMC9359080"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Yuan H",
+        "Silberstein SD"
+      ],
+      "title": "Vagus Nerve and Vagus Nerve Stimulation, a Comprehensive Review: Part II",
+      "journal": "Headache",
+      "year": "2016",
+      "volume": "56",
+      "fpage": "259",
+      "lpage": "66",
+      "doi": "10.1111/head.12650",
+      "pmid": "26381725"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "de Carvalho AC",
+        "Marques ALC",
+        "Ferreira LL",
+        "et al."
+      ],
+      "title": "Transcutaneous Vagus Nerve Stimulation: an Alternative Treatment of Chronic Migraine—a Systematic Review",
+      "journal": "SN Compr Clin Med",
+      "year": "2022",
+      "volume": "4",
+      "fpage": "188",
+      "doi": "10.1007/s42399-022-01268-0"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Stegeman I",
+        "Velde HM",
+        "Robe P",
+        "et al."
+      ],
+      "title": "Tinnitus treatment by vagus nerve stimulation: A systematic review",
+      "journal": "PLoS One",
+      "year": "2021",
+      "volume": "16",
+      "elocation_id": "e0247221",
+      "doi": "10.1371/journal.pone.0247221",
+      "pmid": "33705401",
+      "pmc_id": "PMC7951891"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Wu K",
+        "Wang Z",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Transcutaneous vagus nerve stimulation for the treatment of drug-resistant epilepsy: a meta-analysis and systematic review",
+      "journal": "ANZ J Surg",
+      "year": "2020",
+      "volume": "90",
+      "fpage": "467",
+      "lpage": "71",
+      "doi": "10.1111/ans.15681",
+      "pmid": "32052569"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Wu C",
+        "Liu P",
+        "Fu H",
+        "et al."
+      ],
+      "title": "Transcutaneous auricular vagus nerve stimulation in treating major depressive disorder",
+      "journal": "Medicine (Abingdon)",
+      "year": "2018",
+      "volume": "97",
+      "elocation_id": "e13845",
+      "doi": "10.1097/MD.0000000000013845",
+      "pmc_id": "PMC6314717",
+      "pmid": "30593183"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Redgrave J",
+        "Day D",
+        "Leung H",
+        "et al."
+      ],
+      "title": "Safety and tolerability of Transcutaneous Vagus Nerve stimulation in humans; a systematic review",
+      "journal": "Brain Stimul",
+      "year": "2018",
+      "volume": "11",
+      "fpage": "1225",
+      "lpage": "38",
+      "doi": "10.1016/j.brs.2018.08.010",
+      "pmid": "30217648"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Clancy JA",
+        "Mary DA",
+        "Witte KK",
+        "et al."
+      ],
+      "title": "Non-invasive Vagus Nerve Stimulation in Healthy Humans Reduces Sympathetic Nerve Activity",
+      "journal": "Brain Stimul",
+      "year": "2014",
+      "volume": "7",
+      "fpage": "871",
+      "lpage": "7",
+      "doi": "10.1016/j.brs.2014.07.031",
+      "pmid": "25164906"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Lamb DG",
+        "Porges EC",
+        "Lewis GF",
+        "et al."
+      ],
+      "title": "Non-invasive Vagal Nerve Stimulation Effects on Hyperarousal and Autonomic State in Patients with Posttraumatic Stress Disorder and History of Mild Traumatic Brain Injury: Preliminary Evidence",
+      "journal": "Front Med",
+      "year": "2017",
+      "volume": "4",
+      "fpage": "124",
+      "doi": "10.3389/fmed.2017.00124",
+      "pmc_id": "PMC5534856",
+      "pmid": "28824913"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Ylikoski J",
+        "Lehtimäki J",
+        "Pirvola U",
+        "et al."
+      ],
+      "title": "Non-invasive vagus nerve stimulation reduces sympathetic preponderance in patients with tinnitus",
+      "journal": "Acta Otolaryngol",
+      "year": "2017",
+      "volume": "137",
+      "fpage": "426",
+      "lpage": "31",
+      "doi": "10.1080/00016489.2016.1269197",
+      "pmid": "28084177"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Beste C",
+        "Steenbergen L",
+        "Sellaro R",
+        "et al."
+      ],
+      "title": "Effects of Concomitant Stimulation of the GABAergic and Norepinephrine System on Inhibitory Control – A Study Using Transcutaneous Vagus Nerve Stimulation",
+      "journal": "Brain Stimul",
+      "year": "2016",
+      "volume": "9",
+      "fpage": "811",
+      "lpage": "8",
+      "doi": "10.1016/j.brs.2016.07.004",
+      "pmid": "27522167"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "De Smet S",
+        "Baeken C",
+        "Seminck N",
+        "et al."
+      ],
+      "title": "Non-invasive vagal nerve stimulation enhances cognitive emotion regulation",
+      "journal": "Behav Res Ther",
+      "year": "2021",
+      "volume": "145",
+      "fpage": "103933",
+      "doi": "10.1016/j.brat.2021.103933",
+      "pmid": "34332299"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Zhu S",
+        "Liu Q",
+        "Zhang X",
+        "et al."
+      ],
+      "title": "Transcutaneous auricular vagus nerve stimulation enhanced emotional inhibitory control via increasing intrinsic prefrontal couplings",
+      "journal": "Int J Clin Health Psychol",
+      "year": "2024",
+      "volume": "24",
+      "elocation_id": "100462",
+      "doi": "10.1016/j.ijchp.2024.100462",
+      "pmid": "38665809",
+      "pmc_id": "PMC11044052"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Zhu S",
+        "Qing Y",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Transcutaneous auricular vagus nerve stimulation increases eye-gaze on salient facial features and oxytocin release",
+      "journal": "Psychophysiology",
+      "year": "2022",
+      "volume": "59",
+      "elocation_id": "e14107",
+      "doi": "10.1111/psyp.14107",
+      "pmid": "35638321"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Edelstein M",
+        "Brang D",
+        "Rouw R",
+        "et al."
+      ],
+      "title": "Misophonia: physiological investigations and case descriptions",
+      "journal": "Front Hum Neurosci",
+      "year": "2013",
+      "volume": "7",
+      "elocation_id": "296",
+      "doi": "10.3389/fnhum.2013.00296",
+      "pmid": "23805089",
+      "pmc_id": "PMC3691507"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "Guetta RE",
+        "Cassiello-Robbins C",
+        "Trumbull J",
+        "et al."
+      ],
+      "title": "Examining emotional functioning in misophonia: The role of affective instability and difficulties with emotion regulation",
+      "journal": "PLoS One",
+      "year": "2022",
+      "volume": "17",
+      "elocation_id": "e0263230",
+      "doi": "10.1371/journal.pone.0263230",
+      "pmid": "35148347",
+      "pmc_id": "PMC8836307"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Simner J",
+        "Koursarou S",
+        "Rinaldi LJ",
+        "et al."
+      ],
+      "title": "Attention, flexibility, and imagery in misophonia: Does attention exacerbate everyday disliking of sound?",
+      "journal": "J Clin Exp Neuropsychol",
+      "year": "2021",
+      "volume": "43",
+      "fpage": "1006",
+      "lpage": "17",
+      "doi": "10.1080/13803395.2022.2056581",
+      "pmid": "35331082"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Umashankar A",
+        "Prabhu P"
+      ],
+      "title": "The application of vagus nerve stimulation in individuals with misophonia",
+      "journal": "Neurosci Res Notes",
+      "year": "2021",
+      "volume": "3",
+      "fpage": "36",
+      "lpage": "43",
+      "doi": "10.31117/neuroscirn.v3i5.105"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Fang J",
+        "Rong P",
+        "Hong Y",
+        "et al."
+      ],
+      "title": "Transcutaneous Vagus Nerve Stimulation Modulates Default Mode Network in Major Depressive Disorder",
+      "journal": "Biol Psychiatry",
+      "year": "2016",
+      "volume": "79",
+      "fpage": "266",
+      "lpage": "73",
+      "doi": "10.1016/j.biopsych.2015.03.025",
+      "pmid": "25963932",
+      "pmc_id": "PMC4838995"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33",
+      "authors": [
+        "Kraus T",
+        "Hösl K",
+        "Kiess O",
+        "et al."
+      ],
+      "title": "BOLD fMRI deactivation of limbic and temporal brain structures and mood enhancing effect by transcutaneous vagus nerve stimulation",
+      "journal": "J Neural Transm",
+      "year": "2007",
+      "volume": "114",
+      "fpage": "1485",
+      "lpage": "93",
+      "doi": "10.1007/s00702-007-0755-z",
+      "pmid": "17564758"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34",
+      "authors": [
+        "Kumar S",
+        "Tansley-Hancock O",
+        "Sedley W",
+        "et al."
+      ],
+      "title": "The Brain Basis for Misophonia",
+      "journal": "Curr Biol",
+      "year": "2017",
+      "volume": "27",
+      "fpage": "527",
+      "lpage": "33",
+      "doi": "10.1016/j.cub.2016.12.048",
+      "pmid": "28162895",
+      "pmc_id": "PMC5321671"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35",
+      "authors": [
+        "Rings T",
+        "Wrede R",
+        "Bröhl T",
+        "et al."
+      ],
+      "title": "Impact of Transcutaneous Auricular Vagus Nerve Stimulation on Large-Scale Functional Brain Networks: From Local to Global",
+      "journal": "Front Physiol",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "700261",
+      "doi": "10.3389/fphys.2021.700261",
+      "pmid": "34489724",
+      "pmc_id": "PMC8417898"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36",
+      "authors": [
+        "Yakunina N",
+        "Kim SS",
+        "Nam EC"
+      ],
+      "title": "BOLD fMRI effects of transcutaneous vagus nerve stimulation in patients with chronic tinnitus",
+      "journal": "PLoS One",
+      "year": "2018",
+      "volume": "13",
+      "elocation_id": "e0207281",
+      "doi": "10.1371/journal.pone.0207281",
+      "pmid": "30485375",
+      "pmc_id": "PMC6261575"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37",
+      "authors": [
+        "Cusack SE",
+        "Cash TV",
+        "Vrana SR"
+      ],
+      "title": "An examination of the relationship between misophonia, anxiety sensitivity, and obsessive-compulsive symptoms",
+      "journal": "J Obsessive Compuls Relat Disord",
+      "year": "2018",
+      "volume": "18",
+      "fpage": "67",
+      "lpage": "72",
+      "doi": "10.1016/j.jocrd.2018.06.004"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38",
+      "authors": [
+        "Rinaldi LJ",
+        "Simner J"
+      ],
+      "title": "Mental Health Difficulties in Children who Develop Misophonia: An Examination of ADHD, Depression & Anxiety",
+      "journal": "Child Psychiatry Hum Dev",
+      "year": "2025",
+      "volume": "56",
+      "fpage": "520",
+      "lpage": "32",
+      "doi": "10.1007/s10578-023-01569-y",
+      "pmid": "37501042",
+      "pmc_id": "PMC11928355"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39",
+      "authors": [
+        "Abraham KL",
+        "Rast CE",
+        "Storch EA",
+        "et al."
+      ],
+      "title": "What’s next for misophonia? Child and parent priorities for misophonia advocacy, treatment, and research",
+      "journal": "Pers Med Psych",
+      "year": "2025",
+      "volume": "51–52",
+      "fpage": "100160",
+      "doi": "10.1016/j.pmip.2025.100160"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40",
+      "authors": [
+        "Chan A-W",
+        "Tetzlaff JM",
+        "Gøtzsche PC",
+        "et al."
+      ],
+      "title": "SPIRIT 2013 explanation and elaboration: guidance for protocols of clinical trials",
+      "journal": "BMJ",
+      "year": "2013",
+      "volume": "346",
+      "elocation_id": "e7586",
+      "doi": "10.1136/bmj.e7586",
+      "pmid": "23303884",
+      "pmc_id": "PMC3541470"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41",
+      "authors": [
+        "Faul F",
+        "Erdfelder E",
+        "Buchner A",
+        "et al."
+      ],
+      "title": "Statistical power analyses using G*Power 3.1: tests for correlation and regression analyses",
+      "journal": "Behav Res Methods",
+      "year": "2009",
+      "volume": "41",
+      "fpage": "1149",
+      "lpage": "60",
+      "doi": "10.3758/BRM.41.4.1149",
+      "pmid": "19897823"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42",
+      "authors": [
+        "Straube A",
+        "Ellrich J",
+        "Eren O",
+        "et al."
+      ],
+      "title": "Treatment of chronic migraine with transcutaneous stimulation of the auricular branch of the vagal nerve (auricular t-VNS): a randomized, monocentric clinical trial",
+      "journal": "J Headache Pain",
+      "year": "2015",
+      "volume": "16",
+      "fpage": "543",
+      "doi": "10.1186/s10194-015-0543-3",
+      "pmid": "26156114",
+      "pmc_id": "PMC4496420"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43",
+      "authors": [
+        "Hein E",
+        "Nowak M",
+        "Kiess O",
+        "et al."
+      ],
+      "title": "Auricular transcutaneous electrical nerve stimulation in depressed patients: a randomized controlled pilot study",
+      "journal": "J Neural Transm (Vienna)",
+      "year": "2013",
+      "volume": "120",
+      "fpage": "821",
+      "lpage": "7",
+      "doi": "10.1007/s00702-012-0908-6",
+      "pmid": "23117749"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44",
+      "authors": [
+        "Jager I",
+        "de Koning P",
+        "Bost T",
+        "et al."
+      ],
+      "title": "Misophonia: Phenomenology, comorbidity and demographics in a large sample",
+      "journal": "PLoS One",
+      "year": "2020",
+      "volume": "15",
+      "elocation_id": "e0231390",
+      "doi": "10.1371/journal.pone.0231390",
+      "pmid": "32294104",
+      "pmc_id": "PMC7159231"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45",
+      "authors": [
+        "Simner J",
+        "Rinaldi LJ",
+        "Ward J"
+      ],
+      "title": "An Automated Online Measure for Misophonia: The Sussex Misophonia Scale for Adults",
+      "journal": "Assessment",
+      "year": "2024",
+      "volume": "31",
+      "fpage": "1598",
+      "lpage": "614",
+      "doi": "10.1177/10731911241234104",
+      "pmid": "38414185",
+      "pmc_id": "PMC11528938"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46",
+      "authors": [
+        "Kim AY",
+        "Marduy A",
+        "de Melo PS",
+        "et al."
+      ],
+      "title": "Safety of transcutaneous auricular vagus nerve stimulation (taVNS): a systematic review and meta-analysis",
+      "journal": "Sci Rep",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "22055",
+      "doi": "10.1038/s41598-022-25864-1",
+      "pmid": "36543841",
+      "pmc_id": "PMC9772204"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47",
+      "authors": [
+        "Grier RA",
+        "Bangor A",
+        "Kortum P",
+        "et al."
+      ],
+      "title": "The System Usability Scale: Beyond Standard Usability Testing",
+      "journal": "Proc Hum Factors Ergon Soc Annu Meet",
+      "year": "2013",
+      "volume": "57",
+      "fpage": "187",
+      "lpage": "91",
+      "doi": "10.1177/1541931213571042"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48",
+      "authors": [
+        "Schröder A",
+        "Vulink N",
+        "Denys D"
+      ],
+      "title": "Misophonia: diagnostic criteria for a new psychiatric disorder",
+      "journal": "PLoS One",
+      "year": "2013",
+      "volume": "8",
+      "elocation_id": "e54706",
+      "doi": "10.1371/journal.pone.0054706",
+      "pmid": "23372758",
+      "pmc_id": "PMC3553052"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49",
+      "authors": [
+        "Derogatis LR",
+        "Unger R"
+      ],
+      "journal": "The corsini encyclopedia of psychology",
+      "year": "2010",
+      "fpage": "1",
+      "lpage": "2"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50",
+      "title": "Pure-tone air-conduction and boneconduction threshold audiometry with and without masking",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51",
+      "title": "Determination of uncomfortable loudness levels",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Incidence of Discomfort During Pure-Tone Audiometry and Measurement of Uncomfortable Loudness Levels Among People Seeking Help for Tinnitus and/or Hyperacusis",
+      "journal": "Am J Audiol",
+      "year": "2017",
+      "volume": "26",
+      "fpage": "226",
+      "lpage": "32",
+      "doi": "10.1044/2017_AJA-17-0011",
+      "pmid": "28810267"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Factors related to uncomfortable loudness levels for patients seen in a tinnitus and hyperacusis clinic",
+      "journal": "Int J Audiol",
+      "year": "2017",
+      "volume": "56",
+      "fpage": "793",
+      "lpage": "800",
+      "doi": "10.1080/14992027.2017.1335888",
+      "pmid": "28622055"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54",
+      "authors": [
+        "Meikle MB",
+        "Henry JA",
+        "Griest SE",
+        "et al."
+      ],
+      "title": "The tinnitus functional index: development of a new clinical measure for chronic, intrusive tinnitus",
+      "journal": "Ear Hear",
+      "year": "2012",
+      "volume": "33",
+      "fpage": "153",
+      "lpage": "76",
+      "doi": "10.1097/AUD.0b013e31822f67c0",
+      "pmid": "22156949"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55",
+      "authors": [
+        "Khalfa S",
+        "Dubal S",
+        "Veuillet E",
+        "et al."
+      ],
+      "title": "Psychometric normalization of a hyperacusis questionnaire",
+      "journal": "ORL J Otorhinolaryngol Relat Spec",
+      "year": "2002",
+      "volume": "64",
+      "fpage": "436",
+      "lpage": "42",
+      "doi": "10.1159/000067570",
+      "pmid": "12499770"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56",
+      "authors": [
+        "Smees R",
+        "Simner J",
+        "Hoare DJ",
+        "et al."
+      ],
+      "title": "Dissociable effects of hyperacusis and misophonia severity imply different mechanisms of decreased sound tolerance",
+      "journal": "Int J Audiol",
+      "year": "2025",
+      "volume": "64",
+      "fpage": "964",
+      "lpage": "71",
+      "doi": "10.1080/14992027.2024.2419558",
+      "pmid": "39482886"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57",
+      "authors": [
+        "Aazh H",
+        "Hayes C",
+        "Erfanian M",
+        "et al."
+      ],
+      "title": "Confirmatory Factor Analysis of the Hyperacusis Impact Questionnaire, Sound Sensitivity Symptoms Questionnaire, and Screening for Anxiety and Depression in Tinnitus, Including Preliminary Analyses of the Parent Versions for Use with Children",
+      "journal": "J Am Acad Audiol",
+      "year": "2024",
+      "volume": "35",
+      "fpage": "81",
+      "lpage": "92",
+      "doi": "10.1055/a-2255-7643",
+      "pmid": "38286425"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58",
+      "authors": [
+        "Cerliani L",
+        "Rouw R"
+      ],
+      "title": "Increased orbitofrontal connectivity in misophonia",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59",
+      "authors": [
+        "Hansen HA",
+        "Leber AB",
+        "Saygin ZM"
+      ],
+      "title": "What sound sources trigger misophonia? Not just chewing and breathing",
+      "journal": "J Clin Psychol",
+      "year": "2021",
+      "volume": "77",
+      "fpage": "2609",
+      "lpage": "25",
+      "doi": "10.1002/jclp.23196",
+      "pmid": "34115383"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60",
+      "authors": [
+        "Daniels EC",
+        "Rodriguez A",
+        "Zabelina DL"
+      ],
+      "title": "Severity of misophonia symptoms is associated with worse cognitive control when exposed to misophonia trigger sounds",
+      "journal": "PLoS One",
+      "year": "2020",
+      "volume": "15",
+      "elocation_id": "e0227118",
+      "doi": "10.1371/journal.pone.0227118",
+      "pmid": "31945068",
+      "pmc_id": "PMC6964854"
+    },
+    {
+      "ref_id": "R61",
+      "label": "61",
+      "authors": [
+        "Black B",
+        "Hunter S",
+        "Cottrell H",
+        "et al."
+      ],
+      "title": "Remotely supervised at-home delivery of taVNS for autism spectrum disorder: feasibility and initial efficacy",
+      "journal": "Front Psychiatry",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1238328",
+      "doi": "10.3389/fpsyt.2023.1238328",
+      "pmid": "37840787",
+      "pmc_id": "PMC10568329"
+    },
+    {
+      "ref_id": "R62",
+      "label": "62",
+      "authors": [
+        "Stavrakis S",
+        "Stoner JA",
+        "Humphrey MB",
+        "et al."
+      ],
+      "title": "TREAT AF (Transcutaneous Electrical Vagus Nerve Stimulation to Suppress Atrial Fibrillation): A Randomized Clinical Trial",
+      "journal": "JACC Clin Electrophysiol",
+      "year": "2020",
+      "volume": "6",
+      "fpage": "282",
+      "lpage": "91",
+      "doi": "10.1016/j.jacep.2019.11.008",
+      "pmid": "32192678",
+      "pmc_id": "PMC7100921"
+    },
+    {
+      "ref_id": "R63",
+      "label": "63",
+      "authors": [
+        "Brand A",
+        "Allen L",
+        "Altman M",
+        "et al."
+      ],
+      "title": "Beyond authorship: attribution, contribution, collaboration, and credit",
+      "journal": "Learn Publ",
+      "year": "2015",
+      "volume": "28",
+      "fpage": "151",
+      "lpage": "5",
+      "doi": "10.1087/20150211"
     }
   ]
 }
