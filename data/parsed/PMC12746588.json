@@ -1,11 +1,89 @@
 {
   "metadata": {
-    "title": "",
-    "authors": [],
-    "journal": "",
-    "year": "",
-    "doi": "",
-    "pmc_id": ""
+    "title": "Associations of Biological Aging with Perceived Stress in Patients with Head and Neck Cancer Undergoing Intensity-Modulated Radiotherapy: A Longitudinal Study",
+    "authors": [
+      "Yufen Lin",
+      "Jordan Pelkmans",
+      "Amruta Epari",
+      "Telisa Spikes",
+      "Gang Peng",
+      "Deborah W. Bruner",
+      "Andrew H. Miller",
+      "Jennifer C. Felger",
+      "Evanthia C. Wommack",
+      "Karen N. Conneely",
+      "Nabil F. Saba",
+      "Dong M. Shin",
+      "Canhua Xiao"
+    ],
+    "journal": "International journal of radiation oncology, biology, physics",
+    "year": "2025",
+    "doi": "10.1016/j.ijrobp.2025.11.025",
+    "pmc_id": "PMC12746588",
+    "pmid": "41285271",
+    "full_text_available": true,
+    "section_count": 12
   },
-  "sections": []
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose: Accelerated biological aging increases morbidity and mortality in patients with head and neck cancer (HNC) undergoing intensity-modulated radiotherapy (IMRT). Stress from HNC and IMRT may exacerbate this process, yet the link between biological aging and perceived stress during treatment remains unclear. The purpose of this study was to examine associations between biological aging and perceived stress in HNC patients receiving IMRT across four time points: pre-, end of, 3 months, and 12 months post-IMRT. Methods and Materials: This prospective longitudinal study assessed perceived stress using the Perceived Stress Scale (PSS) and various biological aging markers, including epigenetic age acceleration (EAA), DunedinPACE, Klemera-Doubal biological age (KDM), PhenoAge, homeostatic dysregulation (HD), and inflammatory markers (interleukin [IL]-6, IL-1β, IL-10, IL-1ra, C-reactive protein [CRP], soluble tumor necrosis factor receptor 2 [sTNFR2], and TNF-α). Linear mixed effects models examined associations between each biological aging marker and perceived stress over time. Results: Among 146 HNC patients (mean age 59.12±10.05 years, 73% male, 81% non-Hispanic White), perceived stress increased during treatment, declined significantly post-treatment, and remained lower than the baseline level. Higher perceived stress was significantly associated with increased DunedinPACE (estimate = 10.82, 95% CI [4.49, 17.15], p = 0.001), KDM (estimate = 0.03, 95% CI [0.01, 0.05], p = 0.003), PhenoAge (estimate = 0.25, 95% CI [0.06, 0.44], p = 0.011), CRP (estimate = 1.42, 95% CI [0.35, 2.48], p = 0.009), TNF-α (estimate = −3.92, 95% [−7.53, −0.31], p = 0.033), and IL-1ra (estimate = 4.89, 95% CI [2.24, 7.54], p < 0.001) over time, after adjusting for covariates (e.g., age, gender, race, marital status, income, tumor HPV status, and treatment). Conclusions: The strong association between biological aging and perceived stress suggests the critical role of stress in aging acceleration for patients with HNC. Future research should aim to investigate the stress-inflammation management to decelerate aging and improve survivorship in this vulnerable cancer populations.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "The head and neck cancer (HNC) population has increased significantly with approximately 71,100 new cases and 16,110 deaths in the United States in 2024. 1 Intensity-modulated radiotherapy (IMRT) is a primary treatment modality for HNC. 2 However, due to the high morbidity and psychological burden related to diagnosis and treatment, patients often experience severe stress, which may accelerate aging process and negatively impact emotional well-being, quality of life, and overall survival. 3 , 4 Biological aging refers as cumulative, measurable decline in biological system integrity across cellular, molecular, and physiological domains, distinct from chronological aging. 5 Various measures have been developed to assess biological aging, including DNA methylation markers (e.g., epigenetic age acceleration [EAA], DunedinPACE), blood chemistry markers (e.g., Klemera-Doubal biological age [KDM], PhenoAge, homeostatic dysregulation [HD]), and inflammatory markers (e.g., interleukin [IL]-6, IL-1β, IL-10). These measures offer a potential comprehensive understanding of the complex interplay between stress and aging in cancer populations. 6 Despite growing research on biological aging and stress, longitudinal studies investigating these associations following cancer treatment remain limited, particularly in HNC patients undergoing IMRT. This study aimed to examine the relationship between perceived stress and biological aging over time to inform targeted interventions that promote healthy aging among this vulnerable population. Identifying stress as a driver of accelerated biological aging could raise clinician awareness of the critical role of stress assessment and management in routine care.",
+      "order": 1
+    },
+    {
+      "section": "Patients And Settings",
+      "text": "The study was approved by the Institutional Review Board (IRB #00070167) and conducted in accordance with STROBE guidelines for reporting observational studies. 7 This prospective longitudinal study enrolled 146 patients with HNC undergoing IMRT at a National Cancer Institute-designated center in the southern United States. All patients were consecutively recruited prior to radiotherapy between January 2019 and May 2022. Inclusion criteria were: ≥21 years old, histologically confirmed squamous cell carcinoma of the head and neck, clinical stage T1–T4 (any N, M0), adequate organ function, and English fluency. Exclusion criteria included: prior invasive malignancies within three years, concurrent primary cancers, pregnancy, psychiatric disorders, or chronic immune-related conditions. All participants provided informed consent. Data collection occurred at four time points: pre- (T1), end of (T2), 3 months (T3), and 12 months post-IMRT (T4). Blood samples and questionnaires were collected at each time point.",
+      "order": 2
+    },
+    {
+      "section": "Measurements",
+      "text": "Demographic and clinical variables (age, sex, race, marital status, tobacco/alcohol use, functional status, tumor human papillomavirus (HPV) status, BMI, cancer site/stage, treatment type) were obtained from medical records. Perceived stress was measured using the 10-item Perceived Stress Scale (PSS), with total scores ranging from 0–40 (higher scores indicating greater stress). Stress was categorized as low (PSS score 0–13) or moderate-to-high (PSS score 14–40) based on established cut-offs from prior studies and standard scoring guidelines. 8 The PSS has well established validity and reliability. 8 DNA methylation-based aging measures included EAA (calculated from DNAmPhenoAge) and DunedinPACE. 9 , 10 Blood was processed using QIAamp kits and MethylationEPIC BeadChips. Blood chemistry-based aging metrics (KDM, PhenoAge, HD) were derived from clinical markers (e.g., albumin, lymphocytes, white blood cell count). 11 KDM and PhenoAge were regressed on chronological age to compute residuals; HD required no adjustment. Inflammatory markers included IL-6, IL-10, IL-1β, IL-1ra, C-reactive protein (CRP), soluble tumor necrosis factor receptor 2 (sTNFR2), and TNF-α. 12 Plasma samples were analyzed using Magnetic Luminex and turbidimetric assays. Coefficients of variation for all assays were <10%.",
+      "order": 3
+    },
+    {
+      "section": "Data Analysis",
+      "text": "All statistical analyses were conducted using R version 4.4.0. 13 No a priori sample size calculation was conducted. However, according to G*Power, the final sample size of 146 patients with repeated measures across four time points provided sufficient power to detect a Cohen’s F of 0.2, which is considered a medium effect size. 14 Descriptive statistics were used for demographic and clinical data. Wilcoxon rank-sum, Pearson’s chi-squared, and Fisher’s exact tests compared differences across stress groups. Perceived stress trends were examined using linear mixed-effects models. Associations between perceived stress and aging markers were evaluated with separate linear mixed-effects models for each marker. Models controlled for covariates selected via LASSO regression (gender, race, marital status, income, tumor HPV status, alcohol/tobacco use, functional status, and surgery). Time was modeled as a categorical fixed effect with four levels (T1–T4) to capture non-linear patterns across assessment points. The lme4 package was used in R to specify a random intercept for each subject towards obtaining restricted maximum likelihood (REML) parameter estimates. 15 Model assumptions were checked using residuals-versus-fitted values plots for non-constant variance and quantile-quantile plots for residuals normality. None of the plots indicated violations of assumptions. Inflammatory markers were log10-transformed and standardized. A composite inflammatory score was generated using principal component analysis (PCA) with the princomp function in R. The first principal component scores were extracted and used as the composite inflammatory score in the mixed-effects models.",
+      "order": 4
+    },
+    {
+      "section": "Demographic And Clinical Characteristics Of The Participants",
+      "text": "A total of 146 patients with HNC receiving IMRT were included. Participants were predominantly middle-aged (mean age 59.1 ± 10.1 years), male (73%), non-Hispanic White (81%), married (68%), and had annual incomes above $40,000 (62%). The $40,000 annual income threshold was selected to reflect regional median household income and socioeconomic risk classifications commonly used in survivorship studies. 16 Most had a history of tobacco use (60%), were diagnosed with stage IV disease (79%), and received combined radiation and chemotherapy (56%). At baseline, patients with moderate to high stress were more likely to be female (p = 0.022), unmarried (p < 0.001), have HPV-unrelated tumors (p = 0.045), use tobacco (p = 0.015), have lower income (p = 0.011), limited physical activity (p = 0.018), non-oropharyngeal cancer site (p = 0.012), and higher symptom burden (p < 0.001).",
+      "order": 5
+    },
+    {
+      "section": "Perceived Stress Changes Across Four Time Points",
+      "text": "Figure 1 describes the changes in perceived stress over time. The stress scores increased slightly from T1 to T2, decreased significantly at T3, and gradually decreased at T4, with the perceived stress level lower than T1 (p < 0.05).",
+      "order": 6
+    },
+    {
+      "section": "Associations Between Biological Aging Markers And Stress Over Time",
+      "text": "As shown in Table 2 and Figure 2 , higher stress levels were significantly associated with increased DunedinPACE (estimate = 10.82, 95% confidence interval (CI) [4.49, 17.15], p = 0.001) over time, after adjusting for confounders. Blood chemistry markers also showed significant associations with stress: KDM (estimate = 0.03, 95% CI [0.01, 0.05], p = 0.003) and PhenoAge (estimate = 0.25, 95% CI [0.06, 0.44], p = 0.011). Inflammatory markers positively associated with stress included CRP (estimate = 1.42, 95% CI [0.35, 2.48], p = 0.009), TNF-α (estimate = −3.92, 95% [−7.53, −0.31], p = 0.033), and IL-1ra (estimate = 4.89, 95% CI [2.24, 7.54], p < 0.001). Higher levels of stress showed a trend toward an association with the composite inflammation score (estimate = 0.42, 95% CI [−0.07,0.92], p = 0.095).",
+      "order": 7
+    },
+    {
+      "section": "Discussion",
+      "text": "To our knowledge, this is the first study to examine associations between biological aging and perceived stress in patients with HNC undergoing IMRT. Our findings indicate that high perceived stress is significantly linked to accelerated biological aging across multiple indicators, including DNA methylation measures (DunedinPACE), blood chemistry markers (KDM, PhenoAge), and inflammatory markers (CRP, TNF-α, IL-1ra). These results offer novel insights into the biological effects of perceived stress in cancer patients, suggesting the relevance of stress as a modifiable factor in aging-related health outcomes. Although many of these laboratory measures are not yet widely used in clinical practice, understanding stress-related aging mechanisms is critical for developing future risk stratification tools and supportive interventions aimed at improving survivorship outcomes. Our study observed a dynamic pattern of perceived stress in HNC patients undergoing IMRT, with stress levels rising during treatment and declining post-treatment. This aligns with prior research showing stress tends to decrease as time from diagnosis and treatment progresses. 17 The initial increase likely reflects the physical and emotional challenges of IMRT, while the post-treatment decline suggests adaptation and resolution of acute stressors. 18 Increased support during active treatment may help mitigate peak stress, and continued monitoring post-treatment can ensure long-term resilience. Chronic stress has been shown to influence DNA methylation, particularly in genes associated with immune function and stress regulation. 19 These epigenetic changes may alter gene expression and cellular function, contributing to long-term physiological effects. 20 Early adversity and chronic stress have been associated with epigenetic modifications via hypothalamic-pituitary-adrenal axis, 21 indicating a potential mechanism through which stress experiences can have lasting biological effects. Blood chemistry markers further reinforce the connection between stress and aging. These markers capture distinct aging dimensions, including physiological decline and risk for morbidity and mortality. 22 In our analysis, a 4-unit out of 40 increase in stress was linked to a 1-year acceleration in PhenoAge, and a 10-unit out of 40 increase was associated with a 3.6-month acceleration in KDM. These findings suggest that blood chemistry markers, alongside DNA methylation, provide valuable insights into stress-related aging and should be further explored in future studies. Inflammatory processes may also play a central role in modifying the relationship between stress and aging. We observed that patients with higher inflammation experienced greater acceleration in epigenetic aging, with a 6-year gap between high- and low-inflammation groups. 23 This supports the concept of “inflammaging,” where chronic stress contributes to a persistent pro-inflammatory state, accelerating biological aging. 24 In HNC patients, treatment-related stress coupled with systemic inflammation may amplify this process. 25 While elevated stress is linked to inflammation, it is also possible that inflammation contributes to stress perceptions through neuroimmune pathways. 26 This bidirectional relationship highlights the complexity of the stress–inflammation–aging axis and emphasize the need for further research to validate these findings.",
+      "order": 8
+    },
+    {
+      "section": "Implications",
+      "text": "Our findings are highly relevant to clinical practice in radiation oncology. While biological aging markers themselves are not yet feasible for routine use, the strong associations we have observed between perceived stress and accelerated aging indicate stress as a modifiable clinical target. Clinicians should consider incorporating routine stress assessment and management into oncology care. Interventions such as cognitive behavioral therapy and psychosocial support may help reduce the biological burden of stress, 27 leading to decelerated aging. Mitigation of the inflammatory cascade could also be a therapeutic option. 28 Furthermore, testing stress-responsive aging biomarkers identified in our study offers a foundation for personalized supportive care and biomarker-informed risk stratification. In addition, our findings highlight those patients with socioeconomic disadvantaged conditions, such as being unmarried, having lower income, and using tobacco, are more likely to experience elevated stress, reflecting the influence of underlying social determinants of health. These disadvantaged conditions are often linked with limited resources or access to supportive services. 29 Future research should incorporate a multi-level approach to addressing social determinants of health as they relate to stress and biological aging. Additionally, further investigation is needed to understand the biopsychosocial mechanisms linking stress and biological aging, and to explore whether interventions targeting social determinants, inflammation, and stress yield the greatest benefit for improving health outcomes.",
+      "order": 9
+    },
+    {
+      "section": "Limitations",
+      "text": "While our study provides important insights into the relationship between biological aging and perceived stress in HNC patients, several limitations should be noted. Conducting the study at a single institution may limit generalizability. The inclusion criterion of English fluency and reliance on self-reported stress measures may introduce potential biases. Additionally, the use of a limited set of blood chemistry markers may not fully capture the complexity of biological aging. Moreover, unmeasured confounders such as diet and social support may influence the associations observed.",
+      "order": 10
+    },
+    {
+      "section": "Conclusion",
+      "text": "Perceived stress is strongly associated with accelerated biological aging, as indicated by various aging markers in patients with HNC receiving IMRT. These consistent and novel findings demonstrate a crucial role of stress on decelerating aging and improving long-term cancer outcomes. Thus, assessing and managing stress in a clinical setting is essential. Future research could also aim to investigate the stress–inflammation–aging pathways and test targeted anti-inflammatory interventions that could be linked to reduced stress and promote healthy aging and survivorship in cancer populations.",
+      "order": 11
+    }
+  ]
 }

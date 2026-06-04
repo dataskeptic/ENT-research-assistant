@@ -1,11 +1,62 @@
 {
   "metadata": {
-    "title": "",
-    "authors": [],
-    "journal": "",
-    "year": "",
-    "doi": "",
-    "pmc_id": ""
+    "title": "Behavioral Risk Factors and Seroprevalence for Human Papillomavirus in Sinonasal Carcinoma: A Multi-Institutional Case-Control Study",
+    "authors": [
+      "Ved Tanavde",
+      "Anuj Tharakan",
+      "Gypsyamber D’Souza",
+      "Ralph Abi Hachem",
+      "Melina J. Windon",
+      "Sophia Jung",
+      "Jordan Smith",
+      "Fahad Alkahtani",
+      "Raymond J. So",
+      "David W. Jang",
+      "Tanvir Queraishi",
+      "Zubair Khan",
+      "Birgitta Michels",
+      "Tim Waterboer",
+      "Carole Fakhry",
+      "Nyall R. London"
+    ],
+    "journal": "Head & neck",
+    "year": "2026",
+    "doi": "10.1002/hed.70171",
+    "pmc_id": "PMC12900527",
+    "pmid": "41609014",
+    "full_text_available": true,
+    "section_count": 6
   },
-  "sections": []
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Importance Sinonasal carcinomas are rare but aggressive malignancies. A subset is associated with high-risk HPV, but risk factors for HPV-associated sinonasal carcinoma (HPV-SNC) and HPV-independent disease remain poorly understood. Objective To evaluate behavioral and clinical risk factors, including sexual history and substance use, and HPV antibody seropositivity in patients with HPV-SNC and HPV-independent SNC. Design, Setting, and Participants This multi-institutional case-case-control study was conducted from 2021 to 2024 at two NCI-designated cancer centers. Fifty-two patients with sinonasal carcinoma were enrolled; 37 completed a survey of demographic, clinical, and behavioral factors (24 HPV-SNC, 13 HPV-independent SNC) and serology was obtained for 36 (24 HPV-SNC, 12 HPV-independent SNC). Control non-cancer otolaryngology patients (n=148) from a recent prior study were matched 4:1. Exposure Self-reported history of sexual behaviors, substance use, and medical history via electronic survey; serum testing for antibodies to low- and high-risk HPV E6, E7, E1, E2, and L1 oncoproteins using a multiplex bead-based assay. Main Outcome and Measure Odds of HPV-SNC or HPV-independent SNC diagnosis in relation to risk factors; differences in HPV seropositivity between groups. Results Among the 37 cancer patients who completed the survey, a history of tonsillectomy was significantly associated with reduced odds of HPV-SNC (OR 0.28, CI 0.09–0.86). No other factors explored (sexual behavior, substance use, or other clinical factors) were associated with HPV-associated SNC and HPV-independent SNC. Seroprevalence of anti-HPV16 E6 was significantly higher among HPV-associated SNC cases than either controls or HPV-independent SNC (45.8% vs. 0% and 13.1%), HPV-16 E6 (18.2% vs. 0% and 4.0%), and HPV-16 early proteins (16.7% vs. 0% and 0%) than HPV-independent SNC patients or controls, respectively. Conclusions and Relevance HPV-SNC exhibits distinct serologic features without clear behavioral risk factors. The protective association of tonsillectomy suggests lymphoid tissue may play a role in HPV-associated sinonasal oncogenesis. In contrast, the absence of identifiable risk factors for HPV-independent SNC highlights the need for further etiologic studies.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Sinonasal cancers are rare, accounting for less than 5% of all head and neck cancers, with an estimated incidence of 0.5 to 1.0 per 100,000. 1 Despite their rarity, sinonasal cancers carry substantial morbidity and mortality and present diagnostic and therapeutic challenges due to nonspecific early symptoms such nasal obstruction, sinus pressure, and epistaxis, and associated delays in diagnosis. Consequently, these malignancies are frequently advanced at presentation, involving critical structures like the skull base and orbit. 2 , 3 This underscores the need for further study, including into the etiological factors underlying sinonasal tumorigenesis. While it is now established that human papillomavirus (HPV) molecularly drives tumorigenesis in a subset of sinonasal carcinomas, behavioral risk factors related to HPV-SNC are poorly described and it is unclear how HPV infects the sinonasal tract. 4 – 6 Additionally, it is unknown if HPV-independent SNC differs in terms of risk factor profile from HPV-associated SNC (HPV-SNC). In contrast, behavioral risk factors and routes of HPV exposure have been well characterized for HPV-associated oropharyngeal squamous cell carcinoma (HPV-OPC), with numerous studies demonstrating the association of sexual exposure to HPV and the presence of HPV E6 antibodies with diagnosis of HPV-OPC. 7 – 10 To date, no studies have evaluated the relationship between HPV seropositivity and SNC. This study addresses these gaps by investigating clinical and behavioral risk factors, including sexual behaviors, and serologic responses to HPV oncoproteins in patients with HPV-SNC and patients with HPV-independent SNC.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This was a multi-institutional case-case-control study conducted from 2021 to 2024 at two NCI-designated comprehensive cancer centers: the Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins and the Duke Cancer Institute ( NCT04979000 ). The study enrolled 52 adult patients with incident sinonasal carcinoma and no prior head and neck cancer or radiation. Three patients with squamous cell carcinoma arising from inverted papilloma were excluded. Ultimately, 33 patients had HPV-associated SNC, and 16 had HPV-independent SNC, defined by presence of absence of RNA using in situ hybridization or p16 immunohistochemistry from surgical pathology samples. Control participants were drawn from a previous study conducted between 2013 and 2018 that enrolled non-cancer patients from general otolaryngology clinics at Johns Hopkins and Greater Baltimore Medical Center and frequency matched to cases based on age, sex and race, using the same survey instrument. 11 All participants provided informed consent, and the study was approved by the institutional review boards at Johns Hopkins and Duke. Serologic testing was performed on serum samples from SNC and control subjects using a bead-based multiplex assay for antibodies against HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58—specifically targeting E6, E7, E1, E2, and L1 proteins as previously described. 4 , 11 Blood was drawn from SNC subjects pre-treatment when possible; 13 patients had post-treatment blood draws. Participants completed a computer-assisted survey either in clinic or remotely via REDCap. Survey topics included demographics, medical history, sexual history (oral/vaginal sex history, number of partners, age at debut), and substance use as previously described. 11 Of the 49 patients eligible for the survey, 37 (76%) responded. From the prior control cohort, 488 surveys were available, from which 148 were matched 4:1 with cases based on age (within 5 years), sex, and race (white vs. non-white) 11 . Statistical analyses included conditional logistic regression to estimate odds ratios for HPV-SNC or HPV-independent SNC diagnosis, with 95% confidence intervals. Survey results were analyzed by Chi-squared and Fisher’s exact tests to compare between HPV-associated SNC vs. controls and HPV-independent SNC vs. controls. Serology was analyzed by Student’s t-test to compare HPV-associated SNC, HPV-independent SNC, and control subjects. Associations were considered significant at P < 0.05. Sensitivity analyses tested robustness using randomized control sets. Confounding variables such as age, sex, and race were accounted for through matched study design.",
+      "order": 2
+    },
+    {
+      "section": "Results",
+      "text": "The majority of cancer participants were male (70%) and white (78%), with a median age of 67 years (range 33–82). Pathologic analysis by RNA in situ hybridization and p16 immunohistochemistry demonstrated 67.3% of SNC were HPV-associated and 32.7% were HPV-independent. Participants with HPV-SNC and HPV-independent groups had similar demographic characteristics, including age, sex, race, occupational exposures, income, and education ( Table 1 ). Behavioral surveys were available among 37 cases (76%), and serology was available for 36 cases (74%) of which 24 were HPV-associated and 12 were HPV-independent SNC. The non-SNC control subjects were 70% male, 78% white, with a median age of 65 (range 27–89). In the case-control analysis comparing HPV-SNC and controls, a history of tonsillectomy was associated with significantly reduced odds of HPV-SNC (OR 0.28, CI 0.09–0.86) ( Figure 1A ). Odds of HPV-SNC were not increased when evaluating other risk factors. Similarly, in case control studies comparing HPV-independent SNC and controls, there were no risk factors identified to increase odds of diagnosis. When comparing HPV-associated SNC and HPV-independent SNC, there were no differences in risk factors ( Figure 1A , 1B ). HPV-SNC patients were significantly more likely to be seropositive for high-risk HPV E6 oncoproteins than either HPV-independent SNC (45.8% vs. 0%, P<0.001) or controls (13.1%, P < 0.001) ( Figure 2 ). HPV-SNC patients also showed significantly higher seropositivity to HPV-16 E6 (18.2% vs. 0% and 4.0%, respectively, P = 0.010) and to HPV-16 early proteins (at least three of E1, E2, E6, and E7), when compared to HPV-independent SNC patients and controls (16.7% vs. 0% and 0%, respectively, P = 0.001) ( Figure 2 ).",
+      "order": 3
+    },
+    {
+      "section": "Discussion",
+      "text": "This is the first multi-center case-control study to evaluate clinical and behavioral risk factors, along with HPV serologic markers, in patients with sinonasal carcinoma. Our serologic findings add to the growing body of evidence supporting a role for HPV as an etiologic driver in sinonasal cancer. Patients with HPV-positive sinonasal carcinoma demonstrated significantly higher seroprevalence of HPV E6 antibodies and other early viral proteins, particularly HPV-16, compared to HPV-independent SNC patients and controls. Given the rising incidence of HPV-associated malignancies, a corresponding increase in the incidence of this rare but highly morbid cancer is anticipated until the potential future protective impact of HPV vaccination is realized. Unlike in oropharyngeal cancer, where sexual behaviors are established risk factors, we found no significant associations between sexual history and HPV-SNC. Our results suggest that the risk profile of HPV-SNC is distinct from that of HPV-associated oropharyngeal cancer. Interestingly, tonsillectomy was associated with decreased odds of diagnosis HPV-SNC. While previous studies have linked tonsillectomy with reduced risk of tonsillar cancer, our results suggest the tonsils may also serve as a reservoir for HPV, potentially contributing to sinonasal infection. Removal of the tonsils and adenoids—perhaps more important given proximity to the oropharynx and commonly removed at the same time as tonsillectomy—may eliminate this potential viral source. Supporting this hypothesis, prior studies have shown that tonsillar crypts can harbor high-risk HPV and possess immune-privileged characteristics that could facilitate oncogenesis. 12 – 14 Furthermore, it has been hypothesized that refluxed oropharyngeal secretions may be one means of sinonasal exposure. 15 While this may be one route of HPV exposure to the sinonasal cavity, there are also cases of HPV-SNC located at the anterior nasal cavity. It is possible that direct inhalation or inoculation to the anterior nasal cavity may be another route of exposure, however, this cannot be assessed through our present study. Despite the study strengths which include a multi-institutional design, matched controls, and the first HPV serologic profiling in this cancer subtype, our study has limitations. Small sample size, particularly for HPV-independent cases, limits statistical power. Self-reported behavioral data introduce potential recall bias and control serology data was collected several years prior, introducing possible variability in testing conditions. Finally, our survey asked respondents to indicate history of tonsillectomy without further specifying whether adenoidectomy was also performed. Overall, our findings underscore that HPV-associated sinonasal carcinoma has unique risk factors and serologic features, distinct from other HPV-related head and neck cancers. Future studies should investigate the role of adenoid tissue, alternative HPV transmission routes, and the potential impact of tonsillectomy on development of HPV-associated SNC.",
+      "order": 4
+    },
+    {
+      "section": "Conclusion",
+      "text": "This multi-institutional case-control study identified a potential protective association between prior tonsillectomy and HPV-associated sinonasal carcinoma and demonstrated significantly elevated HPV seropositivity in HPV-SNC patients. No significant link was found between sexual behaviors and HPV-SNC, distinguishing it from HPV-associated oropharyngeal cancer. These findings support HPV’s role in sinonasal oncogenesis and suggest that oropharyngeal and nasopharyngeal lymphoid tissue may play a role in its pathogenesis. Future studies should explore whether tonsillectomy or adenoidectomy influence HPV-associated SNC development and investigate the mechanisms of HPV exposure and persistence in the sinonasal tract.",
+      "order": 5
+    }
+  ]
 }

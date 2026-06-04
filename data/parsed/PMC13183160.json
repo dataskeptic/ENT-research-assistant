@@ -1,11 +1,166 @@
 {
   "metadata": {
-    "title": "",
-    "authors": [],
-    "journal": "",
-    "year": "",
-    "doi": "",
-    "pmc_id": ""
+    "title": "Temporal trends in thyroid cancer incidence worldwide and in BRICS countries: A Bayesian age-period-cohort analysis and 20-year projections based on GBD 2021 data",
+    "authors": [
+      "Lumei Tang",
+      "Jieyan Liu",
+      "Fang Tang",
+      "Dan Xie",
+      "Guansheng Liu"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000048828",
+    "pmc_id": "PMC13183160",
+    "pmid": "42152397",
+    "full_text_available": true,
+    "section_count": 29
   },
-  "sections": []
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "The incidence of thyroid cancer has increased globally over recent decades, while mortality has remained stable or declined. However, integrated assessments of temporal trends, age-period-cohort (APC) effects, and future projections, particularly in BRICS countries, are limited. This study evaluated long-term incidence trends of thyroid cancer worldwide and across BRICS nations from 1990 to 2021 and projected future patterns. Data were derived from the Global Burden of Disease 2021 study. Age-standardized incidence rates and estimated annual percentage changes were calculated to assess temporal trends. Countries were grouped using hierarchical cluster analysis. Conventional APC analysis and Bayesian APC models were applied to identify dominant temporal effects and project incidence from 2022 to 2041 by sex and age group. Globally, the age-standardized incidence rate of thyroid cancer increased from 2.06 to 2.91 per 100,000 population between 1990 and 2021 (estimated annual percentage change = 1.25%). Considerable heterogeneity was observed among BRICS countries. China and India experienced the fastest increases, with particularly steep rises among Chinese males. The Russian Federation showed persistently high but relatively stable incidence, while Brazil and South Africa exhibited moderate upward trends. APC analyses indicated that period effects predominated globally and in Brazil and South Africa, cohort effects were dominant in China and India, and age effects were more pronounced in the Russian Federation. Bayesian APC projections suggested a continued global increase in thyroid cancer incidence, especially among middle-aged and older women, with sustained female predominance. Thyroid cancer incidence is projected to rise further worldwide, with heterogeneous APC-driven patterns across BRICS countries, underscoring the need for targeted surveillance and prevention strategies.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Thyroid cancer is the most common malignancy of the endocrine system, and its incidence has increased markedly over recent decades, [ 1 , 2 ] posing a growing global public health challenge. Epidemiological evidence indicates a sustained worldwide rise in thyroid cancer incidence, driven predominantly by papillary thyroid carcinoma, particularly microcarcinomas, with projections suggesting it may become the fourth most commonly diagnosed cancer by 2030. [ 3 ] Notably, this increase in incidence has often been accompanied by stable or declining mortality rates across many regions, [ 4 , 5 ] highlighting the potential role of enhanced detection and overdiagnosis. The widespread use of sensitive diagnostic technologies, along with improved healthcare access and disease awareness, has substantially increased the detection of subclinical and indolent tumors. Consequently, overdiagnosis related to intensified screening is widely regarded as a major contributor to the observed rise in incidence, as evidenced by parallel increases in diagnostic imaging and fine-needle aspiration biopsy in several countries, including the United States. [ 6 , 7 ] The Global Burden of Disease (GBD) study provides a comprehensive framework for quantifying health loss across diseases and regions worldwide. Analyzing thyroid cancer within the GBD framework enables robust cross-national and temporal comparisons and supports evidence-based health policy planning. [ 8 , 9 ] Although existing GBD-based studies consistently report increasing thyroid cancer incidence, [ 10 ] most have focused on global trends or high-income countries, with limited attention to low- and middle-income settings or specific geopolitical groupings. The BRICS countries – Brazil, Russia, India, China, and South Africa – account for approximately half of the global population and are undergoing rapid socioeconomic and demographic transitions. [ 11 – 14 ] Despite broadly similar development stages, substantial heterogeneity exists in healthcare systems, diagnostic capacity, environmental exposures, and population-level risk factors, resulting in marked variation in thyroid cancer incidence and trends across the bloc. While previous studies have examined individual BRICS countries, [ 15 ] comparative analyses assessing temporal drivers and future incidence across all BRICS nations remain scarce. To address these gaps, this study utilized data from the GBD 2021 database to characterize trends in thyroid cancer age-standardized incidence rates (ASIRs) globally and across BRICS countries from 1990 to 2021. Hierarchical cluster analysis was used to identify similarities in incidence trajectories, age-period-cohort (APC) models were applied to disentangle temporal effects, and Bayesian APC models were employed to project future thyroid cancer incidence over the next 2 decades. These analyses provide an evidence base for developing targeted, context-specific strategies for thyroid cancer prevention, early detection, and resource allocation.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Data Sources",
+      "text": "Data for this study were obtained from the GBD 2021 database, developed by the Institute for Health Metrics and Evaluation at the University of Washington, United States. [ 16 ] The GBD is a comprehensive and standardized epidemiological framework that provides estimates of incidence, prevalence, and mortality for a wide range of diseases, including thyroid cancer, across 204 countries and territories from 1990 to 2021.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Age Standardization And Trend Analysis",
+      "text": "Age standardization was applied to account for differences in population age structures, enabling valid comparisons of incidence across regions and over time. ASIR represents the number of newly diagnosed thyroid cancer cases per 100,000 population, standardized to the World Health Organization standard population. This was calculated by weighting age-specific incidence rates for each location and year according to the World Health Organization standard age distribution. [ 17 ] Temporal trends in ASIRs were quantified using the estimated annual percentage change (EAPC). A log-linear regression model was fitted to the ASIRs as follows: ln (ASIR) = α + β x + ε, where x denotes the calendar year. The EAPC was calculated as ( e β −1) × 100%. An EAPC with a 95% confidence interval (CI) that excluded 0 was interpreted as indicating a significant increasing or decreasing trend.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Cluster Analysis",
+      "text": "Cluster analysis was used to identify similarities and differences in thyroid cancer incidence trends across countries. Euclidean distance was applied to quantify dissimilarities in ASIR trajectories, and hierarchical clustering was performed using the Ward D 2 method, which minimizes within-cluster variance. Countries grouped closer together in the resulting dendrogram were considered to exhibit more similar incidence patterns, facilitating comparative assessment of disease burden among BRICS nations and at the global level.",
+      "order": 4
+    },
+    {
+      "section": "2.4. Apc Analysis",
+      "text": "An APC model was employed to disentangle the independent effects of age, [ 18 ] period, and birth cohort on thyroid cancer incidence. The age effect reflects changes in incidence associated with biological aging and is illustrated through longitudinal age-specific incidence curves. The period effect captures temporal influences that affect all age groups simultaneously, such as changes in diagnostic practices, healthcare access, or public health policies. The cohort effect represents variations in risk attributable to differing exposures or environmental conditions experienced by individuals born in different time periods. Together, these components provide insights into the underlying drivers of temporal incidence trends.",
+      "order": 5
+    },
+    {
+      "section": "2.5. Bayesian Age-Period-Cohort (Bapc) Model For Projections",
+      "text": "Building on the conventional APC framework, a BAPC model was applied to project future thyroid cancer incidence. [ 19 ] The BAPC approach incorporates prior distributions for age, period, and cohort effects and updates them with observed data to generate posterior predictive distributions. Parameter estimation was performed using the integrated nested Laplace approximation algorithm, which enables efficient Bayesian inference for complex hierarchical models. Second-order random walk priors were specified for age, period, and cohort effects to reflect the expected smoothness of temporal trends. Based on incidence data from 1990 to 2021, the model was used to forecast global and BRICS-specific ASIRs of thyroid cancer over a 20-year horizon (2022–2041).",
+      "order": 6
+    },
+    {
+      "section": "2.6. Statistical Analysis",
+      "text": "All statistical analyses were conducted using R software (version 4.4.3). Hierarchical cluster analysis was performed using base R functions, while APC and BAPC modeling were implemented using specialized R packages, including Epi (version 2.58) and INLA (version 24.6.27).",
+      "order": 7
+    },
+    {
+      "section": "3.1. Global And Brics Trends In Thyroid Cancer Incidence, 1990 To 2021",
+      "text": "Using data from GBD 2021, we summarized temporal trends in thyroid cancer incidence globally and across BRICS countries between 1990 and 2021 (Table 1 ). The table reports the number of incident cases, ASIRs, and EAPCs, together with 95% uncertainty intervals, stratified by sex. Globally, the number of thyroid cancer cases increased from 89,885 (95% uncertainty interval: 84,681–96,999) in 1990 to 249,538 (223,290–274,638) in 2021. Over the same period, the global ASIR rose from 2.06 (1.95–2.22) to 2.91 (2.61–3.21) per 100,000 population, corresponding to a statistically significant EAPC of 1.25% (95% CI: 1.13–1.36). Sex-stratified analyses indicated a more rapid increase in incidence among males (EAPC: 1.78%) compared with females (EAPC: 1.03%), although females continued to bear a substantially higher overall disease burden. Among BRICS countries, China and India experienced the most pronounced increases in thyroid cancer incidence. In China, the ASIR nearly doubled, rising from 1.25 (1.01–1.47) in 1990 to 2.47 (1.99–3.09) in 2021, with an EAPC of 2.47%. India showed an even steeper increase, with the ASIR more than doubling from 0.94 (0.77–1.23) to 2.06 (1.67–2.46), corresponding to an EAPC of 2.73%. Notably, Chinese males exhibited the fastest growth across all examined subgroups, with an EAPC of 4.47% (95% CI: 4.16–4.79). The Russian Federation had the highest baseline ASIR among BRICS countries in 1990 at 2.51 (2.43–2.60), increasing to 3.28 (2.98–3.61) by 2021 (EAPC: 1.47%). A pronounced sex disparity was observed, with the female ASIR in 2021 (4.26 per 100,000) more than twice that observed in males (2.06 per 100,000). Brazil and South Africa exhibited more moderate but consistent upward trends. In Brazil, the ASIR increased from 1.28 (1.21–1.34) to 1.71 (1.59–1.81), yielding an EAPC of 0.73%. Similarly, South Africa experienced an increase from 0.96 (0.80–1.16) to 1.35 (1.15–1.62), with an EAPC of 1.33%. In both countries, the rate of increase was higher among males than females, despite lower absolute incidence levels. Overall, BRICS countries demonstrated 3 distinct incidence patterns: rapid growth from relatively low baselines in China and India; moderate growth from a high baseline in the Russian Federation; and slower, steady increases in Brazil and South Africa.",
+      "order": 8
+    },
+    {
+      "section": "3.2. Temporal Patterns In Incidence Rates, 1990 To 2021",
+      "text": "Figure 1 illustrates annual trends in thyroid cancer ASIRs globally and across BRICS countries from 1990 to 2021. All regions showed a sustained upward trajectory over the 3-decade period. A slight visual decrease or plateau was noted in the final 2 to 3 years for select regions (most notably the global aggregate and the Russian Federation); this short-term variation does not materially alter the overall increasing secular trend observed over the 32-year period. China and India displayed the steepest increases, consistent with their higher EAPC estimates, while Brazil and South Africa exhibited more gradual rises. The Russian Federation maintained a comparatively high incidence level throughout the study period, accompanied by moderate growth. The global trend represents an aggregate of these heterogeneous national patterns, reflecting a widespread increase in thyroid cancer incidence over time. Notably, the incidence of thyroid cancer among Chinese males increased at a substantially faster rate than that observed among males or females globally and in other BRICS countries ( Figures S1 and S2 ). This pronounced divergence suggests the presence of country- and sex-specific drivers and warrants further investigation into potential contributory factors, such as diagnostic practices, environmental exposures, or population-level risk profiles.",
+      "order": 9
+    },
+    {
+      "section": "3.3. Cluster Analysis Of Thyroid Cancer Incidence Trends",
+      "text": "To further characterize similarities and differences in temporal patterns of thyroid cancer incidence among BRICS countries and the global average, hierarchical cluster analysis was performed using ASIRs from 1990 to 2021. The resulting dendrogram (Fig. 2 ) revealed clear clustering structures. The global incidence trajectory clustered most closely with those of Brazil and South Africa, forming a primary branch at a relatively low linkage height, indicating strong similarity in temporal patterns. This clustering suggests that the global trend closely mirrors the moderate and steady increases observed in these 2 countries over the study period. China and India formed a distinct secondary cluster that merged with the global–Brazil–South Africa branch at a higher linkage distance. The close proximity between China and India indicates highly comparable temporal dynamics, characterized by rapid and sustained increases in thyroid cancer incidence. These trends were markedly different from those observed in other BRICS countries and are consistent with their relatively high EAPC values (2.47% in China and 2.73% in India). In contrast, the Russian Federation emerged as a clear outlier, branching from all other groups at a substantially greater height. This finding indicates that the Russian Federation’s thyroid cancer incidence trajectory is the most dissimilar among the entities analyzed, including the global average. This distinct pattern is characterized by persistently higher baseline ASIRs throughout the study period (e.g., 2.51 per 100,000 in 1990, compared with 1.28 in Brazil and 1.25 in China), coupled with a steady but comparatively moderate rate of increase.",
+      "order": 10
+    },
+    {
+      "section": "3.4. Age-Specific Patterns Of Thyroid Cancer Incidence",
+      "text": "Age-specific incidence rates of thyroid cancer demonstrated distinct patterns globally and across BRICS countries (Fig. 3 ). At the global level, incidence increased progressively with advancing age, reflecting the cumulative effects of biological aging and long-term exposure to risk factors. Similar age-related patterns were observed in Brazil, China, India, and South Africa. The Russian Federation, however, exhibited a notably different age-specific profile. Incidence was predominantly concentrated among individuals aged 40 to 79 years, with a pronounced peak between 55 and 65 years, followed by a decline in older age groups. This pattern may reflect age-specific diagnostic practices, healthcare utilization, or cohort-related influences unique to this population. Across all regions and age groups, a pronounced sex disparity was evident, with females experiencing substantially higher incidence rates than males. This female predominance was particularly marked during the reproductive and postmenopausal years, highlighting the potential role of hormonal, biological, and healthcare-related factors in shaping sex-specific risk profiles.",
+      "order": 11
+    },
+    {
+      "section": "3.5. Apc Analysis Of Thyroid Cancer Incidence Trends",
+      "text": "To elucidate the temporal drivers underlying thyroid cancer incidence, APC analyses were conducted for global populations and BRICS countries ( Figure S3 ). The results revealed marked regional heterogeneity, with distinct combinations of age, period, and cohort effects shaping incidence trajectories. At the global level, thyroid cancer incidence trends were influenced by both pronounced period effects and substantial cohort effects. The age-specific incidence curve showed a progressive increase with advancing age, followed by attenuation in the oldest age groups, reflecting the combined influence of biological aging, competing mortality risks, and age-dependent diagnostic intensity. Notably, the birth cohort curve demonstrated a clear gradient, with successively later-born cohorts exhibiting higher incidence at comparable ages. This strong cohort effect suggests that, beyond period-related influences such as the expansion of diagnostic imaging and screening practices, long-term intergenerational changes in exposure to risk factors, including environmental, dietary, and lifestyle factors, have contributed meaningfully to the global rise in thyroid cancer incidence. Substantial heterogeneity in APC patterns was observed across BRICS countries, consistent with the clustering results and highlighting divergent epidemiological pathways. In Brazil and South Africa, incidence trends were predominantly driven by period effects, consistent with the global pattern. These findings suggest that the observed increases in incidence in these countries are largely attributable to improvements in healthcare access, diagnostic capacity, and case ascertainment over time, rather than to marked cohort-specific shifts in underlying risk. In contrast, China and India exhibited incidence patterns dominated by cohort effects, with age effects playing a secondary role. Across both countries, later birth cohorts consistently experienced higher thyroid cancer incidence than earlier cohorts at the same age. This pronounced cohort effect indicates that, in addition to period effects associated with diagnostic advances, intergenerational changes in risk profiles, potentially related to rapid socioeconomic development, urbanization, environmental exposures, dietary transitions, and lifestyle changes, have likely played a central role in driving genuine increases in thyroid cancer incidence. The Russian Federation displayed a distinct APC profile characterized by a strong age effect. Incidence increased steadily with age, while rates within the same age groups remained relatively stable across calendar periods. Most age groups reached peak incidence during the mid-to-late study period (2007–2016), followed by a modest decline in the most recent years (2017–2021). This pattern may reflect age-specific diagnostic practices, cohort composition, or stabilization of detection intensity over time.",
+      "order": 12
+    },
+    {
+      "section": "3.6. Global Projections Of Thyroid Cancer Incidence Using The Bapc Model",
+      "text": "Using a BAPC model fitted to data from 1990 to 2021, we projected global age-standardized thyroid cancer incidence rates for males and females over the subsequent 20 years. The model predicts a continued increase in incidence for both sexes worldwide (Fig. 4 ). Throughout the projection period, female incidence rates are consistently higher than those observed in males. Age-stratified projections revealed important heterogeneity underlying the overall upward trend ( Figures S4 and S5 ). Among females, incidence is projected to decline slightly in younger age groups (<35 years), although the magnitude of this decrease is modest. In contrast, pronounced increases are anticipated among women aged 45 to 80 years, with the steepest growth occurring in middle-aged and older cohorts. Among males, incidence is projected to increase across all age groups, albeit at a slower pace than in females. The most rapid growth is expected within the age range of 45 to 74, with a primary peak in the 55 to 59-year age group. Compared with females, incidence growth among adult male age groups is more evenly distributed. Overall, the BAPC projections indicate a sustained global rise in thyroid cancer incidence over the next 2 decades. This increase is expected to disproportionately affect middle-aged and elderly populations, particularly women. The long-standing and pronounced sex disparity in thyroid cancer incidence is projected to persist, highlighting the need for age- and sex-specific prevention and surveillance strategies.",
+      "order": 13
+    },
+    {
+      "section": "Discussion",
+      "text": "This study provides a comprehensive and systematic assessment of spatiotemporal trends in thyroid cancer incidence at both the global level and across BRICS nations from 1990 to 2021. By integrating APC analyses to disentangle underlying temporal drivers and BAPC models to project future burden, this study offers a multidimensional evaluation of historical patterns and anticipated trajectories. We observed a significant and sustained increase in ASIRs of thyroid cancer worldwide, accompanied by substantial heterogeneity among BRICS countries that could be classified into distinct incidence patterns. This heterogeneity reflects varying contributions of age, period, and cohort effects across countries. Projections indicate that global thyroid cancer incidence will continue to rise over the next 2 decades, with women experiencing higher incidence and faster growth rates than men. Age-specific projections further suggest that peak incidence among women occurs in the 55 to 59-year age group. [ 20 ]",
+      "order": 14
+    },
+    {
+      "section": "4.1. Interpretation Of Global And Brics-Specific Incidence Trends",
+      "text": "Consistent with previous reports, our findings confirm that the global ASIR of thyroid cancer increased from 2.06 to 2.91 per 100,000 population between 1990 and 2021, corresponding to an EAPC of 1.25%. This sustained upward trend aligns with results from multiple international studies. [ 8 , 21 ] This pattern is further corroborated by a recent analysis by Zhang et al, which documents rising global incidence and projects a growing disease burden through 2036. [ 20 ] Analyses from global cancer epidemiology databases suggest that much of this increase is attributable to advances in diagnostic technologies, particularly high-resolution ultrasonography and fine-needle aspiration biopsy. Critically, this increase has occurred alongside stable or only modestly declining mortality rates in most regions, resulting in a widening incidence–mortality gap widely regarded as indicative of overdiagnosis. [ 22 – 24 ] Additional contributing factors may include increased health-seeking behavior, expanded access to screening services, and greater exposure to diagnostic or environmental radiation. [ 25 ] While such global and Sociodemographic Index-stratified analyses provide an essential macroscopic perspective, they inevitably obscure heterogeneous drivers operating within specific and influential country blocs. As a major group of middle-income countries, the BRICS nations exhibit pronounced heterogeneity in thyroid cancer incidence patterns, reflecting divergent socioeconomic trajectories, healthcare systems, and risk factor profiles. [ 26 ]",
+      "order": 15
+    },
+    {
+      "section": "4.2. Rapidly Increasing Incidence In China And India",
+      "text": "China and India demonstrated the most rapid increases in thyroid cancer ASIRs among BRICS countries, with EAPCs of 2.47% and 2.73%, respectively. These trends coincide with rapid economic development, expanding healthcare coverage, and increasing availability of diagnostic technologies. In China, multiple population-based studies have shown that thyroid ultrasonography is routinely incorporated into general health examinations, facilitating the detection of a large number of asymptomatic cases. [ 27 ] In India, although thyroid cancer incidence has risen substantially, disease-specific mortality has remained relatively stable. This divergence between incidence and mortality suggests that overdiagnosis plays a predominant role in the observed increase, consistent with findings from previous epidemiological studies. [ 28 , 29 ]",
+      "order": 16
+    },
+    {
+      "section": "4.3. High Baseline With Sustained Growth (Russian Federation)",
+      "text": "The Russian Federation exhibited the highest baseline incidence of thyroid cancer among BRICS countries and maintained a steady upward trend over the study period. [ 30 , 31 ] This profile may partly reflect long-term consequences of the Chernobyl nuclear disaster. Evidence indicates that internal exposure to radioactive iodine, particularly iodine-131, represented the primary pathway of thyroid irradiation, with additional contributions from external exposure. These historical exposures may partially explain the Russian Federation’s persistently higher baseline incidence compared with other BRICS nations. [ 32 , 33 ]",
+      "order": 17
+    },
+    {
+      "section": "4.4. Moderate Growth Aligned With Global Patterns (Brazil And South Africa)",
+      "text": "Brazil and South Africa demonstrated moderate increases in thyroid cancer incidence that closely mirrored the global average trend. This pattern likely reflects intermediate diagnostic capacity at the national level, masking substantial subnational disparities in healthcare access. In Brazil, rising incidence is closely linked to improvements in diagnostic technologies; however, these advances have not been uniformly distributed. Pronounced socioeconomic and urban–rural inequalities constrain equitable access to healthcare services. Although only approximately 20% of the Brazilian population is covered by private health insurance, nearly 75% of thyroid cancer diagnoses occur within the private healthcare sector. [ 34 ] A similar dynamic of inequitable access to diagnostic technology likely operates in South Africa, contributing to its comparatively moderate trend.",
+      "order": 18
+    },
+    {
+      "section": "4.5. Exceptionally Rapid Increase Among Chinese Men",
+      "text": "Notably, Chinese men exhibited the fastest increase in thyroid cancer incidence among all demographic subgroups (EAPC = 4.47%). This increase is likely multifactorial. In addition to occupational health screening, the widespread adoption of general health checkups and advanced imaging modalities for unrelated conditions has increased opportunities for incidental detection. These observations suggest that incidence trends should be interpreted in the context of system-wide increases in imaging utilization and occupation-specific screening practices.",
+      "order": 19
+    },
+    {
+      "section": "4.6. Deep-Seated Drivers Revealed By Apc Effects",
+      "text": "APC analysis enables interpretation of incidence trends beyond descriptive patterns by elucidating underlying temporal drivers.",
+      "order": 20
+    },
+    {
+      "section": "4.7. Period Effects As The Dominant Driver",
+      "text": "In Brazil, South Africa, and globally, thyroid cancer incidence trends were driven predominantly by period effects, supporting the diagnostic intensity hypothesis. [ 35 ] Evidence from South Korea demonstrates a close association between rising incidence and overdiagnosis in the absence of corresponding mortality reductions. [ 36 ]",
+      "order": 21
+    },
+    {
+      "section": "4.8. Pronounced Cohort Effects In Rapidly Developing Economies",
+      "text": "In contrast, the pronounced cohort effects observed in China and India are unlikely to be attributable solely to overdiagnosis. Instead, they likely reflect intergenerational shifts in exposure to environmental and lifestyle-related risk factors associated with rapid socioeconomic development. [ 37 – 39 ] Emerging evidence implicates iodine imbalance, psychosocial stress, sleep disturbances, and elevated body mass index in thyroid cancer risk. [ 39 – 41 ]",
+      "order": 22
+    },
+    {
+      "section": "4.9. Distinct Age-Specific Effects In The Russian Federation",
+      "text": "The Russian Federation exhibited a unique APC pattern characterized by a strong and persistent age effect, with thyroid cancer incidence increasing steadily with advancing age. This pattern differs markedly from those observed globally and in other BRICS countries and may reflect the influence of age-dependent pathogenic factors unique to the Russian population. [ 42 ]",
+      "order": 23
+    },
+    {
+      "section": "4.10. Implications For Public Health Policy",
+      "text": "Together, these findings, along with the accompanying BAPC projections, which are conditional on the continuation of current trends in diagnostic intensity and healthcare access, provide a robust evidence base for refining thyroid cancer prevention and control strategies. These projections should therefore be interpreted as plausible trajectories under existing conditions, highlighting the potential future disease burden in the absence of major changes in clinical practice or health policy. For BRICS countries in particular, the marked heterogeneity in temporal drivers highlights the need for context-specific policies. Strategies should balance the benefits and harms of early detection, avoid unnecessary overdiagnosis, and address modifiable environmental and lifestyle risk factors.",
+      "order": 24
+    },
+    {
+      "section": "4.11. Rapidly Growing Incidence Settings (China And India)",
+      "text": "China and India face a dual challenge characterized by both potential overdiagnosis and a genuine increase in underlying thyroid cancer risk. Public health policymakers in these settings should prioritize the implementation of risk-stratified screening and diagnostic strategies to avoid indiscriminate population-wide screening among low-risk individuals. Current American Thyroid Association guidelines, which recommend the evaluation and management of thyroid nodules based on stratified malignancy risk, provide an evidence-based framework for optimizing diagnostic efficiency and resource allocation. [ 43 ] In parallel, preventive interventions targeting established or emerging risk factors, such as iodine imbalance, sleep disturbances, metabolic conditions, and hormone-related disorders, should be strengthened through integrated public health initiatives.",
+      "order": 25
+    },
+    {
+      "section": "4.12. Countries With Distinct Epidemiological Patterns (Russian Federation)",
+      "text": "Given its unique age-specific incidence profile and persistently high baseline rates, the Russian Federation would benefit from enhanced epidemiological surveillance and in-depth investigation of context-specific environmental and occupational risk factors. In populations with documented or suspected radiation exposure, consideration should be given to targeted early detection and long-term follow-up programs, guided by rigorous risk–benefit assessment to minimize potential harms associated with overdiagnosis.",
+      "order": 26
+    },
+    {
+      "section": "4.13. High-Risk Groups: Middle-Aged And Elderly Women",
+      "text": "Our projection models consistently indicate that middle-aged and elderly women will experience the most pronounced increases in thyroid cancer incidence over the next 2 decades. The persistent sex disparity in disease burden, potentially linked to reproductive, hormonal, and healthcare utilization factors, [ 44 ] highlights the need for tailored prevention and surveillance strategies. Health promotion, clinical monitoring, and diagnostic resources should be strategically directed toward this high-risk group, with careful balancing of the benefits of early detection against the risks of unnecessary diagnosis and treatment.",
+      "order": 27
+    },
+    {
+      "section": "Conclusion",
+      "text": "In summary, thyroid cancer incidence has increased globally and across BRICS countries over the past 3 decades, with substantial heterogeneity driven by distinct age, period, and cohort effects. The global burden is projected to continue rising, particularly among middle-aged and older women. These findings highlight the need to advance etiological research, optimize risk-based diagnostic strategies, and strengthen international collaboration and data integration. Through these efforts, targeted prevention and control strategies can be implemented to reduce the growing public health burden of thyroid cancer.",
+      "order": 28
+    }
+  ]
 }
