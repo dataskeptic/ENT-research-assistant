@@ -68,23 +68,36 @@ def save_metadata(records: list[dict]) -> None:
 def _has_fulltext(record: dict) -> bool:
     """Return True if this record already has any form of full text.
 
-    Covers both:
-      - PDF downloaded via Unpaywall (fulltext_downloaded = True)
-      - PMC XML already retrieved via pmc_download.py (pmc_id set OR
-        pmc_downloaded = True OR fulltext_path pointing to an XML file)
+    Covers:
+      - PDF downloaded via Unpaywall    → fulltext_downloaded = True  AND  pdf_path set
+      - PMC XML fetched via OAI         → xml_path set  (actual field name in metadata)
+      - PMC PDF downloaded              → fulltext_downloaded = True  (set by pmc_download --pdf)
+      - Legacy: pmc_downloaded flag     → pmc_downloaded = True
+
+    Note: fulltext_downloaded alone is not enough — we check that the file
+    actually exists to avoid counting stale metadata from failed runs.
     """
-    if record.get("fulltext_downloaded"):
-        return True
-    if record.get("pmc_downloaded"):
-        return True
-    if record.get("pmc_id"):
-        # Check that the XML file actually exists on disk
-        pmc_id = record["pmc_id"]
-        xml_path = Path("data/fulltext") / f"{pmc_id}.xml"
-        if xml_path.exists():
+    # PDF on disk (Unpaywall or PMC PDF)
+    if record.get("fulltext_downloaded") and record.get("pdf_path"):
+        if Path(record["pdf_path"]).exists():
             return True
+
+    # PMC XML on disk (field name used in actual metadata schema)
+    if record.get("xml_path") and Path(record["xml_path"]).exists():
+        return True
+
+    # Legacy fulltext_path field
     if record.get("fulltext_path") and Path(record["fulltext_path"]).exists():
         return True
+
+    # pmc_downloaded flag + pmc_id → check for xml file
+    if record.get("pmc_downloaded") or record.get("pmc_id"):
+        pmc_id = record.get("pmc_id", "")
+        if pmc_id:
+            xml_path = Path("data/fulltext") / f"{pmc_id}.xml"
+            if xml_path.exists():
+                return True
+
     return False
 
 
@@ -161,12 +174,7 @@ def download_pdf(url: str, out_path: Path) -> bool:
 
 
 def precheck(records: list[dict]) -> None:
-    """Pre-check mode: scan ALL DOIs (regardless of download status) for Unpaywall PDF links.
-
-    This answers the question: "Which papers in my corpus *can* be downloaded
-    via Unpaywall, period?" — before deciding what to actually fetch.
-    Saves results to data/metadata/unpaywall_precheck.json.
-    """
+    """Pre-check mode: scan ALL DOIs (regardless of download status) for Unpaywall PDF links."""
     with_doi = [r for r in records if r.get("doi")]
     no_doi = len(records) - len(with_doi)
 
@@ -216,7 +224,6 @@ def precheck(records: list[dict]) -> None:
             stats["closed"] += 1
             unavailable.append(entry)
 
-    # How many of the available ones we already have
     already_covered = sum(1 for e in available if e["already_have_fulltext"])
     new_downloadable = stats["has_pdf"] - already_covered
 
@@ -237,7 +244,6 @@ def precheck(records: list[dict]) -> None:
     print("=" * 55)
     print(f"\nRun with --download to fetch the {new_downloadable} new PDFs.\n")
 
-    # Save results
     out_path = Path("data/metadata/unpaywall_precheck.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
@@ -262,13 +268,7 @@ def audit(records: list[dict]) -> None:
         log.info("Tip: run with --precheck to survey ALL DOIs for downloadable links.")
         return
 
-    stats = {
-        "has_pdf": 0,
-        "oa_no_pdf": 0,
-        "closed": 0,
-        "not_found": 0,
-        "error": 0,
-    }
+    stats = {"has_pdf": 0, "oa_no_pdf": 0, "closed": 0, "not_found": 0, "error": 0}
     oa_status_counts: dict[str, int] = {}
     available: list[dict] = []
 
