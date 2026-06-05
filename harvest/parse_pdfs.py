@@ -114,23 +114,30 @@ _WHITESPACE_RE = re.compile(r"\s+")
 _DOI_RE = re.compile(r"\b10\.\d{4,9}/[^\s,;\"\'>\]]+", re.IGNORECASE)
 _PMC_RE = re.compile(r"\bPMC\d+\b", re.IGNORECASE)
 _PMID_RE = re.compile(r"\bPMID[:\s]+(\d{7,9})\b", re.IGNORECASE)
-
-# Year patterns found in journal headers / received-accepted lines
 _YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 
-# Heuristic: an author-list line consists mostly of short comma/semicolon-separated
-# tokens that look like "Lastname Initials" or "F. Lastname". We require at least
-# two such tokens and no sentence-length prose.
+# Middle-dot (\u00b7) separator used by Springer/Elsevier in PDF author lists
+_MIDDOT_SEP_RE = re.compile(r"\s*\u00b7\s*")
+
+# Comma/semicolon author-list heuristics
 _AUTHOR_SEP_RE = re.compile(r"[,;]\s*")
 _AUTHOR_TOKEN_RE = re.compile(
-    r"^[A-ZÀ-Ö][a-zA-ZÀ-öØ-ÿ'\-]{1,25}(?:\s+[A-Z]{1,4}\.?|\s+[A-ZÀ-Ö][a-zA-ZÀ-öØ-ÿ'\-]{1,20})?$"
+    r"^[A-Z\u00c0-\u00d6][a-zA-Z\u00c0-\u00f6\u00d8-\u00ff'\-]{1,25}"
+    r"(?:\s+[A-Z]{1,4}\.?|\s+[A-Z\u00c0-\u00d6][a-zA-Z\u00c0-\u00f6\u00d8-\u00ff'\-]{1,20})?$"
 )
 
-# Known journal keyword fragments that help identify a journal name line
+# Journal keyword fragments
 _JOURNAL_KEYWORDS = re.compile(
     r"\b(journal|otolaryngol|head\s+neck|laryngoscope|rhinolog|allerg|audiol|"
     r"otolog|surgery|medicine|annals|archives|review|lancet|jama|bmj|nejm|"
     r"plos|nature|science|cell|cochrane)\b",
+    re.IGNORECASE,
+)
+
+# Patterns that indicate a section body is actually article-header metadata
+# (author affiliation numbers, received/accepted/copyright lines)
+_HEADER_BODY_RE = re.compile(
+    r"(?:Received:|Accepted:|\u00a9\s*The Author|\u00a9\s*Springer|Published online)",
     re.IGNORECASE,
 )
 
@@ -150,22 +157,35 @@ def _normalise_section_title(raw: str) -> str | None:
     return raw.strip().title()
 
 
-def _looks_like_author_list(text: str) -> list[str]:
-    """Return a list of author strings if *text* looks like an author-list line.
+def _parse_middot_authors(text: str) -> list[str]:
+    """Parse a Springer/Elsevier middle-dot-separated author string.
 
-    Heuristics:
-    - Split on commas or semicolons.
-    - Every token must match the author-token pattern (short name + optional initials).
-    - At least 2 tokens required.
-    - Total character length < 400 (long prose lines are not author lists).
+    Input example:
+        "Ceren Karaçayl\u0131 1,2 \u00b7 Ercan Karababa 1 \u00b7 ..."
+    Returns list of clean author names with affiliation numbers stripped.
     """
+    parts = _MIDDOT_SEP_RE.split(text)
+    authors = []
+    for part in parts:
+        # Strip trailing affiliation digits/superscripts and date noise
+        name = re.sub(r"[\d,\*\u2020\u2021\u00a7]+$", "", part).strip()
+        # Stop if we hit a "Received:" / "\u00a9" / empty token
+        if not name or _HEADER_BODY_RE.search(name):
+            break
+        # Accept only tokens that look like a real name (has a space, reasonable length)
+        if " " in name and 3 < len(name) < 60:
+            authors.append(name)
+    return authors
+
+
+def _looks_like_author_list(text: str) -> list[str]:
+    """Return authors if text looks like a comma/semicolon author-list line."""
     if len(text) > 400 or len(text) < 5:
         return []
     tokens = [t.strip() for t in _AUTHOR_SEP_RE.split(text) if t.strip()]
     if len(tokens) < 2:
         return []
-    # Strip superscript-like suffixes common in PDFs: "Smith J1,2" → "Smith J"
-    clean_tokens = [re.sub(r"[\d,\*†‡§]+$", "", t).strip() for t in tokens]
+    clean_tokens = [re.sub(r"[\d,\*\u2020\u2021\u00a7]+$", "", t).strip() for t in tokens]
     if all(_AUTHOR_TOKEN_RE.match(t) for t in clean_tokens if t):
         return [t for t in clean_tokens if t]
     return []
@@ -176,19 +196,6 @@ def _looks_like_author_list(text: str) -> list[str]:
 # ---------------------------------------------------------------------------
 
 def _build_converter():
-    """Build a Docling DocumentConverter compatible with Docling v2+.
-
-    Docling's API for passing pipeline options changed between minor versions:
-
-    - Older v2 builds accepted ``DocumentConverter(format_options={InputFormat.PDF: PdfPipelineOptions()})`
-    - Newer v2 builds wrap the options in a ``PdfFormatOption`` dataclass and
-      no longer accept a bare ``PdfPipelineOptions`` as a value in that dict.
-      They also removed the ``backend`` attribute from ``PdfPipelineOptions``.
-
-    Strategy: try the modern FormatOption API first; fall back to the legacy
-    bare-options API; fall back further to a plain ``DocumentConverter()``
-    with no options at all (safest across all versions).
-    """
     try:
         from docling.document_converter import DocumentConverter
         return DocumentConverter()
@@ -206,17 +213,16 @@ def _build_converter():
 def _extract_metadata(doc) -> dict:
     """Best-effort extraction of article-level metadata from a Docling document.
 
-    Primary source: Docling's structured ``doc.metadata`` (populated from embedded
-    XMP / PDF info dict).  Many publisher PDFs (e.g. Springer) do not embed rich
-    metadata, so ``metadata.title`` and ``metadata.authors`` come back empty while
-    the actual values are present as labelled text items on the first page.
+    Primary source: doc.metadata (XMP / PDF info dict).
 
-    Fallback (text-scraping):
-    - TITLE-labelled item  → title
-    - Dense comma-separated short-token line → authors
-    - Line matching journal keyword pattern  → journal
-    - Year from received/accepted/published line or earliest 4-digit year → year
-    - DOI / PMC / PMID regex from all early text
+    Text-scraping fallback for publisher PDFs (Springer, Elsevier, etc.) that
+    embed no structured metadata:
+    - First SECTION_HEADER or TITLE item before Abstract  → title candidate
+    - Middle-dot (\u00b7) separated tokens in the same block  → authors (Springer)
+    - Comma/semicolon separated short-token line            → authors (generic)
+    - Line matching journal keyword pattern                 → journal
+    - "Received/Accepted/Published YYYY"                   → year
+    - DOI / PMC / PMID regex across all early text          → identifiers
     """
     meta: dict = {
         "title": "",
@@ -228,7 +234,7 @@ def _extract_metadata(doc) -> dict:
         "pmid": "",
     }
 
-    # ── Structured metadata (highest priority) ────────────────────────────────
+    # ── Structured metadata (highest priority) ──────────────────────────────
     if hasattr(doc, "metadata") and doc.metadata:
         md = doc.metadata
         if hasattr(md, "title") and md.title:
@@ -240,13 +246,13 @@ def _extract_metadata(doc) -> dict:
             elif isinstance(raw_authors, str):
                 meta["authors"] = [a.strip() for a in raw_authors.split(";") if a.strip()]
 
-    # ── Iterate early document items for text-scraping fallback ──────────────
-    # Collect labelled items from the first 30 document items.
-    # We stop collecting once we hit the Abstract section heading so we do not
-    # accidentally pick author-like strings from the body text.
-    early_title_items: list[str] = []   # TITLE-labelled items
-    early_text_items: list[str] = []    # TEXT / PARAGRAPH items before Abstract
-    full_head = ""                       # raw concatenation for regex scraping
+    # ── Walk first 30 items, collecting header candidates ───────────────────
+    # We track items before the Abstract section heading because that’s the only
+    # safe region for article-level metadata scraping.
+    early_title_items: list[str] = []       # TITLE-labelled items
+    early_heading_items: list[str] = []     # SECTION_HEADER items before Abstract
+    early_text_items: list[str] = []        # TEXT/PARAGRAPH items before Abstract
+    full_head = ""
     past_abstract = False
 
     try:
@@ -259,16 +265,16 @@ def _extract_metadata(doc) -> dict:
 
             label_str = str(getattr(item, "label", "")).upper().split(".")[-1]
 
-            # Stop collecting pre-abstract items once we see the Abstract heading
-            if (
-                "SECTION_HEADER" in label_str or "HEADING" in label_str
-            ) and "ABSTRACT" in item_text.upper():
+            if ("SECTION_HEADER" in label_str or "HEADING" in label_str) and \
+                    "ABSTRACT" in item_text.upper():
                 past_abstract = True
 
             full_head += " " + item_text
 
             if "TITLE" in label_str:
                 early_title_items.append(item_text)
+            elif not past_abstract and ("SECTION_HEADER" in label_str or "HEADING" in label_str):
+                early_heading_items.append(item_text)
             elif not past_abstract and (
                 "TEXT" in label_str
                 or "PARAGRAPH" in label_str
@@ -281,54 +287,61 @@ def _extract_metadata(doc) -> dict:
     except Exception:
         pass
 
-    # ── Title fallback: use first TITLE item when structured metadata was empty ──
-    if not meta["title"] and early_title_items:
-        meta["title"] = early_title_items[0]
+    # ── Title: TITLE item > first pre-Abstract SECTION_HEADER > doc.name ─────
+    if not meta["title"]:
+        if early_title_items:
+            meta["title"] = early_title_items[0]
+        elif early_heading_items:
+            # The first heading before Abstract is very likely the article title
+            meta["title"] = early_heading_items[0]
 
-    # ── doc.name fallback (Docling sometimes sets this to the article title) ──
     if not meta["title"] and hasattr(doc, "name") and doc.name:
         candidate = _clean(doc.name)
-        # Reject if it looks like a DOI (contains slashes) or a bare filename
         if "/" not in candidate and not candidate.lower().endswith(".pdf"):
             meta["title"] = candidate
 
-    # ── Authors fallback: scan pre-abstract TEXT items for an author-list line ──
+    # ── Authors: middle-dot style first, then comma/semicolon style ──────────
     if not meta["authors"]:
+        # Springer/Elsevier PDFs: author list is in early TEXT items with · separators
+        for text in early_text_items:
+            if "\u00b7" in text:
+                authors = _parse_middot_authors(text)
+                if authors:
+                    meta["authors"] = authors
+                    break
+
+    if not meta["authors"]:
+        # Generic: comma/semicolon separated short-token line
         for text in early_text_items:
             authors = _looks_like_author_list(text)
             if authors:
                 meta["authors"] = authors
                 break
 
-    # ── Journal fallback: find a short line matching journal keyword pattern ──
+    # ── Journal: short line matching journal keyword pattern ────────────────
     if not meta["journal"]:
         for text in early_text_items:
             if _JOURNAL_KEYWORDS.search(text) and len(text) < 150:
-                # Strip trailing volume/year/page noise, e.g. "Eur Arch Otorhinolaryngol (2026)"
                 candidate = re.sub(r"\s*[\(\[]\s*(19|20)\d{2}.*$", "", text).strip()
                 candidate = re.sub(r"\s*\d+\s*[:\(].*$", "", candidate).strip()
                 if candidate:
                     meta["journal"] = candidate
                     break
 
-    # ── Year fallback: prefer "Published YYYY" / "Accepted YYYY" lines, ──────
-    # then fall back to the first 4-digit year found in the header.
+    # ── Year: prefer Received/Accepted/Published date, fallback first year ───
     if not meta["year"]:
-        # Try to find a received/accepted/published year first (most reliable)
         pub_year_m = re.search(
             r"(?:published|accepted|received|online)[^\d]{0,20}((?:19|20)\d{2})",
-            full_head,
-            re.IGNORECASE,
+            full_head, re.IGNORECASE,
         )
         if pub_year_m:
             meta["year"] = pub_year_m.group(1)
         else:
-            # Fall back to the first bare 4-digit year in the header text
             y_m = _YEAR_RE.search(full_head)
             if y_m:
                 meta["year"] = y_m.group(0)
 
-    # ── DOI / PMC / PMID regex scraping from full_head ───────────────────────
+    # ── DOI / PMC / PMID regex scraping ──────────────────────────────────
     if not meta["doi"]:
         m = _DOI_RE.search(full_head)
         if m:
@@ -348,19 +361,96 @@ def _extract_metadata(doc) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Post-processing: promote spurious first section to metadata
+# ---------------------------------------------------------------------------
+
+def _promote_first_header_section(meta: dict, sections: list[dict]) -> tuple[dict, list[dict]]:
+    """Detect and remove a spurious first section that is actually article metadata.
+
+    Docling sometimes labels the article title as a SECTION_HEADER, producing
+    a section like:
+
+        {
+          "section": "Enhanced Response Obtainability With Chirp...",  # <- actual title
+          "text": "Author A \u00b7 Author B  Received: 25 April 2026 ...",
+          "order": 0
+        }
+
+    followed immediately by the Abstract.
+
+    Condition for promotion:
+    - It is sections[0]
+    - The next section is "Abstract" (or sections[1] exists and sections[0] order < 1)
+    - The text body contains \u00b7 (middle-dot) or matches _HEADER_BODY_RE
+      (i.e., contains "Received:", "\u00a9 The Author", etc.)
+    - The section heading does NOT map to a known canonical section name
+      (so "Introduction" as section[0] is left alone)
+
+    On promotion:
+    - meta["title"] is set to the section heading (if not already set)
+    - meta["authors"] is parsed from the text body (if not already set)
+    - meta["year"] is extracted from the text body (if not already set)
+    - The section is removed from sections[]
+    - Remaining sections are re-ordered starting from 0
+    """
+    if not sections:
+        return meta, sections
+
+    first = sections[0]
+    first_heading = first.get("section", "")
+    first_text = first.get("text", "")
+
+    # Check if this section is a real content section
+    canonical = _normalise_section_title(first_heading)
+    known_sections = {
+        "Abstract", "Introduction", "Methods", "Results",
+        "Discussion", "Conclusion", "Case Report", "Body",
+    }
+    if canonical in known_sections:
+        return meta, sections
+
+    # Check if body text looks like article-header metadata
+    is_header_body = (
+        "\u00b7" in first_text
+        or _HEADER_BODY_RE.search(first_text)
+    )
+    if not is_header_body:
+        return meta, sections
+
+    # Promote: title from heading
+    if not meta.get("title") or meta["title"] == "":
+        meta["title"] = first_heading
+
+    # Promote: authors from middle-dot style
+    if not meta.get("authors"):
+        if "\u00b7" in first_text:
+            authors = _parse_middot_authors(first_text)
+            if authors:
+                meta["authors"] = authors
+
+    # Promote: year from Received/Accepted line in text
+    if not meta.get("year"):
+        pub_year_m = re.search(
+            r"(?:published|accepted|received|online)[^\d]{0,20}((?:19|20)\d{2})",
+            first_text, re.IGNORECASE,
+        )
+        if pub_year_m:
+            meta["year"] = pub_year_m.group(1)
+
+    # Drop the spurious section and re-number
+    sections = sections[1:]
+    for i, sec in enumerate(sections):
+        sec["order"] = i
+
+    return meta, sections
+
+
+# ---------------------------------------------------------------------------
 # Section extraction
 # ---------------------------------------------------------------------------
 
 def _extract_sections(doc) -> tuple[list[dict], bool]:
-    """Walk Docling document items and group prose under section headings.
-
-    Labels used (Docling DocItemLabel enum, normalised to uppercase str):
-      SECTION_HEADER / HEADING  → new section boundary
-      TEXT / PARAGRAPH          → body prose
-      LIST_ITEM                 → body prose
-      TITLE                     → document title (skip, already in metadata)
-      TABLE / FIGURE / CAPTION  → skipped (same policy as parse_pmc_xml.py)
-    """
+    """Walk Docling document items and group prose under section headings."""
     sections: list[dict] = []
     current_heading = "Body"
     current_paragraphs: list[str] = []
@@ -392,12 +482,10 @@ def _extract_sections(doc) -> tuple[list[dict], bool]:
     for item, _level in items:
         label_str = ""
         if hasattr(item, "label"):
-            # Normalise both "TEXT" and "DocItemLabel.TEXT" to just "TEXT"
             label_str = str(item.label).upper().split(".")[-1]
 
         if not label_str:
             continue
-
         if any(skip in label_str for skip in _SKIP_LABELS):
             continue
 
@@ -410,8 +498,7 @@ def _extract_sections(doc) -> tuple[list[dict], bool]:
             current_heading = item_text
             current_paragraphs = []
         elif "TITLE" in label_str:
-            # Document-level title — already in metadata
-            continue
+            continue  # already in metadata
         elif "TEXT" in label_str or "LIST_ITEM" in label_str or "PARAGRAPH" in label_str:
             current_paragraphs.append(item_text)
 
@@ -429,15 +516,9 @@ def _extract_sections(doc) -> tuple[list[dict], bool]:
 # ---------------------------------------------------------------------------
 
 def _extract_references(doc) -> list[dict]:
-    """Extract references from a Docling document.
-
-    Strategy 1: use Docling's native doc.references objects (structured).
-    Strategy 2: fall back to scraping raw text lines from the References
-                section, matching the mixed-citation fallback in parse_pmc_xml.py.
-    """
+    """Extract references from a Docling document."""
     refs: list[dict] = []
 
-    # Strategy 1 ───────────────────────────────────────────────────────────────────
     if hasattr(doc, "references") and doc.references:
         for i, ref in enumerate(doc.references, start=1):
             entry: dict = {"ref_id": f"R{i}", "label": f"{i}."}
@@ -468,7 +549,6 @@ def _extract_references(doc) -> list[dict]:
         if refs:
             return refs
 
-    # Strategy 2: raw text scrape ─────────────────────────────────────────────
     in_references = False
     ref_lines: list[str] = []
 
@@ -509,12 +589,6 @@ def _extract_references(doc) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def _output_stem(pdf_path: Path, doc=None) -> str:
-    """Determine the output JSON filename stem.
-
-    Uses PMC ID found inside the PDF when available so filenames stay
-    consistent with the PMC-keyed files produced by parse_pmc_xml.py.
-    Falls back to the PDF's own filename stem.
-    """
     if doc is not None:
         try:
             head = ""
@@ -536,7 +610,7 @@ def _output_stem(pdf_path: Path, doc=None) -> str:
 # ---------------------------------------------------------------------------
 
 def parse_pdf(pdf_path: str | Path) -> dict:
-    """Parse a single PDF → structured JSON dict (same schema as parse_pmc_xml.py)."""
+    """Parse a single PDF → structured JSON dict."""
     pdf_path = Path(pdf_path)
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF not found: {pdf_path}")
@@ -549,6 +623,9 @@ def parse_pdf(pdf_path: str | Path) -> dict:
     meta = _extract_metadata(doc)
     sections, full_text_available = _extract_sections(doc)
     references = _extract_references(doc)
+
+    # Post-process: promote spurious first header section to metadata
+    meta, sections = _promote_first_header_section(meta, sections)
 
     if not meta["title"]:
         meta["title"] = pdf_path.stem.replace("_", " ").replace("-", " ").title()
@@ -566,15 +643,7 @@ def process_folder(
     overwrite: bool = False,
     reparse_incomplete: bool = False,
 ) -> list[dict]:
-    """Batch-process all *.pdf files in pdf_dir → JSON files in out_dir.
-
-    Parameters
-    ----------
-    pdf_dir          : source directory for PDF files
-    out_dir          : output directory (shared with parse_pmc_xml.py)
-    overwrite        : re-parse even if JSON already exists
-    reparse_incomplete : re-parse files where full_text_available=false
-    """
+    """Batch-process all *.pdf files in pdf_dir → JSON files in out_dir."""
     pdf_files = sorted(pdf_dir.glob("*.pdf"))
     if not pdf_files:
         log.warning("No PDF files found in %s", pdf_dir)
@@ -586,11 +655,9 @@ def process_folder(
     summary: list[dict] = []
     errors: list[dict] = []
 
-    # Build converter once — Docling startup overhead is significant
     converter = _build_converter()
 
     for pdf_path in tqdm(pdf_files, desc="Parsing PDFs"):
-        # Fast skip: check filename stem before loading the PDF
         candidate_stem = pdf_path.stem
         m = _PMC_RE.match(pdf_path.stem.upper())
         if m:
@@ -621,7 +688,6 @@ def process_folder(
             stem = _output_stem(pdf_path, doc)
             out_path = out_dir / (stem + ".json")
 
-            # Re-check after resolving stem from inside the document
             if out_path.exists() and not overwrite:
                 if reparse_incomplete:
                     try:
@@ -638,6 +704,9 @@ def process_folder(
             meta = _extract_metadata(doc)
             sections, full_text_available = _extract_sections(doc)
             references = _extract_references(doc)
+
+            # Post-process: promote spurious first header section to metadata
+            meta, sections = _promote_first_header_section(meta, sections)
 
             if not meta["title"]:
                 meta["title"] = pdf_path.stem.replace("_", " ").replace("-", " ").title()
