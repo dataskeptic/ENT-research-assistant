@@ -38,6 +38,7 @@ Docling dependency:
 import json
 import logging
 import re
+import urllib.parse
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -112,8 +113,6 @@ _HEADER_BODY_RE = re.compile(
 
 # Regex that matches a PDF stem that encodes a DOI:
 #   10_1007_s00405-026-10300-1  →  10.1007/s00405-026-10300-1
-# Rule: starts with "10_", first underscore after registrant → ".",
-#       second underscore → "/", rest is kept as-is.
 _DOI_STEM_RE = re.compile(r"^(10)_(\d{4,9})_(.+)$")
 
 _FAKE_TITLE_WORDS = {
@@ -134,7 +133,6 @@ def _clean(text: str) -> str:
 
 
 def _is_fake_title(text: str) -> bool:
-    """Return True if text looks like a journal-section running header, not a paper title."""
     stripped = text.strip()
     if stripped.lower() in _FAKE_TITLE_WORDS:
         return True
@@ -183,15 +181,14 @@ def _looks_like_author_list(text: str) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
-# DOI-from-filename + CrossRef helpers
+# DOI-from-filename
 # ---------------------------------------------------------------------------
 
 def _doi_from_stem(stem: str) -> str:
     """Convert a DOI-encoded filename stem to a real DOI string.
 
-    Springer/Elsevier downloads use underscores as separators:
+    Springer/Elsevier downloads encode DOIs as:
         10_1007_s00405-026-10300-1  →  10.1007/s00405-026-10300-1
-        10_1016_j.jns.2025.001      →  10.1016/j.jns.2025.001
     """
     m = _DOI_STEM_RE.match(stem)
     if not m:
@@ -199,40 +196,39 @@ def _doi_from_stem(stem: str) -> str:
     return f"{m.group(1)}.{m.group(2)}/{m.group(3)}"
 
 
+# ---------------------------------------------------------------------------
+# CrossRef lookup
+# ---------------------------------------------------------------------------
+
 def _crossref_lookup(doi: str) -> dict:
     """Query CrossRef REST API for title/journal/year/authors.
 
-    Returns a dict with any fields that were found (may be empty).
-    Silent fail on network errors or missing data.
+    Silent fail on network errors. Returns empty dict if nothing found.
     """
     result: dict = {}
     if not doi:
         return result
-    url = f"https://api.crossref.org/works/{urllib.request.quote(doi, safe='/')}"
+    url = f"https://api.crossref.org/works/{urllib.parse.quote(doi, safe='/')}"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "ETN-RAG/1.0 (research tool)"})
-        with urllib.request.urlopen(req, timeout=5) as resp:
+        with urllib.request.urlopen(req, timeout=6) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         item = data.get("message", {})
 
-        # Title
         titles = item.get("title", [])
         if titles:
             result["title"] = _clean(titles[0])
 
-        # Journal / container
         container = item.get("container-title", [])
         if container:
             result["journal"] = _clean(container[0])
 
-        # Year — prefer published-print, then published-online, then created
         for date_key in ("published-print", "published-online", "created"):
             date_parts = item.get(date_key, {}).get("date-parts", [[]])
             if date_parts and date_parts[0]:
                 result["year"] = str(date_parts[0][0])
                 break
 
-        # Authors
         authors_raw = item.get("author", [])
         if authors_raw:
             names = []
@@ -244,31 +240,132 @@ def _crossref_lookup(doi: str) -> dict:
             if names:
                 result["authors"] = names
 
-    except Exception as e:
-        log.debug("CrossRef lookup failed for %s: %s", doi, e)
+    except Exception as exc:
+        log.debug("CrossRef lookup failed for %s: %s", doi, exc)
 
     return result
 
 
-def _title_from_abstract(sections: list[dict]) -> str:
-    """Extract a title hint from the first sentence of the Abstract section.
+# ---------------------------------------------------------------------------
+# PubMed lookup  (title + PMID + PMC ID via DOI)
+# ---------------------------------------------------------------------------
 
-    Only used as a last resort — CrossRef is preferred.
-    Returns empty string if no usable sentence found.
+def _pubmed_lookup(doi: str) -> dict:
+    """Query NCBI E-utilities to retrieve title, PMID, and PMC ID by DOI.
+
+    Uses two calls:
+      1. esearch: DOI  →  PMID list
+      2. esummary: PMID →  title, source, pmc_id
+
+    Silent fail on network errors. Returns empty dict if nothing found.
     """
+    result: dict = {}
+    if not doi:
+        return result
+
+    base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+    headers = {"User-Agent": "ETN-RAG/1.0 (research tool)"}
+
+    try:
+        # Step 1: esearch – resolve DOI to PMID
+        esearch_params = urllib.parse.urlencode({
+            "db": "pubmed",
+            "term": f"{doi}[doi]",
+            "retmode": "json",
+            "retmax": "1",
+        })
+        req = urllib.request.Request(f"{base}/esearch.fcgi?{esearch_params}", headers=headers)
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            esearch = json.loads(resp.read().decode("utf-8"))
+
+        ids = esearch.get("esearchresult", {}).get("idlist", [])
+        if not ids:
+            log.debug("PubMed: no PMID for DOI %s", doi)
+            return result
+
+        pmid = ids[0]
+        result["pmid"] = pmid
+        log.debug("PubMed: DOI %s → PMID %s", doi, pmid)
+
+        # Step 2: esummary – fetch title + PMC ID
+        esummary_params = urllib.parse.urlencode({
+            "db": "pubmed",
+            "id": pmid,
+            "retmode": "json",
+        })
+        req = urllib.request.Request(f"{base}/esummary.fcgi?{esummary_params}", headers=headers)
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            esummary = json.loads(resp.read().decode("utf-8"))
+
+        summary = esummary.get("result", {}).get(pmid, {})
+
+        title = summary.get("title", "").strip()
+        if title:
+            result["title"] = _clean(title)
+
+        # PMC ID is stored under "articleids" as type "pmc"
+        for aid in summary.get("articleids", []):
+            if aid.get("idtype") == "pmc":
+                pmc_val = str(aid.get("value", "")).strip()
+                if pmc_val:
+                    result["pmc_id"] = pmc_val if pmc_val.upper().startswith("PMC") else f"PMC{pmc_val}"
+                break
+
+    except Exception as exc:
+        log.debug("PubMed lookup failed for %s: %s", doi, exc)
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Abstract title fallback
+# ---------------------------------------------------------------------------
+
+def _title_from_abstract(sections: list[dict]) -> str:
+    """Extract a surrogate title from the Abstract when all API lookups fail.
+
+    For structured abstracts (Background / Objective / ... labels), the text
+    after the first label is used.  For unstructured abstracts, the first
+    meaningful sentence is returned.
+
+    Returns empty string when nothing usable is found.
+    """
+    _LABEL_RE = re.compile(
+        r"^(Background|Objective|Purpose|Aim|Introduction|Context|Summary)[s]?"
+        r"[\s:.]+ ?",
+        re.IGNORECASE,
+    )
     for sec in sections:
-        if sec.get("section") == "Abstract":
-            text = sec.get("text", "")
-            # Split on first period/question-mark that ends a sentence (>30 chars)
-            sentences = re.split(r"(?<=[.?!])\s+", text)
+        if sec.get("section") != "Abstract":
+            continue
+        text = sec.get("text", "").strip()
+        if not text:
+            continue
+
+        # For structured abstracts: extract the content after the first label
+        m = _LABEL_RE.match(text)
+        if m:
+            remainder = text[m.end():].strip()
+            # Take only up to the next label boundary
+            next_label = _LABEL_RE.search(remainder)
+            if next_label:
+                remainder = remainder[:next_label.start()].strip()
+            # Take the first sentence of the remainder
+            sentences = re.split(r"(?<=[.?!])\s+", remainder)
             for sent in sentences:
                 sent = sent.strip()
-                # Skip sentences that start with structural words (Background, Objective...)
-                if re.match(r"^(Background|Objective|Purpose|Aim|Introduction|Context)[\.:]?",
-                            sent, re.IGNORECASE):
-                    continue
                 if 30 < len(sent) < 300:
                     return sent
+
+        # For unstructured abstracts: first sentence that isn't a label
+        sentences = re.split(r"(?<=[.?!])\s+", text)
+        for sent in sentences:
+            sent = sent.strip()
+            if _LABEL_RE.match(sent):
+                continue
+            if 30 < len(sent) < 300:
+                return sent
+
     return ""
 
 
@@ -292,14 +389,6 @@ def _build_converter():
 # ---------------------------------------------------------------------------
 
 def _extract_metadata(doc) -> dict:
-    """Best-effort extraction of article-level metadata from a Docling document.
-
-    Title priority:
-      1. doc.metadata.title  (XMP / PDF info dict)
-      2. First TITLE-labelled item
-      3. doc.name
-      4. First pre-Abstract SECTION_HEADER (only if not a fake section label)
-    """
     meta: dict = {
         "title": "",
         "authors": [],
@@ -442,7 +531,6 @@ def _extract_metadata(doc) -> dict:
 # ---------------------------------------------------------------------------
 
 def _promote_first_header_section(meta: dict, sections: list[dict]) -> tuple[dict, list[dict]]:
-    """Detect and remove a spurious first section that is actually article metadata."""
     if not sections:
         return meta, sections
 
@@ -492,20 +580,19 @@ def _promote_first_header_section(meta: dict, sections: list[dict]) -> tuple[dic
 
 
 # ---------------------------------------------------------------------------
-# Enrich metadata: DOI from filename + CrossRef + Abstract fallback
+# Metadata enrichment: DOI-from-stem → CrossRef → PubMed → Abstract fallback
 # ---------------------------------------------------------------------------
 
 def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
-    """Fill empty metadata fields using DOI-from-filename, CrossRef, and Abstract text.
+    """Fill empty fields after all Docling extraction and header promotion.
 
-    Called after all Docling-based extraction and _promote_first_header_section.
-    Does not overwrite fields that already have values.
+    Step 1 – DOI from filename stem (Springer/Elsevier pattern).
+    Step 2 – CrossRef: fills title / journal / year / authors.
+    Step 3 – PubMed: fills title (if still empty) + pmid + pmc_id.
+              Called whenever doi is known and (title or pmid or pmc_id) is empty.
+    Step 4 – Abstract text: last-resort title only, never overwrites API results.
 
-    Steps:
-      1. If doi is empty, try to parse it from the PDF filename.
-      2. If doi is now known and any of title/journal/year/authors is empty,
-         call CrossRef REST API to fill them.
-      3. If title is still empty, try to extract it from the Abstract text.
+    Never overwrites a field that already has a value.
     """
     # Step 1: DOI from filename
     if not meta.get("doi"):
@@ -514,13 +601,11 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
             meta["doi"] = doi_candidate
             log.debug("DOI from filename: %s", doi_candidate)
 
-    # Step 2: CrossRef lookup
-    needs_crossref = (
-        meta.get("doi")
-        and not all([meta.get("title"), meta.get("journal"), meta.get("year")])
-    )
-    if needs_crossref:
-        cr = _crossref_lookup(meta["doi"])
+    doi = meta.get("doi", "")
+
+    # Step 2: CrossRef
+    if doi and not all([meta.get("title"), meta.get("journal"), meta.get("year")]):
+        cr = _crossref_lookup(doi)
         if cr:
             log.debug("CrossRef filled: %s", list(cr.keys()))
         if not meta.get("title") and cr.get("title"):
@@ -532,7 +617,24 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
         if not meta.get("authors") and cr.get("authors"):
             meta["authors"] = cr["authors"]
 
-    # Step 3: Title from Abstract text (last resort before filename)
+    # Step 3: PubMed (title + pmid + pmc_id)
+    needs_pubmed = doi and (
+        not meta.get("title")
+        or not meta.get("pmid")
+        or not meta.get("pmc_id")
+    )
+    if needs_pubmed:
+        pm = _pubmed_lookup(doi)
+        if pm:
+            log.debug("PubMed filled: %s", list(pm.keys()))
+        if not meta.get("title") and pm.get("title"):
+            meta["title"] = pm["title"]
+        if not meta.get("pmid") and pm.get("pmid"):
+            meta["pmid"] = pm["pmid"]
+        if not meta.get("pmc_id") and pm.get("pmc_id"):
+            meta["pmc_id"] = pm["pmc_id"]
+
+    # Step 4: Abstract text – last resort title
     if not meta.get("title"):
         abs_title = _title_from_abstract(sections)
         if abs_title:
@@ -547,7 +649,6 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
 # ---------------------------------------------------------------------------
 
 def _extract_sections(doc) -> tuple[list[dict], bool]:
-    """Walk Docling document items and group prose under section headings."""
     sections: list[dict] = []
     current_heading = "Body"
     current_paragraphs: list[str] = []
@@ -613,7 +714,6 @@ def _extract_sections(doc) -> tuple[list[dict], bool]:
 # ---------------------------------------------------------------------------
 
 def _extract_references(doc) -> list[dict]:
-    """Extract references from a Docling document."""
     refs: list[dict] = []
 
     if hasattr(doc, "references") and doc.references:
@@ -725,7 +825,7 @@ def parse_pdf(pdf_path: str | Path) -> dict:
     meta = _enrich_metadata(meta, pdf_path, sections)
 
     if not meta["title"]:
-        meta["title"] = pdf_path.stem.replace("_", " ").replace("-", " ").title()
+        meta["title"] = pdf_path.stem
 
     meta["full_text_available"] = full_text_available
     meta["section_count"] = len(sections)
@@ -805,7 +905,7 @@ def process_folder(
             meta = _enrich_metadata(meta, pdf_path, sections)
 
             if not meta["title"]:
-                meta["title"] = pdf_path.stem.replace("_", " ").replace("-", " ").title()
+                meta["title"] = pdf_path.stem
 
             meta["full_text_available"] = full_text_available
             meta["section_count"] = len(sections)
