@@ -25,7 +25,7 @@ from rag.retriever import Retriever, RetrievedChunk
 from rag.pipeline import RAGPipeline, _build_context
 
 
-# ── cached singletons ────────────────────────────────────────────────────────────────────────
+# ── cached singletons ────────────────────────────────────────────────────────
 
 @st.cache_resource(show_spinner=False)
 def get_pipeline() -> RAGPipeline:
@@ -40,45 +40,56 @@ def get_retriever() -> Retriever:
 @st.cache_resource(show_spinner=False)
 def _get_chroma_collection():
     ret_cfg = get_retriever_config()
-    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    client  = chromadb.PersistentClient(path=str(CHROMA_DIR))
     return client.get_or_create_collection(
         name=ret_cfg.collection_name,
         metadata={"hnsw:space": "cosine"},
     )
 
 
-# ── corpus stats ────────────────────────────────────────────────────────────────────────
+# ── corpus stats ─────────────────────────────────────────────────────────────
 
 @st.cache_data(show_spinner=False, ttl=300)
 def get_corpus_stats() -> dict:
-    col = _get_chroma_collection()
+    """Return aggregate stats about the Chroma collection.
+
+    Year metadata is intentionally excluded — the corpus contains only
+    recent papers so a year-range filter adds no value.
+    """
+    col        = _get_chroma_collection()
     total_chunks = col.count()
-    all_meta = col.get(include=["metadatas"], limit=total_chunks)
-    pmc_ids = {m.get("pmc_id", "") for m in all_meta["metadatas"] if m}
+    all_meta   = col.get(include=["metadatas"], limit=total_chunks)
+    pmc_ids    = {m.get("pmc_id", "") for m in all_meta["metadatas"] if m}
     pmc_ids.discard("")
-    journals = sorted({m.get("journal", "") for m in all_meta["metadatas"] if m and m.get("journal")})
+    journals   = sorted({
+        m.get("journal", "")
+        for m in all_meta["metadatas"]
+        if m and m.get("journal")
+    })
     return {
-        "total_chunks": total_chunks,
-        "total_papers": len(pmc_ids),
-        "journals": journals,
+        "total_chunks":  total_chunks,
+        "total_papers":  len(pmc_ids),
+        "journals":      journals,
+        # 'years' intentionally omitted
     }
 
 
-# ── relevance threshold filter ──────────────────────────────────────────────────────────
+# ── relevance threshold filter ───────────────────────────────────────────────
 
-# Internal default: fetch up to 20 candidates and filter by relevance %
-_RETRIEVAL_CANDIDATE_K = 20
-_DEFAULT_RELEVANCE_THRESHOLD = 68  # percent (0–100)
+# Fetch this many candidates from ChromaDB, then apply the threshold.
+# Never exposed to the user as a slider.
+_RETRIEVAL_CANDIDATE_K   = 20
+_DEFAULT_RELEVANCE_THRESHOLD = 68   # percent (0–100)
 
 
 def filter_by_relevance(
     chunks: list[RetrievedChunk],
     min_pct: int = _DEFAULT_RELEVANCE_THRESHOLD,
 ) -> list[RetrievedChunk]:
-    """
-    Keep only chunks whose cosine-similarity relevance meets the threshold.
-    Summary chunks (injected by the retriever for context) are kept regardless
-    so the LLM always has paper context.
+    """Keep chunks whose relevance score meets the threshold.
+
+    Summary / abstract chunks are always kept so the LLM has paper context
+    even when the full-text passages score slightly below the threshold.
     """
     return [
         c for c in chunks
@@ -86,23 +97,23 @@ def filter_by_relevance(
     ]
 
 
-# ── streaming answer ──────────────────────────────────────────────────────────────────────
+# ── streaming answer ─────────────────────────────────────────────────────────
 
 def stream_answer(
     query: str,
     where: dict | None = None,
     min_relevance_pct: int = _DEFAULT_RELEVANCE_THRESHOLD,
 ) -> Generator[str, None, None]:
-    """
-    Generator that yields answer tokens for st.write_stream.
+    """Yield answer tokens for st.write_stream.
 
-    Retrieves up to _RETRIEVAL_CANDIDATE_K candidates, filters by
-    relevance threshold (not a user-visible slider), then streams the
-    LLM answer. Sources are stored in st.session_state["_last_sources"].
+    Internally fetches _RETRIEVAL_CANDIDATE_K candidates and filters by
+    relevance threshold.  The top-k value is never surfaced to the user.
+    Retrieved chunks are stored in st.session_state["_last_sources"] so
+    the Ranked Passages tab can read them without a second retrieval.
     """
-    retriever  = get_retriever()
-    model_cfg  = get_model_config()
-    client     = make_openrouter_client()
+    retriever = get_retriever()
+    model_cfg = get_model_config()
+    client    = make_openrouter_client()
 
     # 1. Retrieve candidates
     raw_chunks = retriever.retrieve(
@@ -123,10 +134,10 @@ def stream_answer(
         )
         return
 
-    # 3. Build context
+    # 3. Build context string
     context = _build_context(chunks)
 
-    # 4. Stream LLM
+    # 4. Stream LLM response
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user",   "content": f"{context}\n\nQuestion: {query}"},
@@ -146,15 +157,16 @@ def stream_answer(
             yield delta.content
 
 
-# ── paper search (metadata-based) ────────────────────────────────────────────────────────
+# ── paper search (metadata-based) ────────────────────────────────────────────
 
 @st.cache_data(show_spinner=False, ttl=60)
-def search_papers_by_title(query: str, limit: int = 30) -> list[dict]:
+def search_papers_by_title(query: str, limit: int = 60) -> list[dict]:
+    """Search papers by title substring, author, or PMC ID.
+
+    Returns a deduplicated list of paper-level metadata dicts, each with
+    an extra 'summary_text' key containing the stored abstract/summary doc.
     """
-    Search for papers by title substring, author, or PMC ID.
-    Returns deduplicated list of paper-level metadata dicts.
-    """
-    col = _get_chroma_collection()
+    col   = _get_chroma_collection()
     total = col.count()
     if total == 0:
         return []
@@ -167,14 +179,14 @@ def search_papers_by_title(query: str, limit: int = 30) -> list[dict]:
 
     query_lower = query.lower().strip()
     papers: list[dict] = []
-    seen: set[str] = set()
+    seen:   set[str]   = set()
 
     for meta, doc in zip(results["metadatas"], results["documents"]):
         pmc_id = meta.get("pmc_id", "")
         if pmc_id in seen:
             continue
 
-        title   = meta.get("title", "").lower()
+        title   = meta.get("title",   "").lower()
         authors = meta.get("authors", "").lower()
 
         if (
@@ -192,8 +204,8 @@ def search_papers_by_title(query: str, limit: int = 30) -> list[dict]:
 
 
 def get_all_papers(limit: int = 500) -> list[dict]:
-    """Return all papers sorted by year desc, then title."""
-    col = _get_chroma_collection()
+    """Return all papers sorted by year descending, then title."""
+    col   = _get_chroma_collection()
     total = col.count()
     if total == 0:
         return []
@@ -205,7 +217,7 @@ def get_all_papers(limit: int = 500) -> list[dict]:
     )
 
     papers: list[dict] = []
-    seen: set[str] = set()
+    seen:   set[str]   = set()
     for meta, doc in zip(results["metadatas"], results["documents"]):
         pmc_id = meta.get("pmc_id", "")
         if pmc_id in seen:
@@ -220,7 +232,7 @@ def get_all_papers(limit: int = 500) -> list[dict]:
     return papers[:limit]
 
 
-# ── deep summary generation ─────────────────────────────────────────────────────────────
+# ── deep / full-paper summary ─────────────────────────────────────────────────
 
 DEEP_SUMMARY_PROMPT = """\
 You are an expert ENT surgical research assistant. Given the full text of a \
@@ -239,17 +251,18 @@ where available. Keep each section to 2–4 sentences.
 
 
 def generate_deep_summary(pmc_id: str) -> Generator[str, None, None]:
-    """Stream a structured LLM summary for a given paper."""
-    retriever  = get_retriever()
-    model_cfg  = get_model_config()
-    client     = make_openrouter_client()
+    """Stream a structured LLM summary covering all sections of a paper."""
+    retriever = get_retriever()
+    model_cfg = get_model_config()
+    client    = make_openrouter_client()
 
     chunks = retriever.retrieve_by_paper(pmc_id)
     if not chunks:
         yield "No chunks found for this paper."
         return
 
-    parts = []
+    # Build ordered full-text block from all sections
+    parts: list[str] = []
     for c in chunks:
         label = c.section if not c.is_summary else "ABSTRACT/SUMMARY"
         parts.append(f"[{label}]\n{c.text.strip()}\n")
@@ -275,21 +288,25 @@ def generate_deep_summary(pmc_id: str) -> Generator[str, None, None]:
             yield delta.content
 
 
-# ── score helpers ────────────────────────────────────────────────────────────────────────────
+# ── score & highlight helpers ─────────────────────────────────────────────────
 
 def format_score(distance: float) -> int:
-    """Convert cosine distance (0=identical, 2=opposite) to relevance %."""
+    """Convert cosine distance (0 = identical, 2 = opposite) to relevance %."""
     similarity = max(0.0, 1.0 - distance)
     return int(round(similarity * 100))
 
 
 def highlight_terms(text: str, query: str) -> str:
-    """Wrap query terms in the text with bold markdown for highlighting."""
+    """Wrap query terms in HTML <mark> tags for rendering inside st.markdown blocks.
+
+    Uses <mark> instead of **bold** markdown so the styling is applied
+    correctly when the surrounding container uses unsafe_allow_html=True.
+    """
     words = {w for w in query.lower().split() if len(w) > 2}
     if not words:
         return text
     pattern = re.compile(
-        r'\b(' + '|'.join(re.escape(w) for w in words) + r')\b',
+        r'\b(' + '|'.join(re.escape(w) for w in sorted(words, key=len, reverse=True)) + r')\b',
         re.IGNORECASE,
     )
-    return pattern.sub(r'**\1**', text)
+    return pattern.sub(r'<mark>\1</mark>', text)

@@ -26,7 +26,7 @@ from ui_helpers import (
 # ──────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="ENT Research Assistant",
-    page_icon="ENT",          # text-based, no emoji rendering issues
+    page_icon="🫁",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -190,9 +190,13 @@ details[data-testid="stExpander"],
 /* ── Divider ── */
 hr { border: none; border-top: 1px solid var(--border); margin: 1.2rem 0; }
 
-/* ── Highlight ── */
-mark { background: rgba(59,130,246,0.18); color: #93c5fd !important;
-       border-radius: 3px; padding: 0 2px; }
+/* ── Highlight (HTML mark tag used by highlight_terms) ── */
+mark {
+    background: rgba(59,130,246,0.22);
+    color: #93c5fd !important;
+    border-radius: 3px;
+    padding: 0 2px;
+}
 strong { color: #93c5fd !important; }
 
 /* ── Glass card ── */
@@ -369,7 +373,6 @@ strong { color: #93c5fd !important; }
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
-# Navigation labels — same text used in both sidebar radio AND page hero headings
 MODE_ASK      = "Ask the Literature"
 MODE_EXPLORER = "Paper Explorer"
 
@@ -395,13 +398,16 @@ def _doi(doi: str) -> str:
 
 
 def _strip_prefix(text: str, section: str) -> str:
+    """Remove leading '[SECTION]\n\n' prefix that the ingestion pipeline prepends."""
     prefix = f"[{section}]\n\n"
     if text.startswith(prefix):
         return text[len(prefix):]
+    # fallback: strip any bracketed prefix
     return re.sub(r'^\[[^\]]*\]\n\n', '', text, count=1)
 
 
 def _abstract_only(raw_doc: str) -> str:
+    """Extract just the abstract body from a summary doc."""
     marker = "Abstract:\n"
     idx = raw_doc.find(marker)
     return raw_doc[idx + len(marker):].strip() if idx != -1 else raw_doc.strip()
@@ -419,9 +425,11 @@ def _authors_str(raw: object, limit: int = 160) -> str:
 
 
 def _passage_card(chunk, idx: int, query: str = "") -> None:
+    """Render a single passage card with relevance badge, score bar, and full-text expander."""
     pct     = format_score(chunk.score)
     section = chunk.section if not chunk.is_summary else "Abstract"
     raw     = _strip_prefix(chunk.text, chunk.section)
+    # highlight_terms returns HTML with <mark> tags — safe to embed
     preview = highlight_terms(raw[:520], query) if query else raw[:520]
     doi_html = _doi(chunk.metadata.get("doi", ""))
 
@@ -446,8 +454,9 @@ def _passage_card(chunk, idx: int, query: str = "") -> None:
         unsafe_allow_html=True,
     )
     with st.expander("Full passage", expanded=False):
+        full_html = highlight_terms(raw, query) if query else raw
         st.markdown(
-            f'<div class="sec-body">{highlight_terms(raw, query) if query else raw}</div>',
+            f'<div class="sec-body">{full_html}</div>',
             unsafe_allow_html=True,
         )
 
@@ -472,7 +481,6 @@ def _paper_card_html(paper: dict) -> str:
 # Sidebar
 # ──────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    # Text-based logo with three coloured dots (ear / nose / mouth)
     st.markdown(
         """
         <div style="padding:0.4rem 0 1.1rem;">
@@ -496,7 +504,6 @@ with st.sidebar:
     )
     st.markdown('<hr/>', unsafe_allow_html=True)
 
-    # Radio labels intentionally match the hero h1 titles in each mode
     mode = st.radio(
         "Navigation",
         [MODE_ASK, MODE_EXPLORER],
@@ -532,19 +539,20 @@ with st.sidebar:
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# MODE 1 — Ask the Literature
+# MODE 1 — Ask the Literature  (Q&A + semantic passages merged)
 # ──────────────────────────────────────────────────────────────────────────────
 if mode == MODE_ASK:
     st.markdown(
         '<div class="hero">'
         '<h1>Ask the Literature</h1>'
         '<p>Ask any ENT / otorhinolaryngology question and get a citation-backed answer '
-        'synthesised from peer-reviewed ENT papers. '
-        'Switch to "Ranked Passages" to browse the raw semantic results.</p>'
+        'synthesised from peer-reviewed papers. '
+        'Switch to <strong style="color:var(--txt);">Ranked Passages</strong> to browse the raw semantic results.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
 
+    # ── query row + optional journal filter ──
     q_col, j_col = st.columns([5, 1])
     with q_col:
         query = st.text_input(
@@ -558,8 +566,11 @@ if mode == MODE_ASK:
             journals = ["All journals"] + stats.get("journals", [])
         except Exception:
             journals = ["All journals"]
-        journal_sel = st.selectbox("Journal", journals,
-                                   label_visibility="collapsed", key="qa_j")
+        journal_sel = st.selectbox(
+            "Journal", journals,
+            label_visibility="collapsed",
+            key="qa_j",
+        )
 
     where: dict | None = (
         {"journal": journal_sel}
@@ -568,14 +579,18 @@ if mode == MODE_ASK:
 
     if query:
         st.markdown('<hr/>', unsafe_allow_html=True)
-        tab_ans, tab_passages = st.tabs(["AI Answer", "Ranked Passages"])
+        tab_ans, tab_passages = st.tabs(["💡 AI Answer", "🎯 Ranked Passages"])
 
         with tab_ans:
             with st.spinner("Retrieving passages and generating answer…"):
-                st.markdown('<div class="answer-box">', unsafe_allow_html=True)
-                st.write_stream(stream_answer(query, where=where))
-                st.markdown('</div>', unsafe_allow_html=True)
+                answer_box = st.empty()
+                # Collect the full streamed answer so we can wrap it in the styled div.
+                # st.write_stream returns the full string when the generator is exhausted.
+                full_answer = answer_box.write_stream(
+                    stream_answer(query, where=where)
+                )
 
+            # Citation strip — deduplicated paper labels from retrieved chunks
             sources = st.session_state.get("_last_sources", [])
             seen: set[str] = set()
             unique = []
@@ -585,7 +600,8 @@ if mode == MODE_ASK:
                     unique.append(c)
             if unique:
                 chips = " ".join(
-                    f'<span class="cite-chip">{c.citation_label}</span>' for c in unique[:10]
+                    f'<span class="cite-chip">{c.citation_label}</span>'
+                    for c in unique[:10]
                 )
                 extra = "<span class='cite-chip'>…</span>" if len(unique) > 10 else ""
                 st.markdown(
@@ -596,10 +612,11 @@ if mode == MODE_ASK:
                 )
 
         with tab_passages:
+            # Re-read sources (populated during stream_answer above)
             sources = st.session_state.get("_last_sources", [])
             display = [c for c in sources if not c.is_summary]
             if not display:
-                st.info("Submit a question to see ranked passages here.")
+                st.info("Submit a question first to see ranked passages here.")
             else:
                 st.markdown(
                     f'<p style="font-size:0.77rem;color:var(--txt-2);margin-bottom:0.75rem;">'
@@ -616,7 +633,7 @@ if mode == MODE_ASK:
 # ──────────────────────────────────────────────────────────────────────────────
 elif mode == MODE_EXPLORER:
 
-    # ── Detail panel (shown at top when a paper is selected) ──
+    # ── Detail panel — shown ABOVE the grid when a paper is selected ──
     if "selected_paper" in st.session_state:
         paper  = st.session_state["selected_paper"]
         pmc_id = paper.get("pmc_id", "")
@@ -624,10 +641,11 @@ elif mode == MODE_EXPLORER:
         authors_disp = _authors_str(paper.get("authors", ""), limit=200)
         doi_html     = _doi(paper.get("doi", ""))
 
+        # ── Header card ──
         st.markdown(
             f'<div class="detail-hdr">'
             f'  <div style="font-size:1.05rem;font-weight:700;color:#e2e8f0;line-height:1.35;margin-bottom:8px;">'
-            f'  {paper.get("title", "Untitled")}'
+            f'    {paper.get("title", "Untitled")}'
             f'  </div>'
             f'  <div style="font-size:0.81rem;color:var(--txt-2);margin-bottom:6px;">{authors_disp}</div>'
             f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.77rem;color:var(--txt-2);">'
@@ -640,21 +658,23 @@ elif mode == MODE_EXPLORER:
             unsafe_allow_html=True,
         )
 
+        # ── Action buttons ──
         b1, b2, _ = st.columns([1.5, 1, 2])
         with b1:
             do_summary = st.button(
-                "Summarize full paper",
+                "🧠 Summarize full paper",
                 key="sum_btn",
                 use_container_width=True,
                 type="primary",
             )
         with b2:
-            if st.button("Back to list", key="back_btn", use_container_width=True):
+            if st.button("← Back to list", key="back_btn", use_container_width=True):
                 del st.session_state["selected_paper"]
                 st.session_state.pop("_sum_done", None)
                 st.session_state.pop("_sum_id", None)
                 st.rerun()
 
+        # ── LLM summary (streamed on demand) ──
         if do_summary:
             st.session_state["_sum_id"]   = pmc_id
             st.session_state["_sum_done"] = False
@@ -663,43 +683,61 @@ elif mode == MODE_EXPLORER:
             st.session_state.get("_sum_id") == pmc_id
             and not st.session_state.get("_sum_done")
         ):
-            with st.expander("AI Structured Summary", expanded=True):
-                with st.spinner("Reading all sections…"):
+            with st.expander("🤖 AI Structured Summary", expanded=True):
+                with st.spinner("Reading all paper sections…"):
                     st.write_stream(generate_deep_summary(pmc_id))
             st.session_state["_sum_done"] = True
 
-        # Abstract
+        # ── Abstract ──
         abstract = _abstract_only(paper.get("summary_text", ""))
         if abstract:
-            with st.expander("Abstract", expanded=True):
-                st.markdown(f'<div class="sec-body">{abstract}</div>', unsafe_allow_html=True)
+            with st.expander("📋 Abstract", expanded=True):
+                st.markdown(
+                    f'<div class="sec-body">{abstract}</div>',
+                    unsafe_allow_html=True,
+                )
 
-        # Full sections
-        with st.expander("Full paper sections", expanded=False):
+        # ── Full sections (no truncation) ──
+        with st.expander("📑 Full paper sections", expanded=False):
             retriever = get_retriever()
-            chunks = [c for c in retriever.retrieve_by_paper(pmc_id) if not c.is_summary]
+            chunks = [
+                c for c in retriever.retrieve_by_paper(pmc_id)
+                if not c.is_summary
+            ]
             if not chunks:
-                st.caption("No section text available.")
+                st.caption("No section text available for this paper.")
             else:
                 for c in chunks:
                     clean = _strip_prefix(c.text, c.section)
                     st.markdown(
-                        f'<div style="margin-bottom:6px;"><span class="badge b-sec">{c.section}</span></div>'
-                        f'<div class="sec-body">{clean}</div><hr/>',
+                        f'<div style="margin-bottom:6px;">'
+                        f'  <span class="badge b-sec">{c.section}</span>'
+                        f'</div>'
+                        f'<div class="sec-body">{clean}</div>'
+                        f'<hr/>',
                         unsafe_allow_html=True,
                     )
 
-        # References
-        with st.expander("References", expanded=False):
-            retriever = get_retriever()
-            all_chunks = retriever.retrieve_by_paper(pmc_id)
+        # ── References ──
+        with st.expander("📚 References", expanded=False):
+            retriever   = get_retriever()
+            all_chunks  = retriever.retrieve_by_paper(pmc_id)
             seen_keys: set = set()
             refs: list[dict] = []
             for c in all_chunks:
-                for r in c.references:
+                for r in (c.references or []):
                     raw_au = r.get("authors", "")
-                    au_str = ", ".join(str(a) for a in raw_au) if isinstance(raw_au, list) else str(raw_au)
-                    key = (r.get("title",""), r.get("doi",""), r.get("pmid",""), r.get("pmcid",""))
+                    au_str = (
+                        ", ".join(str(a) for a in raw_au)
+                        if isinstance(raw_au, list)
+                        else str(raw_au)
+                    )
+                    key = (
+                        r.get("title", ""),
+                        r.get("doi", ""),
+                        r.get("pmid", ""),
+                        r.get("pmcid", ""),
+                    )
                     if key in seen_keys:
                         continue
                     seen_keys.add(key)
@@ -709,22 +747,28 @@ elif mode == MODE_EXPLORER:
                 st.caption("No structured references stored for this paper.")
             else:
                 st.markdown(
-                    f'<p style="font-size:0.75rem;color:var(--txt-3);margin-bottom:0.6rem;">{len(refs)} references</p>',
+                    f'<p style="font-size:0.75rem;color:var(--txt-3);margin-bottom:0.6rem;">'
+                    f'{len(refs)} references</p>',
                     unsafe_allow_html=True,
                 )
                 rows = ""
                 for i, r in enumerate(refs, 1):
-                    au = r["_au"]
-                    au_short = au[:100] + (" et al." if len(au) > 100 else "")
-                    parts = []
-                    if au_short: parts.append(au_short)
+                    au      = r["_au"]
+                    au_disp = au[:100] + (" et al." if len(au) > 100 else "")
+                    parts   = []
+                    if au_disp:       parts.append(au_disp)
                     if r.get("year"): parts.append(f'({r["year"]})')
-                    if r.get("journal"): parts.append(f'<em>{r["journal"][:60]}</em>')
-                    if r.get("doi"): parts.append(f'<a class="ref-doi" href="https://doi.org/{r["doi"]}" target="_blank">DOI ↗</a>')
+                    if r.get("journal"):
+                        parts.append(f'<em>{r["journal"][:60]}</em>')
+                    if r.get("doi"):
+                        parts.append(
+                            f'<a class="ref-doi" href="https://doi.org/{r["doi"]}"'
+                            f' target="_blank">DOI ↗</a>'
+                        )
                     rows += (
                         f'<div class="ref-row">'
                         f'  <span style="color:var(--txt-3);margin-right:5px;">{i}.</span>'
-                        f'  <span class="ref-t">{r.get("title","Untitled")}</span>'
+                        f'  <span class="ref-t">{r.get("title", "Untitled")}</span>'
                         f'  <div style="margin-top:3px;">{" ".join(parts)}</div>'
                         f'</div>'
                     )
@@ -736,7 +780,8 @@ elif mode == MODE_EXPLORER:
     st.markdown(
         '<div class="hero">'
         '<h1>Paper Explorer</h1>'
-        '<p>Browse the ENT corpus. Click any paper to view its full text, abstract, and references.</p>'
+        '<p>Browse the ENT corpus. Click any paper to view its full text, abstract, references, '
+        'and trigger an AI-generated structured summary.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -745,20 +790,23 @@ elif mode == MODE_EXPLORER:
     with sc:
         search_q = st.text_input(
             "Search",
-            placeholder="Title, otorhinolaryngology topic, author, or PMC ID…",
+            placeholder="Title, topic, author, or PMC ID…",
             label_visibility="collapsed",
             key="exp_search",
         )
 
     try:
         papers = search_papers_by_title(search_q) if search_q else get_all_papers()
-        n = len(papers)
-        label = (
+        n      = len(papers)
+        label  = (
             f'{n} result{"s" if n != 1 else ""} for "{search_q}"'
-            if search_q else f'Showing all {n} papers'
+            if search_q
+            else f'Showing all {n} papers'
         )
-        st.markdown(f'<p style="font-size:0.76rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
-                    unsafe_allow_html=True)
+        st.markdown(
+            f'<p style="font-size:0.76rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
+            unsafe_allow_html=True,
+        )
     except Exception as exc:
         st.error(f"Could not load papers: {exc}")
         papers = []
@@ -766,12 +814,14 @@ elif mode == MODE_EXPLORER:
     COLS = 3
     for row_start in range(0, len(papers), COLS):
         cols = st.columns(COLS)
-        for col, paper in zip(cols, papers[row_start: row_start + COLS]):
+        for col, paper in zip(cols, papers[row_start : row_start + COLS]):
             with col:
                 st.markdown(_paper_card_html(paper), unsafe_allow_html=True)
-                if st.button("View details",
-                             key=f"v_{paper.get('pmc_id','')}_{row_start}",
-                             use_container_width=True):
+                if st.button(
+                    "View details",
+                    key=f"v_{paper.get('pmc_id', '')}_{row_start}",
+                    use_container_width=True,
+                ):
                     st.session_state["selected_paper"] = paper
                     st.session_state.pop("_sum_done", None)
                     st.session_state.pop("_sum_id", None)
