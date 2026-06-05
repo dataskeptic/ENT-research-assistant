@@ -44,7 +44,7 @@ class ModelConfig:
     embedding: str = "qwen/qwen3-embedding-8b"
 
     # Max tokens the LLM should generate in a single response
-    llm_max_tokens: int = 2048
+    llm_max_tokens: int = 5048
 
     # Temperature for answer generation (0 = deterministic)
     llm_temperature: float = 0.1
