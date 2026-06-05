@@ -3,14 +3,24 @@ rag/ingestion.py
 
 Chunks parsed JSON papers and ingests them into a ChromaDB collection.
 
-Two chunk types per paper:
-  1. __summary__  — title + authors + abstract (one per paper)
-  2. <SectionName> — one chunk per section, split by sliding window if > max_tokens
+Chunking strategy — one chunk per logical unit, no artificial splitting:
+  1. __summary__   — title + authors + journal + abstract (one per paper)
+  2. <SectionName> — ONE chunk per section, exactly as parsed, regardless of length
+
+Why no splitting?
+  The parsed JSON already segments text by section (Introduction, Methods,
+  Results, Discussion, etc.). Each section is a coherent semantic unit written
+  by the authors. Splitting a section mid-sentence to hit an arbitrary token
+  budget breaks that coherence and creates orphaned fragments that are harder
+  to retrieve and harder for the LLM to use. The embedding model (Qwen3-8B)
+  supports long inputs, so there is no need to impose a hard token ceiling here.
+  The pipeline's context builder in pipeline.py already enforces a budget when
+  assembling the final prompt sent to the LLM.
 
 Usage:
-    python -m rag.ingestion                          # ingest all of data/parsed/
-    python -m rag.ingestion --limit 5               # ingest first 5 papers (smoke test)
-    python -m rag.ingestion --reset                 # wipe collection before ingesting
+    python -m rag.ingestion                  # ingest all of data/parsed/
+    python -m rag.ingestion --limit 5        # smoke test with 5 papers
+    python -m rag.ingestion --reset          # wipe collection first
 """
 
 from __future__ import annotations
@@ -31,7 +41,7 @@ from rag.config import (
 )
 
 
-# ── token counting (mirrors corpus_stats.py) ─────────────────────────────────
+# ── optional token counter (for stats only, not for splitting) ───────────────
 try:
     import tiktoken
     _enc = tiktoken.get_encoding("cl100k_base")
@@ -42,56 +52,35 @@ except ImportError:
         return max(1, len(text) // 4)
 
 
-# ── sliding window splitter ───────────────────────────────────────────────────
-def _split_by_sentences(text: str, max_tokens: int, overlap_tokens: int) -> list[str]:
-    """
-    Split text into windows of at most max_tokens with overlap_tokens overlap.
-    Splits on sentence boundaries ('. ') where possible.
-    """
-    if _token_len(text) <= max_tokens:
-        return [text]
-
-    sentences = text.replace("\n", " ").split(". ")
-    windows: list[str] = []
-    current: list[str] = []
-    current_tokens = 0
-
-    for sent in sentences:
-        sent_tokens = _token_len(sent)
-        if current_tokens + sent_tokens > max_tokens and current:
-            windows.append(". ".join(current) + ".")
-            # keep overlap: drop from front until we are within budget
-            while current and current_tokens > overlap_tokens:
-                removed = current.pop(0)
-                current_tokens -= _token_len(removed)
-        current.append(sent)
-        current_tokens += sent_tokens
-
-    if current:
-        windows.append(". ".join(current))
-
-    return windows if windows else [text]
-
-
-# ── chunker ────────────────────────────────────────────────────────────────────
-def chunk_paper(data: dict, chunk_cfg, pmc_id: str) -> Generator[tuple[str, dict], None, None]:
+# ── chunker ───────────────────────────────────────────────────────────────────
+def chunk_paper(
+    data: dict,
+    chunk_cfg,
+    pmc_id: str,
+) -> Generator[tuple[str, dict], None, None]:
     """
     Yields (text, metadata) tuples for a single paper.
+
+    Produces exactly:
+      - 1 __summary__ chunk  (always)
+      - 1 chunk per non-skipped, non-abstract section  (variable per paper)
+
+    No sliding window, no sub-section splitting.
     """
-    meta = data.get("metadata", {})
-    sections = data.get("sections", [])
+    meta       = data.get("metadata", {})
+    sections   = data.get("sections", [])
     references = data.get("references", [])
 
     base_meta = {
-        "pmc_id":    meta.get("pmc_id", pmc_id),
-        "pmid":      str(meta.get("pmid", "")),
-        "doi":       meta.get("doi", ""),
-        "title":     meta.get("title", ""),
-        "authors":   ", ".join(meta.get("authors", [])),
-        "journal":   meta.get("journal", ""),
-        "year":      str(meta.get("year", "")),
-        "full_text": str(meta.get("full_text_available", False)),
-        # Store structured references as JSON string — metadata only, never embedded
+        "pmc_id":          meta.get("pmc_id", pmc_id),
+        "pmid":            str(meta.get("pmid", "")),
+        "doi":             meta.get("doi", ""),
+        "title":           meta.get("title", ""),
+        "authors":         ", ".join(meta.get("authors", [])),
+        "journal":         meta.get("journal", ""),
+        "year":            str(meta.get("year", "")),
+        "full_text":       str(meta.get("full_text_available", False)),
+        # Structured references stored as JSON string — metadata only, never embedded
         "references_json": json.dumps(references, ensure_ascii=False),
     }
 
@@ -104,24 +93,26 @@ def chunk_paper(data: dict, chunk_cfg, pmc_id: str) -> Generator[tuple[str, dict
         f"Authors: {', '.join(meta.get('authors', []))}\n"
         f"Journal: {meta.get('journal', '')} ({meta.get('year', '')})\n"
         f"DOI: {meta.get('doi', '')}\n\n"
-        f"Abstract: {abstract_text}"
+        f"Abstract:\n{abstract_text}"
     )
     yield summary_text, {
         **base_meta,
-        "section": "__summary__",
-        "chunk_id": f"{base_meta['pmc_id']}::__summary__::0",
-        "order": -1,
-        "window": 0,
+        "section":  "__summary__",
+        "chunk_id": f"{base_meta['pmc_id']}::__summary__",
+        "order":    -1,
+        "tokens":   _token_len(summary_text),
     }
 
-    # —— 2. Section chunks ————————————————————————————————————————
+    # —— 2. One chunk per section ——————————————————————————————————
     for sec in sections:
-        sec_name = sec.get("section", "")
-        sec_name_lower = sec_name.strip().lower()
+        sec_name       = sec.get("section", "").strip()
+        sec_name_lower = sec_name.lower()
 
+        # Skip boilerplate sections
         if sec_name_lower in chunk_cfg.skip_sections:
             continue
-        if sec_name == "Abstract":   # already in summary chunk
+        # Abstract is already captured in the summary chunk above
+        if sec_name_lower == "abstract":
             continue
 
         sec_text = sec.get("text", "").strip()
@@ -129,18 +120,17 @@ def chunk_paper(data: dict, chunk_cfg, pmc_id: str) -> Generator[tuple[str, dict
             continue
 
         order = sec.get("order", 0)
-        # Prefix every chunk with section label for better embedding signal
-        labeled = f"[{sec_name}]\n\n{sec_text}"
 
-        windows = _split_by_sentences(labeled, chunk_cfg.max_tokens, chunk_cfg.overlap_tokens)
-        for w_idx, window in enumerate(windows):
-            yield window, {
-                **base_meta,
-                "section": sec_name,
-                "chunk_id": f"{base_meta['pmc_id']}::{sec_name}::{order}::{w_idx}",
-                "order": order,
-                "window": w_idx,
-            }
+        # Prefix with section label — improves embedding signal for section-level queries
+        chunk_text = f"[{sec_name}]\n\n{sec_text}"
+
+        yield chunk_text, {
+            **base_meta,
+            "section":  sec_name,
+            "chunk_id": f"{base_meta['pmc_id']}::{sec_name}::{order}",
+            "order":    order,
+            "tokens":   _token_len(chunk_text),
+        }
 
 
 # ── embedding client ───────────────────────────────────────────────────────────
@@ -160,15 +150,14 @@ def make_openrouter_client() -> OpenAI:
 def embed_batch(client: OpenAI, texts: list[str], model: str) -> list[list[float]]:
     """
     Embed a batch of texts via OpenRouter /embeddings.
-    Returns a list of float vectors, one per input text.
+    Returns one float vector per input text, in the same order.
     """
     response = client.embeddings.create(model=model, input=texts)
-    # Sort by index to guarantee order matches input
     return [e.embedding for e in sorted(response.data, key=lambda x: x.index)]
 
 
 # ── ingestor ───────────────────────────────────────────────────────────────────
-BATCH_SIZE = 16   # chunks per embedding API call
+BATCH_SIZE = 8    # sections per embedding API call (sections can be long)
 
 
 def ingest(
@@ -178,16 +167,16 @@ def ingest(
     limit: int = 0,
     batch_size: int = BATCH_SIZE,
 ) -> None:
-    model_cfg    = get_model_config()
-    chunk_cfg    = get_chunk_config()
-    ret_cfg      = get_retriever_config()
+    model_cfg  = get_model_config()
+    chunk_cfg  = get_chunk_config()
+    ret_cfg    = get_retriever_config()
 
-    parsed_dir   = parsed_dir or PARSED_DIR
-    chroma_dir   = chroma_dir or CHROMA_DIR
+    parsed_dir = parsed_dir or PARSED_DIR
+    chroma_dir = chroma_dir or CHROMA_DIR
     chroma_dir.mkdir(parents=True, exist_ok=True)
 
-    client       = make_openrouter_client()
-    chroma       = chromadb.PersistentClient(path=str(chroma_dir))
+    client     = make_openrouter_client()
+    chroma     = chromadb.PersistentClient(path=str(chroma_dir))
 
     if reset:
         try:
@@ -206,18 +195,18 @@ def ingest(
         json_files = json_files[:limit]
 
     print(f"\nIngesting {len(json_files)} papers into '{ret_cfg.collection_name}'")
-    print(f"  Embedding model : {model_cfg.embedding}")
-    print(f"  Chroma path     : {chroma_dir}")
-    print(f"  Chunk max tokens: {chunk_cfg.max_tokens} / overlap: {chunk_cfg.overlap_tokens}")
+    print(f"  Embedding model  : {model_cfg.embedding}")
+    print(f"  Chroma path      : {chroma_dir}")
+    print(f"  Chunking strategy: 1 chunk per section (no splitting)")
+    print(f"  Batch size       : {batch_size} chunks per API call")
     print()
 
     total_chunks = 0
     total_papers = 0
 
-    # accumulate a batch before calling the API
-    batch_texts:    list[str]  = []
-    batch_ids:      list[str]  = []
-    batch_metas:    list[dict] = []
+    batch_texts:  list[str]  = []
+    batch_ids:    list[str]  = []
+    batch_metas:  list[dict] = []
 
     def flush_batch() -> None:
         nonlocal total_chunks
@@ -244,38 +233,45 @@ def ingest(
             continue
 
         paper_chunks = 0
+        paper_tokens = 0
+
         for text, meta in chunk_paper(data, chunk_cfg, pmc_id):
             chunk_id = meta["chunk_id"]
 
-            # skip if already ingested (idempotent re-runs)
-            existing = collection.get(ids=[chunk_id])
-            if existing["ids"]:
+            # idempotent: skip already-ingested chunks
+            if collection.get(ids=[chunk_id])["ids"]:
                 continue
 
             batch_texts.append(text)
             batch_ids.append(chunk_id)
             batch_metas.append(meta)
             paper_chunks += 1
+            paper_tokens += meta.get("tokens", 0)
 
             if len(batch_texts) >= batch_size:
                 flush_batch()
-                time.sleep(0.25)   # gentle rate-limit pause
+                time.sleep(0.3)   # gentle rate-limit pause between batches
 
-        flush_batch()  # flush any remainder from this paper
+        flush_batch()
         total_papers += 1
-        print(f"  [{total_papers:>4}/{len(json_files)}] {pmc_id:<22}  +{paper_chunks} chunks")
+        print(
+            f"  [{total_papers:>4}/{len(json_files)}] "
+            f"{pmc_id:<24} "
+            f"+{paper_chunks} chunks  "
+            f"({paper_tokens:,} tokens embedded)"
+        )
 
-    print(f"\n  Done. {total_papers} papers, {total_chunks} chunks ingested.")
-    print(f"  Collection total: {collection.count()} vectors\n")
+    print(f"\n  Done. {total_papers} papers  |  {total_chunks} chunks ingested.")
+    print(f"  Collection total : {collection.count()} vectors\n")
 
 
 # ── CLI ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Ingest parsed papers into ChromaDB")
-    parser.add_argument("--reset",  action="store_true", help="Delete collection before ingesting")
-    parser.add_argument("--limit",  type=int, default=0, help="Only ingest first N papers (0=all)")
-    parser.add_argument("--parsed-dir", default=None,   help="Override data/parsed path")
-    parser.add_argument("--chroma-dir", default=None,   help="Override data/chroma path")
+    parser.add_argument("--reset",      action="store_true", help="Delete collection before ingesting")
+    parser.add_argument("--limit",      type=int, default=0, help="Only ingest first N papers (0=all)")
+    parser.add_argument("--parsed-dir", default=None,        help="Override data/parsed path")
+    parser.add_argument("--chroma-dir", default=None,        help="Override data/chroma path")
     args = parser.parse_args()
 
     ingest(
