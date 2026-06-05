@@ -115,6 +115,25 @@ _DOI_RE = re.compile(r"\b10\.\d{4,9}/[^\s,;\"\'>\]]+", re.IGNORECASE)
 _PMC_RE = re.compile(r"\bPMC\d+\b", re.IGNORECASE)
 _PMID_RE = re.compile(r"\bPMID[:\s]+(\d{7,9})\b", re.IGNORECASE)
 
+# Year patterns found in journal headers / received-accepted lines
+_YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
+
+# Heuristic: an author-list line consists mostly of short comma/semicolon-separated
+# tokens that look like "Lastname Initials" or "F. Lastname". We require at least
+# two such tokens and no sentence-length prose.
+_AUTHOR_SEP_RE = re.compile(r"[,;]\s*")
+_AUTHOR_TOKEN_RE = re.compile(
+    r"^[A-ZÀ-Ö][a-zA-ZÀ-öØ-ÿ'\-]{1,25}(?:\s+[A-Z]{1,4}\.?|\s+[A-ZÀ-Ö][a-zA-ZÀ-öØ-ÿ'\-]{1,20})?$"
+)
+
+# Known journal keyword fragments that help identify a journal name line
+_JOURNAL_KEYWORDS = re.compile(
+    r"\b(journal|otolaryngol|head\s+neck|laryngoscope|rhinolog|allerg|audiol|"
+    r"otolog|surgery|medicine|annals|archives|review|lancet|jama|bmj|nejm|"
+    r"plos|nature|science|cell|cochrane)\b",
+    re.IGNORECASE,
+)
+
 
 def _clean(text: str) -> str:
     return _WHITESPACE_RE.sub(" ", text).strip()
@@ -129,6 +148,27 @@ def _normalise_section_title(raw: str) -> str | None:
         if alias in key:
             return canonical
     return raw.strip().title()
+
+
+def _looks_like_author_list(text: str) -> list[str]:
+    """Return a list of author strings if *text* looks like an author-list line.
+
+    Heuristics:
+    - Split on commas or semicolons.
+    - Every token must match the author-token pattern (short name + optional initials).
+    - At least 2 tokens required.
+    - Total character length < 400 (long prose lines are not author lists).
+    """
+    if len(text) > 400 or len(text) < 5:
+        return []
+    tokens = [t.strip() for t in _AUTHOR_SEP_RE.split(text) if t.strip()]
+    if len(tokens) < 2:
+        return []
+    # Strip superscript-like suffixes common in PDFs: "Smith J1,2" → "Smith J"
+    clean_tokens = [re.sub(r"[\d,\*†‡§]+$", "", t).strip() for t in tokens]
+    if all(_AUTHOR_TOKEN_RE.match(t) for t in clean_tokens if t):
+        return [t for t in clean_tokens if t]
+    return []
 
 
 # ---------------------------------------------------------------------------
@@ -164,7 +204,20 @@ def _build_converter():
 # ---------------------------------------------------------------------------
 
 def _extract_metadata(doc) -> dict:
-    """Best-effort extraction of article-level metadata from a Docling document."""
+    """Best-effort extraction of article-level metadata from a Docling document.
+
+    Primary source: Docling's structured ``doc.metadata`` (populated from embedded
+    XMP / PDF info dict).  Many publisher PDFs (e.g. Springer) do not embed rich
+    metadata, so ``metadata.title`` and ``metadata.authors`` come back empty while
+    the actual values are present as labelled text items on the first page.
+
+    Fallback (text-scraping):
+    - TITLE-labelled item  → title
+    - Dense comma-separated short-token line → authors
+    - Line matching journal keyword pattern  → journal
+    - Year from received/accepted/published line or earliest 4-digit year → year
+    - DOI / PMC / PMID regex from all early text
+    """
     meta: dict = {
         "title": "",
         "authors": [],
@@ -175,10 +228,7 @@ def _extract_metadata(doc) -> dict:
         "pmid": "",
     }
 
-    # ── Title ─────────────────────────────────────────────────────────────────
-    if hasattr(doc, "name") and doc.name:
-        meta["title"] = _clean(doc.name)
-
+    # ── Structured metadata (highest priority) ────────────────────────────────
     if hasattr(doc, "metadata") and doc.metadata:
         md = doc.metadata
         if hasattr(md, "title") and md.title:
@@ -190,17 +240,95 @@ def _extract_metadata(doc) -> dict:
             elif isinstance(raw_authors, str):
                 meta["authors"] = [a.strip() for a in raw_authors.split(";") if a.strip()]
 
-    # ── DOI / PMID / PMC scraped from early document text ────────────────────
-    full_head = ""
+    # ── Iterate early document items for text-scraping fallback ──────────────
+    # Collect labelled items from the first 30 document items.
+    # We stop collecting once we hit the Abstract section heading so we do not
+    # accidentally pick author-like strings from the body text.
+    early_title_items: list[str] = []   # TITLE-labelled items
+    early_text_items: list[str] = []    # TEXT / PARAGRAPH items before Abstract
+    full_head = ""                       # raw concatenation for regex scraping
+    past_abstract = False
+
     try:
-        for item, _ in list(doc.iterate_items())[:20]:
-            if hasattr(item, "text") and item.text:
-                full_head += " " + item.text
-            if len(full_head) > 3000:
+        for item, _ in list(doc.iterate_items())[:30]:
+            if not hasattr(item, "text") or not item.text:
+                continue
+            item_text = _clean(item.text)
+            if not item_text:
+                continue
+
+            label_str = str(getattr(item, "label", "")).upper().split(".")[-1]
+
+            # Stop collecting pre-abstract items once we see the Abstract heading
+            if (
+                "SECTION_HEADER" in label_str or "HEADING" in label_str
+            ) and "ABSTRACT" in item_text.upper():
+                past_abstract = True
+
+            full_head += " " + item_text
+
+            if "TITLE" in label_str:
+                early_title_items.append(item_text)
+            elif not past_abstract and (
+                "TEXT" in label_str
+                or "PARAGRAPH" in label_str
+                or "LIST_ITEM" in label_str
+            ):
+                early_text_items.append(item_text)
+
+            if len(full_head) > 4000:
                 break
     except Exception:
         pass
 
+    # ── Title fallback: use first TITLE item when structured metadata was empty ──
+    if not meta["title"] and early_title_items:
+        meta["title"] = early_title_items[0]
+
+    # ── doc.name fallback (Docling sometimes sets this to the article title) ──
+    if not meta["title"] and hasattr(doc, "name") and doc.name:
+        candidate = _clean(doc.name)
+        # Reject if it looks like a DOI (contains slashes) or a bare filename
+        if "/" not in candidate and not candidate.lower().endswith(".pdf"):
+            meta["title"] = candidate
+
+    # ── Authors fallback: scan pre-abstract TEXT items for an author-list line ──
+    if not meta["authors"]:
+        for text in early_text_items:
+            authors = _looks_like_author_list(text)
+            if authors:
+                meta["authors"] = authors
+                break
+
+    # ── Journal fallback: find a short line matching journal keyword pattern ──
+    if not meta["journal"]:
+        for text in early_text_items:
+            if _JOURNAL_KEYWORDS.search(text) and len(text) < 150:
+                # Strip trailing volume/year/page noise, e.g. "Eur Arch Otorhinolaryngol (2026)"
+                candidate = re.sub(r"\s*[\(\[]\s*(19|20)\d{2}.*$", "", text).strip()
+                candidate = re.sub(r"\s*\d+\s*[:\(].*$", "", candidate).strip()
+                if candidate:
+                    meta["journal"] = candidate
+                    break
+
+    # ── Year fallback: prefer "Published YYYY" / "Accepted YYYY" lines, ──────
+    # then fall back to the first 4-digit year found in the header.
+    if not meta["year"]:
+        # Try to find a received/accepted/published year first (most reliable)
+        pub_year_m = re.search(
+            r"(?:published|accepted|received|online)[^\d]{0,20}((?:19|20)\d{2})",
+            full_head,
+            re.IGNORECASE,
+        )
+        if pub_year_m:
+            meta["year"] = pub_year_m.group(1)
+        else:
+            # Fall back to the first bare 4-digit year in the header text
+            y_m = _YEAR_RE.search(full_head)
+            if y_m:
+                meta["year"] = y_m.group(0)
+
+    # ── DOI / PMC / PMID regex scraping from full_head ───────────────────────
     if not meta["doi"]:
         m = _DOI_RE.search(full_head)
         if m:
@@ -390,7 +518,7 @@ def _output_stem(pdf_path: Path, doc=None) -> str:
     if doc is not None:
         try:
             head = ""
-            for item, _ in list(doc.iterate_items())[:20]:
+            for item, _ in list(doc.iterate_items())[:30]:
                 if hasattr(item, "text") and item.text:
                     head += " " + item.text
                 if len(head) > 2000:
