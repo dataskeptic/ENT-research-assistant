@@ -26,7 +26,7 @@ from ui_helpers import (
 # ──────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="ENT Research Assistant",
-    page_icon="👂",  # simpler, widely-supported ENT-related emoji
+    page_icon="ENT",          # text-based, no emoji rendering issues
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -60,7 +60,7 @@ html, body, [class*="css"], .stApp {
     -webkit-font-smoothing: antialiased;
 }
 
-/* ── Full-page dark background (covers every Streamlit wrapper layer) ── */
+/* ── Full-page dark background ── */
 .stApp,
 [data-testid="stAppViewContainer"],
 [data-testid="stAppViewBlockContainer"],
@@ -80,7 +80,7 @@ section[data-testid="stSidebar"],
     border-right: 1px solid var(--border) !important;
 }
 
-/* ── Markdown / text colour in main area ── */
+/* ── Markdown / text colour ── */
 .stMarkdown, .stMarkdown p, .stMarkdown li,
 [data-testid="stMarkdownContainer"],
 [data-testid="stMarkdownContainer"] p {
@@ -208,6 +208,24 @@ strong { color: #93c5fd !important; }
     border-color: rgba(59,130,246,0.22);
     box-shadow: 0 6px 24px rgba(59,130,246,0.09);
     transform: translateY(-1px);
+}
+
+/* ── Sidebar logo mark ── */
+.ent-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 0.35rem;
+}
+.ent-dots {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.ent-dot {
+    width: 6px; height: 6px;
+    border-radius: 999px;
+    display: block;
 }
 
 /* ── Hero ── */
@@ -351,9 +369,9 @@ strong { color: #93c5fd !important; }
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
-# Use the same icons as the page content so navigation and hero are visually aligned
-MODE_ASK      = "🔬 Ask the Literature"
-MODE_EXPLORER = "📄 Paper Explorer"
+# Navigation labels — same text used in both sidebar radio AND page hero headings
+MODE_ASK      = "Ask the Literature"
+MODE_EXPLORER = "Paper Explorer"
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -420,8 +438,8 @@ def _passage_card(chunk, idx: int, query: str = "") -> None:
         f'  {_bar(pct)}'
         f'  <div style="font-size:0.83rem;line-height:1.65;color:var(--txt-2);margin-top:9px;">{preview}</div>'
         f'  <div class="pcard-meta">'
-        f'    <span>📅 {chunk.metadata.get("year","—")}</span>'
-        f'    <span>🏥 {chunk.metadata.get("journal","—")[:55]}</span>'
+        f'    <span>{chunk.metadata.get("year","—")}</span>'
+        f'    <span>{chunk.metadata.get("journal","—")[:55]}</span>'
         f'    {doi_html}'
         f'  </div>'
         f'</div>',
@@ -443,8 +461,8 @@ def _paper_card_html(paper: dict) -> str:
     return (
         f'<div class="pgcard">'
         f'  <h4>{title}</h4>'
-        f'  <div class="pgcard-m">📅 {year} · {journal}</div>'
-        f'  <div class="pgcard-m">✍️ {author}</div>'
+        f'  <div class="pgcard-m">{year} · {journal}</div>'
+        f'  <div class="pgcard-m">{author}</div>'
         f'  <div style="margin-top:7px;"><span class="badge b-pmc">{pmc_id}</span></div>'
         f'</div>'
     )
@@ -454,16 +472,31 @@ def _paper_card_html(paper: dict) -> str:
 # Sidebar
 # ──────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
+    # Text-based logo with three coloured dots (ear / nose / mouth)
     st.markdown(
-        '<div style="padding:0.4rem 0 1.1rem;">'
-        '<div style="font-size:1.9rem;margin-bottom:0.35rem;">👂</div>'
-        '<div style="font-size:1rem;font-weight:700;color:#e2e8f0;letter-spacing:-0.01em;">ENT Research</div>'
-        '<div style="font-size:0.71rem;color:#64748b;margin-top:2px;">Otorhinolaryngology Assistant</div>'
-        '</div>',
+        """
+        <div style="padding:0.4rem 0 1.1rem;">
+          <div class="ent-logo">
+            <div class="ent-dots">
+              <span class="ent-dot" style="background:#60a5fa;"></span>
+              <span class="ent-dot" style="background:#f97316;"></span>
+              <span class="ent-dot" style="background:#22c55e;"></span>
+            </div>
+            <div style="font-size:1.1rem;font-weight:700;color:#e2e8f0;
+                        letter-spacing:0.14em;font-family:'Inter',sans-serif;">
+              ENT
+            </div>
+          </div>
+          <div style="font-size:0.71rem;color:#64748b;margin-top:2px;padding-left:2px;">
+            Otorhinolaryngology Assistant
+          </div>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
     st.markdown('<hr/>', unsafe_allow_html=True)
 
+    # Radio labels intentionally match the hero h1 titles in each mode
     mode = st.radio(
         "Navigation",
         [MODE_ASK, MODE_EXPLORER],
@@ -486,7 +519,7 @@ with st.sidebar:
             unsafe_allow_html=True,
         )
     except Exception:
-        st.caption("⚠️ Could not load stats.")
+        st.caption("Could not load stats.")
         stats = {}
 
     st.markdown('<hr/>', unsafe_allow_html=True)
@@ -504,7 +537,7 @@ with st.sidebar:
 if mode == MODE_ASK:
     st.markdown(
         '<div class="hero">'
-        '<h1>🔬 Ask the Literature</h1>'
+        '<h1>Ask the Literature</h1>'
         '<p>Ask any ENT / otorhinolaryngology question and get a citation-backed answer '
         'synthesised from peer-reviewed ENT papers. '
         'Switch to "Ranked Passages" to browse the raw semantic results.</p>'
@@ -535,7 +568,7 @@ if mode == MODE_ASK:
 
     if query:
         st.markdown('<hr/>', unsafe_allow_html=True)
-        tab_ans, tab_passages = st.tabs(["💡  AI Answer", "🎯  Ranked Passages"])
+        tab_ans, tab_passages = st.tabs(["AI Answer", "Ranked Passages"])
 
         with tab_ans:
             with st.spinner("Retrieving passages and generating answer…"):
@@ -566,11 +599,11 @@ if mode == MODE_ASK:
             sources = st.session_state.get("_last_sources", [])
             display = [c for c in sources if not c.is_summary]
             if not display:
-                st.info("ℹ️ Submit a question to see ranked passages here.")
+                st.info("Submit a question to see ranked passages here.")
             else:
                 st.markdown(
                     f'<p style="font-size:0.77rem;color:var(--txt-2);margin-bottom:0.75rem;">'
-                    f'🔍 <strong style="color:var(--txt);">{len(display)}</strong> '
+                    f'<strong style="color:var(--txt);">{len(display)}</strong> '
                     f'passages above relevance threshold</p>',
                     unsafe_allow_html=True,
                 )
@@ -596,10 +629,10 @@ elif mode == MODE_EXPLORER:
             f'  <div style="font-size:1.05rem;font-weight:700;color:#e2e8f0;line-height:1.35;margin-bottom:8px;">'
             f'  {paper.get("title", "Untitled")}'
             f'  </div>'
-            f'  <div style="font-size:0.81rem;color:var(--txt-2);margin-bottom:6px;">✍️ {authors_disp}</div>'
+            f'  <div style="font-size:0.81rem;color:var(--txt-2);margin-bottom:6px;">{authors_disp}</div>'
             f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.77rem;color:var(--txt-2);">'
-            f'    <span>📅 {paper.get("year","—")}</span>'
-            f'    <span>🏥 {paper.get("journal","—")}</span>'
+            f'    <span>{paper.get("year","—")}</span>'
+            f'    <span>{paper.get("journal","—")}</span>'
             f'    <span class="badge b-pmc">{pmc_id}</span>'
             f'    {doi_html}'
             f'  </div>'
@@ -610,13 +643,13 @@ elif mode == MODE_EXPLORER:
         b1, b2, _ = st.columns([1.5, 1, 2])
         with b1:
             do_summary = st.button(
-                "🧠  Summarize full paper",
+                "Summarize full paper",
                 key="sum_btn",
                 use_container_width=True,
                 type="primary",
             )
         with b2:
-            if st.button("← Back to list", key="back_btn", use_container_width=True):
+            if st.button("Back to list", key="back_btn", use_container_width=True):
                 del st.session_state["selected_paper"]
                 st.session_state.pop("_sum_done", None)
                 st.session_state.pop("_sum_id", None)
@@ -630,7 +663,7 @@ elif mode == MODE_EXPLORER:
             st.session_state.get("_sum_id") == pmc_id
             and not st.session_state.get("_sum_done")
         ):
-            with st.expander("🧠  AI Structured Summary", expanded=True):
+            with st.expander("AI Structured Summary", expanded=True):
                 with st.spinner("Reading all sections…"):
                     st.write_stream(generate_deep_summary(pmc_id))
             st.session_state["_sum_done"] = True
@@ -638,11 +671,11 @@ elif mode == MODE_EXPLORER:
         # Abstract
         abstract = _abstract_only(paper.get("summary_text", ""))
         if abstract:
-            with st.expander("📌  Abstract", expanded=True):
+            with st.expander("Abstract", expanded=True):
                 st.markdown(f'<div class="sec-body">{abstract}</div>', unsafe_allow_html=True)
 
         # Full sections
-        with st.expander("📑  Full paper sections", expanded=False):
+        with st.expander("Full paper sections", expanded=False):
             retriever = get_retriever()
             chunks = [c for c in retriever.retrieve_by_paper(pmc_id) if not c.is_summary]
             if not chunks:
@@ -657,7 +690,7 @@ elif mode == MODE_EXPLORER:
                     )
 
         # References
-        with st.expander("📚  References", expanded=False):
+        with st.expander("References", expanded=False):
             retriever = get_retriever()
             all_chunks = retriever.retrieve_by_paper(pmc_id)
             seen_keys: set = set()
@@ -702,7 +735,7 @@ elif mode == MODE_EXPLORER:
     # ── Paper grid ──
     st.markdown(
         '<div class="hero">'
-        '<h1>📄 Paper Explorer</h1>'
+        '<h1>Paper Explorer</h1>'
         '<p>Browse the ENT corpus. Click any paper to view its full text, abstract, and references.</p>'
         '</div>',
         unsafe_allow_html=True,
