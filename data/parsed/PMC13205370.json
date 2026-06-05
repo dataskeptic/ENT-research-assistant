@@ -1,0 +1,825 @@
+{
+  "metadata": {
+    "title": "Circulating Plasma miRNA-548L as Novel Predictive Biomarker of Radiotherapy-Induced Severe Oral Mucositis in Patients with Laryngeal Cancer",
+    "authors": [
+      "Marcin Mazurek",
+      "Anna Brzozowska",
+      "Teresa Małecka-Massalska",
+      "Tomasz Powrózek"
+    ],
+    "journal": "Genes",
+    "year": "2026",
+    "doi": "10.3390/genes17050578",
+    "pmc_id": "PMC13205370",
+    "pmid": "42195035",
+    "full_text_available": true,
+    "section_count": 15,
+    "reference_count": 36
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background/Objectives: Oral mucositis (OM) is a common complication in laryngeal cancer (LC), during radiotherapy (RT), significantly affecting patient outcomes. Identifying sensitive biomarkers to predict OM severity is therefore crucial. MicroRNAs, which regulate inflammatory pathways involved in OM, are promising candidates. This retrospective study aimed to evaluate plasma miRNA-548L as a predictive biomarker for the occurrence and severity of OM in LC patients undergoing RT. Methods: The expression levels of the selected miRNAs were analyzed in plasma samples obtained from 76 LC patients prior to the initiation of RT. Bioinformatics analyses were performed to identify molecular pathways regulated by miRNA-548L and their potential link to the pathogenesis of OM. Results: Significantly decreased levels of the studied miRNA were observed in the plasma of LC patients who developed severe OM after the IV th ( p < 0.001), V th ( p = 0.039), VI th ( p < 0.001), and VII th ( p < 0.001) cycles of RT. Additionally, the expression of miRNA-548L enabled reliable differentiation between patients who developed severe OM during the IV th (AUC = 0.81, p < 0.001), V th (AUC = 0.77, p < 0.001), VI th (AUC = 0.82, p < 0.001), and VII th (AUC = 0.86, p < 0.001) weeks of treatment. Importantly, lower expression of miRNA-548L (HR = 3.12; p = 0.010) was significantly associated with shorter median overall survival (OS). Conclusions: Pretreatment plasma miRNA-548L shows potential as a biomarker for predicting severe OM in LC patients undergoing RT. Notably, reduced miRNA-548L expression is associated with shorter OS and may help stratify patients by OM severity.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Among head and neck cancers (HNCs), laryngeal carcinoma (LC) represents the most prevalent malignancy, accounting for approximately 30–40% of all HNC cases. LC primarily arises from the epithelial lining of the laryngeal mucosa and is strongly associated with prolonged exposure to carcinogenic agents [ 1 , 2 ]. Major etiological factors include tobacco smoking, excessive alcohol consumption, and infection with high-risk human papillomavirus (HPV) strains [ 3 ]. More than 90% of LCs originate from the mucosal epithelium, with well-differentiated squamous cell carcinoma constituting the predominant histopathological subtype [ 4 ]. Radiotherapy (RT) is used in approximately 75% of HNC cases and is frequently administered in combination with other therapeutic modalities, including surgery and chemotherapy (CTH). Despite its clinical efficacy, RT particularly when combined with CTH can induce damage to both malignant and normal tissues, with the highly radiosensitive mucosal lining of the oral cavity and pharynx being especially vulnerable. This tissue injury commonly results in oral mucositis (OM), a prevalent and debilitating complication of irradiation [ 5 ]. OM typically manifests within 2–4 weeks following the initiation of RT and may persist for up to five weeks following treatment completion [ 6 ]. The incidence of OM varies according to treatment modality, affecting approximately 30–40% of patients receiving CTH, 60% of those undergoing RT alone, and up to 90% of patients treated with concurrent chemoradiotherapy (CRT) [ 7 , 8 , 9 ]. The development of OM is associated with increased hospitalization rates, poor quality of life, and in approximately two-thirds of patients, necessitates dose reduction or interruption of RT. These complications may ultimately compromise therapeutic efficacy and adversely affect patient survival [ 10 ]. The pathophysiology of OM involves an inflammatory cascade initiated by ionizing radiation-induced mucosal injury [ 9 ]. Ultimately, this process leads to ulceration, erythema, edema, epithelial atrophy and pseudomembrane formation. During the ulcerative phase, the transcription nuclear factor kappa beta (NFκ-B) pathway becomes activated, resulting in the release of multiple proinflammatory mediators such as interleukin-1β (IL-1β), interleukin-6 (IL-6), and tumor necrosis factor-alpha (TNF-α). These cytokines further activate macrophages and upregulate genes involved in inflammatory responses, including cyclooxygenase-2 (COX-2), mitogen-activated protein kinase (MAPK), and tyrosine kinase signaling pathways. The resulting signaling cascade promotes tissue degradation through activation of matrix metalloproteinases (MMP-1 and MMP-3) within the lamina propria and epithelial layers [ 11 , 12 , 13 ]. The substantial clinical burden of OM underscores the need for reliable biomarkers capable of predicting its onset and severity, thereby enabling early intervention and individualized risk stratification. Although direct genetic manipulation remains technically challenging, modulation of protein-coding genes and regulatory pathways may offer a strategy to attenuate OM progression, even among patients with similar demographic and clinical characteristics. Among the most promising biomarker candidates are microRNAs (miRNAs), non-coding RNA molecules that regulate gene expression at the post-transcriptional level. miRNAs are involved in a wide range of biological processes, including inflammation, metabolism, and therapeutic response [ 14 , 15 ]. Circulating plasma miRNAs have emerged as potential indicators of radiation-induced toxicities, including OM, in patients with HNC. Nevertheless, robust clinical evidence remains limited, and comprehensive studies evaluating their predictive value for radiation-induced OM are lacking. Several miRNAs, including miRNA-141, miRNA-200a, miRNA-200b, and miRNA-200c, have been associated with the pathogenesis of RT-induced OM in preclinical models, with miRNA-200c expression notably upregulated in irradiated normal human keratinocytes (NHKs) [ 16 ]. Furthermore, elevated plasma levels of miRNA-425-5p, -21-5p, -106b-5p, and -93-5p have been observed in irradiated HNC patients [ 17 ]. However, the expression patterns and functional role of miRNA-548L in HNC remain largely unexplored. The present study aimed to investigate the association between miRNA-548L expression levels and the incidence and severity of OM in patients receiving radiotherapy-based treatment for advanced LC. A secondary objective was to assess the potential prognostic value of miRNA-548L in this patient population.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Study Group",
+      "text": "This retrospective study included 76 patients (64 men and 12 women, mean age: 63 years) with advanced or locally advanced LC. All participants were recruited and received RT-based treatment at the Department of Oncology, Medical University of Lublin, between 2014 and 2017. The study protocol was approved by the Bioethical Commission of the Medical University of Lublin (approval number: KE-0254/64/2017) and was conducted in accordance with the ethical principles outlined in the 1964 Declaration of Helsinki and its subsequent amendments. Written informed consent was obtained from all participants prior to inclusion in the study. Disease staging was performed according to the 8th edition of the TNM classification. Inclusion criteria were: age ≥ 18 years, both genders, confirmed diagnosis of advanced LC, and completion of a full course of RT or CRT. Exclusion criteria included a prior history of malignancy, coexisting cancers, autoimmune disorders, and active infections.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Treatment Protocol",
+      "text": "All patients were treated using an ONCOR (Siemens, München, Germany) linear accelerator with an intensity-modulated radiotherapy (IMRT) approach. Radiation doses ranged from 54 to 70 Gy, delivered in 2 Gy daily fraction, five days per week. Patients with advanced disease, including enlarged lymph nodes and primary tumors, received a total of 70 Gy administered in 35 fractions. Postoperative patients with high-risk volumes received 66 Gy in 33 fractions. Radiation doses for low-risk and intermediate-risk groups were 54 Gy and 60 Gy, respectively, with elective lymph nodes receiving either 54 Gy or 60 Gy as indicated. In addition to IMRT, selected patients received 1–4 cycles of CTH consisting of cisplatin (100 mg/m 2 on day 1) and 5-fluorouracil (1000 mg/m 2 per day, continuous infusion on days 1–5). The concurrent chemoradiation course involved the administration of cisplatin in the dose of 100 mg/m 2 every 21 days. The complete course of therapy for all patients was seven weeks. All patients completed the course of RT with the prescribed dose of IMRT without interruption.",
+      "order": 3
+    },
+    {
+      "section": "2.3. The Assessment Of Om",
+      "text": "OM was evaluated at baseline and subsequently on a weekly basis throughout RT, with assessments conducted in the presence of both a laryngologist and a radiotherapist at each time point. OM severity was graded according to the Radiation Therapy Oncology Group/European Organization for Research and Treatment of Cancer (RTOG/EORTC) criteria and classified as follows: 0—none, 1—mild, 2—moderate, 3—severe, and 4—life-threatening. The assessors were blinded to miRNA-548L expression levels and all laboratory results.",
+      "order": 4
+    },
+    {
+      "section": "2.4. Mirna Expression Analysis",
+      "text": "Prior to the initiation of RT, 5 mL of whole blood was collected from each participant. Samples were centrifuged at 1000× g for 15 min, and platelet-poor plasma was collected within 30 min of centrifugation. Plasma samples were stored at −80 °C until genetic analysis. miRNA was then extracted from 200 μL of plasma using a column-based method according to the manufacturer’s instructions (miRNeasy Serum/Plasma Kit, Qiagen GmbH, Hilden, Germany). The isolated miRNA was reverse-transcribed into complementary DNA (cDNA) using the TaqMan Advanced miRNA cDNA Synthesis Kit (Thermo Fisher Scientific, Waltham, MA, USA). Relative miRNA expression levels were measured at the same time point, between 24 and 72 h before RT. Quantitative PCR amplification was performed on a StepOnePlus system (Applied Biosystems, Foster City, CA, USA) using TaqMan Fast Advanced Master Mix (Thermo Fisher Scientific, Waltham, MA, USA) and the TaqMan Advanced miRNA Assay probe specific for miRNA-548L (Assay name: hsa-miRNA-548L; Assay ID: 479391_mir; Thermo Fisher Scientific, Waltham, MA, USA). All samples were analyzed in triplicate. The expression levels of the studied miRNAs were normalized to miRNA-26a-3p as an internal control (Assay name: hsa-miRNA-26a-3p; Assay ID: 478787mir; ThermoFisher Scientific, Waltham, MA, USA) using 2 −ΔΔCt and 2 −ΔCt formulae.",
+      "order": 5
+    },
+    {
+      "section": "2.5. Statistical Analysis",
+      "text": "Statistical analyses were performed using MedCalc v.15.8 software (MedCalc Software, Ostende, Belgium). Differences in miRNA expression according to clinical and demographic factors, as well as OM severity, were evaluated using the Mann–Whitney U test. Odds ratios (ORs) with 95% confidence intervals (CIs) were calculated to assess the likelihood of radiation-induced OM based on clinical, demographic, and miRNA expression variables. Multivariable analysis of OM risk, accounting for demographic, clinical, and genetic factors, was conducted using logistic regression. The backward elimination method was employed to select statistically significant results from the univariable analysis for inclusion. Receiver operating characteristic (ROC) curves were generated using pretreatment values toto determine optimal cut-off values and assess the diagnostic performance of the investigated miRNA for identifying grade 3 OM in irradiated LC patients. Overall survival (OS) was analyzed using the Kaplan–Meier method with log-rank tests, and variables influencing OS were further evaluated via Cox proportional hazards regression. Gene targets of miRNA-548L were predicted using three databases: TargetScan Human 8.0 (criterion: weighted context score < −0.3), miRDB (criterion: prediction score > 85), and miRmap (criterion: miRmap score > 85). Functional enrichment analysis was performed using the SRplot (Science R plot) software, the PANTHER classification system, and the Reactome pathway browser to identify enriched Gene Ontology (GO) terms, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways, and biological processes associated with miRNA-548L target genes. Subsequently, selected enrichment terms were evaluated for their potential relevance to the etiology of OM. Enrichment terms with an adjusted p -value ( p . adjusted) < 0.05 were considered statistically significant.",
+      "order": 6
+    },
+    {
+      "section": "3.1. Characteristics Of Patients",
+      "text": "Males constituted the majority of the study cohort (84.2%). Histopathological evaluation revealed that 25% of patients were diagnosed with stage III disease, whereas 75% presented with stage IV LC, according to the 8th edition of the TNM classification. A history of alcohol consumption was reported in 44.7% of patients. Tobacco use was highly prevalent, with 72.4% of the cohort identified as smokers; among them, 89.1% were current smokers at the time of diagnosis. Comprehensive clinical and demographic data for all participants are summarized in Table 1 . We further examined the association between miRNA-548L expression levels and selected clinical and demographic variables in patients with LC. Stage IV of the disease was significantly associated with lower miRNA-548L expression compared to stage III (median: 2.96 vs. 5.90; p < 0.001). Additionally, patients with poorer performance status, defined as >1 according to the ECOG-WHO scale, exhibited significantly reduced miRNA-548L expression relative to those with better performance status (median: 4.93 vs. 8.91; p = 0.024) ( Table S1 ).",
+      "order": 7
+    },
+    {
+      "section": "3.2. Relationships Between Expression Of The Studied Mirna And Severity Of Om",
+      "text": "Patients who developed moderate OM (grade 2) after completion of the III rd cycle of RT exhibited significantly lower expression of the investigated miRNA compared with those presenting with mild OM (grade 1) (median: 4.21 vs. 5.58; p = 0.038). Beginning with the assessment conducted after the IV th week of irradiation and continuing through weeks Vth, VI th and VII th , patients with grade 3 OM consistently demonstrated reduced miRNA-548L expression relative to those with grades 1–2 OM ( Table 2 ).",
+      "order": 8
+    },
+    {
+      "section": "3.3. Pretreatment Expression Of Mirna As Predictors Of Severe Grade Of Om",
+      "text": "Based on the pretreatment median expression level of miRNA-548L (median: 4.94), patients with LC were stratified into two groups: low and high miRNA-548L expression. Low expression was observed in 39 patients (51.3%), while 37 patients (48.7%) were classified as having high expression levels. From the IV th week of RT onward (weeks IV–VII), a significantly higher proportion of patients with low miRNA-548L expression developed grade 3 OM compared with those exhibiting high expression levels. The differences in the proportion of severe OM cases during subsequent weeks of RT according to miRNA-548L expression status are presented in Figure 1 . Patients with decreased miRNA-548L expression demonstrated a significantly higher probability of developing moderate OM following the II nd (OR = 2.68; p = 0.041) and III rd (OR = 4.07; p = 0.007) cycles of RT. Beginning in the IV th week of RT, low miRNA-548L expression level was associated with a markedly increased risk of grade 3 OM, with ORs of 11.43 ( p < 0.001), 5.03 ( p < 0.001), 7.82 ( p = 0.001), and 8.82 ( p < 0.001) for weeks IV, V, VI, and VII, respectively ( Figure 2 A). Multivariable logistic regression analysis demonstrated a significantly increased risk of grade 3 OM after the III rd week of RT in patients with low miRNA-548L expression (OR = 4.01; p = 0.009). Moreover, from the completion of the IV th week through the end of RT, decreased miRNA levels remained independently associated with a higher probability of severe OM, with ORs of 9.44 ( p = 0.001), 5.02 ( p = 0.042), 11.57 ( p = 0.005), and 10.35 ( p = 0.009) for weeks IV, V, VI, and VII, respectively ( Figure 2 B). Detailed results of the univariable and multivariable analyses are provided in Tables S2 and S3 .",
+      "order": 9
+    },
+    {
+      "section": "3.4. Diagnostic Value Of Pretreatment Mirna-548L In Distinguishing Between Lc Patients With Different Grades Of Om",
+      "text": "The predictive performance of miRNA-548L, measured before the initiation of RT, varied across different time points of treatment in relation to the development of severe OM. During the III rd week of treatment, miRNA-548L demonstrated moderate diagnostic performance for predicting severe OM, with a sensitivity of 80% and a specificity of 55.7% (AUC = 0.67; p = 0.019). Following completion of the IV th week of RT, miRNA exhibited improved diagnostic accuracy in discriminating patients with severe OM, achieving a sensitivity of 79.3% and a specificity of 74.5% (AUC = 0.81; cut-off < 5.41; p < 0.001). Furthermore, in week V, miRNA-548L demonstrated significant discriminatory power in distinguishing between severe and mild OM, achieving a sensitivity of 94.4% and a specificity of 62.1% (AUC = 0.77; p < 0.001). In week VI, miRNA also showed significant diagnostic value for identifying severe OM among LC patients, with a sensitivity of 72.2% and a specificity of 100% (AUC = 0.82; p < 0.001). The best diagnostic accuracy was observed after the VII th cycle of RT (AUC = 0.86; p < 0.001). Detailed results are presented in Table 3 .",
+      "order": 10
+    },
+    {
+      "section": "3.5. Relationship Between The Expression Plasma Levels Of The Mirna-548L And Overall Survival",
+      "text": "Univariate survival analysis using the Kaplan–Meier method with log-rank testing demonstrated that patients with T4 tumors and more advanced disease (stage IVA–C) had a significantly higher risk of early mortality, with HRs of 3.10 ( p < 0.001) and 3.75 ( p < 0.001), respectively, compared with other patients. Additionally, patients with decreased plasma miRNA-548L expression exhibited significantly shorter median OS than those with higher miRNA levels (median OS: 18 months vs. 36 months; HR = 3.12; p = 0.010). Multivariate survival analysis using the Cox proportional hazards model identified T4 tumor category (HR = 2.01; p = 0.045), advanced TNM stage (IVA–C) (HR = 2.71; p = 0.002), and decreased plasma miRNA-548L expression level (HR = 1.64; p = 0.026) as independent factors significantly affecting OS. During the follow-up period, 42 of 76 patients (55.3%) died. Mortality was significantly higher among patients with low plasma miRNA-548L levels (27/39; 69.2%) compared with those with higher expression (15/37; 40.5%; p = 0.039). Comprehensive results from both univariate and multivariate OS analyses are presented in Table S4 , and the associations between selected demographic, clinical, and molecular variables and OS are illustrated in Figure 3 .",
+      "order": 11
+    },
+    {
+      "section": "3.6. Identification Of Mirna-548L Targets And Their Association With Om Pathogenesis",
+      "text": "Applying the specified search criteria, 105 (TargetScan Human 8.0), 266 (miRDB), and 280 (miRmap) gene targets were computationally predicted for miRNA-548L. Ten genes were common to all three databases: EXOC5 , SRSF6 , DYNLT1 , GNG12 , RWDD4 , LIX1L , BMI1 , ZNF493 , NUP160 , and BOLL . To explore the potential functional roles of these candidates, a pathway enrichment analysis related to OM was subsequently performed for this gene set. Four genes, BMI1 , GNG12 , NUP160 , and SRSF6 , showed significant enrichment involvement in biological pathways potentially associated with OM etiology. Identified enrichment terms were categorized into three principal OM-related groups: inflammation, pain signaling, and epithelial repair. Within the inflammation category, the histamine receptor signaling pathway, β-adrenergic receptor signaling pathway, and corticotropin-releasing hormone signaling pathway were identified as significantly associated with OM and might be mediated by GNG12 . Similarly, GNG12 was predicted to be potentially involved in several pain-related pathways that may contribute to OM development, including the 5-HT receptor signaling pathway, opioid receptor signaling pathway, and enkephalin release. Regarding epithelial repair, biological processes potentially involving GNG12 , BMI1 , and NUP160 included the oxytocin receptor signaling pathway, thyrotropin-releasing hormone signaling pathway, β-adrenergic receptor signaling pathway, and SUMOylation of DNA damage response and repair proteins ( Figure 4 ). Additionally, based on GO analysis, BMI1 and SRSF6 were predicted to be associated with processes such as wound healing, regulation of epithelial cell apoptosis, and regulation of keratinocyte proliferation. No significant enrichment terms were identified in the KEGG analysis. A detailed summary of the PANTHER classification system, Reactome pathway browser, and GO analyses is presented in Tables S5 and S6 . It should be noted, however, that these associations remain predictive and require further experimental validation.",
+      "order": 12
+    },
+    {
+      "section": "Discussion",
+      "text": "Approximately 85% of HNC patients receive RT as part of their treatment [ 18 ]. RT is also the primary therapy for LC, but it carries a substantial risk of both acute and late toxicities, which affect nearly all patients following curative treatment [ 19 ]. OM, an immediate adverse effect of RT, occurs in the majority of HNC patients, including those with LC, with reported incidence ranging from 59.4% to 100% [ 20 , 21 ]. Tumor-promoting inflammation and treatment-related toxicity are considered key contributors to OM development. Current methods for monitoring and predicting OM are often inadequate. Given their stability and role in disease progression, miRNAs are increasingly being explored as diagnostic and prognostic biomarkers in LC [ 22 ]. Circulating blood-derived miRNAs are increasingly recognized as diagnostic and prognostic biomarkers in cancer due to their stability and regulatory roles in disease progression. They modulate genes and pathways affecting tumor radiosensitivity and responses to RT, including oxidative stress, DNA repair, and apoptosis, enabling prediction of treatment outcomes [ 23 , 24 , 25 ]. Experimental studies have demonstrated selective changes in miRNA expression following irradiation. For example, Wagner-Ecker et al. reported that a dose of 2 Gy ionizing radiation induced upregulation of let-7g, miRNA-20a, and miRNA-21 and downregulation of miRNA-125a, -127, and -189 in human dermal microvascular endothelial cells, affecting radiosensitivity and cell viability [ 26 ]. Tao et al. observed significant increases in miRNA-141 and -200a/b/c expression in murine tongue tissue and normal human keratinocytes after irradiation, accompanied by elevated proinflammatory cytokines, implicating these miRNAs in radiation-induced tissue injury [ 16 ]. Despite these advances, no studies have investigated the role of miRNA-548L in RT-related OM. Previous work has highlighted other miRNAs, such as miRNA-18b-3p, as potential biomarkers of RT/CRT-induced OM, with elevated circulating levels correlating with the extent of irradiated oral mucosa [ 27 ]. In contrast, our study demonstrated a significant decrease in plasma miRNA-548L levels from the fourth to the seventh week of RT in patients who developed severe OM. Low miRNA-548L expression was strongly associated with an increased probability of grade 3 OM, beginning in the fourth week of treatment. ROC analysis confirmed the predictive value of miRNA-548L for early detection of severe OM, showing high sensitivity (approaching 100% by the fifth week) and increasing specificity in subsequent weeks, reaching 100% in the sixth week. Our results suggest that miR-548L may enable the reliable identification of patients at high risk and facilitate timely therapeutic intervention. Overall, miR-548L emerges as a promising circulating plasma biomarker for monitoring and predicting RT-induced OM in patients with LC. Conducted bioinformatics analyses indicated that decreased miRNA-548L expression can be associated with upregulation of BMI1 , GNG12 , NUP160 , and SRSF6 . These candidate targets were prioritized because they converge on the NF-κB signaling pathway, a central regulator of the inflammatory cascade in RT-induced injury. For instance, in glioma cell lines (LN229 and A172), elevated BMI1 expression activates the NF-κB pathway and increases MMP-9 mRNA levels [ 28 ], while in patients with inflammatory bowel disease, high BMI1 correlates with elevated plasma IL-6 and TNF-α [ 29 ]. Similarly, overexpression of GNG12 and NUP160 has been shown to enhance NF-κB activation and promote the production of IL-1β, IL-6, and TNF-α in various cellular models [ 30 , 31 ]. Furthermore, overexpression of SRSF6 alters splicing and upregulates inflammation-related genes such as TNFA , IL1F , and Cxcl2 , leading to higher proinflammatory cytokine production [ 32 ]. Collectively, while the involvement of these genes in inflammation has been documented in other pathological contexts, our data allow us to hypothesize that miRNA-548L downregulation might contribute to OM-related inflammatory processes through the potential upregulation of these predicted targets. However, this mechanistic link remains hypothetical and requires direct experimental validation to confirm whether these interactions occur in oral mucosal tissues during RT. In addition to inflammation, bioinformatics analyses revealed that miRNA-548L may also be involved in pathways regulating pain signaling and endothelial repair, both of which are significantly associated with the pathophysiology of OM. In the present study, the identified miRNA-548L target genes are based solely on in silico predictions, as no experimental validation has been reported to date for BMI1, GNG12, NUP160, or SRSF6. Therefore, these findings should be considered hypothesis-generating and require further experimental confirmation to establish their definitive roles in OM. Several miRNAs have been reported as prognostic biomarkers in LC so far. Elevated miRNA-146a-5p expression was associated with significantly shorter OS ( p = 0.018), while reduced miRNA-449a-5p correlated with poorer OS ( p = 0.029). Multivariate analyses identified increased expression of miRNA-34-5p, -378c-5p, -146a-5p, and -34a-5p as independent predictors of shorter OS (HR = 3.47, p = 0.047; HR = 3.77, p = 0.035; HR = 9.67, p = 0.003; HR = 6.76, p = 0.006, respectively) [ 33 ]. Elevated miRNA-23a, -93-5p, and -210-3p were also linked to poorer 5-year survival outcomes [ 34 , 35 ]. Conversely, higher miRNA-195 expression was associated with longer OS (median: 57 vs. 39 months; p = 0.015) [ 36 ]. In the present study, low plasma miRNA-548L expression was associated with a more than three-fold increased risk of shorter OS (median: 18 vs. 36 months; HR = 3.12; p = 0.010), highlighting its potential as a prognostic biomarker in LC patients. This study represents one of the first comprehensive evaluations of circulating miRNA-548L in patients with LC undergoing RT, highlighting its potential as both a diagnostic and predictive biomarker for OM. Our findings expand the understanding of miRNA-based patient stratification and provide a rationale for future large-scale studies incorporating additional molecular determinants. Integration of miRNA-548L into OM risk prediction models may improve personalized oncology approaches. Circulating miRNAs can be reliably measured via minimally invasive liquid biopsy during routine laboratory procedures, offering a rapid, cost- and time-efficient method. Early detection of low miRNA-548L levels may identify patients at higher risk of severe RT-induced OM, enabling timely preventive interventions and optimized supportive care. This study has several limitations. It was conducted at a single center, and its retrospective design and relatively small sample size may limit the generalizability of the findings. The absence of external validation further constrains the applicability of the results. Moreover, the study may not have fully accounted for potential confounding variables, and selection bias could have influenced the observed results. Another limitation of the present study is the lack of analysis evaluating the association between OM severity and OS. Nevertheless, the cohort was relatively homogeneous in terms of tumor stage and treatment modality, which reduces clinical heterogeneity and strengthens internal consistency. Importantly, our analysis demonstrates the potential clinical utility of miRNA-548L in predicting severe OM in LC patients undergoing RT. Importantly, bioinformatics findings are based on in silico predictions and should be interpreted with caution, as experimental validation is required to confirm the proposed miRNA–target interactions and their functional relevance. These findings may have important clinical implications for early risk stratification, facilitating individualized treatment planning and intensified monitoring of high-risk patients. Future multicenter, prospective studies with larger cohorts are needed to validate these results.",
+      "order": 13
+    },
+    {
+      "section": "Conclusion",
+      "text": "Circulating miRNA-548L may enable monitoring and prediction of the risk of severe OM in LC patients undergoing RT. Pretreatment plasma levels of this miRNA may help distinguish patients likely to develop severe OM from those with milder forms. Importantly, low miRNA-548L expression was also associated with significantly shorter OS in LC patients. Moreover, bioinformatics analyses indicated that miR-548L is closely linked to the pathophysiology of OM.",
+      "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-genes-17-00578",
+      "label": "1.",
+      "authors": [
+        "Mody M.D.",
+        "Rocco J.W.",
+        "Yom S.S.",
+        "Haddad R.I.",
+        "Saba N.F."
+      ],
+      "title": "Head and neck cancer",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "398",
+      "fpage": "2289",
+      "lpage": "2299",
+      "doi": "10.1016/S0140-6736(21)01550-6",
+      "pmid": "34562395"
+    },
+    {
+      "ref_id": "B2-genes-17-00578",
+      "label": "2.",
+      "authors": [
+        "Igissin N.",
+        "Zatonskikh V.",
+        "Telmanova Z.",
+        "Tulebaev R.",
+        "Moore M."
+      ],
+      "title": "Laryngeal Cancer: Epidemiology, Etiology, and Prevention: A Narrative Review",
+      "journal": "Iran. J. Public Health",
+      "year": "2023",
+      "volume": "52",
+      "fpage": "2248",
+      "lpage": "2259",
+      "doi": "10.18502/ijph.v52i11.14025",
+      "pmid": "38106821",
+      "pmc_id": "PMC10719707"
+    },
+    {
+      "ref_id": "B3-genes-17-00578",
+      "label": "3.",
+      "authors": [
+        "Liberale C.",
+        "Soloperto D.",
+        "Marchioni A.",
+        "Monzani D.",
+        "Sacchetto L."
+      ],
+      "title": "Updates on Larynx Cancer: Risk Factors and Oncogenesis",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2023",
+      "volume": "24",
+      "elocation_id": "2913",
+      "doi": "10.3390/ijms241612913",
+      "pmid": "37629093",
+      "pmc_id": "PMC10454133"
+    },
+    {
+      "ref_id": "B4-genes-17-00578",
+      "label": "4.",
+      "authors": [
+        "Ciolofan M.S.",
+        "Vlăescu A.N.",
+        "Mogoantă C.-A.",
+        "Ioniță E.",
+        "Ioniță I.",
+        "Căpitănescu A.-N.",
+        "Mitroi M.-R.",
+        "Anghelina F."
+      ],
+      "title": "Clinical, Histological and Immunohistochemical Evaluation of Larynx Cancer",
+      "journal": "Curr. Health Sci. J.",
+      "year": "2017",
+      "volume": "43",
+      "fpage": "367",
+      "lpage": "375",
+      "doi": "10.12865/CHSJ.43.04.14",
+      "pmid": "30595905",
+      "pmc_id": "PMC6286454"
+    },
+    {
+      "ref_id": "B5-genes-17-00578",
+      "label": "5.",
+      "authors": [
+        "Hunter M.",
+        "Kellett J.",
+        "Toohey K.",
+        "D’cunha N.M.",
+        "Isbel S.",
+        "Naumovski N."
+      ],
+      "title": "Toxicities caused by head and neck cancer treatments and their influence on the development of malnutrition: Review of the literature",
+      "journal": "Eur. J. Investig. Health Psychol. Educ.",
+      "year": "2020",
+      "volume": "10",
+      "fpage": "935",
+      "lpage": "949",
+      "doi": "10.3390/ejihpe10040066",
+      "pmc_id": "PMC8314324",
+      "pmid": "34542427"
+    },
+    {
+      "ref_id": "B6-genes-17-00578",
+      "label": "6.",
+      "authors": [
+        "Newhauser W.D.",
+        "Berrington de Gonzalez A.",
+        "Schulte R.",
+        "Lee C."
+      ],
+      "title": "A Review of Radiotherapy-Induced Late Effects Research after Advanced Technology Treatments",
+      "journal": "Front. Oncol.",
+      "year": "2016",
+      "volume": "6",
+      "elocation_id": "13",
+      "doi": "10.3389/fonc.2016.00013",
+      "pmid": "26904500",
+      "pmc_id": "PMC4748041"
+    },
+    {
+      "ref_id": "B7-genes-17-00578",
+      "label": "7.",
+      "authors": [
+        "Pulito C.",
+        "Cristaudo A.",
+        "Porta C.L.",
+        "Zapperi S.",
+        "Blandino G.",
+        "Morrone A.",
+        "Strano S."
+      ],
+      "title": "Oral mucositis: The hidden side of cancer therapy",
+      "journal": "J. Exp. Clin. Cancer Res.",
+      "year": "2020",
+      "volume": "39",
+      "fpage": "210",
+      "doi": "10.1186/s13046-020-01715-7",
+      "pmid": "33028357",
+      "pmc_id": "PMC7542970"
+    },
+    {
+      "ref_id": "B8-genes-17-00578",
+      "label": "8.",
+      "authors": [
+        "Narayan S.",
+        "Lehmann J.",
+        "Coleman M.A.",
+        "Vaughan A.",
+        "Yang C.C.",
+        "Enepekides D.",
+        "Farwell G.",
+        "Purdy J.A.",
+        "Laredo G.",
+        "Nolan K.",
+        "et al."
+      ],
+      "title": "Prospective Evaluation to Establish a Dose Response for Clinical Oral Mucositis in Patients Undergoing Head-and-Neck Conformal Radiotherapy",
+      "journal": "Int. J. Radiat. Oncol. Biol. Phys.",
+      "year": "2008",
+      "volume": "72",
+      "fpage": "756",
+      "lpage": "762",
+      "doi": "10.1016/j.ijrobp.2008.01.060",
+      "pmid": "18417299"
+    },
+    {
+      "ref_id": "B9-genes-17-00578",
+      "label": "9.",
+      "authors": [
+        "Maria O.M.",
+        "Eliopoulos N.",
+        "Muanza T."
+      ],
+      "title": "Radiation-Induced Oral Mucositis",
+      "journal": "Front. Oncol.",
+      "year": "2017",
+      "volume": "7",
+      "elocation_id": "89",
+      "doi": "10.3389/fonc.2017.00089",
+      "pmid": "28589080",
+      "pmc_id": "PMC5439125"
+    },
+    {
+      "ref_id": "B10-genes-17-00578",
+      "label": "10.",
+      "authors": [
+        "Al-Rudayni A.H.M.",
+        "Gopinath D.",
+        "Maharajan M.K.",
+        "Menon R.K."
+      ],
+      "title": "Impact of oral mucositis on quality of life in patients undergoing oncological treatment: A systematic review",
+      "journal": "Transl. Cancer Res.",
+      "year": "2020",
+      "volume": "9",
+      "fpage": "3126",
+      "lpage": "3134",
+      "doi": "10.21037/tcr.2020.02.77",
+      "pmid": "35117676",
+      "pmc_id": "PMC8797334"
+    },
+    {
+      "ref_id": "B11-genes-17-00578",
+      "label": "11.",
+      "authors": [
+        "Ibrahim S.S.",
+        "Hassanein F.E.A.",
+        "Zaky H.W.",
+        "Gamal H."
+      ],
+      "title": "Clinical and biochemical assessment of the effect of glutamine in management of radiation induced oral mucositis in patients with head and neck cancer: Randomized controlled clinical trial",
+      "journal": "J. Stomatol. Oral Maxillofac. Surg.",
+      "year": "2024",
+      "volume": "125",
+      "fpage": "101827",
+      "doi": "10.1016/j.jormas.2024.101827",
+      "pmid": "38493953"
+    },
+    {
+      "ref_id": "B12-genes-17-00578",
+      "label": "12.",
+      "authors": [
+        "Sonis S.T."
+      ],
+      "title": "The pathobiology of mucositis",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2004",
+      "volume": "4",
+      "fpage": "277",
+      "lpage": "284",
+      "doi": "10.1038/nrc1318",
+      "pmid": "15057287"
+    },
+    {
+      "ref_id": "B13-genes-17-00578",
+      "label": "13.",
+      "authors": [
+        "Sonis S.T."
+      ],
+      "title": "Oral mucositis in head and neck cancer: Risk, biology, and management",
+      "journal": "Am. Soc. Clin. Oncol. Educ. Book",
+      "year": "2013",
+      "volume": "33",
+      "fpage": "e236",
+      "lpage": "e240",
+      "doi": "10.14694/EdBook_AM.2013.33.e236",
+      "pmid": "23714511"
+    },
+    {
+      "ref_id": "B14-genes-17-00578",
+      "label": "14.",
+      "authors": [
+        "Summerer I.",
+        "Unger K.",
+        "Braselmann H.",
+        "Schuettrumpf L.",
+        "Maihoefer C.",
+        "Baumeister P.",
+        "Kirchner T.",
+        "Niyazi M.",
+        "Sage E.",
+        "Specht H.M.",
+        "et al."
+      ],
+      "title": "Circulating microRNAs as prognostic therapy biomarkers in head and neck cancer patients",
+      "journal": "Br. J. Cancer",
+      "year": "2015",
+      "volume": "113",
+      "fpage": "76",
+      "lpage": "82",
+      "doi": "10.1038/bjc.2015.111",
+      "pmid": "26057452",
+      "pmc_id": "PMC4647540"
+    },
+    {
+      "ref_id": "B15-genes-17-00578",
+      "label": "15.",
+      "authors": [
+        "Pasi F.",
+        "Corbella F.",
+        "Baio A.",
+        "Capelli E.",
+        "De Silvestri A.",
+        "Tinelli C.",
+        "Nano R."
+      ],
+      "title": "Radiation-induced circulating miRNA expression in blood of head and neck cancer patients",
+      "journal": "Radiat. Environ. Biophys.",
+      "year": "2020",
+      "volume": "59",
+      "fpage": "237",
+      "lpage": "244",
+      "doi": "10.1007/s00411-020-00832-3",
+      "pmid": "32040721"
+    },
+    {
+      "ref_id": "B16-genes-17-00578",
+      "label": "16.",
+      "authors": [
+        "Tao J.",
+        "Fan M.",
+        "Zhou D.",
+        "Hong Y.",
+        "Zhang J.",
+        "Liu H.",
+        "Sharma S.",
+        "Wang G.",
+        "Dong Q."
+      ],
+      "title": "miR-200c Modulates the Pathogenesis of Radiation-Induced Oral Mucositis",
+      "journal": "Oxid. Med. Cell. Longev.",
+      "year": "2019",
+      "volume": "2019",
+      "fpage": "2352079",
+      "doi": "10.1155/2019/2352079",
+      "pmid": "31346357",
+      "pmc_id": "PMC6620860"
+    },
+    {
+      "ref_id": "B17-genes-17-00578",
+      "label": "17.",
+      "authors": [
+        "Summerer I.",
+        "Niyazi M.",
+        "Unger K.",
+        "Pitea A.",
+        "Zangen V.",
+        "Hess J.",
+        "Atkinson M.J.",
+        "Belka C.",
+        "Moertl S.",
+        "Zitzelsberger H."
+      ],
+      "title": "Changes in circulating microRNAs after radiochemotherapy in head and neck cancer patients",
+      "journal": "Radiat. Oncol.",
+      "year": "2013",
+      "volume": "8",
+      "fpage": "296",
+      "doi": "10.1186/1748-717X-8-296",
+      "pmid": "24373621",
+      "pmc_id": "PMC3882107"
+    },
+    {
+      "ref_id": "B18-genes-17-00578",
+      "label": "18.",
+      "authors": [
+        "Gordon K.",
+        "Smyk D.",
+        "Gulidov I.",
+        "Golubev K.",
+        "Fatkhudinov T."
+      ],
+      "title": "An Overview of Head and Neck Tumor Reirradiation: What Has Been Achieved So Far?",
+      "journal": "Cancers",
+      "year": "2023",
+      "volume": "15",
+      "elocation_id": "4409",
+      "doi": "10.3390/cancers15174409",
+      "pmid": "37686685",
+      "pmc_id": "PMC10486419"
+    },
+    {
+      "ref_id": "B19-genes-17-00578",
+      "label": "19.",
+      "authors": [
+        "Meyer F.",
+        "Fortin A.",
+        "Wang C.S.",
+        "Liu G.",
+        "Bairati I."
+      ],
+      "title": "Predictors of severe acute and late toxicities in patients with localized head-and-neck cancer treated with radiation therapy",
+      "journal": "Int. J. Radiat. Oncol. Biol. Phys.",
+      "year": "2012",
+      "volume": "82",
+      "fpage": "1454",
+      "lpage": "1462",
+      "doi": "10.1016/j.ijrobp.2011.04.022",
+      "pmid": "21640495"
+    },
+    {
+      "ref_id": "B20-genes-17-00578",
+      "label": "20.",
+      "authors": [
+        "Pai R.R.",
+        "Ongole R.",
+        "Banerjee S."
+      ],
+      "title": "Retrospective evaluation of oral complications following radiotherapy and chemoradiation in patients with head and neck Cancer",
+      "journal": "Sci. Rep.",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "24726",
+      "doi": "10.1038/s41598-025-10598-7",
+      "pmid": "40634461",
+      "pmc_id": "PMC12241524"
+    },
+    {
+      "ref_id": "B21-genes-17-00578",
+      "label": "21.",
+      "authors": [
+        "Elad S.",
+        "Yarom N.",
+        "Zadik Y.",
+        "Kuten-Shorrer M.",
+        "Sonis S.T."
+      ],
+      "title": "The broadening scope of oral mucositis and oral ulcerative mucosal toxicities of anticancer therapies",
+      "journal": "CA Cancer J. Clin.",
+      "year": "2022",
+      "volume": "72",
+      "fpage": "57",
+      "lpage": "77",
+      "doi": "10.3322/caac.21704",
+      "pmid": "34714553"
+    },
+    {
+      "ref_id": "B22-genes-17-00578",
+      "label": "22.",
+      "authors": [
+        "Huang Y.",
+        "Gu M.",
+        "Tang Y.",
+        "Sun Z.",
+        "Luo J.",
+        "Li Z."
+      ],
+      "title": "Systematic review and meta—Analysis of prognostic microRNA biomarkers for survival outcome in laryngeal squamous cell cancer",
+      "journal": "Cancer Cell Int.",
+      "year": "2021",
+      "volume": "21",
+      "fpage": "316",
+      "doi": "10.1186/s12935-021-02021-8",
+      "pmid": "34158050",
+      "pmc_id": "PMC8220842"
+    },
+    {
+      "ref_id": "B23-genes-17-00578",
+      "label": "23.",
+      "authors": [
+        "Cellini F.",
+        "Morganti A.G.",
+        "Genovesi D.",
+        "Silvestris N.",
+        "Valentini V."
+      ],
+      "title": "Role of microRNA in response to ionizing radiations: Evidences and potential impact on clinical practice for radiotherapy",
+      "journal": "Molecules",
+      "year": "2014",
+      "volume": "19",
+      "fpage": "5379",
+      "lpage": "5401",
+      "doi": "10.3390/molecules19045379",
+      "pmid": "24879584",
+      "pmc_id": "PMC6271831"
+    },
+    {
+      "ref_id": "B24-genes-17-00578",
+      "label": "24.",
+      "authors": [
+        "Jia M.",
+        "Wang Z."
+      ],
+      "title": "MicroRNAs as Biomarkers for Ionizing Radiation Injury",
+      "journal": "Front. Cell Dev. Biol.",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "861451",
+      "doi": "10.3389/fcell.2022.861451",
+      "pmid": "35309926",
+      "pmc_id": "PMC8927810"
+    },
+    {
+      "ref_id": "B25-genes-17-00578",
+      "label": "25.",
+      "authors": [
+        "Chen Y.",
+        "Cui J.",
+        "Gong Y.",
+        "Wei S.",
+        "Wei Y.",
+        "Yi L."
+      ],
+      "title": "MicroRNA: A novel implication for damage and protection against ionizing radiation",
+      "journal": "Environ. Sci. Pollut. Res. Int.",
+      "year": "2021",
+      "volume": "28",
+      "fpage": "15584",
+      "lpage": "15596",
+      "doi": "10.1007/s11356-021-12509-5",
+      "pmid": "33533004",
+      "pmc_id": "PMC7854028"
+    },
+    {
+      "ref_id": "B26-genes-17-00578",
+      "label": "26.",
+      "authors": [
+        "Wagner-ecker M.",
+        "Schwager C.",
+        "Wirkner U.",
+        "Abdollahi A.",
+        "Huber P.E."
+      ],
+      "title": "MicroRNA expression after ionizing radiation in human endothelial cells",
+      "journal": "Radiat. Oncol.",
+      "year": "2010",
+      "volume": "5",
+      "fpage": "25",
+      "doi": "10.1186/1748-717X-5-25",
+      "pmid": "20346162",
+      "pmc_id": "PMC2859352"
+    },
+    {
+      "ref_id": "B27-genes-17-00578",
+      "label": "27.",
+      "authors": [
+        "Pulito C.",
+        "Brandi R.",
+        "Sestito R.",
+        "Orlandi G.",
+        "Sanguineti G.",
+        "Blandino G.",
+        "Strano S."
+      ],
+      "title": "Circulating miR-18b-3p is a novel biomarker predicting chemo-radiotherapy induced oral mucositis in head and neck cancer",
+      "journal": "Signal Transduct. Target. Ther.",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "380",
+      "doi": "10.1038/s41392-025-02478-3",
+      "pmid": "41266308",
+      "pmc_id": "PMC12635060"
+    },
+    {
+      "ref_id": "B28-genes-17-00578",
+      "label": "28.",
+      "authors": [
+        "Jiang L.",
+        "Wu J.",
+        "Yang Y.",
+        "Liu L.",
+        "Song L.",
+        "Li J.",
+        "Li M."
+      ],
+      "title": "Bmi-1 promotes the aggressiveness of glioma via activating the NF-kappaB/MMP-9 signaling pathway",
+      "journal": "BMC Cancer",
+      "year": "2012",
+      "volume": "12",
+      "elocation_id": "406",
+      "doi": "10.1186/1471-2407-12-406",
+      "pmid": "22967049",
+      "pmc_id": "PMC3502583"
+    },
+    {
+      "ref_id": "B29-genes-17-00578",
+      "label": "29.",
+      "authors": [
+        "Yamada M.",
+        "Sakurai T.",
+        "Komeda Y.",
+        "Nagai T.",
+        "Kamata K.",
+        "Minaga K.",
+        "Yamao K.",
+        "Takenaka M.",
+        "Hagiwara S.",
+        "Matsui S.",
+        "et al."
+      ],
+      "title": "Clinical Significance of Bmi1 Expression in Inflammatory Bowel Disease",
+      "journal": "Oncology",
+      "year": "2017",
+      "volume": "93",
+      "fpage": "20",
+      "lpage": "26",
+      "doi": "10.1159/000481225",
+      "pmid": "29258116"
+    },
+    {
+      "ref_id": "B30-genes-17-00578",
+      "label": "30.",
+      "authors": [
+        "Li J.",
+        "Jin C.",
+        "Zou C.",
+        "Qiao X.",
+        "Ma P.",
+        "Hu D.",
+        "Li W.",
+        "Jin J.",
+        "Jin X.",
+        "Fan P."
+      ],
+      "title": "GNG12 regulates PD-L1 expression by activating NF-κB signaling in pancreatic ductal adenocarcinoma",
+      "journal": "FEBS Open Bio",
+      "year": "2020",
+      "volume": "10",
+      "fpage": "278",
+      "lpage": "287",
+      "doi": "10.1002/2211-5463.12784",
+      "pmc_id": "PMC6996305",
+      "pmid": "31898405"
+    },
+    {
+      "ref_id": "B31-genes-17-00578",
+      "label": "31.",
+      "authors": [
+        "Xie J.",
+        "Yuan Y.",
+        "Yao G.",
+        "Chen Z.",
+        "Yu W.",
+        "Zhu Q."
+      ],
+      "title": "Nucleoporin 160 (NUP160) inhibition alleviates diabetic nephropathy by activating autophagy",
+      "journal": "Bioengineered",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "6390",
+      "lpage": "6402",
+      "doi": "10.1080/21655979.2021.1968777",
+      "pmid": "34533106",
+      "pmc_id": "PMC8806760"
+    },
+    {
+      "ref_id": "B32-genes-17-00578",
+      "label": "32.",
+      "authors": [
+        "Jensen M.A.",
+        "Wilkinson J.E.",
+        "Krainer A.R."
+      ],
+      "title": "Splicing factor SRSF6 promotes hyperplasia of sensitized skin",
+      "journal": "Nat. Struct. Mol. Biol.",
+      "year": "2014",
+      "volume": "21",
+      "fpage": "189",
+      "lpage": "197",
+      "doi": "10.1038/nsmb.2756",
+      "pmid": "24440982",
+      "pmc_id": "PMC4118672"
+    },
+    {
+      "ref_id": "B33-genes-17-00578",
+      "label": "33.",
+      "authors": [
+        "Piotrowski I.",
+        "Zhu X.",
+        "Saccon T.D.",
+        "Ashiqueali S.",
+        "Schneider A.",
+        "de Carvalho Nunes A.D.",
+        "Noureddine S.",
+        "Sobecka A.",
+        "Barczak W.",
+        "Szewczyk M.",
+        "et al."
+      ],
+      "title": "Mirnas as biomarkers for diagnosing and predicting survival of head and neck squamous cell carcinoma patients",
+      "journal": "Cancers",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "3980",
+      "doi": "10.3390/cancers13163980",
+      "pmid": "34439138",
+      "pmc_id": "PMC8392400"
+    },
+    {
+      "ref_id": "B34-genes-17-00578",
+      "label": "34.",
+      "authors": [
+        "Zhang X.-W.",
+        "Liu N.",
+        "Chen S.",
+        "Wang Y.",
+        "Zhang Z.-X.",
+        "Sun Y.-Y.",
+        "Qiu G.-B.",
+        "Fu W.-N."
+      ],
+      "title": "High microRNA-23a expression in laryngeal squamous cell carcinoma is associated with poor patient prognosis",
+      "journal": "Diagn. Pathol.",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "22",
+      "doi": "10.1186/s13000-015-0256-6",
+      "pmid": "25879432",
+      "pmc_id": "PMC4414414"
+    },
+    {
+      "ref_id": "B35-genes-17-00578",
+      "label": "35.",
+      "authors": [
+        "Popov T.M.",
+        "Stancheva G.",
+        "Kyurkchiyan S.G.",
+        "Petkova V.",
+        "Panova S.",
+        "Kaneva R.P.",
+        "Popova D.P."
+      ],
+      "title": "Global microRNA expression profile in laryngeal carcinoma unveils new prognostic biomarkers and novel insights into field cancerization",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "17051",
+      "doi": "10.1038/s41598-022-20338-w",
+      "pmid": "36224266",
+      "pmc_id": "PMC9556831"
+    },
+    {
+      "ref_id": "B36-genes-17-00578",
+      "label": "36.",
+      "authors": [
+        "Ding D.",
+        "Qi Z."
+      ],
+      "title": "Clinical significance of miRNA-195 expression in patients with laryngeal carcinoma",
+      "journal": "J. BUON",
+      "year": "2019",
+      "volume": "24",
+      "fpage": "315",
+      "lpage": "322",
+      "pmid": "30941987"
+    }
+  ]
+}

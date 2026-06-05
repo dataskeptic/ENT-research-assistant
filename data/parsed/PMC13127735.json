@@ -1,0 +1,730 @@
+{
+  "metadata": {
+    "title": "Barrett’s esophagus-associated genetic loci in African Americans: a case-control study using the All of Us Research Program",
+    "authors": [
+      "Ashwin Rao",
+      "Jinyoung Byun",
+      "Aaron P. Thrift",
+      "Hashem B. El-Serag"
+    ],
+    "journal": "European Journal of Gastroenterology & Hepatology",
+    "year": "2026",
+    "doi": "10.1097/MEG.0000000000003131",
+    "pmc_id": "PMC13127735",
+    "pmid": "41524576",
+    "full_text_available": true,
+    "section_count": 12,
+    "reference_count": 32
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background and aims Barrett’s esophagus is the only known precursor lesion to esophageal adenocarcinoma (EAC). Barrett’s esophagus and EAC are less common in African Americans than in non-Hispanic Whites. Studies in European populations have identified Barrett’s esophagus–associated risk loci; however, none have examined loci in African Americans cohorts. We conducted a case-control targeted replication study to investigate previously identified Barrett’s esophagus risk loci in an African Americans cohort in the All of Us (AoU) Research Program. Methods We abstracted phenomic and genomic data from 108 African Americans with Barrett’s esophagus and 778 African Americans controls in the AoU database. We examined 16 single-nucleotide polymorphisms (SNPs) identified in individuals of European origin in the largest Barrett’s esophagus genome-wide association study to date. We conducted a logistic regression, adjusting for age, sex, and global ancestry, to assess associations between SNPs and Barrett’s esophagus/control status. Results Of 16 SNPs examined, logistic regression analysis showed three SNPs (rs42202, rs62217, and rs848092) were associated with Barrett’s esophagus risk at Bonferroni-adjusted significance ( P < 3.1e−3) and in the same direction as previously reported. One SNP, rs2701111, met significance but showed a discordant association with Barrett’s esophagus in African Americans. The association with the remaining 12 SNPs was not replicated. Effect sizes were generally larger for each SNP in our African Americans cohort. Conclusion This study evaluated 16 Barrett’s esophagus–associated SNPs in African Americans and confirmed associations for only three Barrett’s esophagus–associated variants shared across populations. The nonreplication of most loci and differences in association patterns suggest distinct genetic factors influence Barrett’s esophagus in admixed populations. These findings underscore the need for discovery and replication in diverse populations.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Barrett’s esophagus is the only known precursor lesion for esophageal adenocarcinoma (EAC), the most common esophageal cancer subtype in the USA [ 1 ]. Both Barrett’s esophagus and EAC are less common in African American than non-Hispanic White (NHW) individuals [ 1 – 4 ]. This observed racial disparity does not appear to be explained by differences in the prevalence or exposure to known risk factors for Barrett’s esophagus, such as gastroesophageal reflux disease (GERD), abdominal obesity, hiatus hernia, smoking, H. pylori infection, and proton pump inhibitor use [ 4 ]. Whether germline genetic variations may contribute to racial disparities in Barrett’s esophagus prevalence has received little to no attention. Genome-wide association studies (GWAS), which examine the entire genome across individuals for single nucleotide polymorphisms (SNPs) associated with phenotypic traits, have been instrumental in uncovering pathogenic and risk-protective variants [ 5 ]. However, GWAS have been predominantly conducted in individuals of European descent; despite increased efforts to include diverse populations in genomic studies, individuals of African ancestry represent less than 4% of all GWAS participants [ 6 , 7 ]. While a recently published large-scale GWAS meta-analysis (GWAS-MA) of 11 208 patients with Barrett’s esophagus and 32 476 matched controls identified and replicated 18 Barrett’s esophagus-associated risk loci, all participants were of European origin [ 8 ]. Likewise, all prior GWAS for Barrett’s esophagus involved European ancestry populations [ 8 – 13 ]. Cross-ancestry SNP replication studies, in which previously identified disease-associated genetic loci are examined in diverse populations, offer an essential methodology to determine whether implicated variants are truly shared or if distinct genetic architectures may contribute to disease susceptibility. To date, no SNP replication studies for Barrett’s esophagus have been conducted in African Americans. The National Institutes of Health-funded All of Us (AoU) Research Program is a nationwide initiative in USA to diversify genomic research. With 46% of genomic data from individuals from under-represented racial and ethnic minorities [ 14 ], the AoU Research Program offers a granular and racially diverse cohort to explore the genetic architecture of phenotypes, including Barrett’s esophagus, in African Americans and other minorities. Here, we conducted a case-control candidate SNP replication study within the AoU Research Program to investigate the association of previously identified Barrett’s esophagus risk loci in African American individuals. This is one of the first studies investigating genetic risk factors for Barrett’s esophagus in African Americans.",
+      "order": 1
+    },
+    {
+      "section": "Overview",
+      "text": "This case-control study utilized phenomic and genomic data from consented AoU participants, collected as previously described [ 14 , 15 ]. All data collection and analysis involving human participants were approved by the central Institutional Review Board (IRB) of the AoU Research Program. Baylor College of Medicine maintains an institutional Data Use and Registration Agreement with AoU, providing access to de-identified data through the AoU Research Workbench – a secure cloud computing platform for statistical and genomic data analysis. Patients or the public were not involved in the design, conduct, reporting, or dissemination plans of our research. This study was conducted and reported in accordance with the Strengthening the Reporting of Observational Studies in Epidemiology guidelines for case-control studies [ 16 ].",
+      "order": 2
+    },
+    {
+      "section": "Study Cohort Identification",
+      "text": "We used the AoU Research Workbench Cohort Builder to construct our study population of African American adults (≥18 years of age) with (cases) and without (controls) Barrett’s esophagus. We selected Barrett’s esophagus cases who self-identified as African American, had available electronic health record (EHR) and short-read whole genome sequencing (srWGS) data, and had a systematized nomenclature of medicine (SNOMED) diagnosis code of Barrett’s esophagus (302914006). Controls were self-identified African American participants with EHR and srWGS data who had undergone upper endoscopy (defined as one of Esophagogastroduodenoscopy, SNOMED 4294382; Endoscopy of esophagus, SNOMED 49230008; Endoscopy and biopsy of upper gastrointestinal tract, SNOMED 445982009) and did not have a diagnosis of Barrett’s esophagus (SNOMED 302914006). Cases and controls were excluded if they had a diagnosis of malignant tumor (SNOMED 363402007) or primary malignant neoplasm of the esophagus (SNOMED 371984007) prior to the date of primary consent. For cases and controls, we extracted their date of birth, date of primary consent, race, ethnicity, sex at birth, and previously determined predicted global ancestry status. Global ancestry was determined by projecting samples into a principal component analysis (PCA) space derived from the Human Genome Diversity Project and 1000 Genomes reference samples, then using a random forest classifier to assign ancestry labels based on those principal components [ 14 , 15 ]. We used the date of primary consent and date of birth to calculate age at enrollment, providing a time point closer to diagnosis and data collection. Patients were excluded if sex at birth was not reported.",
+      "order": 3
+    },
+    {
+      "section": "Genotype Data Processing And Candidate Single Nucleotide Polymorphism Selection",
+      "text": "We extracted srWGS data for cases and controls into a combined Hail MatrixTable for genomic analysis. We performed standard variant quality control measures on both cases and controls, including removing monomorphic variants and variants with call rates <95% [ 17 ]. We filtered variants with Hardy–Weinberg equilibrium P -value <1e−15 in controls only. We used precomputed relatedness data provided by AoU, which included pairwise kinship scores calculated using the Hail pc_relate function, to remove related samples and ensure sample interdependence. The Hail MatrixTable was subsequently annotated with Barrett’s esophagus case-control status, age at primary enrollment, sex at birth, and global ancestry status. We selected candidate SNPs for replication in our African American study population from among those SNPs associated with Barrett’s esophagus in the largest GWAS-MA of Barrett’s esophagus and EAC to date by Schroder et al . [ 8 ]. A manual liftover was performed for each candidate SNP using the UCSC Genome Browser to convert coordinates from GRCh37, the reference genome used for the Schroder cohort, to GRCh38, the reference genome for AoU data [ 18 ]. We filtered the Hail MatrixTable only to include these specific SNPs. In total, we examined 16 SNPs for associations with Barrett’s esophagus in our African American study population.",
+      "order": 4
+    },
+    {
+      "section": "Genomic And Statistical Analysis",
+      "text": "Chi-squared and Wilcoxon rank-sum tests were used to compare distributions of age at primary enrollment and sex at birth between Barrett’s esophagus cases and controls. We assumed an additive model of genetic risk for each candidate SNP to the Barrett’s esophagus status and tested this association using logistic regression. We adjusted for age at primary enrollment, sex at birth, and the top 3 principal components derived from AoU-performed PCA-based global ancestry analysis to control for population stratification. We applied a Bonferroni correction to adjust the P -value for significance given multiple comparisons ( P = 0.05/16 = 0.003125 or 3.1e−3). We reported standard genomic analysis measures for each SNP, including beta-coefficients ( β ) with standard errors (SE), effect allele and non-effect allele, and minor allele frequency (MAF). Additionally, we calculated the odds ratio (OR) with 95% confidence intervals (CIs) for each SNP in the AoU cohort and compared it with those reported in Schroder et al .",
+      "order": 5
+    },
+    {
+      "section": "Analysis Environment",
+      "text": "Cohort construction, data processing, and analytic methods are documented within the All of Us Researcher Workbench workspace, ‘Risk Factors for Barrett’s Esophagus’. We conducted all analyses using the Jupyter Notebook environment (Project Jupyter; NumFOCUS, Austin, TX, USA) and Python version 3.10.12 (Python Software Foundation, Wilmington, DE, USA), utilizing relevant packages, including Pandas, Hail, Matplotlib, NumPy, and SciPy. All analyses were performed in the secure cloud computing environment provided by AoU, ensuring data privacy and reproducibility.",
+      "order": 6
+    },
+    {
+      "section": "Results",
+      "text": "Our final analysis included 108 Barrett’s esophagus cases and 778 controls with available genomic and EHR data, all of whom self-identified as African American (Fig. 1 ). Barrett’s esophagus cases were significantly more likely to be male (40% versus 23%, P < 0.001) and older at enrollment (median age 63 versus 59.3 years, P < 0.001). Principal component analysis revealed that Barrett’s esophagus cases and controls shared similar global ancestry patterns (Supplementary Figure 1, Supplemental digital content 1, https://links.lww.com/EJGH/B248 ). Across all 16 SNPs, logistic regression analysis produced ORs ranging from 0.60 to 4.31, with four SNPs meeting Bonferroni-adjusted significance. We directly replicated associations with Barrett’s esophagus for three SNPs: rs42202, rs62217, and rs848092 (Fig. 2 ). One SNP was also associated with Barrett’s esophagus ( P = 3.1e−3), although the association was in the opposite direction. The remaining 12 SNP associations did not meet Bonferroni significance. Beta coefficient values with SE (Supplementary Figure 2, Supplemental digital content 1, https://links.lww.com/EJGH/B248 ; Supplementary Table 1, Supplemental digital content 2, https://links.lww.com/EJGH/B249 ) for each SNP were used to calculate ORs and 95% CI and are presented in Fig. 3 and Table 1 . MAF are reported alongside OR and CI values for comparison.",
+      "order": 7
+    },
+    {
+      "section": "Significant And Shared Associations With Barrett’S Esophagus",
+      "text": "SNPs rs42202 (AoU OR 4.31, 95% CI: 2.25–8.84; Schroder OR 1.21, 95% CI: 1.13–1.30), rs622217 (AoU OR 1.63, 95% CI: 1.24–2.14; Schroder OR 1.13, 95% CI: 1.09–1.18), and rs848092 (AoU OR 1.77, 95% CI: 1.33–2.35; Schroder OR 1.10, 95% CI: 1.08–1.13) were associated with an increased risk of Barrett’s esophagus in both cohorts. Higher effect sizes were noted in our study of Barrett’s esophagus in African American compared to the European population in Schroder et al .",
+      "order": 8
+    },
+    {
+      "section": "Significant And Discordant Associations With Barrett’S Esophagus",
+      "text": "SNP rs2701111 also met the adjusted threshold for significance, although with a discordant association. In our study, rs2701111, the ‘A’ allele was associated with an increased risk of Barrett’s esophagus in African Americans (OR 4.31, 95% CI: 2.60–4.50), in contrast to the inverse association found in the Schroder et al . GWAS-MA among individuals of European descent (OR 0.91, 95% CI: 0.88–0.94).",
+      "order": 9
+    },
+    {
+      "section": "Non-Replicated Single Nucleotide Polymorphisms",
+      "text": "Twelve of the 16 SNPs were not associated with Barrett’s esophagus in African Americans at Bonferroni significance. Of these, three SNPs (rs72760500, rs3111642, rs58407103) had an MAF of less than 0.05 in our study population of African Americans. Among the non-replicating SNPs, rs146917555 and rs3950627 demonstrated an inverse association with Barrett’s esophagus in both our African American study population and the European population in Schroder et al .; these two SNPs were nominally significant in our analysis ( P < 0.05) but did not meet Bonferroni significance. Four additional SNPs (rs35631104, rs72760500, rs71548381, rs199528105) demonstrated an increased risk of Barrett’s esophagus in both studies, but associations in our analysis were inconclusive due to CIs crossing 1. The remaining six SNPs (rs3072, rs3111642, rs58407103, rs7045553, rs7170896, rs199620551) had discordant associations between our study and Schroder et al ., though calculated CIs overlapped those of the Schroder et al . GWAS-MA.",
+      "order": 10
+    },
+    {
+      "section": "Discussion",
+      "text": "In the first cross-ancestry replication study of Barrett’s esophagus, we leveraged genomic and phenomic data from the AoU Research Program to examine previously identified risk loci for Barrett’s esophagus in African Americans. In this case-control targeted replication study, we replicated three SNPs with the same associations identified from the largest Barrett’s esophagus GWAS-MA to date. An additional SNP also met the adjusted threshold for significance, albeit with a discordant association compared to that observed prior, while 12 SNPs were not replicated. Of non-replicated SNPs, several were observed to have lower MAF in our African American cohort. Notably, the effect sizes for loci were consistently stronger in African American compared to the European populations in which these loci were previously identified. While large-scale GWAS-MA have evaluated the genetic architecture of Barrett’s esophagus [ 8 , 9 ], each primarily involved individuals of European descent – a common limitation in genetic research [ 6 , 7 , 19 ]. Findings from these studies may not generalize across populations; for instance, many presumed causal variants associated with age-related macular degeneration identified in European-based populations were not replicated in African American cohorts [ 20 ]. Conversely, efforts to improve diversity in genetic studies have led to the discovery of novel population-specific disease-associated loci, as identified in the first GWAS of African American with inflammatory bowel disease [ 21 ], and improved the predictive performance of several polygenic risk scores (PRS) in diverse conditions such as atrial fibrillation, breast cancer, chronic kidney disease, obesity, and type 2 diabetes [ 22 ]. There is limited data on the genetic architecture among African Americans with Barrett’s esophagus. Only a single study examining 54 patients with Barrett’s esophagus or EAC has attempted to investigate whether African American individuals with Barrett’s esophagus may have a distinct genetic architecture, suggesting that low-frequency, rare variants associated with European ancestry may confer susceptibility to Barrett’s esophagus or EAC in African American [ 23 ]. No study has evaluated whether Barrett’s esophagus-associated variants identified in European populations can be replicated in African American cohorts. We provide the first targeted SNP replication study to assess whether these variants are applicable in African American populations or if a unique genetic profile or lower heritability may contribute to their noted lower prevalence of Barrett’s esophagus in African American populations. Three SNPs (rs42202, rs622217, and rs848092) were associated with an increased risk of Barrett’s esophagus in both our replication study and Schroder et al ., with higher observed effect sizes noted in our study. Little is known about the direct role of rs848092, which is annotated to SLC25A1 and involved in cellular metabolism; however, rs42202, linked to LINC02114, has been implicated as a causal variant in several GWAS studies on GERD and the development of hiatal hernia [ 24 , 25 ]. Similarly, rs622271, annotated to SLC22A3 , has been implicated in tumor invasion and metastasis in familial esophageal cancer [ 26 ]. Both the biological plausibility and successful replication suggest that specific previously identified causal variants for Barrett’s esophagus may be generalizable to African American populations. One SNP, rs2701111, also met threshold significance in our study but was associated with an increased risk of Barrett’s esophagus rather than the previously noted inverse association. This reversal in risk association, termed the ‘flip-flop’ phenomenon, could be due to differences in linkage disequilibrium between African American and European populations, sampling variation, or differences in allele frequency [ 27 ]. However, flip-flop associations may also signal a genuinely distinct genetic association and resulting population-specific genetic architecture for Barrett’s esophagus in African American. Similar patterns have been observed in cross-ancestry replication studies, such as breast-cancer-associated loci derived from European-ancestry GWAS, where replication in women of African ancestry showed several discordant but significant associations [ 28 ]. While rs2701111 may play a role in Barrett’s esophagus development, larger and more diverse genomic studies should aim to clarify its true association. The association results for 12 of the 16 SNPs tested were not replicated. Lower levels of linkage disequilibrium in those of African ancestry compared with Europeans make it challenging to ensure that shared causal variants are tagged by the same marker SNP [ 29 ]. Additionally, evidence for association increases with a larger sample size and higher minor allele frequencies [ 30 ]. The prevalence of Barrett’s esophagus in endoscopy studies is considerably higher in NHW individuals than in African American individuals [ 2 ], with the incidence of EAC up to five-fold higher among NHWs [ 31 ]. This disparity partly explains the lower percentage of African American in Barrett’s esophagus genetic studies and raises the possibility that genetic differences may partly contribute to these observed differences. We note several differences in the direction and strength of association for variants in our replication study from those reported in Schroder et al . In addition to rs2701111, several non-replicated SNPs also exhibited flip-flop associations, and most SNPs in our African American cohort were associated with stronger effect sizes. Lack of significance and CIs overlapping with previously reported results mean that we cannot entirely rule out the possibility that these variants may confer a different risk of Barrett’s esophagus in African American individuals. Inaccurate estimation of marker risks due to population-specific genetic architecture can lead to non-generalizable and poorly performing PRS models derived from these markers [ 22 ]. There are limitations in our study. First, we relied on SNOMED-CT codes for phenotype definitions of Barrett’s esophagus, which may have led to misclassification. To reduce the likelihood of undiagnosed Barrett’s esophagus among controls, we included concurrent SNOMED-CT codes for upper endoscopy. Second, 60% of persons with Barrett’s esophagus in this study were women, a much higher proportion than expected in endoscopy-based studies (pooled prevalence of 1.29% compared with 4.66% for men) [ 32 ]. While some misclassification is possible, this percentage reflects the overall sex distribution of the AoU Research Program (60.38% women), and importantly, there were fewer females in the Barrett’s esophagus group compared to the control group. Third, given our sample size, we had limited statistical power to detect genetic variants associated with modest risk increases, particularly under a stringent Bonferroni correction. As such, variants previously identified with small effect sizes in European cohorts may not have reached significance in our analysis, and the broader CIs around our estimates highlight this limitation. However, this represents by far the largest genomic study in African American individuals with Barrett’s esophagus to date. In summary, this is the first targeted replication study to evaluate the genetic architecture of Barrett’s esophagus in African American individuals. By assessing the replication of Barrett’s esophagus-associated loci identified in European GWAS-MA, we provide evidence for certain shared genetic risk factors across populations. However, findings of non-replication and differences in the direction and strength of association for specific variants also suggest the possibility of population-specific genetic architecture for Barrett’s esophagus in African American individuals. Identifying genetic variant and variant-specific effects in African American individuals may help explain the lower disease prevalence, improve the accuracy of PRS-based risk prediction models, and develop more precise screening and surveillance strategies for Barrett’s esophagus. Future genomic studies should prioritize the recruitment of African American individuals to address current sample size limitations and strengthen our understanding of the genetic risk factors for Barrett’s esophagus in this population.",
+      "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Thrift AP"
+      ],
+      "title": "Global burden and epidemiology of Barrett oesophagus and oesophageal cancer.",
+      "journal": "Nat Rev Gastroenterol Hepatol",
+      "year": "2021",
+      "volume": "18",
+      "fpage": "432",
+      "lpage": "443",
+      "pmid": "33603224",
+      "doi": "10.1038/s41575-021-00419-3"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Abrams JA",
+        "Fields S",
+        "Lightdale CJ",
+        "Neugut AI"
+      ],
+      "title": "Racial and ethnic disparities in the prevalence of Barrett’s esophagus among patients who undergo upper endoscopy.",
+      "journal": "Clin Gastroenterol Hepatol",
+      "year": "2008",
+      "volume": "6",
+      "fpage": "30",
+      "lpage": "34",
+      "pmid": "18063419",
+      "doi": "10.1016/j.cgh.2007.10.006",
+      "pmc_id": "PMC3712273"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Chisholm SS",
+        "Khoury JE",
+        "Jamal MM",
+        "Palacio C",
+        "Pudhota S",
+        "Vega KJ"
+      ],
+      "title": "The frequency of histologically confirmed Barrett’s esophagus varies by the combination of ethnicity and gender.",
+      "journal": "J Gastrointest Oncol",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "102",
+      "lpage": "108",
+      "pmid": "28280615",
+      "doi": "10.21037/jgo.2016.12.07",
+      "pmc_id": "PMC5334040"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Nguyen TH",
+        "Thrift AP",
+        "Ramsey D",
+        "Green L",
+        "Shaib YH",
+        "Graham DY",
+        "El-Serag HB"
+      ],
+      "title": "Risk factors for Barrett’s esophagus compared between African Americans and non-Hispanic Whites.",
+      "journal": "Am J Gastroenterol",
+      "year": "2014",
+      "volume": "109",
+      "fpage": "1870",
+      "lpage": "1880",
+      "pmid": "25420546",
+      "doi": "10.1038/ajg.2014.351"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Tam V",
+        "Patel N",
+        "Turcotte M",
+        "Bossé Y",
+        "Paré G",
+        "Meyre D"
+      ],
+      "title": "Benefits and limitations of genome-wide association studies.",
+      "journal": "Nat Rev Genet",
+      "year": "2019",
+      "volume": "20",
+      "fpage": "467",
+      "lpage": "484",
+      "pmid": "31068683",
+      "doi": "10.1038/s41576-019-0127-1"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Peterson RE",
+        "Kuchenbaecker K",
+        "Walters RK",
+        "Chen C-Y",
+        "Popejoy AB",
+        "Periyasamy S",
+        "et al."
+      ],
+      "title": "Genome-wide Association Studies in ancestrally diverse populations: opportunities, methods, pitfalls, and recommendations.",
+      "journal": "Cell",
+      "year": "2019",
+      "volume": "179",
+      "fpage": "589",
+      "lpage": "603",
+      "pmid": "31607513",
+      "doi": "10.1016/j.cell.2019.08.051",
+      "pmc_id": "PMC6939869"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Popejoy AB",
+        "Fullerton SM"
+      ],
+      "title": "Genomics is failing on diversity.",
+      "journal": "Nature",
+      "year": "2016",
+      "volume": "538",
+      "fpage": "161",
+      "lpage": "164",
+      "pmid": "27734877",
+      "doi": "10.1038/538161a",
+      "pmc_id": "PMC5089703"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Schroder J",
+        "Chegwidden L",
+        "Maj C",
+        "Gehlen J",
+        "Speller J",
+        "Böhmer AC",
+        "et al."
+      ],
+      "title": "GWAS meta-analysis of 16 790 patients with Barrett’s oesophagus and oesophageal adenocarcinoma identifies 16 novel genetic risk loci and provides insights into disease aetiology beyond the single marker level.",
+      "journal": "Gut",
+      "year": "2023",
+      "volume": "72",
+      "fpage": "612",
+      "lpage": "623",
+      "pmid": "35882562",
+      "doi": "10.1136/gutjnl-2021-326698"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Gharahkhani P",
+        "Fitzgerald RC",
+        "Vaughan TL",
+        "Palles C",
+        "Gockel I",
+        "Tomlinson I",
+        "et al."
+      ],
+      "title": "Genome-wide association studies in oesophageal adenocarcinoma and Barrett’s oesophagus: a large-scale meta-analysis.",
+      "journal": "Lancet Oncol",
+      "year": "2016",
+      "volume": "17",
+      "fpage": "1363",
+      "lpage": "1373",
+      "pmid": "27527254",
+      "doi": "10.1016/S1470-2045(16)30240-6",
+      "pmc_id": "PMC5052458"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Levine DM",
+        "Ek WE",
+        "Zhang R",
+        "Liu X",
+        "Onstad L",
+        "Sather C",
+        "et al."
+      ],
+      "title": "A genome-wide association study identifies new susceptibility loci for esophageal adenocarcinoma and Barrett’s esophagus.",
+      "journal": "Nat Genet",
+      "year": "2013",
+      "volume": "45",
+      "fpage": "1487",
+      "lpage": "1493",
+      "pmid": "24121790",
+      "doi": "10.1038/ng.2796",
+      "pmc_id": "PMC3840115"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Ong JS",
+        "An J",
+        "Han X",
+        "Law MH",
+        "Nandakumar P",
+        "Schumacher J",
+        "et al."
+      ],
+      "title": "Multitrait genetic association analysis identifies 50 new risk loci for gastro-oesophageal reflux, seven new loci for Barrett’s oesophagus and provides insights into clinical heterogeneity in reflux diagnosis.",
+      "journal": "Gut",
+      "year": "2022",
+      "volume": "71",
+      "fpage": "1053",
+      "lpage": "1061",
+      "pmid": "34187846",
+      "doi": "10.1136/gutjnl-2020-323906",
+      "pmc_id": "PMC9120377"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Palles C",
+        "Chegwidden L",
+        "Li X",
+        "Findlay JM",
+        "Farnham G",
+        "Castro Giner F",
+        "et al."
+      ],
+      "title": "Polymorphisms near TBX5 and GDF7 are associated with increased risk for Barrett’s esophagus.",
+      "journal": "Gastroenterology",
+      "year": "2015",
+      "volume": "148",
+      "fpage": "367",
+      "lpage": "378",
+      "pmid": "25447851",
+      "doi": "10.1053/j.gastro.2014.10.041",
+      "pmc_id": "PMC4315134"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Su Z",
+        "Gay LJ",
+        "Strange A",
+        "Palles C",
+        "Band G",
+        "Whiteman DC",
+        "et al."
+      ],
+      "title": "Common variants at the MHC locus and at chromosome 16q24.1 predispose to Barrett’s esophagus.",
+      "journal": "Nat Genet",
+      "year": "2012",
+      "volume": "44",
+      "fpage": "1131",
+      "lpage": "1136",
+      "pmid": "22961001",
+      "doi": "10.1038/ng.2408",
+      "pmc_id": "PMC3459818"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "title": "Genomic data in the All of Us Research Program.",
+      "journal": "Nature",
+      "year": "2024",
+      "volume": "627",
+      "fpage": "340",
+      "lpage": "346",
+      "pmid": "38374255",
+      "doi": "10.1038/s41586-023-06957-x",
+      "pmc_id": "PMC10937371"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Ramirez AH",
+        "Sulieman L",
+        "Schlueter DJ",
+        "Halvorson A",
+        "Qian J",
+        "Ratsimbazafy F",
+        "et al."
+      ],
+      "title": "The All of Us research program: data quality, utility, and diversity.",
+      "journal": "Patterns (N Y)",
+      "year": "2022",
+      "volume": "3",
+      "fpage": "100570",
+      "pmid": "36033590",
+      "doi": "10.1016/j.patter.2022.100570",
+      "pmc_id": "PMC9403360"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Vandenbroucke JP",
+        "von Elm E",
+        "Altman DG",
+        "Gøtzsche PC",
+        "Mulrow CD",
+        "Pocock SJ",
+        "et al."
+      ],
+      "title": "Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): explanation and elaboration.",
+      "journal": "Ann Intern Med",
+      "year": "2007",
+      "volume": "147",
+      "fpage": "W163",
+      "lpage": "W194",
+      "pmid": "17938389",
+      "doi": "10.7326/0003-4819-147-8-200710160-00010-w1"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Barsh GS",
+        "Copenhaver GP",
+        "Gibson G",
+        "Williams SM"
+      ],
+      "title": "Guidelines for genome-wide association studies.",
+      "journal": "PLoS Genet",
+      "year": "2012",
+      "volume": "8",
+      "fpage": "e1002812",
+      "pmid": "22792080",
+      "doi": "10.1371/journal.pgen.1002812",
+      "pmc_id": "PMC3390399"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Raney BJ",
+        "Barber GP",
+        "Benet-Pagès A",
+        "Casper J",
+        "Clawson H",
+        "Cline MS",
+        "et al."
+      ],
+      "title": "The UCSC Genome Browser database: 2024 update.",
+      "journal": "Nucleic Acids Res",
+      "year": "2024",
+      "volume": "52",
+      "fpage": "D1082",
+      "lpage": "D1088",
+      "pmid": "37953330",
+      "doi": "10.1093/nar/gkad987",
+      "pmc_id": "PMC10767968"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Fitipaldi H",
+        "Franks PW"
+      ],
+      "title": "Ethnic, gender and other sociodemographic biases in genome-wide association studies for the most burdensome non-communicable diseases: 2005–2022.",
+      "journal": "Hum Mol Genet",
+      "year": "2023",
+      "volume": "32",
+      "fpage": "520",
+      "lpage": "532",
+      "pmid": "36190496",
+      "doi": "10.1093/hmg/ddac245",
+      "pmc_id": "PMC9851743"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Restrepo NA",
+        "Spencer KL",
+        "Goodloe R",
+        "Garrett TA",
+        "Heiss G",
+        "Bůžková P",
+        "et al."
+      ],
+      "title": "Genetic determinants of age-related macular degeneration in diverse populations from the PAGE study.",
+      "journal": "Invest Ophthalmol Vis Sci",
+      "year": "2014",
+      "volume": "55",
+      "fpage": "6839",
+      "lpage": "6850",
+      "pmid": "25205864",
+      "doi": "10.1167/iovs.14-14246",
+      "pmc_id": "PMC4214207"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Brant SR",
+        "Okou DT",
+        "Simpson CL",
+        "et al."
+      ],
+      "title": "Genome-wide association study identifies African-specific susceptibility loci in African Americans with inflammatory bowel disease.",
+      "journal": "Gastroenterology",
+      "year": "2017",
+      "volume": "152",
+      "fpage": "206",
+      "lpage": "217.e2",
+      "pmid": "27693347",
+      "doi": "10.1053/j.gastro.2016.09.032",
+      "pmc_id": "PMC5164948"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Lennon NJ",
+        "Kottyan LC",
+        "Kachulis C",
+        "Abul-Husn NS",
+        "Arias J",
+        "Belbin G",
+        "et al."
+      ],
+      "title": "Selection, optimization and validation of ten chronic disease polygenic risk scores for clinical implementation in diverse US populations.",
+      "journal": "Nat Med",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "480",
+      "lpage": "487",
+      "pmid": "38374346",
+      "doi": "10.1038/s41591-024-02796-z",
+      "pmc_id": "PMC10878968"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Sun X",
+        "Chandar AK",
+        "Canto MI",
+        "Thota PN",
+        "Brock M",
+        "Shaheen NJ",
+        "et al."
+      ],
+      "title": "Genomic regions associated with susceptibility to Barrett’s esophagus and esophageal adenocarcinoma in African Americans: the cross BETRNet admixture study.",
+      "journal": "PLoS One",
+      "year": "2017",
+      "volume": "12",
+      "fpage": "e0184962",
+      "pmid": "29073141",
+      "doi": "10.1371/journal.pone.0184962",
+      "pmc_id": "PMC5657624"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Campbell M",
+        "Wei J",
+        "Attaar M",
+        "Wu H",
+        "Wong HJ",
+        "Ujiki MB",
+        "Xu J"
+      ],
+      "title": "Identification of 14 novel susceptibility loci for diaphragmatic hernia development and their biological and clinical implications: results from the UK Biobank.",
+      "journal": "Surg Endosc",
+      "year": "2022",
+      "volume": "36",
+      "fpage": "7647",
+      "lpage": "7651",
+      "pmid": "36076102",
+      "doi": "10.1007/s00464-022-09064-6"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Jiang Y",
+        "Zhang Y",
+        "Ju C",
+        "Zhang R",
+        "Li H",
+        "Chen F",
+        "et al."
+      ],
+      "title": "A cross-disorder study to identify causal relationships, shared genetic variants, and genes across 21 digestive disorders.",
+      "journal": "iScience",
+      "year": "2023",
+      "volume": "26",
+      "fpage": "108238",
+      "pmid": "37965154",
+      "doi": "10.1016/j.isci.2023.108238",
+      "pmc_id": "PMC10641500"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Fu L",
+        "Qin Y-R",
+        "Ming X-Y",
+        "Zuo X-B",
+        "Diao Y-W",
+        "Zhang L-Y",
+        "et al."
+      ],
+      "title": "RNA editing of SLC22A3 drives early tumor invasion and metastasis in familial esophageal cancer.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2017",
+      "volume": "114",
+      "fpage": "E4631",
+      "lpage": "E4640",
+      "pmid": "28533408",
+      "doi": "10.1073/pnas.1703178114",
+      "pmc_id": "PMC5468658"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Lin PI",
+        "Vance JM",
+        "Pericak-Vance MA",
+        "Martin ER"
+      ],
+      "title": "No gene is an island: the flip-flop phenomenon.",
+      "journal": "Am J Hum Genet",
+      "year": "2007",
+      "volume": "80",
+      "fpage": "531",
+      "lpage": "538",
+      "pmid": "17273975",
+      "doi": "10.1086/512133",
+      "pmc_id": "PMC1821115"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28",
+      "authors": [
+        "Wang S",
+        "Qian F",
+        "Zheng Y",
+        "Ogundiran T",
+        "Ojengbede O",
+        "Zheng W",
+        "et al."
+      ],
+      "title": "Genetic variants demonstrating flip-flop phenomenon and breast cancer risk prediction among women of African ancestry.",
+      "journal": "Breast Cancer Res Treat",
+      "year": "2018",
+      "volume": "168",
+      "fpage": "703",
+      "lpage": "712",
+      "pmid": "29302764",
+      "doi": "10.1007/s10549-017-4638-1",
+      "pmc_id": "PMC5916755"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29",
+      "authors": [
+        "N’Diaye A",
+        "Chen GK",
+        "Palmer CD",
+        "Ge B",
+        "Tayo B",
+        "Mathias RA",
+        "et al."
+      ],
+      "title": "Identification, replication, and fine-mapping of loci associated with adult height in individuals of african ancestry.",
+      "journal": "PLoS Genet",
+      "year": "2011",
+      "volume": "7",
+      "fpage": "e1002298",
+      "pmid": "21998595",
+      "doi": "10.1371/journal.pgen.1002298",
+      "pmc_id": "PMC3188544"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30",
+      "authors": [
+        "Kraft P",
+        "Zeggini E",
+        "Ioannidis JP"
+      ],
+      "title": "Replication in genome-wide association studies.",
+      "journal": "Stat Sci",
+      "year": "2009",
+      "volume": "24",
+      "fpage": "561",
+      "lpage": "573",
+      "pmid": "20454541",
+      "doi": "10.1214/09-STS290",
+      "pmc_id": "PMC2865141"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31",
+      "authors": [
+        "Corona E",
+        "Yang L",
+        "Esrailian E",
+        "Ghassemi KA",
+        "Conklin JL",
+        "May FP"
+      ],
+      "title": "Trends in esophageal cancer mortality and stage at diagnosis by race and ethnicity in the United States.",
+      "journal": "Cancer Causes Control",
+      "year": "2021",
+      "volume": "32",
+      "fpage": "883",
+      "lpage": "894",
+      "pmid": "34003396",
+      "doi": "10.1007/s10552-021-01443-z",
+      "pmc_id": "PMC8236464"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32",
+      "authors": [
+        "Stephanie M",
+        "Nour H",
+        "de Sá Inês M",
+        "Shanker K",
+        "Kevin K",
+        "Mario D-R",
+        "Prateek S"
+      ],
+      "title": "Gender differences in Barrett’s esophagus and progression of disease: a systematic review and meta-analysis.",
+      "journal": "Dis Esophagus",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "doab075",
+      "pmid": "34761256",
+      "doi": "10.1093/dote/doab075"
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "metadata": {
+    "title": "Vestibular schwannoma: genetic and epigenetic mechanisms, hearing loss, and emerging therapies",
+    "authors": [
+      "Franciska Otaner",
+      "Vratko Himic",
+      "Luis O. Vargas",
+      "Matthew Abikenari",
+      "Neelesh Pandey",
+      "Shayndhan Sivanathan",
+      "Olivia Kalmanson",
+      "Aparna Govindan",
+      "Diane Jung",
+      "Dagoberto Estevez-Ordonez",
+      "Amy Wang",
+      "Sanjeeva Jeyaretna",
+      "Ashish H. Shah",
+      "Ricardo J. Komotar",
+      "Bradley Gampel",
+      "Christine Dinh",
+      "Michael E. Ivan"
+    ],
+    "journal": "Journal of Neuro-Oncology",
+    "year": "2026",
+    "doi": "10.1007/s11060-026-05621-4",
+    "pmc_id": "PMC13179888",
+    "pmid": "42143176",
+    "full_text_available": true,
+    "section_count": 25,
+    "reference_count": 69
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Although most vestibular schwannomas (VS) occur sporadically, both sporadic and hereditary tumors share common molecular features beyond the loss of NF2 . New evidence highlights the role of interconnected signaling pathways and epigenetic regulation in Schwann cell tumorigenesis, pointing toward potential molecularly targeted therapeutic strategies. Methods This review synthesizes preclinical, molecular, and clinical evidence to examine genetic and epigenetic mechanisms underlying VS, therapeutic strategies, and contributors to hearing loss. A structured search of ClinicalTrials.gov identified 21 Phase 1–3 interventional therapeutic trials. Results VS pathogenesis is driven by NF2 loss and merlin deficiency, leading to dysregulation of Hippo/YAP-TAZ, PI3K/AKT/mTOR, VEGF, MAPK, and adhesion pathways. Epigenetic alterations, including DNA methylation, chromatin remodeling, non-coding RNAs, and SOX10 dysfunction, further shape tumor behavior. Clinical trial analysis revealed a predominance of early-phase, non-comparative studies, limited progression to later-phase trials, and incomplete results reporting, indicating gaps in high-quality evidence. Bevacizumab remains the most consistent systemic therapy for select NF2 -related cases, while other agents such as icotinib, lapatinib, everolimus, selumetinib, and brigatinib have shown modest activity, primarily disease stabilization. Emerging approaches, including TEAD inhibition, PI3K/mTOR blockade, MEK inhibition, and combined signaling-epigenetic strategies, show preclinical promise. Hearing loss is multifactorial, involving tumor-secreted factors, inflammation, vascular changes, and inner ear damage alongside nerve compression. Conclusion VS biology reflects integrated genetic and epigenomic dysregulation. Advancing care will require multi-omic classification, biomarker-driven trials, and combination therapies targeting both signaling and epigenetic vulnerabilities. Future management is expected to shift toward personalized, mechanism-based strategies aimed at durable tumor control while preserving hearing and quality of life. Supplementary Information The online version contains supplementary material available at 10.1007/s11060-026-05621-4.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Vestibular schwannomas (VS) are benign Schwann cell tumors of the vestibulocochlear nerve, accounting for ~ 5–6% of intracranial tumors and many cerebellopontine angle masses [ 1 ]. Despite slow growth, they can cause progressive unilateral hearing loss, tinnitus, imbalance, and cranial nerve deficits, with larger tumors leading to brainstem compression, hydrocephalus, and neurological decline [ 2 ]. Management includes observation, microsurgery, and stereotactic radiosurgery, guided by tumor characteristics, hearing status, comorbidities, and patient preference [ 3 ]. Given the need to balance tumor control with functional preservation, multidisciplinary care is essential. Approximately 90% of VS are sporadic, and the remaining genetically associated cases are limited to NF2 -related schwannomatosis (NF2-SWN), LZTR1-related schwannomatosis (LZTR1-SWN), and Carney complex caused by PRKAR1A mutations. Despite being non-hereditary, most sporadic VS also show somatic NF2 loss, with one study reporting NF2 alterations in over 95% of cases [ 4 ]. Other schwannomatoses (e.g., SMARCB1 , 22q, DGCR8 ) are typically not linked to VS [ 5 ]. Although sporadic unilateral VS typically presents later in adulthood, with a median age at diagnosis of approximately 60 years, individuals with NF2-SWN are usually diagnosed much earlier, most commonly between 18 and 24 years of age [ 2 , 6 ]. Loss of merlin activates multiple interconnected pathways, including Hippo, PI3K/AKT/mTOR, VEGF-mediated angiogenesis, MAPK, and adhesion/motility signaling such as FAK, c-MET, and EphA2 [ 7 – 9 ]. These pathways drive Schwann cell proliferation, survival, and microenvironment remodeling. Additional alterations, including mutations in other 22q tumor suppressors like LZTR1 and mosaic NF2 mutations, further influence penetrance, growth, and clinical features [ 10 ]. Beyond NF2 loss and canonical signaling, epigenetic regulation also plays a key role in VS biology through developmental hypomethylation patterns, methylation-defined subgroups, chromatin remodeling, non-coding RNAs, and SOX10 [ 11 – 15 ]. These findings indicate that VS behavior reflects combined genetic and epigenomic dysregulation. Therapeutic translation has been inconsistent. Multiple agents have been tested in NF2 -related and sporadic VS, but most have shown only modest or variable effects on tumor control and hearing outcomes. Among currently available systemic therapies, bevacizumab remains the most effective option for select NF2-SWN tumors [ 16 ]. Moreover, integrated molecular diagnostics are now standard for many CNS tumors; in tumors such as pediatric high-grade gliomas and diffuse midline gliomas, combined genomic and epigenomic profiling has improved classification and helped guide therapy. Similar approaches may also support prognosis, treatment selection, and clinical monitoring in VS [ 17 ]. Despite expanding molecular insight and a growing number of investigational therapies, progress in translating these advances into consistent clinical benefit remains limited, and key gaps persist in integrating genetic and epigenetic knowledge into patient stratification and treatment design. As multi-omic technologies and targeted therapeutic strategies continue to evolve, there is a need for a clear and clinically relevant synthesis to bridge these gaps and guide future research and management. To address this, we provide a comprehensive narrative review of the genetic and epigenetic pathways underlying VS. We also evaluate completed and ongoing clinical trials targeting genetically-driven molecular mechanisms and examine emerging epigenetic regulation. Finally, we explore how these processes may contribute to disease phenotypes, particularly hearing loss, a key determinant of patient quality of life.",
+      "order": 1
+    },
+    {
+      "section": "Study Design",
+      "text": "This study was conducted as a hybrid narrative and systematic review, integrating a comprehensive systematic search and predefined study selection process with a structured, hypothesis-generating narrative synthesis to characterize the genetic, epigenetic, and translational landscape of VS. This approach was chosen to allow rigorous identification and selection of relevant studies while enabling integration of heterogeneous evidence spanning preclinical, molecular, and clinical domains. Methodological conduct and reporting were guided by the principles of the PRISMA framework where applicable.",
+      "order": 2
+    },
+    {
+      "section": "Systematic Review",
+      "text": "To characterize the current translational and investigational therapeutic landscape of VS, a systematic search of ClinicalTrials.gov was performed using the terms “vestibular schwannoma” and “acoustic neuroma,” with the final search conducted on November 30, 2025. Studies were eligible if they were Phase 1 through Phase 3 prospective interventional trials evaluating therapeutic strategies in VS. Early Phase 1 pharmacokinetic-only studies, Phase 4 trials, and observational studies were excluded to maintain a more methodologically consistent synthesis of prospective interventional trials focused on whether candidate therapies demonstrate clinical efficacy in VS, including tumor control, hearing outcomes, or radiographic response. This approach avoided combining efficacy-focused trial data with pharmacokinetic studies assessing drug exposure and delivery, as well as post-marketing and observational studies primarily reflecting long-term safety, durability, and real-world treatment experience. Study identification and selection were conducted independently by two reviewers (F.O. and N.P.), with discrepancies resolved by a third reviewer (L.V.). Data were extracted using a predefined framework. Evidence assessment was also performed independently by the same reviewers using a structured qualitative approach. This process yielded 113 clinical trials, of which 21 met inclusion criteria and were included in the qualitative synthesis. Data extracted from included trials included study title, trial identifier, study start date, study status, study design and summary, and reported outcomes or available results from ClinicalTrials.gov and, when available, corresponding published studies; these data were subsequently synthesized qualitatively. Evidence strength was evaluated based on study phase, design, sample size, and reported clinical outcomes, including radiographic response, tumor control, and hearing preservation. Greater weight was assigned to later-phase studies and those demonstrating consistent findings across cohorts, while early-phase trials were interpreted cautiously given their exploratory nature and limited sample sizes.",
+      "order": 3
+    },
+    {
+      "section": "Narrative Synthesis",
+      "text": "A comprehensive literature search was performed using PubMed from database inception through November 30, 2025. As this was a narrative review, studies were not screened or selected according to a predefined systematic review protocol. Instead, article selection and synthesis were guided by relevance to the review objectives and by the multidisciplinary expertise of the co-authors in neurosurgery, neuro-oncology, and otolaryngology. This search was designed to support a structured narrative synthesis of the genetic, epigenetic, and molecular mechanisms underlying VS using controlled vocabulary and free-text terms. Reference lists of relevant articles were also screened to identify additional studies. Studies were selected based on relevance to the scope of this review, with emphasis on mechanistic insight, translational relevance, and clinical applicability. Findings were synthesized qualitatively across key domains, including genetic drivers and epigenetic regulation, and were further organized to examine underlying molecular mechanisms, therapeutic strategies, preclinical and clinical evidence, and their impact on symptomatology. Strength of evidence was interpreted based on biological plausibility (i.e., consistency with established molecular mechanisms), consistency across experimental models, and relevance to human disease. Preclinical findings were considered hypothesis-generating and were integrated with available clinical evidence where possible to support translational interpretation. Study selection, synthesis, and interpretation were performed collaboratively by the authors.",
+      "order": 4
+    },
+    {
+      "section": "Nf2-Swn As A Model",
+      "text": "NF2-SWN is often studied to understand sporadic VS, as both share NF2 loss and overlapping molecular programs despite clinical differences. The NF2 gene on chromosome 22 encodes merlin (neurofibromin 2), a regulator of cell growth; biallelic loss promotes tumor formation [ 6 ]. Inflammatory signaling follows a similar trajectory, particularly pathways related to macrophage activity, angiogenesis, and inflammation. Bulk transcriptomic and imaging mass cytometry studies show that macrophages are the dominant immune population in VS, comprising about one-third of tumor mass in both NF2-SWN and sporadic cases, along with regulatory T cells present at lower levels. Notably, no significant differences have been observed in signaling pathways, gene expression, cell-type composition, or cytometry profiles between the two groups, indicating a highly similar tumor immune microenvironment [ 24 ]. Overall, sporadic and hereditary schwannomas share similar pathways, making hereditary forms useful models for studying the more common sporadic cases [ 10 ]. Thus, NF2-SWN provides a useful model due to its more abundant and predictable tumors, which reflect pathways active in sporadic VS. However, this approach should be applied cautiously, and it is crucial to emphasize that sporadic VS shows additional molecular and epigenetic heterogeneity beyond features captured in NF2-SWN, underscoring the need for broader investigation [ 25 ]. For example, the recurrent somatic SH3PXD2A-HTRA1 gene fusion, resulting from a balanced chromosomal inversion on 10q, has been identified in approximately 10% of sporadic schwannomas and drives tumorigenesis through MEK-ERK pathway activation independent of NF2 loss [ 26 ].",
+      "order": 5
+    },
+    {
+      "section": "Two-Hit Hypothesis",
+      "text": "NF2-SWN is an autosomal dominant disorder caused by mutations in the NF2 gene on chromosome 22q; ~50% of cases are inherited, while the remainder arise de novo, with 25–50% showing somatic mosaicism [ 6 ]. VS pathogenesis follows the classic two-hit model, requiring biallelic NF2 inactivation via germline or somatic mutation and a second event such as loss of heterozygosity, uniparental disomy, or promoter methylation [ 27 ]. Some tumors appear monoallelic due to detection limits. Undetected structural variants, deep intronic mutations, or low-level mosaicism may obscure a second hit. Deep sequencing has identified post-zygotic NF2 mutations in such cases, often associated with later onset and milder disease, underscoring the importance of molecular testing in atypical or unilateral presentations [ 28 ]. Promoter methylation or transcriptional repression may act as a functional second hit, while true NF2 haploinsufficiency is rare but may occur with loss of other 22q tumor suppressors such as LZTR1 . In one series, a sporadic VS showed biallelic LZTR1 loss with monoallelic NF2 loss, though mutation type did not correlate with clinical outcomes [ 29 ]. LZTR1 encodes a CUL3 adaptor that regulates RAS degradation; its loss leads to RAS/MAPK activation independent of merlin [ 30 ]. Unilateral VS may occur in LZTR1 -related schwannomatosis, but bilateral VS remains diagnostic of NF2-SWN [ 31 ] (Fig. 1 ).",
+      "order": 6
+    },
+    {
+      "section": "The Hippo Pathway",
+      "text": "NF2 encodes merlin, a membrane-cytoskeleton scaffold that regulates cell architecture, adhesion, and growth [ 7 ]. In Schwann cells, merlin maintains polarity and activates Hippo signaling, enabling LATS1/2 to keep YAP/TAZ phosphorylated and cytoplasmic, enforcing quiescence [ 32 ]. Loss of merlin disrupts polarity, impairs Hippo signaling, and allows nuclear YAP/TAZ-TEAD-mediated transcription of proliferative and pro-survival genes. Merlin-deficient cells also produce ErbB ligands, activating EGFR and downstream Src and PI3K/Akt signaling via autocrine loops, contributing to heterogeneity in proliferative states [ 32 , 33 ]. Human VS show reduced phospho-LATS/YAP and increased nuclear YAP, correlating with proliferation [ 34 ]. Genetic models confirm that loss of LATS1/2 induces schwannomas, while deletion of YAP/TAZ prevents tumor formation [ 33 ]. Restoration of merlin or Hippo signaling reestablishes YAP cytoplasmic sequestration and growth control [ 32 ]. Preclinical studies identify the YAP/TAZ-TEAD complex as crucial for proliferation and survival of VS cells, with TEAD palmitoylation inhibitors (e.g., VT1, VT2) suppressing tumor growth, though clinical safety and efficacy remain unestablished [ 35 ]. No Hippo pathway-directed agent has yet entered clinical trials specifically for VS.",
+      "order": 7
+    },
+    {
+      "section": "The Pi3K/Akt/Mtor Axis",
+      "text": "The PI3K/AKT/mTOR pathway regulates growth, metabolism, and survival and is consistently upregulated in VS [ 36 ]. Normally, receptor tyrosine kinase (RTK) signaling activates PI3K/AKT and downstream mTOR complexes: mTORC1 drives protein synthesis and proliferation, while mTORC2 supports cytoskeletal organization and cell polarity [ 37 ]. Merlin restrains mTORC1 and preserves mTORC2 function; its loss causes chronic mTORC1 activation, disordered mTORC2 signaling, persistent AKT activation, and loss of polarity. mTORC1 inhibition can also relieve negative feedback, paradoxically reactivating PI3K/AKT, underscoring the need for multi-targeted approaches [ 37 ]. Thus, in merlin-deficient cells, feedback regulation is disrupted, and targeting a single pathway node may unintentionally enhance signaling, highlighting the need for multi-targeted therapeutic strategies. Preclinical studies show that dual PI3K/mTOR inhibitors (e.g., BEZ235) reduce schwannoma cell viability [ 36 ]. In contrast, clinical trials of everolimus (mTORC1 inhibitor) in NF2-SWN have shown limited benefit, with slowed growth in some cases but no consistent radiographic or hearing improvement in Phase II studies [ 20 ]. These findings suggest that broader pathway inhibition may be required, though this remains unproven clinically.",
+      "order": 8
+    },
+    {
+      "section": "Angiogenesis And The Vegf Pathway",
+      "text": "VS are highly angiogenesis-dependent, driven by VEGF-A. Merlin loss shifts the balance toward VEGF signaling by reducing anti-angiogenic factors (e.g., semaphorins), producing leaky, disorganized vasculature that contributes to edema and hypoxia [ 38 ]. Bevacizumab, an anti-VEGF-A antibody, is the most consistently effective systemic therapy for NF2-SWN and is the NCCN-preferred treatment option. In some patients, it improves hearing and controls tumor growth, potentially through vascular normalization, reduced edema, and improved tissue oxygenation [ 39 ]. Pooled data show radiographic responses in 38% and hearing responses in 45%, with some patients improving clinically before tumor shrinkage [ 40 , 41 ]. Responses appear age-dependent, with younger patients showing higher rates of radiographic progression, and biomarker analyses suggest that baseline tumor vessel permeability and plasma hepatocyte growth factor levels may predict imaging and hearing responses, respectively [ 42 , 43 ]. In addition to variability in patient response, bevacizumab often requires continuous therapy and is limited by treatment-related toxicities, including hypertension, proteinuria, and fatigue, as well as tumor regrowth after discontinuation [ 16 , 44 ].",
+      "order": 9
+    },
+    {
+      "section": "The Ras/Raf/Mek/Erk (Mapk) Pathway",
+      "text": "The Ras/Raf/MEK/ERK (MAPK) pathway drives proliferation and survival downstream of receptor tyrosine kinases (e.g., ErbB, c-MET). Merlin normally restrains this signaling by limiting Ras activation and RTK clustering; its loss leads to constitutive Ras/ERK activation and growth independent of external signals. Elevated phospho-ERK is observed in both NF2- related and sporadic VS, highlighting MAPK as a key effector and therapeutic target [ 8 ]. Preclinical studies show that MEK inhibitors (e.g., trametinib, PD0325901, cobimetinib) significantly reduce proliferation in NF2 -deficient Schwann cells and VS models [ 45 ].",
+      "order": 10
+    },
+    {
+      "section": "Fak, C-Met, And Epha2 Signaling (Adhesion And Motility Axis)",
+      "text": "In normal Schwann cells, merlin stabilizes focal adhesions and restrains FAK activation. Its loss leads to constitutive FAK signaling, cytoskeletal remodeling, and increased survival and invasiveness. This involves overexpression of c-MET and EphA2, which activate PI3K/AKT and MAPK pathways to promote growth and migration. Targeted therapies show promise: crizotinib (c-MET, indirect FAK inhibition) has demonstrated preclinical efficacy, while brigatinib (FAK1, EphA2) has shown clinical activity. Neratinib, a pan-HER inhibitor, is also under investigation in NF2-SWN [ 9 ].",
+      "order": 11
+    },
+    {
+      "section": "Genotype-Phenotype Correlations In Nf2-Swn",
+      "text": "Genotype-phenotype correlations are well established in NF2-SWN. Truncating mutations are associated with more severe disease, including younger age of symptom onset, higher tumor burden, and faster VS growth rates, whereas missense mutations are associated with milder phenotypes [ 18 ]. The UK NF2 Genetic Severity Score formalizes this relationship, with higher scores predicting worse morbidity and mortality [ 46 ].",
+      "order": 12
+    },
+    {
+      "section": "Characteristics Of Investigational Therapeutic Clinical Trials",
+      "text": "A total of 21 clinical trials were included, most of which were Phase 2 ( n = 15, 72%), with fewer Phase 1 ( n = 3, 14%) and Phase 3 ( n = 3, 14%) studies (Tables 1 , 2 and 3 and see Supplementary File 1 for PRISMA flowchart of clinical trial identification, screening and selection). These trials evaluated therapies targeting genetically-driven molecular VS pathways, with no current clinical trials specifically targeting epigenetic mechanisms. The tables indicate whether each trial included children and whether the VS population was specified as sporadic or NF2-SWN, as well as patient-relevant outcomes and documented adverse effects. Trials spanned 2007–2025 (median start year 2015), with early clustering around 2010–2011 and renewed activity in 2020 and 2025 (Fig. 2 a); however, this did not translate into progression to later-phase studies, suggesting stagnation in clinical advancement (Fig. 2 b-d). Most trials were completed ( n = 9), with others active but not recruiting ( n = 3), terminated ( n = 3), not yet recruiting ( n = 2), unknown ( n = 2), actively recruiting ( n = 1), or suspended ( n = 1) (Fig. 2 e-f). The limited number of active trials and presence of terminated/suspended studies highlight challenges in feasibility and development. Most studies used single-group designs ( n = 12), with fewer randomized controlled trials ( n = 5) (Fig. 2 g-h). Among the single-arm studies, common in Phase 2 ( n = 10/15) and typically small (mean n = 12), only one incorporated external controls, while the rest lacked any comparative benchmark. In contrast, randomized trials were larger (mean n = 201) and more common in Phase 3 ( n = 3/3). However, none of the randomized trials reported results, and the predominance of small, non-comparative, early-phase studies limits the strength of evidence. Only 38% of trials ( n = 8/21) had publicly available results, mostly from completed studies ( n = 6/8). Notably, one-third of completed trials (3/9) did not report outcomes. Trials without results were not necessarily smaller, and reporting rates were lower in randomized trials (14%) than non-randomized studies (50%), partly due to ongoing status. Overall, limited reporting and transparency restrict access to high-quality evidence and hinder progress in the field.",
+      "order": 13
+    },
+    {
+      "section": "Clinical Outcomes Of Investigated Therapeutic Agents",
+      "text": "Therapeutic approaches and patient outcomes in VS remain heterogeneous, with no clear improvement in efficacy over time. Among completed trials, bevacizumab showed the most consistent activity, with meaningful hearing improvement and tumor control ( NCT01207687 , NCT01767792 [ 19 ]). Icotinib demonstrated modest activity, with limited radiographic response and some hearing improvement ( NCT02934256 [ 21 ]), while lapatinib mainly achieved disease stabilization without tumor regression ( NCT00973739 [ 22 ]). Everolimus slowed tumor growth in some patients but did not induce shrinkage, indicating limited benefit ( NCT01490476 [ 20 ]). Selumetinib showed no significant hearing or radiographic responses, although interpretation is limited by the small sample size ( NCT03095248 ). Intratympanic triamcinolone achieved reliable perilymph delivery but limited CSF penetration, reducing its therapeutic potential ( NCT04658836 [ 18 ]). In an ongoing Phase 2 platform trial, brigatinib has shown modest activity, with some tumor growth reduction and hearing improvement ( NCT04374305 [ 23 ]). Several trials lack reported results, and newer approaches, including gene therapy, remain under evaluation. Overall, the limited success of targeted therapies may reflect signaling pathway redundancy, molecular and clinical tumor heterogeneity, and adaptive activation of compensatory pathways. These mechanisms may allow VS cells to bypass single-pathway inhibition, contributing to modest, variable, or short-lived treatment responses. Future therapeutic strategies may require combination or multi-targeted approaches, guided by a better understanding of pathway redundancy, adaptive signaling responses, and the molecular profile of individual tumors.",
+      "order": 14
+    },
+    {
+      "section": "Emerging Imaging Biomarkers",
+      "text": "Emerging studies are evaluating imaging biomarkers to improve patient stratification and mechanistic insight. One study ( NCT05685836 ) uses ⁸⁹Zr-labeled bevacizumab PET/CT to assess tumor uptake and predict response to anti-VEGF therapy, while another ( NCT07130851 ) employs functional MRI to map central vestibular pathway activity. Together, these approaches may help predict treatment response and characterize functional impairment, supporting more personalized, mechanism-based management and trial design.",
+      "order": 15
+    },
+    {
+      "section": "Dna Methylation And Epigenetic-Phenotypic Correlation",
+      "text": "Early models suggested NF2 loss could arise from promoter hypermethylation, but this is rare and not a major driver of VS [ 15 ]. Instead, genome-wide profiling reveals widespread methylation changes, particularly hypomethylation at developmental loci (e.g., HOX clusters), likely reactivating embryonic Schwann cell programs and promoting proliferation and impaired differentiation [ 11 ]. DNA methylation studies also define two epigenetic subgroups independent of NF2 status: immune-enriched schwannomas (IES), with macrophage-rich, “immune hot” profiles and sensitivity to CSF1R inhibition, and immune-depleted schwannomas (IDS), with pro-angiogenic, VEGF-A⁺, “immune cold” profiles and relative resistance [ 12 ]. IES are typically diagnosed in adulthood and follow a favorable prognosis, whereas IDS present predominantly in childhood and are associated with poorer outcomes, demonstrating an epigenetic-phenotypic correlation [ 12 ]. Methylation profiling (Illumina 450 K) further identifies VS as a distinct, homogeneous subgroup across sporadic and hereditary cases, contrasting with the heterogeneity of other schwannomas and suggesting a unique baseline methylation profile of vestibulocochlear nerve Schwann cells [ 47 ].",
+      "order": 16
+    },
+    {
+      "section": "Chromatin Remodeling And Histone Modifiers",
+      "text": "VS cells depend on chromatin-modifying enzymes for survival. Histone deacetylases (HDACs) compact chromatin and repress gene expression; their inhibition (e.g., AR42) restores tumor-suppressive and pro-apoptotic genes, including negative regulators of PI3K/AKT, promoting cell death [ 13 ]. The dual inhibitor CUDC907 targets both PI3K signaling and HDAC activity, and notably also reduces YAP levels in primary VS cells, suggesting convergent suppression of multiple merlin-dependent vulnerabilities [ 48 , 49 ]. These findings highlight a common principle: combining HDAC inhibition with genetic signaling blockade enhances antitumor effects in preclinical studies compared to single agents, positioning HDACs as a key therapeutic vulnerability. Additionally, inhibition of SIRT2 , a class III HDAC, induces selective necrotic death in merlin-deficient Schwann cells, suggesting a synthetic-lethal strategy [ 50 ].",
+      "order": 17
+    },
+    {
+      "section": "Non-Coding Rnas",
+      "text": "Epigenetic reprogramming in VS involves deregulated non-coding RNAs (ncRNAs). Global profiling shows widespread microRNA dysregulation regardless of NF2 status, including upregulation of the oncogenic 14q32 miRNA cluster [ 51 ]. Some miRNAs act as tumor suppressors, such as miR-205, which inhibits proliferation, and miR-1, which promotes apoptosis [ 52 ]. Disruption of miRNA-mRNA networks enhances ErbB signaling and weakens cell-cycle control, promoting tumor progression [ 53 ]. Long non-coding RNAs also contribute, with BRCAT54 implicated in proliferation and survival [ 54 ]. ncRNAs further influence the tumor microenvironment. Tumor-secreted miR-431, found in extracellular vesicles, may act paracrinally to modulate immune and stromal cells, promoting growth and immune evasion [ 55 ]. Clinically, ncRNA profiles show biomarker potential: miR-449a/b, miR-15/16 − 1, and hypoxamiRs are associated with non-serviceable hearing, while rapid tumor growth correlates with upregulated miR-29abc, miR-19, miR-340-5p, miR-21, miR-221, and downregulated miR-744 and let-7b. These findings support ncRNA signatures as potential prognostic biomarkers and tools for patient stratification [ 56 ].",
+      "order": 18
+    },
+    {
+      "section": "Sox10 Regulation",
+      "text": "Loss of lineage regulators intersects with epigenetic mechanisms in shaping merlin-null VS identity. SOX10 , a master regulator of Schwann cell development, is reduced at both the protein and mRNA level in merlin-null schwannoma cells. This loss impairs induction of the downstream transcription factors KROX20 and OCT6 and prevents nuclear localization of NFATC4, collectively disabling the transcriptional program required for terminal Schwann cell differentiation and quiescence. SOX10 -deficient cells instead acquire increased proliferation, enhanced focal adhesions, and upregulated PDGFRβ expression, features characteristic of VS. In vitro reintroduction of SOX10 into merlin-null VS cells restores KROX20 and myelin gene induction, suppresses PDGFRβ, relocalizes NFATC4 to the nucleus, and reduces proliferation, identifying the SOX10 pathway as a central and potentially reversible mechanism underlying the merlin-null schwannoma state [ 14 ]. PDGFRβ has also been targeted preclinically with the RTK inhibitors imatinib and nilotinib, both of which inhibit VS cell proliferation in vitro, though no clinical data yet exist [ 57 , 58 ].",
+      "order": 19
+    },
+    {
+      "section": "Mechanisms Of Hearing Loss In Vs",
+      "text": "Hearing loss is a major determinant of quality of life in VS. Although initially attributed to cochlear nerve compression, evidence supports multiple mechanisms. VS causes greater hearing and vestibular dysfunction than cerebellopontine angle meningiomas of similar size and location, suggesting factors beyond compression [ 59 ]. Pathologic studies show ipsilateral hair cell loss, endolymphatic hydrops, and proteinaceous precipitates compared with the contralateral ear [ 60 ]. Perilymph analyses also identify inflammatory markers linked to worse hearing [ 61 ]. Supporting fluid dysregulation, anti-VEGF therapy can improve hearing rapidly, sometimes before tumor shrinkage [ 41 ]. Tumor-secreted and inflammatory factors also contribute: VS secretions induce TNF-α-mediated cochlear damage in vitro [ 62 ], CXCR4 expression correlates with greater hearing loss [ 63 ], and angiotensin receptor blockers may preserve hearing via anti-inflammatory effects [ 64 ].",
+      "order": 20
+    },
+    {
+      "section": "Vs Genetics And Hearing Loss",
+      "text": "Genotype-phenotype correlations may help explain variability in hearing outcomes in VS. Truncating NF2 mutations are associated with earlier age of onset of symptoms and earlier age of hearing loss, but the rate of hearing decline once it begins is not clearly different across mutation types [ 18 , 65 ]. Whole-genome expression profiling of VS tissue has identified differential expression of PEX5L , RAD54B , PSMAL , and CEA between tumors associated with good versus poor hearing [ 66 ]. At the cochlear level, NF2 -driven vascular permeability leads to intra-labyrinthine protein accumulation and cochlear aperture obstruction, changes strongly associated with hearing loss that can occur independently of tumor size [ 67 ]. These findings suggest that NF2 mutation type influences the timing of hearing loss onset but that downstream gene expression differences within VS tumors may better account for the variability in hearing outcomes among individual patients.",
+      "order": 21
+    },
+    {
+      "section": "Vs Epigenetics And Hearing Loss",
+      "text": "Epigenetic-phenotypic mechanisms also contribute to variations in hearing. TP73 methylation has been associated with hearing loss, with affected patients showing worse pure tone averages and speech discrimination [ 68 ]. The TP73 -encoded transcription factor p73 regulates neuronal apoptosis and may influence radiosensitivity [ 69 ]. However, the role of epigenetics in vestibular dysfunction remains largely unexplored.",
+      "order": 22
+    },
+    {
+      "section": "Limitations",
+      "text": "This study was conducted as a hybrid narrative and structured review rather than a fully systematic review or meta-analysis. A systematic search strategy and predefined selection framework were specifically applied to the ClinicalTrials.gov component to enable a rigorous and reproducible assessment of prospective interventional studies and facilitate comparison of therapeutic outcomes across clinical trials. In contrast, the broader literature synthesis was intentionally narrative to allow integration of heterogeneous evidence spanning preclinical, molecular, genetic, epigenetic, and translational domains that would be difficult to capture within a narrowly defined systematic framework. Nevertheless, because the narrative component was not conducted according to a preregistered protocol and did not include formal risk-of-bias assessment or quantitative meta-analysis, study selection and interpretation may be subject to bias, and some relevant studies may not have been identified or included. The proposed mechanistic framework for VS, including Hippo/YAP-TAZ, PI3K/AKT/mTOR, VEGF, MAPK, adhesion/motility pathways, and epigenetic regulation, is primarily derived from preclinical models, small surgical or molecular series, and pathway-focused studies. These may not fully reflect the diversity of sporadic, NF2 -related, and schwannomatosis-associated tumors. Translational findings may be influenced by model systems, publication bias, and limited sampling of treatment-naïve human tissue, with many lacking independent validation. Similarly, the epigenetic and ncRNA landscape is based on small, methodologically diverse cohorts, making proposed subgroups and signatures provisional. The use of NF2 -associated schwannomas as a model for sporadic VS is also a limitation, as sporadic tumors may exhibit distinct molecular and epigenetic heterogeneity that is not fully captured by NF2 -related disease models, potentially leading to overly generalized mechanistic interpretations. In addition, Phase 4 and observational studies were not systematically included in the therapeutic synthesis. As a result, real-world treatment experience, including longer-term effectiveness, safety, and durability of response with agents such as bevacizumab, may be incompletely represented, although such evidence remains important given the limited number of completed prospective VS trials. This review focused on the genetic and epigenetic landscape of VS and their implications for targeted therapies; however, the tumor immune microenvironment represents another critical and rapidly evolving area that warrants dedicated discussion, particularly given emerging interest in immunotherapeutic strategies such as CSF1R inhibition. Moreover, figures are schematic and conceptual rather than quantitative. Finally, cost, access, long-term quality-of-life outcomes, and comparisons with other skull-base tumors were not systematically assessed.",
+      "order": 23
+    },
+    {
+      "section": "Conclusion",
+      "text": "Future directions in VS research include: (1) integrating multi-omic profiling (genome, methylome, transcriptome) into routine evaluation to classify tumors by pathway dependencies and immune/angiogenic states (IES vs. IDS); (2) conducting biomarker-stratified clinical trials with standardized volumetric measures and co-primary, patient-relevant functional endpoints; and (3) validating combinatorial signaling and epigenetic therapies to identify synergistic treatment strategies. Clinically, success should be defined by durable tumor control with maximal preservation of patient-relevant outcomes such as hearing and facial nerve function. Advances in biological insight, therapeutic precision, clinical trial design, and patient-centered care are expected to shift VS management from invasive default approaches toward personalized, mechanism-based strategies that prioritize quality of life.",
+      "order": 24
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "doi": "10.3389/fonc.2021.655260",
+      "pmc_id": "PMC8079768",
+      "pmid": "33937063"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "L CM JLM"
+      ],
+      "title": "Vestibular Schwannomas",
+      "journal": "N Engl J Med",
+      "year": "2021",
+      "volume": "384",
+      "fpage": "1335",
+      "lpage": "1348",
+      "doi": "10.1056/NEJMra2020394",
+      "pmid": "33826821"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Bin-Alamer O",
+        "Osama M",
+        "Sheehan JP"
+      ],
+      "title": "The evolution of stereotactic radiosurgery for vestibular schwannomas: recent evidence and outcomes",
+      "journal": "J Neurooncol",
+      "year": "2025",
+      "volume": "176",
+      "fpage": "1",
+      "doi": "10.1007/s11060-025-05252-1",
+      "pmid": "41085808",
+      "pmc_id": "PMC12521331"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.1227/neu.0000000000003508",
+      "pmid": "40372032"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "pmid": "29517885"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "raw_citation": "Evans DG (1998) NF2-related schwannomatosis. National Library of Medicine"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Colciago A",
+        "Melfi S",
+        "Giannotti G",
+        "et al."
+      ],
+      "title": "Tumor suppressor Nf2/merlin drives Schwann cell changes following electromagnetic field exposure through Hippo-dependent mechanisms",
+      "journal": "Cell Death Discov",
+      "year": "2015",
+      "volume": "1",
+      "fpage": "15021",
+      "doi": "10.1038/cddiscovery.2015.21",
+      "pmid": "27551454",
+      "pmc_id": "PMC4979489"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Tsuchiya T",
+        "Miyawaki S",
+        "Teranishi Y",
+        "et al."
+      ],
+      "title": "Current molecular understanding of central nervous system schwannomas",
+      "journal": "Acta Neuropathol Commun",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "24",
+      "doi": "10.1186/s40478-025-01937-w",
+      "pmid": "39910685",
+      "pmc_id": "PMC11796276"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "doi": "10.3390/cancers13236032",
+      "pmc_id": "PMC8657309",
+      "pmid": "34885143"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "raw_citation": "Mubbashir MS, De Jesus O (2023) Vestibular schwannoma. National Library of Medicine"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Torres-Martín M",
+        "Lassaletta L",
+        "de Campos JM",
+        "et al."
+      ],
+      "title": "Genome-wide methylation analysis in vestibular schwannomas shows putative mechanisms of gene expression modulation and global hypomethylation at the HOX gene cluster",
+      "journal": "Genes Chromosomes Cancer",
+      "year": "2015",
+      "volume": "54",
+      "fpage": "197",
+      "lpage": "209",
+      "doi": "10.1002/gcc.22232",
+      "pmid": "25533176"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Zhao F",
+        "Teng X-F",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "Multiplatform molecular analyses reveal two molecular subgroups of NF2-related schwannomatosis vestibular schwannomas with distinct tumour microenvironment and therapeutic vulnerabilities",
+      "journal": "Acta Neuropathol",
+      "year": "2025",
+      "volume": "149",
+      "fpage": "47",
+      "doi": "10.1007/s00401-025-02883-6",
+      "pmid": "40343504"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Bush ML",
+        "Oblinger J",
+        "Brendel V",
+        "et al."
+      ],
+      "title": "AR42, a novel histone deacetylase inhibitor, as a potential therapy for vestibular schwannomas and meningiomas",
+      "journal": "Neuro Oncol",
+      "year": "2011",
+      "volume": "13",
+      "fpage": "983",
+      "lpage": "999",
+      "doi": "10.1093/neuonc/nor072",
+      "pmid": "21778190",
+      "pmc_id": "PMC3158011"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Doddrell RDS",
+        "Dun X-P",
+        "Shivane A",
+        "et al."
+      ],
+      "title": "Loss of SOX10 function contributes to the phenotype of human Merlin-null schwannoma cells",
+      "journal": "Brain",
+      "year": "2013",
+      "volume": "136",
+      "fpage": "549",
+      "lpage": "563",
+      "doi": "10.1093/brain/aws353",
+      "pmid": "23413263",
+      "pmc_id": "PMC3572932"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Lee JD",
+        "Kwon TJ",
+        "Kim U-K",
+        "Lee W-S"
+      ],
+      "title": "Genetic and Epigenetic Alterations of the NF2 Gene in Sporadic Vestibular Schwannomas",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e30418",
+      "doi": "10.1371/journal.pone.0030418",
+      "pmid": "22295085",
+      "pmc_id": "PMC3266248"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "doi": "10.1093/noajnl/vdad099",
+      "pmc_id": "PMC10496940",
+      "pmid": "37706198"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "doi": "10.1016/bs.acr.2025.09.002",
+      "pmid": "41198343"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Evans DG",
+        "Trueman L",
+        "Wallace A",
+        "et al."
+      ],
+      "title": "Genotype/phenotype correlations in type 2 neurofibromatosis (NF2): evidence for more severe disease associated with truncating mutations",
+      "journal": "J Med Genet",
+      "year": "1998",
+      "volume": "35",
+      "fpage": "450",
+      "doi": "10.1136/jmg.35.6.450",
+      "pmid": "9643284",
+      "pmc_id": "PMC1051337"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Plotkin SR",
+        "Duda DG",
+        "Muzikansky A",
+        "et al."
+      ],
+      "title": "Multicenter, Prospective, Phase II and Biomarker Study of High-Dose Bevacizumab as Induction Therapy in Patients With Neurofibromatosis Type 2 and Progressive Vestibular Schwannoma",
+      "journal": "J Clin Oncol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "3446",
+      "lpage": "3454",
+      "doi": "10.1200/JCO.19.01367",
+      "pmid": "31626572",
+      "pmc_id": "PMC7098833"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Goutagny S",
+        "Raymond E",
+        "Esposito-Farese M",
+        "et al."
+      ],
+      "title": "Phase II study of mTORC1 inhibition by everolimus in neurofibromatosis type 2 patients with growing vestibular schwannomas",
+      "journal": "J Neurooncol",
+      "year": "2015",
+      "volume": "122",
+      "fpage": "313",
+      "lpage": "320",
+      "doi": "10.1007/s11060-014-1710-0",
+      "pmid": "25567352"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Zhao F",
+        "Li S",
+        "Zhang S",
+        "et al."
+      ],
+      "title": "Phase II trial of icotinib in adult patients with neurofibromatosis type 2 and progressive vestibular schwannoma",
+      "journal": "J Neurosurg",
+      "year": "2023",
+      "volume": "138",
+      "fpage": "1680",
+      "lpage": "1687",
+      "doi": "10.3171/2022.9.JNS22699",
+      "pmid": "36272122"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Karajannis MA",
+        "Legault G",
+        "Hagiwara M",
+        "et al."
+      ],
+      "title": "Phase II trial of lapatinib in adult and pediatric patients with neurofibromatosis type 2 and progressive vestibular schwannomas",
+      "journal": "Neuro Oncol",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "1163",
+      "lpage": "1170",
+      "doi": "10.1093/neuonc/nos146",
+      "pmid": "22844108",
+      "pmc_id": "PMC3424212"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Plotkin SR",
+        "Yohay K",
+        "Nghiemphu P",
+        "et al."
+      ],
+      "title": "Brigatinib in NF2-Related Schwannomatosis with Progressive Tumors",
+      "journal": "N Engl J Med",
+      "year": "2024",
+      "volume": "390",
+      "fpage": "2284",
+      "lpage": "2294",
+      "doi": "10.1056/NEJMoa2400985",
+      "pmid": "38904277"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Gregory GE",
+        "Jones AP",
+        "Haley MJ",
+        "et al."
+      ],
+      "title": "The comparable tumour microenvironment in sporadic and NF2-related schwannomatosis vestibular schwannoma",
+      "journal": "Brain Commun",
+      "year": "2023",
+      "volume": "5",
+      "fpage": "fcad197",
+      "doi": "10.1093/braincomms/fcad197",
+      "pmid": "37680691",
+      "pmc_id": "PMC10481781"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Håvik AL",
+        "Bruland O",
+        "Myrseth E",
+        "et al."
+      ],
+      "title": "Genetic landscape of sporadic vestibular schwannoma",
+      "journal": "J Neurosurg JNS",
+      "year": "2018",
+      "volume": "128",
+      "fpage": "911",
+      "lpage": "922",
+      "doi": "10.3171/2016.10.JNS161384",
+      "pmid": "28409725"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Agnihotri S",
+        "Jalali S",
+        "Wilson MR",
+        "et al."
+      ],
+      "title": "The genomic landscape of schwannoma",
+      "journal": "Nat Genet",
+      "year": "2016",
+      "volume": "48",
+      "fpage": "1339",
+      "lpage": "1348",
+      "doi": "10.1038/ng.3688",
+      "pmid": "27723760"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Wakabayashi T",
+        "Wasano K",
+        "Nakamura K",
+        "et al."
+      ],
+      "title": "Comprehensive Genetic Analysis of NF2 in Sporadic Vestibular Schwannoma",
+      "journal": "Laryngoscope Investig Otolaryngol",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "e70265",
+      "doi": "10.1002/lio2.70265",
+      "pmid": "41019916",
+      "pmc_id": "PMC12475970"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Evans DGR",
+        "Ramsden RT",
+        "Shenton A",
+        "et al."
+      ],
+      "title": "Mosaicism in neurofibromatosis type 2: an update of risk based on uni/bilaterality of vestibular schwannoma at presentation and sensitive mutation analysis including multiple ligation-dependent probe amplification",
+      "journal": "J Med Genet",
+      "year": "2007",
+      "volume": "44",
+      "fpage": "424",
+      "doi": "10.1136/jmg.2006.047753",
+      "pmid": "17307835",
+      "pmc_id": "PMC2598002"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Breun M",
+        "Schulz T",
+        "Monoranu CM",
+        "et al."
+      ],
+      "title": "Pathogenic Variants and Allele Loss of the NF2 and LZTR1 Gene in Sporadic Vestibular Schwannoma",
+      "journal": "Vivo (Brooklyn)",
+      "year": "2025",
+      "volume": "39",
+      "fpage": "1251",
+      "doi": "10.21873/invivo.13929",
+      "pmc_id": "PMC12042009",
+      "pmid": "40295009"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "doi": "10.3892/ol.2021.12825",
+      "pmc_id": "PMC8185703",
+      "pmid": "34113392"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Smith MJ",
+        "Bowers NL",
+        "Bulman M",
+        "et al."
+      ],
+      "title": "Revisiting neurofibromatosis type 2 diagnostic criteria to exclude LZTR1-related schwannomatosis",
+      "journal": "Neurology",
+      "year": "2017",
+      "volume": "88",
+      "fpage": "87",
+      "lpage": "92",
+      "doi": "10.1212/WNL.0000000000003418",
+      "pmid": "27856782",
+      "pmc_id": "PMC5200853"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Petrilli AM",
+        "Fernández-Valle C"
+      ],
+      "title": "Role of Merlin/NF2 inactivation in tumor biology",
+      "journal": "Oncogene",
+      "year": "2016",
+      "volume": "35",
+      "fpage": "537",
+      "lpage": "548",
+      "doi": "10.1038/onc.2015.125",
+      "pmid": "25893302",
+      "pmc_id": "PMC4615258"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Chiasson-MacKenzie C",
+        "Vitte J",
+        "Liu C-H",
+        "et al."
+      ],
+      "title": "Cellular mechanisms of heterogeneity in NF2-mutant schwannoma",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1559",
+      "doi": "10.1038/s41467-023-37226-0",
+      "pmid": "36944680",
+      "pmc_id": "PMC10030849"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Oh J-E",
+        "Ohta T",
+        "Satomi K",
+        "et al."
+      ],
+      "title": "Alterations in the NF2/LATS1/LATS2/YAP Pathway in Schwannomas",
+      "journal": "J Neuropathol Exp Neurol",
+      "year": "2015",
+      "volume": "74",
+      "fpage": "952",
+      "lpage": "959",
+      "doi": "10.1097/NEN.0000000000000238",
+      "pmid": "26360373"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Laraba L",
+        "Hillson L",
+        "de Guibert JG",
+        "et al."
+      ],
+      "title": "Inhibition of YAP/TAZ-driven TEAD activity prevents growth of NF2-null schwannoma and meningioma",
+      "journal": "Brain",
+      "year": "2023",
+      "volume": "146",
+      "fpage": "1697",
+      "lpage": "1713",
+      "doi": "10.1093/brain/awac342",
+      "pmid": "36148553",
+      "pmc_id": "PMC10115179"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Agnihotri S",
+        "Gugel I",
+        "Remke M",
+        "et al."
+      ],
+      "title": "Gene-expression profiling elucidates molecular signaling networks that can be therapeutically targeted in vestibular schwannoma: Laboratory investigation",
+      "journal": "J Neurosurg JNS",
+      "year": "2014",
+      "volume": "121",
+      "fpage": "1434",
+      "lpage": "1445",
+      "doi": "10.3171/2014.6.JNS131433",
+      "pmid": "25245477"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "James MF",
+        "Stivison E",
+        "Beauchamp R",
+        "et al."
+      ],
+      "title": "Regulation of mTOR Complex 2 Signaling in Neurofibromatosis 2–Deficient Target Cell Types",
+      "journal": "Mol Cancer Res",
+      "year": "2012",
+      "volume": "10",
+      "fpage": "649",
+      "lpage": "659",
+      "doi": "10.1158/1541-7786.MCR-11-0425-T",
+      "pmid": "22426462"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Wong HK",
+        "Shimizu A",
+        "Kirkpatrick ND",
+        "et al."
+      ],
+      "title": "Merlin/NF2 regulates angiogenesis in schwannomas through a Rac1/semaphorin 3F-dependent mechanism",
+      "journal": "Neoplasia",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "84",
+      "lpage": "94",
+      "doi": "10.1593/neo.111600",
+      "pmid": "22431917",
+      "pmc_id": "PMC3306254"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "doi": "10.1073/pnas.1512570112",
+      "pmc_id": "PMC4664377",
+      "pmid": "26554010"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Chiranth S",
+        "Langer SW",
+        "Poulsen HS",
+        "Urup T"
+      ],
+      "title": "A systematic review of targeted therapy for vestibular schwannoma in patients with NF2-related schwannomatosis",
+      "journal": "Neurooncol Adv",
+      "year": "2023",
+      "volume": "5",
+      "fpage": "vdad099",
+      "doi": "10.1093/noajnl/vdad099",
+      "pmid": "37706198",
+      "pmc_id": "PMC10496940"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Plotkin SR",
+        "Stemmer-Rachamimov AO",
+        "Barker IIFG",
+        "et al."
+      ],
+      "title": "Hearing Improvement after Bevacizumab in Patients with Neurofibromatosis Type 2",
+      "journal": "N Engl J Med",
+      "year": "2025",
+      "volume": "361",
+      "fpage": "358",
+      "lpage": "367",
+      "doi": "10.1056/NEJMoa0902579",
+      "pmc_id": "PMC4816642",
+      "pmid": "19587327"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Blakeley JO",
+        "Ye X",
+        "Duda DG",
+        "et al."
+      ],
+      "title": "Efficacy and Biomarker Study of Bevacizumab for Hearing Loss Resulting From Neurofibromatosis Type 2–Associated Vestibular Schwannomas",
+      "journal": "J Clin Oncol",
+      "year": "2016",
+      "volume": "34",
+      "fpage": "1669",
+      "lpage": "1675",
+      "doi": "10.1200/JCO.2015.64.3817",
+      "pmid": "26976425",
+      "pmc_id": "PMC4872317"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "doi": "10.1097/MAO.0000000000004759",
+      "pmid": "41250253"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Morris KA",
+        "Golding JF",
+        "Blesing C",
+        "et al."
+      ],
+      "title": "Toxicity profile of bevacizumab in the UK Neurofibromatosis type 2 cohort",
+      "journal": "J Neurooncol",
+      "year": "2017",
+      "volume": "131",
+      "fpage": "117",
+      "lpage": "124",
+      "doi": "10.1007/s11060-016-2276-9",
+      "pmid": "27796735"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Fuse MA",
+        "Dinh CT",
+        "Vitte J",
+        "et al."
+      ],
+      "title": "Preclinical assessment of MEK1/2 inhibitors for neurofibromatosis type 2–associated schwannomas reveals differences in efficacy and drug resistance development",
+      "journal": "Neuro Oncol",
+      "year": "2019",
+      "volume": "21",
+      "fpage": "486",
+      "lpage": "497",
+      "doi": "10.1093/neuonc/noz002",
+      "pmid": "30615146",
+      "pmc_id": "PMC6422635"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Halliday D",
+        "Emmanouil B",
+        "Pretorius P",
+        "et al."
+      ],
+      "title": "Genetic Severity Score predicts clinical phenotype in NF2",
+      "journal": "J Med Genet",
+      "year": "2017",
+      "volume": "54",
+      "fpage": "657",
+      "doi": "10.1136/jmedgenet-2017-104519",
+      "pmid": "28848060",
+      "pmc_id": "PMC5740551"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Röhrich M",
+        "Koelsche C",
+        "Schrimpf D",
+        "et al."
+      ],
+      "title": "Methylation-based classification of benign and malignant peripheral nerve sheath tumors",
+      "journal": "Acta Neuropathol",
+      "year": "2016",
+      "volume": "131",
+      "fpage": "877",
+      "lpage": "887",
+      "doi": "10.1007/s00401-016-1540-6",
+      "pmid": "26857854"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "doi": "10.18632/oncotarget.28254",
+      "pmc_id": "PMC9295707",
+      "pmid": "35875610"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "González-Rodriguez MA",
+        "Troutman S",
+        "Bayle S",
+        "et al."
+      ],
+      "title": "Synergistic effects of combined BET and FAK inhibition against Vestibular Schwannomas in NF2-related Schwannomatosis",
+      "journal": "Oncogene",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "2995",
+      "lpage": "3002",
+      "doi": "10.1038/s41388-024-03144-8",
+      "pmid": "39209965"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "doi": "10.18632/oncotarget.1422",
+      "pmc_id": "PMC3926832",
+      "pmid": "24259290"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Torres-Martin M",
+        "Lassaletta L",
+        "de Campos JM",
+        "et al."
+      ],
+      "title": "Global Profiling in Vestibular Schwannomas Shows Critical Deregulation of MicroRNAs and Upregulation in Those Included in Chromosomal Region 14q32",
+      "journal": "PLoS ONE",
+      "year": "2013",
+      "doi": "10.1371/journal.pone.0065868",
+      "pmid": "23776562",
+      "pmc_id": "PMC3679163"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Yin X",
+        "Huo Z",
+        "Yan S",
+        "et al."
+      ],
+      "title": "MiR-205 Inhibits Sporadic Vestibular Schwannoma Cell Proliferation by Targeting Cyclin-Dependent Kinase 14",
+      "journal": "World Neurosurg",
+      "year": "2021",
+      "volume": "147",
+      "fpage": "e25",
+      "lpage": "e31",
+      "doi": "10.1016/j.wneu.2020.11.043",
+      "pmid": "33217595"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Shi J",
+        "Lu D",
+        "Gu R",
+        "et al."
+      ],
+      "title": "Integrated Analysis of Transcriptome and Differential Methylation of Neurofibromatosis Type 2 Vestibular Schwannomas",
+      "journal": "World Neurosurg",
+      "year": "2022",
+      "volume": "157",
+      "fpage": "e66",
+      "lpage": "e76",
+      "doi": "10.1016/j.wneu.2021.09.094",
+      "pmid": "34587518"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Xiao G",
+        "Huang B",
+        "Guo M",
+        "et al."
+      ],
+      "title": "Long non-coding RNA BRCAT54 sponges microRNA-21 in vestibular schwannoma to suppress cell proliferation",
+      "journal": "Bioengineered",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "4301",
+      "lpage": "4308",
+      "doi": "10.1080/21655979.2022.2031410",
+      "pmid": "35137654",
+      "pmc_id": "PMC8973964"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "doi": "10.3389/fneur.2023.1268359",
+      "pmc_id": "PMC10598552",
+      "pmid": "37885485"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Sass HCR",
+        "Hansen M",
+        "Borup R",
+        "et al."
+      ],
+      "title": "Tumor miRNA expression profile is related to vestibular schwannoma growth rate",
+      "journal": "Acta Neurochir (Wien)",
+      "year": "2020",
+      "volume": "162",
+      "fpage": "1187",
+      "lpage": "1195",
+      "doi": "10.1007/s00701-020-04238-4",
+      "pmid": "32016588"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "doi": "10.1097/MAO.0b013e3182009665",
+      "pmid": "21157293"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Sabha N",
+        "Au K",
+        "Agnihotri S",
+        "et al."
+      ],
+      "title": "Investigation of the In Vitro Therapeutic Efficacy of Nilotinib in Immortalized Human NF2-Null Vestibular Schwannoma Cells",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e39412",
+      "doi": "10.1371/journal.pone.0039412",
+      "pmid": "22745749",
+      "pmc_id": "PMC3379978"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Landegger LD",
+        "Pan B",
+        "Askew C",
+        "et al."
+      ],
+      "title": "A synthetic AAV vector enables safe and efficient gene transfer to the mammalian inner ear",
+      "journal": "Nat Biotechnol",
+      "year": "2017",
+      "volume": "35",
+      "fpage": "280",
+      "lpage": "284",
+      "doi": "10.1038/nbt.3781",
+      "pmid": "28165475",
+      "pmc_id": "PMC5340646"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Hızlı Ömer C",
+        "Sebahattin K",
+        "Serdar",
+        "et al."
+      ],
+      "title": "Quantitative Vestibular Labyrinthine Otopathology in Temporal Bones with Vestibular Schwannoma",
+      "journal": "Otolaryngology–Head Neck Surg",
+      "year": "2016",
+      "volume": "154",
+      "fpage": "150",
+      "lpage": "156",
+      "doi": "10.1177/0194599815601070",
+      "pmc_id": "PMC12167653",
+      "pmid": "26307578"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Edvardsson Rasmussen J",
+        "Li P",
+        "Laurell G",
+        "et al."
+      ],
+      "title": "Hearing loss and its association with the proteome of perilymph, cerebrospinal fluid, and tumor tissue in patients with vestibular schwannoma",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "14118",
+      "doi": "10.1038/s41598-024-64352-6",
+      "pmid": "38898156",
+      "pmc_id": "PMC11187212"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Dilwali S",
+        "Landegger LD",
+        "Soares VYR",
+        "et al."
+      ],
+      "title": "Secreted Factors from Human Vestibular Schwannomas Can Cause Cochlear Damage",
+      "journal": "Sci Rep",
+      "year": "2015",
+      "volume": "5",
+      "fpage": "18599",
+      "doi": "10.1038/srep18599",
+      "pmid": "26690506",
+      "pmc_id": "PMC4686978"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "doi": "10.3389/fonc.2019.00503",
+      "pmc_id": "PMC6581743",
+      "pmid": "31245296"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "doi": "10.1097/MAO.0000000000004376",
+      "pmc_id": "PMC11913242",
+      "pmid": "39792982"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Oishi N",
+        "Noguchi M",
+        "Fujioka M",
+        "et al."
+      ],
+      "title": "Correlation between genotype and phenotype with special attention to hearing in 14 Japanese cases of NF2-related schwannomatosis",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "6595",
+      "doi": "10.1038/s41598-023-33812-w",
+      "pmid": "37087513",
+      "pmc_id": "PMC10122645"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "doi": "10.3389/fneur.2019.00978",
+      "pmc_id": "PMC6759574",
+      "pmid": "31620068"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Asthagiri AR",
+        "Vasquez RA",
+        "Butman JA",
+        "et al."
+      ],
+      "title": "Mechanisms of Hearing Loss in Neurofibromatosis Type 2",
+      "journal": "PLoS ONE",
+      "year": "2012",
+      "volume": "7",
+      "fpage": "e46132",
+      "doi": "10.1371/journal.pone.0046132",
+      "pmid": "23049959",
+      "pmc_id": "PMC3458837"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "doi": "10.1097/01.mao.0000226291.42165.22",
+      "pmid": "16983315"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "doi": "10.1126/science.289.5477.304",
+      "pmid": "10894779"
+    }
+  ]
+}

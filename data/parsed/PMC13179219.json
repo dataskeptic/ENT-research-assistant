@@ -1,0 +1,1017 @@
+{
+  "metadata": {
+    "title": "Prognostic Impact of Cachexia Index in Patients Undergoing Surgery for Esophageal Cancer",
+    "authors": [
+      "Tomoki Kaname",
+      "Kotaro Sugawara",
+      "Koichi Yagi",
+      "Shoh Yajima",
+      "Yoshiyuki Miwa",
+      "Shuichiro Oya",
+      "Asami Okamoto",
+      "Raito Asaoka",
+      "Haruki Kojima",
+      "Yoshifumi Baba"
+    ],
+    "journal": "Annals of Surgical Oncology",
+    "year": "2026",
+    "doi": "10.1245/s10434-026-19219-7",
+    "pmc_id": "PMC13179219",
+    "pmid": "41661478",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 51
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Cachexia index (CXI) is a recently proposed biomarker reflecting the cachectic condition, including inflammation, sarcopenia and nutritional status, of patients with various malignancies. We evaluated its prognostic impact in patients undergoing esophagectomy for esophageal cancer (EC). Methods A total of 378 patients were retrospectively reviewed. CXI was calculated as skeletal muscle index × serum albumin level/neutrophil-to-lymphocyte ratio. The sex-specific lowest quartile defined the Low-CXI group. Univariate and multivariate Cox proportional hazards models were applied to identify independent prognostic factors for overall survival (OS) and disease-free survival (DFS). Results The low-CXI group was significantly associated with older age ( P < 0.001), more severe comorbidity ( P = 0.001), and more advanced pathological stage ( P = 0.032). Patients in the low-CXI group had poorer OS and DFS than those in the high-CXI group (both P < 0.001). Multivariate analysis revealed that low-CXI was independently associated with poor OS ( P = 0.002) and DFS ( P = 0.002). In the cause-specific survival analyses, low-CXI was a predictor of deaths from non-EC-related causes. Subdivision into pathological stage (pStage) 0–I and II/III revealed that significant survival differences according to CXI were observed in both pStage 0–I ( P = 0.045 for OS, and 0.029 for DFS) and pStage II/III ( P < 0.001 for OS, and 0.002 for DFS) patients. Conclusions Low-CXI was independently associated with poor OS and DFS in patients undergoing surgery for EC, in both early- and advanced-stage patients. Furthermore, CXI may also be useful for predicting non-EC-related mortality. Supplementary Information The online version contains supplementary material available at 10.1245/s10434-026-19219-7.",
+      "order": 0
+    },
+    {
+      "section": "Patients",
+      "text": "A total of 480 patients with esophageal cancer underwent esophagectomy at the University of Tokyo Hospital between 2006 and 2016. After excluding 44 patients who underwent salvage esophagectomy, 6 who underwent pharyngolaryngeal esophagectomy, 6 with melanoma or neuroendocrine carcinoma, 6 who died within 90 days after surgery, 40 lacking appropriate clinical data, 378 patients were included. Tumor stage was determined according to the UICC 7 th edition. Patients with pathological stage IV cancer, defined by the presence of distant metastasis, were excluded from the analysis because their treatment strategies were substantially different from those for patients with stage III or lower disease and the number of such patients was small during the study period. 21 The final follow-up was conducted in June 2025 and the median follow-up duration was 109.5 months among survivors. This retrospective study was approved by the Ethics Committee of the Faculty of Medicine, the University of Tokyo (Approval ID: 3962).",
+      "order": 1
+    },
+    {
+      "section": "Surgical Treatments",
+      "text": "All patients underwent subtotal esophagectomy by either the Ivor Lewis or McKeown procedure, as previously reported. 10 , 22 The surgical approaches included open right thoracotomy, video-assisted thoracoscopic surgery (VATS), and robot-assisted transmediastinal esophagectomy (TME). 23 Three-field lymphadenectomy was generally applied for upper and middle thoracic esophageal cancer, whereas two-field lymphadenectomy was applied for lower thoracic and abdominal esophageal cancer. 24",
+      "order": 2
+    },
+    {
+      "section": "Measurement Of Cxi",
+      "text": "The skeletal muscle index (SMI) was calculated from preoperative computed tomography (CT) images. The total cross-sectional area of skeletal muscle (cm 2 ) was measured at the level of the third lumbar vertebra using OsiriX version 9.5 (Newton Graphics, Inc., Sapporo, Japan), an open-source software for medical image analysis. 25 Skeletal muscle was identified and quantified on the basis of Hounsfield unit thresholds (−29 to +150). SMI (cm 2 / m 2 ) was calculated by dividing the total skeletal muscle at the third lumbar vertebra (cm 2 ) by the square of the patient’s height (m 2 ). The neutrophil-to-lymphocyte ratio (NLR) was obtained by dividing the absolute neutrophil count by the absolute lymphocyte count. The cachexia index (CXI) was then calculated using the following formula: CXI = (SMI × serum albumin level [g/dL]) / NLR. 13 Patients were dichotomized into the low- and high-CXI groups according to the lowest sex-specific quartile of CXI in our cohort. The discriminatory ability of CXI and its components, including SMI, NLR, and serum albumin level (ALB), was evaluated using the concordance index (C-index). 10 , 26",
+      "order": 3
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Continuous variables were analyzed using the Wilcoxon rank-sum test, and categorical variables were analyzed using the χ 2 test. Overall survival (OS), disease-free survival (DFS), and recurrence-free survival (RFS) were calculated from the date of surgery. In this study, DFS is defined with both death and recurrence as events, whereas RFS was defined with recurrence alone as the event. Survival curves were estimated using the Kaplan–Meier method, and statistical differences were assessed with the log-rank test. Univariate and multivariate analyses were conducted using Cox proportional hazards models to identify independent prognostic factors. Two-sided P -values < 0.05 were considered statistically significant. The C-index was calculated using R (version 4.5.1, The R Foundation for Statistical Computing) and all other statistical analyses were performed using JMP software (version 18.1.1, SAS Institute, Cary, NC).",
+      "order": 4
+    },
+    {
+      "section": "Patient Characteristics According To Cxi",
+      "text": "The median age of the patients was 66 years (interquartile range: 60–72). The high-CXI group included 284 patients, and the low-CXI group included 94 patients. Table 1 summarizes the patient background according to CXI. Age was significantly higher in patients in the low-CXI group than those in the high-CXI group (median 69 versus 65 years, P < 0.001). The proportion of patients with a Charlson Comorbidity Index (CCI) ≥ 2 was significantly higher in the low-CXI group than in the high-CXI group (38.3% versus 20.4%, P = 0.001). The low-CXI group had a significantly higher proportion of patients with pathological stage ≥ II (72.3% versus 60.2%, P = 0.032) and of those who received neoadjuvant chemotherapy (17.0% versus 5.3%, P < 0.001). There were no significant differences in histological type, tumor location, or surgical procedure between the two groups.",
+      "order": 5
+    },
+    {
+      "section": "Survival Outcomes According To Cxi",
+      "text": "Patients in the low-CXI group had significantly worse OS (5-year OS: 44.2% versus 65.0%; P < 0.001), DFS (5-year DFS: 33.0% versus 56.5%; P < 0.001), and RFS (5-year RFS: 51.4% versus 68.0%; P = 0.002) than those in the high-CXI group (Fig. 1 , Supplementary Fig. 1 ). Figure 2 shows that deaths due to non-EC-related diseases were more prevalent in low-CXI patients than in high-CXI patients ( P < 0.001), and this association remained unchanged after inclusion of the six patients who died within 90 days after surgery ( P < 0.001). Together, low-CXI was significantly associated with both oncological and nononcological outcomes in our cohort.",
+      "order": 6
+    },
+    {
+      "section": "Low-Cxi Was Independently Associated With Poor Os And Dfs",
+      "text": "In the univariate analysis, low-CXI (HR 2.01, 95% CI: 1.46–2.77, P < 0.001), older age ( P = 0.006), CCI ≥ 2 ( P < 0.001), and pathological stage III (compared with stage 0 or I, P < 0.001) were significantly associated with OS (Table 2 ). In the subsequent multivariate analysis, low-CXI (HR 1.56, 95% CI: 1.12–2.18, P = 0.009), CCI ≥ 2 ( P = 0.004), and pathological stage ≥ III (versus pStage 0–I, P < 0.001) were identified as independent factors for predicting poor OS. Regarding DFS, low-CXI, older age, CCI ≥ 2, and pathological stage III also demonstrated significant associations (Table 3 ). Multivariate analysis revealed that low-CXI (HR 1.55, 95% CI: 1.14–2.12, P = 0.006), CCI ≥ 2 ( P = 0.043), and pathological stage ≥ III (versus pStage 0-I, P < 0.001) were independent factors for predicting poor DFS. The C-index of CXI was 0.591, which was higher than those of its components: 0.583 for ALB, 0.563 for NLR, 0.567 for SMI.",
+      "order": 7
+    },
+    {
+      "section": "Stage-Based Subgroup Analysis",
+      "text": "Lastly, we conducted a subgroup analysis, subdividing our cohort into patients with early-stage cancer (pathological stage 0–I) and those with advanced-stage cancer (pathological stage II or higher). This subgroup analysis revealed that patients in the low-CXI group had poorer OS than those in the high-CXI group in both early- and advanced-stage subgroups, with 5-year survival rates of 52.5% versus 72.8% ( P = 0.045) and 40.8% versus 59.9% ( P < 0.001), respectively (Fig. 3 ). Similarly, DFS was significantly worse in the low-CXI group than in the high-CXI group in both stage categories: 57.7% versus 73.6% for early-stage subgroup ( P = 0.029) and 28.4% versus 48.6% for advanced-stage subgroup ( P = 0.002).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "Our study demonstrated that patients with esophageal cancer (EC) with low CXI had significantly poorer survival outcomes than those with high CXI, including OS, DFS, and RFS. Further, low CXI was associated with high incidence of deaths due to non-EC-related diseases. In the subgroup analysis, low CXI showed significant impacts on survival in both early- and advanced-stage patients with EC. The C-index of CXI was higher than that of each individual component. These findings suggest the robust survival impact of CXI in patients undergoing surgery for EC. Patient characteristics significantly differed between the two groups. Of note, low CXI was associated with older age, the presence of severe comorbidities, and advanced tumor stage. CXI is calculated on the basis of SMI, NLR, and serum albumin levels, all of which have been reported to be associated with indicators of frailty, such as age and CCI. 27 – 30 As for disease stage, the association between low CXI and advanced stage has been reported in various malignancies, 16 , 17 , 28 , 29 which is in line with our findings. Overall, CXI reflects both physiological and oncological backgrounds of patients with EC. Although recent studies have revealed low CXI to be associated with poor OS in various malignancies including gastroesophageal cancers, 14 – 17 , 20 the impact of CXI on DFS of patients with esophageal cancer remains to be clarified. In the present study, low CXI was independently associated not only with poor OS but also with poor DFS. Recent studies have demonstrated similar oncological impacts of CXI status in gastrointestinal cancers. 28 , 31 , 32 Taken together, these findings suggest that CXI might have the potential to reflect the biological aggressiveness of cancers, including both shortened survival and increased recurrence risk, which cannot be fully assessed by cancer stage alone. Furthermore, our cohort included a large number of patients with esophageal squamous cell carcinoma (ESCC), nearly 90%, although a recent study showed the significance of CXI in a cohort mainly composed of patients with adenocarcinoma. 20 Body composition greatly differs between patients with ESCC and those with esophageal adenocarcinoma. 33 Overall, our study is the first to demonstrate the survival and oncological impacts of low-CXI in patients with ESCC. It is noteworthy that significant differences in OS and DFS according to the CXI status were found both in the early- and advanced-stage groups. Previous studies have suggested the survival impacts of each host-related nutritional and physiological status alone to be diminished in advanced-stage cancer patients. 34 – 37 In contrast, the combination of multiple factors—particularly nutritional and inflammatory factors—has demonstrated prognostic significance across all cancer stages in gastrointestinal malignancies. 38 – 41 These results highlight the utility of composite markers that integrate multiple nutritional, inflammatory, and physiological factors, such as CXI. The higher C-index of CXI compared with those of its individual components supports this concept and suggests its utility. Not only ESCC-related deaths, but also mortality from non-ESCC-related diseases was higher in low-CXI patients than in high-CXI patients. This finding is reasonable given that CXI reflects nutritional, inflammatory, and sarcopenic status, which reportedly affects overall health status and general mortality. 42 , 43 CXI may be useful for identifying frail patients with ESCC, which might explain the significant prognostic influence of CXI in patients with early-stage ESCC. Overall, our results suggest that CXI, a newly-proposed biomarker, is useful for predicting long-term survival and oncological outcomes of patients with ESCC irrespective of cancer stage. Of note, low CXI was independently associated with poor OS and poor DFS even after adjusting for other possible predictors such as advanced age and comorbidity. CXI can be easily calculated from CT and blood test examinations, which are routinely performed before surgery in clinical practice. The present study suggests that CXI, a novel composite marker, may have stronger discriminatory ability for prognosis than its individual components, such as SMI. On the other hand, the calculation of CXI is relatively complex, and it cannot be regarded as a simple biomarker compared with its components. Therefore, the clinical utility of CXI should be carefully evaluated from multiple perspectives in future studies. Treatment strategies for patients with sarcopenia and inflammation remain to be established. Early identification of myopenia and myosteatosis employing CT scans and systemic inflammatory response biomarkers may allow early therapeutic intervention. Prior investigations suggested that multimodal therapy combining nutritional support, physical exercise, and pharmacological interventions moderates the host systemic inflammatory response and prevents cancer patients from developing refractory cachexia. 44 – 46 Our observations suggested that CXI may be useful for optimizing perioperative management. Our study has several limitations. First, our cohort included both patients who received neoadjuvant chemotherapy (NAC) and those who underwent upfront surgery. NAC reportedly changes the nutritional, inflammatory, and sarcopenic status of patients. 47 – 49 Second, the optimal threshold for CXI remains to be determined. In this study, we set the cut-off value as the sex-specific lowest quartile to focus particularly on patients with low CXI. However, previous studies have employed various methods, such as receiver operating characteristic curve analysis, median values, or specific cut-off points. 13 – 17 , 20 , 29 , 50 , 51 Although this flexibility may reflect the prognostic utility of CXI, a standardized threshold is needed for clinical use. Third, patients with esophageal squamous cell carcinoma are known to have a higher prevalence of underweight status compared with those with esophageal adenocarcinoma, which is common in Western countries. 33 This difference may influence the applicability of our findings to Western populations. Finally, this was a retrospective study conducted at a single institution. To validate our findings, further large-scale multicenter studies are warranted.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin.",
+      "year": "2024",
+      "volume": "74",
+      "fpage": "229",
+      "lpage": "263",
+      "pmid": "38572751",
+      "doi": "10.3322/caac.21834"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Paireder M",
+        "Asari R",
+        "Kristo I",
+        "et al."
+      ],
+      "title": "Impact of sarcopenia on outcome in patients with esophageal resection following neoadjuvant chemotherapy for esophageal cancer",
+      "journal": "Eur J Surg Oncol.",
+      "year": "2017",
+      "volume": "43",
+      "fpage": "478",
+      "lpage": "484",
+      "doi": "10.1016/j.ejso.2016.11.015",
+      "pmid": "28024944"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Ida S",
+        "Watanabe M",
+        "Yoshida N",
+        "et al."
+      ],
+      "title": "Sarcopenia is a predictor of postoperative respiratory complications in patients with esophageal cancer",
+      "journal": "Ann Surg Oncol.",
+      "year": "2015",
+      "volume": "22",
+      "fpage": "4432",
+      "lpage": "4437",
+      "doi": "10.1245/s10434-015-4559-3",
+      "pmid": "25862583"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Argilés JM",
+        "Busquets S",
+        "Stemmler B",
+        "López-Soriano FJ"
+      ],
+      "title": "Cancer cachexia: understanding the molecular basis",
+      "journal": "Nat Rev Cancer.",
+      "year": "2014",
+      "volume": "14",
+      "fpage": "754",
+      "lpage": "762",
+      "doi": "10.1038/nrc3829",
+      "pmid": "25291291"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Mariean CR",
+        "Tiucă OM",
+        "Mariean A",
+        "Cotoi OS"
+      ],
+      "title": "Cancer cachexia: new insights and future directions",
+      "journal": "Cancers (Basel).",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "5590",
+      "doi": "10.3390/cancers15235590",
+      "pmid": "38067294",
+      "pmc_id": "PMC10705516"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Fearon K",
+        "Strasser F",
+        "Anker SD",
+        "et al."
+      ],
+      "title": "Definition and classification of cancer cachexia: an international consensus",
+      "journal": "Lancet Oncol.",
+      "year": "2011",
+      "volume": "12",
+      "fpage": "489",
+      "lpage": "495",
+      "doi": "10.1016/S1470-2045(10)70218-7",
+      "pmid": "21296615"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Baracos VE",
+        "Martin L",
+        "Korc M",
+        "Guttridge DC",
+        "Fearon KCH"
+      ],
+      "title": "Cancer-associated cachexia",
+      "journal": "Nat Rev Dis Primers.",
+      "year": "2018",
+      "volume": "4",
+      "fpage": "17105",
+      "doi": "10.1038/nrdp.2017.105",
+      "pmid": "29345251"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Brown LR",
+        "Laird BJA",
+        "Wigmore SJ",
+        "Skipworth RJE"
+      ],
+      "title": "Understanding cancer cachexia and its implications in upper gastrointestinal cancers",
+      "journal": "Curr Treat Options Oncol.",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "1732",
+      "lpage": "1747",
+      "doi": "10.1007/s11864-022-01028-1",
+      "pmid": "36269458",
+      "pmc_id": "PMC9768000"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Poisson J",
+        "Martinez-Tapia C",
+        "Heitz D",
+        "et al."
+      ],
+      "title": "Prevalence and prognostic impact of cachexia among older patients with cancer: a nationwide cross-sectional survey (NutriAgeCancer)",
+      "journal": "J Cachexia Sarcopenia Muscle.",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "1477",
+      "lpage": "1488",
+      "doi": "10.1002/jcsm.12776",
+      "pmid": "34519440",
+      "pmc_id": "PMC8718093"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Sugawara K",
+        "Yagi K",
+        "Okumura Y",
+        "Aikou S",
+        "Yamashita H",
+        "Seto Y"
+      ],
+      "title": "Survival prediction capabilities of preoperative inflammatory and nutritional status in esophageal squamous cell carcinoma patients",
+      "journal": "World J Surg.",
+      "year": "2022",
+      "volume": "46",
+      "fpage": "639",
+      "lpage": "647",
+      "doi": "10.1007/s00268-021-06398-5",
+      "pmid": "34999904"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Sugawara K",
+        "Mori K",
+        "Okumura Y",
+        "et al."
+      ],
+      "title": "Preoperative low vital capacity influences survival after esophagectomy for patients with esophageal carcinoma",
+      "journal": "World J Surg.",
+      "year": "2020",
+      "volume": "44",
+      "fpage": "2305",
+      "lpage": "2313",
+      "doi": "10.1007/s00268-020-05450-0",
+      "pmid": "32123980"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Sugawara K",
+        "Yamashita H",
+        "Okumura Y",
+        "Yagi K",
+        "Aikou S",
+        "Seto Y"
+      ],
+      "title": "Age-dependent survival impact of body mass index in patients with oesophageal squamous cell carcinoma",
+      "journal": "Eur J Surg Oncol.",
+      "year": "2020",
+      "volume": "46",
+      "fpage": "1948",
+      "lpage": "1955",
+      "doi": "10.1016/j.ejso.2020.05.012",
+      "pmid": "32654887"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Jafri SH",
+        "Previgliano C",
+        "Khandelwal K",
+        "Shi R"
+      ],
+      "title": "Cachexia index in advanced non-small-cell lung cancer patients",
+      "journal": "Clin Med Insights Oncol.",
+      "year": "2015",
+      "volume": "9",
+      "fpage": "87",
+      "lpage": "93",
+      "doi": "10.4137/CMO.S30891",
+      "pmid": "26604850",
+      "pmc_id": "PMC4640427"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Akaoka M",
+        "Haruki K",
+        "Taniai T",
+        "et al."
+      ],
+      "title": "Clinical significance of cachexia index in patients with hepatocellular carcinoma after hepatic resection",
+      "journal": "Surg Oncol.",
+      "year": "2022",
+      "volume": "45",
+      "fpage": "101881",
+      "doi": "10.1016/j.suronc.2022.101881",
+      "pmid": "36371905"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Go SI",
+        "Park MJ",
+        "Lee GW"
+      ],
+      "title": "Clinical significance of the cachexia index in patients with small cell lung cancer",
+      "journal": "BMC Cancer.",
+      "year": "2021",
+      "volume": "21",
+      "fpage": "563",
+      "doi": "10.1186/s12885-021-08300-x",
+      "pmid": "34001060",
+      "pmc_id": "PMC8130111"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Hamura R",
+        "Haruki K",
+        "Shirai Y",
+        "et al."
+      ],
+      "title": "Preoperative cachexia index can predict the prognosis of extrahepatic biliary tract cancer after resection",
+      "journal": "Surg Oncol.",
+      "year": "2022",
+      "volume": "44",
+      "fpage": "101825",
+      "doi": "10.1016/j.suronc.2022.101825",
+      "pmid": "35947886"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Kamada T",
+        "Haruki K",
+        "Nakashima K",
+        "et al."
+      ],
+      "title": "Prognostic significance of the cachexia index in patients with stage I-III colorectal cancer who underwent laparoscopic surgery",
+      "journal": "Surg Today.",
+      "year": "2023",
+      "volume": "53",
+      "fpage": "1064",
+      "lpage": "1072",
+      "doi": "10.1007/s00595-023-02646-4",
+      "pmid": "36725756"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Bas O",
+        "Sahin TK",
+        "Karahan L",
+        "Rizzo A",
+        "Guven DC"
+      ],
+      "title": "Prognostic significance of the cachexia index (CXI) in patients with cancer: a systematic review and meta-analysis",
+      "journal": "Clin Nutr ESPEN.",
+      "year": "2025",
+      "volume": "68",
+      "fpage": "240",
+      "lpage": "247",
+      "doi": "10.1016/j.clnesp.2025.03.023",
+      "pmid": "40157535"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Takahashi K",
+        "Masuda T",
+        "Ishikawa Y",
+        "et al."
+      ],
+      "title": "A novel frailty grade combined with cachexia index and osteopenia in esophagectomy",
+      "journal": "World J Surg.",
+      "year": "2023",
+      "volume": "47",
+      "fpage": "1503",
+      "lpage": "1511",
+      "doi": "10.1007/s00268-023-06942-5",
+      "pmid": "36802232"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Brown LR",
+        "Thomson GG",
+        "Gardner E",
+        "et al."
+      ],
+      "title": "Cachexia index for prognostication in surgical patients with locally advanced oesophageal or gastric cancer: multicentre cohort study",
+      "journal": "Br J Surg.",
+      "year": "2024",
+      "volume": "111",
+      "fpage": "znae098",
+      "doi": "10.1093/bjs/znae098",
+      "pmid": "38593042",
+      "pmc_id": "PMC11003541"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "343",
+      "lpage": "372",
+      "doi": "10.1007/s10388-023-00993-2",
+      "pmid": "36933136",
+      "pmc_id": "PMC10024303"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Sugawara K",
+        "Yagi K",
+        "Uemura Y",
+        "et al."
+      ],
+      "title": "Associations of systemic inflammation and sarcopenia with survival of esophageal carcinoma patients",
+      "journal": "Ann Thorac Surg.",
+      "year": "2020",
+      "volume": "110",
+      "fpage": "374",
+      "lpage": "382",
+      "doi": "10.1016/j.athoracsur.2020.03.013",
+      "pmid": "32278754"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Sugawara K",
+        "Yoshimura S",
+        "Yagi K",
+        "et al."
+      ],
+      "title": "Long-term health-related quality of life following robot-assisted radical transmediastinal esophagectomy",
+      "journal": "Surg Endosc.",
+      "year": "2020",
+      "volume": "34",
+      "fpage": "1602",
+      "lpage": "1611",
+      "doi": "10.1007/s00464-019-06923-7",
+      "pmid": "31286253"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan Esophageal Society: part 2",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "373",
+      "lpage": "389",
+      "doi": "10.1007/s10388-023-00994-1",
+      "pmid": "36995449",
+      "pmc_id": "PMC10235142"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Sugawara K",
+        "Taguchi S",
+        "Gonoi W",
+        "et al."
+      ],
+      "title": "Integrated impact of multiple body composition parameters on overall survival in gastrointestinal or genitourinary cancers: a descriptive cohort study",
+      "journal": "JPEN J Parenter Enteral Nutr.",
+      "year": "2024",
+      "volume": "48",
+      "fpage": "746",
+      "lpage": "755",
+      "doi": "10.1002/jpen.2666",
+      "pmid": "38953890"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Pencina MJ",
+        "D’Agostino RB"
+      ],
+      "title": "Overall C as a measure of discrimination in survival analysis: model specific population value and confidence interval estimation",
+      "journal": "Stat Med.",
+      "year": "2004",
+      "volume": "23",
+      "fpage": "2109",
+      "lpage": "2123",
+      "doi": "10.1002/sim.1802",
+      "pmid": "15211606"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Sugawara K",
+        "Yamashita H",
+        "Urabe M",
+        "et al."
+      ],
+      "title": "Poor nutritional status and sarcopenia influences survival outcomes in gastric carcinoma patients undergoing radical surgery",
+      "journal": "Eur J Surg Oncol.",
+      "year": "2020",
+      "volume": "46",
+      "fpage": "1963",
+      "lpage": "1970",
+      "doi": "10.1016/j.ejso.2020.04.044",
+      "pmid": "32402508"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Nakashima K",
+        "Haruki K",
+        "Kamada T",
+        "et al."
+      ],
+      "title": "Usefulness of the cachexia index as a prognostic indicator for patients with gastric cancer",
+      "journal": "Ann Gastroenterol Surg.",
+      "year": "2023",
+      "volume": "7",
+      "fpage": "733",
+      "lpage": "740",
+      "doi": "10.1002/ags3.12669",
+      "pmid": "37663966",
+      "pmc_id": "PMC10472360"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Gong C",
+        "Wan Q",
+        "Zhao R",
+        "Zuo X",
+        "Chen Y",
+        "Li T"
+      ],
+      "title": "Cachexia index as a prognostic indicator in patients with gastric cancer: a retrospective study",
+      "journal": "Cancers (Basel).",
+      "year": "2022",
+      "volume": "14",
+      "fpage": "4400",
+      "doi": "10.3390/cancers14184400",
+      "pmid": "36139560",
+      "pmc_id": "PMC9497229"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Wan Q",
+        "Yuan Q",
+        "Zhao R",
+        "et al."
+      ],
+      "title": "Prognostic value of cachexia index in patients with colorectal cancer: a retrospective study",
+      "journal": "Front Oncol.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "984459",
+      "doi": "10.3389/fonc.2022.984459",
+      "pmid": "36212479",
+      "pmc_id": "PMC9540220"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Yan XL",
+        "Wu LM",
+        "Tang XB",
+        "et al."
+      ],
+      "title": "Comparison of the cachexia index based on hand-grip strength (H-CXI) with the original CXI for the prediction of cancer cachexia and prognosis in patients who underwent radical colectomy for colorectal cancer",
+      "journal": "Front Nutr.",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1290299",
+      "doi": "10.3389/fnut.2024.1290299",
+      "pmid": "38445206",
+      "pmc_id": "PMC10912503"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Tanji Y",
+        "Furukawa K",
+        "Haruki K",
+        "et al."
+      ],
+      "title": "Significant impact of cachexia index on the outcomes after hepatic resection for colorectal liver metastases",
+      "journal": "Ann Gastroenterol Surg.",
+      "year": "2022",
+      "volume": "6",
+      "fpage": "804",
+      "lpage": "812",
+      "doi": "10.1002/ags3.12578",
+      "pmid": "36338593",
+      "pmc_id": "PMC9628226"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Sugawara K",
+        "Yamashita H",
+        "Okumura Y",
+        "et al."
+      ],
+      "title": "Relationships among body composition, muscle strength, and sarcopenia in esophageal squamous cell carcinoma patients",
+      "journal": "Support Care Cancer.",
+      "year": "2020",
+      "volume": "28",
+      "fpage": "2797",
+      "lpage": "2803",
+      "pmid": "31729568",
+      "doi": "10.1007/s00520-019-05110-7"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Hirahara N",
+        "Matsubara T",
+        "Fujii Y",
+        "et al."
+      ],
+      "title": "Geriatric nutritional risk index as a prognostic marker of pTNM-stage I and II esophageal squamous cell carcinoma after curative resection",
+      "journal": "Oncotarget.",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "2834",
+      "lpage": "2846",
+      "doi": "10.18632/oncotarget.27670",
+      "pmid": "32754301",
+      "pmc_id": "PMC7381097"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Hirahara N",
+        "Matsubara T",
+        "Kaji S",
+        "et al."
+      ],
+      "title": "Influence of nutrition on stage-stratified survival in gastric cancer patients with postoperative complications",
+      "journal": "Oncotarget.",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "183",
+      "lpage": "197",
+      "doi": "10.18632/oncotarget.28179",
+      "pmid": "35079325",
+      "pmc_id": "PMC8782615"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Shirdel M",
+        "Andersson F",
+        "Myte R",
+        "et al."
+      ],
+      "title": "Body composition measured by computed tomography is associated with colorectal cancer survival, also in early-stage disease",
+      "journal": "Acta Oncol.",
+      "year": "2020",
+      "volume": "59",
+      "fpage": "799",
+      "lpage": "808",
+      "doi": "10.1080/0284186X.2020.1744716",
+      "pmid": "32228271"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Yoshida N",
+        "Eto K",
+        "Horinouchi T",
+        "et al."
+      ],
+      "title": "Prognostic value of (18)F-fluorodeoxyglucose uptake in the bone marrow on pretreatment positron emission tomography/computed tomography in patients with esophageal cancer who underwent esophagectomy",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "660",
+      "lpage": "668",
+      "doi": "10.1007/s10388-023-01011-1",
+      "pmid": "37129700"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Feng J",
+        "Wang L",
+        "Yang X",
+        "Chen Q"
+      ],
+      "title": "Clinical significance of preoperative CALLY index for prognostication in patients with esophageal squamous cell carcinoma undergoing surgery",
+      "journal": "Sci Rep.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "713",
+      "doi": "10.1038/s41598-023-51109-w",
+      "pmid": "38184747",
+      "pmc_id": "PMC10771508"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Feng JF",
+        "Wang L",
+        "Chen QX",
+        "Yang X"
+      ],
+      "title": "Development and validation of a new integrative score based on various systemic inflammatory and nutritional indicators in predicting prognosis in patients with resectable esophageal squamous cell carcinoma: a retrospective cohort study",
+      "journal": "Cancer Control.",
+      "year": "2022",
+      "volume": "29",
+      "fpage": "10732748221091394",
+      "doi": "10.1177/10732748221091394",
+      "pmid": "35410489",
+      "pmc_id": "PMC9008826"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Hu H",
+        "Zhang J",
+        "Yan H",
+        "et al."
+      ],
+      "title": "Development and validation of a novel prognostic model for patients with surgically resected esophageal squamous cell carcinoma",
+      "journal": "Front Oncol.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "955353",
+      "doi": "10.3389/fonc.2022.955353",
+      "pmid": "36059713",
+      "pmc_id": "PMC9435602"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Liu X",
+        "Sun X",
+        "Liu J",
+        "et al."
+      ],
+      "title": "Preoperative C-reactive protein/albumin ratio predicts prognosis of patients after curative resection for gastric cancer",
+      "journal": "Transl Oncol.",
+      "year": "2015",
+      "volume": "8",
+      "fpage": "339",
+      "lpage": "345",
+      "doi": "10.1016/j.tranon.2015.06.006",
+      "pmid": "26310380",
+      "pmc_id": "PMC4562973"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Ferrer M",
+        "Anthony TG",
+        "Ayres JS",
+        "et al."
+      ],
+      "title": "Cachexia: a systemic consequence of progressive, unresolved disease",
+      "journal": "Cell.",
+      "year": "2023",
+      "volume": "186",
+      "fpage": "1824",
+      "lpage": "1845",
+      "doi": "10.1016/j.cell.2023.03.028",
+      "pmid": "37116469",
+      "pmc_id": "PMC11059056"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Sugawara K",
+        "Oka D",
+        "Hara H",
+        "Yoshii T",
+        "Fukuda T"
+      ],
+      "title": "Survival impacts of impaired lung functions and comorbidities on elderly esophageal cancer patients",
+      "journal": "World J Surg.",
+      "year": "2023",
+      "volume": "47",
+      "fpage": "3229",
+      "lpage": "3239",
+      "doi": "10.1007/s00268-023-07195-y",
+      "pmid": "37798404"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Cao Y",
+        "Han D",
+        "Zhou X",
+        "Han Y",
+        "Zhang Y",
+        "Li H"
+      ],
+      "title": "Effects of preoperative nutrition on postoperative outcomes in esophageal cancer: a systematic review and meta-analysis",
+      "journal": "Dis Esophagus.",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "doab028",
+      "doi": "10.1093/dote/doab028",
+      "pmid": "33969399"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Minnella EM",
+        "Awasthi R",
+        "Loiselle SE",
+        "Agnihotram RV",
+        "Ferri LE",
+        "Carli F"
+      ],
+      "title": "Effect of exercise and nutrition prehabilitation on functional capacity in esophagogastric cancer surgery: a randomized clinical trial",
+      "journal": "JAMA Surg.",
+      "year": "2018",
+      "volume": "153",
+      "fpage": "1081",
+      "lpage": "1089",
+      "doi": "10.1001/jamasurg.2018.1645",
+      "pmid": "30193337",
+      "pmc_id": "PMC6583009"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Steenhagen E",
+        "van Vulpen JK",
+        "van Hillegersberg R",
+        "May AM",
+        "Siersema PD"
+      ],
+      "title": "Nutrition in peri-operative esophageal cancer management",
+      "journal": "Expert Rev Gastroenterol Hepatol.",
+      "year": "2017",
+      "volume": "11",
+      "fpage": "663",
+      "lpage": "672",
+      "doi": "10.1080/17474124.2017.1325320",
+      "pmid": "28454509"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Jin SB",
+        "Tian ZB",
+        "Ding XL",
+        "et al."
+      ],
+      "title": "The impact of preoperative sarcopenia on survival prognosis in patients receiving neoadjuvant therapy for esophageal cancer: a systematic review and meta-analysis",
+      "journal": "Front Oncol.",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "619592",
+      "doi": "10.3389/fonc.2021.619592",
+      "pmid": "34249675",
+      "pmc_id": "PMC8260681"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Higashizono K",
+        "Sato S",
+        "Nakatani E",
+        "et al."
+      ],
+      "title": "Skeletal muscle loss during neoadjuvant chemotherapy predicts the incidence of postoperative infectious complications in esophageal cancer patients undergoing esophagectomy",
+      "journal": "Cancer Diagn Progn.",
+      "year": "2023",
+      "volume": "3",
+      "fpage": "67",
+      "lpage": "74",
+      "doi": "10.21873/cdp.10181",
+      "pmid": "36632592",
+      "pmc_id": "PMC9801447"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Zhang R",
+        "Hu C",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "Prognostic significance of inflammatory and nutritional markers in perioperative period for patients with advanced gastric cancer",
+      "journal": "BMC Cancer.",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "5",
+      "doi": "10.1186/s12885-022-10479-6",
+      "pmid": "36597055",
+      "pmc_id": "PMC9808945"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Akaoka M",
+        "Haruki K",
+        "Yamahata Y",
+        "et al."
+      ],
+      "title": "The prognostic impact of perioperative dynamic changes in cachexia index in patients with hepatocellular carcinoma",
+      "journal": "Ann Gastroenterol Surg.",
+      "year": "2024",
+      "volume": "8",
+      "fpage": "917",
+      "lpage": "926",
+      "doi": "10.1002/ags3.12804",
+      "pmid": "39229565",
+      "pmc_id": "PMC11368508"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Sakashita K",
+        "Otsuka S",
+        "Ashida R",
+        "et al."
+      ],
+      "title": "Prognostic significance of the cachexia index for patients with perihilar cholangiocarcinoma",
+      "journal": "Surgery.",
+      "year": "2025",
+      "volume": "182",
+      "fpage": "109344",
+      "doi": "10.1016/j.surg.2025.109344",
+      "pmid": "40158383"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "title": "Comprehensive genotype-phenotype correlation analysis in 11 509 neonates carrying common deafness-associated pathogenic variants",
+    "authors": [
+      "Jianjun Li",
+      "Zijun Zhan",
+      "Xiao Zhang",
+      "Bo Wu",
+      "Wenlan Liu"
+    ],
+    "journal": "Journal of Medical Genetics",
+    "year": "2026",
+    "doi": "10.1136/jmg-2025-111135",
+    "pmc_id": "PMC13217119",
+    "pmid": "41876127",
+    "full_text_available": true,
+    "section_count": 19,
+    "reference_count": 27
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background This study aimed to analyse the distribution and genotype-phenotype correlations of pathogenic variants among 11 509 newborns carrying at least one common deafness-associated variant. Methods A genotype distribution analysis was performed on 11 509 neonates identified as carriers of ≥1 pathogenic variant across four common deafness genes ( GJB2 , SLC26A4 , MT-RNR1 and GJB3 ) at our centre between January 2022 and December 2024. Hearing outcomes were assessed through a comprehensive evaluation protocol, initial screening (>48 hour after birth, before discharge), re-screening at 42 days and diagnostic evaluation by 3 months. Sanger sequencing identified potential compound heterozygous variants, and genotype-phenotype analysis was performed on infants with hearing loss (HL). Results Among the 11 509 newborns carrying ≥1 pathogenic variant, two high-risk groups were identified: 653 newborns (5.67%) carrying biallelic pathogenic variants in GJB2 and 113 newborns (0.98%) carrying the MT-RNR1 m.1555A>G or m.1494C>T variants. However, only 58 infants were confirmed with HL, and 15.52% of these passed the initial hearing screening. Sanger sequencing reclassified 23.08% of presumed heterozygotes with HL as compound heterozygotes. Acoustic diagnostic results showed that GJB2 c.235del homozygotes exhibited higher HL incidence (50% vs 6.51%) and more severe/profound HL (66.67% vs 7.14%) than GJB2 c.109G>A homozygotes. Conclusions Our data demonstrated that while genetic screening readily identifies infants with hereditary deafness susceptibility, newborn hearing screening fails to detect most of these high-risk cases due to the absence or delayed onset of HL. This gap obligates long-term audiological monitoring and highlights genetic testing’s critical role in enabling early surveillance for later-onset HL.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hereditary deafness is the primary aetiological factor for sensorineural hearing impairment in children, characterised by high genetic heterogeneity and phenotypic diversity. 1 To date, over 200 genes associated with deafness have been identified. 2 Among them, pathogenic variants in genes such as GJB2 , SLC26A4 , MT-RNR1 and GJB3 are relatively common in East Asian populations; specifically, GJB2 accounts for approximately 20–30% of cases, SLC26A4 for ~15%, MT-RNR1 for 1–3% and GJB3 for <1% of hereditary hearing impairment cases. 3 4 The GJB2 gene encodes connexin 26, a key protein in maintaining the potassium ion circulation in the cochlea. Variants in this gene can lead to autosomal recessive non-syndromic deafness. 5 The SLC26A4 gene encodes a transmembrane protein called pendrin, which functions as an iodide/chloride transporter. Variants in the SLC26A4 gene are associated with large vestibular aqueduct syndrome, often presenting as progressive hearing loss (HL). 6 The MT-RNR1 gene is a gene of the mitochondrial genome. Variants in this gene, particularly the m.1555A>G and m.1494C>T, are the main genetic susceptibility factors for aminoglycoside ototoxicity and are characterised by maternal inheritance. 7 The GJB3 gene encodes gap junction protein beta-3 (Connexin-31), and the most frequently reported pathogenic variant in this gene, particularly in East Asian populations, is c.538C>T. Variants in the GJB3 gene can cause late-onset high-frequency HL. 8 With the advancement of high-throughput molecular diagnostic technologies, genetic testing has become an essential component of the three-tier prevention system for hereditary deafness. In our previous study, we established a regional deafness gene variant spectrum in Shenzhen, one of China’s most densely populated megacities, and found that the total rate of neonates carrying at least one of the 23 common pathogenic variants in the four common deafness genes was as high as 21.87%. 9 In this study, we aimed to characterise the distribution of pathogenic variants among 11 509 neonates carrying at least one variant in common deafness genes and to investigate the genotype-phenotype correlations. Our data demonstrated that within this study cohort, genetic screening showed superior detection of infants at high risk for HL (carrying biallelic pathogenic variants or MT-RNR1 variants), whereas conventional hearing screening detected only 7.56% (58/767) with confirmed hearing impairment at 3 months of age. Moreover, GJB2 c.235del homozygotes exhibited ninefold higher severe-to-profound HL prevalence than c.109G>A homozygotes (66.67% vs 7.14%) among newborns carrying at least one common pathogenic variant.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This study employed a cross-sectional study design. From January 2022 to December 2024, a total of 53 194 neonates underwent genetic screening for 23 common deafness-associated pathogenic variants at the Neonatal Disease Screening Center of Shenzhen Maternal and Child Healthcare Hospital. Among them, 11 548 neonates were identified as carriers of at least one variant. After excluding 39 cases with incomplete data, a total of 11 509 neonates with complete clinical and audiological follow-up data were ultimately enrolled in the final analysis for genotype-phenotype correlation. A l l 11 509 neonates underwent initial hearing screening. Those requiring rescreening (n=954) included both protocol-driven cases (initial failures, n=918) and parent-requested retests (n=36). Diagnostic evaluation of re-screening failures (n=350) identified 58 cases with HL. Genotype-phenotype correlations were analysed across all screened neonates to comprehensively assess the relationship between genetic variants and auditory phenotypes. The study design flow was shown in figure 1 .",
+      "order": 2
+    },
+    {
+      "section": "Dna Extraction",
+      "text": "The Ex-DNA Dried Blood Spot Genomic DNA Extraction Kit (Xi'an Tianlong Technology) was used to extract genomic DNA from dried blood spot samples according to the manufacturer’s instructions. In brief, three to five 6×6 mm dried blood spots punches were incubated in 300 µL proteinase K digestion buffer at 56°C for 20 min, followed by addition of 60 µL nucleic acid releasing agent to enhance DNA liberation. Automated extraction was then conducted, consisting of an 80°C lysis step for 10 min, three wash cycles (0–90°C) and final elution at 90°C for 7 min. DNA concentration and purity were measured by NanoDrop Lite Plus spectrophotometer (Thermo Fisher Scientific). The extracted DNA was stored at −20°C until further analysis.",
+      "order": 3
+    },
+    {
+      "section": "Genetic Screening For Common Pathogenic Variants In Deafness Genes",
+      "text": "The NMPA-certified neonatal deafness gene screening kit (from Chengdu Boao Jingxin Biotechnology) and the LuxScan 10K/D gene chip scanner were used to analyse 23 common pathogenic variants in four common deafness-related genes ( GJB2 , SLC26A4 , MT-RNR1 and GJB3 ) using microfluidic chip electrophoresis technology. All genetic variants were described according to the Human Genome Variation Society nomenclature guidelines, based on the following reference sequences: GJB2 (RefSeq NM_004004.5 ), SLC26A4 ( NM_000441.1 ), MT-RNR1 ( NC_012920.1 ) and GJB3 ( NM_024009.2 ). The screened variants are as follows: GJB2 gene: 9 variants (c.35del, c.109G>A, c.235del, c.299_300del, c.176_191del, c.257C>G, c.35_35dup, c.427C>T, c.508_511dup); SLC26A4 gene: 11 variants (c.919-2A>G, c.1174A>T, c.1226G>A, c.1229C>T, c.1707+5G>A, c.1975G>C, c.2027T>A, c.2168A>G, c.281C>T, c.589G>A, c.917_918insG); MT-RNR1 gene: 2 variants (m.1494C>T, m.1555A>G); GJB3 gene: 1 variant (c.538C>T). All analytical processes were strictly carried out in accordance with the manufacturer’s instructions. It should be noted that, unlike the Mendelian inheritance pattern of nuclear genes, pathogenic variants in the MT-RNR1 gene follow a strict maternal inheritance pattern. Their clinical manifestations primarily depend on the proportion of variant genomes, that is, heteroplasmy level. In this study, homoplasmy and heteroplasmy of MT-RNR1 gene variants were determined based on signal intensity ratios from the microarray platform: samples were classified as homoplasmic when the variant signal exhibited a high-intensity ratio (> 95%) with negligible wild-type signal, and as heteroplasmic when both variant and wild-type signals were detectable with the variant signal intensity ratio falling within the range of 15% to 95%. All classifications strictly followed the threshold values and quality control criteria established by the manufacturer.",
+      "order": 4
+    },
+    {
+      "section": "Case Selection Criteria",
+      "text": "Samples were selected from individuals diagnosed with HL through audiological assessments, but who showed only a single heterozygous state in the 23-gene deafness panel test.",
+      "order": 5
+    },
+    {
+      "section": "Main Procedures",
+      "text": "PCR amplification was performed in 20 µL reaction volumes containing 3 µL genomic DNA template, 10 µL 2×360 Master Mix (SenseCare Bio), 0.4 µL each of forward and reverse primers (10 µM), and 6.2 µL nuclease-free water. The thermal cycling protocol consisted of an initial denaturation at 95°C for 10 min, followed by 35 cycles of denaturation (95°C, 30 s), annealing (60°C, 30 s) and extension (72°C, 1 min/kb), with a final extension at 72°C for 7 min. PCR products (5 µL) were purified using 1 µL each of alkaline phosphatase and Exonuclease I (Takara) in a 7 µL reaction, incubated at 37°C for 15 min followed by enzyme inactivation at 80°C for 15 min. Sequencing reactions were prepared in 20 µL volumes containing 1 µL purified product, 3 µL 5×BigDye Terminator buffer, 2 µL 2.5×BigDye v3.1 (SenseCare Bio), 0.5 µL primer (10 µM) and 13.5 µL nuclease-free water, then subjected to thermal cycling (96°C for 1 min; 30 cycles of 96°C for 10 s, 50°C for 5 s and 60°C for 4 min/kb). The products were purified using BDX Magclean Beads (SenseCare Bio) with 85% ethanol washes, eluted in 20 µL Hi-Di formamide (Thermo Fisher Scientific) and analysed on a 3500Dx Genetic analyser. Sequence alignment and variant detection were performed using Variant Surveyor V.4.0.8 software, with all chromatograms manually verified for accuracy.",
+      "order": 6
+    },
+    {
+      "section": "Methods",
+      "text": "We implemented a standardised two-stage hearing screening protocol for all newborns. The initial screening was performed using transient evoked otoacoustic emissions (OAE) with the OtoRead device (Interacoustics, Denmark) between 48 hours post partum and discharge from the maternity unit or neonatal intensive care unit. Infants who did not pass the initial screening were scheduled for a second-stage evaluation within 42 days post partum, which employed a combined protocol of OAE retesting and AABR assessment using the AccuScreen 1077 system (Otometrics). Infants persisting with screening failures received comprehensive diagnostic evaluation within 3 months of age using the Navigator PRO ABR Diagnostic System (Natus, USA). Our centre maintained proactive telephone follow-ups with families of diagnosed infants to document intervention implementation status.",
+      "order": 7
+    },
+    {
+      "section": "Definition And Grading Of Hl",
+      "text": "In this study, HL was diagnosed based on standard audiological assessments, defined as an average hearing threshold (at 0.5, 1, 2 and 4 kHz) of ≥20 dB HL in one or both ears. Using the ear as the phenotypic unit, laterality was classified as: unilateral HL (ABR threshold ≥20 dB HL in one ear, contralateral <20 dB HL) or bilateral HL (ABR thresholds ≥20 dB HL in both ears). Severity was graded per the 2021 WHO criteria based on ABR thresholds in each ear: mild (20–35 dB HL), moderate (35–65 dB HL), severe (65–80 dB HL) and profound (80–95 dB HL).",
+      "order": 8
+    },
+    {
+      "section": "Exclusion Criteria",
+      "text": "This study focused on hereditary sensorineural HL by omitting conductive or transient causes: (1) imaging-confirmed external auditory canal atresia or middle-ear structural abnormalities; and (2) reversible conductive aetiologies (eg, acute or secretory otitis media) with hearing normalisation after treatment.",
+      "order": 9
+    },
+    {
+      "section": "Criteria For Variant Classification",
+      "text": "The GJB2 c.109G>A (p.V37I) variant was classified as pathogenic based on the American College of Medical Genetics and Genomics/Association for Molecular Pathology (ACMG/AMP) guidelines, supported by the following evidence: PS4 (homozygotes and compound heterozygotes are significantly enriched in cases over population controls), PP1_Strong (segregated with HL in many affected family members) and PM3 (found in trans with many different pathogenic GJB2 variants in patients with HL) (Ref: PMID: 31160754).",
+      "order": 10
+    },
+    {
+      "section": "Follow-Up Protocol",
+      "text": "After genetic reports were issued, telephone follow-up was conducted with the guardians of infants carrying at least one common deafness gene hotspot mutation to verify hearing screening results. For infants who failed hearing screening, guardians were required to bring the infant to the Otorhinolaryngology Department of our hospital for a comprehensive audiological diagnostic assessment at 3 months of age. For infants who pass hearing screening, infants with biallelic GJB2 mutations were classified as high risk. Guardians were informed via telephone about the risk of delayed/progressive HL, guided on home auditory behaviour monitoring, advised to return for evaluation if abnormalities were detected and monitored continuously using behavioural observation audiometry. For infants with mitochondrial gene m.1555A>G or m.1494C>T homoplasmic/heteroplasmic variants, guardians were instructed to strictly avoid the use of aminoglycoside drugs. A portable medication contraindication reminder card was provided to prevent the risk of drug-induced HL.",
+      "order": 11
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Statistical analysis was performed using IBM SPSS V.26.0 software (SPSS). Categorical variables are presented as frequencies and percentages (n (%)). The χ 2 test (when the theoretical frequency T<5, Fisher’s exact test was used) was used to compare the pass rates of hearing screening among different variant groups. A two-sided p value <0.05 was considered statistically significant. 95% CIs were calculated using the Clopper-Pearson exact method. As no adjustment for multiple comparisons was performed, analyses involving rare or small genotype subgroups (n<10) were presented as exploratory and descriptive, and formal statistical comparisons and inferential conclusions were reserved for common genotypes with sufficient sample size.",
+      "order": 12
+    },
+    {
+      "section": "Genotype Distribution Of Common Pathogenic Variants In Four Deafness Genes Among 11 509 Neonates",
+      "text": "Among 11 509 neonates carrying at least one common pathogenic variant in four deafness genes ( GJB2 , SLC26A4 , MT-RNR1 and GJB3 ), biallelic pathogenic variants in GJB2 (including both homozygous and compound heterozygous genotypes) showed the highest prevalence (5.67%, 653/11 509), while homoplasmic MT-RNR1 variants (0.87%, 100/11 509) represented the second most frequent genotype associated with aminoglycoside-induced HL susceptibility. Heterozygous carrier states were most prevalent in GJB2 (87.17%, 10 032/11 509), followed by SLC26A4 (5.57%, 641/11 509), GJB3 (0.61%, 70/11 509) and heteroplasmic MT-RNR1 variants (0.11%, 13/11 509). No biallelic pathogenic variants were detected in SLC26A4 or GJB3 in this cohort. The genotype distribution was detailed in table 1 .",
+      "order": 13
+    },
+    {
+      "section": "Hearing Screening Outcomes Of 11 509 Neonates And Their Correlation With The Genotypes Of The Four Common Deafness Genes",
+      "text": "After excluding 39 cases with incomplete hearing screening data, a final cohort of 11 509 neonates underwent initial hearing evaluation. Among these, 10 555 neonates passed the initial screening and required no further testing, while 36 additional neonates who initially passed were re-screened at parental request. The remaining 918 neonates who failed the initial screening proceeded to mandatory re-screening. In total, 954 neonates, including both voluntary and mandatory cases, received re-screening, of whom 350 (36.69%) failed and required diagnostic evaluation. Follow-up diagnosis was completed for 346 cases (4 cases lost to follow-up) within 3 months and confirmed HL in 58 neonates. To comprehensively assess genotype-phenotype correlations, genetic variant analysis was performed across all neonates who completed hearing screening, including both confirmed cases of HL and those with normal hearing outcomes. The data showed that the initial screening failure rate in high-risk neonates carrying biallelic pathogenic variants (53.29%, 348/653) was significantly higher than that in neonates carrying heterozygous variants (5.26%, 565/10 743) (p<0.01). After the two stages of hearing screening, the overall failure rates decreased to 34.76% (227/653) and 1.14% (123/10 743), respectively. Of note, among the 113 high-risk neonates carrying MT-RNR1 variants (including both homoplasmic and heteroplasmic variants), only 5 cases failed the initial hearing screening, and all of them subsequently passed re-screening. The genotype distribution analysis revealed distinct patterns between groups. The high-risk biallelic variant group: the most common genotypes were GJB2 c.109G>A homozygotes (n=538, 82.39%), followed by GJB2 c.109G>A/c.235del compound heterozygotes (n=83, 12.71%), collectively accounting for 95.10% of cases. Other genotypes each represented <3% of this cohort. The MT-RNR1 variant group (including both homoplasmic and heteroplasmic variants) was predominantly the m.1555A>G homoplasmic variant (n=91, 80.53%). In the mono-allelic variant carrier group, the predominant variants were GJB2 c.109G>A (n=9016, 83.92%), GJB2 c.235del (n=798, 7.43%) and SLC26A4 c.919-2A>G (n=420, 3.91%), which collectively accounted for 95.26% of all observed heterozygous variants. Notably, comparative analysis of the two most common GJB2 pathogenic variants revealed significant differences in HL incidence. Among high-risk neonates carrying biallelic pathogenic variants, c.235del homozygotes exhibited markedly higher HL prevalence than c.109G>A homozygotes (50.00% vs 6.51%, χ 2 =17.28, p<0.0001). This pattern was recapitulated in heterozygous carriers, where c.235del heterozygous carriers showed a 3.8-fold higher incidence than c.109G>A heterozygous carriers (0.38% vs 0.10%, χ 2 =4.58, p=0.039), demonstrating consistent pathogenicity hierarchy across both genotypes. The genotype-phenotype correlation analyses for high-risk biallelic pathogenic variant carriers (n=653), MT-RNR1 variant carriers (n=113) and single heterozygous carriers (n=10 743) are detailed in tables2 4 , respectively.",
+      "order": 14
+    },
+    {
+      "section": "Sanger Sequencing Validation Of Single Heterozygous Variants",
+      "text": "Among the 58 infants with diagnosed HL, 45 carried biallelic pathogenic variants in GJB2 , 13 (22.41%) carried single heterozygous variants identified by the 23-common pathogenic variants deafness gene panel, including 9 cases of GJB2 c.109G>A, 3 cases of GJB2 c.235del and 1 case of SLC26A4 c.1229C>T. Given that both GJB2 and SLC26A4 are autosomal recessive genes, we hypothesised that in some of these cases, a potential second allele might exist beyond the coverage of the current panel. To test this hypothesis, we performed Sanger sequencing of the entire coding regions of GJB2 or SLC26A4 on these 13 samples. These results revealed that 3 of the 13 cases actually carried compound heterozygous variants, with the following allele combinations: GJB2 c.109G>A/c.250G>T, GJB2 c.109G>A/c.571T>C and SLC26A4 c.85G>A/c.1229C>T. For the remaining 10 cases where only a single heterozygous variant was confirmed, further investigation using next-generation sequencing would be valuable to screen for potential pathogenic variants in other HL-associated genes.",
+      "order": 15
+    },
+    {
+      "section": "Analysis Of Genotype Distribution Among Confirmed Hl Cases",
+      "text": "We next analysed the genotype distribution among the 58 HL cases. As shown in table 5 , the most prevalent genotype was GJB2 c.109G>A homozygosity (35/58, 60.34%), followed by c.109G>A heterozygosity (7/58, 12.07%) and c.109G>A/c.235del compound heterozygosity (4/58, 6.90%). Phenotypically, c.109G>A homozygous cases predominantly presented with normal hearing or mild-to-moderate HL (affecting 92.86% of evaluated ears, 65/70), while c.235del homozygotes showed a strong tendency towards severe-to-profound HL (66.67% of affected ears, 4/6). The limited number of cases with other genotypes precluded meaningful genotype-phenotype correlation analysis. Notably, among the 58 confirmed HL cases, 9 neonates who initially passed the hearing screening subsequently failed re-screening. Genetic testing revealed that eight of these infants carried biallelic pathogenic variants in GJB2 , including five homozygous for c.109G>A, one homozygous for c.235del and two compound heterozygotes (c.109G>A/c.235del and c.235del/c.176_191del), while the remaining case was a heterozygous carrier of c.235del. Clinically, the infant with homozygous c.235del variants exhibited profound bilateral HL, whereas all other cases presented with mild to moderate impairment.",
+      "order": 16
+    },
+    {
+      "section": "Follow-Up And Intervention Outcomes For Confirmed Cases",
+      "text": "For the 58 neonates diagnosed with HL, we made follow-up calls and documented their intervention outcomes and rehabilitation progress. Our data showed that 2 children with profound HL received cochlear implants, 6 with severe-to-profound HL were fitted with hearing aids and 25 are participating in personalised auditory-verbal rehabilitation programmes. Notably, 37 children maintain regular follow-up visits at otolaryngology and audiology clinics. These data indicated that all diagnosed cases showed significant improvements in both auditory function and speech-language development.",
+      "order": 17
+    },
+    {
+      "section": "Discussion",
+      "text": "This study systematically analysed 11 509 neonates who underwent combined newborn hearing and deafness gene screening at our centre and carried at least one common pathogenic variant in common deafness genes, aiming to investigate genotype-phenotype correlations in this cohort. The major findings are as follows: (1) Among all subjects, biallelic GJB2 pathogenic variants were detected in 5.67% (653/11 509) of neonates, with the c.109G>A variant present in 83.93% (9,659/11 509) of screened infants, (2) According to the Expert Consensus on Genetic Screening for Hereditary Hearing Loss published in the Chinese Medical Journal in 2021, 10 two groups with distinct clinical risk profiles were identified: Carriers of biallelic GJB2 pathogenic variants: 653 cases, representing a population at high genetic risk for early-onset congenital HL. Among them, only 45 cases (6.89%) were diagnosed with HL by 3 months of age. while the vast majority (93.11%) still require long-term and systematic audiological monitoring and follow-up. Carriers of MT-RNR1 m.1555A>G or m.1494C>T variants: 113 cases, whose clinical risk is characterised mainly by high susceptibility to aminoglycoside-induced ototoxicity, rather than inevitable early-onset HL. (3) Among the 58 infants diagnosed with HL, single heterozygous variants accounted for 22.41% (13/58) of confirmed HL cases, and genetic testing identified 15.52% (9/58) of HL infants who passed initial hearing screening, enabling early intervention based on their genetic risk. (4) Among GJB2- related genotypes, significant phenotypic differences were observed between variants: c.235del homozygotes showed higher HL incidence (50% vs 6.51%) and more severe/profound HL (66.67% vs 7.14%) than c.109G>A homozygotes. The observed biallelic GJB2 variant prevalence of 5.67% in this neonatal cohort falls within the reported range for Chinese populations but underscores a significant genetic burden for HL. 11 Notably, the exceptionally high carrier frequency of the c.109G>A (p.V37I) variant (83.93%) significantly exceeds rates typically documented in other regional studies within China. 12 13 This pronounced enrichment suggests a potential founder effect or strong regional clustering specific to the population sampled. 14 While c.109G>A is a recognised common variant in East Asia, its prevalence displays marked geographic heterogeneity across China, 15 16 often contrasting with the higher frequency of variants like c.235del observed in Northern regions. 17 Our findings highlight the critical influence of geographic origin on the GJB2 variant spectrum and emphasise that carrier rates, particularly for c.109G>A, can vary substantially depending on the specific population demographics. Due to the known incomplete penetrance and variable expressivity of this variant, the previously reported phenotypic spectrum is broad, ranging from normal hearing to mild-to-moderate HL. 18 19 In our study cohort, detection of this variant alone is insufficient to establish a diagnosis of congenital profound HL. Accurate interpretation of its clinical significance requires comprehensive evaluation based on longitudinal audiological follow-up data and familial co-segregation analysis. Among the 653 newborns carrying biallelic GJB2 pathogenic variants, only 45 neonates (6.89%) exhibited confirmed HL at the 3-month assessment. This underscores that the primary value of genetic screening lies not solely in detecting immediate postnatal HL, but in pre-emptively identifying infants at substantial risk for delayed-onset or progressive HL, who constitute the vast majority (93.11%) of this high-risk cohort and require longitudinal audiological surveillance. This approach addresses a critical limitation of conventional newborn hearing screening, which effectively targets the ~0.2% of neonates with moderate-to-severe HL present at birth. However, as the global prevalence of moderate-to-severe HL increases significantly with age, reaching ~1.5% in children aged 5–9 years, 20 newborn hearing screening inherently misses the large proportion of children who develop significant HL later in childhood. Our findings demonstrate that genetic screening provides a powerful tool to identify this ‘invisible’ at-risk population before HL manifests. For infants with biallelic GJB2 variants, we emphasise rigorous parental counselling and close monitoring to enable early intervention on any decline. For MT-RNR1 variant carriers, strict lifelong avoidance of aminoglycosides remains paramount as a preventive strategy, despite no observed HL in this initial period. Genetic screening thus significantly augments newborn hearing screening by shifting the paradigm towards proactive, lifelong risk management for a far larger population of vulnerable children. Among the 58 newborns confirmed with HL, a significant proportion (22.41%, 13/58) were initially identified only as carriers (single heterozygotes) for a deafness-associated variant. Subsequent Sanger sequencing detected a second pathogenic variant missed by the initial screening chip in 3 of these 13 cases (23.08%), involving compound heterozygous variants of GJB2 c.109G>A/c.250G>T, c.109G>A/c.571T>C and SLC26A4 c.85G>A/c.1229C>T. This underdetection rate slightly exceeds the 19% reported by Safka Brozkova et al , 21 suggesting a potentially more complex variant spectrum in our cohort and underscoring the inherent limitation of targeted panel screening. In a previous study, Lin et al reported that GJB2 c.109G>A heterozygotes exhibited more severe HL than homozygotes. 22 However, the authors did not perform additional sequencing analyses (eg, Sanger or high-throughput methods) to rule out undetected secondary variants or other pathogenic variants that might explain this unexpected phenotypic pattern. In our study, high-throughput sequencing is also warranted to clarify whether additional deafness-associated variants are present in the remaining 10 heterozygous cases with HL. In our cohort, 36 neonates (0.31%) passed the initial screening but failed re-screening, and a more telling statistic is that 25% (9/36) of these infants were ultimately diagnosed with HL. These infants represent a high-risk group for delayed HL detection under standard protocols, as they would typically receive no further screening after passing the initial test. It remains challenging to distinguish whether these false-negative results stem primarily from the lower sensitivity of standalone OAE used in initial testing compared with the combined OAE+AABR protocol employed during re-screening 23 24 or from delayed-onset hearing losses that manifested clinically by the 42-day follow-up. 25 27 Deafness genetic screening provides an important solution to this vulnerability, as positive genetic results prompt sustained clinical and parental vigilance, enabling earlier recognition of hearing impairment regardless of initial screening outcomes. This study has several limitations. Firstly, the microfluidic chip method only covers 23 common pathogenic variants and may miss rare pathogenic variants. Second, the small number of confirmed HL cases (n=58) limits the phenotypic analysis of low-frequency genotypes. Therefore, robust conclusions are confined to common GJB2 genotypes with adequate statistical power, whereas findings for rare genotypes are considered exploratory. Additionally, the lack of long-term follow-up data makes it difficult to assess the trend of variant penetrance over time. Among the 58 patients diagnosed with HL, the absence of familial verification means that the potential influence of non-genetic factors or other complex genetic mechanisms (such as epigenetic regulation, modifier gene effects and unidentified genetic variants) on their phenotypes cannot be fully ruled out. Specifically, GJB2 c.109G>A (p.V37I) is a typical variant characterised by incomplete penetrance and variable expressivity. Relying primarily on newborn hearing screening results, this study did not conduct long-term audiological follow-up for carriers of this variant. Consequently, although a weak association with severe congenital HL was observed, the role of this variant in mild, moderate, late-onset or progressive HL—particularly in compound heterozygous states—remains insufficiently evaluated. Future work should involve multicentre collaboration to establish a larger longitudinal cohort to gain a more comprehensive understanding of the distribution characteristics of deafness gene variants and the genotype-phenotype relationships. Conducting functional studies to further explore the molecular mechanisms of specific variants will also provide a more reliable scientific basis for clinical interpretation. Furthermore, for variants such as GJB2 c.109G>A, long-term follow-up studies are necessary to clarify their clinical phenotypes and significance across diverse genetic backgrounds and environmental factors. In conclusion, this cohort systematically delineates the spectrum of deafness gene variants and their correlation with audiological phenotypes in neonates, providing important data for genetic research on deafness during early infancy. The findings demonstrate that genetic screening identified significantly more (>12 times) at-risk infants than standard hearing screening, offering a scientific basis for optimising the neonatal deafness prevention and control system and providing references for improving national deafness gene screening programmes. Future research should focus on addressing the limitations of current screening technologies and establishing more comprehensive follow-up mechanisms to achieve precise management of neonates at genetically high risk for HL.",
+      "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Smith RJ",
+        "Bale JF",
+        "White KR"
+      ],
+      "title": "Sensorineural hearing loss in children",
+      "journal": "Lancet",
+      "year": "2005",
+      "volume": "365",
+      "fpage": "879",
+      "lpage": "90",
+      "doi": "10.1016/S0140-6736(05)71047-3",
+      "pmid": "15752533"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Ma J",
+        "Ma X",
+        "Lin K",
+        "et al."
+      ],
+      "title": "Genetic screening of a Chinese cohort of children with hearing loss using a next-generation sequencing panel",
+      "journal": "Hum Genomics",
+      "year": "2023",
+      "volume": "17",
+      "elocation_id": "1",
+      "doi": "10.1186/s40246-022-00449-1",
+      "pmid": "36597107",
+      "pmc_id": "PMC9811745"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "title": "Clinical practice guideline for the genetic diagnosis and counseling of hearing loss in China (2023)",
+      "journal": "Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "year": "2023",
+      "volume": "58",
+      "fpage": "3",
+      "lpage": "14",
+      "doi": "10.3760/cma.j.cn115330-20220609-00342",
+      "pmid": "36603860"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Nishio SY",
+        "Usami S"
+      ],
+      "title": "Deafness gene variations in a 1120 nonsyndromic hearing loss cohort: molecular epidemiology and deafness mutation spectrum of patients in Japan",
+      "journal": "Ann Otol Rhinol Laryngol",
+      "year": "2015",
+      "volume": "124",
+      "fpage": "49S",
+      "lpage": "60S",
+      "doi": "10.1177/0003489415575059",
+      "pmid": "25788563"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Kelsell DP",
+        "Dunlop J",
+        "Stevens HP",
+        "et al."
+      ],
+      "title": "Connexin 26 mutations in hereditary non-syndromic sensorineural deafness",
+      "journal": "Nature New Biol",
+      "year": "1997",
+      "volume": "387",
+      "fpage": "80",
+      "lpage": "3",
+      "doi": "10.1038/387080a0",
+      "pmid": "9139825"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Everett LA",
+        "Glaser B",
+        "Beck JC",
+        "et al."
+      ],
+      "title": "Pendred syndrome is caused by mutations in a putative sulphate transporter gene (PDS)",
+      "journal": "Nat Genet",
+      "year": "1997",
+      "volume": "17",
+      "fpage": "411",
+      "lpage": "22",
+      "doi": "10.1038/ng1297-411",
+      "pmid": "9398842"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "McDermott JH",
+        "Wolf J",
+        "Hoshitsuki K",
+        "et al."
+      ],
+      "title": "Clinical Pharmacogenetics Implementation Consortium Guideline for the Use of Aminoglycosides Based on MT‐RNR1 Genotype",
+      "journal": "Clin Pharma and Therapeutics",
+      "year": "2022",
+      "volume": "111",
+      "fpage": "366",
+      "lpage": "72",
+      "doi": "10.1002/cpt.2309",
+      "pmc_id": "PMC8613315",
+      "pmid": "34032273"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Xia. J",
+        "Liu C",
+        "Tang B",
+        "et al."
+      ],
+      "title": "Mutations in the gene encoding gap junction protein β-3 associated with autosomal dominant hearing impairment",
+      "journal": "Nat Genet",
+      "year": "1998",
+      "volume": "20",
+      "fpage": "370",
+      "lpage": "3",
+      "doi": "10.1038/3845",
+      "pmid": "9843210"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Li JJ",
+        "Guo M",
+        "Ma L",
+        "et al."
+      ],
+      "title": "Analysis of 23 deafness susceptibility gene mutations in 10,561 newborns in Shenzhen using microfluidic chip method [In Chinese]",
+      "journal": "Mod Lab Med",
+      "year": "2025",
+      "volume": "40",
+      "fpage": "91",
+      "lpage": "5"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "title": "Hereditary deafness gene screening standards",
+      "journal": "Chin Med J (Engl)",
+      "year": "2021",
+      "volume": "101",
+      "fpage": "97",
+      "lpage": "102",
+      "doi": "10.3760/cma.j.cn112137-20201029-02957"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Yu R",
+        "Cheng W",
+        "Cheng X",
+        "et al."
+      ],
+      "title": "Analysis of hearing screening results in 23 newborns with failed deafness gene screening [In Chinese]",
+      "journal": "J Med Genet",
+      "year": "2025",
+      "volume": "32",
+      "fpage": "215",
+      "lpage": "20",
+      "doi": "10.16066/j.1672-7002.2025.04.003"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Ruan Y",
+        "Wen C",
+        "Cheng X",
+        "et al."
+      ],
+      "title": "Genetic screening of newborns for deafness over 11 years in Beijing, China: More infants could benefit from an expanded program",
+      "journal": "BST",
+      "year": "2024",
+      "volume": "18",
+      "fpage": "303",
+      "lpage": "14",
+      "doi": "10.5582/bst.2024.01178",
+      "pmid": "39183030"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Lu M",
+        "Yang S",
+        "Pei Y"
+      ],
+      "title": "Analysis of common genetic mutations in 52,120 newborns with abnormal hearing screening in Henan Province [In Chinese]",
+      "journal": "South China J Prev Med",
+      "year": "2022",
+      "volume": "48",
+      "fpage": "1126",
+      "lpage": "32"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Chen K",
+        "Zong L",
+        "Liu M",
+        "et al."
+      ],
+      "title": "Developing regional genetic counseling for southern Chinese with nonsyndromic hearing impairment: a unique mutational spectrum",
+      "journal": "J Transl Med",
+      "year": "2014",
+      "volume": "12",
+      "doi": "10.1186/1479-5876-12-64",
+      "pmc_id": "PMC3975227",
+      "pmid": "24612839"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Fan XL",
+        "Cao X",
+        "Huang CM",
+        "et al."
+      ],
+      "title": "Analysis of deafness gene screening results in 6337 newborns [In Chinese]",
+      "journal": "Chin J Otolj",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "242",
+      "lpage": "50"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Ruan Y",
+        "Cheng XH",
+        "Zhang W",
+        "et al."
+      ],
+      "title": "Mutation spectrum analysis of 23 deafness genes in newborn screening [In Chinese]",
+      "journal": "J Clin Otorhinolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "38",
+      "fpage": "267",
+      "lpage": "72",
+      "doi": "10.13201/j.issn.2096-7993.2024.04.001",
+      "pmc_id": "PMC11387295",
+      "pmid": "38563166"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Pan L",
+        "Wang ST",
+        "Zhang S",
+        "et al."
+      ],
+      "title": "Analysis of deafness gene mutations and hearing loss in 18925 children",
+      "journal": "Matern Child Health Care China",
+      "year": "2025",
+      "volume": "40",
+      "fpage": "2463",
+      "lpage": "7"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Kriukelis R",
+        "Gabbett MT",
+        "Beswick R",
+        "et al."
+      ],
+      "title": "The congenital hearing phenotype in GJB2 in Queensland, Australia: V37I and mild hearing loss predominates",
+      "journal": "Eur J Hum Genet",
+      "year": "2025",
+      "volume": "33",
+      "fpage": "208",
+      "lpage": "19",
+      "doi": "10.1038/s41431-024-01584-0",
+      "pmid": "38486023",
+      "pmc_id": "PMC11840006"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Chiang Y-T",
+        "Lin P-H",
+        "Lo M-Y",
+        "et al."
+      ],
+      "title": "Genetic Factors Contribute to the Phenotypic Variability in GJB2-Related Hearing Impairment",
+      "journal": "J Mol Diagn",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "827",
+      "lpage": "37",
+      "doi": "10.1016/j.jmoldx.2023.07.005",
+      "pmid": "37683890"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Wen C",
+        "Zhao X",
+        "Li Y",
+        "et al."
+      ],
+      "title": "A systematic review of newborn and childhood hearing screening around the world: comparison and quality assessment of guidelines",
+      "journal": "BMC Pediatr",
+      "year": "2022",
+      "volume": "22",
+      "elocation_id": "160",
+      "doi": "10.1186/s12887-022-03234-0",
+      "pmid": "35351033",
+      "pmc_id": "PMC8962144"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Safka Brozkova D",
+        "Uhrova Meszarosova A",
+        "Lassuthova P",
+        "et al."
+      ],
+      "title": "The Cause of Hereditary Hearing Loss in GJB2 Heterozygotes—A Comprehensive Study of the GJB2/DFNB1 Region",
+      "journal": "Genes (Basel)",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "684",
+      "doi": "10.3390/genes12050684",
+      "pmid": "34062854",
+      "pmc_id": "PMC8147375"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22",
+      "authors": [
+        "Lin Y-F",
+        "Lin H-C",
+        "Tsai C-L",
+        "et al."
+      ],
+      "title": "GJB2 mutation spectrum in the Taiwanese population and genotype-phenotype comparisons in patients with hearing loss carrying GJB2 c.109G>A and c.235delC mutations",
+      "journal": "Hear Res",
+      "year": "2022",
+      "volume": "413",
+      "fpage": "108135",
+      "doi": "10.1016/j.heares.2020.108135",
+      "pmid": "33288323"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23",
+      "authors": [
+        "Huang Y",
+        "Yang S",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "Clinical value of combined otoacoustic emission and automated auditory brainstem response in neonatal hearing screening [In Chinese]",
+      "journal": "Matern Child Health Care China",
+      "year": "2018",
+      "volume": "33",
+      "fpage": "3023",
+      "lpage": "5"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24",
+      "authors": [
+        "Ngui LX",
+        "Tang IP",
+        "Prepageran N",
+        "et al."
+      ],
+      "title": "Comparison of distortion product otoacoustic emission (DPOAE) and automated auditory brainstem response (AABR) for neonatal hearing screening in a hospital with high delivery rate",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2019",
+      "volume": "120",
+      "fpage": "184",
+      "lpage": "8",
+      "doi": "10.1016/j.ijporl.2019.02.045",
+      "pmid": "30844634"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25",
+      "authors": [
+        "Wen C",
+        "Yang X",
+        "Cheng X",
+        "et al."
+      ],
+      "title": "Optimized concurrent hearing and genetic screening in Beijing, China: A cross-sectional study",
+      "journal": "BST",
+      "year": "2023",
+      "volume": "17",
+      "fpage": "148",
+      "lpage": "59",
+      "doi": "10.5582/bst.2023.01051",
+      "pmid": "37062750"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26",
+      "authors": [
+        "Wu ZX",
+        "Liang LS",
+        "Yuan GL",
+        "et al."
+      ],
+      "title": "Frequency and penetrance of GJB2 c.109G>A homozygous mutation in newborns [In Chinese]",
+      "journal": "Gansu Med J",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "921",
+      "lpage": "2"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27",
+      "authors": [
+        "Chen Y",
+        "Wang Z",
+        "Jiang Y",
+        "et al."
+      ],
+      "title": "Biallelic p.V37I variant in GJB2 is associated with increasing incidence of hearing loss with age",
+      "journal": "Genet Med",
+      "year": "2022",
+      "volume": "24",
+      "fpage": "915",
+      "lpage": "23",
+      "doi": "10.1016/j.gim.2021.12.007",
+      "pmid": "35016843"
+    }
+  ]
+}

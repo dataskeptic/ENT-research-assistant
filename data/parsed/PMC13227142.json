@@ -1,0 +1,839 @@
+{
+  "metadata": {
+    "title": "ZBTB16 upregulation maintains copper homeostasis to support esophageal tumor progression",
+    "authors": [
+      "Jingyi Wang",
+      "Bin Yang",
+      "Shengzu Peng",
+      "Bin Yang"
+    ],
+    "journal": "Molecular Medicine Reports",
+    "year": "2026",
+    "doi": "10.3892/mmr.2026.13912",
+    "pmc_id": "PMC13227142",
+    "pmid": "42169636",
+    "full_text_available": true,
+    "section_count": 28,
+    "reference_count": 34
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Zinc finger and BTB domain-containing protein 16 (ZBTB16) plays diverse roles in a number of different cancer types, but its function and mechanism in esophageal cancer remain ambiguous. The present study was, to the best of our knowledge, the first demonstration that ZBTB16 was highly expressed in esophageal cancer tissues and cell lines. Knockdown of ZBTB16 significantly inhibited the proliferation and migration of esophageal cancer cells. Furthermore, ZBTB16 silencing increased the rate of cell death in esophageal cancer cells and induced mitochondrial membrane potential loss, intracellular copper accumulation and elevated oxidative stress. Mechanistically, knockdown of ZBTB16 downregulated the expression of ATPase copper-transporting α and ATPase copper-transporting β (ATP7B), while upregulating copper uptake protein 1 and ferredoxin. The present study further demonstrated that ZBTB16 knockdown increased the production of reactive oxygen species, which was partially rescued by ATP7B overexpression. In a mouse xenograft model of esophageal cancer, ZBTB16 knockdown markedly suppressed tumor growth, significantly reduced tumor weight and volume and notably altered the expression of cuproptosis-related proteins in vivo. Summarily, ZBTB16 promoted the development of esophageal cancer by regulating copper homeostasis and oxidative stress. Therefore, ZBTB16 may represent a potential therapeutic target for the treatment of esophageal cancer.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Esophageal cancer has one of the highest incidence rates human health; in 2020, the incidence rate was 13.7/100,000 people, and the mortality rate was 9.3 per 100,000 in China ( 1 , 2 ). Early invasive esophageal cancer can be treated by surgery combined with radiotherapy, while patients with locally advanced cancer can receive immunotherapy and targeted therapy in addition to radiotherapy ( 3 , 4 ). Although the application of prevention and screening techniques has enhanced the early diagnosis and treatment of patients with esophageal cancer, the characteristics of esophageal cancer progression result in unsatisfactory prognoses for numerous patients. These characteristics include: i) ambiguous pathogenesis; ii) late metastasis; and iii) late recurrence ( 5 , 6 ). Therefore, there is a notable need to explore new treatment methods. Copper is an important trace metal that plays notable roles in a number of cellular processes, such as mitochondrial respiration, antioxidant defense and enzymatic reactions ( 7 ). However, excessive intracellular copper can generate reactive oxygen species (ROS), damage mitochondria and trigger regulated cell-death programs ( 7 ). Recent studies have emphasized cuproptosis as a novel mode of cell death characterized by dependence on mitochondrial metabolism and protein lipoylation, which is distinct from apoptosis and ferroptosis ( 8 , 9 ). In esophageal squamous cell carcinoma, analyses have demonstrated the dysregulated expression of canonical cuproptosis-related genes, such as ferredoxin-1 (FDX11), dihydrolipoamide S-acetyltransferase (DLAT), pyruvate dehydrogenase E1 subunit α1 (PDHA1), lipoic acid synthetase (LIAS) and cyclin dependent kinase inhibitor 2A (CDKN2A), in tumors compared with normal esophageal tissue ( 10 – 12 ). Increased PDHA1 and CDKN2A levels and reduced LIAS expression have been associated with poorer prognosis ( 10 ). Copper transporters and regulators, including high affinity copper uptake protein 1 (CTR11), ATPase copper-transporting α (ATP7A), ATPase copper-transporting β (ATP7B) and mitochondrial factors such as FDX11, are key modulators of this process in that study ( 11 ). Despite the prognostic value of cuproptosis-related genes in esophageal cancer, upstream regulatory factors that coordinate this copper handling network remain poorly elucidated. A key mechanistic precedent for the present study originated from a study reported by Ko et al ( 13 ), which demonstrated that a hepatocytic isoform of zinc finger and BTB domain-containing protein 16 (ZBTB16) that lacks the BTB domain physically interacted with the C-terminal region of ATP7B, a copper-transporting P-type ATPase that is mutated in Wilson's disease pathogenesis. Using yeast two-hybrid and co-immunoprecipitation assays in HepG2 cells, the aforementioned study provided evidence of this interaction and further showed that ZBTB16 and ATP7B co-localized in the trans-Golgi network. Functionally, the interaction was found to enhance ERK signaling, an effect abolished upon deletion of the ATP7B C-terminus ( 12 ). Beyond this specific interaction, ZBTB16 has been implicated as a tumor suppressor in several cancers, including nasopharyngeal carcinoma and breast cancer, in which it inhibits cell proliferation, migration and epithelial-mesenchymal transition ( 13 , 14 ). The expression of ZBTB16 is inversely associated with multiple aggressive tumor phenotypes ( 15 , 16 ). Based on these insights, the present study aimed to investigate the role of ZBTB16 in esophageal cancer. The present study examined whether ZBTB16 serves as a tumor-promoting factor by maintaining copper homeostasis, thereby suppressing copper-dependent cytotoxicity.",
+      "order": 1
+    },
+    {
+      "section": "Patient Tissue Samples",
+      "text": "Human esophageal carcinoma tissues and paired adjacent normal tissues were collected from patients who underwent surgical resection at the Department of Thoracic Surgery at Shanxi Province Cancer Hospital (Taiyuan, China) between December 2023 and December 2024. The use of these tissues for research was approved by the Institutional Review Board of Shanxi Province Cancer Hospital (approval no. JC2023008). Written informed consent was obtained from all participants prior to surgery, and all procedures were conducted in accordance with the Declaration of Helsinki. A total of 30 pairs of frozen tissues were included in the present study. The tissues were stored at −80°C immediately after collection. The inclusion criteria were as follows: i) Age between 18 and 90 years; ii) histopathologically confirmed primary esophageal cancer by gastroscopy; iii) scheduled for radical esophagectomy without prior radiotherapy, chemotherapy or immunotherapy; and iv) no contraindications for surgery, with liver and kidney function as well as cardiopulmonary function meeting surgical requirements. The exclusion criteria were as follows: i) presence of other primary malignancies; ii) previous history of esophageal cancer surgery or recurrent esophageal cancer; iii) preoperative implantation of a cardiac pacemaker or arterial stent; iv) complications requiring emergency surgery, such as massive gastrointestinal bleeding or severe infection; and v) inability to cooperate with the study due to cognitive impairment or mental illness. The patient cohort consisted of 18 males and 12 females, with a mean age of 60.06±6.54 years and an age range of 43.00–79.00 years. According to the Tumor, Node and Metastasis staging system established by the American Joint Committee on Cancer and the Union for International Cancer Control (8th edition) ( 17 ), stage III tumors were identified in 20 patients and stage IV tumors were identified in 10 patients. Histopathological examinations of patient tumors determined that the samples included 24 cases of squamous cell carcinoma and 6 cases of adenocarcinoma; all tissue samples were immediately evaluated by a qualified pathologist after resection. The adjacent normal tissues excised from patients comprised histologically normal esophageal mucosa taken at least 5 cm away from the tumor edge.",
+      "order": 2
+    },
+    {
+      "section": "Cell Culture",
+      "text": "The human esophageal cell lines Het-1A, KYSE-30, KYSE-70, KYSE-150, KYSE-180, KYSE-450 and OE-19, which were previously authenticated by STR profiling, were cultured at 37°C in a humidified incubator with 5% CO 2 . Het-1A (cat. no. iCell-h333) and KYSE-450 (cat. no. iCell-h494) cells were obtained from CYBY (Shanghai) Biotechnology Co., Ltd.). The KYSE-30 (cat. no. CL-0577), KYSE-150 (cat. no. CL-0638), KYSE-180 (cat. no. CL-0760) and OE19 (cat. no. CL-0754) cell lines were purchased from Procell Life Science & Technology Co., Ltd. KYSE-70 cells (cat. no. YS1331C) were purchased from Shanghai Yaji Biotechnology Co., Ltd. All cancer cells were cultured in RPMI-1640 medium supplemented with 10% both FBS, 100 U/ml penicillin and 100 µg/ml streptomycin (all Gibco; Thermo Fisher Scientific, Inc.). The immortalized normal esophageal cell line Het-1A was cultured in DMEM/F-12 supplemented with 5 ng/ml epidermal growth factor (EGF; both Gibco; Thermo Fisher Scientific, Inc.) as well as 10% FBS, 100 U/ml penicillin and 100 µg/ml streptomycin. All cells were maintained at 37°C in a humidified incubator with 5% CO 2 .",
+      "order": 3
+    },
+    {
+      "section": "Construction Of Adenoviral Vectors",
+      "text": "Adenoviral vectors were constructed by Shanghai GenePharma Co., Ltd., as follows: Adenoviral vectors containing short hairpin (sh)RNA targeting ZBTB16 (Ad-sh-ZBTB16; cat. no. 250413FZ) and negative control (Ad-sh-NC; cat. no. B11YZ); adenoviral vectors for ZBTB16 overexpression (Ad-ZBTB16; cat. no. 250606HZ) and its negative control (Ad-NC-1; cat. no. F04KZ) and adenoviral vectors for ATP7B overexpression (Ad-ATP7B; cat. no. 250332FZ) and its negative control (Ad-NC-2; cat. no. D11TZ). The shRNA target sequences were as follows: ZBTB16 shRNA (TGTAAATGTCACCAAATGCAT); negative control shRNA, a scrambled sequence with no homology to any human gene (TTCTCCGAACGTGTCACGTAA). For overexpression, the full-length coding sequences of ZBTB16 and ATP7B were cloned into the adenoviral vectors. For viral packaging, the recombinant adenoviral plasmids were linearized and transfected into HEK293A cells (purchased from CL-0001, Wuhan City, China) using Lipofectamine 3000 (Thermo Fisher, USA). The adenoviral vectors used were generated using a 2nd generation system. Transfection was performed at 37°C for 6 h, after which the medium was replaced. A total of 10 µg plasmid DNA was used for transfection, and the ratio of viral plasmid to packaging and envelope plasmids was 1:1:1. Viral particles were harvested 48 h post-transfection by repeated freeze-thaw cycles, centrifuged at 10,000 × g at 4°C for 10 min to remove cell debris, and stored at −80°C until use. For transduction, KYSE-30 and KYSE-150 cells were seeded in 6-well plates and incubated overnight. Cells were transduced with the adenoviral vectors at a multiplicity of infection of 30 for 48 h. The time interval between transduction and subsequent experimentation was 48 h.",
+      "order": 4
+    },
+    {
+      "section": "Flow Cytometry",
+      "text": "The present study used an Annexin V-APC/7-AAD Apoptosis Detection Kit (SY0478, Beijing Baiao Bolai Biothech. Co.) to assess apoptosis in the KYSE-30 and OE-19 cell lines. KYSE-30 and OE-19 cells were seeded in 6-well plates overnight at 37°C and transfected with Ad-NC and Ad-sh-ZBTB16 for 48 h until the confluence of cells reached ~80%. Cells were co-transfection with Ad-sh-ZBTB16 and Ad-ATP7B at a multiplicity of infection (MOI) of 30 for 48 h. The transfection was performed at 37°C using a vector concentration of 10 8 PFU/ml. Cells were then incubated with 5 µl annexin V-APC and 5 µl 7-AAD for 15 min at room temperature in the dark, after which 400 µl binding buffer was added. Cells were treated with 4% paraformaldehyde for 10 min at room temperature before staining. The apoptosis rate of cells in each sample was measured using FACSCanto II flow cytometer (BD Biosciences) and analyzed via FlowJo software (version 10.8.1; Tree Star, Inc.).",
+      "order": 5
+    },
+    {
+      "section": "Reactive Oxygen Species (Ros) Assay",
+      "text": "The present study detected cellular ROS level using the ROS Assay Kit (S0033S; Beyotime Biotechnology). DCFH-DA was diluted in PBS, and the resulting dilution used for staining was 10 µM. KYSE-30 and OE-19 cells were seeded in 6-well plates overnight at 37°C and subsequently transfected with Ad-NC and Ad-sh-ZBTB16 or co-transfected with Ad-sh-ZBTB16 + Ad-ATP7B (at a 1:1 ratio, with a final concentration of 30 MOI for 48 h until the confluence of cells reached ~80%. Cells were collected and incubated with 10 µM DCFH-DA, at a density of 1×10 6 cells/ml for 20 min at 37°C, with gentle inversion performed every 5 min. Following this incubation, cells were washed three times with PBS to remove extracellular probes. Intracellular ROS levels were quantified by flow cytometry using a FACSCanto II flow cytometer (BD Biosciences) at an excitation wavelength of 488 nm and emission wavelength of 525 nm. Data were analyzed using FlowJo software (version 10.8.1; Tree Star, Inc.).",
+      "order": 6
+    },
+    {
+      "section": "One-Step Reverse Transcription-Quantitative Polymerase Chain Reaction (Rt-Qpcr)",
+      "text": "Total RNA was extracted from KYSE-30 and OE-19 cells or human tissue samples using TRIzol (Invitrogen; Thermo Fisher Scientific, Inc.) according to the manufacturer's instructions. One-step RT-qPCR was performed using the One Step SuperRT-PCR Mix Kit (cat. no. T2240; Beijing Solarbio Science & Technology Co., Ltd.). For each 25 µl reaction, the following components were combined: 5 µl 5X SuperRT OneStep Buffer, 0.5–1 µl each of the forward and reverse primers (stock concentration, 10 µM; final concentration, 0.2–0.4 µM), 1.5 µl enzyme mix that was provided in the RT kit, 0.5–2 µl RNA template and nuclease-free water to reach a final volume of 25 µl. Thermal cycling was conducted under the following conditions: Reverse transcription was performed at 50°C for 15 min, followed by an initial denaturation step at 95°C for 2.5 min. Subsequently, 40 cycles of amplification were conducted, each consisting of denaturation at 95°C for 20 sec, annealing at 55°C for 25 sec and extension at 72°C for 30 sec. A final extension step was performed at 72°C for 10 min, and the reactions were temporarily stored at 4°C until quantification. The relative expression levels of target genes were quantified using the 2 −ΔΔCq method ( 18 ), with GAPDH serving as the reference gene. The primers used in the present study are listed in Table I , with GAPDH serving as the reference gene.",
+      "order": 7
+    },
+    {
+      "section": "Nude Mouse Xenograft Tumor Model",
+      "text": "Male BALB/c nude mice (20–22 g) aged 6 weeks were purchased from Shandong Aimo Dakang Life Science Co., Ltd ( http://amdocbio.com/article/list/12.html ). All mice (n=10) were housed under specific pathogen-free conditions with controlled humidity (40–70%), temperature (20–22°C) and a 12/12-h light/dark cycle, and had free access to food and water. OE-19 cells were stably transfected with either Ad-NC or Ad-ZBTB16 at 37°C for 48 h and cultured to the logarithmic growth phase. Cells were then harvested and resuspended in a 1:1 mixture of PBS and Matrigel (resulting in a final Matrigel concentration of 50%). Each mouse was subcutaneously inoculated in the right flank with 2×10 6 cells in 100 µl suspension. Mice were randomly assigned to either the Ad-NC or Ad-ZBTB16 group (n=5/group) according to the cell type mice were inoculated with. Tumor size was measured every 3 days using a caliper, and the health and behavior of mice were monitored daily. Tumor volume was calculated using the formula: Volume=(axb 2 )/2 (where a represents the longest diameter of the tumor and b represents the shortest diameter perpendicular to a). Throughout the study, humane endpoints were strictly observed, including: i) A maximum tumor burden of 1,500 mm 3 ; ii) >20% body weight loss; and iii) behavioral signs of distress, such as severe lethargy or the inability to reach food and water. No analgesics or anesthetics were administered post-inoculation as the xenograft model used was minimally invasive and does not typically induce persistent pain ( 19 ); no mice required intervention was required. Additionally, no mice reached the humane endpoints established in the present study and no mice died prior to the experimental endpoint. The in vivo xenograft experiment was conducted over a 14-day period, at the end of which all mice were euthanized. Euthanasia was performed using a two-step method to ensure that mice were sacrificed ethically and effectively ( 18 ): i) The primary method of euthanasia was performed via controlled CO 2 inhalation at a displacement rate of 30% chamber volume/min to minimize distress. ii) The secondary method of euthanasia consisted of cervical dislocation following the loss of consciousness and respiration in mice. Death was confirmed by the absence of heartbeat and respiration for at least 3 min. Subsequently, tumors were excised, and their volume and mass were measured. The present study was approved by the Ethics Committee of Shanxi Province Cancer Hospital (approval no. JC2023028). All animal experiments were conducted in accordance with the Animal Research: Reporting In Vivo Experiments guidelines ( 20 ) and the Replacement, Reduction and Refinement principle for the use of experimental animals.",
+      "order": 8
+    },
+    {
+      "section": "Western Blot Analysis",
+      "text": "Nude mouse tumor tissue, human tissue samples and esophageal cancer cell lines (KYSE-30, KYSE-150 and OE-19) were lysed with RIPA lysis buffer (cat. no. P0013B; Beyotime Biotechnology); lysed cell contents were centrifuged at 12,000 × g for 10 min at 4°C and the supernatant was collected. Protein concentrations were quantified using the BCA Protein Concentration Assay Kit. Subsequently, 20 µg of protein/lane was separated via 12% SDS-PAGE and proteins were transferred onto a PVDF membrane, which was then blocked with 8% skim milk powder at room temperature for 1 h. The PVDF membranes were washed twice with PBS and incubated with the following primary antibodies overnight at 4°C: ATP7A (ab131400, 1:1,000; Abcam, UK), ATP7B (ab124973, 1:1,000; Abcam, UK), CTR1 (ab317432, 1:1,000; Abcam, UK), FDX1 (ab108257, 1:1,000; Abcam) and β-actin (ab6276, 1:5,000; Abcam, UK), GAPDH (ab181602, 1:5,000; Abcam). Membranes were blocked with 5% BSA (Sigma-Aldrich, B-4285) in TBST at room temperature for 2 h. All primary antibody incubations were performed overnight at 4°C and all secondary antibody incubations were performed at room temperature for 2 h. The membranes were washed 3 times with PBS supplemented with 0.1% Tween-20 and subsequently incubated with HRP-labelled goat anti-rabbit IgG (1:5,000; Beyotime Biotechnology) for 2 h at room temperature. The present study detected final protein expression using the BeyoECL Star kit (cat. no. P0018S; Beyotime Biotechnology) and results were semi-quantified using ImageJ (version 1.53; National Institutes of Health). GAPDH and β-actin were used as internal references.",
+      "order": 9
+    },
+    {
+      "section": "Intracellular Superoxide Dismutase (Sod), Reduced Glutathione (Gsh) And Malondialdehyde (Mda) Assays",
+      "text": "KYSE-30 and OE-19 cells were seeded in 6-well plates at a density of 2×10 5 cells per well overnight at 37°C and transfected with Ad-NC and Ad-sh-ZBTB16 for 48 h at 37°C until confluency reached ~80%. Following transfection, cells were washed twice with PBS (Beyotime Biotechnology), collected by centrifugation at 1,000 × g for 5 min at 4°C and lysed in SOD sample preparation solution (S0101S), RIPA lysis buffer (P0013B), Protein removal reagent M solution (S0053) according to the manufacturer's instructions (Beyotime Biotechnology). The intracellular levels of SOD, MDA and GSH were quantified using SOD (cat. no. S0101S), MDA (S0131S) and GSH (S0053) kits, which were purchased from Beyotime Biotechnology and used according to the manufacturer's instructions. Data were analyzed using GraphPad Prism (version 9.0; GraphPad Software, Inc.).",
+      "order": 10
+    },
+    {
+      "section": "Jc-1 Staining",
+      "text": "KYSE-30 and OE-19 cells in the logarithmic growth phase were seeded into 96-well plates at a density of 5×10 4 cells per well in RPMI-1640 medium supplemented with 10% FBS. Following incubation at 37°C for 48 h, cells were transfected with Ad-NC and Ad-sh-ZBTB16 at 30 MOI. Subsequently, the culture medium was discarded and cells were rinsed twice with PBS. Cells were incubated with 200 µl JC-1 working solution (1:1,000; Mitochondrial Membrane Potential Detection Kit; Beyotime Biotechnology) for 15 min at 37°C in the dark. Following this incubation, cells were rinsed twice with PBS and subsequently observed and photographed under a fluorescence microscope (BZ-X800; Keyence Corporation). The JC-1 working solution was prepared from the Mitochondrial Membrane Potential Assay Kit (JC-1; cat. no. C2006; Beyotime Biotechnology) according to the manufacturer's instructions.",
+      "order": 11
+    },
+    {
+      "section": "Detection Of Intracellular Cu +",
+      "text": "KYSE-30 and OE-19 cells in the logarithmic growth phase were seeded into 96-well plates at a density of 5×10 7 cells/l. After 48 h transfection with Ad-NC and Ad-sh-ZBTB16 or co-transfected with Ad-sh-ZBTB16 + Ad-ATP7B at 30 MOI, the culture medium was discarded and cells were washed three times with serum-free medium. Subsequently, intracellular Cu + was detected using the fluorescent probe Copper Fluor-4 (cat. no. HY-150086; MedChemExpress); cells were incubated with 0.8 µM Copper Fluor-4 diluted in serum-free RPMI-1640 medium for 10 min at 37°C in the dark. Cells were washed twice with PBS to remove unbound probe and subsequently visualized using a fluorescence microscope (BZ-X800; Keyence Corporation). Images were analyzed using ImageJ software (version 1.53; National Institutes of Health).",
+      "order": 12
+    },
+    {
+      "section": "Edu Staining",
+      "text": "KYSE-30 and OE-19 cells were seeded in 6-well plates at a density of 2×105 cells per well overnight at 37°C and subsequently transfected with Ad-NC and Ad-sh-ZBTB16 or co-transfected with Ad-sh-ZBTB16 + Ad-ATP7B at 30 MOI for 48 h at 37°C until the confluence of the cell monolayer reached ~80%. After 48 h of incubation, 50 µM EdU working solution (1:1,000; EdU Staining Proliferation Kit, cat. no. C0078S; Beyotime Biotechnology) was added to each well and cells were incubated for a further 2 h at 37°C. Cells were then fixed with 4% paraformaldehyde for 15 min at room temperature, followed by permeabilization with 0.3% Triton X-100 in PBS for 10 min at room temperature. After fixation and permeabilization, cells were incubated with 200 µl 1X DAPI in the dark for 10 min at room temperature. Cells were subsequently detected using a fluorescence microscope and images were captured. Image analysis was performed using ImageJ software (version 1.53; National Institutes of Health).",
+      "order": 13
+    },
+    {
+      "section": "Wound Healing Assay",
+      "text": "KYSE-30 and OE-19 cells were seeded in 6-well plates overnight at 37°C, and once the confluence of the cell monolayer reached >90%, the cells were scored with a 20 µl pipette tip. Cells were washed with PBS and subsequently transfected with Ad-NC and Ad-sh-ZBTB16 at 30 MOI for 48 h. At 0 and 24 h post-transfection, cells were observed and photographed using an inverted microscope (Olympus Soft Imaging Solutions GmbH). Wound healing was quantified by measuring the remaining wound area using ImageJ and the percentage of wound closure was calculated relative to the 0 h time point.",
+      "order": 14
+    },
+    {
+      "section": "Transwell Assay",
+      "text": "KYSE-30 and OE-19 cells in the logarithmic growth phase were collected and resuspended in serum-free Hulman's Modified Eagle Medium (HMEM, Gibco; Thermo Fisher Scientific, Inc.). A total of 2×10 5 cells (100 µl/well) were added to the upper chamber of Transwell plates, and 600 µl HMEM culture medium containing 10% FBS was added to the lower chamber. Cells were incubated in Transwell plates (24-well plates, 8-µm pore size) for 24 h, and after that the upper chamber was transfected with Ad-NC and Ad-sh-ZBTB16 at 30 MOI for another 24 h. Subsequently, cells were removed from the upper chamber with a cotton swab, and cells in the lower chamber were rinsed with PBS. After rinsing with PBS, cells from the lower chamber were fixed in 4% paraformaldehyde (Beyotime Biotechnology) for 10 min at room temperature and stained with crystal violet for 5 min at room temperature. Cells were subsequently washed with water and five fields of view were randomly selected for observation under an inverted microscope; the number of migrating cells was counted for each field of view using ImageJ software (version 1.53; National Institutes of Health).",
+      "order": 15
+    },
+    {
+      "section": "Rescue Experiment With Cell Death Inhibitors",
+      "text": "Following 24 h of adenoviral transfection with Ad-sh-ZBTB16 and Ad-NC performed at 37°C as aforementioned, KYSE-30 and OE-19 cells were treated with the following inhibitors for 24 h at 37°C: Tetrathiomolybdate (HY-128530, TTM; 10 µM; MedChemExpress), Z-Val-Ala-Asp(OMe)-FMK (Z-VAD-FMK; HY-16658B, 20 µM; MedChemExpress), necrostatin-1 (HY-15760, Nec-1; 10 µM; MedChemExpress), ferrostatin-1 (HY-100579, Fer-1; 1 µM; MedChemExpress) and 3-methyladenine (cat. no. HY-19312, 3-MA; 5 mM; MedChemExpress). Following treatment with the aforementioned inhibitors, cell viability was assessed via Cell Counting Kit-8 assay (HY-K0301, MedChemExpress) according to the manufacturer's instructions.",
+      "order": 16
+    },
+    {
+      "section": "Hematoxylin And Eosin (H&E) Staining",
+      "text": "Tumor tissue samples from nude mice were fixed overnight in 4% paraformaldehyde solution (Beijing Solarbio Science & Technology Co., Ltd.) at 4°C. Tissues were treated with a series of increasing concentrations of alcohol (70, 80, 95 and 100%) to dehydrate the tissues. Xylene was used to clear the tissues, which made them suitable for embedding in paraffin, after which they were cut into 5 µm sections. The sections were then deparaffinized in xylene and rehydrated through a series of decreasing concentrations of alcohol. Nuclei were stained with hematoxylin and the cytoplasm was stained with eosin for 5 min at room temperature (Beijing Solarbio Science & Technology Co., Ltd.) according to the manufacturer's instructions. Sections were dehydrated again, cleared with xylene, mounted and observed under a light microscope (Olympus Soft Imaging Solutions GmbH). No blocking step was performed in this H&E staining protocol.",
+      "order": 17
+    },
+    {
+      "section": "Immunohistochemistry (Ihc)",
+      "text": "Mouse tissue sections (5 µm) were prepared according to the aforementioned H&E staining protocol. Antigen retrieval was performed by heating in citrate buffer at 95°C for 30 min. To block endogenous peroxidase activity, sections were incubated with 3% H2O2 at room temperature for 10 min. Non-specific binding sites were blocked with 5% bovine serum albumin (Thermo Fisher Scientific, Inc.) to prevent non-specific binding of the primary antibody. Tissue sections were incubated with primary antibodies against ATP7B (ab124973, 1:1,000; Abcam). ATP7B was selected for IHC because a hepatocytic isoform of ZBTB16 directly interacts with the C-terminal region of ATP7B ( 21 ). at 4°C overnight. Sections were washed with PBS to remove unbound primary antibodies. Sections were incubated with goat anti-rabbit IgG conjugated to biotin (SE064; Beijing Solarbio Science & Technology Co., Ltd.; diluted at 1:500) at room temperature for ~1 h. Following another wash with PBS, a DAB substrate kit (DA1010, Beijing Solarbio Science & Technology Co., Ltd.) was used according to the manufacturer's protocol. Nuclei were stained with hematoxylin at room temperature (Beijing Solarbio Science & Technology Co., Ltd.) for 5 min and tissues were subsequently mounted on slides for observation under a light microscope (Olympus Soft Imaging Solutions GmbH). Images were analyzed using ImageJ software (version 1.53, National Institutes of Health, USA).",
+      "order": 18
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "All data were statistically analyzed using SPSS 17.0 software (SPSS, Inc.) and expressed as mean ± SD of at least three independent experiments. Comparisons between two groups were performed via unpaired Student's t-test, while comparisons between multiple groups were conducted via one-way ANOVA followed by Tukey's post hoc test. P<0.05 was considered to indicate a statistically significant difference.",
+      "order": 19
+    },
+    {
+      "section": "Zbtb16 Is Upregulated In Esophageal Cancer Cell Lines And Tissues",
+      "text": "To investigate the potential role of ZBTB16 in esophageal cancer, the present study first examined its expression levels across various esophageal cell lines. The mRNA expression of ZBTB16 was significantly elevated in a panel of esophageal cancer cell lines, including KYSE-30, KYSE-70, KYSE-150, KYSE-180, KYSE-450 and OE-19 cells, compared with the immortalized normal esophageal epithelial cell line Het-1A ( Fig. 1A ). Parallel to the observed upregulation of ZBTB16 mRNA, the protein expression of ZBTB16 was significantly elevated in the esophageal cancer cell lines KYSE-150, KYSE-180, KYSE-450, KYSE-30 and OE-19 compared with the normal Het-1A cell line ( Fig. 1B ). To evaluate the clinical relevance of this upregulation, ZBTB16 transcript levels were analyzed in patient samples; the present study found that ZBTB16 mRNA levels were also significantly elevated in human esophageal tumor tissues compared with paired adjacent normal tissues ( Fig. 1C ). Furthermore, this upregulation of ZBTB16 was supported at the protein level, as western blotting demonstrated a significant increase in ZBTB16 protein expression in tumor tissues compared with adjacent normal counterparts ( Fig. 1D ). Collectively, these results indicated that ZBTB16 was upregulated in esophageal cancer at both the transcriptional and translational levels.",
+      "order": 20
+    },
+    {
+      "section": "Knockdown Of Zbtb16 Inhibits The Migration And Proliferation Of Esophageal Cancer Cells",
+      "text": "The present study further analyzed the effects of ZBTB16 on the malignant proliferation and migration of esophageal cancer cells. To this end, KYSE-30 and OE-19 cells were transfected with Ad-sh-ZBTB16 and Ad-sh-NC. Western blot analysis provided evidence that transfection with Ad-sh-ZBTB16 significantly reduced ZBTB16 protein expression in both cell lines ( Fig. 2A and B ). Wound healing assays demonstrated that ZBTB16 knockdown significantly reduced the wound healing rates of KYSE-30 and OE-19 cells compared with their respective control groups ( Fig. 2C and D ). Furthermore, Transwell assays revealed that the migration rates of KYSE-30 and OE-19 cells significantly decreased upon knockdown of ZBTB16 compared with cells transfected with negative control vectors ( Fig. 2E and F ). The present study also measured the effect of ZBTB16 knockdown on the proliferation of esophageal cancer cells via EdU staining. The ZBTB16 knockdown group demonstrated a notable reduction in EdU signals in KYSE-30 and OE-19 cells compared with the control group, indicating that cell proliferation was markedly inhibited upon ZBTB16 silencing ( Fig. 2G and H ).",
+      "order": 21
+    },
+    {
+      "section": "Zbtb16 Modulates The Expression Of Key Cuproptosis-Related Genes In Esophageal Cancer Cells",
+      "text": "As a hepatocytic isoform of ZBTB16 directly interacts with the C-terminal region of ATP7B ( 22 ), and considering the central role of ATP7B in the regulation of Golgi-dependent copper homeostasis ( 23 ), the present study hypothesized that ZBTB16 may have been involved in modulating copper metabolism-related signaling pathways. To test this hypothesis, ZBTB16 overexpression and knockdown models were established in the human esophageal cancer cell lines KYSE-30 and OE-19. Transfection with Ad-ZBTB16 significantly increased ZBTB16 protein levels in both KYSE-30 and OE-19 cells compared with the Ad-NC1 control group ( Fig. 3A and B ). The present study subsequently quantified transcriptional changes in key cuproptosis-related genes via RT-qPCR, including ATP7A, ATP7B, CTR1 and FDX1. In both cell lines, overexpression of ZBTB16 significantly upregulated the mRNA levels of ATP7A and ATP7B, while significantly downregulating CTR11 and FDX1 expression compared with the control groups ( Fig. 3C and D ). Conversely, knockdown of ZBTB16 resulted in significant decreases in the expression of ATP7B and FDX1, accompanied by a significant increase in CTR1 transcript levels in both cell lines compared with the control groups ( Fig. 3E and F ). Notably, the observed decrease in ATP7A mRNA expression following ZBTB16 knockdown was only significant in the KYSE-30 cell line. By contrast, DLAT mRNA levels demonstrated no significant changes following ZBTB16 overexpression or knockdown ( Fig. 3C-F ).",
+      "order": 22
+    },
+    {
+      "section": "Knockdown Of Zbtb16 Induces Cell Death And Copper Accumulation In Esophageal Cancer Cells",
+      "text": "To evaluate the biological effects of ZBTB16 loss, the present study established ZBTB16-knockdown models in KYSE-30 and OE-19 cells. Apoptotic analysis revealed a significant increase in programmed cell death in both cell lines following ZBTB16 knockdown ( Fig. 4A and B ). Furthermore, the present study examined mitochondrial membrane potential in esophageal cancer cells via JC-1 staining. The control group for each cell line exhibited notable JC-1 aggregation, whereas ZBTB16-knockdown cells demonstrated a marked increase in JC-1 monomers and decrease in JC-1 polymers compared with the control groups; these changes indicated that ZBTB16 knockdown induced notable mitochondrial depolarization ( Fig. 4C and D ). Fluorescence staining using the copper-specific probe Copper Fluor-4 demonstrated a significant increase in intracellular Cu + levels in KYSE-30 and OE-19 cells following ZBTB16 knockdown ( Fig. 4E and F ). Analysis of oxidative stress markers indicated that ZBTB16 depletion significantly elevated MDA content and decreased GSH levels in both cell lines compared with the control groups ( Fig. 4G and H ). Together, these findings suggested that ZBTB16 knockdown promoted cell death and induced mitochondrial impairment, copper ion accumulation and elevated oxidative stress in esophageal cancer cells.",
+      "order": 23
+    },
+    {
+      "section": "Knockdown Of Zbtb16 Activates The Expression Of Cuproptosis-Related Signaling Molecules",
+      "text": "To definitively rule out the contribution of other major cell death pathways and support the specificity of cuproptosis, the present study conducted a rescue experiment using a panel of well-established cell death inhibitors, including TTM, Z-VAD-FMK, Nec-1, Fer-1 and 3-MA. As demonstrated in Fig. 5A and B , the significant loss of cell viability induced by ZBTB16 knockdown was significantly reversed by the administration of TTM, a specific copper chelator and cuproptosis inhibitor. Notably, inhibitors targeting other prominent forms of cell death, including apoptosis, necroptosis, ferroptosis and autophagy, did not significantly mitigate the effects of ZBTB16 knockdown on cell viability. This experiment provided direct evidence that the mode of cell death triggered by ZBTB16 deficiency was dependent on copper availability and the cuproptosis pathway, effectively ruling out other cell death mechanisms as primary contributors to the aforementioned decrease in cell viability. Subsequently, the present study investigated the effects of ZBTB16 silencing on the expression of key molecules involved in cuproptotic signaling. In both KYSE-30 and OE-19 cells, knockdown of ZBTB16 significantly reduced the protein levels of ATP7A and ATP7B, while significantly increasing the expression of CTR1 and FDX1 ( Fig. 5C and D ). Additionally, the present study established a model of concurrent ATP7B overexpression and ZBTB16 knockdown in KYSE-30 and OE-19 cells to examine whether ATP7B overexpression reversed the significant elevation of ROS levels induced by ZBTB16 knockdown ( Fig. 5E and F ). Flow cytometry demonstrated that the increase in ROS production induced by ZBTB16 knockdown was partially yet significantly rescued by ATP7B overexpression in KYSE-30 and OE-19 cells ( Fig. 5E and F ).",
+      "order": 24
+    },
+    {
+      "section": "Atp7B Overexpression Reverses Zbtb16 Knockdown-Induced Copper Accumulation And Cell Death",
+      "text": "In order to test whether ATP7B rescued the effects of ZBTB16 knockdown on intracellular copper accumulation and cell death, ATP7B overexpression experiments were performed on KYSE-30 and OE-19 cells previously transfected with Ad-sh-ZBTB16. As shown in Fig. 6A and B , transfection with Ad-ATP7B significantly increased ATP7B protein levels in both cell lines compared with control treatments. However, co-transfection with Ad-sh-ZBTB16 resulted in no significant differences in ATP7B expression compared with ATP7B overexpression alone. Following ZBTB16 knockdown, both KYSE-30 and OE-19 cells exhibited significant increases in intracellular copper levels; however, simultaneous ATP7B overexpression significantly reversed this copper accumulation to levels comparable with those in control cells ( Fig. 6C and D ). Furthermore, ZBTB16 knockdown led to significantly increased cell death rates in both cell lines, whereas co-treatment with Ad-ATP7B significantly attenuated the effects of ZBTB16 knockdown on esophageal cancer cell death ( Fig. 6E and F ). In conjunction, these results indicated that ATP7B overexpression counteracted the deleterious effects induced by ZBTB16 deficiency, reducing copper accumulation and protecting cells from copper-dependent cytotoxicity.",
+      "order": 25
+    },
+    {
+      "section": "Zbtb16 Knockdown Suppresses Tumor Growth And Modulates Copper Transporter Expression In Vivo",
+      "text": "In vivo experiments were performed to validate whether knockdown of ZBTB16 suppressed tumor growth in nude mouse xenograft models. Following the establishment of xenograft tumors, ZBTB16 knockdown was shown to significantly reduce both tumor volume and weight compared with the control group. No significant difference in body weight was observed between the control and ZBTB16-knockdown groups ( Fig. 7A and B ). Tumors from the ZBTB16-knockdown group displayed significantly elevated levels of MDA and Fe 2+ compared with control tumors ( Fig. 7C and D ), whereas GSH content significantly decreased following ZBTB16 knockdown ( Fig. 7E ). Histological examinations via H&E staining revealed that tumor tissues in control mice maintained regular and intact morphology, but that tumors from the ZBTB16 knockdown group exhibited disordered cellular architecture ( Fig. 7F ). Analysis of tumor tissues via IHC showed that ZBTB16 knockdown led to a significant reduction in ATP7B expression compared with the control group ( Fig. 7G ). Furthermore, western blotting of xenograft tumor tissues demonstrated that knockdown of ZBTB16 significantly inhibited ATP7B expression, and concomitantly increased the levels of CTR1 and FDX1 in tumor tissues by a statistically significant degree ( Fig. 7H ). These results were consistent with the findings of the aforementioned in vitro experiments.",
+      "order": 26
+    },
+    {
+      "section": "Discussion",
+      "text": "The present study identified ZBTB16 as a novel regulator of copper homeostasis in esophageal cancer and linked the dysregulation of ZBTB16 expression to copper-dependent oxidative stress and cell death. The present study demonstrated that ZBTB16 was significantly upregulated in primary esophageal cancer tumors as well as multiple esophageal cancer cell lines. Additionally, the present study demonstrated that functional depletion of ZBTB16 suppressed proliferation and migration in vitro and restrained xenograft growth in vivo. Mechanistically, ZBTB16 knockdown remodeled the copper-handling network, reducing ATP7A and ATP7B expression while upregulating CTR1 and FDX1; this resulted in intracellular copper accumulation, mitochondrial depolarization, elevated ROS and MDA levels and decreased GSH levels. Notably, restoring ATP7B expression partially reversed the effects of ZBTB16 knockdown on copper accumulation, ROS production and apoptosis, indicating that the ZBTB16/ATP7B axis represented a key copper efflux thereby regulating cuproptosis in esophageal cancer. These findings integrated well with established mechanisms of copper homeostasis, notably that CTR1 mediates high-affinity copper import while ATP7A and ATP7B drive copper export and compartmentalization to prevent toxicity ( 24 ). ZBTB16 is a broad-complex, tramtrack and bric-à-brac domain-containing zinc finger transcription factor that exhibits context-dependent roles in cancer biology ( 25 ). Prior research has demonstrated that ZBTB16 exhibits both tumor-suppressive and pro-survival activities depending on cell lineage and ZBTB16 isoform usage ( 25 , 26 ). The data obtained in the present study indicated that ZBTB16 expression was elevated in esophageal cancer and supported tumor cell fitness, thus exerting an oncogenic role in this context. Notably, a hepatocytic ZBTB16 isoform lacking the BTB domain has been shown to physically interact with the C-terminus of ATP7B and co-localize with ATP7B in the trans-Golgi network ( 26 ), offering a plausible molecular bridge by which ZBTB16 influences copper export. Copper is an important but potentially toxic biomolecule; cells maintain tight control of copper homeostasis via CTR11-mediated uptake and ATP7A- and ATP7B-mediated trafficking and efflux of copper ions ( 27 , 28 ). By upregulating ATP7A and ATP7B and downregulating CTR1, ZBTB16 biased the cellular network of copper homeostasis towards lower intracellular copper levels, therefore limiting copper-driven oxidative stress. Concomitant downregulation of FDX1 by ZBTB16 may have further reduced cell susceptibility to cuproptosis, which is a regulated cell-death program triggered when copper binds to lipoylated tricarboxylic acid cycle enzymes such as DLAT, promoting their aggregation and increasing proteotoxic stress ( 29 , 30 ). FDX1 functions upstream of this pathway and is required for copper-dependent cell death; as such, the loss of functional FDX1 confers resistance to cuproptosis ( 30 ). Therefore, the downregulation of ATP7A and ATP7B and upregulation CTR11 and FDX11 induced by ZBTB16 deficiency created a cuprotoxic environment that resulted in copper accumulation, mitochondrial depolarization and heightened oxidative injury. The present study demonstrated that ZBTB16 knockdown induced copper accumulation and increased oxidative stress in esophageal cancer cells, and that these changes were partially rescued by ATP7B overexpression; this strongly indicated that ZBTB16 knockdown-induced effects were caused by perturbed copper handling rather than a non-specific stress response. While ROS bursts and changes in MDA and GSH levels are not unique to cuproptosis, the coordinated shifts in protein expression, copper overload, mitochondrial depolarization and ATP7B-mediated rescue of the tumoral phenotype observed in the present study collectively indicated that ZBTB16 knockdown induced copper-driven cytotoxicity in a manner consistent with cuproptosis-like mechanisms ( 31 , 32 ). To classify the ZBTB16-regulated pathway as a cuproptotic mechanism, future studies should establishing orthogonal hallmarks, for example, testing cytotoxic dependence on FDX1, monitoring lipoylated DLAT oligomerization and assessing cellular sensitivity to copper chelation or ionophore perturbations, as these concepts have only been predicted by the current cuproptosis framework ( 33 , 34 ). In xenograft experiments, ZBTB16 knockdown reduced tumor burden without affecting host body weight and reproduced the molecular signature observed in vitro : ATP7B suppression with concomitant increases in CTR1 and FDX1 expression. These data suggested that tumor-intrinsic ZBTB16 increased tumor volume, at least in part, by enforcing copper efflux and dampening copper-dependent toxicity. The present study supported a model in which ZBTB16 promoted esophageal cancer cell proliferation and tumor growth ( in vivo ) by safeguarding copper homeostasis; this was achieved by upregulating ATP7A and ATP7B and inhibiting the expression CTR1 and FDX1, therefore restraining copper-dependent cytotoxicity. These results suggested that measuring ZBTB16 expression in patient tumors could provide important prognostic insights and help to identify patients that are susceptible to therapies that induce oxidative or copper-mediated stress.",
+      "order": 27
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "b1-mmr-34-1-13912",
+      "label": "1",
+      "authors": [
+        "Zhu H",
+        "Ma X",
+        "Ye T",
+        "Wang H",
+        "Wang Z",
+        "Liu Q",
+        "Zhao K"
+      ],
+      "title": "Esophageal cancer in China: Practice and research in the new era",
+      "journal": "Int J Cancer",
+      "year": "2023",
+      "volume": "152",
+      "fpage": "1741",
+      "lpage": "1751",
+      "doi": "10.1002/ijc.34301",
+      "pmid": "36151861"
+    },
+    {
+      "ref_id": "b2-mmr-34-1-13912",
+      "label": "2",
+      "authors": [
+        "Lander S",
+        "Lander E",
+        "Gibson MK"
+      ],
+      "title": "Esophageal cancer: Overview, risk factors, and reasons for the rise",
+      "journal": "Curr Gastroenterol Rep",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "275",
+      "lpage": "279",
+      "doi": "10.1007/s11894-023-00899-0",
+      "pmid": "37812328"
+    },
+    {
+      "ref_id": "b3-mmr-34-1-13912",
+      "label": "3",
+      "authors": [
+        "Eisner DC"
+      ],
+      "title": "Esophageal cancer: Treatment advances and need for screening",
+      "journal": "JAAPA",
+      "year": "2024",
+      "volume": "37",
+      "fpage": "19",
+      "lpage": "24",
+      "doi": "10.1097/01.JAA.0001007328.84376.da",
+      "pmid": "38484297"
+    },
+    {
+      "ref_id": "b4-mmr-34-1-13912",
+      "label": "4",
+      "authors": [
+        "Sakanaka K"
+      ],
+      "title": "Treatment strategy for early-stage esophageal cancer",
+      "journal": "Jpn J Radiol",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "677",
+      "lpage": "684",
+      "doi": "10.1007/s11604-024-01547-x",
+      "pmid": "38485881",
+      "pmc_id": "PMC11217109"
+    },
+    {
+      "ref_id": "b5-mmr-34-1-13912",
+      "label": "5",
+      "authors": [
+        "Wei MT",
+        "Friedland S"
+      ],
+      "title": "Early esophageal cancer: What the gastroenterologist needs to know",
+      "journal": "Gastroenterol Clin North Am",
+      "year": "2021",
+      "volume": "50",
+      "fpage": "791",
+      "lpage": "808",
+      "doi": "10.1016/j.gtc.2021.07.004",
+      "pmid": "34717871"
+    },
+    {
+      "ref_id": "b6-mmr-34-1-13912",
+      "label": "6",
+      "authors": [
+        "Mwachiro M",
+        "White R"
+      ],
+      "title": "Management of esophageal cancer treatment in Resource-limited settings",
+      "journal": "Thorac Surg Clin",
+      "year": "2022",
+      "volume": "32",
+      "fpage": "397",
+      "lpage": "404",
+      "doi": "10.1016/j.thorsurg.2022.04.007",
+      "pmid": "35961747"
+    },
+    {
+      "ref_id": "b7-mmr-34-1-13912",
+      "label": "7",
+      "authors": [
+        "Chen L",
+        "Min J",
+        "Wang F"
+      ],
+      "title": "Copper homeostasis and cuproptosis in health and disease",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2022",
+      "volume": "7",
+      "fpage": "378",
+      "doi": "10.1038/s41392-022-01229-y",
+      "pmid": "36414625",
+      "pmc_id": "PMC9681860"
+    },
+    {
+      "ref_id": "b8-mmr-34-1-13912",
+      "label": "8",
+      "authors": [
+        "Tian Z",
+        "Jiang S",
+        "Zhou J",
+        "Zhang W"
+      ],
+      "title": "Copper homeostasis and cuproptosis in mitochondria",
+      "journal": "Life Sci",
+      "year": "2023",
+      "volume": "334",
+      "fpage": "122223",
+      "doi": "10.1016/j.lfs.2023.122223",
+      "pmid": "38084674"
+    },
+    {
+      "ref_id": "b9-mmr-34-1-13912",
+      "label": "9",
+      "authors": [
+        "Wang W",
+        "Lu K",
+        "Jiang X",
+        "Wei Q",
+        "Zhu L",
+        "Wang X",
+        "Jin H",
+        "Feng L"
+      ],
+      "title": "Ferroptosis inducers enhanced cuproptosis induced by copper ionophores in primary liver cancer",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2023",
+      "volume": "42",
+      "fpage": "142",
+      "doi": "10.1186/s13046-023-02720-2",
+      "pmid": "37277863",
+      "pmc_id": "PMC10242978"
+    },
+    {
+      "ref_id": "b10-mmr-34-1-13912",
+      "label": "10",
+      "authors": [
+        "Wu Z",
+        "Huang Z",
+        "Zhou X",
+        "Gao C",
+        "Peng Z",
+        "Zheng X",
+        "Zhang Y",
+        "Du Z",
+        "Wu B"
+      ],
+      "title": "Comprehensive analysis of cuproptosis genes and cuproptosis-related genes as prognosis factors in esophageal squamous cell carcinoma",
+      "journal": "Genomics",
+      "year": "2023",
+      "volume": "115",
+      "fpage": "110732",
+      "doi": "10.1016/j.ygeno.2023.110732",
+      "pmid": "37866660"
+    },
+    {
+      "ref_id": "b11-mmr-34-1-13912",
+      "label": "11",
+      "authors": [
+        "Li L",
+        "Wang Y",
+        "Tian R",
+        "Yang T",
+        "Liu Y",
+        "Shan B",
+        "Zhao L"
+      ],
+      "title": "TRIM21-Mediated K11-linked Ubiquitination of ID1 suppresses tumorigenesis and promotes cuproptosis in esophageal squamous cell carcinoma",
+      "journal": "Adv Sci (Weinh)",
+      "year": "2025",
+      "volume": "12",
+      "fpage": "e02501",
+      "doi": "10.1002/advs.202502501",
+      "pmid": "40652518",
+      "pmc_id": "PMC12462935"
+    },
+    {
+      "ref_id": "b12-mmr-34-1-13912",
+      "label": "12",
+      "authors": [
+        "Feng A",
+        "He L",
+        "Li Z",
+        "Wang Z",
+        "Sun M",
+        "Zhao Z",
+        "Zhang Z",
+        "Fang K",
+        "Wu H",
+        "Wang X",
+        "et al."
+      ],
+      "title": "TRIM21 promotes K63-linked ubiquitination of ALKBH5 and suppresses cuproptosis via down-regulation of LIAS in esophageal squamous cell carcinoma",
+      "journal": "Commun Biol",
+      "year": "2025",
+      "volume": "8",
+      "fpage": "1783",
+      "doi": "10.1038/s42003-025-09201-6",
+      "pmid": "41413718",
+      "pmc_id": "PMC12715190"
+    },
+    {
+      "ref_id": "b13-mmr-34-1-13912",
+      "label": "13",
+      "authors": [
+        "Ko JH",
+        "Son W",
+        "Bae GY",
+        "Kang JH",
+        "Oh W",
+        "Yoo OJ"
+      ],
+      "title": "A new hepatocytic isoform of PLZF lacking the BTB domain interacts with ATP7B, the Wilson disease protein, and positively regulates ERK signal transduction",
+      "journal": "J Cell Biochem",
+      "year": "2006",
+      "volume": "99",
+      "fpage": "719",
+      "lpage": "734",
+      "doi": "10.1002/jcb.20980",
+      "pmid": "16676348"
+    },
+    {
+      "ref_id": "b14-mmr-34-1-13912",
+      "label": "14",
+      "authors": [
+        "Zhang C",
+        "Huang T",
+        "Li L"
+      ],
+      "title": "Targeting cuproptosis for cancer therapy: Mechanistic insights and clinical perspectives",
+      "journal": "J Hematol Oncol",
+      "year": "2024",
+      "volume": "17",
+      "fpage": "68",
+      "doi": "10.1186/s13045-024-01589-8",
+      "pmid": "39152464",
+      "pmc_id": "PMC11328505"
+    },
+    {
+      "ref_id": "b15-mmr-34-1-13912",
+      "label": "15",
+      "authors": [
+        "Zhang B",
+        "Li J",
+        "Wang Y",
+        "Liu X",
+        "Yang X",
+        "Liao Z",
+        "Deng S",
+        "Deng Y",
+        "Zhou Z",
+        "Tian Y",
+        "et al."
+      ],
+      "title": "Deubiquitinase USP7 stabilizes KDM5B and promotes tumor progression and cisplatin resistance in nasopharyngeal carcinoma through the ZBTB16/TOP2A axis",
+      "journal": "Cell Death Differ",
+      "year": "2024",
+      "volume": "31",
+      "fpage": "309",
+      "lpage": "321",
+      "doi": "10.1038/s41418-024-01257-x",
+      "pmid": "38287116",
+      "pmc_id": "PMC10923876"
+    },
+    {
+      "ref_id": "b16-mmr-34-1-13912",
+      "label": "16",
+      "authors": [
+        "Liu D",
+        "Du Q",
+        "Zhu Y",
+        "Guo Y",
+        "Guo Y"
+      ],
+      "title": "UHRF1 knockdown induces cell cycle arrest and apoptosis in breast cancer cells through the ZBTB16/ANXA7/Cyclin B1 axis",
+      "journal": "Acta Biochim Biophys Sin (Shanghai)",
+      "year": "2024",
+      "volume": "56",
+      "fpage": "1633",
+      "lpage": "1643",
+      "doi": "10.3724/abbs.2024148",
+      "pmid": "39308302",
+      "pmc_id": "PMC11659777"
+    },
+    {
+      "ref_id": "b17-mmr-34-1-13912",
+      "label": "17",
+      "authors": [
+        "Wang K",
+        "Guo D",
+        "Yan T",
+        "Sun S",
+        "Wang Y",
+        "Zheng H",
+        "Wang G",
+        "Du J"
+      ],
+      "title": "ZBTB16 inhibits DNA replication and induces cell cycle arrest by targeting WDHD1 transcription in lung adenocarcinoma",
+      "journal": "Oncogene",
+      "year": "2024",
+      "volume": "43",
+      "fpage": "1796",
+      "lpage": "1810",
+      "doi": "10.1038/s41388-024-03041-0",
+      "pmid": "38654107"
+    },
+    {
+      "ref_id": "b18-mmr-34-1-13912",
+      "label": "18",
+      "authors": [
+        "Livak KJ",
+        "Schmittgen TD"
+      ],
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(−Delta Delta C(T)) method",
+      "journal": "Methods",
+      "year": "2001",
+      "volume": "25",
+      "fpage": "402",
+      "lpage": "408",
+      "doi": "10.1006/meth.2001.1262",
+      "pmid": "11846609"
+    },
+    {
+      "ref_id": "b19-mmr-34-1-13912",
+      "label": "19",
+      "authors": [
+        "De Vleeschauwer SI",
+        "van de Ven M",
+        "Oudin A",
+        "Debusschere K",
+        "Connor K",
+        "Byrne AT",
+        "Ram D",
+        "Rhebergen AM",
+        "Raeves YD",
+        "Dahlhoff M",
+        "et al."
+      ],
+      "title": "OBSERVE: Guidelines for the refinement of rodent cancer models",
+      "journal": "Nat Protoc",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "2571",
+      "lpage": "2596",
+      "doi": "10.1038/s41596-024-00998-w",
+      "pmid": "38992214"
+    },
+    {
+      "ref_id": "b20-mmr-34-1-13912",
+      "label": "20",
+      "authors": [
+        "Percie du Sert N",
+        "Hurst V",
+        "Ahluwalia A",
+        "Alam S",
+        "Avey MT",
+        "Baker M",
+        "Browne WJ",
+        "Clark A",
+        "Cuthill IC",
+        "Dirnagl U",
+        "et al."
+      ],
+      "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+      "journal": "PLoS Biol",
+      "year": "2020",
+      "volume": "18",
+      "fpage": "e3000410",
+      "doi": "10.1371/journal.pbio.3000410",
+      "pmid": "32663219",
+      "pmc_id": "PMC7360023"
+    },
+    {
+      "ref_id": "b21-mmr-34-1-13912",
+      "label": "21",
+      "authors": [
+        "Mao Y",
+        "Su X",
+        "Guo Q",
+        "Yao X",
+        "Zhao Q",
+        "Guo Y",
+        "Wang Y",
+        "Li X",
+        "Lu Y"
+      ],
+      "title": "Long non-coding RNA LINC00930 targeting miR-6792-3p/ZBTB16 regulates the proliferation and EMT of pancreatic cancer",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "638",
+      "doi": "10.1186/s12885-024-12365-9",
+      "pmid": "38789960",
+      "pmc_id": "PMC11127394"
+    },
+    {
+      "ref_id": "b22-mmr-34-1-13912",
+      "label": "22",
+      "authors": [
+        "Członkowska A",
+        "Litwin T",
+        "Dusek P",
+        "Ferenci P",
+        "Lutsenko S",
+        "Medici V",
+        "Rybakowski JK",
+        "Weiss KH",
+        "Schilsky ML"
+      ],
+      "title": "Wilson disease",
+      "journal": "Nat Rev Dis Primers",
+      "year": "2018",
+      "volume": "4",
+      "fpage": "21",
+      "doi": "10.1038/s41572-018-0018-3",
+      "pmid": "30190489",
+      "pmc_id": "PMC6416051"
+    },
+    {
+      "ref_id": "b23-mmr-34-1-13912",
+      "label": "23",
+      "authors": [
+        "Feng Y",
+        "Yang Z",
+        "Wang J",
+        "Zhao H"
+      ],
+      "title": "Cuproptosis: Unveiling a new frontier in cancer biology and therapeutics",
+      "journal": "Cell Commun Signal",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "249",
+      "doi": "10.1186/s12964-024-01625-7",
+      "pmid": "38693584",
+      "pmc_id": "PMC11064406"
+    },
+    {
+      "ref_id": "b24-mmr-34-1-13912",
+      "label": "24",
+      "authors": [
+        "Betancourt-Cuellar SL",
+        "Benveniste MFK",
+        "Palacio DP",
+        "Hofstetter WL"
+      ],
+      "title": "Esophageal Cancer: Tumor-Node-Metastasis Staging",
+      "journal": "Radiol Clin North Am",
+      "year": "2021",
+      "volume": "59",
+      "fpage": "219",
+      "lpage": "229",
+      "doi": "10.1016/j.rcl.2020.11.008",
+      "pmid": "33551083"
+    },
+    {
+      "ref_id": "b25-mmr-34-1-13912",
+      "label": "25",
+      "authors": [
+        "Yao X",
+        "Zhao Q",
+        "Guo Y",
+        "Wang Y",
+        "Li X",
+        "Lu Y"
+      ],
+      "title": "Long non-coding RNA LINC00930 targeting miR-6792-3p/ZBTB16 regulates the proliferation and EMT of pancreatic cancer",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "638",
+      "doi": "10.1186/s12885-024-12365-9",
+      "pmid": "38789960",
+      "pmc_id": "PMC11127394"
+    },
+    {
+      "ref_id": "b26-mmr-34-1-13912",
+      "label": "26",
+      "authors": [
+        "Cao C",
+        "Xu M",
+        "Peng T",
+        "Liu X",
+        "Lin S",
+        "Xu Y",
+        "Chu T",
+        "Liu S",
+        "Wu P",
+        "Hu B",
+        "et al."
+      ],
+      "title": "Blocking CXCR4+ CD4+ T cells reprograms Treg-mediated immunosuppression via modulating the Rho-GTPase/NF-κB signaling axis",
+      "journal": "Genome Med",
+      "year": "2025",
+      "volume": "17",
+      "fpage": "85",
+      "doi": "10.1186/s13073-025-01515-8",
+      "pmid": "40760450",
+      "pmc_id": "PMC12323159"
+    },
+    {
+      "ref_id": "b27-mmr-34-1-13912",
+      "label": "27",
+      "authors": [
+        "Fabiani E",
+        "Cicconi L",
+        "Nardozza AM",
+        "Cristiano A",
+        "Rossi M",
+        "Ottone T",
+        "Falconi G",
+        "Divona M",
+        "Testi AM",
+        "Annibali O",
+        "et al."
+      ],
+      "title": "Mutational profile of ZBTB16-RARA-positive acute myeloid leukemia",
+      "journal": "Cancer Med",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "3839",
+      "lpage": "3847",
+      "doi": "10.1002/cam4.3904",
+      "pmid": "34042280",
+      "pmc_id": "PMC8209618"
+    },
+    {
+      "ref_id": "b28-mmr-34-1-13912",
+      "label": "28",
+      "authors": [
+        "Liu X",
+        "Luo B",
+        "Wu X",
+        "Tang Z"
+      ],
+      "title": "Cuproptosis and cuproptosis-related genes: Emerging potential therapeutic targets in breast cancer",
+      "journal": "Biochim Biophys Acta Rev Cancer",
+      "year": "2023",
+      "volume": "1878",
+      "fpage": "189013",
+      "doi": "10.1016/j.bbcan.2023.189013",
+      "pmid": "37918452"
+    },
+    {
+      "ref_id": "b29-mmr-34-1-13912",
+      "label": "29",
+      "authors": [
+        "Liu N",
+        "Chen M"
+      ],
+      "title": "Crosstalk between ferroptosis and cuproptosis: From mechanism to potential clinical application",
+      "journal": "Biomed Pharmacother",
+      "year": "2024",
+      "volume": "171",
+      "fpage": "116115",
+      "doi": "10.1016/j.biopha.2023.116115",
+      "pmid": "38181713"
+    },
+    {
+      "ref_id": "b30-mmr-34-1-13912",
+      "label": "30",
+      "authors": [
+        "Xiao Y",
+        "Yin J",
+        "Liu P",
+        "Zhang X",
+        "Lin Y",
+        "Guo J"
+      ],
+      "title": "Triptolide-induced cuproptosis is a novel antitumor strategy for the treatment of cervical cancer",
+      "journal": "Cell Mol Biol Lett",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "113",
+      "doi": "10.1186/s11658-024-00623-4",
+      "pmid": "39198750",
+      "pmc_id": "PMC11360305"
+    },
+    {
+      "ref_id": "b31-mmr-34-1-13912",
+      "label": "31",
+      "authors": [
+        "Li L",
+        "Zhou H",
+        "Zhang C"
+      ],
+      "title": "Cuproptosis in cancer: Biological implications and therapeutic opportunities",
+      "journal": "Cell Mol Biol Lett",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "91",
+      "doi": "10.1186/s11658-024-00608-3",
+      "pmid": "38918694",
+      "pmc_id": "PMC11201306"
+    },
+    {
+      "ref_id": "b32-mmr-34-1-13912",
+      "label": "32",
+      "authors": [
+        "Hu J",
+        "Zhu J",
+        "Chen T",
+        "Zhao Y",
+        "Xu Q",
+        "Wang Y"
+      ],
+      "title": "Cuproptosis in cancer therapy: Mechanisms, therapeutic application and future prospects",
+      "journal": "J Mater Chem B",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "12191",
+      "lpage": "12206",
+      "doi": "10.1039/D4TB01877J",
+      "pmid": "39526989"
+    },
+    {
+      "ref_id": "b33-mmr-34-1-13912",
+      "label": "33",
+      "authors": [
+        "Parsanathan R"
+      ],
+      "title": "Copper's dual role: Unravelling the link between copper homeostasis, cuproptosis, and cardiovascular diseases",
+      "journal": "Hypertens Res",
+      "year": "2024",
+      "volume": "47",
+      "fpage": "1440",
+      "lpage": "1442",
+      "doi": "10.1038/s41440-024-01636-4",
+      "pmid": "38467792"
+    },
+    {
+      "ref_id": "b34-mmr-34-1-13912",
+      "label": "34",
+      "authors": [
+        "Wen H",
+        "Qu C",
+        "Wang Z",
+        "Gao H",
+        "Liu W",
+        "Wang H",
+        "Sun H",
+        "Gu J",
+        "Yang Z",
+        "Wang X"
+      ],
+      "title": "Cuproptosis enhances docetaxel chemosensitivity by inhibiting autophagy via the DLAT/mTOR pathway in prostate cancer",
+      "journal": "FASEB J",
+      "year": "2023",
+      "volume": "37",
+      "fpage": "e23145",
+      "doi": "10.1096/fj.202300980R",
+      "pmid": "37584654"
+    }
+  ]
+}

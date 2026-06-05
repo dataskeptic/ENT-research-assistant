@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "title": "Fronto-temporal Delta-gamma Imbalance as a Neural Correlate of Hyperacusis in Tinnitus: An Exploratory EEG Study",
+    "authors": [
+      "Seung-Ho Shin",
+      "Sung Wan Byun",
+      "Ho Yun Lee"
+    ],
+    "journal": "Otology & Neurotology",
+    "year": "2026",
+    "doi": "10.1097/MAO.0000000000004899",
+    "pmc_id": "PMC13155213",
+    "pmid": "41917716",
+    "full_text_available": true,
+    "section_count": 14,
+    "reference_count": 21
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objective: To identify quantitative electroencephalography (qEEG)-based connectivity alterations associated with hyperacusis using combined subjective-objective diagnostic criteria. Study design: Retrospective case-control study. Setting: Tertiary referral center. Patients: Seventy-four patients with subjective tinnitus were analyzed. Hyperacusis was defined using combined criteria: subjective complaint and uncomfortable loudness levels (UCL) ≤ 77 dB HL, resulting in 11 patients with hyperacusis. Extreme groups (11 patients with hyperacusis vs. 23 high-tolerance controls with UCL ≥ 90 dB) were compared. Intervention(s): None (observational study). Main outcome measure(s): Functional connectivity assessed using the phase-locking value (PLV) and weighted phase lag index (wPLI) for delta, theta, alpha, beta, and gamma frequency bands. Results: Patients with hyperacusis exhibited markedly lower UCLs than the full cohort (56.2 ± 19.0 vs. 82.4 ± 22.4 dB HL; P = 0.001, d = 1.19). In the extreme-group EEG analysis, right fronto-temporal connectivity showed increased delta PLV (d = 0.88, 95% CI: −0.14 to 1.90, P = 0.021) and decreased gamma PLV (d = −0.69, 95% CI: −1.71 to 0.33, P = 0.044; Welch t test). The delta-gamma balance index differed between groups (d = 1.27, 95% CI: 0.25–2.29, P = 0.003, uncorrected). Supplementary wPLI analysis showed similar directional trends for gamma reduction (d = −0.50, P = 0.068) but not for delta increase (d = 0.07), suggesting differential volume conduction effects across frequency bands. However, no connectivity features survived Benjamini-Hochberg FDR correction across the planned comparisons. Conclusions: In this small, exploratory extreme-group study, a right fronto-temporal delta-gamma imbalance emerged as a candidate connectivity signature of objectively verified hyperacusis in tinnitus. The gamma reduction, partially supported by wPLI analysis, represents the more robust finding, while the delta increase warrants cautious interpretation given its absence in wPLI. Because no features survived FDR correction and CIs were wide, the results are preliminary and warrant replication in larger cohorts.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hyperacusis, characterized by reduced tolerance to everyday environmental sounds, affects approximately 15% of individuals with tinnitus and can severely impact quality of life 1 . Despite its clinical significance, the diagnosis of hyperacusis has traditionally relied on subjective reports, which show poor correlation with objective audiological findings 2 , 3 . The absence of standardized diagnostic criteria has hindered both clinical management and research progress. Although uncomfortable loudness levels (UCLs) provide quantifiable sound tolerance measures, consensus on diagnostic thresholds remains lacking. Recent evidence suggests that combining subjective complaints with objective UCL measurements may enhance diagnostic reliability 4 . From a neurophysiological perspective, current theories propose dysfunction at multiple levels of the auditory system, ranging from peripheral sensitization to altered central processing for hyperacusis 5 . However, the functional connectivity patterns underlying altered sound processing remain largely unexplored. Quantitative electroencephalography (qEEG), a noninvasive tool for assessing cortical dynamics, offers valuable insight into brain network activity. Among qEEG-derived measures, the phase-locking value (PLV) provides a robust estimate of functional connectivity but may be affected by volume conduction. To address this limitation, the weighted phase lag index (wPLI) can be applied, as it captures only nonzero phase relationships, yielding a more conservative estimate of genuine functional connectivity 6 . Therefore, a dual approach combining PLV and wPLI may allow differentiation between true phase-lagged interactions and spurious zero-lag coupling. This study aimed to determine whether frequency-specific qEEG connectivity patterns characterize hyperacusis by comparing extreme groups—patients with severe hyperacusis and those with the highest sound tolerance—to maximize the detection of neurophysiological differences.",
+      "order": 1
+    },
+    {
+      "section": "Patients",
+      "text": "A total of 74 patients with subjective tinnitus were recruited from a tinnitus clinic at a tertiary hospital between January 2024 and December 2024. Hyperacusis was defined using combined diagnostic criteria: (1) the presence of subjective hyperacusis during medical history assessment and (2) UCLs ≤ 77 dB HL on audiological testing, based on prior evidence demonstrating limitations of subjective-only diagnoses for decreased sound tolerance 3 . This dual approach ensured both symptomatic complaints and objective physiological evidence of sound intolerance, resulting in 11 patients with both tinnitus and hyperacusis (14.9%) and 63 patients with tinnitus alone (85.1%). Inclusion criteria were: (1) subjective tinnitus of ≥ 1 month’s duration, (2) ability to complete psychoacoustical assessments, and (3) obtained qEEG data. For comparison, 23 patients with high sound tolerance (UCL ≥ 90 dB HL) and 40 patients with intermediate tolerance (77 < UCL < 90 dB HL) were identified. This 3-group design allowed examination of the full UCL spectrum while focusing primary connectivity analyses on extreme groups. Exclusion criteria included: (1) objective or pulsatile tinnitus, (2) active psychiatric disorders requiring medication that could affect EEG recordings, (3) neurological conditions affecting brain function (eg, epilepsy, stroke, dementia), (4) current use of ototoxic medications, (5) conductive hearing loss, and (6) Ménière’s disease or active vestibular disorders. This study was approved by the Institutional Review Board of Ewha Womans University Mokdong Hospital (IRB No. 2025-05-051), and the requirement for written informed consent was waived due to the retrospective nature of the study.",
+      "order": 2
+    },
+    {
+      "section": "Clinical Assessment",
+      "text": "Consistent with previous tinnitus studies, patients’ age, sex, duration of tinnitus, history of exposure to loud noise, and accompanying symptoms, including subjective hyperacusis, sleep disturbance, aural fullness, headache, attention problems, temporomandibular/neck pain, and comorbid conditions such as diabetes mellitus and hypertension, were documented 7 , 8 . Questionnaire results were also recorded, including the Tinnitus Handicap Inventory (THI) and Beck Depression Inventory (BDI). Subjective tinnitus features were further quantified using a numerical rating scale (0–10) evaluating awareness, annoyance, loudness, and effect on daily life. UCLs were measured at standard audiometric frequencies (0.25, 0.5, 1, 2, 4, and 8 kHz) using an ascending method of limits. The average UCL across frequencies was calculated, with values ≤ 77 dB HL used as the objective threshold for hyperacusis diagnosis. Additional audiometric testing included pure-tone audiometry (air and bone conduction), tympanometry, acoustic reflex thresholds, and distortion product otoacoustic emissions (DPOAEs) as required.",
+      "order": 3
+    },
+    {
+      "section": "Eeg Data Acquisition And Preprocessing",
+      "text": "Raw EEG data were preprocessed in EEGLAB. Continuous data were band-pass filtered (1–40 Hz) using a zero-phase FIR filter (EEGLAB pop_eegfiltnew), minimizing phase distortion near the 40-Hz cutoff. Data were visually inspected to remove gross artifacts (eg, electrode pops, abrupt movement deflections) and to identify persistently noisy channels. ICA was then performed using runica (extended Infomax) on the cleaned continuous data. Components reflecting ocular activity and myogenic activity over temporal/frontal regions were rejected based on scalp topography, time-course, and spectral profile (broadband high-frequency dominance). The cleaned data were segmented into 2-s non-overlapping epochs, and epochs exceeding ±100 μV were rejected. Participants with fewer than 60 clean epochs were excluded. Signals were re-referenced to the average of all electrodes. This preprocessing protocol was adapted from validated EEG pipelines used in prior hyperacusis and tinnitus studies 9 , 10 .",
+      "order": 4
+    },
+    {
+      "section": "Functional Connectivity Analysis",
+      "text": "Functional connectivity was estimated using PLV to quantify phase synchronization between electrode pairs. To address volume conduction effects, wPLI was also calculated, which captures nonzero phase-lag relationships. wPLI was defined as |E{|Im(S)|·sign(Im(S))}|/E{|Im(S)|}, where S denotes the cross-spectrum 6 . Both metrics were computed for 5 frequency bands: delta (1–4 Hz), theta (4–8 Hz), alpha (8–13 Hz), beta (13–30 Hz), and gamma (30–40 Hz) following band-pass filtering and Hilbert transform.",
+      "order": 5
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "To control multiplicity, inferential testing was restricted to 8 prespecified fronto-temporal electrode pairs; across 5 frequency bands and 2 phase-based metrics (PLV and wPLI), this yielded 80 planned comparisons. Benjamini-Hochberg FDR (BH-FDR) correction was applied to these 80 tests, and FDR-adjusted q-values are provided in Supplementary Table S1, Supplemental Digital Content 1, http://links.lww.com/MAO/C408 . Group comparisons were performed using 2-sided Welch t tests (unequal variances). Nominal (uncorrected) P values are reported alongside effect sizes. Effect sizes (Cohen’s d) with 95% bias-corrected accelerated (BCa) bootstrap CIs (B = 10,000 resamples) are reported. Post-hoc power analysis indicated achieved power of 64% (delta) and 45% (gamma) at uncorrected α = 0.05; under conservative family-wise thresholds (eg, Bonferroni α = 0.05/80), power would be substantially reduced, and power modeling indicates 50–80 participants per group would be required for adequately powered replication. The delta-gamma balance index was computed as (delta PLV − gamma PLV) / (delta PLV + gamma PLV) and is presented as a candidate composite metric requiring independent validation. PLV–wPLI agreement was assessed by correlating edgewise effect-size vectors to evaluate consistency across estimators. Statistical analyses were performed using RStudio (version 2023.06.0+421 “Mountain Hydrangea”).",
+      "order": 6
+    },
+    {
+      "section": "Participant Characteristics And Baseline Demographics",
+      "text": "The final cohort included 74 patients with subjective tinnitus, with a mean age of 54.7 ± 12.9 years. On the basis of combined diagnostic criteria incorporating both subjective complaints and objective UCLs, 11 patients (14.9%) were classified as having both tinnitus and hyperacusis, and 63 patients (85.1%) were designated as having tinnitus alone. Patients with hyperacusis exhibited significantly lower UCLs compared with those with tinnitus alone (56.2 ± 19.0 vs. 82.4 ± 22.4 dB HL; P = 0.001, Cohen’s d = 1.192), representing a 26.2 dB HL difference (Fig. 1 ). The hyperacusis group reported numerically higher tinnitus distress and subjective ratings, although these differences were not statistically significant. Detailed group characteristics are presented in Table 1 .",
+      "order": 7
+    },
+    {
+      "section": "Qeeg-Based Functional Connectivity Alterations",
+      "text": "Extreme-group comparison (11 patients with hyperacusis vs. 23 high-tolerance controls with UCL ≥ 90 dB HL) revealed nominal differences in right fronto-temporal connectivity as measured by PLV analysis. After BH-FDR correction across the 80 planned comparisons, no connectivity features remained statistically significant (Supplementary Table S1, Supplemental Digital Content 1, http://links.lww.com/MAO/C408 ); therefore, the following results are reported as nominal (uncorrected) findings. The hyperacusis group exhibited increased delta PLV (0.34 ± 0.05 vs. 0.24 ± 0.03; P = 0.021, d = 0.88) and decreased gamma PLV (0.18 ± 0.04 vs. 0.26 ± 0.03; P = 0.044, d = −0.69) compared with high-tolerance controls (Fig. 2 ). The spatial distribution of connectivity differences is shown in Figure 3 . Other frequency bands did not show nominal group differences (theta: P = 0.18; alpha: P = 0.45; beta: P = 0.32). All reported P values are nominal (uncorrected). No connectivity features survived BH-FDR correction across the planned comparisons (Supplementary Table S1, Supplemental Digital Content 1, http://links.lww.com/MAO/C408 ). wPLI analysis demonstrated similar directional trends for gamma-band connectivity (T4–F4: d = −0.50, P = 0.068; T3–T4: d = −0.57, P = 0.035), with T3–T4 reaching nominal significance. The convergent direction of effects across PLV and wPLI supports reduced gamma synchrony in hyperacusis, though the primary T4–F4 finding showed only a trend-level effect in wPLI. In contrast, the delta-band increase observed in PLV (T4–F4: d = 0.92) was not replicated in wPLI (d = 0.07, P = 0.88), suggesting potential volume conduction contribution to this finding.",
+      "order": 8
+    },
+    {
+      "section": "Delta-Gamma Balance Index",
+      "text": "The delta-gamma balance index captured opposing frequency-specific changes in a single metric, demonstrating robust separation between hyperacusis (n = 11, UCL ≤ 77 dB HL) and high-tolerance controls (n = 23, UCL ≥ 90 dB HL): 0.357 ± 0.308 vs. −0.034 ± 0.308; P = 0.003, d = 1.27, 95% CI: 0.25–2.29. A summary of all effect sizes is presented in Figure 4 , and regional connectivity patterns are shown in Figure 5 . Given the extreme-group design (11 vs. 23) and the risk of data leakage or overfitting, classifier performance was not presented; inference focuses on group differences and bootstrap CIs.",
+      "order": 9
+    },
+    {
+      "section": "Sensitivity Analyses Addressing Myogenic Confounding",
+      "text": "Because temporomandibular/neck pain was more prevalent in the hyperacusis group (Table 1 ), we performed control analyses addressing potential myogenic confounding. Gamma-band power at T4 and F4 was not elevated in hyperacusis (T4: −13.84 vs −12.84 dB; F4: −13.77 vs −13.22 dB). Temporomandibular/neck pain was not associated with gamma PLV (r = −0.26, P = 0.14). In sensitivity analyses excluding participants with temporomandibular/neck pain, effect sizes were maintained or increased (gamma d = −0.95; delta d = 0.64). In ANCOVA adjusting for temporomandibular/neck pain, the delta PLV group effect remained nominal (β = 0.103, P = 0.047), while the gamma PLV group effect was attenuated (β = −0.070, P = 0.243). While EMG-related broadband noise can reduce phase synchrony without necessarily increasing mean gamma power, these convergent checks are less consistent with a simple EMG-only explanation for the observed pattern.",
+      "order": 10
+    },
+    {
+      "section": "Exploratory Analysis Of Symptom Laterality",
+      "text": "Tinnitus laterality was mixed within the hyperacusis group (right: n = 3; left: n = 3; bilateral: n = 4; head: n = 1). In an exploratory subgroup visualization, the right-lateralized fronto-temporal pattern was directionally consistent across laterality subgroups and did not clearly track symptom laterality (Fig. 6 ), although subgroup sizes were small and this analysis was not powered for definitive inference.",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "In this exploratory study, we identified functional connectivity alterations in a small cohort of patients with tinnitus and objectively verified hyperacusis using resting-state qEEG. By applying combined diagnostic criteria incorporating both subjective complaints and UCL thresholds, we observed a frequency-specific imbalance in right fronto-temporal connectivity, characterized by increased delta synchronization and reduced gamma synchronization. Because no connectivity features survived Benjamini-Hochberg FDR correction and CIs were wide, these findings should be interpreted as hypothesis-generating and require independent replication. Although hyperacusis prevalence in tinnitus cohorts has been reported at 15–40%, diagnostic approaches remain heterogeneous and often rely on subjective questionnaires 1 , 2 . Our study applied combined subjective-objective criteria, revealing a 14.9% prevalence, consistent with earlier clinically validated estimates 4 , 11 . The substantial objective UCL difference of 26.2 dB HL between patients with tinnitus and hyperacusis versus patients with tinnitus alone (56.2 ± 19.0 vs. 82.4 ± 22.4 dB HL) supports the clinical validity of UCL thresholds in stratifying sound tolerance abnormalities. Our selection of 77 dB HL as the diagnostic threshold is supported by Aazh and Moore’s large-scale study, which demonstrated that the average of the lowest UCL across frequencies (ULLmin) ≤ 77 dB HL achieved 95% concordance with validated Hyperacusis Questionnaire scores ≥ 22, representing the upper boundary of the 95% CI for clinically significant hyperacusis 12 . These criteria are further supported by our previous report, which suggested that UCL ≤ 77–80 dB HL may serve as an effective diagnostic criterion, collectively emphasizing the utility of combined diagnostic frameworks for improved classification reliability 3 . Our 3-tiered design—hyperacusis (UCL ≤ 77 dB HL), intermediate tolerance (77 < UCL < 90 dB HL), and high tolerance (UCL ≥ 90 dB HL)—enabled examination of the full sound tolerance spectrum while focusing connectivity analyses on extreme groups to maximize neurophysiological signal detection. The intermediate group (n = 40, 54% of the cohort) may represent subclinical features or transitional states warranting future investigation. Given that many hyperacusis cases remain undetected when clinicians rely solely on patient history without systematic UCL measurement, our combined approach requiring both subjective complaint and objective UCL evidence improves diagnostic consistency and reduces misclassification 13 . Our qEEG results indicate that hyperacusis involves aberrant cortical connectivity extending beyond peripheral auditory mechanisms. The observed pattern of increased delta and decreased gamma PLV in right fronto-temporal circuits may reflect a disruption of excitation-inhibition balance underlying abnormal sound processing. Delta oscillations are typically generated by thalamocortical input and reflect large-scale integration, whereas gamma oscillations depend on fast inhibitory interneurons that modulate excitatory neuronal activity 14 . Notably, our study focused specifically on patients with tinnitus and comorbid hyperacusis, a population that exhibits distinct neurophysiological patterns compared with patients with tinnitus only 15 , 16 . Reduced resting-state gamma connectivity may reflect baseline inhibitory dysfunction in this specific tinnitus with comorbid hyperacusis subgroup, which paradoxically leads to hyperresponsiveness to actual sound stimuli—consistent with recent task-based studies showing elevated evoked gamma responses in hyperacusis during active auditory processing 15 . In contrast, prior studies of patients with tinnitus without systematic hyperacusis assessment have typically reported increased gamma activity, highlighting the need to distinguish between tinnitus subtypes 17 . By comparison, our findings differ from Han et al. 18 , who reported decreased connectivity in idiopathic hyperacusis without tinnitus. This discrepancy likely reflects distinct pathophysiological mechanisms between isolated hyperacusis and hyperacusis comorbid with tinnitus. In isolated hyperacusis, decreased connectivity may represent primary sensory gating dysfunction, whereas in our cohort of patients with tinnitus and comorbid hyperacusis, the pattern of reduced resting-state gamma but increased delta connectivity suggests more complex dysregulation involving both thalamocortical drive and cortical inhibitory circuits 15 . Although the resting-state pattern of reduced gamma connectivity appears paradoxical given clinical hyperresponsiveness to sound, it may be understood in the context of baseline cortical hyperexcitability that limits dynamic range for stimulus-driven responses 15 . The opposing connectivity pattern observed—increased delta but decreased gamma synchronization—compared with the generalized connectivity reduction in isolated hyperacusis supports the hypothesis that tinnitus comorbidity fundamentally alters the neural substrate of sound intolerance, potentially through distinct effects on thalamocortical drive versus cortical inhibitory balance 18 . The right-lateralized localization of connectivity alterations warrants specific consideration within the broader context of sound intolerance neurobiology. The right fronto-temporal network constitutes a key node within the salience network, particularly involving the right anterior insula and temporoparietal junction (TPJ), which assigns subjective salience to sensory stimuli and coordinates attentional responses to aversive events 19 . Right hemisphere dominance in processing aversive sounds has been consistently demonstrated in neuroimaging studies, with the right insula exhibiting preferential activation to unpleasant acoustic stimuli 20 . The right TPJ, a critical component of the salience network, plays a central role in stimulus-driven attention and detection of relevant internal and external cues, particularly by mediating transitions between large-scale brain networks during salient stimulus processing 21 . In hyperacusis, ordinary sounds acquire heightened salience and emotional valence, suggesting that right-lateralized salience network dysfunction may mediate the transformation of neutral auditory input into aversive percepts. The delta-gamma imbalance observed in right fronto-temporal connectivity may therefore reflect aberrant salience attribution, wherein dysregulated oscillatory dynamics impair the network’s ability to appropriately gate and contextualize incoming auditory information. Notably, this right-lateralized pattern was observed despite mixed tinnitus laterality, and did not clearly track symptom laterality in an exploratory analysis (Fig. 6 ), supporting a network-level (rather than purely peripheral) interpretation. A methodological strength of this study is the dual use of PLV and wPLI measures to address potential volume conduction effects. The gamma-band reduction showed consistent directional trends across both metrics (PLV d = −0.61, wPLI d = −0.50), with T3–T4 gamma reaching nominal significance in wPLI ( P = 0.035), providing partial support for genuine neural synchrony changes. In contrast, the delta-band increase was present only in PLV (d = 0.92) but absent in wPLI (d = 0.07), suggesting that volume conduction may contribute to this finding. The overall moderate correlation between PLV and wPLI effect sizes (r = 0.30; Supplementary Table S1, Supplemental Digital Content 1, http://links.lww.com/MAO/C408 , Fig. SDC1, Supplemental Digital Content 2, http://links.lww.com/MAO/C409 ) highlights the importance of using complementary connectivity metrics and supports cautious interpretation of frequency-specific effects. Our findings have several tentative implications pending replication. First, they support the use of combined objective-subjective diagnostic criteria rather than self-reports alone, as connectivity patterns were detected in an objectively verified subgroup. Second, the delta-gamma balance index could be evaluated as a stratification marker to enrich clinical trials for patients with sound intolerance and to test mechanistic hypotheses regarding thalamocortical drive and inhibitory control. Third, as a candidate prognostic biomarker, baseline delta-gamma balance could be examined for association with hyperacusis severity trajectories and treatment response (eg, sound desensitization/counseling, pharmacotherapy targeting central gain, or neuromodulation). Fourth, as a monitoring readout, within-subject changes in the index could be tracked longitudinally to quantify normalization (or worsening) of fronto-temporal network dynamics. Given that no features survived FDR correction and the sample size was small, these applications remain provisional and require prospective validation with rigorous EMG control and external replication. This study has some limitations. The retrospective design and small hyperacusis subgroup (n = 11) limit generalizability, and independent replication in larger multicenter cohorts is essential before drawing definitive conclusions. The reliance on resting-state recordings without task-based paradigms precludes interpretation of dynamic auditory responses. The cross-sectional nature cannot establish causality, and medication effects were not systematically controlled. Furthermore, the moderate correlation between PLV and wPLI effect sizes (r = 0.30) indicates that volume conduction may have influenced some PLV results, particularly in lower frequency bands. The divergent findings between metrics for delta versus gamma bands underscore the importance of using multiple connectivity measures and support cautious interpretation of frequency-specific effects until replicated with source-level analyses. Finally, subjective hyperacusis was based on a structured interview rather than a validated questionnaire (eg, the Hyperacusis Questionnaire), which should be addressed in future work.",
+      "order": 12
+    },
+    {
+      "section": "Conclusion",
+      "text": "In this exploratory extreme-group analysis, a right fronto-temporal delta-gamma imbalance emerged as a candidate connectivity signature of objectively verified hyperacusis in tinnitus. The gamma-band reduction showed consistent effects across PLV and wPLI, providing converging evidence for genuine neural synchrony changes, while the delta-band increase was not replicated in wPLI and warrants cautious interpretation. Because no connectivity features survived BH-FDR correction and CIs were wide, these preliminary findings should be interpreted cautiously and warrant replication in larger cohorts with rigorous control of potential myogenic confounding.",
+      "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1",
+      "authors": [
+        "Tyler RS",
+        "Pienkowski M",
+        "Roncancio ER",
+        "et al."
+      ],
+      "title": "A review of hyperacusis and future directions: part I. Definitions and manifestations",
+      "journal": "Am J Audiol",
+      "year": "2014",
+      "volume": "23",
+      "fpage": "402",
+      "lpage": "419",
+      "pmid": "25104073",
+      "doi": "10.1044/2014_AJA-14-0010"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Prevalence and characteristics of patients with severe hyperacusis among patients seen in a tinnitus and hyperacusis clinic",
+      "journal": "J Am Acad Audiol",
+      "year": "2018",
+      "volume": "29",
+      "fpage": "626",
+      "lpage": "633",
+      "pmid": "29988010",
+      "doi": "10.3766/jaaa.17015"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3",
+      "authors": [
+        "Shin SH",
+        "Byun SW",
+        "Lee HY"
+      ],
+      "title": "Analysis of loudness discomfort level tests in tinnitus patients",
+      "journal": "Audiol Neurotol",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "367",
+      "lpage": "373",
+      "doi": "10.1159/000538128",
+      "pmid": "38432195"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4",
+      "authors": [
+        "Sheldrake J",
+        "Diehl PU",
+        "Schaette R"
+      ],
+      "title": "Audiometric characteristics of hyperacusis patients",
+      "journal": "Front Neurol",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "105",
+      "pmid": "26029161",
+      "doi": "10.3389/fneur.2015.00105",
+      "pmc_id": "PMC4432660"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5",
+      "authors": [
+        "Auerbach BD",
+        "Rodrigues PV",
+        "Salvi RJ"
+      ],
+      "title": "Central gain control in tinnitus and hyperacusis",
+      "journal": "Front Neurol",
+      "year": "2014",
+      "volume": "5",
+      "fpage": "206",
+      "pmid": "25386157",
+      "doi": "10.3389/fneur.2014.00206",
+      "pmc_id": "PMC4208401"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6",
+      "authors": [
+        "Vinck M",
+        "Oostenveld R",
+        "van Wingerden M",
+        "Battaglia F",
+        "Pennartz CMA"
+      ],
+      "title": "An improved index of phase-synchronization for electrophysiological data in the presence of volume-conduction, noise and sample-size bias",
+      "journal": "Neuroimage",
+      "year": "2011",
+      "volume": "55",
+      "fpage": "1548",
+      "lpage": "1565",
+      "pmid": "21276857",
+      "doi": "10.1016/j.neuroimage.2011.01.055"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7",
+      "authors": [
+        "Gu JW",
+        "Halpin CF",
+        "Nam EC",
+        "Levine RA",
+        "Melcher JR"
+      ],
+      "title": "Tinnitus, diminished sound-level tolerance, and elevated auditory activity in humans with clinically normal hearing sensitivity",
+      "journal": "J Neurophysiol",
+      "year": "2010",
+      "volume": "104",
+      "fpage": "3361",
+      "lpage": "3370",
+      "pmid": "20881196",
+      "doi": "10.1152/jn.00226.2010",
+      "pmc_id": "PMC3007631"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8",
+      "authors": [
+        "Park Y",
+        "Shin SH",
+        "Byun SW",
+        "Lee ZY",
+        "Lee HY"
+      ],
+      "title": "Audiological and psychological assessment of tinnitus patients with normal hearing",
+      "journal": "Front Neurol",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1102294",
+      "pmid": "36712420",
+      "doi": "10.3389/fneur.2022.1102294",
+      "pmc_id": "PMC9878854"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9",
+      "authors": [
+        "Kim SJ",
+        "Shin SH",
+        "Byun SW",
+        "Lee HY"
+      ],
+      "title": "Resting state EEG reveals no reliable biomarkers of tinnitus laterality",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "35820",
+      "pmid": "41087589",
+      "doi": "10.1038/s41598-025-19789-8",
+      "pmc_id": "PMC12521524"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10",
+      "authors": [
+        "Schlee W",
+        "Hartmann T",
+        "Langguth B",
+        "Weisz N"
+      ],
+      "title": "Abnormal resting-state cortical coupling in chronic tinnitus",
+      "journal": "BMC Neurosci",
+      "year": "2009",
+      "volume": "10",
+      "fpage": "11",
+      "pmid": "19228390",
+      "doi": "10.1186/1471-2202-10-11",
+      "pmc_id": "PMC2649130"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11",
+      "authors": [
+        "Fries P"
+      ],
+      "title": "Neuronal gamma-band synchronization as a fundamental process in cortical computation",
+      "journal": "Annu Rev Neurosci",
+      "year": "2009",
+      "volume": "32",
+      "fpage": "209",
+      "lpage": "224",
+      "pmid": "19400723",
+      "doi": "10.1146/annurev.neuro.051508.135603"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12",
+      "authors": [
+        "Aazh H",
+        "Moore BCJ"
+      ],
+      "title": "Factors related to uncomfortable loudness levels for patients seen in a tinnitus and hyperacusis clinic",
+      "journal": "Int J Audiol",
+      "year": "2017",
+      "volume": "56",
+      "fpage": "793",
+      "lpage": "800",
+      "pmid": "28622055",
+      "doi": "10.1080/14992027.2017.1335888"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13",
+      "authors": [
+        "Jahn KN",
+        "Koach CE"
+      ],
+      "title": "Hyperacusis diagnosis and management in the United States: clinical audiology practice patterns",
+      "journal": "Am J Audiol",
+      "year": "2023",
+      "volume": "32",
+      "fpage": "950",
+      "lpage": "961",
+      "pmid": "37917915",
+      "doi": "10.1044/2023_AJA-23-00118",
+      "pmc_id": "PMC11001428"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14",
+      "authors": [
+        "Buzsáki G",
+        "Wang XJ"
+      ],
+      "title": "Mechanisms of gamma oscillations",
+      "journal": "Annu Rev Neurosci",
+      "year": "2012",
+      "volume": "35",
+      "fpage": "203",
+      "lpage": "225",
+      "pmid": "22443509",
+      "doi": "10.1146/annurev-neuro-062111-150444",
+      "pmc_id": "PMC4049541"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15",
+      "authors": [
+        "Wertz J",
+        "Rüttiger L",
+        "Bender B",
+        "et al."
+      ],
+      "title": "Differential cortical activation patterns: pioneering sub-classification of tinnitus with and without hyperacusis by combining audiometry, gamma oscillations, and hemodynamics",
+      "journal": "Front Neurosci",
+      "year": "2024",
+      "volume": "17",
+      "fpage": "1232446",
+      "pmid": "38239827",
+      "doi": "10.3389/fnins.2023.1232446",
+      "pmc_id": "PMC10794389"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16",
+      "authors": [
+        "Hofmeier B",
+        "Wertz J",
+        "Refat F",
+        "et al."
+      ],
+      "title": "Functional biomarkers that distinguish between tinnitus with and without hyperacusis",
+      "journal": "Clin Transl Med",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "e378",
+      "pmid": "34047478",
+      "doi": "10.1002/ctm2.378",
+      "pmc_id": "PMC8140185"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17",
+      "authors": [
+        "Vanneste S",
+        "Song JJ",
+        "De Ridder D"
+      ],
+      "title": "Thalamocortical dysrhythmia detected by machine learning",
+      "journal": "Nat Commun",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "1103",
+      "pmid": "29549239",
+      "doi": "10.1038/s41467-018-02820-0",
+      "pmc_id": "PMC5856824"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18",
+      "authors": [
+        "Han JJ",
+        "Jang JH",
+        "Ridder DD",
+        "Vanneste S",
+        "Koo JW",
+        "Song JJ"
+      ],
+      "title": "Increased parietal circuit-breaker activity in delta frequency band and abnormal delta/theta band connectivity in salience network in hyperacusis subjects",
+      "journal": "PLoS One",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "e0191858",
+      "pmid": "29370266",
+      "doi": "10.1371/journal.pone.0191858",
+      "pmc_id": "PMC5785008"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19",
+      "authors": [
+        "Uddin LQ"
+      ],
+      "title": "Bring the Noise: reconceptualizing spontaneous neural activity",
+      "journal": "Trends Cogn Sci",
+      "year": "2020",
+      "volume": "24",
+      "fpage": "734",
+      "lpage": "746",
+      "pmid": "32600967",
+      "doi": "10.1016/j.tics.2020.06.003",
+      "pmc_id": "PMC7429348"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20",
+      "authors": [
+        "Arnal LH",
+        "Kleinschmidt A",
+        "Spinelli L",
+        "Giraud AL",
+        "Mégevand P"
+      ],
+      "title": "The rough sound of salience enhances aversion through neural synchronisation",
+      "journal": "Nat Commun",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "3671",
+      "pmid": "31413319",
+      "doi": "10.1038/s41467-019-11626-7",
+      "pmc_id": "PMC6694125"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21",
+      "authors": [
+        "Weber S",
+        "Bühler J",
+        "Bolton TAW",
+        "Aybek S"
+      ],
+      "title": "Altered brain network dynamics in motor functional neurological disorders: the role of the right temporo-parietal junction",
+      "journal": "Transl Psychiatry",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "167",
+      "pmid": "40374624",
+      "doi": "10.1038/s41398-025-03385-5",
+      "pmc_id": "PMC12081630"
+    }
+  ]
+}

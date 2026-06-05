@@ -1,0 +1,830 @@
+{
+  "metadata": {
+    "title": "Burden of head and neck cancers in five East Asian countries from 1990 to 2023: Observation, comparison, and forecast from the global burden of disease study 2023",
+    "authors": [
+      "Yinghong Li",
+      "Mingjie Tang",
+      "Shiwei Li",
+      "Peipei Yang",
+      "Qiurong Li",
+      "Peng Shu"
+    ],
+    "journal": "PLOS One",
+    "year": "2026",
+    "doi": "10.1371/journal.pone.0349297",
+    "pmc_id": "PMC13178879",
+    "pmid": "42139239",
+    "full_text_available": true,
+    "section_count": 23,
+    "reference_count": 54
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Head and neck cancer (HNC) poses a significant public health challenge worldwide, yet the long-term trends and heterogeneity of its burden within East Asia remain inadequately characterized. This study aims to provide a comprehensive assessment of the HNC burden in five East Asian countries from 1990 to 2023 and project future trends. Methods Utilizing data from the Global Burden of Disease (GBD) 2023, we analyzed the incidence, prevalence, mortality, and disability-adjusted life years (DALYs) of HNC in China, Japan, the Republic of Korea, the Democratic People’s Republic (DPR) of Korea, and Mongolia. We employed a comprehensive analytical approach encompassing age-standardized rates, temporal trends, Joinpoint regression, risk factor attribution, age-period-cohort analysis, as well as decomposition and forecasting analyses. Results From 1990 to 2023, substantial heterogeneity was observed. China demonstrated significant declines in age-standardized incidence rate (ASIR) and mortality rate (ASMR). Conversely, Japan experienced concerning increases in ASIR and ASMR. The Republic of Korea maintained a stable ASIR while achieving a marked ASMR reduction. The Democratic People’s Republic of Korea showed increases in both ASIR and ASMR, while Mongolia reported declines in ASIR and ASMR. Age distribution shifted markedly towards older populations in China, Japan, and the Republic of Korea. Smoking remained the predominant risk factor across HNC subtypes. Forecasts to 2038 project a continued rise in ASIR for Japan and the DPR of Korea, and a high ASMR for the DPR of Korea. Conclusion The HNC burden in East Asia exhibits divergent national trajectories, with smoking remaining the predominant attributable risk factor. Further research is needed to elucidate underlying causes of these cross-country disparities.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Head and neck cancer (HNC) encompasses a heterogeneous group of malignancies originating primarily from the mucosal epithelium of the upper aerodigestive tract, including sites such as the oral cavity, oropharynx, hypopharynx, larynx, and nasal cavity [ 1 ]. Although HNC does not rank among the top five cancers in terms of global burden, it nevertheless represents a substantial public health challenge, with approximately 1.71 million new cases and over 500,000 deaths reported worldwide in 2022 [ 2 ]. The development of HNC is strongly associated with several modifiable risk factors, notably tobacco use in both smoked and smokeless forms, excessive alcohol consumption, human papillomavirus (HPV) infection particularly in oropharyngeal carcinoma, and region-specific habits such as betel quid chewing [ 3 – 5 ]. Despite multimodal treatment approaches combining surgery, radiotherapy, and chemotherapy, the prognosis of HNC remains poor [ 6 ]. Surgical management of HNC often leads to functional and aesthetic impairments, including dysphagia, craniofacial deformity, and chronic pain, which significantly compromise patients’ quality of life and social engagement [ 7 , 8 ]. Moreover, compared to more common cancers such as lung and breast cancer, public awareness of HNC and early detection through screening are considerably underdeveloped [ 9 ]. Consequently, a large proportion of patients are diagnosed at locally advanced or metastatic stages, adversely affecting treatment response and long-term survival outcomes. According to the Global Burden of Disease (GBD) 2021, an estimated 0.91 million new HNC cases occurred globally in 2021, reflecting a significant increase since 1990 [ 10 ]. East Asia, including China, Japan, the Republic of Korea, the Democratic People’s Republic (DPR) of Korea, and Mongolia, contributes substantially to the global HNC burden. The region’s considerable population size, rapid demographic aging, historically high tobacco consumption, prevalent alcohol use culture, and in certain areas such as mainland China, betel quid chewing habits, collectively contribute to a distinct HNC risk profile [ 11 ]. In China, there are approximately 128,000 new HNC cases and 65,000 related deaths annually, with an upward trend observed in recent years [ 12 ]. Furthermore, the incidence of HPV-associated oropharyngeal cancer has been increasing in several developed countries within the region, such as Japan and the Republic of Korea [ 4 , 13 ]. In contrast, countries like Mongolia and the DPR of Korea, constrained by limited healthcare resources, have scarcely systematically assessed the true burden of HNC. Despite the considerable regional burden, there remains a lack of systematic comparative analyses of the disease burden and long-term trends of HNC across these five East Asian countries based on the most recent data. Existing studies are largely confined to single nations or specific cancer subtypes, which limits comprehensive insight into shared regional patterns, cross-country variations, and the impacts of socioeconomic development and lifestyle changes over the past three decades. Therefore, this study aimed to utilize latest GBD 2023 to comprehensively evaluate the incidence, prevalence, mortality, and disability-adjusted life years (DALYs) burden of HNC and their temporal trends from 1990 to 2023 across five East Asian countries. We also conducted Joinpoint regression analysis, decomposition analysis, risk factor analysis, and forecasting analysis to provide critical evidence for developing tailored regional prevention and control strategies.",
+      "order": 1
+    },
+    {
+      "section": "Data Source And Collection",
+      "text": "GBD 2023 is an international research initiative that provides publicly available burden estimates for 375 diseases and 88 risk factors across 204 countries and territories [ 14 , 15 ]. The data are accessible through the Global Health Data Exchange ( https://vizhub.healthdata.org/gbd-results/ ). The GBD study employs a standardized methodological framework for data identification, extraction, and processing, with detailed descriptions of its principles and procedures available in prior publications [ 16 – 18 ]. This analysis focused on HNC, which includes cancers of the lip and oral cavity (LOC), nasopharynx (NPC), larynx (LC), and other pharynx (OPC). The corresponding International Classification of Diseases (ICD) codes are provided in S1 Table . We systematically evaluated and compared the burden of HNC from 1990 to 2023 across five East Asian countries: China, Japan, the Republic of Korea, the DPR of Korea, and Mongolia. The primary outcome measures were incidence, prevalence, mortality, and DALYs, presented as both absolute numbers and age-standardized rates (ASRs). DALYs, a composite indicator of fatal and non-fatal health losses, are computed as the sum of Years of Life Lost (YLLs) and Years Lived with Disability (YLDs). To quantify uncertainty in the modeling and sampling processes, 1000 posterior draws were generated. The reported 95% uncertainty intervals (UIs) represent the 2.5th and 97.5th percentiles of the ordered draws.",
+      "order": 2
+    },
+    {
+      "section": "Temporal Trend Analysis",
+      "text": "To quantify temporal trends, we calculated the estimated annual percentage change (EAPC) in the ASRs, along with its 95% confidence interval (CI), using a generalized linear regression model [ 19 ]. A trend was considered increasing if both the EAPC and its 95% CI were greater than zero, and decreasing if both were less than zero. A trend was deemed stable if the 95% CI included zero.",
+      "order": 3
+    },
+    {
+      "section": "Joinpoint Regression Analysis",
+      "text": "To identify significant turning points in the trends of HNC burden, we performed Joinpoint regression analysis, a method widely used in epidemiological studies [ 20 ]. This analysis was applied to assess the dynamic trends of the age-standardized incidence rate (ASIR), prevalence rate (ASPR), mortality rate (ASMR), and DALYs rate (ASDALYR) for HNC from 1990 to 2023 across the five East Asian countries. We calculated the annual percentage change (APC) and its 95% confidence interval (CI) for each segment identified between joinpoints. To provide an overall summary measure of the trend over the entire period, the average annual percentage change (AAPC) and its 95% CI were also computed. A statistically significant increasing trend was indicated if both the APC/AAPC and the lower limit of its 95% CI were greater than 0. Conversely, a significant decreasing trend was indicated if both the APC/AAPC and the upper limit of its 95% CI were less than 0.",
+      "order": 4
+    },
+    {
+      "section": "Age-Period-Cohort Analysis",
+      "text": "The age-period-cohort model was employed to estimate the independent effects of age, period, and cohort on disease incidence. Within this framework, the age effect reflects changes in HNC risk associated with aging, the period effect captures temporal variations influencing outcomes across all age groups, and the cohort effect represents risk differences among birth cohorts attributable to evolving early-life exposures or changing birth characteristics [ 21 ]. To thoroughly investigate temporal trends and potential stratified factors in HNC incidence, this study applied the age-period-cohort model to systematically assess the burden of HNC incidence across five East Asian countries. Incidence and corresponding population data were integrated into a consistent analytical structure, with all measures averaged over five-year intervals. To balance model complexity with smoothed temporal trends [ 22 ], data from GBD 2023 were stratified into five-year age groups (<5, 5–9, 10–14, …, ≥ 95 years) and six consecutive five-year calendar periods (1994–1998, 1999–2003, 2004–2008, 2009–2013, 2014–2018, and 2019–2023). Birth cohorts were derived by subtracting the age from the period. The significance of estimated parameters was evaluated using the Wald chi-squared test. Parameter estimation for the age-period-cohort analysis was conducted using the tool developed by the National Institutes of Health (NIH) ( https://analysistools.cancer.gov/apc/ ) [ 23 ].",
+      "order": 5
+    },
+    {
+      "section": "Association Between Asrs And The Socio-Demographic Index (Sdi)",
+      "text": "The SDI is a composite indicator of development status, strongly correlated with health outcomes [ 24 ]. It is calculated based on the geometric mean of three metrics: lag-distributed income per capita, average years of education among individuals aged 25 and older, and the total fertility rate. SDI values range from 0 to 1 and are categorized as follows: high (>0.81), high-middle (0.71–0.81), middle (0.62–0.71), low-middle (0.47–0.62), and low (<0.47), with higher values reflecting greater socioeconomic development. We employed Spearman correlation analysis to examine the association between the ASRs of HNC and the SDI across the five East Asian countries.",
+      "order": 6
+    },
+    {
+      "section": "Decomposition Analysis",
+      "text": "We conducted a decomposition analysis to partition the total change in HNC DALYs over the study period into contributions from specific demographic and epidemiological factors [ 25 ]. Following an established methodology, the change was attributed to three primary components: population growth, population aging, and epidemiological change. This approach allows for a multidimensional understanding of how the overall trend in HNC burden is shaped by the interplay of epidemiological shifts and demographic dynamics.",
+      "order": 7
+    },
+    {
+      "section": "Risk Factor Attribution",
+      "text": "The contribution of risk factors to the HNC DALY burden was assessed using population attributable fractions (PAFs) from GBD 2023. As risk factors for HNC cannot be validly pooled across its anatomical subtypes, the analysis was performed separately for LOC, NPC, LC and OPC. The risk factors considered for these subtypes included smoking, chewing tobacco, high alcohol use, and occupational exposures to formaldehyde, sulfuric acid, and asbestos. The methodological details for calculating PAFs have been described in previous GBD publications [ 26 ]. This study assessed the percentage contribution of these risk factors to DALYs in 2023 in five East Asian countries.",
+      "order": 8
+    },
+    {
+      "section": "Forecasting Analysis",
+      "text": "We employed the Autoregressive Integrated Moving Average (ARIMA) model to forecast future trends in HNC burden. The ARIMA model is a classical time-series forecasting method that identifies and models autocorrelation, trend, and seasonality through its components of autoregression, differencing, and moving average. This established approach is well-suited for predicting future trends based on historical GBD data [ 27 , 28 ].",
+      "order": 9
+    },
+    {
+      "section": "Ethical Considerations",
+      "text": "This study utilized publicly available data from GBD 2023 and did not use any individual-level data. Thus, no ethics approval was needed.",
+      "order": 10
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "All statistical analyses were performed using R (version 4.4.1). A two-sided p-value of less than 0.05 was considered statistically significant.",
+      "order": 11
+    },
+    {
+      "section": "Overall Trends In Hnc Burden In The Five East Asian Countries, 1990–2023",
+      "text": "From 1990 to 2023, the burden of HNC exhibited a distinct pattern across the five East Asian countries. Overall, incident cases, prevalent cases, deaths, and DALYs increased in all five countries. China recorded the largest absolute increases, with incident and prevalent cases rising by 97.21% and 173.70%, respectively. Nevertheless, its ASIR declined from 9.96 to 8.55 per 100 000, translating to a 14.16% decrease. It is noteworthy that China experienced the most substantial declines in ASMR and ASDALYR among the five countries, with reductions of 56.20% and 58.80%, respectively. In contrast, Japan not only saw its ASIR rise from 5.45 to 8.13 per 100,000, with an increase of 49.17%, but also recorded a 31.74% increase in ASMR, representing the largest percentage rise among the five nations. The Republic of Korea observed a moderate increase in ASIR by 11.93%, while its ASMR and ASDALYR declined by 43.75% and 48.46%, respectively. The DPR of Korea exhibited increases in both ASIR and ASMR, rising by 25.00% and 5.67%. Mongolia reported decreases in ASIR and ASMR by 35.40% and 41.70%. Among the five East Asian countries, China had the highest ASIR in both 1990 and 2023, while Japan’s figures were slightly elevated, and Mongolia consistently maintained relatively low levels. China also recorded the highest ASPR in both 1990 and 2023, whereas Mongolia had the lowest. Although China’s ASMR was the highest in 1990, it decreased to a relatively moderate level by 2023, at which point the DPR of Korea showed the highest ASMR ( Table 1 ). There was substantial heterogeneity in the DALYs burden across different subtypes of HNC among the five East Asian countries. China demonstrated the heaviest absolute burden for LOC, with DALYs increasing from 347,066 in 1990–543,250 in 2023, representing a 56.52% rise. Mongolia and Japan experienced the most pronounced percentage changes in DALYs, with increases of 137.80% and 128.50%, respectively. For NPC, China carried the highest absolute burden; however, it was the only country to exhibit a decline in DALYs, with a reduction of 38.04%. In contrast, Japan recorded the greatest increase in NPC DALYs, which rose to 22,509, reflecting a 73.66% growth. Regarding NC, although China continued to bear the heaviest absolute burden, Mongolia showed the most marked percentage change, with an increase of 166.84%. For OPC, Japan and Republic of Korea had the largest relative rises in DALYs, at 279.68% and 249.13%, respectively ( S2 Table and S1 Fig ).",
+      "order": 12
+    },
+    {
+      "section": "Age And Sex Patterns Of Hnc In Five East Asian Countries",
+      "text": "A comparative age- and sex-stratified analysis of the five East Asian countries between 1990 and 2023 revealed pronounced heterogeneity in their respective age distribution patterns. Notably, China and Japan exhibited distinct characteristics of population aging, with the peak age groups for both incident and mortality cases shifting demonstrably towards older populations by 2023, indicating a concentrating disease burden among the elderly. The Republic of Korea demonstrated a similar, albeit more moderate, aging trend. In contrast, the DPR of Korea maintained a disease burden predominantly concentrated in young and middle-aged adults, showing relatively limited change compared to 1990. In Mongolia, while the incidence peak in 2023 remained within young and middle-aged groups, there was a relative increase in the proportion of mortality among the elderly, suggesting early signs of an epidemiological transition. Overall, the burden of both incidence and mortality was consistently and significantly higher in males than in females across all age groups, a disparity persistently observed in all countries studied ( Fig 1 and S2 Fig ). Regarding age-specific incidence, China demonstrated a marked age-shift over this period. The peak age-specific incidence was observed in the 70–74 years age group for both sexes in 1990, shifting to the 85–89 years group in males and the 90–94 years group in females by 2023. In contrast, Japan, starting from an older baseline of 85–89 years in 1990, progressed to the 95 + age group for both sexes in 2023. The Republic of Korea exhibited a stable pattern, with peak age-specific incidence consistently at 85–89 years for males and 95+ for females. Conversely, the DPR of Korea maintained the youngest peak, at 75–79 years. Mongolia presented a divergent pattern, where the peak age-specific incidence for males shifted younger from 70–74–65–69 years, while that for females shifted significantly older, from 75–79–90–94 years. A similar progression toward older peak ages was observed for age-specific mortality. In China, the peak age-specific mortality shifted from 80–84 years (males) and 90–94 years (females) in 1990 to ≥ 95 years for both sexes in 2023. Japan consistently reported the oldest peak mortality at 95 + . In the Republic of Korea, the peak age for males advanced from 85–89–95 + , while remaining at 95+ for females. The DPR of Korea showed no change, with peaks at 80–84 (males) and 95+ (females). Finally, Mongolia’s peak mortality age for males shifted dramatically from 70–74–95 + , while remaining at 95+ for females. Collectively, these findings indicate a pronounced trend of aging in HNC burden in China, Japan, and the Republic of Korea. The stable or younger peaks observed in the DPR of Korea and for Mongolian males, however, suggest a different epidemiological profile ( Fig 2 and S3 Fig ).",
+      "order": 13
+    },
+    {
+      "section": "Temporal Trends",
+      "text": "China exhibited the heaviest overall HNC burden; however, from 1990 to 2023, its ASIR, ASMR, and ASDALYR decreased substantially, indicating a gradual alleviation of the burden. Notably, Japan demonstrated an upward trend in ASIR, ASPR, and ASMR for HNC during the same period, suggesting a progressively worsening burden. In the Republic of Korea, the ASIR for HNC remained stable, while ASMR and ASDALYR showed significant declines. The DPR of Korea exhibited a slight increasing trend in ASIR, with ASMR and ASDALYR remaining stable. Mongolia experienced a substantial reduction in its HNC burden, with all indicators demonstrating declining trends. Furthermore, we observed that across all five countries, the HNC burden was consistently higher in males than in females ( Fig 3 and Table 1 ).",
+      "order": 14
+    },
+    {
+      "section": "Joinpoint Regression Analysis",
+      "text": "The ASIR and ASMR of HNC in East Asian countries exhibited distinct temporal patterns. In China, the ASIR demonstrated a consistent downward trend (AAPC = −0.42, 95% CI: −0.56 to −0.28), with marked declines observed during specific periods (1990–1999, APC = −1.25 [95% CI: −1.71 to −0.55]; 1999–2004, APC = −4.51 [95% CI: −6.64 to −3.32]), followed by a recent increase (2020–2023, APC = 5.02 [95% CI: 2.74 to 8.61]). Japan experienced a significant overall increase in ASIR (AAPC = 1.21, 95% CI: 1.12 to 1.30), characterized by an initial rapid rise (1993–1997, APC = 6.87 [95% CI: 6.15 to 7.78]), a subsequent period of much slower growth (1997–2013, APC = 0.48 [95% CI: 0.36 to 0.62]), a slight decline (2013–2021, APC = −1.01 [95% CI: −1.58 to −0.71]), and a final upward turn (2021–2023, APC = 4.25 [95% CI: 2.12 to 5.68]). The Republic of Korea showed a slight overall upward trend in ASIR (AAPC = 0.37, 95% CI: 0.29 to 0.44). The DPR of Korea exhibited a mild increasing trend of ASIR (AAPC = 0.70, 95% CI: 0.65 to 0.75). In contrast, Mongolia recorded the most pronounced decrease in ASIR (AAPC = −1.31, 95% CI: −1.46 to −1.18) ( Fig 4 and S3 Table ). Regarding ASMR, China exhibited the fastest overall decline (AAPC = −2.42, 95% CI: −2.54 to −2.30). Japan experienced the most severe increase in mortality (AAPC = 0.83, 95% CI: 0.73 to 0.93). Both the Republic of Korea and Mongolia demonstrated clear downward trends of ASMR (AAPC = −1.73, 95% CI: −1.81 to −1.61; AAPC = −1.57, 95% CI: −1.70 to −1.43, respectively). Conversely, a slight upward trend of ASMR was observed in the DPR of Korea (AAPC = 0.14, 95% CI: 0.11 to 0.17) ( S4 Fig , S3 Table ).",
+      "order": 15
+    },
+    {
+      "section": "Age-Period-Cohort Analysis",
+      "text": "The age-period-cohort analysis revealed a consistent age-effect pattern across the five East Asian countries, with the risk of HNC incidence gradually increasing until approximately 40 years of age, after which it progressively declined. The peak incidence rate occurred within the 40–44 year age group in all countries studied. Period effects exhibited significant cross-national heterogeneity. China and the DPR of Korea demonstrated a U‑shaped temporal trend, characterized by an initial decline followed by a subsequent rise. In contrast, Japan and the Republic of Korea displayed an inverted U‑shaped period pattern, with incidence peaking in the middle periods. For Mongolia, the period effect had no significant impact on the incidence rate. Cohort effects further revealed distinct generational patterns. China showed minimal cohort-related fluctuations, suggesting limited birth‑cohort heterogeneity in HNC incidence. Conversely, Japan exhibited an inverted U‑shaped cohort trend, with the highest risk observed among mid‑range birth cohorts, while the Republic of Korea demonstrated pronounced cohort‑driven variability. For the DPR of Korea and Mongolia, the cohort effect was not statistically significant, implying that birth cohort did not substantially influence incidence trends in these populations ( Fig 5 ).",
+      "order": 16
+    },
+    {
+      "section": "The Association Between Asrs And Sdi",
+      "text": "The analysis revealed a positive correlation between ASIR and ASPR of HNC and the SDI across the five East Asian countries. Particularly when the SDI exceeded 0.6, both ASIR and ASPR showed a gradual increase with rising SDI, suggesting that socioeconomic development may be associated with an increased risk of disease occurrence. In contrast, both ASMR and ASDALYR demonstrated a significant negative correlation with SDI within the region, indicating that higher SDI levels correspond to lower mortality and overall disease burden. Furthermore, the observed burden in China substantially exceeded the level predicted by its SDI, while Mongolia’s burden remained below the expected value ( S5 Fig )",
+      "order": 17
+    },
+    {
+      "section": "Decomposition Analysis",
+      "text": "The decomposition analysis revealed distinct drivers behind the changes in HNC-related DALYs across the five East Asian countries from 1990 to 2023. In China, the overall DALYs decreased substantially. This reduction was overwhelmingly attributable to a strong, favorable epidemiological change (−1235.37%), which more than offset the combined increases linked to population growth (348.65%) and aging (786.72%). Conversely, Japan and the DRR of Korea experienced overall increases in DALYs. In Japan, population aging was the predominant driver, accounting for 65.37% of the total increase, followed by epidemiological change (31.01%). In the DPR of Korea, population aging (49.98%) and population growth (43.53%) were the major contributors. The Republic of Korea also saw an overall rise in DALYs, primarily fueled by population aging (234.52%). However, this was significantly counterbalanced by a substantial favorable epidemiological change (−189.12%). Mongolia recorded a minimal increase in DALYs. In summary, population aging consistently exerted upward pressure on HNC DALYs across all five nations. However, the trend in each country was decisively shaped by the magnitude and direction of its unique epidemiological change ( S6 Fig and S4 Table).",
+      "order": 18
+    },
+    {
+      "section": "Risk Factor Contributions In 2023",
+      "text": "In 2023, the DALYs attributable to LOC across the five East Asian countries were predominantly driven by smoking, high alcohol use, and chewing tobacco. This pattern was most pronounced in China, where these risk factors accounted for 42.00%, 13.50%, and 2.20% of the burden, respectively. For NPC, smoking was also identified as the primary driver of DALYs. Regarding LC, smoking and high alcohol use were the leading risk factors, with smoking contributing to over 60% of the DALYs in all five nations. Similarly, the burden of OPC was primarily driven by smoking and high alcohol use. Notably, China had the highest proportion of OPC DALYs attributable to smoking (52.00%), while the Republic of Korea exhibited the highest contribution from high alcohol use (33.50%) ( Fig 6 ).",
+      "order": 19
+    },
+    {
+      "section": "Forecasting Trends In Hnc Burden From 2023 To 2038",
+      "text": "Projections from 2023 to 2038 indicate divergent trends in the age-standardized incidence and mortality rates of HNC across East Asia. For ASIR, a decline is anticipated in China (from 8.55 to 7.77 per 100,000, −9.12%) and Mongolia (from 4.38 to 4.07 per 100,000, −7.08%), whereas increases are projected for Japan (from 8.13 to 9.06 per 100,000, + 11.44%), the Republic of Korea (from 7.13 to 7.27 per 100,000, + 1.96%), and notably, the DPR of Korea (from 6.60 to 8.61 per 100,000, + 30.45%). Regarding ASMR, substantial reductions are forecasted for China (−50.58%), the Republic of Korea (−34.58%), Japan (−11.60%), and Mongolia (−11.68%). In contrast, the Democratic People’s Republic of Korea is projected to experience a 26.1% increase in ASMR. By 2038, East Asia is expected to exhibit significant heterogeneity in HNC burden: while China demonstrates a favorable pattern of concurrently declining incidence and mortality, Japan and the DPR of Korea face the challenge of rising incidence; moreover, the DPR of Korea is projected to have the highest mortality rate, contrasting with the steepest decline observed in China ( Fig 7 and S7 Fig ).",
+      "order": 20
+    },
+    {
+      "section": "Discussion",
+      "text": "Based on the GBD 2023, this study systematically evaluated the HNC burden and its long-term trends in five East Asian countries from 1990 to 2023. The findings reveal significant heterogeneity in the burden across the region. Although the absolute number of cases increased universally due to population growth and aging, trends in age-standardized rates diverged markedly. China demonstrated substantial declines in ASIR, ASMR, and ASDALYR, indicating effective disease control. In contrast, Japan exhibited concerning increases in both ASIR and ASMR. The Republic of Korea maintained a stable ASIR while achieving a significant reduction in ASMR. Mongolia showed considerable declines across all burden indicators, whereas the DPR of Korea displayed slight upward trends in both incidence and mortality. Age- and sex-stratified analyses revealed two dominant patterns: a consistently higher burden in males and a pronounced aging of the disease burden. The male predominance in HNC incidence and mortality across all countries is fundamentally rooted in historically gender-specific disparities in risk factor exposure. In East Asian societies, the significantly higher prevalence of smoking and alcohol consumption among males has been the primary behavioral driver of their elevated risk [ 29 , 30 ]. Region-specific habits, such as the higher prevalence of betel quid chewing among males in parts of China, have further intensified this gender gap [ 31 ]. In addition, men are exposed to occupational carcinogens more frequently than women, significantly contributing to the development of HNC [ 32 ]. Concurrently, a clear aging trend was observed, particularly in China, Japan, and the Republic of Korea, where the peak age for both age-specific incidence and mortality has shifted markedly toward older populations. This progression is closely synchronized with rapid demographic aging in these nations. Aging not only extends the duration of risk exposure but also reflects a cohort effect, where populations heavily exposed to potent risk factors like tobacco in their earlier years are now entering the high-risk age brackets for cancer development [ 33 , 34 ]. This effect is most evident in Japan, where the peak age-specific incidence has shifted to the 95 + age group, posing unique challenges for managing cancer in the very elderly. In contrast, the burden in the DPR of Korea and Mongolia remains concentrated in younger and middle-aged adults, a pattern more typical of regions in earlier stages of epidemiological transition, potentially linked to earlier risk exposure and a shorter life expectancy [ 35 ]. The significant decline in the age-standardized burden of HNC in China results from the synergistic effects of public health interventions and advancements in diagnostic and therapeutic technologies. At the level of risk factor control, national initiatives such as the “Healthy China 2030” strategy, alongside sustained anti-smoking campaigns and public education on the harms of excessive alcohol consumption [ 36 – 38 ], have likely contributed to a mitigation of population-level risk exposure. Concurrently, progress in early diagnosis and treatment has played an important role, including the adoption of plasma Epstein-Barr virus (EBV) DNA testing for NPC screening in high-risk populations [ 39 ], thereby facilitating earlier diagnosis. For patients with locoregionally advanced disease, optimized multimodal treatment strategies integrating surgery, radiotherapy, and chemotherapy have become standard. In the management of recurrent or metastatic HNC, targeted therapies, exemplified by the anti-EGFR monoclonal antibody cetuximab in combination with radiotherapy or platinum-based chemotherapy, have demonstrated survival benefits [ 40 ]. Recent clinical studies on immune checkpoint inhibitors, including pembrolizumab and nivolumab, have reported favorable results in the management of HNC [ 41 ]. However, despite the favorable trend in standardized rates at the macro level, the continued increase in the absolute burden of LOC reveals an unresolved challenge. This points to persistent, region-specific risks such as betel quid chewing in provinces like Hunan and Hainan [ 31 , 42 ], alongside the ongoing emergence of new cases from aging male cohorts with a history of heavy smoking and alcohol use. Furthermore, studies suggest that long-term adverse dietary habits prevalent in China, including high intake of preserved foods leading to the accumulation of potent carcinogenic nitrosamines, may directly damage oral mucosal DNA and elevate mutational risk over time, thereby contributing to the burden of LOC [ 43 ]. The marked increase in HNC burden, particularly for oropharyngeal cancer, in Japan and the Republic of Korea reflects the growing role of HPV infection alongside established tobacco-related risks. Of particular concern, Japan has experienced a sustained increase in both age‑standardized incidence and mortality rates over the most recent years. This continued upward trend may be attributable to multiple converging factors, including a persistently high prevalence of HPV‑related oropharyngeal cancers, delayed uptake of HPV vaccination especially among males, and the aging population, which together amplify the overall burden [ 44 , 45 ]. However, a study [ 46 ] showed that the ASMR of HNC in Japan decreased from 1999 to 2019. This divergence might be due to differences in data sources and time periods. This study includes the latest trends (from 2020 to 2023), as well as differences in the GBD data modeling methods and age standardization methods. The substantial increase in OPC-related DALYs in both countries suggests a growing impact of HPV infection in these developed East Asian economies, likely driven by evolving sexual behaviors and circulating oncogenic HPV genotypes [ 47 ]. Expanding HPV vaccination to both adolescent males and females represents a key preventive strategy; although both countries have implemented female vaccination [ 48 ], improving male coverage remains a public health priority, explicitly integrating it into national cancer control plans for oropharyngeal cancer prevention and improving male vaccination rates remains a critical public health priority. In contrast, resource-limited settings like Mongolia and the DPR of Korea face distinct gaps in screening capacity and treatment access [ 49 ]. The association between HNC burden and SDI reveals that higher development levels associate with improved survival, while China’s burden exceeding SDI-predicted levels likely reflects cumulative historical tobacco exposure. Risk attribution confirms smoking as the leading factor for HNC across East Asia, suggesting that tobacco control remains important to burden reduction efforts. Tobacco smoke contains approximately 70 established carcinogens that promote carcinogenesis through multiple interrelated mechanisms, including the formation of DNA-damaging adducts, chronic inflammation, and immunosuppression [ 50 ]. Decomposition and forecast analyses project continued regional divergence, with aging populations sustaining tobacco-attributable burden. The substantial heterogeneity in HNC burden across East Asia underscores the urgent need for a targeted and multifaceted strategy. At the primary prevention level, intensifying tobacco and alcohol control remains paramount, particularly in high-burden countries like China. This must be complemented by targeted legislation and public education against betel quid chewing in endemic regions. Concurrently, in developed nations such as Japan and the Republic of Korea, prioritizing gender-neutral HPV vaccination programs is essential to curb the rising incidence of HPV-associated oropharyngeal cancer. Enhancing early detection requires a dual approach: raising awareness of early symptoms among the public and primary care practitioners, and implementing cost-effective screening for high-risk groups, such as long-term smokers and drinkers [ 51 ]. In Southern China, integrating plasma EBV DNA testing into regional screening programs for NPC shows significant promise [ 52 ]. Furthermore, the application of artificial intelligence for the analysis of medical images and health records offers a scalable strategy to improve early diagnosis, especially in resource-limited settings [ 53 ]. Optimizing treatment outcomes requires the promotion of standardized, multidisciplinary care models to ensure access to optimal therapy combinations, including surgery, radiotherapy, and systemic treatments. A critical challenge in many parts of Asia, particularly in low- and middle-income areas, remains limited access to radiotherapy [ 54 ]; addressing this infrastructure gap is essential for improving survival. Finally, fostering regional collaboration is imperative. Strengthening data sharing and cooperative research on HPV epidemiology, biomarker discovery, and novel therapies will accelerate progress. International support through technical assistance and capacity building is also crucial to enhance foundational cancer care capabilities in less-resourced settings, ensuring a more equitable regional response to the HNC challenge. Our findings should be interpreted considering several inherent limitations. First, data quality disparities across countries, particularly in resource-limited settings like Mongolia and the DPR of Korea, may affect the precision of burden estimates. Second, the analysis only encompasses four major HNC subtypes, excluding rarer anatomical sites. Third, the descriptive design of this study mainly presents trend associations at the group level, fails to establish causal connections at the individual level, and cannot fully control the influence of confounding factors. Fourth, GBD 2023 does not include HPV infection as a risk factor, which precludes a formal assessment of its contribution to the observed trends in oropharyngeal cancer. Finally, the ARIMA projections assume historical patterns will persist and may not account for future healthcare innovations or policy shifts. The results offer valuable insights for health policy but should be interpreted with an understanding of these inherent methodological limitations and data uncertainties.",
+      "order": 21
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study delineates the substantial heterogeneity and evolving patterns of HNC burden across five East Asian countries from 1990 to 2023. The diverging national trajectories are shaped by the complex interplay of traditional risk factors, the emerging impact of HPV infection, and profound demographic shifts. These findings highlight the critical need for differentiated, evidence-based national strategies to achieve effective prevention, early detection, and equitable treatment. Addressing the dual challenge of legacy risks and new epidemiological threats is essential for reducing the future burden of HNC in the region.",
+      "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "pone.0349297.ref001",
+      "label": "1",
+      "title": "Head and Neck Cancer",
+      "journal": "N Engl J Med",
+      "year": "2020",
+      "volume": "382",
+      "issue": "1",
+      "fpage": "60",
+      "lpage": "72",
+      "doi": "10.1056/NEJMra1715715",
+      "pmid": "31893516"
+    },
+    {
+      "ref_id": "pone.0349297.ref002",
+      "label": "2",
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "issue": "3",
+      "fpage": "229",
+      "lpage": "63",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "pone.0349297.ref003",
+      "label": "3",
+      "title": "Interaction between tobacco and alcohol use and the risk of head and neck cancer: pooled analysis in the International Head and Neck Cancer Epidemiology Consortium",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2009",
+      "volume": "18",
+      "issue": "2",
+      "fpage": "541",
+      "lpage": "50",
+      "doi": "10.1158/1055-9965.EPI-08-0347",
+      "pmid": "19190158",
+      "pmc_id": "PMC3051410"
+    },
+    {
+      "ref_id": "pone.0349297.ref004",
+      "label": "4",
+      "title": "Reviewing the epidemiology of head and neck cancer: definitions, trends and risk factors",
+      "journal": "Br Dent J",
+      "year": "2022",
+      "volume": "233",
+      "issue": "9",
+      "fpage": "780",
+      "lpage": "6",
+      "doi": "10.1038/s41415-022-5166-x",
+      "pmid": "36369568",
+      "pmc_id": "PMC9652141"
+    },
+    {
+      "ref_id": "pone.0349297.ref005",
+      "label": "5",
+      "title": "Prevalence of human papillomavirus in oropharyngeal and nonoropharyngeal head and neck cancer--systematic review and meta-analysis of trends by time and region",
+      "journal": "Head Neck",
+      "year": "2013",
+      "volume": "35",
+      "issue": "5",
+      "fpage": "747",
+      "lpage": "55",
+      "doi": "10.1002/hed.22015",
+      "pmid": "22267298"
+    },
+    {
+      "ref_id": "pone.0349297.ref006",
+      "label": "6",
+      "title": "Novel prognostic clinical factors and biomarkers for outcome prediction in head and neck cancer: a systematic review",
+      "journal": "Lancet Oncol",
+      "year": "2019",
+      "volume": "20",
+      "issue": "6",
+      "lpage": "26",
+      "doi": "10.1016/S1470-2045(19)30177-9",
+      "pmid": "31162105"
+    },
+    {
+      "ref_id": "pone.0349297.ref007",
+      "label": "7",
+      "title": "Dysphagia in head and neck cancer patients treated with radiotherapy and systemic therapies: Literature review and consensus",
+      "journal": "Crit Rev Oncol Hematol",
+      "year": "2015",
+      "volume": "96",
+      "issue": "2",
+      "fpage": "372",
+      "lpage": "84",
+      "doi": "10.1016/j.critrevonc.2015.06.005",
+      "pmid": "26141260"
+    },
+    {
+      "ref_id": "pone.0349297.ref008",
+      "label": "8",
+      "title": "The point of pain in head and neck cancer",
+      "journal": "Crit Rev Oncol Hematol",
+      "year": "2019",
+      "volume": "138",
+      "fpage": "51",
+      "lpage": "9",
+      "doi": "10.1016/j.critrevonc.2019.04.001",
+      "pmid": "31092385"
+    },
+    {
+      "ref_id": "pone.0349297.ref009",
+      "label": "9",
+      "title": "Public awareness of head and neck cancers: a cross-sectional survey",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "140",
+      "issue": "7",
+      "fpage": "639",
+      "lpage": "46",
+      "doi": "10.1001/jamaoto.2014.867",
+      "pmid": "24902640"
+    },
+    {
+      "ref_id": "pone.0349297.ref010",
+      "label": "10",
+      "title": "Global burden and trends of common head and neck cancers between 1990 and 2021: findings from the Global Burden of Disease Study 2021",
+      "journal": "BMC Oral Health",
+      "year": "2025",
+      "volume": "25",
+      "issue": "1",
+      "fpage": "1773",
+      "doi": "10.1186/s12903-025-07140-6",
+      "pmid": "41225462",
+      "pmc_id": "PMC12613622"
+    },
+    {
+      "ref_id": "pone.0349297.ref011",
+      "label": "11",
+      "title": "Space-time analysis of head and neck cancer in Asia and its 34 countries and territories (1990-2021): Implications from the Global Burden of Disease Study 2021",
+      "journal": "PLoS One",
+      "year": "2025",
+      "volume": "20",
+      "issue": "6",
+      "doi": "10.1371/journal.pone.0326177",
+      "pmid": "40526708",
+      "pmc_id": "PMC12173354"
+    },
+    {
+      "ref_id": "pone.0349297.ref012",
+      "label": "12",
+      "title": "Cancer incidence and mortality in China, 2015",
+      "journal": "J Natl Cancer Cent",
+      "year": "2021",
+      "volume": "1",
+      "issue": "1",
+      "fpage": "2",
+      "lpage": "11",
+      "doi": "10.1016/j.jncc.2020.12.001",
+      "pmid": "39036787",
+      "pmc_id": "PMC11256613"
+    },
+    {
+      "ref_id": "pone.0349297.ref013",
+      "label": "13",
+      "title": "Global incidence trends in head and neck cancer for HPV-related and -unrelated subsites: A systematic review of population-based studies",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "115",
+      "fpage": "105177",
+      "doi": "10.1016/j.oraloncology.2020.105177",
+      "pmid": "33561611"
+    },
+    {
+      "ref_id": "pone.0349297.ref014",
+      "label": "14",
+      "title": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023",
+      "journal": "Lancet",
+      "year": "2025",
+      "volume": "406",
+      "issue": "10513",
+      "fpage": "1873",
+      "lpage": "922",
+      "doi": "10.1016/s0140-6736(25)01637-x",
+      "pmid": "41092926",
+      "pmc_id": "PMC12535840"
+    },
+    {
+      "ref_id": "pone.0349297.ref015",
+      "label": "15",
+      "title": "Global age-sex-specific all-cause mortality and life expectancy estimates for 204 countries and territories and 660 subnational locations, 1950-2023: a demographic analysis for the Global Burden of Disease Study 2023",
+      "journal": "Lancet",
+      "year": "2025",
+      "volume": "406",
+      "issue": "10513",
+      "fpage": "1731",
+      "lpage": "810",
+      "doi": "10.1016/s0140-6736(25)01330-3",
+      "pmid": "41092927",
+      "pmc_id": "PMC12535839"
+    },
+    {
+      "ref_id": "pone.0349297.ref016",
+      "label": "16",
+      "title": "Prevalence of sexual violence against children and age at first exposure: a global analysis by location, age, and sex (1990-2023)",
+      "journal": "Lancet",
+      "year": "2025",
+      "volume": "405",
+      "issue": "10492",
+      "fpage": "1817",
+      "lpage": "36",
+      "doi": "10.1016/s0140-6736(25)00311-3",
+      "pmid": "40347967",
+      "pmc_id": "PMC12100463"
+    },
+    {
+      "ref_id": "pone.0349297.ref017",
+      "label": "17",
+      "title": "Global, regional, and national prevalence of kidney failure with replacement therapy and associated aetiologies, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023",
+      "journal": "Lancet Glob Health",
+      "year": "2025",
+      "volume": "13",
+      "issue": "8",
+      "lpage": "95",
+      "doi": "10.1016/s2214-109x(25)00198-6",
+      "pmid": "40712611"
+    },
+    {
+      "ref_id": "pone.0349297.ref018",
+      "label": "18",
+      "title": "The global, regional, and national burden of cancer, 1990-2023, with forecasts to 2050: a systematic analysis for the Global Burden of Disease Study 2023",
+      "journal": "Lancet",
+      "year": "2025",
+      "volume": "406",
+      "issue": "10512",
+      "fpage": "1565",
+      "lpage": "86",
+      "doi": "10.1016/S0140-6736(25)01635-6",
+      "pmid": "41015051",
+      "pmc_id": "PMC12687902"
+    },
+    {
+      "ref_id": "pone.0349297.ref019",
+      "label": "19",
+      "title": "Global burden of lung cancer attributable to ambient fine particulate matter pollution in 204 countries and territories, 1990-2019",
+      "journal": "Environ Res",
+      "year": "2022",
+      "volume": "204",
+      "fpage": "112023",
+      "doi": "10.1016/j.envres.2021.112023",
+      "pmid": "34520750"
+    },
+    {
+      "ref_id": "pone.0349297.ref020",
+      "label": "20",
+      "title": "Global, regional, and national time trends in mortality for congenital heart disease, 1990-2019: An age-period-cohort analysis for the Global Burden of Disease 2019 study",
+      "journal": "EClinicalMedicine",
+      "year": "2022",
+      "volume": "43",
+      "fpage": "101249",
+      "doi": "10.1016/j.eclinm.2021.101249",
+      "pmid": "35059612",
+      "pmc_id": "PMC8760503"
+    },
+    {
+      "ref_id": "pone.0349297.ref021",
+      "label": "21",
+      "title": "Age period cohort analysis: a review of what we should and shouldn’t do",
+      "journal": "Ann Hum Biol",
+      "year": "2020",
+      "volume": "47",
+      "issue": "2",
+      "fpage": "208",
+      "lpage": "17",
+      "doi": "10.1080/03014460.2019.1707872",
+      "pmid": "32429768"
+    },
+    {
+      "ref_id": "pone.0349297.ref022",
+      "label": "22",
+      "title": "Approaches to fitting age-period-cohort models with unequal intervals",
+      "journal": "Stat Med",
+      "year": "2006",
+      "volume": "25",
+      "issue": "6",
+      "fpage": "977",
+      "lpage": "93",
+      "doi": "10.1002/sim.2253",
+      "pmid": "16143994"
+    },
+    {
+      "ref_id": "pone.0349297.ref023",
+      "label": "23",
+      "title": "A web tool for age-period-cohort analysis of cancer incidence and mortality rates",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2014",
+      "volume": "23",
+      "issue": "11",
+      "fpage": "2296",
+      "lpage": "302",
+      "doi": "10.1158/1055-9965.EPI-14-0300",
+      "pmid": "25146089",
+      "pmc_id": "PMC4221491"
+    },
+    {
+      "ref_id": "pone.0349297.ref024",
+      "label": "24",
+      "title": "Global, regional, and national burden of preterm birth, 1990-2021: a systematic analysis from the global burden of disease study 2021",
+      "journal": "EClinicalMedicine",
+      "year": "2024",
+      "volume": "76",
+      "fpage": "102840",
+      "doi": "10.1016/j.eclinm.2024.102840",
+      "pmid": "39386159",
+      "pmc_id": "PMC11462015"
+    },
+    {
+      "ref_id": "pone.0349297.ref025",
+      "label": "25",
+      "title": "Standardization and decomposition of rates from cross-classified data",
+      "journal": "Genus",
+      "year": "1994",
+      "volume": "50",
+      "fpage": "171",
+      "lpage": "96",
+      "pmid": "12319256"
+    },
+    {
+      "ref_id": "pone.0349297.ref026",
+      "label": "26",
+      "title": "Changing trends of disease burden of gastric cancer in China from 1990 to 2019 and its predictions: Findings from Global Burden of Disease Study",
+      "journal": "Chin J Cancer Res",
+      "year": "2021",
+      "volume": "33",
+      "issue": "1",
+      "fpage": "11",
+      "lpage": "26",
+      "doi": "10.21147/j.issn.1000-9604.2021.01.02",
+      "pmid": "33707924",
+      "pmc_id": "PMC7941685"
+    },
+    {
+      "ref_id": "pone.0349297.ref027",
+      "label": "27",
+      "title": "Trends and projections of the burden of gastric cancer in China and G20 countries: a comparative study based on the global burden of disease database 2021",
+      "journal": "Int J Surg",
+      "year": "2025",
+      "volume": "111",
+      "issue": "7",
+      "fpage": "4854",
+      "lpage": "65",
+      "doi": "10.1097/JS9.0000000000002464",
+      "pmid": "40359560"
+    },
+    {
+      "ref_id": "pone.0349297.ref028",
+      "label": "28",
+      "title": "Burden and trends of diabetic kidney disease in East Asia, 1990-2038: An analysis of the global burden of disease study 2023",
+      "journal": "Diabetes Metab Syndr",
+      "year": "2025",
+      "volume": "19",
+      "issue": "11",
+      "fpage": "103333",
+      "doi": "10.1016/j.dsx.2025.103333",
+      "pmid": "41317674"
+    },
+    {
+      "ref_id": "pone.0349297.ref029",
+      "label": "29",
+      "title": "Over one-third of cancer cases and two-fifths of cancer deaths in southern China are preventable: Insights from the latest representative population-based cancer registry data and risk factor survey",
+      "journal": "Int J Cancer",
+      "year": "2026",
+      "volume": "158",
+      "issue": "4",
+      "fpage": "909",
+      "lpage": "23",
+      "doi": "10.1002/ijc.70114",
+      "pmid": "40900439",
+      "pmc_id": "PMC12712366"
+    },
+    {
+      "ref_id": "pone.0349297.ref030",
+      "label": "30",
+      "title": "Tobacco smoking, alcohol drinking, betel quid chewing, and the risk of head and neck cancer in an East Asian population",
+      "journal": "Head Neck",
+      "year": "2019",
+      "volume": "41",
+      "issue": "1",
+      "fpage": "92",
+      "lpage": "102",
+      "doi": "10.1002/hed.25383",
+      "pmid": "30552826"
+    },
+    {
+      "ref_id": "pone.0349297.ref031",
+      "label": "31",
+      "title": "A review of betel quid chewing, oral cancer and precancer in Mainland China",
+      "journal": "Oral Oncol",
+      "year": "2007",
+      "volume": "43",
+      "issue": "5",
+      "fpage": "424",
+      "lpage": "30",
+      "doi": "10.1016/j.oraloncology.2006.08.010",
+      "pmid": "17258497"
+    },
+    {
+      "ref_id": "pone.0349297.ref032",
+      "label": "32",
+      "title": "Occupational arsenic exposure and digestive and head and neck cancers: A systematic review and meta-analysis",
+      "journal": "Environ Res",
+      "year": "2024",
+      "volume": "260",
+      "fpage": "119643",
+      "doi": "10.1016/j.envres.2024.119643",
+      "pmid": "39053758"
+    },
+    {
+      "ref_id": "pone.0349297.ref033",
+      "label": "33",
+      "title": "The incremental healthcare cost associated with cancer in Belgium: A registry-based data analysis",
+      "journal": "Cancer Med",
+      "year": "2024",
+      "volume": "13",
+      "issue": "3",
+      "doi": "10.1002/cam4.6659",
+      "pmid": "38268318",
+      "pmc_id": "PMC10905540"
+    },
+    {
+      "ref_id": "pone.0349297.ref034",
+      "label": "34",
+      "title": "Distinctive lung cancer incidence trends among men and women attributable to the period effect in Shanghai: An analysis spanning 42 years",
+      "journal": "Cancer Med",
+      "year": "2020",
+      "volume": "9",
+      "issue": "8",
+      "fpage": "2930",
+      "lpage": "9",
+      "doi": "10.1002/cam4.2917",
+      "pmid": "32073760",
+      "pmc_id": "PMC7163103"
+    },
+    {
+      "ref_id": "pone.0349297.ref035",
+      "label": "35",
+      "title": "The burden of pancreatic cancer in five East Asian countries from 1990 to 2021 and its prediction up to 2036: A systemic analysis of the Global Burden of Diseases Study 2021",
+      "journal": "Cancer Med",
+      "year": "2025",
+      "volume": "14",
+      "issue": "23",
+      "doi": "10.1002/cam4.70656",
+      "pmid": "41355376",
+      "pmc_id": "PMC12683073"
+    },
+    {
+      "ref_id": "pone.0349297.ref036",
+      "label": "36",
+      "title": "Current Progress and Challenges to Tobacco Control in China",
+      "journal": "China CDC Wkly",
+      "year": "2022",
+      "volume": "4",
+      "issue": "6",
+      "fpage": "101",
+      "lpage": "5",
+      "doi": "10.46234/ccdcw2022.020",
+      "pmid": "35186379",
+      "pmc_id": "PMC8844520"
+    },
+    {
+      "ref_id": "pone.0349297.ref037",
+      "label": "37",
+      "title": "Healthy China 2030: an opportunity for tobacco control",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "issue": "10204",
+      "fpage": "1123",
+      "lpage": "5",
+      "doi": "10.1016/s0140-6736(19)32048-3",
+      "pmid": "31571589"
+    },
+    {
+      "ref_id": "pone.0349297.ref038",
+      "label": "38",
+      "title": "Healthy China 2030: moving from blueprint to action with a new focus on public health",
+      "journal": "Lancet Public Health",
+      "year": "2019",
+      "volume": "4",
+      "issue": "9",
+      "doi": "10.1016/S2468-2667(19)30160-4",
+      "pmid": "31493840"
+    },
+    {
+      "ref_id": "pone.0349297.ref039",
+      "label": "39",
+      "title": "Epstein-Barr virus infection and nasopharyngeal carcinoma",
+      "journal": "Philos Trans R Soc Lond B Biol Sci",
+      "year": "2017",
+      "volume": "372",
+      "issue": "1732",
+      "fpage": "20160270",
+      "doi": "10.1098/rstb.2016.0270",
+      "pmid": "28893937",
+      "pmc_id": "PMC5597737"
+    },
+    {
+      "ref_id": "pone.0349297.ref040",
+      "label": "40",
+      "title": "Efficacy and toxicity of weekly paclitaxel, carboplatin, and cetuximab as induction chemotherapy or in cases of metastases or relapse for head and neck cancer with a focus on elderly or frail patients",
+      "journal": "Head Neck",
+      "year": "2022",
+      "volume": "44",
+      "issue": "8",
+      "fpage": "1777",
+      "lpage": "86",
+      "doi": "10.1002/hed.27077",
+      "pmid": "35488876"
+    },
+    {
+      "ref_id": "pone.0349297.ref041",
+      "label": "41",
+      "journal": "Current Oncology Reports",
+      "year": "2023",
+      "volume": "25",
+      "issue": "8",
+      "fpage": "897",
+      "lpage": "912",
+      "doi": "10.1007/s11912-023-01425-1",
+      "pmid": "37213060"
+    },
+    {
+      "ref_id": "pone.0349297.ref042",
+      "label": "42",
+      "title": "Distinctive tumor biology of oral squamous cell carcinoma associated with oral submucous fibrosis and its suppressive immune microenvironment",
+      "journal": "BMC Oral Health",
+      "year": "2025",
+      "volume": "26",
+      "issue": "1",
+      "fpage": "347",
+      "doi": "10.1186/s12903-025-07464-3",
+      "pmid": "41366766",
+      "pmc_id": "PMC12922367"
+    },
+    {
+      "ref_id": "pone.0349297.ref043",
+      "label": "43",
+      "title": "The risk of oral cancer and the high consumption of thermally processed meat containing mutagenic and carcinogenic compounds",
+      "journal": "Nutrients",
+      "year": "2024",
+      "volume": "16",
+      "issue": "7",
+      "doi": "10.3390/nu16071084",
+      "pmid": "38613117",
+      "pmc_id": "PMC11013896"
+    },
+    {
+      "ref_id": "pone.0349297.ref044",
+      "label": "44",
+      "title": "Trends in the incidence of head and neck cancer by subsite between 1993 and 2015 in Japan",
+      "journal": "Cancer Med",
+      "year": "2022",
+      "volume": "11",
+      "issue": "6",
+      "fpage": "1553",
+      "lpage": "60",
+      "doi": "10.1002/cam4.4539",
+      "pmid": "35029329",
+      "pmc_id": "PMC8921930"
+    },
+    {
+      "ref_id": "pone.0349297.ref045",
+      "label": "45",
+      "title": "Human papillomavirus-driven head and neck cancers in Japan during 2008-2009 and 2018-2019: The BROADEN study",
+      "journal": "Cancer Sci",
+      "year": "2024",
+      "volume": "115",
+      "issue": "8",
+      "fpage": "2808",
+      "lpage": "18",
+      "doi": "10.1111/cas.16230",
+      "pmid": "38847353",
+      "pmc_id": "PMC11309946"
+    },
+    {
+      "ref_id": "pone.0349297.ref046",
+      "label": "46",
+      "title": "Trends in Head and Neck Cancer Mortality from 1999 to 2019 in Japan: An Observational Analysis",
+      "journal": "Cancers (Basel)",
+      "year": "2023",
+      "volume": "15",
+      "issue": "15",
+      "fpage": "3786",
+      "doi": "10.3390/cancers15153786",
+      "pmid": "37568602",
+      "pmc_id": "PMC10417308"
+    },
+    {
+      "ref_id": "pone.0349297.ref047",
+      "label": "47",
+      "title": "Human papillomavirus-related oropharyngeal cancer",
+      "journal": "Ann Oncol",
+      "year": "2017",
+      "volume": "28",
+      "issue": "10",
+      "fpage": "2386",
+      "lpage": "98",
+      "doi": "10.1093/annonc/mdx304",
+      "pmid": "28633362"
+    },
+    {
+      "ref_id": "pone.0349297.ref048",
+      "label": "48",
+      "title": "Human papillomavirus (HPV) vaccination in Japan",
+      "journal": "J Obstet Gynaecol Res",
+      "year": "2024",
+      "fpage": "65",
+      "lpage": "71",
+      "doi": "10.1111/jog.16020",
+      "pmid": "38979785"
+    },
+    {
+      "ref_id": "pone.0349297.ref049",
+      "label": "49",
+      "title": "Free and universal access to primary healthcare in Mongolia: the service availability and readiness assessment",
+      "journal": "BMC Health Serv Res",
+      "year": "2019",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "129",
+      "doi": "10.1186/s12913-019-3932-5",
+      "pmid": "30786897",
+      "pmc_id": "PMC6381625"
+    },
+    {
+      "ref_id": "pone.0349297.ref050",
+      "label": "50",
+      "title": "The Combined Effects of Alcohol Consumption and Smoking on Cancer Risk by Exposure Level: A Systematic Review and Meta-Analysis",
+      "journal": "J Korean Med Sci",
+      "year": "2024",
+      "volume": "39",
+      "issue": "22",
+      "doi": "10.3346/jkms.2024.39.e185",
+      "pmid": "38859742",
+      "pmc_id": "PMC11164648"
+    },
+    {
+      "ref_id": "pone.0349297.ref051",
+      "label": "51",
+      "title": "Screening for oral cancer: Future prospects, research and policy development for Asia",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "105",
+      "fpage": "104632",
+      "doi": "10.1016/j.oraloncology.2020.104632",
+      "pmid": "32315954"
+    },
+    {
+      "ref_id": "pone.0349297.ref052",
+      "label": "52",
+      "title": "Methods, Detection Rates, and Survival Outcomes of Screening for Head and Neck Cancers",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "issue": "11",
+      "fpage": "1047",
+      "doi": "10.1001/jamaoto.2023.3010",
+      "pmid": "37796524"
+    },
+    {
+      "ref_id": "pone.0349297.ref053",
+      "label": "53",
+      "title": "Artificial Intelligence-based methods in head and neck cancer diagnosis: an overview",
+      "journal": "Br J Cancer",
+      "year": "2021",
+      "volume": "124",
+      "issue": "12",
+      "fpage": "1934",
+      "lpage": "40",
+      "doi": "10.1038/s41416-021-01386-x",
+      "pmid": "33875821",
+      "pmc_id": "PMC8184820"
+    },
+    {
+      "ref_id": "pone.0349297.ref054",
+      "label": "54",
+      "title": "Current and projected gaps in the availability of radiotherapy in the Asia-Pacific region: a country income-group analysis",
+      "journal": "Lancet Oncol",
+      "year": "2024",
+      "volume": "25",
+      "issue": "2",
+      "fpage": "225",
+      "lpage": "34",
+      "doi": "10.1016/S1470-2045(23)00619-8",
+      "pmid": "38301690"
+    }
+  ]
+}

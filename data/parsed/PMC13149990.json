@@ -1,0 +1,824 @@
+{
+  "metadata": {
+    "title": "Postoperative radiotherapy versus postoperative radiochemotherapy after surgery of salivary gland cancer: a systematic review and meta-analysis",
+    "authors": [
+      "Anja Wilhelmy",
+      "Peter Schlattmann",
+      "Orlando Guntinas-Lichius"
+    ],
+    "journal": "Scientific Reports",
+    "year": "2026",
+    "doi": "10.1038/s41598-026-52018-4",
+    "pmc_id": "PMC13149990",
+    "pmid": "42091689",
+    "full_text_available": true,
+    "section_count": 19,
+    "reference_count": 46
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "There is a lack of prospective clinical trials on the therapy of salivary gland cancer (SGC) due the rarity and large variety of histological subtypes. This study aimed to compare overall survival (OS) after primary surgery of SGC followed by postoperative radiotherapy (PORT) versus radiochemotherapy (PORCT) in curative intent. A systematic review and meta-analysis were performed on studies reporting OS after the two postoperative therapy modalities using hazard ratios (HRs) or allowing to calculate the HRs from the data. These studies were identified from PubMed, Web of Science, and Cochrane Library databases until October 2024. Pooled HR with 95% confidence interval (CI) is reported with random-effects or fixed-effects models. The search yielded 1,074 publications, of which 11 retrospective clinical studies with 26,612 adult patients could be included. None of the studies found a statistically significant difference between PORT and PORCT. Likewise, this meta-analysis revealed no statistically significant difference between PORT and PORCT. The pooled HR based on a common effect model was 1.065 (CI: 0.998–1.137) with low between study heterogeneity (I²=24.1%) and heterogeneity variance τ 2 = 0.009. A meta-regression only revealed one factor with influence on the HR. The proportion of T4 patients in the total study shows a HR = 1.153 for a 10% change 95% CI: 1.014,1.314). This meta-analysis, based on a highly confounded observational setting, does not permit a reliable conclusion as to whether PORCT leads to better OS than PORT as adjuvant therapy for patients with SGC. PORCT might be beneficial for high-risk subgroups. However, this was not possible to determine in this meta-analysis as all included studies were retrospective and heterogeneous leading to a high degree of uncertainty about the therapy effects. More robust data from high-quality cohort studies or randomized controlled studies are needed. There is an urgent need for alternative and more effective multimodal treatment concepts for SGC. Supplementary Information The online version contains supplementary material available at 10.1038/s41598-026-52018-4.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Surgery is the standard primary curative treatment for patients with salivary gland cancer. Postoperative radiotherapy is administered to patients with tumor characteristics such as specific histological subtypes, advanced stage, and high-risk pathological factors 1 – 3 . Based on the results of randomized controlled phase III trials, high-risk criteria have been defined for the use of postoperative radiochemotherapy instead of radiotherapy for the most common types of head and neck squamous cell cancer, i.e., cancer of the oral cavity, oropharynx, hypopharynx and larynx, in order to reduce the risk of recurrence and prolong overall survival 4 . Due to diverse and highly variable histologies of salivary gland cancer, this much rarer type of head and neck cancer is typically excluded from prospective randomized clinical trials. Nevertheless, as the 5-year overall survival of salivary gland cancer is, on average, less than 50% 5 , and given the risk of late distant metastasis, there is a need to improve adjuvant treatment – for example, by using postoperative radiochemotherapy also in high-risk subsets of salivary gland cancer. To date, the effect of postoperative radiochemotherapy compared with postoperative radiotherapy has only been analyzed in retrospective observational trials, yielding variable and contradictory results. Therefore, the primary aim of the present study was to perform a systematic review and meta-analysis of overall survival following surgery for salivary gland cancer, comparing postoperative radiotherapy (PORT) with postoperative radiochemotherapy (PORCT). The secondary aim was to conduct a systematic review of the toxicity associated with postoperative radiotherapy versus postoperative radiochemotherapy. Due to the frequently missing or incomplete information on treatment-related side effects, as well as the use of different classification systems used by the respective study authors, a meta-analysis for the secondary aim was not feasible.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This study followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines 6 . The PRISMA checklist can be found in Supplementary Material 1. Ethical approval and patient informed consent were not required for a meta-analysis.",
+      "order": 2
+    },
+    {
+      "section": "Inclusion And Exclusion Criteria",
+      "text": "Where available, randomized controlled trials and cohort studies were included. Only studies on primary salivary gland malignancies were considered. Patients with disease recurrence and distant metastases at the time of diagnosis were excluded. Patients had to be at least 18 years old, as the indication for postoperative therapy is more critical in pediatric cases due to secondary damage 7 . Only studies in which primary tumor resection was followed by postoperative radiotherapy (PORT) or radiochemotherapy (PORCT) were included. Studies involving neoadjuvant therapies or non-surgical treatment were excluded. If several studies used data from the same database, they were still included as long as they differed from each other in their inclusion criteria.",
+      "order": 3
+    },
+    {
+      "section": "Endpoints",
+      "text": "The primary endpoint of the study was the comparison of overall survival between the two postoperative therapy modalities expressed as a hazard ratio (HR). The secondary endpoint was treatment toxicity. The original aim was to investigate toxicity quantified according to the Common Terminology Criteria for Adverse Events (CTCAE) 8 , also by means of a meta-analysis. Due to the frequently missing or incomplete information on treatment-related side effects, as well as the use of different classification systems by the authors, only a systematic review was conducted for the secondary endpoint instead.",
+      "order": 4
+    },
+    {
+      "section": "Data Sources And Literature Search",
+      "text": "The databases PubMed ( https://pubmed.ncbi.nlm.nih.gov/ ), Web of Science ( https://www.webofscience.com/wos/ ), and the Cochrane Library ( https://www.cochranelibrary.com/ ) were searched using a search strategy defined in advance. In addition, a manual search was conducted in the references and citing publications of the included studies, as well as in related review articles and study registries, to identify grey literature. Grey literature refers to unpublished works, such as conference abstracts, results from ongoing studies, or dissertations. The literature search was last updated on October 8, 2024. The following Medical Subject Heading (MeSH) terms and combinations were used: (a) in PubMed: (salivary gland tumor[MeSH Terms] OR salivary gland cancer[MeSH Terms] OR salivary gland neoplasm[MeSH Terms] OR parotid cancer[MeSH Terms] OR submandibular cancer[MeSH Terms] OR neoplasm, sublingual gland[MeSH Terms]) AND (adjuvant radiotherapy[MeSH Terms] OR adjuvant radiochemotherapy[MeSH Terms] OR adjuvant chemoradiotherapy[MeSH Terms] OR radiotherapy, adjuvant/adverse effects[MeSH Terms] OR chemoradiotherapy, adjuvant/adverse effects[MeSH Terms] OR radiochemotherapy, adjuvant/adverse effects[MeSH Terms]); (b) in the Web of Science: (ALL=(salivary gland tumor) OR ALL=(salivary gland cancer) OR ALL=(salivary gland neoplasm) OR ALL=(parotid cancer) OR ALL=(submandibular cancer) OR ALL=(neoplasm, sublingual gland)) AND (ALL=(adjuvant radiotherapy) OR ALL=(adjuvant radiochemotherapy) OR ALL=(adjuvant chemoradiotherapy) OR ALL=(adjuvant radiotherapy, adverse effects) OR ALL=(adjuvant radiochemotherapy, adverse effects) OR ALL=(adjuvant chemoradiotherapy, adverse effects)), and (c) in the Cochrane Library: (salivary gland tumor OR salivary gland cancer OR salivary gland neoplasm OR parotid cancer OR submandibular cancer OR neoplasm, sublingual gland) AND (adjuvant radiotherapy OR adjuvant radiochemotherapy OR adjuvant chemoradiotherapy OR adjuvant radiotherapy, adverse effects OR adjuvant chemoradiotherapy, adverse effects OR adjuvant radiochemotherapy, adverse effects). The literature search revealed 1074 results until 08-October 2024.",
+      "order": 5
+    },
+    {
+      "section": "Selection Of Studies",
+      "text": "Two independent reviewers (A.W.; O.G.L.) reviewed abstracts and full texts. In cases of disagreement, a joint decision was made in a discussion. All studies were assessed against general exclusion criteria: review articles, duplicate patients, absence of essential data, multiple use of same patient dataset, and animal studies. Further exclusion criteria were as follows: non-English or non-German language; full text not available; insufficiently reported data or non-extractable data; case series including fewer than ten patients; subgroup analyses of patients from larger studies; article types including reviews, case reports, conference abstracts, letters to the editor, or book chapters. No restrictions on the publication date were applied, but peer-reviewed journal publication was a requirement for article inclusion.",
+      "order": 6
+    },
+    {
+      "section": "Eligibility Criteria",
+      "text": "The PICOS scheme was utilized to establish the eligibility criteria for this study. Patients (P): ≥18 years of age, with malignant primary salivary gland cancer. Intervention (I): primary surgery with curative intent followed by postoperative radiotherapy (PORT). Comparison (C): primary surgery with curative intent followed by postoperative radiochemotherapy (PORCT). Outcomes (O): Two outcomes were analyzed: overall survival and treatment toxicity. To compare the overall survival for the two treatment concepts, each study was checked to determine whether a hazard ratio (HR) was given or could be calculated from the available data 9 . Study design (S): Retrospective and prospective cohort studies, cohort studies, case series, and randomized clinical trials (RCTs) were included. Eleven (11) articles were finally included in the analysis (Fig. 1 ). The reasons for excluding full-text studies are summarized in Supplementary Table 1.",
+      "order": 7
+    },
+    {
+      "section": "Data Extraction And Quality Analysis",
+      "text": "The HRs with confidence intervals (CI) and p-values (p) as well as the sample sizes for the treatment modalities were summarized for each of the studies. The HR indicates the ratio of the respective hazards of the two treatment groups 10 , 11 . In addition, the key figures of the patient cohorts on tumor and lymph node classification according to the TNM classification, histology, chemotherapeutic agent used, radiation technique and dose as well as the publication year of the study were documented. To improve comparability between the studies, information on tumor and lymph node classification was standardized to percentages of the total cohorts and the postoperative therapy groups. The Newcastle–Ottawa Quality Assessment Scale (NOQAS) for cohort studies ( http://www.ohri.ca/programs/clinical_epidemiology/oxford.asp ) was used by two reviewers (A.W. and O.G.L.) to assess the overall quality of each included study. The two reviewers evaluated the implementation of this assessment tool and agreed on a method before their independent assessments of the studies. Disagreements were resolved by discussion. The results are presented in Supplementary Table 2. The NOQAS score was high for 6 studies and moderate for 5 studies.",
+      "order": 8
+    },
+    {
+      "section": "Statistics",
+      "text": "Statistical analysis was performed in RStudio, Version 4.3.; www.r-project.org ). The package meta 12 , metafor 13 , dmetar 14 and metasens 15 were used for statistical calculations. Not all studies were considered to the same extent. The weighting with which the individual studies were included in the pooled effect was determined via the inverse variance. Thus, publications with larger samples and a more precise estimate of the observed effect had a greater influence on the pooled effect of the meta-analysis than small studies with a high standard deviation. The proportion of favorable results is presented in the forest plots as hazard ratio (HR) together with a 95% confidence interval (CI). We aimed to use a parsimonious model based on statistical grounds. First, we calculated a common effect and a model with random effects using the restricted maximum likelihood method in order the estimate the heterogeneity variance. In order to compare the fit of the respective models we applied the likelihood ratio test. This resulted in a value of 1.2613 with df = 1 and p = 0.261. Thus, the common effect model turned out to be the most parsimonious model. For that matter we decided to report common effect model as primary analysis 16 . Importantly, the random-effects model yielded virtually identical results (HR 1.087, 95% CI 0.985–1.200), supporting the robustness of the findings regardless of the modeling approach chosen; both models are reported to allow clinical interpretation in the context of between-study variability. Assessment of statistical heterogeneity was performed using Cochran’s Q-test with corresponding I² statistic 17 . This statistic is given as a percentage, and represents the variability due to heterogeneity between studies. As a sensitivity analysis a random-effects model was applied where the heterogeneity variance (τ²) was estimated via restricted maximum likelihood (REML). Publication bias was assessed via Egger’s test for funnel plot asymmetry 18 . In the leave-one-out analysis, the result of the meta-analysis was recalculated, in each case excluding one of the studies.",
+      "order": 9
+    },
+    {
+      "section": "Included Studies",
+      "text": "The eleven included studies are listed in Table 1 . These studies included 26,612 patients and are all retrospective cohort studies. No randomized controlled trial could be found. None of these eleven studies found a significant difference between PORT and PORCT. Five of the studies obtained their patient data from National Cancer Database (NCDB) but used different time periods 21 – 25 . Six studies included only cancer of the major salivary glands. Three studies included major and minor salivary gland cancer. One trial was focused on minor salivary gland cancer and one on sublingual gland cancer. The majority, i.e. eight studies included all histologies. Two studies were focused on adenoid cystic carcinoma and another on salivary duct cancer. In four studies, the T classification was specified separately for both intervention groups. In six the N classification was mentioned. The proportions of T4 tumors and patients with lymph node metastases (N+) were higher in the PORCT group than in the PORT group. Only five of the included studies specified the chemotherapeutic agents used for PORCT, and each of these studies predominantly used platinum-containing regimens 26 – 30 . Six trials contained information on the applied radiation dose and five studies described the radiation techniques used 23 , 26 – 30 . In each of the studies, intensity-modulated radiotherapy (IMRT) was used in most cases, while a small percentage was treated with 2/3D-conformal radiotherapy (2/3D-CRT). Volume modulated arc therapy (VMAT) was used in one study 23 . An overview of the treatment modalities can be found in Table 2 .",
+      "order": 10
+    },
+    {
+      "section": "Meta-Analysis On Overall Survival",
+      "text": "Based on a common effect model this meta-analysis revealed no statistically significant difference between PORT and PORCT (Fig. 2 ). The pooled HR was 1.065 with 95% CI (0.998; 1.137). When using alternatively the random effects model, the pooled HR was 1.087 with 95% CI (0.995; 1.120). So, both models produce very similar results. The 95% prediction interval ranged from 0.860 to 1.375, which indicates the estimated effect size for future studies, including a HR equal to 1.",
+      "order": 11
+    },
+    {
+      "section": "Between Study Heterogeneity",
+      "text": "In terms of heterogeneity Cochran’s Q-test statistic equals 13.180, df = 10, p = 0.214. The corresponding I 2 =24.1%. This indicates low heterogeneity. Likewise, the heterogeneity variance τ 2 takes a value of 0.009 when a random effects model is applied. This also indicates low heterogeneity. As a result, a common effect model was applied for our primary analysis. For completeness the overall HR of the random effects model equals 1.087 with 95% CI (0.985; 1.200).",
+      "order": 12
+    },
+    {
+      "section": "Leave-One-Out Analysis",
+      "text": "In the leave-one-out analysis the large studies by Amini et al. 2016, Cheraghiou et al. 2018, and Gordon et al. 2022 were identified as studies with a moderate influence on effect size and heterogeneity. Figure 3 shows the results of this analysis.",
+      "order": 13
+    },
+    {
+      "section": "Subgroup Analysis And Meta-Regression",
+      "text": "Tumor and lymph node classification, histology and year of publication are possible factors influencing the probability of patient survival. Meta-regressions were used to quantify these potential effects (Table 3 ). Since five studies obtained their patient data from the same database, the difference between the NCDB subgroup and the remaining studies was analyzed for significance. The meta-regression for the year of publication showed no statistically significant result ( p = 0.068). The pooled effects did not differ significantly (HR NCDB = 1.05/HR non-NCDB = 1.2; p = 0.150). The corresponding bubble plot is shown in Fig. 4 A. It is reasonable to assume that a higher tumor classification leads to shorter survival. Therefore, the proportion of tumors classified as T3/T4 and only as T4 in the total cohort, but also the ratio of tumors classified as T4 in the two intervention groups within the individual studies was examined in the meta-regression, provided that these or the data necessary for the calculation were given in the publications. A statistically significant covariate was only found for the percentage of T4 tumors in the overall cohort. The hazard ratio for a 10% change is given by HR = 1.154, with 95% CI (1.014; 1.314). Figure 4 B shows the corresponding bubble plot. No significant effect on HR could be demonstrated for the proportions of high tumor grade and positive lymph node status in the intervention groups, although the corresponding patient data were only provided in four (T4) and six (N+) studies. For the sake of clarity, only the result for MEC is shown as an example for histology (cf. Table 3 ), which had the largest percentage share in most of the included studies. There was no significant effect for any histology.",
+      "order": 14
+    },
+    {
+      "section": "Publication Bias",
+      "text": "The funnel plot shown in Fig. 5 A only showed a slight asymmetry in studies with a higher standard deviation. No publication was clearly outside the calculated ideal limits. To differentiate an asymmetry due to publication bias from an uneven distribution of studies caused by other factors, a contour funnel plot was then applied (Fig. 5 B). Only two studies had significant effects 21 , 29 . A lack of publication of non-significant results could therefore not explain the low asymmetry. Egger’s regression test was carried out to objectify the funnel symmetry. This showed an intercept of 0.823 (CI −0.305–1.969, t = 1.433; p = 0.186). Thus, no significant asymmetry of the funnel plot could be detected. To validate this result, PET-PEESE and a limit meta-analysis according were then performed to calculate the true effect size after taking small-study effects into account (Fig. 5 C). Here, too, there were no major differences in the pooled effect sizes. In the limit meta-analysis, the pooled hazard ratio based on a random effects model was HR = 1.040 95% CI (0.921; 1.174, p = 0.524).",
+      "order": 15
+    },
+    {
+      "section": "Systematic Review On Therapy Toxicity",
+      "text": "Only four included studies provided information on treatment side effects 27 – 30 . Even in these four studies the toxicity reporting is incomplete or inconsistent. Major deficits were a lack of treatment group stratification (toxicity after PORT vs. PORCT), and the absence of standardized toxicity grading like the CTCAE. Given the limited number of contributing studies and the substantial heterogeneity in reporting methods, the toxicity findings presented here should be considered exploratory only and are not suitable for comparative inference between PORT and PORCT. Supplementary Table 3 summarizes the information on the side effects of the individual studies. The adverse effects observed in the four studies included nausea and vomiting, hematologic side effects such as anemia and neutropenia, as well as dehydration, dysphagia, infections, wound complications, pulmonary complications, renal insufficiency, skin toxicity, xerostomia, trismus, hearing loss, mucositis, and gastrointestinal toxicity. When looking at the four studies individually, it becomes apparent that Xu et al. did not differentiate between patients who received PORCT and those who received PORT 30 . Severe toxicities (grade > 4) were not observed. Qiu et al. observed a significantly higher incidence of adverse events affecting the upper gastrointestinal tract and a higher incidence of hematotoxicity in the PORCT group, although grade 4 or higher RTOG toxicity was not reported for any of these organs 28 . Tanvetyanon et al. also found a higher incidence of treatment-related adverse events in the PORCT group in the multivariate analysis with an odds ratio (OR) of 6.79 (4.16–11.09). Nausea/vomiting, anemia, dehydration, infections, and wound complications occurred significantly more frequently in the PORCT group. There was a trend for more acute renal insufficiency and mucositis after PORCT, but statistical significance was not reached. In addition, a significantly more frequent extension of treatment duration > 3 months was found for patients treated with PORCT group, which was interpreted as an indication of more frequent toxicity-related treatment interruptions with a comparable median number of radiotherapy cycles 29 . In contrast, Onderdonk et al. found no significant differences in the treatment groups with regard to acute or late RTOG grade 3 or higher adverse events 27 . One grade 5 acute adverse event in the PORT group, but not in the PORCT group.",
+      "order": 16
+    },
+    {
+      "section": "Discussion",
+      "text": "According to ASCO and ESMO/EURACAN Guidelines, PORT should be offered to all patients with adenoid cystic carcinoma, and for other salivary gland cancer types exhibiting high-grade differentiation, positive margins, perineural invasion, lymphovascular invasion, lymph node metastases, and pT3-4 tumors 31 – 33 . PORT should also be considered for patients with close margins or intermediate-grade tumors 32 . A recent meta-analysis confirmed that PORT demonstrates favorable long-term efficacy and safety in salivary gland cancer, particularly for patients with high-grade histology. The pooled overall survival rates at 3, 5, and 10 years were 84%, 75%, and 68% respectively 3 . Another meta-analysis focusing on adenoid cystic carcinoma found that PORT significantly improves local control, but failed to identify a statistically significant survival benefit at 5 and 10 years. The overall survival range in the included studies was 81–93% without PORT and 79–92% with PORT 2 . Hence, there is a need for treatment alternatives beyond PORT for salivary gland cancer, at least for patients wirh high-risk criteria. In this meta-analysis and systematic review, pooled data from the included studies did not show improved OS with PORCT compared to PORT as adjuvant treatment after surgery. Due to the retrospective design of the included studies, results must be interpreted with caution. It cannot be ruled out that some patients with poorer risk profiles received PORCT rather than PORT, which biases prognosis from the outset. Most included studies pooled patients from major and minor salivary glands and encompassed a wide variety of histological subtypes. There is only limited evidence that patients with adenoid cystic carcinoma do not benefit from PORCT compared to PORT 28 , 30 . The included studies did not exclusively include high-risk patients (T3/4, N+, small margins, extracapsular spread). Therefore, future analyses of better-defined patient subsets may be valuable. Large randomized controlled trials for salivary gland cancer subsets are unlikely, hence, cancer registry-based studies using data drawn from the National Cancer Database (NCDB) or the Surveillance, Epidemiology, and End Results (SEER) program are particularly valuable 21 – 24 , 29 . Finally, the present meta-analysis focused solely on OS. Cancer-specific survival was not analyzed, likely due to insufficient information. Consequently, the causes of death in this meta-analysis remain unknown. A major problem of salivary gland cancer is distant metastasis as a driver for tumor recurrence 34 . PORCT does not appear to reduce the risk of late distant metastasis 35 . Even if PORCT were be more effective than PORT in a subset of patients, it is important to note that PORT alone already leads to CTCAE grade 3 toxicities of approximately 31% of the cases, and to grade 1/2 or grade 3 toxicities in roughly 83% and 7%, of the cases, respectively 3 , 36 . Although, a meta-analysis to compare toxicity between PORT and PORCT was initially planned, the available data were insufficient. The systematic review suggested as expected that the risk of acute toxicity is higher after PORCT compared to PORT. Toxicity assessment remains critical when weighing the benefits of PORT against PORCT. Even if PORCT proves beneficial in terms of survival for a subgroup in the ongoing RTOG-1008 study (ClinicalTrials.gov identifier NCT01220583 ; more details, see below), this benefit must to be balanced against the potential for increased toxicity. The RTOG-1008 protocol includes acute toxicity comparison between PORT and PORCT. Salivary gland cancer survivors are underrepresented in long-term head and neck cancer survivorship studies. Swallowing and eating problems appear more common in these patients compared to other head and neck cancer survivors 37 . Survivors who received chemotherapy have an elevated risk of long-term sequelae, significantly impacting quality of life 37 , 38 . Several limitations of this study have to be acknowledged. All included studies were retrospective, posing a risk of selection bias. Patients receiving PORCT are generally more likely to have adverse baseline prognostic factors (e.g., higher T classification, higher N classification, other high-risk pathological features). Some (not all) of these factors could be studied by the meta-regression. T4 had a significantly higher probability to be found in the PORCT than in the PORT group and N+ showed a trend to be more frequent in the PORCT group. It has to be emphasized that only four of the selected eleven studies provided sufficient data to compare the proportions of T4 tumors in the PORCT group versus the PORT group. The small number of studies likely contributed to the fact that the corresponding meta-regression did not show statistical significance. Furthermore, in all studies included in the meta-regression, the percentage of T4 and N+ tumors was higher in the PORCT group than in the PORT group. The imbalance in the T and N classification between the PORCT and PORT group posed an important bias, potentially driving the results toward no observable OS effect between both groups. Consequently, the absence of a statistically significant survival benefit for PORCT in this meta-analysis must be interpreted with caution and may, at least in part, reflect this underlying selection bias rather than a true absence of a treatment effect. In optimally balanced groups, one would have expected that, on the one hand, a higher T-classification result in a lower OS, and on the other hand, that PORCT might be beneficial for high-risk groups. The present meta-analysis exclusively focused on OS. Other clinically relevant endpoints such as disease-free survival, locoregional control, and distant metastasis-free survival could not be considered due to insufficient pooled data. This is another limitation, as these endpoints are as important as OS for the evaluation of treatment strategies for salivary gland cancer. The theoretical background of PORCT instead of PORT is not solely to improve OS in high-risk scenarios, but also to improve locoregional control and, especially for adenoid cystic carcinoma, potentially to reduce the risk of distant metastasis. Heterogeneity in histological subtypes and anatomical locations posed additional challenges. Since there are no clear standards for this in salivary gland cancer, the radiotherapy protocols and chemotherapy regimens can also vary considerably. Pooling data without subgrouping was the only feasible approach, as several studies lacked consistent subgroup information and some subgroups were too small for analysis. In particular, a consequence of the pooling wa that we cannot rule out the possibility that treatment effects may differ across specific histological subgroups and subsites. The ongoing RTOG-1008 phase II/III trial is investigating cisplatin-based PORCT versus PORT in resected high-risk salivary gland carcinoma with a 4-year follow-up (ClinicalTrials.gov identifier NCT01220583 ). This trial may clarify, whether patients with a higher T or N classification benefit from PORCT. Recruitment was started in 2010 and completed in March 2021, with first results expected in 2026. No other prospective trials comparing PORCT and PORT are currently ongoing. If classical chemotherapy offers no additive value, what are the alternatives? Immunotherapy, while now standard of care in the recurrent/metastatic head and neck squamous cell carcinoma, has been disappointing for salivary gland cancer 39 , 40 . There are currently no prospective studies on adjuvant systemic therapy in combination with radiotherapy or instead of radiotherapy. Retrospective data suggest a survival benefit from adjuvant trastuzumab after surgery and PORT in Her2/neu expression DAKO3 + tumors 41 . Also according to a retrospective analysis, androgen deprivation therapy with bicalutamide or with an LH-RH agonist (goserelin, triptorelin) as monotherapy or in combination in stage IV androgen receptor-positive salivary duct carcinoma given as adjuvant therapy after PORT over 1–5 years could provide an advantage over radiotherapy alone 42 . However, there is currently a lack of evidence for the benefit shown in prospective clinical trials 43 . Therefore, one ongoing phase II study is on interest. This phase II trial is on adjuvant combination therapy with ado-trastuzumab emtansine (T-DM1) in HER2-positive salivary gland carcinomas during and after postoperative radiotherapy. It started in 2020 and is still recruiting (ClinicalTrials.gov Identifier NCT04620187 ). Collectively, these examples illustrate the slow progress in improving treatment for salivary gland cancer.",
+      "order": 17
+    },
+    {
+      "section": "Conclusion",
+      "text": "PORT after in operated high-risk salivary gland cancer patients is the standard of care. However, the overall survival of many of these patients remains unsatisfactory. So far, there is no clear evidence of the benefits of PORCT after surgery for salivary gland cancer. This meta-analysis was performed to determine whether PORCT leads to better prognosis than PORT in patients undergoing primary surgery for salivary gland cancer. A total of 11 retrospective clinical studies including 26,612 adult patients were analyzed. The meta-analysis could not demonstrate a benefit of PORCT compared to PORT with regard to overall survival. To avoid overinterpretation of the non-significant findings, it should be emphasized that there was substantial clinical heterogeneity across the included studies in terms of histology, primary tumor site (major vs. minor salivary glands), stage distribution, and treatment protocols (including chemotherapy regimens and radiotherapy techniques). The retrospective design of the included studies and this heterogeneity resulted in a high degree of uncertainty about the treatment effects. Treatment effects may differ across specific subgroups. More robust data from high-quality cohort studies or randomized controlled studies are urgently needed. Therefore, the results of the RTOG-1008 phase II/III trial will be very important. This trial will answer the question whether patients with operated high-risk salivary gland carcinoma benefit from PORCT with cisplatin compared with PORT. Beyond this, there is an urgent need for alternatives to classical chemotherapy as adjuvant treatment in patients with operated high-risk salivary gland cancer.",
+      "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Joshi NP",
+        "Broughman JR"
+      ],
+      "title": "Postoperative management of salivary gland tumors.",
+      "journal": "Curr. Treat. Options. Oncol.",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "23",
+      "doi": "10.1007/s11864-021-00820-9",
+      "pmid": "33560478"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Scarpa A",
+        "et al."
+      ],
+      "title": "Post-operative radiotherapy in adenoid cystic carcinoma of salivary glands versus surgery alone: What is the evidence about survival and local control? A systematic review and meta-analysis",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2024",
+      "volume": "281",
+      "fpage": "563",
+      "lpage": "571",
+      "doi": "10.1007/s00405-023-08252-x",
+      "pmid": "37796320"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Wang J",
+        "et al."
+      ],
+      "title": "The current position of postoperative radiotherapy for salivary gland cancer: A systematic review and meta-analysis.",
+      "journal": "Cancers",
+      "year": "2024",
+      "doi": "10.3390/cancers16132375",
+      "pmid": "39001437",
+      "pmc_id": "PMC11240508"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Bernier J",
+        "Cooper JS"
+      ],
+      "title": "Chemoradiation after surgery for high-risk head and neck cancer patients: How strong is the evidence?",
+      "journal": "Oncologist",
+      "year": "2005",
+      "volume": "10",
+      "fpage": "215",
+      "lpage": "224",
+      "doi": "10.1634/theoncologist.10-3-215",
+      "pmid": "15793225"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Guntinas-Lichius O",
+        "et al."
+      ],
+      "title": "Incidence, treatment, and outcome of parotid carcinoma, 1996–2011: A population-based study in Thuringia, Germany",
+      "journal": "J. Cancer Res. Clin. Oncol.",
+      "year": "2015",
+      "volume": "141",
+      "fpage": "1679",
+      "lpage": "1688",
+      "doi": "10.1007/s00432-015-1961-y",
+      "pmid": "25800621",
+      "pmc_id": "PMC11824054"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Arya S",
+        "Kaji AH",
+        "Boermeester MA"
+      ],
+      "title": "PRISMA reporting guidelines for meta-analyses and systematic reviews",
+      "journal": "JAMA Surg.",
+      "year": "2021",
+      "volume": "156",
+      "fpage": "789",
+      "lpage": "790",
+      "doi": "10.1001/jamasurg.2021.0546",
+      "pmid": "33825806"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Chiaravalli S",
+        "et al."
+      ],
+      "title": "Salivary gland carcinomas in children and adolescents: The Italian TREP project experience",
+      "journal": "Pediatr. Blood Cancer",
+      "year": "2014",
+      "volume": "61",
+      "fpage": "1961",
+      "lpage": "1968",
+      "doi": "10.1002/pbc.25139",
+      "pmid": "25132368"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "raw_citation": "National Cancer Institute. Common Terminology Criteria for Adverse Events (CTCAE) . https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm (2025)."
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Tierney JF",
+        "Stewart LA",
+        "Ghersi D",
+        "Burdett S",
+        "Sydes MR"
+      ],
+      "title": "Practical methods for incorporating summary time-to-event data into meta-analysis",
+      "journal": "Trials",
+      "year": "2007",
+      "volume": "8",
+      "fpage": "16",
+      "doi": "10.1186/1745-6215-8-16",
+      "pmid": "17555582",
+      "pmc_id": "PMC1920534"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Spruance SL",
+        "Reid JE",
+        "Grace M",
+        "Samore M"
+      ],
+      "title": "Hazard ratio in clinical trials",
+      "journal": "Antimicrob. Agents Chemother.",
+      "year": "2004",
+      "volume": "48",
+      "fpage": "2787",
+      "lpage": "2792",
+      "doi": "10.1128/aac.48.8.2787-2792.2004",
+      "pmid": "15273082",
+      "pmc_id": "PMC478551"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Cox DR"
+      ],
+      "title": "Regression models and life-tables",
+      "journal": "J. R. Stat. Soc. B",
+      "year": "1972",
+      "volume": "34",
+      "fpage": "186",
+      "lpage": "202",
+      "doi": "10.1111/j.2517-6161.1972.tb00899.x"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Balduzzi S",
+        "Rücker G",
+        "Schwarzer G"
+      ],
+      "title": "How to perform a meta-analysis with R: A practical tutorial",
+      "journal": "Evid. Based Ment. Health",
+      "year": "2019",
+      "volume": "22",
+      "fpage": "153",
+      "lpage": "160",
+      "doi": "10.1136/ebmental-2019-300117",
+      "pmid": "31563865",
+      "pmc_id": "PMC10231495"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Viechtbauer W"
+      ],
+      "title": "Conducting meta-analyses in R with the metafor package",
+      "journal": "J. Stat. Softw.",
+      "year": "2010",
+      "volume": "36",
+      "fpage": "1",
+      "lpage": "48",
+      "doi": "10.18637/jss.v036.i03"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "raw_citation": "Harrer, M., Cuijpers, P., Furukawa, T. & Ebert, D. D. dmetar: Companion R Package For The Guide ‘Doing Meta-Analysis in R’. R package version 0.1.0. (2019)."
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "raw_citation": "Schwarzer, G., Carpenter, J. R. & Rücker, G. Statistical Methods for Sensitivity Analysis in Meta-Analysis - Package ‘metasens’ , https://link.springer.com/book/ , 10.1007/978-3-319-21416-0> (2019)."
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Hartung J",
+        "Knapp G"
+      ],
+      "title": "A refined method for the meta-analysis of controlled clinical trials with binary outcome",
+      "journal": "Stat. Med.",
+      "year": "2001",
+      "volume": "20",
+      "fpage": "3875",
+      "lpage": "3889",
+      "doi": "10.1002/sim.1009",
+      "pmid": "11782040"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Higgins JP",
+        "Thompson SG"
+      ],
+      "title": "Quantifying heterogeneity in a meta-analysis",
+      "journal": "Stat. Med.",
+      "year": "2002",
+      "volume": "21",
+      "fpage": "1539",
+      "lpage": "1558",
+      "doi": "10.1002/sim.1186",
+      "pmid": "12111919"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Egger M",
+        "Davey Smith G",
+        "Schneider M",
+        "Minder C"
+      ],
+      "title": "Bias in meta-analysis detected by a simple, graphical test",
+      "journal": "BMJ",
+      "year": "1997",
+      "volume": "315",
+      "fpage": "629",
+      "lpage": "634",
+      "doi": "10.1136/bmj.315.7109.629",
+      "pmid": "9310563",
+      "pmc_id": "PMC2127453"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Baujat B",
+        "Mahé C",
+        "Pignon JP",
+        "Hill C"
+      ],
+      "title": "A graphical method for exploring heterogeneity in meta-analyses: Application to a meta-analysis of 65 trials",
+      "journal": "Stat. Med.",
+      "year": "2002",
+      "volume": "21",
+      "fpage": "2641",
+      "lpage": "2652",
+      "doi": "10.1002/sim.1221",
+      "pmid": "12228882"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Viechtbauer W",
+        "Cheung MW"
+      ],
+      "title": "Outlier and influence diagnostics for meta-analysis",
+      "journal": "Res. Synth. Methods",
+      "year": "2010",
+      "volume": "1",
+      "fpage": "112",
+      "lpage": "125",
+      "doi": "10.1002/jrsm.11",
+      "pmid": "26061377"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Amini A",
+        "et al."
+      ],
+      "title": "Association of adjuvant chemoradiotherapy vs radiotherapy alone with survival in patients with resected major salivary gland carcinoma: Data from the National Cancer Data Base",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2016",
+      "volume": "142",
+      "fpage": "1100",
+      "lpage": "1110",
+      "doi": "10.1001/jamaoto.2016.2168",
+      "pmid": "27541166"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Cheraghlou S",
+        "et al."
+      ],
+      "title": "Adjuvant therapy in major salivary gland cancers: Analysis of 8580 patients in the National Cancer Database",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "fpage": "1343",
+      "lpage": "1355",
+      "doi": "10.1002/hed.24984",
+      "pmid": "29756412"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Gordon AJ",
+        "et al."
+      ],
+      "title": "Adoption of adjuvant chemotherapy in high-risk salivary gland malignancies",
+      "journal": "Head Neck",
+      "year": "2023",
+      "volume": "45",
+      "fpage": "167",
+      "lpage": "177",
+      "doi": "10.1002/hed.27222",
+      "pmid": "36245302"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Torabi SJ",
+        "et al."
+      ],
+      "title": "Multi-modality treatment and survival in sinonasal minor salivary gland tumors",
+      "journal": "Journal of Neurological Surgery Part B: Skull Base",
+      "year": "2020",
+      "volume": "81",
+      "fpage": "198",
+      "lpage": "205",
+      "doi": "10.1055/s-0039-1683437",
+      "pmid": "32206540",
+      "pmc_id": "PMC7082160"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Yan F",
+        "et al."
+      ],
+      "title": "Timing of postoperative radiation therapy for major salivary gland cancers",
+      "journal": "Head Neck",
+      "year": "2024",
+      "volume": "46",
+      "fpage": "2861",
+      "lpage": "2869",
+      "doi": "10.1002/hed.27845",
+      "pmid": "38864240"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Kang NW",
+        "et al."
+      ],
+      "title": "No survival benefit from adding chemotherapy to adjuvant radiation in advanced major salivary gland cancer",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "20862",
+      "doi": "10.1038/s41598-022-25468-9",
+      "pmid": "36460788",
+      "pmc_id": "PMC9718855"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Onderdonk BE",
+        "et al."
+      ],
+      "title": "Adjuvant treatment for high-risk salivary gland malignancies and prognostic stratification based on a 20-year single institution experience",
+      "journal": "Health Sci. Rep.",
+      "year": "2020",
+      "volume": "3",
+      "fpage": "e195",
+      "doi": "10.1002/hsr2.195",
+      "pmid": "33043152",
+      "pmc_id": "PMC7539565"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Qiu Z",
+        "et al."
+      ],
+      "title": "Platinum-based adjuvant chemoradiotherapy versus adjuvant radiotherapy in patients with head and neck adenoid cystic carcinoma",
+      "journal": "J. Cancer Res. Clin. Oncol.",
+      "year": "2024",
+      "volume": "150",
+      "fpage": "195",
+      "doi": "10.1007/s00432-024-05719-0",
+      "pmid": "38625410",
+      "pmc_id": "PMC11021222"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Tanvetyanon T",
+        "et al."
+      ],
+      "title": "Adjuvant chemoradiotherapy versus with radiotherapy alone for locally advanced salivary gland carcinoma among older patients",
+      "journal": "Head Neck",
+      "year": "2016",
+      "volume": "38",
+      "fpage": "863",
+      "lpage": "870",
+      "doi": "10.1002/hed.24172",
+      "pmid": "26340707"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Xu P",
+        "et al."
+      ],
+      "title": "Outcome of adenoid cystic carcinoma of head and neck after postoperative intensity modulation radiotherapy: A single institution study",
+      "journal": "Cancer Manag. Res.",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "2411",
+      "lpage": "2417",
+      "doi": "10.2147/cmar.S283494",
+      "pmid": "33758540",
+      "pmc_id": "PMC7979337"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "van Herpen C",
+        "et al."
+      ],
+      "title": "Salivary gland cancer: ESMO-European Reference Network on Rare Adult Solid Cancers (EURACAN) clinical practice guideline for diagnosis, treatment and follow-up",
+      "journal": "ESMO Open",
+      "year": "2022",
+      "volume": "7",
+      "fpage": "100602",
+      "doi": "10.1016/j.esmoop.2022.100602",
+      "pmid": "36567082",
+      "pmc_id": "PMC9808465"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Geiger JL",
+        "et al."
+      ],
+      "title": "Management of salivary gland malignancy: ASCO guideline",
+      "journal": "J. Clin. Oncol.",
+      "year": "2021",
+      "volume": "39",
+      "fpage": "1909",
+      "lpage": "1941",
+      "doi": "10.1200/JCO.21.00449",
+      "pmid": "33900808"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Locati LD",
+        "et al."
+      ],
+      "title": "Current management and future challenges in salivary glands cancer",
+      "journal": "Front. Oncol.",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1264287",
+      "doi": "10.3389/fonc.2023.1264287",
+      "pmid": "37795454",
+      "pmc_id": "PMC10546333"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Turchan WT",
+        "Korpics MC",
+        "Rooney M",
+        "Koshy M",
+        "Spiotto MT"
+      ],
+      "title": "Impact of anatomic site of distant metastasis on survival in salivary gland cancers",
+      "journal": "Head Neck",
+      "year": "2021",
+      "volume": "43",
+      "fpage": "2589",
+      "lpage": "2601",
+      "doi": "10.1002/hed.26727",
+      "pmid": "33961718",
+      "pmc_id": "PMC8662576"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Freitag V",
+        "et al."
+      ],
+      "title": "High-grade salivary gland cancer: Is surgery followed by radiotherapy an adequate treatment to reach tumor control? Results from a tertiary referral centre focussing on incidence and management of distant metastases",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2022",
+      "volume": "279",
+      "fpage": "2553",
+      "lpage": "2563",
+      "doi": "10.1007/s00405-021-07024-9",
+      "pmid": "34436631",
+      "pmc_id": "PMC8986716"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Rühle A",
+        "et al."
+      ],
+      "title": "Radiation-induced toxicities and outcomes after radiotherapy are independent of patient age in elderly salivary gland cancer patients: Results from a matched-pair analysis of a rare disease",
+      "journal": "Eur. Arch. Otorhinolaryngol.",
+      "year": "2021",
+      "volume": "278",
+      "fpage": "2537",
+      "lpage": "2548",
+      "doi": "10.1007/s00405-020-06393-x",
+      "pmid": "33000299",
+      "pmc_id": "PMC8165074"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Taylor KJ",
+        "et al."
+      ],
+      "title": "Serious long-term effects of head and neck cancer from the survivors’ point of view.",
+      "journal": "Healthcare",
+      "year": "2023",
+      "doi": "10.3390/healthcare11060906",
+      "pmid": "36981562",
+      "pmc_id": "PMC10048748"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Taylor KJ",
+        "et al."
+      ],
+      "title": "Long-term health-related quality of life in head and neck cancer survivors: A large multinational study",
+      "journal": "Int. J. Cancer",
+      "year": "2024",
+      "volume": "154",
+      "fpage": "1772",
+      "lpage": "1785",
+      "doi": "10.1002/ijc.34861",
+      "pmid": "38312044"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Fasano M",
+        "et al."
+      ],
+      "title": "Immunotherapy for head and neck cancer: Present and future",
+      "journal": "Crit. Rev. Oncol. Hematol.",
+      "year": "2022",
+      "volume": "174",
+      "fpage": "103679",
+      "doi": "10.1016/j.critrevonc.2022.103679",
+      "pmid": "35395371"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Vos JL",
+        "et al."
+      ],
+      "title": "Nivolumab plus ipilimumab in advanced salivary gland cancer: A phase 2 trial",
+      "journal": "Nat. Med.",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "3077",
+      "lpage": "3089",
+      "doi": "10.1038/s41591-023-02518-x",
+      "pmid": "37620627",
+      "pmc_id": "PMC11293616"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Hanna GJ",
+        "et al."
+      ],
+      "title": "The benefits of adjuvant Trastuzumab for HER-2-Positive salivary gland cancers",
+      "journal": "Oncologist",
+      "year": "2020",
+      "volume": "25",
+      "fpage": "598",
+      "lpage": "608",
+      "doi": "10.1634/theoncologist.2019-0841",
+      "pmid": "32310325",
+      "pmc_id": "PMC7356716"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "van Boxtel W",
+        "et al."
+      ],
+      "title": "Adjuvant androgen deprivation therapy for poor-risk, androgen receptor-positive salivary duct carcinoma",
+      "journal": "Eur. J. Cancer",
+      "year": "2019",
+      "volume": "110",
+      "fpage": "62",
+      "lpage": "70",
+      "doi": "10.1016/j.ejca.2018.12.035",
+      "pmid": "30771738"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "raw_citation": "Guntinas-Lichius, O. et al. Salivary Gland Carcinomas. Onkopedia guidelines. (2024). https://www.onkopedia.com/en/onkopedia/guidelines/salivary-gland-carcinomas/@@guideline/html/index.html"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Hsieh CE",
+        "et al."
+      ],
+      "title": "Adding concurrent chemotherapy to postoperative radiotherapy improves locoregional control but not overall survival in patients with salivary gland adenoid cystic carcinoma-a propensity score matched study",
+      "journal": "Radiat. Oncol.",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "47",
+      "doi": "10.1186/s13014-016-0617-7",
+      "pmid": "27000157",
+      "pmc_id": "PMC4802842"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Yan W",
+        "et al."
+      ],
+      "title": "Postoperative chemoradiotherapy versus radiotherapy alone in major salivary gland cancers: A stratified study based on the external validation of the distant metastasis risk score model.",
+      "journal": "Cancers",
+      "year": "2022",
+      "doi": "10.3390/cancers14225583",
+      "pmid": "36428676",
+      "pmc_id": "PMC9688786"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Zhang D",
+        "Li L",
+        "Wen T",
+        "Ma F"
+      ],
+      "title": "Clinical value of adjuvant therapy on the prognosis of ductal carcinoma of the major salivary gland: A large-scale cohort study",
+      "journal": "Eur. Arch. Otorhinolaryngo.",
+      "year": "2023",
+      "volume": "280",
+      "fpage": "409",
+      "lpage": "417",
+      "doi": "10.1007/s00405-022-07599-x",
+      "pmid": "36036273"
+    }
+  ]
+}

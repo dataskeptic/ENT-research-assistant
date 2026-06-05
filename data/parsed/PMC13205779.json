@@ -1,0 +1,1111 @@
+{
+  "metadata": {
+    "title": "Systematic Identification of Immune-Related SnoRNAs: Potential Dual Roles in Tumor Progression and Immunotherapy Response",
+    "authors": [
+      "Hongling Li",
+      "Lihua Zhang",
+      "Zhaobin Li",
+      "Shuchen Lin"
+    ],
+    "journal": "Genes",
+    "year": "2026",
+    "doi": "10.3390/genes17050581",
+    "pmc_id": "PMC13205779",
+    "pmid": "42195037",
+    "full_text_available": true,
+    "section_count": 21,
+    "reference_count": 44
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background: Immune-related snoRNAs remain largely uncharacterized in cancer. Methods: We comprehensively investigated their functions and clinical relevance through an integrative pan-cancer analysis of The Cancer Genome Atlas (TCGA) datasets. We systematically identified immune-related snoRNAs via partial correlation with immune pathways and GSEA, validated their functions in vitro, and performed molecular subtyping in non-small-cell lung cancer (NSCLC) and head and neck squamous cell carcinoma (HNSC). Results: We established a comprehensive landscape of immune-related snoRNAs associated with core immune pathways, the majority of which were dysregulated across cancers and correlated with tumor immune cell infiltration. Functional screening revealed that numerous immune-related snoRNAs were aberrantly expressed in cancer stem cells; notably, SNORD116-19 potently suppressed breast cancer stemness and metastasis. Using a panel of immune-related snoRNAs, we classified NSCLC into three molecular subtypes with distinct molecular features and immune microenvironments, suggesting divergent immunotherapy response patterns. This classification framework was successfully extrapolated to HNSC. Conclusions: Our findings suggest that immune-related snoRNAs may serve as potential regulators linking tumor progression and immunity and could be explored as candidate biomarkers for molecular subtyping with the potential to inform personalized immunotherapy strategies.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "While traditional cancer research has centered on protein-coding genes, the completion of the Human Genome Project revealed a surprising truth: these genes account for only 3~24% of the human genome. The majority are transcribed into non-coding RNAs (ncRNAs), which play pivotal roles in post-transcriptional regulation and are increasingly implicated in tumorigenesis and cancer progression [ 1 ]. Among these ncRNAs, small nucleolar RNAs (snoRNAs)—short, conserved molecules composed of between 60 and 300 nucleotides—have remained particularly enigmatic [ 2 ]. Despite their abundance and conservation, their precise functional contributions to cancer biology remain poorly understood. Initially regarded as transcriptional “noise”, small nucleolar RNAs (snoRNAs) have emerged as functionally versatile non-coding RNAs implicated in a wide spectrum of human diseases, especially cancer [ 3 , 4 ]. Beyond the canonical function in rRNA modification and ribosome biogenesis [ 5 , 6 ], snoRNAs exert non-canonical actions including protein interaction [ 7 , 8 , 9 , 10 , 11 ] and production of miRNA-like fragments [ 12 ]. These mechanisms enable snoRNAs to regulate diverse cancer-related phenotypes, including proliferation, invasion, metastasis, apoptosis and cancer stemness maintenance [ 13 , 14 ]. Beyond these cell-autonomous roles, mounting evidence suggests that snoRNAs participate in immune regulation—by shaping immune cell differentiation and polarization [ 15 ], modulating macrophage M1/M2 switching [ 16 ], influencing immune checkpoint expression [ 17 ], and even being secreted via extracellular vesicles for intercellular communication [ 18 ]. Notably, certain snoRNAs such as SNORA38B have been shown to sensitize tumors to immunotherapy by remodeling the tumor microenvironment [ 11 ], and snoRNPs can act as molecular switches in innate immune responses [ 19 ]. Despite the annotation of over 2000 snoRNAs in humans [ 20 ], the functional relevance of most, particularly within an immuno-oncological context, remains poorly defined. Although previous studies have explored immune-associated snoRNAs in single cancer types [ 21 ] or established pan-cancer predictive signatures using a small set of snoRNAs [ 22 ], no study has systematically defined cancer-type-specific immune-related snoRNA landscapes. Critically, no study has integrated these cancer-specific immune snoRNAs with cancer stem cell regulation, nor used them to develop cancer-type-specific molecular subtyping systems for stratifying tumors into immune-hot/cold subtypes to guide immunotherapy. To address this gap, we developed a robust computational pipeline integrating partial correlation analysis (controlling for tumor purity) with gene set enrichment analysis (GSEA) to systematically identify immune-related snoRNAs across 31 cancer types from The Cancer Genome Atlas (TCGA). We further investigated their dysregulation patterns, association with immune cell infiltration, and expression in cancer stem cells. Based on these analyses, we constructed snoRNA-based molecular subtypes for NSCLC and head and neck squamous cell carcinoma (HNSC) and evaluated their ability to stratify patients by predicted immunotherapy response. Our findings suggest that immune-related snoRNAs may serve as potential dual regulators of tumor progression and immune modulation, and that a minimal set of such snoRNAs could inform personalized immunotherapy strategies pending prospective validation.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Data Acquisition And Preprocessing",
+      "text": "SnoRNA expression data and corresponding clinical information for 31 cancer types were downloaded from The Cancer Genome Atlas (TCGA) data portal using the R package “TCGAbiolinks” (version 2.38.0). The GSE212550 dataset was obtained from the Gene Expression Omnibus (GEO) for independent external validation. For TCGA snoRNA expression data, we applied log2(x + 1) transformation followed by quantile normalization. For GEO datasets, raw data were normalized using the Robust Multi-Array Average method. All analyses were performed using R version 4.5.1. Seventeen immune-related pathways, comprising 1811 genes, were sourced from the ImmPort (Immunology Database and Analysis Portal) database [ 23 ]. All cell lines used in this study were authenticated by the American Type Culture Collection (ATCC) (Manassas, VA, USA) prior to experimental use, verifying that the species origin and genetic characteristics matched the expected identities. In addition, mycoplasma contamination detection was performed on all cell lines before the experiment, and all tested cell lines were confirmed to be free of mycoplasma contamination. Statistical significance thresholds: Unless otherwise specified, a two-sided p < 0.05 was considered statistically significant. For analyses involving multiple comparisons (i.e., partial correlation analysis, gene set enrichment analysis (GSEA), somatic mutation association), the Benjamini–Hochberg false discovery rate (FDR) method was applied to adjust for multiple testing, and adjusted p -values (or q-values) are reported accordingly. Detailed thresholds for each specific analysis are provided in the respective sections below.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Estimation Of Tumor Microenvironment Scores",
+      "text": "The R package “ESTIMATE” (version 1.0.13) was employed to quantitatively characterize the tumor microenvironment (TME) across all cancer types. This generated three key metrics for each tumor sample: the immune score (reflecting immune cell infiltration), the stromal score (indicating stromal content), and tumor purity (the proportion of cancer cells).",
+      "order": 3
+    },
+    {
+      "section": "2.3. Systematic Identification Of Immune-Related Snornas",
+      "text": "Building upon a validated framework for identifying immune-related lncRNAs [ 24 ], we developed a robust computational pipeline to define immune-related snoRNAs. First, we excluded genes with expression levels of zero in all samples and classified the remaining genes into snoRNAs and mRNAs. Next we performed partial correlation analysis between each snoRNA and genes from the 17 immune pathways, controlling for tumor purity as a covariate [ 25 ] using the “ppcor” R package (version 1.1). For each cancer type, the total number of partial correlation tests was calculated as (number of expressed snoRNAs) × (total number of genes in the 17 immune pathways). Statistical significance was defined as p < 0.05. To account for multiple testing in the partial correlation analysis, we applied Benjamini–Hochberg false discovery rate (FDR) correction; however, given that the primary goal of this step was to prioritize candidate associations for subsequent intersection with the GSEA results, we retained the nominal p < 0.05 threshold for initial filtering to avoid excluding potentially relevant snoRNAs. The final high-confidence set was determined by intersection with the GSEA results, which provided an additional layer of statistical control. Concurrently, batch GSEA was conducted using clusterProfiler (version 4.18.4) with the following parameters to assess snoRNA–pathway associations: nPerm = 1000, minGSSize = 10, and maxGSSize = 500 to assess snoRNA-pathway associations. For GSEA, samples were dichotomized into high- and low-expression groups for each snoRNA using the median expression value as the cutoff. The association between snoRNA expression and each immune pathway was assessed by comparing these two groups. In GSEA, we adopted a more stringent threshold (q < 0.25 and adjusted p < 0.05) because GSEA aggregates information across gene sets, reducing the number of independent tests and enhancing robustness against false positives. The use of the q-value (FDR) here is standard for pathway-level analyses. The final high-confidence set of immune-related snoRNAs was defined as the intersection of snoRNAs that satisfied the following: (i) partial correlation with at least one immune pathway gene at nominal p < 0.05, |r| > 0.2 and empirical FDR < 0.25 (from permutation test), and (ii) GSEA enrichment for any immune pathway at q < 0.25 and adjusted p < 0.05. This pipeline was applied uniformly across the 31 cancer types ( Figure 1 ).",
+      "order": 4
+    },
+    {
+      "section": "2.4. Permutation Test And Sensitivity Analyses For Partial Correlation",
+      "text": "To statistically validate the partial correlation associations, we performed A permutation test for each candidate snoRNA–immune gene pair (i.e., pairs with nominal partial correlation p < 0.05). For each pair, the snoRNA expression vector was randomly permuted 1000 times, while immune gene expression and tumor purity (covariate) remained fixed. For each permuted Dataset, we recalculated the partial correlation coefficient using A shrinkage estimator (pcor.shrink from the corpcor R package (version 1.6.10)). The empirical p -value was defined as (number of permutations with absolute partial correlation ≥ the observed absolute value + 1)/(1000 + 1). Empirical false discovery rates (empirical fdrs) were then calculated using the Benjamini–Hochberg method across all tested pairs. A snoRNA–immune gene pair was considered robust if it satisfied (i) a nominal partial correlation p < 0.05 and (ii) an empirical fdr < 0.25. Note that this permutation test was applied only to the partial correlation analysis and not to the Gsea, for which standard implementation already includes gene set permutations. To evaluate the robustness of our identification pipeline, we performed sensitivity analyses by varying three key parameters: the absolute partial correlation coefficient threshold (denoted as |r|), the false discovery rate (FDR) threshold, and the p -value threshold. |r| thresholds were as follows: 0.00, 0.02, 0.05, 0.08, 0.10, 0.12, 0.15, 0.20, 0.25, and 0.30. FDR thresholds were as follows: 0.01, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.40, and 0.50. p -value thresholds were as follows: 0.001, 0.005, 0.01, 0.02, 0.05, 0.10, 0.15, 0.20, and 0.30. For each threshold series, we varied one parameter while holding the other two at their baseline values. For every combination, we calculated three metrics: (i) the number of robust snoRNA–immune pathway pairs satisfying the given thresholds, (ii) the Jaccard similarity between the resulting set and the baseline set, and (iii) the retention rate of the top 100 most significant pairs (based on original p -values) under the tested thresholds.",
+      "order": 5
+    },
+    {
+      "section": "2.5. Analysis Of Snorna Expression Perturbation In Cancer",
+      "text": "Differential expression analysis of snoRNAs was performed on 15 cancer types in the TCGA with sufficient normal samples ( n ≥ 5). For snoRNAs expressed in >70% of samples, we performed differential expression using Student’s t -test. For snoRNAs with a high zero-expression rate (≥30% of samples), we employed an “On/Off” status analysis: a snoRNA was considered “expressed” (On) if its normalized expression level log2 (transcripts per million (TPM) + 1) was >0, and “not expressed” (Off) otherwise. Fisher’s exact test was then used to compare the proportion of “On” samples between tumor and normal groups. For all differential expression analyses, p -values were adjusted using the Benjamini–Hochberg method, and an FDR < 0.05 was considered significant.",
+      "order": 6
+    },
+    {
+      "section": "2.6. Inference Of Snorna Expression In Immune Cell Types",
+      "text": "Leveraging the RESPECTEx deconvolution framework [ 25 ], we inferred immune cell-specific expression profiles of snoRNAs from bulk RNA-Seq data. This method operates on the principle that the observed expression of each gene in a tumor sample represents a mixture of contributions from multiple cell types, weighted by their relative abundance. Specifically, the bulk expression B g , s of gene g in sample s can be modeled as follows: where β g , c denotes the expression level of gene g in cell type c , and Χ C , s represents the proportion of cell type cc in sample s . Tumor purity was used as the estimate for tumor cell proportion, while immune cell fractions were inferred using Tumor Immune Estimation Resource (TIMER) (R package version 2.0, default settings) and Cell-type Identification By Estimating Relative Subsets Of RNA Transcripts (CIBERSORT) (1000 permutations, LM22 signature matrix). We then applied the Wilcoxon rank-sum test to systematically compare the average expression levels of immune-related snoRNAs against all other snoRNAs across the reconstructed cell type-specific expression profiles.",
+      "order": 7
+    },
+    {
+      "section": "2.7. Association Analysis With Immune Cell Infiltration",
+      "text": "Spearman correlation coefficients (SCCs) were calculated between each snoRNA and the abundance of six major immune cell types (B cells, CD8+ T cells, CD4+ T cells, macrophages, neutrophils, and dendritic cells) estimated by TIMER [ 26 ]. The analysis was performed using the cor.test function in R with method = “spearman”, exact = FALSE. No additional multiple testing correction was applied at this stage, as each snoRNA–immune cell pair was tested independently for exploratory purposes. snoRNAs with a correlation coefficient ≥ 0.3 and p < 0.05 were deemed infiltration-related. Fisher’s exact test assessed the enrichment of these snoRNAs among the previously identified immune-related snoRNAs. To ensure robustness, this analysis was repeated using immune proportions estimated by CIBERSORT [ 27 ], with consistency evaluated via hypergeometric testing.",
+      "order": 8
+    },
+    {
+      "section": "2.8. Molecular Subtyping Based On Immune-Related Snornas",
+      "text": "We applied our pipeline to a pan-NSCLC cohort (integrating lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC)) to identify immune-related snoRNAs. The immune-related snoRNAs were defined as the intersection of snoRNAs satisfying (i) partial correlation with any immune pathway gene at nominal p < 0.05, |r| > 0.2, and an empirical FDR < 0.25 (from permutation test), and (ii) GSEA enrichment for any immune pathway at q < 0.25 and adjusted p < 0.05, as described in Section 2.3 . To focus on snoRNAs that broadly shape the tumor immune microenvironment, we further required that they be significantly correlated with any immune cell type as estimated by TIMER (|correlation coefficient| ≥ 0.3, p < 0.05). The intersection of these criteria yielded 46 high-confidence snoRNAs for NSCLC subtyping. Expression data were log10-transformed. Then, the snoRNAs with the highest median absolute deviation (MAD) were selected for further analysis. For each selected snoRNA, expression values were centered by subtracting the median (no scaling by MAD). Unsupervised consensus clustering was performed using ConsensusClusterPlus (version 1.74.0) with the following parameters: 1000 iterations, 80% resampling (pItem = 0.8), Spearman distance, hierarchical clustering algorithm (clusterAlg = “hc”), and k ranging from 2 to 6. Consensus clustering, cumulative distribution function (CDF) and delta area plots consistently identified k = 3 as the optimal and most robust number of subtypes. To evaluate robustness against overfitting, we conducted a repeated Monte Carlo cross-validation (80/20 train–test split, 100 independent iterations, fixed random seed). In each iteration, the same consensus clustering procedure (46 snoRNAs, Spearman distance, hierarchical clustering, k = 3) was applied to the training set to derive cluster centroids. Validation samples were assigned to the nearest centroid, and the predicted labels were compared with the full-dataset reference labels using the adjusted Rand index (ARI). The mean ARI and its 95% confidence interval were calculated across 100 iterations. Analyses were performed using R packages mclust (version 6.1.2). The resulting subtypes were characterized using multi-omics data, including molecular subtypes, pathway activities, stemness indices, and somatic mutation profiles. Of them, molecular subtypes and pathway activities were curated from Chen et al. [ 28 ], stemness indices were obtained from Malta et al. [ 29 ], and gene set enrichment was assessed via GSVA. Somatic mutations were analyzed with the R package maftools (version 2.26.0), with significance thresholds set at |logFC| > 0.1 and FDR-adjusted p < 0.05 (Benjamini–Hochberg). The same workflow was applied to HNSC for validation, yielding 39 high-confidence snoRNAs. The immunotherapeutic relevance of the resulting subtypes was evaluated using the TIDE platform [ 30 ] to estimate immune escape potential and predict response to immune checkpoint blockade. The GSE212550 clinical trial dataset [ 31 ] was used to validate clinical benefit from immunotherapy.",
+      "order": 9
+    },
+    {
+      "section": "2.9. Assessment Of Immune Landscape And Therapeutic Potential",
+      "text": "To comprehensively characterize the tumor immune landscape, we evaluated a panel of immune-related scores. We first assessed the overall immune activity using a collection of 143 immune expression signatures derived from a published study [ 32 ]. Additionally, based on established methodologies [ 33 , 34 ], we calculated two specific scores: the MHC score, defined as the mean log-transformed and median-centered expression of a core set of MHC-I genes ( HLA-A , HLA-B , HLA-C , TAP1 , TAP2 , NLRC5 , PSMB9 , PSMB8 , and B2M ), and the Cytolytic Activity (CYT) score, computed as the mean expression of GZMA and PRF1 following the same normalization. Finally, to predict response to immune checkpoint inhibitors (ICIs), we utilized the immunophenoscore (IPS). The immune phenotype score (IPS) integrates Z-scores of immune-related genes, where higher scores indicate a better response tendency to immune checkpoint inhibitors (ICIs) [ 35 ]. IPS values were obtained from The Cancer Immunome Atlas (TCIA, https://tcia.at/home , accessed 15 March 2023), and pre-calculated scores corresponding to TCGA-LUAD and TCGA-LUSC samples were adopted in this study. Additionally, TIDE scores were calculated using the online TIDE platform ( http://tide.dfci.harvard.edu/ , accessed 15 March 2023) with default parameters (gene expression data log2-transformed, no additional normalization).",
+      "order": 10
+    },
+    {
+      "section": "2.10. Experimental Validation Of Immune-Related Snorna Function",
+      "text": "First, using breast cancer as a model, we investigated the prevalence of immune-related snoRNAs dysregulated in breast cancer stem cells (CSCs). We enriched CSCs via mammosphere culture and subsequently quantified the differential expression of snoRNAs between CSCs and adherent tumor cells using RT-qPCR. Second, based on the above initial screening, SNORD116-19 was chosen for in-depth functional analysis. We generated stable SNORD116-19-overexpressing clones in triple-negative breast cancer (TNBC) cell lines to assess its impact on malignant phenotypes. Cellular phenotyping: The impact on malignant behaviors was evaluated through a series of functional assays. Cell proliferation was measured by using a colony formation assay; migratory and invasive capabilities were assessed using Transwell chambers (8-μm pore size, 6.5-mm diameter; Corning Costar, 3422) with or without Matrigel coating, respectively. Stemness assessment: CSC self-renewal potential was specifically quantified using the mammosphere formation assay. The ALDH-positive cell population, a marker of stemness, was analyzed by flow cytometry using the Aldefluor kit (STEMCELL Technologies, Vancouver, BC, Canada). Mechanistic investigation: To uncover the underlying molecular pathways, global transcriptomic changes upon SNORD116-19 overexpression were profiled by RNA sequencing (RNA-seq). Differential expression and pathway enrichment analyses were performed. Detailed experimental procedures are described in the Supplementary Materials and Methods .",
+      "order": 11
+    },
+    {
+      "section": "3.1. Immune-Related Snornas Are Prevalent And Linked To Core Immunological Pathways",
+      "text": "Employing a systematic multi-omics approach, we identified a comprehensive set of immune-related snoRNAs across 31 cancer types (sample details in Table S1 ). We hypothesized that these snoRNAs play functional roles not only in tumor development but also in shaping the immune microenvironment. To test this, we analyzed their association with 17 well-defined immune pathways from the ImmPort database [ 36 ], which encompassed between 3 and 516 genes per pathway ( Figure 2 a, Table S2 ). Strikingly, between 17.0% and 81.1% of expressed snoRNAs per cancer type were classified as immune-related, reflecting their widespread involvement in immuno-regulatory processes ( Figure 2 b). Notably, these snoRNAs were most frequently linked to fundamental immunological mechanisms such as “antigen processing and presentation”, “antimicrobials”, “chemokines”, “cytokines”, and “cytokine receptors” ( Figure 2 c)—pathways increasingly recognized as actionable targets for immunotherapy [ 37 , 38 , 39 ]. These results suggest that immune-related snoRNAs could be promising molecular candidates, potentially offering new avenues for mechanistic investigation and the development of personalized immunotherapeutic strategies. Permutation testing and sensitivity analysis corroborated the robustness of our identification pipeline. Permutation tests (1000 shuffles) for each candidate snoRNA–immune gene pair demonstrated that the observed partial correlations were highly significant, with the majority of pairs achieving an empirical FDR < 0.25. Sensitivity analysis in breast cancer (BRCA) further showed that varying the partial correlation threshold from 0 to 0.25 did not alter the number of immune-related snoRNA–pathway pairs (9976 pairs, Jaccard = 1.0, top 100 retention = 0.96); only at |r| > 0.30 did the pair count drop to 2777. Changing the FDR threshold (0.01–0.5) or the nominal p -value threshold (0.001–0.3) had negligible or no impact on any metric (all Jaccard ≥ 0.999, top 100 retention ≥ 0.92) ( Figure S1 , Table S3 ). Similar stability was observed across all other cancer types. Based on these results, we selected the following thresholds for final identification: partial correlation p < 0.05, empirical FDR < 0.25, and |r| > 0.2.",
+      "order": 12
+    },
+    {
+      "section": "3.2. Immune-Related Snornas Drive Oncogenesis And Modulate Cancer Stemness",
+      "text": "To uncover the functional significance of immune-related snoRNAs in cancer, we began by constructing a regulatory network based on the top 500 snoRNA–pathway associations across multiple cancer types ( Figure 3 a and Table S4 ). This network comprised 380 immune-related snoRNAs, most of which were upregulated in tumors ( Figure 3 a). We then assessed the broader relevance of immune-related snoRNAs in tumorigenesis, we analyzed their expression dysregulation across 15 cancer types. In most cancers, immune-related snoRNAs were significantly more likely to be dysregulated than other snoRNA populations. However, CHOL showed no significant difference, while LIHC and THCA exhibited an opposite trend, with immune-related snoRNAs being less frequently dysregulated ( Figure 3 b). This bias was especially strong in immunotherapy-sensitive cancers such as BLCA, BRCA, PRAD, and LUSC. For instance, in BRCA, 62% of immune-related snoRNAs showed aberrant expression versus only 14% for other snoRNAs. These results suggest that our approach may help identify functionally relevant snoRNAs with diagnostic and therapeutic potential. Given the established critical role of CSCs in tumor initiation, progression, metastasis, and therapy resistance [ 40 ], we sought to determine whether immune-related snoRNAs contribute to CSC regulation. Using mammosphere culture to enrich breast CSCs [ 41 ], we performed gene expression profiling and found that approximately one-third of immune-related snoRNAs (104 out of 380) were differentially expressed in CSCs relative to bulk tumor cells, with 27 downregulated and 77 upregulated ( Figure 3 c). These findings suggest that immune-related snoRNAs may function as important regulators of CSC maintenance. Then, we selected SNORD116-19 for functional investigation based on the following considerations: (i) it is a previously uncharacterized snoRNA with no reported function in cancer; (ii) its expression is dysregulated in multiple cancer types ( Figure 3 d), suggesting broad clinical relevance; and (iii) it represents a candidate with potential tumor-suppressive activity, as its expression trended lower in several tumors, though not significantly in BRCA. We therefore selected it as a proof-of-concept molecule to test whether an immune-related snoRNA could functionally impact cancer stemness and malignancy. We acknowledge that these experiments validate the tumor-suppressive effect of a single snoRNA in one cellular context (TNBC) and do not directly address the broader immune regulatory framework proposed in our computational analyses. Strikingly, SNORD116-19 inhibited cell proliferation ( Figure 3 e), migration, and invasion ( Figure 3 f). Furthermore, its overexpression strongly suppressed mammosphere formation ( Figure 3 g) and reduced the proportion of ALDH+ cells ( Figure 3 h), indicating impaired CSC activity. To explore the underlying mechanism, we performed RNA-seq in SNORD116-19-overexpressing MDA-MB-231 cells and identified 1947 downregulated and 1165 upregulated genes ( Figure 3 i). These genes were enriched in metastasis-related processes—including cell adhesion, migration, and extracellular matrix organization—as revealed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses ( Figure 3 j). Key pathways such as tumor necrosis factor (TNF) signaling, interleukin-17 (IL-17) signaling, and extracellular matrix (ECM)–receptor interaction were prominently affected. These RNA-seq findings suggest potential mechanisms, but they are exploratory and require independent validation by quantitative polymerase chain reaction (qPCR) or protein-level assays (i.e., Western blot) in future studies. Thus, while SNORD116-19 serves as a proof-of-concept demonstration that an immune-related snoRNA can functionally impact cancer stemness and malignancy, the generalizability of these findings to other immune-related snoRNAs and cancer types requires further experimental validation.",
+      "order": 13
+    },
+    {
+      "section": "3.3. Immune-Related Snornas Are Enriched In Immune Cells And Correlate With Immune Infiltration",
+      "text": "Building on the identification of immune-related snoRNAs, we hypothesized that these molecules might be highly expressed within immune cells and correlate with immune cell infiltration in the tumor microenvironment. To test this, we leveraged TCGA bulk RNA-seq data and the RESPECTEx model [ 24 ] to define the snoRNA expression profiles of 22 immune cell types compared with tumor cells. Consistent with our hypothesis, immune-related snoRNAs displayed significantly higher expression in immune cells across most cancer types ( Figure 4 a). We next probed the relationship between these snoRNAs and tumor immunity by analyzing correlations with the infiltration levels of six key immune cell types—B cells, CD4+ T cells, CD8+ T cells, macrophages, neutrophils, and dendritic cells—using TIMER. Strikingly, a substantial proportion of snoRNAs significantly associated with immune cell infiltration were indeed immune-related ( p < 0.05, Figure 4 b). This trend was particularly evident in cancers such as diffuse large B-cell lymphoma (DLBC), where over 90% of infiltration-associated snoRNAs were classified as immune-related ( Figure 4 b). Statistical validation using Fisher’s exact test further confirmed that immune-related snoRNAs were significantly overrepresented among those linked to immune infiltration in most cancer types ( Figure 4 c). To ensure the robustness of our findings, we replicated the analysis using the CIBERSORT algorithm. The results showed a high degree of concordance with those obtained from TIMER, reinforcing the reliability of the association ( Table 1 ). In summary, our multi-faceted analysis indicates that immune-related snoRNAs may be enriched in immune cells and show correlations with immune cell infiltration in tumors, suggesting their possible relevance in the regulation of anti-tumor immunity.",
+      "order": 14
+    },
+    {
+      "section": "3.4. Molecular Subtyping Of Nsclc Using Immune-Related Snornas",
+      "text": "Given the crucial regulatory role of immune-related snoRNAs in tumor initiation and progression, we proposed that they could serve as novel biomarkers for molecular cancer subtyping. Lung cancer, the leading cause of cancer-related deaths globally, stands to benefit greatly from molecular classification strategies that help tailor treatments and improve patient survival. With this goal, we sought to develop a snoRNA-based subtyping system for non-small-cell lung cancer (NSCLC). We first compiled a set of immune-related snoRNAs. Using the TIMER database, we then identified snoRNAs whose expression was significantly correlated with immune cell infiltration, applying a threshold of |correlation coefficient| ≥ 0.3 and p < 0.05 for any immune cell type in NSCLC. By taking the intersection of the immune-related snoRNAs and those meeting the TIMER significance criteria, we selected 46 key snoRNAs that are involved in immune response and tumor microenvironment regulation. Using these snoRNAs, we unambiguously stratified NSCLC into three stable and biologically distinct molecular subtypes (k = 3). Figure S2 shows that CDF curve, and delta area plot both confirmed that k = 3 was the optimal number of clusters. To evaluate the stability of the snoRNA-based subtyping framework, we performed 10-fold cross-validation. The mean adjusted Rand index (ARI) between the cluster assignments in training and testing folds was 0.501 ± 0.081, indicating moderate agreement beyond random chance ( Figure S3 ). This result suggests a moderate risk of overfitting, likely attributable to the limited sample size and high biological heterogeneity of NSCLC. Expression analysis revealed that all 46 snoRNAs were significantly upregulated in tumor tissues compared with adjacent normal tissues (unpaired t -test, all p < 0.001; Figure 5 a). The resulting heatmap demonstrates that most of these snoRNAs were highly expressed in Clusters 1 and 3 ( Figure 5 b). This new classification approach could potentially offer a meaningful framework for personalized therapy in lung cancer, though this remains to be validated.",
+      "order": 15
+    },
+    {
+      "section": "3.5. Distinct Molecular Phenotypes Of The Snorna-Based Subtypes In Nsclc",
+      "text": "Our analysis revealed distinct, clinically relevant molecular profiles for the three snoRNA-based subtypes. Clusters 1 and 3 were characterized by the most aggressive phenotype, demonstrating the highest enrichment scores for the Hippo and PI3K signaling pathways, cellular stemness, cell cycle, and proliferation. In contrast, Cluster 2 exhibited the lowest activity in these pathways and features, but showed the highest enrichment for the KRAS signaling pathway ( Figure 5 c). To further dissect these differences, we performed Gene Set Variation Analysis (GSVA). This confirmed the proliferative signature of Clusters 1 and 3, showing elevated activity in cell cycle, MYC targets, DNA replication, DNA repair, G2M checkpoint and oxidative phosphorylation pathways. Conversely, Clusters 1 and 2, especially Cluster 2, were markedly enriched for a variety of immune-related pathways ( Figure S4 ), suggesting a more immunologically active tumor microenvironment. We next investigated the mutational landscape across the subtypes. Clusters 1 and 3 were associated with a higher mutation frequency in ROS1, TP53, and PTEN . Meanwhile, Cluster 2 showed a greater prevalence of mutations in EGFR , KRAS , and BRAF . No significant differences were observed in the mutation rates of ALK , PIK3CA , or MET ( Figure 5 d). This distinct mutational patterning indicates that snoRNA-based subtyping could provide valuable guidance for selecting targeted therapies. We next compared the three snoRNA-based subtypes with previously established multi-omics classifications and clinicopathological features in NSCLC, including copy number, methylation, miRNA, mRNA, protein, ConsensusOmics Classification (COCA) molecular subtype, and pathological type. All comparisons were highly consistent and significant (all p < 0.001). Cluster 1 was strongly dominated by squamous-like features, with significant enrichment for SQ1, SQ2a, and SQ2b in the COCA classification and a high proportion of LUSC in pathological diagnosis. Meanwhile, Cluster 1 showed a characteristic distribution pattern in copy number, methylation, miRNA, mRNA, and protein subtypes. Cluster 2 was predominantly associated with adenocarcinoma (LUAD) and was significantly enriched in AD4, AD5a, and AD5b subtypes in the COCA classification, representing a classical LUAD-like molecular phenotype. Cluster 3 exhibited a mixed but distinctive profile, with a high proportion of LUSC and enrichment for AD1, AD2, AD3 and SQ1/SQ2b subtypes, suggesting an intermediate or invasive phenotype combining adenocarcinoma and squamous markers ( Figure 5 e and Table S5 ). Collectively, these results demonstrate that our snoRNA-based subtyping faithfully recaptures major multi-omics and pathological classifications of NSCLC, supporting its robustness and clinical relevance as a novel molecular stratification tool.",
+      "order": 16
+    },
+    {
+      "section": "3.6. Immune-Related Snorna-Based Subtyping Suggests Differential Immunotherapy Response Potential In Nsclc",
+      "text": "To delineate the immune landscape of the three snoRNA-defined NSCLC subtypes, we analyzed 143 immune-related gene signatures. We found that the majority of these genes were significantly upregulated in Clusters 1 and 2 compared with Cluster 3 ( Figure 6 a). We next quantified key biomarkers of anti-tumor immunity: immune score, immune cytolytic activity (CYT), and major histocompatibility complex (MHC) score [ 33 , 34 ]. Clusters 1 and 2 exhibited significantly higher immune, MHC, and CYT scores (all p < 0.001; Figure 6 b). These findings demonstrate that Clusters 1 and 2 are characterized by enhanced anti-tumor immunity, while Cluster 3 shows an immune-depleted phenotype. Since an immunosuppressive tumor microenvironment (TME) can drive immune escape and resistance to immune checkpoint blockade (ICB), we employed the TIDE algorithm to explore potential ICB response patterns [ 30 ]. Strikingly, Cluster 2 displayed significantly lower TIDE scores than Clusters 1 and 3 ( Figure 5 c), which is consistent with a lower likelihood of immune evasion as estimated by this computational tool. We further explored this using immunophenoscore (IPS) analysis. Clusters 1 and 2 showed consistently higher IPS scores across multiple treatment scenarios—anti-PD-1 alone, anti-CTLA-4 alone, and their combination—suggesting a potentially more favorable response to ICB ( Figure 6 c). However, TIDE and IPS are computational estimates and do not substitute for actual clinical response data. Finally, we contextualized our subtypes within the pan-cancer immune classification system established by Thorsson et al. [ 32 ], which includes six immune subtypes (C1–C6). We focused on the C3 (inflammatory) subtype, characterized by a dominant T helper 17 (Th17) signature and favorable prognosis, which is associated with better immunotherapy outcomes. Notably, the proportion of the C3 subtype was markedly higher in Cluster 1 (8.24%) and Cluster 2 (43.47%) than in Cluster 3 (5.91%; Figure 6 d). This alignment with an established immunotherapy-responsive immune subtype is consistent with the possibility that patients in Clusters 1 and 2 could be more likely to benefit from immunotherapy, although prospective confirmation is needed. To provide an integrated overview of the three snoRNA-defined NSCLC subtypes, we summarized their key molecular and immune characteristics, along with proposed therapeutic strategies, in a schematic diagram ( Figure 7 ). Clusters 1 and 3 displayed a proliferative/stem-like phenotype with high mutation frequencies in ROS1 , TP53 , and PTEN , whereas Cluster 2 showed a greater prevalence of EGFR , KRAS , and BRAF mutations. Immunologically, Clusters 1 and 2 exhibited active (“hot”) tumor microenvironments, while Cluster 3 was immune-cold. Based on these features, Clusters 1 and 3 may benefit more from targeted therapies against PI3K/Hippo pathways, whereas Cluster 2 patients might be better candidates for immunotherapy and EGFR/KRAS-targeted agents. This schematic serves as a practical reference for future personalized treatment design.",
+      "order": 17
+    },
+    {
+      "section": "3.7. Generalization Of The Immune-Related Snorna-Based Framework To Head And Neck Squamous Cell Carcinoma (Hnsc)",
+      "text": "Applying the same analytical framework (intersection of partial correlation with any immune pathway gene at empirical FDR < 0.25, |r| > 0.2, p < 0.05 and GSEA enrichment for any immune pathway at q < 0.25, adjusted p < 0.05; followed by TIMER correlation |cor| ≥ 0.3, p < 0.05), we identified 39 key immune-related snoRNAs for HNSC. Among these, four snoRNAs (HBII-13, U8, SNORD114-10, and SNORD114-1) were significantly downregulated in tumor tissues, while 20 snoRNAs were markedly upregulated compared with adjacent normal tissues ( Figure 8 a). Using these 39 immune-related snoRNAs, we classified TCGA-HNSC samples into two distinct molecular subtypes ( Figure 8 b). Strikingly, Cluster 1 exhibited significantly lower TIDE scores compared with Cluster 2, suggesting a more favorable immune microenvironment. To further validate the clinical relevance of this classification, we applied the same snoRNA-based subtyping to the independent immunotherapy cohort GSE212550 . Long-term survival after immunotherapy was significantly more common in Cluster 1 (83.3%) than in Cluster 2 (25.0%) ( p = 0.021) ( Figure 8 c). This finding suggests that the snoRNA subtypes may serve as predictive biomarkers for durable immunotherapy responses. However, given the very limited sample size, this observation should be interpreted as preliminary and hypothesis-generating rather than conclusive. Together, these findings suggest that immune-related snoRNAs could serve as exploratory biomarkers to identify HNSC subtypes with divergent responses to immunotherapy. Subject to further validation, they may help personalize treatment strategies for head and neck cancer patients.",
+      "order": 18
+    },
+    {
+      "section": "Discussion",
+      "text": "This study proposes a novel conceptual framework by identifying immune-related snoRNAs as potential modulators of the tumor immune microenvironment and candidate markers for molecular subtyping. Moving beyond their conventional role in ribosome biogenesis, our analyses suggest through a comprehensive pan-cancer analysis that snoRNAs are extensively involved in tumor progression and immune regulation. Our key findings indicate that (1) a significant fraction of snoRNAs are functionally linked to core immune pathways; (2) these snoRNAs are highly enriched within immune cells and their expression correlates with immune infiltration; (3) immune-related snoRNAs are frequently dysregulated in pan-cancer and breast CSCs; (4) functional validation using SNORD116-19 suggests its role in suppressing cancer stemness and metastasis in triple-negative breast cancer; and (5) most importantly, we developed a preliminary translational framework utilizing immune-related snoRNAs to stratify NSCLC and HNSC patients into subtypes with distinct molecular profiles and tumor microenvironments, and predicted responses to immunotherapy, though these predictions require prospective testing. Our study offers a new perspective to the growing field of snoRNA immuno-oncology by defining distinct, cancer-type-specific landscapes of immune-related snoRNAs. Earlier pioneering work by Wang et al. [ 22 ] provided valuable pan-cancer insights by identifying 16 snoRNAs correlated with immunotherapy response across 31 cancer types. Similarly, Battaglin et al. [ 42 ] demonstrated that specific snoRNAs (SCARNA5, SCARNA6, SCARNA21) possess predictive value for treatment response in metastatic colorectal cancer patients receiving targeted biologic agents, further supporting the clinical potential of snoRNAs as predictive biomarkers beyond conventional prognostic signatures. Complementarily, Cai et al. [ 21 ] offered significant depth at a single-cancer level, developing a precise snoRNA-based scoring model for colon cancer that highlights clinical translation potential. More recently, Záveský et al. [ 43 ] systematically evaluated snoRNA expression in invasive breast cancer and identified SCARNA2 as a promising prognostic biomarker associated with better progression-free survival, while SNORD94, SNORD15B, and SCARNA3 were implicated as putative tumor suppressors. In the context of NSCLC immunotherapy, Zhuo and colleagues experimentally demonstrated that targeting SNORA38B not only suppressed tumorigenesis but also remodeled the tumor microenvironment to sensitize NSCLC to immune checkpoint blockade, providing direct functional evidence linking a specific snoRNA to immunotherapy response [ 11 ]. In comparison with these prior studies, our work provides two distinct contributions. First, while Wang et al. [ 22 ] focused on a pan-cancer set of 16 snoRNAs, our cancer type-specific analysis reveals substantial variation across tumor types (i.e., 16.3% to 83.9% of expressed snoRNAs), with particularly high dysregulation in immunotherapy-sensitive cancers such as BLCA, BRCA, and LUSC. Second, unlike Cai et al.’s [ 21 ] continuous prognostic score for colon cancer, our molecular subtyping framework classifies tumors into “cold” versus “hot” categories, capturing qualitative immune microenvironment differences that may be more directly actionable for immunotherapy decision-making. However, the pan-cancer approach may obscure cancer-specific functions, while a single-cancer model limits broader applicability. Our analysis attempts to bridge these scales by identifying a landscape of immune-related snoRNAs specific to individual cancer types within the TCGA. This strategy allowed us to observe, using NSCLC and HNSC as examples, that cancer-specific snoRNAs can effectively define molecular subtypes with distinct immune microenvironments and predictable immunotherapy outcomes. Furthermore, the findings were validated in an external GEO dataset. Importantly, our work lends support to the concept proposed by Li et al. [ 24 ] that the identification of immune-related non-coding RNAs can be extended beyond lncRNAs. To our knowledge, this is the first study to systematically apply this concept to snoRNAs, suggesting their possible relevance in cancer immunology. The clinical potential of our findings is suggested by the specific immune pathways—such as antigen presentation, chemokine, and cytokine signaling—with which these snoRNAs are associated, all of which are critically implicated in immunotherapy outcomes [ 37 , 38 , 39 ]. The possibility to molecularly subtype tumors into “cold” and “hot” categories using a minimal set of snoRNAs may offer a practical approach for potentially informing patient response stratification. The observation that in HNSC, 10 out of 12 patients in snoRNA-defined Cluster 1 achieved long-term survival after immunotherapy in the GSE212550 cohort is preliminary and should be interpreted with caution given the small sample size and retrospective design of this study. Larger prospective cohorts are needed to validate whether this subtype can reliably predict durable immunotherapy benefit. We posit that snoRNAs possess distinct advantages for future therapeutic exploitation. Their relatively small size and modular nature may make them more tractable targets for manipulation compared with larger ncRNAs such as lncRNAs. The prospect of modulating specific snoRNAs to influence immune cell fate or to convert immunologically “cold” tumors into “hot” ones, akin to strategies targeting proteins such as RGS1 [ 44 ], is an exciting direction for future research. Our study found that SNORD116-19 expression did not significantly differ between breast cancer and normal tissues, nor between breast CSCs and bulk tumor cells. This contrasts with the typical pattern of tumor-suppressive snoRNAs, which are often downregulated in cancer. Nevertheless, its overexpression in TNBC cells strongly suppressed invasion, migration, and stemness. We propose two speculative (but testable) hypotheses to explain this apparent discrepancy. First, SNORD116-19 may function as a constitutively expressed “housekeeping” snoRNA whose core RNA-modifying activity is functionally silenced in cancer (i.e., via altered binding partners or subcellular localization); exogenous overexpression might bypass this silencing and restore tumor suppression. Second, its activity may be context-dependent: under tumor-specific stress signaling (i.e., hyperactive MYC or PI3K pathways), the rRNA modification it catalyzes could become critical for maintaining proteostasis and survival, making it an “Achilles’ heel” that exogenous overexpression can disrupt. These hypotheses require direct experimental testing, such as measuring its target rRNA modification efficiency or identifying its dynamic protein interactome in different oncogenic contexts. Importantly, these mechanistic speculations do not diminish the key observation that immune-related snoRNAs as a class are frequently dysregulated in CSCs and may represent novel therapeutic nodes. Despite these conceptual and translational advances, this study has several limitations. First, the experimental validation is preliminary and hypothesis-generating. The proposed mechanisms underlying SNORD116-19 function remain speculative because functional tests were confined to overexpression experiments in a single TNBC cell line and did not examine broader immune-regulatory roles. Key controls are lacking, including loss-of-function assays, rescue experiments, subcellular localization analyses, and direct evidence of rRNA modification (e.g., RiboMethSeq). Therefore, the functional conclusions must be interpreted cautiously. Furthermore, the RNA-seq results were not validated using orthogonal methods (e.g., qPCR or protein assays), and only one immune-related snoRNA was tested. We reiterate that the primary objective of this study is bioinformatic identification; accordingly, the experimental data serve only as proof-of-concept. Second, the snoRNA-based NSCLC subtyping model shows only moderate internal stability. The mean cross-validation ARI was 0.51, indicating a potential risk of overfitting. This is likely due to the relatively small sample size ( n = 1044) and the intrinsic high molecular heterogeneity of NSCLC. Consequently, future studies should employ larger independent cohorts and a more parsimonious set of snoRNA features to improve generalizability. Third, associations with immunotherapy response are derived from computational predictions, not clinical outcomes. The TIDE and IPS algorithms, albeit widely used for hypothesis generation, have well-recognized limitations and cannot replace direct assessment of response to immune checkpoint inhibitors. Although we observed consistency in an external cohort ( GSE212550 ), the sample size was small. Thus, prospective studies with actual patient response data are required to validate the predictive value of our subtyping framework. Fourth, technical limitations of snoRNA detection in bulk RNA-seq may bias expression estimates. Standard RNA-seq libraries capture snoRNAs inefficiently because of their short length and the absence of dedicated small-RNA library preparation, which may lead to underestimation of expression and increased false negative findings. Fifth, computational estimates of immune cell infiltration carry inherent errors. Algorithms such as TIMER and CIBERSORT are influenced by tumor purity, batch effects, and cellular heterogeneity, all of which may bias correlation analyses between snoRNAs and immune cell abundance. Sixth, therapeutic targeting of snoRNAs faces practical challenges. Delivery efficiency and specificity remain unresolved issues that must be addressed in future translational research.",
+      "order": 19
+    },
+    {
+      "section": "Conclusion",
+      "text": "In summary, this study suggests that immune-related snoRNAs may be important molecular players with dual roles in regulating tumor progression and the anti-tumor immune response. Through a systematic pan-cancer analysis, we have delineated a comprehensive landscape of snoRNAs functionally linked to core immunological pathways and observed their prevalent dysregulation across cancers, including within cancer stem cells. Functional validation using SNORD116-19 indicates the capacity of these molecules to suppress stemness and metastatic potential. Most importantly, we propose a preliminary translational framework based on a minimal set of immune-related snoRNAs, which may help stratify NSCLC and HNSC patients into molecular subtypes with distinct tumor microenvironments and suggest differential responses to immunotherapy. This classification identified patient subgroups with superior survival benefits in independent cohorts, though these findings are retrospective and require prospective validation. Our findings suggest a potential expansion of the functional paradigm of snoRNAs in oncology and point toward a candidate biomarker strategy that might eventually inform personalized cancer immunotherapy, pending further mechanistic and clinical studies.",
+      "order": 20
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-genes-17-00581",
+      "label": "1.",
+      "authors": [
+        "Nemeth K.",
+        "Bayraktar R.",
+        "Ferracin M.",
+        "Calin G.A."
+      ],
+      "title": "Non-coding RNAs in disease: From mechanisms to therapeutics",
+      "journal": "Nat. Rev. Genet.",
+      "year": "2024",
+      "volume": "25",
+      "fpage": "211",
+      "lpage": "232",
+      "doi": "10.1038/s41576-023-00662-1",
+      "pmid": "37968332"
+    },
+    {
+      "ref_id": "B2-genes-17-00581",
+      "label": "2.",
+      "authors": [
+        "Chen L.L.",
+        "Kim V.N."
+      ],
+      "title": "Small and long non-coding RNAs: Past, present, and future",
+      "journal": "Cell",
+      "year": "2024",
+      "volume": "187",
+      "fpage": "6451",
+      "lpage": "6485",
+      "doi": "10.1016/j.cell.2024.10.024",
+      "pmid": "39547208"
+    },
+    {
+      "ref_id": "B3-genes-17-00581",
+      "label": "3.",
+      "authors": [
+        "Zhang X.",
+        "Wang C.",
+        "Xia S.",
+        "Xiao F.",
+        "Peng J.",
+        "Gao Y.",
+        "Yu F.",
+        "Wang C.",
+        "Chen X."
+      ],
+      "title": "The emerging role of snoRNAs in human disease",
+      "journal": "Genes. Dis.",
+      "year": "2023",
+      "volume": "10",
+      "fpage": "2064",
+      "lpage": "2081",
+      "pmid": "37492704",
+      "doi": "10.1016/j.gendis.2022.11.018",
+      "pmc_id": "PMC10363644"
+    },
+    {
+      "ref_id": "B4-genes-17-00581",
+      "label": "4.",
+      "authors": [
+        "Chabronova A.",
+        "Holmes T.L.",
+        "Hoang D.M.",
+        "Denning C.",
+        "James V.",
+        "Smith J.G.W.",
+        "Peffers M.J."
+      ],
+      "title": "SnoRNAs in cardiovascular development, function, and disease",
+      "journal": "Trends Mol. Med.",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "562",
+      "lpage": "578",
+      "doi": "10.1016/j.molmed.2024.03.004",
+      "pmid": "38523014"
+    },
+    {
+      "ref_id": "B5-genes-17-00581",
+      "label": "5.",
+      "authors": [
+        "Zhang Z.",
+        "Zhang J.",
+        "Diao L.",
+        "Han L."
+      ],
+      "title": "Small non-coding RNAs in human cancer: Function, clinical utility, and characterization",
+      "journal": "Oncogene",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "1570",
+      "lpage": "1577",
+      "doi": "10.1038/s41388-020-01630-3",
+      "pmid": "33452456"
+    },
+    {
+      "ref_id": "B6-genes-17-00581",
+      "label": "6.",
+      "authors": [
+        "Xu C.",
+        "Bian Z.",
+        "Wang X.",
+        "Niu N.",
+        "Liu L.",
+        "Xiao Y.",
+        "Zhu J.",
+        "Huang N.",
+        "Zhang Y.",
+        "Chen Y.",
+        "et al."
+      ],
+      "title": "SNORA56-mediated pseudouridylation of 28 S rRNA inhibits ferroptosis and promotes colorectal cancer proliferation by enhancing GCLC translation",
+      "journal": "J. Exp. Clin. Cancer Res.",
+      "year": "2023",
+      "volume": "42",
+      "fpage": "331",
+      "pmid": "38049865",
+      "doi": "10.1186/s13046-023-02906-8",
+      "pmc_id": "PMC10696674"
+    },
+    {
+      "ref_id": "B7-genes-17-00581",
+      "label": "7.",
+      "authors": [
+        "Han C.",
+        "Sun L.Y.",
+        "Luo X.Q.",
+        "Pan Q.",
+        "Sun Y.M.",
+        "Zeng Z.C.",
+        "Chen T.-Q.",
+        "Huang W.",
+        "Fang K.",
+        "Wang W.-T.",
+        "et al."
+      ],
+      "title": "Chromatin-associated orphan snoRNA regulates DNA damage-mediated differentiation via a non-canonical complex",
+      "journal": "Cell Rep.",
+      "year": "2022",
+      "volume": "38",
+      "fpage": "110421",
+      "doi": "10.1016/j.celrep.2022.110421",
+      "pmid": "35354054"
+    },
+    {
+      "ref_id": "B8-genes-17-00581",
+      "label": "8.",
+      "authors": [
+        "Gu Y.",
+        "Yi Z.",
+        "Zhou Z.",
+        "Wang J.",
+        "Li S.",
+        "Zhu P.",
+        "Liu N.",
+        "Xu Y.",
+        "He L.",
+        "Wang Y.",
+        "et al."
+      ],
+      "title": "SNORD88B-mediated WRN nucleolar trafficking drives self-renewal in liver cancer initiating cells and hepatocarcinogenesis",
+      "journal": "Nat. Commun.",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "6730",
+      "doi": "10.1038/s41467-024-50987-6",
+      "pmid": "39112443",
+      "pmc_id": "PMC11306581"
+    },
+    {
+      "ref_id": "B9-genes-17-00581",
+      "label": "9.",
+      "authors": [
+        "Liu X.",
+        "Zhang H.",
+        "Fan Y.",
+        "Cai D.",
+        "Lei R.",
+        "Wang Q.",
+        "Li Y.",
+        "Shen L.",
+        "Gu Y.",
+        "Zhang Q.",
+        "et al."
+      ],
+      "title": "SNORA28 Promotes Proliferation and Radioresistance in Colorectal Cancer Cells through the STAT3 Pathway by Increasing H3K9 Acetylation in the LIFR Promoter",
+      "journal": "Adv. Sci.",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "e2405332",
+      "doi": "10.1002/advs.202405332",
+      "pmc_id": "PMC11347989",
+      "pmid": "38924373"
+    },
+    {
+      "ref_id": "B10-genes-17-00581",
+      "label": "10.",
+      "authors": [
+        "Liang J.",
+        "Li G.",
+        "Liao J.",
+        "Huang Z.",
+        "Wen J.",
+        "Wang Y.",
+        "Chen Z.",
+        "Cai G.",
+        "Xu W.",
+        "Ding Z.",
+        "et al."
+      ],
+      "title": "Non-coding small nucleolar RNA SNORD17 promotes the progression of hepatocellular carcinoma through a positive feedback loop upon p53 inactivation",
+      "journal": "Cell Death Differ.",
+      "year": "2022",
+      "volume": "29",
+      "fpage": "988",
+      "lpage": "1003",
+      "doi": "10.1038/s41418-022-00929-w",
+      "pmid": "35034103",
+      "pmc_id": "PMC9090725"
+    },
+    {
+      "ref_id": "B11-genes-17-00581",
+      "label": "11.",
+      "authors": [
+        "Zhuo Y.",
+        "Li S.",
+        "Hu W.",
+        "Zhang Y.",
+        "Shi Y.",
+        "Zhang F.",
+        "Zhang J.",
+        "Wang J.",
+        "Liao M.",
+        "Chen J.",
+        "et al."
+      ],
+      "title": "Targeting SNORA38B attenuates tumorigenesis and sensitizes immune checkpoint blockade in non-small cell lung cancer by remodeling the tumor microenvironment via regulation of GAB2/AKT/mTOR signaling pathway",
+      "journal": "J. Immunother. Cancer",
+      "year": "2022",
+      "volume": "10",
+      "fpage": "e004113",
+      "doi": "10.1136/jitc-2021-004113",
+      "pmid": "35577506",
+      "pmc_id": "PMC9115109"
+    },
+    {
+      "ref_id": "B12-genes-17-00581",
+      "label": "12.",
+      "authors": [
+        "Lemus-Diaz N.",
+        "Ferreira R.R.",
+        "Bohnsack K.E.",
+        "Gruber J.",
+        "Bohnsack M.T."
+      ],
+      "title": "The human box C/D snoRNA U3 is a miRNA source and miR-U3 regulates expression of sortin nexin 27",
+      "journal": "Nucleic Acids Res.",
+      "year": "2020",
+      "volume": "48",
+      "fpage": "8074",
+      "lpage": "8089",
+      "doi": "10.1093/nar/gkaa549",
+      "pmid": "32609813",
+      "pmc_id": "PMC7430653"
+    },
+    {
+      "ref_id": "B13-genes-17-00581",
+      "label": "13.",
+      "authors": [
+        "Hu X.",
+        "Cui W.",
+        "Liu M.",
+        "Zhang F.",
+        "Zhao Y.",
+        "Zhang M.",
+        "Yin Y.",
+        "Li Y.",
+        "Che Y.",
+        "Zhu X.",
+        "et al."
+      ],
+      "title": "SnoRNAs: The promising targets for anti-tumor therapy",
+      "journal": "J. Pharm. Anal.",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "101064",
+      "doi": "10.1016/j.jpha.2024.101064",
+      "pmid": "39634568",
+      "pmc_id": "PMC11613181"
+    },
+    {
+      "ref_id": "B14-genes-17-00581",
+      "label": "14.",
+      "authors": [
+        "Zhang W.",
+        "Song X.",
+        "Jin Z.",
+        "Zhang Y.",
+        "Li S.",
+        "Jin F.",
+        "Zheng A."
+      ],
+      "title": "U2AF2-SNORA68 promotes triple-negative breast cancer stemness through the translocation of RPL23 from nucleoplasm to nucleolus and c-Myc expression",
+      "journal": "Breast Cancer Res.",
+      "year": "2024",
+      "volume": "26",
+      "fpage": "60",
+      "doi": "10.1186/s13058-024-01817-6",
+      "pmid": "38594783",
+      "pmc_id": "PMC11005140"
+    },
+    {
+      "ref_id": "B15-genes-17-00581",
+      "label": "15.",
+      "authors": [
+        "van der Werf J.",
+        "Chin C.V.",
+        "Fleming N.I."
+      ],
+      "title": "SnoRNA in Cancer Progression, Metastasis and Immunotherapy Response",
+      "journal": "Biology",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "809",
+      "doi": "10.3390/biology10080809",
+      "pmid": "34440039",
+      "pmc_id": "PMC8389557"
+    },
+    {
+      "ref_id": "B16-genes-17-00581",
+      "label": "16.",
+      "authors": [
+        "Zhang Y.",
+        "Zheng A.",
+        "Shi Y.",
+        "Lu H."
+      ],
+      "title": "SNORA5A regulates tumor-associated macrophage M1/M2 phenotypes via TRAF3IP3 in breast cancer",
+      "journal": "Braz. J. Med. Biol. Res.",
+      "year": "2024",
+      "volume": "57",
+      "fpage": "e13809",
+      "pmid": "39166607",
+      "doi": "10.1590/1414-431X2024e13809",
+      "pmc_id": "PMC11338549"
+    },
+    {
+      "ref_id": "B17-genes-17-00581",
+      "label": "17.",
+      "authors": [
+        "Xiao H.",
+        "Feng X.",
+        "Liu M.",
+        "Gong H.",
+        "Zhou X."
+      ],
+      "title": "SnoRNA and lncSNHG: Advances of nucleolar small RNA host gene transcripts in anti-tumor immunity",
+      "journal": "Front. Immunol.",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1143980",
+      "doi": "10.3389/fimmu.2023.1143980",
+      "pmid": "37006268",
+      "pmc_id": "PMC10050728"
+    },
+    {
+      "ref_id": "B18-genes-17-00581",
+      "label": "18.",
+      "authors": [
+        "Nation G.K.",
+        "Saffold C.E.",
+        "Pua H.H."
+      ],
+      "title": "Secret messengers: Extracellular RNA communication in the immune system",
+      "journal": "Immunol. Rev.",
+      "year": "2021",
+      "volume": "304",
+      "fpage": "62",
+      "lpage": "76",
+      "doi": "10.1111/imr.13027",
+      "pmid": "34542176",
+      "pmc_id": "PMC8756459"
+    },
+    {
+      "ref_id": "B19-genes-17-00581",
+      "label": "19.",
+      "authors": [
+        "Tjahjono E.",
+        "Revtovich A.V.",
+        "Kirienko N.V."
+      ],
+      "title": "Box C/D small nucleolar ribonucleoproteins regulate mitochondrial surveillance and innate immunity",
+      "journal": "PLoS Genet.",
+      "year": "2022",
+      "volume": "18",
+      "elocation_id": "e1010103",
+      "doi": "10.1371/journal.pgen.1010103",
+      "pmid": "35275914",
+      "pmc_id": "PMC8942280"
+    },
+    {
+      "ref_id": "B20-genes-17-00581",
+      "label": "20.",
+      "authors": [
+        "Bouchard-Bourelle P.",
+        "Desjardins-Henri C.",
+        "Mathurin-St-Pierre D.",
+        "Deschamps-Francoeur G.",
+        "Fafard-Couture É.",
+        "Garant J.M.",
+        "Elela S.A.",
+        "Scott M.S."
+      ],
+      "title": "snoDB: An interactive database of human snoRNA sequences, abundance and interactions",
+      "journal": "Nucleic Acids Res.",
+      "year": "2020",
+      "volume": "48",
+      "fpage": "D220",
+      "lpage": "D225",
+      "pmid": "31598696",
+      "doi": "10.1093/nar/gkz884",
+      "pmc_id": "PMC6943035"
+    },
+    {
+      "ref_id": "B21-genes-17-00581",
+      "label": "21.",
+      "authors": [
+        "Cai C.",
+        "Peng Y.",
+        "Shen E.",
+        "Wan R.",
+        "Gao L.",
+        "Gao Y.",
+        "Zhou Y.",
+        "Huang Q.",
+        "Chen Y.",
+        "Liu P.",
+        "et al."
+      ],
+      "title": "Identification of tumour immune infiltration-associated snoRNAs (TIIsno) for predicting prognosis and immune landscape in patients with colon cancer via a TIIsno score model",
+      "journal": "eBioMedicine",
+      "year": "2022",
+      "volume": "76",
+      "fpage": "103866",
+      "doi": "10.1016/j.ebiom.2022.103866",
+      "pmid": "35144219",
+      "pmc_id": "PMC8844792"
+    },
+    {
+      "ref_id": "B22-genes-17-00581",
+      "label": "22.",
+      "authors": [
+        "Wang R.",
+        "Chen C.",
+        "Liu Y.",
+        "Luo M.",
+        "Yang J.",
+        "Chen Y.",
+        "Ma L.",
+        "Yang L.",
+        "Lin C.",
+        "Diao L.",
+        "et al."
+      ],
+      "title": "The pharmacogenomic and immune landscape of snoRNAs in human cancers",
+      "journal": "Cancer Lett.",
+      "year": "2024",
+      "volume": "605",
+      "fpage": "217304",
+      "doi": "10.1016/j.canlet.2024.217304",
+      "pmid": "39426663",
+      "pmc_id": "PMC11898246"
+    },
+    {
+      "ref_id": "B23-genes-17-00581",
+      "label": "23.",
+      "authors": [
+        "Bhattacharya S.",
+        "Andorf S.",
+        "Gomes L.",
+        "Dunn P.",
+        "Schaefer H.",
+        "Pontius J.",
+        "Berger P.",
+        "Desborough V.",
+        "Smith T.",
+        "Campbell J.",
+        "et al."
+      ],
+      "title": "ImmPort: Disseminating data to the public for the future of immunology",
+      "journal": "Immunol. Res.",
+      "year": "2014",
+      "volume": "58",
+      "fpage": "234",
+      "lpage": "239",
+      "doi": "10.1007/s12026-014-8516-1",
+      "pmid": "24791905"
+    },
+    {
+      "ref_id": "B24-genes-17-00581",
+      "label": "24.",
+      "authors": [
+        "Li Y.",
+        "Jiang T.",
+        "Zhou W.",
+        "Li J.",
+        "Li X.",
+        "Wang Q.",
+        "Jin X.",
+        "Yin J.",
+        "Chen L.",
+        "Zhang Y.",
+        "et al."
+      ],
+      "title": "Pan-cancer characterization of immune-related lncRNAs identifies potential oncogenic biomarkers",
+      "journal": "Nat. Commun.",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "1000",
+      "doi": "10.1038/s41467-020-14802-2",
+      "pmid": "32081859",
+      "pmc_id": "PMC7035327"
+    },
+    {
+      "ref_id": "B25-genes-17-00581",
+      "label": "25.",
+      "authors": [
+        "Ng J.C.F.",
+        "Quist J.",
+        "Grigoriadis A.",
+        "Malim M.H.",
+        "Fraternali F."
+      ],
+      "title": "Pan-cancer transcriptomic analysis dissects immune and proliferative functions of APOBEC3 cytidine deaminases",
+      "journal": "Nucleic Acids Res.",
+      "year": "2019",
+      "volume": "47",
+      "fpage": "1178",
+      "lpage": "1194",
+      "doi": "10.1093/nar/gky1316",
+      "pmid": "30624727",
+      "pmc_id": "PMC6379723"
+    },
+    {
+      "ref_id": "B26-genes-17-00581",
+      "label": "26.",
+      "authors": [
+        "Li B.",
+        "Severson E.",
+        "Pignon J.C.",
+        "Zhao H.",
+        "Li T.",
+        "Novak J.",
+        "Jiang P.",
+        "Shen H.",
+        "Aster J.C.",
+        "Rodig S.",
+        "et al."
+      ],
+      "title": "Comprehensive analyses of tumor immunity: Implications for cancer immunotherapy",
+      "journal": "Genome Biol.",
+      "year": "2016",
+      "volume": "17",
+      "fpage": "174",
+      "doi": "10.1186/s13059-016-1028-7",
+      "pmid": "27549193",
+      "pmc_id": "PMC4993001"
+    },
+    {
+      "ref_id": "B27-genes-17-00581",
+      "label": "27.",
+      "authors": [
+        "Newman A.M.",
+        "Liu C.L.",
+        "Green M.R.",
+        "Gentles A.J.",
+        "Feng W.",
+        "Xu Y.",
+        "Hoang C.D.",
+        "Diehn M.",
+        "Alizadeh A.A."
+      ],
+      "title": "Robust enumeration of cell subsets from tissue expression profiles",
+      "journal": "Nat. Methods",
+      "year": "2015",
+      "volume": "12",
+      "fpage": "453",
+      "lpage": "457",
+      "doi": "10.1038/nmeth.3337",
+      "pmid": "25822800",
+      "pmc_id": "PMC4739640"
+    },
+    {
+      "ref_id": "B28-genes-17-00581",
+      "label": "28.",
+      "authors": [
+        "Chen F.",
+        "Zhang Y.",
+        "Parra E.",
+        "Rodriguez J.",
+        "Behrens C.",
+        "Akbani R.",
+        "Lu Y.",
+        "Kurie J.M.",
+        "Gibbons D.L.",
+        "Mills G.B.",
+        "et al."
+      ],
+      "title": "Multiplatform-based molecular subtypes of non-small-cell lung cancer",
+      "journal": "Oncogene",
+      "year": "2017",
+      "volume": "36",
+      "fpage": "1384",
+      "lpage": "1393",
+      "doi": "10.1038/onc.2016.303",
+      "pmid": "27775076",
+      "pmc_id": "PMC5344748"
+    },
+    {
+      "ref_id": "B29-genes-17-00581",
+      "label": "29.",
+      "authors": [
+        "Malta T.M.",
+        "Sokolov A.",
+        "Gentles A.J.",
+        "Burzykowski T.",
+        "Poisson L.",
+        "Weinstein J.N.",
+        "Kamińska B.",
+        "Huelsken J.",
+        "Omberg L.",
+        "Gevaert O.",
+        "et al."
+      ],
+      "title": "Machine Learning Identifies Stemness Features Associated with Oncogenic Dedifferentiation",
+      "journal": "Cell",
+      "year": "2018",
+      "volume": "173",
+      "fpage": "338",
+      "lpage": "354.e315",
+      "doi": "10.1016/j.cell.2018.03.034",
+      "pmid": "29625051",
+      "pmc_id": "PMC5902191"
+    },
+    {
+      "ref_id": "B30-genes-17-00581",
+      "label": "30.",
+      "authors": [
+        "Jiang P.",
+        "Gu S.",
+        "Pan D.",
+        "Fu J.",
+        "Sahu A.",
+        "Hu X.",
+        "Li Z.",
+        "Traugh N.",
+        "Bu X.",
+        "Li B.",
+        "et al."
+      ],
+      "title": "Signatures of T cell dysfunction and exclusion predict cancer immunotherapy response",
+      "journal": "Nat. Med.",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "1550",
+      "lpage": "1558",
+      "doi": "10.1038/s41591-018-0136-1",
+      "pmid": "30127393",
+      "pmc_id": "PMC6487502"
+    },
+    {
+      "ref_id": "B31-genes-17-00581",
+      "label": "31.",
+      "authors": [
+        "Serafini M.S.",
+        "Cavalieri S.",
+        "Licitra L.",
+        "Pistore F.",
+        "Lenoci D.",
+        "Canevari S.",
+        "Airoldi M.",
+        "Rocca M.C.",
+        "Strojan P.",
+        "Kuhar C.G.",
+        "et al."
+      ],
+      "title": "Association of a gene-expression subtype to outcome and treatment response in patients with recurrent/metastatic head and neck squamous cell carcinoma treated with nivolumab",
+      "journal": "J. Immunother. Cancer",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "e007823",
+      "doi": "10.1136/jitc-2023-007823",
+      "pmid": "38290766",
+      "pmc_id": "PMC10828850"
+    },
+    {
+      "ref_id": "B32-genes-17-00581",
+      "label": "32.",
+      "authors": [
+        "Thorsson V.",
+        "Gibbs D.L.",
+        "Brown S.D.",
+        "Wolf D.",
+        "Bortone D.S.",
+        "Ou Yang T.H.",
+        "Porta-Pardo E.",
+        "Gao G.F.",
+        "Plaisier C.L.",
+        "Eddy J.A.",
+        "et al."
+      ],
+      "title": "The Immune Landscape of Cancer",
+      "journal": "Immunity",
+      "year": "2019",
+      "volume": "51",
+      "fpage": "411",
+      "lpage": "412",
+      "doi": "10.1016/j.immuni.2019.08.004",
+      "pmid": "31433971"
+    },
+    {
+      "ref_id": "B33-genes-17-00581",
+      "label": "33.",
+      "authors": [
+        "Lauss M.",
+        "Donia M.",
+        "Harbst K.",
+        "Andersen R.",
+        "Mitra S.",
+        "Rosengren F.",
+        "Salim M.",
+        "Vallon-Christersson J.",
+        "Törngren T.",
+        "Kvist A.",
+        "et al."
+      ],
+      "title": "Mutational and putative neoantigen load predict clinical benefit of adoptive T cell therapy in melanoma",
+      "journal": "Nat. Commun.",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "1738",
+      "doi": "10.1038/s41467-017-01460-0",
+      "pmid": "29170503",
+      "pmc_id": "PMC5701046"
+    },
+    {
+      "ref_id": "B34-genes-17-00581",
+      "label": "34.",
+      "authors": [
+        "Rooney M.S.",
+        "Shukla S.A.",
+        "Wu C.J.",
+        "Getz G.",
+        "Hacohen N."
+      ],
+      "title": "Molecular and genetic properties of tumors associated with local immune cytolytic activity",
+      "journal": "Cell",
+      "year": "2015",
+      "volume": "160",
+      "fpage": "48",
+      "lpage": "61",
+      "doi": "10.1016/j.cell.2014.12.033",
+      "pmid": "25594174",
+      "pmc_id": "PMC4856474"
+    },
+    {
+      "ref_id": "B35-genes-17-00581",
+      "label": "35.",
+      "authors": [
+        "Charoentong P.",
+        "Finotello F.",
+        "Angelova M.",
+        "Mayer C.",
+        "Efremova M.",
+        "Rieder D.",
+        "Hackl H.",
+        "Trajanoski Z."
+      ],
+      "title": "Pan-cancer Immunogenomic Analyses Reveal Genotype-Immunophenotype Relationships and Predictors of Response to Checkpoint Blockade",
+      "journal": "Cell Rep.",
+      "year": "2017",
+      "volume": "18",
+      "fpage": "248",
+      "lpage": "262",
+      "doi": "10.1016/j.celrep.2016.12.019",
+      "pmid": "28052254"
+    },
+    {
+      "ref_id": "B36-genes-17-00581",
+      "label": "36.",
+      "authors": [
+        "Bhattacharya S.",
+        "Dunn P.",
+        "Thomas C.G.",
+        "Smith B.",
+        "Schaefer H.",
+        "Chen J.",
+        "Hu Z.",
+        "Zalocusky K.A.",
+        "Shankar R.D.",
+        "Shen-Orr S.S.",
+        "et al."
+      ],
+      "title": "ImmPort, toward repurposing of open access immunological assay data for translational and clinical research",
+      "journal": "Sci. Data",
+      "year": "2018",
+      "volume": "5",
+      "fpage": "180015",
+      "doi": "10.1038/sdata.2018.15",
+      "pmid": "29485622",
+      "pmc_id": "PMC5827693"
+    },
+    {
+      "ref_id": "B37-genes-17-00581",
+      "label": "37.",
+      "authors": [
+        "Yang K.",
+        "Halima A.",
+        "Chan T.A."
+      ],
+      "title": "Antigen presentation in cancer—Mechanisms and clinical implications for immunotherapy",
+      "journal": "Nat. Rev. Clin. Oncol.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "604",
+      "lpage": "623",
+      "doi": "10.1038/s41571-023-00789-4",
+      "pmid": "37328642"
+    },
+    {
+      "ref_id": "B38-genes-17-00581",
+      "label": "38.",
+      "authors": [
+        "Fu Y.",
+        "Tang R.",
+        "Zhao X."
+      ],
+      "title": "Engineering cytokines for cancer immunotherapy: A systematic review",
+      "journal": "Front. Immunol.",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1218082",
+      "doi": "10.3389/fimmu.2023.1218082",
+      "pmid": "37483629",
+      "pmc_id": "PMC10357296"
+    },
+    {
+      "ref_id": "B39-genes-17-00581",
+      "label": "39.",
+      "authors": [
+        "Mollica Poeta V.",
+        "Massara M.",
+        "Capucetti A.",
+        "Bonecchi R."
+      ],
+      "title": "Chemokines and Chemokine Receptors: New Targets for Cancer Immunotherapy",
+      "journal": "Front. Immunol.",
+      "year": "2019",
+      "volume": "10",
+      "elocation_id": "379",
+      "doi": "10.3389/fimmu.2019.00379",
+      "pmid": "30894861",
+      "pmc_id": "PMC6414456"
+    },
+    {
+      "ref_id": "B40-genes-17-00581",
+      "label": "40.",
+      "authors": [
+        "Chu X.",
+        "Tian W.",
+        "Ning J.",
+        "Xiao G.",
+        "Zhou Y.",
+        "Wang Z.",
+        "Zhai Z.",
+        "Tanzhu G.",
+        "Yang J.",
+        "Zhou R."
+      ],
+      "title": "Cancer stem cells: Advances in knowledge and implications for cancer therapy",
+      "journal": "Signal Transduct. Target. Ther.",
+      "year": "2024",
+      "volume": "9",
+      "fpage": "170",
+      "doi": "10.1038/s41392-024-01851-y",
+      "pmid": "38965243",
+      "pmc_id": "PMC11224386"
+    },
+    {
+      "ref_id": "B41-genes-17-00581",
+      "label": "41.",
+      "authors": [
+        "Luo M.",
+        "Bao L.",
+        "Xue Y.",
+        "Zhu M.",
+        "Kumar A.",
+        "Xing C.",
+        "Wang J.E.",
+        "Wang Y.",
+        "Luo W."
+      ],
+      "title": "ZMYND8 protects breast cancer stem cells against oxidative stress and ferroptosis through activation of NRF2",
+      "journal": "J. Clin. Investig.",
+      "year": "2024",
+      "volume": "134",
+      "fpage": "e171166",
+      "doi": "10.1172/JCI171166",
+      "pmid": "38488001",
+      "pmc_id": "PMC10940091"
+    },
+    {
+      "ref_id": "B42-genes-17-00581",
+      "label": "42.",
+      "authors": [
+        "Battaglin F.",
+        "Millstein J.",
+        "Bartolini M.",
+        "Ashouri K.",
+        "Soni S.",
+        "Algaze S.",
+        "Mittal P.",
+        "Torres-Gonzalez L.",
+        "Jayachandran P.",
+        "Shah U.H.",
+        "et al."
+      ],
+      "title": "Small nucleolar RNAs (snoRNAs) expression and effects on patient (pt) outcomes in metastatic colorectal cancer (mCRC): Data from CALGB (Alliance)/SWOG 80405",
+      "journal": "J. Clin. Oncol.",
+      "year": "2025",
+      "volume": "43",
+      "fpage": "3145",
+      "doi": "10.1200/JCO.2025.43.16_suppl.3145"
+    },
+    {
+      "ref_id": "B43-genes-17-00581",
+      "label": "43.",
+      "authors": [
+        "Záveský L.",
+        "Jandáková E.",
+        "Weinberger V.",
+        "Minář L.",
+        "Turyna R.",
+        "Faridová A.T.",
+        "Hanzíková V.",
+        "Slanař O."
+      ],
+      "title": "Evaluation of Expression and Clinicopathological Relevance of Small Nucleolar RNAs (snoRNAs) in Invasive Breast Cancer",
+      "journal": "NonCoding RNA",
+      "year": "2025",
+      "volume": "11",
+      "elocation_id": "76",
+      "doi": "10.3390/ncrna11060076",
+      "pmid": "41283331",
+      "pmc_id": "PMC12642022"
+    },
+    {
+      "ref_id": "B44-genes-17-00581",
+      "label": "44.",
+      "authors": [
+        "Huang D.",
+        "Chen X.",
+        "Zeng X.",
+        "Lao L.",
+        "Li J.",
+        "Xing Y.",
+        "Lu Y.",
+        "Ouyang Q.",
+        "Chen J.",
+        "Yang L.",
+        "et al."
+      ],
+      "title": "Targeting regulator of G protein signaling 1 in tumor-specific T cells enhances their trafficking to breast cancer",
+      "journal": "Nat. Immunol.",
+      "year": "2021",
+      "volume": "22",
+      "fpage": "865",
+      "lpage": "879",
+      "doi": "10.1038/s41590-021-00939-9",
+      "pmid": "34140678"
+    }
+  ]
+}

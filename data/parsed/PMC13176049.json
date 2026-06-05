@@ -1,0 +1,712 @@
+{
+  "metadata": {
+    "title": "miR-1-3p downregulation drives tumor invasion in oral squamous cell carcinoma: insights from in vitro , in vivo , and ex vivo models",
+    "authors": [
+      "Jessica Boscariol da Silva",
+      "José Leonardo de Oliveira",
+      "Gilberto Mendes Menderico",
+      "Laura Sichero",
+      "Hernandes F. Carvalho",
+      "Luiz Paulo Kowalski",
+      "Leandro Luongo Matos"
+    ],
+    "journal": "Molecular Biology Reports",
+    "year": "2026",
+    "doi": "10.1007/s11033-026-11914-8",
+    "pmc_id": "PMC13176049",
+    "pmid": "42133128",
+    "full_text_available": true,
+    "section_count": 18,
+    "reference_count": 34
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Aim Oral squamous cell carcinoma (OSCC) often presents as an invasive tumor with poor prognosis. Recent evidence suggests that microRNAs, particularly miR-1-3p, may regulate the molecular pathways associated with tumor invasion. This study aimed to investigate the functional role of miR-1-3p in OSCC invasion using integrated in vitro , in vivo , and ex vivo approaches, and to evaluate its expression in tumors with varying depths of invasion (DOI). Methods SCC-9 cells were transfected with miR-1-3p mimic and inhibitor. Invasion was assessed using transwell assays. Zebrafish xenografts were generated to evaluate tumor area, invasion depth, migration, and metastasis. Additionally, miR-1-3p expression was quantified by RT-qPCR in 26 human OSCC samples stratified by different groups of DOI. Results miR-1-3p inhibition significantly increased tumor cell invasion in vitro ( P = 0.039) and resulted in larger, deeper, and more migratory tumors in vivo ( P < 0.05). All in vitro experiments were performed in duplicate, which may limit the precision of quantitative estimates. Metastases were observed in 30.8% of larvae injected with miR-1-3p–inhibited cells, representing a trend toward increased metastatic behavior ( P = 0.052). In human samples, miR-1-3p expression was significantly negatively correlated with DOI (Spearman’s R = − 0.435; P = 0.030), and deeply invasive tumors exhibited lower expression levels ( P = 0.040). Conclusion This integrative analysis supports an association between miR-1-3p downregulation and increased invasive tumor behavior in OSCC across experimental models and human tumor samples. These findings provide preliminary translational evidence and support further investigation into the potential role of miR-1-3p as a biomarker in OSCC.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Head and neck cancers encompass a heterogeneous group of tumors arising from various anatomical sites, of which approximately 90% are squamous cell carcinomas (HNSCC) [ 1 ]. These malignancies represent a significant global public health concern because of their substantial morbidity and mortality. HNSCC is the sixth most common cancer worldwide [ 2 ]. The primary risk factors associated with HNSCC include tobacco use, alcohol consumption, and human papillomavirus (HPV) infection [ 3 ]. Oral squamous cell carcinoma (OSCC) accounts for approximately 40% of all HNSCC cases [ 4 ]. Compared to other HNSCCs, patients with OSCC generally have a poorer prognosis, largely due to the aggressive invasive behavior of the tumor and frequent diagnosis at advanced stages [ 5 ]. Several factors have been associated with unfavorable prognosis. Among these, depth of invasion (DOI) has recently gained attention as a robust prognostic marker and has been incorporated into the current TNM staging system [ 6 ]. Clinically, DOI serves as a surrogate for a tumor’s invasive capacity, suggesting an underlying biological process potentially governed by molecular mechanisms. The initiation and progression of tumor invasion in OSCC is a multistep process that involves cumulative genetic, epigenetic, and transcriptomic alterations. MicroRNAs (miRNAs) have emerged as key regulators of tumor biology [ 7 ]. Increasing evidence supports the role of miRNAs in modulating extracellular matrix (ECM) degradation and remodeling, which are crucial steps in the invasive cascade [ 8 , 9 ]. Although the precise molecular mechanisms remain unclear, several miRNAs have been implicated in this regulatory network. In OSCC, both upregulated and downregulated miRNAs are associated with disease progression [ 10 ]. In a previous study conducted by our group using formalin-fixed paraffin-embedded (FFPE) OSCC samples, we found that reduced expression of miR-1-3p and miR-133a-3p, along with elevated levels of miR-21-5p, were associated with deeper tumor invasion and ECM remodeling. In the same study, we also found that lower expression of miR-1-3p was associated with higher levels of metalloproteinase 2 (MMP-2) in fibroblasts associated with the tumor, which in turn was linked to basement membrane degradation and promotion of the tumor invasion process [ 8 ]. Given the demonstrated role of miR-1-3p in the tumor invasion process through basement membrane degradation mediated by increased MMP-2 expression in tumor-associated fibroblasts, the objective of this study was to investigate the role of miR-1-3p in the biological mechanisms underlying tumor invasion using experimental models. Additionally, we sought to validate the differential expression of these miRNAs in a cohort of patients with invasive OSCC to support a translational research approach.",
+      "order": 1
+    },
+    {
+      "section": "Experimental Models",
+      "text": "The experimental study consisted of in vitro invasion assays and in vivo tumor formation in a zebrafish model. All animal experiments were approved by the Animal Ethics Committee ( Comitê de Ética no Uso de Animais – CEUA) of the Faculdade de Medicina da Universidade de São Paulo – FMUSP (protocol no. 1538/2020) and were conducted in accordance with the institutional guidelines and national regulations for the care and use of laboratory animals.",
+      "order": 2
+    },
+    {
+      "section": "Cell Line And Culture",
+      "text": "We used a commercially available cell line from the American Type Culture Collection (ATCC) derived from squamous cell carcinoma of the tongue (SCC-9 – CRL-1629). Cells were maintained in 25 cm² flasks (Corning ® , New York, USA) at 37 °C in a 5% CO₂ incubator, using DMEM: Ham F12 culture medium supplemented with 1.2 g/L sodium bicarbonate, 2.5 mM L-glutamine, 15 mM HEPES, and 0.5 mM sodium pyruvate, and further supplemented with 400 ng/mL hydrocortisone (BCRJ ® , Rio de Janeiro, Brazil). All procedures related to cell culture were performed under a vertical laminar flow hood that had been previously disinfected with 70% ethanol and exposed to UV light for 20 min. Upon reaching 80% confluence, cells were subcultured using trypsin and maintained in culture for subsequent experiments.",
+      "order": 3
+    },
+    {
+      "section": "Selected Micrornas, Mimics And Inhibitors",
+      "text": "miR-1-3p, previously identified by our group as differentially expressed in deeply invasive versus superficial oral tumors through miRNA array analysis [ 8 ], was evaluated. Both mimics and inhibitors of miR-1-3p were synthesized by Thermo Fisher Scientific ® (Waltham, MA, USA) and used at the time of transfection [ 11 ]. Briefly, mirVana miRNA mimics are chemically modified, double-stranded RNA molecules designed to mimic endogenous miRNAs, resulting in the negative regulation of target mRNA translation through sequestration or degradation. The mature (guide) strand is incorporated by Argonaute proteins (Ago), directing gene silencing, whereas the passenger strand may or may not have functional targets. Chemical modifications in the passenger strand improve the uptake of the guide strand by Ago. These mimics were optimized for maximal effects at low concentrations (0.3 nM). In contrast, mirVana miRNA inhibitors are chemically modified single-stranded oligonucleotides designed to bind and inhibit endogenous miRNAs, resulting in positive regulation of their mRNA targets.",
+      "order": 4
+    },
+    {
+      "section": "Transfection And Rna Processing",
+      "text": "SCC-9 cells at 80% confluence were transfected with Lipofectamine ® RNAiMAX (Thermo Fisher Scientific ® , Waltham, MA, USA) according to the manufacturer’s instructions (MH10617, MH10206, MH10413, MC10617, MC10206, MC10413, 4464058, 4467046, 4464062, 4464080, and 13778030). For each well in a 24-well plate, 3 µL of transfection reagent was diluted in 50 µL of OPTI-MEM I Reduced Serum Medium (Invitrogen, Carlsbad, CA, USA), 10 µM of oligonucleotide was diluted in 50 µL of the same medium, and 5 × 10⁴ to 1 × 10⁵ cells per well, depending on the experiment. The complexes were incubated for 5 min at room temperature before being added to 500 µL of F12 medium per well (final volume, 600 µL). RNA was extracted at 48 h post-transfection. This protocol has been used for both miRNA mimics and inhibitors [ 12 ]. Positive and negative controls were also used. For mimics, miR-1 served as a positive control because it is known to downregulate Protein Tyrosine Kinase 9 (PTK9), which was monitored to confirm its activity [ 13 ]. For inhibitors, let-7c was used to monitor the increase in High Mobility Group AT-hook 2 (HMGA2) mRNA expression [ 14 ]. Non-targeting sequences with no detectable effects were used as negative controls. RT-PCR was used to assess the efficacy of all the constructs.",
+      "order": 5
+    },
+    {
+      "section": "Rna Extraction",
+      "text": "RNA was extracted using TRIzol ® (Invitrogen, USA). After transfection, samples were processed with TRIzol ® , chloroform extraction, and isopropanol precipitation, followed by centrifugation. RNA pellets were washed three times with 75% DEPC ethanol, dried, resuspended in 15 µL of Milli-Q water, and stored at − 80 °C. RNA concentration was measured by NanoDrop Lite (Thermo Fisher Scientific ® , USA) and standardized to 10 ng/µL for downstream analyses.",
+      "order": 6
+    },
+    {
+      "section": "Cdna Synthesis",
+      "text": "cDNA synthesis was performed using two kits: the High-Capacity cDNA Reverse Transcription Kit (Thermo Fisher Scientific ® , Waltham, MA, USA) for positive controls (miR-1 and let-7c) and the TaqMan ® MicroRNA Reverse Transcription Kit for experimental miRNAs. Reactions using the first kit were carried out in a final volume of 20 µL with the following thermal profile: 10 min at 20 °C, 120 min at 37 °C, 85 min at 5 °C, and hold at 4 °C. For the second kit, a final volume of 15 µL was used, with 30 min at 16 °C, 30 min at 42 °C, and 5 min at 85 °C, and held at 4 °C.",
+      "order": 7
+    },
+    {
+      "section": "Rt-Pcr",
+      "text": "For qPCR, 5 µL of cDNA was used with 10 µL of TaqMan ® Fast Advanced Master Mix 2x, 4 µL RNase-free water, and 1 µL of specific probes (TaqMan ® Advanced miRNA Assay 20x or TaqMan™ Gene Expression Assay FAM 20x). The following miR-1-3p primer sequence was used: UGGAAUGUAAAGAAGUAUGUAU. Reactions (20 µL) were run on an Applied Biosystems 7300/7500 Real-Time PCR System under the following conditions: 95°C for 10 min, followed by 40 cycles of 95°C for 15 s and 60°C for 1 min. Controls included U6snRNA (forward: 5′-CTTTGGTATCGTGGAAGGACTC-3′, reverse: 5′-GTAGAGGCAGGGATGATGTTCT-3′) and GAPDH (forward: 5′-GCTTCGGCAGCACATATACTAAAAT-3′, reverse: 5′-CGCTTCACGAATTTGCGTGTCAT-3′)[ 15 ]. All experiments were performed in duplicate. The results were analyzed using the 2 –ΔΔCt method, and the inhibition and mimetization of SCC-9 cells are shown in Fig. 1 .",
+      "order": 8
+    },
+    {
+      "section": "Invasion Assay",
+      "text": "Cell invasion capacity was assessed using 8 μm pore-size Transwell inserts (Corning ® , NY, USA) coated with Matrigel (Corning ® Matrigel ® , NY, USA). miRNA transfected SCC-9 cells (2.1 × 10⁴) were seeded in the upper chamber in serum-free medium, while the lower chamber contained F12 medium with 10% fetal bovine serum as a chemoattractant. The plates were then incubated at 37 °C and 5% CO₂ for 48 h. Non-invading cells were removed, and invading cells were fixed with 4% paraformaldehyde and stained with 0.1% crystal violet. The inserts were analyzed under 20× magnification in six fields per insert. All experiments were performed in duplicate [ 16 , 17 ].",
+      "order": 9
+    },
+    {
+      "section": "Zebrafish Xenograft",
+      "text": "SCC-9 cells were transduced to express tdTomato fluorescent protein and blasticidin resistance gene (Tomato-BSD) [ 18 ]. These cells were xenografted into Danio rerio AB and Tg(Fli: GFP) embryos 48 h post fertilization (hpf), and a pool of 50 embryos per group was created [ 19 , 20 ]. The experimental groups included embryos injected with miRNA-transfected SCC-9 cells, and a control group injected with non-transfected tumor cells. Zebrafish embryos were incubated in E3 embryo medium (NaCl 5 mM, KCl 0.17 mM, CaCl₂ 0.33 mM, MgSO₄ 0.33 mM, pH 7.0) and kept at 28 °C. Embryonic and larval stages are expressed as hours post-fertilization (hpf) or days post-fertilization (dpf) [ 21 ]. Adult zebrafish were housed at the Universidade Estadual de Campinas (UNICAMP, Campinas, São Paulo, Brazil) using the Aquatic Habitats Z-Hab (Irland) system. Animals were kept at 28 °C ±, pH 7.3 ± 0.2, conductivity 500–800 µS, under a 14 h/10 h light/dark cycle, and fed thrice daily (Tetra ColorBit, Blacksburg, EUA) [ 22 ]. One week before mating, the males and females were separated to synchronize their spawning. Three days before microinjection, mating pairs (two males and one female) were transferred to breeding tanks and embryos were collected the following morning. Microinjections were performed at 48 hpf using borosilicate capillaries pulled with a PUL-1000 (WPI). Labeled cells were suspended in PBS at 1 × 10 5 cells/µL and injected into the perivitelline space (PVS) under a stereomicroscope (Axio Zoom.V16 Carl Zeiss). Embryos were placed on a 1,5% agarose plate to ensure stability [ 22 , 23 ]. Twenty-four hours post-injection, the larvae were anesthetized with 0.168 mg/L tricaine, embedded in agarose, and imaged using an EVOS fluorescence microscope (Thermo Fisher, USA). At the end of the experiment, the larvae were euthanized with 4.2 mg/L tricaine and fixed in 4% paraformaldehyde. Tumor burden was assessed by imaging and measuring the (1) tumor area, (2) depth of invasion relative to larval width, and (3) presence of distant migration/metastasis in each group.",
+      "order": 10
+    },
+    {
+      "section": "Ex Vivo Validation Study",
+      "text": "The ex vivo study was approved by the Institutional Review Board of the Hospital das Clínicas, Faculdade de Medicina, Universidade de São Paulo (CAPPesq - Comissão de Ética para Análise de Projetos de Pesquisa HCFMUSP ) under protocol number 228/14 (CAAE 32884214.5.0000.0065). All procedures involving human participants were conducted in accordance with the ethical standards of the institutional research committee and with the Declaration of Helsinki. Written informed consent was obtained from all participants prior to inclusion in the study. The study comprised a retrospective cohort of individuals diagnosed with oral squamous cell carcinoma (OSCC) who underwent surgical treatment by the Head and Neck Surgery team at the Instituto do Câncer do Estado de São Paulo, Hospital das Clínicas, Faculdade de Medicina, Universidade de São Paulo (ICESP-HCFMUSP) between 2009 and 2015. To efficiently assess the relationship between depth of invasion (DOI) and molecular markers and considering the impracticality of analyzing the entire cohort of approximately 600 patients, tissue specimens from consecutive patients presenting with fixed DOIs of 5 mm, 15 mm, and 25 mm were selected. These specific DOI thresholds were chosen to represent superficial, moderate, and deep invasion while minimizing selection bias. A total of 26 patients were included in the study. This retrospective design allowed the inclusion of all available cases corresponding to predetermined DOI values. Clinical, demographic, and pathological data were retrieved from the institution’s electronic health records. DOI was reassessed on hematoxylin and eosin-stained slides by a pathologist blinded to the clinical data. The DOI was measured from the basement membrane to the deepest point of tumor infiltration [ 24 ]. The same pathologist was responsible for selecting FFPE blocks for subsequent molecular analyses.",
+      "order": 11
+    },
+    {
+      "section": "Microrna Expression Analysis",
+      "text": "miRNA expression levels were quantified by reverse transcription and quantitative polymerase chain reaction (RT-qPCR). Total RNA was isolated from ten 5-µm sections of formalin-fixed, paraffin-embedded (FFPE) tumor samples using the MagMAX FFPE RNA Ultra Kit (Applied Biosystems ® , Foster City, CA, USA), following the manufacturer’s instructions. RT-qPCR assays were conducted using the TaqMan Low Density Array platform (Thermo Fisher Scientific, Waltham, MA, USA). RNA samples were reverse-transcribed with polyadenylation to synthesize complementary DNA (cDNA), as specified by the manufacturer. The miRNA primer sequences used were UGGAAUGUAAAGAAGUAUGUAU for miR-1-3p and for miR-let-7i UGAGGUAGUAGUUUGUGCUGUU. Each sample was analyzed in triplicate, and cycle threshold (Ct) values were obtained using the Thermo Fisher Cloud platform. miRNAs with Ct values exceeding 38 were deemed unreliable and excluded from further analysis. Expression data were normalized across samples using the quantile normalization method implemented in Expander software, and miR-let-7i was used as the endogenous reference, as determined in a previous study by our group [ 8 ]. Relative quantification of miRNA expression was performed using the ΔΔCt method to identify the up-regulation or down-regulation of specific targets.",
+      "order": 12
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Descriptive statistics for continuous variables were presented as means accompanied by either standard deviation (SD) or standard error (SE). Mean ranks were used to present the results of some quantitative variables. Categorical variables are summarized using absolute counts and corresponding percentages. The distribution of continuous variables was assessed using the Kolmogorov-Smirnov test, and all variables were classified as non-parametric. The Mann-Whitney U test was used to compare two independent groups. For comparisons involving three or more groups, Kruskal-Wallis’ test followed by Dunn’s post hoc test was performed. Associations between categorical variables and group distributions were examined using the chi-squared test or Fisher’s exact test, as appropriate. Spearman’s rank correlation and linear regression analyses were used to assess the association between two continuous variables. Receiver operating characteristic (ROC) curve analysis was performed to evaluate the discriminative ability of continuous variables, and the area under the curve (AUC) was calculated. Cutoff values were studied based on Youden’s index. Survival outcomes were analyzed using the Kaplan–Meier method, and differences between groups were assessed using the log-rank test. Given the multi-level design of the study, analyses were performed across distinct experimental contexts ( in vitro , in vivo , and ex vivo ), each addressing related but non-identical biological questions. Therefore, tests were not treated as belonging to a single inferential family, and no formal multiple comparison correction was applied. Instead, results were interpreted within an exploratory, hypothesis-generating framework, emphasizing consistency of direction and effect across independent models rather than isolated statistical significance. All statistical analyses were performed using IBM SPSS Statistics (version 26.0; IBM ® , Endicott, New York, USA).",
+      "order": 13
+    },
+    {
+      "section": "In Vitro Analyses",
+      "text": "To investigate the functional role of miR-1-3p in tumor invasion, in vitro assays were performed following both inhibition and overexpression of this miRNA. Inhibition of miR-1-3p significantly increased the invasive potential of SCC-9 tumor cells compared with that of the control group ( P = 0.039). In contrast, mimic-induced overexpression of miR-1-3p did not result in a statistically significant reduction in cell invasion ( P = 0.068), as shown in Fig. 2 . Importantly, all in vitro assays were performed in duplicate, and therefore quantitative estimates should be interpreted with caution due to limited experimental replication.",
+      "order": 14
+    },
+    {
+      "section": "In Vivo Analyses",
+      "text": "To further explore the functional role of miR-1-3p in tumor behavior, in vivo assays were performed using a zebrafish xenograft model. Inhibition of miR-1-3p resulted in a significant increase in tumor area compared to the SCC-9 control group ( P = 0.023), whereas mimic-induced overexpression had no significant effect on tumor size ( P = 0.784). The proportion of tumor depth relative to larval width was also significantly greater in the inhibition group ( P = 0.015), with no significant difference observed following mimic treatment ( P = 0.832) (Fig. 3 ). Additional analyses were performed to assess the impact of miR-1-3p modulation on tumor behavior in a zebrafish model. In the inhibition setting, metastases were observed in 30.8% of the larvae injected with miR-1-3p inhibitor-transfected cells (8/26), whereas no metastases were observed in the SCC-9 control group (0/10). This difference approached statistical significance ( P = 0.052, Fisher’s exact test), suggesting a trend toward increased metastatic behavior associated with miR-1-3p inhibition. Migration was more frequent in the miR-1-3p inhibition group, occurring in 96.2% of cases (25/26) compared to 50% (5/10) in the SCC-9 controls ( P = 0.003). In the mimic condition, metastases were identified in 15.4% (2/13) of the larvae injected with miR-1-3p mimic-transfected cells, while no metastases were observed in the SCC-9 group (0/10), with no statistically significant difference ( P = 0.486). Nonetheless, migration was present in all larvae injected with miR-1-3p mimics (100%, 13/13) compared to 50% in the SCC-9 group (5/10), a statistically significant difference ( P = 0.007, Fisher’s exact test). A representative image of a zebrafish larva injected with miR-1-3p–inhibited tumor cells showed a large, deeply invasive primary tumor in the ventral region, along with evident metastatic foci in the head and tail regions (Fig. 4 ).",
+      "order": 15
+    },
+    {
+      "section": "Ex Vivo Validation Study",
+      "text": "To explore the relationship between tumor depth and miR-1-3p expression, patients were stratified into two groups: 12 tumors with superficial invasion (DOI = 5 mm) and 14 tumors with deeper invasion (6 cases with DOI = 15 mm and 8 cases with DOI = 25 mm). A significant, but moderate, negative correlation was observed between miR-1-3p expression and the depth of invasion (Spearman’s R = − 0.435; 95% CI: − 0.714 to − 0.035; P = 0.030). This inverse relationship was further supported by the linear regression analysis (R² = 0.261; P = 0.009; Fig. 5 A). To complement the correlation and regression findings, a direct comparison of miR-1-3p expression between deep and superficial tumors was performed. Tumors with greater DOI exhibited significantly lower miR-1-3p expression levels than those with superficial tumors ( P = 0.040; Fig. 5 B). ROC curve analysis was performed to evaluate the ability of miR-1-3p expression (cutoff: 1.3) to discriminate between deeply and superficially invasive tumors. ROC analysis yielded an AUC of 0.729 (standard error = 0.116) with a wide confidence interval (95% CI: 0.502–0.957; P = 0.048). When survival outcomes were analyzed, no association was observed between miR-1-3p expression and overall survival (OS; log-rank P = 0.854), with estimated 5-year OS rates of approximately 62% for patients with lower miR-1-3p expression (same cutoff of 1.3) and 68% for those with higher expression (Fig. 5 C). Disease-free survival (DFS) analysis also showed a non-significant difference between groups (log-rank P = 0.097). Notably, no recurrence events were observed in the high-expression group (Fig. 5 D).",
+      "order": 16
+    },
+    {
+      "section": "Discussion",
+      "text": "Our study provides an integrative evaluation of the association between miR-1-3p expression and tumor invasiveness in OSCC across multiple experimental platforms. Functional in vitro assays showed that miR-1-3p inhibition significantly enhanced the invasive behavior of tumor cells. These findings were supported by in vivo analyses using a zebrafish xenograft model, in which miR-1-3p downregulation led to an increased tumor area and deeper infiltration relative to the control. In human tumor samples, a significant inverse correlation was observed between miR-1-3p expression and the depth of invasion, which was further reinforced by linear regression analysis. Additionally, deeply invasive tumors exhibited markedly lower levels of miR-1-3p than superficial tumors. Furthermore, survival analyses suggested a potential association between lower miR-1-3p expression and worse disease-free survival, although this finding did not reach statistical significance and should be interpreted with caution. Our findings expand prior evidence by demonstrating consistent phenotypic and translational associations across in vitro , in vivo , and human tumor analyses. These results suggested a potential role for miR-1-3p downregulation in tumor invasiveness, although this interpretation should be considered in light of the experimental limitations described. Moreover, these convergent findings support an association between miR-1-3p downregulation and a more aggressive phenotype characterized by increased invasiveness in OSCC, further highlighting the potential translational relevance of an integrative, multi-model approach combining experimental data with observations in human tumor samples. Several studies have demonstrated that miR-1-3p acts as a tumor suppressor in OSCC and is consistently downregulated in tumor tissues and cell lines. Functional investigations have shown that its inhibition promotes proliferation, migration, and invasion, whereas its overexpression leads to a partial or complete reversal of these phenotypes. Prior studies have identified potential molecular targets of miR-1-3p, including Slug, DKK1, and PFN2, suggesting its involvement in pathways related to epithelial–mesenchymal transition and Wnt/β-catenin signaling [ 25 – 27 ]. However, these mechanisms were not directly investigated in the present study and are discussed here solely to provide biological context based on previously published data. Therefore, no mechanistic inferences can be drawn from the current dataset regarding these pathways. The current study expands this understanding by providing a comprehensive functional characterization of miR-1-3p’s role in OSCC using complementary in vitro , in vivo , and ex vivo analyses. Our findings confirm that miR-1-3p inhibition significantly increases invasion in vitro and provides additional evidence suggesting that this effect may translate into larger and deeper tumors in vivo , as shown in a zebrafish xenograft model. Importantly, we also showed that miR-1-3p expression is inversely correlated with the depth of invasion in human tumor samples, and that deeply invasive tumors exhibit significantly lower levels of miR-1-3p, suggesting a biological association between miR-1-3p repression and a more aggressive tumor phenotype. Furthermore, while previous studies [ 8 , 28 ] have pointed to network-level interactions and tumor–stromal crosstalk involving miR-1, our findings integrated these dimensions through multi-model validation. By confirming that miR-1-3p suppression not only enhances local invasion, but also increases tumor dissemination and metastatic spread in vivo , we futher support its potential relevance as a phenotypic regulator and as a candidate marker associated with tumor progression and dissemination. Recent evidence from translational studies and reviews [ 29 , 30 ] has emphasized the early and epigenetically driven suppression of miR-1 as a key event in oral oncogenesis. Our results are in agreement with these findings and provide additional support for the hypothesis that miR-1-3p downregulation may represent an active contributor to the acquisition of invasive traits. Despite the integrative approach adopted in this study, several limitations of this study should be acknowledged. First, although the in vivo zebrafish model offers valuable insights into tumor behavior in living organisms, it does not fully recapitulate the complexity of the human tumor microenvironment, including immune modulation and stromal interactions. In addition, the zebrafish larval model lacks a fully developed adaptive immune system, and therefore tumor–immune interactions cannot be adequately assessed. This is particularly relevant given the growing evidence that tumor–microenvironment interactions, including immune cell infiltration and metabolic regulation, play a central role in the invasive behavior of squamous cell carcinomas [ 31 , 32 ]. Furthermore, metastatic behavior observed in this model may not directly translate to human disease, and should be interpreted as supportive rather than definitive evidence of tumor aggressiveness. Additionally, most in vitro experiments were performed in duplicate, which is below the conventional standard of triplicate measurements in biological assays. Although consistent trends were observed across independent experiments, this limitation may affect the robustness of the quantitative estimates and should be considered when interpreting the experimental findings. Second, while the study demonstrated consistent phenotypic effects following miR-1-3p inhibition, the gain-of-function experiments did not demonstrate a detectable inhibitory effect on tumor invasion or growth. This is reflected by the non-significant results observed in both the invasion assay ( P = 0.068) and the zebrafish tumor size analysis ( P = 0.784). Importantly, these findings indicate that miR-1-3p overexpression, under the conditions tested, did not produce a measurable phenotypic effect in these models. While the absence of a significant effect could be influenced by factors such as RNA interference machinery saturation, variability in transfection efficiency, or compensatory signaling pathways, these explanations remain speculative in the context of the present study, as no direct measurements of transfection efficiency or intracellular miR-1-3p levels were performed. In particular, as reported in previous studies, supraphysiological levels of microRNA mimics may lead to saturation of the RNA interference machinery, including competition for Argonaute proteins and other components of the RISC complex, resulting in non-physiological or attenuated functional effects. This phenomenon has been previously described [ 33 , 34 ], where excessive levels of small RNAs can interfere with endogenous microRNA processing and function, potentially obscuring true biological effects. Therefore, these findings should be interpreted with caution when inferring a functional role of miR-1-3p in tumor invasion based on gain-of-function experiments. Additionally, the identification of direct molecular targets was beyond the scope of this study, and future studies should aim to validate the downstream effectors mediating the invasive phenotype observed. No pathway analysis or functional rescue experiments were performed, and therefore the molecular mechanisms underlying the observed phenotypic effects remain to be elucidated. Moreover, the sample size for the ex vivo analysis was relatively small, which limits the generalizability of the observed correlation between miR-1-3p expression and the depth of invasion. Therefore, the clinical findings should be interpreted as preliminary and exploratory, rather than as evidence of clinical applicability. In addition, this cohort was retrospectively assembled, and the stratification of tumors according to depth of invasion was based on predefined cutoff values (5, 15, and 25 mm), selected to represent distinct invasion profiles while maintaining feasibility of analysis from our cohort. However, this approach may not fully capture the continuous biological spectrum of tumor invasion. Furthermore, no adjustment for potential confounding variables was performed, which should be considered when interpreting these findings. In addition, given the exploratory nature of the study, no formal correction for multiple comparisons was applied, and therefore the statistical significance of some findings should be interpreted with caution. Accordingly, statistical findings should be considered exploratory rather than confirmatory, with emphasis on concordance across models rather than on individual P-values. Another important limitation is that the reduced size of the validation cohort likely limited the statistical power of the survival analyses, which should be considered underpowered and therefore interpreted as inconclusive, and may have contributed to the absence of significance in OS, as well as a potential overestimation of DFS differences, particularly given that no recurrence events were observed among patients with higher miR-1-3p expression during follow-up, introducing a floor effect that further limits interpretability, limiting the interpretation of these findings in a translational context. Similarly, although the ROC analysis reached nominal statistical significance, the wide confidence interval, spanning values close to chance level, indicates substantial imprecision and does not support conclusions regarding discriminative performance or clinical utility. Finally, although multiple levels of evidence support the role of miR-1-3p downregulation in promoting tumor aggressiveness, this is still a cross-sectional analysis; causal inference in clinical settings would benefit from prospective studies and longitudinal tissue sampling. In conclusion, this study provides exploratory evidence supporting an association between miR-1-3p downregulation and increased invasive tumor behavior in OSCC, within the constraints of the experimental design. The consistent findings across in vitro assays, in vivo zebrafish models, and ex vivo analysis of human tumor samples support a role for miR-1-3p in tumor invasiveness and suggest its potential relevance for future evaluation as a biomarker candidate, particularly in relation to depth of invasion. This integrative methodological design highlights the translational relevance of combining experimental and clinical data and provides a framework for further investigation. Future studies should aim to identify and functionally validate the downstream targets of miR-1-3p in the invasive phenotype, explore the epigenetic mechanisms underlying its silencing, and assess its value as a predictive or prognostic biomarker in larger prospective patient cohorts. In addition, further studies are needed to determine whether modulation of miR-1-3p expression may have therapeutic implications in OSCC.",
+      "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Betiol JC",
+        "Sichero L",
+        "Costa HOO",
+        "de Matos LL",
+        "Andreoli MA",
+        "Ferreira S",
+        "et al."
+      ],
+      "title": "Prevalence of human papillomavirus types and variants and p16(INK4a) expression in head and neck squamous cells carcinomas in Sao Paulo, Brazil",
+      "journal": "Infect Agent Cancer",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "20",
+      "doi": "10.1186/s13027-016-0067-8",
+      "pmid": "27148398",
+      "pmc_id": "PMC4855326"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Laversanne M",
+        "Soerjomataram I",
+        "Jemal A",
+        "et al."
+      ],
+      "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "issue": "3",
+      "fpage": "209",
+      "lpage": "249",
+      "doi": "10.3322/caac.21660",
+      "pmid": "33538338"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Mazul AL",
+        "Taylor JM",
+        "Divaris K",
+        "Weissler MC",
+        "Brennan P",
+        "Anantharaman D",
+        "et al."
+      ],
+      "title": "Oral health and human papillomavirus-associated head and neck squamous cell carcinoma",
+      "journal": "Cancer",
+      "year": "2017",
+      "volume": "123",
+      "issue": "1",
+      "fpage": "71",
+      "lpage": "80",
+      "doi": "10.1002/cncr.30312",
+      "pmid": "27571516",
+      "pmc_id": "PMC5161679"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Peres MA",
+        "Macpherson LMD",
+        "Weyant RJ",
+        "Daly B",
+        "Venturelli R",
+        "Mathur MR",
+        "et al."
+      ],
+      "title": "Oral diseases: a global public health challenge",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "issue": "10194",
+      "fpage": "249",
+      "lpage": "260",
+      "doi": "10.1016/s0140-6736(19)31146-8",
+      "pmid": "31327369"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Alvarenga LM",
+        "Ruiz MT",
+        "Pavarino-Bertelli ÉC",
+        "Ruback MJC",
+        "Maniglia JV",
+        "Goloni-Bertollo M"
+      ],
+      "title": "Avaliação epidemiológica de pacientes com câncer de cabeça e pescoço em um hospital universitário do noroeste do estado de São Paulo",
+      "journal": "Revista Brasileira de Otorrinolaringologia",
+      "year": "2008",
+      "volume": "74",
+      "issue": "1",
+      "fpage": "68",
+      "lpage": "73",
+      "doi": "10.1590/S0034-72992008000100011"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "doi": "10.1016/j.oraloncology.2017.05.020",
+      "pmid": "28688690"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Kolokythas A",
+        "Miloro M",
+        "Zhou X"
+      ],
+      "title": "Review of MicroRNA Deregulation in Oral Cancer. Part I",
+      "journal": "J Oral Maxillofac Res",
+      "year": "2011",
+      "volume": "2",
+      "issue": "2",
+      "fpage": "e1",
+      "doi": "10.5037/jomr.2011.2201",
+      "pmid": "24421988",
+      "pmc_id": "PMC3886058"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Matos LL",
+        "Menderico Junior GM",
+        "Theodoro TR",
+        "Pasini FS",
+        "Ishikawa MM",
+        "Ribeiro AAB",
+        "et al."
+      ],
+      "title": "Cancer-associated fibroblast regulation by microRNAs promotes invasion of oral squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "110",
+      "fpage": "104909",
+      "doi": "10.1016/j.oraloncology.2020.104909",
+      "pmid": "32702628"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Menderico Junior GM",
+        "Theodoro TR",
+        "Pasini FS",
+        "de Menezes Ishikawa M",
+        "Santos NSS",
+        "de Mello ES",
+        "et al."
+      ],
+      "title": "MicroRNA-mediated extracellular matrix remodeling in squamous cell carcinoma of the oral cavity",
+      "journal": "Head Neck",
+      "year": "2021",
+      "volume": "43",
+      "issue": "8",
+      "fpage": "2364",
+      "lpage": "2376",
+      "doi": "10.1002/hed.26686",
+      "pmid": "33834567"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "doi": "10.3390/cancers11050610",
+      "pmc_id": "PMC6562527",
+      "pmid": "31052345"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Luo Y",
+        "Wu X",
+        "Ling Z",
+        "Yuan L",
+        "Cheng Y",
+        "Chen J",
+        "et al."
+      ],
+      "title": "microRNA133a targets Foxl2 and promotes differentiation of C2C12 into myogenic progenitor cells",
+      "journal": "DNA Cell Biol",
+      "year": "2015",
+      "volume": "34",
+      "issue": "1",
+      "fpage": "29",
+      "lpage": "36",
+      "doi": "10.1089/dna.2014.2522",
+      "pmid": "25317675",
+      "pmc_id": "PMC4281840"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "De Santi C",
+        "Vencken S",
+        "Blake J",
+        "Haase B",
+        "Benes V",
+        "Gemignani F",
+        "et al."
+      ],
+      "title": "Identification of MiR-21-5p as a Functional Regulator of Mesothelin Expression Using MicroRNA Capture Affinity Coupled with Next Generation Sequencing",
+      "journal": "PLoS ONE",
+      "year": "2017",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "e0170999",
+      "doi": "10.1371/journal.pone.0170999",
+      "pmid": "28125734",
+      "pmc_id": "PMC5268774"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "doi": "10.3390/ijms26010276",
+      "pmc_id": "PMC11720367",
+      "pmid": "39796132"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Mulholland EJ",
+        "Green WP",
+        "Buckley NE",
+        "McCarthy HO"
+      ],
+      "title": "Exploring the Potential of MicroRNA Let-7c as a Therapeutic for Prostate Cancer",
+      "journal": "Mol Ther Nucleic Acids",
+      "year": "2019",
+      "volume": "18",
+      "fpage": "927",
+      "lpage": "937",
+      "doi": "10.1016/j.omtn.2019.09.031",
+      "pmid": "31760377",
+      "pmc_id": "PMC6883330"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Zhang Y",
+        "Jin X",
+        "Wang J"
+      ],
+      "title": "miR–148a modulates the viability, migration and invasion of oral squamous cell carcinoma cells by regulating HLA–G expression",
+      "journal": "Mol Med Rep",
+      "year": "2019",
+      "volume": "20",
+      "issue": "1",
+      "fpage": "795",
+      "lpage": "801",
+      "doi": "10.3892/mmr.2019.10280",
+      "pmid": "31180532",
+      "pmc_id": "PMC6580030"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Chang L",
+        "Wang D",
+        "Kan S",
+        "Hao M",
+        "Liu H",
+        "Yang Z",
+        "et al."
+      ],
+      "title": "Ginsenoside Rd inhibits migration and invasion of tongue cancer cells through H19/miR-675-5p/CDH1 axis",
+      "journal": "J Appl Oral Sci",
+      "year": "2022",
+      "volume": "30",
+      "fpage": "e20220144",
+      "doi": "10.1590/1678-7757-2022-0144",
+      "pmid": "36074434",
+      "pmc_id": "PMC9444189"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Hu S",
+        "Li S",
+        "Xu Y",
+        "Huang X",
+        "Mai Z",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "The antitumor effects of herbal medicine Triphala on oral cancer by inactivating PI3K/Akt signaling pathway: based on the network pharmacology, molecular docking, in vitro and in vivo experimental validation",
+      "journal": "Phytomedicine",
+      "year": "2024",
+      "volume": "128",
+      "fpage": "155488",
+      "doi": "10.1016/j.phymed.2024.155488",
+      "pmid": "38493718"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Drobizhev M",
+        "Makarov NS",
+        "Tillo SE",
+        "Hughes TE",
+        "Rebane A"
+      ],
+      "title": "Two-photon absorption properties of fluorescent proteins",
+      "journal": "Nat Methods",
+      "year": "2011",
+      "volume": "8",
+      "issue": "5",
+      "fpage": "393",
+      "lpage": "399",
+      "doi": "10.1038/nmeth.1596",
+      "pmid": "21527931",
+      "pmc_id": "PMC4772972"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Rouhi P",
+        "Jensen LD",
+        "Cao Z",
+        "Hosaka K",
+        "Länne T",
+        "Wahlberg E",
+        "et al."
+      ],
+      "title": "Hypoxia-induced metastasis model in embryonic zebrafish",
+      "journal": "Nat Protoc",
+      "year": "2010",
+      "volume": "5",
+      "issue": "12",
+      "fpage": "1911",
+      "lpage": "1918",
+      "doi": "10.1038/nprot.2010.150",
+      "pmid": "21127485"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "doi": "10.3390/cancers12071769",
+      "pmc_id": "PMC7408583",
+      "pmid": "32630796"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Kimmel CB",
+        "Ballard WW",
+        "Kimmel SR",
+        "Ullmann B",
+        "Schilling TF"
+      ],
+      "title": "Stages of embryonic development of the zebrafish",
+      "journal": "Dev Dyn",
+      "year": "1995",
+      "volume": "203",
+      "issue": "3",
+      "fpage": "253",
+      "lpage": "310",
+      "doi": "10.1002/aja.1002030302",
+      "pmid": "8589427"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "doi": "10.1242/dmm.050693",
+      "pmc_id": "PMC11554267",
+      "pmid": "39114912"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "doi": "10.3791/62373",
+      "pmid": "34223839"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Lydiatt WM",
+        "Patel SG",
+        "O’Sullivan B",
+        "Brandwein MS",
+        "Ridge JA",
+        "Migliacci JC",
+        "et al."
+      ],
+      "title": "Head and Neck cancers-major changes in the American Joint Committee on cancer eighth edition cancer staging manual",
+      "journal": "CA Cancer J Clin",
+      "year": "2017",
+      "volume": "67",
+      "issue": "2",
+      "fpage": "122",
+      "lpage": "137",
+      "doi": "10.3322/caac.21389",
+      "pmid": "28128848"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "doi": "10.3390/biomedicines10030663",
+      "pmc_id": "PMC8944972",
+      "pmid": "35327465"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Peng CY",
+        "Liao YW",
+        "Lu MY",
+        "Yu CH",
+        "Yu CC",
+        "Chou MY"
+      ],
+      "title": "Downregulation of miR-1 enhances tumorigenicity and invasiveness in oral squamous cell carcinomas",
+      "journal": "J Formos Med Assoc",
+      "year": "2017",
+      "volume": "116",
+      "issue": "10",
+      "fpage": "782",
+      "lpage": "789",
+      "doi": "10.1016/j.jfma.2016.12.003",
+      "pmid": "28089494"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Wang Z",
+        "Wang J",
+        "Chen Z",
+        "Wang K",
+        "Shi L"
+      ],
+      "title": "MicroRNA-1-3p inhibits the proliferation and migration of oral squamous cell carcinoma cells by targeting DKK1",
+      "journal": "Biochem Cell Biol",
+      "year": "2018",
+      "volume": "96",
+      "issue": "3",
+      "fpage": "355",
+      "lpage": "364",
+      "doi": "10.1139/bcb-2017-0015",
+      "pmid": "28763625"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Li X",
+        "Li Y",
+        "Jiang C",
+        "Chen L",
+        "Gan N"
+      ],
+      "title": "MicroRNA-144-3p Inhibits Tumorigenesis of Oral Squamous Cell Carcinoma by Downregulating ERO1L",
+      "journal": "J Cancer",
+      "year": "2020",
+      "volume": "11",
+      "issue": "3",
+      "fpage": "759",
+      "lpage": "768",
+      "doi": "10.7150/jca.33267",
+      "pmid": "31942199",
+      "pmc_id": "PMC6959053"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "doi": "10.3390/genes14081578",
+      "pmc_id": "PMC10454361",
+      "pmid": "37628629"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Yadav K",
+        "Hasija Y"
+      ],
+      "title": "Integrated analysis of gene expressions and targeted mirnas for explaining crosstalk between oral and esophageal squamous cell carcinomas through an interpretable machine learning approach",
+      "journal": "Med Biol Eng Comput",
+      "year": "2025",
+      "volume": "63",
+      "issue": "2",
+      "fpage": "483",
+      "lpage": "495",
+      "doi": "10.1007/s11517-024-03210-z",
+      "pmid": "39384707"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Zheng S",
+        "He S",
+        "Liang Y",
+        "Liu Q",
+        "Liu T",
+        "Tan Y",
+        "et al."
+      ],
+      "title": "NME4 suppresses NFkappaB2-CCL5 axis, restricting CD8 + T cell tumour infiltration in oesophageal squamous cell carcinoma",
+      "journal": "Immunology",
+      "year": "2024",
+      "volume": "173",
+      "issue": "2",
+      "fpage": "408",
+      "lpage": "421",
+      "doi": "10.1111/imm.13838",
+      "pmid": "39016535"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Zheng S",
+        "Liu T",
+        "Li L",
+        "Liu Q",
+        "Yang L",
+        "Zhang Q",
+        "et al."
+      ],
+      "title": "Tumor-infiltrating lymphocyte signature in epithelial and stromal compartments of an esophageal squamous cell carcinoma acidic microenvironment mediated by MCT4",
+      "journal": "Pathol Res Pract",
+      "year": "2022",
+      "volume": "236",
+      "fpage": "153954",
+      "doi": "10.1016/j.prp.2022.153954",
+      "pmid": "35667197"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Grimm D",
+        "Streetz KL",
+        "Jopling CL",
+        "Storm TA",
+        "Pandey K",
+        "Davis CR",
+        "et al."
+      ],
+      "title": "Fatality in mice due to oversaturation of cellular microRNA/short hairpin RNA pathways",
+      "journal": "Nature",
+      "year": "2006",
+      "volume": "441",
+      "issue": "7092",
+      "fpage": "537",
+      "lpage": "541",
+      "doi": "10.1038/nature04791",
+      "pmid": "16724069"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "van Gestel MA",
+        "van Erp S",
+        "Sanders LE",
+        "Brans MA",
+        "Luijendijk MC",
+        "Merkestein M",
+        "et al."
+      ],
+      "title": "shRNA-induced saturation of the microRNA pathway in the rat brain",
+      "journal": "Gene Ther",
+      "year": "2014",
+      "volume": "21",
+      "issue": "2",
+      "fpage": "205",
+      "lpage": "211",
+      "doi": "10.1038/gt.2013.76",
+      "pmid": "24385145"
+    }
+  ]
+}

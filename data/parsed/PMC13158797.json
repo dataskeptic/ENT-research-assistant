@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "title": "Molecular characteristics and clinical outcomes of patients with gastroesophageal cancer diagnosed at ages younger than 50 years",
+    "authors": [
+      "Michael H Storandt",
+      "Emily A Teslow",
+      "Yingying Yu",
+      "Binyam Yilma",
+      "Amit Mahipal",
+      "Zhaohui Jin"
+    ],
+    "journal": "JNCI Cancer Spectrum",
+    "year": "2026",
+    "doi": "10.1093/jncics/pkag034",
+    "pmc_id": "PMC13158797",
+    "pmid": "41950398",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 38
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background The incidence of gastroesophageal cancer diagnosed at ages younger than 50 years is increasing. Assessment of the clinicopathologic and molecular characteristics of these cancers is limited currently. Methods This analysis used Tempus’ clinicogenomic database to compare patients diagnosed with gastroesophageal cancer at ages younger than 50 vs 50 years and older who completed tumor molecular profiling between December 2017 and July 2024. The spectrum of biomarkers, somatic alterations, and germline alterations were compared between those diagnosed with gastroesophageal cancer at ages younger than 50 years and those aged 50 years and older, and a multivariate analysis was conducted to identify factors associated with longer survival. Results Among 5863 gastroesophageal cancer patients, 785 had gastroesophageal cancer diagnosed at ages younger than 50 years. There were more females (35% vs 25%, P < .001) and fewer White patients (69% vs 80%, P < .001) with gastroesophageal cancer at ages younger than 50 years. Fewer tumors of patients with gastroesophageal cancer at ages younger than 50 years had high tumor mutational burden (3.2% vs 10.2%, P < .001) or high microsatellite instability (1.7% vs 5.1%, P < .001), but there was no difference in PD-L1 positivity (49% vs 51%, P = .3). Higher incidence of somatic CDH1 mutations was seen in those with gastroesophageal cancer at ages younger than 50 years (16.1% vs 6.6%, q < 0.001) with lower incidence of TP53 (65.6% vs 74.1%), CDKN2A (12.5% vs 19.8%), and KRAS (11.7% vs 18.3%, P < .001 for all) alterations. The most statistically significant germline difference was higher incidence of CDH1 (2.2% vs 0.3%, q = 0.001) and TP53 (0.6% vs 0%, q = 0.039) alterations among those with gastroesophageal cancer at ages younger than 50 years. Median survival for patients with metastatic disease was longer for gastroesophageal cancer at ages younger than 50 years (11 vs 8.5 months, P = .002), and gastroesophageal cancer at ages younger than 50 years, ERBB2 amplification, and high microsatellite instability were associated with superior survival. Conclusions Unique molecular and germline profiles were seen in patients with gastroesophageal cancer at ages younger than 50 years, which may suggest differences in causal factors yet undiscovered.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Gastroesophageal cancer constitutes a major global health problem. Globally, gastric and esophageal cancers are the 5th and 11th most commonly diagnosed cancers, and the 5th and 7th leading causes of cancer-related death, respectively. 1-3 In the United States, gastric and esophageal cancers are less common and are the 16th and 20th most frequently diagnosed cancers and the 17th and 11th leading cause of cancer-related death, respectively. 4 Despite lower incidence in the United States, it is still estimated that there will be 49 260 new gastroesophageal cancer cases, with 27 010 cancer-related deaths in the United States in 2024. 5 In recent years, a concerning trend has been observed among newly diagnosed esophageal and gastric cancers, with increased rates of patients diagnosed with gastroesophageal cancer at age younger than 50 years. Prior studies have used a cutoff of 50 years of age to stratify what has been referred to as early-onset gastric and esophageal cancers from later-onset gastroesophageal cancer, 6-10 although alternative cutoffs have been used in other studies. 11 , 12 In the case of esophageal adenocarcinoma, from 1975 to 2015, the incidence of disease diagnosed prior to the age of 50 years has increased, with an annual percentage change of 2.9%, with the annual incidence increasing by more than 3-fold (0.08 per 100 000 in 1975 to 0.27 per 100 000 in 2015). 6 , 13 In the case of gastric cancer, disease diagnosed prior to age 50 years has increased at a rate of 1.5% annually since 1995, whereas the overall gastric cancer incidence has simultaneously decreased. 11 Overall, the incidence of gastric and esophageal cancer in the United States has increased by 30% and 50%, respectively, in younger patients. 14 The etiology of this rise in incidence of gastroesophageal cancer in patients aged younger than 50 years remains largely unknown. One prevailing theory is that in addition to host mechanisms such as certain germline alterations, significantly altered early life exposomes including antibiotic and carcinogen exposure, sedentary lifestyle, and obesity may play critical roles in the development of gastroesophageal cancer at a younger age. 15 Studies with detailed clinicopathological and molecular characteristics of gastroesophageal cancer diagnosed at ages younger than 50 years have been very limited, and it remains unclear whether gastroesophageal cancer diagnosed at ages younger than 50 years represents a distinct entity compared with gastroesophageal cancer diagnosed at the age of 50 years or older. In the present study, we aim to explore the clinicopathological, molecular, and germline characteristics of gastroesophageal cancer diagnosed at ages younger than 50 years and compare it with gastroesophageal cancer diagnosed at age 50 years and older in an effort to shed light on this entity and advance our knowledge of an increasingly common diagnosis.",
+      "order": 1
+    },
+    {
+      "section": "Study Design",
+      "text": "We conducted a retrospective analysis of patients with a diagnosis of gastroesophageal cancer who underwent tumor molecular profiling between December 2017 and July 2024. Tumor samples were collected within 30 days prior or 180 days following the primary cancer diagnosis. Patients were further subclassified by age of diagnosis (gastroesophageal cancer at ages younger than 50 years vs 50 years and older). Information collected included patient demographics, tumor immune biomarkers, somatic mutational profiles, germline alterations, and clinical outcomes. Tempus AI, Inc., has been granted an institutional review board exemption (Advarra Pro00072742) permitting the use of deidentified clinical, molecular, and multimodal data to derive or capture results, insights, or discoveries.",
+      "order": 2
+    },
+    {
+      "section": "Molecular Profiling Assay",
+      "text": "Next-generation sequencing was conducted using the Tempus xT assay (Tempus AI, Inc, Chicago, IL, USA), as previously described. 16-18 Briefly, Tempus xT is a targeted, tumor and normal-matched DNA panel that detects single-nucleotide variants, insertions and/or deletions (indels), and copy number variants (loss or amplification, copy number 0 or ≥8, respectively) in 648 genes, as well as chromosomal rearrangements in 22 genes with high sensitivity and specificity. Blood-derived DNA was sequenced for germline analysis using Tempus xT for patients who underwent tumor and normal-matched sequencing. This germline panel includes 46 hereditary cancer genes ( Table S1 ), and germline findings are limited to pathogenic/likely pathogenic single-nucleotide variants and small indels. Potential germline findings from Tempus xT sequencing data are reported according to recommendations by the American College of Medical Genetics and National Comprehensive Cancer Network Genetic/Familial High-Risk Assessment guidelines. 19 , 20",
+      "order": 3
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "A Fisher exact or Pearson χ 2 test was used to compare categorical variables between patient groups (gastroesophageal cancer at ages younger than 50 years vs 50 years and older), while a Wilcoxon rank sum test was used for comparison of continuous variables. Somatic and germline alterations were compared between patients diagnosed with gastroesophageal cancer at ages younger than 50 years and those aged 50 years and older using Pearson χ 2 test or Fisher exact test, with false discovery rate adjustment ( q ≤ 0.05). Kaplan–Meier estimation and Cox proportional hazard regression were performed between stage IV gastroesophageal cancer diagnosed at ages younger than 50 years and stage IV gastroesophageal cancer diagnosed at ages 50 years and older. Overall survival was defined as the time from primary diagnosis to death from any cause or end of follow-up at 30 months after primary diagnosis. Study entry was defined as the date of primary diagnosis or the sequencing date, whichever occurred later. To account for immortal time bias, the risk set adjustment method was applied, where patients were considered at risk starting from the study entry time. A Forest plot was derived from a multivariate Cox proportional hazards model, which incorporated age of onset (gastroesophageal cancer at ages younger than 50 years vs 50 years and older), race, sex, primary tumor site, programmed cell death ligand 1 (PD-L1) positivity, microsatellite instability status, and ERBB2 amplification [copy number (CN) ≥ 6]. Patients lacking complete information for all variables were excluded from the multivariate Cox proportional hazards model to ensure the accuracy of the results.",
+      "order": 4
+    },
+    {
+      "section": "Clinicopathological Characteristics",
+      "text": "A total of 5863 patients were included in the study, including 785 patients with gastroesophageal cancer at ages younger than 50 years (median age = 43 years, IQR = 38-47 years) and 5078 patients with gastroesophageal cancer at ages 50 years and older (median age = 68 years, IQR = 61-74 years; Table 1 ). Compared with those with gastroesophageal cancer at the age of 50 years and older, there was a higher proportion of female patients with gastroesophageal cancer at ages younger than 50 years (35% vs 25%, P < .001). Black, Asian, and other non-White racial groups accounted for a greater percentage of gastroesophageal cancer patients diagnosed at ages younger than 50 years compared with those aged 50 years and older (12% vs 8.3%, 5.2% vs 4.4%, 14% vs 7.8%, respectively; P < .001). While ethnicity was known for only a portion of patients with gastroesophageal cancer aged younger than 50 years and those aged 50 years and older (341 patients with gastroesophageal cancer aged younger than 50 years and 2062 patients aged 50 years and older), Hispanic and Latino ethnicity accounted for a higher proportion of patients diagnosed with gastroesophageal cancer at ages younger than 50 years (40% vs 14%, P < .001). A numerically larger proportion of patients diagnosed with gastroesophageal cancer at ages younger than 50 years had stage IV disease at the time of sample collection, although this difference was not statistically significant (85% vs 81%, P = .073). Patients diagnosed with gastroesophageal cancer at ages younger than 50 years more commonly had a gastric primary tumor (59% vs 36%) and less commonly had an esophageal primary tumor (22% vs 39%) or gastroesophageal primary tumor (listed as cardia structure involvement, 19% vs 25%; P < .001 for all). Biomarker analysis demonstrated a statistically significantly lower tumor mutational burden among patients diagnosed with gastroesophageal cancer at ages younger than 50 years (median tumor mutational burden = 3.7 m/MB vs 4.7 m/MB, P < .001), and fewer patients diagnosed with gastroesophageal cancer at ages younger than 50 years had high tumor mutational burden (defined as tumor mutational burden ≥ 10 m/MB; 3.2% vs 10.2%, P < .001; Figure 1 and Table S2 ). Microsatellite instability status was known for nearly all patients, and a significantly lower proportion of patients with gastroesophageal cancer aged younger than 50 years had a high microsatellite instability tumor (1.7% vs 5.1%, global P < .001). This was consistent with mismatch repair status, with fewer patients with gastroesophageal cancer aged younger than 50 years having deficient mismatch repair status (2.2% vs 5.9%, P = .007). There was no significant difference in PD-L1 positivity between those diagnosed with gastroesophageal cancer at ages younger than 50 years and 50 years and older (49% vs 51%, P = .3). Tumor proportion score was also similar between those diagnosed with gastroesophageal cancer at ages younger than 50 years and those 50 years and older, with tumor proportion score less than 1% seen in 78% of patients diagnosed with gastroesophageal cancer at ages younger than 50 years and 76% of patients aged 50 years and older ( P = .6).",
+      "order": 5
+    },
+    {
+      "section": "Somatic Profile",
+      "text": "The most frequently observed somatic alterations among patients diagnosed with gastroesophageal cancer at ages younger than 50 years and patients 50 years and older included TP53 (65.6% vs 74.1%, q < 0.001), CDKN2A (12.5% vs 19.8%, q < 0.001), ARID1A (15.7% vs 18.7%, q = 0.14), KRAS (11.7% vs 18.3%, q < 0.001), CDH1 (16.1% vs 6.6%, q < 0.001), ERBB2 (13.1% vs 15.8%, q = 0.2), SMAD4 (7.0% vs 10.6%, q = 0.02), APC (6.1% vs 8.9%, q = 0.06), CDKN2B (7.3% vs 8.6%, q = 0.4), and PIK3CA (8.5% vs 8.4%, q = 0.9) ( Figure 2 ). The most statistically significant difference in somatic alteration frequency between patients diagnosed with gastroesophageal cancer at ages younger than 50 years and patients aged 50 years and older was seen in CDH1 (16.1% vs 6.6%, q < 0.001), TP53 (65.6% vs 74.1%, q < 0.001), CDKN2A (12.5% vs 19.8%, q < 0.001), KRAS (11.7% vs 18.3%, q < 0.001), NOTCH1 (1.5% vs 4.5%, q = 0.002), MSH3 (1.3% vs 3.8%, q = 0.005), and FGFR2 (4.6% vs 2.4%, q = 0.006) ( Figure 2 ; Table S3 ). Co-mutational analysis results were similar between patients diagnosed with gastroesophageal cancer at ages younger than 50 years and patients 50 years and older ( Figure S1 and S2 ). The most frequently seen KRAS alterations were G12D (1.9% vs 2.6%, q > 0.9), G13D (0.9% vs 1.5%, q > 0.9), G12V (1.1% vs 1.2%, q > 0.9), and G12C (0.6% vs 0.6%, q > 0.9) in those diagnosed with gastroesophageal cancer at ages younger than 50 years and those 50 years and older, respectively. Specifically assessing copy number alterations (CNAs), the most frequently occurring CNA among those diagnosed with gastroesophageal cancer at ages younger than 50 years and patients aged 50 years and older was ERBB2 amplification, seen in 11% and 13%, respectively (CN ≥ 6 was considered an amplification for ERBB2 per Tempus reporting guidelines). The most significant difference in CNAs between patients diagnosed with gastroesophageal cancer at ages younger than 50 years and those aged 50 years and older was seen in FGFR2 (4.2% vs 2.1%, q = 0.002), KRAS (6.1% vs 10%, q = 0.002), and CCNE1 (7.4% vs 5.1%, q = 0.046; a full list of copy number amplifications and copy number losses is shown in Tables S4 and S5 ). Assessing frequency of somatic alterations among mismatch repair status genes in patients diagnosed with gastroesophageal cancer at ages younger than 50 years and patients aged 50 years and older, alterations were seen in MSH3 (1.3% vs 3.8%, q = 0.001), MSH6 (0.9% vs 2.0%, q = 0.072), MLH1 (0.9% vs 0.8%, q = 0.9), PMS2 (0.5% vs 0.6%, q = 0.9), and MSH2 (0.4% vs 0.6%, q = 0.9; Table S6 ). When looking at 15 patients diagnosed with gastroesophageal cancer at ages younger than 50 years and 272 patients aged 50 years and older with high microsatellite instability and/or deficient mismatch repair tumors, the most frequently observed somatic alterations included ARID1A (67% vs 77%, q = 0.9), KMT2D (47% vs 64%, q = 0.9), and MSH3 (40% and 52%, q = 0.9).",
+      "order": 6
+    },
+    {
+      "section": "Germline Profile",
+      "text": "Of the total cohort, 464 (59.1%) patients with gastroesophageal cancer aged younger than 50 years and 2822 (55.6%) patients aged 50 years and older underwent tumor and normal-matched sequencing, with germline assessment available. The most common pathogenic/likely pathogenic germline variants among those with gastroesophageal cancer aged younger than 50 years and those aged 50 years and older included MUTYH (1.5% vs 1.6%, q > 0.9), ATM (1.9% vs 1.1%, q = 0.6), CDH1 (2.2% vs 0.3%, q = 0.001), BRCA2 (0.4% vs 1.3%, q = 0.6), and CHEK2 (0.9% vs 0.6%, q > 0.9; Table S7 ). The most statistically significant difference between patients with gastroesophageal cancer aged younger than 50 years and patients aged 50 years and older was higher frequency of CDH1 alteration (2.2% vs 0.3%, q = 0.001) and TP53 alteration (0.6% vs 0%, q = 0.039) among those with gastroesophageal cancer aged younger than 50 years. Pathogenic germline variants in mismatch repair status genes were seen in 1 (0.2%) patient with gastroesophageal cancer aged younger than 50 years and 17 (0.6%) patients aged 50 years and older.",
+      "order": 7
+    },
+    {
+      "section": "Clinical Outcomes",
+      "text": "Overall survival was assessed among 414 patients with gastroesophageal cancer aged younger than 50 years and 2470 patients aged 50 years and older with stage IV disease. Median overall survival was 11 months among the patients with gastroesophageal cancer aged younger than 50 years compared with 8.5 months in patients with gastroesophageal cancer aged 50 years and older ( P = .002; Figure 3 ). In a multivariate Cox proportional hazard model, factors associated with favorable survival among gastroesophageal cancer patients included having gastroesophageal cancer at age younger than 50 years (hazard ratio [HR] = 0.81, 95% confidence interval [CI] = 0.70 to 0.92; P = .002) and ERBB2 amplification (HR = 0.68, 95% CI = 0.59 to 0.78; P < .001; Figure 4 ). Having a microsatellite stable tumor was associated with inferior survival (HR = 1.45, 95% CI = 1.06 to 1.99; P = .021).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "In this large, retrospective analysis of nearly 6000 patients with gastroesophageal cancer, we were able to identify unique pathologic and molecular features of patients with gastroesophageal cancer aged younger than 50 years, recognize differences in incidence of germline variants between patients with gastroesophageal cancer aged younger than 50 years and patients aged 50 years and older, and characterize tumor and patient factors associated with improved outcomes in gastroesophageal cancer. With increasing rates of patients with gastroesophageal cancer aged younger than 50 years, it is essential that we begin to recognize similarities and dissimilarities with the later-onset population, as this may improve our understanding of this concerning trend and may ultimately have implications for screening, diagnosis, and treatment. Further, such analysis can aid in our ability to prognosticate and identify factors predictive of improved patient outcomes. In assessing the pathological landscape of patients with gastroesophageal cancer aged younger than 50 years and patients aged 50 years and older, we found a higher frequency of high tumor mutational burden and high microsatellite instability or deficient mismatch repair status among those with later-onset disease, which suggests that a majority of these cases are sporadic and related to aging, consistent with prior report. 8 High tumor mutational burden and high microsatellite instability/deficient mismatch repair status are both known to be predictive of response to immunotherapy, and therefore, a smaller portion of patients with gastroesophageal cancer aged younger than 50 years may have substantial benefit when compared with the later-onset population. 21 , 22 That being said, we did observe a similar frequency of PD-L1 expression among the populations with gastroesophageal cancer aged younger than 50 years and later-onset disease, which is another important predictive biomarker for immunotherapy response and has been used as a determinant for immunotherapy as part of first-line systemic therapy for metastatic disease. 23 , 24 Further assessing the somatic mutational landscapes of patients with gastroesophageal cancer aged younger than 50 years and patients 50 years and older, certain differences were noted, such as increased frequency of mutation of CDH1 , a gene coding for E-cadherin, among those with gastroesophageal cancer aged younger than 50 years, which has been reported previously. 9 Prior study has found enrichment of somatic CDH1 mutations among patients with early onset, sporadic, diffuse-type gastric cancer, and structural alterations in CDH1 have been associated with inferior survival. 25 , 26 The higher incidence of somatic CDH1 alterations in the population with gastroesophageal cancer aged younger than 50 years correlates with prior reports noting a higher incidence of diffuse histological subtype gastric cancer among younger patients. 27 The reasons for enrichment of somatic CDH1 alteration among those with gastroesophageal cancer aged younger than 50 years is unclear at this time and merits further assessment. Statistically significant differences were also noted in the frequency of other somatic alterations including TP53 , CDKN2A , KRAS , and SMAD4 , which were more frequently altered in patients with later-onset disease, while FGFR2 was more often mutated in patients with gastroesophageal cancer aged younger than 50 years. TP53 , CDKN2A , KRAS , and SMAD4 are oncogenic drivers in gastroesophageal cancer, and a difference in frequency of alteration may suggest that other drivers, such as FGFR2 , are enriched in patients with gastroesophageal cancer aged younger than 50 years. This is important to note given ongoing studies assessing bemarituzumab in FGFR2b overexpressing gastroesophageal cancer, and future study should assess the frequency of FGFR2b overexpression in patients with gastroesophageal cancer aged younger than 50 years and patients 50 years and older. 28 In assessing germline profiles, the most frequently seen moderate-high penetrance germline variants involved ATM , CDH1 , BRCA2 , and CHEK2 , which is similar to a prior report. 29 In the present study, we saw a higher frequency of CDH1 and TP53 germline mutations among those with gastroesophageal cancer aged younger than 50 years, which was not unexpected, as these are associated with hereditary diffuse gastric cancer and Li-Fraumeni syndrome, respectively, and would be expected to result in cancer at a younger age. Further, although certain germline variants may explain earlier incidence of cancer development, germline profiles overall were quite similar and suggest that most germline variants are discovered at similar frequency between patients with gastroesophageal cancer aged younger than 50 years and patients aged 50 years and older. In a multivariate analysis, we demonstrate superior survival among patients with gastroesophageal cancer aged younger than 50 years, which is not unexpected as increasing age is well established as a negative prognostic factor in patients with cancer. 30 , 31 However, certain factors may confound these differences in survival, such as higher rates of a primary gastric site in patients with gastroesophageal cancer aged younger than 50 years, although this was not found to be an independent factor related to survival in a multivariate analysis. Regardless, superior survival among patients with gastroesophageal cancer aged younger than 50 years has been previously demonstrated, which supports the validity of our current analysis. 12 In addition to age at diagnosis, high microsatellite instability status or harboring ERBB2 amplification was associated with superior survival, which may relate to efficacy of immune checkpoint inhibition and HER2-directed therapy in these subgroups, respectively. Of interest, among patients with gastroesophageal cancer aged younger than 50 years included in this analysis, there was greater representation among patients of a minority race. Although this is not an epidemiological study, prior report has found patients with gastroesophageal cancer aged younger than 50 years to disproportionately affect non-White patients. 10 , 32 , 33 In the current study, we do show a trend toward worse survival among non-White patients with stage IV disease, which is consistent with a prior study reporting worse survival among Black patients with gastroesophageal cancer. 10 However, a limitation of this study is missingness of country of origin and inability to determine if one had recently immigrated to the United States, and if so, where they may have traveled from. This is of importance, given potential differences in molecular features, as well as risk for cancer development, based on geographic location. For example, Epstein Barr virus–positive gastric cancer, which represents a subtype with a more favorable prognosis, may have geographic variability in incidence, with possibly higher prevalence in the Americas. 34-37 Further, Helicobacter pylori infection, a common risk factor for gastric cancer, is more common in Africa, South America, and Western Asia. 38 The prevalence of these gastroesophageal cancer risk factors, and how geographic influences may impact incidence and behavior of gastroesophageal cancer in this U.S. population aged younger than 50 years, is unclear and merits further investigation. Limitations of this study include difficulty in making direct comparison between patients with gastroesophageal cancer aged younger than 50 years and patients aged 50 years and older given differences in the frequency of primary tumor location, among other factors, between groups. There is also the potential for sampling bias as it is difficult to understand which patients may have elected to pursue next-generation sequencing. Certainly, sequencing may be pursued more frequently in patients with advanced disease to uncover potential treatment options, as reflected by the fact that more than 80% of patients in this study had metastatic disease. As such, the high proportion of patients with metastatic disease does limit the generalizability of these data to patients with earlier-stage disease. Further, clinical data were available for only a subset of patients, which may limit the generalizability of the study results. Lastly, only a portion of patients who completed somatic profiling elected to pursue germline testing in conjunction, which may result in subsequent sampling bias. Unique pathologic and molecular features may be seen in patients with gastroesophageal cancer aged younger than 50 years, although the profiles of these tumors are quite similar to that seen in later-onset disease. Given the increasing incidence of patients with gastroesophageal cancer aged younger than 50 years, it is essential that we begin to explore the factors driving this concerning trend, including an assessment of the disproportionate increase among patients of minority races.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "pkag034-B1",
+      "label": "1",
+      "title": "Oesophageal cancer",
+      "journal": "Lancet",
+      "year": "2017",
+      "volume": "390",
+      "fpage": "2383",
+      "lpage": "2396",
+      "doi": "10.1016/S0140-6736(17)31462-9",
+      "pmid": "28648400"
+    },
+    {
+      "ref_id": "pkag034-B2",
+      "label": "2",
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2018",
+      "volume": "68",
+      "fpage": "394",
+      "lpage": "424",
+      "doi": "10.3322/CAAC.21492",
+      "pmid": "30207593"
+    },
+    {
+      "ref_id": "pkag034-B3",
+      "label": "3",
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "fpage": "229",
+      "lpage": "263",
+      "doi": "10.3322/CAAC.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "pkag034-B4",
+      "label": "4",
+      "title": "Cancer Statistics, 2021",
+      "journal": "CA Cancer J Clin",
+      "year": "2021",
+      "volume": "71",
+      "fpage": "7",
+      "lpage": "33",
+      "doi": "10.3322/CAAC.21654",
+      "pmid": "33433946"
+    },
+    {
+      "ref_id": "pkag034-B5",
+      "label": "5",
+      "title": "Cancer Statistics, 2024",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "fpage": "12",
+      "lpage": "49",
+      "doi": "10.3322/CAAC.21820",
+      "pmid": "38230766"
+    },
+    {
+      "ref_id": "pkag034-B6",
+      "label": "6",
+      "title": "Epidemiology and outcomes of young-onset esophageal adenocarcinoma: an analysis from a population-based database",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2021",
+      "volume": "30",
+      "fpage": "142",
+      "lpage": "149",
+      "doi": "10.1158/1055-9965.EPI-20-0944",
+      "pmid": "33328255",
+      "pmc_id": "PMC7855414"
+    },
+    {
+      "ref_id": "pkag034-B7",
+      "label": "7",
+      "title": "Young adults with esophageal adenocarcinoma present with more advanced stage tumors and have shorter survival times",
+      "journal": "Clin Gastroenterol Hepatol",
+      "year": "2019",
+      "volume": "17",
+      "fpage": "1756",
+      "lpage": "1762",
+      "doi": "10.1016/j.cgh.2018.09.031",
+      "pmid": "30267861"
+    },
+    {
+      "ref_id": "pkag034-B8",
+      "label": "8",
+      "title": "Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer",
+      "journal": "J Natl Cancer Inst",
+      "year": "2024",
+      "volume": "116",
+      "fpage": "299",
+      "lpage": "308",
+      "doi": "10.1093/JNCI/DJAD186",
+      "pmid": "37699004",
+      "pmc_id": "PMC10852615"
+    },
+    {
+      "ref_id": "pkag034-B9",
+      "label": "9",
+      "title": "A comparison analysis of the somatic mutations in early-onset gastric cancer and traditional gastric cancer",
+      "journal": "Clin Res Hepatol Gastroenterol",
+      "year": "2024",
+      "volume": "48",
+      "fpage": "102287",
+      "doi": "10.1016/J.CLINRE.2024.102287",
+      "pmid": "38253255"
+    },
+    {
+      "ref_id": "pkag034-B10",
+      "label": "10",
+      "title": "Proportion of early-onset gastric and esophagus cancers has changed over time with disproportionate impact on Black and Hispanic patients",
+      "journal": "JCO Oncol Pract",
+      "year": "2022",
+      "volume": "18",
+      "fpage": "e759",
+      "lpage": "e769",
+      "doi": "10.1200/OP.21.00692/ASSET/FBDF0756-AABC-424B-96AB-ABEE7434C7E1/ASSETS/IMAGES/LARGE/OP.21.00692T3.JPG",
+      "pmid": "35544654"
+    },
+    {
+      "ref_id": "pkag034-B11",
+      "label": "11",
+      "title": "Early-onset gastric cancer is a distinct disease with worrisome trends and oncogenic features",
+      "journal": "Surgery",
+      "year": "2019",
+      "volume": "166",
+      "fpage": "547",
+      "lpage": "555",
+      "doi": "10.1016/J.SURG.2019.04.036",
+      "pmid": "31331685"
+    },
+    {
+      "ref_id": "pkag034-B12",
+      "label": "12",
+      "title": "Incidence trends and survival in early-onset esophagogastric adenocarcinoma: a Swedish population-based cohort study",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2023",
+      "volume": "32",
+      "fpage": "OF1",
+      "lpage": "OF8",
+      "doi": "10.1158/1055-9965.EPI-23-0169",
+      "pmid": "37222659"
+    },
+    {
+      "ref_id": "pkag034-B13",
+      "label": "13",
+      "title": "A glimpse into the future of esophageal carcinoma in the United States: predicting the future incidence until 2040 based on the current epidemiological data",
+      "journal": "J Gastrointest Oncol",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.21037/JGO-22-729/COIF",
+      "pmid": "36915445",
+      "pmc_id": "PMC10007944"
+    },
+    {
+      "ref_id": "pkag034-B14",
+      "label": "14",
+      "title": "Incidence trends of esophageal and gastric cancer subtypes by race, ethnicity, and age in the United States, 1997-2014",
+      "journal": "Clin Gastroenterol Hepatol",
+      "year": "2019",
+      "volume": "17",
+      "fpage": "429",
+      "lpage": "439",
+      "doi": "10.1016/J.CGH.2018.05.044",
+      "pmid": "29902641"
+    },
+    {
+      "ref_id": "pkag034-B15",
+      "label": "15",
+      "title": "Early onset cancer in the gastrointestinal tract is on the rise—evidence and implications",
+      "journal": "Cancer Discov",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "538",
+      "lpage": "551",
+      "doi": "10.1158/2159-8290.CD-22-1038",
+      "pmid": "36757194"
+    },
+    {
+      "ref_id": "pkag034-B16",
+      "label": "16",
+      "title": "Integrated genomic profiling expands clinical options for patients with cancer",
+      "journal": "Nat Biotechnol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "1351",
+      "lpage": "1360",
+      "doi": "10.1038/S41587-019-0259-Z",
+      "pmid": "31570899"
+    },
+    {
+      "ref_id": "pkag034-B17",
+      "label": "17",
+      "title": "Clinical validation of the Tempus xT next-generation targeted oncology sequencing assay",
+      "journal": "Oncotarget",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "2384",
+      "lpage": "2396",
+      "doi": "10.18632/ONCOTARGET.26797",
+      "pmid": "31040929",
+      "pmc_id": "PMC6481324"
+    },
+    {
+      "ref_id": "pkag034-B18",
+      "label": "18",
+      "title": "Prevalence of germline findings among tumors from cancer types lacking hereditary testing guidelines",
+      "journal": "JAMA Netw Open",
+      "year": "2022",
+      "volume": "5",
+      "fpage": "E2213070",
+      "doi": "10.1001/JAMANETWORKOPEN.2022.13070",
+      "pmid": "35594047",
+      "pmc_id": "PMC9123503"
+    },
+    {
+      "ref_id": "pkag034-B19",
+      "label": "19",
+      "title": "Recommendations for reporting of secondary findings in clinical exome and genome sequencing, 2021 update: a policy statement of the American College of Medical Genetics and Genomics (ACMG)",
+      "journal": "Genet Med",
+      "year": "2021",
+      "volume": "23",
+      "fpage": "1391",
+      "lpage": "1398",
+      "doi": "10.1038/S41436-021-01171-4",
+      "pmid": "34012069",
+      "pmc_id": "PMC12175738"
+    },
+    {
+      "ref_id": "pkag034-B20",
+      "label": "20",
+      "title": "Genetic/familial high-risk assessment: breast, ovarian, and pancreatic, Version 2.2021, NCCN Clinical Practice Guidelines in Oncology",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2021",
+      "volume": "19",
+      "fpage": "77",
+      "lpage": "102",
+      "doi": "10.6004/JNCCN.2021.0001",
+      "pmid": "33406487"
+    },
+    {
+      "ref_id": "pkag034-B21",
+      "label": "21",
+      "title": "Association of tumor mutational burden with efficacy of pembrolizumab±chemotherapy as first-line therapy for gastric cancer in the phase III KEYNOTE-062 study",
+      "journal": "Clin Cancer Res",
+      "year": "2022",
+      "volume": "28",
+      "fpage": "3489",
+      "lpage": "3498",
+      "doi": "10.1158/1078-0432.CCR-22-0121",
+      "pmid": "35657979"
+    },
+    {
+      "ref_id": "pkag034-B22",
+      "label": "22",
+      "title": "Gastroesophageal adenocarcinomas with defective mismatch repair: current knowledge and clinical management",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2024",
+      "volume": "22",
+      "doi": "10.6004/JNCCN.2023.7103",
+      "pmid": "38503041"
+    },
+    {
+      "ref_id": "pkag034-B23",
+      "label": "23",
+      "title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649): a randomised, open-label, phase 3 trial",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "398",
+      "fpage": "27",
+      "lpage": "40",
+      "doi": "10.1016/S0140-6736(21)00797-2",
+      "pmid": "34102137",
+      "pmc_id": "PMC8436782"
+    },
+    {
+      "ref_id": "pkag034-B24",
+      "label": "24",
+      "title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for HER2-negative advanced gastric cancer (KEYNOTE-859): a multicentre, randomised, double-blind, phase 3 trial",
+      "journal": "Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "1181",
+      "lpage": "1195",
+      "doi": "10.1016/S1470-2045(23)00515-6",
+      "pmid": "37875143"
+    },
+    {
+      "ref_id": "pkag034-B25",
+      "label": "25",
+      "title": "Sporadic early-onset diffuse gastric cancers have high frequency of somatic CDH1 alterations, but low frequency of somatic RHOA mutations compared with late-onset cancers",
+      "journal": "Gastroenterology",
+      "year": "2017",
+      "volume": "153",
+      "fpage": "536",
+      "lpage": "549.e26",
+      "doi": "10.1053/j.gastro.2017.05.012",
+      "pmid": "28522256",
+      "pmc_id": "PMC6863080"
+    },
+    {
+      "ref_id": "pkag034-B26",
+      "label": "26",
+      "title": "Somatic mutations and deletions of the E-cadherin gene predict poor survival of patients with gastric cancer",
+      "journal": "J Clin Oncol",
+      "year": "2013",
+      "volume": "31",
+      "fpage": "868",
+      "lpage": "875",
+      "doi": "10.1200/JCO.2012.44.4612",
+      "pmid": "23341533"
+    },
+    {
+      "ref_id": "pkag034-B27",
+      "label": "27",
+      "title": "Impact of age on clinicopathological features and survival of patients with noncardia gastric adenocarcinoma",
+      "journal": "J Gastric Cancer",
+      "year": "2014",
+      "volume": "14",
+      "fpage": "238",
+      "lpage": "245",
+      "doi": "10.5230/JGC.2014.14.4.238",
+      "pmid": "25580355",
+      "pmc_id": "PMC4286902"
+    },
+    {
+      "ref_id": "pkag034-B28",
+      "label": "28",
+      "title": "Trial in progress: phase 3 study of bemarituzumab + mFOLFOX6 versus placebo + mFOLFOX6 in previously untreated advanced gastric or gastroesophageal junction (GEJ) cancer with FGFR2b overexpression (FORTITUDE-101)",
+      "journal": "J Clin Oncol",
+      "year": "2022",
+      "volume": "40",
+      "fpage": "TPS4164",
+      "doi": "10.1200/JCO.2022.40.16_SUPPL.TPS4164"
+    },
+    {
+      "ref_id": "pkag034-B29",
+      "label": "29",
+      "title": "Prevalence of germline alterations on targeted tumor-normal sequencing of esophagogastric cancer",
+      "journal": "JAMA Netw Open",
+      "year": "2021",
+      "volume": "4",
+      "fpage": "E2114753",
+      "doi": "10.1001/JAMANETWORKOPEN.2021.14753",
+      "pmid": "34251444",
+      "pmc_id": "PMC8276088"
+    },
+    {
+      "ref_id": "pkag034-B30",
+      "label": "30",
+      "title": "Age-related differences in cancer relative survival in the United States: a SEER-18 analysis",
+      "journal": "Int J Cancer",
+      "year": "2023",
+      "volume": "152",
+      "fpage": "2283",
+      "lpage": "2291",
+      "doi": "10.1002/IJC.34463",
+      "pmid": "36752633"
+    },
+    {
+      "ref_id": "pkag034-B31",
+      "label": "31",
+      "title": "Have the recent advancements in cancer therapy and survival benefitted patients of all age groups across the Nordic countries? NORDCAN survival analyses 2002-2021",
+      "journal": "Acta Oncol",
+      "year": "2024",
+      "volume": "63",
+      "fpage": "179",
+      "lpage": "191",
+      "doi": "10.2340/1651-226X.2024.35094",
+      "pmid": "38597666",
+      "pmc_id": "PMC11332520"
+    },
+    {
+      "ref_id": "pkag034-B32",
+      "label": "32",
+      "title": "Incidence of early-onset gastric and esophagus cancers has changed over time with disproportionate impact on Black and Hispanic patients",
+      "journal": "J Clin Oncol",
+      "year": "2021",
+      "volume": "39",
+      "fpage": "171",
+      "lpage": "171",
+      "doi": "10.1200/JCO.2021.39.3_SUPPL.171",
+      "pmid": "35544654"
+    },
+    {
+      "ref_id": "pkag034-B33",
+      "label": "33",
+      "title": "Ethnic disparities in early-onset gastric cancer: a population-based study in Texas and California",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2022",
+      "volume": "31",
+      "fpage": "1710",
+      "lpage": "1719",
+      "doi": "10.1158/1055-9965.EPI-22-0210",
+      "pmid": "35732290",
+      "pmc_id": "PMC9444918"
+    },
+    {
+      "ref_id": "pkag034-B34",
+      "label": "34",
+      "title": "Determinants of Epstein-Barr virus-positive gastric cancer: an international pooled analysis",
+      "journal": "Br J Cancer",
+      "year": "2011",
+      "volume": "105",
+      "fpage": "38",
+      "lpage": "43",
+      "doi": "10.1038/BJC.2011.215",
+      "pmid": "21654677",
+      "pmc_id": "PMC3137422"
+    },
+    {
+      "ref_id": "pkag034-B35",
+      "label": "35",
+      "title": "Meta-analysis shows that prevalence of Epstein-Barr virus-positive gastric cancer differs based on sex and anatomic location",
+      "journal": "Gastroenterology",
+      "year": "2009",
+      "volume": "137",
+      "fpage": "824",
+      "lpage": "833",
+      "doi": "10.1053/j.gastro.2009.05.001",
+      "pmid": "19445939",
+      "pmc_id": "PMC3513767"
+    },
+    {
+      "ref_id": "pkag034-B36",
+      "label": "36",
+      "title": "The conundrum of the Epstein-Barr virus-associated gastric carcinoma in the Americas",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "75687",
+      "lpage": "75698",
+      "doi": "10.18632/ONCOTARGET.18497",
+      "pmid": "29088902",
+      "pmc_id": "PMC5650457"
+    },
+    {
+      "ref_id": "pkag034-B37",
+      "label": "37",
+      "title": "Improved survival of gastric cancer with tumour Epstein-Barr virus positivity: an international pooled analysis",
+      "journal": "Gut",
+      "year": "2014",
+      "volume": "63",
+      "fpage": "236",
+      "lpage": "243",
+      "doi": "10.1136/GUTJNL-2013-304531",
+      "pmid": "23580779",
+      "pmc_id": "PMC4384434"
+    },
+    {
+      "ref_id": "pkag034-B38",
+      "label": "38",
+      "title": "Global prevalence of",
+      "journal": "Gastroenterology",
+      "year": "2017",
+      "volume": "153",
+      "fpage": "420",
+      "lpage": "429",
+      "doi": "10.1053/j.gastro.2017.04.022",
+      "pmid": "28456631"
+    }
+  ]
+}

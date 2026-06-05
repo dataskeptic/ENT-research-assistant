@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "title": "Cost-effectiveness of adjuvant therapy with camrelizumab in high-risk locoregionally advanced nasopharyngeal carcinoma: from the perspective of the Chinese healthcare system",
+    "authors": [
+      "Rui Wang",
+      "Yuxin Feng",
+      "Rong Long",
+      "Liangfang Shen",
+      "Qin Zhou"
+    ],
+    "journal": "Annals of Medicine",
+    "year": "2026",
+    "doi": "10.1080/07853890.2026.2669694",
+    "pmc_id": "PMC13178033",
+    "pmid": "42130296",
+    "full_text_available": true,
+    "section_count": 12,
+    "reference_count": 35
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Objective Immune checkpoint inhibitors, particularly programmed cell death 1 inhibitors, have shown promising clinical outcomes in the adjuvant treatment of locoregionally advanced nasopharyngeal carcinoma (LA-NPC), offering a more effective and less toxic treatment option. This study aimed to explore the cost-effectiveness of adjuvant immunotherapy with camrelizumab for patients with LA-NPC from the perspective of the Chinese healthcare system. Methods A Markov model was developed to evaluate the health and economic outcomes of adjuvant camrelizumab versus standard therapy (observation) in high-risk LA-NPC. Clinical efficacy and safety data were derived from the phase 3 DIPPER trial. The model incorporated three distinct health states and simulated the outcomes over a lifetime horizon. Key endpoints included overall cost, quality-adjusted life year (QALY), incremental cost-effectiveness ratio (ICER), and incremental net health benefit (INHB), assessed at a predefined willingness-to-pay (WTP) threshold of $39,613 per QALY. One-way and probabilistic sensitivity analyses were conducted to assess the robustness of the model. Results Compared with standard therapy, adjuvant camrelizumab for high-risk patients with LA-NPC resulted in an added 4.39 QALYs at an incremental cost of $21,539, yielding an ICER of $4,910/QALY and an INHB of 3.85 QALYs. At the predefined WTP, camrelizumab demonstrated a 98.6% probability of being a cost-effective adjuvant treatment for LA-NPC in China. The health utility value of event-free survival was the most significant parameter influencing the model results. Sensitivity analysis results supported the robustness of the model. Conclusions In China, adjuvant immunotherapy with camrelizumab following induction-concurrent chemoradiotherapy offers a potentially cost-effective approach for the management of patients with high-risk LA-NPC, yielding an ICER significantly below the predefined WTP threshold.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Nasopharyngeal carcinoma (NPC) is one of the most prevalent malignancies in Southeast Asia, with the highest incidence rate in southern China [ 1 ]. Worldwide in 2022, nasopharyngeal cancer occurred in over 120,000 new cases, with nearly 47% of them reported in China [ 2 ]. Unlike many other head and neck cancers, NPC has a complex aetiology characterized by genetic susceptibility, environmental influences, and a consistent association with Epstein–Barr virus (EBV) infection [ 3 ]. Notably, owing to the concealed anatomical location of the nasopharynx and the lack of specific early symptoms, approximately 70% of NPC patients are diagnosed at a locoregionally advanced stage [ 4 , 5 ]. These features collectively impose a substantial disease burden on the disease, particularly in endemic regions. Current treatment for locoregionally advanced nasopharyngeal carcinoma (LA-NPC) primarily relies on induction chemotherapy followed by concurrent chemoradiotherapy [ 6 , 7 ]. Despite achieving complete remission, a considerable number of patients experience disease recurrence or metastasis within two years after treatment [ 8 , 9 ]. Conventional adjuvant chemotherapy regimens, including fluorouracil-based drugs or cisplatin combined with gemcitabine, are frequently associated with significant toxicity, poor tolerability, and limited survival benefits [ 10 , 11 ]. These adverse effects (AEs) do not only impact patients’ health-related quality of life (HRQOL) but also decrease their adherence to treatment. Given the considerable unmet clinical treatment needs, there is an urgent need to develop new treatment options for this patient population. Nasopharyngeal carcinoma is regarded as a ‘hot tumour’ for immunotherapy, because of the abundant lymphocytic infiltration in tumour tissues induced by EBV infection [ 12 ]. In addition, nearly 90% of patients express programmed death ligand 1 (PD-L1), providing a molecular basis for the clinical application of anti-programmed death 1 (PD-1) immunotherapy [ 13 ]. Several successful large phase 3 clinical trials have established anti-PD-1 therapies, such as camrelizumab, as standard first-line treatments for recurrent/metastatic nasopharyngeal carcinoma (RM-NPC), with the potential to achieve sustained disease control and prolonged survival [ 13–15 ]. Consequently, extending this breakthrough therapy to the treatment of LA-NPC has become a major focus of clinical research. Camrelizumab is a highly selective, high-affinity, and highly efficient humanized monoclonal antibody that targets PD-1and is known for its distinctive clinical pharmacological properties [ 14 ]. Recently, survival data from the phase 3 DIPPER study (NCT03427827) showed that adjuvant camrelizumab for patients with LA-NPC significantly improved both event-free survival (EFS) and overall survival (OS) compared with standard therapy, with a 3-year EFS rate increasing to 86.9% (hazard ratio [HR] 0.56, 95% CI: 0.36–0.89) and OS improving to 96.4% (HR 0.80, 95% CI: 0.35–1.82) [ 16 ]. This finding indicates that adjuvant camrelizumab offers significant survival benefits for patients with LA-NPC while preserving HRQOL under controlled safety conditions, which provides solid evidence-based medicine support for the clinical application of immunotherapy as an adjuvant treatment for LA-NPC. Although adjuvant immunotherapy with camrelizumab has shown optimal survival benefits for patients with high-risk LA-NPC, its economic implications remain unclear in the context of the substantial current healthcare burden. Considering the high prevalence of nasopharyngeal carcinoma in China and the fact that all participants enrolled in the trial were Chinese. This study aimed to explore the cost-effectiveness of adjuvant camrelizumab in patients with high-risk LA-NPC from the perspective of the Chinese healthcare system.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This economic evaluation was based on publicly available data from the phase 3 DIPPER trial and conducted in accordance with the CHEERS 2022 standards [ 17 ], as detailed in Table S1 .",
+      "order": 2
+    },
+    {
+      "section": "Patients And Interventions",
+      "text": "Patients diagnosed and pathologically confirmed as high-risk NPC (T4N1M0 or T1-4N2-3M0, AJCC staging system 8 th edition) were randomized (1:1 ratio) to receive either camrelizumab (200 mg) every 3 weeks for a total of 12 cycles or standard therapy (observation) after completing induction chemotherapy, followed by concurrent chemoradiotherapy. Systematic tumour imagological examinations were conducted every three months. When patients had progressive disease (PD), including local recurrence or distant metastasis, salvage treatment with PD-1 inhibitors combined with chemotherapy was administered based on the guidelines of the Chinese Society of Clinical Oncology and the DIPPER trial, while the remaining patients were assumed to have received the best supportive care (BSC) [ 16 ]. Patients in both groups received palliative care prior to treatment-related deaths.",
+      "order": 3
+    },
+    {
+      "section": "Model Construction And Transition",
+      "text": "A decision-analytic Markov model was designed to estimate the economic and health outcomes of camrelizumab and standard therapy as adjuvant treatments for LA-NPC patients over their lifetime, with three distinct health states: event-free survival (EFS), PD, and death. The model cycle length was set to three weeks to align with the treatment dosing schedule used in the clinical trial. At the start of treatment, all participants were in the EFS state and either remained in this state or transitioned to PD or death state during each treatment cycle. The post-progression transition probability was dynamically calculated based on the underlying parametric survival distribution. Specifically, the time-dependent mortality risk was determined using the formula: 1-exp(scale_OS*(stage)^shape_OS-scale_OS*(stage + 1)^shape_OS), where γ and λ represent the scale and shape parameters of the OS distribution, respectively. Transitions between states were irreversible, and the model was terminated when all patients died, as illustrated in Figure 1 . Main outcomes included overall costs, quality-adjusted life years (QALYs), life years (LYs), incremental cost-effectiveness ratios (ICERs), and incremental net health benefits (INHBs). Based on the Chinese pharmacoeconomic evaluation guidelines and the recommendations of the World Health Organization, the predefined willingness-to-pay (WTP) threshold was set at $39,613 per QALY, which corresponds to three times the Chinese per-capita gross domestic product in 2024[ 18 ]. Additionally, a 5% annual discount rate was applied to medical expenses to more accurately match the current economic outcomes [ 19 ]. To establish the survival model, GetData Graph Digitizer version 2.26 software was first applied to digitally extract time-to-event survival data from the corresponding Kaplan-Meier curves of the two groups, and transition probabilities between the three health states of EFS, PD, and death were calculated for both groups throughout the disease process. Parametric survival models were chosen because they facilitate the extrapolation of survival outcomes beyond the trial follow-up period and provide smooth hazard function. Various flexible parametric distributions, including exponential, log-logistic, log-normal, Gompertz, and Weibull distributions, were then applied to estimate the long-term survival rates of patients after the follow-up period. Model performance was assessed through both visual inspection and goodness-of-fit analyses, including the Akaike and Bayesian Information Criterion (AIC, BIC) tests. Lower AIC and BIC values indicate a superior model fit by balancing the goodness-of-fit against model complexity to prevent overfitting. The Weibull distribution provided the most accurate fit for both overall survival (OS) and EFS curves [ 20 , 21 ] ( Figure S1 and Table S2 ). The survival model parameters γ (scale) and λ (shape) was calculated using R Studio version 1.2.5042 software ( Table 1 ).",
+      "order": 4
+    },
+    {
+      "section": "Costs And Utility",
+      "text": "All costs were estimated from the perspective of the Chinese healthcare system and restricted to direct medical expenses. These included drug costs, administration costs, laboratory and imagological examination and nasal endoscopy costs, as well as the management costs of the main treatment-related adverse events (TRAEs), salvage therapy, best supportive care (BSC), and palliative care. The management costs of main TRAEs were limited to grade 3 or higher adverse events occurring in more than 1% of patients, including leukopenia, neutropenia, and reactive capillary endothelial proliferation. To ensure the broader representativeness of the Chinese healthcare system, the prices of therapeutic drugs, laboratory tests, imagological examinations, and nasal endoscopy were provided by a major regional oncology center in China, while other relevant expenses were referenced from previously published literatures [ 22–24 ] ( Table 1 ). The specific dosages and unit prices of the drugs are shown in Table S3 . To accurately estimate the drug dosage, a mean body surface area of 1.72 square meters was assumed for Chinese patients. All cost estimates in our analysis were adjusted to US dollars at the March 2025 exchange rate of $1 = ¥7.2514. Health utility values for the health status of patients in the model were set to reflect their HRQOL throughout disease progression, with values ranging from 1 (full health) to 0 (death). HRQOL was assessed in the trial at multiple time points using the European Organization for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30), version 3.0, with changes of more than 10 standardized points from the baseline considered clinically meaningful [ 16 ]. No significant difference in HRQOL between the camrelizumab and standard therapy groups was reported, supporting the use of identical utility estimates in both groups. In line with previous cost-effectiveness models for Chinese patients with LA-NPC, health utility values were set at 0.76 and 0.57 for patients in the EFS and PD states [ 19 , 25 ], with further adjustments made for disutility associated with TRAEs [ 26 , 27 ] ( Table 1 ).",
+      "order": 5
+    },
+    {
+      "section": "Sensitivity And Subgroup Analyses",
+      "text": "Sensitivity analyses were conducted to evaluate the robustness of the model under parameter uncertainty, thereby reducing the risk of decision-making bias, including one-way and probabilistic sensitivity analyses. One-way sensitivity analysis was performed to determine the impact of changes in each variable within the given range on the model results, which was one of the key analytical approaches to explore how uncertainty affects cost-effectiveness results [ 27 ]. A ± 20% interval is frequently applied as a common conservative threshold in health economic evaluations to account for real-world variability when precise point estimates or confidence intervals for parameters are not available. The findings are presented in a tornado diagram. The probabilistic sensitivity analysis incorporated 10,000 Monte Carlo simulations to simultaneously assess the joint uncertainty across all parameters [ 27 ]. The results of the probabilistic sensitivity analysis were reported using cost-effectiveness acceptability curves and incremental cost-effectiveness scatterplots to predict the probability of each treatment strategy being the most cost-effective at different WTP thresholds. Gamma distributions were implemented to characterize the uncertainty surrounding cost variables, whereas beta distributions were applied to model the uncertainty associated with utility values [ 28 ]. Exploratory subgroup analyses were conducted to compare the cost-effectiveness across different stratified populations to investigate the impact of these clinical characteristics on model outcomes based on survival data from predefined subgroups of EFS reported in the Dipper trial. Stratification factors included age, sex, ECOG performance status, disease stage, EBV DNA, and PD-L1 combined positive score (CPS). Following the method of Hoyle et al. the HRs associated with each stratified population were included in the analysis, while the other model parameters remained the same as those for the overall population [ 29 ].",
+      "order": 6
+    },
+    {
+      "section": "Results",
+      "text": "The base-case results are summarized in Table 2 . In the lifetime Markov model, the standard therapy group yielded 4.28 QALYs at a total cost of $21,214, whereas the camrelizumab group yielded 8.67 QALYs at a cost of $42,753. Compared with the standard therapy group, patients in the camrelizumab group gained an additional 6.12 LYs (equivalent to approximately 73.44 months) and 4.39 QALYs, with an incremental cost of $21,539. The ICER for the camrelizumab group was $4,910 per QALY ($3,521 per LY), with a corresponding incremental net health benefit (INHB) of 3.85 QALYs. Given that its ICER value is substantially below the predefined WTP threshold of $39,613 per QALY, camrelizumab appears to be a cost-effective treatment option for adjuvant therapy under the current Chinese healthcare system.",
+      "order": 7
+    },
+    {
+      "section": "Results",
+      "text": "The one-way sensitivity analysis, as depicted in the tornado diagram ( Figure 2 ), identified the health utility value for EFS as the most influential parameter affecting the ICER value in the model. Specifically, when this value ranged from 0.913 to 0.608, the ICER varied between $4,206 and $5,898 per QALY, all well below the $39,613 per QALY threshold. The cost of camrelizumab had a minimal effect on the model outcomes. These findings indicated the robustness of the model. The probabilistic sensitivity analysis revealed the cost-effectiveness probability of the intervention relative to the standard therapy at different WTP thresholds. Our acceptability curves showed that when the WTP threshold approached approximately $4,425/QALY, camrelizumab began to demonstrate a cost-effectiveness advantage over standard therapy, with its probability of being the preferred strategy increasing monotonically thereafter ( Figure 3 ). Incremental cost-effectiveness (ICE) scatterplots demonstrated that the probability of cost-effectiveness for camrelizumab as an adjuvant therapy in Chinese patients with LA-NPC reached 98.6%, with the vast majority of simulated ICER points lying on the WTP threshold line ( Figure 4 ). Even when evaluated against lower regional WTP thresholds reflecting economically underdeveloped provinces in China, the intervention consistently demonstrated a high probability of being cost-effective, further validating the robustness and stability of our findings.",
+      "order": 8
+    },
+    {
+      "section": "Results",
+      "text": "In subgroup analyses, the camrelizumab group demonstrated better disease control and superior cost-effectiveness across all predefined patient subgroups. The ICER ranged from $4,731 to $4,955 per QALY, with the probability of cost-effectiveness exceeding 98% in all subgroups. Notably, lower cost-effectiveness was observed among individuals younger than 45 years, those with stage N2 disease, those with superior performance status, and those with negative EBV DNA. This may be attributed to prolonged treatment exposure and extended follow-up periods in these populations. Significant survival gains inevitably lead to increased cumulative costs, particularly when the marginal benefits gained by patients necessitate higher incremental expenditures, resulting in relatively higher ICER values. Nevertheless, these figures remain well below the $39,613/QALY threshold, as detailed in Table 3 .",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "Immunotherapy for NPC has shown promising efficacy beyond the recurrent/metastatic subset and has extended into locally advanced disease. A recent study confirmed that adjuvant PD-1 blockade with camrelizumab following induction-concurrent chemoradiotherapy significantly improved survival with minimal toxicity in high-risk LA-NPC populations [ 16 ]. This approach challenges the long-standing dominance of conventional adjuvant chemotherapy, offering a promising alternative treatment option. However, to maintain healthcare system sustainability, national authorities must evaluate clinical benefits and address cost-related challenges before large-scale implementation—especially in China, where the economic cost of cancers accounts for a substantial proportion of the total global economic burden [ 30 ]. Accordingly, this pharmacoeconomic analysis aimed to provide robust quantitative evidence to inform policymaking, support value-based reimbursement policies, and optimize resource allocation, so that all stakeholders can make informed and cost-effective decisions. Previous economic evaluations of immunotherapy have primarily focused on the treatment of RM-NPC. Based on the phase 3 trials CAPTAIN-1st (camrelizumab), JUPITER-02 (toripalimab), and RATIONALE-309 (tislelizumab), which established anti-PD-1 plus chemotherapy as first-line standard care for RM-NPC, Han et al. claimed that combining camrelizumab, toripalimab, or tislelizumab with chemotherapy demonstrated superior cost-effectiveness compared to chemotherapy alone, with toripalimab being the most favorable option for patients with RM-NPC in China [ 31 ]. Similarly, from a U.S. payer perspective, Dai et al. found that toripalimab plus chemotherapy had an 87.1% probability of being cost-effective in patients with RM-NPC at a WTP threshold of $150,000 per QALY based on the JUPITER-02 trial, supporting its economic value in the U.S. healthcare system [ 32 ]. However, as the aforementioned economic evaluations were limited to RM-NPC treated with combination chemotherapy, no economic evidence is currently available for adjuvant immunotherapy monotherapy in LA-NPC. This study is the first to evaluate the economic value of adjuvant camrelizumab in high-risk patients with LA-NPC based on disease progression and therapy data from the DIPPER trial. The lifetime Markov model showed that camrelizumab provided additional survival benefits compared with standard therapy, with a mean life expectancy of 6.12 years. After incorporating the effects on HRQOL, the incremental gain was 4.39 QALYs at an incremental cost of $21,539, yielding an ICER of $4,910/QALY, which is substantially below the predefined WTP threshold of $39,613/QALY. One-way sensitivity analysis identified the health utility value for EFS as the most influential parameter in the model. However, even at its lower bound, the corresponding ICERs remained significantly below the predefined WTP threshold, reinforcing the stability of the base-case results. Probabilistic sensitivity analysis further confirmed that adjuvant camrelizumab therapy achieved a cost-effective probability exceeding 98% compared with standard therapy. To account for regional economic disparities within China, even at a lower WTP threshold of $21,823 per QALY in Gansu Province, representative of China’s least-developed western regions, the probability of the intervention being cost-effective remained above 96% in the acceptability curve [ 33 ]. These findings support the economic advantage of adjuvant camrelizumab across different regions of China within the context of their respective WTP thresholds. This provides empirical evidence for a unified national drug pricing strategy, thereby facilitating nationwide equitable access to innovative therapies. Considering the clinical heterogeneity among patients, exploratory subgroup analyses were conducted to identify the clinical characteristics associated with enhanced cost-effectiveness. As shown in Table 3 , the ICER remained consistently below the WTP threshold across all predefined subgroups, underscoring camrelizumab’s broad economic advantage. Dynamic changes in plasma EBV DNA are widely regarded as a reliable biomarker for monitoring treatment efficacy and guiding therapeutic adjustments in LA-NPC[ 34 ]. Among patients with negative EBV DNA after completing induction-concurrent chemoradiotherapy, camrelizumab yielded more pronounced EFS gains, potentially reflecting delayed overall survival benefits, and showing relatively diminished cost-effectiveness in our analyses. This phenomenon may stem from the fact that the marginal benefits obtained by patients in these cohorts require higher incremental expenditure. Given the limited availability of subgroup-specific data, these findings should be considered exploratory. Further exploratory studies are warranted to discover predictive biomarkers and better define patient populations that would derive the most benefit from this treatment, thereby advancing personalized treatment strategies. Moreover, the optimal duration of adjuvant immunotherapy remains uncertain, particularly whether 12 cycles are sufficient. Given the significantly time-dependent pattern of recurrence in NPC, with over 50% of relapses occurring within the first two years after treatment completion, this period is well-recognized as a clinically significant high-risk window [ 35 ]. Hence, we conducted medical scenario analyses in which the treatment duration of camrelizumab was gradually extended to two years, based on the conservative assumption that prolonged therapy incurs additional costs without immediate improvements in clinical efficacy data. The resulting incremental ICER was $12,214.37 per QALY compared with standard therapy, indicating that camrelizumab adjuvant therapy remained cost-effective even with two years ( Table 4 ). However, survival benefits may change with prolonged therapy, and since only treatment duration was adjusted in the model, the outcomes may not fully capture reality. Nonetheless, the ICER values remained well below the predefined WTP threshold. Similar results were observed in all predefined subgroups. Clinically, it is reasonable to assume that extending the duration of adjuvant camrelizumab to two years is economically acceptable if patients experience no disease progression or intolerable toxicity in pursuit of more durable immune responses. The risk-benefit balance of immune checkpoint inhibitor therapy duration remains an area of ongoing investigation, with the aim of tailoring treatment duration to individual patient needs. This analysis offers several distinct strengths that underscore its clinical and economic relevance. First, this is the first to assess the potential cost-effectiveness of adjuvant PD-1 therapy with camrelizumab in patients with high-risk LA-NPC. These results provide robust quantitative evidence to inform reimbursement decisions and enhance the accessibility of adjuvant immunotherapy for this population. Second, as the participants in the pivotal trial were predominantly recruited within China, the region with the highest global NPC incidence, this cost-effectiveness analysis offers direct, value-based evidence specifically tailored to the Chinese healthcare system. Additionally, to enhance clinical precision, we incorporated exploratory subgroup analyses to examine economic variations across diverse patient profiles, potentially facilitating more personalized treatment paradigms. Finally, the inclusion of scenario analyses regarding the extended duration of adjuvant camrelizumab therapy provides a critical economic framework for determining optimal treatment intervals, serving as a valuable reference for establishing treatment durations in future immunotherapy clinical trials. Several limitations of this study should be acknowledged. First, the model was based on clinical trial data, and the OS data were still immature, requiring further follow-up. Although many parametric distributions have been applied to extrapolate long-term survival outcomes, the inherent structural uncertainty regarding long-term OS extrapolation remains a critical limitation; consequently, these models may not be fully applicable to real-world situations. Second, some parameters, such as health utility values and costs associated with TRAEs, were derived from prior economic evaluations of NPC, potentially introducing bias. Nevertheless, sensitivity analyses confirmed the robustness of the model across the plausible parameter ranges. Third, subgroup analyses based on EFS HRs were constrained by limited subgroup data, and the findings may not fully reflect clinical heterogeneity. Fourth, due to significant disparities in pricing and healthcare systems, the cost-effectiveness results may not be directly generalizable to other regions. Finally, this analysis only compared two therapies assessed in a clinical trial. In the absence of head-to-head trials, future cost-effectiveness analyses using network meta-analysis may offer a more comprehensive comparison of all available therapeutic options.",
+      "order": 10
+    },
+    {
+      "section": "Conclusion",
+      "text": "From a Chinese healthcare-centred perspective, this economic evaluation suggests that adjuvant immunotherapy with camrelizumab following induction-concurrent chemoradiotherapy is a promising cost-effective approach for managing patients with high-risk LA-NPC. These findings provide valuable evidence-based insights to inform clinical decision-making and future policy deliberations regarding its inclusion in the national reimbursement drug list.",
+      "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CIT0001",
+      "label": "1",
+      "authors": [
+        "et al."
+      ],
+      "title": "Nasopharyngeal carcinoma",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "issue": "10192",
+      "fpage": "64",
+      "lpage": "80",
+      "doi": "10.1016/S0140-6736(19)30956-0",
+      "pmid": "31178151"
+    },
+    {
+      "ref_id": "CIT0002",
+      "label": "2",
+      "authors": [
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "issue": "3",
+      "fpage": "229",
+      "lpage": "263",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "CIT0003",
+      "label": "3",
+      "authors": [
+        "et al."
+      ],
+      "title": "Global, regional, and national epidemiology of nasopharyngeal carcinoma in middle-aged and elderly patients from 1990 to 2021",
+      "journal": "Ageing Res Rev",
+      "year": "2025",
+      "volume": "104",
+      "fpage": "102613",
+      "doi": "10.1016/j.arr.2024.102613",
+      "pmid": "39626854"
+    },
+    {
+      "ref_id": "CIT0004",
+      "label": "4",
+      "authors": [
+        "et al."
+      ],
+      "title": "Re-evaluation of 6th edition of AJCC staging system for nasopharyngeal carcinoma and proposed improvement based on magnetic resonance imaging",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2009",
+      "volume": "73",
+      "issue": "5",
+      "fpage": "1326",
+      "lpage": "1334",
+      "doi": "10.1016/j.ijrobp.2008.07.062",
+      "pmid": "19153016"
+    },
+    {
+      "ref_id": "CIT0005",
+      "label": "5",
+      "title": "Advances of biomarkers in nasopharyngeal carcinoma’s early detection",
+      "journal": "Sci Bull (Beijing)",
+      "year": "2024",
+      "volume": "69",
+      "issue": "2",
+      "fpage": "141",
+      "lpage": "145",
+      "doi": "10.1016/j.scib.2023.11.059",
+      "pmid": "38087738"
+    },
+    {
+      "ref_id": "CIT0006",
+      "label": "6",
+      "authors": [
+        "et al."
+      ],
+      "title": "Chemotherapy in combination with radiotherapy for definitive-intent treatment of stage II-IVA nasopharyngeal carcinoma: CSCO and ASCO guideline",
+      "journal": "J Clin Oncol",
+      "year": "2021",
+      "volume": "39",
+      "issue": "7",
+      "fpage": "840",
+      "lpage": "859",
+      "doi": "10.1200/JCO.20.03237",
+      "pmid": "33405943"
+    },
+    {
+      "ref_id": "CIT0007",
+      "label": "7",
+      "title": "NCCN Clinical Practice Guidelines in Oncology: Cancer of the Nasopharynx (Version: 2",
+      "year": "2025"
+    },
+    {
+      "ref_id": "CIT0008",
+      "label": "8",
+      "authors": [
+        "et al."
+      ],
+      "title": "Final overall survival analysis of gemcitabine and cisplatin induction chemotherapy in nasopharyngeal carcinoma: a multicenter, randomized phase III trial",
+      "journal": "J Clin Oncol",
+      "year": "2022",
+      "volume": "40",
+      "issue": "22",
+      "fpage": "2420",
+      "lpage": "2425",
+      "doi": "10.1200/JCO.22.00327",
+      "pmid": "35709465"
+    },
+    {
+      "ref_id": "CIT0009",
+      "label": "9",
+      "authors": [
+        "et al."
+      ],
+      "title": "An optimal posttreatment surveillance strategy for cancer survivors based on an individualized risk-based approach",
+      "journal": "Nat Commun",
+      "year": "2020",
+      "volume": "11",
+      "issue": "1",
+      "fpage": "3872",
+      "doi": "10.1038/s41467-020-17672-w",
+      "pmid": "32747627",
+      "pmc_id": "PMC7400511"
+    },
+    {
+      "ref_id": "CIT0010",
+      "label": "10",
+      "authors": [
+        "et al."
+      ],
+      "title": "Concurrent chemoradiotherapy plus adjuvant chemotherapy versus concurrent chemoradiotherapy alone in patients with locoregionally advanced nasopharyngeal carcinoma: a phase 3 multicentre randomised controlled trial",
+      "journal": "Lancet Oncol",
+      "year": "2012",
+      "volume": "13",
+      "issue": "2",
+      "fpage": "163",
+      "lpage": "171",
+      "doi": "10.1016/S1470-2045(11)70320-5",
+      "pmid": "22154591"
+    },
+    {
+      "ref_id": "CIT0011",
+      "label": "11",
+      "authors": [
+        "et al."
+      ],
+      "title": "Analysis of plasma Epstein-Barr virus DNA in nasopharyngeal cancer after chemoradiation to identify high-risk patients for adjuvant chemotherapy: a randomized controlled trial",
+      "journal": "J Clin Oncol",
+      "year": "2018",
+      "fpage": "3091",
+      "lpage": "3100",
+      "doi": "10.1200/JCO.2018.77.7847",
+      "pmid": "29989858"
+    },
+    {
+      "ref_id": "CIT0012",
+      "label": "12",
+      "authors": [
+        "et al."
+      ],
+      "title": "Characterization of PD-L1 and PD-1 expression and CD8+ tumor-infiltrating lymphocyte in Epstein-Barr virus-associated nasopharyngeal carcinoma",
+      "journal": "Am J Clin Oncol",
+      "year": "2018",
+      "volume": "41",
+      "issue": "12",
+      "fpage": "1204",
+      "lpage": "1210",
+      "doi": "10.1097/COC.0000000000000449",
+      "pmid": "29672367"
+    },
+    {
+      "ref_id": "CIT0013",
+      "label": "13",
+      "authors": [
+        "et al."
+      ],
+      "title": "Toripalimab plus chemotherapy for recurrent or metastatic nasopharyngeal carcinoma: the JUPITER-02 randomized clinical trial",
+      "journal": "JAMA",
+      "year": "2023",
+      "volume": "330",
+      "issue": "20",
+      "fpage": "1961",
+      "lpage": "1970",
+      "doi": "10.1001/jama.2023.20181",
+      "pmid": "38015220",
+      "pmc_id": "PMC10685882"
+    },
+    {
+      "ref_id": "CIT0014",
+      "label": "14",
+      "authors": [
+        "et al."
+      ],
+      "title": "Camrelizumab versus placebo in combination with gemcitabine and cisplatin as first-line treatment for recurrent or metastatic nasopharyngeal carcinoma (CAPTAIN-1st): a multicentre, randomised, double-blind, phase 3 trial",
+      "journal": "Lancet Oncol",
+      "year": "2021",
+      "volume": "22",
+      "issue": "8",
+      "fpage": "1162",
+      "lpage": "1174",
+      "doi": "10.1016/S1470-2045(21)00302-8",
+      "pmid": "34174189"
+    },
+    {
+      "ref_id": "CIT0015",
+      "label": "15",
+      "authors": [
+        "et al."
+      ],
+      "title": "Tislelizumab plus chemotherapy as first-line treatment for recurrent or metastatic nasopharyngeal cancer: a multicenter phase 3 trial (RATIONALE-309)",
+      "journal": "Cancer Cell",
+      "year": "2023",
+      "volume": "41",
+      "issue": "6",
+      "fpage": "1061",
+      "lpage": "1072.e4",
+      "doi": "10.1016/j.ccell.2023.04.014",
+      "pmid": "37207654"
+    },
+    {
+      "ref_id": "CIT0016",
+      "label": "16",
+      "authors": [
+        "et al."
+      ],
+      "title": "Adjuvant PD-1 blockade with camrelizumab for nasopharyngeal carcinoma: the DIPPER randomized clinical trial",
+      "journal": "JAMA",
+      "year": "2025",
+      "volume": "333",
+      "issue": "18",
+      "fpage": "1589",
+      "lpage": "1598",
+      "doi": "10.1001/jama.2025.1132",
+      "pmid": "40079940",
+      "pmc_id": "PMC11907361"
+    },
+    {
+      "ref_id": "CIT0017",
+      "label": "17",
+      "authors": [
+        "et al."
+      ],
+      "title": "Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: updated Reporting Guidance for Health Economic Evaluations",
+      "journal": "Value Health",
+      "year": "2022",
+      "volume": "25",
+      "issue": "1",
+      "fpage": "3",
+      "lpage": "9",
+      "doi": "10.1016/j.jval.2021.11.1351",
+      "pmid": "35031096"
+    },
+    {
+      "ref_id": "CIT0018",
+      "label": "18",
+      "year": "2020"
+    },
+    {
+      "ref_id": "CIT0019",
+      "label": "19",
+      "authors": [
+        "et al."
+      ],
+      "title": "Induction chemotherapy regimes in first-line treatment for locoregionally advanced nasopharyngeal carcinoma: a network meta-analysis and cost-effectiveness analysis",
+      "journal": "Oral Oncol",
+      "year": "2024",
+      "volume": "154",
+      "fpage": "106865",
+      "doi": "10.1016/j.oraloncology.2024.106865",
+      "pmid": "38823173"
+    },
+    {
+      "ref_id": "CIT0020",
+      "label": "20",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness of immune checkpoint inhibition in braf wild-type advanced melanoma",
+      "journal": "J Clin Oncol",
+      "year": "2017",
+      "volume": "35",
+      "issue": "11",
+      "fpage": "1194",
+      "lpage": "1202",
+      "doi": "10.1200/JCO.2016.69.6336",
+      "pmid": "28221865",
+      "pmc_id": "PMC5791832"
+    },
+    {
+      "ref_id": "CIT0021",
+      "label": "21",
+      "title": "Model selection and model averaging in phylogenetics: advantages of akaike information criterion and bayesian approaches over likelihood ratio tests",
+      "journal": "Syst Biol",
+      "year": "2004",
+      "volume": "53",
+      "issue": "5",
+      "fpage": "793",
+      "lpage": "808",
+      "doi": "10.1080/10635150490522304",
+      "pmid": "15545256"
+    },
+    {
+      "ref_id": "CIT0022",
+      "label": "22",
+      "authors": [
+        "et al."
+      ],
+      "title": "Immune checkpoint inhibition in first-line treatment for recurrent or metastatic nasopharyngeal carcinoma: a CAPTAIN-1st and JUPITER-02 trial-based cost-effectiveness analysis",
+      "journal": "Oral Oncol",
+      "year": "2022",
+      "volume": "128",
+      "fpage": "105842",
+      "doi": "10.1016/j.oraloncology.2022.105842",
+      "pmid": "35428025"
+    },
+    {
+      "ref_id": "CIT0023",
+      "label": "23",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of tislelizumab vs. camrelizumab for the treatment of second-line locally advanced or metastatic esophageal squamous cell carcinoma",
+      "journal": "BMC Health Serv Res",
+      "year": "2024",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "676",
+      "doi": "10.1186/s12913-024-11142-5",
+      "pmid": "38807104",
+      "pmc_id": "PMC11134889"
+    },
+    {
+      "ref_id": "CIT0024",
+      "label": "24",
+      "authors": [
+        "et al."
+      ],
+      "title": "Chemoradiotherapy plus immunotherapy for locoregionally advanced nasopharyngeal carcinoma: a cost-effectiveness analysis",
+      "journal": "Head Neck",
+      "year": "2025",
+      "volume": "47",
+      "issue": "2",
+      "fpage": "485",
+      "lpage": "494",
+      "doi": "10.1002/hed.27932",
+      "pmid": "39246032"
+    },
+    {
+      "ref_id": "CIT0025",
+      "label": "25",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of metronomic capecitabine as adjuvant chemotherapy in locoregionally advanced nasopharyngeal carcinoma",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "904372",
+      "doi": "10.3389/fonc.2022.904372",
+      "pmid": "36176384",
+      "pmc_id": "PMC9513587"
+    },
+    {
+      "ref_id": "CIT0026",
+      "label": "26",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of durvalumab plus chemotherapy in the first-line treatment of extensive-stage small cell lung cancer",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2021",
+      "volume": "19",
+      "issue": "10",
+      "fpage": "1141",
+      "lpage": "1147",
+      "doi": "10.6004/jnccn.2020.7796",
+      "pmid": "34348237"
+    },
+    {
+      "ref_id": "CIT0027",
+      "label": "27",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness analysis of sintilimab + chemotherapy versus camrelizumab + chemotherapy for the treatment of first-line locally advanced or metastatic nonsquamous NSCLC in China",
+      "journal": "J Med Econ",
+      "year": "2022",
+      "volume": "25",
+      "issue": "1",
+      "fpage": "618",
+      "lpage": "629",
+      "doi": "10.1080/13696998.2022.2071066",
+      "pmid": "35475459"
+    },
+    {
+      "ref_id": "CIT0028",
+      "label": "28",
+      "title": "A cost-effectiveness analysis of amivantamab plus lazertinib versus osimertinib in the treatment of US and Chinese patients with EGFR-mutated advanced non-small cell lung cancer",
+      "journal": "Lung Cancer",
+      "year": "2025",
+      "volume": "203",
+      "fpage": "108533",
+      "doi": "10.1016/j.lungcan.2025.108533",
+      "pmid": "40220717"
+    },
+    {
+      "ref_id": "CIT0029",
+      "label": "29",
+      "authors": [
+        "et al."
+      ],
+      "title": "Cost-effectiveness of temsirolimus for first line treatment of advanced renal cell carcinoma",
+      "journal": "Value Health",
+      "year": "2010",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "61",
+      "lpage": "68",
+      "doi": "10.1111/j.1524-4733.2009.00617.x",
+      "pmid": "19804430"
+    },
+    {
+      "ref_id": "CIT0030",
+      "label": "30",
+      "authors": [
+        "et al."
+      ],
+      "title": "Estimates and projections of the global economic cost of 29 cancers in 204 countries and territories from 2020 to 2050",
+      "journal": "JAMA Oncol",
+      "year": "2023",
+      "volume": "9",
+      "issue": "4",
+      "fpage": "465",
+      "lpage": "472",
+      "doi": "10.1001/jamaoncol.2022.7826",
+      "pmid": "36821107",
+      "pmc_id": "PMC9951101"
+    },
+    {
+      "ref_id": "CIT0031",
+      "label": "31",
+      "authors": [
+        "et al."
+      ],
+      "title": "First-line immunotherapy combinations for recurrent or metastatic nasopharyngeal carcinoma: an updated network meta-analysis and cost-effectiveness analysis",
+      "journal": "Head Neck",
+      "year": "2023",
+      "volume": "45",
+      "issue": "9",
+      "fpage": "2246",
+      "lpage": "2258",
+      "doi": "10.1002/hed.27452",
+      "pmid": "37435624"
+    },
+    {
+      "ref_id": "CIT0032",
+      "label": "32",
+      "authors": [
+        "et al."
+      ],
+      "title": "Toripalimab plus chemotherapy in American patients with recurrent or metastatic nasopharyngeal carcinoma: A cost-effectiveness analysis",
+      "journal": "Cancer Med",
+      "year": "2024",
+      "volume": "13",
+      "issue": "10",
+      "fpage": "e7243",
+      "doi": "10.1002/cam4.7243",
+      "pmid": "38752448",
+      "pmc_id": "PMC11097128"
+    },
+    {
+      "ref_id": "CIT0033",
+      "label": "33",
+      "year": "2025"
+    },
+    {
+      "ref_id": "CIT0034",
+      "label": "34",
+      "title": "Advances in individualization of systemic treatment for locoregionally advanced nasopharyngeal carcinoma: a systematic review",
+      "journal": "ESMO Open",
+      "year": "2025",
+      "volume": "10",
+      "issue": "4",
+      "fpage": "104513",
+      "doi": "10.1016/j.esmoop.2025.104513",
+      "pmid": "40138744",
+      "pmc_id": "PMC11985003"
+    },
+    {
+      "ref_id": "CIT0035",
+      "label": "35",
+      "authors": [
+        "et al."
+      ],
+      "title": "Changes in disease failure risk of nasopharyngeal carcinoma over time: analysis of 749 patients with long-term follow-up",
+      "journal": "J Cancer",
+      "year": "2017",
+      "volume": "8",
+      "issue": "3",
+      "fpage": "455",
+      "lpage": "459",
+      "doi": "10.7150/jca.17104",
+      "pmid": "28261347",
+      "pmc_id": "PMC5332897"
+    }
+  ]
+}

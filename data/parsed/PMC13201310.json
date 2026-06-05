@@ -1,0 +1,825 @@
+{
+  "metadata": {
+    "title": "Pseudoprogression in Koos grade 4 vestibular schwannomas following stereotactic radiosurgery: temporal dynamics and radiological predictors",
+    "authors": [
+      "Sammy M. Schouten",
+      "Stefan Cornelissen",
+      "Patrick P. J. H. Langenhuizen",
+      "Henricus P. M. Kunst",
+      "Jeroen B. Verheul"
+    ],
+    "journal": "Journal of Neuro-Oncology",
+    "year": "2026",
+    "doi": "10.1007/s11060-026-05619-y",
+    "pmc_id": "PMC13201310",
+    "pmid": "42184073",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 41
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose To gain insight into the volumetric temporal response dynamics following primary stereotactic radiosurgery (SRS) and to evaluate possible MRI-derived predictors at time of treatment for pseudoprogression in sporadic Koos grade 4 vestibular schwannomas (VS). Methods Patients treated with Gamma Knife radiosurgery for a unilateral sporadic Koos grade 4 VS, larger than 4 cm 3 at time of treatment, were included. In tumors with cystic components, separate annotations of the solid and cystic components were additionally obtained. Uni- and multivariable logistic analyses were performed to evaluate possible predictors for pseudoprogression. Results A total of 258 patients with a median tumor volume of 6.8 cm 3 (IQR 5.1–8.9) were included in the study. Pseudoprogression was observed in 75 tumors (29%) with a median time-to-peak of 8 months (IQR 6–14) and a median relative increase of 23% (IQR 15–34) at peak. In 19 out of 39 macrocystic tumors, the solid versus cystic components exhibited distinct response dynamics. Multivariable logistic regression analyses revealed that only the presence of microcystic components was significantly inversely associated with pseudoprogression with an adjusted OR of 0.15 (95% CI 0.05–0.46; P < 0.001). Ultimately, 30 patients (12%) required 31 additional interventions after a median of 36 months (IQR 21–60). Conclusions Pseudoprogression rates in selected Koos grade 4 VS appear comparable to those of smaller tumors. Tumors with microcystic components exhibited significantly lower pseudoprogression rates, which may render them more suitable candidates for SRS. In contrast, macrocystic tumors demonstrated more variable dynamics, warranting careful monitoring in these tumors. Supplementary Information The online version contains supplementary material available at 10.1007/s11060-026-05619-y.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Vestibular schwannomas (VS) are benign intracranial tumors originating from the eighth cranial nerve and are the most common cerebellopontine angle neoplasm. Active treatment strategies include stereotactic radiosurgery (SRS), microsurgery, or a combination of these methods, aiming to prevent mass effect complications in neighboring neurovascular structures due to tumor growth or large tumor size [ 1 – 3 ]. In small- to medium-sized VS, the less invasive SRS is a commonly used treatment option with high neurofunctional outcome rates and successful tumor response rates of > 90% [ 4 ]. Conversely, for large VS, commonly classified as Koos grade 4, there remains a global discrepancy in the preferred treatment modality. Most centers and guidelines opt for microsurgery to ensure long-term tumor control and to avoid risk of radiation-induced mass effect complications, mainly caused by pseudoprogression [ 3 , 5 , 6 ]. However, SRS, delivered as either single-session or hypofractionated treatment, has recently gained popularity and evidence as an alternative, safe, and effective treatment for selected large VS [ 4 , 7 – 9 ]. Especially for minimally symptomatic patients with a good neurofunctional status or those unsuitable for invasive surgery, given the associated surgical risks that significantly escalate with tumor size [ 4 , 7 – 9 ]. Pseudoprogression, characterized by transient tumor enlargement subsequent to radiation exposure, is observed in a considerable proportion of VS, mainly within the initial 3 years post-SRS, with reported incidences between 18% and 72% [ 10 – 21 ]. Particularly in larger VS, the potential occurrence of pseudoprogression may influence clinical decision-making. Given the limited space available, expansion can lead to the progression of mass-effect complications, necessitating surgical intervention. To date, there are still no reliable predictors for pseudoprogression, and most prior studies involve smaller tumors or limited series [ 10 – 22 ]. A clearer understanding of pseudoprogression in larger VS could improve individualized counseling and treatment decision-making in these selected patients. The aim of the current study was to assess the volumetric response dynamics in sporadic Koos grade 4 VS following primary SRS and to evaluate possible MRI-derived predictors for pseudoprogression.",
+      "order": 1
+    },
+    {
+      "section": "Study Population",
+      "text": "For this retrospective study, institutional review board approval was obtained and the requirement for informed consent was waived by the regional medical ethics committee. Patients treated with Gamma Knife radiosurgery (GKRS) between January 2004 and January 2021 for a unilateral sporadic Koos grade 4 VS, larger than 4 cm 3 at time of treatment, were identified. The exclusion criteria were as follows: previous unilateral cranial surgery or radiation therapy, evidence of neurofibromatosis type 2, and less than two years follow-up post-GKRS. Patients converted to second treatment within the two years post-GKRS due to tumor expansion were included. Baseline patient demographic data and presenting symptomatology at time of treatment were collected from institutional electronic medical records. Tumor-specific characteristics were obtained by reviewing the MR images and radiological reports. Presence of peritumoral edema was assessed on T2-weighted imaging. Presence of microcystic components was defined as having one or more small- to moderate intratumoral cysts and presence of macrocystic components was defined as having large peri- and/or intratumoral cysts compromising more than 50% of the total tumor volume [ 23 ]. See Supplemental Figure S1 for examples of typical tumors with microcystic components versus macrocystic components. Degree of tumor middle cerebellar peduncle (MCP) compression was quantified by measuring the absolute and relative difference of the MCP width on the tumor side versus the contralateral side in the axial plane, as measured in Hasegawa et al. [ 24 ].",
+      "order": 2
+    },
+    {
+      "section": "Treatment And Follow-Up",
+      "text": "At our center, GKRS is offered as a treatment option for Koos grade 4 VS smaller than 15 cm 3 (approximately 30 mm maximum extrameatal diameter) without clinically relevant mass effect (e.g., hydrocephalus or ataxia). The distinction is made on a case-by-case basis within the multidisciplinary skull-base team, taking into account both imaging findings and clinical presentation. In exceptional circumstances, larger tumors (up to 20 cm 3 ) were also treated when patients were deemed medically unfit for surgery [ 7 , 25 ]. GKRS was performed in a single fraction with frame-based fixation using the Leksell Gamma Knife (Elekta AB, Stockholm, Sweden) model 4 C and since 2008, model Perfexion. A 13 Gy dose was prescribed to the isodose line, covering 90% (until May 2011) to 99% (since May 2011) of the tumor volume, ensuring a marginal dose (99% coverage) of at least 11 Gy. Treatment planning was based on pre- and post-contrast T1-weighted (T1CE) and T2-weighted MRI sequences. Following treatment, patients were scheduled for biannual follow-up during the first year and annual follow-ups thereafter. At each follow-up, at least a T1CE MRI with 1 mm slice thickness was conducted. Standard follow-up intervals were shortened in cases of suspected radiological progression or progression of symptoms, and intervals were extended in cases of sustained radiological regression or stability.",
+      "order": 3
+    },
+    {
+      "section": "Volumetric Analysis And Outcome",
+      "text": "Tumor measurements were conducted semi-automatically slice-by-slice on the T1CE scans at treatment and follow-up using GammaPlan (version 11.3, Elekta AB, Stockholm, Sweden). In growing tumors prior to GKRS treatment, the pretreatment volume was additionally determined using the oldest available MRI scan obtained more than 6 months before treatment. The pretreatment growth rate was subsequently calculated following the volume doubling time (VDT) model proposed by Varughese et al. [ 26 ]. In tumors with cystic components, separate annotations of the solid and cystic components were additionally obtained. Annotation was performed by the authors (S.S., S.C., P.L., and J.V.), each possessing 3–21 years of experience in volumetric segmentation of VS. An inter-observer variability study involving the same annotators demonstrated excellent agreement among annotators, with an interrater correlation coefficient of 0.995 [ 27 ]. Based on previous evidence, a significant volume increase within 4 years post-SRS followed by significant regression was defined as pseudoprogression [ 10 , 28 , 29 ]. A significant change in tumor volume was defined as a longitudinal relative change of ≥ 10% [ 16 , 20 , 27 , 30 , 31 ].",
+      "order": 4
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Associations of baseline patient- and tumor characteristics at time of treatment with occurrence of pseudoprogression were evaluated using uni- and multivariable logistic regression analyses and summarized with odds ratios (ORs) and 95% confidence intervals (CIs). Variables with a nonlinear association with the log odds probability for pseudoprogression were categorized into quartiles. Multivariable analyses were only performed for age, tumor size, and variables with a significant association with pseudoprogression in univariable analysis. The OR in multivariable analysis is adjusted for age, tumor size, presence of cystic components, presence of peritumoral edema, and the prescribed marginal dose in Gy. Additionally, in several cases, pseudoprogression status could not be determined either because of (1) unavailable 3–9 months follow-up imaging in tumors that subsequently regressed or remained stable, or (2) additional treatment within two years post-GKRS. These undetermined cases were excluded from logistic analyses. A separate sensitivity analysis was performed to evaluate the impact of this approach and is provided in the Supplementary Results S4 . The association of pretreatment growth rate with pseudoprogression was assessed separately for growing tumors prior to GKRS. Intervention-free survival rates were estimated using the Kaplan–Meier method. A P -value of < 0.05 was considered significant. Statistical analyses were performed with SPSS Statistics for Windows, Version 29 (IBM Corporation, Armonk, NY, USA).",
+      "order": 5
+    },
+    {
+      "section": "Study Population",
+      "text": "A total of 269 patients were treated with primary GKRS for a unilateral sporadic Koos grade 4 VS (> 4 cm 3 ) between January 2004 and January 2021. Ultimately, 258 patients could be included (See flow diagram study: Supplementary Figure S2 ). The median age at treatment was 58 years old (IQR 47–67) and the median tumor size at treatment was 6.8 cm 3 (IQR 5.1-9.0). Further patient- and tumor characteristics at time of treatment are summarized in Table 1 .",
+      "order": 6
+    },
+    {
+      "section": "Temporal Dynamics Of Pseudoprogression",
+      "text": "Tumor enlargement following GKRS was observed in 103 tumors (40% of total cohort), with 94 occurring within 4 years. Of these, 75 tumors (29% of the total cohort) demonstrated transient enlargement attributed to pseudoprogression, 9 tumors (3% of the total cohort) showed continuous enlargement, and one tumor (0.4%) initially regressed post-GKRS before exhibiting continuous enlargement. For the remaining 9 tumors (3%), the growth dynamics remained undetermined due to subsequent treatment within two years post-GKRS. Among the 75 tumors demonstrating pseudoprogression, the median and mean time-to-peak were 8 months (IQR 6–14; range 2–38) and 11 months (Fig. 1 A). The median and mean volumetric increase at peak were 23% (IQR 15–34) and 27% (Fig. 1 B). Fifty cases (67% of the pseudoprogression cases) had an increase of more than 20%. The correlation between time-to-peak and the extent of relative increase at peak in % for all individual pseudoprogression cases are presented in Fig. 1 C. One outlier, characterized by macrocystic components, exhibited a volumetric relative increase of 126% at 30 months post-GKRS. The median and mean time-to-resolution observed is 18 months (IQR 12–27) and 25 months, with 90% of the pseudoprogression cases resolving within 4 years (Fig. 1 A). See Supplemental Figure S3 for representative pseudoprogression cases on MRI at time of treatment and during follow-up. In 42 tumors (16% of the total cohort), the occurrence of pseudoprogression remained undetermined: 9 tumors (3%), as aforementioned, due to subsequent intervention within two years post-GKRS following observed enlargement, and 33 tumors (13%) due to continuous regression or stability without an available follow-up scan at 3–9 months post-GKRS. Consequently, the estimated pseudoprogression rate in this cohort ranged from 29% to 45% (Supplementary Results S4 ).",
+      "order": 7
+    },
+    {
+      "section": "Uni- And Multivariable Analyses For Pseudoprogression",
+      "text": "In uni- and multivariable analyses, only the presence of microcystic tumor components was significantly inversely associated with pseudoprogression, yielding a highly significant adjusted OR of 0.15 (95% CI 0.05–0.46; P < 0.001) compared to non-cystic tumors (Table 2 ). In the secondary analysis of growing tumors ( N = 109) prior to GKRS, pretreatment growth rate was known for 88 tumors (81%) with a median VDT of 17 months (IQR 10–35). Of these, the pretreatment growth rate was not found to be significantly associated with the occurrence of pseudoprogression ( P = 0.41), remaining insignificant after adjusting for cystic components and age.",
+      "order": 8
+    },
+    {
+      "section": "Pseudoprogression In Cystic Tumors",
+      "text": "Eighty-one tumors (31% of total cohort) had cystic components: 42 microcystic and 39 macrocystic. Pseudoprogression occured in 17 of 81 cystic tumors (21%), of which only 3 microcystic and 14 macrocystic. Notably, among the 14 macrocystic tumors with pseudoprogression, 10 tumors displayed discordant behaviors between their solid and cystic components. Specifically, 8 tumors showed transient enlargement only in the solid components, while 2 tumors exhibited transient enlargement solely in the cystic components. The remaining 64 of 81 cystic tumors (79%) either showed no evidence of pseudoprogression ( N = 56) or had an undetermined pseudoprogression status ( N = 8). However, when the solid and cystic components were assessed separately, additional discordant behaviors emerged. Pseudoprogression occurred solely in the solid components of two macrocystic tumors and solely in the cystic components of four tumors (of which three macrocystic and one microcystic). In four macrocystic tumors, the cystic components continued to grow despite regression of the solid tumor components, necessitating surgical intervention in three cases.",
+      "order": 9
+    },
+    {
+      "section": "Long-Term Outcome",
+      "text": "Ultimately, 30 patients (12%) required 31 additional interventions after a median of 36 months (IQR 21–60) (Table 1 ). In up to 7 cases, additional intervention may have been related to pseudoprogression, of these only one case was considered certain. In retrospect, intervention may have been premature in 3 patients. See Supplemental Results S4 for further details. The intervention-free survival (95% CI; numbers still at risk) at 1, 2, 5, and 10 years were respectively 98% (97–99; 252), 97% (95–98; 239), 90% (88–92; 162), and 85% (82–87; 62) (Fig. 2 ). The median follow-up duration for the 228 non-intervened tumors (88%) was 84 months (IQR 48–121). Compared to treatment tumor volume, the median volumetric reduction at 5 years ( N = 167) and 10 years ( N = 83) was 57% (IQR 36–76) and 77% (IQR 61–87) (Fig. 3 A). Comparison of median volumetric changes of tumors with versus without pseudoprogression (independent two-sided t-test, log-transformed due to right-skewed distribution) showed a marginal difference at 5 years ( P = 0.05), but no significant difference at 10 years post-GKRS ( P = 0.91) (Fig. 3 B and C). Both groups had a similar available follow-up distribution.",
+      "order": 10
+    },
+    {
+      "section": "Discussion",
+      "text": "Pseudoprogression is a common phenomenon in VS following SRS. In larger tumors, the occurrence may influence clinical decision-making, where tumor expansion can lead to mass-effect complications, potentially necessitating surgical intervention. The decision to intervene in cases of symptomatic pseudoprogression ultimately depends on the nature of the symptoms, the patient’s overall condition, and the clinical judgment of the treatment team. Understanding the temporal and volumetric characteristics of pseudoprogression is important to prevent premature interventions. In retrospect, intervention in this cohort may have been premature in 3 patients (Supplementary Results S4 ). Identifying predictors for pseudoprogression may also aid in treatment selection, particularly in borderline SRS-eligible Koos grade 4 cases with a low symptomatic profile or high surgical risk. However, robust data on pseudoprogression for large VS is scarce, with most studies focusing on smaller tumors [ 10 – 22 ]. This volumetric study therefore focused on Koos grade 4 VS, including 258 tumors with a median size of 6.8 cm 3 . Pseudoprogression was observed in 29% of the tumors, with an additional 16% uncertain, indicating a true incidence between 29 and 45%, consistent with prior reports on smaller VS, ranging between 19% and 72% (IQR 37–55) [ 10 – 22 ]. The median time-to-peak for pseudoprogression was 8 months, with a median relative increase of 23% at peak. A bimodal distribution of early versus late peak was observed, consistent with prior studies [ 10 , 32 ]. Peaks ranged up to 38 months, though most cases (90%) peaked within two years post-GKRS, typically showing less than 50% volume increase. Comparison of these temporal dynamics with other studies in smaller VS revealed similar ranges, with median time-to-peak ranging from 5 to 18 months and mean maximum volume increases from 20% to 64% [ 10 , 11 , 14 – 19 , 22 ]. Also, when evaluating the time-to-resolution, 90% resolved within 4 years in our cohort, comparable to other reports showing 90% resolved within 4 to 6.9 years (Fig. 2 ) [ 10 , 14 , 29 ]. Overall, these findings indicate that larger tumors respond to SRS similarly to smaller tumors. Long-term volumetric analysis with a median follow-up of 84 months revealed substantial shrinkage in the non-intervened tumors with a median volume reduction of 77% at 10 years, regardless of pseudoprogression (Fig. 3 ). Previous studies likewise report that pseudoprogression does not affect long-term volumetric outcomes [ 16 , 28 , 33 ]. Balossier et al. [ 28 ] identified distinct post-GKRS volumetric patterns and linked pseudoprogression-related patterns to favorable outcomes. This may justify continued close surveillance of larger tumors during the initial years following treatment, even in the presence of pseudoprogression, provided no relevant mass-effect complications arise. Logistic regression analyses revealed that only the presence of microcystic components was significantly inversely associated with pseudoprogression, with an adjusted OR of 0.15 ( P < 0.001). Previous studies have reported similar findings, though with less pronounced differences [ 34 – 36 ]. Huang et al. [ 34 ] found pseudoprogression in 31% of cystic tumors versus 55% in solid tumors. In our cohort, pseudoprogression was observed in only 7% ( N = 3) of microcystic tumors, compared to 44% ( N = 14) of macrocystic and 31% ( N = 68) of solid tumors. Huang et al. grouped macrocystic and microcystic tumors together, likely explaining the smaller observed differences [ 34 – 36 ]. Considering pseudoprogression in clinical decision-making, these findings suggest that microcystic tumors may be more favorable candidates for SRS. Although previous research has identified significant correlations between age, pretreatment growth rate, tumor size, and degree of MCP compression with increased treatment failure risk in long-term tumor control, these factors were not significantly associated with pseudoprogression in our study [ 15 , 24 , 37 – 39 ]. This supports the notion that pseudoprogression represents a separate phenomenon from long-term failure. When comparing the dynamics of the solid versus the cystic components within tumors, a discordant behavior was mainly observed in the macrocystic tumors. In almost half ( N = 19) of the 39 macrocystic tumors, the solid and cystic components exhibited opposite behavior; the solid components would increase while the cystic components would shrink, and vice versa. Four macrocystic tumors continued to grow despite regression of the solid tumor components, with three requiring additional interventions. In contrast, in microcystic tumors, the solid and cystic components generally behaved in a synchronized more predictable manner. This further supports the hypothesis that pseudoprogression occurrence after radiosurgery is related to the cellular composition of VS. Various hypotheses based on tumor biology have been described. Evidence indicates that microcystic intratumoral components in tissues correlate with a higher ratio of Antoni Type B tissue, which is generally more loosely organized, in contrast to the highly cellular and denser Antoni Type A tissue [ 40 ]. It could be hypothesized that more homogeneous tumors, with a higher Antoni Type A ratio, are more susceptible to pseudoprogression. Further research is required to unravel the underlying mechanisms of pseudoprogression following stereotactic radiosurgery. This study has several limitations. The foremost is selection bias in the clinical decision-making process for managing Koos grade 4 VS with SRS, which affects several key patient characteristics in this cohort. For instance, the median and maximum Koos grade 4 tumor sizes for SRS are generally lower compared to the Koos grade 4 VS treated surgically [ 25 , 41 ]. Due to inherent size constraints of SRS, the median tumor size in this cohort was 6.8 cm³, with a maximum of 19 cm³, indicating that giant Koos 4 VS are underrepresented. The selection bias also extends to the presenting symptomatology at treatment, with a relatively low incidence of mass effect symptoms and a relatively high rate of serviceable hearing. Another significant limitation is the retrospective nature of this study, resulting in variability in follow-up regimens. Not all patients underwent early follow-up imaging at approximately 6 months post-GKRS, potentially influencing the time-to-peak and maximum volume increase values and resulting in up to a 13% ( N = 33) underestimation of the true pseudoprogression incidence. Furthermore, secondary treatment within two years ( N = 9) may introduce an additional underestimation in 3% of patients, since no data on tumor evolution post-intervention can be considered. For large Koos grade 4 tumors, this knowledge is practically infeasible to obtain fully in daily practice. Prompt intervention should be considered to mitigate the risk of mass effect complications when a significant volumetric increase is observed. Overall, pseudoprogression occurrence remained undetermined in 16% of the tumors, suggesting true pseudoprogression rate in this cohort ranges between 29% and 45%. Finally, this study focused on temporal volumetric dynamics and did not account for the clinical consequences of pseudoprogression in terms of symptomatology. The clinical impact of pseudoprogression, including rates of new or worsened symptoms and the need for intervention, would also be valuable for clinical decision-making. However, in a retrospective cohort, reliably attributing clinical symptoms from medical records to volumetric changes is challenging, and extraction of such data would likely be incomplete and potentially introduce bias. To avoid overinterpretation, this study therefore deliberately focused on volumetric temporal dynamics and did not report these specific outcomes. However, a separate case-by-case evaluation of intervention indication, including the potential role of pseudoprogression following GKRS, was conducted to provide additional clinical context (Supplementary Results S5 ). Future prospective comparative matched-cohort studies of SRS versus microsurgery, incorporating standardized clinical outcome measures, are warranted. These studies are needed to improve assessment of the clinical impact of pseudoprogression and the role of conversion to microsurgery following SRS in optimizing individualized treatment selection for patients with Koos grade 4 VS. Despite these limitations, this study provides valuable evidence on the temporal dynamics of pseudoprogression, such as time-to-peak and maximum relative increase, in Koos grade 4 VS post-GKRS. Given the associated surgical risks that significantly escalate with tumor size, these findings are particularly relevant to consider within the clinical decision-making for borderline SRS-eligible cases with a low symptomatic profile at the time of treatment or those relatively unsuitable for invasive surgery. During post-SRS follow-up it may aid in differentiating between tumors that are likely to fail and those that may regress, preventing unnecessary premature intervention and supporting a more individualized approach to SRS candidacy and follow-up in patients with Koos grade 4 VS.",
+      "order": 11
+    },
+    {
+      "section": "Conclusion",
+      "text": "Pseudoprogression rates in selected Koos grade 4 VS appear comparable to rates of smaller tumors. Most cases peaked within two years, typically showing less than 50% volume increase at peak. Alternate patterns with later pseudoprogression may occur, supporting careful observation for up to 4 years in low-symptomatic patients to avoid unnecessary premature intervention. Traditional factors such as age, tumor size, degree of MCP compression, peritumoral edema, and pretreatment growth rate were not significantly associated with pseudoprogression. Tumors with microcystic components exhibited significantly lower pseudoprogression rates, potentially rendering them more suitable candidates for SRS. In contrast, macrocystic tumors demonstrated more variable dynamics, warranting careful monitoring in these tumors.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Carlson ML",
+        "Link MJ"
+      ],
+      "title": "Vestibular schwannomas",
+      "journal": "N Engl J Med",
+      "year": "2021",
+      "volume": "384",
+      "fpage": "1335",
+      "lpage": "1348",
+      "doi": "10.1056/NEJMra2020394",
+      "pmid": "33826821"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Goldbrunner R",
+        "Weller M",
+        "Regis J",
+        "Lund-Johansen M",
+        "Stavrinou P",
+        "Reuss D",
+        "et al."
+      ],
+      "title": "Eano guideline on the diagnosis and treatment of vestibular schwannoma",
+      "journal": "Neuro Oncol",
+      "year": "2020",
+      "volume": "22",
+      "fpage": "31",
+      "lpage": "45",
+      "doi": "10.1093/neuonc/noz153",
+      "pmid": "31504802",
+      "pmc_id": "PMC6954440"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "pmc_id": "PMC5675503",
+      "pmid": "29296459"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.1007/s11060-025-05252-1",
+      "pmc_id": "PMC12521331",
+      "pmid": "41085808"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Morshed RA",
+        "Arora T",
+        "Theodosopoulos PV"
+      ],
+      "title": "Multimodality Treatment of Large Vestibular Schwannomas",
+      "journal": "Curr Otorhinolaryngol Rep",
+      "year": "2021",
+      "volume": "9",
+      "fpage": "155",
+      "lpage": "161",
+      "doi": "10.1007/s40136-021-00336-8"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Starnoni D",
+        "Giammattei L",
+        "Cossu G",
+        "Link MJ",
+        "Roche PH",
+        "Chacko AG",
+        "et al."
+      ],
+      "title": "Surgical management for large vestibular schwannomas: a systematic review, meta-analysis, and consensus statement on behalf of the EANS skull base section",
+      "journal": "Acta Neurochir (Wien)",
+      "year": "2020",
+      "volume": "2",
+      "fpage": "2595",
+      "lpage": "2617",
+      "doi": "10.1007/s00701-020-04491-7",
+      "pmc_id": "PMC7550309",
+      "pmid": "32728903"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Tuleasca C",
+        "Kotecha R",
+        "Sahgal A",
+        "de Salles A",
+        "Fariselli L",
+        "Paddick I",
+        "et al."
+      ],
+      "title": "Single-fraction radiosurgery outcomes for large vestibular schwannomas in the upfront or post-surgical setting: a systematic review and International Stereotactic Radiosurgery Society (ISRS) Practice Guidelines",
+      "journal": "J Neurooncol",
+      "year": "2023",
+      "volume": "165",
+      "fpage": "1",
+      "lpage": "20",
+      "doi": "10.1007/s11060-023-04455-8",
+      "pmid": "37843727",
+      "pmc_id": "PMC10638172"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Dumot C",
+        "Pikis S",
+        "Mantziaris G",
+        "Xu Z",
+        "Anand RK",
+        "Nabeel AM",
+        "et al."
+      ],
+      "title": "Stereotactic radiosurgery for Koos grade IV vestibular schwannoma in young patients: a multi-institutional study",
+      "journal": "J Neurooncol",
+      "year": "2022",
+      "volume": "160",
+      "fpage": "201",
+      "lpage": "208",
+      "doi": "10.1007/s11060-022-04134-0",
+      "pmid": "36166113"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Umekawa M",
+        "Shinya Y",
+        "Hasegawa H",
+        "Kawashima M",
+        "Shin M",
+        "Katano A",
+        "et al."
+      ],
+      "title": "Stereotactic radiosurgery ensures an effective and safe long-term control of Koos grade IV vestibular schwannomas: a single-center, retrospective, cohort study",
+      "journal": "J Neurooncol",
+      "year": "2022",
+      "doi": "10.1007/s11060-022-04058-9",
+      "pmid": "35729368"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Breshears JD",
+        "Chang J",
+        "Molinaro AM",
+        "Sneed PK",
+        "McDermott MW",
+        "Tward A",
+        "et al."
+      ],
+      "title": "Temporal dynamics of pseudoprogression after gamma knife radiosurgery for vestibular schwannomas - A retrospective volumetric study",
+      "journal": "Clin Neurosurg",
+      "year": "2019",
+      "volume": "84",
+      "fpage": "123",
+      "lpage": "131",
+      "doi": "10.1093/neuros/nyy019",
+      "pmid": "29518221"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Fouard O",
+        "Daisne JF",
+        "Wanet M",
+        "Regnier M",
+        "Gustin T"
+      ],
+      "title": "Long-term volumetric analysis of vestibular schwannomas following stereotactic radiotherapy: Practical implications for follow-up",
+      "journal": "Clin Transl Radiat Oncol",
+      "year": "2022",
+      "volume": "33",
+      "fpage": "1",
+      "lpage": "6",
+      "doi": "10.1016/j.ctro.2021.12.003",
+      "pmid": "34977365",
+      "pmc_id": "PMC8688865"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Matsuo T",
+        "Okunaga T",
+        "Kamada K",
+        "Izumo T",
+        "Hayashi N",
+        "Nagata I"
+      ],
+      "title": "Long-term follow-up results of linear accelerator-based radiosurgery for vestibular schwannoma using serial three-dimensional spoiled gradient-echo MRI",
+      "journal": "J Clin Neurosci",
+      "year": "2015",
+      "volume": "22",
+      "fpage": "320",
+      "lpage": "325",
+      "doi": "10.1016/j.jocn.2014.06.100",
+      "pmid": "25443082"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Wowra B",
+        "Muacevic A",
+        "Jess-Hempen A",
+        "Hempel JM",
+        "Müller-Schunk S",
+        "Tonn J"
+      ],
+      "title": "Outpatient gamma knife surgery for vestibular schwannoma: definition of the therapeutic profile based on a 10-year experience",
+      "journal": "J Neurosurg",
+      "year": "2005",
+      "volume": "102",
+      "fpage": "114",
+      "lpage": "118",
+      "doi": "10.3171/sup.2005.102.s_supplement.0114",
+      "pmid": "15662792"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Nagano O",
+        "Serizawa T",
+        "Higuchi Y",
+        "Matsuda S",
+        "Sato M",
+        "Yamakami I",
+        "et al."
+      ],
+      "title": "Tumor shrinkage of vestibular schwannomas after Gamma Knife surgery: results after more than 5 years of follow-up",
+      "journal": "J Neurosurg",
+      "year": "2010",
+      "volume": "113",
+      "fpage": "122",
+      "lpage": "127",
+      "doi": "10.3171/2010.8.GKS10960",
+      "pmid": "21222292"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Van De Langenberg R",
+        "Hanssens PEJ",
+        "Verheul JB",
+        "Van Overbeeke JJ",
+        "Nelemans PJ",
+        "Dohmen AJC",
+        "et al."
+      ],
+      "title": "Management of large vestibular schwannoma. Part II. Primary Gamma Knife surgery: Radiological and clinical aspects - Clinical article",
+      "journal": "J Neurosurg",
+      "year": "2011",
+      "volume": "115",
+      "fpage": "885",
+      "lpage": "893",
+      "doi": "10.3171/2011.6.JNS101963",
+      "pmid": "21838503"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Hayhurst C",
+        "Zadeh G"
+      ],
+      "title": "Tumor pseudoprogression following radiosurgery for vestibular schwannoma",
+      "journal": "Neuro Oncol",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "87",
+      "lpage": "92",
+      "doi": "10.1093/neuonc/nor171",
+      "pmid": "22028389",
+      "pmc_id": "PMC3245992"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "doi": "10.3171/jns.2000.93.supplement",
+      "pmid": "11143269"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Hwang I",
+        "Choi SH",
+        "Kim JW",
+        "Yeon EK",
+        "Lee JY",
+        "Yoo RE",
+        "et al."
+      ],
+      "title": "Response prediction of vestibular schwannoma after gamma-knife radiosurgery using pretreatment dynamic contrast-enhanced MRI: a prospective study",
+      "journal": "Eur Radiol",
+      "year": "2022",
+      "doi": "10.1007/s00330-021-08517-1",
+      "pmid": "35084518"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Nakamura H",
+        "Jokura H",
+        "Takahashi K",
+        "Boku N",
+        "Akabane A",
+        "Yoshimoto T"
+      ],
+      "title": "Serial follow-up MR imaging after gamma knife radiosurgery for vestibular schwannoma",
+      "journal": "AJNR Am J Neuroradiol",
+      "year": "2000",
+      "volume": "21",
+      "fpage": "1540",
+      "lpage": "1546",
+      "pmid": "11003293",
+      "pmc_id": "PMC7974039"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Kim Y-H",
+        "Kim DG",
+        "Han JH",
+        "Chung H-T",
+        "Kim IK",
+        "Song SW",
+        "et al."
+      ],
+      "title": "Hearing Outcomes After Stereotactic Radiosurgery for Unilateral Intracanalicular Vestibular Schwannomas: Implication of Transient Volume Expansion",
+      "journal": "Int J Radiat Oncol",
+      "year": "2013",
+      "volume": "85",
+      "fpage": "61",
+      "lpage": "67",
+      "doi": "10.1016/j.ijrobp.2012.03.036",
+      "pmid": "22580122"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Kim JH",
+        "Jung HH",
+        "Chang JH",
+        "Chang JW",
+        "Park YG",
+        "Chang WS"
+      ],
+      "title": "Predictive Factors of Unfavorable Events After Gamma Knife Radiosurgery for Vestibular Schwannoma",
+      "journal": "World Neurosurg",
+      "year": "2017",
+      "volume": "107",
+      "fpage": "175",
+      "lpage": "184",
+      "doi": "10.1016/j.wneu.2017.07.139",
+      "pmid": "28826715"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Iorio-Morin C",
+        "Alsubaie F",
+        "Mathieu D"
+      ],
+      "title": "Safety and efficacy of gamma knife radiosurgery for the management of Koos Grade 4 vestibular schwannomas",
+      "journal": "Neurosurgery",
+      "year": "2016",
+      "volume": "78",
+      "fpage": "521",
+      "lpage": "528",
+      "doi": "10.1227/NEU.0000000000001154",
+      "pmid": "26606668"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Piccirillo E",
+        "Wiet MR",
+        "Flanagan S",
+        "Dispenza F",
+        "Giannuzzi A",
+        "Mancini F",
+        "et al."
+      ],
+      "journal": "Cyst Vestib Schwannoma Otol Neurotol",
+      "year": "2009",
+      "volume": "30",
+      "fpage": "826",
+      "lpage": "834",
+      "doi": "10.1097/MAO.0b013e3181b04e18",
+      "pmid": "19704364"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Hasegawa T",
+        "Kato T",
+        "Naito T",
+        "Tanei T",
+        "Ishii K",
+        "Tsukamoto E",
+        "et al."
+      ],
+      "title": "Predictors of long-term tumor control after stereotactic radiosurgery for Koos grade 4 vestibular schwannomas",
+      "journal": "J Neurooncol",
+      "year": "2021",
+      "volume": "151",
+      "fpage": "145",
+      "lpage": "156",
+      "doi": "10.1007/s11060-020-03622-5",
+      "pmid": "33415658"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "doi": "10.3171/2022.4.JNS22203",
+      "pmid": "36303474"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Varughese JK",
+        "Breivik CN",
+        "Wentzel-Larsen T",
+        "Lund-Johansen M"
+      ],
+      "title": "Growth of untreated vestibular schwannoma: A prospective study - Clinical article",
+      "journal": "J Neurosurg",
+      "year": "2012",
+      "volume": "116",
+      "fpage": "706",
+      "lpage": "712",
+      "doi": "10.3171/2011.12.JNS111662",
+      "pmid": "22264178"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "doi": "10.1007/s00234-024-03416-w",
+      "pmc_id": "PMC11534841",
+      "pmid": "38980343"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Balossier A",
+        "Olteanu M",
+        "Delsanti C",
+        "Troude L",
+        "Thomassin JM",
+        "Roche PH",
+        "et al."
+      ],
+      "title": "Dynamics of tumor evolution after Gamma Knife radiosurgery for sporadic vestibular schwannoma: Defining volumetric patterns characterizing individual trajectory",
+      "journal": "Neuro Oncol",
+      "year": "2025",
+      "volume": "27",
+      "fpage": "545",
+      "lpage": "556",
+      "doi": "10.1093/neuonc/noae187",
+      "pmid": "39283980",
+      "pmc_id": "PMC11812029"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Rueß D",
+        "Schütz B",
+        "Celik E",
+        "Baues C",
+        "Jünger ST",
+        "Neuschmelting V",
+        "et al."
+      ],
+      "title": "Pseudoprogression of Vestibular Schwannoma after Stereotactic Radiosurgery with Cyberknife ® : Proposal for New Response Criteria",
+      "journal": "Cancers (Basel)",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "1496",
+      "doi": "10.3390/cancers15051496",
+      "pmid": "36900290",
+      "pmc_id": "PMC10000564"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Nagano O",
+        "Higuchi Y",
+        "Serizawa T",
+        "Ono J",
+        "Matsuda S",
+        "Yamakami I",
+        "et al."
+      ],
+      "title": "Transient expansion of vestibular schwannoma following stereotactic radiosurgery: Clinical article",
+      "journal": "J Neurosurg",
+      "year": "2008",
+      "volume": "109",
+      "fpage": "811",
+      "lpage": "816",
+      "doi": "10.3171/JNS/2008/109/11/0811",
+      "pmid": "18976069"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Langenhuizen PPJH",
+        "Sebregts SHP",
+        "Zinger S",
+        "Leenstra S",
+        "Verheul JB",
+        "de With PHN"
+      ],
+      "title": "Prediction of transient tumor enlargement using MRI tumor texture after radiosurgery on vestibular schwannoma",
+      "journal": "Med Phys",
+      "year": "2020",
+      "volume": "47",
+      "fpage": "1692",
+      "lpage": "1701",
+      "doi": "10.1002/mp.14042",
+      "pmid": "31975523",
+      "pmc_id": "PMC7217023"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Rueß D",
+        "Pöhlmann L",
+        "Hellerbach A",
+        "Hamisch C",
+        "Hoevels M",
+        "Treuer H",
+        "et al."
+      ],
+      "title": "Acoustic Neuroma Treated with Stereotactic Radiosurgery: Follow-up of 335 Patients",
+      "journal": "World Neurosurg",
+      "year": "2018",
+      "volume": "116",
+      "fpage": "e194",
+      "lpage": "202",
+      "doi": "10.1016/j.wneu.2018.04.149",
+      "pmid": "29715569"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Pollock BE"
+      ],
+      "title": "Management of vestibular schwannomas that enlarge after stereotactic radiosurgery: Treatment recommendations based on a 15 year experience",
+      "journal": "Neurosurgery",
+      "year": "2006",
+      "volume": "58",
+      "fpage": "241",
+      "lpage": "246",
+      "doi": "10.1227/01.NEU.0000194833.66593.8B",
+      "pmid": "16462477"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Huang C-Y",
+        "Peng S-J",
+        "Yang H-C",
+        "Wu H-M",
+        "Chen C-J",
+        "Wang M-C",
+        "et al."
+      ],
+      "title": "Association Between Pseudoprogression of Vestibular Schwannoma After Radiosurgery and Radiological Features of Solid and Cystic Components",
+      "journal": "Neurosurgery",
+      "year": "2023",
+      "volume": "93",
+      "fpage": "1383",
+      "lpage": "1392",
+      "doi": "10.1227/neu.0000000000002599",
+      "pmid": "37432016"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Bowden G",
+        "Cavaleri J",
+        "Monaco E",
+        "Niranjan A",
+        "Flickinger J",
+        "Lunsford LD"
+      ],
+      "title": "Cystic vestibular schwannomas respond best to radiosurgery",
+      "journal": "Neurosurgery",
+      "year": "2017",
+      "volume": "81",
+      "fpage": "490",
+      "lpage": "497",
+      "doi": "10.1093/neuros/nyx027",
+      "pmid": "28368501"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Wu CC",
+        "Guo WY",
+        "Chung WY",
+        "Wu HM",
+        "Lin CJ",
+        "Lee CC",
+        "et al."
+      ],
+      "title": "Magnetic resonance imaging characteristics and the prediction of outcome of vestibular schwannomas following Gamma Knife radiosurgery",
+      "journal": "J Neurosurg",
+      "year": "2017",
+      "volume": "127",
+      "fpage": "1384",
+      "lpage": "1391",
+      "doi": "10.3171/2016.9.JNS161510",
+      "pmid": "28186452"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Langenhuizen PPJH",
+        "Zinger S",
+        "Hanssens PEJ",
+        "Kunst HPM",
+        "Mulder JJS",
+        "Leenstra S",
+        "et al."
+      ],
+      "title": "Influence of pretreatment growth rate on Gamma Knife treatment response for vestibular schwannoma: A volumetric analysis",
+      "journal": "J Neurosurg",
+      "year": "2019",
+      "volume": "131",
+      "fpage": "1405",
+      "lpage": "1412",
+      "doi": "10.3171/2018.6.JNS18516",
+      "pmid": "30497177"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "doi": "10.1017/S0022215123000786",
+      "pmid": "37194631"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Huang C-W",
+        "Tu H-T",
+        "Chuang C-Y",
+        "Chang C-S",
+        "Chou H-H",
+        "Lee M-T",
+        "et al."
+      ],
+      "title": "Gamma Knife radiosurgery for large vestibular schwannomas greater than 3 cm in diameter",
+      "journal": "J Neurosurg",
+      "year": "2018",
+      "volume": "128",
+      "fpage": "1380",
+      "lpage": "1387",
+      "doi": "10.3171/2016.12.JNS161530",
+      "pmid": "28707997"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Wippold FJ",
+        "Lubner M",
+        "Perrin RJ",
+        "Lämmle M",
+        "Perry A"
+      ],
+      "title": "Neuropathology for the neuroradiologist: Antoni A and Antoni B tissue patterns",
+      "journal": "Am J Neuroradiol",
+      "year": "2007",
+      "volume": "28",
+      "fpage": "1633",
+      "lpage": "1638",
+      "doi": "10.3174/ajnr.A0682",
+      "pmid": "17893219",
+      "pmc_id": "PMC8134199"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Schouten SM",
+        "Cornelissen S",
+        "Langenhuizen PPHJ",
+        "Jansen TTG",
+        "Mulder JJS",
+        "Derks J",
+        "et al."
+      ],
+      "title": "Wait-and-scan management in sporadic Koos grade 4 vestibular schwannomas: A longitudinal volumetric study",
+      "journal": "Neuro-Oncology Adv",
+      "year": "2024",
+      "volume": "6",
+      "fpage": "vdad144",
+      "doi": "10.1093/noajnl/vdad144",
+      "pmc_id": "PMC10771273",
+      "pmid": "38187870"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "metadata": {
+    "title": "Burden of hearing loss and diagnostic utility of a screening tool in Kazakhstan: insights from national and cross-sectional analyses",
+    "authors": [
+      "Zhadra Bukenova",
+      "Galiya Orazova",
+      "Dinara Kassenova",
+      "Vafa Panahian",
+      "Aiman Mussina",
+      "Roza Suleimenova",
+      "Gulnur Zhakhina"
+    ],
+    "journal": "Frontiers in Public Health",
+    "year": "2026",
+    "doi": "10.3389/fpubh.2026.1788652",
+    "pmc_id": "PMC13201505",
+    "pmid": "42205433",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 44
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Hearing loss is a significant public health concern that is often under recognized globally, with mild impairment accounting for the largest share of the burden. In Kazakhstan, little is known about national patterns of hearing loss or the utility of simple screening tools for detecting it. This study assessed the burden of hearing loss via Global Burden of Disease (GBD) data and evaluated the diagnostic performance of the Hearing Handicap Inventory for Adults–Screening version (HHIA-S) relative to audiometric testing. Methods We analyzed GBD 2021 data to estimate the prevalence and years lived with disability (YLDs) from 1990 to 2021. Additionally, a cross-sectional survey was conducted among 506 adults recruited from primary healthcare facilities in Astana and nearby areas. All participants completed the HHIA-S questionnaire and underwent audiometric testing. Diagnostic accuracy was assessed via sensitivity, specificity, predictive values, and the area under the ROC curve (AUC). Results In 2021, the age-standardized prevalence of hearing loss in Kazakhstan was 17,212 per 100,000 population (95% UI: 16,469-18,048), with mild hearing loss accounting for 71.9% of the cases. The YLD rate was 512 per 100,000 (95% UI: 346 s-732), showing stable trends since 1990. In the cross-sectional study, 20% of the participants had audiometrically confirmed hearing loss, with the prevalence rising sharply after the age of 60 years. Women composed 74% of the sample. The HHIA-S demonstrated a sensitivity of 70.2%, a specificity of 94.1%, a positive predictive value of 77.7%, a negative predictive value of 91.6%, and an AUC of 0.82, indicating good diagnostic performance. Conclusion Hearing loss remains an important but under recognized health problem in Kazakhstan. Integrating simple screening tools such as the HHIA-S into primary care alongside strengthened audiological services and public awareness campaigns could facilitate early detection and reduce the long-term burden of untreated hearing impairment.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hearing loss is a prevalent and often underdiagnosed public health concern with profound implications for communication, social engagement, and quality of life. It is often referred to as an invisible disability, yet it affects a substantial portion of the global population. According to estimates from the Global Burden of Disease (GBD) 2019 study, approximately 1.57 billion individuals [95% uncertainty interval (UI) 1.51–1.64], or 20.3% of the global population, lived with some degree of hearing loss in 2019 ( 1 ). Of these, 403.3 million [95% UI: 357.3–449.5] had moderate to higher severity hearing loss after adjusting for hearing aid use. The burden is expected to increase due to aging populations and increasing exposure to noise and other risk factors. Projections indicate that by 2050, this number will increase to 2.45 billion [95% UI, 2.35–2.56] ( 1 ). The economic impact of untreated hearing loss is substantial worldwide, amounting to nearly US$1 trillion each year ( 2 ). Hearing loss refers to a reduction in hearing ability that can range from minimal perceptual disturbances to complete deafness ( 3 ). It may result from impairments in sound conduction to the inner ear, damage to the sensory cells of the cochlea, or disruptions in the auditory nerve pathways and cortical auditory centers that process sound. Hearing loss ranks as the third leading cause of years lived with disability (YLDs) across all ages worldwide, and it is the leading cause among individuals over 70 years of age ( 1 ). Among older adults, it is linked to increased risks of social isolation; cognitive decline, including dementia; falls; and various other adverse health outcomes ( 4 , 5 ). Moreover, moderate to severe hearing loss poses challenges for both the youngest and the oldest age groups. Although hearing impairment is often overlooked, it constitutes a major public health issue. Moreover, in many low-and middle-income countries, including those in Central Asia, hearing loss remains insufficiently recognized within national health priorities ( 6 ). Comparative evidence from European countries shows that higher screening coverage and better access to hearing rehabilitation services are associated with earlier detection and reduced long-term burden, highlighting the critical role of health system capacity in shaping outcomes. The World Health Organization (WHO) reported that more than half of all cases of hearing loss in adults can be prevented through primary prevention strategies ( 2 ). One of the leading preventable causes is exposure to excessive noise, while infections and the use of ototoxic medications also play significant roles. These health risks are particularly widespread in low- and middle-income countries, underscoring the need to prioritize prevention of hearing loss in such regions ( 7 ). Hearing impairment frequently results from a wide array of risk factors encountered throughout an individual’s life. Nevertheless, the specific contribution of each cause to the overall burden of hearing loss remains unclear ( 8 ). Moreover, structural factors such as urbanization, environmental noise exposure, and access to healthcare services may further influence the distribution and detection of hearing loss across populations. In addition, contemporary public health frameworks emphasize that hearing loss is influenced not only by biological factors but also by broader social determinants of health, including socioeconomic status, access to healthcare, occupational exposures, and environmental conditions ( 9 , 10 ). These perspectives align with established models of health inequalities aand burden of disease, which conceptualize health outcomes as the result of cumulative exposures and structural constraints across the life course. These factors may contribute to inequalities in both the risk of hearing loss and access to timely diagnosis and rehabilitation. According to the Hearing Care Framework, lower socioeconomic position increases unemployment, reduces aid uptake, and amplifies occupational risks, calling for equitable legislation and community-based care ( 11 ). Several studies advocate targeted policies for vulnerable groups, including expanded access in rural/low-income areas and noise protections, to mitigate inequalities in hearing loss prevention and rehabilitation ( 9 , 10 ). In Kazakhstan, approximately 150,000 individuals are officially registered as having hearing impairments ( 12 ); however, experts estimate that the actual number may be as high as 250,000, reflecting potential underdiagnosis and limited population coverage of screening programs ( 13 ). The highest prevalence of hearing loss is observed among adults aged 18 to 59 years, accounting for 20% of all reported cases ( 12 ), which underscores the growing public health relevance of hearing impairment among the working-age population. However, official statistical data on hearing loss in Kazakhstan remain scarce, with limited national reporting and no comprehensive population-based surveillance system. This lack of robust data hampers accurate assessment of the true burden, early detection efforts, and effective planning of audiological services and preventive interventions at the national level. Moreover, existing evidence from Kazakhstan is fragmented and does not integrate epidemiological burden estimates with the evaluation of practical screening approaches, highlighting a critical gap in both data availability and implementation research. This gap is not only geographical but also methodological, as the lack of integrated approaches combining epidemiological burden assessment with validation of accessible screening tools limits the development of scalable and effective public health strategies. To improve the early identification of individuals with potential hearing problems, brief standardized tools such as the Hearing Handicap Inventory for Adults (HHIA) have been developed ( 8 ). Originally, it had 25 questions; however, there is a screening version that assesses the emotional and social impacts of hearing loss, and it is widely used for screening in both clinical and research settings ( 14 ). It offers a practical and reliable method to gauge the perceived handicap associated with hearing difficulties, particularly in large-scale population studies. However, the literature remains inconsistent regarding the effectiveness of different screening approaches. While some studies report high sensitivity and feasibility of self-reported tools in large-scale settings, others highlight limitations related to specificity, cultural adaptation, and variability across populations, underscoring the need for context-specific validation. Therefore, the aims of this study were twofold: (1) to evaluate the burden of hearing loss in Kazakhstan using Global Burden of Disease data, and (2) to assess the effectiveness of the HHIA-S screening tool in identifying audiometrically confirmed hearing loss among adults. By comparing subjective assessments with objective audiometric data, we seek to determine whether such a tool could be feasibly implemented in primary care settings to facilitate earlier detection and intervention, ultimately reducing the burden of hearing loss in the country.",
+      "order": 1
+    },
+    {
+      "section": "Study Design And Population",
+      "text": "To evaluate the burden of hearing loss, we analyzed publicly available data from the GBD, which is coordinated by the Institute for Health Metrics and Evaluation ( 15 , 16 ). The GBD provides comprehensive, comparable estimates of disease burden across countries and over time. We extracted Kazakhstan-specific estimates of the prevalence, years lived with disability (YLDs), and age-standardized rates of hearing loss for the period from 1990–2021. These data were used to assess temporal trends and the evolving burden of hearing loss at the national level. All GBD data were accessed via the Global Health Data Exchange (GHDx). 1 Additionally, to assess the effectiveness of screening tests in identifying hearing loss, a cross-sectional study was conducted between January and June of 2025 in the capital city and its nearby rural settlements. This study design was chosen as it allows for the evaluation of screening tool performance against a reference standard within a defined population at a single time point. Abovementioned areas represent both urban and rural populations with varying access to health services. The sample size was determined based on feasibility considerations and comparability with similar cross-sectional studies evaluating hearing screening tools; no formal a priori sample size calculation was performed.",
+      "order": 2
+    },
+    {
+      "section": "Participants Of The Study",
+      "text": "Participants aged 18 years and older were recruited using a convenience sampling approach from individuals present in or near primary healthcare facilities in Astana, the capital of Kazakhstan, or in rural areas near Astana at the time of the study. This approach was chosen to ensure that participants could immediately undergo audiometric testing following the completion of the screening questionnaire, thereby minimizing loss to follow-up. Individuals with severe cognitive or communication impairments that prevented reliable self-reporting or audiometric testing were excluded. Two specially trained research staff members approached potential participants, explained the purpose of the study, and obtained informed consent. The participants then completed the electronic or paper-based HHIA screening survey on tablets. After completing the questionnaire, they were invited to a separate room for audiometric evaluation via a portable audiometer.",
+      "order": 3
+    },
+    {
+      "section": "Survey Questionnaire",
+      "text": "The survey consisted of two parts: (1) questions assessing the sociodemographic information of the participants and (2) the HHIA screening version. The questions concerned age, sex, living area (urban or rural), and self-reported hearing difficulties. The Hearing Handicap Inventory for Adults – Screening Version (HHIA-S) is a validated 10-item questionnaire ( 17 , 18 ). The questionnaire was administered in Russian and Kazakh languages. The HHIA-S items were translated from English by bilingual researchers and compared with previously published Russian-language versions to ensure conceptual and linguistic accuracy ( 19 , 20 ). The Kazakh version was back-translated and reviewed by native speakers to confirm semantic equivalence. A pilot test was conducted before the main survey to verify the clarity, cultural appropriateness, and linguistic consistency of the questions, and minor wording adjustments were made accordingly. The results of the pilot study have been published elsewhere ( 21 ). The HHIA-S includes five items that reflect the emotional consequences of hearing loss and five that address social/situational difficulties. Each item is scored as “Yes” (4 points), “Sometimes” (2 points), or “No” (0 points), yielding a total score ranging from 0 to 40. A total score between 0 and 8 suggests a 13% likelihood of having hearing impairment. Scores ranging from 10 to 24 are associated with a 50% chance of hearing difficulties, whereas scores between 26 and 40 correspond to an estimated 84% probability of hearing impairment ( 22 ). In this study, a score of 10 or higher was considered indicative of hearing impairment. The HHIA-S has been shown to correlate well with audiometric hearing loss and is recommended for screening in community settings ( 23 ).",
+      "order": 4
+    },
+    {
+      "section": "Audiometric Assessment",
+      "text": "Pure-tone audiometry (PTA) is considered the gold standard in audiology diagnostics. In this study, PTA was performed using a clinical audiometer (Maico MA-28) equipped with AC headphones (DD65 v2) and bone-anchored headphones (B71 and B81) in a sound-isolated booth. Standard threshold audiometry involves the assessment of air-conduction thresholds at 250, 500, 1,000, 2000, 4,000, 6,000, and 8,000 Hz and bone-conduction thresholds at 500, 1000, 2000, and 4,000 Hz, with intensity adjusted in 5 dB increments. The testing protocol used an automatic signal-interruption mode (500 ms tone followed by a 500 ms pause) ( 24 ). The hearing threshold at each frequency was defined as the lowest intensity level detected by the participant in at least 50% of the presentations. All assessments were conducted by a trained otorhinolaryngologist specializing in audiology. Before testing, all participants underwent otoscopic examination to rule out cerumen impaction and inflammation of the external or middle ear. According to the national protocol classification, hearing loss is defined as a hearing threshold of 25 dB or more in at least one better-hearing ear, which corresponds to grade 1 hearing loss ( 24 ).",
+      "order": 5
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "The burden of disease was quantified via age-standardized prevalence rates (ASPRs) and age-standardized years lived with disability (YLD) rates across the target region. YLDs were calculated using a prevalence-based method, consistent with approaches used by the WHO and Global Burden of Disease (GBD) studies. This method involves multiplying the number of prevalent cases by the corresponding disability weight (DW) for each condition ( 25 ). Age standardization was applied to eliminate confounding effects of differences in population structure, such as variations in age and sex distributions, enabling valid comparisons across regions. All rates are expressed per 100,000 individuals and presented with 95% uncertainty intervals (UIs). These intervals represent the estimated range of values, considering data variability and modeling assumptions, and are derived from 1,000 simulation runs, with the 2.5th and 97.5th percentiles indicating the bounds of the 95% UI. These data were analyzed to assess temporal trends in hearing loss burden in Kazakhstan by comparing age-standardized prevalence and YLD rates between 1990 and 2021. For the cross-sectional study, descriptive analyses were used to summarize the characteristics of participants with and without audiometrically confirmed hearing loss. The binomial logistic regression models were constructed to assess associations between subjective hearing perception, HHIA-S scores, and audiometric outcomes, adjusting for potential confounders. Based on the HHIA-S score, a three-category variable was generated. A total score between 0 and 8 suggested a 13% likelihood of having hearing impairment. Scores ranging from 10 to 24 were associated with a 50% chance of hearing difficulties, whereas scores between 26 and 40 were associated with an estimated 84% probability of hearing impairment. For the multivariate logistic regression, variables were entered sequentially into the multivariable model. Multicollinearity was assessed using variance inflation factors. Model fit was evaluated using Hosmer–Lemeshow goodness-of-fit statistics. To assess the diagnostic performance of the HHIA-S screening tool, pure-tone audiometry was used as the gold standard for calculating sensitivity, specificity, predictive values, and the ROC area. Receiver operating characteristic (ROC) curves were plotted, and the area under the curve (AUC) was calculated to evaluate the diagnostic performance of subjective measures as screening tools. The significance level was set at 0.05, and all the statistical analyses were conducted via Stata version 16.0.",
+      "order": 6
+    },
+    {
+      "section": "Trends In The Prevalence And Disability Burden Of Hearing Loss",
+      "text": "Table 1 presents the age-standardized prevalence rates and years lived with disability (YLD) rates for overall hearing loss and its severity-specific subcategories in 1990 and 2021. In 1990, the total age-standardized prevalence of hearing loss was 17,201.56 per 100,000 [95% UI: 16,468.30–18,050.04], which remained relatively stable in 2021 at 17,212.58 [95% UI: 16,469.37–18,048.27]. Mild hearing loss constituted the majority of the burden in both years, with the prevalence increasing slightly from 12,321.21 to 12,370.63 per 100,000. In contrast, moderate, moderately severe, severe, and complete hearing loss all showed slightly lower prevalence. Age-standardized YLDs for total hearing loss also remained relatively stable, decreasing slightly from 517.27 [95% UI: 353.9–739.68] in 1990 to 512.62 [95% UI: 346.2–732.33] in 2021. Among the severity-specific categories, mild hearing loss accounted for the largest proportion of YLDs, and its burden slightly increased over time (from 168.41 to 169.22 per 100,000). Moderate and moderately severe hearing loss showed small reductions in YLDs, whereas profound hearing loss experienced a marginal increase from 55.55 to 55.90 per 100,000. Complete hearing loss and severe hearing loss showed minor declines in YLDs over the observed period.",
+      "order": 7
+    },
+    {
+      "section": "Screening Test Vs. Audiometric Diagnosis",
+      "text": "This study included 506 participants. According to the screening questionnaire, 114 (22.5%) respondents had hearing loss, whereas only 103 (20%) had hearing loss on audiometric testing ( Table 2 ). To assess the diagnostic performance of the HHIA-S screening tool, pure-tone audiometry was used as the gold standard. Table 2 presents the cross-classification of participants’ screening and audiometric results, along with calculated sensitivity, specificity, predictive values, and ROC area. The screening test demonstrated a sensitivity of 70.2% (95% CI: 60.9–78.4) and a specificity of 94.1% (95% CI: 91.3–96.2). The positive predictive value (PPV) was 77.7% (95% CI: 68.4–85.3), whereas the negative predictive value (NPV) reached 91.6% (95% CI: 88.4–94.1). These findings indicate that the screening tool is highly effective in identifying individuals without hearing loss and performs well in detecting true cases of hearing impairment. The high NPV suggests that individuals who screen negative are unlikely to have clinically significant hearing loss as detected by pure tone audiometry. However, it should be noted that some individuals may still report hearing difficulties despite normal audiometric thresholds, reflecting limitations of pure tone testing in capturing functional hearing problems. As for PPV, although it is somewhat lower, indicating the presence of false positives, it remains within an acceptable range for population-level screening tools. The screening score, treated as a continuous variable, demonstrated excellent discriminative power, with an AUC of 0.91 (95% CI: 0.87–0.94) based on ROC analysis ( Figure 1 ). However, when a predefined binary cutoff (score ≥ 10 indicating a positive screen) was used, the AUC decreased to 0.82 (95% CI: 0.78–0.87), reflecting the diagnostic performance at that specific threshold. Additionally, the optimal threshold for the screening score was determined via the Youden index, which maximizes the sum of sensitivity and specificity. The cutoff value ≥10 yielded the highest Youden index (J = 0.74), with sensitivity of 84% and specificity of 89%.",
+      "order": 8
+    },
+    {
+      "section": "Characteristics Of The Participants And Hearing Impairment Risk Factors Based On The Audiometric Test",
+      "text": "Among the 506 participants, 132 (26%) were males, and 98 (19%) were retired ( Table 3 ). In the cohort, 152 people answered the survey question “Do you have hearing problems?”; however, only 114 had test scores higher than 8. The mean age of the participants with hearing impairment was significantly greater than that of those without hearing impairment (53 ± 15 vs. 45 ± 15 years, p < 0.001). There was no significant difference in sex distribution between the groups: females accounted for 77 (75%) in the hearing-impaired group and 297 (74%) in the normal-hearing group ( p = 0.827). A significantly higher proportion of participants with hearing impairment resided in urban areas compared with those with normal hearing (78% vs. 64%, p = 0.008). As expected, a greater proportion of individuals with audiometric hearing loss reported perceiving hearing problems (73%) than did those without hearing loss (19%) ( p < 0.001). In terms of communication difficulties and psychosocial experiences, individuals with audiometric hearing loss reported significantly more challenges across all 10 screening questions. For example, difficulties understanding others were reported by 47% of the hearing-impaired group, compared with only 10% of the normal-hearing group ( p < 0.001). Similar trends were observed for problems watching TV or listening to the radio (26% vs. 3%), hearing in restaurants (40% vs. 3%), and experiencing frustration during conversations with family (4% vs. 5%) (all p < 0.001). Table 4 presents the results of logistic regression analyses assessing factors associated with hearing impairment based on audiometric testing. Both unadjusted and adjusted models were examined to identify independent predictors. The p -values presented in Table 4 were obtained using the Chi-square test for categorical variables (or Fisher’s exact if data were not suitable for the Chi-square test), and the Mann–Whitney U test for continuous variables that were not normally distributed. In the unadjusted model, age was significantly associated with hearing impairment (OR = 1.03, 95% CI [1.02–1.05], p < 0.001), suggesting that each additional year of age increased the odds of hearing impairment by approximately 3%. However, after adjustment for covariates, this association was attenuated and no longer statistically significant. As for gender, it showed no significant association with hearing impairment in either model. Living area demonstrated a significant effect. Individuals residing in urban areas (reference: rural) had higher odds of hearing impairment in the adjusted model (OR = 2.88, 95% CI [1.40–5.92], p = 0.004) compared with the unadjusted estimate (OR = 1.98, 95% CI [1.19–3.28], p = 0.008), suggesting that this variable retained its independent association after controlling for other factors. Self-perceived hearing loss showed a strong and consistent relationship with audiometrically confirmed impairment. The odds were over 11 times higher in the unadjusted model (OR = 11.3, 95% CI [6.88–18.7], p < 0.001) and remained significantly elevated in the adjusted model (OR = 3.21, 95% CI [1.6–6.29], p = 0.001). Regarding HHIA-S category, participants with a 50% chance of hearing difficulties had 25.9-fold higher odds of audiometric hearing impairment after adjustment (OR = 25.9, 95% CI [12.8–52.3], p < 0.001). Those with an 84% probability of hearing impairment exhibited an even stronger association (adjusted OR = 43.8, 95% CI [14.3–134.1], p < 0.001).",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "This study provides a comprehensive overview of the burden of hearing loss in Kazakhstan, highlighting trends in prevalence and disability, as well as the performance of a hearing loss screening questionnaire in comparison with audiometric evaluation. These findings indicate that the age-standardized prevalence and disability burden (YLD) of hearing loss have remained relatively stable over the past three decades, with mild hearing loss accounting for the majority of the burden. In addition, based on our cross-sectional survey, we assessed the performance of a hearing screening tool and its correlation with audiometrically confirmed hearing loss. The screening tool demonstrated high specificity and strong negative predictive value, indicating its potential utility for identifying individuals unlikely to have hearing loss. Moreover, audiometric hearing loss was significantly associated with self-reported hearing and communication difficulties in noisy environments and during social interactions, underscoring the tool’s clinical relevance and the social impact of undiagnosed impairment. The hearing loss burden in Kazakhstan aligns with the global patterns reported by the Global Burden of Disease (GBD) study, which also revealed that mild hearing loss constitutes the largest share of hearing impairment worldwide and that the overall burden has increased primarily because of population aging rather than increasing age-specific prevalence rates ( 1 ). These findings can also be interpreted within the Hearing Care Framework of social determinants of health, where hearing loss is influenced not only by biological aging but also by environmental exposures, access to healthcare services, and broader structural inequalities ( 11 ). Worldwide, the number of individuals living with hearing loss nearly doubled over the past three decades – rising from approximately 751.5 million in 1990 to 1.46 billion in 2019. During the same period, the age-standardized prevalence rate increased slightly, from 1,733.3 to 1,775.6 per 100,000 population ( 26 ). Importantly, while age-standardized rates reflect risk adjusted for population age structure, the absolute number of cases may still increase due to demographic growth and population aging. The relative stability in the age-standardized prevalence and YLDs of hearing loss in Kazakhstan reflects global patterns, where the overall increase in hearing loss burden is primarily attributed to population aging rather than rising age-specific prevalence. Despite the nearly twofold global increase in the number of individuals affected, the age-standardized prevalence rate has shown only a modest rise, suggesting that improvements in healthcare access and early detection may have mitigated sharper increases in age-adjusted rates. For the subgroup analysis by hearing loss type, the decline in the prevalence of more severe forms of hearing loss (moderate, moderately severe, and severe) may reflect improved access to healthcare services, earlier detection ( 27 ), and possibly the impact of public health measures aimed at reducing ototoxic exposure or untreated infections. In addition, between 2011 and 2019, Kazakhstan implemented two State Healthcare Development Programs that placed strong emphasis on public health education and promotion efforts ( 28 , 29 ). These initiatives may have contributed to increased public awareness of hearing loss and supported enhancements in how hearing impairments are identified and managed within the healthcare system. However, the slight increase in the burden of profound hearing loss suggests that challenges remain, particularly in ensuring timely intervention for individuals at the extreme end of the severity spectrum. This study also demonstrated that the HHIA-S screening questionnaire, while not a diagnostic instrument, exhibited strong screening performance, characterized by high specificity and a robust negative predictive value. Similar findings were reported in a population-based study conducted in Brazil, where the HHIA-S screening questionnaire exhibited a specificity of 75% and a sensitivity of 47%, indicating its better performance in correctly identifying individuals without hearing loss than detecting those with the condition ( 30 ). In contrast, another cross-sectional study demonstrated more favorable diagnostic characteristics of the HHIA-S, with a sensitivity of 89.1% and a specificity of 75.0% ( 31 ), suggesting that under certain conditions or in specific populations, the tool can achieve both high sensitivity and specificity. The findings of the current study support its utility as a population-level screening method in resource-constrained settings, where audiometric testing may not be feasible for all individuals. The sensitivity of the HHIA-S was 70.2%, indicating that one-third of hearing loss in this population is not detected by the screening tool alone. While this level of sensitivity is acceptable for a community-based screening tool, it highlights the potential for false-negative results. In practice, screening questionnaires such as the HHIA-S should be considered first-stage screening instruments rather than diagnostic tools. A high AUC in the results indicates strong overall discriminative capacity ( 32 ), consistent with prior studies that used self-reported hearing difficulty as a proxy for audiometrically confirmed hearing loss ( 33 , 34 ). Nevertheless, the lower PPV and some false positives suggest that while the tool is valuable for ruling out hearing loss, confirmatory testing remains necessary for definitive diagnosis. The findings of this study highlight the practical relevance of combining subjective and objective measures in screening strategies, particularly in settings where access to formal audiometric testing is limited. The sociodemographic and psychosocial correlates of hearing loss identified in our study also merit attention. Older age, urban residence, and self-reported hearing problems were independently associated with audiometric hearing loss, consistent with the global literature, which has shown that age-related hearing loss is the most common form of hearing impairment ( 35 , 36 ). Interestingly, urban residence emerged as a risk factor, potentially reflecting better access to diagnostic services or greater exposure to occupational and environmental noise or stress-related health effects. This observation may also reflect underlying health inequalities, including differential access to diagnostic services and varying exposure to environmental and occupational risk factors. Therefore, the relationship between urban living and hearing loss should be interpreted with caution. Urban living may be a marker of exposure to an unknown environmental or occupational factor, such as street traffic and machinery noise ( 37 , 38 ). Unfortunately, we do not have sufficient information on this. Therefore, there is a high possibility of uncontrolled confounding variables, and further studies are needed. The results of this study revealed strong associations between objective hearing impairment and self-reported communication difficulties, particularly in social settings such as restaurants, cinemas, and family conversations. These findings are aligned with studies that underscore the psychosocial impact of hearing loss, including social withdrawal, reduced quality of life, and increased risk of depression and cognitive decline ( 39 , 40 ). For example, participants who reported frustration during conversations or difficulty hearing in public venues were significantly more likely to have audiometrically confirmed hearing loss, highlighting the validity of these subjective experiences as important clinical indicators. These results emphasize the importance of integrating psychosocial dimensions into screening and management strategies. While some screening tools focus solely on auditory function, a more holistic approach that incorporates perceived hearing difficulties and their impact on daily functioning may enhance the identification of individuals most in need of intervention ( 41 , 42 ). Our findings also support the broader call by the World Health Organization (WHO) for population-based hearing screening programs and improved access to hearing aids and rehabilitative services, especially in low- and middle-income countries where the burden of unaddressed hearing loss remains disproportionately high ( 2 ). Despite the known benefits of early diagnosis and intervention, including improved communication, social engagement, and mental health, barriers such as stigma ( 43 ), lack of awareness ( 44 ), and limited audiological infrastructure continue to hinder progress. Similar barriers have been reported in both high-income and low- and middle-income settings, although their magnitude varies depending on health system capacity and access to audiological services, highlighting the importance of context-specific approaches. These findings can be interpreted within the framework of social determinants of health and health inequality models, which emphasize that access to diagnosis and rehabilitation is shaped by structural, socioeconomic, and health system factors. From a policy perspective, our results support the feasibility of integrating low-cost, questionnaire-based screening tools into routine primary care, particularly in resource-constrained settings. Against this background, the results of our study gain particular relevance in Kazakhstan, where recent reforms in the provision of care for patients with hearing impairment are currently underway. In September 2025, legislative amendments were adopted introducing a more functional approach to the determination of hearing impairment. According to the new regulations, individuals with clinically confirmed hearing loss are eligible to receive state-funded hearing aids. Importantly, this applies even in the absence of a formally established disability status. This step reflects a gradual shift in national policy toward expanding access to hearing rehabilitation and aligns with international recommendations aimed at reducing the burden of untreated hearing loss. However, the effective implementation of these measures faces several systemic challenges. Currently, the country lacks a national register of patients with hearing impairments, which complicates accurate estimation of disease prevalence, monitoring of hearing aid needs, and healthcare resource planning. Furthermore, the absence of standardized patient pathways between levels of care may lead to delays in diagnosis and referral to specialists. In this context, the introduction of simple screening tools, such as the HHIA-S, into routine primary healthcare practice could represent an important first step toward building a more structured system for identifying hearing impairments. This brief questionnaire could be used during preventive check-ups, chronic disease visits, or geriatric consultations. As it does not require specialized equipment and requires minimal time, it can be administered by general practitioners and trained nurses, making it particularly suitable for resource-limited settings and areas with a shortage of audiological specialists. An additional direction involves the implementation of community-level screening programs to expand population coverage, particularly among older adults and residents of rural or remote areas. Such initiatives could be delivered through mobile medical teams, public health campaigns, or integration with screening programs for other chronic diseases. These approaches may help reduce geographical barriers to healthcare access and improve public awareness of hearing health. Early detection through systematic screening is critical, as hearing loss is often diagnosed at advanced stages when communication difficulties already significantly affect quality of life, social functioning, and mental wellbeing. Earlier identification can improve rehabilitation outcomes and enhance the effectiveness of recently expanded hearing aid programs. Additionally, the implementation of structured screening at the primary healthcare level could serve as a foundation for establishing a national monitoring system for hearing impairments. In the long term, this may include the development of an electronic patient registry integrated with existing digital health systems, as well as the establishment of standardized referral pathways across levels of care. Such measures would improve case detection, enhance access to rehabilitative services, and support more efficient healthcare resource allocation. Beyond its practical implications, this study contributes to the literature by providing an integrated perspective that combines epidemiological burden assessment with the evaluation of a scalable screening tool within a real-world healthcare context. Future research should incorporate longitudinal designs to assess the progression of hearing loss over time and evaluate the long-term effectiveness of screening interventions. In addition, studies integrating socioeconomic, environmental, and health system variables are needed to better understand structural determinants and inform targeted public health strategies. In the long term, the development of these mechanisms could substantially strengthen the healthcare system’s capacity to respond to the growing burden of hearing loss, particularly in the context of population aging and increasing demand for rehabilitative services.",
+      "order": 10
+    },
+    {
+      "section": "Strengths And Limitations",
+      "text": "This study provides the first comprehensive assessment of hearing loss in Kazakhstan, combining Global Burden of Disease data with original population-based survey results. A key strength lies in its dual design: the use of GBD estimates allowed for long-term trend analysis, whereas the cross-sectional survey provided novel insights into the performance of the HHIA-S screening tool in real-world settings. The study also benefited from standardized audiometric testing performed by trained specialists, ensuring high-quality objective measurements. At the same time, several limitations must be acknowledged. The cross-sectional survey included a relatively small sample size ( n = 506) and was geographically limited to Astana and nearby areas, which may affect its representativeness at the national level. Moreover, no formal a priori sample size calculation was done. The sample size was determined primarily on feasibility grounds and to ensure comparability with similar cross-sectional studies evaluating hearing screening tools. As a result, the statistical power to detect certain associations may be limited, and the findings should be interpreted with appropriate caution. Future studies with larger, systematically determined sample sizes would strengthen the robustness and generalizability of the results. Recruitment through primary healthcare facilities may have introduced selection bias, underrepresenting individuals who do not seek medical care, especially in remote rural areas. In addition, convenience sampling reduces the external validity of findings. The sample was also skewed toward women (74%), potentially influencing prevalence estimates and associations with risk factors. The cross-sectional design limits the ability to establish causal relationships between variables. Furthermore, important sociodemographic covariates, such as education, income, and occupation, were not collected, which may have provided additional explanatory power. Due to the study design and available data, formal robustness or sensitivity analyses could not be performed; therefore, the findings should be interpreted with caution and may not be directly generalizable to the national population. Future studies with larger, more representative samples are needed to confirm these results. Another limitation relates to the self-reported HHIA-S screening tool: although validated, it relies on subjective perception, which can be influenced by mood, cognitive state, or stress. Future studies may benefit from combining questionnaires with simple clinical methods such as the whisper test to improve sensitivity. Additionally, while urban residence emerged as a significant risk factor, the study did not directly measure environmental noise, occupational exposure, or other ecological determinants, restricting the interpretation of this finding. Despite these limitations, this study provides valuable evidence for improving hearing screening strategies in Kazakhstan and highlights the need for larger, more representative, and longitudinal studies to strengthen the evidence base for public health interventions.",
+      "order": 11
+    },
+    {
+      "section": "Conclusion",
+      "text": "Hearing loss remains a significant but underrecognized public health issue in Kazakhstan, with mild forms constituting the largest proportion of the burden. The long-term trends in age-standardized prevalence and YLDs have remained relatively stable, reflecting global patterns driven primarily by demographic aging. The cross-sectional component of the study demonstrated that the HHIA-S screening tool offers high specificity and reasonable diagnostic utility, particularly in ruling out hearing loss, although its sensitivity remains moderate. These results underscore the importance of integrating simple and accessible screening tools such as the HHIA-S into primary care settings, especially in rural or underserved areas, to facilitate early identification and referral. To address this growing need, Kazakhstan should prioritize the expansion of community-based screening initiatives, improve public awareness, and strengthen audiological services across all levels of the health system.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "ref1",
+      "label": "1.",
+      "authors": [
+        "Haile LM",
+        "Kamenov K",
+        "Briant PS",
+        "Orji AU",
+        "Steinmetz JD",
+        "Abdoli A",
+        "et al."
+      ],
+      "title": "Hearing loss prevalence and years lived with disability, 1990–2019: findings from the global burden of disease study 2019",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "397",
+      "fpage": "996",
+      "lpage": "1009",
+      "doi": "10.1016/S0140-6736(21)00516-X",
+      "pmid": "33714390",
+      "pmc_id": "PMC7960691"
+    },
+    {
+      "ref_id": "ref2",
+      "label": "2.",
+      "journal": "World Report on Hearing",
+      "year": "2021"
+    },
+    {
+      "ref_id": "ref3",
+      "label": "3.",
+      "authors": [
+        "Zahnert T"
+      ],
+      "title": "The differential diagnosis of hearing loss",
+      "journal": "Dtsch Arztebl Int",
+      "year": "2011",
+      "volume": "108",
+      "fpage": "433",
+      "lpage": "43; quiz 444",
+      "doi": "10.3238/arztebl.2011.0433",
+      "pmid": "21776317",
+      "pmc_id": "PMC3139416"
+    },
+    {
+      "ref_id": "ref4",
+      "label": "4.",
+      "authors": [
+        "Wilson BS",
+        "Tucci DL",
+        "Merson MH",
+        "O'Donoghue GM"
+      ],
+      "title": "Global hearing health care: new findings and perspectives",
+      "journal": "Lancet",
+      "year": "2017",
+      "volume": "390",
+      "fpage": "2503",
+      "lpage": "15",
+      "doi": "10.1016/S0140-6736(17)31073-5",
+      "pmid": "28705460"
+    },
+    {
+      "ref_id": "ref5",
+      "label": "5.",
+      "authors": [
+        "Livingston G",
+        "Sommerlad A",
+        "Orgeta V",
+        "Costafreda SG",
+        "Huntley J",
+        "Ames D",
+        "et al."
+      ],
+      "title": "Dementia prevention, intervention, and care",
+      "journal": "Lancet",
+      "year": "2017",
+      "volume": "390",
+      "fpage": "2673",
+      "lpage": "734",
+      "doi": "10.1016/s0140-6736(17)31363-6",
+      "pmid": "28735855"
+    },
+    {
+      "ref_id": "ref6",
+      "label": "6.",
+      "authors": [
+        "Wilson BS",
+        "Tucci DL"
+      ],
+      "title": "Addressing the global burden of hearing loss",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "397",
+      "fpage": "945",
+      "lpage": "7",
+      "doi": "10.1016/S0140-6736(21)00522-5",
+      "pmid": "33714376"
+    },
+    {
+      "ref_id": "ref7",
+      "label": "7.",
+      "authors": [
+        "Prasad K",
+        "Borre ED",
+        "Dillard LK",
+        "Ayer A",
+        "der C",
+        "Bainbridge KE",
+        "et al."
+      ],
+      "title": "Priorities for hearing loss prevention and estimates of global cause-specific burdens of hearing loss: a systematic rapid review",
+      "journal": "Lancet Glob Health",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "e217",
+      "lpage": "25",
+      "doi": "10.1016/S2214-109X(23)00514-4",
+      "pmid": "38245112"
+    },
+    {
+      "ref_id": "ref8",
+      "label": "8.",
+      "authors": [
+        "Wilson BS",
+        "Tucci DL",
+        "O'Donoghue GM",
+        "Merson MH",
+        "Frankish H"
+      ],
+      "title": "A lancet commission to address the global burden of hearing loss",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "393",
+      "fpage": "2106",
+      "lpage": "8",
+      "doi": "10.1016/S0140-6736(19)30484-2",
+      "pmid": "30827785"
+    },
+    {
+      "ref_id": "ref9",
+      "label": "9.",
+      "authors": [
+        "Sharp I",
+        "Tsimpida D",
+        "Lad M",
+        "Nuttall HE",
+        "Slade K"
+      ],
+      "title": "The role of socio-economic and lifestyle factors in hearing function in middle-aged adults",
+      "journal": "PLoS One",
+      "year": "2026",
+      "volume": "21",
+      "fpage": "e0344788",
+      "doi": "10.1371/journal.pone.0344788",
+      "pmid": "41931567",
+      "pmc_id": "PMC13048478"
+    },
+    {
+      "ref_id": "ref10",
+      "label": "10.",
+      "authors": [
+        "Phanguphangu M",
+        "Ross AJ",
+        "Smythe T"
+      ],
+      "title": "Association between social determinants of health and hearing loss in south African children: A secondary data analysis",
+      "journal": "PLOS global public health",
+      "year": "2025",
+      "volume": "5",
+      "fpage": "e0004790",
+      "doi": "10.1371/journal.pgph.0004790",
+      "pmid": "40554589",
+      "pmc_id": "PMC12186881"
+    },
+    {
+      "ref_id": "ref11",
+      "label": "11.",
+      "authors": [
+        "Amlani AM"
+      ],
+      "journal": "Effect of Determinants of Health on the Hearing care Framework: an economic Perspective",
+      "year": "2023",
+      "fpage": "232",
+      "lpage": "60",
+      "doi": "10.1055/s-0043-1769611",
+      "pmc_id": "PMC10361793",
+      "pmid": "37484988"
+    },
+    {
+      "ref_id": "ref12",
+      "label": "12.",
+      "authors": [
+        "Суатбаева Р",
+        "Джанваху О",
+        "Таукелева С",
+        "Тогузбаева Д"
+      ],
+      "title": "Современные аспекты речевой аудиометрии (Обзор литературы)",
+      "journal": "Вестник Казахского Национального медицинского университета",
+      "year": "2020",
+      "volume": "3",
+      "fpage": "492",
+      "lpage": "6"
+    },
+    {
+      "ref_id": "ref13",
+      "label": "13.",
+      "authors": [
+        "Bukenova Z",
+        "Orazova G",
+        "Cansiz H",
+        "Kassenova D",
+        "Suleimenova R",
+        "Rakhmetova V"
+      ],
+      "title": "Comparative analysis of methods of audiological screening of the adult population: global and Kazakhstani experience",
+      "journal": "J Health Dev",
+      "year": "2024",
+      "volume": "2",
+      "fpage": "52",
+      "lpage": "60",
+      "doi": "10.32921/2225-9929-2024-2-56-52-60"
+    },
+    {
+      "ref_id": "ref14",
+      "label": "14.",
+      "authors": [
+        "Newman CW",
+        "Weinstein BE",
+        "Jacobson GP",
+        "Hug GA"
+      ],
+      "title": "The hearing handicap inventory for adults: psychometric adequacy and audiometric correlates",
+      "journal": "Ear Hear",
+      "year": "1990",
+      "volume": "11",
+      "fpage": "430",
+      "lpage": "3",
+      "doi": "10.1097/00003446-199012000-00004",
+      "pmid": "2073976"
+    },
+    {
+      "ref_id": "ref15",
+      "label": "15.",
+      "authors": [
+        "Naghavi M",
+        "Ong KL",
+        "Aali A",
+        "Ababneh HS",
+        "Abate YH",
+        "Abbafati C",
+        "et al."
+      ],
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the global burden of disease study 2021",
+      "journal": "Lancet",
+      "year": "2024",
+      "volume": "403",
+      "fpage": "2100",
+      "lpage": "32",
+      "doi": "10.1016/S0140-6736(24)00367-2",
+      "pmid": "38582094",
+      "pmc_id": "PMC11126520"
+    },
+    {
+      "ref_id": "ref16",
+      "label": "16.",
+      "authors": [
+        "Ferrari AJ",
+        "Santomauro DF",
+        "Aali A",
+        "Abate YH",
+        "Abbafati C",
+        "Abbastabar H",
+        "et al."
+      ],
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the global burden of disease study 2021",
+      "journal": "Lancet",
+      "year": "2024",
+      "volume": "403",
+      "fpage": "2133",
+      "lpage": "61",
+      "doi": "10.1016/s0140-6736(24)00757-8",
+      "pmid": "38642570",
+      "pmc_id": "PMC11122111"
+    },
+    {
+      "ref_id": "ref17",
+      "label": "17.",
+      "authors": [
+        "Ventry IM",
+        "Weinstein BE"
+      ],
+      "title": "Identification of elderly people with hearing problems",
+      "journal": "ASHA",
+      "year": "1983",
+      "volume": "25",
+      "fpage": "37",
+      "lpage": "42",
+      "pmid": "6626295"
+    },
+    {
+      "ref_id": "ref18",
+      "label": "18.",
+      "authors": [
+        "Weinstein BE"
+      ],
+      "title": "Validity of a screening protocol for identifying elderly people with hearing problems",
+      "journal": "ASHA",
+      "year": "1986",
+      "volume": "28",
+      "fpage": "41",
+      "lpage": "5",
+      "pmid": "3718608"
+    },
+    {
+      "ref_id": "ref19",
+      "label": "19.",
+      "authors": [
+        "Щербакова ЯЛ",
+        "Янов ЮК",
+        "Кузовков ВЕ",
+        "Мегрелишвили СМ"
+      ],
+      "title": "Оценка качества жизни пациентов с асимметричным слухом после кохлеарной имплантации",
+      "journal": "РЕДАКЦИОННЫЙ СОВЕТ",
+      "year": "2014",
+      "fpage": "99"
+    },
+    {
+      "ref_id": "ref20",
+      "label": "20.",
+      "authors": [
+        "Vladimirova T",
+        "Postnikov M",
+        "Kurenkov A",
+        "Martynova A"
+      ],
+      "title": "Effectiveness of screening tools employed for identifying hearing loss in older adults",
+      "journal": "Archiv Euromedica",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "90",
+      "lpage": "5",
+      "doi": "10.35630/2199-885X/2021/11/1.21"
+    },
+    {
+      "ref_id": "ref21",
+      "label": "21.",
+      "authors": [
+        "Bukenova Z",
+        "Kassenova D",
+        "Panahian V",
+        "Suatbaeva R",
+        "Mussina A",
+        "Suleimenova R",
+        "et al."
+      ],
+      "title": "Kul'turno-jazykovaja adaptacija i validacija kazahojazychnyh versij oprosnikov HHIE-S i HHIA-S dlja skrininga sluha [in Russia]",
+      "journal": "J. Health Dev",
+      "year": "2025",
+      "volume": "4",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.32921/2663-1776-2025-60-4-jhd014"
+    },
+    {
+      "ref_id": "ref22",
+      "label": "22.",
+      "authors": [
+        "Lichtenstein MJ",
+        "Bess FH",
+        "Logan SA"
+      ],
+      "title": "Validation of screening tools for identifying hearing-impaired elderly in primary care",
+      "journal": "JAMA",
+      "year": "1988",
+      "volume": "259",
+      "fpage": "2875",
+      "lpage": "8",
+      "doi": "10.1001/jama.1988.03720190043029",
+      "pmid": "3285039"
+    },
+    {
+      "ref_id": "ref23",
+      "label": "23.",
+      "authors": [
+        "Tomioka K",
+        "Ikeda H",
+        "Hanaie K",
+        "Morikawa M",
+        "Iwamoto J",
+        "Okamoto N",
+        "et al."
+      ],
+      "title": "The hearing handicap inventory for elderly-screening (HHIE-S) versus a single question: reliability, validity, and relations with quality of life measures in the elderly community, Japan",
+      "journal": "Qual Life Res",
+      "year": "2013",
+      "volume": "22",
+      "fpage": "1151",
+      "lpage": "9",
+      "doi": "10.1007/s11136-012-0235-2",
+      "pmid": "22833152"
+    },
+    {
+      "ref_id": "ref24",
+      "label": "24.",
+      "journal": "Clinical Protocol \"Sensorineural and Mixed Hearing loss in Adults\"",
+      "year": "2020"
+    },
+    {
+      "ref_id": "ref25",
+      "label": "25.",
+      "journal": "WHO Methods and data Sources for Global Burden of Disease Estimates 2000–2019",
+      "year": "2020"
+    },
+    {
+      "ref_id": "ref26",
+      "label": "26.",
+      "authors": [
+        "Li W",
+        "Zhao Z",
+        "Lu Z",
+        "Ruan W",
+        "Yang M",
+        "Wang D"
+      ],
+      "title": "The prevalence and global burden of hearing loss in 204 countries and territories, 1990–2019",
+      "journal": "Environ Sci Pollut Res",
+      "year": "2022",
+      "volume": "29",
+      "fpage": "12009",
+      "lpage": "16",
+      "doi": "10.1007/s11356-021-16582-8",
+      "pmid": "34558041"
+    },
+    {
+      "ref_id": "ref27",
+      "label": "27.",
+      "journal": "On Measures to Improve the provision of Audiological Assistance to the Population of the Republic of Kazakhstan",
+      "year": "2010"
+    },
+    {
+      "ref_id": "ref28",
+      "label": "28.",
+      "year": "2010"
+    },
+    {
+      "ref_id": "ref29",
+      "label": "29.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "ref30",
+      "label": "30.",
+      "authors": [
+        "Menegotto IH",
+        "Soldera CLC",
+        "Anderle P",
+        "Anhaia TC"
+      ],
+      "title": "Correlation between hearing loss and the results of the following questionnaires: hearing handicap inventory for the adults-screening version HHIA-S and hearing handicap inventory for the elderly-screening version-HHIE-S",
+      "journal": "Arquivos Internacionais de Otorrinolaringologia",
+      "year": "2011",
+      "volume": "15",
+      "fpage": "319",
+      "lpage": "26",
+      "doi": "10.1590/S1809-48722011000300009"
+    },
+    {
+      "ref_id": "ref31",
+      "label": "31.",
+      "authors": [
+        "Servidoni AB",
+        "de Oliveira Conterno L"
+      ],
+      "title": "Hearing loss in the elderly: is the hearing handicap inventory for the elderly-screening version effective in diagnosis when compared to the audiometric test?",
+      "journal": "Int. Arch. Otorhinolaryngol.",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "1",
+      "lpage": "8",
+      "doi": "10.1055/s-0037-1601427",
+      "pmid": "29371892",
+      "pmc_id": "PMC5783690"
+    },
+    {
+      "ref_id": "ref32",
+      "label": "32.",
+      "authors": [
+        "Ling CX",
+        "Huang J",
+        "Zhang H"
+      ],
+      "title": "AUC: a Statistically Consistent and more Discriminating Measure than Accuracy",
+      "journal": "LJCAI",
+      "year": "2003",
+      "volume": "3",
+      "fpage": "519",
+      "lpage": "24"
+    },
+    {
+      "ref_id": "ref33",
+      "label": "33.",
+      "authors": [
+        "Zhou X",
+        "Fu X",
+        "Zhang Y",
+        "Zhou J",
+        "Cui Y",
+        "Liu B"
+      ],
+      "title": "Optimization of utilizing the HHIE-S for hearing screening in older people: a cross-sectional study of associated factors",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "18080",
+      "doi": "10.1038/s41598-025-02567-x",
+      "pmid": "40413230",
+      "pmc_id": "PMC12103518"
+    },
+    {
+      "ref_id": "ref34",
+      "label": "34.",
+      "authors": [
+        "Faraji-Khiavi F",
+        "Bayat A",
+        "Dashti R",
+        "Dindamal B",
+        "Kalkhajeh SG"
+      ],
+      "title": "Consistency of two versions of hearing handicap inventory for elderly (HHIE and HHIE-S) with degree of hearing loss (HL)",
+      "journal": "Hearing Balance Commun.",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "210",
+      "lpage": "5",
+      "doi": "10.1080/21695717.2023.2168417"
+    },
+    {
+      "ref_id": "ref35",
+      "label": "35.",
+      "authors": [
+        "Guerrieri M",
+        "Di Mauro R",
+        "Di Girolamo S",
+        "Di Stadio A"
+      ],
+      "journal": "Biochemistry and Cell Biology of Ageing: Part IV, Clinical Science",
+      "year": "2023",
+      "fpage": "279",
+      "lpage": "90",
+      "doi": "10.1007/978-3-031-26576-1_12",
+      "pmid": "37120472"
+    },
+    {
+      "ref_id": "ref36",
+      "label": "36.",
+      "authors": [
+        "Bowl MR",
+        "Dawson SJ"
+      ],
+      "title": "Age-related hearing loss",
+      "journal": "Cold Spring Harb Perspect Med",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "a033217",
+      "doi": "10.1101/cshperspect.a033217",
+      "pmid": "30291149",
+      "pmc_id": "PMC6671929"
+    },
+    {
+      "ref_id": "ref37",
+      "label": "37.",
+      "authors": [
+        "Wang T-C",
+        "Chang TY",
+        "Tyler RS",
+        "Hwang BF",
+        "Chen YH",
+        "Wu CM",
+        "et al."
+      ],
+      "title": "Association between exposure to road traffic noise and hearing impairment: a case-control study",
+      "journal": "J Environ Health Sci Eng",
+      "year": "2021",
+      "volume": "19",
+      "fpage": "1483",
+      "lpage": "9",
+      "doi": "10.1007/s40201-021-00704-y",
+      "pmid": "34900282",
+      "pmc_id": "PMC8617107"
+    },
+    {
+      "ref_id": "ref38",
+      "label": "38.",
+      "authors": [
+        "Feder K",
+        "Michaud D",
+        "McNamee J",
+        "Fitzpatrick E",
+        "Davies H",
+        "Leroux T"
+      ],
+      "title": "Prevalence of hazardous occupational noise exposure, hearing loss, and hearing protection usage among a representative sample of working Canadians",
+      "journal": "J Occup Environ Med",
+      "year": "2017",
+      "volume": "59",
+      "fpage": "92",
+      "lpage": "113",
+      "doi": "10.1097/JOM.0000000000000920",
+      "pmid": "28045804",
+      "pmc_id": "PMC5704673"
+    },
+    {
+      "ref_id": "ref39",
+      "label": "39.",
+      "authors": [
+        "Cormier K",
+        "Brennan C",
+        "Sharma A"
+      ],
+      "title": "Hearing loss and psychosocial outcomes: influences of social emotional aspects and personality",
+      "journal": "PLoS One",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "e0304428",
+      "doi": "10.1371/journal.pone.0304428",
+      "pmid": "38865302",
+      "pmc_id": "PMC11168651"
+    },
+    {
+      "ref_id": "ref40",
+      "label": "40.",
+      "authors": [
+        "Jayakody DMP",
+        "Wishart J",
+        "Stegeman I",
+        "Eikelboom R",
+        "Moyle TC",
+        "Yiannos JM",
+        "et al."
+      ],
+      "title": "Is there an association between untreated hearing loss and psychosocial outcomes?",
+      "journal": "Front Aging Neurosci",
+      "year": "2022",
+      "volume": "14",
+      "fpage": "868673",
+      "doi": "10.3389/fnagi.2022.868673",
+      "pmid": "35663574",
+      "pmc_id": "PMC9162786"
+    },
+    {
+      "ref_id": "ref41",
+      "label": "41.",
+      "authors": [
+        "Campos JL",
+        "Launer S"
+      ],
+      "title": "From healthy hearing to healthy living: A holistic approach",
+      "journal": "Ear Hear",
+      "year": "2020",
+      "volume": "41",
+      "fpage": "99S",
+      "lpage": "106S",
+      "doi": "10.1097/AUD.0000000000000931",
+      "pmid": "33105264"
+    },
+    {
+      "ref_id": "ref42",
+      "label": "42.",
+      "authors": [
+        "Bray V"
+      ],
+      "title": "A holistic approach to managing hearing loss and its comorbidities",
+      "journal": "Hearing J.",
+      "year": "2018",
+      "volume": "71",
+      "fpage": "14",
+      "lpage": "7",
+      "doi": "10.1097/01.HJ.0000549524.79131.ab"
+    },
+    {
+      "ref_id": "ref43",
+      "label": "43.",
+      "authors": [
+        "da Silva JC",
+        "de Araujo CM",
+        "Lüders D",
+        "Santos RS",
+        "Moreira de Lacerda AB",
+        "José MR",
+        "et al."
+      ],
+      "title": "The self-stigma of hearing loss in adults and older adults: a systematic review",
+      "journal": "Ear Hear",
+      "year": "2023",
+      "volume": "44",
+      "fpage": "1301",
+      "lpage": "10",
+      "doi": "10.1097/AUD.0000000000001398",
+      "pmid": "37381145"
+    },
+    {
+      "ref_id": "ref44",
+      "label": "44.",
+      "authors": [
+        "Carlson ML",
+        "Nassiri AM",
+        "Marinelli JP",
+        "Lohse CM",
+        "Sydlowski SA"
+      ],
+      "title": "Awareness, perceptions, and literacy surrounding hearing loss and hearing rehabilitation among the adult population in the United States",
+      "journal": "Otol Neurotol",
+      "year": "2022",
+      "volume": "43",
+      "fpage": "e323",
+      "lpage": "30",
+      "doi": "10.1097/MAO.0000000000003473",
+      "pmid": "35061637",
+      "pmc_id": "PMC8843398"
+    }
+  ]
+}

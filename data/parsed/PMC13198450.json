@@ -1,0 +1,759 @@
+{
+  "metadata": {
+    "title": "In vitro antimicrobial activity of Naja cardiotoxin peptide-3 against clinical isolates from canine otitis",
+    "authors": [
+      "Costanza Spadini",
+      "Nicolò Mezzasalma",
+      "Alessandro Cupola",
+      "Simone Taddei",
+      "Clotilde Silvia Cabassi"
+    ],
+    "journal": "Veterinary Research Communications",
+    "year": "2026",
+    "doi": "10.1007/s11259-026-11284-3",
+    "pmc_id": "PMC13198450",
+    "pmid": "42176132",
+    "full_text_available": true,
+    "section_count": 18,
+    "reference_count": 40
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Canine otitis externa is a common multifactorial condition frequently complicated by bacterial and fungal infections. The increasing prevalence of antimicrobial resistance has reduced the effectiveness of conventional therapies, underscoring the need for alternative treatment strategies. Antimicrobial peptides represent a promising option due to their broad-spectrum activity and low propensity to induce resistance. Among these, the Naja Cardiotoxin Peptide-3 (NCP-3), derived from cardiotoxin 1 of the Chinese cobra ( Naja atra subsp. atra ), has demonstrated potent bactericidal and fungicidal activity with minimal cytotoxicity. In this study, the in vitro antimicrobial activity of NCP-3 was evaluated against clinical isolates obtained from dogs with otitis externa, including multidrug-resistant bacteria and Malassezia pachydermatis . NCP-3 was effective against all reference tested strains except Proteus mirabilis . Among field strains, the highest bactericidal activity was observed on Staphylococcus pseudintermedius (MBC₅₀=3.1 µg/mL; MBC₉₀=6.3 µg/mL), whereas higher concentrations were required to inhibit Pseudomonadaceae (MBC₅₀=12.5 µg/mL). Neither MBC₅₀ nor MBC₉₀ were achieved for Enterobacteriaceae or M. pachydermatis . Time-kill assays demonstrated rapid bactericidal activity of NCP-3 against both reference and clinical Gram-positive strains, with complete inhibition achieved within five minutes. In contrast, Gram-negative reference strains required longer exposure times, with a partial inhibition only at 120 min. Overall, these findings indicate that NCP-3 exhibits stronger antimicrobial activity against Gram-positive bacteria, including resistant strains, than on Gram-negative bacteria and M. pachydermatis field strains. NCP-3 may therefore represent a promising candidate as therapeutic agent for canine otitis externa caused by Gram-positive pathogens, supporting further investigation into its potential applications in veterinary medicine. Supplementary Information The online version contains supplementary material available at 10.1007/s11259-026-11284-3.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Canine otitis externa is one of the most common diseases in companion animals, characterized by a multifactorial etiology and often triggered or exacerbated by bacterial and yeast infections (Saraiva et al. 2025 ). Both Gram-positive bacteria such as Staphylococcus spp., Streptococcus spp., and Enterococcus spp. and Gram-negative bacteria, including Pseudomonas spp., Proteus spp., Escherichia coli , and other members of the Enterobacteriaceae family, are commonly implicated in canine otitis. In addition, the zoonotic potential of certain Staphylococcus species isolated from canine otitis externa and other dermatological conditions is well documented (Dégi et al. 2013 ; Popa et al. 2025 ). Current guidelines for the management of ear infections in dogs recommend topical therapy for both otitis externa and otitis media (Guardabassi et al. 2008 ). The concentration of antimicrobials in topical formulations depends on several factors, including the antimicrobial spectrum of the active compound, the causative microorganism, and the integrity of the tympanic membrane (Guardabassi et al. 2008 ). In recent years, increasing concern has focused on the rising prevalence of antimicrobial-resistant bacteria, particularly Staphylococcus spp. and Pseudomonas spp., in cases of canine otitis externa (Bourély et al. 2019 ; Ghibaudo et al. 2016 ) which has significantly reduced the effectiveness of conventional antimicrobial therapies. This phenomenon is largely attributed to inappropriate or prolonged antibiotic use, which promotes the development of bacterial resistance mechanisms, such as efflux pumps in Pseudomonas aeruginosa (Morita et al. 2013 ). Yeasts, including Malassezia spp. and Candida spp., also play a crucial role in the pathogenesis of otitis externa (Guillot and Bond 2020 ; Saridomichelakis et al. 2007 ; Weese 2013 ). Of particular concern is the increasing number of Malassezia spp. strains showing resistance to commonly used azole antifungals (Kano et al. 2019 ), potentially compromising the efficacy of standard antifungal treatments. The growing issue of antimicrobial resistance has prompted increasing interest in alternative therapeutic strategies for the management of infections caused by resistant bacteria and fungi (Callaway et al. 2021 ; Mezzasalma et al. 2025 ; Spadini et al. 2025 ). Among these, antimicrobial peptides (AMPs) have emerged as promising candidates due to their broad-spectrum activity against Gram-positive and Gram-negative bacteria, as well as viruses, fungi, and parasites (Sala et al. 2018 ). AMPs may serve as alternatives to conventional antibiotics or act synergistically with them, owing to their rapid mode of action and relatively low propensity to induce resistance (Romani et al. 2013 ; Yeaman and Yount 2003 ). Cationic antimicrobial peptides have attracted considerable attention (Hiemstra and Zaat 2013 ). These peptides initially interact with negatively charged components on microbial surfaces through electrostatic interactions (Brogden 2005 ). In Gram-negative bacteria, they bind to anionic phospholipids and phosphate groups of lipopolysaccharides, whereas in Gram-positive bacteria, they primarily interact with teichoic acids within the peptidoglycan layer. This initial interaction ultimately leads to pore formation, membrane disruption, and microbial cell death (Sato and Feix 2006 ; Zasloff 2019 ). In addition, certain AMPs exhibit antifungal activity by inhibiting the synthesis of galactosylceramide, a key component of fungal cell membranes, thereby impairing membrane integrity and inhibiting fungal growth (Thevissen et al. 2004 ). Antimicrobial peptides are synthesized in various tissues of vertebrates and invertebrates as part of the innate immune response, such as defensins, and have also been identified in animal venoms, where they function as toxins (Dubovskii et al. 2015 ; Sala et al. 2018 ). When isolated from venom, AMPs often retain antimicrobial activity while exhibiting reduced cytotoxicity (Dubovskii et al. 2015 ). A novel family of AMPs has been developed based on cardiotoxin-1 (CTX-1) from the Chinese cobra ( Naja atra subsp. atra ) (Sala et al. 2018 ). These peptides demonstrated potent antibacterial and antifungal activity against a broad panel of bacterial and fungal reference strains, with minimal cytotoxic and hemolytic effects on eukaryotic cells. Among them, Naja cardiotoxin peptide-3 (NCP-3) exhibited the highest bactericidal and fungicidal activity, as well as rapid onset of action. Furthermore, NCP-3 has shown activity against mycobacteria and the enveloped virus Bovine herpesvirus 1 (BoHV-1) (Sala et al. 2018 ). The aim of the present study was to evaluate the in vitro antibacterial and antifungal activity of NCP-3 against bacterial and yeast isolates obtained from dogs with otitis externa, including strains with known antimicrobial resistance profiles.",
+      "order": 1
+    },
+    {
+      "section": "Ncp-3",
+      "text": "The design of Naja cardiotoxin peptide-3 (NCP-3), based on the amino acid sequence of S-type cardiotoxin 1 (CTX-1) from the Chinese cobra ( Naja atra subsp. atra ), has been previously described, together with the physicochemical characteristics of the peptide (Sala et al. 2018 ). NCP-3 was synthesized by Selleck-Chem (Houston, TX, USA) and stored as a lyophilized powder at − 20 °C until use.",
+      "order": 2
+    },
+    {
+      "section": "Bacterial And Fungal Strains And Identification",
+      "text": "All clinical and reference strains included in the study are listed in Supplementary Table S1 . Clinical isolates were obtained from the biobank of the Animal Infectious Disease Laboratory, University of Parma. A total of 53 bacterial clinical isolates were analyzed, including Burkholderia cepacia (n = 3), Escherichia coli (n = 9), Enterobacter cloacae (2) , Proteus mirabilis ( n = 4), Pseudomonas aeruginosa (n = 18), Staphylococcus pseudintermedius (n = 17) . Fourteen clinical yeast isolates of Malassezia pachydermatis were also included. The following reference strains were tested: E. coli ATCC 25,922; P. aeruginosa ATCC 27,853, P. mirabilis ATCC 14,153, S. aureus ATCC 25,923, methicillin-resistant Staphylococcus aureus (MRSA) ATCC 43,300, S. pseudintermedius ATCC 21,284, and M. pachydermatis DSM 6172. Clinical isolates were obtained from ear canal swabs collected from dogs diagnosed with otitis externa and presented at the Veterinary Teaching Hospital, Department of Veterinary Science, University of Parma. Samples were collected using sterile swabs with Amies transport medium and immediately plated onto Columbia blood agar, MacConkey agar, and Sabouraud dextrose agar (Difco, Sparks, USA). Plates were incubated aerobically at 37 °C for 24–48 h. Bacterial isolates were identified based on colony morphology, Gram staining, cellular morphology, catalase and oxidase reactions, and API biochemical test system (bioMérieux, France) (Quinn P. J, 1994 ). Species-level identification of Staphylococcus spp. was confirmed using MALDI-TOF MS (Bruker Biotyper, Bruker Daltonics GmbH, Bremen, Germany). Yeast identification was initially based on colony morphology and methylene blue staining (Quinn P. J, 1994 ). Isolates showing typical morphology of M. pachydermatis were subcultured on CHROMagar™ Malassezia medium (CHROMagar, Saint-Denis, France). Colonies with a mucoid pink-to-purple appearance were replated on Sabouraud dextrose agar and incubated at 37 °C for 48 h. Molecular identification of M. pachydermatis was performed by nested PCR targeting the internal transcribed spacer 1 (ITS1) region of the rRNA gene, as previously described (Spadini et al. 2025 ). Briefly, genomic DNA was extracted using the MasterPure Yeast DNA Purification Kit (Epicentre Technologies), suspended in Tris–EDTA buffer, and stored at − 20 °C until analysis.",
+      "order": 3
+    },
+    {
+      "section": "Antimicrobial Susceptibility Testing (Ast) Of Bacteria And Yeast Strains",
+      "text": "Antimicrobial susceptibility testing of bacterial isolates was performed using the Kirby–Bauer disk diffusion method, except for polymyxin B, which was tested by broth microdilution to determine the minimum inhibitory concentration (MIC). The antimicrobial agents tested reflected those most commonly used for the clinical management of canine otitis at the Veterinary Teaching Hospital and included amoxicillin/clavulanic acid (20/10 µg), cephalexin (30 µg); cefadroxil (30 µg); cefovecin (30 µg); ciprofloxacin (5 µg); clindamycin (2 µg); doxycycline (30 µg); enrofloxacin (5 µg), florfenicol (30 µg), gentamicin (10 µg), marbofloxacin (5 µg), oxytetracycline (30 µg), oxacillin (30 µg), pradofloxacin (5 µg) and trimethoprim + sulfamethoxazole (25 µg). Polymyxin B MICs were determined using concentrations ranging from 256 to 0.5 µg/mL. Bacterial inocula were prepared according to CLSI guidelines (CLSI, 2024 ). Results were interpreted following CLSI standards (VET01S and M100). When veterinary-specific breakpoints were unavailable, human clinical breakpoints were applied (Clinical and Laboratory Standards Institute 2021 ; Clinical Laboratory Standards Institute, 2023 ) Multidrug-resistant (MDR) status was assigned according to previously published criteria (Magiorakos et al. 2012 ) Susceptibility of M. pachydermatis isolates to azole antifungals was evaluated by MIC determination using ketoconazole (KTZ), miconazole (MCZ), and fluconazole (FCZ) (Sigma-Aldrich). M. pachydermatis DSM 6172 was used as a quality control strain.",
+      "order": 4
+    },
+    {
+      "section": "Fungal Inoculum Preparation And Mic Determination",
+      "text": "Fungal inocula were prepared following CLSI reference methods for yeast susceptibility testing, with minor modifications (CLSI, 2017 ; Spadini et al. 2025 ). Yeast isolates stored at − 80 °C were cultured in modified RPMI 1640 broth (Gibco, Life Technologies Ltd), supplemented as described in the literature (Rojas et al. 2014 ), and incubated at 37 °C for 48 h. Four to five colonies (~ 1 mm diameter) were suspended in 10 mM phosphate buffer (PB; pH 7.0) and adjusted to a 0.5 McFarland standard, corresponding to approximately 1 × 10⁶–5 × 10⁶ CFU/mL. Growth and sterility controls, with and without 1% DMSO, were included. KTZ, MCZ, and FCZ were dissolved in DMSO (25.6 mg/mL) and tested at final concentration ranges of 0.008–32 µg/mL for KTZ and 0.125–256 µg/mL for MCZ and FCZ. After 48 h of incubation at 37 °C, 10 µL of 0.02% resazurin in PBS (pH 7.0) was added to each well. Plates were incubated for an additional 24 h before MIC determination (Palomino et al. 2002 ). A color change from blue to pink indicated fungal growth. MIC values were defined as the lowest drug concentration preventing color change. Each experiment was performed in triplicate with three technical replicates. MIC values were expressed as mean ± standard deviation. As CLSI breakpoints for M. pachydermatis azole susceptibility are not available, MIC₅₀ and MIC₉₀ values were calculated.",
+      "order": 5
+    },
+    {
+      "section": "Bacterial Inoculum Preparation And Mic Determination",
+      "text": "Bacterial inocula were prepared according to CLSI guidelines (Clinical and Laboratory Standards Institute 2021 ). Five colonies from fresh cultures were inoculated into Mueller–Hinton broth (MHB) and incubated at 37 °C in aerobiosis for 24 h. After incubation, cultures were centrifuged at 2,000 rpm for 20 min at 4 °C, and pellets were resuspended in 10 mM PB (pH 7.0). Suspensions were adjusted spectrophotometrically (600 nm) to an optical density of 0.08–0.13, corresponding to approximately 1 × 10⁸ CFU/mL, and subsequently diluted 1:100 to obtain a final concentration of 5 × 10⁵ CFU/mL.",
+      "order": 6
+    },
+    {
+      "section": "Minimum Bactericidal Concentration (Mbc) Assay",
+      "text": "The minimum bactericidal concentration of NCP-3 was determined using a broth microdilution method following CLSI guidelines (Clinical and Laboratory Standards Institute 2021 ). Serial dilutions of NCP-3 were prepared in PB (10 mM, pH 7.0) at a concentration range of 0.8–12.5 µg/mL, based on MBC values obtained in a previous study on reference bacterial strains (Sala et al. 2018 ), and selected to focus on clinically relevant concentrations and those potentially achievable in a topical formulation for the treatment of canine otitis externa. The peptide dilutions were incubated with bacterial or yeast suspensions in 96-well U-bottom microtiter plates at 37 °C for 2 h. Following incubation, 20 µL from each well was plated onto Mueller–Hinton agar for bacteria or Sabouraud dextrose agar for yeasts and incubated at 37 °C for 24 h. Colonies were counted, and inhibition percentages were calculated using the following formula: where GC represents growth control and TC the tested concentration. Each assay was performed in triplicate, with growth and sterility controls included. The MBC of NCP-3 was defined as the minimum concentration required to achieve ≥ 99.9% killing of the initial inoculum. Data are reported as mean ± standard deviation (SD) based on biological replicates for each strain. For clinical isolates, summary measures were used, including MBC₅₀ and MBC₉₀, defined as the minimum bactericidal concentrations required to kill 50% and 90% of the isolates, respectively.",
+      "order": 7
+    },
+    {
+      "section": "Time Kill Assay (Tka)",
+      "text": "Time–kill assays were performed to evaluate the antimicrobial activity of NCP-3 over time using a broth microdilution method at 2× MBC, as previously described (Romani et al. 2013 ). For clinical isolates for which the MBC was not achieved within the tested concentration range (≤ 12.5 µg/mL), the assay was conducted at 2× the highest tested concentration (i.e., 25 µg/mL). Aliquots (20 µL) were collected at 5, 10, 15, 30, 60, and 120 min and plated onto Mueller–Hinton agar or Sabouraud dextrose agar. After 24 h of incubation at 37 °C, CFU counts for bacteria and cell counts for yeasts were determined. Inhibition percentages were calculated as described for the MBC assay. Growth and sterility controls were included in all experiments.",
+      "order": 8
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Data were analyzed using SPSS version 29.1 (IBM Corp., Armonk, NY, USA). Normality of MBC values was assessed using the Kolmogorov–Smirnov test. Differences among groups were evaluated using the Kruskal–Wallis test, followed by post hoc pairwise comparisons with Bonferroni correction. For clinical strains for which the MBC was not reached at the highest tested concentration (12.5 µg/mL), the next step in the two-fold dilution series (25 µg/mL) was assigned for statistical analyses, including the Kruskal-Wallis test.",
+      "order": 9
+    },
+    {
+      "section": "Antimicrobial Susceptibility Testing Of Bacterial And Yeast Field Strains",
+      "text": "The results of antimicrobial susceptibility testing for bacterial and yeast field strains are reported in the Supplementary Materials (Tables S2 and S3). Overall, on marbofloxacin the field strains considered showed the lowest level of resistance (39.62%). Regarding Pseudomonadaceae family, they exhibited a high level of resistance to most of the tested antimicrobial agents; however, three P. aeruginosa and two B. cepacia isolates were resistant to the entire antimicrobial panel. Except for one isolate (MIC = 1 µg/mL), all Pseudomonadaceae field strains showed MIC values ≤ 0.5 µg/mL for polymyxin B. Among Enterobacteriaceae isolates, approximately 80% were classified as multidrug-resistant, showing resistance to multiple antimicrobial classes, including aminoglycosides, β-lactams, penicillins combined with β-lactamase inhibitors, and quinolones. With respect to polymyxin B, two P. mirabilis isolates exhibited high-level resistance (MIC > 256 µg/mL), whereas all remaining Enterobacteriaceae strains showed MIC values ≤ 0.5 µg/mL. Nearly all S. pseudintermedius isolates were resistant to oxacillin (16/17; 94.12%), as assessed by oxacillin-based phenotypic testing according to current EUCAST/CLSI recommendations, confirming the presence of methicillin-resistant strains (CLSI, 2024 ). Overall, 14/17 isolates (82.35%) were classified as multidrug-resistant (MDR), showing resistance to three or more antimicrobial classes (Magiorakos et al. 2012 ). In addition, most strains displayed resistance to several other antimicrobial classes, including lincosamides, tetracyclines, quinolones, and folate pathway inhibitors. Among M. pachydermatis field strains, 8 of 14 isolates were classified as susceptible to ketoconazole (MIC₅₀ = 0.016 µg/mL; MIC₉₀ = 8.0 µg/mL), one isolate was resistant (MIC = 16 µg/mL), and five exhibited intermediate susceptibility. For miconazole, 9 of 14 isolates were susceptible (MIC₅₀ = 32.0 µg/mL; MIC₉₀ = 64.0 µg/mL), one isolate was resistant (MIC = 128 µg/mL), and four were classified as intermediate. With respect to fluconazole, 10 of 14 isolates were susceptible (MIC₅₀ = 32.0 µg/mL; MIC₉₀ = 64.0 µg/mL), one isolate was resistant (MIC = 128 µg/mL), and three exhibited intermediate susceptibility.",
+      "order": 10
+    },
+    {
+      "section": "Reference Strains",
+      "text": "The MBC values obtained for bacterial and yeast reference strains are summarized in Table 1 . At the tested concentrations, an MBC was not achieved only for P. mirabilis . The lowest MBC value was observed for S. pseudintermedius (0.8 µg/mL). Identical MBC values (6.3 µg/mL) were recorded for P. aeruginosa , E. coli , S. aureus , and M. pachydermatis . The highest MBC value was observed for MRSA (12.5 µg/mL).",
+      "order": 11
+    },
+    {
+      "section": "Clinical Isolates",
+      "text": "Table 2 reports the MBC results for clinical isolates, grouped by bacterial family, and expressed as MBC₅₀ and MBC₉₀ values. For Enterobacteriaceae and M. pachydermatis field isolates MBC₅₀ and MBC₉₀ was not achieved, due to a high proportion of clinical isolates whose MBC exceeded the higher tested concentration. In contrast, MBC₅₀ and MBC₉₀ values of 3.1 and 6.3 µg/mL, respectively, were observed for S. pseudintermedius isolates. For Pseudomonadaceae, only an MBC₅₀ value (12.5 µg/mL) was obtained. A statistically significant difference in MBC values among the tested groups was observed ( P < 0.001), with the highest bactericidal activity recorded against S. pseudintermedius isolates (Fig. 1 ). Different superscript letters (a, b) indicate statistically significant differences between groups; groups sharing the same letter are not significantly different.",
+      "order": 12
+    },
+    {
+      "section": "Time Kill Assay (Tka)",
+      "text": "The results of the time–kill assays performed using NCP-3 at 2× MBC are shown in Fig. 2 (a–e) for individual reference and clinical strains, while results for field strains grouped by family are presented in Fig. 3 (a–d). NCP-3 exhibited rapid and pronounced bactericidal activity against Gram-positive strains, with near-complete killing achieved within minutes, whereas Gram-negative bacteria showed slower and incomplete killing. Variable reduction in viability was observed for M. pachydermatis under the tested conditions.",
+      "order": 13
+    },
+    {
+      "section": "Reference Strains",
+      "text": "Among reference strains, S. aureus , MRSA, S. pseudintermedius , and M. pachydermatis were completely inhibited within 5 min of exposure to NCP-3. At the same time point, inhibition rates of 40%, 65%, and 70% were observed for E. coli , P. mirabilis , and P. aeruginosa , respectively. P. aeruginosa showed near-complete inhibition after 15 min of exposure. In contrast, E. coli exhibited ≥ 90% of the inhibition only after 60 min, reaching complete inhibition at 120 min. P. mirabilis demonstrated a gradual increase in inhibition, ranging from 60% to 80% between 5 and 30 min, with complete inhibition achieved only after 120 min.",
+      "order": 14
+    },
+    {
+      "section": "Clinical Isolates",
+      "text": "After 5 min of exposure, the highest antimicrobial activity was observed against S. pseudintermedius field strains, for which complete inhibition was recorded in all tested isolates. In contrast, isolates belonging to the Pseudomonadaceae, Enterobacteriaceae, and M. pachydermatis groups showed marked variability in susceptibility to NCP-3 over time. Within Pseudomonadaceae, inhibition varied considerably during the first 30 min of exposure but reached 96% at 60 min and increased to 98.7% at 120 min. Greater variability was observed among Enterobacteriaceae isolates; therefore, results are presented by bacterial genus in Figs. < link rid=\"fig1”>3</link>-b and 3-c. E. coli and Enterobacter cloacae isolates showed partial inhibition up to 60 min. At this time point, all strains except two (one E. coli and one E. cloacae ) exhibited at least 96% inhibition, while after 120 min all but one isolate reached 99% inhibition. Proteus mirabilis field strains displayed low susceptibility to NCP-3, with two of four isolates showing no inhibition throughout the assay. One isolate achieved complete inhibition after 15 min, whereas the remaining isolate reached only 50% inhibition at 120 min. Field isolates of M. pachydermatis (Fig. 3 d) also exhibited high variability in susceptibility at all evaluated time points. Only two of fourteen isolates achieved ≥ 99% inhibition after 60 min, while six isolates reached this level of inhibition after 120 min. When evaluating time–kill assays grouped by bacterial family (Fig.3 a-d), only the S. pseudintermedius group showed low variability across the examined time points, with minimal or no standard deviation among isolates, and complete inhibition was achieved within 5 min. In contrast, Enterobacteriaceae, Pseudomonadaceae, and M. pachydermatis clinical isolates exhibited a time-dependent increase in inhibition, although accompanied by high variability among isolates, as reflected by the larger standard deviations.",
+      "order": 15
+    },
+    {
+      "section": "Discussion",
+      "text": "In recent years, increasing attention has been directed toward the development of alternative antimicrobial agents for use in both veterinary and human medicine. Among these, antimicrobial peptides (AMPs) represent a promising option due to their structural properties and membrane-active mechanisms against pathogenic microorganisms (Oliveira Júnior et al. 2025 ). The present study builds upon previous research on peptides derived from cardiotoxin-1 (CTX-1) of the Chinese cobra ( Naja atra subsp. atra ). Among these peptides, Naja cardiotoxin peptide-3 (NCP-3) has shown particularly promising antimicrobial activity (Sala et al. 2018 ). Compared with previous findings (Sala et al. 2018 ), NCP-3 showed slightly lower MBC values against reference strains of E. coli (from 12.5 to 6.3 µg/mL) and P. aeruginosa (from 12.5 to 6.3 µg/mL), whereas higher values were observed for MRSA (from 6.3 to 12.5 µg/mL) and S. aureus (from 1.6 to 6.3 µg/mL). Similar results were obtained for P. mirabilis (MBC not reached) and M. pachydermatis (MBC = 6.3 µg/mL) (Sala et al. 2018 ). Notably, this study represents the first evaluation of NCP-3 against reference strain of S. pseudintermedius , for which a strong bactericidal effect was observed (MBC = 0.8 µg/mL). Time–kill assays confirmed the rapid bactericidal activity of NCP-3, particularly against S. aureus , MRSA, S. pseudintermedius , and M. pachydermatis , achieving complete inhibition within 5 min. In contrast, complete inhibition required longer exposure times for Gram-negative bacteria, consistent with previous reports (Sala et al. 2018 ), who reported a rapid bactericidal activity of NCPs, with complete inhibition occurring within 10 min for Gram-positive bacteria and 60–120 min for Gram-negative species. Numerous studies have reported the antimicrobial activity of various AMPs—derived from animals, plants, or bacteria—against multidrug-resistant organisms (MDROs), including vancomycin-resistant Staphylococcus aureus , carbapenem-resistant Klebsiella pneumoniae , and multidrug- or extensively drug-resistant P. aeruginosa (Jarosiewicz et al. 2020 ; Mangoni et al. 2008 ; Oliveira Júnior et al. 2025 ). This study also represents the first evaluation of NCP-3 against a large and heterogeneous collection of clinical isolates from dogs with otitis externa, most of which were classified as multidrug-resistant organisms (MDROs) (Magiorakos et al. 2012 ). Among Enterobacteriaceae, resistance was frequently observed against aminoglycosides, β-lactams, penicillins combined with β-lactamase inhibitors, and quinolones. Nearly all staphylococcal isolates were resistant to oxacillin, confirming the presence of phenotypically methicillin-resistant strains. The high level of resistance observed among Pseudomonadaceae can be partially attributed to their intrinsic resistance to several antimicrobial classes commonly used in veterinary medicine; however, the detection of additional multidrug-resistance patterns is particularly concerning, as it further limits the already restricted therapeutic options available. Within the M. pachydermatis group, three clinical isolates showed resistance to ketoconazole, miconazole, or fluconazole, respectively (Spadini et al. 2025 ). Overall, clinical isolates exhibited higher MBC values compared with reference strains. This was particularly evident for Enterobacteriaceae and M. pachydermatis , for which neither MBC₅₀ nor MBC₉₀ values could be determined, and for Pseudomonadaceae, for which only MBC₅₀ was achieved. In contrast, S. pseudintermedius clinical isolates showed susceptibility profiles comparable to reference strains. Our findings are consistent with previous study which reports similar susceptibility profiles between clinical and reference Staphylococcus spp. isolates tested with AMPs (Jarosiewicz et al. 2020 ). The concentration range tested (≤ 12.5 µg/mL) was selected to reflect clinically relevant levels and those achievable in topical formulations, enabling a translationally meaningful assessment of NCP-3 activity. However, this approach may have limited the determination of MBC₅₀ and MBC₉₀ values for less susceptible clinical isolates, particularly among Gram-negative bacteria and M. pachydermatis . In these cases, a substantial proportion of isolates exhibited MBC values exceeding the highest concentration tested, preventing reliable calculation of these parameters. The time–kill assay further highlighted differences between microbial groups. While rapid and complete inhibition was consistently observed for S. pseudintermedius , other microorganisms showed variable responses. Enterobacteriaceae displayed the greatest heterogeneity, whereas Pseudomonadaceae and M. pachydermatis showed a more progressive but incomplete reduction in viability. Notably, full bactericidal activity was observed within 5 min for all S. pseudintermedius clinical isolates. Clinical isolates belonging to the Enterobacteriaceae family exhibited the greatest heterogeneity across all time points, and even after prolonged exposure, the mean inhibition did not exceed 75%, largely due to the presence of poorly susceptible clinical isolates. In contrast, lower variability was observed among Pseudomonadaceae and M. pachydermatis clinical isolates. In these groups, a progressive increase in antimicrobial activity over time was evident, reaching mean inhibition values of 98% and 90%, respectively, after 120 min of exposure, indicating a limited presence of poorly susceptible clinical isolates. A marked variability in susceptibility was observed among clinical isolates, particularly within Enterobacteriaceae and M. pachydermatis . This variability likely reflects intrinsic and adaptive tolerance mechanisms rather than specific acquired resistance. Since AMPs act through electrostatic interactions with microbial surfaces followed by membrane disruption, variations in cell envelope composition can significantly influence susceptibility. Similar findings have been reported for other AMPs, such as temporins derived from Rana temporaria , which showed greater activity against Gram-positive than Gram-negative bacteria, particularly when tested under conditions mimicking physiological environments (Mangoni et al. 2008 ). In Gram-negative field bacteria, the reduced activity observed against clinical isolates may be explained by multiple factors. The outer membrane represents a major permeability barrier that can limit peptide access to the cytoplasmic membrane. In addition, clinical isolates may exhibit modifications of lipid A, such as the incorporation of positively charged moieties (e.g., 4-amino-4-deoxy-L-arabinose or phosphoethanolamine), which reduce the net negative surface charge and consequently decrease electrostatic interactions with cationic peptides (Needham and Trent 2013 ). Furthermore, the production of extracellular polymers, outer membrane vesicles, and biofilm matrix components may contribute to peptide sequestration and reduce effective concentrations at the target site (Oliveira Júnior et al. 2025 ). The high heterogeneity observed within Enterobacteriaceae clinical isolates may reflect differences in the expression of these mechanisms, including variability in membrane permeability, efflux systems, and stress response pathways (Ebbensgaard et al. 2015 ). These features, which are not necessarily specific to AMPs, may confer a broader adaptive advantage under environmental and host-associated conditions. A similar trend was observed for M. pachydermatis , for which clinical isolates showed reduced susceptibility compared with the reference strain. This may be related to its lipid-rich cell envelope, which can limit peptide penetration, as well as to biofilm formation and extracellular lipid material that may reduce AMP efficacy (Cannizzo et al. 2007 ; Čonková et al. 2022 ). Given the limited available data, these findings highlight the need for further investigation. To date, this study represents the first investigation on the activity of AMPs on M. pachydermatis from dogs. While NCP-3 showed promising activity against reference strains, neither MBC₅₀ nor MBC₉₀ values were achieved for field isolates at the tested concentrations. Nevertheless, in time–kill assays only after 120 min of exposure, a mean of 90% of M. pachydermatis strains inhibition was observed. A direct comparison with previous studies is challenging, as most investigations have focused on Candida species ( C. albicans , C. glabrata , C. auris , and C. tropicalis ), for which variable susceptibility to AMPs has been reported (Raman et al. 2015 ; Vélez et al. 2024 ). Further studies are therefore needed to better characterize the interaction between AMPs and M. pachydermatis . Importantly, these findings should also be interpreted in the context of canine otitis externa, which is frequently a polymicrobial condition involving both Gram-negative bacteria, such as Pseudomonas aeruginosa , and yeasts including M. pachydermatis . In such environments, microbial interactions and biofilm formation may further impair antimicrobial efficacy and contribute to the variability observed in vitro. Therefore, the reduced susceptibility of clinical isolates to NCP-3 may reflect, at least in part, adaptation to the complex ecological conditions of the infected ear canal. The higher susceptibility of reference strains compared with clinical isolates likely reflects their adaptation to controlled laboratory conditions, whereas clinical isolates are shaped by host-associated pressures that may select for increased tolerance to membrane-active compounds. Further studies are needed to better characterize NCP-3 activity against Gram-negative bacteria and M. pachydermatis , including its potential antibiofilm effects. Considering the previously reported low cytotoxicity of NCP-3, even at relatively high concentrations (up to 100 µg/mL) (Sala et al. 2018 ), its topical administration for the treatment of canine otitis externa appears promising. However, a limitation of the present study is the lack of direct cytotoxicity assessment on canine-derived cells, such as keratinocytes, which are particularly relevant for evaluating safety in this context. Overall, the favorable safety profile and rapid bactericidal activity of NCP-3 support its potential as a topical therapeutic agent for canine otitis externa. However, higher concentrations and optimized formulations may be required to achieve effective activity against Gram-negative bacteria and yeasts in vivo. In addition, the complex microenvironment of the ear canal, including cerumen, host-derived components, and microbial biofilms, may significantly affect peptide activity by limiting diffusion and promoting peptide sequestration, potentially reducing effective local concentrations. This highlights the importance of optimized formulation strategies to enhance peptide stability, penetration, and retention time in vivo.",
+      "order": 16
+    },
+    {
+      "section": "Conclusion",
+      "text": "In this study, we evaluated the antimicrobial activity of NCP-3 against a broad panel of bacterial and M. pachydermatis clinical isolates obtained from dogs with otitis externa, including multidrug-resistant strains. The results indicate that NCP-3 exerts marked antimicrobial activity, particularly against S. pseudintermedius , whereas a more heterogeneous and generally reduced activity was observed on Gram-negative and M. pachydermatis clinical strains. Overall, these findings, obtained under in vitro conditions, suggest that NCP-3 is primarily active against Gram-positive bacteria, including multidrug-resistant S. pseudintermedius . However, its limited and variable efficacy against Gram-negative bacteria and M. pachydermatis may restrict its antimicrobial spectrum. Further studies are needed to assess its safety, efficacy, and potential clinical applicability in vivo.",
+      "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Bourély C",
+        "Cazeau G",
+        "Jarrige N",
+        "Leblond A",
+        "Madec JY",
+        "Haenni M",
+        "Gay E"
+      ],
+      "title": "Antimicrobial resistance patterns of bacteria isolated from dogs with otitis",
+      "journal": "Epidemiol Infect",
+      "year": "2019",
+      "doi": "10.1017/S0950268818003278",
+      "pmid": "30868979",
+      "pmc_id": "PMC6518499"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Brogden KA"
+      ],
+      "title": "Antimicrobial peptides: pore formers or metabolic inhibitors in bacteria?",
+      "journal": "Nat Rev Microbiol",
+      "year": "2005",
+      "volume": "3",
+      "issue": "3",
+      "fpage": "238",
+      "lpage": "250",
+      "doi": "10.1038/nrmicro1098",
+      "pmid": "15703760"
+    },
+    {
+      "ref_id": "CR3",
+      "authors": [
+        "Callaway TR",
+        "Lillehoj H",
+        "Chuanchuen R",
+        "Gay CG"
+      ],
+      "title": "Alternatives to antibiotics: a symposium on the challenges and solutions for animal health and production",
+      "journal": "Antibiotics",
+      "year": "2021",
+      "doi": "10.3390/antibiotics10050471",
+      "pmid": "33918995",
+      "pmc_id": "PMC8142984"
+    },
+    {
+      "ref_id": "CR4",
+      "authors": [
+        "Cannizzo FT",
+        "Eraso E",
+        "Ezkurra PA",
+        "Villar-Vidal M",
+        "Bollo E",
+        "Castellá G",
+        "Cabañes FJ",
+        "Vidotto V",
+        "Quindós G"
+      ],
+      "title": "Biofilm development by clinical isolates of Malassezia pachydermatis",
+      "journal": "Med Mycol",
+      "year": "2007",
+      "volume": "45",
+      "issue": "4",
+      "fpage": "357",
+      "lpage": "361",
+      "doi": "10.1080/13693780701225767",
+      "pmid": "17510859"
+    },
+    {
+      "ref_id": "CR5",
+      "raw_citation": "Clinical Laboratory Standards Institute (2023) Clinical and Laboratory Standard Institute. Performance standards for antimicrobial susceptibility testing for bacteria isolated from Animals. CLSI Supplement VET01S, Wayne, PA: CLSI ."
+    },
+    {
+      "ref_id": "CR6",
+      "raw_citation": "Clinical and Laboratory Standards Institute (CLSI) (2024) Clinical and Laboratory Standard Institute. Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically; approved standards – 12th edition. CLSI Document M07Ed12, Wayne, PA: CLSI"
+    },
+    {
+      "ref_id": "CR7",
+      "raw_citation": "Clinical and Laboratory Standards Institute (2021) Performance standards for antimicrobial susceptibility testing, 31st edn. CLSI supplement M100. Clinical and Laboratory Standards Institute, Wayne, PA, USA."
+    },
+    {
+      "ref_id": "CR8",
+      "raw_citation": "CLSI (2017) Clinical and Laboratory Standards Institute. Reference method for broth dilution antifungal susceptibility testing of yeasts (4th ed.). CLSI Document M27, Wayne, PA: CLSI"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Čonková E",
+        "Proškovcová M",
+        "Váczi P",
+        "Malinovská Z"
+      ],
+      "title": "In vitro biofilm formation by Malassezia pachydermatis isolates and its susceptibility to azole antifungals",
+      "journal": "J Fungi",
+      "year": "2022",
+      "volume": "8",
+      "issue": "11",
+      "fpage": "1157",
+      "doi": "10.3390/jof8111157",
+      "pmc_id": "PMC9693420",
+      "pmid": "36422031"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "Dégi J",
+        "Imre K",
+        "Cǎtanǎ N",
+        "Morar A",
+        "Sala C",
+        "Herman V"
+      ],
+      "title": "Frequency of isolation and antibiotic resistance of staphylococcal flora from external otitis of dogs",
+      "journal": "Vet Rec",
+      "year": "2013",
+      "doi": "10.1136/vr.101426",
+      "pmid": "23740316"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Dubovskii PV",
+        "Vassilevski AA",
+        "Kozlov SA",
+        "Feofanov AV",
+        "Grishin EV",
+        "Efremov RG"
+      ],
+      "title": "Latarcins: versatile spider venom peptides",
+      "journal": "Cell Mol Life Sci",
+      "year": "2015",
+      "volume": "72",
+      "issue": "23",
+      "fpage": "4501",
+      "lpage": "4522",
+      "doi": "10.1007/s00018-015-2016-x",
+      "pmid": "26286896",
+      "pmc_id": "PMC11113828"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Ebbensgaard A",
+        "Mordhorst H",
+        "Toft Overgaard M",
+        "Gyrup Nielsen C",
+        "Møller Aarestrup F",
+        "Bech Hansen E"
+      ],
+      "title": "Comparative evaluation of the antimicrobial activity of different antimicrobial peptides against a range of pathogenic bacteria",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0144611",
+      "doi": "10.1371/journal.pone.0144611",
+      "pmid": "26656394",
+      "pmc_id": "PMC4684357"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Ghibaudo G",
+        "Santospirito D",
+        "Sala A",
+        "Flisi S",
+        "Taddei S",
+        "Cavirani S",
+        "Cabassi CS"
+      ],
+      "title": "In vitro antimicrobial activity of a gel containing antimicrobial peptide AMP2041, chlorhexidine digluconate and Tris-EDTA on clinical isolates of Pseudomonas aeruginosa from canine otitis",
+      "journal": "Vet Dermatol",
+      "year": "2016",
+      "doi": "10.1111/vde.12371",
+      "pmid": "27545352"
+    },
+    {
+      "ref_id": "CR15",
+      "raw_citation": "Guardabassi L, Houser GA, Frank LA, Papich MG (2008) Guidelines for antimicrobial use in dogs and cats. Guide to antimicrobial use in animals, 183–206"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Guillot J",
+        "Bond R"
+      ],
+      "title": "Malassezia yeasts in veterinary dermatology: an updated overview",
+      "journal": "Vet Dermatol",
+      "year": "2020",
+      "volume": "31",
+      "issue": "6",
+      "fpage": "447",
+      "lpage": "e121",
+      "doi": "10.1111/vde.12867",
+      "pmc_id": "PMC7059102",
+      "pmid": "32181160"
+    },
+    {
+      "ref_id": "CR17",
+      "raw_citation": "Hiemstra PS, Zaat SA (eds) (2013) Antimicrobial Peptides and Innate Immunity. Springer Science & Business Media"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Jarosiewicz M",
+        "Garbacz K",
+        "Neubauer D",
+        "Kamysz W"
+      ],
+      "title": "In vitro efficiency of antimicrobial peptides against staphylococcal pathogens associated with canine pyoderma",
+      "journal": "Animals",
+      "year": "2020",
+      "doi": "10.3390/ani10030470",
+      "pmid": "32168952",
+      "pmc_id": "PMC7143510"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Kano R",
+        "Yokoi S",
+        "Kariya N",
+        "Oshimo K",
+        "Kamata H"
+      ],
+      "title": "Multi-azole-resistant strain of Malassezia pachydermatis isolated from a canine Malassezia dermatitis",
+      "journal": "Med Mycol",
+      "year": "2019",
+      "volume": "57",
+      "issue": "3",
+      "fpage": "346",
+      "lpage": "350",
+      "doi": "10.1093/mmy/myy035",
+      "pmid": "29800467"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Magiorakos AP",
+        "Srinivasan A",
+        "Carey RB",
+        "Carmeli Y",
+        "Falagas ME",
+        "Giske CG",
+        "Harbarth S",
+        "Hindler JF",
+        "Kahlmeter G",
+        "Olsson-Liljequist B",
+        "Paterson DL",
+        "Rice LB",
+        "Stelling J",
+        "Struelens MJ",
+        "Vatopoulos A",
+        "Weber JT",
+        "Monnet DL"
+      ],
+      "title": "Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance",
+      "journal": "Clin Microbiol Infect",
+      "year": "2012",
+      "volume": "18",
+      "issue": "3",
+      "fpage": "268",
+      "lpage": "281",
+      "doi": "10.1111/j.1469-0691.2011.03570.x",
+      "pmid": "21793988"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Mangoni ML",
+        "Maisetta G",
+        "Di Luca M",
+        "Gaddi LMH",
+        "Esin S",
+        "Florio W",
+        "Brancatisano FL",
+        "Barra D",
+        "Campa M",
+        "Batoni G"
+      ],
+      "title": "Comparative analysis of the bactericidal activities of amphibian peptide analogues against multidrug-resistant nosocomial bacterial strains",
+      "journal": "Antimicrob Agents Chemother",
+      "year": "2008",
+      "volume": "52",
+      "issue": "1",
+      "fpage": "85",
+      "lpage": "91",
+      "doi": "10.1128/AAC.00796-07",
+      "pmid": "17954700",
+      "pmc_id": "PMC2223874"
+    },
+    {
+      "ref_id": "CR22",
+      "authors": [
+        "Mezzasalma N",
+        "Spadini C",
+        "Spaggiari C",
+        "Annunziato G",
+        "Andreoli V",
+        "Prosperi A",
+        "Mochen L",
+        "Cavirani S",
+        "Grolli S",
+        "Taddei S",
+        "Costantino G",
+        "Cabassi CS"
+      ],
+      "title": "Antibacterial and antibiofilm activity of Eucalyptus globulus leaf extract, asiatic acid and ursolic acid against bacteria isolated from bovine mastitis",
+      "journal": "Front Vet Sci",
+      "year": "2025",
+      "doi": "10.3389/fvets.2025.1565787",
+      "pmid": "40438412",
+      "pmc_id": "PMC12117823"
+    },
+    {
+      "ref_id": "CR23",
+      "doi": "10.3389/fmicb.2013.00422",
+      "pmc_id": "PMC3884212",
+      "pmid": "24409175"
+    },
+    {
+      "ref_id": "CR24",
+      "authors": [
+        "Needham BD",
+        "Trent MS"
+      ],
+      "title": "Fortifying the barrier: the impact of lipid A remodelling on bacterial pathogenesis",
+      "journal": "Nat Rev Microbiol",
+      "year": "2013",
+      "volume": "11",
+      "fpage": "467",
+      "lpage": "481",
+      "doi": "10.1038/nrmicro3047",
+      "pmid": "23748343",
+      "pmc_id": "PMC6913092"
+    },
+    {
+      "ref_id": "CR25",
+      "authors": [
+        "Oliveira NG",
+        "Souza CM",
+        "Buccini DF",
+        "Cardoso MH",
+        "Franco OL"
+      ],
+      "title": "Antimicrobial peptides: structure, functions and translational applications",
+      "journal": "Nat Rev Microbiol",
+      "year": "2025",
+      "doi": "10.1038/s41579-025-01200-y",
+      "pmid": "40646173"
+    },
+    {
+      "ref_id": "CR26",
+      "authors": [
+        "Palomino JC",
+        "Martin A",
+        "Camacho M",
+        "Guerra H",
+        "Swings J",
+        "Portaels F"
+      ],
+      "title": "Resazurin microtiter assay plate: simple and inexpensive method for detection of drug resistance in Mycobacterium tuberculosis",
+      "journal": "Antimicrob Agents Chemother",
+      "year": "2002",
+      "volume": "46",
+      "issue": "8",
+      "fpage": "2720",
+      "lpage": "2722",
+      "doi": "10.1128/AAC.46.8.2720-2722.2002",
+      "pmid": "12121966",
+      "pmc_id": "PMC127336"
+    },
+    {
+      "ref_id": "CR27",
+      "authors": [
+        "Popa I",
+        "Iancu I",
+        "Iorgoni V",
+        "Degi J",
+        "Gligor A",
+        "Imre K",
+        "Tîrziu E",
+        "Bochis T",
+        "Pop C",
+        "Plotuna A-M",
+        "Nistor P",
+        "Pentea M",
+        "Herman V",
+        "Nichita I"
+      ],
+      "title": "Antimicrobial resistance profile of Staphylococcus pseudintermedius isolated from dogs with otitis externa and healthy dogs: veterinary and zoonotic implications",
+      "journal": "Antibiotics Basel",
+      "year": "2025",
+      "volume": "14",
+      "fpage": "1027",
+      "doi": "10.3390/antibiotics14101027",
+      "pmid": "41148721",
+      "pmc_id": "PMC12562209"
+    },
+    {
+      "ref_id": "CR28",
+      "raw_citation": "Quinn PJ (1994) Clinical veterinary microbiology. (Wolfe Publishing, Ed.). Mosby-Year book limited"
+    },
+    {
+      "ref_id": "CR29",
+      "authors": [
+        "Raman N",
+        "Lee MR",
+        "Lynn DM",
+        "Palecek SP"
+      ],
+      "title": "Antifungal activity of 14-helical β-peptides against planktonic cells and biofilms of Candida species",
+      "journal": "Pharmaceuticals Basel",
+      "year": "2015",
+      "volume": "8",
+      "issue": "3",
+      "fpage": "483",
+      "lpage": "503",
+      "doi": "10.3390/ph8030483",
+      "pmid": "26287212",
+      "pmc_id": "PMC4588179"
+    },
+    {
+      "ref_id": "CR30",
+      "authors": [
+        "Rojas FD",
+        "De Los A. Sosa M",
+        "Fernández MS",
+        "Cattana ME",
+        "Córdoba SB",
+        "Giusiano GE"
+      ],
+      "title": "Antifungal susceptibility of Malassezia furfur , Malassezia sympodialis , and Malassezia globosa to azole drugs and amphotericin B evaluated using a broth microdilution method",
+      "journal": "Med Mycol",
+      "year": "2014",
+      "volume": "52",
+      "issue": "6",
+      "fpage": "641",
+      "lpage": "646",
+      "doi": "10.1093/mmy/myu010",
+      "pmid": "24965946"
+    },
+    {
+      "ref_id": "CR31",
+      "authors": [
+        "Romani AA",
+        "Baroni MC",
+        "Taddei S",
+        "Ghidini F",
+        "Sansoni P",
+        "Cavirani S",
+        "Cabassi CS"
+      ],
+      "title": "In vitro activity of novel in silico-developed antimicrobial peptides against a panel of bacterial pathogens",
+      "journal": "J Pept Sci",
+      "year": "2013",
+      "volume": "19",
+      "issue": "9",
+      "fpage": "554",
+      "lpage": "565",
+      "doi": "10.1002/psc.2532",
+      "pmid": "23893489"
+    },
+    {
+      "ref_id": "CR32",
+      "authors": [
+        "Sala A",
+        "Cabassi CS",
+        "Santospirito D",
+        "Polverini E",
+        "Flisi S",
+        "Cavirani S",
+        "Taddei S"
+      ],
+      "title": "Novel Naja atra cardiotoxin 1 (CTX-1) derived antimicrobial peptides with broad spectrum activity",
+      "journal": "PLoS One",
+      "year": "2018",
+      "doi": "10.1371/journal.pone.0190778",
+      "pmid": "29364903",
+      "pmc_id": "PMC5783354"
+    },
+    {
+      "ref_id": "CR33",
+      "authors": [
+        "Saraiva S",
+        "Calouro R",
+        "de Sousa T",
+        "Dapkevicius MLE",
+        "Mesquita JR",
+        "Coelho AC",
+        "Poeta P"
+      ],
+      "title": "Bacterial agents and antimicrobial-resistance patterns in canine otitis externa",
+      "journal": "Animals",
+      "year": "2025",
+      "volume": "15",
+      "issue": "22",
+      "fpage": "3317",
+      "doi": "10.3390/ani15223317",
+      "pmid": "41302025",
+      "pmc_id": "PMC12649684"
+    },
+    {
+      "ref_id": "CR34",
+      "authors": [
+        "Saridomichelakis MN",
+        "Farmaki R",
+        "Leontides LS",
+        "Koutinas AF"
+      ],
+      "title": "Aetiology of canine otitis externa: a retrospective study of 100 cases",
+      "journal": "Vet Dermatol",
+      "year": "2007",
+      "volume": "18",
+      "issue": "5",
+      "fpage": "341",
+      "lpage": "347",
+      "doi": "10.1111/j.1365-3164.2007.00619.x",
+      "pmid": "17845622"
+    },
+    {
+      "ref_id": "CR35",
+      "authors": [
+        "Sato H",
+        "Feix B"
+      ],
+      "title": "Peptide-membrane interactions and mechanisms of membrane destruction by amphipathic α-helical antimicrobial peptides",
+      "journal": "Biochim Biophys Acta",
+      "year": "2006",
+      "volume": "1758",
+      "issue": "9",
+      "fpage": "1245",
+      "lpage": "1256",
+      "doi": "10.1016/j.bbamem.2006.02.021",
+      "pmid": "16697975"
+    },
+    {
+      "ref_id": "CR36",
+      "authors": [
+        "Spadini C",
+        "Mezzasalma N",
+        "Odigie AE",
+        "Angeli A",
+        "Carta F",
+        "Selleri S",
+        "Gandolfo E",
+        "Taddei S",
+        "Franceschi V",
+        "Minesso S",
+        "Supuran CT",
+        "Cabassi CS"
+      ],
+      "title": "Comparative efficacy of selenoureido carbonic anhydrase inhibitors and azole antifungal drugs against clinical isolates of Malassezia pachydermatis",
+      "journal": "Vet Dermatol",
+      "year": "2025",
+      "doi": "10.1111/vde.13336",
+      "pmid": "40091275",
+      "pmc_id": "PMC12058572"
+    },
+    {
+      "ref_id": "CR37",
+      "authors": [
+        "Thevissen K",
+        "Warnecke DC",
+        "François IEJA",
+        "Leipelt M",
+        "Heinz E",
+        "Ott C",
+        "Zähringer U",
+        "Thomma BPHJ",
+        "Ferket KKA",
+        "Cammue BPA"
+      ],
+      "title": "Defensins from insects and plants interact with fungal glucosylceramides",
+      "journal": "J Biol Chem",
+      "year": "2004",
+      "volume": "279",
+      "issue": "6",
+      "fpage": "3900",
+      "lpage": "3905",
+      "doi": "10.1074/jbc.M311165200",
+      "pmid": "14604982"
+    },
+    {
+      "ref_id": "CR38",
+      "authors": [
+        "Vélez N",
+        "Argel A",
+        "Kissmann AK",
+        "Alpízar-Pedraza D",
+        "Escandón P",
+        "Rosenau F",
+        "Ständker L",
+        "Firacative C"
+      ],
+      "title": "Pore-forming peptide C14R exhibits potent antifungal activity against clinical isolates of Candida albicans and Candida auris",
+      "journal": "Front Cell Infect Microbiol",
+      "year": "2024",
+      "doi": "10.3389/fcimb.2024.1389020",
+      "pmid": "38601736",
+      "pmc_id": "PMC11004338"
+    },
+    {
+      "ref_id": "CR39",
+      "authors": [
+        "Weese JS"
+      ],
+      "title": "The canine and feline skin microbiome in health and disease",
+      "journal": "Vet Dermatol",
+      "year": "2013",
+      "doi": "10.1111/j.1365-3164.2012.01076.x",
+      "pmid": "23331690"
+    },
+    {
+      "ref_id": "CR40",
+      "authors": [
+        "Yeaman MR",
+        "Yount NY"
+      ],
+      "title": "Mechanisms of antimicrobial peptide action and resistance",
+      "journal": "Pharmacol Rev",
+      "year": "2003",
+      "volume": "55",
+      "issue": "1",
+      "fpage": "27",
+      "lpage": "55",
+      "doi": "10.1124/pr.55.1.2",
+      "pmid": "12615953"
+    },
+    {
+      "ref_id": "CR41",
+      "authors": [
+        "Zasloff M"
+      ],
+      "title": "eptides of Multicellular Organisms: My Perspective",
+      "journal": "Adv Exp Med Biol",
+      "year": "2019",
+      "volume": "1117",
+      "fpage": "3",
+      "lpage": "6",
+      "doi": "10.1007/978-981-13-3588-4_1",
+      "pmid": "30980349"
+    }
+  ]
+}

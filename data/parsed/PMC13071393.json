@@ -1,0 +1,445 @@
+{
+  "metadata": {
+    "title": "Dysphonia Is Associated With Anxiety and Depression in the All of Us Research Program",
+    "authors": [
+      "Hannah N. W. Weinstein",
+      "Michael W. Denham",
+      "Lauren H. Tucker",
+      "Justin S. Golub",
+      "Hayley L. Born"
+    ],
+    "journal": "The Laryngoscope",
+    "year": "2026",
+    "doi": "10.1002/lary.70372",
+    "pmc_id": "PMC13071393",
+    "pmid": "41555208",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 31
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objectives: Previous studies have examined the relationship between dysphonia and mental health, but often in small samples and not across age groups. In this large national epidemiological study, we examine if dysphonia is related to anxiety and depression generally and across cohorts of different ages. Methods: This is a cross-sectional analysis of adults ≥ 18 years old in the All of Us dataset. The exposure was dysphonia (ICD-10 code R49.0), and the outcomes were anxiety (ICD-10 F41) and depression (ICD-10 F32–33). We performed multivariable logistic regression analyses, controlling for age, gender, race, ethnicity, insurance, education, smoking history, alcohol use, and medical comorbidities. A sub-analysis compared depression and anxiety odds across two and five age groups. Results: Of 283,137 adults in our sample, the mean age was 56 years (standard deviation 16 years). Sixty-one percent identified as female. Controlling for covariates, those with dysphonia had 1.34 times (95% CI 1.27–1.41) the odds of depression and 1.44 times (1.37–1.52) the odds of anxiety compared to their non-dysphonia counterparts. After stratifying by age, the odds of depression and anxiety were 2.36 times (1.67–3.35) and 1.62 (1.14–2.30) respectively for participants ≥ 18–30 years old, 1.61 (1.37–1.89) and 1.75 (1.49–2.07) for > 30–45 year olds, 1.38 (1.23–1.55) and 1.46 (1.33–1.67) for > 45–60 year olds, 1.33 (1.23–1.44) and 1.46 (1.35–1.58) for > 60–75 year olds, and 1.22 (1.09–1.35) and 1.36 (1.22–1.51) for > 75 year olds. Conclusions: Those with dysphonia had higher odds of depression and anxiety. Following stratification by age, the odds for each were highest for the youngest age group. Level of Evidence: 3.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Dysphonia or “hoarseness” is the alteration of voice quality or production [ 1 , 2 ]. It is estimated to impact one in 13 adults annually [ 3 ]. In a study of participants seeking primary care, approximately one in three experienced dysphonia in their lifetime, with a point prevalence of approximately 7.5% [ 4 ]. Dysphonia may develop at any age with recurrence or chronicity depending on the etiology [ 1 , 4 ]. Significant vocal demands, such as those seen for teachers, coaches, and telemarketers, may increase the prevalence of dysphonia [ 5 – 8 ]. The underlying cause of dysphonia varies widely and includes both organic (e.g., head and neck cancer, gastroesophageal reflux disease, and candidiasis) and functional (e.g., phonotrauma and muscle tension) etiologies which ultimately lead to abnormal vocal fold oscillations [ 1 , 2 ]. The association between laryngeal disorders and mental health has been of interest for nearly a century with publications dating back to the 1940s [ 9 ]. More recently, studies have focused on the specific association between dysphonia and depression and anxiety. Analysis of participants in the National Health Interview Survey using data from 2012 showed general voice problems—including self-reported hoarseness, raspy or strained voice, or difficulty speaking at an audible volume—were associated with increased odds of self-reported depression [ 10 ]. Another study of 61 patients revealed that patients with functional dysphonia had higher odds of self-reported depression and anxiety compared to healthy matched controls [ 11 ]. Additionally, in a study of 119 participants, dysphonia, defined by rating vocal samples with the Persian version of the Consensus Auditory-Perceptual Evaluation of Voice (CAPE-V), was associated with significantly higher depression and anxiety ratings on the Depression, Anxiety, and Stress Scale-21 [ 12 ]. While the relationship between dysphonia and mental health has been studied, most investigations were completed in small samples, using self-reported symptoms or a general definition of voice disorders, and without consideration of association across age groups. The objective of this epidemiological study was to examine if dysphonia is related to depression and anxiety in a large national cohort using diagnosis codes. In addition to our analysis of the entire cohort, we consider the association of dysphonia with depression and anxiety across age groups, to understand how odds may differ by age, as well as across genders as prior studies have reported differences [ 13 – 15 ].",
+      "order": 1
+    },
+    {
+      "section": "Participants",
+      "text": "Participants were drawn from the National Institutes of Health All of Us Research Program. The All of Us Research Program was created with the goal of building a large, comprehensive, and diverse national cohort, more reflective of the U.S. population than previous programs [ 16 , 17 ]. An internal institutional review board approves all study protocols and data collection within the program. Data is de-identified and can only be accessed in the All of Us Research Workbench. Researchers have access to a wide array of data, including participants’ electronic health records, lab findings, genomics, surveys, demographics, and even Fitbit data [ 18 ]. All participants ≥ 18 years old from the All of Us registered tier dataset v8 with electronic health record data and complete exposure, outcomes, and covariates data, as outlined below, were included in the study ( Figure 1 ).",
+      "order": 2
+    },
+    {
+      "section": "Exposure And Outcomes",
+      "text": "The exposure was a diagnosis of dysphonia (International Classification of Diseases, 10th revision [ICD-10] code R49.0) [ 19 ]. The two outcomes were depression (“depressive episode” and “major depressive disorder,” ICD-10 codes F32–33) and anxiety (“other anxiety disorders,” ICD-10 code F41, including generalized anxiety disorder and panic disorder) ( Table S1 ).",
+      "order": 3
+    },
+    {
+      "section": "Covariates",
+      "text": "We controlled for covariates that might confound the relationships between dysphonia and (1) depression and (2) anxiety. These included age, gender, race, ethnicity, insurance status, education level, smoking history, alcohol use, and medical comorbidity score. Covariates were defined as follows. In order to calculate age, in line with prior research, we used the date of birth and either the available date of death collected from the EHR or HealthPro, an All of Us Research Program portal for collecting participant data by program staff, or by using the date of the curated data repository (CDR), the last date data was uploaded to the Workbench. Some participants may have missing death information as the All of Us Research Program relies on external reporting. We defined gender binarily (male/female). Race, ethnicity, and educational attainment were divided into the categories in Table 1 based on the All of Us Research Program survey instruments. Smoking history was defined by answering yes/no to “ Have you smoked at least 100 cigarettes in your entire life?” Alcohol use was defined based on ICD-10 diagnosis of an alcohol related disorder. A point was given for each of the following comorbidities chosen a priori to create a medical comorbidity score ranging from 0 to 28 [ 1 , 2 ]: Dementia, diabetes, essential hypertension, gastroesophageal reflux disease (GERD), eosinophilic esophagitis, asthma, chronic obstructive pulmonary disease (COPD), rheumatoid arthritis, Sjogren’s syndrome, sarcoidosis, amyloidosis, granulomatosis with polyangiitis, fibromyalgia, essential tremor, multiple sclerosis (MS), vocal cord paralysis, Parkinson’s disease, amyotrophic lateral sclerosis (ALS), oral candidiasis, thyroiditis, hypothyroidism, hyperthyroidism, non-toxic goiter, and malignant neoplasm of the oral cavity, oropharynx, hypopharynx, larynx, or thyroid. See Table S1 for a full list of ICD-10 codes used to define the above medical comorbidity covariates.",
+      "order": 4
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Continuous variables, reported as mean (standard deviation [SD]), were compared with two-sided t -tests. Categorical variables, reported as number (percent), were compared with two-sided Chi-squared tests. Univariable and multivariable logistic regression analyses were performed between dysphonia and the outcomes of (1) depression and (2) anxiety. The fully adjusted multivariable regression models controlled for all the covariates listed above. Odds ratios were reported with 95% confidence intervals (CIs) and a p -value < 0.05 determined significance. In a subanalysis, regression was performed stratified by age, defined (a) binarily with a cutoff point of 65 years, and (b) categorically by five ranges (≥ 18–30, > 30–45, > 45–60, > 60–75, > 75). The age ranges were based on standard cutoffs for older adults and randomly selected, respectively. Subanalyses were also performed stratified by gender. Statistical analyses were performed from November 2024—March 2025 in the R programing language, using a Jupyter notebook in the All of Us Research Workbench.",
+      "order": 5
+    },
+    {
+      "section": "Participant Characteristics",
+      "text": "There were 283,137 adults in the study with a mean age of 56 (standard deviation [SD] 16) years. 61.3% identified as female. 2.7% had an ICD-10 diagnosis of dysphonia, while 25.3% and 26.1% had ICD-10 diagnoses of depression and anxiety, respectively. See Table 1 for the comprehensive participant demographics.",
+      "order": 6
+    },
+    {
+      "section": "Dysphonia Is Associated With Depression And Anxiety",
+      "text": "In the univariable analyses, those with dysphonia had 2.59 times greater odds of depression (95% CI 2.48–2.71, p < 0.001) and 2.75 times greater odds of anxiety (95% CI 2.64–2.86, p < 0.001) compared to those without dysphonia. Controlling for all covariates, those with dysphonia had 1.34 times greater odds of depression (95% CI 1.27–1.41, p < 0.001) and 1.44 times greater odds of anxiety (95% CI 1.37–1.52, p < 0.001) compared to those without dysphonia. See Table 2 for full logistic regression results. Sensitivity analysis including only age and medical comorbidities as covariates to minimize participant exclusion exhibited higher odds of depression (OR 1.44, 95% CI 1.38–1.51) and anxiety (OR 1.67, 95% CI 1.59–1.74) ( Table S2 ). When looking at odds of depression or anxiety for those with dysphonia versus those without by binary age grouping: odds of depression for those with dysphonia compared to those without were slightly higher in the ≤ 65 age group versus the > 65 age group (OR 1.47, 95% CI 1.36–1.58 vs. OR 1.27, 95% CI 1.18–1.36) but with overlapping confidence intervals. Odds of anxiety for those with dysphonia compared to those without were also higher in the ≤ 65 age group versus the > 65 age group with overlapping confidence intervals (OR 1.57, 95% CI 1.46–1.69 vs. OR 1.39, 95% CI 1.30–1.49). When considering five different age ranges, the odds of depression for those with dysphonia compared to those without were highest in the ≥ 18–30 age group (OR 2.36, 95% CI 1.67–3.35) while the lowest was for those > 75 years (OR 1.22, 95% CI 1.09–1.35). The odds of anxiety for those with dysphonia compared to those without were highest in the ≥ 30–45 age group (OR 1.75, 95% CI 1.49–2.07) but with overlapping confidence intervals with every age group. Men with dysphonia compared to those without had 1.34 times the odds of depression (95% CI 1.22–1.47, p < 0.001) and 1.39 times the odds of anxiety (95% CI 1.26–1.52, p < 0.001). Meanwhile, women with dysphonia, versus women without, had 1.33 times the odds of depression (95% CI 1.25–1.42, p < 0.0001) and 1.46 times the odds of anxiety (95% CI 1.37–1.55, p < 0.001). Full results, broken down by covariate, are seen in Table 3 .",
+      "order": 7
+    },
+    {
+      "section": "Discussion",
+      "text": "In this study, dysphonia was associated with both depression and anxiety. Those with a dysphonia diagnosis had over 30% higher odds of depression and 40% higher odds of anxiety compared to those without dysphonia after controlling for a robust number of covariates. Multivariable regression by age group suggests no significant difference in odds of depression or anxiety when considering those ≤ 65 years old versus those > 65 years old. Further stratification of age into five categories showed a higher odds of depression in those ≥ 18–30 years old compared to those > 30 years old, and a higher odds of anxiety in those ≥ 30–45 years old compared to those > 45 years. These findings support past investigations of an association between dysphonia and depression and anxiety. Previous research has shown adults with a voice problem within the past year have a nearly two times higher odds of depression [ 10 ], and these findings have been mirrored across other populations ( n = 61, n = 119, n = 469) [ 11 , 12 , 20 ]. Additionally, analysis of over 24,000 patients in the University of Minnesota EHR showed 47% of those with at least one voice disorder diagnosis also had at least one mental health disorder diagnosis [ 21 ]. A study of spasmodic dysphonia ( n = 142) suggests rates of depression and anxiety of 14% and 3%, respectively [ 22 ]. There is, however, contradictory evidence; at least one investigation shows no higher odds of depression or anxiety in those with spasmodic dysphonia ( n = 146) [ 23 ]. Taken together, this study supports prior findings of an association between dysphonia and depression and anxiety. These results also provide new information about the role of age in the association between dysphonia and depression and anxiety. While prior evidence suggests that elderly populations have higher rates of dysphonia, in this analysis we show older participants with dysphonia do not have higher odds of depression or anxiety than younger patients with dysphonia. To the contrary, younger individuals (≥ 18–30) had higher odds of depression compared to all older age groups, including the oldest group (> 75 years). It is possible that dysphonia is more distressing in younger populations since it is less common, adding to compounding stressors that beget depression or anxiety. Additionally, there may be higher occupational voice demands in younger populations. These findings align with previous cross-sectional investigations showing a strong association between dysphonia and anxiety in young adults (24–34 years old) [ 24 ]. Of note, we are unable to comment on the severity or acuity of the dysphonia, depression, or anxiety diagnoses due to the lack of specificity in ICD-10 codes. It is possible that many of the individuals with a dysphonia diagnosis had self-limited mild dysphonia, not warranting further clinical supportive work-up. Notably, those diagnosed with a mental health disorder initially are less likely than those diagnosed with a voice disorder initially to ever see an otolaryngologist or receive a more specific voice-related diagnosis [ 25 ]. More patients with dysphonia may benefit from specialist referral, including to speech therapy, as at least short-term voice therapy has been shown to improve anxiety and depression symptoms in dysphonic teachers, especially those with vocal nodules [ 26 ]. The findings from this and prior studies provide a foundation for future longitudinal or controlled investigations aimed at clarifying how best to minimize the dysphonia-mental health relationship. While this study cannot comment on causation given its cross-sectional nature, there are multiple hypotheses behind the temporality of the dysphonia-depression and dysphonia-anxiety relationships. Dysphonia may precede mental health disorders or inversely mental health disorders may begin prior to dysphonia [ 9 ]. Many studies have shown voice disorders are associated with worse quality of life [ 27 – 29 ], leading to communication difficulty and social isolation which is known to increase risk of depression and anxiety [ 30 ]. Contradicting these, however, is a retrospective analysis of the University of Minnesota EHR showing 63% of participants with both a mental health and a voice diagnosis received the mental health diagnosis first [ 25 ]. The odds of dysphonia may increase in the setting of mental health disorders given that anxiety and general stress, for instance, are associated with alterations in muscle tension and voice symptoms [ 31 ]. Future retrospective cohort studies of the All of Us Research Program could further explore the temporality of the dysphonia-depression and dysphonia-anxiety relationships. There are limitations and strengths to this study. First, the All of Us Research Program includes voluntary participation, which may induce selection bias. For instance, participants may vary from non-participants in health status, insurance status, or likelihood to engage in research, which may over or underestimate the distribution of exposures and outcomes. While the large sample size strengthens the precision of estimates, it does not mitigate bias introduced by non-random participation. Therefore, the generalization of these results should be with caution. Additionally, we cannot confirm all confounding variables are accounted for, nor do we account for overall comorbidity burden from additional chronic diseases. However, we included many of the diseases that may cause dysphonia: neurologic (e.g., Parkinson’s disease, ALS, MS, essential tremor, vocal fold, or paralysis), gastrointestinal (e.g., gastrointestinal reflux disease, eosinophilic esophagitis), pulmonary (e.g., COPD, asthma), rheumatologic/autoimmune (e.g., rheumatoid arthritis, Sjogren’s syndrome, sarcoidosis, amyloidosis, granulomatosis with polyangiitis), thyroid (e.g., thyroiditis, hypothyroidism, hyperthyroidism, non-toxic goiter), musculoskeletal (e.g., fibromyalgia), infectious (e.g., oral candidiasis), as well as head and neck cancer (e.g., oral cavity, oropharynx, hypopharynx, laryngeal, and thyroid neoplasms) [ 1 , 2 ]. Thus, the robust number of covariates is a strength of the study. The study is supported by the large sample size and representation of populations historically excluded from biomedical research (23% Black or African American).",
+      "order": 8
+    },
+    {
+      "section": "Conclusion",
+      "text": "In this epidemiologic study, we show an association between dysphonia and depression and dysphonia and anxiety in a large national cohort. The findings highlight the comorbidity of mental health disorders with voice dysfunction.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "journal": "Dsphonia",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "“Clinical Practice Guideline: Hoarseness (Dysphonia) (Update)",
+      "journal": "Otolaryngology - Head and Neck Surgery",
+      "year": "2018",
+      "volume": "158",
+      "issue": "1_suppl",
+      "fpage": "S1",
+      "lpage": "S42",
+      "pmid": "29494321",
+      "doi": "10.1177/0194599817751030"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "The Prevalence of Voice Problems Among Adults in the United States",
+      "journal": "Laryngoscope",
+      "year": "2014",
+      "volume": "124",
+      "issue": "10",
+      "fpage": "2359",
+      "lpage": "2362",
+      "pmid": "24782443",
+      "doi": "10.1002/lary.24740"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "Self-Reported Impact of Dysphonia in a Primary Care Population: An Epidemiological Study",
+      "journal": "Laryngoscope",
+      "year": "2010",
+      "volume": "120",
+      "issue": "10",
+      "fpage": "2022",
+      "lpage": "2032",
+      "pmid": "20830762",
+      "doi": "10.1002/lary.21058"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Current Dysphonia Trends in Patients Over the Age of 65: Is Vocal Atrophy Becoming More Prevalent?",
+      "journal": "Laryngoscope",
+      "year": "2012",
+      "volume": "122",
+      "issue": "2",
+      "fpage": "332",
+      "lpage": "335",
+      "pmid": "22252988",
+      "doi": "10.1002/lary.22397"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "title": "Voice Problems and Risk Factors Among Aerobics Instructors",
+      "journal": "Journal of Voice",
+      "year": "1998",
+      "volume": "12",
+      "issue": "2",
+      "fpage": "197",
+      "lpage": "207",
+      "pmid": "9649075",
+      "doi": "10.1016/s0892-1997(98)80039-8"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "title": "Prevalence and Risk Factors for Voice Problems Among Telemarketers",
+      "journal": "Archives of Otolaryngology – Head & Neck Surgery",
+      "year": "2002",
+      "volume": "128",
+      "issue": "5",
+      "fpage": "571",
+      "lpage": "577",
+      "pmid": "12003590",
+      "doi": "10.1001/archotol.128.5.571"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "title": "Dias Mattos Souza, “Behavioral Dysphonia and Depression in Elementary School Teachers",
+      "journal": "Journal of Voice",
+      "year": "2015",
+      "volume": "29",
+      "issue": "6",
+      "fpage": "712",
+      "lpage": "717",
+      "pmid": "26142760",
+      "doi": "10.1016/j.jvoice.2014.10.011"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "title": "Intersection of Mental Health and Dysphonia: A Scoping Review",
+      "journal": "Journal of Voice",
+      "year": "2023",
+      "volume": "39",
+      "issue": "5",
+      "fpage": "1418"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "title": "Voice Problems and Depression Among Adults in the United States",
+      "journal": "Laryngoscope",
+      "year": "2016",
+      "volume": "126",
+      "issue": "8",
+      "fpage": "1859",
+      "lpage": "1864",
+      "pmid": "26691195",
+      "doi": "10.1002/lary.25819",
+      "pmc_id": "PMC4916046"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "title": "Marked Depression and Anxiety in Patients With Functional Dysphonia",
+      "journal": "Psychiatry Research",
+      "year": "2005",
+      "volume": "134",
+      "issue": "1",
+      "fpage": "85",
+      "lpage": "91",
+      "pmid": "15808293",
+      "doi": "10.1016/j.psychres.2003.07.007"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "title": "Comparing Five-Factor Personality Traits and Psychological Distress Between Dysphonic Patients and Individuals With Vocally Healthy Voices",
+      "journal": "Brain and Behavior",
+      "year": "2024",
+      "volume": "14",
+      "issue": "8",
+      "fpage": "e3641",
+      "pmid": "39099382",
+      "doi": "10.1002/brb3.3641",
+      "pmc_id": "PMC11298687"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "title": "Psychological Effects of Dysphonia in Voice Professionals",
+      "journal": "Laryngoscope",
+      "year": "2015",
+      "volume": "125",
+      "issue": "8",
+      "fpage": "1908",
+      "lpage": "1910",
+      "pmid": "25892054",
+      "doi": "10.1002/lary.25319"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "title": "The Frequency of Perceived Stress, Anxiety, and Depression in Patients With Common Pathologies Affecting Voice",
+      "journal": "Journal of Voice",
+      "year": "2008",
+      "volume": "22",
+      "issue": "4",
+      "fpage": "472",
+      "lpage": "488",
+      "pmid": "18395419",
+      "doi": "10.1016/j.jvoice.2006.08.007"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "title": "Psychosocial Distress in Patients Presenting With Voice Concerns",
+      "journal": "Journal of Voice",
+      "year": "2014",
+      "volume": "28",
+      "issue": "6",
+      "fpage": "753",
+      "lpage": "761",
+      "pmid": "24930373",
+      "doi": "10.1016/j.jvoice.2014.02.010",
+      "pmc_id": "PMC4252975"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "journal": "All of Us – Core Values",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "title": "The “All of Us” Research Program",
+      "journal": "New England Journal of Medicine",
+      "year": "2019",
+      "volume": "381",
+      "issue": "7",
+      "fpage": "668",
+      "lpage": "676",
+      "pmid": "31412182",
+      "doi": "10.1056/NEJMsr1809937",
+      "pmc_id": "PMC8291101"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "journal": "All of Us Research Hub – Data Browser",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "journal": "National Center for Health Statistics - ICD-10-CM",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "title": "Incidence of Common Mental Disorders in Teachers: Is There a Relationship With Voice Disorders?",
+      "journal": "Journal of Voice 35",
+      "year": "2021",
+      "volume": "3",
+      "fpage": "432",
+      "lpage": "437"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "title": "Association of Voice and Mental Health Diagnoses With Differences in Voice-Related Care Utilization",
+      "journal": "Laryngoscope",
+      "year": "2020",
+      "volume": "130",
+      "issue": "6",
+      "fpage": "1496",
+      "lpage": "1502",
+      "pmid": "31508825",
+      "doi": "10.1002/lary.28277",
+      "pmc_id": "PMC7269063"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "title": "Anxiety and Depression in Spasmodic Dysphonia Patients",
+      "journal": "World Journal of Otorhinolaryngology - Head & Neck Surgery",
+      "year": "2018",
+      "volume": "4",
+      "issue": "2",
+      "fpage": "110",
+      "lpage": "116",
+      "pmid": "30101219",
+      "doi": "10.1016/j.wjorl.2018.04.004",
+      "pmc_id": "PMC6074012"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "title": "Coprevalence of Anxiety and Depression With Spasmodic Dysphonia: A Case-Control Study",
+      "journal": "Journal of Voice",
+      "year": "2012",
+      "volume": "26",
+      "issue": "5",
+      "fpage": "666",
+      "lpage": "667"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Voice Disorders and Associated Risk Markers Among Young Adults in the United States",
+      "journal": "Laryngoscope",
+      "year": "2017",
+      "volume": "127",
+      "issue": "9",
+      "fpage": "2093",
+      "lpage": "2099",
+      "pmid": "28008619",
+      "doi": "10.1002/lary.26465",
+      "pmc_id": "PMC5481531"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "title": "Mental Health and Dysphonia: Which Comes First, and Does That Change Care Utilization?",
+      "journal": "Laryngoscope",
+      "year": "2020",
+      "volume": "130",
+      "issue": "5",
+      "fpage": "1243",
+      "lpage": "1248",
+      "pmid": "32034963",
+      "doi": "10.1002/lary.28203",
+      "pmc_id": "PMC7269068"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "title": "Voice-Related Quality of Life, Anxiety, and Depression in Female Teachers: Finger Kazoo Intensive Short-Term Vocal Therapy",
+      "journal": "Journal of Voice",
+      "year": "2022",
+      "volume": "36",
+      "issue": "5",
+      "fpage": "736.e731",
+      "lpage": "736.e715"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "A Comparative Study of Iranian Female Primary School Teachers’ Quality of Life With and Without Voice Complaints",
+      "journal": "Journal of Voice",
+      "year": "2016",
+      "volume": "30",
+      "issue": "6",
+      "fpage": "688",
+      "lpage": "692",
+      "pmid": "26952320",
+      "doi": "10.1016/j.jvoice.2015.08.019"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "title": "Self-Perception of Quality of Life in Patients With Functional Voice Disorders: The Effects of Psychological and Vocal Acoustic Variables",
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "year": "2018",
+      "volume": "275",
+      "issue": "11",
+      "fpage": "2745",
+      "lpage": "2754",
+      "pmid": "30116878",
+      "doi": "10.1007/s00405-018-5090-5"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "title": "Vocal Impact on Quality of Life of Elderly Female Subjects",
+      "journal": "Brazilian Journal of Otorhinolaryngology",
+      "year": "2005",
+      "volume": "71",
+      "issue": "2",
+      "fpage": "172",
+      "lpage": "178",
+      "pmid": "16446914",
+      "doi": "10.1016/S1808-8694(15)31307-0",
+      "pmc_id": "PMC9450524"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "title": "The Association Between Social Isolation and DSM-IV Mood, Anxiety, and Substance Use Disorders: Wave 2 of the National Epidemiologic Survey on Alcohol and Related Conditions",
+      "journal": "Journal of Clinical Psychiatry",
+      "year": "2011",
+      "volume": "72",
+      "issue": "11",
+      "fpage": "1468",
+      "lpage": "1476",
+      "pmid": "21295001",
+      "doi": "10.4088/JCP.10m06019gry"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "title": "The Association Between Possible Stress Markers and Vocal Symptoms",
+      "journal": "Journal of Voice",
+      "year": "2013",
+      "volume": "27",
+      "issue": "6",
+      "fpage": "787.e781",
+      "lpage": "787.e710"
+    }
+  ]
+}

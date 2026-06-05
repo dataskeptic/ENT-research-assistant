@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "title": "Characteristics associated with clinical response to pomalidomide in hereditary hemorrhagic telangiectasia",
+    "authors": [
+      "Hanny Al-Samkari",
+      "Sonia M. Thomas",
+      "Derek Marsh",
+      "Raj S. Kasthuri",
+      "Vivek N. Iyer",
+      "Allyson M. Pishko",
+      "Jake E. Decker",
+      "Clifford R. Weiss",
+      "Kevin J. Whitehead",
+      "Miles B. Conrad",
+      "Marc S. Zumberg",
+      "Jenny Y. Zhou",
+      "Joseph Parambil",
+      "Benjamin Carper",
+      "Marianne Clancy",
+      "Keith R. McCrae"
+    ],
+    "journal": "Blood Advances",
+    "year": "2026",
+    "doi": "10.1182/bloodadvances.2025019484",
+    "pmc_id": "PMC13138167",
+    "pmid": "41719457",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 25
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Key Points • More severe epistaxis at baseline and concomitant use of antifibrinolytics were associated with more robust response to pomalidomide. • ACVRL1 germ line mutation and older age were associated with less robust response to pomalidomide.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hereditary hemorrhagic telangiectasia (HHT; Osler-Weber-Rendu disease) is an autosomal dominant vascular bleeding disorder afflicting 1 in 4000 to 5000 people, making it the second most common inherited bleeding disorder 1 , 2 and the most morbid inherited bleeding disorder of women. 3 Recurrent, often severe epistaxis affects nearly all patients with HHT and is the manifestation resulting in the greatest negative impact on health-related quality of life (HRQoL), including major impacts on psychosocial health. 4 , 5 Most patients with HHT also experience morbidity from organ arteriovenous malformations (AVMs), including chronic gastrointestinal bleeding from gastrointestinal AVMs and solid organ AVMs in the lung, liver, and brain that may result in morbid bleeding and nonbleeding complications. 6 , 7 These severe and multisystem impacts result in reduced overall survival relative to the general population. 8 , 9 , 10 Longitudinal management of HHT-associated bleeding has gradually shifted from repeat surgical procedures 11 to efficacious medical therapies with hemostatic and antiangiogenic properties, 12 , 13 , 14 , 15 and now multiple such agents are used; however, there remain no approved therapeutics for HHT. It remains impossible to predict how successfully a patient will respond to a given medical therapy before its initiation. This is of particular concern in HHT given that the disease-modifying antiangiogenic drugs with ample or high-level evidence supporting their use, systemic bevacizumab and the immunomodulatory imide drugs thalidomide and pomalidomide, are expensive, currently only approved for patients with malignancy, and have well-described toxicity risks. 16 Additionally, due to the underlying mechanism of these agents (vascular remodeling), it may take several months to observe a clinical response in some patients. Therefore, baseline patient or disease characteristics associated with response or nonresponse to a given agent would be of significant clinical utility. Because HHT has been neglected among the more common inherited bleeding disorders, 17 large prospective clinical trials to date have been few. The largest such trial to date, the PATH-HHT trial ( ClinicalTrials.gov identifier: NCT03910244 ), was a randomized, controlled trial comparing pomalidomide with placebo in patients with HHT presenting with moderate-to-severe bleeding. 14 , 18 The trial was successful in demonstrating the efficacy of pomalidomide in HHT; however, a wide spectrum of responses to pomalidomide were observed across the study population. The size and prospective nature of PATH-HHT allow for a critical examination of potential baseline characteristics of the participants and their disease that may be associated with degree of response to pomalidomide. This is the aim of the present study.",
+      "order": 1
+    },
+    {
+      "section": "Characteristics For Evaluation",
+      "text": "A comprehensive set of baseline characteristics was identified to evaluate for potential association with change in epistaxis severity. These included demographics (age, sex, race, ethnicity, and living in colder climate at enrollment), assessments of baseline epistaxis severity (Epistaxis Severity Score [ESS]; individual ESS items for epistaxis frequency, intensity, and presence of anemia; hemoglobin and ferritin values; and intensity-weighted daily epistaxis duration self-reported by daily epistaxis diary in the preceding 4 weeks), concomitant use of oral antifibrinolytic agents (allowed by protocol if at a stable dose), underlying HHT germ line mutation, HHT complications other than epistaxis (brain AVMs, pulmonary AVMs, liver AVMs, gastrointestinal AVMs/bleeding), relevant medical history (red blood cell transfusion/emergency department visit in the preceding 6 months, amount of elemental iron infused in the preceding 6 months, previous endoscopic interventions for epistaxis, previous receipt of systemic bevacizumab [concurrent use not allowed by protocol], diagnoses of heart failure/pulmonary hypertension, systemic hypertension, allergic rhinitis, history of infections, depression/anxiety), and baseline HRQoL assessments (HHT-specific Quality of Life Scale [HHT-QoL], Neuro-QoL Satisfaction with Social Roles and Activities, PROMIS Emotional Distress-Depression, PROMIS Fatigue). We also evaluated the presence of common pomalidomide side effects for association with a treatment response (development of rash, constipation, or neutropenia, and change in neutrophil count from baseline after 4 and 24 weeks of treatment). Association among characteristics was evaluated via Spearman rank correlation.",
+      "order": 2
+    },
+    {
+      "section": "Initial Assessment Of Association With Change In Ess",
+      "text": "For each characteristic, we assessed the association with change in ESS from baseline to 24 weeks, and the average of weeks 16, 20, and 24 within both the pomalidomide and placebo groups using a repeated-measures linear model with adjustment for baseline ESS value, clinical site (with lower enrolling sites pooled), age, treatment group, and study visit. Association was assessed for each treatment group separately via a 3-way interaction between treatment, characteristic, and visit. Assessments were made at 24 weeks because that was the study’s primary time point; for this exploration, we also evaluated the average across weeks 16 to 24 to obtain a more stable estimate as the study sample size was modest for association analysis and primary results indicated a consistent and strong pomalidomide response during weeks 16 to 24. 14 All evaluations included adjustment for age because a strong association between age and response was identified early in the analysis process. Analyses were conducted for all randomized and treated participants with postbaseline data (modified intent-to-treat population). Although there was no formal adjustment for multiple testing, we selected characteristics to further explore if they met the following a priori criteria: binary characteristics: adjusted mean difference for ESS change from baseline averaged across weeks 16 through 24 of ≥0.5 between levels and sample size in the smaller level of at least n = 13 (corresponding to 15% in the pomalidomide arm and 25% in the placebo arm); ordinal: mean difference between lowest and highest categories approaching 0.5 and a clear ordinal trend; continuous: P value ≥ .05. We selected 0.5 as a cutoff for the ESS score because although the minimal clinically important difference for ESS is 0.71, 19 we considered a value of 0.5 to be appropriate for exploration.",
+      "order": 3
+    },
+    {
+      "section": "Assessment Of Multivariable-Adjusted Association With Change In Ess",
+      "text": "For each treatment group, the smallest subset of characteristics with multivariable-adjusted association with change in ESS across the study was identified by backward selection using a repeated-measures linear model, limited to participants only in that treatment group. The model began with all characteristics identified for further evaluation in the first step, plus clinical site and study visit. Characteristics were removed 1 at a time based on the largest P value until all remaining characteristics had a P value < .05. Treatment groups were analyzed separately to identify separate characteristics associated with response to active treatment and placebo. Strength of association with ESS was assessed across all time points to identify the most rigorous associations. A final multivariable-adjusted repeated-measures model for both groups combined was fit, with factors for the strongest covariates identified by the treatment-specific multivariable-adjusted models, plus clinical site, treatment group, and visit. Each covariate was evaluated for interaction with treatment group, and backward selection identified a final single model of the characteristics found to have the strongest association ( P < .05) with ESS change from baseline across all visits. This study was approved by the Cleveland Clinic institutional review board and was conducted in accordance with the Declaration of Helsinki.",
+      "order": 4
+    },
+    {
+      "section": "Associations Of Patient And Disease Characteristics With Change In Ess And Correlations Between These Characteristics",
+      "text": "Pairwise Spearman rank correlations between all baseline characteristics are illustrated in supplemental Figure 1 . The intensity-weighted daily epistaxis duration and HHT-QoL were both correlated with the ESS ( r = 0.56 and 0.38, respectively) and with each other ( r = 0.36), and all 4 HRQoL assessments were correlated with each other ( r > 0.3). Of note, an ACVRL1 germ line mutation was associated with less lung involvement ( r = 0.37), less anemia ( r = 0.34), and higher hemoglobin ( r = 0.34).",
+      "order": 5
+    },
+    {
+      "section": "Characteristics Associated With Response To Pomalidomide",
+      "text": "Minimally adjusted associations with ESS change from baseline for each characteristic are presented in supplemental Table 1 . Characteristics associated ( P < .05) with change in the pomalidomide group either from baseline to week 24 or from baseline to the average of weeks 16 to 24 included baseline ESS, age, and ACVRL1 germ line mutation ( Table 1 ). Concomitant use of oral antifibrinolytic medications, history of gastrointestinal bleeding, high epistaxis flow intensity at baseline, and baseline ferritin levels were also associated with greater ESS improvement in response to pomalidomide and met the criteria for further evaluation but did not show an association of P < .05 at week 24 or average of weeks 16 to 24. Sex was not associated with pomalidomide response. In the final multivariable-adjusted model of response to pomalidomide, characteristics associated ( P < .05) with change in ESS across all study time points were baseline ESS, age, presence of ACVRL1 mutation, and use of concomitant antifibrinolytic therapy ( Table 2 ). Each 1-point higher baseline ESS was associated with a greater mean improvement in ESS change from baseline across weeks 16 to 24 of −0.76 (95% confidence interval [CI], −0.99 to −0.54, P < .001). Increasing age was associated with less improvement with pomalidomide (for 10 years older, mean difference at weeks 16 to 24 = 0.29 [95% CI, 0.05-0.53]; P = .02); however, both younger and older patients improved with treatment. Use of concomitant antifibrinolytics was associated with greater improvements in ESS in response to pomalidomide vs no use (mean difference across weeks 16-24 = −0.73 [95% CI, −1.48 to 0.01]; P = .05). The presence of an ACVRL1 germ line mutation relative to no ACVRL1 mutation, the latter including patients with mutations in ENG , SMAD4 , or no mutation identified, was associated with lesser improvements in ESS in response to pomalidomide (mean difference at weeks 16-24 = 0.62 [95% CI, −0.04 to 1.27]; P = .06). Participants with ACVRL1 compared with those with ENG mutation had less gastrointestinal bleeding (26% vs 50%) and lung AVM involvement (30% vs 76%), less anemia (53% vs 80%), and higher mean hemoglobin (12.2 [standard deviation 2.4] vs 10.8 [standard deviation 2.0]), but similar baseline ESS, intensity-weighted daily bleeding duration, and HHT-QoL ( Table 3 ).",
+      "order": 6
+    },
+    {
+      "section": "Characteristics Associated With Response To Placebo And Characteristics Associated With Response To Both Pomalidomide And Placebo",
+      "text": "In the placebo group, many of the characteristics meeting the threshold for further evaluation were representative of overall disease severity, such that those with more severe disease at baseline had less improvement in response to placebo (placebo effect), supporting the conclusion that the placebo response was primarily seen in patients with less severe disease overall. Specifically, baseline characteristics associated ( P < .05) with lesser ESS improvement from baseline in the placebo group either to week 24 or to the average across weeks 16 to 24 were HHT-QoL, Neuro-QoL Satisfaction with Social Roles and Activities T-score, PROMIS Fatigue T-score, and previous receipt of systemic bevacizumab. In contrast, higher (more severe) baseline ESS scores were associated with more improvement in ESS, as seen in the pomalidomide group ( supplemental Table 2 ). In the final multivariable-adjusted repeated-measures model for treatment that combined both pomalidomide and placebo groups, characteristics associated ( P < .05) with more change in ESS across study visits were higher baseline ESS (mean difference in ESS averaged across weeks 16-24 for 1-point higher [worse]: −0.92 [95% CI, −1.11 to −0.74]; P < .001), younger age (mean difference in ESS averaged across weeks 16-24 for 10 years older: 0.37 [95% CI, 0.17-0.57]; P < .001), and better baseline HHT-QoL score (mean difference in ESS averaged across weeks 16-24 for 1-point higher [worse]: 0.14 [95% CI, 0.06-0.23]; P = .002). Use of concomitant antifibrinolytic therapy had a separate relationship for pomalidomide and placebo groups (interaction P = .03). Participants in the pomalidomide group on antifibrinolytic therapy improved more than those not on antifibrinolytics (mean difference in ESS averaged across weeks 16-24: −0.48 [95% CI, −1.18 to 0.21]; P = .17), whereas participants in the placebo group on antifibrinolytic therapy improved less than those not on antifibrinolytics (mean difference in ESS averaged across weeks 16-24: 0.89 [95% CI, −0.01 to 1.80]; P = .05; Table 4 ). Supplemental Tables 3 and 4 (by treatment group) compare study participant baseline characteristics by use of concomitant antifibrinolytics, demonstrating no notable differences in those receiving concomitant antifibrinolytics and those who did not, both overall and by treatment group. Figure 1 illustrates the associations of these 4 characteristics with ESS change from baseline according to treatment group, as well as ACVRL1 mutation that met the association cutoff point of P < .05 only for pomalidomide, although also showed a similar trend in placebo. Supplemental Figure 2 illustrates that adjustment for additional characteristics does not diminish the effect of pomalidomide vs placebo.",
+      "order": 7
+    },
+    {
+      "section": "Discussion",
+      "text": "Because the vascular remodeling of telangiectasias and AVMs that provides for durable hemostasis in HHT is a gradual process, typically taking weeks to months, 20 , 21 use of antiangiogenic drugs to treat HHT requires patience on the part of both patient and clinician, as well as considerable up-front investment in time, money, and opportunity cost. 22 Pomalidomide in particular remains expensive in many countries (it was demonstrated to be a leading pharmacy cost driver in a recent US health economic study of HHT), 23 and regulatory agencies require monthly clinical and laboratory monitoring owing to its teratogenic potential. Additionally, premature discontinuation of pomalidomide or other antiangiogenics before the delayed development of efficacy may inappropriately deprive a patient of an effective disease-modifying therapy that could have provided years of durable disease control. For all of these reasons, a better understanding of patient and disease characteristics associated with a greater likelihood and depth of response is critical, given that current therapeutic selection in HHT is largely empiric or driven by considerations of toxicities and route of administration rather than likelihood of response. 11 , 24 In this study rigorously analyzing the in-depth patient- and disease-specific characteristics of patients receiving pomalidomide in the randomized, placebo-controlled PATH-HHT trial, we observed several easily assessed baseline characteristics associated with greater or lesser response to pomalidomide. In particular, higher ESS at baseline and younger patient age emerged as consistent factors associated with better response to pomalidomide. Patients with more severe ESS scores at baseline are more likely to experience a greater depth of response owing to their greater potential for improvement. Those with a baseline ESS in the mild range did not show an appreciable improvement in ESS, suggesting that pomalidomide might not be an appropriate treatment option for certain patients with mild HHT-associated epistaxis, given its cost, off-label nature, and association with potentially serious side effects. Older patients appeared likely to respond as well as younger patients. This may be due to underlying biological aspects of more advanced HHT or potentially adherence issues with use of the medication, as adverse events associated with pomalidomide, in particular hematologic toxicity, were more common and more significant in older adults in the PATH-HHT After Trial Longitudinal Assessment Study. 18 The presence of a germ line ACVRL1 mutation was associated with lesser response to pomalidomide relative to a germ line ENG mutation or no known mutation, although responses were observed in many patients with this genotype. ACVRL1 participants had similar baseline ESS and age as other participants but less lung involvement and less anemia. Given the ongoing lack of deep understanding of the exact mechanisms by which pomalidomide exerts its therapeutic effect in HHT, it is difficult to speculate why improvements in epistaxis appear to be less overall in patients with ACVRL1 mutations, and this is an important topic of further study. Concomitant use of antifibrinolytics was associated with greater response in patients in the pomalidomide group but not in the placebo group. This suggests the potential for additive or synergistic effects between pomalidomide and antifibrinolytic drugs, which is logical given the differing therapeutic mechanisms of these agents both leading to improved hemostasis. Given that both agents have a theoretical thromboembolic risk, there may be some hesitation among clinicians to combine them. Only very limited data pertaining to combination antiangiogenic-antifibrinolytic treatment in HHT have been published and are limited at this time to small case series. 25 Although the overall number of combination therapy patients in the present study (n = 20 for pomalidomide plus antifibrinolytic agent) is small, to our knowledge it is the largest cohort of such combination therapy to date in the published literature and, taken together, does not provide a signal for increased thromboembolism. Ultimately, these findings should be viewed as hypothesis-generating and provide an avenue for further dedicated study of combination therapy in HHT. Differences in response to other agents, such as antifibrinolytics and systemic bevacizumab, were not seen in other studies, 13 but none of these studies undertook a rigorous analysis for associations as was done in the present study. Further investigation into the additive or synergistic efficacy that may be seen with the combination of systemic therapies with different, complementary mechanisms of action and nonoverlapping toxicity seems particularly prudent given the numerous novel agents currently in development to treat HHT. Finally, we found that the strongest associations with response to placebo (the placebo effect) were patient-reported outcomes, both disease- and nondisease-specific instruments representative of the patient’s experience of their overall disease severity and HRQoL (such that those experiencing more severe disease at baseline had less of a placebo effect). This is an important consideration for the conduct of future trials in HHT. Because epistaxis measurement in HHT clinical trials relies on epistaxis diaries and validated epistaxis recall instruments, a modest placebo effect is well documented. 20 These findings support the hypothesis that patients experiencing relatively less severe disease may be more prone to experiencing an improvement on placebo due to a shift in attitude and/or outlook, whereas patients experiencing relatively more severe disease are less likely to have a placebo effect given the harsher realities of the disease manifestations that they face on a regular basis. Nevertheless, these observations argue for inclusion of placebo groups in future trials of emerging agents in HHT. Our study has several notable strengths, including the rigorous and comprehensive prospective collection of data as occurs in a randomized clinical trial and the fact that the trial was double-blind, both enhancing the analysis of the present study. It also has important limitations. Although PATH-HHT remains the largest randomized trial in HHT to date, the number of patients with certain characteristics was small, limiting the sample size of certain analyses. It is also possible that our selection process may have overfit the models. Given that there was no formal adjustment for multiple testing, backward selection of predictors may increase the potential for type I error. The associations found in this study must be validated in future patient cohorts in order to be confirmed as predictors of response. Nevertheless, in the meantime, in this rare and morbid disease in which clinicians are in great need of guidance, the associations discovered in this study may be helpful in making clinical determinations in daily practice. In conclusion, higher ESS measurement at baseline, younger age, and concomitant use of antifibrinolytic therapy were associated with more robust response to pomalidomide, whereas the presence of an ACVRL1 germ line mutation and worse HHT-QoL measurement at baseline were associated with less robust response to pomalidomide. Further assessment of these findings in future studies of pomalidomide or other emerging agents in HHT is needed.",
+      "order": 8
+    },
+    {
+      "section": "Body",
+      "text": "Conflict-of-interest disclosure: H.A.-S. declares grants or contracts (research funding to institution) from Agios, Sobi, Vaderis, Novartis, Amgen, and Alnylam; and consulting fees from Agios, Amgen, Alnylam, Alpine, Diagonal, Sobi, Takeda, Terremoto, Pharmacosmos, Novartis, Sanofi, and Vaderis. R.S.K. declares grants or contracts (research funding to institution) from US Department of Defense and Health Resources and Services Administration; and consulting fees from Alnylam, Crosswalk, Pharmacosmos, and Tectonic. S.M.T. declares grants or contracts (research funding to institution) from National Heart, Lung, and Blood Institute. K.R.M. declares payment or honoraria for lectures/presentations/other from MD Anderson Cancer Center, University of Southern California. A.M.P. declares grants or contracts (research funding to institution) from Janssen, Novartis, and Veralox; taking part in an advisory board for Biomarin LLC; and receipt of royalties from UpToDate. The remaining authors declare no competing financial interests.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1",
+      "authors": [
+        "Kjeldsen AD",
+        "Vase P",
+        "Green A"
+      ],
+      "title": "Hereditary haemorrhagic telangiectasia: a population-based study of prevalence and mortality in Danish patients",
+      "journal": "J Intern Med",
+      "year": "1999",
+      "volume": "245",
+      "issue": "1",
+      "fpage": "31",
+      "lpage": "39",
+      "doi": "10.1046/j.1365-2796.1999.00398.x",
+      "pmid": "10095814"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2",
+      "authors": [
+        "Chowdhury FN",
+        "Chandrarathne GS",
+        "Masilamani KD",
+        "et al."
+      ],
+      "title": "Links between strokes and hereditary hemorrhagic telangiectasia: a population-based study",
+      "journal": "Can J Neurol Sci",
+      "year": "2019",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "44",
+      "lpage": "50",
+      "doi": "10.1017/cjn.2018.360",
+      "pmid": "30520389"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3",
+      "authors": [
+        "Zhang E",
+        "Virk ZM",
+        "Rodriguez-Lopez J",
+        "Al-Samkari H"
+      ],
+      "title": "Hereditary hemorrhagic telangiectasia may be the most morbid inherited bleeding disorder in women",
+      "journal": "Blood Adv",
+      "year": "2024",
+      "volume": "8",
+      "issue": "12",
+      "fpage": "3166",
+      "lpage": "3172",
+      "doi": "10.1182/bloodadvances.2023011961",
+      "pmc_id": "PMC11225659",
+      "pmid": "38593443"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4",
+      "authors": [
+        "Chaturvedi S",
+        "Clancy M",
+        "Schaefer N",
+        "Oluwole O",
+        "McCrae KR"
+      ],
+      "title": "Depression and post-traumatic stress disorder in individuals with hereditary hemorrhagic telangiectasia: a cross-sectional survey",
+      "journal": "Thromb Res",
+      "year": "2017",
+      "volume": "153",
+      "fpage": "14",
+      "lpage": "18",
+      "doi": "10.1016/j.thromres.2017.03.003",
+      "pmc_id": "PMC5420428",
+      "pmid": "28314138"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5",
+      "authors": [
+        "Al-Samkari H",
+        "Kasthuri RS",
+        "Iyer VN",
+        "et al."
+      ],
+      "title": "Validation and clinical application of the hereditary hemorrhagic telangiectasia-specific quality of life scale",
+      "journal": "J Thromb Haemost",
+      "year": "2026",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "108",
+      "lpage": "118",
+      "doi": "10.1016/j.jtha.2025.09.024",
+      "pmc_id": "PMC12646166",
+      "pmid": "41092987"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6",
+      "authors": [
+        "Kasthuri RS",
+        "Montifar M",
+        "Nelson J",
+        "et al."
+      ],
+      "title": "Prevalence and predictors of anemia in hereditary hemorrhagic telangiectasia",
+      "journal": "Am J Hematol",
+      "year": "Published online 22 June 2017",
+      "doi": "10.1002/ajh.24832",
+      "pmc_id": "PMC5997494",
+      "pmid": "28639385"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7",
+      "authors": [
+        "Kjeldsen AD",
+        "Kjeldsen J"
+      ],
+      "title": "Gastrointestinal bleeding in patients with hereditary hemorrhagic telangiectasia",
+      "journal": "Am J Gastroenterol",
+      "year": "2000",
+      "volume": "95",
+      "issue": "2",
+      "fpage": "415",
+      "lpage": "418",
+      "doi": "10.1111/j.1572-0241.2000.01792.x",
+      "pmid": "10685743"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8",
+      "authors": [
+        "Donaldson JW",
+        "McKeever TM",
+        "Hall IP",
+        "Hubbard RB",
+        "Fogarty AW"
+      ],
+      "title": "Complications and mortality in hereditary hemorrhagic telangiectasia: a population-based study",
+      "journal": "Neurology",
+      "year": "2015",
+      "volume": "84",
+      "issue": "18",
+      "fpage": "1886",
+      "lpage": "1893",
+      "doi": "10.1212/WNL.0000000000001538",
+      "pmc_id": "PMC4433463",
+      "pmid": "25862798"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9",
+      "authors": [
+        "Thompson KP",
+        "Nelson J",
+        "Kim H",
+        "et al."
+      ],
+      "title": "Predictors of mortality in patients with hereditary hemorrhagic telangiectasia",
+      "journal": "Orphanet J Rare Dis",
+      "year": "2021",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "12",
+      "doi": "10.1186/s13023-020-01579-2",
+      "pmc_id": "PMC7789194",
+      "pmid": "33407668"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10",
+      "authors": [
+        "Kritharis A",
+        "Al-Samkari H",
+        "Kuter DJ"
+      ],
+      "title": "Hereditary hemorrhagic telangiectasia: diagnosis and management from the hematologist's perspective",
+      "journal": "Haematologica",
+      "year": "2018",
+      "volume": "103",
+      "issue": "9",
+      "fpage": "1433",
+      "lpage": "1443",
+      "doi": "10.3324/haematol.2018.193003",
+      "pmc_id": "PMC6119150",
+      "pmid": "29794143"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11",
+      "authors": [
+        "Faughnan ME",
+        "Mager JJ",
+        "Hetts SW",
+        "et al."
+      ],
+      "title": "Second international guidelines for the diagnosis and management of hereditary hemorrhagic telangiectasia",
+      "journal": "Ann Intern Med",
+      "year": "2020",
+      "volume": "173",
+      "issue": "12",
+      "fpage": "989",
+      "lpage": "1001",
+      "doi": "10.7326/M20-1443",
+      "pmid": "32894695"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12",
+      "authors": [
+        "Al-Samkari H"
+      ],
+      "title": "Hereditary hemorrhagic telangiectasia: systemic therapies, guidelines, and an evolving standard of care",
+      "journal": "Blood",
+      "year": "2021",
+      "volume": "137",
+      "issue": "7",
+      "fpage": "888",
+      "lpage": "895",
+      "doi": "10.1182/blood.2020008739",
+      "pmid": "33171488"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13",
+      "authors": [
+        "Al-Samkari H",
+        "Kasthuri RS",
+        "Parambil JG",
+        "et al."
+      ],
+      "title": "An international, multicenter study of intravenous bevacizumab for bleeding in hereditary hemorrhagic telangiectasia: the InHIBIT-Bleed study",
+      "journal": "Haematologica",
+      "year": "2021",
+      "volume": "106",
+      "issue": "8",
+      "fpage": "2161",
+      "lpage": "2169",
+      "doi": "10.3324/haematol.2020.261859",
+      "pmc_id": "PMC8327711",
+      "pmid": "32675221"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14",
+      "authors": [
+        "Al-Samkari H",
+        "Kasthuri RS",
+        "Iyer VN",
+        "et al."
+      ],
+      "title": "Pomalidomide for epistaxis in hereditary hemorrhagic telangiectasia",
+      "journal": "N Engl J Med",
+      "year": "2024",
+      "volume": "391",
+      "issue": "11",
+      "fpage": "1015",
+      "lpage": "1027",
+      "doi": "10.1056/NEJMoa2312749",
+      "pmc_id": "PMC11412318",
+      "pmid": "39292928"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15",
+      "authors": [
+        "Parambil JG",
+        "Gossage JR",
+        "McCrae KR",
+        "et al."
+      ],
+      "title": "Pazopanib for severe bleeding and transfusion-dependent anemia in hereditary hemorrhagic telangiectasia",
+      "journal": "Angiogenesis",
+      "year": "2022",
+      "volume": "25",
+      "issue": "1",
+      "fpage": "87",
+      "lpage": "97",
+      "doi": "10.1007/s10456-021-09807-4",
+      "pmc_id": "PMC8295629",
+      "pmid": "34292451"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16",
+      "authors": [
+        "Al-Samkari H"
+      ],
+      "title": "How I treat bleeding in hereditary hemorrhagic telangiectasia",
+      "journal": "Blood",
+      "year": "2024",
+      "volume": "144",
+      "issue": "9",
+      "fpage": "940",
+      "lpage": "954",
+      "doi": "10.1182/blood.2023021765",
+      "pmc_id": "PMC11830975",
+      "pmid": "38864625"
+    },
+    {
+      "ref_id": "bib17",
+      "label": "17",
+      "authors": [
+        "Al-Samkari H"
+      ],
+      "title": "Giving hereditary haemorrhagic telangiectasia the attention it deserves",
+      "journal": "Lancet Haematol",
+      "year": "2021",
+      "volume": "8",
+      "issue": "7",
+      "fpage": "e472",
+      "lpage": "e474",
+      "doi": "10.1016/S2352-3026(21)00164-2",
+      "pmid": "34171274"
+    },
+    {
+      "ref_id": "bib18",
+      "label": "18",
+      "authors": [
+        "Zhang E",
+        "Kasthuri RS",
+        "Parambil J",
+        "et al."
+      ],
+      "title": "Pomalidomide for hereditary hemorrhagic telangiectasia: after trial longitudinal assessment study (PATH-HHT ATLAS)",
+      "journal": "Blood Adv",
+      "year": "2026",
+      "volume": "10",
+      "issue": "5",
+      "fpage": "1799",
+      "lpage": "1808",
+      "doi": "10.1182/bloodadvances.2025018382",
+      "pmc_id": "PMC12969400",
+      "pmid": "41512167"
+    },
+    {
+      "ref_id": "bib19",
+      "label": "19",
+      "authors": [
+        "Yin LX",
+        "Reh DD",
+        "Hoag JB",
+        "et al."
+      ],
+      "title": "The minimal important difference of the epistaxis severity score in hereditary hemorrhagic telangiectasia",
+      "journal": "Laryngoscope",
+      "year": "2016",
+      "volume": "126",
+      "issue": "5",
+      "fpage": "1029",
+      "lpage": "1032",
+      "doi": "10.1002/lary.25669",
+      "pmid": "26393959"
+    },
+    {
+      "ref_id": "bib20",
+      "label": "20",
+      "authors": [
+        "Al-Samkari H",
+        "Kasthuri RS",
+        "Mager HJ",
+        "et al."
+      ],
+      "title": "Standardization of terminology, definitions, and outcome criteria for bleeding in hereditary hemorrhagic telangiectasia: international consensus report",
+      "journal": "Am J Hematol",
+      "year": "2025",
+      "volume": "100",
+      "issue": "10",
+      "fpage": "1813",
+      "lpage": "1827",
+      "doi": "10.1002/ajh.70011",
+      "pmc_id": "PMC12417758",
+      "pmid": "40662351"
+    },
+    {
+      "ref_id": "bib21",
+      "label": "21",
+      "authors": [
+        "Invernizzi R",
+        "Quaglia F",
+        "Klersy C",
+        "et al."
+      ],
+      "title": "Efficacy and safety of thalidomide for the treatment of severe recurrent epistaxis in hereditary haemorrhagic telangiectasia: results of a non-randomised, single-centre, phase 2 study",
+      "journal": "Lancet Haematol",
+      "year": "2015",
+      "volume": "2",
+      "issue": "11",
+      "fpage": "e465",
+      "lpage": "e473",
+      "doi": "10.1016/S2352-3026(15)00195-7",
+      "pmc_id": "PMC4839500",
+      "pmid": "26686256"
+    },
+    {
+      "ref_id": "bib22",
+      "label": "22",
+      "authors": [
+        "Wang D",
+        "Ito S",
+        "Waldron C",
+        "et al."
+      ],
+      "title": "Cost-effectiveness of bevacizumab therapy in the care of patients with hereditary hemorrhagic telangiectasia",
+      "journal": "Blood Adv",
+      "year": "2024",
+      "volume": "8",
+      "issue": "11",
+      "fpage": "2835",
+      "lpage": "2845",
+      "doi": "10.1182/bloodadvances.2024012589",
+      "pmc_id": "PMC11176968",
+      "pmid": "38537061"
+    },
+    {
+      "ref_id": "bib23",
+      "label": "23",
+      "authors": [
+        "Al-Samkari H",
+        "Mayne TJ",
+        "Troutt M",
+        "Patle H",
+        "Clancy M",
+        "Duhaime E"
+      ],
+      "title": "Characterizing the healthcare utilization and costs of hereditary hemorrhagic telangiectasia",
+      "journal": "Am J Hematol",
+      "year": "2025",
+      "volume": "100",
+      "issue": "10",
+      "fpage": "1722",
+      "lpage": "1735",
+      "doi": "10.1002/ajh.27756",
+      "pmc_id": "PMC12417757",
+      "pmid": "40600700"
+    },
+    {
+      "ref_id": "bib24",
+      "label": "24",
+      "authors": [
+        "Al-Samkari H"
+      ],
+      "title": "Systemic antiangiogenic therapies for bleeding in hereditary hemorrhagic telangiectasia: a practical, evidence-based guide for clinicians",
+      "journal": "Semin Thromb Hemost",
+      "year": "2022",
+      "volume": "48",
+      "issue": "5",
+      "fpage": "514",
+      "lpage": "528",
+      "doi": "10.1055/s-0042-1743467",
+      "pmid": "35226946"
+    },
+    {
+      "ref_id": "bib25",
+      "label": "25",
+      "authors": [
+        "Virk ZM",
+        "Zhang E",
+        "Rodriguez-Lopez J",
+        "et al."
+      ],
+      "title": "Safety, tolerability, and effectiveness of anticoagulation and antiplatelet therapy in hereditary hemorrhagic telangiectasia",
+      "journal": "J Thromb Haemost",
+      "year": "2023",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "26",
+      "lpage": "36",
+      "doi": "10.1016/j.jtha.2022.09.003",
+      "pmc_id": "PMC10082473",
+      "pmid": "36695393"
+    }
+  ]
+}

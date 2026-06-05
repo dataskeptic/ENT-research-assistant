@@ -1,0 +1,1168 @@
+{
+  "metadata": {
+    "title": "Impact of IL-4/IL-13 Blockade with Dupilumab on the Microbiome in Type 2 Inflammatory Diseases: A Systematic Review",
+    "authors": [
+      "Pier-Valerio Mari",
+      "Lorenzo Carriera",
+      "Angela Saviano",
+      "Alberto Ricci",
+      "Angelo Coppola",
+      "Simone Ielo",
+      "Roberto Lipsi",
+      "Meridiana Dodaj",
+      "Francesco Gennari",
+      "Mario Gullà",
+      "Davide Stivalini",
+      "Maria Gabriella Pellegrino",
+      "Alessio Migneco",
+      "Eugenio De Corso",
+      "Veronica Ojetti"
+    ],
+    "journal": "Current Allergy and Asthma Reports",
+    "year": "2026",
+    "doi": "10.1007/s11882-026-01281-6",
+    "pmc_id": "PMC13179912",
+    "pmid": "42142274",
+    "full_text_available": true,
+    "section_count": 15,
+    "reference_count": 50
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose of Review To systematically review current evidence on microbiota changes associated with dupilumab treatment across different anatomical sites in type 2 inflammatory diseases. Recent Findings Fifteen studies were included, comprising two randomized trials and thirteen observational studies, mostly in atopic dermatitis, with fewer data in chronic rhinosinusitis with nasal polyps and NSAID-exacerbated respiratory disease. The skin was the most frequently investigated site, followed by the sinonasal tract and gut. Across skin studies, dupilumab was consistently associated with reduced Staphylococcus aureus , increased microbial diversity, and enrichment of commensal taxa. Sinonasal studies suggested shifts toward more eubiotic microbial communities. Gut evidence was limited, although one study suggested modulation of tryptophan metabolism-related pathways. Summary Dupilumab appears to exert compartment-specific and disease-dependent effects on the microbiome. The strongest evidence concerns the skin and sinonasal compartments, whereas gut microbiota changes remain poorly defined. Further prospective studies are needed to assess microbiota signatures as potential biomarkers of response.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Type 2 (T2) inflammation represents a pathogenetic mechanism underlying several chronic diseases, including atopic dermatitis (AD), chronic rhinosinusitis with nasal polyps (CRSwNP), asthma, eosinophilic esophagitis (EoE), chronic spontaneous urticaria (CSU) and eosinophilic chronic obstructive pulmonary disease (COPD) [ 1 – 3 ]. T2-inflammation is driven by T helper type 2 (Th2) cells and type 2 innate lymphoid cells (ILC2) and mediated by type 2 cytokines, such as interleukin (IL)−4, IL-5, and IL-13, each with different roles in the inflammatory cascade. IL-4 drives IgE production and B-cell class switching, IL-13 causes mucus production, airway remodeling and bronchial hyperresponsiveness, and IL-5 is responsible for eosinophil differentiation, activation and survival [ 4 ]. Dupilumab, a fully human monoclonal antibody directed against the IL-4 receptor alpha subunit, simultaneously blocks both IL-4 and IL-13 signaling and has been approved for moderate-to-severe AD, CRSwNP, moderate-to-severe asthma with T2 inflammation, and eosinophilic esophagitis, with pivotal trials also demonstrating efficacy in eosinophilic COPD [ 5 – 7 ]. The human microbiome has emerged as a key player in immune homeostasis regulation. Dysbiosis has been consistently associated with T2 inflammatory disease pathogenesis [ 8 , 9 ]. In the skin, increased Staphylococcus aureus colonization and reduced bacterial diversity are hallmarks of AD [ 9 ]. In the upper airways, CRSwNP patients exhibit a distinct nasal microbiota with enrichment in Staphylococcus and depletion of commensal genera such as Corynebacterium and Dolosigranulum [ 10 ]. In the lower airways, airway microbial composition has been linked to asthma severity and exacerbation frequency [ 11 , 12 ]. In the gut, alterations in the Firmicutes/Bacteroidetes ratio and reduced short-chain fatty acid (SCFA) production have been implicated in systemic immune dysregulation through the gut-lung axis [ 13 , 14 ]. The gut-lung axis represents a bidirectional communication pathway through which intestinal microbiota influences respiratory immunity and vice versa [ 15 ]. Microbial metabolites, including SCFAs, tryptophan derivatives, and secondary bile acids, can influence immune regulation at distant mucosal sites by modulating dendritic cell activity, regulatory T-cell differentiation, and epithelial barrier integrity [ 16 ]. Recently the role of gut microbiota dysbiosis and its metabolic consequences in immune mediated diseases has been investigated, highlighting the importance of SCFA production [ 17 ], tryptophan metabolism [ 18 , 19 ], smoking-induced gut dysbiosis [ 20 ], and intestinal permeability as drivers of systemic inflammation [ 21 , 22 ]. Collectively, these findings provide a strong rationale for investigating whether pharmacological modulation of T2 inflammation may indirectly reshape the microbiome. While dupilumab clinical efficacy is well established, its impact on the host microbiome has received limited attention. Recent data point to several mechanisms through which IL-4/IL-13 blockade may reshape microbial communities: restoration of epithelial barrier function, modulation of antimicrobial peptide production, reduction of IgE-mediated mast cell activation, and alteration of the local inflammatory milieu [ 23 , 24 ]. Moreover, IL-4 and IL-13 directly regulate goblet cell differentiation, mucin production, and epithelial tight junction expression, all determinants of microbial niche selection [ 25 , 26 ]. To date, no systematic review has comprehensively synthesized evidence on dupilumab-associated microbiota changes across different anatomical compartments and disease contexts. The aim of this systematic review is to synthesize available evidence on dupilumab impact on microbiota composition across different anatomical sites.",
+      "order": 1
+    },
+    {
+      "section": "Study Design And Protocol Registration",
+      "text": "This systematic review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement [ 27 ]. The protocol was registered in the International Prospective Register of Systematic Reviews (PROSPERO) before the study was conducted (registration number: CRD420261331758).",
+      "order": 2
+    },
+    {
+      "section": "Eligibility Criteria",
+      "text": "A PICO specialized framework was used to define the search strategy considering: P (Population): Patients with T2 inflammatory diseases, including AD, CRSwNP, NSAID-exacerbated respiratory disease (N-ERD), asthma, COPD, EoE, CSU. I/E (Intervention/Exposure): Treatment with dupilumab. C (Comparison): Pre-treatment status, placebo, other treatments, healthy controls. O (Outcomes): Changes in microbiota composition, diversity, or specific taxa identification at any anatomical site (skin, nasal/sinonasal, gut, ocular, airway/bronchial). This review aimed to answer the following focused research question: Does treatment with dupilumab influence the composition or diversity of the microbiota across different anatomical sites in patients with type 2 inflammatory diseases?",
+      "order": 3
+    },
+    {
+      "section": "Search Strategy",
+      "text": "A systematic literature search was performed on the online databases MEDLINE (PubMed), Scopus, ClinicalTrials.gov, Cochrane Library, Google Scholar from inception to March 2026, and was followed by manual literature searches in the reference lists of the included articles to identify potential additional articles about this topic. The research string was as follows: (dupilumab) AND (microbiome OR microbiota) .",
+      "order": 4
+    },
+    {
+      "section": "Study Selection",
+      "text": "We included randomized controlled trials, prospective and retrospective observational studies, case series that met the following inclusion criteria: 1) patients with a known history of T2 inflammatory disease receiving dupilumab or another biologic agent, 2), outcomes describing microbiota data, 3) articles written in English. Exclusion criteria included animal studies, in vitro studies, conference abstracts without full-text data, and studies without microbiota-specific endpoints.",
+      "order": 5
+    },
+    {
+      "section": "Data Extraction",
+      "text": "Two researchers (PVM and LC) independently searched the data, selected and extracted them. If the extracted data from both researchers did not match, the original text was reviewed by another researcher (AC) to reach a consensus. Extracted data included the following items: author/year, study design, sample size, type of T2 inflammatory disease, intervention and comparator, anatomical site of microbiota sampling, microbiota assessment methodology (16 S rRNA sequencing, culture-based, metagenomics, metabolomics), primary microbiota outcomes (alpha diversity, beta diversity, specific taxa changes), associated clinical outcomes, and follow-up duration.",
+      "order": 6
+    },
+    {
+      "section": "Evaluating The Risk Of Bias",
+      "text": "Risk-of-bias assessment was performed independently by two reviewers (PVM and LC), with disagreements resolved by consensus or a third reviewer (AC). The risk of bias was assessed using the Cochrane Risk of Bias 2 (RoB 2) tool for randomized controlled trials [ 28 ], while for non-randomized studies it was assessed using the Risk Of Bias In Non-randomized Studies of Interventions (ROBINS-I) tool [ 29 ] and the Joanna Briggs Institute’s (JBI) Critical Appraisal Checklist for Case Series [ 30 ].",
+      "order": 7
+    },
+    {
+      "section": "Data Synthesis",
+      "text": "Given the heterogeneity of outcomes assessed across studies, data from original papers were extracted and reported via qualitative synthesis.",
+      "order": 8
+    },
+    {
+      "section": "Study Selection",
+      "text": "The initial literature search generated 378 potentially eligible articles from the aforementioned databases, plus 15 record identified additionally by manual search. A total of 84 duplicates were identified and removed. After excluding 290 articles, 15 articles were included in this review according to the prespecified inclusion and exclusion criteria. A flow chart showing the study selection is presented in Fig. 1 .",
+      "order": 9
+    },
+    {
+      "section": "Characteristics Of The Included Studies",
+      "text": "A total of 15 studies were included in the review, comprising two randomized placebo-controlled trials and thirteen observational studies [ 31 – 45 ]. The studies were published between 2020 and 2026 and investigated the effects of dupilumab therapy on microbial communities across different anatomical sites in patients with type-2 inflammatory diseases. The majority of studies focused on AD ( n = 11), while four studies investigated patients with CRSwNP or N-ERD. Sample sizes ranged from 19 to 130 patients receiving dupilumab therapy. Most investigations evaluated skin microbiota ( n = 9); three studies examined the nasal microbiota; one study assessed both skin and nasal microbiota; one study assessed both nose and gut microbiota and one study explored only gut microbiota. Microbial composition was primarily assessed using 16 S rRNA gene sequencing, often combined with quantitative PCR, while some studies employed culture-based methods, next-generation sequencing, or fungal ITS/28S rRNA sequencing to characterize bacterial and fungal communities. Comparator groups varied across studies. The randomized trials used placebo controls, while observational studies compared dupilumab-treated patients with healthy controls, untreated disease cohorts, or alternative treatments, including surgery, Janus kinase inhibitors, cyclosporine A, and upadacitinib. Several studies were single-arm observational cohorts without a comparator group. Across studies, dupilumab treatment was consistently associated with modulation of microbial composition and diversity, particularly in the skin microbiome of patients with atopic dermatitis. Many studies reported increased microbial α-diversity and a reduction in the relative abundance of Staphylococcus aureus following treatment, accompanied by increases in commensal taxa such as Staphylococcus epidermidis , Staphylococcus hominis , and Cutibacterium acnes . Similar shifts toward a more balanced microbial community were observed in nasal microbiota in patients with CRSwNP, with increased representation of genera such as Corynebacterium , Dolosigranulum , and Lawsonella . In contrast, studies examining the gut microbiota reported more modest or limited changes during dupilumab therapy. Follow-up durations ranged from 4 weeks to 6 months, with most studies reporting microbiome changes emerging within the first weeks of treatment and persisting throughout the observation period. A detailed summary of study characteristics is provided in Table 1 .",
+      "order": 10
+    },
+    {
+      "section": "Risk Of Bias Assessment",
+      "text": "The risk of bias was evaluated according to study design using the appropriate tools. Among the randomized studies assessed with the RoB 2, both were judged to be at low risk of bias. For non-randomized comparative studies evaluated with ROBINS-I, seven studies were rated as having a moderate risk of bias, and two as having a serious risk of bias. For observational studies without a comparator group, risk of bias was assessed using the Joanna Briggs Institute Critical Appraisal Checklist for Case Series, which showed generally acceptable quality despite methodological limitations, with three studies classified as low risk of bias and one study as having a serious risk of bias. Overall, most included studies demonstrated low to moderate risk of bias. The quality assessment results are reported for randomized studies (Fig. 2 ), non-randomized comparative studies (Fig. 3 ) and observational studies without a comparator group (Fig. 4 ).",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "The skin is the compartment most extensively investigated in relation to dupilumab-associated microbiome changes, particularly in patients with atopic dermatitis. Across the studies included in this review, a relatively consistent pattern emerged, suggesting that dupilumab treatment may be associated with a progressive shift of the cutaneous microbiota toward a more balanced microbial profile. This trend was characterized by a reduction in Staphylococcus aureus abundance, an increase in microbial diversity, and a relative enrichment of commensal taxa commonly associated with skin homeostasis. A central finding across studies was the reduction of S. aureus , a well-recognized hallmark of atopic dermatitis dysbiosis [ 46 , 47 ]. In parallel with the reduction in S. aureus , several studies documented increases in taxa generally considered commensal or potentially beneficial in the context of skin health. These included S. epidermidis , S. hominis , and C. acnes [ 32 , 37 , 39 , 40 ],. Their increased relative abundance may reflect restoration of a microbial environment less dominated by inflammatory dysbiosis. The temporal dynamics observed across studies are noteworthy. Some changes appeared rapidly, and increases in diversity and reductions in S. aureus were detectable within days to weeks of treatment initiation. At the same time, longer observational studies suggest that these changes may persist over several months, indicating that dupilumab-related modulation of the skin microbiota is not limited to a transient early effect. A smaller but relevant group of studies also examined the cutaneous mycobiome. Findings suggest that fungal responses may be more variable and potentially more sensitive to timing than bacterial responses. Therefore, while the bacterial component of the skin microbiota appears to show a relatively coherent pattern under dupilumab, current evidence on the cutaneous mycobiome remains less consistent. Some limitations hinder generalizability. The included studies differed substantially in microbiome assessment methods, sampling strategies, comparator groups, and follow-up duration. Therefore, the extent to which these changes are causally linked to immune modulation and barrier restoration remains to be clarified. The nasal and sinonasal microbiota represent a key component of the mucosal ecosystem involved in upper airway homeostasis and chronic inflammatory diseases such as CRSwNP and N-ERD. In these conditions, microbial dysbiosis has been described, frequently characterized by reduced bacterial diversity and enrichment of opportunistic pathogens, including Staphylococcus aureus . Evidence from observational studies indicates that dupilumab therapy may promote shifts in the nasal microbiota toward taxa more commonly observed in healthy individuals. In particular, increased relative abundances of commensal genera such as Corynebacterium , Dolosigranulum , and Lawsonella have been reported following treatment [ 33 ]. These taxa are often considered components of a stable and health-associated nasal microbiome and have been proposed to play a role in maintaining epithelial barrier integrity and competitive exclusion of pathogenic bacteria. At the same time, reductions in potentially pathogenic organisms, including Pseudomonas aeruginosa or alterations in the prevalence of Staphylococcus species, have been described [ 34 ]. Although the magnitude and consistency of these changes vary across studies, the available data suggest that IL-4/IL-13 blockade may contribute to a gradual rebalancing of sinonasal microbial communities. In CRSwNP and related diseases, type-2 cytokines contribute to epithelial barrier dysfunction, mucus hypersecretion, and altered antimicrobial peptide expression. These alterations may create a permissive environment for microbial dysbiosis. Consequently, the improvement of epithelial barrier function and reduction of local inflammation following dupilumab therapy could indirectly reshape the microbial niche, allowing the expansion of commensal taxa and reducing the dominance of opportunistic pathogens. Compared with the skin and sinonasal compartments, the gut microbiota has been investigated much less frequently in patients receiving dupilumab. Only two studies included in this review explored this compartment, and their findings suggest a less consistent and less pronounced effect than that observed in the skin [ 33 , 38 ]. The most relevant signal comes from the study by Yang et al. [ 38 ], which reported that dupilumab treatment was associated with increased colonization by taxa such as Bifidobacterium , Ruminococcus gnavus , and Coprococcus . Bacterial functional analysis revealed upregulated pathway of tryptophan metabolism after dupilumab, generating metabolites such as indole-3-propionic acid and indole-3-aldehyde, which are ligands for the aryl hydrocarbon receptor (AhR) promoting epithelial barrier integrity and regulatory T-cell differentiation. In contrast, Ryser et al. [ 33 ] did not detect relevant changes in the gut microbiota during dupilumab treatment for CRSwNP, despite observing shifts in the sinonasal compartment. This finding suggests that the microbiological impact of dupilumab may be more pronounced in tissues directly affected by type-2 inflammatory processes rather than reflecting a systemic microbiome shift. At present, the interpretation of gut microbiome findings remains necessarily cautious. The number of available studies is very small, sample sizes are limited, and the reported outcomes are heterogeneous. Moreover, the gut microbiota is shaped by a wide range of potential confounders, including diet, body mass index, antibiotic exposure, concomitant medications, and comorbidities, which were not uniformly controlled across studies. Notably, other anti-T2 biologics have shown limited or no detectable effects on microbial composition. In particular, anti-IL-5 therapies did not significantly alter airway microbiota despite effective eosinophil depletion [ 48 , 49 ], while anti-IgE therapy has shown only preliminary and compartment-specific microbiome associations [ 50 ]. Overall, the available evidence suggests that dupilumab may exert compartment-specific and disease-dependent effects on the host microbiome, a dimension of its pharmacological activity that has received relatively limited attention. In particular, the observed microbiome changes are compatible with the hypothesis that IL-4/IL-13 blockade contributes to the restoration of epithelial barrier function and antimicrobial peptide balance, potentially creating conditions that favor recolonization by commensal microbial communities (Fig. 5 ).",
+      "order": 12
+    },
+    {
+      "section": "Study Limitations",
+      "text": "This systematic review has several limitations. The evidence base is predominantly observational and derived from small cohorts, which constrains generalizability. Microbiota assessment methodologies varied considerably across studies, from culture-based techniques to 16 S rRNA gene sequencing and metagenomics, making direct quantitative comparisons unfeasible. Most studies reported short-term outcomes, leaving the long-term stability of dupilumab-associated microbiota changes undetermined. Potential confounders, including concomitant medications (antibiotics, intranasal corticosteroids, proton pump inhibitors), dietary habits, and geographic variability, were inconsistently controlled. A bias toward reporting positive findings may have influenced the apparent consistency of microbiome changes in the nasal and skin compartments. The lack of standardized microbiome endpoints across studies hampers comparability. Finally, the scarcity of data on the gut and airway compartments constitutes a major evidence gap that precludes definitive conclusions regarding the systemic microbiome effects of IL-4/IL-13 blockade.",
+      "order": 13
+    },
+    {
+      "section": "Conclusion",
+      "text": "This systematic review suggests that dupilumab may exert compartment-specific and disease-dependent effects on the host microbiome. The available evidence indicates that IL-4/IL-13 blockade may be associated with shifts toward microbial communities more frequently observed in healthy skin and nasal environments, while limited data from the gut compartment suggest a possible modulation of pathways related to tryptophan metabolism. Comparisons with other anti-T2 biologics tentatively suggest that microbiome changes may not represent a universal feature of anti-eosinophilic therapies, but could be more closely linked to IL-4/IL-13 antagonism. A notable gap in the current literature is the lack of studies investigating the bronchial or pulmonary microbiome, which may be particularly relevant given the expanding clinical indications of dupilumab in eosinophilic COPD. In this context, the gut–lung axis represents a potentially important yet still insufficiently explored pathway that could help explain the broader biological effects of dupilumab across mucosal compartments. Prospective, multi-compartment studies incorporating standardized sampling and microbiological analysis are needed to determine whether microbiota composition can serve as a predictive biomarker of treatment response to dupilumab across T2 inflammatory diseases.",
+      "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Maspero J",
+        "Adir Y",
+        "Al-Ahmad M",
+        "Celis-Preciado CA",
+        "Colodenco FD",
+        "Giavina-Bianchi P",
+        "et al."
+      ],
+      "title": "Type 2 inflammation in asthma and other airway diseases",
+      "journal": "ERJ Open Res",
+      "year": "2022",
+      "volume": "8",
+      "issue": "3",
+      "fpage": "00576–2021",
+      "doi": "10.1183/23120541.00576-2021",
+      "pmid": "35923421",
+      "pmc_id": "PMC9339769"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Ogulur I",
+        "Mitamura Y",
+        "Yazici D",
+        "Pat Y",
+        "Ardicli S",
+        "Li M",
+        "et al."
+      ],
+      "title": "Type 2 immunity in allergic diseases",
+      "journal": "Cell Mol Immunol",
+      "year": "2025",
+      "volume": "22",
+      "issue": "3",
+      "fpage": "211",
+      "lpage": "42",
+      "doi": "10.1038/s41423-025-01261-2",
+      "pmid": "39962262",
+      "pmc_id": "PMC11868591"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Chen Y",
+        "Yang T",
+        "Zhang J",
+        "Chen X",
+        "Chen X",
+        "Cheng Z",
+        "et al."
+      ],
+      "title": "Type 2 inflammation in chronic obstructive pulmonary disease: A promising treatable trait and practice recommendations",
+      "journal": "Chin Med J Pulm Crit Care Med",
+      "year": "2025",
+      "volume": "3",
+      "issue": "4",
+      "fpage": "225",
+      "lpage": "45",
+      "doi": "10.1016/j.pccm.2025.11.004",
+      "pmid": "41551016",
+      "pmc_id": "PMC12805407"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Carriera L",
+        "Fantò M",
+        "Martini A",
+        "D’Abramo A",
+        "Puzio G",
+        "Scaramozzino MU",
+        "et al."
+      ],
+      "title": "Combination of biological therapy in severe asthma: Where we are?",
+      "journal": "J Pers Med",
+      "year": "2023",
+      "volume": "13",
+      "issue": "11",
+      "fpage": "1594",
+      "doi": "10.3390/jpm13111594",
+      "pmid": "38003909",
+      "pmc_id": "PMC10672189"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Bhatt SP",
+        "Rabe KF",
+        "Hanania NA",
+        "Vogelmeier CF",
+        "Cole J",
+        "Bafadhel M",
+        "et al."
+      ],
+      "title": "Dupilumab for COPD with type 2 inflammation indicated by eosinophil counts",
+      "journal": "N Engl J Med",
+      "year": "2023",
+      "volume": "389",
+      "issue": "3",
+      "fpage": "205",
+      "lpage": "14",
+      "doi": "10.1056/NEJMoa2303951",
+      "pmid": "37272521"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Bhatt SP",
+        "Rabe KF",
+        "Hanania NA",
+        "Vogelmeier CF",
+        "Bafadhel M",
+        "Christenson SA",
+        "et al."
+      ],
+      "title": "Dupilumab for COPD with blood eosinophil evidence of type 2 inflammation",
+      "journal": "N Engl J Med",
+      "year": "2024",
+      "volume": "390",
+      "issue": "24",
+      "fpage": "2274",
+      "lpage": "83",
+      "doi": "10.1056/NEJMoa2401304",
+      "pmid": "38767614"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Bhatt SP",
+        "Rabe KF",
+        "Hanania NA",
+        "Vogelmeier CF",
+        "Bafadhel M",
+        "Christenson SA",
+        "et al."
+      ],
+      "title": "Dupilumab for chronic obstructive pulmonary disease with type 2 inflammation: a pooled analysis of two phase 3, randomised, double-blind, placebo-controlled trials",
+      "journal": "Lancet Respir Med",
+      "year": "2025",
+      "volume": "13",
+      "issue": "3",
+      "fpage": "234",
+      "lpage": "43",
+      "doi": "10.1016/S2213-2600(24)00409-0",
+      "pmid": "39900091"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Fujimura KE",
+        "Lynch SV"
+      ],
+      "title": "Microbiota in allergy and asthma and the emerging relationship with the gut microbiome",
+      "journal": "Cell Host Microbe",
+      "year": "2015",
+      "volume": "17",
+      "issue": "5",
+      "fpage": "592",
+      "lpage": "602",
+      "doi": "10.1016/j.chom.2015.04.007",
+      "pmid": "25974301",
+      "pmc_id": "PMC4443817"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Huang YJ",
+        "Marsland BJ",
+        "Bunyavanich S",
+        "O’Mahony L",
+        "Leung DYM",
+        "Muraro A",
+        "et al."
+      ],
+      "title": "The microbiome in allergic disease: current understanding and future opportunities-2017 PRACTALL document of the American Academy of Allergy, Asthma & Immunology and the European Academy of Allergy and Clinical Immunology",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2017",
+      "volume": "139",
+      "issue": "4",
+      "fpage": "1099",
+      "lpage": "110",
+      "doi": "10.1016/j.jaci.2017.02.007",
+      "pmid": "28257972",
+      "pmc_id": "PMC5899886"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Hoggard M",
+        "Wagner Mackenzie B",
+        "Jain R",
+        "Taylor MW",
+        "Biswas K",
+        "Douglas RG"
+      ],
+      "title": "Chronic rhinosinusitis and the evolving understanding of microbial ecology in chronic inflammatory mucosal disease",
+      "journal": "Clin Microbiol Rev",
+      "year": "2017",
+      "volume": "30",
+      "issue": "1",
+      "fpage": "321",
+      "lpage": "48",
+      "doi": "10.1128/CMR.00060-16",
+      "pmid": "27903594",
+      "pmc_id": "PMC5217796"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Hilty M",
+        "Burke C",
+        "Pedro H",
+        "Cardenas P",
+        "Bush A",
+        "Bossley C",
+        "et al."
+      ],
+      "title": "Disordered microbial communities in asthmatic airways",
+      "journal": "PLoS ONE",
+      "year": "2010",
+      "volume": "5",
+      "issue": "1",
+      "fpage": "e8578",
+      "doi": "10.1371/journal.pone.0008578",
+      "pmid": "20052417",
+      "pmc_id": "PMC2798952"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Durack J",
+        "Lynch SV",
+        "Nariya S",
+        "Bhakta NR",
+        "Beigelman A",
+        "Castro M",
+        "et al."
+      ],
+      "title": "Features of the bronchial bacterial microbiome associated with atopy, asthma, and responsiveness to inhaled corticosteroid treatment",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2017",
+      "volume": "140",
+      "issue": "1",
+      "fpage": "63",
+      "lpage": "75",
+      "doi": "10.1016/j.jaci.2016.08.055",
+      "pmid": "27838347",
+      "pmc_id": "PMC5502827"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Verma A",
+        "Bhagchandani T",
+        "Rai A",
+        "Nikita, Sardarni UK",
+        "Bhavesh NS",
+        "et al."
+      ],
+      "title": "Short-Chain Fatty Acid (SCFA) as a Connecting Link between Microbiota and Gut-Lung Axis—A Potential Therapeutic Intervention to Improve Lung Health",
+      "journal": "ACS Omega",
+      "year": "2024",
+      "volume": "9",
+      "issue": "13",
+      "fpage": "14648",
+      "lpage": "71",
+      "doi": "10.1021/acsomega.3c05846",
+      "pmid": "38585101",
+      "pmc_id": "PMC10993281"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Budden KF",
+        "Gellatly SL",
+        "Wood DLA",
+        "Cooper MA",
+        "Morrison M",
+        "Hugenholtz P",
+        "et al."
+      ],
+      "title": "Emerging pathogenic links between microbiota and the gut-lung axis",
+      "journal": "Nat Rev Microbiol",
+      "year": "2017",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "55",
+      "lpage": "63",
+      "doi": "10.1038/nrmicro.2016.142",
+      "pmid": "27694885"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Dang AT",
+        "Marsland BJ"
+      ],
+      "title": "Microbes, metabolites, and the gut-lung axis",
+      "journal": "Mucosal Immunol",
+      "year": "2019",
+      "volume": "12",
+      "issue": "4",
+      "fpage": "843",
+      "lpage": "50",
+      "doi": "10.1038/s41385-019-0160-6",
+      "pmid": "30976087"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Cait A",
+        "Hughes MR",
+        "Antignano F",
+        "Cait J",
+        "Dimitriu PA",
+        "Maas KR",
+        "et al."
+      ],
+      "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+      "journal": "Mucosal Immunol",
+      "year": "2018",
+      "volume": "11",
+      "issue": "3",
+      "fpage": "785",
+      "lpage": "95",
+      "doi": "10.1038/mi.2017.75",
+      "pmid": "29067994"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Kilic E",
+        "Basaran P"
+      ],
+      "title": "Dietary fatty acids modulate gut microbiota-derived Trimethylamine-N-Oxide: potential mechanisms and future perspective",
+      "journal": "Nutrients",
+      "year": "2025",
+      "volume": "17",
+      "issue": "23",
+      "fpage": "3787",
+      "doi": "10.3390/nu17233787",
+      "pmid": "41374077",
+      "pmc_id": "PMC12693962"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Bernardi F",
+        "D’Amico F",
+        "Bencardino S",
+        "Faggiani I",
+        "Fanizza J",
+        "Zilli A",
+        "et al."
+      ],
+      "title": "Gut microbiota metabolites: unveiling their role in inflammatory bowell diseases and fibrosis",
+      "journal": "Pharmaceuticals Basel",
+      "year": "2024",
+      "volume": "17",
+      "issue": "3",
+      "fpage": "347",
+      "doi": "10.3390/ph17030347",
+      "pmid": "38543132",
+      "pmc_id": "PMC10975629"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Cicchinelli S",
+        "Gemma S",
+        "Pignataro G",
+        "Piccioni A",
+        "Ojetti V",
+        "Gasbarrini A",
+        "et al."
+      ],
+      "title": "Intestinal fibrogenesis in inflammatory bowell diseases: exploring the potential role of gut microbiota metabolites as modulators",
+      "journal": "Pharmaceuticals (Basel)",
+      "year": "2024",
+      "volume": "17",
+      "issue": "4",
+      "fpage": "490",
+      "doi": "10.3390/ph17040490",
+      "pmid": "38675450",
+      "pmc_id": "PMC11053610"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Cicchinelli S",
+        "Rosa F",
+        "Manca F",
+        "Zanza C",
+        "Ojetti V",
+        "Covino M",
+        "et al."
+      ],
+      "title": "The impact of smoking on microbiota: a narrative review",
+      "journal": "Biomedicines",
+      "year": "2023",
+      "volume": "11",
+      "issue": "4",
+      "fpage": "1144",
+      "doi": "10.3390/biomedicines11041144",
+      "pmid": "37189762",
+      "pmc_id": "PMC10135766"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Saviano A",
+        "Petruzziello C",
+        "Brigida M",
+        "Morabito Loprete MR",
+        "Savioli G",
+        "Migneco A",
+        "et al."
+      ],
+      "title": "Gut microbiota alteration and its modulation with probiotics in Celiac Disease",
+      "journal": "Biomedicines",
+      "year": "2023",
+      "volume": "11",
+      "issue": "10",
+      "fpage": "2638",
+      "doi": "10.3390/biomedicines11102638",
+      "pmid": "37893012",
+      "pmc_id": "PMC10603901"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Gabrielli M",
+        "Zileri Dal Verme L",
+        "Zocco MA",
+        "Nista EC",
+        "Ojetti V",
+        "Gasbarrini A"
+      ],
+      "title": "The role of the gastrointestinal microbiota in Parkinson’s Disease",
+      "journal": "Biomolecules",
+      "year": "2024",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "26",
+      "doi": "10.3390/biom15010026",
+      "pmid": "39858421",
+      "pmc_id": "PMC11764295"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "D’Avino P",
+        "Kim J",
+        "Li M",
+        "Gessner P",
+        "Westermann P",
+        "Pat Y",
+        "et al."
+      ],
+      "title": "Distinct roles of IL-4, IL‐13, and IL‐22 in human skin barrier dysfunction and atopic dermatitis",
+      "journal": "Allergy",
+      "year": "2026",
+      "volume": "81",
+      "issue": "2",
+      "fpage": "480",
+      "lpage": "97",
+      "doi": "10.1111/all.70060",
+      "pmid": "40985485",
+      "pmc_id": "PMC12862561"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "McLeod JJA",
+        "Baker BN",
+        "Ryan JJ"
+      ],
+      "title": "Mast cell production and response to IL-4 and IL-13",
+      "journal": "Cytokine",
+      "year": "2015",
+      "volume": "75",
+      "issue": "1",
+      "fpage": "57",
+      "lpage": "61",
+      "doi": "10.1016/j.cyto.2015.05.019",
+      "pmid": "26088754",
+      "pmc_id": "PMC4532630"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Wynn TA"
+      ],
+      "title": "IL-13 effector functions",
+      "journal": "Annu Rev Immunol",
+      "year": "2003",
+      "volume": "21",
+      "fpage": "425",
+      "lpage": "56",
+      "doi": "10.1146/annurev.immunol.21.120601.141142",
+      "pmid": "12615888"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Didriksen BJ",
+        "Eshleman EM",
+        "Alenghat T"
+      ],
+      "title": "Epithelial regulation of microbiota-immune cell dynamics",
+      "journal": "Mucosal Immunol",
+      "year": "2024",
+      "volume": "17",
+      "issue": "2",
+      "fpage": "303",
+      "lpage": "13",
+      "doi": "10.1016/j.mucimm.2024.02.008",
+      "pmid": "38428738",
+      "pmc_id": "PMC11412483"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Page MJ",
+        "McKenzie JE",
+        "Bossuyt PM",
+        "Boutron I",
+        "Hoffmann TC",
+        "Mulrow CD",
+        "et al."
+      ],
+      "title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+      "journal": "Syst Rev",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "89",
+      "doi": "10.1186/s13643-021-01626-4",
+      "pmid": "33781348",
+      "pmc_id": "PMC8008539"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Sterne JAC",
+        "Savović J",
+        "Page MJ",
+        "Elbers RG",
+        "Blencowe NS",
+        "Boutron I",
+        "et al."
+      ],
+      "title": "RoB 2: a revised tool for assessing risk of bias in randomised trials",
+      "journal": "BMJ",
+      "year": "2019",
+      "volume": "366",
+      "fpage": "l4898",
+      "doi": "10.1136/bmj.l4898",
+      "pmid": "31462531"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Sterne JA",
+        "Hernán MA",
+        "Reeves BC",
+        "Savović J",
+        "Berkman ND",
+        "Viswanathan M",
+        "et al."
+      ],
+      "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+      "journal": "BMJ",
+      "year": "2016",
+      "volume": "355",
+      "fpage": "i4919",
+      "doi": "10.1136/bmj.i4919",
+      "pmid": "27733354",
+      "pmc_id": "PMC5062054"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Munn Z",
+        "Barker TH",
+        "Moola S",
+        "Tufanaru C",
+        "Stern C",
+        "McArthur A",
+        "et al."
+      ],
+      "title": "Methodological quality of case series studies: an introduction to the JBI critical appraisal tool",
+      "journal": "JBI Evid Synth",
+      "year": "2020",
+      "volume": "18",
+      "issue": "10",
+      "fpage": "2127",
+      "lpage": "33",
+      "doi": "10.11124/JBISRIR-D-19-00099",
+      "pmid": "33038125"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Callewaert C",
+        "Nakatsuji T",
+        "Knight R",
+        "Kosciolek T",
+        "Vrbanac A",
+        "Kotol P",
+        "et al."
+      ],
+      "title": "IL-4Rα blockade by Dupilumab decreases Staphylococcus aureus colonization and increases microbial diversity in atopic dermatitis",
+      "journal": "J Invest Dermatol",
+      "year": "2020",
+      "volume": "140",
+      "issue": "1",
+      "fpage": "191",
+      "lpage": "e2027",
+      "doi": "10.1016/j.jid.2019.05.024",
+      "pmid": "31252032",
+      "pmc_id": "PMC7163930"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Simpson EL",
+        "Schlievert PM",
+        "Yoshida T",
+        "Lussier S",
+        "Boguniewicz M",
+        "Hata T",
+        "et al."
+      ],
+      "title": "Rapid reduction in Staphylococcus aureus in atopic dermatitis subjects following dupilumab treatment",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2023",
+      "volume": "152",
+      "issue": "5",
+      "fpage": "1179",
+      "lpage": "95",
+      "doi": "10.1016/j.jaci.2023.05.026",
+      "pmid": "37315812",
+      "pmc_id": "PMC10716365"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Ryser FS",
+        "Demeter T",
+        "Pijuan JB",
+        "Shambat SM",
+        "Brühlmann C",
+        "Mauthe T",
+        "et al."
+      ],
+      "title": "Dupilumab treatment is associated with clinical improvement and a shift toward a health-associated nasal passage microbiota in diffuse type 2 chronic rhinosinusitis",
+      "journal": "Allergy",
+      "year": "2025",
+      "volume": "80",
+      "issue": "6",
+      "fpage": "1746",
+      "lpage": "56",
+      "doi": "10.1111/all.16600",
+      "pmid": "40452334",
+      "pmc_id": "PMC12186592"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Maniaci A",
+        "Vertillo Aluisio G",
+        "Stefani S",
+        "Cocuzza S",
+        "Lechien JR",
+        "Radulesco T",
+        "et al."
+      ],
+      "title": "Differential nasal recolonization and microbial profiles in chronic rhinosinusitis with nasal polyps patients after endoscopic sinus surgery or dupilumab treatment: A prospective observational study",
+      "journal": "Clin Otolaryngol",
+      "year": "2025",
+      "volume": "50",
+      "issue": "2",
+      "fpage": "262",
+      "lpage": "70",
+      "doi": "10.1111/coa.14246",
+      "pmid": "39444229"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Aluisio GV",
+        "Santagati M",
+        "Stilo G",
+        "Lentini M",
+        "Sowerby LJ",
+        "Mayo-Yáñez M",
+        "et al."
+      ],
+      "title": "Can microbial profiles influence type II inflammation in chronic rhinosinusitis with nasal polyps?",
+      "journal": "Am J Otolaryngol",
+      "year": "2026",
+      "volume": "47",
+      "issue": "2",
+      "fpage": "104786",
+      "doi": "10.1016/j.amjoto.2026.104786",
+      "pmid": "41628518"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Bartosik T",
+        "Pjevac P",
+        "Séneca J",
+        "Morgenstern C",
+        "Arnoldner T",
+        "Gangl K",
+        "et al."
+      ],
+      "title": "Dupilumab treatment has no effect on the nasal microbiome in patients with NSAID-exacerbated respiratory disease: a longitudinal pilot study",
+      "journal": "Front Immunol",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "1508500",
+      "doi": "10.3389/fimmu.2025.1508500",
+      "pmid": "40503236",
+      "pmc_id": "PMC12151831"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Olesen CM",
+        "Ingham AC",
+        "Thomsen SF",
+        "Clausen ML",
+        "Andersen PS",
+        "Edslev SM",
+        "et al."
+      ],
+      "title": "Changes in skin and nasal microbiome and staphylococcal species following treatment of atopic dermatitis with dupilumab",
+      "journal": "Microorganisms",
+      "year": "2021",
+      "volume": "9",
+      "issue": "7",
+      "fpage": "1487",
+      "doi": "10.3390/microorganisms9071487",
+      "pmid": "34361924",
+      "pmc_id": "PMC8303790"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Yang L",
+        "Li D",
+        "Sun S",
+        "Liu D",
+        "Wang Y",
+        "Liu X",
+        "et al."
+      ],
+      "title": "Dupilumab therapy improves gut microbiome dysbiosis and tryptophan metabolism in Chinese patients with atopic dermatitis",
+      "journal": "Int Immunopharmacol",
+      "year": "2024",
+      "volume": "131",
+      "fpage": "111867",
+      "doi": "10.1016/j.intimp.2024.111867",
+      "pmid": "38493690"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Pažur K",
+        "Francuzik W",
+        "El-Mahmoud H",
+        "Kraft M",
+        "Worm M"
+      ],
+      "title": "Proteomic. miRNA and bacterial biomarker patterns in atopic dermatitis patients and their course upon anti-IL-4Rα therapy",
+      "journal": "J Eur Acad Dermatol Venereol",
+      "year": "2024",
+      "volume": "38",
+      "issue": "9",
+      "fpage": "1749",
+      "lpage": "59",
+      "doi": "10.1111/jdv.19911",
+      "pmid": "38379385"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Hartmann J",
+        "Moitinho-Silva L",
+        "Sander N",
+        "Harder I",
+        "Häsler R",
+        "Rodriguez E",
+        "et al."
+      ],
+      "title": "Dupilumab but not cyclosporine treatment shifts the microbiome toward a healthy skin flora in patients with moderate-to-severe atopic dermatitis",
+      "journal": "Allergy",
+      "year": "2023",
+      "volume": "78",
+      "issue": "8",
+      "fpage": "2290",
+      "lpage": "300",
+      "doi": "10.1111/all.15742",
+      "pmid": "37032440"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Umemoto N",
+        "Kakurai M",
+        "Matsumoto T",
+        "Mizuno K",
+        "Cho O",
+        "Sugita T",
+        "et al."
+      ],
+      "title": "Dupilumab alters both the bacterial and fungal skin microbiomes of patients with Atopic Dermatitis",
+      "journal": "Microorganisms",
+      "year": "2024",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "224",
+      "doi": "10.3390/microorganisms12010224",
+      "pmid": "38276210",
+      "pmc_id": "PMC10820602"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Veronese F",
+        "Boggio CMT",
+        "Armari M",
+        "Airoldi C",
+        "Esposto E",
+        "Zavattaro E",
+        "et al."
+      ],
+      "title": "Therapy-dependent modulation of Staphylococcus aureus colonization in atopic dermatitis: Insights from anti-IL-4/IL-13 and JAK inhibition",
+      "journal": "J Am Acad Dermatol",
+      "year": "2026",
+      "volume": "S0190–9622",
+      "issue": "26",
+      "fpage": "00102",
+      "lpage": "7",
+      "doi": "10.1016/j.jaad.2026.01.074",
+      "pmid": "41643750"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Thomova T",
+        "Jedlickova H",
+        "Bohm J",
+        "Holochova P",
+        "Ruzicka F",
+        "Borilova Linhartova P"
+      ],
+      "title": "Effect of systemic therapies on skin bacteriome in patients with Atopic Dermatitis: a pilot prospective study",
+      "journal": "J Invest Dermatol",
+      "year": "2026",
+      "volume": "146",
+      "issue": "2",
+      "fpage": "483",
+      "lpage": "e4928",
+      "doi": "10.1016/j.jid.2025.07.006",
+      "pmid": "40738245"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Li T",
+        "Tao R",
+        "Yang L",
+        "Wan Z",
+        "Li R",
+        "Wang R"
+      ],
+      "title": "Upadacitinib outperforms dupilumab in restoring the fungal microbiome in Atopic Dermatitis",
+      "journal": "Br J Dermatol",
+      "year": "2025",
+      "volume": "193",
+      "issue": "1",
+      "fpage": "176",
+      "lpage": "8",
+      "doi": "10.1093/bjd/ljaf095",
+      "pmid": "40073212"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Koike Y",
+        "Morisaki H",
+        "Motooka D",
+        "Matsumoto M",
+        "Takenaka M",
+        "Murota H"
+      ],
+      "title": "Postauricular skin mycobiome profiles in atopic dermatitis treated with Dupilumab or Cyclosporine A: a descriptive case series",
+      "journal": "J Dermatol",
+      "year": "2025",
+      "volume": "53",
+      "issue": "3",
+      "fpage": "28",
+      "doi": "10.1111/1346-8138.70083",
+      "pmc_id": "PMC12967678",
+      "pmid": "41312680"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Okamoto H",
+        "Li S",
+        "Nakamura Y"
+      ],
+      "title": "The role of skin dysbiosis and quorum sensing in Atopic Dermatitis",
+      "journal": "JID Innov",
+      "year": "2025",
+      "volume": "5",
+      "issue": "4",
+      "fpage": "100377",
+      "doi": "10.1016/j.xjidi.2025.100377",
+      "pmid": "40510906",
+      "pmc_id": "PMC12162026"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Williams MR",
+        "Gallo RL"
+      ],
+      "title": "Evidence that Human skin microbiome dysbiosis promotes Atopic Dermatitis",
+      "journal": "J Invest Dermatol",
+      "year": "2017",
+      "volume": "137",
+      "issue": "12",
+      "fpage": "2460",
+      "lpage": "1",
+      "doi": "10.1016/j.jid.2017.09.010",
+      "pmid": "29169458",
+      "pmc_id": "PMC5814121"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Haldar K",
+        "Mistry V",
+        "Richardson M",
+        "Hamblet C",
+        "Jison M",
+        "Barer MR",
+        "et al."
+      ],
+      "title": "Effect of benralizumab treatment on the airway microbiome in COPD",
+      "journal": "ERJ Open Res",
+      "year": "2025",
+      "volume": "11",
+      "issue": "2",
+      "fpage": "00802–2024",
+      "doi": "10.1183/23120541.00802-2024",
+      "pmid": "40196715",
+      "pmc_id": "PMC11973710"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Diver S",
+        "Haldar K",
+        "McDowell PJ",
+        "Busby J",
+        "Mistry V",
+        "Micieli C",
+        "et al."
+      ],
+      "title": "Relationship between inflammatory status and microbial composition in severe asthma and during exacerbation",
+      "journal": "Allergy",
+      "year": "2022",
+      "volume": "77",
+      "issue": "11",
+      "fpage": "3362",
+      "lpage": "76",
+      "doi": "10.1111/all.15425",
+      "pmid": "35778780"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Wang M",
+        "Zhao L",
+        "Wang K",
+        "Qin Y",
+        "Jin J",
+        "Wang D",
+        "et al."
+      ],
+      "title": "Changes of gut microbiome in adolescent patients with chronic spontaneous urticaria after Omalizumab treatment",
+      "journal": "Clin Cosmet Investig Dermatol",
+      "year": "2023",
+      "volume": "16",
+      "fpage": "345",
+      "lpage": "57",
+      "doi": "10.2147/CCID.S393406",
+      "pmid": "36762258",
+      "pmc_id": "PMC9907007"
+    }
+  ]
+}

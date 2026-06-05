@@ -1,0 +1,805 @@
+{
+  "metadata": {
+    "title": "Advanced age and differentiated thyroid carcinoma: a retrospective cohort study investigating surgical outcomes and recurrence risk",
+    "authors": [
+      "Eun Jin Kim",
+      "Seung Jae Lee",
+      "Eun Hwa Kim",
+      "Ji An Lee",
+      "Dong Hyun Seo",
+      "Jiahn Park",
+      "Sunmi Park",
+      "Sungkeun Kang",
+      "Sang Wook Kang",
+      "Jong Ju Jeong",
+      "Kee Hyun Nam",
+      "Woong Youn Chung",
+      "Young Suk Jo",
+      "Jandee Lee"
+    ],
+    "journal": "Frontiers in Endocrinology",
+    "year": "2026",
+    "doi": "10.3389/fendo.2026.1762393",
+    "pmc_id": "PMC13193919",
+    "pmid": "42181193",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 39
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background The increase in the older population globally presents unique challenges in thyroid cancer management. Age is a crucial prognostic factor in differentiated thyroid carcinoma (DTC); however, its effect on surgical outcomes in older patients is unclear. Therefore, we aimed to evaluate the clinical characteristics, postoperative complications, and long-term outcomes of DTC in older patients and determine the effect of advanced age on recurrence risk and surgical morbidity. Methods A retrospective cohort study including 27,427 patients who underwent thyroidectomy for DTC between 2003 and 2019 was conducted. Patients were stratified into three age groups: Group A (16–64 years), Group B (65–74 years), and Group C (≥75 years). Clinicopathological characteristics, postoperative complications, and recurrence rates were analyzed. Multivariate Cox regression was performed to identify predictors of recurrence. Results Older patients had more aggressive tumor features, including higher rates of extrathyroidal extension (Group C: 70.6% vs. Group A: 51.6%, p<0.0001) and distant metastasis (p=0.0006). Postoperative complications, including seroma (Group C: 15.58% vs. Group A: 2.85%, p<0.0001) and recurrent laryngeal nerve injury (Group C: 2.16% vs. Group A: 0.45%, p=0.0001), were more common in older patients. Recurrence risk increased with age (Group C: hazard ratio 1.894, 95% confidence interval: 1.156–3.104, p=0.0113). Despite higher risks, more extensive surgery was associated with improved survival in older patients. Conclusions Advanced age is associated with more aggressive DTC and increased recurrence risk, yet thyroidectomy remains a viable treatment option. Close surveillance is essential to optimize outcomes in older patients.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "The global increase in the older population presents growing challenges in cancer care, particularly in tailoring treatment strategies that balance oncologic benefit with perioperative risk. In thyroid cancer, age is a well-established prognostic factor ( 1 , 2 ). Accordingly, it is uniquely incorporated into the tumor-node-metastasis (TNM) staging system, in which 55 years is used as a cutoff to reflect its strong association with disease-specific outcomes ( 3 – 6 ). Despite this, differentiated thyroid carcinoma (DTC) including papillary, follicular, and oncocytic carcinoma, generally demonstrates an excellent prognosis, allowing for individualized treatment approaches based on patient characteristics and risk profiles ( 6 – 9 ). In older patients, surgical decision-making is often influenced by concerns regarding comorbidities, reduced physiological reserve, polypharmacy, and the potential for perioperative complications ( 10 – 13 ). These concerns have historically led to more conservative management strategies in this population. However, longer life expectancy, along with advances in perioperative care and improvements in overall health and nutritional status, has resulted in an increasing number of older adults undergoing surgical intervention ( 3 , 14 , 15 ). Consequently, there is growing need for robust evidence evaluating the safety and effectiveness of surgical treatment specifically in older patients. In particular, thyroid surgery is generally associated with shorter operative times and lower morbidity compared with operations for other solid malignancies ( 15 – 17 ). Nevertheless, several studies have reported that older patients may experience higher rates of postoperative complications, such as cervical hematoma and surgical site infection, potentially related to age-associated comorbidities, anticoagulant use, and impaired wound healing ( 18 , 19 ). In addition, age-related nutritional and functional decline may adversely affect postoperative recovery and long-term outcomes ( 20 , 21 ). Despite these concerns, data remain limited and inconsistent regarding whether advanced age independently impacts surgical morbidity and long-term oncologic outcomes in patients with DTC. Therefore, this study aimed to analyze the clinical characteristics and postoperative outcomes of patients diagnosed with DTC categorized by age groups. We specifically compared surgical complication rates between adult and older adult groups and assessed age-related differences in disease characteristics and long-term outcomes, including recurrence. By focusing on DTC, this study seeks to provide clinically relevant evidence to guide appropriate surgical management and to avoid potential undertreatment of older patients with this increasingly prevalent malignancy.",
+      "order": 1
+    },
+    {
+      "section": "Study Population",
+      "text": "We retrospectively reviewed the medical records of patients aged ≥16 years who underwent thyroidectomy for DTC at Severance Hospital between January 2003 and June 2019. Among these patients, only those with DTC, including PTC, FTC, and OTC, were included. Patients diagnosed with DHGTC, PDTC, or anaplastic carcinoma were excluded. Patients with a follow-up period of less than 5 years or a history of malignancies other than DTC were also excluded. The need for obtaining written informed consent was waived because of the retrospective nature of the study. The study protocol was approved by the Institutional Review Board of Yonsei Cancer Center, Severance Hospital (IRB-No4–2024-1214), Seoul, Korea, and conducted according to the ethical standards of the Helsinki Declaration of 1975.",
+      "order": 2
+    },
+    {
+      "section": "Study Design",
+      "text": "Patients were categorized into three age groups (16–64, 65–74, and ≥75 years) based on clinically relevant geriatric thresholds. Age 65 years was used to define older adults, whereas age 75 years was selected to identify the oldest subgroup in whom physiologic vulnerability and perioperative risk may be more pronounced. Clinicopathological data pertaining to patients, including sex, tumor size, histological type, extent of thyroid surgery, extent of lymph node dissection (LND), extrathyroidal extension (ETE), multifocality, and TNM stage, were collected. The histological classification of each tumor was based on the 2022 WHO classification, categorizing patients into PTC, FTC, or OTC ( 22 ). The TNM stage was determined according to the criteria of the American Joint Committee on Cancer staging system, 8 th edition ( 23 ). The investigated surgical complications of thyroidectomy included hematoma, seroma, recurrent laryngeal nerve injury, and hypoparathyroidism. Recurrent laryngeal nerve injury was confirmed through fiberoptic laryngoscopy as unilateral or bilateral vocal cord paralysis and considered permanent if it persisted for more than 6 months. Hypoparathyroidism, defined as a serum parathyroid hormone level below 10 pg/mL, was classified as permanent if it persisted for more than 6 months postoperatively. Blood tests and imaging studies, such as neck ultrasound or computed tomography, were performed in postoperative follow-up visits. Fine-needle aspiration biopsy was performed to confirm recurrence when it was suspected through imaging analysis. The primary outcome of this study was long-term oncologic outcome, defined as recurrence-free survival and recurrence risk. Secondary outcomes included postoperative surgical complications, age-related differences in clinicopathological characteristics, extent of surgery, and cumulative recurrence rates at 5, 10, and 15 years.",
+      "order": 3
+    },
+    {
+      "section": "Statistical Analyses",
+      "text": "Continuous variables that did not satisfy the normality assumption were analyzed using the Kruskal–Wallis test, and categorical variables were compared using the Chi-squared test. For the matched analyses, continuous variables were compared using linear mixed models, and categorical variables were analyzed using generalized estimating equations (GEE). Balance assessment using absolute standardized mean differences (ASMD) values was analyzed to evaluate post-matching balance. Univariate logistic regression followed by multivariate analysis was conducted to determine the association between age groups and surgical complications. Multivariate Cox regression analysis was performed to identify independent predictors of recurrence. A cumulative incidence plot was generated to assess the cumulative recurrence rate visually, and the log-rank test p-value was used to evaluate significant differences in cumulative incidence between groups. In addition, we conducted restricted follow-up analyses within clinically meaningful time horizons, restricted mean survival time (RMST) analyses, and landmark analyses including only patients surviving beyond predefined early time points. To control for confounding variables between age groups, a 1:5 matching was performed using sex and tumor size, which were identified as significant factors in the multivariate logistic regression analysis. Age groups were divided into two categories, with 65 years as the cutoff ( Supplementary Figure 1 ). A p-value of <0.05 was considered statistically significant. SPSS Statistics software (Version 26.0; IBM, Armonk, NY, USA) or GraphPad Prism (GraphPad Software, San Diego, CA, USA) was used for statistical analyses.",
+      "order": 4
+    },
+    {
+      "section": "Patient Demographics And Baseline Characteristics",
+      "text": "Baseline characteristics of patients are summarized in Table 1 . A total of 27,427 patients were enrolled, with 25,737 (93.8%) in Group A (aged 16–64 years), 1,459 (5.3%) in Group B (aged 65–74 years), and 231 (0.8%) in Group C (≥75 years). The mean age was 44 years in Group A, 68 years in Group B, and 77 years in Group C (p < 0.0001). Female predominance was consistent across groups, although a higher proportion of males was noted in Groups B and C. PTC was the predominant histologic subtype across all age groups; however, its prevalence showed a modest decline with advancing age, accompanied by a proportional increase in that of FTC and OTC (p < 0.0001). Histological analysis revealed age-related increases in overall ETE, including microscopic and gross ETE (Group A: 51.6%, Group B: 58.7%, Group C: 70.6%; p < 0.0001). Advanced T-stage tumors (T3/4) were also more prevalent in Group C (62.8%) than in Groups B (53.9%) and A (45.5%) (p < 0.0001). Similarly, the prevalence of N1b metastases was the highest in Group C (19.0%) compared to Groups B (9.9%) and A (9.3%). The extent of thyroidectomy and cervical LND also increased with age. Despite these differences, disease-free status was observed in 97.2% of patients in Group A, 95.2% of those in Group B, and 92.6% of those in Group C (p < 0.0001). To control for bias related to the extent of surgery, a subgroup analysis was conducted focusing exclusively on 13,665 patients who underwent bilateral total thyroidectomy (BTT). The analysis also demonstrated that with increasing age, the characteristics of thyroid cancer deteriorated, as evidenced by larger tumor size, higher rates of ETE, increased prevalence of T3/T4 and N1b metastasis, and higher recurrence rates ( Supplementary Table 1 ). The extent of thyroidectomy and LND also increased with age.",
+      "order": 5
+    },
+    {
+      "section": "Comparative Analysis In Matched Cohorts",
+      "text": "To mitigate the cofounding effects, a matched analysis was conducted. Table 2 displays the outcomes of exact matching, where patients were divided into two groups based on the cutoff age of 65 years, with adjustments for sex and tumor size. Although the occurrence of ETE (16–64 years: 53.4%, ≥65 years: 60.4%, p < 0.0001) and M1 stage (16–64 years: 0.3%, ≥65 years: 1%, p = 0.0006) was significantly more common in advanced age groups, other histological factors including T-, N-, and TNM-stages were not significantly increased in older patients. Further, in this matched comparison, a lower percentage of older patients underwent extensive surgery, including BTT or modified radical neck dissection (MRND). This indicates that patients of the same sex and tumor size but advanced age tend to opt for less extensive surgery. After matching for sex and tumor size, patients who underwent BTT were categorized into two groups based on the cutoff age of 65 years ( Supplementary Table 2 ). The prevalence of ETE and M1 stage was significantly greater in the advanced age group, but other histological factors, including T-, N-, and TNM-stage, were not significantly increased in older patients. Similar to the previous results, older patients underwent less extensive LND.",
+      "order": 6
+    },
+    {
+      "section": "Postoperative Complications",
+      "text": "Postoperative complications varied significantly across age groups. The incidence of hematoma was higher in Group C (1.3%) than in Groups A (0.83%) and B (1.58%) (p = 0.0088). Although postoperative hematoma was more frequent in older patients, reoperation for hematoma evacuation did not differ significantly across age groups. Seroma formation was notably more frequent in Group C (15.58%) than in Groups A (2.85%) and B (9.25%) (p < 0.0001). Permanent recurrent laryngeal nerve injury was observed more frequently in Group C (2.16%) than in Groups A (0.45%) and B (0.82%) (p = 0.0001). However, the occurrence of permanent hypocalcemia was not significantly increased in older patients ( Supplementary Table 3 ). After adjusting for confounding factors, including sex, tumor size, pathological type, extent of surgery (thyroidectomy or LND), ETE, and TNM stage, the risk of surgical complications was compared among the three age groups ( Table 3 ). Although hematoma was more frequent in older patients, the reoperation rate showed no significant difference. The incidence of wound seroma increased consistently with age (p < 0.001). The prevalence of permanent hoarseness was significantly increased in Group C (p = 0.0026).",
+      "order": 7
+    },
+    {
+      "section": "Long-Term Clinical Outcomes",
+      "text": "Analysis of long-term outcomes revealed a higher recurrence rate in older patients. Descriptive analysis of recurrence patterns showed that locoregional recurrence was the predominant type across all age groups, whereas distant recurrence was infrequent. These descriptive data are presented in Supplementary Table 7. Disease-related mortality was rare across all age groups and was observed in 27 patients in Group A (0.1%), 5 patients in Group B (0.4%), and 2 patients in Group C (0.8%). The cumulative incidence of recurrence at 5 years was 1.7% in Group A, 2.7% in Group B, and 5.2% in Group C (p < 0.0001). At 10 years, recurrence rates increased to 3.0% in Group A, 5.1% in Group B, and 7.8% in Group C ( Supplementary Table 4 ). Multiple Cox regression analysis identified advanced age as an independent predictor of recurrence, as the hazard ratio (HR) for recurrence was significantly higher in Group B (HR 1.577, 95% confidence interval [CI]: 1.209–2.058, p = 0.0008) and even higher in Group C (HR 1.894, 95% CI: 1.156–3.104, p = 0.0113) than in Group A. In addition, the recurrence rate was significantly higher in male patients and patients with FTC, OTC, ETE, higher N stage, and distant metastasis ( Table 4 ). More aggressive surgical approaches (BTT or MRND) led to slightly better survival outcomes than lobectomy, particularly in Groups B and C. Table 5 displays the results of the comparison of the proportion of patients diagnosed with recurrence at 5, 10, and 15-year follow-up intervals. The recurrence rates significantly increased with age at each of these time points. Even after adjusting for factors such as sex, tumor size, pathology, ETE, and T-, N-, M-, and TNM stage, the recurrence rates increased with age. Furthermore, the plotted cumulative incidence indicated that the recurrence rates progressively increased with advancing age ( Figure 1 ).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "This study provides a comprehensive analysis of the clinical characteristics, postoperative complications, and long-term outcomes of DTC in older patients. Our findings demonstrate that increasing age was associated with more aggressive disease features, higher recurrence rates, and an increased risk of surgical complications. Despite these challenges, the data suggest that when selected carefully, thyroidectomy remains a viable and beneficial treatment option for older patients. A key finding of this study is the association between advanced age and more aggressive tumor characteristics. Older patients exhibited higher rates of ETE, advanced T-stage, N1b metastases, M stage, and TNM stage compared to younger patients ( Table 1 ). These findings align with those of previous studies, suggesting that thyroid cancer is associated with a more aggressive biological behavior in older patients ( 24 , 25 ). However, after adjusting for sex and tumor size, both N1a and N1b metastases were more prevalent in younger patients ( Table 2 ). Some studies have found a higher prevalence of LN metastasis in younger patients ( 26 , 27 ), while others have observed a U-shaped pattern, with greater prevalence in both the youngest and oldest age groups ( 28 ). In our study, the discrepancy between the unmatched and matched analyses indicates that tumor size substantially mediates the relationship between age and nodal status. In the unmatched cohort, older patients presented with larger tumors and more advanced stage disease, which may partly reflect delayed diagnosis or differences in healthcare utilization. When tumor size was controlled for, the age-related difference in lymph node metastasis diminished or reversed, indicating that nodal involvement may be strongly influenced by tumor burden at presentation rather than age alone. Therefore, while older patients exhibited higher rates of extrathyroidal extension, distant metastasis, and advanced TNM stage, the pattern of lymph node metastasis appears to be more closely related to tumor size and detection timing. These findings suggest that the observed aggressiveness in older patients may reflect a combination of biological factors and stage migration rather than uniformly increased metastatic potential. The matched cohort analysis provides additional insight into the effect of age on surgical decision-making. Notably, even after matching for tumor size and sex, older patients were significantly less likely to undergo BTT or MRND ( Table 2 ). This suggests that age itself may influence the extent of surgical management, potentially reflecting concerns regarding comorbidities, frailty, or perioperative risk. Importantly, in the multivariable Cox regression analysis, BTT was associated with a lower recurrence risk compared with lobectomy (HR 0.799, p = 0.0124), and MRND was associated with a substantially reduced recurrence risk compared with no or central lymph node dissection (HR 0.378, p = 0.0282). These findings indicate that, in appropriately selected patients, more extensive surgical approaches are associated with improved oncologic outcomes ( Table 4 ). When interpreted together, these results suggest a potential gap between oncologic benefit and surgical practice in older patients. Although more extensive surgery appears to be associated with reduced recurrence risk, older individuals were less likely to receive such procedures. While residual confounding and treatment selection bias cannot be excluded due to the observational nature of this study, these findings underscore the importance of individualized surgical decision-making rather than routine de-escalation based solely on chronological age. Our study also highlights the increased risk of postoperative complications in older patients undergoing thyroidectomy. Specifically, seroma formation and permanent hoarseness were significantly more common in older individuals. These findings are consistent with those of previous reports, indicating that older patients have a reduced physiological reserve and are more susceptible to surgical morbidity ( 29 , 30 ). However, despite increased complication rates, reoperation rates for hematoma were not significantly different across age groups, suggesting that while older patients may have a higher risk of minor postoperative complications, severe complications requiring additional surgical intervention remained relatively uncommon. The occurrence of transient hypoparathyroidism, which is associated with the extent of surgery (lobectomy vs. BTT), was more common in younger patients. This finding is consistent with that of previous studies showing a tendency for more extensive surgeries to be performed in younger patients with thyroid cancer ( 25 , 31 ). While complications due to comorbidities may increase in older patients, advanced age itself does not appear to significantly increase the risks associated with surgery alone ( 32 – 35 ). Long-term outcomes further illustrate the adverse impact of advanced age on disease recurrence. Our study identified age as an independent predictor of recurrence, with a significantly higher recurrence rate in older patients even after adjusting for potential confounders such as sex, tumor size, and TNM stage. These results corroborate the findings of prior studies demonstrating an increased risk of disease recurrence and disease-specific mortality in older patients with thyroid cancer ( 17 , 36 ). The reasons for this increased recurrence risk remain unclear but may be related to delayed diagnosis, altered tumor biology, or a less aggressive treatment approach in older patients ( 37 – 39 ). Our findings suggest that while thyroid cancer remains a highly treatable disease, older patients require close surveillance due to the higher likelihood of disease recurrence over time. To further examine whether this association could be influenced by differential survivor duration across age groups, we performed RMST analyses. In the RMST analysis, recurrence-free survival progressively decreased with advancing age. At 10 years, the oldest group exhibited a 3.6-month shorter recurrence-free duration compared with younger patients, and this difference widened over 6 months at 15 years. These findings suggest that the age-associated difference in recurrence is not solely attributable to imbalance in long-term follow-up ( Supplementary Table 5 ). In addition, we conducted landmark analyses including only patients who survived beyond predefined early time points ( Supplementary Table 6 ). This approach reduces potential bias arising from higher early mortality in the oldest age group. The results of the landmark analyses were directionally consistent with those of the primary Cox regression model, further supporting the robustness of the association between advanced age and recurrence risk. Some limitations should be considered when interpreting our findings. First, the retrospective nature of this study introduces potential selection bias, and although we employed rigorous statistical adjustments, several unadjusted confounders may have influenced our results. Second, because only surgically treated patients were included, our cohort represents a selected population of older adults deemed fit for operative management. Therefore, the generalizability of our findings to frail elderly patients or those managed non-operatively may be limited. Third, although complementary analyses including restricted follow-up intervals, RMST, and landmark approaches were performed to mitigate potential bias related to differential survival, formal competing mortality cannot be completely excluded. Fourth, although our institution uses a postoperative surveillance protocol, we must consider the potential impact of differences in follow-up intensity or standardized detection rates of recurrence across age groups. Fifth, RAI avidity and formal response classification could not be reliably analyzed because these data were not uniformly available in a standardized format across the full retrospective cohort, partly owing to referral of postoperative RAI treatment to outside institutions during earlier years of the study period. Finally, the relative small sample size in the ≥75-year group may have limited statistical power for certain subgroup analyses, particularly for less frequent outcomes such as distant metastasis and permanent complications. Larger multicenter studies are warranted to validate our findings in this population. This study underscores the impact of advanced age on the clinical presentation, postoperative complications, and long-term outcomes of patients with DTC. Older patients exhibit more aggressive tumor features and a higher recurrence risk, necessitating careful postoperative surveillance. While older individuals are more prone to minor surgical complications, surgery is a feasible treatment option, particularly when tailored to patients’ overall health status. Further research is warranted to optimize treatment strategies and improve outcomes in this growing patient population.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Quinn BA",
+        "Deng X",
+        "Colton A",
+        "Bandyopadhyay D",
+        "Carter JS",
+        "Fields EC"
+      ],
+      "title": "Increasing age predicts poor cervical cancer prognosis with subsequent effect on treatment and overall survival",
+      "journal": "Brachytherapy",
+      "year": "2019",
+      "volume": "18",
+      "fpage": "29",
+      "lpage": "37",
+      "doi": "10.1016/j.brachy.2018.08.016",
+      "pmid": "30361045",
+      "pmc_id": "PMC6338515"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Withrow DR",
+        "Nicholson BD",
+        "Morris EJA",
+        "Wong ML",
+        "Pilleron S"
+      ],
+      "title": "Age-related differences in cancer relative survival in the United States: A SEER-18 analysis",
+      "journal": "Int J Cancer",
+      "year": "2023",
+      "volume": "152",
+      "doi": "10.1002/ijc.34463",
+      "pmid": "36752633"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Díez JJ",
+        "Anda E",
+        "Alcazar V",
+        "Isidro ML",
+        "Familiar C",
+        "Paja M",
+        "et al."
+      ],
+      "title": "Differentiated thyroid carcinoma in the elderly: influence of age on disease-free and overall survival",
+      "journal": "Endocrine",
+      "year": "2022",
+      "volume": "77",
+      "doi": "10.1007/s12020-022-03059-y",
+      "pmid": "35585463"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Jonklaas J",
+        "Nogueras-Gonzalez G",
+        "Munsell M",
+        "Litofsky D",
+        "Ain KB",
+        "Bigos ST",
+        "et al."
+      ],
+      "title": "The impact of age and gender on papillary thyroid cancer survival",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2012",
+      "volume": "97",
+      "doi": "10.1210/jc.2011-2864",
+      "pmid": "22496497",
+      "pmc_id": "PMC3387425"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Raffaelli M",
+        "Bellantone R",
+        "Princi P",
+        "De Crea C",
+        "Rossi ED",
+        "Fadda G",
+        "et al."
+      ],
+      "title": "Surgical treatment of thyroid diseases in elderly patients",
+      "journal": "Am J Surg",
+      "year": "2010",
+      "volume": "200",
+      "doi": "10.1016/j.amjsurg.2009.12.020",
+      "pmid": "20887839"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Sebastian SO",
+        "Gonzalez JM",
+        "Paricio PP",
+        "Perez JS",
+        "Flores DP",
+        "Madrona AP",
+        "et al."
+      ],
+      "title": "Papillary thyroid carcinoma: prognostic index for survival including the histological variety",
+      "journal": "Arch Surg",
+      "year": "2000",
+      "volume": "135",
+      "doi": "10.1001/archsurg.135.3.272",
+      "pmid": "10722027"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Eustatia-Rutten CF",
+        "Corssmit EP",
+        "Biermasz NR",
+        "Pereira AM",
+        "Romijn JA",
+        "Smit JW"
+      ],
+      "title": "Survival and death causes in differentiated thyroid carcinoma",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2006",
+      "volume": "91",
+      "doi": "10.1210/jc.2005-1322",
+      "pmid": "16263822"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Hundahl SA",
+        "Fleming ID",
+        "Fremgen AM",
+        "Menck HR"
+      ],
+      "title": "A National Cancer Data Base report on 53,856 cases of thyroid carcinoma treated in the U.S. 1985–1995 [see comments",
+      "journal": "Cancer",
+      "year": "1998",
+      "volume": "83",
+      "doi": "10.1002/(sici)1097-0142(19981215)83:12<2638::aid-cncr31>3.0.co;2-1",
+      "pmid": "9874472"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Vorburger SA",
+        "Ubersax L",
+        "Schmid SW",
+        "Balli M",
+        "Candinas D",
+        "Seiler CA"
+      ],
+      "title": "Long-term follow-up after complete resection of well-differentiated cancer confined to the thyroid gland",
+      "journal": "Ann Surg Oncol",
+      "year": "2009",
+      "volume": "16",
+      "doi": "10.1245/s10434-009-0592-4",
+      "pmid": "19655202"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Sutton W",
+        "Crepeau PK",
+        "Canner JK",
+        "Karzai S",
+        "Segev DL",
+        "Mathur A"
+      ],
+      "title": "Impact of the 2015 American thyroid association guidelines on treatment in older adults with low-risk, differentiated thyroid cancer",
+      "journal": "Am J Surg",
+      "year": "2022",
+      "volume": "224",
+      "doi": "10.1016/j.amjsurg.2022.01.033",
+      "pmid": "35123768",
+      "pmc_id": "PMC9232901"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Sutton W",
+        "Genberg B",
+        "Prescott JD",
+        "Segev DL",
+        "Zeiger MA",
+        "Bandeen-Roche K",
+        "et al."
+      ],
+      "title": "Understanding surgical decision-making in older adults with differentiated thyroid cancer: A discrete choice experiment",
+      "journal": "Surgery",
+      "year": "2021",
+      "volume": "169",
+      "fpage": "14",
+      "lpage": "21",
+      "doi": "10.1016/j.surg.2020.03.022",
+      "pmid": "32475718",
+      "pmc_id": "PMC7704531"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Chen W",
+        "Altshuler RD",
+        "Daschner P",
+        "Salvador Morales C",
+        "St Germain DC",
+        "Guida J",
+        "et al."
+      ],
+      "title": "Older adults with cancer and common comorbidities-challenges and opportunities in improving their cancer treatment outcomes",
+      "journal": "J Natl Cancer Inst",
+      "year": "2024",
+      "volume": "116",
+      "doi": "10.1093/jnci/djae163",
+      "pmid": "38995839",
+      "pmc_id": "PMC12116284"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Kleckner AS",
+        "Magnuson A"
+      ],
+      "title": "The nutritional needs of older cancer survivors",
+      "journal": "J Geriatr Oncol",
+      "year": "2022",
+      "volume": "13",
+      "doi": "10.1016/j.jgo.2021.12.007",
+      "pmid": "34906443",
+      "pmc_id": "PMC9187777"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Hoekstra HJ"
+      ],
+      "title": "Cancer surgery in the elderly",
+      "journal": "Eur J Cancer",
+      "year": "2001",
+      "volume": "37",
+      "doi": "10.1016/s0959-8049(01)80025-3",
+      "pmid": "11887995"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Passler C",
+        "Avanessian R",
+        "Kaczirek K",
+        "Prager G",
+        "Scheuba C",
+        "Niederle B"
+      ],
+      "title": "Thyroid surgery in the geriatric patient",
+      "journal": "Arch Surg",
+      "year": "2002",
+      "volume": "137",
+      "doi": "10.1001/archsurg.137.11.1243",
+      "pmid": "12413310"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Chen W",
+        "Li J",
+        "Peng S",
+        "Hong S",
+        "Xu H",
+        "Lin B",
+        "et al."
+      ],
+      "title": "Association of total thyroidectomy or thyroid lobectomy with the quality of life in patients with differentiated thyroid cancer with low to intermediate risk of recurrence",
+      "journal": "JAMA Surg",
+      "year": "2022",
+      "volume": "157",
+      "doi": "10.1001/jamasurg.2021.6442",
+      "pmid": "34935859",
+      "pmc_id": "PMC8696698"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Hsiao V",
+        "Light TJ",
+        "Adil AA",
+        "Tao M",
+        "Chiu AS",
+        "Hitchcock M",
+        "et al."
+      ],
+      "title": "Complication rates of total thyroidectomy vs hemithyroidectomy for treatment of papillary thyroid microcarcinoma: A systematic review and meta-analysis",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2022",
+      "volume": "148",
+      "doi": "10.1001/jamaoto.2022.0621",
+      "pmid": "35511129",
+      "pmc_id": "PMC9073663"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Elfenbein DM",
+        "Schneider DF",
+        "Chen H",
+        "Sippel RS"
+      ],
+      "title": "Surgical site infection after thyroidectomy: a rare but significant complication",
+      "journal": "J Surg Res",
+      "year": "2014",
+      "volume": "190",
+      "doi": "10.1016/j.jss.2014.03.033",
+      "pmid": "24739508",
+      "pmc_id": "PMC5125385"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Suzuki S",
+        "Yasunaga H",
+        "Matsui H",
+        "Fushimi K",
+        "Saito Y",
+        "Yamasoba T"
+      ],
+      "title": "Factors associated with neck hematoma after thyroidectomy: A retrospective analysis using a Japanese inpatient database",
+      "journal": "Med (Baltimore)",
+      "year": "2016",
+      "volume": "95",
+      "elocation_id": "e2812",
+      "doi": "10.1097/md.0000000000002812",
+      "pmid": "26886632",
+      "pmc_id": "PMC4998632"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Kristjansson SR",
+        "Farinella E",
+        "Gaskell S",
+        "Audisio RA"
+      ],
+      "title": "Surgical risk and post-operative complications in older unfit cancer patients",
+      "journal": "Cancer Treat Rev",
+      "year": "2009",
+      "volume": "35",
+      "fpage": "499",
+      "lpage": "502",
+      "doi": "10.1016/j.ctrv.2009.04.004",
+      "pmid": "19435652"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Rockwood K",
+        "Stadnyk K",
+        "MacKnight C",
+        "McDowell I",
+        "Hébert R",
+        "Hogan DB"
+      ],
+      "title": "A brief clinical instrument to classify frailty in elderly people",
+      "journal": "Lancet",
+      "year": "1999",
+      "volume": "353",
+      "doi": "10.1016/s0140-6736(98)04402-x",
+      "pmid": "9923878"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Baloch ZW",
+        "Asa SL",
+        "Barletta JA",
+        "Ghossein RA",
+        "Juhlin CC",
+        "Jung CK",
+        "et al."
+      ],
+      "title": "Overview of the 2022 WHO classification of thyroid neoplasms",
+      "journal": "Endocr Pathol",
+      "year": "2022",
+      "volume": "33",
+      "fpage": "27",
+      "lpage": "63",
+      "doi": "10.1007/s12022-022-09707-3",
+      "pmid": "35288841"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Amin MB",
+        "Greene FL",
+        "Edge SB",
+        "Compton CC",
+        "Gershenwald JE",
+        "Brookland RK",
+        "et al."
+      ],
+      "title": "The Eighth Edition AJCC Cancer Staging Manual: Continuing to build a bridge from a population-based to a more “personalized” approach to cancer staging",
+      "journal": "CA Cancer J Clin",
+      "year": "2017",
+      "volume": "67",
+      "doi": "10.3322/caac.21388",
+      "pmid": "28094848"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Calò PG",
+        "Medas F",
+        "Loi G",
+        "Erdas E",
+        "Pisano G",
+        "Nicolosi A"
+      ],
+      "title": "Differentiated thyroid cancer in the elderly: our experience",
+      "journal": "Int J Surg",
+      "year": "2014",
+      "volume": "12",
+      "doi": "10.1016/j.ijsu.2014.08.362",
+      "pmid": "25183640"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Park HS",
+        "Roman SA",
+        "Sosa JA"
+      ],
+      "title": "Treatment patterns of aging Americans with differentiated thyroid cancer",
+      "journal": "Cancer",
+      "year": "2010",
+      "volume": "116",
+      "fpage": "20",
+      "lpage": "30",
+      "doi": "10.1002/cncr.24717",
+      "pmid": "19908255"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Meng C",
+        "Wang W",
+        "Zhang Y",
+        "Li X"
+      ],
+      "title": "The influence of nodule size on the aggressiveness of thyroid carcinoma varies with patient’s age",
+      "journal": "Gland Surg",
+      "year": "2021",
+      "volume": "10",
+      "doi": "10.21037/gs-20-747",
+      "pmid": "33842240",
+      "pmc_id": "PMC8033077"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Wang W",
+        "Ding Y",
+        "Meng C",
+        "Li P",
+        "Bai N",
+        "Li X"
+      ],
+      "title": "Patient’s age with papillary thyroid cancer: Is it a key factor for cervical lymph node metastasis",
+      "journal": "Eur J Surg Oncol",
+      "year": "2023",
+      "volume": "49",
+      "doi": "10.1016/j.ejso.2023.02.011",
+      "pmid": "36863913"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Thompson AM",
+        "Turner RM",
+        "Hayen A",
+        "Aniss A",
+        "Jalaty S",
+        "Learoyd DL",
+        "et al."
+      ],
+      "title": "A preoperative nomogram for the prediction of ipsilateral central compartment lymph node metastases in papillary thyroid cancer",
+      "journal": "Thyroid®",
+      "year": "2014",
+      "volume": "24",
+      "doi": "10.1089/thy.2013.0224",
+      "pmid": "24083952",
+      "pmc_id": "PMC3993080"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Annebäck M",
+        "Osterman C",
+        "Arlebrink J",
+        "Mellerstedt S",
+        "Papathanasakis N",
+        "Wallin G",
+        "et al."
+      ],
+      "title": "Validating the risk of hypoparathyroidism after total thyroidectomy in a population-based cohort: plea for improved follow-up",
+      "journal": "Br J Surg",
+      "year": "2023",
+      "volume": "111",
+      "issue": "1",
+      "elocation_id": "znad366",
+      "doi": "10.1093/bjs/znad366",
+      "pmid": "37995259",
+      "pmc_id": "PMC10776524"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Privitera F",
+        "Centonze D",
+        "La Vignera S",
+        "Condorelli RA",
+        "Distefano C",
+        "Gioco R",
+        "et al."
+      ],
+      "title": "Risk factors for hypoparathyroidism after thyroid surgery: A single-center study",
+      "journal": "J Clin Med",
+      "year": "2023",
+      "volume": "12",
+      "issue": "5",
+      "fpage": "1956",
+      "doi": "10.3390/jcm12051956",
+      "pmid": "36902740",
+      "pmc_id": "PMC10004126"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Haigh PI",
+        "Urbach DR",
+        "Rotstein LE"
+      ],
+      "title": "AMES prognostic index and extent of thyroidectomy for well-differentiated thyroid cancer in the United States",
+      "journal": "Surgery",
+      "year": "2004",
+      "volume": "136",
+      "doi": "10.1016/j.surg.2003.12.009",
+      "pmid": "15349109"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Alqahtani SM",
+        "Al-Sohabi HR",
+        "Alfattani AA",
+        "Alalawi Y"
+      ],
+      "title": "Post-thyroidectomy hematoma: risk factors to be considered for ambulatory thyroidectomy",
+      "journal": "Cureus",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "e31539",
+      "doi": "10.7759/cureus.31539",
+      "pmid": "36540508",
+      "pmc_id": "PMC9754144"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Bumber B",
+        "Potroško V",
+        "Vugrinec O",
+        "Ferenčaković M",
+        "Gršić K"
+      ],
+      "title": "Hypocalcemia after completion thyroidectomy for papillary thyroid carcinoma",
+      "journal": "Acta Clin Croat",
+      "year": "2020",
+      "volume": "59",
+      "doi": "10.20471/acc.2020.59.s1.18",
+      "pmid": "34219896",
+      "pmc_id": "PMC8212615"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Edafe O",
+        "Balasubramanian SP"
+      ],
+      "title": "Incidence, prevalence and risk factors for post-surgical hypocalcemia and hypoparathyroidism",
+      "journal": "Gland Surg",
+      "year": "2017",
+      "volume": "6",
+      "fpage": "S59",
+      "lpage": "s68",
+      "doi": "10.21037/gs.2017.09.03",
+      "pmid": "29322023",
+      "pmc_id": "PMC5756754"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Finnerty BM",
+        "Gray KD",
+        "Ullmann TM",
+        "Zarnegar R",
+        "Fahey TJ",
+        "Beninato T"
+      ],
+      "title": "Frailty is more predictive than age for complications after thyroidectomy for multinodular goiter",
+      "journal": "World J Surg",
+      "year": "2020",
+      "volume": "44",
+      "doi": "10.1007/s00268-020-05422-4",
+      "pmid": "32052107"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Zheng W",
+        "Li J",
+        "Lv P",
+        "Chen Z",
+        "Fan P"
+      ],
+      "title": "Treatment efficacy between total thyroidectomy and lobectomy for patients with papillary thyroid microcarcinoma: A systemic review and meta-analysis",
+      "journal": "Eur J Surg Oncol",
+      "year": "2018",
+      "volume": "44",
+      "doi": "10.1016/j.ejso.2018.08.004",
+      "pmid": "30158063"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Durante C",
+        "Hegedüs L",
+        "Czarniecka A",
+        "Paschke R",
+        "Russ G",
+        "Schmitt F",
+        "et al."
+      ],
+      "title": "2023 European Thyroid Association Clinical Practice Guidelines for thyroid nodule management",
+      "journal": "Eur Thyroid J",
+      "year": "2023",
+      "volume": "12",
+      "issue": "5",
+      "elocation_id": "e230067",
+      "doi": "10.1530/etj-23-0067",
+      "pmid": "37358008",
+      "pmc_id": "PMC10448590"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Momesso DP",
+        "Vaisman F",
+        "Yang SP",
+        "Bulzico DA",
+        "Corbo R",
+        "Vaisman M",
+        "et al."
+      ],
+      "title": "Dynamic risk stratification in patients with differentiated thyroid cancer treated without radioactive iodine",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2016",
+      "volume": "101",
+      "doi": "10.1210/jc.2015-4290",
+      "pmid": "27023446",
+      "pmc_id": "PMC6287503"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Vaisman F",
+        "Shaha A",
+        "Fish S",
+        "Michael Tuttle R"
+      ],
+      "title": "Initial therapy with either thyroid lobectomy or total thyroidectomy without radioactive iodine remnant ablation is associated with very low rates of structural disease recurrence in properly selected patients with differentiated thyroid cancer",
+      "journal": "Clin Endocrinol (Oxf)",
+      "year": "2011",
+      "volume": "75",
+      "doi": "10.1111/j.1365-2265.2011.04002.x",
+      "pmid": "21521273"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "title": "A Multimodal Approach for Deep-Learning Classification of Vocal Fold Pathologies in Stroboscopy",
+    "authors": [
+      "Sruthi Surapaneni",
+      "Rachel B. Kutler",
+      "Sean A. Setzen",
+      "Yeo Eun Kim",
+      "Peter Yao",
+      "Sana H. Siddiqui",
+      "Michael J. Pitman",
+      "Lucian Sulica",
+      "Olivier Elemento",
+      "Pegah Khosravi",
+      "Anaïs Rameau"
+    ],
+    "journal": "The Laryngoscope",
+    "year": "2026",
+    "doi": "10.1002/lary.70355",
+    "pmc_id": "PMC12980015",
+    "pmid": "41489089",
+    "full_text_available": true,
+    "section_count": 15,
+    "reference_count": 27
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objective: To develop and validate a multimodal deep-learning classifier trained on stroboscopic image, voice, and clinicodemographic data, differentiating between three different vocal fold (VF) states: healthy (HVF), unilateral paralysis (UVFP), and VF lesions, including benign and malignant pathologies. Methods: Patients with UVFP (n = 54), VF lesions (n = 42), and HVF (n = 41) were retrospectively identified. Image frames and voice samples were extracted from stroboscopic videos. Clinicodemographic variables were collected from the electronic health record. Patient-level data was independently divided into training (80%) and testing (20%). Visual features were extracted using a transformer DINOv2 and acoustic features were extracted using Librosa. All three feature modalities were combined using a custom multilayer perceptron. Unimodality models using only image or only voice data were trained for comparison. Accuracy and F-1 scores were used to validate the models. Results: On a hold-out test set, the multimodal classifier demonstrated stronger performance (76.9% accuracy) compared to the image classifier (61.5% accuracy) and audio classifier (65.4% accuracy). On an external dataset, the multimodal classifier accuracy dropped to 45%, though still an improvement compared to accuracies of 42% and 31% for the video-only and audio-only modalities, respectively. Conclusions: In this proof-of-concept study, we successfully developed a multimodal dataset and classifier for VF pathology, demonstrating the potential of combining stroboscopic frames, voice and text data. The multimodal classifier achieved higher accuracy than the image-only model and audio-only models. Future models should validate these findings on larger datasets.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Clinical evaluation requires the integration of multiple data sources, including a patient’s history, physical examination findings, imaging studies, and laboratory results. 1 , 2 Physicians must synthesize these diverse data to arrive at accurate diagnoses and guide treatment decisions. To streamline and standardize this process, artificial intelligence (AI) has been increasingly applied to support clinical decision-making. However, most current AI tools are designed for single tasks and rely on isolated data types. 3 , 4 This narrow focus limits their applicability in the multifaceted context of real-world clinical care. Multimodal AI refers to machine learning (ML) models capable of processing and integrating information from multiple modalities or types of data. 5 These modalities can include text, images, audio, video, and other forms of sensory input. By combining complementary information from different sources, these models can compensate for noise, variability, or missing data in any single modality, thereby enhancing both robustness and predictive accuracy. In various medical specialties, multimodal AI has demonstrated promising results in both initial diagnosis and longer-term patient management. 6 – 8 In otolaryngology, many prior studies have developed AI models based on convolutional neural networks (CNNs) in the analysis of laryngoscopic and endoscopic images and videos, including the classification of various VF pathologies. 9 – 11 This application of deep learning to endoscopic data, referred to as “videomics” as defined by Paderno et al., offers a promising opportunity to expand access to diagnostic evaluations, especially in low-resource settings. 12 Voice-based algorithms have also been explored, though with generally less robust performance. 13 , 14 However, few prior studies have evaluated the integration of multiple modalities or compared the performance of multimodal models to unimodal classifiers. 15 , 16 This study aims to develop a prediction model for VF pathologies by integrating 3 distinct data modalities: stroboscopic video, audio recordings of voice samples extracted from these videos, and clinicodemographic data from patient electronic health records. To our knowledge, this is a novel application of multimodal classification using 3 modalities to classify 3 types of VF pathology. By leveraging the complementary strengths of each data type, our multimodal approach seeks to enhance the classification of 3 categories of VF states, healthy vocal folds (HVF), unilateral vocal fold paralysis (UVFP), and VF lesions, including both benign and malignant pathologies, as compared to single modality models. This novel integrated approach more closely approximates the multifaceted evaluation performed by clinicians, potentially offering improved diagnostic accuracy with potential for clinical utility in laryngological practice. The objective was to explore the utility and benefit of multimodal classification performance compared to audio-only or video-only models in video-stroboscopy.",
+      "order": 1
+    },
+    {
+      "section": "Data Collection",
+      "text": "This study was approved by the Institutional Review Boards of Weill Cornell Medicine and Columbia University Irving Medical Center (CUIMC). Videolaryngostroboscopy (VLS) recordings were collected from adult patients seen at the Sean Parker Institute for Voice at Weill Cornell Medicine and at the Center for Voice and Swallowing at CUIMC. Patients included those with HVF, UVFP, and VF lesions, and who had audible pre-treatment VLS recordings available. Those with multiple diagnoses (e.g., both UVFP and VF lesion) were excluded. Patients in the VF malignancy group from both institutions were confirmed to have squamous cell carcinoma (SCC) based on histopathology. To ensure consistency in visualization and reduce variability related to recording modality and image quality differences, only VLS examinations performed using flexible laryngoscopy were included. Recordings obtained via rigid laryngoscopy and those with special filtering systems such as i-scan were excluded to standardize the dataset and minimize differences in acoustic and visual capture that could arise from differences in video-endoscopy technique or patient phonation posture. Only pre-treatment examinations were included, ensuring patients had not received medical, surgical, or behavioral voice therapy prior to their VLS exam. Finally, the senior laryngologist on the team (AR) reviewed the data collection methods throughout the course of the project.",
+      "order": 2
+    },
+    {
+      "section": "Video And Audio Data Acquisition",
+      "text": "Voice samples were recorded during the stroboscopic examination using the Kay-Pentax Stroboscopy System (Laryngeal Strobe: Model 9400; New Jersey, USA), in standard outpatient clinic rooms with sound proofing. At the Sean Parker Institute for the Voice, audio was captured using a lapel microphone positioned on the patient’s shirt collar (Model 7175–6000, Pentax Medical; New Jersey, USA). Mouth-to-microphone distance was not standardized. At CUIMC, audio was recorded via a microphone mounted on the camera head (Audio-Technica; Tokyo, Japan), approximately 2 to 3 feet from the patient’s mouth. All recordings were captured at a sampling rate of 44 kHz with 16-bit resolution and embedded in MP4 video files at both Sean Parker and CUIMC, which were downloaded from the Pentax EndoPortal at both clinical sites, for downstream data processing.",
+      "order": 3
+    },
+    {
+      "section": "Video Data Preprocessing",
+      "text": "Exams and diagnosis were performed by fellowship trained senior laryngologists on adult patients in clinic setting with a Pentax VNL-1590sTi naso-pharyngo-laryngoscope. All MP4 video files downloaded from the Pentax EndoPortal at both Sean Parker and CUIMC were then trimmed using Apple iMovie (Mac, version 10.4.3). Export settings were standardized across all clips, including MP4 format, 720p resolution, quality: high, and compression speed: faster. Each video was trimmed to approximately five seconds in length and selected to ensure that at least one full cycle of VF abduction and adduction was visible. Additionally, VLS recording MP4 files from CUIMC contained surrounding black frame areas, including metadata overlays such as timestamps and system settings, which extended beyond the region of clinical interest. These non-imaging regions were removed using Apple Photos (Mac, version 10.0), resulting in tightly cropped clips focused solely on the laryngeal anatomy. Frames at 30 frames per second were extracted from each video and processed using a pre-trained DINOv2 transformer to obtain high-level feature embeddings. DINOv2, a self-supervised model, was chosen for its self-attention mechanism, which captures long-range dependencies across image patches and facilitates the detection of spatially distributed patterns. Recent literature has demonstrated that pre-trained transformer-based models like DINOv2 consistently outperform traditional CNNs in medical image classification tasks. 12 , 17 To maximize the model’s ability to generalize across varying recording conditions and prevent overfitting, data augmentation techniques, including random cropping, rotation, and horizontal flipping were used. 15 , 16 All video processing, including trimming and frame extraction, was performed by authors SAS, RBK, and SS.",
+      "order": 4
+    },
+    {
+      "section": "Audio Data Extraction",
+      "text": "Audio files were extracted from the MP4 video files in WAV format using the Adapter tool (Macroplant; Massachusetts, USA). Recordings from both institutions included low-level background noise, primarily produced from the Pentax Endoscopy System equipment, including noise produced by the flickering strobe light of the laryngoscope. Because these recordings were retrospectively acquired, some clips contained different voice tasks and/or examiner voice overlap; all such non-patient speech segments were therefore identified and excised during our trimming process.",
+      "order": 5
+    },
+    {
+      "section": "Audio Segment Isolation",
+      "text": "Targeted voice segments were isolated from the WAV files produced in the prior extraction step. This task was performed using Audacity (version 3.7.1; Audacity Team, https://www.audacityteam.org/ ), a free, open-source, cross-platform audio editing software. Trained researchers (YK, SAS, RK) utilized Audacity’s waveform visualization, real-time playback, and precise selection tools to manually identify and extract specific voice tasks elicited during the VLS exams. The isolated tasks included sustained /i/ phonation, pitch glides, and alternating /i/ with sniff exercises. Only segments that featured the patient’s voice were retained for analysis. Audio segments were excluded if they contained non-patient speech or excessive background interference in the form of background noise generated by the stroboscopy tower. The extracted segments were also saved in WAV format to maintain high temporal resolution and audio quality for downstream acoustic and ML analysis.",
+      "order": 6
+    },
+    {
+      "section": "Audio Data Preprocessing",
+      "text": "Audio signals were resampled to 22,050 Hz. A comprehensive set of acoustic features was extracted from each recording using Librosa, including Mel-frequency cepstral coefficients (MFCCs) with their first and second derivatives, spectral features (centroid, bandwidth, contrast, rolloff), cepstral peak prominence (CPP), acoustic perturbation measures approximating jitter and shimmer, and harmonics-to-noise ratio (HNR) with a total of 51 features. Principal Component Analysis (PCA) from Python’s scikit-learn library was applied to the extracted acoustic features for dimensionality reduction. By evaluating baseline classifier performance, the smallest number of components that retained at least 95% of the variance and maintained stable classification accuracy was selected to optimize the feature set while preserving most of the important information.",
+      "order": 7
+    },
+    {
+      "section": "Clinicodemographic Data Collection",
+      "text": "Patient clinicodemographic variables were retrieved from the electronic health record (EHR). Data collected included age, sex, smoking status, history of neck surgery, and level of voice use according to the classification scheme proposed by Behrman et al.18 The level of voice use refers to the extent and intensity of vocal activity the patient engages in on a regular basis, categorized into “professional” use (singer, actor, radio personnel), “high” use (including teachers, sales, tech support, mothers of young children, individuals who work with high background noise), and “routine” use. 18 Categorical variables, such as smoking history, were converted into binary format for analysis. Missing values were assigned “unknown.”",
+      "order": 8
+    },
+    {
+      "section": "Multimodal Architecture And Fusion",
+      "text": "The multimodal model comprised three parallel pathways. A pre-trained DINOv2 transformer was employed to extract visual features from video frames, with selective fine-tuning via progressive unfreezing of its top layers. The extracted features were then fed into a custom multilayer perceptron (MLP) for classification. In parallel, an MLP was trained on acoustic features extracted from the audio signal using Librosa, and another MLP processed clinicodemographic data. Finally, the features from the video, audio, and metadata branches were integrated using a gated attention mechanism, which employs an uncertainty-based weighting approach to dynamically amplify and reduce the influence of modalities based on certainty, thereby optimizing the fusion of information. ( Figure 1 ).",
+      "order": 9
+    },
+    {
+      "section": "Training And Evaluation",
+      "text": "The video-only, audio-only and multimodal frameworks were trained using stratified patient-level split sampling with 80% of data used for training and 20% held out for testing the final model, with no patient overlap between sets. To mitigate class imbalance, weighted random sampling was employed. All models were trained for up to 20 epochs using a batch size of 12 and an AdamW optimizer (initial learning rate = 1 × 10 −4 , weight decay = 5 × 10 −4 ). This means that the learning rate gradually decreased over time, which helped stabilize training and convergence during training. To prevent overfitting, we monitored patient-level validation accuracy and stopped training early if there was no improvement for 3 consecutive epochs. These parameters were chosen a priori based preliminary experiments to reflect commonly effective values and ensure consistency across model comparisons. The models were then evaluated using accuracies and F1-scores on the same held-out test set. All source code for data processing and model training is available at https://github.com/Rameau-Lab/Multimodal-.git",
+      "order": 10
+    },
+    {
+      "section": "Cohort Characteristics",
+      "text": "A total of 136 videos were included in the dataset, with 41 HVF, 54 UVFP, and 42 VF lesions (12 unilateral VF polyps, 16 cysts, 14 SCC) with a mean duration of five seconds. Diagnoses were made by the senior laryngologist in the team with over 15 years of experience. A second retrospective dataset of 40 VLS recordings was collected at CUIMC. This dataset included 15 videos of HVF, 12 with UVFP, and 13 with VF lesions (7 unilateral VF polyps, one cyst, 2 SCC). Full cohort characteristics are presented in Table 1 .",
+      "order": 11
+    },
+    {
+      "section": "Performance Of Unimodality And Multimodality Classifiers",
+      "text": "The overall accuracy achieved by the multimodal classifier was 76.92% (95% confidence interval [CI]: 57.60% – 88.46%), whereas the video modality classifier achieved an accuracy of 61.54% (95% CI: 38.46% – 76.92%) and the audio modality classifier achieved an accuracy of 65.38% (95% CI: 42.31% – 80.77%). Precision, recall, and F1 score of each model are presented in Table 2 . Confusion matrices were used to visualize classification patterns across modalities ( Figure 2 ). The audio modality correctly identified healthy VF cases in 83% of instances (5 out of 6 cases), but demonstrated considerable misclassification when differentiating between UVFP and VF lesions. In contrast, the video modality correctly classified 100% of UVFP cases (11 out of 11), but performed poorly (50%) when distinguishing healthy VFs from VF lesions. The multimodal approach effectively combined the strengths of the individual modalities, correctly identifying 67% of healthy VF cases (4 out of 6), 100% of UVFP cases, and 70% of VF lesion cases. When evaluated on the external Columbia dataset, the multimodal classifier achieved an accuracy of 45%, marginally outperforming both the video-only (42%) and audio-only (31%) models.",
+      "order": 12
+    },
+    {
+      "section": "Discussion",
+      "text": "This work demonstrated that integrating stroboscopic video, audio, and clinicodemographic data in a multimodal DL framework improves the diagnosis of VF pathologies compared to relying on unimodal approaches. The multimodal classifier achieved an absolute accuracy gain of 15.38% over the video-only model (76.92% vs. 61.54%) and 11.54% over the audio-only model (76.92% vs. 65.38%). The observed trend highlights the advantage of combining heterogeneous data sources, as each modality captures different aspects of VF pathology that, when fused, yield more robust diagnostic predictions leveraging cross-modality patterns. This multimodal approach is more representative of the clinical decision-making process by human experts and therefore holds significant promise in providing more reliable results in low validity settings. 5 Few studies to date have implemented multimodal approaches in otolaryngology, and this is the first study to combine stroboscopic video and audio data with EHR text data for VF pathology classification. Prior work has typically focused on unimodal classifiers, reporting mean accuracies of 89.0% for acoustic studies and 91.3% for imaging studies. 19 Similar to our approach, multimodal application by Kwon et al. and Fang et al. achieved improved classification accuracy with image and voice data, and voice and medical record data, respectively. 15 , 16 The comparatively lower accuracy of our unimodal models may be attributed to differences in data preprocessing pipelines, modeling architectures for video and audio inputs, and potential institutional variability in data quality, including differences in recording protocols and patient populations. The model’s ability to perform reasonably well despite equipment and mouth-to-microphone distance variability suggests better real-world applicability to diverse clinical settings, as strict standardization, while ideal for model training, can be impractical. Importantly, despite the lower baseline performance of our individual modalities, our multimodal framework achieved a better performance over the best-performing unimodal model than was observed in prior multimodal studies. 15 Several key methodological decisions guided the development of the multimodal model. First, the gated attention mechanism employed an uncertainty-based weighting approach similar to that described by Kendall et. al, allowing the model to dynamically adjust the contribution of each modality based on the estimated uncertainty of its predictions for each sample. 20 When analyzing the confusion matrices, this adaptive weighting approach proved particularly valuable for VF lesion cases, where the audio modality often showed higher uncertainty. In these instances, the fusion mechanism appropriately increased the influence of the video modality, which demonstrated stronger discrimination capabilities for lesions. Conversely, when classifying healthy cases, where the video modality showed lower confidence, the model adjusted to leverage the audio features more heavily. This dynamic balancing contributed to the improved performance observed in the multimodal approach. In contrast, clinical decision-making by human experts often relies on fixed or subjective weighting of disparate inputs and may not fully account for complex, non-linear relationships between modalities. 5 This highlights the potential for multimodal AI to enhance diagnostic accuracy by systematically integrating and weighting diverse sources of information in ways that may be difficult for human cognition to replicate. Second, raw VLS video recordings, without manual frame selection or extensive preprocessing, were utilized. This approach contrasts with current research that employs careful manual selection of video frames or time-intensive labeling of individual frames to train automated informative frame classifiers. 21 While our approach yielded lower performance for the video-only classifier relative to other approaches with a mean accuracy of 91%, minimal pre-processing was chosen to enhance clinical applicability by streamlining the data preparation process and reduce reliance on labor-intensive curation. 22 , 23 To address the limitations of minimal video preprocessing, we employed a transformer-based architecture (pretrained DINOv2), which is effective in modeling long-range dependencies and spatiotemporal patterns. DINOv2’s self-supervised learning capabilities allowed it to learn rich, high-level feature representations from the video data without the need for extensive manual labeling. 24 This capability leverages the inherent structure in the data to improve model performance. As delineated by prior uses of DINOv2, transformers can streamline the process of generating high-quality pseudo-labels, which can then be used to train models more effectively. 12 , 25 Across all classification tasks, the multimodal approach demonstrated the best overall performance. However, in line with existing literature, both the unimodal and multimodal models exhibited reduced performance when evaluated on an external dataset. 14 , 26 , 27 Compared to unimodal classifiers, multimodal models are particularly vulnerable to single-modality variations, as discrepancies in any one input can disrupt the integration of cross-modal information. This sensitivity degrades overall performance and limits generalizability across clinical settings. Nonetheless, through the integration of varying data streams, multimodal models can support more accurate, comprehensive decision-making, particularly for non-expert providers who may lack subspecialty expertise. With ongoing efforts to improve external validation and model robustness, multimodal VLS automation holds significant potential to expand access to high-quality diagnostic support in resource-limited settings, where lack of access to specialty referral often leads to delays in the diagnosis and management of laryngeal disorders. 9 While this proof-of-concept study provides a novel multimodal approach for the integration of video, audio, and clinicodemographic data, it is not without limitations. First, the small sample size reduces statistical power, contributing to wide confidence intervals and limiting the reliability of performance estimates. In addition, the observed accuracy drop in the external validation set highlights the challenges of generalizability across diverse clinical settings. Expanding the size and diversity of validation cohorts, including through prospective data collection and potentially synthetic data generation, will be critical to improving robustness and external validity. Further, training a clinicodemographic-only model was avoided because the limited variables would likely cause underfitting, preventing the capture of meaningful patterns and rendering it an uninformative benchmark. This contrasts Fang et al.’s successful analysis of a demographics-only model due to a richer dataset containing over 34 detailed features. However, future work should include sensitivity studies to assess the relative contribution of each modality, including clinico-demographic data, to overall model performance, further clarifying the added value of multimodal integration. Additionally, the audio samples were trimmed; however, truncating voice tasks can misrepresent the phonation time and quality, which are important clinical features in UVFP and VF lesions. While our preprocessing pipeline is less labor-intensive than those used in prior studies, it remains time-consuming and should be further optimized in future work. Lastly, although transformer-based video models provide strong feature representations, they lack inherent interpretability; future studies applying model explainability techniques and uncertainty quantification can help clinicians understand predictions and gauge confidence in clinical decision support.",
+      "order": 13
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study successfully developed a multimodal dataset and classifier for diagnosing VF pathologies, demonstrating the potential benefits of integrating stroboscopic video, audio, and clinicodemographic data for automated laryngeal disease classification. The multimodal classifier achieved higher accuracy than the video-only and audio-only models on both the test and external datasets. Addressing variability in external datasets and increasing sample size remain crucial for advancing the clinical applicability of these models. Nevertheless, our findings demonstrate the potential superiority of multimodal approaches over unimodal AI models for voice pathology classification.",
+      "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "title": "AI in health and medicine",
+      "journal": "Nat Med",
+      "year": "2022",
+      "volume": "28",
+      "issue": "1",
+      "fpage": "31",
+      "lpage": "38",
+      "doi": "10.1038/s41591-021-01614-0",
+      "pmid": "35058619"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "Clinical decision analysis. The hazard of using additional data",
+      "journal": "JAMA",
+      "year": "1976",
+      "volume": "236",
+      "issue": "11",
+      "fpage": "1259",
+      "lpage": "1263",
+      "doi": "10.1001/jama.236.11.1259",
+      "pmid": "989070"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "Revolutionizing healthcare: the role of artificial intelligence in clinical practice",
+      "journal": "BMC Med Educ",
+      "year": "2023",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "689",
+      "doi": "10.1186/s12909-023-04698-z",
+      "pmid": "37740191",
+      "pmc_id": "PMC10517477"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "The path from task-specific to general purpose artificial intelligence for medical diagnostics: A bibliometric analysis",
+      "journal": "Comput Biol Med",
+      "year": "2024",
+      "volume": "172",
+      "fpage": "108258",
+      "doi": "10.1016/j.compbiomed.2024.108258",
+      "pmid": "38467093"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Multimodal machine learning in precision health: A scoping review",
+      "journal": "NPJ Digit Med",
+      "year": "2022",
+      "volume": "5",
+      "issue": "1",
+      "fpage": "171",
+      "doi": "10.1038/s41746-022-00712-8",
+      "pmid": "36344814",
+      "pmc_id": "PMC9640667"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "title": "A multimodal integration pipeline for accurate diagnosis, pathogen identification, and prognosis prediction of pulmonary infections",
+      "journal": "The Innovation",
+      "year": "2024",
+      "volume": "5",
+      "issue": "4",
+      "fpage": "100648",
+      "doi": "10.1016/j.xinn.2024.100648",
+      "pmid": "39021525",
+      "pmc_id": "PMC11253137"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "title": "Pre-trained multimodal large language model enhances dermatological diagnosis using SkinGPT-4",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "5649",
+      "doi": "10.1038/s41467-024-50043-3",
+      "pmid": "38969632",
+      "pmc_id": "PMC11226626"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "title": "Multimodal Artificial Intelligence in Medicine",
+      "journal": "Kidney360",
+      "year": "2024",
+      "volume": "5",
+      "issue": "11",
+      "fpage": "1771",
+      "doi": "10.34067/KID.0000000000000556",
+      "pmid": "39167446",
+      "pmc_id": "PMC12282626"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "title": "Automatic Recognition of Laryngoscopic Images Using a Deep-Learning Technique",
+      "journal": "The Laryngoscope",
+      "year": "2020",
+      "volume": "130",
+      "issue": "11",
+      "fpage": "E686",
+      "lpage": "E693",
+      "doi": "10.1002/lary.28539",
+      "pmid": "32068890"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "title": "Support of deep learning to classify vocal fold images in flexible laryngoscopy",
+      "journal": "Am J Otolaryngol",
+      "year": "2023",
+      "volume": "44",
+      "issue": "3",
+      "fpage": "103800",
+      "doi": "10.1016/j.amjoto.2023.103800",
+      "pmid": "36905912"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "title": "Comparison of Convolutional Neural Network Models for Determination of Vocal Fold Normality in Laryngoscopic Images",
+      "journal": "J Voice Off J Voice Found",
+      "year": "2022",
+      "volume": "36",
+      "issue": "5",
+      "fpage": "590",
+      "lpage": "598",
+      "doi": "10.1016/j.jvoice.2020.08.003"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "title": "Computer Vision Foundation Models in Endoscopy: Proof of Concept in Oropharyngeal Cancer",
+      "journal": "The Laryngoscope",
+      "year": "2024",
+      "volume": "134",
+      "issue": "11",
+      "fpage": "4535",
+      "lpage": "4541",
+      "doi": "10.1002/lary.31534",
+      "pmid": "38850247"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "title": "Voice as an AI Biomarker of Health-Introducing Audiomics",
+      "journal": "JAMA Otolaryngol-- Head Neck Surg",
+      "year": "2024",
+      "volume": "150",
+      "issue": "4",
+      "fpage": "283",
+      "lpage": "284",
+      "doi": "10.1001/jamaoto.2023.4807",
+      "pmid": "38386315"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "title": "Deep Learning Application for Vocal Fold Disease Prediction Through Voice Recognition: Preliminary Development Study",
+      "journal": "J Med Internet Res",
+      "year": "2021",
+      "volume": "23",
+      "issue": "6",
+      "fpage": "e25247",
+      "doi": "10.2196/25247",
+      "pmid": "34100770",
+      "pmc_id": "PMC8241431"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "title": "Diagnosis of Early Glottic Cancer Using Laryngeal Image and Voice Based on Ensemble Learning of Convolutional Neural Network Classifiers",
+      "journal": "J Voice",
+      "year": "2025",
+      "volume": "39",
+      "issue": "1",
+      "fpage": "245",
+      "lpage": "257",
+      "doi": "10.1016/j.jvoice.2022.07.007",
+      "pmid": "36075802"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "title": "Combining acoustic signals and medical records to improve pathological voice classification",
+      "journal": "APSIPA Trans Signal Inf Process",
+      "year": "2019",
+      "volume": "8",
+      "fpage": "e14",
+      "doi": "10.1017/ATSIP.2019.7"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "title": "Comparison of Vision Transformers and Convolutional Neural Networks in Medical Image Analysis: A Systematic Review",
+      "journal": "J Med Syst",
+      "year": "2024",
+      "volume": "48",
+      "issue": "1",
+      "fpage": "84",
+      "doi": "10.1007/s10916-024-02105-8",
+      "pmid": "39264388",
+      "pmc_id": "PMC11393140"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "title": "Factors predicting patient perception of dysphonia caused by benign vocal fold lesions",
+      "journal": "The Laryngoscope",
+      "year": "2004",
+      "volume": "114",
+      "issue": "10",
+      "fpage": "1693",
+      "lpage": "1700",
+      "doi": "10.1097/00005537-200410000-00004",
+      "pmid": "15454756"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "title": "The Use of Deep Learning Software in the Detection of Voice Disorders: A Systematic Review",
+      "journal": "Otolaryngol--Head Neck Surg Off J Am Acad Otolaryngol-Head Neck Surg",
+      "year": "2024",
+      "volume": "170",
+      "issue": "6",
+      "fpage": "1531",
+      "lpage": "1543",
+      "doi": "10.1002/ohn.636"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "journal": "Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics",
+      "doi": "10.48550/arXiv.1705.07115"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "title": "An automated approach for real-time informative frames classification in laryngeal endoscopy using deep learning",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2024",
+      "volume": "281",
+      "issue": "8",
+      "fpage": "4255",
+      "lpage": "4264",
+      "doi": "10.1007/s00405-024-08676-z",
+      "pmid": "38698163",
+      "pmc_id": "PMC11266252"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "title": "A Scoping Review of Artificial Intelligence Detection of Voice Pathology: Challenges and Opportunities",
+      "journal": "Otolaryngol--Head Neck Surg Off J Am Acad Otolaryngol-Head Neck Surg",
+      "year": "2024",
+      "volume": "171",
+      "issue": "3",
+      "fpage": "658",
+      "lpage": "666",
+      "doi": "10.1002/ohn.809"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "title": "Comparative Analysis of Machine-Learning Model Performance in Image Analysis: The Impact of Dataset Diversity and Size",
+      "journal": "Anesth Analg",
+      "year": "2024",
+      "volume": "139",
+      "issue": "6",
+      "fpage": "1332",
+      "lpage": "1339",
+      "doi": "10.1213/ANE.0000000000007088",
+      "pmid": "39116018"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "journal": "DINOv2: Learning Robust Visual Features without Supervision"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "title": "Taming vision transformers for clinical laryngoscopy assessment",
+      "journal": "J Biomed Inform",
+      "year": "2025",
+      "volume": "162",
+      "fpage": "104766",
+      "doi": "10.1016/j.jbi.2024.104766",
+      "pmid": "39827999"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "title": "Vocal cord lesions classification based on deep convolutional neural network and transfer learning",
+      "journal": "Med Phys",
+      "year": "2022",
+      "volume": "49",
+      "issue": "1",
+      "fpage": "432",
+      "lpage": "442",
+      "doi": "10.1002/mp.15371",
+      "pmid": "34813114"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "A Deep-Learning Model for Multi-class Audio Classification of Vocal Fold Pathologies in Office Stroboscopy",
+      "journal": "The Laryngoscope",
+      "doi": "10.1002/lary.32036"
+    }
+  ]
+}

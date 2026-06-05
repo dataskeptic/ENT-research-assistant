@@ -1,0 +1,657 @@
+{
+  "metadata": {
+    "title": "Efficacy of Multimodal Work‐Up of Head and Neck Squamous Cell Carcinoma Lymph Node Metastasis of Unknown Primary",
+    "authors": [
+      "Robin W. Jansen",
+      "Roland M. Martens",
+      "Obaida Abdulrahman",
+      "Laura Peferoen",
+      "C. René Leemans",
+      "Gerben J. C. Zwezerijnen",
+      "Jan‐Jaap Hendrickx",
+      "Pim de Graaf"
+    ],
+    "journal": "Head & Neck",
+    "year": "2025",
+    "doi": "10.1002/hed.70147",
+    "pmc_id": "PMC13155188",
+    "pmid": "41451817",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 47
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "ABSTRACT Background Head and neck squamous cell carcinoma (HNSCC) often presents with cervical lymph node metastasis, with 1%–4% of cases presenting as cancer of unknown primary (CUP). CUP poses diagnostic and therapeutic challenges and is linked to poorer survival outcomes. Its incidence is expected to rise with the increasing prevalence of HPV‐positive HNSCC. This study evaluated the use of MRI, 18 F‐FDG PET, examination under anesthesia (EUA), and TORS‐assisted tonsillectomy and tongue base mucosectomy (TORS‐TE/TBM) in the work‐up of CUP. Methods This single‐center retrospective study included 79 patients with cytologically confirmed CUP (years 2019–2024). HPV‐positive ( n = 51) and HPV‐negative ( n = 28) cases were evaluated separately. Primary tumor detection rates for MRI, 18 F‐FDG PET and EUA were calculated. For HPV‐positive tumors TORS‐TE/TBM was additionally evaluated for primary tumor detection. Results In HPV‐positive cases MRI and 18 F‐FDG PET had detection rates of 45% individually (respectively) and 53% combined. Of detected cases, 37% were identified by a single modality. Post‐hoc image review increased the detection rate to 63%. Subsequent imaging‐guided EUA had a detection rate of 68%. When TORS‐TE/TBM was performed after negative EUA, tumor detection occurred in 50% of cases. Multimodal work‐up resulted in an over‐all detection rate of 75%. In contrast, HPV‐negative cases had a lower over‐all multimodal detection rate of 39%. Conclusion MRI and 18 F‐FDG PET each play a pivotal and complimentary role for the detection of primary tumors in HNSCC CUP. Image‐guided EUA and, in selected cases, TORS‐TE/TBM further improve detection. A multimodal approach including expert imaging interpretation is recommended for optimal tumor identification and treatment planning.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "The global incidence of head and neck squamous cell carcinoma (HNSCC) is estimated at more than 800 000 newly diagnosed cases annually [ 1 ]. HNSCC frequently presents with cervical lymph node metastasis, which is often diagnosed by ultrasound‐guided fine needle aspiration. In an estimated 1% to 4% of cases, HNSCC initially presents with cervical lymph node metastasis without identification of the primary tumor location [ 2 , 3 ]. An increasing amount of CUPs may be clinically expected, since CUPs are often human papillomavirus (HPV)‐related and HPV‐positive HNSCC has shown a marked rising incidence [ 4 , 5 , 6 ]. These cancers of unknown primary (CUP) pose significant diagnostic and treatment challenges. Treatment of HNSCC with CUP often involves (chemo)radiotherapy targeting the entire mucosal area where the primary tumor may be concealed. This leads to morbidities and considerable lower overall survival for these patients compared to those with detected HNSCC [ 7 , 8 ]. Optimization of the detection of the primary tumor in patients presenting with cervical lymph node metastases is therefore vital. Various diagnostic modalities are employed in the work‐up of patients presenting with cervical metastasis. Patients undergo physical examinations including nasopharyngoscopy and flexible laryngoscopy, and imaging generally includes both MRI and 18 F‐FDG PET/CT [ 9 ]. CUPs are relatively frequently HPV‐positive and may involve small primary tumors located in the oropharynx, with extensive cervical metastases [ 10 , 11 ]. The less frequent HPV‐negative cases do not necessarily originate in the oropharynx, and the much rarer is EBV‐positive CUP suggests a primary tumor in the nasopharynx. HPV‐status and EBV‐status of the neck metastasis can therefore guide the search for the primary tumor. Moreover, skin evaluation may be especially important for HPV‐negative cases, as skin would be another potential location of primary tumor within this group. Recent advancements in imaging technology, particularly the increased resolution of both and 18 F‐FDG PET and MRI, and the introduction of MRI sequences of diffusion weighted imaging (DWI) and ultrafast dynamic contrast‐enhanced (DCE) MRI in head and neck oncologic imaging have significantly improved diagnostic accuracy in detecting the primary tumor in case of cervical lymph node metastasis [ 8 ]. Often, patients with CUP undergo an examination under general anesthesia (EUA), during which biopsies are taken from clinically suspicious areas or areas indicated by imaging. Narrow‐band imaging, which utilizes specific wavelengths of light, is frequently employed to enhance the detection of primary tumors [ 12 ]. However, despite physical examinations, imaging and EUA, the primary tumor remains occult in a significant proportion of these patients [ 8 , 13 , 14 , 15 ]. In the last two decades, the development of transoral robotic surgery (TORS) has expanded the diagnostic evaluation of cervical CUPs. For CUPs, TORS is useful as a tool for TORS‐assisted ipsilateral tonsillectomy and ipsilateral tongue base mucosectomy (TORS‐TE/TBM). Generally, this is performed as the fourth diagnostic tool after negative findings from MRI, 18 F‐FDG PET, and EUA. TORS has become increasingly available in more medical centers. TORS‐TE/TBM is considered to improve detection rates of occult tumors, especially in HPV‐positive tumors, reducing the need for extensive radiation therapy and its associated side effects [ 16 , 17 , 18 , 19 , 20 ]. For HPV‐negative tumors, the added value of TORS‐TE/TBM in detecting the primary tumor is considerably limited. However, the decision to perform diagnostic TORS‐TE/TBM varies between centers [ 21 ]. The primary aim of this study is to evaluate the detection rates of MRI, 18 F‐FDG PET, EUA, TORS‐TE/TBM, and the combination of these modalities in identifying the primary tumor in patients with lymph node metastasis in HNSCC. Furthermore, the study aims to evaluate the sensitivity and specificity of MRI and 18 F‐FDG PET compared to histopathology.",
+      "order": 1
+    },
+    {
+      "section": "Patient Selection",
+      "text": "The Medical Ethics Review Committee of Amsterdam UMC approved this study with a waiver of informed consent (IRB00002991, FWA00017598). Patients with suspected head and neck tumors who presented at a tertiary head and neck oncology referral center (Amsterdam UMC) were reviewed between January 1, 2019, and May 1, 2024. Inclusion criteria were: cytologically confirmed cervical lymph node metastasis of squamous cell carcinoma (SCC) with a clinically unidentified primary tumor, following flexible laryngoscopy but prior to any imaging techniques (e.g., MRI and/or 18 F‐FDG PET) or surgical interventions (e.g., EUA and/or TORS‐TE/TBM). Patients with a history of HNSCC were excluded.",
+      "order": 2
+    },
+    {
+      "section": "Clinical Data",
+      "text": "After including patients, a chart review was conducted to perform data collection, including information on patient demographics (age, sex), staging information (TNM), number and levels of malignant cervical nodes, HPV status, imaging results (MRI, 18 F‐FDG PET), diagnostic surgical intervention outcomes (EUA, TORS‐TE/TBM), and pathology reports. Information about treatment with radiotherapy and the occurrence of recurrence or metastasis was also collected.",
+      "order": 3
+    },
+    {
+      "section": "Diagnostic Modality Specifications",
+      "text": "The standard sequence of diagnostic work‐up was MRI, 18 F‐FDG PET and EUA. In HPV‐positive cases where no primary tumor was identified through diagnostic imaging or EUA, TORS‐TE/TBM was performed. MRI acquisition was performed on a 3T Magnetom VIDA (Siemens, Erlangen, Germany) using a 16‐channel neurovascular coil. Axial T1‐weighted (T1w) and axial STIR images were obtained. Diffusion‐weighted imaging (DWI) was conducted with two or three b values (0, 500, 1000 or 0, 1000 s/mm 2 ). Read‐out segmented EPI (RESOLVE) had the following parameters: TR 2000, TE 56, slice thickness 4 mm, intersection gap 4 mm, matrix 150 × 150, field of view 219 × 219 mm, 2 averages. Fat‐suppressed spin‐echo echo‐planar imaging (SE‐EPI) had the following parameters: TR 8400, TE 55, slice thickness 4 mm, intersection gap 4 mm, matrix 176 × 256, field of view 219 × 219, 3 averages. The ADC map was generated using manufacturer‐provided software. Ultrafast DCE imaging was performed using Dotarem contrast with the following parameters: TR 540 ms, TE 1.92 ms, and 1 average. Both 3D and 2D acquisitions were used, with a slice thickness of 3 mm and an intersection gap of 4 mm. The field of view (FOV) was 220 mm × 220 mm, and the matrix size was 224 × 224. PET/CT images were acquired using optimized head and neck parameters, including 4 iterations, 16 subsets, and a 5 mm 3D Gaussian filter, with photon attenuation correction applied. The image matrix size was 144 × 144 with a voxel size of 4 × 4 × 4 mm. Low‐dose non‐contrast enhanced CT was performed with 50 mAs and 120 kV for anatomical correlation and attenuation correction, using a 512 × 512 matrix size, resulting in a pixel size of 1.17 × 1.17 mm and a slice thickness of 5 mm. EUA was performed in the operating theater through visual examination of all mucosal surfaces of the oral cavity, pharynx, larynx, proximal esophagus, and trachea. Narrow‐band imaging (NBI) was utilized during the examinations. Biopsies were taken from clinically suspicious sites, radiologically suspicious sites, or areas of asymmetry or irregularity. No ‘blind biopsies’ were taken in the absence of clinical or radiological abnormalities. TORS‐TE/TBM was performed in the operating theater using the Da Vinci (Si/Xi) robot to assess and perform mucosectomy of the base of the tongue. In our center, only HPV‐positive cases underwent TORS‐TE/TBM, a procedure that combines tonsillectomy with tongue base mucosectomy. It is typically performed as unilateral tonsillectomy combined with unilateral tongue base mucosectomy with extension just over the contralateral midline. Procedures were performed without the use of fresh frozen biopsies. Surgical resection specimens were anatomically oriented by the operating surgeon, and resection margins were inked accordingly. The specimens were serially sectioned at 3 mm intervals and entirely embedded for histopathological evaluation. Microscopic examination was conducted by a dedicated head and neck pathologist. In cases where no tumor was identified on hematoxylin and eosin (H&E) staining alone, additional immunohistochemical staining with p16 and pan‐keratin was performed on all tissue sections to enhance the detection of small, poorly differentiated HPV‐related tumors.",
+      "order": 4
+    },
+    {
+      "section": "Analysis",
+      "text": "Radiology reports from MRI and 18 F‐FDG PET scans were reviewed and assessed for suspected lesions. All radiology evaluations were performed by dedicated head and neck radiologists (experience range 15–26 years). Only histopathology‐proven detected cases were considered for calculating detection rates. Detection rates for separate and combined modalities were analyzed, stratified by HPV status. In patients when there was a discrepancy between the different modalities (MRI, 18 F‐FDG PET, EUA, TORS‐TE/TBM), images were re‐evaluated (post hoc) by a radiologist (P.G.) and a nuclear medicine physician (G.Z.) with respectively 18 and 10 years of experience in head and neck imaging. Both reviewers were blinded to the final diagnosis, the clinical data, and the original imaging reports. The re‐evaluation involved a thorough assessment of both anatomical and functional sequences (Ultrafast DCE and DWI), with particular emphasis on asymmetry and abnormal dynamic contrast enhancement patterns, including very early focal mucosal enhancement and/or focal restricted diffusion. A sub‐analysis was conducted with the new data after re‐evaluating the MRI and 18 F‐FDG PET images. Next to detection rates, sensitivity and specificity of MRI and 18 F‐FDG PET were evaluated with pathology reports from EUA and TORS‐TE/TBM as gold standard. Statistical analyses in this study were performed using IBM SPSS Statistics version 28.0.0.1.",
+      "order": 5
+    },
+    {
+      "section": "Patient Characteristics",
+      "text": "In total, 79 patients were included in this study (19 female, 24%). Of these, 51 (65%) were HPV‐positive and 28 (35%) HPV‐negative. Results are reported separately for HPV‐positive and negative patients. The median age was 63 years (range 42–89 years). Patient characteristics are detailed in Table 1 . MRI and 18 F‐FDG PET were performed on average 5.6 and 6.9 days after first consultation respectively. Pathology specimens were collected through EUA and TORS, on average 11.3 and 32.8 days after first consultation respectively.",
+      "order": 6
+    },
+    {
+      "section": "Hpv ‐Positive Cup : Primary Tumor Detection Rates",
+      "text": "The detection rate for HPV‐positive CUP of all combined modalities was 75%, leaving 25% of primary tumors undetected after full diagnostic work‐up (Table 2 ). The detection rate for imaging modalities was 45% for MRI and 45% for 18 F‐FDG PET. Imaging modalities combined detected 53% of primary tumors. When performing post hoc review of images, the detection rate retrospectively increased to 63% for imaging. Informed by initial imaging status, the detection rate for EUA was 68%. TORS‐TE/TBM yielded a detection rate of 50% in the group of 16 HPV‐positive patients that had no tumor detected on imaging or EUA. In the majority of cases that underwent TORS‐TE/TBM, bilateral mucosectomy combined with bilateral tonsillectomy was avoided (14/16, 88%). Although different modalities showed considerable overlap in the detection of primary tumors, the Venn diagram shows the added benefit of each individual modality in detecting the primary tumor (Figure 1 ). There was overlap between modalities, with the most overlap between MRI and 18 F‐FDG PET in 17 out of 27 cases (63%) with still 37% being detected by one modality exclusively (Figure 1 ). Of eight patients with detected primary tumor through TORS‐TE/TBM, 6 (75%) were detected in the base of the tongue and 2 (25%) in the tonsil. In four cases, there were suspected lesions on imaging which were not confirmed on EUA with biopsies but were confirmed on subsequent TORS‐TE/TBM.",
+      "order": 7
+    },
+    {
+      "section": "Results",
+      "text": "When comparing positive imaging findings with histopathology results, MRI had a sensitivity of 63% and a specificity of 39%. 18 F‐FDG PET showed a comparable sensitivity of 60% and a specificity of 42% for HPV‐positive tumors. In blinded post hoc analysis, sensitivity was considerably higher for MRI (79% vs. 63%) and 18 F‐FDG PET (74% vs. 60%) (Table 3 ).",
+      "order": 8
+    },
+    {
+      "section": "Hpv ‐Negative Cup : Primary Tumor Detection Rates",
+      "text": "The detection rate for HPV‐negative CUP of all combined modalities was 39%, leaving 61% of primary tumors undetected after full diagnostic work‐up (Table 2 ). For HPV‐negative CUP, the detection rate for imaging modalities was 22% for MRI and 21% for 18 F‐FDG PET. Imaging modalities combined detected 25% of primary tumors. When performing post hoc review of images, the detection rate retrospectively increased to 29% for imaging. Informed by initial imaging status, the detection rate for EUA was 39%. No diagnostic TORS‐TE/TBM was performed for HPV‐ CUP. Of the 11 detected primary tumors, 4 (36%) were exclusively detected by EUA (Figure 2 ).",
+      "order": 9
+    },
+    {
+      "section": "Results",
+      "text": "When comparing positive imaging findings with histopathology results, MRI had a sensitivity of 50% and a specificity of 60% in HPV‐ CUP. 18 F‐FDG PET showed a comparable sensitivity of 50% and a specificity of 50%. In blinded post hoc analysis, sensitivity was considerably higher for MRI (64% vs. 50%) and 18 F‐FDG PET (64% vs. 50%) (Table 3 ). Figures 3 and 4 show examples of the individual benefit of the separate diagnostic modalities, both imaging modalities (Figure 3 ) and surgical modalities (Figure 4 ).",
+      "order": 10
+    },
+    {
+      "section": "Discussion",
+      "text": "Neck metastasis with an unknown primary tumor poses a significant clinical diagnostic challenge, as failure to detect the primary tumor is associated with worse prognosis [ 22 ]. The anticipated increase in the incidence of CUP due to the rise of HPV‐associated HNSCC underscores the growing urgency of research in this field. Detection rates for HPV‐positive tumors (75%) were considerably higher than for HPV‐negative tumors (39%), leaving, however, a substantial proportion of primary tumors undetected. The improved detection rates achieved with the use of both MRI and 18 F‐FDG PET underscore the importance of incorporating both imaging modalities into the standard diagnostic work‐up for CUPs [ 23 , 24 ]. Incorporating surgical interventions such as imaging‐informed EUA with NBI and TORS‐TE/TBM further increased primary tumor detection rates and has both been shown to be essential for optimized CUP diagnostics [ 19 , 24 ]. Diagnostic performance of imaging was comparable to that in recent literature, and results support the use of both MRI and 18 F‐FDG PET. This study evaluated both detection rate (detected cases/total cases) and sensitivity (detected cases by imaging/detected cases by pathology). The detection rate for MRI was comparable to other studies for HPV‐positive cases, with a rate of 45% compared to 40%–41% in other studies [ 23 , 24 , 25 , 26 ]. Similarly, the detection rate for 18F‐FDG PET was also consistent with other studies, showing a rate of 45%, which aligns with the 45%–69% range previously reported [ 23 , 24 , 25 , 26 ]. When comparing imaging results to pathology findings, the initial sensitivity in this study was lower compared with literature (81% for MRI and 93% for PET‐CT [ 27 ]), but re‐evaluation of images brought sensitivity to levels more comparable with previous studies. Therefore, the discrepancy may be attributed to the fact that previous imaging studies used re‐evaluations of images instead of clinical reports for analysis. Different cohorts of patients with CUP may however not be comparable due to their heterogeneity in terms of patients' characteristics, HPV‐status, regional epidemiology, healthcare delay, and type of original work‐up (e.g., NBI at initial laryngoscopy). The added benefit of individual modalities however remains consistent. A considerable amount of cases were detected by a single imaging modality (MRI or 18 F‐FDG PET), suggesting the use of both modalities simultaneously before conducting EUA in order to optimize detection rates and expedite the diagnostic work‐up [ 23 , 24 ]. Improved primary tumor detection after re‐evaluations suggests that double reading could be beneficial in cases where the primary tumor remains occult after first reading. The frequent observation of early enhancement and washout on DCE‐MRI at the site of the primary tumor suggests that careful integration of these sequences is essential. In evaluating images, it is recommended to aim for maximal sensitivity in reading since false‐positive imaging findings only have minor consequences. Both MRI and 18 F‐FDG PET showed higher detection rates in HPV‐positive cases compared to HPV‐negative cases, although each modality did show added benefit in both groups. The increased detection for HPV‐positive tumors may be attributed to the fact that imaging review can be targeted at the oropharynx with tumors most found in the palatine tonsil and base of the tongue [ 8 , 28 ]. For MRI, HPV‐positive tumors show more pronounced restricted diffusion on DWI‐MRI and often grow expansively rather than infiltratively [ 29 , 30 ]. MRI can however be hindered by both movement‐ and dental artifacts. In the clinical setting, MRI is often favored over CT because of the higher sensitivity [ 23 ]. For 18 F‐FDG PET, HPV‐positive tumors are known to have increased glycolytic activity [ 31 ]. 18 F‐FDG PET may however have limitations of insufficient resolution for small lesions (< 5 mm), physiological tonsil uptake, and glucose metabolism changes in diabetic patients [ 8 , 32 , 33 ]. Moreover, on 18 F‐FDG PET, it may be hard in cases to distinguish between lymph nodes and the primary tumor, if located in close proximity. EUA generally follows after imaging, making the technique guided thereby potentially overestimating its intrinsic value. However, histopathological confirmation of suspected lesions is vital before initiating treatment. EUA may be especially important in HPV‐negative cases where the diagnostic capabilities of imaging are limited. In our study, EUA showed comparable detection rates to those in other studies [ 34 , 35 ]. It is advised to biopsy every suspicious area, nodularity, or roughness in the mucosa. The implementation of NBI in the outpatient clinic or during the EUA is recommended as it has shown added value through higher detection rates [ 12 ]. TORS‐TE/TBM was deployed in a subset of patients, generally as the last step after other diagnostic modalities in the work‐up of HPV‐positive tumors [ 36 ]. Tonsillar and tongue base crypts may harbor small tumors which can be difficult to detect through imaging or EUA, potentially explaining the relatively high rate of cases exclusively detected through TORS‐TE/TBM [ 14 ]. TORS‐TE/TBM detected tumors were more frequently located at the base of the tongue rather than the tonsil, consistent with previous literature [ 19 , 37 ]. The lower primary tumor detection rate for TORS‐TE/TBM (50%) compared to a recent systematic literature review (72%) is potentially explained by the difference in pre‐TORS‐TE/TBM diagnostic work‐up which included DWI‐MRI and ultrafast DCE‐MRI in the current study, which was lacking in various studies in the systematic review [ 19 ]. The added benefit of TORS‐TE/TBM may generally outweigh negative aspects including increased costs, transient post‐operative pain and dysphagia, and minor risk of bleeding [ 19 , 21 , 38 ]. Both the ability to assess suspicious areas under magnification and the ability to perform a resection of the area at risk as extensively as possible offers significant advantages of TORS‐TE/TBM [ 39 , 40 ]. In some cases with small primary tumors, TORS‐TE/TBM may serve as a therapeutic tool to excise the primary tumor, potentially offering the substantial advantage of a monomodal therapy (surgery‐only) preventing radiation toxicity, provided that tumor‐free margins are achieved [ 41 , 42 , 43 ]. Within this study only HPV‐positive patients underwent TORS‐TE/TBM; therefore, no conclusions can be drawn on the use of TORS‐TE/TBM for HPV‐negative cases. The relatively high detection rate of TORS‐TE/TBM in HPV‐positive tumors, however, does support the use of it in the diagnostic work‐up of HPV‐positive tumors. Different explanations exist for a primary tumor remaining undetected after EUA and/or TORS‐TE/TBM. Naturally, this may be due to techniques failing to identify the tumor. Alternatively, the immune clearance at the primary tumor site may play a role. In case of clearance, suspected lesions on initial imaging may have represented the primary tumor, even if consequent histopathology results are negative. Although immune clearance is a known phenomenon, its rate is difficult to estimate. It is unclear why clearance would occur at the primary tumor site, but is not effective in the draining lymph nodes. This could imply alterations in the tumor cell behavior or phenotype at the metastatic site, such as downregulation of tumor antigens or major histocompatibility complex (MHC) molecules or induction of immune suppressive modulators such as suppressive cytokines (e.g., interleukin‐10, transforming growth factor‐beta) or immune checkpoint ligands (e.g., B7‐H molecules like PD‐L1, PD‐L2, B7H3) [ 44 , 45 ]. HPV‐positive tumors have shown more immunogenicity compared with HPV‐negative tumors [ 44 , 45 , 46 ]. Potential other hypotheses for not finding the primary tumor may involve the presence of small submucosal lesions with slow growth rates or the early occurrence of mutations that promote lymphatic migration, such as overexpression on SEC62 through 3q26 chromosomal amplification [ 47 ]. This study had several limitations. Firstly, the retrospective nature of the study introduces potential biases, such as selection and information bias. The lack of a standardized prospective setting introduced heterogeneity regarding diagnostic work‐up for example, for timing and order of different modalities. The use of data from a single center limits the generalizability of the findings. Finally, histopathology was not re‐evaluated, which could have enhanced the accuracy and consistency of the diagnoses.",
+      "order": 11
+    },
+    {
+      "section": "Conclusion",
+      "text": "Both MRI and 18 F‐FDG PET have individual value for detecting the primary tumor in both HPV‐positive and HPV‐negative CUP. In case of initial negative imaging results, a second reader may enhance primary tumor detection. The incorporation of both imaging‐informed EUA and, in selected cases, TORS‐TE/TBM in the diagnostic work‐up further improves the likelihood of detecting the primary tumor. A multimodal diagnostic approach, incorporating expert multi‐reader evaluation of imaging, improves primary tumor detection, contributing to better patient outcomes and more personalized treatment strategies.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "hed70147-bib-0001",
+      "label": "1",
+      "title": "Epidemiology, Risk Factors, and Prevention of Head and Neck Squamous Cell Carcinoma",
+      "journal": "Medical Science",
+      "year": "2023",
+      "volume": "11",
+      "elocation_id": "42",
+      "doi": "10.3390/medsci11020042",
+      "pmc_id": "PMC10304137",
+      "pmid": "37367741"
+    },
+    {
+      "ref_id": "hed70147-bib-0002",
+      "label": "2",
+      "title": "Changes in Unknown Primary Squamous Cell Carcinoma of the Head and Neck at Initial Presentation in the Era of Human Papillomavirus",
+      "journal": "JAMA Otolaryngology. Head & Neck Surgery",
+      "year": "2016",
+      "volume": "142",
+      "fpage": "223",
+      "lpage": "228",
+      "pmid": "26769661",
+      "doi": "10.1001/jamaoto.2015.3228"
+    },
+    {
+      "ref_id": "hed70147-bib-0003",
+      "label": "3",
+      "title": "Management of Squamous Cancer Metastatic to Cervical Nodes With an Unknown Primary Site",
+      "journal": "Journal of Clinical Oncology",
+      "year": "2015",
+      "volume": "33",
+      "fpage": "3328",
+      "lpage": "3337",
+      "pmid": "26351351",
+      "doi": "10.1200/JCO.2015.61.0063"
+    },
+    {
+      "ref_id": "hed70147-bib-0004",
+      "label": "4",
+      "title": "Global Incidence Trends in Head and Neck Cancer for HPV‐Related And‐Unrelated Subsites: A Systematic Review of Population‐Based Studies",
+      "journal": "Oral Oncology",
+      "year": "2021",
+      "volume": "115",
+      "elocation_id": "105177",
+      "pmid": "33561611",
+      "doi": "10.1016/j.oraloncology.2020.105177"
+    },
+    {
+      "ref_id": "hed70147-bib-0005",
+      "label": "5",
+      "title": "Comprehensive Management of HPV‐Related Squamous Cell Carcinoma of the Head and Neck of Unknown Primary",
+      "journal": "Head & Neck",
+      "year": "2019",
+      "volume": "41",
+      "fpage": "3700",
+      "lpage": "3711",
+      "pmid": "31301162",
+      "doi": "10.1002/hed.25858"
+    },
+    {
+      "ref_id": "hed70147-bib-0006",
+      "label": "6",
+      "title": "Human Papillomavirus and Squamous Cell Carcinoma of Unknown Primary in the Head and Neck Region: A Comprehensive Review on Clinical Implications",
+      "journal": "Viruses",
+      "year": "2021",
+      "volume": "13",
+      "elocation_id": "1297",
+      "pmid": "34372502",
+      "doi": "10.3390/v13071297",
+      "pmc_id": "PMC8310239"
+    },
+    {
+      "ref_id": "hed70147-bib-0007",
+      "label": "7",
+      "title": "Head and Neck Squamous Cell Carcinoma of Unknown Primary: Neck Dissection and Radiotherapy or Definitive Radiotherapy",
+      "journal": "Head & Neck",
+      "year": "2014",
+      "volume": "36",
+      "fpage": "1589",
+      "lpage": "1595",
+      "pmid": "23996575",
+      "doi": "10.1002/hed.23479",
+      "pmc_id": "PMC4241546"
+    },
+    {
+      "ref_id": "hed70147-bib-0008",
+      "label": "8",
+      "title": "The Additional Value of Ultrafast DCE‐MRI to DWI‐MRI and 18F‐FDG‐PET to Detect Occult Primary Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancers",
+      "year": "2020",
+      "volume": "12",
+      "elocation_id": "2826",
+      "pmid": "33007978",
+      "doi": "10.3390/cancers12102826",
+      "pmc_id": "PMC7600235"
+    },
+    {
+      "ref_id": "hed70147-bib-0009",
+      "label": "9",
+      "title": "Diagnosis and Management of Squamous Cell Carcinoma of Unknown Primary in the Head and Neck: ASCO Guideline",
+      "journal": "Journal of Clinical Oncology",
+      "year": "2020",
+      "volume": "38",
+      "fpage": "2570",
+      "lpage": "2596",
+      "pmid": "32324430",
+      "doi": "10.1200/JCO.20.00275"
+    },
+    {
+      "ref_id": "hed70147-bib-0010",
+      "label": "10",
+      "title": "p16 Status, Pathologic and Clinical Characteristics, Biomolecular Signature, and Long‐Term Outcomes in Head and Neck Squamous Cell Carcinomas of Unknown Primary",
+      "journal": "Head & Neck",
+      "year": "2014",
+      "volume": "36",
+      "fpage": "1677",
+      "lpage": "1684",
+      "pmid": "24115269",
+      "doi": "10.1002/hed.23514",
+      "pmc_id": "PMC3972378"
+    },
+    {
+      "ref_id": "hed70147-bib-0011",
+      "label": "11",
+      "title": "HPV Driven Squamous Cell Head and Neck Cancer of Unknown Primary Is Likely to Be HPV Driven Squamous Cell Oropharyngeal Cancer",
+      "journal": "Oral Oncology",
+      "year": "2020",
+      "volume": "107",
+      "elocation_id": "104721",
+      "pmid": "32361566",
+      "doi": "10.1016/j.oraloncology.2020.104721"
+    },
+    {
+      "ref_id": "hed70147-bib-0012",
+      "label": "12",
+      "title": "Role of Narrow‐Band Imaging in Detection of Head and Neck Unknown Primary Squamous Cell Carcinoma",
+      "journal": "Laryngoscope",
+      "year": "2018",
+      "volume": "128",
+      "fpage": "2060",
+      "lpage": "2066",
+      "pmid": "29392723",
+      "doi": "10.1002/lary.27098"
+    },
+    {
+      "ref_id": "hed70147-bib-0013",
+      "label": "13",
+      "title": "Clinical Practice Guideline: Evaluation of the Neck Mass in Adults",
+      "journal": "Otolaryngology and Head and Neck Surgery",
+      "year": "2017",
+      "volume": "157",
+      "fpage": "S1",
+      "lpage": "S30",
+      "doi": "10.1177/0194599817722550",
+      "pmid": "28891406"
+    },
+    {
+      "ref_id": "hed70147-bib-0014",
+      "label": "14",
+      "title": "Metastatic Squamous Cell Carcinoma to the Cervical Lymph Nodes From an Unknown Primary Cancer: Management in the HPV Era",
+      "journal": "Frontiers in Oncology",
+      "year": "2020",
+      "volume": "10",
+      "elocation_id": "593164",
+      "pmid": "33244460",
+      "doi": "10.3389/fonc.2020.593164",
+      "pmc_id": "PMC7685177"
+    },
+    {
+      "ref_id": "hed70147-bib-0015",
+      "label": "15",
+      "title": "Approach to Metastatic Carcinoma of Unknown Primary in the Head and Neck: Squamous Cell Carcinoma and Beyond",
+      "journal": "Head and Neck Pathology",
+      "year": "2015",
+      "volume": "9",
+      "fpage": "6",
+      "lpage": "15",
+      "pmid": "25804376",
+      "doi": "10.1007/s12105-015-0616-2",
+      "pmc_id": "PMC4382479"
+    },
+    {
+      "ref_id": "hed70147-bib-0016",
+      "label": "16",
+      "title": "The Impact of a Stepwise Approach to Primary Tumor Detection in Squamous Cell Carcinoma of the Neck With Unknown Primary",
+      "journal": "Laryngoscope",
+      "year": "2019",
+      "volume": "129",
+      "fpage": "1610",
+      "lpage": "1616",
+      "pmid": "30565698",
+      "doi": "10.1002/lary.27625"
+    },
+    {
+      "ref_id": "hed70147-bib-0017",
+      "label": "17",
+      "title": "Evidence for the Approach to the Diagnostic Evaluation of Squamous Cell Carcinoma Occult Primary Tumors of the Head and Neck",
+      "journal": "Oral Oncology",
+      "year": "2019",
+      "volume": "88",
+      "fpage": "145",
+      "lpage": "152",
+      "pmid": "30616785",
+      "doi": "10.1016/j.oraloncology.2018.11.020"
+    },
+    {
+      "ref_id": "hed70147-bib-0018",
+      "label": "18",
+      "title": "Diagnostic Value of Lingual Tonsillectomy in Unknown Primary Head and Neck Carcinoma Identification After a Negative Clinical Workup and Positron Emission Tomography‐Computed Tomography",
+      "journal": "Frontiers in Oncology",
+      "year": "2018",
+      "volume": "8",
+      "elocation_id": "118",
+      "pmid": "29732318",
+      "doi": "10.3389/fonc.2018.00118",
+      "pmc_id": "PMC5919999"
+    },
+    {
+      "ref_id": "hed70147-bib-0019",
+      "label": "19",
+      "title": "A Systematic Review on Transoral Robotic Surgery (TORS) for Carcinoma of Unknown Primary Origin: Has Tongue Base Mucosectomy Become Indispensable?",
+      "journal": "Clinical Otolaryngology",
+      "year": "2020",
+      "volume": "45",
+      "fpage": "732",
+      "lpage": "738",
+      "pmid": "32369264",
+      "doi": "10.1111/coa.13565",
+      "pmc_id": "PMC7496155"
+    },
+    {
+      "ref_id": "hed70147-bib-0020",
+      "label": "20",
+      "title": "Do We Have Enough Evidence to Specifically Recommend Transoral Robotic Surgery in HPV‐Driven Oropharyngeal Cancer? A Systematic Review",
+      "journal": "Pathogens",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "160",
+      "pmid": "36839432",
+      "doi": "10.3390/pathogens12020160",
+      "pmc_id": "PMC9959572"
+    },
+    {
+      "ref_id": "hed70147-bib-0021",
+      "label": "21",
+      "title": "Primary Tumour Detection in Carcinoma of Unknown Primary With Transoral Robotic Surgery (TORS) Tongue Base Mucosectomy: A Meta‐Analysis",
+      "journal": "Annals of Surgical Oncology",
+      "year": "2024",
+      "volume": "31",
+      "fpage": "6065",
+      "lpage": "6076",
+      "pmid": "38980583",
+      "doi": "10.1245/s10434-024-15758-z"
+    },
+    {
+      "ref_id": "hed70147-bib-0022",
+      "label": "22",
+      "title": "Unknown Primary of the Head and Neck: A Long‐Term Follow‐Up",
+      "journal": "Journal of Cranio‐Maxillofacial Surgery",
+      "year": "2015",
+      "volume": "43",
+      "fpage": "574",
+      "lpage": "579",
+      "pmid": "25841309",
+      "doi": "10.1016/j.jcms.2015.03.004"
+    },
+    {
+      "ref_id": "hed70147-bib-0023",
+      "label": "23",
+      "title": "The Radiological Unknown Primary of the Head and Neck: Recommendations for Imaging Strategies Based on a Systematic Review",
+      "journal": "Clinical Otolaryngology",
+      "year": "2024",
+      "volume": "49",
+      "fpage": "16",
+      "lpage": "28",
+      "pmid": "37846889",
+      "doi": "10.1111/coa.14111"
+    },
+    {
+      "ref_id": "hed70147-bib-0024",
+      "label": "24",
+      "title": "Investigations for Suspected Head and Neck Squamous Cell Carcinoma of Unknown Primary (HNSCCUP): A National Cohort Study",
+      "journal": "Clinical Otolaryngology",
+      "year": "2025",
+      "volume": "50",
+      "fpage": "462",
+      "lpage": "473",
+      "pmid": "39779315",
+      "doi": "10.1111/coa.14272"
+    },
+    {
+      "ref_id": "hed70147-bib-0025",
+      "label": "25",
+      "title": "Detection of Occult Primary Tumors in Patients With Cervical Metastases of Unknown Primary Tumors: Comparison of (18)F FDG PET/CT With Contrast‐Enhanced CT or CT/MR Imaging‐Prospective Study",
+      "journal": "Radiology",
+      "year": "2015",
+      "volume": "274",
+      "fpage": "764",
+      "lpage": "771",
+      "pmid": "25405771",
+      "doi": "10.1148/radiol.14141073"
+    },
+    {
+      "ref_id": "hed70147-bib-0026",
+      "label": "26",
+      "title": "Impact of 3T Multiparametric MRI and FDG‐PET‐CT in the Evaluation of Occult Primary Cancer With Cervical Node Metastasis",
+      "journal": "Cancer Imaging",
+      "year": "2016",
+      "volume": "16",
+      "elocation_id": "38",
+      "pmid": "27814768",
+      "doi": "10.1186/s40644-016-0097-x",
+      "pmc_id": "PMC5096285"
+    },
+    {
+      "ref_id": "hed70147-bib-0027",
+      "label": "27",
+      "title": "Diagnostic Value of Diffusion‐Weighted Imaging and 18F‐FDG‐PET/CT for the Detection of Unknown Primary Head and Neck Cancer in Patients Presenting With Cervical Metastasis",
+      "journal": "European Journal of Radiology",
+      "year": "2018",
+      "volume": "107",
+      "fpage": "20",
+      "lpage": "25",
+      "pmid": "30292267",
+      "doi": "10.1016/j.ejrad.2018.08.009"
+    },
+    {
+      "ref_id": "hed70147-bib-0028",
+      "label": "28",
+      "journal": "Critical Issues in Head and Neck Oncology: Key Concepts From the Eighth THNO Meeting",
+      "year": "2023",
+      "fpage": "179",
+      "lpage": "197"
+    },
+    {
+      "ref_id": "hed70147-bib-0029",
+      "label": "29",
+      "title": "Morphologic and Topographic Radiologic Features of Human Papillomavirus‐Related and ‐Unrelated Oropharyngeal Carcinoma",
+      "journal": "Head & Neck",
+      "year": "2017",
+      "volume": "39",
+      "fpage": "1524",
+      "lpage": "1534",
+      "pmid": "28580605",
+      "doi": "10.1002/hed.24764"
+    },
+    {
+      "ref_id": "hed70147-bib-0030",
+      "label": "30",
+      "title": "Correlation Between Human Papillomavirus Status and Quantitative MR Imaging Parameters Including Diffusion‐Weighted Imaging and Texture Features in Oropharyngeal Carcinoma",
+      "journal": "AJNR. American Journal of Neuroradiology",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "1878",
+      "lpage": "1883",
+      "pmid": "30213805",
+      "doi": "10.3174/ajnr.A5792",
+      "pmc_id": "PMC7410748"
+    },
+    {
+      "ref_id": "hed70147-bib-0031",
+      "label": "31",
+      "title": "FDG PET/CT Imaging of Oropharyngeal Squamous Cell Carcinoma: Characteristics of Human Papillomavirus‐Positive and ‐Negative Tumors",
+      "journal": "Clinical Nuclear Medicine",
+      "year": "2014",
+      "volume": "39",
+      "fpage": "225",
+      "lpage": "231",
+      "pmid": "24152652",
+      "doi": "10.1097/RLU.0000000000000255",
+      "pmc_id": "PMC4074504"
+    },
+    {
+      "ref_id": "hed70147-bib-0032",
+      "label": "32",
+      "title": "How We Read Oncologic FDG PET/CT",
+      "journal": "Cancer Imaging",
+      "year": "2016",
+      "volume": "16",
+      "fpage": "1",
+      "lpage": "14",
+      "pmid": "27756360",
+      "doi": "10.1186/s40644-016-0091-3",
+      "pmc_id": "PMC5067887"
+    },
+    {
+      "ref_id": "hed70147-bib-0033",
+      "label": "33",
+      "journal": "Seminars in Ultrasound, CT and MRI",
+      "year": "2019",
+      "volume": "40",
+      "fpage": "414",
+      "lpage": "423",
+      "doi": "10.1053/j.sult.2019.07.005",
+      "pmid": "31635768"
+    },
+    {
+      "ref_id": "hed70147-bib-0034",
+      "label": "34",
+      "title": "Carcinoma of Unknown Primary (CUP) Versus CUP Turned to Primary Carcinoma of the Head and Neck—An Analysis of Diagnostic Methods and the Impact of Primary Tumor on Clinical Outcome",
+      "journal": "Diagnostics",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "894",
+      "pmid": "35453942",
+      "doi": "10.3390/diagnostics12040894",
+      "pmc_id": "PMC9032826"
+    },
+    {
+      "ref_id": "hed70147-bib-0035",
+      "label": "35",
+      "title": "Detection and Oncologic Outcomes of Head and Neck Squamous Cell Carcinoma of Unknown Primary Origin",
+      "journal": "Anticancer Research",
+      "year": "2020",
+      "volume": "40",
+      "fpage": "4207",
+      "lpage": "4214",
+      "pmid": "32727746",
+      "doi": "10.21873/anticanres.14421"
+    },
+    {
+      "ref_id": "hed70147-bib-0036",
+      "label": "36",
+      "title": "TORS Base‐Of‐Tongue Mucosectomy in Human Papilloma Virus‐Negative Carcinoma of Unknown Primary",
+      "journal": "Laryngoscope",
+      "year": "2021",
+      "volume": "131",
+      "fpage": "78",
+      "lpage": "81",
+      "pmid": "32239774",
+      "doi": "10.1002/lary.28617"
+    },
+    {
+      "ref_id": "hed70147-bib-0037",
+      "label": "37",
+      "title": "Diagnosis and Prognosis of Different Methods of Tongue Base Mucosectomy for Occult Head and Neck Cancer: A Systematic Review and Meta‐Analysis",
+      "journal": "Medicine",
+      "year": "2024",
+      "volume": "103",
+      "elocation_id": "e40250",
+      "pmid": "39560574",
+      "doi": "10.1097/MD.0000000000040250",
+      "pmc_id": "PMC11576005"
+    },
+    {
+      "ref_id": "hed70147-bib-0038",
+      "label": "38",
+      "title": "Swallowing Outcomes After Transoral Robotic Surgery and Adjuvant Treatment in Unknown Primary",
+      "journal": "Oral Diseases",
+      "year": "2024",
+      "volume": "30",
+      "fpage": "4830",
+      "lpage": "4837",
+      "pmid": "38988121",
+      "doi": "10.1111/odi.15063",
+      "pmc_id": "PMC11610685"
+    },
+    {
+      "ref_id": "hed70147-bib-0039",
+      "label": "39",
+      "title": "Transoral Tongue Base Mucosectomy for the Identification of the Primary Site in the Work‐Up of Cancers of Unknown Origin: Systematic Review and Meta‐Analysis",
+      "journal": "Oral Oncology",
+      "year": "2019",
+      "volume": "91",
+      "fpage": "97",
+      "lpage": "106",
+      "pmid": "30926070",
+      "doi": "10.1016/j.oraloncology.2019.02.018"
+    },
+    {
+      "ref_id": "hed70147-bib-0040",
+      "label": "40",
+      "title": "Trans‐Oral Robotic Assisted Tongue Base Mucosectomy for Investigation of Cancer of Unknown Primary in the Head and Neck Region. The UK Experience",
+      "journal": "Clinical Otolaryngology",
+      "year": "2017",
+      "volume": "42",
+      "fpage": "1247",
+      "lpage": "1251",
+      "pmid": "28258624",
+      "doi": "10.1111/coa.12860"
+    },
+    {
+      "ref_id": "hed70147-bib-0041",
+      "label": "41",
+      "title": "Post‐Operative Therapy Following Transoral Robotic Surgery for Unknown Primary Cancers of the Head and Neck",
+      "journal": "Oral Oncology",
+      "year": "2017",
+      "volume": "72",
+      "fpage": "150",
+      "lpage": "156",
+      "pmid": "28797451",
+      "doi": "10.1016/j.oraloncology.2017.07.019"
+    },
+    {
+      "ref_id": "hed70147-bib-0042",
+      "label": "42",
+      "title": "Transoral Robotic Surgery for the Management of Head and Neck Squamous Cell Carcinoma of Unknown Primary",
+      "journal": "Acta Oto‐Laryngologica",
+      "year": "2015",
+      "volume": "135",
+      "fpage": "1051",
+      "lpage": "1057",
+      "pmid": "26073750",
+      "doi": "10.3109/00016489.2015.1052983"
+    },
+    {
+      "ref_id": "hed70147-bib-0043",
+      "label": "43",
+      "title": "Oncologic and Survival Outcomes for Resectable Locally‐Advanced HPV‐Related Oropharyngeal Cancer Treated With Transoral Robotic Surgery",
+      "journal": "Oral Oncology",
+      "year": "2021",
+      "volume": "118",
+      "elocation_id": "105307",
+      "pmid": "33932874",
+      "doi": "10.1016/j.oraloncology.2021.105307"
+    },
+    {
+      "ref_id": "hed70147-bib-0044",
+      "label": "44",
+      "title": "Mechanisms of Immune Evasion by Head and Neck Cancer Stem Cells",
+      "journal": "Frontiers in Oral Health",
+      "year": "2022",
+      "volume": "3",
+      "elocation_id": "957310",
+      "pmid": "35982868",
+      "doi": "10.3389/froh.2022.957310",
+      "pmc_id": "PMC9378780"
+    },
+    {
+      "ref_id": "hed70147-bib-0045",
+      "label": "45",
+      "title": "Immune Escape Strategies in Head and Neck Cancer: Evade, Resist, Inhibit, Recruit",
+      "journal": "Cancers",
+      "year": "2024",
+      "volume": "16",
+      "fpage": "312",
+      "pmid": "38254801",
+      "doi": "10.3390/cancers16020312",
+      "pmc_id": "PMC10814769"
+    },
+    {
+      "ref_id": "hed70147-bib-0046",
+      "label": "46",
+      "title": "Comparative Analysis of Immune Infiltrates in Head and Neck Cancers Across Anatomical Sites",
+      "journal": "Journal for Immunotherapy of Cancer",
+      "year": "2024",
+      "volume": "12",
+      "elocation_id": "e007573",
+      "pmid": "38212122",
+      "doi": "10.1136/jitc-2023-007573",
+      "pmc_id": "PMC10806653"
+    },
+    {
+      "ref_id": "hed70147-bib-0047",
+      "label": "47",
+      "title": "Effect of 3q Oncogenes SEC62 and SOX2 on Lymphatic Metastasis and Clinical Outcome of Head and Neck Squamous Cell Carcinomas",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "4922",
+      "lpage": "4934",
+      "pmid": "28002801",
+      "doi": "10.18632/oncotarget.13986",
+      "pmc_id": "PMC5354881"
+    }
+  ]
+}

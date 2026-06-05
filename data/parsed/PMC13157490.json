@@ -1,0 +1,2100 @@
+{
+  "metadata": {
+    "title": "Alpha oscillatory activity reveals focused-attentional disparity between cochlear implant users and normal hearing listeners",
+    "authors": [
+      "Brilliant",
+      "Irina Schierholz",
+      "Pascale Sandmann",
+      "Andrej Kral"
+    ],
+    "journal": "Scientific Reports",
+    "year": "2026",
+    "doi": "10.1038/s41598-026-52434-6",
+    "pmc_id": "PMC13157490",
+    "pmid": "42106549",
+    "full_text_available": true,
+    "section_count": 23,
+    "reference_count": 125
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Cochlear implants (CIs) allow hearing-impaired subjects to regain access to speech. However, the individual outcome variability remains high and unexplained. One contributing factor to the CI performance could be related to higher cognitive functions, which are not as well studied as in normal hearing (NH) populations. To study the cognitive processing in CI-users, in particular attentional processing, we compared the neural correlates of attention of a large cohort of CI-users (n = 37) to those of an age-matched group of NH-listeners (n = 37). The cognitive paradigm used here is a three-stimulus oddball paradigm in both passive and active listening conditions to isolate the attentional difference in unattended and attended task conditions. The addition of a third stimulus-type allowed us to specifically disentangling the attentional processing of task-relevant from the task-irrelevant stimuli. We expanded the previous ERP study by inspecting oscillatory activities. We localized the responsible brain areas and estimated local neural activities in three cortical regions: temporal transverse gyrus dorsolateral prefrontal cortex and inferior parietal lobule. We found alpha activity (8–12 Hz) to be the most relevant correlate of top-down auditory attention. The result on alpha activity suggests that CI-users may have directed their attention toward task-irrelevant stimuli, thereby impeding their focus on task-relevant stimuli. In sum, this study provides important insight into the cognitive attentional processing in CI-users; those may contribute in high listening effort and CI performance variability. Supplementary Information The online version contains supplementary material available at 10.1038/s41598-026-52434-6.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Cochlear implants (CIs) often are the only option to treat severe-to-profound hearing loss. Despite its success, CI performance shows a remaining unexplained variability 1 . Electric hearing through a CI differs in many aspects from acoustic hearing and does not provide all distinctive cues, for example for speech understanding 2 – 4 . Hearing with a CI, therefore, may involve more cognitive processing and require more attentional resources, thus resulting in higher listening effort 5 , 6 . Cognitive functions in CI-users are often evaluated using subjective behavioral measures 7 , however with mixed results 8 . Moreover, such assessments do not allow identification of the underlying neural sources 9 . Knowledge about the neural cognitive processes in CI-users would therefore provide important insights for understanding effortful listening in general and for better rehabilitation of CI-users in particular. Through electroencephalography (EEG), brain activity related to auditory cognition can be objectively assessed 10 . Combined with paradigms such as the oddball task, which is a gold-standard in cognitive research, EEG allows the assessment of cognitive processes such as perceptual discrimination and attention 11 . The time-domain event-related potentials (ERPs) can be utilized as objective measures of perceptual- and cognitive processing. Early ERP components include the N1, reflecting activation in the auditory cortex and stimulus detection 12 ; the P2, generated mainly in primary and secondary auditory cortex for processing of stimulus physical characteristics 13 ; and the N2, indexing the early stimulus discrimination and attentional modulation 14 , 15 . The later P3 component reflects the higher-level cognitive processes 16 , 17 . In classic two-stimulus oddball task, the P3 has been shown to reveal larger amplitudes for infrequent target compared to frequent standard stimuli and to align with behavioral response latencies, confirming its role in higher-order processing 18 . By adding a third stimulus-type in the oddball paradigm: the novel stimulus, differentiation between two distinct P3-subcomponents is possible: Novelty-P3 (P3a for involuntary attention) and Target-P3 (P3b; task-relevant evaluation) 19 – 21 . Yet, Novelty-P3 has been further subdivided into an early and a late sub-subcomponents (early and late Novelty-P3) 22 , indicating the complexity of the underlying processes behind a single P3 component. In CI-users, ERP studies reliably showed reduced amplitudes and prolonged latencies for early ERP components (e.g. N1, P2 and N2) compared to normal hearing (NH) individuals 23 , 24 . However, P3 differences between CI-users and NH-listeners are less consistent 5 , 25 – 27 , possibly due to time-domain averaging, eliminating non-phase locked activity that often emerges at later latencies 28 . A different approach, namely the time–frequency analysis technique captures the non-phase locked activity due to power averaging instead of amplitude. The resulting oscillatory responses have been used as neural signatures of various cognitive processes 29 , 30 , such as attention 31 and memory 32 . Attention as a subdomain of cognition has been in fact closely linked to alpha oscillatory activity 33 – 35 . For example, during a selective attention task, alpha power decreases at electrodes over the contralateral hemisphere of the target location and consequently increases over the contralateral hemisphere of the distractor 36 – 38 . This has given rise to an inhibitory role of alpha oscillation, namely as mechanism to inhibit neuronal excitability of specific brain areas to suppress the processing of the distractor 39 – 41 . It remains debatable, whether this inhibitory role of alpha is an independent mechanism or whether it is an indirect mechanism of goal-directed target processing 42 – 44 . Nevertheless, the previous research on alpha oscillations and attention have been heavily focused on the selective attention paradigm, where distractor and target are presented simultaneously. In the auditory domain, increased alpha has also been linked to increased listening effort during noisy conditions, where the attended signal and the noise were presented simultaneously 45 – 47 , especially for cohort with hearing impairment 48 . It remains unclear whether CI-users might also already exhibit differences compared to NH-listeners in other types of attention beside selective attention (e.g. focused or focal attention) 49 – 52 . In this study, we aim to identify the oscillatory signature of listening with CI in relation to attentional process. We analyzed in time–frequency manner the dataset, which was collected in conjunction with those from the previous ERP study 26 . We were interested in oscillatory markers of bottom-up and top-down processes 53 , where theta power may serve as a signature of bottom-up perceptual processing 54 , 55 and alpha power as signature of top-down attention 56 . For that, a three-stimulus oddball paradigm, incorporating the typical frequent standard and the infrequent task-relevant target but also the infrequent but unique task-irrelevant novel stimulus. We hypothesize that due to perception uncertainty, it might be more challenging for CI-users to perceptually discriminate the task-relevant target from the standard, reflected in theta activity. Furthermore, we examine, whether the CI-users may experience difficulties in focusing their attention, namely being more distracted by the task-irrelevant novel stimulus 57 , which is hypothesized to be reflected in the alpha oscillatory activity. Finally, we estimate and investigate the neural responses to the three stimuli at three different cortical regions: the temporal transverse gyrus (TTG), the dorsolateral prefrontal cortex (DLPFC) and the inferior parietal lobules (IPL). These three regions were chosen, as each of them represents the three important brain networks in this task: the auditory network, the central executive network and the attentional network. In sum, the goal in this study is to examine a potential attentional difference between NH-listeners and CI-users, that may emerge during a simple auditory task and may contribute to the increased listening effort or variable performances observed in CI-users.",
+      "order": 1
+    },
+    {
+      "section": "Erp And Tfrs: Reduced Neural Responses For Standard Stimuli And In Passive Condition",
+      "text": "The three-stimulus oddball paradigm consisted of three stimulus-types: standard, target and novel stimuli and were performed in an active (button press on target) and in a passive condition (Fig. 1 A). The central-ROI event-related potentials exhibited robust early ERP components (N1 and N2) for both groups, especially in the active condition (Fig. 1 B a, b, c). In this condition, additional late ERP components (P3a, P3b) were also pronounced for both groups for target and novel stimuli (Fig. 1 B b, c). In the passive condition, while N1 component were still observable, there were less appearance of late ERP components for both groups (Fig. 1 B d, e, f). In sum, although the stimulus duration in this study is longer than the one used previously (400 ms instead of 200 ms), the observed ERP components in this study are comparable with result from the previous investigation 26 . For both groups, the time–frequency representations (Fig. 1 C) revealed pronounced oscillatory activities mainly in the active condition (Fig. 1 C first and third columns) but less observable in the passive condition (Fig. 1 C second and fourth columns). The oscillatory activities were also mainly pronounced for target and novel stimuli (Fig. 1 C second and third rows) but less observable for standard stimuli (Fig. 1 C first row). Target stimuli in the active condition (Fig. 1 C b, h) elicited delta-theta synchronization, alpha desynchronization and beta desynchronization. Novel stimuli in the active condition (Fig. 1 C c, i) elicited delta-theta synchronization, minor alpha synchronization followed by beta desynchronization. Target and novel stimuli during the passive condition (Fig. 1 C e, f, k, l) had less clear oscillatory activities, where only minor synchronizations were observable.",
+      "order": 2
+    },
+    {
+      "section": "Active Vs. Passive: Oscillatory Activities As Markers Of Active Attention",
+      "text": "To identify which oscillatory activities played a role in the attended vs. unattended conditions, we subtracted the TFRs in the passive from that in the active conditions. During target processing (Fig. 2 A) we observed delta-theta amplification, followed by a reduction alpha-, and beta band in difference-TFR plots. These effects were observable in all ROIs and in both the NH-listeners and the CI-users. Next, we calculated the time-course of these delta-theta, the alpha and the beta effects and compared them between the groups (Fig. 2 B). The CI-users exhibited less delta-theta amplification (Fig. 2 B b-d) and less alpha reduction (Fig. 2 B e–h) during target processing compared to NH-listeners. Beta reduction was, however, comparable between the two groups. The analysis of the novel processing in active vs. passive comparison (Fig. 2 C) revealed these oscillatory effects: a delta-theta amplification followed by a beta reduction, which were observable in all ROIs except the occipital ROI. The delta-theta amplification was slightly but significantly stronger in CI-users in the frontal region (Fig. 2 D a, b) but became weaker in the parietal region (Fig. 2 D c).",
+      "order": 3
+    },
+    {
+      "section": "Target Vs. Standard: Comparable Neural Responses Between Ci-Users And Nh-Listeners",
+      "text": "Comparing the deviating stimulus (task-relevant target or task-irrelevant novel stimuli) with the standard stimuli allows us to determine the oscillatory activities related to discrimination and processing of infrequent stimuli (compare 58 , 59 ). Here, we compared both target vs. standard (Fig. 3 ) and novel vs. standard (see next section and Fig. 4 ) in both the active and the passive conditions. During the active condition, the significant differences in target vs. standard comparison were found in delta-theta amplification and alpha–beta reduction, which were observable in all ROIs for both groups (Fig. 3 A). However, in the active condition, the significant groups’ difference was only found in delta-theta band, while the effects in alpha and beta bands were overall not systematically different between the groups (Fig. 3 B). In the passive condition, the only observed effect was the alpha amplification in NH-listeners (Fig. 3 C). This was also further confirmed in the analysis of time-course (Fig. 3 D).",
+      "order": 4
+    },
+    {
+      "section": "Novel Vs. Standard: Stronger Alpha Reduction For Ci-Users",
+      "text": "The comparison of novel vs. standard stimuli (Fig. 4 A) gives insight into the processing of task-irrelevant stimuli. This comparison in the active condition revealed significant amplification delta-theta band and a reduction alpha–beta band. Similar to the previous target vs. standard comparison, delta-theta amplification in novel vs. standard comparison was also greater in NH compared to CI-users in all ROIs (Fig. 4B a-d). However, in this current comparison of novel vs. standard, CI-users exhibited a greater degree of alpha reduction in parietal and occipital ROIs compared to NH (Fig. 4 B g, h). During the passive condition, the comparison of novel vs. standard stimuli showed significant effects of delta-theta amplification and alpha amplification (Fig. 4 C). Similar to the previous target vs. standard comparison, the alpha amplification only occurred in NH-listeners (Fig. 4 C a, b) and not in CI-users. However, the delta-theta amplification in the current novel vs. target comparison could be now detected in both groups (Fig. 4 C a, b, c, e, f, g, h). The degree of both alpha and delta-theta amplifications was significantly greater in NH-listeners compared to CI, as indicated by the time-course of delta-theta- and alpha amplification (Fig. 4 D).",
+      "order": 5
+    },
+    {
+      "section": "Target Vs. Novel: Stronger Alpha Reduction For Nh-Listeners",
+      "text": "We further contrasted the target and novel stimuli to test whether attention as signified by oscillatory activities were more directed toward target or toward novel stimuli. In the active condition, there was significant alpha- and beta reduction in this comparison (Fig. 5 A), hence indicating stronger attentional process directed to target compared to novel stimuli. However, while in NH-listeners the significant alpha reduction was found in all ROIs (Fig. 5A a-d), in CI-users it was limited only to central ROI (Fig. 5 A f). Indeed, as shown by the time course of alpha activity, the degree of this alpha reduction was significantly weaker in CI- compared to NH-listeners (Fig. 5B a-d). In the passive condition, there was no statistically significant differences in oscillatory activities between the two stimulus-types (not shown).",
+      "order": 6
+    },
+    {
+      "section": "Source Localization: Different Source Activations Between Nh-Listeners And Ci-Users",
+      "text": "To understand the specific brain regions responsible for auditory attention, the sources of the neural activities during target (Fig. 6 A) and novel processing (Fig. 6 B) processing were reconstructed for the active condition. We focused on broadband N1 component along with the delta, theta, alpha and beta activities. The detailed brain sources for each neural activities for target and novel processing for both groups are listed in the subsequent table (Table 1 ). In summary, during target processing the sources of the neural activities differed between CI-users and NH-listeners as follows: i. Beside the expected temporal cortex, CI-users exhibited additionally left cingulate gyrus as a source of N1. ii. CI-users showed more local delta sources, especially in frontal gyrus and parietal lobule. NH-listeners had broader delta sources including large portions of temporal and parietal lobes. iii. There was hemispheric difference in the sources of theta activity between the two groups: CI-users showed more right hemispheric activation of the frontal region, while NH-listeners had more left hemispheric activation of the temporal region. iv. The source of beta during target processing was more pronounced in CI-users compared to NH-listeners, especially in the central region of the right hemisphere. Furthermore, during novel processing the sources of the neural activities differed between CI-users and NH-listeners as follows: i. Similar to N1-sources of target stimuli, CI-users exhibited in addition to temporal cortex, also the cingulate gyrus along with left middle frontal cortex as sources of N1. ii. For the theta activity, CI-users showed more frontal region activation, while NH-listeners showed more activation in the parietal region. iii. CI-users exhibited additional alpha source in the inferior parietal lobule, which not observed as alpha sources of the NH-listeners. iv. The source of beta during novel processing was more pronounced in NH-listeners compared to CI-users, also in the central region of the right hemisphere.",
+      "order": 7
+    },
+    {
+      "section": "Source-Level Neural Activities: Larger And Sustained Late Activity In Left Temporal Cortex For Nh-Listeners",
+      "text": "For three distinct brain regions of the bilateral temporal-, frontal- and parietal lobe, the neural activity in the active condition was estimated for each stimulus-types (standard, target and novel) and each group (NH-listeners and CI-users) (Fig. 7 ). Specifically, these brain regions are (i) transverse temporal gyrus (TTG) including Brodmann area (BA) 41, 42, (ii) dorsolateral prefrontal cortex (DLPFC) or BA9, 46 dorsal area and (iii) inferior parietal lobule (IPL) or BA40 caudal area. These regions were chosen because of their involvement in early sensory auditory processing, central executive and attentional networks. In the temporal cortex , the most prominent neural activities for all stimulus-types and both groups were observed in the first 100 ms post-stimulus as a complex of positive–negative peaks (Fig. 7A a-f). For both the standard and target, as expected, the early first negative peaks were larger in NH-listeners compared to CI-users (Fig. 7 A a, b, d, e). Interestingly, for the novel stimuli, there was no significant difference in this early peak, but the NH-listeners showed a pronounced late positive peaks (198—246 ms) in the left temporal cortex, which was absent in CI-users (Fig. 7 A c). In the frontal cortex , the main responses were elicited by the novel stimuli with a clear lateralization effect between the two hemispheres (Fig. 7 B c, f). For the novel stimuli, the main groups’ differences were found in the right frontal cortex (Fig. 7 B f), which was the larger late sustained negative activity (300—464 ms) in NH-listeners compared to that in CI-users. Another significant difference between the two groups was also observable in the left frontal cortex for the novel stimuli (Fig. 7 B c), where NH-listeners showed larger a larger late positive peak (310—392 ms) compared to CI-users. For target and standard stimuli, groups’ differences were minor and a statistical difference can only be found in left frontal cortex during standard processing (Fig. 7 B a). The parietal cortex exhibited also a lateralization effect, where for all stimulus-types the activities in the left cortex (Fig. 7 C a, b, c) had opposite polarity than those in the right cortex (Fig. 7 C d, e, f). A significant group difference was found during target processing in the right parietal cortex (Fig. 7 C e), where NH-listeners elicited a larger late (312—456 ms) positive peaks compared to CI-users. Another significant difference was found during novel processing in the left parietal cortex (Fig. 7 C c), where the NH-listeners showed a late positive peak (398—436 ms), which was absent in CI-users. This pattern of activity of the left parietal cortex resembled the activity of the left temporal cortex (compare Fig. 7 A c). There were other significant group differences in the parietal cortex, but they appeared rather in short durations (Fig. 7 C a, b, d, f).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "The current well-powered study (74 participants) extended the previous ERP study 26 and investigated oscillatory signatures of attentional processing in CI-users and in a NH-listeners. It utilized an established three-stimulus auditory oddball paradigm, in both an active- and a passive listening condition (Fig. 1 A) to differentiate attentional processing between unattended and attended task condition. As expected, these oscillatory activities were prominent in the active but not in the passive condition. This signified their close link with the top-down aspect of processing 26 , 60 , 61 . Both CI-users and NH-listeners elicited these pronounced activities for target and novel stimuli (Fig. 1 B). During target processing, alpha desynchronization was prominent (Fig. 1 C b,h, 2 A). This supports the expected functional role of alpha desynchronization as a reflection of the attentional focus to task-relevant stimuli 33 , 62 . In line with this, alpha sources emerged in the parietal region, which is closely associated with the attention networks 63 . The degree of alpha reduction was stronger in NH-listeners for target stimuli (Fig. 2B e–h), indicating a more effective recruitment of task-relevant attention in NH-listeners compared to CI-users. Compared to NH-listeners, CI-users may demonstrate less efficient task-relevant attentional processes which may contributes to higher listening effort and prolonged response times 26 . For novel stimuli, although the group difference in alpha in the between-condition comparison was not pronounced (Fig. 2 D), between-stimuli comparisons suggest that CI-users allocate more attention to task-irrelevant novel stimuli (Fig. 5, 6B g-h). Another prominent oscillatory signature was the perceptually driven delta-theta amplification (Fig. 2 A, C) 54 , 55 , which was as expected stronger in NH-listeners compared to CI-users during target processing (Fig. 2B b-d). Interestingly, during novel processing CI-users elicited a slightly stronger frontal delta-theta amplification (Fig. 2 D a). This may reflect an overflow of the perceptual enhancement to the novel stimuli in CI-users 55 , 64 . In the presence of frequent standard stimuli, attending to the target stimuli can be challenging due to an exogenous factor, namely the physical similarity between the target and standard stimuli. In target vs. standard in the active condition, there was little difference in alpha reduction between NH-listeners and CI-users (Fig. 3 B e–h), suggesting that both groups utilized a similar extent of attention to the target. However, delta-theta amplification was weaker in CI-users compared to NH-listeners (Fig. 3 B b-d). If interpreted as a signature of perceptual representation of the stimulus, weaker delta-theta amplification in CI-users implies that the perceptual discrimination of target might be less optimal in CI-users compared to NH-listeners. In our study, the standard and target stimuli were 600 Hz- and 756 Hz pure tones, respectively. Both fall within relatively narrow frequency range. While this discrimination is nonetheless achievable with CIs 65 , 66 , it involves less distinctive cues than in NH-listeners 3 . Depending on the implant manufacturers and the specific CI programming, both stimuli likely activated the same or if not neighboring electrode contact/s of the CI. It should be noted that the CI-group in this study included users from three major manufacturers. Nevertheless, for CI-users, stimulus discriminability depends primarily on temporal cues 3 . The NH-listeners, on the other hand, have both the cochlear place and the temporal code available. The reduced ability of CI-users in differentiating target from standard is further confirmed in the comparison of target vs. standard in the passive condition, for which only NH-listeners –but not the CI-users– exhibited a significant difference in neural response between target and standard stimuli (Fig. 3 C a ; e–h ). This emphasized the robust ability of the NH-listeners in differentiating the two stimuli even in the unattended condition, but less of the CI-users. However, in the comparison of novel vs. standard in the passive condition, both groups show significant differences in oscillatory responses (Fig. 4 C). This means that the contrast of novel vs. standard was apparent in the passive condition even for CI-users. The comparison of novel vs. standard in the active condition suggested a group-difference in attentional processes to task-irrelevant stimuli, as we observed the occurrence of alpha reduction exclusively in CI-users (Fig. 4 A g–h). This alpha reduction in CI-users lasted for almost the whole trial duration. Assuming alpha reduction reflects top-down active focused-attention directed to task-relevant stimuli, it is unusual to have this oscillatory signature in novel stimuli, which in this particular task should have been ignored. For CI-users the novel stimuli were unique, more complex and therefore more salient compared to the standard and the target stimuli. Especially with the particularly high synchrony of activity in the auditory nerve caused by the electric CI stimulus, the novel stimuli might have acted more as a distractor compared to the NH-listeners. This may elicit involuntary attention to this task-irrelevant stimulus due to its physical saliency 67 and undermine the focused attention to the task-relevant target stimuli 50 , 68 – 70 . This may result in higher listening effort experienced by many CI-users 9 . Consistent with this interpretation, the CI-users showed less alpha reduction in target vs. novel comparison (i.e. a reduced alpha-power difference between these stimulus-types), which points to less focused-attention to the target stimuli in CI-users when compared to NH-listeners (Fig. 5 ). Several studies with selective attention paradigms have shown the close relation between alpha activity and distractor suppression 42 , 43 in tasks with simultaneous presentation of distractor and target. Our results further emphasize that differences in attentional processing between CI-users and NH-listeners might not only be present during high-load tasks (e.g. selective attention task, listening in noise, audio-visual paradigm) 48 , 71 , 72 but already occur in a simpler task requiring focused attention, such as in this three-stimulus oddball task. Sources of the neural activities revealed further relevant differences between the two groups. Both the CI-users and the NH-listeners had, at first glance, comparable sources in regards of alpha- and beta desynchronization, especially in frontal- and parietal areas. Specifically, for the alpha band, these sources encompassed the inferior parietal lobule, the medioventral occipital cortex, the precuneus and the posterior cingulate cortex; areas for which are parts of attentional networks. CI-users, however, exhibited additional activation of the left parietal cortex during novel processing, which was not prominent in NH-listeners (Fig. 6 B h), again supporting our interpretation of the higher attentional load in CI-users in processing the novel stimuli. Sources of early ERP in CI-users also included left anterior cingulate gyrus (Fig. 6 A, B b), which was absent in NH-listeners. This area has been highlighted in its role in various cognitive functions, such as decision making, error monitoring and action adaptation 73 – 75 . Given the lower quality of the auditory input due to CI processing, the additional activation of the anterior cingulate cortex in CI-users might be necessary to transiently enhance responses to relevant acoustic stimuli in the auditory cortex 76 , 77 . The CI-users also exhibited more local delta activity sources and more frontal theta sources compared to NH (Fig. 6 A, B c–f). This is consistent with reduced brain network global efficiency 78 and greater recruitment of executive functioning, particularly in frontal areas 79 , 80 . The source-level neural activities showed reduced responses in CI-users compared to NH in all three analyzed regions, namely the bilateral transverse temporal gyrus (TTG, Fig. 7 A) 81 , 82 , the dorsolateral prefrontal cortex (DLPFC, Fig. 7 B) 83 , 84 and the inferior parietal lobules (IPL, Fig. 7 C) 85 . These source-level neural activities consisted of two distinct responses: the early (below 150 ms) and the late responses (after 200 ms). Previous ERP studies have related the early auditory responses (i.e. N1, P2, N2) to stimulus detection and/or discrimination 12 , whereas the later responses (i.e. P3) are considered a reflection of higher-order cognitive processes including top-down attention 20 . The group difference in early source-level neural response in the temporal cortex during target processing thus confirmed the limitations of the CI-users in early stimulus processing when compared to NH-listeners (Fig. 7 A b, e ) . However, the early responses to the more complex novel stimuli did not differ significantly between the two groups (Fig. 7 A c), which supports our earlier hypothesis that CI-users and NH participants did not differ in their ability to detect and discriminate the novel stimuli. Interestingly, the late response in the left temporal cortex to the Novel sound was stronger in NH-listeners compared to CI-users (Fig. 7 A c). This may imply, specifically for the NH-listeners, higher-order influences (e.g. distractor suppression and/or predictive-based encoding) might already manifest at the lower hierarchy of the neural cascade (i.e. auditory cortex) 86 . Animal studies have shown that the late responses in the auditory cortex are dominated by cortico-cortical (induced) activity, especially top-down influences from higher-order areas 87 – 90 . Regarding the left lateralization of this late response, the left auditory cortex has been found to be particularly adaptable in complex sounds processing 91 , 92 . Together with the finding of late activities in the bilateral DLPFC and left IPL (Fig. 7 B c, f, C c), this result suggests that the late processing in auditory cortex further cascades into higher-order areas. These late responses in higher-order areas were weaker in CI-users and may signal the suboptimal suppression of task-irrelevant novel stimuli in CI-users. During novel processing, we found that the early activity in the right DLPFC was modestly stronger in CI-users than in NH-listeners (Fig. 7 B f). This indicates that CI-users may recruit central executive network (CEN) regions (e.g. right DLPFC) in order to compensate the reduced activation in the dorsal attention network (DAN) (e.g. left IPL) and to support the limited distraction-suppression process. On the other hand, this altered processing may result in increased listening effort 93 – 97 . While the frontal neural activity was robust for the novel stimuli in both groups (Fig. 7 B c, f ) , the neural activity for the target stimuli was only marginal and did not differ significantly between NH-listeners and CI-users (Fig. 7 B b, e). The main group differences between NH-listeners and CI users were found significant in the right parietal region (i.e. IPL, Fig. 7 C e), where the CI-users showed weaker activation in both early- and late-responses. This region is a part of the ventral attentional network (VAN) 63 and plays a role to reorient attention to the task-relevant stimuli and to respond accordingly 98 , 99 . Our result hint on less utilization of this region in CI-users compared to NH-listeners. This interpretation is further supported by the polarity reversal between the responses in left and right cortical parietal and frontal regions related to CEN, DAN and VAN networks 100 . To investigate the possible effect of stimulation side on the overall neural activity pattern, we resorted CI-users into sub-groups (i.e. those receiving left ear stimulation and those receiving right ear stimulation; Supp. Figure 1). The result demonstrated that the late activities observed in NH-listeners was not present in either sub-group. Together with the fact that both CI-users and their age-matched NH-listeners were stimulated on the same ear, it can be concluded that side of stimulation did not account for the observed difference between CI-users and NH-listeners (Fig. 7 A, C). For the lateralization pattern, a possible contributor may be the solely right-hand response of this particular task. However, this is unlikely, given that the lateralization effect was also found for standard and novel stimuli, for which no button presses were performed. To further explore lateralization effect, future studies may employ bilateral stimulation in unilateral CI-users, particularly to investigate as well the influence of implant side on oscillatory dynamics. Taken together, the data imply that in CI-users, the smeared representation of the sensory input complicates stimulus discrimination, but also has downstream effects on how attention is recruited to enhance the task-relevant stimulus and suppress the task-irrelevant stimulus.",
+      "order": 9
+    },
+    {
+      "section": "Conclusion",
+      "text": "The present study examined the auditory cognitive processing in cochlear implant users (CI-users) by combining time–frequency analysis and source localization methods to find neural oscillatory correlates of attentional processing. The most prominent oscillatory activities were delta-theta synchronization, alpha- and beta desynchronization, mainly observed in active condition. The difference between CI-users and normal hearing listeners (NH-listeners) was pronounced in delta-theta activity and might reflect a group difference in perceptual processing of the stimuli. Interestingly, while attention-related alpha activity was robust for the task-relevant target stimulus, CI-users exhibited attentional alpha signature also during novel processing, suggesting attentional allocation to the task-irrelevant stimulus. Consistent with this, CI-users also exhibited broader sources of alpha activity during novel processing. The local neural activities in the transverse temporal gyrus (TTG), in the dorsolateral prefrontal cortex (DLPFC) and in the inferior parietal lobule (IPL) were, however, weaker in CI-users and were consistent with different recruitment of ventral and dorsal attentional networks. Overall, the result suggests that CI-users may direct their attention toward task-irrelevant stimuli and thereby impeding their focus on task-relevant stimuli, thus may increase their listening effort.",
+      "order": 10
+    },
+    {
+      "section": "Methods",
+      "text": "The current study was performed in accordance with the Declaration of Helsinki and approved by the Ethics Committee of the Hannover Medical School (vote number 7425). All participants provided written informed consent prior to the experiments and all received a reimbursement for their participation in this study.",
+      "order": 11
+    },
+    {
+      "section": "Participants",
+      "text": "The dataset of the present work was collected in conjunction with the previous study 26 , and has not been analyzed nor published previously. The participant sample was identical with the previous study 26 . It comprised of forty post-lingual cochlear implant users (CI-users) (27 female; age: 28–79 years, 59.4 years (Mean ( M )) ± 1.5 years (Standard Error of the Mean ( SEM )) and forty normal hearing listeners (NH-listeners) (27 female; age: 29–77 years, 60 years ( M ) ± 1.6 years ( SEM )). Seventy-four participants were right-handed, one participant was left-handed and the remaining five participants were ambidextrous according to the Edinburgh Handedness Inventory 101 . NH-listeners and CI-users did not differ in terms of duration of education. Eighteen CI-users were implanted unilaterally (nine right-implanted and nine left implanted) and twenty-two bilaterally. In bilaterally implanted CI-users, the better performing CI side was investigated which was defined on the basis on the speech audiometry performed in the last clinical check. In sum, twenty-two CI-users were examined on the left implanted side, and eighteen CI users on the right implanted side. Nineteen CI-users used cochlear implants manufactured by Cochlear, twelve used implants from Advance Bionic and nine from MED-EL. All CI-users had been using their device continuously for at least 10 months. For details of CI-users (implant systems, demographic information and speech recognition tests) please refer to previous study 26 . NH-listeners had an average pure tone thresholds of less than or equal to 30 dB HL.",
+      "order": 12
+    },
+    {
+      "section": "Stimuli And Procedure",
+      "text": "As described in the original study 26 , for the experiment, participants sat comfortably in acoustically and electromagnetically shielded booth and performed an auditory three-stimulus oddball paradigm 102 . The oddball paradigm included three stimulus-types: standard, target and novel stimuli. The standard stimuli consisted of a 600 Hz pure tone, with an occurrence probability of 70%. The target stimuli comprised of a 756 Hz pure tone with an occurrence probability of 15%. The novel stimuli consisted of a set of trial-unique environmental sounds (e.g. a dog bark, a telephone ringing or a car engine noise) with an occurrence probability of 15% 103 . The experimental paradigm was identical to the one reported previously 26 , with the only difference being a longer stimulation duration (400 ms instead of 200 ms) to allow more sustained neural responses and thus improved signal-to-noise ratios of the signals 104 , especially the low-frequency components (e.g. delta-theta band), while preserving the high-frequency components (e.g. alpha-, beta bands). The oddball paradigm was performed in two conditions, in particular an active and a passive condition, where the former required participants to respond to the target via a button press on a typical computer keyboard. Each condition comprised 300 trials (210 standard, 45 target and 45 novel stimuli). The passive condition always followed the active condition to ensure an optimum of attentional state in the active condition. The inter-stimulus interval varied randomly according to a uniform distribution (800, 900 or 1000 ms). All stimuli were initially presented at an acoustic reference level (~ 65 dB SPL). To ensure comparable perceived loudness across both groups, sound level was then finely adjusted individually based on a seven-point loudness scale (“not heard”, “very soft”, “soft”, “moderate”, “loud”, “very loud” and “too loud”) 26 , 105 , 106 to the “moderate” level, which is equivalent to a level of 60–70 dB(A) of the perceived loudness of the normal hearing listeners 107 , 108 . Therefore, although the final stimulation levels were not identical between the NH- and CI-groups in term of physical units, they were closely matched in terms of perceived loudness. For CI-users, the auditory stimulation was delivered via a direct audio cable connection to the CI speech processors (twenty-two left ear, eighteen right ear). NH-listeners received monaural auditory stimulation via an inserted earphone at the ear side corresponding to that of their matched CI participant (twenty-two left ear, eighteen right ear).",
+      "order": 13
+    },
+    {
+      "section": "Data Acquisition",
+      "text": "Continuous EEG data were recorded using 78 Ag/Ag–Cl scalp electrodes using a 128-channels Quik-Cap (Compumedics, Neuroscan) and a SynAmp amplifier system (Compumedics, Neuroscan) 26 . Electrodes were placed according to the 10–10 system, with seven additional electrodes over posterior cortical regions. Two additional electrodes were placed at left and right mastoids. Horizontal and vertical eye movements were recorded by additional electrodes placed at the outer canthi of both eyes and below and above one eye, respectively. A reference electrode was placed at the nose-tip. A midline electrode, which was located slightly anterior to Fz, served as ground electrode. Data were recorded at a sampling rate of 1 kHz and without online filtering using the software Curry Neuroimaging Suite 7 (Neuroscans, Compumedics). Impedances were maintained below 20 kΩ prior to data acquisition.",
+      "order": 14
+    },
+    {
+      "section": "Data Analysis",
+      "text": "The EEG data were offline analyzed using the Brainstorm toolbox 109 , the FieldTrip toolbox 110 and custom-made Matlab scripts (Mathworks Inc.). EEG data from six participants were excluded due to a defect in the raw dataset (NH: two participants, CI: two participants) or due to poor hit-rates in the active condition (NH: one participant, CI: one participant).",
+      "order": 15
+    },
+    {
+      "section": "Preprocessing",
+      "text": "The raw EEG data were imported in Brainstorm for preprocessing procedures. The preprocessing was band-pass- and notch filtering, segmentation and artifact removal, all performed in Brainstorm. The EEG data were first filtered with a 0.02–250 Hz even-order phase FIR (Finite Impulse Response) band-pass filter based on a Kaiser window design, which compensate for the filter delay by shifting the sequence backward in time to achieve zero-phase and zero-delay. Following that, a second order IIR (Infinite Impulse Response) 50 Hz notch filter with zero-phase lag was applied to the data 111 to remove the electrical line noise. Independent component analysis (ICA) weight matrix was calculated with the filtered data. Independent components reflecting artifacts such as eye movements, eye blinks, electrical heartbeat activity, as well as other sources of non-cerebral activity were identified and removed from the data. Additionally, independent components reflecting electrical CI artifacts were identified and removed (for representative samples, see supplementary materials). On average, there were additional six components related to CI artifacts removed for the CI-users. Additionally, automatic artifact rejection modules based on SSP (Signal-Space Projection) in Brainstorm were applied to the data to detect blink and eye-movement artifacts 112 , 113 . The resulting time periods of the artifacts were marked to be identified and the potentially contaminated epochs were removed. The data were then segmented into 2000 ms epochs and triggered by the stimulus onset (0: stimulus onset, -1000 ms pre-stimulus and 1000 ms post-stimulus). Epoch by epoch inspection was then performed to further identify and remove epochs with non-stereotyped artifacts. In average, 68% of trials were kept for further analysis.",
+      "order": 16
+    },
+    {
+      "section": "Event-Related Potential",
+      "text": "The preprocessed trials for each stimulus-type (standard, target and novel stimuli) and each condition (active and passive condition) were filtered with an additional 1–40 Hz even-order phase FIR (Finite Impulse Response) band-pass filter, comparable to that implemented in the previous study 26 . Single-subject event-related potentials (ERP) were calculated for each stimulus-type and for each condition. Grand-mean ERPs were then calculated for each group (NH and CI) by averaging the single-subject ERPs of the respected subjects in each group. The resulting grand-mean ERPs were then baseline corrected (50–150 ms pre-stimulus) and they were pooled in a region-of-interest (ROI) including central electrode positions (i.e. Central ROI: C1, Cz, C2, CP1, CPPz, CP2). This was done for each group, for each stimulus-type and for each condition. The end result of the analysis was a grand-mean ERP (central ROI) for each group and for each stimulus-type in each condition. For details of the ERP analysis and the results, please refer to previous study 26 .",
+      "order": 17
+    },
+    {
+      "section": "Time–Frequency Analysis",
+      "text": "Time–frequency representations (TFRs) of the preprocessed trials were calculated for each stimulus-type (standard, target and novel stimuli) and each condition (active and passive condition). This was done using a Wavelet transformation in Brainstorm. The predefined parameters of the Morlet wavelet in Brainstorm were chosen for this analysis (central frequency: 1 and time resolution: 3). Frequencies from 1 to 90 Hz were analyzed by means of 1 Hz linear steps. The resulting TFR was normalized to the baseline period (-350 to -50 ms) and extracted for the time period of interest (-400 to 800 ms post-stimulus). The observed oscillatory activity was defined as synchronization , when its power increased relative to baseline, and desynchronization when its power decreased relative to baseline. The complex TFRs of the trials were then imported to Matlab workspace and processed further in Matlab. This step allowed us to logarithmically plot the TFRs and to perform cluster-based statistical tests using the Fieldtrip toolbox 114 . Afterwards, the complex TFRs of the single trials (for each stimulus-type in each condition) were pooled in four different ROIs before they were averaged throughout the trials: 1) Frontal ROI: F1, Fz, F2, FC1, FCz, FC2; 2) Central ROI: C1, Cz, C2, CP1, CPPz, CP2; 3) Parietal ROI: PPO1, PPO2, PO3, PO1, POz, PO2, PO4, POO3, POO4 and 4) Occipital ROI: OI1, OI2, I1, Iz, I2, POO11h, POO12h. The result of all of the previous steps was one TFR for each ROI and for each stimulus-type in each condition. In a next step, the TFRs were averaged together according to the corresponding group (NH-listeners or CI-users). In order to compare the stimulus-types and conditions, difference-TFRs were calculated by subtracting TFRs from one condition/stimulus-type from another condition/stimulus-type (e.g. active vs. passive means: TFRs of active minus TFRs of passive condition; similarly Target vs. Standard means: TFRs of Target minus TFRs of Standard). Cluster-based permutation test 115 was performed to define statistically significant oscillatory activity differences between the two TFRs which were also plotted as black contours on the respective difference-TFRs (see 2.4.7 Statistical tests for details). If no significant cluster was found, the difference-TFR would be marked ‘ns’. The difference of oscillatory activity between two stimulus-types/conditions was labeled as amplification , when its power increased relative to the other stimulus-type or condition (e.g. active vs. passive, Target vs. Standard), and reduction when its power decreased relative to the other type/condition.",
+      "order": 18
+    },
+    {
+      "section": "Time-Course Of Oscillatory Activities",
+      "text": "To visualize the power fluctuations of oscillatory activity in the specific frequency bands and compare them between NH-listeners and CI-users, the power from the difference-TFRs for each time step was averaged across the frequency of interest (delta-theta: 2–7 Hz, alpha: 8–12 Hz and beta: 13–29 Hz) and was plotted for the whole trial duration (-400 to 800 ms). Delta- and theta activity were pooled together as “delta-theta activity” since in most of the TFRs only a single oscillatory activity was observed in these frequency bands (2–7 Hz). The time-course of the activity was statistically compared between the two groups using Bonferroni corrected t-tests (alpha < 0.05, corrected alpha = 0.000125; see 2.4.7 Statistical tests for details). The latencies, for which the most significant (longest duration) group differences were observed, were listed along with the peak-power changes of each group in those latencies in the corresponding tables in the supplementary materials.",
+      "order": 19
+    },
+    {
+      "section": "Source Localization",
+      "text": "Because most of the oscillatory activities were observed during target and novel processing in active condition, we estimated using Brainstorm the sources of these activities 109 , 116 , 117 .For each subject, channel by channel was inspected and removed when it contained substantial amounts of artifact in the continuous recording. For the CI-users, these were mainly channels surrounding the implanted ears which were contaminated with CI artifacts. Using the remaining clean channels, a head model (containing dipoles) was computed for each subject using a symmetric Boundary Element Method from the OPENMEEG software 118 . The preprocessed trials during the pre-stimulus period for each stimulus-type were then used as input to calculate the noise covariance matrix. In addition to the noise covariance matrix, we also calculated the data covariance matrix during the activation period, which is required for applying linear-constraint minimum variance (LCMV) beamforming method 119 . Using the LCMV beamforming method, the source space time-series neural activity (Pseudo Neural Activity Index (PNAI)) could then be estimated for each dipole in the source space. The resulting source space activity was then averaged across all subjects for each group (NH-listeners or CI-users). The grand-mean source space activity was then averaged for the time period 0—150 ms post-stimulus to obtain the estimated source of the early broadband ERP signal (i.e. N1 component). To estimate the sources of oscillatory activities, we performed time–frequency decomposition of the calculated source space activity. Due to computational limitation, we used the Hilbert transformation instead of the wavelet transform to calculate the power for frequency-band averages of the source space activity (delta: 2–4 Hz, theta: 5–7 Hz, alpha: 8–12 Hz and beta: 13–29 Hz) for the whole duration of activation period (0—800 ms). The resulted oscillatory activity in the source space was then averaged across the subjects for each group (NH-listeners or CI-users). For the visualization of the grand-mean source space activities, minimal cluster sizes and thresholds were kept the same across stimulus-types and groups to ensure reliable comparison.",
+      "order": 20
+    },
+    {
+      "section": "Source-Level Neural Activities",
+      "text": "We used Brainstorm to estimate the neural activities from brain sources related to standard, target and novel processing in the active condition 109 , 116 , 117 . Specifically, we utilized Brainnetome atlas 120 , to define specific brain regions of interest (also called scouts in Brainstorm). We focused this analysis on three distinct regions related to auditory attention, namely (i) the bilateral transverse temporal gyrus (TTG; primary auditory cortex; Heschl’s gyrus; Brodmann area (BA) 41 and 42), (ii) the dorsolateral prefrontal cortex (DLPFC; middle frontal gyrus; BA 9 and BA 46) and (iii) the inferior parietal lobules (IPL; BA 40) 81 – 84 , 121 – 123 . These regions were chosen because each represents a major locus of the early sensory auditory processing, central executive and attentional networks. For the bilateral transverse temporal gyrus, the provided scouts from the Brainnetome atlas (consisted of 54 vertices and covered 8.25 cm 2 ) were used as they are. For the dorsolateral prefrontal cortex and inferior parietal lobule, the size of each scout was increased to 152 vertices covering around 20 cm 2 (left frontal: 19.29 cm 2 , right frontal: 20.58 cm 2 , left parietal: 23.32 cm 2 , right parietal: 24.15 cm 2 ) to also include the rostral area of the prefrontal cortex and the caudal area of the inferior parietal lobule. For each scout of each stimulus-type and each group, the estimated source space time-domain activity from the previous analysis (2.4.5. Source localization) was averaged using a Brainstorm function. The averaged neural activity for each scout was statistically compared between the two groups using Bonferroni corrected t-tests (alpha < 0.05, corrected alpha = 0.00025; see 2.4.7 Statistical tests for details). The latencies, for which the most significant (longest duration) group differences were observed, were listed along with the peak-amplitudes of the activities of each group in those latencies in the corresponding tables in the supplementary materials. Additionally, to assess whether the side of ear affected lateralization pattern, source-level neural activity during novel processing in left TTG and left IPL was computed separately for CI-users with only left- and those with only right-ear stimulation (see supplementary materials).",
+      "order": 21
+    },
+    {
+      "section": "Statistical Tests",
+      "text": "The time–frequency data were statistically analyzed using a non-parametric cluster-based permutation approach using the Fieldtrip toolbox 115 . Independent samples t-tests between two stimulus-types/conditions were calculated for each sample point. Significant values (alpha < 0.05) were clustered based on their adjacency in time and frequency. The critical p-value for each cluster was calculated using the Monte Carlo method with 500 random permutations. If the summed t-value of the observed data cluster was higher than 95% of the random partitions, then the cluster was considered to represent a significant difference between the two compared TFRs. The cluster was plotted as black contours on the respective difference-TFRs. If no significant cluster was found, the difference-TFR would be marked ‘ns’. If significant clusters in the frequency band of interest (delta-theta: 2–7 Hz, alpha: 8–12 Hz and beta: 13–29 Hz) was found in at least one group (NH or CI), the time-course of the oscillatory activity (power average in that frequency band of interest) was calculated and plotted for both groups. For each 2 ms time point, the oscillatory activity was statistically compared between the two groups using independent samples t-tests (alpha < 0.05). As the tests may result in false positives due to multiple comparisons, Bonferroni correction was applied (corrected alpha = 0.000125). Furthermore, since EEG signals are highly temporally correlated 124 , 125 , significance was only considered if it exceeded a minimal time window threshold of 150 ms. The source-level neural activities were also statistically compared between the two groups using independent samples t-tests (alpha < 0.05). The source-level neural activity for each group and each scout was statistically compared using independent samples t-tests firstly to the baseline (zero activity), before performing the group comparison also using independent samples t-tests. Because this analysis yield more sensitive results, we used 4 ms time bin (instead of 2 ms), which resulted in a corrected alpha of 0.00025. In this comparison, significance was considered if it exceeded a minimal time window threshold of 12 ms.",
+      "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Walia A",
+        "et al."
+      ],
+      "title": "Electrocochleography and cognition are important predictors of speech perception outcomes in noise for cochlear implant recipients",
+      "journal": "Sci. Rep.",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.1038/s41598-022-07175-7",
+      "pmid": "35197556",
+      "pmc_id": "PMC8866505"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Moore DR",
+        "Shannon RV"
+      ],
+      "title": "Beyond cochlear implants: Awakening the deafened brain",
+      "journal": "Nat. Neurosci.",
+      "year": "2009",
+      "volume": "12",
+      "fpage": "686",
+      "lpage": "691",
+      "doi": "10.1038/nn.2326",
+      "pmid": "19471266"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Sato M",
+        "Baumhoff P",
+        "Tillein J",
+        "Kral A"
+      ],
+      "title": "Physiological mechanisms in combined electric-acoustic stimulation",
+      "journal": "Otol. Neurotol.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "e215",
+      "lpage": "e223",
+      "doi": "10.1097/MAO.0000000000001428",
+      "pmid": "28806329"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "raw_citation": "Kral, A. & Tillein, J. 2.47 - Cochlear Implants: Neuroprosthetic hearing and the brain. Senses A Compr. Ref. Vol. 1–7, Second Ed. 2, 923–944 (2020)."
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Finke M",
+        "Büchner A",
+        "Ruigendijk E",
+        "Meyer M",
+        "Sandmann P"
+      ],
+      "title": "On the relationship between auditory cognition and speech intelligibility in cochlear implant users: An ERP study",
+      "journal": "Neuropsychologia",
+      "year": "2016",
+      "volume": "87",
+      "fpage": "169",
+      "lpage": "181",
+      "doi": "10.1016/j.neuropsychologia.2016.05.019",
+      "pmid": "27212057"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Abdel-Latif KHA",
+        "Meister H"
+      ],
+      "title": "Speech recognition and listening effort in cochlear implant recipients and normal-hearing listeners",
+      "journal": "Front. Neurosci.",
+      "year": "2022",
+      "volume": "15",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.3389/fnins.2021.725412",
+      "pmc_id": "PMC8867819",
+      "pmid": "35221883"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Hillyer J",
+        "et al."
+      ],
+      "title": "Assessing cognitive abilities in high-performing cochlear implant users",
+      "journal": "Front. Neurosci.",
+      "year": "2019",
+      "volume": "13",
+      "fpage": "1",
+      "lpage": "12",
+      "pmid": "30713488",
+      "doi": "10.3389/fnins.2018.01056",
+      "pmc_id": "PMC6346679"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Raymond MJ",
+        "et al."
+      ],
+      "title": "Association of cognitive impairment screening scores with improvements in speech recognition and quality of life after cochlear implantation",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2023",
+      "volume": "149",
+      "fpage": "344",
+      "lpage": "351",
+      "doi": "10.1001/jamaoto.2022.4825",
+      "pmid": "36729460",
+      "pmc_id": "PMC9896371"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Philips C",
+        "et al."
+      ],
+      "title": "Listening effort and fatigue among cochlear implant users: A scoping review",
+      "journal": "Front. Neurol.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "13",
+      "doi": "10.3389/fneur.2023.1278508",
+      "pmc_id": "PMC10656682",
+      "pmid": "38020642"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "doi": "10.1016/j.bandc.2020.105677",
+      "pmid": "33486194"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "doi": "10.1016/0013-4694(75)90263-1",
+      "pmid": "46819"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Näätänen R",
+        "Picton T"
+      ],
+      "title": "The N1 wave of the human electric and magnetic response to sound: A review and an analysis of the component structure",
+      "journal": "Psychophysiology",
+      "year": "1987",
+      "volume": "24",
+      "fpage": "375",
+      "lpage": "425",
+      "doi": "10.1111/j.1469-8986.1987.tb00311.x",
+      "pmid": "3615753"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Crowley KE",
+        "Colrain IM"
+      ],
+      "title": "A review of the evidence for P2 being an independent component process: Age, sleep and modality",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2004",
+      "volume": "115",
+      "fpage": "732",
+      "lpage": "744",
+      "doi": "10.1016/j.clinph.2003.11.021",
+      "pmid": "15003751"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Sams M",
+        "Paavilainen P",
+        "Alho K"
+      ],
+      "title": "Auditory frequency discrimination and event-related potentials",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1985",
+      "volume": "62",
+      "fpage": "437",
+      "lpage": "448",
+      "doi": "10.1016/0168-5597(85)90054-1",
+      "pmid": "2415340"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Novak GP",
+        "Ritter W",
+        "Vaughan HG",
+        "Wiznitzer ML"
+      ],
+      "title": "Differentiation of negative event-related potentials in an auditory discrimination task",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1990",
+      "volume": "75",
+      "fpage": "255",
+      "lpage": "275",
+      "doi": "10.1016/0013-4694(90)90105-S",
+      "pmid": "1691075"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Polich J",
+        "Kok A"
+      ],
+      "title": "Cognitive and biological determinants of P300: An integrative review",
+      "journal": "Biol. Psychol.",
+      "year": "1995",
+      "volume": "41",
+      "fpage": "103",
+      "lpage": "146",
+      "doi": "10.1016/0301-0511(95)05130-9",
+      "pmid": "8534788"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "doi": "10.3389/fnhum.2024.1460139",
+      "pmc_id": "PMC11743694",
+      "pmid": "39834399"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Romero R",
+        "Polich J"
+      ],
+      "title": "P3(00) habituation from auditory and visual stimuli",
+      "journal": "Physiol. Behav.",
+      "year": "1996",
+      "volume": "59",
+      "fpage": "517",
+      "lpage": "522",
+      "doi": "10.1016/0031-9384(95)02099-3",
+      "pmid": "8700955"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Comerchero MD",
+        "Polich J"
+      ],
+      "title": "P3a and P3b from typical auditory and visual stimuli",
+      "journal": "Clin. Neurophysiol.",
+      "year": "1999",
+      "volume": "110",
+      "fpage": "24",
+      "lpage": "30",
+      "doi": "10.1016/S0168-5597(98)00033-1",
+      "pmid": "10348317"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Polich J"
+      ],
+      "title": "Updating P300: An integrative theory of P3a and P3b",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2007",
+      "volume": "118",
+      "fpage": "2128",
+      "lpage": "2148",
+      "doi": "10.1016/j.clinph.2007.04.019",
+      "pmid": "17573239",
+      "pmc_id": "PMC2715154"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Wronka E",
+        "Kaiser J",
+        "Coenen AML"
+      ],
+      "title": "The auditory P3 from passive and active three-stimulus oddball paradigm",
+      "journal": "Acta Neurobiol. Exp. (Wars).",
+      "year": "2008",
+      "volume": "68",
+      "fpage": "362",
+      "lpage": "372",
+      "doi": "10.55782/ane-2008-1702",
+      "pmid": "18668159"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Yago E",
+        "Escera C",
+        "Alho K",
+        "Giard MH",
+        "Serra-Grabulosa JM"
+      ],
+      "title": "Spatiotemporal dynamics of the auditory novelty-P3 event-related brain potential",
+      "journal": "Cogn. Brain Res.",
+      "year": "2003",
+      "volume": "16",
+      "fpage": "383",
+      "lpage": "390",
+      "doi": "10.1016/S0926-6410(03)00052-1",
+      "pmid": "12706218"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "doi": "10.1371/journal.pone.0045375",
+      "pmc_id": "PMC3448664",
+      "pmid": "23028971"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Layer N",
+        "et al."
+      ],
+      "title": "Electrophysiological differences and similarities in audiovisual speech processing in CI users with unilateral and bilateral hearing loss",
+      "journal": "Curr. Res. Neurobiol.",
+      "year": "2022",
+      "doi": "10.1016/j.crneur.2022.100059",
+      "pmid": "36405629",
+      "pmc_id": "PMC9672392"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Grasel S",
+        "et al."
+      ],
+      "title": "P3 cognitive potential in cochlear implant users",
+      "journal": "Int. Arch. Otorhinolaryngol.",
+      "year": "2018",
+      "volume": "22",
+      "fpage": "408",
+      "lpage": "414",
+      "doi": "10.1055/s-0037-1613687",
+      "pmid": "30357069",
+      "pmc_id": "PMC6197977"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Schierholz I",
+        "et al."
+      ],
+      "title": "An event-related brain potential study of auditory attention in cochlear implant users",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2021",
+      "volume": "132",
+      "fpage": "2290",
+      "lpage": "2305",
+      "doi": "10.1016/j.clinph.2021.03.055",
+      "pmid": "34120838"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Weglage A",
+        "et al."
+      ],
+      "title": "Side-of-implantation effect on functional asymmetry in the auditory cortex of single-sided deaf cochlear-implant users",
+      "journal": "Brain Topogr.",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "431",
+      "lpage": "452",
+      "doi": "10.1007/s10548-022-00902-3",
+      "pmid": "35668310",
+      "pmc_id": "PMC9334411"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Tallon-Baudry C",
+        "Bertrand O",
+        "Delpuech C",
+        "Pernier J"
+      ],
+      "title": "Stimulus specificity of phase-locked and non-phase-locked 40 Hz visual responses in human",
+      "journal": "J. Neurosci.",
+      "year": "1996",
+      "volume": "16",
+      "fpage": "4240",
+      "lpage": "4249",
+      "doi": "10.1523/JNEUROSCI.16-13-04240.1996",
+      "pmid": "8753885",
+      "pmc_id": "PMC6579008"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Klimesch W"
+      ],
+      "title": "EEG alpha and theta oscillations reflect cognitive and memory performance: A review and analysis",
+      "journal": "Brain Res. Rev.",
+      "year": "1999",
+      "volume": "29",
+      "fpage": "169",
+      "lpage": "195",
+      "doi": "10.1016/S0165-0173(98)00056-3",
+      "pmid": "10209231"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "doi": "10.1016/j.cobeha.2024.101388",
+      "pmc_id": "PMC11623317",
+      "pmid": "39651342"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Sauseng P",
+        "et al."
+      ],
+      "title": "A shift of visual spatial attention is selectively associated with human EEG alpha activity",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2005",
+      "volume": "22",
+      "fpage": "2917",
+      "lpage": "2926",
+      "doi": "10.1111/j.1460-9568.2005.04482.x",
+      "pmid": "16324126"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Bastiaansen M",
+        "Hagoort P"
+      ],
+      "title": "Event-induced theta responses as a window on the dynamics of memory",
+      "journal": "Cortex",
+      "year": "2003",
+      "volume": "39",
+      "fpage": "967",
+      "lpage": "992",
+      "doi": "10.1016/S0010-9452(08)70873-6",
+      "pmid": "14584562"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Klimesch W"
+      ],
+      "title": "Alpha-band oscillations, attention, and controlled access to stored information",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2012",
+      "volume": "16",
+      "fpage": "606",
+      "lpage": "617",
+      "doi": "10.1016/j.tics.2012.10.007",
+      "pmid": "23141428",
+      "pmc_id": "PMC3507158"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Bagherzadeh Y",
+        "et al."
+      ],
+      "title": "Alpha synchrony and the neurofeedback control of article alpha synchrony and the neurofeedback control of spatial attention",
+      "journal": "Neuron",
+      "year": "2020",
+      "volume": "105",
+      "fpage": "577",
+      "lpage": "587.e5",
+      "doi": "10.1016/j.neuron.2019.11.001",
+      "pmid": "31812515"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Pascucci D",
+        "et al."
+      ],
+      "title": "EEG brain waves and alpha rhythms: Past, current and future direction",
+      "journal": "Neurosci. Biobehav. Rev.",
+      "year": "2025",
+      "doi": "10.1016/j.neubiorev.2025.106288",
+      "pmid": "40669525"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Kerlin JR",
+        "Shahin AJ",
+        "Miller LM"
+      ],
+      "title": "Attentional gain control of ongoing cortical speech representations in a ‘cocktail party’",
+      "journal": "J. Neurosci.",
+      "year": "2010",
+      "volume": "30",
+      "fpage": "620",
+      "lpage": "628",
+      "doi": "10.1523/JNEUROSCI.3631-09.2010",
+      "pmid": "20071526",
+      "pmc_id": "PMC2832933"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "Leavitt MV",
+        "Molholm S",
+        "Gomez-Ramirez M",
+        "Foxe JJ"
+      ],
+      "title": "‘What’ and ‘Where’ in auditory sensory processing: A high-density electrical mapping study of distinct neural processes underlying sound object recognition and sound localization",
+      "journal": "Front. Integr. Neurosci.",
+      "year": "2011",
+      "volume": "5",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.3389/fnint.2011.00023",
+      "pmid": "21734870",
+      "pmc_id": "PMC3124831"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Foster JJ",
+        "Awh E"
+      ],
+      "title": "The role of alpha oscillations in spatial attention: Limited evidence for a suppression account",
+      "journal": "Curr. Opin. Psychol.",
+      "year": "2019",
+      "volume": "29",
+      "fpage": "34",
+      "lpage": "40",
+      "doi": "10.1016/j.copsyc.2018.11.001",
+      "pmid": "30472541",
+      "pmc_id": "PMC6506396"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Noonan MAP",
+        "et al."
+      ],
+      "title": "Distinct mechanisms for distractor suppression and target facilitation",
+      "journal": "J. Neurosci.",
+      "year": "2016",
+      "volume": "36",
+      "fpage": "1797",
+      "lpage": "1807",
+      "doi": "10.1523/JNEUROSCI.2133-15.2016",
+      "pmid": "26865606",
+      "pmc_id": "PMC4748069"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Schneider D",
+        "Herbst SK",
+        "Klatt LI",
+        "Wöstmann M"
+      ],
+      "title": "Target enhancement or distractor suppression? Functionally distinct alpha oscillations form the basis of attention",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2020",
+      "volume": "55",
+      "fpage": "3256",
+      "lpage": "3265",
+      "doi": "10.1111/ejn.15309",
+      "pmid": "33973310"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Gutteling TP",
+        "Sillekens L",
+        "Lavie N",
+        "Jensen O"
+      ],
+      "title": "Alpha oscillations reflect suppression of distractors with increased perceptual load",
+      "journal": "Prog. Neurobiol.",
+      "year": "2022",
+      "volume": "214",
+      "fpage": "102285",
+      "doi": "10.1016/j.pneurobio.2022.102285",
+      "pmid": "35533812",
+      "pmc_id": "PMC7615060"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Wöstmann M",
+        "Alavash M",
+        "Obleser J"
+      ],
+      "title": "Alpha oscillations in the human brain implement distractor suppression independent of target selection",
+      "journal": "J. Neurosci.",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "9797",
+      "lpage": "9805",
+      "doi": "10.1523/JNEUROSCI.1954-19.2019",
+      "pmid": "31641052",
+      "pmc_id": "PMC6891068"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "doi": "10.1038/s44271-024-00081-w",
+      "pmc_id": "PMC11041682",
+      "pmid": "38665356"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Bonnefond M",
+        "Jensen O"
+      ],
+      "title": "The role of alpha oscillations in resisting distraction",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2025",
+      "volume": "29",
+      "fpage": "368",
+      "lpage": "379",
+      "doi": "10.1016/j.tics.2024.11.004",
+      "pmid": "39668059"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Strauß A",
+        "Wöstmann M",
+        "Obleser J"
+      ],
+      "title": "Cortical alpha oscillations as a tool for auditory selective inhibition",
+      "journal": "Front. Hum. Neurosci.",
+      "year": "2014",
+      "volume": "8",
+      "fpage": "1",
+      "lpage": "7",
+      "pmid": "24904385",
+      "doi": "10.3389/fnhum.2014.00350",
+      "pmc_id": "PMC4035601"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Obleser J",
+        "Kayser C"
+      ],
+      "title": "Neural entrainment and attentional selection in the listening brain",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2019",
+      "volume": "23",
+      "fpage": "913",
+      "lpage": "926",
+      "doi": "10.1016/j.tics.2019.08.004",
+      "pmid": "31606386"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "De Vries IEJ",
+        "Marinato G",
+        "Baldauf D"
+      ],
+      "title": "Decoding object-based auditory attention from source-reconstructed MEG alpha oscillations",
+      "journal": "J. Neurosci.",
+      "year": "2021",
+      "volume": "41",
+      "fpage": "8603",
+      "lpage": "8617",
+      "doi": "10.1523/JNEUROSCI.0583-21.2021",
+      "pmid": "34429378",
+      "pmc_id": "PMC8513695"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Paul BT",
+        "Chen J",
+        "Le T",
+        "Lin V",
+        "Dimitrijevic A"
+      ],
+      "title": "Cortical alpha oscillations in cochlear implant users reflect subjective listening effort during speech-in-noise perception",
+      "journal": "PLoS ONE",
+      "year": "2021",
+      "volume": "16",
+      "fpage": "1",
+      "lpage": "22",
+      "doi": "10.1371/journal.pone.0254162",
+      "pmc_id": "PMC8270138",
+      "pmid": "34242290"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Posner MI"
+      ],
+      "title": "Orienting of attention",
+      "journal": "Q. J. Exp. Psychol.",
+      "year": "1980",
+      "volume": "32",
+      "fpage": "3",
+      "lpage": "25",
+      "doi": "10.1080/00335558008248231",
+      "pmid": "7367577"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "raw_citation": "Kahneman, D. Attention and Effort . (1973)."
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Shinn-Cunningham BG"
+      ],
+      "title": "Object-based auditory and visual attention",
+      "journal": "Trends Cogn. Sci.",
+      "year": "2008",
+      "volume": "12",
+      "fpage": "182",
+      "lpage": "186",
+      "doi": "10.1016/j.tics.2008.02.003",
+      "pmid": "18396091",
+      "pmc_id": "PMC2699558"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Petersen SE",
+        "Posner MI"
+      ],
+      "title": "The attention system of the human brain: 20 years after",
+      "journal": "Annu. Rev. Neurosci.",
+      "year": "2012",
+      "volume": "35",
+      "fpage": "73",
+      "lpage": "89",
+      "doi": "10.1146/annurev-neuro-062111-150525",
+      "pmid": "22524787",
+      "pmc_id": "PMC3413263"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Harris AM",
+        "Dux PE",
+        "Jones CN",
+        "Mattingley JB"
+      ],
+      "title": "Distinct roles of theta and alpha oscillations in the involuntary capture of goal-directed attention",
+      "journal": "Neuroimage",
+      "year": "2017",
+      "volume": "152",
+      "fpage": "171",
+      "lpage": "183",
+      "doi": "10.1016/j.neuroimage.2017.03.008",
+      "pmid": "28274832"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Riecke L",
+        "Sack AT",
+        "Schroeder CE"
+      ],
+      "title": "Endogenous delta/theta sound-brain phase entrainment accelerates the buildup of auditory streaming",
+      "journal": "Curr. Biol.",
+      "year": "2015",
+      "volume": "25",
+      "fpage": "3196",
+      "lpage": "3201",
+      "doi": "10.1016/j.cub.2015.10.045",
+      "pmid": "26628008"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "authors": [
+        "Kubetschek C",
+        "Kayser C"
+      ],
+      "title": "Delta/theta band EEG activity shapes the rhythmic perceptual sampling of auditory scenes",
+      "journal": "Sci. Rep.",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.1038/s41598-021-82008-7",
+      "pmid": "33504860",
+      "pmc_id": "PMC7840678"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Palva S",
+        "Palva JM"
+      ],
+      "title": "New vistas for α-frequency band oscillations",
+      "journal": "Trends Neurosci.",
+      "year": "2007",
+      "volume": "30",
+      "fpage": "150",
+      "lpage": "158",
+      "doi": "10.1016/j.tins.2007.02.001",
+      "pmid": "17307258"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "authors": [
+        "Lange F",
+        "Seer C",
+        "Finke M",
+        "Dengler R",
+        "Kopp B"
+      ],
+      "title": "Dual routes to cortical orienting responses: Novelty detection and uncertainty reduction",
+      "journal": "Biol. Psychol.",
+      "year": "2015",
+      "volume": "105",
+      "fpage": "66",
+      "lpage": "71",
+      "doi": "10.1016/j.biopsycho.2015.01.001",
+      "pmid": "25596484"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Näätänen R",
+        "Gaillard AWK",
+        "Mäntysalo S"
+      ],
+      "title": "Early selective-attention effect on evoked potential reinterpreted",
+      "journal": "Acta Psychol.",
+      "year": "1978",
+      "volume": "42",
+      "fpage": "313",
+      "lpage": "329",
+      "doi": "10.1016/0001-6918(78)90006-9",
+      "pmid": "685709"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Huang YT",
+        "Wu CT",
+        "Koike S",
+        "Chao ZC"
+      ],
+      "title": "Dissecting Mismatch Negativity: Early and late subcomponents for detecting deviants in local and global sequence regularities",
+      "journal": "eNeuro",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1523/ENEURO.0050-24.2024",
+      "pmc_id": "PMC11103647",
+      "pmid": "38702187"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Barry RJ",
+        "et al."
+      ],
+      "title": "Brain dynamics in the active vs. passive auditory oddball task: Exploration of narrow-band EEG phase effects",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2007",
+      "volume": "118",
+      "fpage": "2234",
+      "lpage": "2247",
+      "doi": "10.1016/j.clinph.2007.06.059",
+      "pmid": "17709297"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Dimitrijevic A",
+        "Smith ML",
+        "Kadis DS",
+        "Moore DR"
+      ],
+      "title": "Cortical alpha oscillations predict speech intelligibility",
+      "journal": "Front. Hum. Neurosci.",
+      "year": "2017",
+      "volume": "11",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.3389/fnhum.2017.00088",
+      "pmid": "28286478",
+      "pmc_id": "PMC5323373"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Weisz N",
+        "Hartmann T",
+        "Müller N",
+        "Lorenz I",
+        "Obleser J"
+      ],
+      "title": "Alpha rhythms in audition: Cognitive and clinical perspectives",
+      "journal": "Front. Psychol.",
+      "year": "2011",
+      "volume": "2",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.3389/fpsyg.2011.00073",
+      "pmid": "21687444",
+      "pmc_id": "PMC3110491"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "authors": [
+        "Kim H"
+      ],
+      "title": "Involvement of the dorsal and ventral attention networks in oddball stimulus processing: A meta-analysis",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2014",
+      "volume": "35",
+      "fpage": "2265",
+      "lpage": "2284",
+      "doi": "10.1002/hbm.22326",
+      "pmid": "23900833",
+      "pmc_id": "PMC6868981"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "authors": [
+        "Bernarding C",
+        "Strauss DJ",
+        "Hannemann R",
+        "Seidler H",
+        "Corona-Strauss FI"
+      ],
+      "title": "Neural correlates of listening effort related factors: Influence of age and hearing impairment",
+      "journal": "Brain Res. Bull.",
+      "year": "2013",
+      "volume": "91",
+      "fpage": "21",
+      "lpage": "30",
+      "doi": "10.1016/j.brainresbull.2012.11.005",
+      "pmid": "23201299"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Looi V",
+        "McDermott H",
+        "McKay C",
+        "Hickson L"
+      ],
+      "title": "Music perception of cochlear implant users compared with that of hearing aid users",
+      "journal": "Ear Hear.",
+      "year": "2008",
+      "volume": "29",
+      "fpage": "421",
+      "lpage": "434",
+      "doi": "10.1097/AUD.0b013e31816a0d0b",
+      "pmid": "18344870"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "authors": [
+        "Goldsworthy RL",
+        "Camarena A",
+        "Bissmeyer SRS"
+      ],
+      "title": "Pitch perception is more robust to interference and better resolved when provided by pulse rate than by modulation frequency of cochlear implant stimulation",
+      "journal": "Hear. Res.",
+      "year": "2021",
+      "doi": "10.1016/j.heares.2021.108319",
+      "pmid": "34340020",
+      "pmc_id": "PMC9343238"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Parr T",
+        "Friston KJ"
+      ],
+      "title": "Attention or salience?",
+      "journal": "Curr. Opin. Psychol.",
+      "year": "2019",
+      "volume": "29",
+      "fpage": "1",
+      "lpage": "5",
+      "doi": "10.1016/j.copsyc.2018.10.006",
+      "pmid": "30359960"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "authors": [
+        "Treisman AM"
+      ],
+      "title": "Selective attention in man",
+      "journal": "Br. Med. Bull.",
+      "year": "1964",
+      "volume": "20",
+      "fpage": "12",
+      "lpage": "16",
+      "doi": "10.1093/oxfordjournals.bmb.a070274",
+      "pmid": "14104089"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "authors": [
+        "Meyer KN",
+        "Du F",
+        "Parks E",
+        "Hopfinger JB"
+      ],
+      "title": "Exogenous vs. endogenous attention: Shifting the balance of fronto-parietal activity",
+      "journal": "Neuropsychologia",
+      "year": "2018",
+      "volume": "111",
+      "fpage": "307",
+      "lpage": "316",
+      "doi": "10.1016/j.neuropsychologia.2018.02.006",
+      "pmid": "29425803"
+    },
+    {
+      "ref_id": "CR70",
+      "label": "70.",
+      "authors": [
+        "Haro S",
+        "Rao HM",
+        "Quatieri TF",
+        "Smalt CJ"
+      ],
+      "title": "EEG alpha and pupil diameter reflect endogenous auditory attention switching and listening effort",
+      "journal": "Eur. J. Neurosci.",
+      "year": "2022",
+      "volume": "55",
+      "fpage": "1262",
+      "lpage": "1277",
+      "doi": "10.1111/ejn.15616",
+      "pmid": "35098604",
+      "pmc_id": "PMC9305413"
+    },
+    {
+      "ref_id": "CR71",
+      "label": "71.",
+      "authors": [
+        "Dimitrijevic A",
+        "Smith ML",
+        "Kadis DS",
+        "Moore DR"
+      ],
+      "title": "Neural indices of listening effort in noisy environments",
+      "journal": "Sci. Rep.",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "11278",
+      "doi": "10.1038/s41598-019-47643-1",
+      "pmid": "31375712",
+      "pmc_id": "PMC6677804"
+    },
+    {
+      "ref_id": "CR72",
+      "label": "72.",
+      "authors": [
+        "Weglage A",
+        "et al."
+      ],
+      "title": "Reduced visual-cortex reorganization before and after cochlear implantation relates to better speech recognition ability",
+      "journal": "J. Neurosci. Res.",
+      "year": "2025",
+      "volume": "103",
+      "fpage": "1",
+      "lpage": "17",
+      "doi": "10.1002/jnr.70042",
+      "pmc_id": "PMC12060631",
+      "pmid": "40342241"
+    },
+    {
+      "ref_id": "CR73",
+      "label": "73.",
+      "authors": [
+        "Carter CS",
+        "et al."
+      ],
+      "title": "Anterior cingulate cortex, error detection, and the online monitoring of performance",
+      "journal": "Science",
+      "year": "1998",
+      "volume": "280",
+      "fpage": "747",
+      "lpage": "749",
+      "doi": "10.1126/science.280.5364.747",
+      "pmid": "9563953"
+    },
+    {
+      "ref_id": "CR74",
+      "label": "74.",
+      "authors": [
+        "Shenhav A",
+        "Botvinick MM",
+        "Cohen JD"
+      ],
+      "title": "The expected value of control: An integrative theory of anterior cingulate cortex function",
+      "journal": "Neuron",
+      "year": "2013",
+      "volume": "79",
+      "fpage": "217",
+      "lpage": "240",
+      "doi": "10.1016/j.neuron.2013.07.007",
+      "pmid": "23889930",
+      "pmc_id": "PMC3767969"
+    },
+    {
+      "ref_id": "CR75",
+      "label": "75.",
+      "authors": [
+        "Ullsperger M",
+        "Danielmeier C",
+        "Jocham G"
+      ],
+      "title": "Neurophysiology of performance monitoring and adaptive behavior",
+      "journal": "Physiol. Rev.",
+      "year": "2014",
+      "volume": "94",
+      "fpage": "35",
+      "lpage": "79",
+      "doi": "10.1152/physrev.00041.2012",
+      "pmid": "24382883"
+    },
+    {
+      "ref_id": "CR76",
+      "label": "76.",
+      "doi": "10.1016/j.celrep.2022.110506",
+      "pmid": "35263590"
+    },
+    {
+      "ref_id": "CR77",
+      "label": "77.",
+      "authors": [
+        "Liang Y",
+        "et al."
+      ],
+      "title": "The anterior cingulate cortex promotes long-term auditory cortical responses through an indirect pathway via the rhinal cortex in mice",
+      "journal": "J. Neurosci.",
+      "year": "2023",
+      "volume": "43",
+      "fpage": "4262",
+      "lpage": "4278",
+      "doi": "10.1523/JNEUROSCI.2252-22.2023",
+      "pmid": "37160368",
+      "pmc_id": "PMC10255050"
+    },
+    {
+      "ref_id": "CR78",
+      "label": "78.",
+      "authors": [
+        "De Pasquale F",
+        "Della Penna S",
+        "Sporns O",
+        "Romani GL",
+        "Corbetta M"
+      ],
+      "title": "A dynamic core network and global efficiency in the resting human brain",
+      "journal": "Cereb. Cortex",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "4015",
+      "lpage": "4033",
+      "doi": "10.1093/cercor/bhv185",
+      "pmid": "26347485",
+      "pmc_id": "PMC5027996"
+    },
+    {
+      "ref_id": "CR79",
+      "label": "79.",
+      "authors": [
+        "Rushworth MFS",
+        "Kolling N",
+        "Sallet J",
+        "Mars RB"
+      ],
+      "title": "Valuation and decision-making in frontal cortex: One or many serial or parallel systems?",
+      "journal": "Curr. Opin. Neurobiol.",
+      "year": "2012",
+      "volume": "22",
+      "fpage": "946",
+      "lpage": "955",
+      "doi": "10.1016/j.conb.2012.04.011",
+      "pmid": "22572389"
+    },
+    {
+      "ref_id": "CR80",
+      "label": "80.",
+      "authors": [
+        "Haber SN",
+        "Liu H",
+        "Seidlitz J",
+        "Bullmore E"
+      ],
+      "title": "Prefrontal connectomics: From anatomy to human imaging",
+      "journal": "Neuropsychopharmacology",
+      "year": "2022",
+      "volume": "47",
+      "fpage": "20",
+      "lpage": "40",
+      "doi": "10.1038/s41386-021-01156-6",
+      "pmid": "34584210",
+      "pmc_id": "PMC8617085"
+    },
+    {
+      "ref_id": "CR81",
+      "label": "81.",
+      "authors": [
+        "Billig AJ",
+        "et al."
+      ],
+      "title": "A sound-sensitive source of alpha oscillations in human non-primary auditory cortex",
+      "journal": "J. Neurosci.",
+      "year": "2019",
+      "volume": "39",
+      "fpage": "8679",
+      "lpage": "8689",
+      "doi": "10.1523/JNEUROSCI.0696-19.2019",
+      "pmid": "31533976",
+      "pmc_id": "PMC6820204"
+    },
+    {
+      "ref_id": "CR82",
+      "label": "82.",
+      "authors": [
+        "Nourski KV",
+        "et al."
+      ],
+      "title": "Gamma activation and alpha suppression within human auditory cortex during a speech cassification task",
+      "journal": "J. Neurosci.",
+      "year": "2022",
+      "volume": "42",
+      "fpage": "5034",
+      "lpage": "5046",
+      "doi": "10.1523/JNEUROSCI.2187-21.2022",
+      "pmid": "35534226",
+      "pmc_id": "PMC9233444"
+    },
+    {
+      "ref_id": "CR83",
+      "label": "83.",
+      "authors": [
+        "Wild CJ",
+        "et al."
+      ],
+      "title": "Effortful listening: The processing of degraded speech depends critically on attention",
+      "journal": "J. Neurosci.",
+      "year": "2012",
+      "volume": "32",
+      "fpage": "14010",
+      "lpage": "14021",
+      "doi": "10.1523/JNEUROSCI.1528-12.2012",
+      "pmid": "23035108",
+      "pmc_id": "PMC6704770"
+    },
+    {
+      "ref_id": "CR84",
+      "label": "84.",
+      "authors": [
+        "Carlén M"
+      ],
+      "title": "What constitutes the Prefrontal Cortex?",
+      "journal": "Science (80-. ).",
+      "year": "2017",
+      "volume": "358",
+      "fpage": "478",
+      "lpage": "482",
+      "doi": "10.1126/science.aan8868",
+      "pmid": "29074767"
+    },
+    {
+      "ref_id": "CR85",
+      "label": "85.",
+      "authors": [
+        "Alain C",
+        "Du Y",
+        "Bernstein LJ",
+        "Barten T",
+        "Banai K"
+      ],
+      "title": "Listening under difficult conditions: An activation likelihood estimation meta-analysis",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "2695",
+      "lpage": "2709",
+      "doi": "10.1002/hbm.24031",
+      "pmid": "29536592",
+      "pmc_id": "PMC6866419"
+    },
+    {
+      "ref_id": "CR86",
+      "label": "86.",
+      "doi": "10.1038/s41467-023-42553-3",
+      "pmc_id": "PMC10643402",
+      "pmid": "37957168"
+    },
+    {
+      "ref_id": "CR87",
+      "label": "87.",
+      "doi": "10.1371/journal.pone.0060093",
+      "pmc_id": "PMC3625188",
+      "pmid": "23593166"
+    },
+    {
+      "ref_id": "CR88",
+      "label": "88.",
+      "authors": [
+        "Butler BE",
+        "Chabot N",
+        "Kral A",
+        "Lomber SG"
+      ],
+      "title": "Origins of thalamic and cortical projections to the posterior auditory field in congenitally deaf cats",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "343",
+      "fpage": "118",
+      "lpage": "127",
+      "doi": "10.1016/j.heares.2016.06.003",
+      "pmid": "27306930"
+    },
+    {
+      "ref_id": "CR89",
+      "label": "89.",
+      "authors": [
+        "Kral A",
+        "Yusuf PA",
+        "Land R"
+      ],
+      "title": "Higher-order auditory areas in congenital deafness: Top-down interactions and corticocortical decoupling",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "343",
+      "fpage": "50",
+      "lpage": "63",
+      "doi": "10.1016/j.heares.2016.08.017",
+      "pmid": "27637669"
+    },
+    {
+      "ref_id": "CR90",
+      "label": "90.",
+      "authors": [
+        "Yusuf PA",
+        "Hubka P",
+        "Tillein J",
+        "Vinck M",
+        "Kral A"
+      ],
+      "title": "Deafness weakens interareal couplings in the auditory cortex",
+      "journal": "Front. Neurosci.",
+      "year": "2021",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.3389/fnins.2020.625721",
+      "pmc_id": "PMC7858676",
+      "pmid": "33551733"
+    },
+    {
+      "ref_id": "CR91",
+      "label": "91.",
+      "authors": [
+        "Poeppel D",
+        "Idsardi WJ",
+        "Van Wassenhove V"
+      ],
+      "title": "Speech perception at the interface of neurobiology and linguistics",
+      "journal": "Philos. Trans. R. Soc. B Biol. Sci.",
+      "year": "2008",
+      "volume": "363",
+      "fpage": "1071",
+      "lpage": "1086",
+      "doi": "10.1098/rstb.2007.2160",
+      "pmc_id": "PMC2606797",
+      "pmid": "17890189"
+    },
+    {
+      "ref_id": "CR92",
+      "label": "92.",
+      "doi": "10.1016/j.neuroimage.2022.119371",
+      "pmid": "35700945"
+    },
+    {
+      "ref_id": "CR93",
+      "label": "93.",
+      "authors": [
+        "Ramnani N",
+        "Owen AM"
+      ],
+      "title": "Anterior prefrontal cortex: Insights into function from anatomy and neuroimaging",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2004",
+      "volume": "5",
+      "fpage": "184",
+      "lpage": "194",
+      "doi": "10.1038/nrn1343",
+      "pmid": "14976518"
+    },
+    {
+      "ref_id": "CR94",
+      "label": "94.",
+      "authors": [
+        "Leber AB",
+        "Turk-Browne NB",
+        "Chun MM"
+      ],
+      "title": "Neural predictors of moment-to-moment fluctuations in cognitive flexibility",
+      "journal": "Proc. Natl. Acad. Sci. U. S. A.",
+      "year": "2008",
+      "volume": "105",
+      "fpage": "13592",
+      "lpage": "13597",
+      "doi": "10.1073/pnas.0805423105",
+      "pmid": "18757744",
+      "pmc_id": "PMC2527350"
+    },
+    {
+      "ref_id": "CR95",
+      "label": "95.",
+      "authors": [
+        "Vincent JL",
+        "Kahn I",
+        "Snyder AZ",
+        "Raichle ME",
+        "Buckner RL"
+      ],
+      "title": "Evidence for a frontoparietal control system revealed by intrinsic functional connectivity",
+      "journal": "J. Neurophysiol.",
+      "year": "2008",
+      "volume": "100",
+      "fpage": "3328",
+      "lpage": "3342",
+      "doi": "10.1152/jn.90355.2008",
+      "pmid": "18799601",
+      "pmc_id": "PMC2604839"
+    },
+    {
+      "ref_id": "CR96",
+      "label": "96.",
+      "authors": [
+        "Hampshire A",
+        "Chamberlain SR",
+        "Monti MM",
+        "Duncan J",
+        "Owen AM"
+      ],
+      "title": "The role of the right inferior frontal gyrus: Inhibition and attentional control",
+      "journal": "Neuroimage",
+      "year": "2010",
+      "volume": "50",
+      "fpage": "1313",
+      "lpage": "1319",
+      "doi": "10.1016/j.neuroimage.2009.12.109",
+      "pmid": "20056157",
+      "pmc_id": "PMC2845804"
+    },
+    {
+      "ref_id": "CR97",
+      "label": "97.",
+      "authors": [
+        "Sacchet MD",
+        "et al."
+      ],
+      "title": "Attention drives synchronization of alpha and beta rhythms between right inferior frontal and primary sensory neocortex",
+      "journal": "J. Neurosci.",
+      "year": "2015",
+      "volume": "35",
+      "fpage": "2074",
+      "lpage": "2082",
+      "doi": "10.1523/JNEUROSCI.1292-14.2015",
+      "pmid": "25653364",
+      "pmc_id": "PMC4315835"
+    },
+    {
+      "ref_id": "CR98",
+      "label": "98.",
+      "authors": [
+        "Corbetta M",
+        "Shulman GL"
+      ],
+      "title": "Control of goal-directed and stimulus-driven attention in the brain",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2002",
+      "volume": "3",
+      "fpage": "201",
+      "lpage": "215",
+      "doi": "10.1038/nrn755",
+      "pmid": "11994752"
+    },
+    {
+      "ref_id": "CR99",
+      "label": "99.",
+      "authors": [
+        "Gratton C",
+        "et al."
+      ],
+      "title": "Functional brain networks are dominated by stable group and individual factors, not cognitive or daily variation",
+      "journal": "Neuron",
+      "year": "2018",
+      "volume": "98",
+      "fpage": "439",
+      "lpage": "452.e5",
+      "doi": "10.1016/j.neuron.2018.03.035",
+      "pmid": "29673485",
+      "pmc_id": "PMC5912345"
+    },
+    {
+      "ref_id": "CR100",
+      "label": "100.",
+      "authors": [
+        "Uddin LQ",
+        "Yeo BTT",
+        "Spreng RN"
+      ],
+      "title": "Towards a universal taxonomy of macro-scale functional human brain networks",
+      "journal": "Brain Topogr.",
+      "year": "2019",
+      "volume": "32",
+      "fpage": "926",
+      "lpage": "942",
+      "doi": "10.1007/s10548-019-00744-6",
+      "pmid": "31707621",
+      "pmc_id": "PMC7325607"
+    },
+    {
+      "ref_id": "CR101",
+      "label": "101.",
+      "authors": [
+        "Oldfield RC"
+      ],
+      "title": "The assessment and analysis of handedness: The Edinburgh inventory",
+      "journal": "Neuropsychologia",
+      "year": "1971",
+      "volume": "9",
+      "fpage": "97",
+      "lpage": "113",
+      "doi": "10.1016/0028-3932(71)90067-4",
+      "pmid": "5146491"
+    },
+    {
+      "ref_id": "CR102",
+      "label": "102.",
+      "authors": [
+        "Bönitz H",
+        "et al."
+      ],
+      "title": "Event-related neuronal responses to acoustic novelty in single-sided deaf cochlear implant users: Initial findings",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2018",
+      "volume": "129",
+      "fpage": "133",
+      "lpage": "142",
+      "doi": "10.1016/j.clinph.2017.10.025",
+      "pmid": "29182915"
+    },
+    {
+      "ref_id": "CR103",
+      "label": "103.",
+      "doi": "10.1162/089892998562997",
+      "pmid": "9802992"
+    },
+    {
+      "ref_id": "CR104",
+      "label": "104.",
+      "authors": [
+        "Thigpen NN",
+        "Kappenman ES",
+        "Keil A"
+      ],
+      "title": "Assessing the internal consistency of the event-related potential: An example analysis",
+      "journal": "Psychophysiology",
+      "year": "2017",
+      "volume": "54",
+      "fpage": "123",
+      "lpage": "138",
+      "doi": "10.1111/psyp.12629",
+      "pmid": "28000264",
+      "pmc_id": "PMC5525326"
+    },
+    {
+      "ref_id": "CR105",
+      "label": "105.",
+      "authors": [
+        "Allen JB",
+        "Hall JL",
+        "Jeng PS"
+      ],
+      "title": "Loudness growth in 1 / 2-octave bands ( LGOB ) –a procedure for the of loudness",
+      "journal": "J. Acoust. Soc. Am.",
+      "year": "1990",
+      "volume": "88",
+      "fpage": "745",
+      "lpage": "753",
+      "doi": "10.1121/1.399778",
+      "pmid": "2212299"
+    },
+    {
+      "ref_id": "CR106",
+      "label": "106.",
+      "authors": [
+        "Zeng F-G"
+      ],
+      "title": "Loudness growth in forward masking: Relation to intensity discrimination",
+      "journal": "J. Acoust. Soc. Am.",
+      "year": "1994",
+      "volume": "96",
+      "fpage": "2127",
+      "lpage": "2132",
+      "doi": "10.1121/1.410154",
+      "pmid": "7963026"
+    },
+    {
+      "ref_id": "CR107",
+      "label": "107.",
+      "authors": [
+        "Sandmann P",
+        "et al."
+      ],
+      "title": "Rapid bilateral improvement in auditory cortex activity in postlingually deafened adults following cochlear implantation",
+      "journal": "Clin. Neurophysiol.",
+      "year": "2015",
+      "volume": "126",
+      "fpage": "594",
+      "lpage": "607",
+      "doi": "10.1016/j.clinph.2014.06.029",
+      "pmid": "25065298"
+    },
+    {
+      "ref_id": "CR108",
+      "label": "108.",
+      "authors": [
+        "Schierholz I",
+        "et al."
+      ],
+      "title": "Auditory and audio–visual processing in patients with cochlear, auditory brainstem, and auditory midbrain implants: An EEG study",
+      "journal": "Hum. Brain Mapp.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "2206",
+      "lpage": "2225",
+      "doi": "10.1002/hbm.23515",
+      "pmid": "28130910",
+      "pmc_id": "PMC6866801"
+    },
+    {
+      "ref_id": "CR109",
+      "label": "109.",
+      "doi": "10.1155/2011/879716",
+      "pmc_id": "PMC3090754",
+      "pmid": "21584256"
+    },
+    {
+      "ref_id": "CR110",
+      "label": "110.",
+      "authors": [
+        "Oostenveld R",
+        "Fries P",
+        "Maris E",
+        "Schoffelen JM"
+      ],
+      "title": "FieldTrip: Open source software for advanced analysis of MEG, EEG, and invasive electrophysiological data",
+      "journal": "Comput. Intell. Neurosci.",
+      "year": "2011",
+      "doi": "10.1155/2011/156869",
+      "pmid": "21253357",
+      "pmc_id": "PMC3021840"
+    },
+    {
+      "ref_id": "CR111",
+      "label": "111.",
+      "raw_citation": "Mitra; Kumar, Sanjit; Kuo, Y. Digital signal processing a computer-based approach . (2006)."
+    },
+    {
+      "ref_id": "CR112",
+      "label": "112.",
+      "authors": [
+        "Tesche CD",
+        "et al."
+      ],
+      "title": "Signal-space projections of MEG data characterize both distributed and well-localized neuronal sources",
+      "journal": "Electroencephalogr. Clin. Neurophysiol.",
+      "year": "1995",
+      "volume": "95",
+      "fpage": "189",
+      "lpage": "200",
+      "doi": "10.1016/0013-4694(95)00064-6",
+      "pmid": "7555909"
+    },
+    {
+      "ref_id": "CR113",
+      "label": "113.",
+      "authors": [
+        "Uusitalo MA",
+        "Ilmoniemi RJ"
+      ],
+      "title": "Signal-space projection method for separating MEG or EEG into components",
+      "journal": "Med. Biol. Eng. Comput.",
+      "year": "1997",
+      "volume": "35",
+      "fpage": "135",
+      "lpage": "140",
+      "doi": "10.1007/BF02534144",
+      "pmid": "9136207"
+    },
+    {
+      "ref_id": "CR114",
+      "label": "114.",
+      "authors": [
+        "Yaar-Soffer Y",
+        "Herrmann CS",
+        "Henkin Y",
+        "Kral A"
+      ],
+      "title": "Theta and alpha oscillatory signatures of auditory sensory and cognitive loads during complex listening",
+      "journal": "Neuroimage",
+      "year": "2024",
+      "volume": "289",
+      "fpage": "120546",
+      "doi": "10.1016/j.neuroimage.2024.120546",
+      "pmid": "38387743"
+    },
+    {
+      "ref_id": "CR115",
+      "label": "115.",
+      "authors": [
+        "Maris E",
+        "Oostenveld R"
+      ],
+      "title": "Nonparametric statistical testing of EEG- and MEG-data",
+      "journal": "J. Neurosci. Methods.",
+      "year": "2007",
+      "volume": "164",
+      "fpage": "177",
+      "lpage": "190",
+      "doi": "10.1016/j.jneumeth.2007.03.024",
+      "pmid": "17517438"
+    },
+    {
+      "ref_id": "CR116",
+      "label": "116.",
+      "authors": [
+        "Jaiswal A",
+        "et al."
+      ],
+      "title": "Comparison of beamformer implementations for MEG source localization",
+      "journal": "Neuroimage",
+      "year": "2020",
+      "doi": "10.1016/j.neuroimage.2020.116797",
+      "pmid": "32278091",
+      "pmc_id": "PMC7322560"
+    },
+    {
+      "ref_id": "CR117",
+      "label": "117.",
+      "authors": [
+        "Westner BU",
+        "et al."
+      ],
+      "title": "A unified view on beamformers for M/EEG source reconstruction",
+      "journal": "Neuroimage",
+      "year": "2022",
+      "volume": "246",
+      "fpage": "118789",
+      "doi": "10.1016/j.neuroimage.2021.118789",
+      "pmid": "34890794"
+    },
+    {
+      "ref_id": "CR118",
+      "label": "118.",
+      "authors": [
+        "Gramfort A",
+        "Theodore P",
+        "Olivi E",
+        "Maureen C"
+      ],
+      "title": "OpenMEEG: Opensource software for quasistatic biolectromagnetics",
+      "journal": "Biomed. Eng. Online",
+      "year": "2010",
+      "doi": "10.1186/1475-925X-9-45",
+      "pmid": "20819204",
+      "pmc_id": "PMC2949879"
+    },
+    {
+      "ref_id": "CR119",
+      "label": "119.",
+      "authors": [
+        "Van Veen BD",
+        "Van Drongelen W",
+        "Yuchtman M",
+        "Suzuki A"
+      ],
+      "title": "Localization of brain electrical activity via linearly constrained minimum variance spatial filtering",
+      "journal": "IEEE Trans. Biomed. Eng.",
+      "year": "1997",
+      "volume": "44",
+      "fpage": "867",
+      "lpage": "880",
+      "doi": "10.1109/10.623056",
+      "pmid": "9282479"
+    },
+    {
+      "ref_id": "CR120",
+      "label": "120.",
+      "authors": [
+        "Fan L",
+        "et al."
+      ],
+      "title": "The human Brainnetome Atlas: A new brain atlas based on connectional architecture",
+      "journal": "Cereb. Cortex",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "3508",
+      "lpage": "3526",
+      "doi": "10.1093/cercor/bhw157",
+      "pmid": "27230218",
+      "pmc_id": "PMC4961028"
+    },
+    {
+      "ref_id": "CR121",
+      "label": "121.",
+      "authors": [
+        "Alain C",
+        "He Y",
+        "Grady C"
+      ],
+      "title": "The contribution of the inferior parietal lobe to auditory spatial working memory",
+      "journal": "J. Cogn. Neurosci.",
+      "year": "2008",
+      "volume": "20",
+      "fpage": "285",
+      "lpage": "295",
+      "doi": "10.1162/jocn.2008.20014",
+      "pmid": "18275335"
+    },
+    {
+      "ref_id": "CR122",
+      "label": "122.",
+      "authors": [
+        "Oehrn CR",
+        "et al."
+      ],
+      "title": "Neural communication patterns underlying conflict detection, resolution, and adaptation",
+      "journal": "J. Neurosci.",
+      "year": "2014",
+      "volume": "34",
+      "fpage": "10438",
+      "lpage": "10452",
+      "doi": "10.1523/JNEUROSCI.3099-13.2014",
+      "pmid": "25080602",
+      "pmc_id": "PMC6608272"
+    },
+    {
+      "ref_id": "CR123",
+      "label": "123.",
+      "authors": [
+        "van de Nieuwenhuijzen ME",
+        "et al."
+      ],
+      "title": "Decoding of task-relevant and task-irrelevant intracranial EEG representations",
+      "journal": "Neuroimage",
+      "year": "2016",
+      "volume": "137",
+      "fpage": "132",
+      "lpage": "139",
+      "doi": "10.1016/j.neuroimage.2016.05.008",
+      "pmid": "27153977"
+    },
+    {
+      "ref_id": "CR124",
+      "label": "124.",
+      "authors": [
+        "Groppe DM",
+        "Urbach TP",
+        "Kutas M"
+      ],
+      "title": "Mass univariate analysis of event-related brain potentials/fields I: A critical tutorial review",
+      "journal": "Psychophysiology",
+      "year": "2011",
+      "volume": "48",
+      "fpage": "1711",
+      "lpage": "1725",
+      "doi": "10.1111/j.1469-8986.2011.01273.x",
+      "pmid": "21895683",
+      "pmc_id": "PMC4060794"
+    },
+    {
+      "ref_id": "CR125",
+      "label": "125.",
+      "authors": [
+        "Luck SJ"
+      ],
+      "journal": "An Introduction to the Event-Related Potential Technique",
+      "year": "2014"
+    }
+  ]
+}

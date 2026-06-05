@@ -1,0 +1,1589 @@
+{
+  "metadata": {
+    "title": "Hearing aid effectiveness and probable dementia risk across 33 countries: A pooled analysis of seven cohorts",
+    "authors": [
+      "Fan Jiang",
+      "Qiuyue Dong",
+      "Dona M.P. Jayakody",
+      "Xi Chen",
+      "Christoph Mueller",
+      "Bei Wu",
+      "Benjamin R. Underwood",
+      "Lijing L. Yan",
+      "Xinyu Li",
+      "Chiara Bruck",
+      "Gordon G. Liu",
+      "Wai-Kit Ming",
+      "Sha Feng",
+      "Chenkai Wu",
+      "Lianping Yang",
+      "Alimu Dayimu",
+      "Haibo Wang",
+      "Shanquan Chen",
+      "Lei Xu"
+    ],
+    "journal": "Cell Reports Medicine",
+    "year": "2026",
+    "doi": "10.1016/j.xcrm.2026.102802",
+    "pmc_id": "PMC13198310",
+    "pmid": "42127901",
+    "full_text_available": true,
+    "section_count": 20,
+    "reference_count": 76
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Summary Given the inconsistent evidence regarding hearing aid use and reduced dementia risk, this study evaluates whether hearing aid use, particularly effective use, is associated with lower probable dementia risk among hearing-impaired older adults. Using harmonized longitudinal data from 61,089 hearing-impaired participants (aged 55+ years) from seven cohorts (CHARLS, KLOSA, SHARE, ELSA, TILDA, HRS, and MHAS), we employ IPTW-corrected Cox models stratified by country income. Over a 6.5-year average follow-up (8,911 events), hearing aid use is associated with reduced dementia risk (hazard ratio [HR] = 0.91, 95% confidence interval [CI] 0.88–0.94). This association is confined to participants reporting effective hearing improvement (HR = 0.86, 95% CI 0.80–0.93), whereas those reporting poor hearing improvement show no reduced risk (HR = 0.98, 95% CI 0.90–1.07). The association is stronger in middle-income countries (HR = 0.76) and among subgroup populations, including those aged <70 years, women, those who are unmarried, and those with lower education. Quality hearing rehabilitation is a potential public health priority for addressing the dementia burden.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "By the year 2050, dementia is predicted to affect 150 million people worldwide, contributing to 115.8 million disability-adjusted life years. 1 Hearing loss, which affects approximately 10% of individuals aged 40–69 years, 30% over 65 years, and 70%–90% aged 85 years or older, 2 , 3 has emerged as one of the most potentially modifiable risk factors for dementia. 1 According to the 2024 Lancet Commission on dementia prevention, hearing loss accounts for 7% of dementia cases, making it one of the leading contributors among 14 identified modifiable risk factors. 1 This implies that managing hearing loss is a significant public health priority in the context of dementia risk. 1 Hearing aids are generally considered the gold-standard first-line treatment for adults with hearing loss. 4 Yet, more evidence is required to conclude whether hearing loss treatment using hearing aids could reduce the rate of cognitive decline in older adults with hearing loss. 5 The ACHIEVE randomized controlled trial (RCT) showed that hearing aid use was associated with a 48% reduction in 3-year cognitive decline among a higher-risk subgroup—individuals with increased vulnerability to cognitive decline due to factors such as lower baseline cognitive function, greater cardiovascular risk, and other dementia-related risk factors. 6 While the trial’s authors suggested that longer follow-up might be necessary to detect benefits in a broader population of individuals with hearing loss, conducting such long-term RCTs presents significant practical and ethical challenges. 7 For instance, ethically justifying withholding hearing aids from control group participants over extended periods is difficult, given the known benefits of hearing rehabilitation, and participant crossover (where control participants independently obtain hearing aids) can undermine trial integrity. In light of these challenges, high-quality observational studies serve a critical complementary role by providing valuable insights into the potential long-term effects of hearing aid use on dementia risk in large, real-world populations. However, evidence from observational studies remains limited and inconsistent. 8 , 9 , 10 , 11 For instance, a French prospective study suggested that hearing aid use was associated with less cognitive decline in older adults with hearing loss. 12 A recent target trial conducted in Australia suggested that hearing aid might reduce dementia risk but could not change the cognitive scores. 13 In contrast, other studies from the United States and the United Kingdom found no significant difference in dementia incidence between hearing aid users and non-users. 9 , 14 These conflicting results may be due to methodological limitations such as small sample sizes 9 , 12 and diverse study protocols. Another critical but often overlooked issue is the effectiveness of hearing aid use. 15 Simply wearing a hearing aid does not guarantee effective rehabilitation: some users experience substantial improvement in hearing, while others benefit minimally. 16 Variability in the effectiveness of hearing aid use may dilute the associations between hearing aid use and cognitive outcomes, explaining the inconsistent results of previous studies. 17 The methodological limitations of prior research, including small sample sizes, lack of generalizability, and failure to account for hearing aid effectiveness, highlight the need for a more rigorous approach. Therefore, a large-scale longitudinal analysis that pools harmonized data from multiple international cohorts is essential to increase the overall sample size, enhance generalizability, and, most importantly, achieve the statistical power needed to investigate the role of hearing aid effectiveness by analyzing smaller, refined subgroups. 18 Furthermore, this approach enables the investigation of how the association between hearing aid use and dementia risk varies across different levels of national economic development, which may be a vital step toward tailoring effective global public health strategies. 19 In this study, we conducted a large longitudinal analysis using harmonized data from seven aging cohort studies spanning 33 countries. We examined whether older adults with hearing loss who use hearing aids, particularly those who report effective hearing improvement, have a lower risk of developing probable dementia compared to those who do not use hearing aid. We also investigated whether this association varies according to national economic development levels and performed subgroup analyses to identify populations for whom the use of hearing aids is most strongly associated with a lower risk of probable dementia.",
+      "order": 1
+    },
+    {
+      "section": "Population Characteristics",
+      "text": "Our pooled dataset included 61,089 hearing-impaired older adults (mean age at baseline 69.4 ± 9.3 years; 49.4% women) ( Table 1 ). The baseline characteristics by cohort are detailed in Table S12 . Briefly, participants from middle-income countries were, on average, younger than those from high-income countries. Gender distribution was roughly balanced across income groups (women: 48.7%–51.2%). However, participants from middle-income countries had lower educational attainment (college education: 2.4% vs. 22.2%) and higher rates of marriage or partnership (77.7% vs. 67.7%) than those from high-income countries. The prevalence of hearing aid use at baseline was low, with only 15.4% of hearing-impaired participants reporting using a hearing aid ( Table 1 ). The adoption rates varied substantially across cohorts, ranging from as low as 0.9% in CHARLS to as high as 34.1% in TILDA ( Table S12 ). When stratified by the country’s income level, hearing aid use was markedly lower in middle-income countries (2.6%) compared to high-income countries (20.0%). Overall, about two-thirds (63.5%) of hearing aid users reported good device effectiveness ( Table 1 ). Rates varied between cohorts, ranging from 21.6% (CHARLS) to 81.0% (KLOSA). By income level, high-income countries reported higher effectiveness (64.4%) than middle-income countries (46.0%). Figure 1 maps hearing aid use and effectiveness by country: notably, Denmark had the highest hearing aid adoption rate, while China had the lowest; conversely, Switzerland had the highest effectiveness ratings, whereas China had the lowest. After applying IPTW weighting, baseline characteristics (age, gender, education, etc.) were well balanced between hearing aid users and non-users, as well as between the poor effectiveness and good effectiveness groups ( Tables S13 and S14 ), suggesting that our weighted analyses appropriately account for baseline differences.",
+      "order": 2
+    },
+    {
+      "section": "Hearing Aid Use And Probable Dementia",
+      "text": "Over a mean follow-up of 6.5 years (standard deviation [SD], 4.1; range 2–22 years across cohorts), a total of 8,911 participants developed probable dementia (cumulative incidence, 14.6%) ( Table 1 ). In the pooled IPTW-weighted analysis, baseline hearing aid use was associated with a significantly lower risk of probable dementia compared to no hearing aid use. Hearing aid users had a hazard ratio [HR] of 0.91 (95% confidence interval [CI] 0.88–0.94) for probable dementia relative to hearing-impaired non-users ( Figure 2 ). In other words, hearing aid use was linked to about a 9% lower risk of probable dementia. When grouped by national income level, hearing aid users had an approximately 24% lower hazard of probable dementia compared to non-users (HR 0.76, 95% CI 0.69–0.83) in middle-income countries, whereas the risk was about 8% lower in users vs. non-users (HR 0.92, 95% CI 0.89–0.95) in high-income countries ( Figure 2 ). The E-values for the association between hearing aid use and probable dementia were 1.34 (harmonized cohort), 1.31 (high-income countries), and 1.73 (middle-income countries). In cohort-specific analyses, the point estimates for HR were below 1.0 in six of the seven cohorts, with this association reaching statistical significance in the CHARLS (HR 0.88), KLOSA (HR 0.77), and MHAS (HR 0.65) cohorts ( Figure S2 ). The robustness of the main findings was supported by a series of comprehensive sensitivity analyses ( Figures 2 and S3 ). The association remained consistent with the primary analysis across most scenarios, including when restricting the sample to participants aged 60 years and above at baseline or those who had at least two follow-up waves after baseline, excluding cases defined by IQCODE, excluding late adopters or non-persistent users, and when using non-imputed data or restricting multiple imputation exclusively to missing covariates. Furthermore, the protective association was also generally observed when excluding the first 3 years of follow-up, although statistical significance was explicitly lost within the high-income countries’ subgroup in this scenario. The association between hearing aid use and a lower risk of probable dementia varied significantly across subgroups ( Figure 3 ). In the harmonized cohort, tests for interaction were significant for age, gender, marital status, education, and sociodemographic index (SDI). The protective association was observed across all age groups, but was slightly stronger among individuals aged <70 years (HR = 0.91) compared with those aged ≥70 years (HR = 0.93). It was also more pronounced among women (HR = 0.86), individuals with lower education (HR = 0.84), and those who were unmarried (HR = 0.88), while no statistically significant association was observed among men, those with higher education, or married individuals. In high-income countries, significant interactions were observed for gender, marital status, education, and SDI, whereas in middle-income countries, interactions were significant for age, gender, and family income.",
+      "order": 3
+    },
+    {
+      "section": "Hearing Aid Effectiveness And Probable Dementia",
+      "text": "The effectiveness of hearing aid strongly influenced the probable dementia risk. Figure 4 presents the HRs for probable dementia for good hearing aid effectiveness and poor hearing aid effectiveness (hearing-impaired participants without hearing aids as the reference). Participants who used hearing aids and reported good hearing improvement experienced a markedly lower risk of probable dementia compared to those who did not use hearing aids. In the pooled analysis, the HR was 0.86 (95% CI, 0.80–0.93) for the good-effectiveness group compared to non-users. This corresponds to a roughly 14% lower risk of probable dementia risk. By contrast, hearing aid users who reported poor hearing improvement had no significant risk reduction—their HR for probable dementia was 0.98 (95% CI 0.90–1.07), essentially equivalent to that of the reference group of hearing-impaired non-users. In analyses stratified by country income level, the high-income countries had significant probable dementia risk reduction only among good-effectiveness users (HR 0.87, 95% CI 0.81–0.95), whereas middle-income countries exhibited protective associations for both good (HR 0.70, 95%CI 0.56–0.88) and poor effectiveness users (HR 0.70, 95%CI 0.55–0.90) ( Figure 4 ). The E-values for the association between good hearing aid effectiveness and probable dementia were 1.45 (harmonized cohort), 1.42 (high-income countries), and 1.89 (middle-income countries). In cohort-specific analyses, while no significant association was found in any study for the poor effectiveness group, the good effectiveness group showed a statistically significant lower dementia risk in the KLOSA and HRS cohorts, with a consistent trend of lower risk (all HRs <1.0) across all seven studies ( Figure S4 ). Sensitivity analyses for the effectiveness findings were largely consistent with the primary analysis ( Figures 4 and S5 ). When restricting baseline age (≥60 years), requiring multiple follow-ups (≥2 waves), using dementia criteria without IQCODE or self-report data, excluding non-persistent users, or analyzing only complete cases without imputation, the good-effectiveness group consistently showed a protective association, while the poor-effectiveness group remained equivalent to non-users in terms of risk. The protective association for good-effectiveness users was also generally held when excluding the first 3 years of follow-up. Subgroup and interaction analyses of hearing aid effectiveness showed no significant interactions across most demographic subgroups ( Figure 5 ). A significant interaction by SDI was observed in the harmonized cohort: effective hearing aid use was associated with a lower risk of probable dementia in high (HR = 0.76) and low (HR = 0.82) SDI regions but not in middle-SDI regions. In high-income countries, a significant interaction was found only for family income, with a protective association observed among individuals with lower family income (HR = 0.84).",
+      "order": 4
+    },
+    {
+      "section": "Discussion",
+      "text": "In this large, harmonized analysis of seven longitudinal cohorts from 33 countries, we found that hearing aid use was associated with a lower risk of probable dementia in older adults with hearing loss. The participants who used hearing aid had a 9% lower hazard of probable dementia compared to non-users. Crucially, the association between hearing aid and probable dementia appeared to depend on their perceived effectiveness: participants who reported a substantial improvement in hearing with their hearing aid had about a 14% lower risk of probable dementia, whereas those who gained little benefit had no significant risk reduction. Our results also indicated heterogeneity by country income level, with the association with a lower risk of probable dementia appearing stronger in settings characterized by lower baseline hearing aid adoption, particularly in the middle-income countries. Subgroup analyses suggested that the association between hearing aid use and lower probable dementia risk was more pronounced in certain demographic groups, specifically women, participants with lower educational attainment, and unmarried individuals. In summary, our findings highlight that effective hearing aid use, particularly in contexts with limited resources, is linked to a significantly lower risk of probable dementia in later life. Our study builds upon and substantially extends previous research examining the connection between hearing loss and dementia. Previous studies have mainly examined hearing aid use and cognitive function in a specific domain (e.g., episodic memory) and have suggested a link to slower cognitive decline. 5 , 20 However, research on hearing aid use and dementia has shown mixed results, often due to small sample sizes. For example, Amieva et al. found no significant reduction in dementia risk among hearing aid users (HR 0.86, 95% CI 0.59–1.26), but the study included only 176 users. 10 Deal et al. reported an HR of 0.84 (95% CI 0.51–1.39), but the wide confidence interval suggests limited statistical power. 9 In contrast, Bucholc et al. found that hearing aid use reduced the risk of mild cognitive impairment (MCI) progressing to dementia. However, the study focused only on MCI patients with hearing loss. 11 Mahmoudi et al. linked hearing aid use to delayed Alzheimer diagnosis but did not assess long-term effects. 8 Compared to these prior investigations, our study provides considerably stronger evidence on the protective association between hearing aid use and dementia. By pooling data from seven cohorts, we achieved a much larger sample (over 60,000 individuals, including nearly 9,000 dementia cases) and a longer average follow-up period than any prior study. We also rigorously addressed potential biases through study design and analysis. In short, our results reinforce the hypothesis that hearing rehabilitation is associated with the preservation of cognitive health, and this confirmation was achieved with a level of confidence and generalizability that surpasses previous reports. A key contribution of our research is the explicit consideration of hearing aid effectiveness. To our knowledge, this study moved beyond the binary classification of hearing aid use vs. no hearing aid use and consider how well the hearing aid works for each individual. This distinction turned out to be crucial: we found a substantially stronger protective association in the group with effective hearing correction than what was observed when examining hearing aid users as a whole. In fact, when users with poor outcomes were separated, those ineffective users showed no difference in probable dementia risk compared to non-users. This suggests that previous studies that treated all hearing aid users as one group may have underestimated the benefits of hearing aid. 8 , 11 , 12 The inconsistent results of previous studies may be partly explained by the inclusion of ineffective users, which could obscure the overall association. 21 , 22 By reducing misclassification (i.e., not assuming all hearing aid use is beneficial), we clarified that successful hearing rehabilitation, rather than just device usage, is the factor associated with a lower risk of probable dementia. This underscores critical points for both research and clinical practice. Successful rehabilitation requires more than simply providing a hearing aid, and it likely necessitates a holistic approach. This includes raising awareness of the broad impacts of untreated hearing loss, promoting timely intervention to overcome common delays in seeking care, ensuring devices are appropriately fitted and programmed to meet individual communication needs, and potentially incorporating elements of comprehensive auditory rehabilitation, such as counseling, communication strategies, or auditory training programs. 23 Future studies should, where possible, incorporate objective measures of hearing aid benefit—such as aided audiometry, speech-in-noise tests, or even real-world data logging of device use—to validate and extend our findings based on self-report. Furthermore, investigating potential mechanisms, such as whether effective hearing intervention mitigates adverse cortical reorganization (e.g., tonotopic changes) associated with sensory deprivation, could provide further evidence for a potential causal link between successful hearing rehabilitation and a lower risk of probable dementia. Our findings may be interpreted in light of several hypotheses linking hearing loss and dementia. First, the sensory deficit hypothesis suggested that reduced hearing stimulation might lead to decline in brain volume or concurrent declines in the auditory periphery and the central nervous system, which hinder general cognitive and emotional processes in favor of auditory perception. 24 Effective hearing aid use might help restore auditory stimulation before prolonged deprivation occurs, thereby potentially mitigating these neural changes and slowing cognitive decline. Second, the cognitive load hypothesis suggested that individuals with hearing loss may allocate greater cognitive resources to effortful listening and speech perception, leaving fewer resources available for non-perceptual cognitive processes. 25 Successful rehabilitation could reduce the extra cognitive effort required to understand speech, allowing more cognitive resources to be redirected toward other cognitive functions. 26 In addition, hearing loss has been associated with reduced social interaction and increased social isolation. Individuals with hearing difficulties might communicate less frequently with family and friends, spent less time outside the home, and withdrew from social and leisure activities. 27 , 28 These factors had been consistently linked to an increased risk of dementia. 29 , 30 By improving communication ability, effective hearing aid use might facilitate social participation and maintain social connectedness, which might in turn help reduce the risk of cognitive decline. 31 , 32 , 33 Our subgroup and interaction analyses identified several factors that may modify the association between hearing aid use and probable dementia risk. In harmonized cohort, the protective association was more pronounced in regions with higher SDI and among specific demographic groups, including individuals aged <70 years, women, unmarried individuals, and those with lower education. Furthermore, this association was almost exclusively driven by the effectiveness of hearing aids. Classic mechanisms, such as improved communication and reduced social isolation, may partly explain the associations. 34 , 35 In addition, within these subgroups, individuals who obtain and effectively use hearing aids may represent a particularly health-literate and proactive segment of the population, 36 and these unmeasured characteristics could themselves confound the observed association. 37 At the contextual level, higher-SDI regions typically reflect more mature healthcare systems, including better access to audiological services and professional device fitting, which may help maximize the effectiveness of hearing aids. Stratified analyses by country income level showed different patterns. In high-income countries, the pattern was similar to that observed in harmonized cohort, whereas in middle-income countries, the association was most pronounced in the high family income subgroup. Access to hearing aids and related healthcare services is often more strongly shaped by personal economic resources. Consequently, hearing aid users in these contexts may represent a positively selected group with greater socioeconomic resources, better healthcare access, and higher health literacy compared with the surrounding population. 38 Notably, some results in middle-income countries did not follow the overall pattern. For example, hearing aid use was associated with a higher dementia risk in the high-SDI subgroup, and among women, good-effectiveness users showed a higher hazard ratio than poor-effectiveness users. These findings should be considered in the context of the small sample sizes in these specific subgroups, which may have resulted in limited statistical power and unstable point estimates. Moreover, the largely overlapping confidence intervals between compared groups suggest that these differences may not be statistically meaningful. Caution is therefore warranted when interpreting these results. Beyond the individual-level factors discussed, the notable variations in hearing aid usage, effectiveness, and the associated lower probable risk of dementia that we observed across country income levels likely stem from fundamental disparities in healthcare system architecture and socioeconomic realities. In high-income countries, where access barriers are relatively low due to public or private insurance systems, the selection process may be more inclined to screen for individuals who not only seek but also pursue effective intervention. 39 This explanatory path aligns with our finding that the protective association was almost exclusively concentrated among users reporting “good” effectiveness. At the same time, no significant benefit was observed for users reporting “poor” effectiveness. However, the situation in middle-income countries, such as China and Mexico in this study, is likely more complex, where individuals may face multiple barriers in obtaining a hearing aid. Systemic obstacles include fragmented reimbursement systems often lacking public coverage for older adults 40 and policy priorities that may favor high-cost interventions like pediatric cochlear implants over affordable hearing aids for the large elderly population. 41 , 42 A severe shortage of professional services compounds this. For instance, China has an extremely low ratio of audiologists to population (<2 per million), which limits their capacity for adequate consultation and fitting. 43 This professional vacuum may partly explain the lower rates of reported device effectiveness in this region (46.0% vs. 64.4% in high-income countries). Economically, even if the absolute price is lower, the relative cost of a hearing aid can be a substantial out-of-pocket expense, acting as a stringent filter. 44 In light of these potential barriers, successfully acquiring a hearing aid may reflect not only an individual’s health needs but also their economic capacity, higher health literacy, strong motivation, and rich social capital. 37 , 38 Therefore, the extent to which the strong association between hearing aid use and lower dementia risk is influenced by this selection effect, in addition to the intervention’s intrinsic benefits, requires careful consideration. Consequently, attributing the observed effect entirely to the hearing aid while ignoring these powerful potential confounders is challenging. In summary, our research reveals that the association of hearing aid use must be interpreted within the socioeconomic and policy context in which it occurs. In middle-income countries, expanding basic access and affordability may be a primary policy challenge. In high-income countries, the policy focus might shift more toward optimizing intervention effectiveness. Future research must look beyond simple income-level classifications to prospectively measure and analyze these key contextual moderators to more accurately assess the potential role of hearing intervention in global efforts to reduce dementia risk. Key strengths of our study include a large and diverse sample, harmonized multi-country data, consideration of hearing aid effectiveness, and extensive subgroup and sensitivity analyses. By pooling harmonized data from seven large, population-based cohort studies across 33 countries, we achieved an exceptional sample size and diversity, increasing both statistical power and generalizability. The consistent associations observed across varied settings suggest a robust and globally relevant link between hearing aid and probable dementia risk. Importantly, we went beyond the binary classification of hearing aid use by distinguishing between effective and ineffective use, which reduced exposure misclassification and revealed more nuanced associations. Extensive subgroup and sensitivity analyses further supported the robustness of our findings across different populations and assumptions. Finally, outcome misclassification was minimized through a probable dementia definition incorporating cognitive testing, functional assessment, and informant reports, rather than relying solely on self-report. In conclusion, this large, multi-cohort observational analysis demonstrates a significant association between effective hearing aid use and a lower risk of probable dementia. Given that hearing loss is one of the leading, potentially modifiable risk factors for dementia and that hearing healthcare is globally underutilized, this association is of significant public health interest. The stronger association observed in middle-income countries, which have lower hearing aid adoption rates, and among unmarried individuals and those with lower education, suggests that targeting hearing interventions may be particularly impactful for those with limited resources and individuals at the higher risk. Therefore, greater investment in hearing healthcare and its integration into healthy aging strategies warrants further consideration as part of global efforts to address dementia risk. However, future research is essential to confirm these associational findings and investigate potential causality. Such studies should move beyond the limitations of self-report by utilizing objective measures like formal audiometry and real-world usage-tracking data, integrating country-level metrics to explain regional heterogeneity, and prioritizing the inclusion of underrepresented populations from low-resource settings to ensure findings are globally representative and can inform equitable public health strategies.",
+      "order": 5
+    },
+    {
+      "section": "Limitations Of The Study",
+      "text": "First, as an observational study, we cannot definitively prove a causal relationship between hearing aid use and dementia risk. We attempted to mitigate this by using IPTW to control for a wide range of known confounders, including most of the major risk factors identified by the Lancet Commission on dementia prevention. 1 However, the potential for residual confounding by unmeasured factors can never be fully eliminated. To formally assess this possibility, we calculated the E-value to quantify the required strength of a potential unmeasured confounder to explain away our findings. Despite these methodological safeguards, the observed associations should be interpreted with appropriate caution. Second, self-reported measures for both hearing loss and hearing aid effectiveness may introduce bias. Some individuals with hearing loss may misjudge their own hearing difficulties, leading them to be incorrectly categorized as having normal hearing and thus excluded from the study. Since these individuals likely had milder hearing issues and a lower risk of dementia, their absence might make the dementia risk in those not using aids look higher than it actually is, leading to larger difference between hearing aid users and non-users. However, we found no significant difference in probable dementia risk between participants reporting poor hearing aid effectiveness and non-users. The fact that the risk for these two groups was nearly identical suggests that our findings remain robust despite the potential exclusion of these unrecognized cases. Furthermore, the self-reported data do not differentiate by severity, which could confound our findings on effectiveness, as individuals with milder impairment may be more likely to report a positive outcome. Self-reported effectiveness can also be confounded by factors like user expectations, where some participants classified as having “poor effectiveness” may have had adequate correction but higher expectations. However, such self-reported measures are often necessary in large-scale cohort studies where objective testing is not feasible. 45 , 46 Their use is also supported by prior research showing a strong correlation between self-reported and objective hearing loss, 47 and our reliance on patient-reported outcomes aligns with standard practice for the inherently subjective construct of effectiveness. 46 Despite these potential inaccuracies, the clear contrast in probable dementia outcomes between the effectiveness groups suggests that our classification remains meaningful. Future studies may benefit from validated instruments, such as the Abbreviated Profile of Hearing Aid Benefit (APHAB) or the International Outcome Inventory for Hearing Aids (IOI-HA), to more comprehensively evaluate perceived hearing aid benefit and user outcomes. 48 , 49 Third, our criteria for probable dementia have several limitations. The cognitive assessments were not exhaustive. Additionally, the components of our composite definition varied across cohorts, including the inconsistent use of the informant-based IQCODE and self-report criteria. However, we conducted sensitivity analyses that separately excluded cases identified by each source, and the consistency of our findings confirmed their robustness against these definitional variations. Despite these harmonization challenges, an algorithmic approach is necessary, as relying solely on physician diagnoses can significantly under-detect dementia cases in population surveys. 50 We also acknowledge that cognitive test results can fluctuate due to transient factors. Still, we sought to mitigate this by performing a sensitivity analysis using a stricter definition that excluded temporary cognitive impairment. Therefore, while imperfect, our validated algorithm, bolstered by these extensive sensitivity analyses, represents a robust approach for this research context. Fourth, despite including data from 33 countries, our sample does not include any low-income nations and lacks representation from key global regions, including most of Africa, South America, and Oceania. Therefore, the generalizability of our findings to these underrepresented populations is uncertain, and our results should be interpreted in this context. Further research across diverse global settings, particularly in low-resource settings, is essential to confirm these findings and guide tailored interventions. Fifth, a further limitation is the inherent heterogeneity across the seven cohorts. Despite their common origin, they differ in aspects like follow-up intervals (e.g., 3 years in MHAS vs. 2 years in most other cohorts) and specific assessment tools, including the wording of survey questions. For instance, the questions used to define hearing aid use and effectiveness varied, which could lead to misclassification. In some cohorts, the question for use referred to ever wearing a device, while the hearing quality assessment was based on “normal” use. This discrepancy could misclassify an individual who tried an aid but was not a regular user into the poor effectiveness group, potentially biasing our results toward the null and underestimating the true association for the good effectiveness group. We sought to mitigate this overall heterogeneity by employing a shared frailty model to account for cohort-level differences and by conducting extensive sensitivity analyses to confirm the robustness of our findings. Nevertheless, we acknowledge that these statistical adjustments cannot entirely eliminate all potential biases arising from such inconsistencies. Sixth, potential limitations related to the timing of assessments and diagnoses should be noted. Large-scale epidemiological studies rely on data collected at discrete time points (typically every 2 years in these cohorts), which can lead to interval censoring, where the exact timing of probable dementia onset between waves may be missed or inaccurately recorded. 51 , 52 Although the relatively common 2-year interval may reduce this issue compared to longer intervals, some imprecision remains. Additionally, potential reverse causality exists, whereby early, undiagnosed cognitive decline might influence hearing aid use rather than vice versa. To mitigate this latter concern, we performed a sensitivity analysis excluding participants diagnosed with dementia within the first three years of follow-up; the main findings remained robust. Finally, although our follow-up was longer than most studies, it may not fully capture the effects of mid-life hearing loss on dementia, as many participants were already older at baseline. Ideally, tracking should start in mid-life when hearing loss is most critical. Since our cohorts focused on individuals aged 55 years and above, we may have missed the benefits of earlier intervention. However, despite challenges such as dropout in long follow-ups, our multi-year tracking remains a notable strength.",
+      "order": 6
+    },
+    {
+      "section": "Lead Contact",
+      "text": "Further information and requests for resources should be directed to and will be fulfilled by the lead contact Lei Xu ( sdphxl@email.sdu.edu.cn ).",
+      "order": 7
+    },
+    {
+      "section": "Data And Code Availability",
+      "text": "Raw data are available from HRS ( https://hrsdata.isr.umich.edu/data-products ), ELSA ( https://www.elsa-project.ac.uk/accessing-elsa-data ), SHARE ( https://share-eric.eu/data/data-access ), KLOSA ( https://survey.keis.or.kr/eng/myinfo/login.jsp ), CHARLS ( https://charls.charlsdata.com/pages/data/111/en.html ), and MHAS ( https://mhasweb.org/DataProducts/Home.aspx),TILDA ( https://tilda.tcd.ie/data-workshop/index.php ). The data files are publicly available upon registration or application on each of the websites. Please note that these datasets do not allow third-party distribution and therefore cannot be deposited in public repositories. To access these data files, please follow the application procedures explained on the respective websites. Any other data reported in this paper are available from the lead contact upon reasonable request. The analysis code supporting the findings of this study is available at https://github.com/Dong-qiuy/hearing-aid-effectiveness-and-dementia . Any additional information required to reanalyze the data reported in this work paper is available from the lead contact upon request.",
+      "order": 8
+    },
+    {
+      "section": "Experimental Model And Study Participant Details",
+      "text": "We conducted a longitudinal analysis using harmonized individual-level data from seven population-based aging cohort studies: the China Health and Retirement Longitudinal Study (CHARLS, China), 53 the Korean Longitudinal Study of Aging (KLOSA, South Korea), 54 the English Longitudinal Study of Aging (ELSA, England, UK), 55 the Survey of Health, Aging and Retirement in Europe (SHARE, Continental Europe and Israel), 56 the Irish Longitudinal Study on Aging (TILDA, Ireland), 57 the U.S. Health and Retirement Study (HRS, United States), 58 and the Mexican Health and Aging Study (MHAS, Mexico). 59 These surveys collect comparable information on hearing, health, and cognition. The analytic dataset drew from CHARLS waves 1–5 (2011–2020), KLOSA waves 1–7 (2006–2018), ELSA waves 2–10 (2004–2020), SHARE waves 1–9 (2004–2021; excluding wave 3, which lacked health data), TILDA waves 1–4 (2009–2016), HRS waves 4–15 (1998–2020), and MHAS waves 3–6 (2012–2021). Except for MHAS (3-year interval), all other cohorts had a 2-year follow-up interval. The selection of cohorts for this analysis was guided by the need for longitudinally comparable data suitable for survival analysis. While the Health and Retirement Study (HRS) network is extensive, the following international sister studies were necessarily excluded due to specific methodological limitations that would have compromised the validity of the pooled time-to-event analysis. A detailed, cohort-by-cohort justification is provided below: Six studies excluded due to insufficient longitudinal data. The Longitudinal Aging Study in India (LASI), the Brazilian Longitudinal Study of Aging (ELSI), and the Malaysia Aging and Retirement Survey (MARS) were excluded from our analysis, as only a single wave of data was available at the time of our analysis, precluding any longitudinal or survival analysis. The Northern Ireland Cohort for the Longitudinal Study of Aging (NICOLA) was excluded as only two waves of data were available, providing insufficient follow-up time for robust time-to-event modeling. The Japanese Study of Aging and Retirement (JSTAR) was excluded because cognitive assessments were not conducted in the third and fourth waves, which limited the available longitudinal data for our probable dementia outcome. The Costa Rican Longevity and Healthy Aging Study (CRELES) was excluded due to a significant and lengthy gap between follow-up waves, which could introduce substantial bias into time-to-event estimations. Two studies excluded due to data accessibility or variable unavailability. The Health, Aging, and Retirement in Thailand (HART) was excluded because key cognitive and health variables required for our analysis were not publicly accessible. The Health and Aging in Africa was a Longitudinal Study of an INDEPTH Community in South Africa (HAALSI). While this cohort includes data on hearing aid use, it does not contain the specific variables needed to assess user-rated effectiveness, which was a primary exposure of interest in our study. From each study, we included participants aged 55 and older who reported hearing loss at baseline and had data on their use of hearing aids. We excluded individuals with prevalent probable dementia at baseline or without follow-up data. Given that the prevalence of hearing aid use has remained relatively stable over time, 60 and to maximize the sample size, the baseline was defined as the first wave in which they reported hearing loss and had data on hearing aid use. Participants were followed from baseline until the first occurrence of probable dementia, loss of follow-up, or the end of the study period, whichever came first. These seven surveys included in this study collectively cover 33 countries worldwide, providing a diverse and comprehensive dataset for analysis. The final analytic sample consisted of 61,089 hearing-impaired participants (10,500 from CHARLS; 2,086 from KLOSA; 27,440 from SHARE; 3,062 from ELSA; 1,101 from TILDA; 11,289 from HRS; and 5,611 from MHAS). To account for differences in economic development, countries were categorized according to the World Bank Classification. 61 Participants from KLOSA, SHARE, ELSA, TILDA, and HRS ( N = 44,978) were grouped as high-income countries, while those from CHARLS and MHAS ( N = 16,111) were classified as middle-income countries. A flowchart of study inclusion is provided in Figure S1 . We adhered to STROBE guidelines for reporting observational studies ( Table S1 ).",
+      "order": 9
+    },
+    {
+      "section": "Hearing Loss",
+      "text": "Hearing loss was defined using two self-reported measures: 1) participants rated their hearing using a five-point scale (excellent, very good, good, fair, or poor); 2) hearing aid use status (Yes/No). Initial ascertainment of hearing aid use status preceded hearing loss evaluation: non-users provided unaided hearing ratings, while users reported function under optimally aided conditions. Participants who either rated their hearing as “fair” or “poor” or reported using a hearing aid were classified as having hearing loss at that wave. 62 This combined definition captures individuals with self-perceived hearing difficulties as well as those who might have corrected their hearing loss with a device. Unlike the cognitive assessments where proxy informants were sometimes used, information regarding hearing status and hearing aid use relied solely on participant self-report.",
+      "order": 10
+    },
+    {
+      "section": "Hearing Aid Use",
+      "text": "Hearing aid use status was determined by the question, “Do you ever/usually/normally wear a hearing aid?” (Yes/No) asked at baseline and follow-ups. In our analyses, those who answered “Yes” at baseline were considered hearing aid users, and those who answered “No” were considered non-users. For the primary analysis, hearing aid use status was determined at baseline; two sensitivity analyses described in the statistical analysis section exclude (i) participants who initiated use during follow-up and (ii) baseline users who discontinued use during the first round of follow-up.",
+      "order": 11
+    },
+    {
+      "section": "Hearing Aid Effectiveness",
+      "text": "Hearing aid effectiveness was self-reported by the participants. After reporting hearing aid use, participants were asked to evaluate their hearing with the hearing aid, if applicable. Hearing aid users rated their aided hearing on the same five-point scale as above. We categorized hearing aid users into two effectiveness groups based on this self-evaluation: good effectiveness (if the person rated their hearing with the aid as “excellent”, “very good”, or “good”) and poor effectiveness (if their aided hearing was “fair” or “poor”). Thus, good effectiveness indicates that the hearing aid was perceived to substantially improve hearing, whereas poor effectiveness suggests limited benefit from the device. Participants who did not use hearing aids at baseline constituted the reference (no aid) group for effectiveness analyses. The specific definitions for hearing loss and hearing aid use for each cohort and wave are detailed in Table S2 , while Table S3 outlines the harmonized strategy for measuring hearing aid use and effectiveness.",
+      "order": 12
+    },
+    {
+      "section": "Identification Of Probable Dementia",
+      "text": "Considering the high prevalence of undiagnosed dementia cases, 50 relying solely on physician-reported cases often leads to a significant underestimation of the true prevalence. To address this and capture cases that might otherwise be overlooked, an operational definition adapted in this study conforms to criteria from the Diagnostic and Statistical Manual of Mental Disorders, fourth edition, for estimation of probable dementia. Following these diagnostic criteria, participants were classified as having probable dementia during follow-up if they met one of the following criteria: (1) concurrent cognitive and functional impairment identified in the same wave, or (2) a self-reported physician diagnosis of dementia at any wave. This approach is the standard method used across this family of cohort studies. Previous research has validated this algorithmic approach, demonstrating its high concordance with formal clinical diagnoses. 63 , 64 , 65 , 66 , 67",
+      "order": 13
+    },
+    {
+      "section": "Cognitive Impairment",
+      "text": "Cognitive function was assessed in three domains: memory, orientation, and executive function. Memory was evaluated using immediate and delayed recall of word lists (10-word lists in all cohorts except an 8-word list in MHAS), with a total memory score ranging from 0 to 20 (0–16 in MHAS). Temporal orientation was measured by asking participants to identify the current date (day, month, year) and day of the week (score 0–4), except for MHAS where only the current date (day, month, year) was used (score 0–3). Executive function was measured with either a serial 7s subtraction test (subtracting seven from 100 repeatedly; used in HRS, CHARLS, KLOSA) or a verbal fluency test (naming as many animals as possible in 60 s; used in SHARE, ELSA, TILDA, MHAS). While the tasks differ, both are established measures of executive function with high reliability and validity, and they have demonstrated strong concordance in identifying impairment, which supports their comparability in this harmonized analysis. In line with the established and harmonized practice across these seven cohort studies, impairment on each cognitive test was defined as a score at least 1.5 standard deviations below the mean for the participant’s age (within the 50–80 years range) and education level. 63 , 65 , 66 , 67 , 68 , 69 , 70 Additionally, in three studies (HRS, MHAS, ELSA), a proxy-informant questionnaire was used when participants were unable to be directly interviewed. Specifically, the short form of the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) 71 was administered to a knowledgeable informant, who was asked about changes in the participant’s memory and daily functioning over the past two years. An average IQCODE score, ranging from 3.3 to 3.6 (on a 1–5 scale) was taken as evidence of significant cognitive decline. 71 We considered a participant to have cognitive impairment if they had impairments in at least two of the cognitive tests (memory/orientation/executive) or had an IQCODE score ≥3.6. 63 Given that the IQCODE measure was available only in three cohorts, we conducted a sensitivity analysis excluding IQCODE results when defining cognitive impairment to evaluate potential cross-cohort heterogeneity (described in statistical analysis ).",
+      "order": 14
+    },
+    {
+      "section": "Functional Impairment",
+      "text": "Functional status was universally assessed across all seven cohorts via self-reported difficulty with basic activities of daily living (ADLs). Participants were asked whether they had difficulty performing any of the following tasks due to health problems: dressing, eating, bathing or showering, getting in or out of bed, using the toilet, and walking across a room (CHARLS asked about controlling bladder/bowel). Participants who reported difficulty with one or more ADLs were classified as having functional impairment.",
+      "order": 15
+    },
+    {
+      "section": "Self-Reported Dementia Diagnosis",
+      "text": "In five cohorts (CHARLS, SHARE, ELSA, TILDA, HRS), participants (or proxies) were directly asked if a doctor had ever diagnosed them with dementia or Alzheimer’s disease (or “memory-related disease” in CHARLS and wave4-9 in HRS). An affirmative response was treated as a dementia case.",
+      "order": 16
+    },
+    {
+      "section": "Definition Of Probable Dementia",
+      "text": "Probable dementia ascertainment employed a harmonized protocol. Cognitive impairment was defined as performance >1.5 SD below mean for the participant’s age (within 50–80 years) and education level in ≥2 of three domains (memory, temporal orientation, executive function) and/or an IQCODE score ≥3.6. The IQCODE instrument, however, was administered only in the HRS, ELSA, and MHAS cohorts, where cognitive impairment was incorporated using either criterion. In other cohorts, cognitive impairment relied exclusively on domain deficits. Functional impairment was universally determined through ADLs limitations, with one or more ADL impairments constituting dysfunction. Probable dementia classification required either: 1) concurrent cognitive and functional impairment, or 2) physician-diagnosed dementia. In CHARLS and HRS waves 4–7 – where physician diagnosis specifically referenced memory-related diseases rather than dementia – self-reported memory-related disease diagnoses served as diagnostic proxies. For cohorts lacking physician diagnosis data (KLOSA, SHARE, MHAS), probable dementia classification depended exclusively on cognitive-functional impairment. Wave-specific binary probable dementia indicators were subsequently generated, from which time-to-dementia variables were derived with follow-up duration calculated from baseline until the first occurrence of probable dementia, loss of follow-up, or the end of the study period, whichever came first. These standardized variables were constructed for cross-cohort pooled analyses. Detailed information on each cohort’s specific instruments and diagnostic criteria is provided in Table S2 , while Table S3 presents the harmonized strategy for the outcome variables.",
+      "order": 17
+    },
+    {
+      "section": "Covariates",
+      "text": "Based on established dementia risk factors, we included the following baseline individual-level covariates in all analyses 12 , 14 , 72 : age (years), gender (women/men), education level (categorized as primary school or less, secondary school, college or above), marital status (married/partnered, unmarried/divorced/widowed), family income level (categorized as low, middle and high level) current smoking status (yes/no), current alcohol use (yes/no), physical activity (engages in any moderate or vigorous activity/none), diagnosed hypertension (yes/no), diagnosed diabetes (yes/no), diagnosed cardiovascular disease (yes/no), health insurance status (yes/no), intergenerational support (yes/no), cognitive impairment domains (including memory impairment, temporal orientation impairment, executive function impairment; all yes/no), as well as country-level covariates: Universal health coverage (UHC) and socio-demographic index (SDI). These variables were harmonized across cohorts as closely as possible (details in Table S4 ).",
+      "order": 18
+    },
+    {
+      "section": "Quantification And Statistical Analysis",
+      "text": "Missing values for outcome measures and covariates varied by cohort (for example, up to 29.8% for cognitive tests in CHARLS and up to 24.2% for ADL measures in TILDA). The detailed information on missing data for each wave within each cohort is provided in Tables S5 , S6 , S7 , S8 , S9 , S10 , and S11 . Most missingness was deemed to be Missing at Random (MAR), based on the assumption that the missingness could be explained by other observed covariates. Therefore, we performed 25 imputations via chained equations (using the mice package in R) to fill in missing outcome variables and covariates for each wave within each cohort, 73 thereby reducing potential bias from attrition or non-response. The imputation model included wave-specific covariates—age (years), gender (women/men), education (primary school or less; secondary school; college or above), marital status (married/partnered vs. unmarried/divorced/widowed), family income level (categorized as low, middle and high level), current smoking (yes/no), current alcohol use (yes/no), physical activity (any moderate or vigorous activity vs. none), diagnosed hypertension, diagnosed diabetes, and diagnosed cardiovascular disease (all doctor-diagnosed, yes/no), health insurance status (yes/no), intergenerational support (yes/no)—as well as all component variables used to construct the probable dementia outcome, including memory impairment, temporal orientation impairment, executive function impairment, functional impairment, IQCODE, and self-reported dementia (all coded as yes/no). After constructing all variables within each cohort, we harmonized exposure variables, covariates, and outcome measures across cohorts for pooled analyses, following the harmonized strategies described in Tables S3 and S4 . The baseline characteristics of the participants were described by overall and country income levels (High-income, Middle-income). Continuous variables are presented as means and standard deviation (SD) or medians (interquartile range) as appropriate, and categorical variables as counts and percentages. To account for potential confounding in the non-randomized comparison of non-users vs. hearing aid users (and poor hearing aid effective vs. good hearing aid effective users), we employed an inverse probability of treatment weighting (IPTW) approach. We estimated propensity scores using logistic regression to determine the likelihood of hearing aid use (yes vs. no) at baseline, including all covariates listed above. Similarly, for analyses involving hearing aid effectiveness, we used multinomial logistic regression to estimate propensity scores for three groups (no aid, good effectiveness, poor effectiveness), given the covariates. Each participant was then weighted by the inverse of the probability of their observed treatment status. We examined covariate balance before and after weighting by calculating standardized mean differences (SMD) between groups, and the groups were considered homogeneous for each variable when the SMD was ≤0.1 after weighting. 74 For probable dementia incidence, we fitted Cox proportional hazards models (with time since baseline as the timescale) to estimate hazard ratios (HRs) and 95% confidence intervals (CI) for the association between hearing aid use and probable dementia. To address between-cohort heterogeneity, we included cohort as a shared frailty in the model. The proportional hazards (PH) assumption was tested graphically using plots of the log-cumulative hazard. This assumption was verified not only for the primary harmonized cohort but also within each individual cohort and for the analyses stratified by country income level, as the curves for the compared groups were consistently found to be approximately parallel. The primary Cox model compared hearing aid users to non-users among hearing-impaired individuals in the harmonized cohort and then performed stratified analyses by country income level (High-income vs. Middle-income) to evaluate potential variations in the associations. As a supplementary analysis, we also fitted the model within each individual cohort to examine cohort-specific associations. All models were weighted by IPTWs. We conducted a parallel set of IPTW-weighted Cox models to examine the effectiveness of hearing aids, treating non-users as the reference group. In these models, we estimated the hazard of probable dementia for two groups of hearing aid users: those with good and poor effectiveness, relative to hearing-impaired non-users. Separate models for these effectiveness analyses were also conducted within each country’s income level and each individual cohort. To explore potential association modification, we performed subgroup analyses stratified by the following key sociodemographic factors: age group (55–69 vs. ≥70 years), gender, education level (primary or less vs. secondary and above), marital status (married/partnered vs. unmarried/others), family income level (low, middle, vs. high), health insurance status (yes vs. no), and SDI (low, middle, vs. high). Within each stratum, we fitted the IPTW-weighted Cox model for both hearing aid use and effectiveness. To ensure statistical stability, analyses were restricted to subgroups with at least 100 participants. 75 p -values for the subgroup estimates were adjusted for multiple comparisons using the Bonferroni method. We formally tested for interaction by adding product terms to the Cox models and assessing their significance with likelihood ratio tests. We carried out several sensitivity analyses to assess the robustness of our findings. First, to reduce potential reverse causation, we excluded individuals who developed probable dementia within the first 3 years of follow-up and refit the models. Second, since dementia risk accelerates at older ages, we restricted the sample to participants aged 60 and above at baseline to see if results were consistent in this older subset. Third, we limited the analysis to participants who had at least two follow-up waves after baseline, ensuring they were observed over time beyond a single assessment. Fourth, we applied a more stringent definition of probable dementia by requiring the cognitive impairment to be sustained. If a participant met cognitive impairment criteria at one wave but then improved by ≥ 1 SD in a subsequent wave (suggesting transient delirium or measurement error), we did not count the initial event as probable dementia. Fifth, to test the robustness of our findings to the heterogeneous components of our probable dementia definition, we conducted two separate sensitivity analyses. The first excluded cases were identified via the informant-based IQCODE (which was not available in all cohorts), while the second excluded cases were based on the broad self-reported criterion of memory-related disease. Sixth, to address exposure misclassification resulting from changes in hearing aid use over time, we conducted two sensitivity analyses: one excluding participants who initiated hearing aid use during follow-up, and another excluding those who used hearing aids at baseline but subsequently discontinued them in the first round of follow-up (non-persistent use). The ELSA and TILDA cohorts were excluded from both analyses due to the timing of their hearing aid measurements. Seventh, to enhance measurement validity, we repeated the analyses while restricting multiple imputations exclusively to missing covariates and deliberately omitting imputations for the outcome variable. Eighth, to minimize potential bias introduced by imputation, we conducted additional analyses using unimputed data. Ninth, we used competing risk models with death as a competing risk of probable dementia. TILDA was not included in this sensitivity analysis since death was not measured in TILDA. Tenth, to account for country-level context, our primary models included the SDI as a covariate. To assess the robustness of our findings to the choice of this indicator and better understand the role of national-level factors, we also conducted sensitivity analyses using separate models that controlled for the UHC index instead of the SDI. To formally assess the potential impact of unmeasured confounding factors on our primary associations, we calculated the E-value. The E-value quantifies the minimum strength of association that a potential unmeasured confounder would need to have with both the exposure and the outcome to completely negate the observed association. 76 All analyses were conducted using R version 4.3.2, with significance levels set at p < 0.05.",
+      "order": 19
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1",
+      "authors": [
+        "Livingston G.",
+        "Huntley J.",
+        "Liu K.Y.",
+        "Costafreda S.G.",
+        "Selbæk G.",
+        "Alladi S.",
+        "Ames D.",
+        "Banerjee S.",
+        "Burns A.",
+        "Brayne C.",
+        "et al."
+      ],
+      "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "journal": "Lancet",
+      "year": "2024",
+      "volume": "404",
+      "fpage": "572",
+      "lpage": "628",
+      "doi": "10.1016/s0140-6736(24)01296-0",
+      "pmid": "39096926"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2",
+      "authors": [
+        "Chadha S.",
+        "Kamenov K.",
+        "Cieza A."
+      ],
+      "title": "The world report on hearing, 2021",
+      "journal": "Bull. World Health Organ.",
+      "year": "2021",
+      "volume": "99",
+      "doi": "10.2471/blt.21.285643",
+      "pmc_id": "PMC8085630",
+      "pmid": "33953438"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3",
+      "title": "Amplifying the global issue of hearing loss",
+      "journal": "Lancet Global Health",
+      "year": "2022",
+      "volume": "10",
+      "doi": "10.1016/s2214-109x(22)00390-4",
+      "pmid": "36113508"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4",
+      "authors": [
+        "Ferguson M.A.",
+        "Kitterick P.T.",
+        "Chong L.Y.",
+        "Edmondson-Jones M.",
+        "Barker F.",
+        "Hoare D.J."
+      ],
+      "title": "Hearing aids for mild to moderate hearing loss in adults",
+      "journal": "Cochrane Database Syst. Rev.",
+      "year": "2017",
+      "volume": "9",
+      "doi": "10.1002/14651858.CD012023.pub2",
+      "pmc_id": "PMC6483809",
+      "pmid": "28944461"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5",
+      "authors": [
+        "Yeo B.S.Y.",
+        "Song H.",
+        "Toh E.M.S.",
+        "Ng L.S.",
+        "Ho C.S.H.",
+        "Ho R.",
+        "Merchant R.A.",
+        "Tan B.K.J.",
+        "Loh W.S."
+      ],
+      "title": "Association of Hearing Aids and Cochlear Implants With Cognitive Decline and Dementia: A Systematic Review and Meta-analysis",
+      "journal": "JAMA Neurol.",
+      "year": "2023",
+      "volume": "80",
+      "fpage": "134",
+      "lpage": "141",
+      "doi": "10.1001/jamaneurol.2022.4427",
+      "pmid": "36469314",
+      "pmc_id": "PMC9856596"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6",
+      "authors": [
+        "Lin F.R.",
+        "Pike J.R.",
+        "Albert M.S.",
+        "Arnold M.",
+        "Burgard S.",
+        "Chisolm T.",
+        "Couper D.",
+        "Deal J.A.",
+        "Goman A.M.",
+        "Glynn N.W.",
+        "et al."
+      ],
+      "title": "Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial",
+      "journal": "Lancet",
+      "year": "2023",
+      "volume": "402",
+      "fpage": "786",
+      "lpage": "797",
+      "doi": "10.1016/s0140-6736(23)01406-x",
+      "pmid": "37478886",
+      "pmc_id": "PMC10529382"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7",
+      "authors": [
+        "Cantuaria M.L.",
+        "Pedersen E.R.",
+        "Waldorff F.B.",
+        "Wermuth L.",
+        "Pedersen K.M.",
+        "Poulsen A.H.",
+        "Raaschou-Nielsen O.",
+        "Sørensen M.",
+        "Schmidt J.H."
+      ],
+      "title": "Hearing Loss, Hearing Aid Use, and Risk of Dementia in Older Adults",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2024",
+      "volume": "150",
+      "fpage": "157",
+      "lpage": "164",
+      "doi": "10.1001/jamaoto.2023.3509",
+      "pmid": "38175662",
+      "pmc_id": "PMC10767640"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8",
+      "authors": [
+        "Mahmoudi E.",
+        "Basu T.",
+        "Langa K.",
+        "McKee M.M.",
+        "Zazove P.",
+        "Alexander N.",
+        "Kamdar N."
+      ],
+      "title": "Can Hearing Aids Delay Time to Diagnosis of Dementia, Depression, or Falls in Older Adults?",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2019",
+      "volume": "67",
+      "fpage": "2362",
+      "lpage": "2369",
+      "doi": "10.1111/jgs.16109",
+      "pmid": "31486068"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9",
+      "authors": [
+        "Deal J.A.",
+        "Betz J.",
+        "Yaffe K.",
+        "Harris T.",
+        "Purchase-Helzner E.",
+        "Satterfield S.",
+        "Pratt S.",
+        "Govil N.",
+        "Simonsick E.M.",
+        "Lin F.R."
+      ],
+      "title": "Hearing Impairment and Incident Dementia and Cognitive Decline in Older Adults: The Health ABC Study",
+      "journal": "J. Gerontol. A Biol. Sci. Med. Sci.",
+      "year": "2017",
+      "volume": "72",
+      "fpage": "703",
+      "lpage": "709",
+      "doi": "10.1093/gerona/glw069",
+      "pmid": "27071780",
+      "pmc_id": "PMC5964742"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10",
+      "authors": [
+        "Amieva H.",
+        "Ouvrard C.",
+        "Meillon C.",
+        "Rullier L.",
+        "Dartigues J.F."
+      ],
+      "title": "Death, Depression, Disability, and Dementia Associated With Self-reported Hearing Problems: A 25-Year Study",
+      "journal": "J. Gerontol. A Biol. Sci. Med. Sci.",
+      "year": "2018",
+      "volume": "73",
+      "fpage": "1383",
+      "lpage": "1389",
+      "doi": "10.1093/gerona/glx250",
+      "pmid": "29304204"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11",
+      "authors": [
+        "Bucholc M.",
+        "McClean P.L.",
+        "Bauermeister S.",
+        "Todd S.",
+        "Ding X.",
+        "Ye Q.",
+        "Wang D.",
+        "Huang W.",
+        "Maguire L.P."
+      ],
+      "title": "Association of the use of hearing aids with the conversion from mild cognitive impairment to dementia and progression of dementia: A longitudinal retrospective study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2021",
+      "volume": "7",
+      "doi": "10.1002/trc2.12122",
+      "pmc_id": "PMC7882528",
+      "pmid": "33614893"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12",
+      "authors": [
+        "Amieva H.",
+        "Ouvrard C.",
+        "Giulioli C.",
+        "Meillon C.",
+        "Rullier L.",
+        "Dartigues J.F."
+      ],
+      "title": "Self-Reported Hearing Loss, Hearing Aids, and Cognitive Decline in Elderly Adults: A 25-Year Study",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2015",
+      "volume": "63",
+      "fpage": "2099",
+      "lpage": "2104",
+      "doi": "10.1111/jgs.13649",
+      "pmid": "26480972"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13",
+      "authors": [
+        "Cribb L.",
+        "Moreno-Betancur M.",
+        "Pase M.P.",
+        "Wolfe R.",
+        "Britt C.",
+        "Zhou Z.",
+        "Shah R.C.",
+        "Rance G.",
+        "Sheets K.M.",
+        "Chong T.T.J.",
+        "et al."
+      ],
+      "title": "Treating Hearing Loss With Hearing Aids for the Prevention of Cognitive Decline and Dementia",
+      "journal": "Neurology",
+      "year": "2026",
+      "volume": "106",
+      "doi": "10.1212/wnl.0000000000214572",
+      "pmid": "41861267"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14",
+      "authors": [
+        "Stevenson J.S.",
+        "Clifton L.",
+        "Kuźma E.",
+        "Littlejohns T.J."
+      ],
+      "title": "Speech-in-noise hearing impairment is associated with an increased risk of incident dementia in 82,039 UK Biobank participants",
+      "journal": "Alzheimer's Dement.",
+      "year": "2022",
+      "volume": "18",
+      "fpage": "445",
+      "lpage": "456",
+      "doi": "10.1002/alz.12416",
+      "pmid": "34288382"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15",
+      "authors": [
+        "Bucholc M.",
+        "Bauermeister S.",
+        "Kaur D.",
+        "McClean P.L.",
+        "Todd S."
+      ],
+      "title": "The impact of hearing impairment and hearing aid use on progression to mild cognitive impairment in cognitively healthy adults: An observational cohort study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2022",
+      "volume": "8",
+      "doi": "10.1002/trc2.12248",
+      "pmc_id": "PMC8863441",
+      "pmid": "35229022"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16",
+      "authors": [
+        "Engdahl B.",
+        "Aarhus L."
+      ],
+      "title": "Prevalence and predictors of self-reported hearing aid use and benefit in Norway: the HUNT study",
+      "journal": "BMC Public Health",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "474",
+      "doi": "10.1186/s12889-024-17852-z",
+      "pmid": "38355451",
+      "pmc_id": "PMC10867996"
+    },
+    {
+      "ref_id": "bib17",
+      "label": "17",
+      "authors": [
+        "Dawes P.",
+        "Emsley R.",
+        "Cruickshanks K.J.",
+        "Moore D.R.",
+        "Fortnum H.",
+        "Edmondson-Jones M.",
+        "McCormack A.",
+        "Munro K.J."
+      ],
+      "title": "Hearing loss and cognition: the role of hearing AIDS, social isolation and depression",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "doi": "10.1371/journal.pone.0119616",
+      "pmc_id": "PMC4356542",
+      "pmid": "25760329"
+    },
+    {
+      "ref_id": "bib18",
+      "label": "18",
+      "authors": [
+        "Lesko C.R.",
+        "Jacobson L.P.",
+        "Althoff K.N.",
+        "Abraham A.G.",
+        "Gange S.J.",
+        "Moore R.D.",
+        "Modur S.",
+        "Lau B."
+      ],
+      "title": "Collaborative, pooled and harmonized study designs for epidemiologic research: challenges and opportunities",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2018",
+      "volume": "47",
+      "fpage": "654",
+      "lpage": "668",
+      "doi": "10.1093/ije/dyx283",
+      "pmid": "29438495",
+      "pmc_id": "PMC5913631"
+    },
+    {
+      "ref_id": "bib19",
+      "label": "19",
+      "authors": [
+        "Hooper E.",
+        "Brown L.J.E.",
+        "Dawes P.",
+        "Leroi I.",
+        "Armitage C.J."
+      ],
+      "title": "What are the Correlates of Hearing Aid Use for People Living With Dementia?",
+      "journal": "J. Aging Health",
+      "year": "2025",
+      "volume": "37",
+      "fpage": "210",
+      "lpage": "219",
+      "doi": "10.1177/08982643241238253",
+      "pmid": "38497649",
+      "pmc_id": "PMC11829505"
+    },
+    {
+      "ref_id": "bib20",
+      "label": "20",
+      "authors": [
+        "Maharani A.",
+        "Dawes P.",
+        "Nazroo J.",
+        "Tampubolon G.",
+        "Pendleton N."
+      ],
+      "title": "Longitudinal Relationship Between Hearing Aid Use and Cognitive Function in Older Americans",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2018",
+      "volume": "66",
+      "fpage": "1130",
+      "lpage": "1136",
+      "doi": "10.1111/jgs.15363",
+      "pmid": "29637544"
+    },
+    {
+      "ref_id": "bib21",
+      "label": "21",
+      "authors": [
+        "West J.S.",
+        "Smith S.L.",
+        "Dupre M.E."
+      ],
+      "title": "Self-reported hearing loss, hearing aid use, and cognitive function among U.S. older adults",
+      "journal": "Int. J. Popul. Stud.",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "17",
+      "lpage": "26",
+      "doi": "10.18063/ijps.v8i1.1308",
+      "pmid": "37304046",
+      "pmc_id": "PMC10256138"
+    },
+    {
+      "ref_id": "bib22",
+      "label": "22",
+      "authors": [
+        "Thai A.",
+        "Khan S.I.",
+        "Choi J.",
+        "Ma Y.",
+        "Megwalu U.C."
+      ],
+      "title": "Associations of Hearing Loss Severity and Hearing Aid Use With Hospitalization Among Older US Adults",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2022",
+      "volume": "148",
+      "fpage": "1005",
+      "lpage": "1012",
+      "doi": "10.1001/jamaoto.2022.2399",
+      "pmid": "36048464",
+      "pmc_id": "PMC9437822"
+    },
+    {
+      "ref_id": "bib23",
+      "label": "23",
+      "raw_citation": "American Speech-Language-Hearing Association. Aural Rehabilitation for Adults. 2025; Available from: https://www.asha.org/practice-portal/professional-issues/aural-rehabilitation-for-adults/?srsltid=AfmBOoqFPTSKTtaCch7tTTK8F_Np749Qpe2b-xolFn0OowzOWijuD-kM#collapse_1 ."
+    },
+    {
+      "ref_id": "bib24",
+      "label": "24",
+      "authors": [
+        "Slade K.",
+        "Plack C.J.",
+        "Nuttall H.E."
+      ],
+      "title": "The Effects of Age-Related Hearing Loss on the Brain and Cognitive Function",
+      "journal": "Trends Neurosci.",
+      "year": "2020",
+      "volume": "43",
+      "fpage": "810",
+      "lpage": "821",
+      "doi": "10.1016/j.tins.2020.07.005",
+      "pmid": "32826080"
+    },
+    {
+      "ref_id": "bib25",
+      "label": "25",
+      "authors": [
+        "Tun P.A.",
+        "McCoy S.",
+        "Wingfield A."
+      ],
+      "title": "Aging, hearing acuity, and the attentional costs of effortful listening",
+      "journal": "Psychol. Aging",
+      "year": "2009",
+      "volume": "24",
+      "fpage": "761",
+      "lpage": "766",
+      "doi": "10.1037/a0014802",
+      "pmid": "19739934",
+      "pmc_id": "PMC2773464"
+    },
+    {
+      "ref_id": "bib26",
+      "label": "26",
+      "authors": [
+        "Giroud N.",
+        "Lemke U.",
+        "Reich P.",
+        "Matthes K.L.",
+        "Meyer M."
+      ],
+      "title": "The impact of hearing aids and age-related hearing loss on auditory plasticity across three months - An electrical neuroimaging study",
+      "journal": "Hear. Res.",
+      "year": "2017",
+      "volume": "353",
+      "fpage": "162",
+      "lpage": "175",
+      "doi": "10.1016/j.heares.2017.06.012",
+      "pmid": "28705608"
+    },
+    {
+      "ref_id": "bib27",
+      "label": "27",
+      "authors": [
+        "Pichora-Fuller M.K.",
+        "Mick P.",
+        "Reed M."
+      ],
+      "title": "Hearing, Cognition, and Healthy Aging: Social and Public Health Implications of the Links between Age-Related Declines in Hearing and Cognition",
+      "journal": "Semin. Hear.",
+      "year": "2015",
+      "volume": "36",
+      "fpage": "122",
+      "lpage": "139",
+      "doi": "10.1055/s-0035-1555116",
+      "pmid": "27516713",
+      "pmc_id": "PMC4906310"
+    },
+    {
+      "ref_id": "bib28",
+      "label": "28",
+      "authors": [
+        "Mikkola T.M.",
+        "Polku H.",
+        "Portegijs E.",
+        "Rantakokko M.",
+        "Tsai L.T.",
+        "Rantanen T.",
+        "Viljanen A."
+      ],
+      "title": "Self-reported hearing is associated with time spent out-of-home and withdrawal from leisure activities in older community-dwelling adults",
+      "journal": "Aging Clin. Exp. Res.",
+      "year": "2016",
+      "volume": "28",
+      "fpage": "297",
+      "lpage": "302",
+      "doi": "10.1007/s40520-015-0389-1",
+      "pmid": "26063637"
+    },
+    {
+      "ref_id": "bib29",
+      "label": "29",
+      "authors": [
+        "Ren Y.",
+        "Savadlou A.",
+        "Park S.",
+        "Siska P.",
+        "Epp J.R.",
+        "Sargin D."
+      ],
+      "title": "The impact of loneliness and social isolation on the development of cognitive decline and Alzheimer's Disease",
+      "journal": "Front. Neuroendocrinol.",
+      "year": "2023",
+      "volume": "69",
+      "doi": "10.1016/j.yfrne.2023.101061",
+      "pmid": "36758770"
+    },
+    {
+      "ref_id": "bib30",
+      "label": "30",
+      "authors": [
+        "Dintica C.S.",
+        "Calderón-Larrañaga A.",
+        "Vetrano D.L.",
+        "Xu W."
+      ],
+      "title": "Association Between Sensory Impairment and Dementia: The Roles of Social Network and Leisure Activity",
+      "journal": "J. Alzheimers Dis.",
+      "year": "2023",
+      "volume": "94",
+      "fpage": "585",
+      "lpage": "595",
+      "doi": "10.3233/jad-230041",
+      "pmid": "37334593",
+      "pmc_id": "PMC10357179"
+    },
+    {
+      "ref_id": "bib31",
+      "label": "31",
+      "authors": [
+        "Griffiths T.D.",
+        "Lad M.",
+        "Kumar S.",
+        "Holmes E.",
+        "McMurray B.",
+        "Maguire E.A.",
+        "Billig A.J.",
+        "Sedley W."
+      ],
+      "title": "How Can Hearing Loss Cause Dementia?",
+      "journal": "Neuron",
+      "year": "2020",
+      "volume": "108",
+      "fpage": "401",
+      "lpage": "412",
+      "doi": "10.1016/j.neuron.2020.08.003",
+      "pmid": "32871106",
+      "pmc_id": "PMC7664986"
+    },
+    {
+      "ref_id": "bib32",
+      "label": "32",
+      "authors": [
+        "Hughes S.E.",
+        "Hutchings H.A.",
+        "Rapport F.L.",
+        "McMahon C.M.",
+        "Boisvert I."
+      ],
+      "title": "Social Connectedness and Perceived Listening Effort in Adult Cochlear Implant Users: A Grounded Theory to Establish Content Validity for a New Patient-Reported Outcome Measure",
+      "journal": "Ear Hear.",
+      "year": "2018",
+      "volume": "39",
+      "fpage": "922",
+      "lpage": "934",
+      "doi": "10.1097/aud.0000000000000553",
+      "pmid": "29424766"
+    },
+    {
+      "ref_id": "bib33",
+      "label": "33",
+      "authors": [
+        "Gregory S.",
+        "Billings J.",
+        "Wilson D.",
+        "Livingston G.",
+        "Schilder A.G.",
+        "Costafreda S.G."
+      ],
+      "title": "Experiences of hearing aid use among patients with mild cognitive impairment and Alzheimer's disease dementia: A qualitative study",
+      "journal": "SAGE Open Med.",
+      "year": "2020",
+      "volume": "8",
+      "doi": "10.1177/2050312120904572",
+      "pmc_id": "PMC7054731",
+      "pmid": "32166027"
+    },
+    {
+      "ref_id": "bib34",
+      "label": "34",
+      "authors": [
+        "Reed N.S.",
+        "Chen J.",
+        "Huang A.R.",
+        "Pike J.R.",
+        "Arnold M.",
+        "Burgard S.",
+        "Chen Z.",
+        "Chisolm T.",
+        "Couper D.",
+        "Cudjoe T.K.M.",
+        "et al."
+      ],
+      "title": "Hearing Intervention, Social Isolation, and Loneliness: A Secondary Analysis of the ACHIEVE Randomized Clinical Trial",
+      "journal": "JAMA Intern. Med.",
+      "year": "2025",
+      "volume": "185",
+      "fpage": "797",
+      "lpage": "806",
+      "doi": "10.1001/jamainternmed.2025.1140",
+      "pmid": "40354063",
+      "pmc_id": "PMC12070280"
+    },
+    {
+      "ref_id": "bib35",
+      "label": "35",
+      "authors": [
+        "Groechel R.C.",
+        "Liu A.C.",
+        "Lutsey P.L.",
+        "Palta P.",
+        "Kucharska-Newton A.M.",
+        "Koton S.",
+        "Sharrett A.R.",
+        "Gross A.L.",
+        "Walker K.A.",
+        "Gottesman R.F."
+      ],
+      "title": "Associations between mid-life social relationships and the risk of incident dementia: The ARIC study",
+      "journal": "Alzheimer's Dement.",
+      "year": "2025",
+      "volume": "21",
+      "doi": "10.1002/alz.70365",
+      "pmc_id": "PMC12260128",
+      "pmid": "40660753"
+    },
+    {
+      "ref_id": "bib36",
+      "label": "36",
+      "authors": [
+        "Dawes P.",
+        "Völter C."
+      ],
+      "title": "Do hearing loss interventions prevent dementia?",
+      "journal": "Z. Gerontol. Geriatr.",
+      "year": "2023",
+      "volume": "56",
+      "fpage": "261",
+      "lpage": "268",
+      "doi": "10.1007/s00391-023-02178-z",
+      "pmid": "37140632",
+      "pmc_id": "PMC10289956"
+    },
+    {
+      "ref_id": "bib37",
+      "label": "37",
+      "authors": [
+        "Munson Klyn N.A.",
+        "Mohammed Shaikh Z.",
+        "Dhar S."
+      ],
+      "title": "Health Literacy and Self-Reported Hearing Aid Use in the Health and Retirement Study",
+      "journal": "Ear Hear.",
+      "year": "2020",
+      "volume": "41",
+      "fpage": "386",
+      "lpage": "394",
+      "doi": "10.1097/aud.0000000000000770",
+      "pmid": "31369472"
+    },
+    {
+      "ref_id": "bib38",
+      "label": "38",
+      "authors": [
+        "Saunders G.H.",
+        "Frederick M.T.",
+        "Silverman S.C.",
+        "Nielsen C.",
+        "Laplante-Lévesque A."
+      ],
+      "title": "Health behavior theories as predictors of hearing-aid uptake and outcomes",
+      "journal": "Int. J. Audiol.",
+      "year": "2016",
+      "volume": "55",
+      "fpage": "S59",
+      "lpage": "S68",
+      "doi": "10.3109/14992027.2016.1144240",
+      "pmid": "27145934"
+    },
+    {
+      "ref_id": "bib39",
+      "label": "39",
+      "authors": [
+        "Mahmoudi E.",
+        "Zazove P.",
+        "Meade M.",
+        "McKee M.M."
+      ],
+      "title": "Association Between Hearing Aid Use and Health Care Use and Cost Among Older Adults With Hearing Loss",
+      "journal": "JAMA Otolaryngol. Head Neck Surg.",
+      "year": "2018",
+      "volume": "144",
+      "fpage": "498",
+      "lpage": "505",
+      "doi": "10.1001/jamaoto.2018.0273",
+      "pmid": "29710214",
+      "pmc_id": "PMC6145737"
+    },
+    {
+      "ref_id": "bib40",
+      "label": "40",
+      "authors": [
+        "Waterworth C.J.",
+        "Marella M.",
+        "O'Donovan J.",
+        "Bright T.",
+        "Dowell R.",
+        "Bhutta M.F."
+      ],
+      "title": "Barriers to access to ear and hearing care services in low- and middle- income countries: A scoping review",
+      "journal": "Glob. Public Health",
+      "year": "2022",
+      "volume": "17",
+      "fpage": "3869",
+      "lpage": "3893",
+      "doi": "10.1080/17441692.2022.2053734",
+      "pmid": "35319345"
+    },
+    {
+      "ref_id": "bib41",
+      "label": "41",
+      "authors": [
+        "Li J.N.",
+        "Chen S.",
+        "Zhai L.",
+        "Han D.Y.",
+        "Eshraghi A.A.",
+        "Feng Y.",
+        "Yang S.M.",
+        "Liu X.Z."
+      ],
+      "title": "The Advances in Hearing Rehabilitation and Cochlear Implants in China",
+      "journal": "Ear Hear.",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "647",
+      "lpage": "652",
+      "doi": "10.1097/aud.0000000000000441",
+      "pmid": "28471842",
+      "pmc_id": "PMC5659892"
+    },
+    {
+      "ref_id": "bib42",
+      "label": "42",
+      "authors": [
+        "He P.",
+        "Wen X.",
+        "Hu X.",
+        "Gong R.",
+        "Luo Y.",
+        "Guo C.",
+        "Chen G.",
+        "Zheng X."
+      ],
+      "title": "Hearing Aid Acquisition in Chinese Older Adults With Hearing Loss",
+      "journal": "Am. J. Public Health",
+      "year": "2018",
+      "volume": "108",
+      "fpage": "241",
+      "lpage": "247",
+      "doi": "10.2105/ajph.2017.304165",
+      "pmid": "29267059",
+      "pmc_id": "PMC5846583"
+    },
+    {
+      "ref_id": "bib43",
+      "label": "43",
+      "raw_citation": "World health Organization. WHO promotes access to ear and hearing care in communities. 2023; Available from: https://www.who.int/news/item/03-03-2023-who-promotes-access-to-ear-and-hearing-care-in-communities ."
+    },
+    {
+      "ref_id": "bib44",
+      "label": "44",
+      "authors": [
+        "Ye X.",
+        "Zhu D.",
+        "Chen S.",
+        "He P."
+      ],
+      "title": "Cost-Effectiveness Analysis of Hearing Aids for Middle-Aged and Older Adults in China: A Randomized Controlled Trial",
+      "journal": "Otol. Neurotol.",
+      "year": "2023",
+      "volume": "44",
+      "fpage": "e456",
+      "lpage": "e462",
+      "doi": "10.1097/mao.0000000000003907",
+      "pmid": "37306959"
+    },
+    {
+      "ref_id": "bib45",
+      "label": "45",
+      "authors": [
+        "Louw C.",
+        "Swanepoel D.W.",
+        "Eikelboom R.H."
+      ],
+      "title": "Self-Reported Hearing Loss and Pure Tone Audiometry for Screening in Primary Health Care Clinics",
+      "journal": "J. Prim. Care Community Health",
+      "year": "2018",
+      "volume": "9",
+      "doi": "10.1177/2150132718803156",
+      "pmc_id": "PMC6170964",
+      "pmid": "30278815"
+    },
+    {
+      "ref_id": "bib46",
+      "label": "46",
+      "authors": [
+        "Portelli D.",
+        "Galletti C.",
+        "Loteta S.",
+        "Freni L.",
+        "Ciodaro F.",
+        "Alibrandi A.",
+        "Alberti G."
+      ],
+      "title": "Patients' satisfaction and efficacy of modern conventional hearing aids: A comprehensive analysis of the self-reported user experiences in adult people",
+      "journal": "Braz. J. Otorhinolaryngol.",
+      "year": "2025",
+      "volume": "91",
+      "doi": "10.1016/j.bjorl.2025.101565",
+      "pmc_id": "PMC11848458",
+      "pmid": "39914047"
+    },
+    {
+      "ref_id": "bib47",
+      "label": "47",
+      "authors": [
+        "Nondahl D.M.",
+        "Cruickshanks K.J.",
+        "Wiley T.L.",
+        "Tweed T.S.",
+        "Klein R.",
+        "Klein B.E."
+      ],
+      "title": "Accuracy of self-reported hearing loss",
+      "journal": "Audiology",
+      "year": "1998",
+      "volume": "37",
+      "fpage": "295",
+      "lpage": "301",
+      "doi": "10.3109/00206099809072983",
+      "pmid": "9776206"
+    },
+    {
+      "ref_id": "bib48",
+      "label": "48",
+      "authors": [
+        "Cox R.M.",
+        "Alexander G.C."
+      ],
+      "title": "The abbreviated profile of hearing aid benefit",
+      "journal": "Ear Hear.",
+      "year": "1995",
+      "volume": "16",
+      "fpage": "176",
+      "lpage": "186",
+      "doi": "10.1097/00003446-199504000-00005",
+      "pmid": "7789669"
+    },
+    {
+      "ref_id": "bib49",
+      "label": "49",
+      "authors": [
+        "Cox R.M.",
+        "Alexander G.C."
+      ],
+      "title": "The International Outcome Inventory for Hearing Aids (IOI-HA): psychometric properties of the English version",
+      "journal": "Int. J. Audiol.",
+      "year": "2002",
+      "volume": "41",
+      "fpage": "30",
+      "lpage": "35",
+      "doi": "10.3109/14992020209101309",
+      "pmid": "12467367"
+    },
+    {
+      "ref_id": "bib50",
+      "label": "50",
+      "authors": [
+        "Yu J.",
+        "Wang P.",
+        "Xie S.",
+        "Amin J.",
+        "Mueller C.",
+        "Hou X.",
+        "Chen X.",
+        "Underwood B.R.",
+        "Tang S.",
+        "Chen S."
+      ],
+      "title": "Prevalence and progress of underdiagnosis of probable dementia: a repeated cross-sectional study in 19 European countries",
+      "journal": "BMC Med.",
+      "year": "2025",
+      "volume": "23",
+      "fpage": "395",
+      "doi": "10.1186/s12916-025-04196-7",
+      "pmid": "40597117",
+      "pmc_id": "PMC12219912"
+    },
+    {
+      "ref_id": "bib51",
+      "label": "51",
+      "authors": [
+        "Igne P.",
+        "Daly M.",
+        "Sutin A.",
+        "Steptoe A.",
+        "Robinson E."
+      ],
+      "title": "The psychological legacy of past obesity and early mortality: evidence from two longitudinal studies",
+      "journal": "BMC Med.",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "448",
+      "doi": "10.1186/s12916-023-03148-3",
+      "pmid": "37974151",
+      "pmc_id": "PMC10655273"
+    },
+    {
+      "ref_id": "bib52",
+      "label": "52",
+      "authors": [
+        "He D.",
+        "Wang Z.",
+        "Li J.",
+        "Yu K.",
+        "He Y.",
+        "He X.",
+        "Liu Y.",
+        "Li Y.",
+        "Fu R.",
+        "Zhou D.",
+        "Zhu Y."
+      ],
+      "title": "Changes in frailty and incident cardiovascular disease in three prospective cohorts",
+      "journal": "Eur. Heart J.",
+      "year": "2024",
+      "volume": "45",
+      "fpage": "1058",
+      "lpage": "1068",
+      "doi": "10.1093/eurheartj/ehad885",
+      "pmid": "38241094"
+    },
+    {
+      "ref_id": "bib53",
+      "label": "53",
+      "authors": [
+        "Zhao Y.",
+        "Hu Y.",
+        "Smith J.P.",
+        "Strauss J.",
+        "Yang G."
+      ],
+      "title": "Cohort profile: the China Health and Retirement Longitudinal Study (CHARLS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2014",
+      "volume": "43",
+      "fpage": "61",
+      "lpage": "68",
+      "doi": "10.1093/ije/dys203",
+      "pmid": "23243115",
+      "pmc_id": "PMC3937970"
+    },
+    {
+      "ref_id": "bib54",
+      "label": "54",
+      "raw_citation": "Korea Employment Information Service (KEIS). Korean longitudinal study of ageing (KLoSA). 2015; Available from: https://survey.keis.or.kr/eng/klosa/klosa01.jsp ."
+    },
+    {
+      "ref_id": "bib55",
+      "label": "55",
+      "authors": [
+        "Steptoe A.",
+        "Breeze E.",
+        "Banks J.",
+        "Nazroo J."
+      ],
+      "title": "Cohort profile: the English longitudinal study of ageing",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2013",
+      "volume": "42",
+      "fpage": "1640",
+      "lpage": "1648",
+      "doi": "10.1093/ije/dys168",
+      "pmid": "23143611",
+      "pmc_id": "PMC3900867"
+    },
+    {
+      "ref_id": "bib56",
+      "label": "56",
+      "authors": [
+        "Börsch-Supan A.",
+        "Brandt M.",
+        "Hunkler C.",
+        "Kneip T.",
+        "Korbmacher J.",
+        "Malter F.",
+        "Schaan B.",
+        "Stuck S.",
+        "Zuber S."
+      ],
+      "title": "Data Resource Profile: the Survey of Health, Ageing and Retirement in Europe (SHARE)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2013",
+      "volume": "42",
+      "fpage": "992",
+      "lpage": "1001",
+      "doi": "10.1093/ije/dyt088",
+      "pmid": "23778574",
+      "pmc_id": "PMC3780997"
+    },
+    {
+      "ref_id": "bib57",
+      "label": "57",
+      "authors": [
+        "Whelan B.J.",
+        "Savva G.M."
+      ],
+      "title": "Design and methodology of the Irish Longitudinal Study on Ageing",
+      "journal": "J. Am. Geriatr. Soc.",
+      "year": "2013",
+      "volume": "61",
+      "fpage": "S265",
+      "lpage": "S268",
+      "doi": "10.1111/jgs.12199",
+      "pmid": "23662718"
+    },
+    {
+      "ref_id": "bib58",
+      "label": "58",
+      "authors": [
+        "Sonnega A.",
+        "Faul J.D.",
+        "Ofstedal M.B.",
+        "Langa K.M.",
+        "Phillips J.W.R.",
+        "Weir D.R."
+      ],
+      "title": "Cohort Profile: the Health and Retirement Study (HRS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2014",
+      "volume": "43",
+      "fpage": "576",
+      "lpage": "585",
+      "doi": "10.1093/ije/dyu067",
+      "pmid": "24671021",
+      "pmc_id": "PMC3997380"
+    },
+    {
+      "ref_id": "bib59",
+      "label": "59",
+      "authors": [
+        "Wong R.",
+        "Michaels-Obregon A.",
+        "Palloni A."
+      ],
+      "title": "Cohort Profile: The Mexican Health and Aging Study (MHAS)",
+      "journal": "Int. J. Epidemiol.",
+      "year": "2017",
+      "volume": "46",
+      "doi": "10.1093/ije/dyu263",
+      "pmc_id": "PMC5837398",
+      "pmid": "25626437"
+    },
+    {
+      "ref_id": "bib60",
+      "label": "60",
+      "authors": [
+        "Knoetze M.",
+        "Manchaiah V.",
+        "Mothemela B.",
+        "Swanepoel D.W."
+      ],
+      "title": "Factors Influencing Hearing Help-Seeking and Hearing Aid Uptake in Adults: A Systematic Review of the Past Decade",
+      "journal": "Trends Hear.",
+      "year": "2023",
+      "volume": "27",
+      "doi": "10.1177/23312165231157255",
+      "pmc_id": "PMC9940236",
+      "pmid": "36798964"
+    },
+    {
+      "ref_id": "bib61",
+      "label": "61",
+      "raw_citation": "Shwetha Grace Eapen Kathryn Elizabeth Young Eric Metreau. World Bank country classifications by income level for 2024-2025. 2024; Available from: https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025 ."
+    },
+    {
+      "ref_id": "bib62",
+      "label": "62",
+      "authors": [
+        "Liu W.",
+        "Meng Q.",
+        "Wang Y.",
+        "Yang C.",
+        "Liu L.",
+        "Wang H.",
+        "Su Z.",
+        "Kong G.",
+        "Zhao Y.",
+        "Zhang L."
+      ],
+      "title": "The association between reduced kidney function and hearing loss: a cross-sectional study",
+      "journal": "BMC Nephrol.",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "145",
+      "doi": "10.1186/s12882-020-01810-z",
+      "pmid": "32321468",
+      "pmc_id": "PMC7178984"
+    },
+    {
+      "ref_id": "bib63",
+      "label": "63",
+      "authors": [
+        "Ahmadi-Abhari S.",
+        "Guzman-Castillo M.",
+        "Bandosz P.",
+        "Shipley M.J.",
+        "Muniz-Terrera G.",
+        "Singh-Manoux A.",
+        "Kivimäki M.",
+        "Steptoe A.",
+        "Capewell S.",
+        "O'Flaherty M.",
+        "Brunner E.J."
+      ],
+      "title": "Temporal trend in dementia incidence since 2002 and projections for prevalence in England and Wales to 2040: modelling study",
+      "journal": "BMJ",
+      "year": "2017",
+      "volume": "358",
+      "doi": "10.1136/bmj.j2856",
+      "pmc_id": "PMC5497174",
+      "pmid": "28679494"
+    },
+    {
+      "ref_id": "bib64",
+      "label": "64",
+      "authors": [
+        "Power M.C.",
+        "Bennett E.E.",
+        "Turner R.W.",
+        "Dowling N.M.",
+        "Ciarleglio A.",
+        "Glymour M.M.",
+        "Gianattasio K.Z."
+      ],
+      "title": "Trends in Relative Incidence and Prevalence of Dementia Across Non-Hispanic Black and White Individuals in the United States, 2000-2016",
+      "journal": "JAMA Neurol.",
+      "year": "2021",
+      "volume": "78",
+      "fpage": "275",
+      "lpage": "284",
+      "doi": "10.1001/jamaneurol.2020.4471",
+      "pmid": "33252617",
+      "pmc_id": "PMC7953306"
+    },
+    {
+      "ref_id": "bib65",
+      "label": "65",
+      "authors": [
+        "Lin Z.",
+        "Qian Y.",
+        "Gill T.M.",
+        "Hou X.",
+        "Allore H.",
+        "Chen S.",
+        "Chen X."
+      ],
+      "title": "Absence of care among community-dwelling older adults with dementia and functional limitations",
+      "journal": "Nat. Aging",
+      "year": "2025",
+      "volume": "5",
+      "fpage": "548",
+      "lpage": "557",
+      "doi": "10.1038/s43587-025-00836-y",
+      "pmid": "40097773",
+      "pmc_id": "PMC12003173"
+    },
+    {
+      "ref_id": "bib66",
+      "label": "66",
+      "authors": [
+        "Wang M.",
+        "Fan C.",
+        "Han Y.",
+        "Wang Y.",
+        "Cai H.",
+        "Zhong W.",
+        "Yang X.",
+        "Wang Z.",
+        "Wang H.",
+        "Han Y."
+      ],
+      "title": "Associations of modifiable dementia risk factors with dementia and cognitive decline: evidence from three prospective cohorts",
+      "journal": "Front. Public Health",
+      "year": "2025",
+      "volume": "13",
+      "doi": "10.3389/fpubh.2025.1529969",
+      "pmc_id": "PMC11774717",
+      "pmid": "39882349"
+    },
+    {
+      "ref_id": "bib67",
+      "label": "67",
+      "authors": [
+        "Mejia-Arango S.",
+        "Gutierrez L.M."
+      ],
+      "title": "Prevalence and incidence rates of dementia and cognitive impairment no dementia in the Mexican population: data from the Mexican Health and Aging Study",
+      "journal": "J. Aging Health",
+      "year": "2011",
+      "volume": "23",
+      "fpage": "1050",
+      "lpage": "1074",
+      "doi": "10.1177/0898264311421199",
+      "pmid": "21948770",
+      "pmc_id": "PMC3557523"
+    },
+    {
+      "ref_id": "bib68",
+      "label": "68",
+      "authors": [
+        "Du M.",
+        "Liu M.",
+        "Liu J."
+      ],
+      "title": "Effects of physical and psychological multimorbidity on the risk of dementia: multinational prospective cohorts and a meta-analysis",
+      "journal": "BMC Med.",
+      "year": "2024",
+      "volume": "22",
+      "fpage": "423",
+      "doi": "10.1186/s12916-024-03642-2",
+      "pmid": "39334426",
+      "pmc_id": "PMC11437643"
+    },
+    {
+      "ref_id": "bib69",
+      "label": "69",
+      "authors": [
+        "Nakanishi M.",
+        "Yamasaki S.",
+        "Nakashima T.",
+        "Miyamoto Y.",
+        "Cooper C.",
+        "Richards M.",
+        "Stanyon D.",
+        "Sakai M.",
+        "Yoshii H.",
+        "Nishida A."
+      ],
+      "title": "Association Between Dementia, Change in Home-Care Use, and Depressive Symptoms During the COVID-19 Pandemic: A Longitudinal Study Using Data from Three Cohort Studies",
+      "journal": "J. Alzheimers Dis.",
+      "year": "2024",
+      "volume": "99",
+      "fpage": "403",
+      "lpage": "415",
+      "doi": "10.3233/jad-240097",
+      "pmid": "38640160"
+    },
+    {
+      "ref_id": "bib70",
+      "label": "70",
+      "authors": [
+        "Han C.",
+        "Jo S.A.",
+        "Jo I.",
+        "Kim E.",
+        "Park M.H.",
+        "Kang Y."
+      ],
+      "title": "An adaptation of the Korean mini-mental state examination (K-MMSE) in elderly Koreans: demographic influence and population-based norms (the AGE study)",
+      "journal": "Arch. Gerontol. Geriatr.",
+      "year": "2008",
+      "volume": "47",
+      "fpage": "302",
+      "lpage": "310",
+      "doi": "10.1016/j.archger.2007.08.012",
+      "pmid": "17936377"
+    },
+    {
+      "ref_id": "bib71",
+      "label": "71",
+      "authors": [
+        "Harrison J.K.",
+        "Fearon P.",
+        "Noel-Storr A.H.",
+        "McShane R.",
+        "Stott D.J.",
+        "Quinn T.J."
+      ],
+      "title": "Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) for the diagnosis of dementia within a secondary care setting",
+      "journal": "Cochrane Database Syst. Rev.",
+      "year": "2015",
+      "volume": "3",
+      "doi": "10.1002/14651858.CD010772.pub2",
+      "pmid": "25754745"
+    },
+    {
+      "ref_id": "bib72",
+      "label": "72",
+      "authors": [
+        "Sarant J.",
+        "Harris D.",
+        "Busby P.",
+        "Maruff P.",
+        "Schembri A.",
+        "Lemke U.",
+        "Launer S."
+      ],
+      "title": "The Effect of Hearing Aid Use on Cognition in Older Adults: Can We Delay Decline or Even Improve Cognitive Function?",
+      "journal": "J. Clin. Med.",
+      "year": "2020",
+      "volume": "9",
+      "doi": "10.3390/jcm9010254",
+      "pmc_id": "PMC7020090",
+      "pmid": "31963547"
+    },
+    {
+      "ref_id": "bib73",
+      "label": "73",
+      "authors": [
+        "Stef van B.",
+        "Groothuis-Oudshoorn K."
+      ],
+      "title": "mice: Multivariate Imputation by Chained Equations in R",
+      "journal": "J. Stat. Software",
+      "year": "2011",
+      "volume": "45",
+      "fpage": "1",
+      "lpage": "67",
+      "doi": "10.18637/jss.v045.i03"
+    },
+    {
+      "ref_id": "bib74",
+      "label": "74",
+      "authors": [
+        "Austin P.C."
+      ],
+      "title": "Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity-score matched samples",
+      "journal": "Stat. Med.",
+      "year": "2009",
+      "volume": "28",
+      "fpage": "3083",
+      "lpage": "3107",
+      "doi": "10.1002/sim.3697",
+      "pmid": "19757444",
+      "pmc_id": "PMC3472075"
+    },
+    {
+      "ref_id": "bib75",
+      "label": "75",
+      "authors": [
+        "Button K.S.",
+        "Ioannidis J.P.A.",
+        "Mokrysz C.",
+        "Nosek B.A.",
+        "Flint J.",
+        "Robinson E.S.J.",
+        "Munafò M.R."
+      ],
+      "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+      "journal": "Nat. Rev. Neurosci.",
+      "year": "2013",
+      "volume": "14",
+      "fpage": "365",
+      "lpage": "376",
+      "doi": "10.1038/nrn3475",
+      "pmid": "23571845"
+    },
+    {
+      "ref_id": "bib76",
+      "label": "76",
+      "authors": [
+        "VanderWeele T.J.",
+        "Ding P."
+      ],
+      "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+      "journal": "Ann. Intern. Med.",
+      "year": "2017",
+      "volume": "167",
+      "fpage": "268",
+      "lpage": "274",
+      "doi": "10.7326/m16-2607",
+      "pmid": "28693043"
+    }
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "metadata": {
+    "title": "Rebuilding the Mucociliary Apparatus in ECRS: TSLP/IL-33 Signaling Synergy and the Residual Molecular Scar of DNASE1L3 Following IL-4/13 Blockade",
+    "authors": [
+      "Rikuto Fujita",
+      "Takashi Ishino",
+      "Takashi Oda",
+      "Tomohiro Kawasumi",
+      "Manabu Nishida",
+      "Yuichiro Horibe",
+      "Nobuyuki Chikuie",
+      "Takayuki Taruya",
+      "Takao Hamamoto",
+      "Tsutomu Ueda",
+      "Sachio Takeno"
+    ],
+    "journal": "Cells",
+    "year": "2026",
+    "doi": "10.3390/cells15100911",
+    "pmc_id": "PMC13204112",
+    "pmid": "42193919",
+    "full_text_available": true,
+    "section_count": 18,
+    "reference_count": 62
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background: Eosinophilic chronic rhinosinusitis (ECRS) is characterized by refractory nasal polyps and severely impaired mucociliary clearance (MCC). The molecular mechanisms underlying the modulation of mucociliogenesis following IL-4/13 blockade with dupilumab remain poorly understood, notwithstanding its proven clinical efficacy. Methods: Bulk RNA Barcoding and sequencing (BRB-seq) was performed on nasal polyp tissues collected from healthy controls ( n = 6), patients with non-ECRS ( n = 8), and patients with ECRS both before and four weeks after dupilumab treatment ( n = 9) to identify the early molecular drivers underlying ciliary regeneration. Comprehensive gene-set scoring systems were developed to evaluate multiciliogenesis master regulators, master regulators of core/ciliary planar cell polarity (PCP) and PCP components. Interaction scores for epithelial-derived cytokines—thymic stromal lymphopoietin (TSLP), IL-25, and IL-33—were calculated based on ligand and cognate receptor subunit expression. Results: The ciliary master regulatory hierarchy (e.g., FOXJ1 , RFX2/3 ), PCP components ( CELSR1 and the ciliogenesis and planar polarity effector (CPLANE) module: FUZ , INTU , WDPCP ), and structural ciliogenesis pathways were robustly restored following IL-4/13 blockade. The TSLP interaction score correlated with global mucosal damage, serving as a trigger for compensatory multiciliogenesis. The pre-treatment IL-33 interaction score emerged as a significant predictor of transcriptomic ciliary recovery ( p < 0.05). DNASE1L3 —the primary endonuclease for degrading eosinophilic extracellular traps (EETs)—remained persistently downregulated post-treatment. Conclusions: IL-4/13 blockade successfully restores the structural and directional “hardware” of the respiratory epithelium but fails to rectify the enzymatic “software” required for mucus degradation. This “residual molecular scar” may explain the persistent mucus hyperviscosity observed in some ECRS patients even after clinical polyp resolution.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Mucociliary clearance (MCC) within the upper and lower respiratory tracts constitutes a vital primary defense, safeguarding the mucosal tissue against a diverse array of environmental exposures, including smoke, bio-aerosols, dust, fungi, and toxic pollutants. This homeostatic mechanism is sustained through the orchestrated synergy of autonomous ciliary beating, planar cell polarity (PCP)-mediated coordination, and the precise biochemical and rheological properties of the surface mucus [ 1 , 2 ]. At the ultrastructural level, motile cilia are characterized by a conserved 9+2 axonemal arrangement, where nine peripheral doublet microtubules encircle a central apparatus—a complex comprising a central microtubule pair and its associated projections [ 3 , 4 , 5 ]. The molecular architecture of the cilium is organized into several functionally distinct regions: the basal body, which anchors the cilium to the apical membrane via a modified centriole; the transition zone, a specialized gatekeeper at the ciliary base that regulates protein trafficking; and the axoneme, the core skeleton. This framework is equipped with essential motor and regulatory complexes, including outer and inner dynein arms (ODAs/IDAs), radial spokes, and the nexin-dynein regulatory complex (N-DRC) [ 5 , 6 ]. The genesis of multiciliated cells (MCCs) proceeds through an intricately regulated, multi-step developmental program encompassing centriole amplification, apical migration, docking, and axonemal assembly. This lineage is governed by a stringent gene-regulatory hierarchy initiated by tumor protein P73 (TP73) under the suppression of NOTCH signaling. The progression of multiciliogenesis is further characterized by the concerted action of a sophisticated and highly coordinated regulatory landscape. This intricate program involves an essential repertoire of transcription factors and regulatory elements—including TP73, multiciliate differentiation and DNA synthesis associated (MCIDAS), E2F transcription factor 4/5 (E2F4/5), development of ependymal and urothelial cilia 1 (DEUP1), cell division cycle 20B (CDC20B), MYB proto-oncogene (MYB), cyclin O (CCNO), forkhead box J1 (FOXJ1), forkhead box N4 (FOXN4), and the regulatory factor X (RFX) family—which collectively orchestrate the complex transition from progenitor commitment to the functional maturation of motile cilia [ 5 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 ]. The program culminates in the activation of FOXJ1 and the RFX family, which together govern axonemal assembly and the functional maturation [ 5 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 ]. Specifically, FOXJ1 regulates genes critical for axoneme assembly, dynein arm components, radial spoke proteins, and intraflagellar transport (IFT) [ 5 , 16 ]. Similarly, RFX2 and RFX3 redundantly control multiciliogenesis by regulating a wide array of target genes, including those encoding IFT components (both IFT-A and IFT-B complexes), axonemal structures, the BBSome complex, and centrosomal proteins [ 5 , 16 , 17 , 18 ]. These components are indispensable for the sustained motility and homeostatic maintenance of motile cilia. PCP represents a pivotal determinant for the coordinated motility of MCCs within the airway epithelium. The PCP signaling pathway governs the proximal–distal orientation of cilia within individual MCCs, a process characterized by the asymmetric distribution of core PCP proteins across the apical surface [ 19 ]. This precise spatial localization facilitates unified, vectorial ciliary beating, which is an absolute prerequisite for efficient MCC [ 1 , 19 ]. The molecular framework of PCP is established by genes encoding integral membrane proteins—such as Frizzled (FZD), Vang-like (VANGL), and Cadherin EGF LAG seven-pass G-type receptor (CELSR)—which act in concert with peripheral membrane proteins, including dishevelled (DVL), prickle planar cell polarity protein (PRICKLE), and ankyrin repeat domain 6 (ANKRD6; Diego). These core components further recruit planar polarity effectors (PPE) factors, such as inturned (INTU), fuzzy (FUZ), and WD repeat containing planar cell polarity effector (WDPCP; Fritz), to define the architectural polarity of the cell [ 19 , 20 , 21 ]. The Frizzled/Starry night (Fz/Stan) axis, a hierarchical regulator of PCP across various tissues, has been significantly implicated in the impairment of mucociliary transport when dysregulated. Collectively, these PCP-driven mechanisms interface with multiciliogenesis programs to forge a highly ordered epithelial landscape, ensuring that hundreds of cilia per cell oscillate synchronously and with correct directional bias. Consequently, perturbations in PCP signaling—whether of genetic or acquired etiology—undermine this organizational integrity, contributing to the pathogenesis of respiratory conditions defined by defective MCC. In the context of MCC, the gel-forming mucins, MUC5AC and MUC5B, serve as fundamental biological determinants of efficient airway transport by modulating the viscoelasticity and rheological properties of the surface mucus [ 22 , 23 , 24 ]. Chronic inflammatory pathologies of the upper and lower airways, such as eosinophilic chronic rhinosinusitis (ECRS) and bronchial asthma, are predominantly characterized by a Type 2 inflammatory milieu. This environment is defined by the overproduction of IL-4, IL-5, and IL-13, coupled with robust eosinophilic infiltration into local tissues and peripheral blood eosinophilia. These conditions exhibit a marked decline in MCC, resulting from the dual impact of impaired motile ciliogenesis and pathological alterations in mucus composition [ 2 , 25 , 26 ]. Specifically, IL-13 is known to antagonize FOXJ1 expression via the signal transducer and activator of transcription 6 (STAT6) signaling axis and downregulate RFX3, which ultimately precipitates a significant loss of functional ciliated cells [ 27 , 28 ]. Furthermore, attenuated expression of PCP-associated genes and proteins has been documented in nasal polyps, leading to the disruption of PCP and a consequent reduction in mucociliary transport velocity [ 2 , 26 ]. Pathological mucus production and altered compositional stoichiometry are likewise inextricably linked to Type 2 inflammation. IL-13 facilitates the expression of arachidonate 15-lipoxygenase ( ALOX15 ) and the synthesis of its lipid metabolite, 15-hydroxyeicosatetraenoic acid-phosphatidylethanolamine (15-HETE-PE), thereby augmenting MUC5AC expression [ 29 , 30 ]. Simultaneously, IL-13 promotes SAM pointed domain containing ETS transcription factor (SPDEF) expression via STAT6 to drive goblet cell metaplasia (GCM)—a requisite process for excessive mucus secretion [ 31 , 32 ]. Periostin (encoded by POSTN ) also contributes to the upregulation of MUC5AC [ 33 ]. The resulting imbalance—characterized by elevated MUC5AC and diminished MUC5B in asthma [ 28 , 34 ], or the elevated levels of both mucins in chronic rhinosinusitis (CRS)—leads to profound mucus hypersecretion and the catastrophic failure of the mucociliary apparatus [ 35 , 36 ]. Beyond mucin stoichiometry, eosinophilic mucin is characterized by extensive fibrin polymerization [ 37 ] and the dissemination of extracellular DNA networks via ETosis. The resulting eosinophilic extracellular traps (EETs), composed of histone H1-associated DNA networks, form a structural scaffold that profoundly increases mucus hyperviscosity [ 38 , 39 , 40 ]. The molecular regulation of this fibrinostasis is closely linked to the expression of serpin family E member 1 ( SERPINE1 ; encoding plasminogen activator inhibitor-1, PAI-1) and plasminogen activator, tissue type ( PLAT ; encoding tissue-type plasminogen activator, t-PA). In chronic rhinosinusitis with nasal polyps (CRSwNP), the upregulation of SERPINE1 and the concomitant downregulation of PLAT precipitate excessive fibrin polymerization, further compounding the tenacity of the eosinophilic mucus [ 41 ]. Furthermore, these DNA traps, which are primarily composed of extracellular microparticle-associated chromatin, are typically targeted for digestion by the endonuclease deoxyribonuclease 1 like 3 (DNASE1L3) [ 42 , 43 ]. Consequently, a deficit in this degradative pathway may play a pivotal role in the persistent hyperviscosity observed in ECRS. The convergence of these pathological mechanisms—impaired ciliary function, disrupted PCP, and altered mucus rheology—synergistically reduces mucociliary transport efficiency in patients with CRS compared to healthy individuals [ 44 ]. Dupilumab, a recombinant human immunoglobulin G4 (IgG4) monoclonal antibody targeting the IL-4Rα, inhibits both IL-4 and IL-13 signaling by binding to the shared IL-4Rα component of their respective receptor complexes. Clinically, it has demonstrated transformative efficacy in reducing polyp burden and alleviating the core pathophysiology of CRSwNP [ 45 , 46 , 47 ]. However, while the association between Type 2 inflammation and ciliary dysfunction is increasingly recognized, the impact of pharmacological IL-4/13 blockade on the comprehensive genomic landscape of MCC—specifically the recovery of ciliary programs and the modulation of mucus rheology—remains to be fully elucidated. This study aims to evaluate the early transcriptomic modulation of genes governing motile cilia formation, PCP, and the properties of high-viscosity eosinophilic mucin following the suppression of Type 2 inflammation with dupilumab, thereby elucidating the early molecular mechanisms underlying mucociliary dysfunction in CRS.",
+      "order": 1
+    },
+    {
+      "section": "2.1.1. Study Population And Ethical Oversight",
+      "text": "This prospective study enrolled patients diagnosed with CRSwNP at Hiroshima University Hospital between June 2021 and October 2023. The study cohort comprised individuals with non-ECRS ( n = 8) and those with ECRS ( n = 9). Control specimens (Ctrl, n = 6) were sourced from patients undergoing surgery for anatomical abnormalities (e.g., septal deviation) who exhibited no evidence of inflammatory mucosal changes or concurrent bacterial infections. Clinical characteristics of the study population are summarized in Table 1 .",
+      "order": 2
+    },
+    {
+      "section": "2.1.2. Diagnostic Criteria For Ecrs",
+      "text": "The diagnosis of ECRS was stringently established in accordance with the Japanese Epidemiological Survey of Refractory Eosinophilic Chronic Rhinosinusitis (JESREC) criteria, requiring a total clinical score of ≥11 and a tissue eosinophil count of ≥70 cells per high-power field within the nasal polyps [ 45 ]. The clinical score was determined by a composite assessment of the following parameters: Disease Distribution: Bilateral involvement (3 points). Presence of Nasal Polyps: (2 points). Radiological Findings: Computed tomography (CT) showing ethmoid-dominant opacification (ethmoid/maxillary ratio ≥ 1; 2 points). Peripheral Eosinophilia: 2% < eosinophils ≤ 5% (4 points); 5% < eosinophils ≤ 10% (8 points); eosinophils>10% (10 points).",
+      "order": 3
+    },
+    {
+      "section": "2.1.3. Therapeutic Protocol And Specimen Acquisition",
+      "text": "Refractory ECRS patients (polyp score ≥ 5; history of ESS) received biweekly dupilumab. Nasal polyp tissues were collected at baseline (PreECRS) and four weeks post-initiation (PostECRS). This 4-week interval was strategically selected to facilitate longitudinal comparison within the same mucosal niche before rapid clinical resolution precluded site-specific topographical analysis. This paired sampling ( n = 9) minimized inter-individual variability and captured the early molecular shifts in mucosal remodeling.",
+      "order": 4
+    },
+    {
+      "section": "2.2. Library Preparation Via Modified Bulk Rna Barcoding And Sequencing (Brb-Seq)",
+      "text": "Transcriptomic profiling was performed using modified BRB-seq [ 48 ]. First-strand cDNA was synthesized with a barcoded oligo-dT primer (5′-GCCGGTAATACGACTCACTATAGGGAGTTCTACAGTCCGACGATCNNNNNNNNNNCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTV-3′) containing a 10 bp UMI and 9 bp cell barcode. After second-strand synthesis (NEB, Ipswich, MA, USA, #E6111) and tagmentation via an in-house MEDS-B Tn5 transposase [ 49 , 50 ], libraries were amplified for 10 PCR cycles using Phusion High-Fidelity DNA Polymerase (Thermo Scientific, Waltham, MA, USA, #M0530): The following primers were employed for the amplification process: Forward: 5′-AATGATACGGCGACCACCGAGATCTACACindexGTTCAGAGTTCTACAGTCCGA-3′ Reverse: 5′-CAAGCAGAAGACGGCATACGAGATindexGTCTCGTGGGCTCGGAGATGT-3′ Sequencing was executed on the Illumina NovaSeq 6000 platform (Illumina, Inc., San Diego, CA, USA), generating a 15 bp barcode read (Read 1) and an 81 bp insert read (Read 2).",
+      "order": 5
+    },
+    {
+      "section": "2.3. Bioinformatic Processing Of Brb-Seq Data",
+      "text": "Bioinformatics analysis of the BRB-seq libraries was performed through a structured computational pipeline. Initially, the barcode read (Read 1) was extracted using UMI-tools (ver. 1.1.1) with the following command: umi_tools extract -I read1.fastq --read2-in=read2.fastq --bc-pattern=NNNNNNNNNNCCCCCCCCC --read2-stdout. Subsequently, adapter sequences and low-quality bases were excised using Trim Galore (ver. 0.6.7), with a minimum read length threshold of 20 bp. The processed reads were aligned to the GRCh38 human reference genome utilizing HISAT2 (ver. 2.2.1). Gene-level quantification was performed via featureCounts (ver. 2.0.1), and PCR duplicates were collapsed based on Unique Molecular Identifiers (UMIs) using the unique method in UMI-tools (--per-gene --per-cell --gene-tag=XT). Finally, read count normalization was conducted using DESeq2 (ver. 1.34.0) to facilitate downstream comparative analyses.",
+      "order": 6
+    },
+    {
+      "section": "2.4. Curation Of Investigated Gene Sets",
+      "text": "To evaluate the epithelial landscape of ECRS, we curated comprehensive gene modules subcategorized by functional roles: Multiciliogenesis Master Regulators ( n = 12; Master genes): Including TP73, MCIDAS, E2F4/5, MYB, CCNO, DEUP1, CDC20B, FOXJ1, FOXN4, and RFX2/3. PCP Components ( n = 17; PCP genes): Core and ciliary effector genes. Ciliogenesis Regulators ( n = 143; Ciliogenesis genes): Broad structural and functional factors. Mucus Pathophysiology & GCM ( n = 25; Mucus-associated genes): Including MUC5AC, MUC5B, and markers of hyper-secretion and viscosity. Epithelial Cytokines & Receptors: Including thymic stromal lymphopoietin (TSLP), IL25, IL33, and their respective cognate receptor subunits. These gene sets used for ciliary, epithelial, and inflammatory modules were derived from our in-house curated annotations based on previously published literature. Full gene lists are provided in Supplementary Table S1 to ensure reproducibility.",
+      "order": 7
+    },
+    {
+      "section": "2.5. Statistical Analysis, Framework And Scoring Systems",
+      "text": "To compare ciliary and PCP scores among the four study groups (Ctrl, nonECRS, PreECRS, and PostECRS), linear mixed-effects models (LMM) were employed using the lmerTest and lme4 packages. In these models, ‘Group’ was treated as a fixed effect, while ‘PatientID’ was incorporated as a random effect to account for both inter-individual variability and the paired nature of the PreECRS and PostECRS samples. For post hoc analysis, Tukey’s Honest Significant Difference (HSD) test was performed using the emmeans package to adjust for multiple pairwise comparisons. The association between epithelial cytokine interaction scores and ciliary/PCP metrics was assessed using marginal R ( Rm ) based on Nakagawa’s coefficient of determination ( R 2 ). The statistical significance of these associations was determined via LMM to further account for inter-individual variability. Differential Expression Analysis was conducted using the DESeq2 package. Differentially expressed genes (DEGs) were identified using a significance threshold of a p adjusted < 0.05 and an absolute log 2 fold change > 1. Cellular Program Scoring: To quantitatively assess specific cellular programs, we calculated Cilia Master, Core PCP, and Cilia PCP scores. These scores represent the arithmetic mean of the log 2 transformed counts per million (log 2 (counts per million (CPM) + 1)) for the following gene sets: Cilia Master Score: TP73, MCIDAS, E2F4/5, CCNO, DEUP1, MYB, FOXJ1, FOXN4, RFX2/3. Core PCP Score: CELSR1–3, FZD3/6, VANGL1–2, DVL1–3, PRICKLE1–4, ANKRD6. Cilia PCP Score: FUZ, INTU, WDPCP. Cytokine Interaction Scores: Interaction scores for epithelial-derived cytokines (IL-25, IL-33, and TSLP) were derived to estimate signaling potential. The score was defined as the product of the ligand’s expression and the mean expression of its corresponding receptor subunits (e.g., ). In all analyses, p < 0.05 was considered statistically significant, and all statistical computations were executed in the R environment (version 4.3.3), utilizing the DESeq2 (ver. 1.42.1), lme4 (ver. 1.1-35.5), lmerTest (ver. 3.1-3), emmeans (ver. 2.0.3), ggplot2 (ver. 3.5.2), and ggpubr (ver. 0.6.1) packages.",
+      "order": 8
+    },
+    {
+      "section": "3.1. Expression Profiles Of Multiciliogenesis Master Regulators",
+      "text": "The transcriptional landscape of Master genes governing multiciliated cell formation exhibited marked induction in both the non-ECRS and PostECRS cohorts, whereas the PreECRS group displayed consistently lower expression levels relative to both counterparts ( Figure 1 A). Notably, these regulatory factors reached their nadir in the control (Ctrl) group and were robustly upregulated in the PostECRS group. Cross-group comparisons identified significant DEGs within the PostECRS vs. Ctrl axis, including TP73 , MYB , CCNO , CDC20B , FOXJ1 , RFX2 , and RFX3 ( Table 2 ).",
+      "order": 9
+    },
+    {
+      "section": "3.2. Divergent Modulation Of Pcp Components",
+      "text": "Regarding the architectural components of PCP, a substantial upregulation of DVL1 , FZD6 , PRICKLE3 , VANGL1/2 , FUZ , INTU , and WDPCP was observed in the PostECRS group; conversely, these genes—except for VANGL1/2 —were significantly suppressed in the PreECRS state ( Figure 1 B). In the control group, DVL3 and FZD3 exhibited preferential upregulation compared to other pathological states. Interestingly, DVL1 and DVL3 displayed distinct behavioral trajectories between the Ctrl and PostECRS groups, a pattern similarly observed for the PRICKLE1/2 and PRICKLE3 isoforms. In the comparative cross-analysis, CELSR1 emerged as the exclusive DEG, identified only within the PreECRS vs. Ctrl comparison ( Supplementary Table S2A ).",
+      "order": 10
+    },
+    {
+      "section": "3.3. Comprehensive Activation Of Mucociliogenesis Pathways",
+      "text": "A congruent trend was observed in the genes associated with mucociliogenesis, paralleling the expression patterns of the master regulators ( Figure 1 C). All functional categories within this module were profoundly upregulated in the PostECRS group relative to all other cohorts. Quantitative analysis of DEGs further underscored this shift: the “PostECRS vs. Ctrl” comparison yielded 81 DEGs, a figure that sharply contrasted with the 12 and 9 DEGs identified in the “non-ECRS vs. Ctrl” and “PreECRS vs. Ctrl” comparisons, respectively ( Supplementary Table S2B ).",
+      "order": 11
+    },
+    {
+      "section": "3.4. Goblet Cell Metaplasia And Mucus Pathophysiology",
+      "text": "Evaluation of the gene modules associated with GCM and mucus hyperviscosity revealed that CCL26 —a pivotal type 2 inflammatory inducer responsible for eosinophil recruitment and the subsequent activation of STAT6 , JAG1 , and NOTCH1/2 —was strongly elevated in the PreECRS group ( Figure 1 D). In contrast, the “Mucus Degradation & Remodeling” category exhibited sustained downregulation in both the PreECRS and PostECRS groups compared to controls. While the DEGs for “PreECRS vs. Ctrl” and “PostECRS vs. Ctrl” showed substantial overlap, distinct expression profiles were maintained for CCL26 , MUC5AC , SLC26A4 , GSTP1 , and SERPINE1 ( Table 2 B).",
+      "order": 12
+    },
+    {
+      "section": "3.5. Epithelial Cytokine And Receptor Profiling",
+      "text": "Transcriptomic profiling of epithelial-derived cytokines demonstrated that the PreECRS group upregulated most of these genes relative to controls, with the notable exception of IL25 , which remained undetected across all cohorts ( Figure 1 E). Following dupilumab treatment (PostECRS), the expression of IL4R , IL13RA1 , and the receptors for TSLP and IL-25 decreased compared to the PreECRS state. IL1RL1 was identified as the sole common DEG across the PreECRS vs. Ctrl, PostECRS vs. Ctrl, and PreECRS vs. non-ECRS comparisons ( Supplementary Table S2C ).",
+      "order": 13
+    },
+    {
+      "section": "3.6. Quantitative Assessment Of Ciliary And Pcp Scores",
+      "text": "The Cilia Master score ( p = 0, unpaired), core PCP score ( p = 0.035, unpaired), and cilia PCP score ( p = 0.01, unpaired) all exhibited significant elevation in the PostECRS vs. Ctrl comparison ( Figure 2 ). Furthermore, significant increases in the Cilia Master score were observed in both the PreECRS vs. PostECRS ( p = 0.042, paired) and PreECRS vs. Ctrl ( p = 0.012, unpaired) comparisons.",
+      "order": 14
+    },
+    {
+      "section": "3.7. Correlation Analysis Of Tslp And Il-33 Interaction Scores",
+      "text": "In assessing the relationship between epithelial cytokine interaction scores and ciliary markers, the TSLP interaction score demonstrated a significantly moderate positive correlation with the Cilia Master score within the context of overall disease activity ( p < 0.05) ( Figure 3 ). To evaluate the prognostic value of mucosal cytokines in the dupilumab administration, we employed linear mixed-effects models (LMM) to analyze the impact of baseline levels and longitudinal changes in IL-33 and TSLP on the recovery of Ciliary Master and Core/Cilia PCP gene scores. These analyses revealed that the baseline IL-33 interaction score—specifically through its interaction with the treatment condition—significantly predicted the magnitude of recovery (Post-Pre) in both Ciliary Master and Ciliary PCP scores ( p interaction < 0.05; Figure 4 ). Conversely, treatment-induced longitudinal fluctuations in IL-33 or TSLP showed no significant tracking with any of the ciliary and PCP parameters, suggesting that initial IL-33 levels, rather than real-time cytokine dynamics, dictate the mucosal regenerative potential ( Supplementary Table S3 ). Furthermore, multivariate LMM analysis was performed to adjust for potential confounding clinical factors, including blood eosinophil count, total IgE, Lund-Mackay CT score, oral fractional exhaled nitric oxide (FeNO), tissue eosinophilia, and JESREC score ( Supplementary Table S4 ). This confirmed that baseline IL-33 remained a significant and independent predictor for the recovery of cilia and PCP formation, demonstrating its superior prognostic value compared to these conventional clinical markers.",
+      "order": 15
+    },
+    {
+      "section": "Discussion",
+      "text": "CRS is categorized into CRSwNP and chronic rhinosinusitis without nasal polyps (CRSsNP), with the former further stratified into ECRS and non-ECRS phenotypes based on tissue eosinophilia [ 45 , 51 ]. ECRS, driven by Type 2 inflammation, is characterized by ethmoid-dominant opacification, viscous eosinophilic mucin, multifaceted polyp formation, and olfactory impairment, frequently manifesting in tandem with bronchial asthma. Regarding the master regulatory genes essential for multiciliogenesis, the PostECRS group demonstrated a comprehensive upregulation of these factors, whereas the non-ECRS and PreECRS cohorts exhibited a more nuanced, moderate induction across select genes. Notably, a significant elevation of the ciliary master score was observed in both PreECRS and PostECRS relative to controls, as well as in the comparison between PostECRS and PreECRS. These findings imply that both non-ECRS and ECRS environments provide a milieu that, to varying degrees, favors the initiation of mucociliogenesis. While bulk RNA-seq captures the collective signal from the tissue, the coordinated upregulation of master regulators such as FOXJ1 and RFX suggests a robust activation of the multiciliogenesis program within the epithelial compartment. This transcriptional surge likely arises from the extensive attrition of MCCs on the sinus mucosa, precipitated by a myriad of stressors including bacterial infection, environmental pollutants, fungus, viruses, and the underlying type 2 inflammatory cascade. In our correlation analysis, the TSLP Interaction Score identified a moderate positive association with ciliary master genes. This association potentially underscores a compensatory reparative mechanism—a vital attempt by the epithelium to regenerate its ciliary architecture in response to relentless inflammatory injury. Conversely, the profound downregulation of these genes in the control group reflects a state of mucosal quiescence, where the absence of significant damage obviates the need for such regenerative signaling. A comparative analysis between PreECRS and PostECRS, specifically regarding the efficacy of IL-4/13 inhibition, clearly elucidated the modulation of master gene expression, thereby underscoring the potent promotion of mucociliogenesis upon the blockade of type 2 inflammation. This suggests a model in which controls remain quiescent and the inflamed mucosa initiates a compensatory repair demand; ultimately, IL-4/13 blockade enables the successful completion of this regenerative program. Under this framing, the peak expression observed post-treatment represents functional repair rather than pathological over-activation. Additionally, differentially expressed genes (DEGs) were exclusively identified in the PostECRS vs. Ctrl comparison, whereas no such significant deviation was observed between PreECRS and Ctrl. Given that administration of dupilumab shifts the pathological state of the sinus mucosa toward a physiological, “normal-like” phenotype in clinical settings, these findings provide a robust framework for understanding the regenerative mechanism of mucociliogenesis facilitated by dupilumab. Intriguingly, while TSLP serves as a reflection of global disease activity, an evaluation of epithelial-derived cytokines in treatment-naïve ECRS (PreECRS) and their longitudinal shifts post-treatment revealed that the IL-33 interaction score in PreECRS was significantly correlated with the objective recovery of Cilia Master scores. While IL-33 activates group 2 innate lymphoid cells (ILC2s), TSLP acts synergistically to augment the proliferation and type 2 cytokine secretion of these IL-33-stimulated ILC2s [ 52 , 53 ]. Notably, the concurrent stimulation with TSLP and IL-33 elicits an approximate ten-fold increase in IL-5/13 production by ILC2s compared with IL-33 alone, whereas TSLP itself does not independently induce significant IL-5/13 production [ 53 ]. As IL-13 inhibits FOXJ1 expression via the STAT6 signaling pathway, leading to impaired motile cilia formation [ 27 ], the administration of dupilumab restores cilia master gene expression by neutralizing this type 2 inflammatory axis. Consequently, while elevated TSLP signaling indicates the magnitude of type 2 inflammation and the attendant need for mucociliary repair, the IL-33 signal emerges as a pivotal and more direct predictor of functional ciliary recovery, owing to its indispensable synergistic role with TSLP in driving the ILC2-mediated production of IL-4/13. Our study demonstrated that dupilumab treatment significantly upregulated an array of master gene expressions essential for motile cilia formation. In our analysis, FOXJ1 expression showed a robust upregulation in coordination with RFX2 and RFX3, further supporting their synergistic role in ciliary development. RFX2 and RFX3 act cooperatively or hierarchically with FOXJ1, which in turn has been shown to induce the expression of RFX2 and RFX3 during motile ciliogenesis [ 16 , 54 , 55 , 56 ]. While certain cilia-related genes are regulated solely by RFX2 [ 54 ], RFX3 alone does not induce the expression of ciliary genes and is thought to function as a cofactor for FOXJ1 [ 18 , 55 ]. Since IL-13 inhibits FOXJ1 expression via STAT6 signaling and simultaneously downregulates RFX3 expression [ 27 , 28 ], these combined effects, incorporating the modulation of RFX2, culminate in the suppression of motile ciliogenesis in CRSwNP, particularly within the ECRS endotype. Therefore, the effects on blockage of IL-13 can be interpreted as that controls remain quiescent, inflamed mucosa initiates a compensatory repair demand, and it enables the successful completion of the program. Under this framing, the peak expression observed post-treatment represents functional repair rather than pathological over-activation. Planar cell polarity (PCP) is indispensable for the orchestrated movement of motile cilia; nonetheless, the mislocalization of PCP proteins has been documented in conditions such as cystic fibrosis, idiopathic pulmonary fibrosis, and CRS [ 1 ]. Our investigation revealed significant differential expressions among PCP-associated genes, most notably CELSR1 and intriguing behavioral trajectories among PCP isoforms, particularly within the DVL and PRICKLE families. While DVL3 was prominent in the control group, dupilumab treatment specifically augmented DVL1 , echoing patterns observed in neural and sensory differentiation where specific isoforms govern distinct stages of maturation. This suggests that the post-treatment mucosa does not merely revert to a “control” state but rather recapitulates a developmental-like program of architectural remodeling. The preferential recovery of CELSR1 and the ciliogenesis and planar polarity effector (CPLANE) module ( FUZ , INTU , WDPCP ) further underscores that IL-4/13 blockade restores the foundational molecular asymmetry required for directional ciliary transport. To address whether these transcriptional changes occur specifically within the airway epithelium, our previous work utilized scanning electron microscopy and protein-level validation [ 26 ]. We demonstrated that in NP mucosae, the physical presence of cilia is severely diminished and the protein distribution of WDPCP and FUZ is significantly reduced specifically within the cytoplasmic region of the remaining ciliated cells [ 26 ]. These findings provide epithelial-specific validation that the transcriptional downregulation observed in PreECRS corresponds to a loss of both structural integrity and key regulatory proteins within the epithelial layer itself. Furthermore, a broad spectrum of PCP-associated genes exhibited significant downregulation in PreECRS compared to controls, with a subsequent robust upregulation following dupilumab treatment. Parallel to these findings, both the core PCP score and the ciliary PCP score were significantly elevated in PostECRS vs. Ctrl. Notably, the IL-33 interaction score in PreECRS exhibited a profound linkage to the eventual recovery of ciliary PCP scores. These results imply that the mislocalization of PCP proteins in nasal polyps may stem from transcriptional perturbations precipitated by type 2 inflammation, and that the restoration of PCP architecture is significantly predicted by the baseline IL-33 interaction score in treatment-naïve ECRS (PreECRS). Additionally, we observed a diminished expression of FUZ, INTU, and WDPCP in PreECRS, which was successfully reversed after the administration of dupilumab. These genes, alongside FUZ, have been elucidated through recent proteomic and genetic analyses as integral components of the CPLANE gene module, which serves to recruit a specific subset of IFT-A proteins [ 57 ]. Furthermore, WDPCP is posited to serve as a scaffold at the ciliary transition zone to promote the assembly of multiprotein complexes essential for ciliogenesis [ 58 ]. Our earlier findings corroborated this at the protein level, showing that WDPCP protein distribution is markedly reduced in the cytoplasmic region of ciliated cells in CRSwNP patients [ 26 ]. Consequently, the expression patterns of WDPCP and INTU in this context likely pertain not only to PCP per se, but also to the broader process of ciliogenesis. While our transcriptomic data provides a robust molecular basis for PCP restoration, validating the asymmetric protein localization of these components remains an essential next step to confirm functional coordination, as the molecular asymmetry of PCP proteins is established antecedent to cilia formation [ 5 ]. In summary, our findings indicate that the expression of these PCP genes is adversely affected by type 2 inflammation, leading to a disruption of the physiological PCP landscape. The targeted blockade of IL-4/13 emerges as a pivotal determinant for the ideal reconstitution of PCP conformation, paralleling the recovery of ciliary master regulatory genes. It is well-established that FOXJ1 and the RFX transcription factors serve as master regulators for an extensive repertoire of motile cilia-related genes, including the IFT machinery essential for ciliary assembly and homeostatic function [ 5 , 16 , 17 , 18 ]. Our findings demonstrated that genes associated with the IFT-A and IFT-B complexes, along with other critical structural categories—such as axonemal dyneins and radial spokes—were markedly upregulated following dupilumab administration. This suggests that IL-13 antagonism orchestrates a comprehensive restoration of ciliogenesis, encompassing not only the structural formation of cilia but also the logistical transport mechanisms and the motor apparatus required for ciliary motility. Regarding the regenerative demand for multiciliated cell formation, the control group maintains mucosal homeostasis without the need for active cell synthesis. In contrast, the ECRS environment necessitates a robust regenerative response due to the chronic epithelial attrition precipitated by a myriad of external insults and type 2 inflammatory signaling. Since PreECRS displayed significantly lower expression levels of motile cilia-related genes compared to both the non-ECRS and PostECRS cohorts, these data corroborate the pathophysiological hallmark of severely impaired MCC in treatment-naïve ECRS. Furthermore, our results imply that non-ECRS may retain a higher degree of mucociliary functional integrity relative to the profoundly disrupted state observed in the ECRS phenotype. A critical consideration in interpreting our findings is the relationship between mRNA induction and functional recovery. We acknowledge that bulk RNA-seq cannot fully discriminate between increased per-cell transcription and an expansion of the ciliated cell population. While this study primarily evaluates the transcriptome, the robust and coordinated upregulation of the entire multiciliogenesis hierarchy—from master regulators (FOXJ1, RFXs) to structural axonemal components and IFT machinery—strongly suggests a comprehensive activation of the ciliary regenerative program. Furthermore, while it could be argued that bulk RNA-seq data might reflect shifts in cell populations (i.e., an increase in the number of ciliated cells) rather than purely intracellular transcriptional regulation, in the context of CRS, such a shift from inflammatory or secretory phenotypes toward a ciliated phenotype represents the fundamental mechanism of epithelial mucosal recovery. This interpretation is supported by our previous functional validation in CRSwNP patients, where the downregulation of these critical ciliogenesis genes—specifically IL-13-driven suppression of WDPCP—was directly responsible for the significant decrease in MCTV [ 26 ], confirming that the observed molecular deficits have direct physiological consequences. Although shorter than typical clinical evaluation periods, our focus on this early 4-week period allowed us to capture the “transcriptomic window”—the early molecular orchestration of ciliary regeneration that precedes definitive structural and functional recovery. Our findings suggest that molecular remodeling is initiated well before macro-level clinical changes become apparent. Previous studies have demonstrated that mRNA levels of FOXJ1 and RFX family genes serve as reliable surrogate markers for ciliary density and function [ 26 ]. However, we acknowledge that further investigations utilizing single-cell RNA-seq (scRNA-seq) would be ideal to further dissect the cell-type-specific transcriptional dynamics, and high-speed video microscopy for ciliary beat frequency (CBF) and immunohistochemistry (IHC) for apical protein localization specifically in the post-dupilumab state are warranted to confirm the physiological kinetics of this recovery. MUC5AC and MUC5B constitute the primary structural scaffolds of airway mucus, and their stoichiometric balance is a critical determinant of effective MCC. Consistent with reports in asthmatic patients [ 28 , 34 , 59 ], our study identified augmented MUC5AC expression and attenuated MUC5B levels in treatment-naïve ECRS nasal polyps (PreECRS). Notably, these expression profiles were not significantly modulated following dupilumab administration (PostECRS), suggesting that mucus properties in ECRS may be governed by regulatory axes independent of IL-4/13 signaling, such as human neutrophil elastase (HNE)-mediated mechanisms [ 60 ]. Within the functional modules of mucus production and rheology, the inclusion of POSTN, ALOX15, and SERPINE1 is particularly salient, as these factors synergistically drive mucus hypersecretion and viscosity. For instance, POSTN modulates the cellular protein expression of MUC5AC [ 33 ], while ALOX15 coordinates with IL-13 to regulate MUC5AC synthesis [ 30 ]. Furthermore, PAI-1 (encoded by SERPINE1) not only precipitates GCM but also exerts a potent inhibitory effect on fibrinolysis, thereby further compounding mucus viscosity [ 61 , 62 ]. While genes associated with “mucus production and secretion” were predominantly downregulated, and those related to “mucus rheology and quality” exhibited heterogeneous expression patterns, a distinctive trend was observed in “mucus degradation and remodeling”. Specifically, DNASE1L3—an endonuclease essential for the degradation of EETs, which significantly exacerbate mucus viscosity through DNA-mediated cross-linking —remained persistently downregulated post-treatment. It is important to consider that mucin expression programs may lag behind broader epithelial differentiation; thus, the lack of significant MUC5AC/MUC5B modulation at 4 weeks may reflect an ‘early-phase persistence’ of the mucus dysfunction. Further investigations with extended follow-up periods (e.g., 3–6 months) are warranted to determine whether sustained inflammatory control eventually facilitates the stoichiometric normalization of these structural mucins. Additionally, the significant reduction in SPDEF expression was identified as a DEG in the PostECRS vs. PreECRS comparison. Since IL-13 ordinarily induces SPDEF via STAT6 signaling to drive GCM [ 31 ], our results suggest that targeted IL-13 inhibition reverses this pathological differentiation by attenuating STAT6 while concurrently restoring the ciliary master regulator FOXJ1. In conclusion, the interplay between aberrant mucus rheology and GCM represents a fundamental driver of mucociliary dysfunction in ECRS. While the pharmacological blockade of IL-4/13 signaling rehabilitates most of these pathological parameters, the deficit in mucus degradation and remodeling remains a therapeutic recalcitrance. Perhaps the most striking finding is the persistent downregulation of DNASE1L3 in the PostECRS group, despite the clinical resolution of nasal polyps. The lack of recovery in this degradative pathway suggests that, at least within this early 4-week post-treatment period, the post-dupilumab mucosa remains in a state of “enzymatic recalcitrance”. Several limitations of this study must be acknowledged. First, the generalizability of our findings is constrained by the small sample size ( n = 9), the single-center design, and the inclusion of only an East Asian population. Second, our results are based solely on transcriptomic data. Although we attempted proteomic analysis using the same samples, the expression levels of most study-associated proteins, including the ciliary master regulators (e.g., FOXJ1, RFX2/3), PCP-associated factors (e.g., WDPCP), and DNASE1L3, were below the detection threshold, precluding a robust comparative proteomic analysis. Furthermore, the study lacks functional validation, such as assessments of DNASE1L3 enzymatic activity, mucus rheology, ciliary beat frequency (CBF), or quantitative ciliary density via immunohistochemistry (e.g., FOXJ1 or acetylated alpha-Tubulin). Consequently, we cannot definitively distinguish whether the observed transcriptomic surge reflects an increase in the expression levels within individual cells or a broader shift in epithelial cell composition (i.e., an increase in the total number of MCCs). The ethical and technical challenges inherent in performing these measurements in vivo in human subjects represented a significant hurdle, limiting our ability to provide functional confirmation of our molecular findings. While these findings should therefore be interpreted with caution, this molecular deficit may explain why some patients, while clinically improved, still report highly tenacious mucus during viral infections or environmental triggers. Future studies utilizing in vitro air-liquid interface (ALI) culture models derived from these patients will be essential to bridge the gap between these transcriptomic ‘hardware’ signatures and objective functional recovery. In summary, both non-ECRS and ECRS impair mucociliogenesis, with the severity being more pronounced in ECRS than in non-ECRS and controls. This enhanced impairment is attributable to stronger inflammatory damage in epithelial cells, accompanied by higher expression of epithelial cytokine–associated genes such as TSLP and IL33 . Early modulation of mucociliogenesis following IL-4/13 blockade demonstrated that the recovery of the mucociliary respiratory epithelium is more rapidly promoted, involving a broad range of associated genes, including master regulators, planar cell polarity components, multiciliated-cell differentiation markers, and genes related to mucus properties ( Figure 5 ). On the other hand, most mucus-degradation factors remained consistently downregulated during the early phase of IL-4/13 blockade. These findings suggest that, although IL-4/13 inhibition effectively coordinates multiple facets of multiciliogenesis—including transcriptional regulation, mucus production, secretion, and rheological properties—it may exert only limited influence on the mechanisms governing mucociliary function. This limitation may stem from the persistence of high mucus viscosity, maintained by a chronically suppressed state, even when the mucosal surface appears clinically normalized following treatment. Our results support a model in which IL-4/13 blockade successfully rehabilitates the structural “hardware” of mucociliary function (cilia and planar cell polarity), while the enzymatic “software” responsible for mucus degradation (e.g., DNASE1L3) remains impaired. This “residual molecular scar” may account for the persistent mucus hyperviscosity observed in some ECRS patients despite clinical resolution of nasal polyps. While these molecular and functional interpretations are based on transcriptomic profiling, further evaluation of actual DNase activity and mucus rheology is required to determine whether the sustained downregulation of DNASE1L3 translates into clinically meaningful mucus hyperviscosity. Additionally, our study cohort has certain demographic limitations. Significant differences in height, weight, and sex were present among groups, which could act as confounding factors in cross-sectional comparisons. However, our principal conclusions rely on a longitudinal paired-sampling design (Pre-ECRS vs. Post-ECRS). By using each patient as their own internal control, we minimized inter-individual demographic variability and enhanced the resolution of IL-4/13 blockade-induced transcriptomic shifts. Nevertheless, we acknowledge that the small sample size and demographic imbalance are inherent to such a specialized clinical cohort, and future studies with larger and more homogeneous populations will be essential to validate the generalizability of our findings.",
+      "order": 16
+    },
+    {
+      "section": "Conclusion",
+      "text": "In conclusion, the present study elucidates the early transformative impact of dupilumab on the transcriptomic landscape of the sinus mucosa in patients with ECRS. Our findings demonstrate that the targeted inhibition of IL-13 orchestrates a rapid and early restoration of multiciliogenesis by upregulating the master regulatory hierarchy, specifically FOXJ1 , RFX2 , and RFX3 . This early transcriptional recovery extends beyond mere structural assembly, encompassing the comprehensive activation of intraflagellar transport (IFT) complexes and axonemal motor proteins, thereby facilitating the holistic early reconstitution of ciliary transport and motility mechanisms. Furthermore, we identified that transcriptional perturbations in PCP-associated genes—including the CPLANE module ( FUZ , INTU , and WDPCP )—are significantly reversed as early as four weeks following dupilumab administration. Given the indispensable role of IL-33 as a clinical predictor of this early ciliary recovery, our results suggest that the early restoration of PCP architecture is a pivotal prerequisite for the re-establishment of coordinated MCC. Regarding mucus pathophysiology, while dupilumab effectively suppresses GCM through the early downregulation of SPDEF , it exerts a limited impact on the pathological stoichiometric balance of MUC5AC and MUC5B at this early stage. Specifically, the augmented MUC5AC and attenuated MUC5B expression levels observed in treatment-naïve ECRS remained largely unmodulated post-treatment, suggesting that mucus rheology in ECRS may be governed by regulatory axes independent of IL-4/13 signaling, such as HNE-related mechanisms. Notably, the persistent downregulation of DNASE1L3 during the early phase of dupilumab administration underscores a continued deficit in mucus degradation and remodeling capacities, particularly concerning the clearance of EETs. In summary, while IL-4/13 blockade successfully rehabilitates the structural and directional “hardware” of the epithelium, certain facets of mucus rheology and enzymatic degradation—the “software” of clearance—remain recalcitrant to therapy during the early phase. Future research should integrate high-resolution protein localization and functional kinetic analyses to achieve a more nuanced understanding of how these early molecular shifts translate into the clinical restoration of MCC. Ultimately, addressing residual impairments in mucus remodeling may pave the way for more comprehensive therapeutic strategies in the management of severe ECRS.",
+      "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1-cells-15-00911",
+      "label": "1.",
+      "authors": [
+        "Vladar E.K.",
+        "Königshoff M."
+      ],
+      "title": "Noncanonical Wnt planar cell polarity signaling in lung development and disease",
+      "journal": "Biochem. Soc. Trans.",
+      "year": "2020",
+      "volume": "48",
+      "fpage": "231",
+      "lpage": "243",
+      "doi": "10.1042/BST20190597",
+      "pmid": "32096543",
+      "pmc_id": "PMC8969929"
+    },
+    {
+      "ref_id": "B2-cells-15-00911",
+      "label": "2.",
+      "authors": [
+        "Nguyen T.N.",
+        "Koga Y.",
+        "Wakasugi T.",
+        "Kitamura T.",
+        "Suzuki H."
+      ],
+      "title": "Nasal polyps show decreased mucociliary transport despite vigorous ciliary beating",
+      "journal": "Braz. J. Otorhinolaryngol.",
+      "year": "2024",
+      "volume": "90",
+      "fpage": "101377",
+      "doi": "10.1016/j.bjorl.2023.101377",
+      "pmid": "38232516",
+      "pmc_id": "PMC10827508"
+    },
+    {
+      "ref_id": "B3-cells-15-00911",
+      "label": "3.",
+      "authors": [
+        "Spassky N.",
+        "Meunier A."
+      ],
+      "title": "The development and functions of multiciliated epithelia",
+      "journal": "Nat. Rev. Mol. Cell Biol.",
+      "year": "2017",
+      "volume": "18",
+      "fpage": "423",
+      "lpage": "436",
+      "doi": "10.1038/nrm.2017.21",
+      "pmid": "28400610"
+    },
+    {
+      "ref_id": "B4-cells-15-00911",
+      "label": "4.",
+      "authors": [
+        "Zhao L.",
+        "Hou Y.",
+        "McNeill N.A.",
+        "Witman G.B."
+      ],
+      "title": "The unity and diversity of the ciliary central apparatus",
+      "journal": "Philos. Trans. R. Soc. Lond. B Biol. Sci.",
+      "year": "2020",
+      "volume": "375",
+      "fpage": "20190164",
+      "doi": "10.1098/rstb.2019.0164",
+      "pmid": "31884923",
+      "pmc_id": "PMC7017334"
+    },
+    {
+      "ref_id": "B5-cells-15-00911",
+      "label": "5.",
+      "authors": [
+        "Lyu Q.",
+        "Li Q.",
+        "Zhou J.",
+        "Zhao H."
+      ],
+      "title": "Formation and function of multiciliated cells",
+      "journal": "J. Cell Biol.",
+      "year": "2024",
+      "volume": "223",
+      "fpage": "e202307150",
+      "doi": "10.1083/jcb.202307150",
+      "pmid": "38032388",
+      "pmc_id": "PMC10689204"
+    },
+    {
+      "ref_id": "B6-cells-15-00911",
+      "label": "6.",
+      "authors": [
+        "Ma Y.",
+        "Sun Y.",
+        "Jiang L.",
+        "Zuo K.",
+        "Chen H.",
+        "Guo J.",
+        "Chen F.",
+        "Lai Y.",
+        "Shi J."
+      ],
+      "title": "WDPCP regulates the ciliogenesis of human sinonasal epithelial cells in chronic rhinosinusitis",
+      "journal": "Cytoskeleton",
+      "year": "2017",
+      "volume": "74",
+      "fpage": "82",
+      "lpage": "90",
+      "doi": "10.1002/cm.21351",
+      "pmid": "28001338"
+    },
+    {
+      "ref_id": "B7-cells-15-00911",
+      "label": "7.",
+      "authors": [
+        "Cumplido-Laso G.",
+        "Benitez D.A.",
+        "Mulero-Navarro S.",
+        "Carvajal-Gonzalez J.M."
+      ],
+      "title": "Transcriptional Regulation of Airway Epithelial Cell Differentiation: Insights into the Notch Pathway and Beyond",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2023",
+      "volume": "24",
+      "elocation_id": "14789",
+      "doi": "10.3390/ijms241914789",
+      "pmid": "37834236",
+      "pmc_id": "PMC10573127"
+    },
+    {
+      "ref_id": "B8-cells-15-00911",
+      "label": "8.",
+      "authors": [
+        "Nemajerova A.",
+        "Kramer D.",
+        "Siller S.S.",
+        "Herr C.",
+        "Shomroni O.",
+        "Pena T.",
+        "Suazo C.G.",
+        "Glaser K.",
+        "Wildung M.",
+        "Steffen H.",
+        "et al."
+      ],
+      "title": "TAp73 is a central transcriptional regulator of airway multiciliogenesis",
+      "journal": "Genes. Dev.",
+      "year": "2016",
+      "volume": "30",
+      "fpage": "1300",
+      "lpage": "1312",
+      "doi": "10.1101/gad.279836.116",
+      "pmid": "27257214",
+      "pmc_id": "PMC4911929"
+    },
+    {
+      "ref_id": "B9-cells-15-00911",
+      "label": "9.",
+      "authors": [
+        "Danielian P.S.",
+        "Bender Kim C.F.",
+        "Caron A.M.",
+        "Vasile E.",
+        "Bronson R.T.",
+        "Lees J.A."
+      ],
+      "title": "E2f4 is required for normal development of the airway epithelium",
+      "journal": "Dev. Biol.",
+      "year": "2007",
+      "volume": "305",
+      "fpage": "564",
+      "lpage": "576",
+      "doi": "10.1016/j.ydbio.2007.02.037",
+      "pmid": "17383628",
+      "pmc_id": "PMC1939821"
+    },
+    {
+      "ref_id": "B10-cells-15-00911",
+      "label": "10.",
+      "authors": [
+        "Tan F.E.",
+        "Vladar E.K.",
+        "Ma L.",
+        "Fuentealba L.C.",
+        "Hoh R.",
+        "Espinoza F.H.",
+        "Axelrod J.D.",
+        "Alvarez-Buylla A.",
+        "Stearns T.",
+        "Kintner C.",
+        "et al."
+      ],
+      "title": "Myb promotes centriole amplification and later steps of the multiciliogenesis program",
+      "journal": "Development",
+      "year": "2013",
+      "volume": "140",
+      "fpage": "4277",
+      "lpage": "4286",
+      "doi": "10.1242/dev.094102",
+      "pmid": "24048590",
+      "pmc_id": "PMC3787764"
+    },
+    {
+      "ref_id": "B11-cells-15-00911",
+      "label": "11.",
+      "authors": [
+        "Stubbs J.L.",
+        "Vladar E.K.",
+        "Axelrod J.D.",
+        "Kintner C."
+      ],
+      "title": "Multicilin promotes centriole assembly and ciliogenesis during multiciliate cell differentiation",
+      "journal": "Nat. Cell Biol.",
+      "year": "2012",
+      "volume": "14",
+      "fpage": "140",
+      "lpage": "147",
+      "doi": "10.1038/ncb2406",
+      "pmid": "22231168",
+      "pmc_id": "PMC3329891"
+    },
+    {
+      "ref_id": "B12-cells-15-00911",
+      "label": "12.",
+      "authors": [
+        "Funk M.C.",
+        "Bera A.N.",
+        "Menchen T.",
+        "Kuales G.",
+        "Thriene K.",
+        "Lienkamp S.S.",
+        "Dengjel J.",
+        "Omran H.",
+        "Frank M.",
+        "Arnold S.J."
+      ],
+      "title": "Cyclin O ( Ccno ) functions during deuterosome-mediated centriole amplification of multiciliated cells",
+      "journal": "EMBO J.",
+      "year": "2015",
+      "volume": "34",
+      "fpage": "1078",
+      "lpage": "1089",
+      "doi": "10.15252/embj.201490805",
+      "pmid": "25712475",
+      "pmc_id": "PMC4406653"
+    },
+    {
+      "ref_id": "B13-cells-15-00911",
+      "label": "13.",
+      "authors": [
+        "Chu J.S.",
+        "Baillie D.L.",
+        "Chen N."
+      ],
+      "title": "Convergent evolution of RFX transcription factors and ciliary genes predated the origin of metazoans",
+      "journal": "BMC Evol. Biol.",
+      "year": "2010",
+      "volume": "10",
+      "elocation_id": "130",
+      "doi": "10.1186/1471-2148-10-130",
+      "pmid": "20441589",
+      "pmc_id": "PMC2873420"
+    },
+    {
+      "ref_id": "B14-cells-15-00911",
+      "label": "14.",
+      "authors": [
+        "Tsao P.N.",
+        "Vasconcelos M.",
+        "Izvolsky K.I.",
+        "Qian J.",
+        "Lu J.",
+        "Cardoso W.V."
+      ],
+      "title": "Notch signaling controls the balance of ciliated and secretory cell fates in developing airways",
+      "journal": "Development",
+      "year": "2009",
+      "volume": "136",
+      "fpage": "2297",
+      "lpage": "2307",
+      "doi": "10.1242/dev.034884",
+      "pmid": "19502490",
+      "pmc_id": "PMC2729343"
+    },
+    {
+      "ref_id": "B15-cells-15-00911",
+      "label": "15.",
+      "authors": [
+        "Revinski D.R.",
+        "Zaragosi L.E.",
+        "Boutin C.",
+        "Ruiz-Garcia S.",
+        "Deprez M.",
+        "Thomé V.",
+        "Rosnet O.",
+        "Gay A.-S.",
+        "Mercey O.",
+        "Paquet A.",
+        "et al."
+      ],
+      "title": "CDC20B is required for deuterosome-mediated centriole production in multiciliated cells",
+      "journal": "Nat. Commun.",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "4668",
+      "doi": "10.1038/s41467-018-06768-z",
+      "pmid": "30405130",
+      "pmc_id": "PMC6220262"
+    },
+    {
+      "ref_id": "B16-cells-15-00911",
+      "label": "16.",
+      "authors": [
+        "Thomas J.",
+        "Morlé L.",
+        "Soulavie F.",
+        "Laurençon A.",
+        "Sagnol S.",
+        "Durand B."
+      ],
+      "title": "Transcriptional control of genes involved in ciliogenesis: A first step in making cilia",
+      "journal": "Biol. Cell.",
+      "year": "2010",
+      "volume": "102",
+      "fpage": "499",
+      "lpage": "513",
+      "doi": "10.1042/BC20100035",
+      "pmid": "20690903"
+    },
+    {
+      "ref_id": "B17-cells-15-00911",
+      "label": "17.",
+      "authors": [
+        "Chung M.I.",
+        "Kwon T.",
+        "Tu F.",
+        "Brooks E.R.",
+        "Gupta R.",
+        "Meyer M.",
+        "Baker J.C.",
+        "Marcotte E.M.",
+        "Wallingford J.B."
+      ],
+      "title": "Coordinated genomic control of ciliogenesis and cell movement by RFX2",
+      "journal": "eLife",
+      "year": "2014",
+      "volume": "3",
+      "fpage": "e01439",
+      "doi": "10.7554/eLife.01439",
+      "pmid": "24424412",
+      "pmc_id": "PMC3889689"
+    },
+    {
+      "ref_id": "B18-cells-15-00911",
+      "label": "18.",
+      "authors": [
+        "El Zein L.",
+        "Ait-Lounis A.",
+        "Morlé L.",
+        "Thomas J.",
+        "Chhin B.",
+        "Spassky N.",
+        "Reith W.",
+        "Durand B."
+      ],
+      "title": "RFX3 governs growth and beating efficiency of motile cilia in mouse and controls the expression of genes involved in human ciliopathies",
+      "journal": "J. Cell Sci.",
+      "year": "2009",
+      "volume": "122",
+      "fpage": "3180",
+      "lpage": "3189",
+      "doi": "10.1242/jcs.048348",
+      "pmid": "19671664"
+    },
+    {
+      "ref_id": "B19-cells-15-00911",
+      "label": "19.",
+      "authors": [
+        "Vladar E.K.",
+        "Bayly R.D.",
+        "Sangoram A.M.",
+        "Scott M.P.",
+        "Axelrod J.D."
+      ],
+      "title": "Microtubules enable the planar cell polarity of airway cilia",
+      "journal": "Curr. Biol.",
+      "year": "2012",
+      "volume": "22",
+      "fpage": "2203",
+      "lpage": "2212",
+      "doi": "10.1016/j.cub.2012.09.046",
+      "pmid": "23122850",
+      "pmc_id": "PMC3518597"
+    },
+    {
+      "ref_id": "B20-cells-15-00911",
+      "label": "20.",
+      "authors": [
+        "Vladar E.K.",
+        "Lee Y.L.",
+        "Stearns T.",
+        "Axelrod J.D."
+      ],
+      "title": "Observing planar cell polarity in multiciliated mouse airway epithelial cells",
+      "journal": "Methods Cell Biol.",
+      "year": "2015",
+      "volume": "127",
+      "fpage": "37",
+      "lpage": "54",
+      "pmid": "25837385",
+      "doi": "10.1016/bs.mcb.2015.01.016",
+      "pmc_id": "PMC4423753"
+    },
+    {
+      "ref_id": "B21-cells-15-00911",
+      "label": "21.",
+      "authors": [
+        "Nakayama S.",
+        "Yano T.",
+        "Namba T.",
+        "Konishi S.",
+        "Takagishi M.",
+        "Herawati E.",
+        "Nishida T.",
+        "Imoto Y.",
+        "Ishihara S.",
+        "Takahashi M.",
+        "et al."
+      ],
+      "title": "Planar cell polarity induces local microtubule bundling for coordinated ciliary beating",
+      "journal": "J. Cell Biol.",
+      "year": "2021",
+      "volume": "220",
+      "fpage": "e202010034",
+      "doi": "10.1083/jcb.202010034",
+      "pmid": "33929515",
+      "pmc_id": "PMC8094116"
+    },
+    {
+      "ref_id": "B22-cells-15-00911",
+      "label": "22.",
+      "authors": [
+        "Bonser L.R.",
+        "Erle D.J."
+      ],
+      "title": "Airway Mucus and Asthma: The Role of MUC5AC and MUC5B",
+      "journal": "J. Clin. Med.",
+      "year": "2017",
+      "volume": "6",
+      "elocation_id": "112",
+      "doi": "10.3390/jcm6120112",
+      "pmid": "29186064",
+      "pmc_id": "PMC5742801"
+    },
+    {
+      "ref_id": "B23-cells-15-00911",
+      "label": "23.",
+      "authors": [
+        "Whitsett J.A."
+      ],
+      "title": "Airway Epithelial Differentiation and Mucociliary Clearance",
+      "journal": "Ann. Am. Thorac. Soc.",
+      "year": "2018",
+      "volume": "15",
+      "fpage": "S143",
+      "lpage": "S148",
+      "doi": "10.1513/AnnalsATS.201802-128AW",
+      "pmid": "30431340",
+      "pmc_id": "PMC6322033"
+    },
+    {
+      "ref_id": "B24-cells-15-00911",
+      "label": "24.",
+      "authors": [
+        "Song D.",
+        "Iverson E.",
+        "Kaler L.",
+        "Boboltz A.",
+        "Scull M.A.",
+        "Duncan G.A."
+      ],
+      "title": "MUC5B mobilizes and MUC5AC spatially aligns mucociliary transport on human airway epithelium",
+      "journal": "Sci. Adv.",
+      "year": "2022",
+      "volume": "8",
+      "fpage": "eabq5049",
+      "doi": "10.1126/sciadv.abq5049",
+      "pmid": "36427316",
+      "pmc_id": "PMC9699686"
+    },
+    {
+      "ref_id": "B25-cells-15-00911",
+      "label": "25.",
+      "authors": [
+        "Corcoran T.E.",
+        "Huber A.S.",
+        "Hill S.L.",
+        "Locke L.W.",
+        "Weber L.",
+        "Muthukrishnan A.",
+        "Heidrich E.M.",
+        "Wenzel S.",
+        "Myerburg M.M."
+      ],
+      "title": "Mucociliary Clearance Differs in Mild Asthma by Levels of Type 2 Inflammation",
+      "journal": "Chest",
+      "year": "2021",
+      "volume": "160",
+      "fpage": "1604",
+      "lpage": "1613",
+      "doi": "10.1016/j.chest.2021.05.013",
+      "pmid": "34029561",
+      "pmc_id": "PMC8628176"
+    },
+    {
+      "ref_id": "B26-cells-15-00911",
+      "label": "26.",
+      "authors": [
+        "Hirokane S.",
+        "Kawasumi T.",
+        "Takeno S.",
+        "Okamoto Y.",
+        "Miyamoto S.",
+        "Fujita R.",
+        "Ishikawa C.",
+        "Oda T.",
+        "Horibe Y.",
+        "Ishino T.",
+        "et al."
+      ],
+      "title": "Impaired Coordination of the Ciliary Movement in Patients with Chronic Rhinosinusitis with Nasal Polyps: The Role of Decreased Planar Cell Polarity Protein Expression",
+      "journal": "Immuno",
+      "year": "2024",
+      "volume": "4",
+      "fpage": "247",
+      "lpage": "265",
+      "doi": "10.3390/immuno4030016"
+    },
+    {
+      "ref_id": "B27-cells-15-00911",
+      "label": "27.",
+      "authors": [
+        "Gomperts B.N.",
+        "Kim L.J.",
+        "Flaherty S.A.",
+        "Hackett B.P."
+      ],
+      "title": "IL-13 regulates cilia loss and foxj1 expression in human airway epithelium",
+      "journal": "Am. J. Respir. Cell Mol. Biol.",
+      "year": "2007",
+      "volume": "37",
+      "fpage": "339",
+      "lpage": "346",
+      "doi": "10.1165/rcmb.2006-0400OC",
+      "pmid": "17541011",
+      "pmc_id": "PMC2720122"
+    },
+    {
+      "ref_id": "B28-cells-15-00911",
+      "label": "28.",
+      "authors": [
+        "Jackson N.D.",
+        "Everman J.L.",
+        "Chioccioli M.",
+        "Feriani L.",
+        "Goldfarbmuren K.C.",
+        "Sajuthi S.P.",
+        "Rios C.L.",
+        "Powell R.",
+        "Armstrong M.",
+        "Gomez J.",
+        "et al."
+      ],
+      "title": "Single-Cell and Population Transcriptomics Reveal Pan-epithelial Remodeling in Type 2-High Asthma",
+      "journal": "Cell Rep.",
+      "year": "2020",
+      "volume": "32",
+      "fpage": "107872",
+      "doi": "10.1016/j.celrep.2020.107872",
+      "pmid": "32640237",
+      "pmc_id": "PMC8046336"
+    },
+    {
+      "ref_id": "B29-cells-15-00911",
+      "label": "29.",
+      "authors": [
+        "Bonser L.R.",
+        "Zlock L.",
+        "Finkbeiner W.",
+        "Erle D.J."
+      ],
+      "title": "Epithelial tethering of MUC5AC-rich mucus impairs mucociliary transport in asthma",
+      "journal": "J. Clin. Investig.",
+      "year": "2016",
+      "volume": "126",
+      "fpage": "2367",
+      "lpage": "2371",
+      "doi": "10.1172/JCI84910",
+      "pmid": "27183390",
+      "pmc_id": "PMC4887179"
+    },
+    {
+      "ref_id": "B30-cells-15-00911",
+      "label": "30.",
+      "authors": [
+        "Zhao J.",
+        "Maskrey B.",
+        "Balzar S.",
+        "Chibana K.",
+        "Mustovich A.",
+        "Hu H.",
+        "Trudeau J.B.",
+        "O’Donnell V.",
+        "Wenzel S.E."
+      ],
+      "title": "Interleukin-13-induced MUC5AC is regulated by 15-lipoxygenase 1 pathway in human bronchial epithelial cells",
+      "journal": "Am. J. Respir. Crit. Care Med.",
+      "year": "2009",
+      "volume": "179",
+      "fpage": "782",
+      "lpage": "790",
+      "doi": "10.1164/rccm.200811-1744OC",
+      "pmid": "19218191",
+      "pmc_id": "PMC2675565"
+    },
+    {
+      "ref_id": "B31-cells-15-00911",
+      "label": "31.",
+      "authors": [
+        "Park K.S.",
+        "Korfhagen T.R.",
+        "Bruno M.D.",
+        "Kitzmiller J.A.",
+        "Wan H.",
+        "Wert S.E.",
+        "Khurana Hershey G.K.",
+        "Chen G.",
+        "Whitsett J.A."
+      ],
+      "title": "SPDEF regulates goblet cell hyperplasia in the airway epithelium",
+      "journal": "J. Clin. Investig.",
+      "year": "2007",
+      "volume": "117",
+      "fpage": "978",
+      "lpage": "988",
+      "doi": "10.1172/JCI29176",
+      "pmid": "17347682",
+      "pmc_id": "PMC1810569"
+    },
+    {
+      "ref_id": "B32-cells-15-00911",
+      "label": "32.",
+      "authors": [
+        "Seibold M.A."
+      ],
+      "title": "Interleukin-13 Stimulation Reveals the Cellular and Functional Plasticity of the Airway Epithelium",
+      "journal": "Ann. Am. Thorac. Soc.",
+      "year": "2018",
+      "volume": "15",
+      "fpage": "S98",
+      "lpage": "S102",
+      "doi": "10.1513/AnnalsATS.201711-868MG",
+      "pmid": "29676620",
+      "pmc_id": "PMC5955044"
+    },
+    {
+      "ref_id": "B33-cells-15-00911",
+      "label": "33.",
+      "authors": [
+        "Suzaki I.",
+        "Kawano S.",
+        "Komiya K.",
+        "Tanabe T.",
+        "Akaba T.",
+        "Asano K.",
+        "Suzaki H.",
+        "Izuhara K.",
+        "Rubin B.K."
+      ],
+      "title": "Inhibition of IL-13-induced periostin in airway epithelium attenuates cellular protein expression of MUC5AC",
+      "journal": "Respirology",
+      "year": "2017",
+      "volume": "22",
+      "fpage": "93",
+      "lpage": "100",
+      "doi": "10.1111/resp.12873",
+      "pmid": "27553766"
+    },
+    {
+      "ref_id": "B34-cells-15-00911",
+      "label": "34.",
+      "authors": [
+        "Woodruff P.G.",
+        "Modrek B.",
+        "Choy D.F.",
+        "Jia G.",
+        "Abbas A.R.",
+        "Ellwanger A.",
+        "Arron J.R.",
+        "Koth L.L.",
+        "Fahy J.V."
+      ],
+      "title": "T-helper type 2-driven inflammation defines major subphenotypes of asthma",
+      "journal": "Am. J. Respir. Crit. Care Med.",
+      "year": "2009",
+      "volume": "180",
+      "fpage": "388",
+      "lpage": "395",
+      "doi": "10.1164/rccm.200903-0392OC",
+      "pmid": "19483109",
+      "pmc_id": "PMC2742757"
+    },
+    {
+      "ref_id": "B35-cells-15-00911",
+      "label": "35.",
+      "authors": [
+        "Liu L.",
+        "Yan C.",
+        "Tao S."
+      ],
+      "title": "Association of MUC2, MUC5AC and MUC5B genes with the recurrence of nasal polyps",
+      "journal": "Exp. Ther. Med.",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "1808",
+      "lpage": "1814",
+      "doi": "10.3892/etm.2020.8837",
+      "pmid": "32742413",
+      "pmc_id": "PMC7388239"
+    },
+    {
+      "ref_id": "B36-cells-15-00911",
+      "label": "36.",
+      "authors": [
+        "Popov G.",
+        "Aleksandrov R.",
+        "Petkova V.",
+        "Kaneva R.",
+        "Gergova R.",
+        "Kundurzhiev T.",
+        "Popova D."
+      ],
+      "title": "Analysis of Bacterial Biofilm Formation and MUC5AC and MUC5B Expression in Chronic Rhinosinusitis Patients",
+      "journal": "J. Clin. Med.",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "1808",
+      "doi": "10.3390/jcm12051808",
+      "pmid": "36902594",
+      "pmc_id": "PMC10003390"
+    },
+    {
+      "ref_id": "B37-cells-15-00911",
+      "label": "37.",
+      "authors": [
+        "Takabayashi T.",
+        "Schleimer R.P."
+      ],
+      "title": "Formation of nasal polyps: The roles of innate type 2 inflammation and deposition of fibrin",
+      "journal": "J. Allergy Clin. Immunol.",
+      "year": "2020",
+      "volume": "145",
+      "fpage": "740",
+      "lpage": "750",
+      "doi": "10.1016/j.jaci.2020.01.027",
+      "pmid": "32145873",
+      "pmc_id": "PMC7263055"
+    },
+    {
+      "ref_id": "B38-cells-15-00911",
+      "label": "38.",
+      "authors": [
+        "Ueki S.",
+        "Konno Y.",
+        "Takeda M.",
+        "Moritoki Y.",
+        "Hirokawa M.",
+        "Matsuwaki Y.",
+        "Honda K.",
+        "Ohta N.",
+        "Yamamoto S.",
+        "Takagi Y.",
+        "et al."
+      ],
+      "title": "Eosinophil extracellular trap cell death-derived DNA traps: Their presence in secretions and functional attributes",
+      "journal": "J. Allergy Clin. Immunol.",
+      "year": "2016",
+      "volume": "137",
+      "fpage": "258",
+      "lpage": "267",
+      "doi": "10.1016/j.jaci.2015.04.041",
+      "pmid": "26070883",
+      "pmc_id": "PMC4674385"
+    },
+    {
+      "ref_id": "B39-cells-15-00911",
+      "label": "39.",
+      "authors": [
+        "Takabayashi T.",
+        "Imoto Y.",
+        "Sakashita M.",
+        "Kato Y.",
+        "Tokunaga T.",
+        "Yoshida K.",
+        "Narita N.",
+        "Ishizuka T.",
+        "Fujieda S."
+      ],
+      "title": "Nattokinase, profibrinolytic enzyme, effectively shrinks the nasal polyp tissue and decreases viscosity of mucus",
+      "journal": "Allergol. Int.",
+      "year": "2017",
+      "volume": "66",
+      "fpage": "594",
+      "lpage": "602",
+      "doi": "10.1016/j.alit.2017.03.007",
+      "pmid": "28389065"
+    },
+    {
+      "ref_id": "B40-cells-15-00911",
+      "label": "40.",
+      "authors": [
+        "Brims F.J.",
+        "Chauhan A.J.",
+        "Higgins B.",
+        "Shute J.K."
+      ],
+      "title": "Coagulation factors in the airways in moderate and severe asthma and the effect of inhaled steroids",
+      "journal": "Thorax",
+      "year": "2009",
+      "volume": "64",
+      "fpage": "1037",
+      "lpage": "1043",
+      "doi": "10.1136/thx.2009.114439",
+      "pmid": "19703828"
+    },
+    {
+      "ref_id": "B41-cells-15-00911",
+      "label": "41.",
+      "authors": [
+        "Yang H.W.",
+        "Park J.H.",
+        "Shin J.M.",
+        "Son H.G.",
+        "Kim T.H.",
+        "Lee S.H.",
+        "Park I.-H."
+      ],
+      "title": "CHI3L1 on fibrinolytic system imbalance in chronic rhinosinusitis with nasal polyp",
+      "journal": "Front. Immunol.",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1410948",
+      "doi": "10.3389/fimmu.2024.1410948",
+      "pmid": "38975344",
+      "pmc_id": "PMC11224434"
+    },
+    {
+      "ref_id": "B42-cells-15-00911",
+      "label": "42.",
+      "authors": [
+        "Lazzaretto B.",
+        "Fadeel B."
+      ],
+      "title": "Intra- and Extracellular Degradation of Neutrophil Extracellular Traps by Macrophages and Dendritic Cells",
+      "journal": "J. Immunol.",
+      "year": "2019",
+      "volume": "203",
+      "fpage": "2276",
+      "lpage": "2290",
+      "doi": "10.4049/jimmunol.1800159",
+      "pmid": "31519860",
+      "pmc_id": "PMC6778307"
+    },
+    {
+      "ref_id": "B43-cells-15-00911",
+      "label": "43.",
+      "authors": [
+        "Sisirak V.",
+        "Sally B.",
+        "D’Agati V.",
+        "Martinez-Ortiz W.",
+        "Özçakar Z.B.",
+        "David J.",
+        "Rashidfarrokhi A.",
+        "Yeste A.",
+        "Panea C.",
+        "Chida A.S.",
+        "et al."
+      ],
+      "title": "Digestion of Chromatin in Apoptotic Cell Microparticles Prevents Autoimmunity",
+      "journal": "Cell",
+      "year": "2016",
+      "volume": "166",
+      "fpage": "88",
+      "lpage": "101",
+      "doi": "10.1016/j.cell.2016.05.034",
+      "pmid": "27293190",
+      "pmc_id": "PMC5030815"
+    },
+    {
+      "ref_id": "B44-cells-15-00911",
+      "label": "44.",
+      "authors": [
+        "Renaud M.",
+        "Venkatasamy A.",
+        "Escudier E.",
+        "Mitri-Frangieh R.",
+        "Filoche M.",
+        "Fournier V.",
+        "Papon J.-F.",
+        "Coste A.",
+        "Louis B.",
+        "Bequignon E."
+      ],
+      "title": "Characterization of the ciliary beating efficiency in primary diffuse chronic rhinosinusitis",
+      "journal": "Rhinology",
+      "year": "2024",
+      "volume": "62",
+      "fpage": "763",
+      "lpage": "765",
+      "doi": "10.4193/Rhin24.101",
+      "pmid": "39115982"
+    },
+    {
+      "ref_id": "B45-cells-15-00911",
+      "label": "45.",
+      "authors": [
+        "Nakayama T.",
+        "Sugimoto N.",
+        "Okada N.",
+        "Tsurumoto T.",
+        "Mitsuyoshi R.",
+        "Takaishi S.",
+        "Asaka D.",
+        "Kojima H.",
+        "Yoshikawa M.",
+        "Tanaka Y.",
+        "et al."
+      ],
+      "title": "JESREC score and mucosal eosinophilia can predict endotypes of chronic rhinosinusitis with nasal polyps",
+      "journal": "Auris Nasus Larynx",
+      "year": "2019",
+      "volume": "46",
+      "fpage": "374",
+      "lpage": "383",
+      "doi": "10.1016/j.anl.2018.09.004",
+      "pmid": "30243753"
+    },
+    {
+      "ref_id": "B46-cells-15-00911",
+      "label": "46.",
+      "authors": [
+        "van der Lans R.J.L.",
+        "Otten J.J.",
+        "Adriaensen G.F.J.P.M.",
+        "Hoven D.R.",
+        "Benoist L.B.",
+        "Fokkens W.J.",
+        "Reitsma S."
+      ],
+      "title": "Two-year results of tapered dupilumab for CRSwNP demonstrates enduring efficacy established in the first 6 months",
+      "journal": "Allergy",
+      "year": "2023",
+      "volume": "78",
+      "fpage": "2684",
+      "lpage": "2697",
+      "doi": "10.1111/all.15796",
+      "pmid": "37394895"
+    },
+    {
+      "ref_id": "B47-cells-15-00911",
+      "label": "47.",
+      "authors": [
+        "Bachert C.",
+        "Han J.K.",
+        "Desrosiers M.",
+        "Hellings P.W.",
+        "Amin N.",
+        "Lee S.E.",
+        "Mullol J.",
+        "Greos L.S.",
+        "Bosso J.V.",
+        "Laidlaw T.M.",
+        "et al."
+      ],
+      "title": "Efficacy and safety of dupilumab in patients with severe chronic rhinosinusitis with nasal polyps (LIBERTY NP SINUS-24 and LIBERTY NP SINUS-52): Results from two multicentre, randomised, double-blind, placebo-controlled, parallel-group phase 3 trials",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "fpage": "1638",
+      "lpage": "1650",
+      "doi": "10.1016/S0140-6736(19)31881-1",
+      "pmid": "31543428"
+    },
+    {
+      "ref_id": "B48-cells-15-00911",
+      "label": "48.",
+      "authors": [
+        "Alpern D.",
+        "Gardeux V.",
+        "Russeil J.",
+        "Mangeat B.",
+        "Meireles-Filho A.C.A.",
+        "Breysse R.",
+        "Hacker D.",
+        "Deplancke B."
+      ],
+      "title": "BRB-seq: Ultra-affordable high-throughput transcriptomics enabled by bulk RNA barcoding and sequencing",
+      "journal": "Genome Biol.",
+      "year": "2019",
+      "volume": "20",
+      "fpage": "71",
+      "doi": "10.1186/s13059-019-1671-x",
+      "pmid": "30999927",
+      "pmc_id": "PMC6474054"
+    },
+    {
+      "ref_id": "B49-cells-15-00911",
+      "label": "49.",
+      "authors": [
+        "Roca-Ferrer J.",
+        "Pérez-González M.",
+        "Alobid I.",
+        "Tubita V.",
+        "Fuentes M.",
+        "Bantulà M.",
+        "Muñoz-Cano R.",
+        "Valero A.",
+        "Izquierdo I.",
+        "Mullol J."
+      ],
+      "title": "Upregulation of Platelet-Activating Factor Receptor Expression and Lyso-Platelet-Activating Factor Isoforms in Human Nasal Polyp Tissues",
+      "journal": "J. Clin. Med.",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "7357",
+      "doi": "10.3390/jcm12237357",
+      "pmid": "38068409",
+      "pmc_id": "PMC10707320"
+    },
+    {
+      "ref_id": "B50-cells-15-00911",
+      "label": "50.",
+      "authors": [
+        "Ishino T.",
+        "Takeno S.",
+        "Takemoto K.",
+        "Yamato K.",
+        "Oda T.",
+        "Nishida M.",
+        "Horibe Y.",
+        "Chikuie N.",
+        "Kono T.",
+        "Taruya T.",
+        "et al."
+      ],
+      "title": "Distinct Gene Set Enrichment Profiles in Eosinophilic and Non-Eosinophilic Chronic Rhinosinusitis with Nasal Polyps by Bulk RNA Barcoding and Sequencing",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2022",
+      "volume": "23",
+      "elocation_id": "5653",
+      "doi": "10.3390/ijms23105653",
+      "pmid": "35628459",
+      "pmc_id": "PMC9146754"
+    },
+    {
+      "ref_id": "B51-cells-15-00911",
+      "label": "51.",
+      "authors": [
+        "Fokkens W.J.",
+        "Lund V.J.",
+        "Hopkins C.",
+        "Hellings P.W.",
+        "Kern R.",
+        "Reitsma S.",
+        "Toppila-Salmi S.",
+        "Bernal-Sprekelsen M.",
+        "Mullol J."
+      ],
+      "title": "Executive summary of EPOS 2020 including integrated care pathways",
+      "journal": "Rhinology",
+      "year": "2020",
+      "volume": "58",
+      "fpage": "82",
+      "lpage": "111",
+      "doi": "10.4193/Rhin20.601",
+      "pmid": "32226949"
+    },
+    {
+      "ref_id": "B52-cells-15-00911",
+      "label": "52.",
+      "authors": [
+        "Piazzetta G.L.",
+        "Lobello N.",
+        "Di Agostino S.",
+        "Coscarella I.",
+        "Pelaia C.",
+        "Di Vito A.",
+        "Bria J.",
+        "Filardo A.",
+        "Aloisio A.",
+        "Lupia C.",
+        "et al."
+      ],
+      "title": "Mucosal Remodeling in Chronic Rhinosinusitis with Nasal Polyps: The Role of Innate Lymphoid Cells and Reprogramming Under IL-4Rα Blockade",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2026",
+      "volume": "27",
+      "elocation_id": "1992",
+      "doi": "10.3390/ijms27041992",
+      "pmid": "41752128",
+      "pmc_id": "PMC12941387"
+    },
+    {
+      "ref_id": "B53-cells-15-00911",
+      "label": "53.",
+      "authors": [
+        "Halim T.Y.",
+        "Krauss R.H.",
+        "Sun A.C.",
+        "Takei F."
+      ],
+      "title": "Lung natural helper cells are a critical source of Th2 cell-type cytokines in protease allergen-induced airway inflammation",
+      "journal": "Immunity",
+      "year": "2012",
+      "volume": "36",
+      "fpage": "451",
+      "lpage": "463",
+      "doi": "10.1016/j.immuni.2011.12.020",
+      "pmid": "22425247"
+    },
+    {
+      "ref_id": "B54-cells-15-00911",
+      "label": "54.",
+      "authors": [
+        "Choksi S.P.",
+        "Lauter G.",
+        "Swoboda P.",
+        "Roy S."
+      ],
+      "title": "Switching on cilia: Transcriptional networks regulating ciliogenesis",
+      "journal": "Development",
+      "year": "2014",
+      "volume": "141",
+      "fpage": "1427",
+      "lpage": "1441",
+      "doi": "10.1242/dev.074666",
+      "pmid": "24644260"
+    },
+    {
+      "ref_id": "B55-cells-15-00911",
+      "label": "55.",
+      "authors": [
+        "Didon L.",
+        "Zwick R.K.",
+        "Chao I.W.",
+        "Walters M.S.",
+        "Wang R.",
+        "Hackett N.R.",
+        "Crystal R.G."
+      ],
+      "title": "RFX3 modulation of FOXJ1 regulation of cilia genes in the human airway epithelium",
+      "journal": "Respir. Res.",
+      "year": "2013",
+      "volume": "14",
+      "fpage": "70",
+      "doi": "10.1186/1465-9921-14-70",
+      "pmid": "23822649",
+      "pmc_id": "PMC3710277"
+    },
+    {
+      "ref_id": "B56-cells-15-00911",
+      "label": "56.",
+      "authors": [
+        "Yu X.",
+        "Ng C.P.",
+        "Habacher H.",
+        "Roy S."
+      ],
+      "title": "Foxj1 transcription factors are master regulators of the motile ciliogenic program",
+      "journal": "Nat. Genet.",
+      "year": "2008",
+      "volume": "40",
+      "fpage": "1445",
+      "lpage": "1453",
+      "doi": "10.1038/ng.263",
+      "pmid": "19011630"
+    },
+    {
+      "ref_id": "B57-cells-15-00911",
+      "label": "57.",
+      "authors": [
+        "Toriyama M.",
+        "Lee C.",
+        "Taylor S.P.",
+        "Duran I.",
+        "Cohn D.H.",
+        "Bruel A.L.",
+        "Tabler J.M.",
+        "Drew K.",
+        "Kelly M.R.",
+        "Kim S.",
+        "et al."
+      ],
+      "title": "The ciliopathy-associated CPLANE proteins direct basal body recruitment of intraflagellar transport machinery",
+      "journal": "Nat. Genet.",
+      "year": "2016",
+      "volume": "48",
+      "fpage": "648",
+      "lpage": "656",
+      "doi": "10.1038/ng.3558",
+      "pmid": "27158779",
+      "pmc_id": "PMC4978421"
+    },
+    {
+      "ref_id": "B58-cells-15-00911",
+      "label": "58.",
+      "authors": [
+        "Cui C.",
+        "Chatterjee B.",
+        "Lozito T.P.",
+        "Zhang Z.",
+        "Francis R.J.",
+        "Yagi H.",
+        "Swanhart L.M.",
+        "Sanker S.",
+        "Francis D.",
+        "Yu Q.",
+        "et al."
+      ],
+      "title": "Wdpcp, a PCP protein required for ciliogenesis, regulates directional cell migration and cell polarity by direct modulation of the actin cytoskeleton",
+      "journal": "PLoS Biol.",
+      "year": "2013",
+      "volume": "11",
+      "elocation_id": "e1001720",
+      "doi": "10.1371/journal.pbio.1001720",
+      "pmid": "24302887",
+      "pmc_id": "PMC3841097"
+    },
+    {
+      "ref_id": "B59-cells-15-00911",
+      "label": "59.",
+      "authors": [
+        "Lachowicz-Scroggins M.E.",
+        "Finkbeiner W.E.",
+        "Gordon E.D.",
+        "Yuan S.",
+        "Zlock L.",
+        "Bhakta N.R.",
+        "Woodruff P.G.",
+        "Fahy J.V.",
+        "Boushey H.A."
+      ],
+      "title": "Corticosteroid and long-acting ß-agonist therapy reduces epithelial goblet cell metaplasia",
+      "journal": "Clin. Exp. Allergy",
+      "year": "2017",
+      "volume": "47",
+      "fpage": "1534",
+      "lpage": "1545",
+      "doi": "10.1111/cea.13015",
+      "pmid": "28833774"
+    },
+    {
+      "ref_id": "B60-cells-15-00911",
+      "label": "60.",
+      "authors": [
+        "Zhang Y.",
+        "Qi J.",
+        "Yan D.",
+        "Deng Y.",
+        "Zhang J.",
+        "Luo Q."
+      ],
+      "title": "HNE Induces the Hyperexpression of MUC5AC in Chronic Rhinosinusitis with Nasal Polyps by Activating the TRAF6/Autophagy Regulatory Axis",
+      "journal": "Am. J. Rhinol. Allergy",
+      "year": "2022",
+      "volume": "36",
+      "fpage": "816",
+      "lpage": "826",
+      "doi": "10.1177/19458924221116939",
+      "pmid": "35915986"
+    },
+    {
+      "ref_id": "B61-cells-15-00911",
+      "label": "61.",
+      "authors": [
+        "Jo A.",
+        "Lee S.H.",
+        "Kim D.Y.",
+        "Hong S.J.",
+        "Teng M.N.",
+        "Kolliputi N.",
+        "Lockey R.F.",
+        "Schleimer R.P.",
+        "Cho S.H."
+      ],
+      "title": "Mast cell-derived plasminogen activator inhibitor type 1 promotes airway inflammation and remodeling in a murine model of asthma",
+      "journal": "J. Allergy Clin. Immunol.",
+      "year": "2018",
+      "volume": "142",
+      "fpage": "294",
+      "lpage": "297",
+      "doi": "10.1016/j.jaci.2018.01.040",
+      "pmid": "29477725",
+      "pmc_id": "PMC6046190"
+    },
+    {
+      "ref_id": "B62-cells-15-00911",
+      "label": "62.",
+      "authors": [
+        "Dos Santos R.V.",
+        "Barrionuevo M.V.F.",
+        "Vieira M.R.F.",
+        "Mazoni I.",
+        "Tasic L."
+      ],
+      "title": "Plasminogen Activator Inhibitors in Thrombosis: Structural Analysis and Potential Natural Inhibitors",
+      "journal": "ACS Omega",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "27348",
+      "lpage": "27362",
+      "doi": "10.1021/acsomega.5c02926",
+      "pmid": "40620932",
+      "pmc_id": "PMC12223855"
+    }
+  ]
+}

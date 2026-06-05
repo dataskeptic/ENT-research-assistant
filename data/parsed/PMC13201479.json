@@ -1,0 +1,2020 @@
+{
+  "metadata": {
+    "title": "Induction immunochemotherapy followed by concurrent chemoradiotherapy improves survival in unresectable esophageal cancer: a systematic review, meta-analysis, and network meta-analysis",
+    "authors": [
+      "Xuefei Fan",
+      "Xin Liu",
+      "Song Mi",
+      "Yunxin Yang",
+      "Chenggong Li",
+      "Jiandong Zhang",
+      "Pingping Hu"
+    ],
+    "journal": "Frontiers in Immunology",
+    "year": "2026",
+    "doi": "10.3389/fimmu.2026.1767380",
+    "pmc_id": "PMC13201479",
+    "pmid": "42206035",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 101
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Concurrent chemoradiotherapy (CCRT) remains the standard treatment for unresectable esophageal cancer (EC). However, the clinical benefits of combining immunotherapy with CCRT for unresectable EC remain controversial. Therefore, we conducted a systematic review and meta-analysis to evaluate the potential benefits of different immunotherapy strategies added to CCRT in patients with unresectable EC. Methods We employed single-arm, pairwise and network meta-analysis (NMA) methods to analyze the overall survival (OS), progression-free survival (PFS), objective response rate (ORR) and safety of several combined treatment strategies based on CCRT. Results 30 single-arm trials and 39 controlled trials involving a total of 9648 participants were included. Compared with CCRT alone, both induction immunochemotherapy plus CCRT (ICT-CCRT) and CCRT plus consolidation immunotherapy (CCRT-IO) significantly improved OS in pairwise meta-analyses (HR 0.52, 95% CI 0.39–0.71, I²= 0.0%; HR 0.77, 95% CI 0.65–0.90, I²= 0.0%, respectively). In the NMA, only ICT-CCRT showed a significant OS benefit (HR 0.75, 95% CI 0.64–0.88), whereas CCRT-IO did not. For PFS, CCRT-IO consistently prolonged PFS compared with CCRT alone in both pairwise meta-analyses (HR 0.74, 95% CI 0.64-0.85, I²=0.0%) and NMA (HR 0.78, 95% CI 0.76–0.99). In contrast, ICT-CCRT demonstrated a significant PFS benefit only in the NMA (HR 0.84, 95% CI 0.71–0.99), but not in the pairwise analysis. Notably, ICT-CCRT ranked first in the NMA for both OS and PFS. Conclusions In conclusion, compared with CCRT alone, ICT-CCRT significantly improves OS and shows a potential PFS benefit. CCRT-IO improves OS only in pairwise analyses but consistently improves PFS across analyses. Currently, sufficient randomized controlled trials are lacking to validate the efficacy and determine the optimal timing and sequence. Systematic review registration https://www.crd.york.ac.uk/prospero/ , identifier CRD420261364669.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Esophageal carcinoma (EC) is one of the most common cancers worldwide and the seventh leading cause of cancer-related death ( 1 ), with 30%−40% of cases diagnosed initially as unresectable locally advanced disease ( 2 ). The disease shows marked geographic variation, with predominantly squamous cell carcinoma in East Asia and adenocarcinoma in Western countries ( 3 ). Since 1999, definitive concurrent chemoradiotherapy (dCCRT) has been the standard treatment for medically inoperable or locally advanced EC, based on the RTOG 85–01 trial ( 4 – 6 ). However, this approach remains associated with significant limitations, including local recurrence rates of 40%−60% and 5-year overall survival (OS) rates below 20% ( 2 ). Therefore, there is a need for a more effective method to further improve the survival rate of EC patients who undergo concurrent chemoradiotherapy (CCRT). In recent years, combining immunotherapy with CCRT has become a new approach for treating locally advanced EC, potentially showing synergistic effects and improved efficacy ( 7 ). Several clinical studies have shown promising short-term efficacy and acceptable safety with neoadjuvant immunotherapy plus chemotherapy in patients with resectable locally advanced esophageal squamous cell carcinoma (ESCC) ( 8 – 11 ). In unresectable EC, several combined treatment strategies—such as induction immunochemotherapy plus CCRT (ICT-CCRT), CCRT plus concurrent immunotherapy (CCRT-cIO), CCRT plus consolidation immunotherapy (CCRT-IO), induction chemotherapy plus CCRT (CT-CCRT), and CCRT plus consolidation chemotherapy (CCRT-CT) —have been explored to improve outcomes. Preliminary data from small studies show promising efficacy and acceptable safety of CCRT-cIO in unresectable locally advanced EC ( 12 , 13 ). Additionally, evidence has suggested that ICT-CCRT may significantly improve OS and progression-free survival (PFS) ( 14 , 15 ). However, the optimal treatment mode for unresectable EC remains unclear and needs to be determined by further research. Owing to the limited number of publications, inconsistent findings, and the lack of prospective randomized controlled studies and direct comparisons between several treatment regimens, the value of CCRT-based combination therapies in EC patients remains controversial. Therefore, using available published data, we conducted a single-arm, pairwise, and network meta-analysis to evaluate the comparative efficacy and safety of CCRT-based combination treatment strategies, which is critical for clinicians when making optimal treatment decision for patients with unresectable locally advanced EC.",
+      "order": 1
+    },
+    {
+      "section": "Search Strategy",
+      "text": "We searched the PubMed, Embase, Cochrane Library, Web of Science, and ClinicalTrials.gov databases for clinical studies from database inception to March 31, 2026. Search keywords included “Esophageal Neoplasms” and “induction or neoadjuvant therapy” and “consolidation therapy” and “immune checkpoint inhibitors (ICIs)” and “programmed cell death protein 1 (PD-1)” or “programmed cell death ligand 1 (PD-L1)” or “cytotoxic T-lymphocyte-associated protein 4 (CTLA-4)”. We also reviewed abstracts and presentations from major international conferences--including American Society of Clinical Oncology Annual Meeting (ASCO), European Society for Medical Oncology Congress (ESMO), and American Society for Radiation Oncology Annual Meeting (ASTRO) from 2023 to 2025, and we checked reference lists of published reviews and meta-analyses to ensure no studies were overlooked. The detailed literature search process is presented in Supplementary Table 1 .",
+      "order": 2
+    },
+    {
+      "section": "Inclusion And Exclusion Criteria",
+      "text": "Eligibility criteria included:(1) published or unpublished clinical trials or observational studies; unpublished studies were defined as those identified solely through clinical trial registries (e.g., ClinicalTrials.gov) or conference abstracts; (2) adult patients with histologically confirmed, unresectable, locally advanced EC who had not undergone prior surgical resection; (3) studies evaluating CCRT or radiotherapy as definitive local treatment, with eligible regimens including additional systemic therapy, such as induction or consolidation chemotherapy, or immunotherapy given as induction immunochemotherapy, concurrent immunotherapy, or consolidation immunotherapy; (4) studies that reported at least one of the outcomes mentioned below. Exclusion criteria included: (1) non−English language publications or studies with insufficiently reported data from which relevant outcome measures could not be extracted; (2) studies in which patients had undergone surgical resection of EC, or had distant metastases, recurrent EC, or non-esophageal primary tumors; (3) multiple reports derived from the same patient cohort; in such cases, only the most recent or most complete dataset was retained for analysis.",
+      "order": 3
+    },
+    {
+      "section": "Data Collection",
+      "text": "Two researchers independently extracted the following items from each included study: first author, year of publication or conference presentation, country and region, research type, sample size, number in the experimental group, number in the control group, follow-up time, pathological type, clinical stage, treatment regimen, outcomes (hazard ratios (HRs) and their corresponding 95% confidence intervals (CIs) for PFS and OS, the 1-year and 2-year PFS rates and OS rates, objective response rate (ORR) and severe-grade adverse events(AEs)). The extracted data were cross-checked, and discrepancies were resolved by consensus through group discussion or arbitration by a third senior investigator. Missing data were supplemented by contacting the corresponding author or derived from the original text. However, if sufficient data required for the meta-analysis could not be obtained after attempts to contact the authors, the study was excluded.",
+      "order": 4
+    },
+    {
+      "section": "Data Analysis",
+      "text": "The data analysis was conducted using Stata software (version 18.0) and R software (version 4.4.2), in which Stata software was utilized for single-group (metaprop function) and paired (metan function) meta-analysis, while the gemtc package of R software was employed for network meta-analysis (NMA). The analyzed outcomes included OS, PFS, ORR, and grade ≥3 AEs. The risk of bias in the included studies was assessed using two tools: the Methodological Index for Non-Randomized Studies (MINORS) for single-arm and non-randomized observational trials ( 16 ), and the Cochrane risk of bias tool for randomized controlled trials ( 17 ). The work has been reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines ( 18 ). The review protocol was registered in PROSPERO (identifier CRD420261364669) and can be accessed at https://www.crd.york.ac.uk/PROSPERO/view/CRD420261364669 . The single-arm meta-analysis was conducted to calculate pooled estimates of clinical outcomes including 1-year and 2-year OS rates, 1-year and 2-year PFS rates, ORR and incidence of severe-grade AEs. The pairwise meta-analysis was conducted for head-to-head comparisons involving two or more controlled trials. HRs and their corresponding 95% CIs were used as the primary metrics for assessing survival outcomes (PFS and OS). When possible, HRs and corresponding 95% CIs were obtained directly from the studies. If exact HR values were not reported in the original study, they were estimated from the survival curve ( 19 ). For both the single-arm and pairwise meta-analyses, heterogeneity was evaluated using the I² statistic and the Q-test ( 20 ). When statistical heterogeneity was substantial (I²>50% or Q-test p<0·10), the random-effects model was employed; otherwise, the fixed-effect model was adopted. For analyses including fewer than five studies, the random-effects model was used regardless of heterogeneity estimates, owing to the low power of I² in small meta-analyses. When the number of included studies was sufficient (more than ten), subgroup analyses were conducted to explore potential sources of heterogeneity. We performed a NMA utilizing the Markov chain Monte Carlo simulation technique to compare any two treatment strategies by integrating both direct and indirect evidence simultaneously ( 21 ). In addition, this approach allowed for the comparison of pairs of interventions that were not directly evaluated in the reported trials. This comprehensive comparison of all interventions in a single analysis also estimated their relative efficacy ranking for a specific outcome ( 22 , 23 ). We conducted the NMA within the Bayesian framework using a random-effects model and determined whether the residual deviance approximated the number of data points by posterior mean ( 24 ). Four distinct chains were run with 50,000 iterations, discarding 20,000 initial burn-in iterations per chain. Summary estimate statistics were reported as HRs for the corresponding outcomes, along with their 95% CIs. We assessed the transitivity by examining the baseline characteristics of the included studies (age, gender, clinical stage, pathological type, treatment protocols) ( 25 ). Global inconsistency was assessed by comparing the fit of consistency and inconsistency models. Local inconsistency between direct and indirect results was assessed by using the node-splitting method. The probability of each treatment being the most effective was calculated using the surface under the cumulative ranking curve (SUCRA). For each outcome, the greater the SUCRA value, the better the rank of a certain therapy among the various treatments. We also conducted sensitivity analyses on the primary outcomes using both fixed-effect and random-effects models to assess the robustness of the results. Outliers were addressed by removing studies whose point estimate of the effect size fell outside the confidence interval of the pooled effect size ( 26 ). Funnel plots were employed to assess potential publication bias. Egger’s regression test was conducted to evaluate the asymmetry of the funnel plot. A P value of less than 0.05 was considered indicative of publication bias.",
+      "order": 5
+    },
+    {
+      "section": "Results",
+      "text": "6629 records through database searches and an additional 68 studies from conference proceedings were identified. Among these, 135 full-text articles were evaluated for eligibility, and 66 articles that did not meet the inclusion criteria were excluded—as summarized in Figure 1 . Finally, 69 articles were included in our meta-analysis, comprising 30 single-arm trials ( 12 , 13 , 27 – 54 ) and 39 controlled studies ( 5 , 14 , 15 , 55 – 90 ), which together included a total of 9648 unresectable locally advanced EC patients. These trials evaluated six treatment strategies for patients with unresectable locally advanced EC: ICT-CCRT ( 14 , 15 , 27 – 32 , 55 – 57 , 86 , 87 ), CCRT-cIO ( 12 , 13 , 33 – 35 , 58 , 59 , 85 ), CCRT-IO ( 36 , 37 , 60 , 61 , 88 , 89 ), CT-CCRT ( 38 – 47 , 62 – 70 , 90 ), CCRT-CT ( 5 , 48 – 52 , 71 – 84 ), and CCRT ( 14 , 15 , 58 , 59 , 61 – 68 , 70 , 71 , 73 – 82 ). Through sensitivity analysis, we excluded the study by Xie et al. from the pairwise and network meta-analysis. The basic characteristics of the included studies are detailed in the Supplementary Table 2 . Among the 69 included studies, 27 were prospective studies, and the remainder were retrospective studies. The majority of patients included in the studies had ESCC, and most were stage III-IV according to the American Joint Committee on Cancer TNM staging system. The chemotherapy regimens in most trials were primarily based on taxanes and platinum drugs, while the radiation doses administered in the radiotherapy protocols ranged from 50 to 60 Gy across most trials. Based on these baseline characteristics, the transitivity assumption was considered satisfied. According to the RoB 2 tool, six of the eight randomized controlled trials were assessed as having a low risk of bias, while the remaining two were judged to raise some concerns. For the non-randomized studies, the MINORS scores indicated moderate to high methodological quality for the majority of included trials, with only one study rated as low quality. The specific quality assessment results are presented in Supplementary Figure 1 and the last column of Supplementary Table 2 .",
+      "order": 6
+    },
+    {
+      "section": "Os Benefit With The Combination Of Immunotherapy With Ccrt",
+      "text": "In the single-arm analysis, 62 studies contributed 1-year OS rate and 57 contributed 2-year OS rate. Summarizing the data of single-arm and the experimental group of controlled trials, ICT-CCRT achieved the most favorable estimates (1-year OS: 86.1%, 95% CI 82.2-89.6, I²=70.0%; 2-year OS: 64.9%, 95% CI 58.0-71.6, I²=77.9%). The other immunotherapy−combined regimens also yielded numerically higher OS estimates compared with chemotherapy-combined regimens and CCRT alone. Detailed estimates for all treatment strategies are summarized in Table 1 . Given the substantial heterogeneity observed in the ICT−CCRT group, a subgroup analysis by research type (retrospective versus prospective) was performed, with results shown in Supplementary Figure 2 . In the pairwise meta-analyses, 33 studies were included to compare OS across treatment strategies, including ICT-CCRT versus CCRT, CCRT-IO versus CCRT, CCRT-cIO versus CCRT, CT-CCRT versus CCRT, CCRT-CT versus CCRT, and CCRT-CT versus CT-CCRT. Pooled OS of each head-to-head comparison in Figure 2A . Compared with CCRT alone, both ICT-CCRT (HR 0.52, 95% CI 0.39–0.71, I² = 0.0%) and CCRT-IO (HR 0.77, 95% CI 0.65–0.90, I² = 0.0%) significantly prolonged OS. In addition, CCRT-CT had superior OS to CCRT (HR 0.73, 95% CI 0.61-0.88, I²=64.7%) and CT-CCRT (HR 0.71, 95%CI 0.52-0.96, I²=0.0%). No statistically significant differences were observed among the remaining pairwise comparisons. Subgroup analyses showed that in the CCRT−CT versus CCRT comparison, intravenous consolidation chemotherapy improved OS (HR 0.70, 95% CI 0.59–0.83, I² = 55.7%), while oral regimens were limited to one study (HR 1.77, 95% CI 1.04–3.11). For CT−CCRT versus CCRT, OS benefit was observed in studies with predominantly squamous cell carcinoma (HR 0.85, 95% CI 0.75–0.96, I² = 14.6%), but not in the two adenocarcinoma−predominant studies ( Supplementary Figure 3 ). In the NMA, a total of 28 studies were included. Consistent with the pairwise meta-analysis, ICT−CCRT was associated with improved OS compared with CCRT alone (HR 0.75, 95% CI 0.64–0.88) and CT−CCRT (HR 0.78, 95% CI 0.65–0.92). Similarly, CCRT−CT demonstrated better OS than both CCRT alone (HR 0.87, 95% CI 0.80–0.93) and CT−CCRT (HR 0.89, 95% CI 0.82–0.97). In contrast, the comparison between CCRT−IO and CCRT alone did not reach statistical significance (HR 0.88, 95% CI 0.78–1.00). No significant differences were observed among the remaining treatment strategies ( Figure 3 ). The network diagram of the evaluated regimens is presented in Figure 4A , and the ranking probabilities for OS are shown in Supplementary Figure 4A . Among the included strategies, ICT−CCRT had the highest probability of ranking first (0.95). Global and local assessments of inconsistency supported the assumption of network consistency. Details are provided in Supplementary Table 3 ; Supplementary Figure 5 .",
+      "order": 7
+    },
+    {
+      "section": "Pfs Benefit With The Combination Of Immunotherapy With Ccrt",
+      "text": "In the single-arm analysis, 45 studies contributed 1−year PFS rate and 38 contributed 2−year PFS rate. Among all evaluated strategies, ICT−CCRT achieved the highest pooled 1−year PFS rate (70.5%, 95% CI 66.2–74.7, I²=58.1%), whereas CCRT-CT had the highest 2−year PFS rate (52.1%, 95% CI 47.7–56.5, I²=58.9%). The PFS rates of immunotherapy−combined regimens were numerically similar to those of chemotherapy−combined strategies, and all combination groups exceeded the rates observed with CCRT alone. Full estimates are provided in Table 1 . In the pairwise meta-analyses, we included 18 studies. CCRT-IO showed prolonged PFS compared with CCRT (HR 0.74, 95% CI 0.64–0.85, I²=0.0%). No statistically significant differences were observed among the remaining pairwise comparisons. Detailed results are presented in Figure 2B . In the NMA of PFS, 18 studies were included. CCRT-IO was associated with better PFS relative to CCRT alone (HR 0.78, 95% CI 0.76–0.99), consistent with the finding from the pairwise meta-analysis. Additionally, compared with CCRT alone, both ICT-CCRT (HR 0.84, 95% CI 0.71–0.99) and CCRT-CT (HR 0.88, 95% CI 0.79–0.97) demonstrated improved PFS. No significant differences were observed among the remaining treatment strategies ( Figure 3 ). The network diagram for PFS is presented in Figure 4B . Among the evaluated regimens, ICT-CCRT had the highest probability of ranking first for PFS (0.80), as shown in Supplementary Figure 4B .",
+      "order": 8
+    },
+    {
+      "section": "Orr Across Treatment Strategies",
+      "text": "In the single-arm analysis, a total of 31 studies were included with ORR. Among all evaluated strategies, ICT-CCRT yielded the highest pooled ORR (88.4%), followed by CCRT-CT (84.9%). The ORR values of other combination regimens and CCRT alone were relatively lower, ranging from 61.0% to 71.9%. Full data are provided in Table 1 . Due to limited available data, only CT-CCRT was included in the pairwise meta-analysis. However, no statistically significant difference in ORR was observed compared with CCRT.",
+      "order": 9
+    },
+    {
+      "section": "Severe Adverse Events",
+      "text": "Data from single−arm studies and the experimental arms of controlled trials were pooled to assess the incidence of severe AEs (grade ≥3), including hematological toxicities, pneumonitis (including radiation-related and immune-related), and esophagitis. The pooled incidence of grade ≥3 AEs was numerically higher in both the ICT-CCRT (56.6%) and CCRT-cIO groups (76.7%) compared with the CCRT alone group (38.9%). This trend was particularly evident for grade ≥3 lymphopenia. The incidence of grade ≥3 anemia was also numerically elevated in the ICT−CCRT group relative to other strategies. In contrast, the rates of grade ≥3 pneumonitis, esophagitis, and other hematological toxicities appeared comparable between the immunotherapy-combined regimens and the CCRT group. However, a formal comparative analysis for these specific toxicities was not feasible due to the limited number of studies reporting them. The summary results are presented in Table 2 .",
+      "order": 10
+    },
+    {
+      "section": "Sensitivity Analysis And Publication Bias",
+      "text": "Sensitivity analyses were conducted by sequentially omitting each study to assess the robustness of the pooled estimates. The summary results were largely consistent across most comparisons. One exception was the study by Xie et al. ( 85 ) in the CCRT-cIO analysis: the point estimate of this study deviated notably from the CI of the combined effect. Because this study was a database-based analysis rather than a real-world clinical cohort, and its removal restored the consistency of the estimate, we excluded it and performed a reanalysis. The corresponding sensitivity plots are presented in the Supplementary Figures 6 - 10 . Publication bias was assessed via funnel plots and was not evident in most analyses ( Supplementary Figures 11 , 12 ); however, asymmetry was detected for PFS in the ICT-CCRT analysis (P<0.05).",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "Immunotherapy has demonstrated considerable promise in the neoadjuvant setting for operable EC, yet its role in dCCRT for unresectable disease continues to evolve, with current evidence mainly from retrospective studies and phase II trials. To further evaluate the potential benefit of adding immunotherapy to dCCRT, we conducted this systematic review and meta-analysis. For OS, ICT-CCRT significantly improved OS compared with CCRT alone and ranked first among all evaluated strategies in NMA. CCRT-IO also significantly improved OS in pairwise meta-analyses, but this benefit did not reach statistical significance in the NMA, although a favorable trend was observed. For PFS, the benefit of ICT-CCRT over CCRT alone was not consistently observed across analyses, which may reflect differences in statistical methodology; nevertheless, it ranked first in the NMA, suggesting a potential advantage. In contrast, CCRT-IO consistently improved PFS over CCRT alone in both pairwise and network meta-analyses, although its PFS rates were numerically comparable to those of other regimens in single-arm studies. Collectively, adding immunotherapy to dCCRT improves survival outcomes. ICT-CCRT appears most promising for OS and also holds potential for PFS. CCRT-IO is effective for PFS and shows OS benefit only in pairwise comparisons. Theoretically, the addition of immunotherapy to CCRT could improve treatment effectiveness. This may be attributed to ICIs regulating the tumor microenvironment: PD-1/PD-L1 inhibitors can promote the infiltration of cytotoxic T cells (CD8 + ) and enhance T cell recognition of tumor antigens by inhibiting immunosuppressive signals. Additionally, Tian et al. proposed in Nature that PD-1 inhibitors might enhance vascular normalization by activating CD4+ T lymphocytes, thereby overcoming hypoxia, which might improve radiosensitivity ( 91 ). Immunotherapy and chemoradiotherapy may synergize to enhance anti-tumor immune responses via the “ in situ vaccine effect” (radiotherapy promotes the release of tumor antigens) and chemotherapy-induced immunogenic cell death ( 92 ). In recent years, neoadjuvant immunotherapy, such as PD-1 inhibitors combined with chemotherapy or CCRT, has shown promising pathological complete response rates in multiple clinical trials ( 8 – 11 ). These findings are consistent with our analysis showing that induction immunochemotherapy improves the prognosis of patients with unresectable EC. In paired and network meta-analyses, both ICT-CCRT and CCRT-IO demonstrated survival benefits, whereas the CCRT-cIO group did not show a significant advantage. This finding is consistent with evidence from clinical trials such as PACIFIC-2, which demonstrated that the combination of immunotherapy and CCRT does not improve clinical benefit in non-small cell lung cancer ( 93 ). The reasons for this failure may involve multiple interrelated factors. First, the most significant challenge is toxicity accumulation: the use of a concurrent regimen substantially increases the risk of high-grade adverse events, leading to premature treatment discontinuation in a considerable proportion of patients due to poor tolerability, thereby preventing completion of the intended immunotherapy course and compromising long-term therapeutic efficacy. In our study, the incidence of severe AEs was higher in the CCRT-cIO group compared with the CCRT alone group (76.7% vs. 38.9%). Second, the timing of drug administration may be suboptimal. Radiation-induced lymphocyte depletion creates an immunosuppressive microenvironment early during CCRT, hindering effective ICIs activation and limiting the expected synergistic effect. Third, the lack of well-defined criteria for identifying optimal patient populations may also contribute to the overall reduction in treatment benefit. In the study by Park et al., it was demonstrated that PD-L1-positive patients exhibited significantly better PFS and OS compared to the PD-L1–negative patients (HR = 0.20, 95% CI 0.07-0.54, P < 0.001; HR = 0.16, 95% CI 0.05-0.56, P = 0.001) ( 59 ). Due to high heterogeneity in analyses of immunotherapy combined with CCRT, we performed subgroup analyses where sample sizes permitted. In the single-arm analysis of ICT-CCRT, stratification by research type showed that prospective studies had lower heterogeneity and higher pooled OS rates than retrospective studies. The high heterogeneity in retrospective studies likely arose from baseline differences, non-standardized treatment, inconsistent data collection, and selection bias. In pairwise meta-analyses, some comparisons also showed considerable heterogeneity, but subgroup analyses were precluded by the limited number of studies. Notably, one study of ICT-CCRT demonstrated that patients who did not receive maintenance immunotherapy after induction immunochemotherapy had significant survival benefits, whereas those who received maintenance therapy showed no additional benefit. Furthermore, the two studies in the CCRT-cIO group differed markedly in design and specific regimens, warranting cautious interpretation of the pooled results. We also identified an induction immunotherapy-monotherapy study (Xu et al., NCT04084158 ), which reported that adding induction toripalimab and consolidation immunotherapy to CCRT plus consolidation chemotherapy did not significantly improve efficacy in patients with locally advanced ESCC ( 94 ). This regimen differed substantially from other induction immunochemotherapy studies; thus, it was excluded from the primary analysis, though its findings merit further consideration. In summary, the optimal combination pattern and timing of radiotherapy with immunotherapy require further investigation. Randomized phase III trials are needed to determine the optimal timing of immunotherapy integration. Future strategies may move beyond a single induction, concurrent, or consolidation approach toward biomarker-driven personalized sequencing of therapies. Several prospective studies of immunotherapy in combination with CCRT are underway and will provide new leads for the optimal treatment pattern for patients with EC ( 95 – 99 ). Although theoretical considerations suggest that the addition of induction chemotherapy before CCRT may have the potential advantage of reducing tumor stage and shrinking tumor volume, a comprehensive synthesis of both direct and indirect evidence in our study failed to demonstrate a definitive survival benefit associated with this approach. Subgroup analysis by pathological type showed that CT-CCRT improved OS in studies predominantly including squamous cell carcinoma, but not in the adenocarcinoma−predominant studies. These findings suggest that pathological type may influence the efficacy of induction chemotherapy, with potential benefit limited to squamous cell pathological type. Our overall results are consistent with existing evidence. For example, a meta-analysis by Wang J. et al. reported that the addition of induction chemotherapy or consolidation chemotherapy before CCRT improved short-term survival in patients with unresectable EC; however, the long-term survival benefit was not clear ( 100 ). Moreover, several studies have failed to demonstrate a significant survival advantage for CT-CCRT ( 64 , 65 ). In summary, current evidence indicates that CT-CCRT is not an effective strategy to improve prognosis in unselected patients with unresectable EC; however, subgroup analyses suggest a potential benefit in those with squamous cell carcinoma, warranting further validation. In our analysis, consolidation chemotherapy significantly improved OS, whereas its PFS benefit was only potential. Subgroup analysis of CCRT-CT versus CCRT alone showed that intravenous consolidation chemotherapy improved OS, whereas data for oral regimens were limited to a single study that reported no benefit. The overall OS benefit of consolidation chemotherapy is consistent with a previous meta−analysis by Xia et al. ( 101 ). Importantly, our study extends the evidence by including more recent studies and employing single−arm, pairwise, and network meta−analyses, providing robust results that support the efficacy of consolidation chemotherapy. In the present study, given the limited availability of direct comparative data, we pooled evidence from single-arm trials and experimental arms to synthesize the incidence of AEs across treatment strategies. The addition of immunotherapy to CCRT seems to increase the risk of grade ≥3 AEs overall, particularly lymphopenia and anemia, while the rates of pneumonitis, esophagitis, and other hematological toxicities remained comparable to those with conventional therapy. Nevertheless, these cross-trial comparisons preclude definitive statistical conclusions, as the elevated hematological toxicity may reflect either a genuine synergistic effect or inherent bias in the pooled data. The comparable incidence rates of severe pneumonitis and esophagitis across groups partially alleviate concerns regarding potential pulmonary or esophageal mucosal injury associated with the combination of immunotherapy and thoracic radiotherapy. However, randomized trials with rigorous monitoring are required to determine whether the numerical increases in AEs represent a true safety signal or are due to the limitations of aggregated single-arm data. In this study, we conducted single-group, pairwise, and network meta-analyses to comprehensively evaluate the efficacy of various combination strategies in addition to CCRT. By applying multiple meta−analytic techniques to data from both controlled trials and a large set of single−arm studies, we were able to cross−validate findings and synthesize all available evidence. This approach enabled a more comprehensive comparison among treatments for the same outcomes and helped identify the most effective therapeutic strategy. To our knowledge, this is the first meta-analysis to evaluate the efficacy and safety of immunotherapy in patients with unresectable EC treated with CCRT. Our analysis further examined the impact of different immunotherapy modes—induction immunochemotherapy, concurrent immunotherapy, and consolidation immunotherapy—on survival outcomes, providing clinicians with valuable insights for treatment selection. Our meta-analysis had several limitations. First, of the 33 studies included in the NMA, 28 (85%) were retrospective studies. To date, only two randomized controlled trials of immunotherapy with CCRT have been published. The predominance of retrospective studies may affect result interpretation through multiple mechanisms: selection bias (treatment assignment influenced by clinical factors rather than randomization, compromising comparability); unmeasured confounding (e.g., tumor burden, nutritional status, cycles of therapy) that cannot be adjusted for and may either inflate or obscure true treatment effects; and clinical heterogeneity arising from variations in radiotherapy techniques, dose fractionation, and supportive care across centers. Although we used random effects models and subgroup analyses to mitigate these influences, the inherent bias of retrospective data cannot be fully eliminated. Second, data sparsity directly compromises the certainty of conclusions and the power of the NMA. The limited number of controlled trials involving immunotherapy (three for ICT-CCRT and CCRT-IO, two for CCRT-cIO) results in wide CIs around effect estimates and insufficient statistical precision. More importantly, owing to the lack of head-to-head comparisons among several treatment strategies, a closed loop could not be formed for all strategies in the NMA, precluding assessment of local inconsistency (e.g., differences between direct and indirect comparisons). This fundamentally undermines the reliability and statistical power of the NMA for comparing treatment effects. Furthermore, the inconsistent results observed for PFS in ICT-CCRT and for OS in CCRT-IO between pairwise and network meta-analyses further reflect the impact of data sparsity on result stability. To mitigate this issue, we cross-validated findings using single arm, pairwise, and network meta-analyses, but caution remains warranted. Third, some studies did not directly provide HRs; we estimated them from survival curves using the method of Tierney et al. ( 19 ), which may introduce approximation errors. Fourth, statistical heterogeneity was detected in some analyses; we performed subgroup analyses stratified by research type, pathological type, and administration route to contextualize observed differences and used random effects models to conservatively account for heterogeneity. Sensitivity analyses confirmed the general stability of the pooled estimates, with the exception of one study that was excluded due to methodological divergence. Publication bias was not evident across the majority of outcomes; however, funnel plot asymmetry was observed for PFS in the ICT-CCRT analysis (P <0.05), suggesting potential selective reporting. Given the limited number of studies included, this finding should be interpreted with caution. In summary, our conclusions should be generalized cautiously within the context of the available evidence. In conclusion, compared with CCRT alone, ICT−CCRT significantly improves OS and shows a potential trend toward in PFS benefit; in the NMA, ICT-CCRT ranked as the most favorable among all evaluated strategies, suggesting it may be the most effective regimen. CCRT−IO improves OS only in pairwise meta−analyses, but consistently improves PFS compared with CCRT alone in the pairwise and network meta-analysis, although its pooled PFS rates from single−arm studies are numerically comparable to those of other regimens. Currently, sufficient randomized controlled trials are lacking to validate the efficacy of immunotherapy combined with CCRT and to determine the optimal timing and sequence of their integration. Future well−designed prospective studies are needed to guide the optimization of personalized treatment strategies.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "Soerjomataram I",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "doi": "10.3322/caac.21834",
+      "pmid": "38572751"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Ajani JA",
+        "D'Amico TA",
+        "Bentrem DJ",
+        "Cooke D",
+        "Corvera C",
+        "Das P",
+        "et al."
+      ],
+      "title": "Esophageal and esophagogastric junction cancers, version 2.2023, NCCN clinical practice guidelines in oncology",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "393",
+      "lpage": "422",
+      "doi": "10.6004/jnccn.2023.0019",
+      "pmid": "37015332"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Thrift AP"
+      ],
+      "title": "Global burden and epidemiology of Barrett oesophagus and oesophageal cancer",
+      "journal": "Nat Rev Gastroenterol Hepatol",
+      "year": "2021",
+      "volume": "18",
+      "doi": "10.1038/s41575-021-00419-3",
+      "pmid": "33603224"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Shah MA",
+        "Kennedy EB",
+        "Catenacci DV",
+        "Deighton DC",
+        "Goodman KA",
+        "Malhotra NK",
+        "et al."
+      ],
+      "title": "Treatment of locally advanced esophageal carcinoma: ASCO guideline",
+      "journal": "J Clin Oncol",
+      "year": "2020",
+      "volume": "38",
+      "doi": "10.1200/jco.20.00866",
+      "pmid": "32568633"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Cooper JS",
+        "Guo MD",
+        "Herskovic A",
+        "Macdonald JS",
+        "Martenson JA",
+        "Al-Sarraf M",
+        "et al."
+      ],
+      "title": "Chemoradiotherapy of locally advanced esophageal cancer: long-term follow-up of a prospective randomized trial (RTOG 85-01). Radiation Therapy Oncology Group",
+      "journal": "Jama",
+      "year": "1999",
+      "volume": "281",
+      "doi": "10.1001/jama.281.17.1623",
+      "pmid": "10235156"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Obermannová R",
+        "Alsina M",
+        "Cervantes A",
+        "Leong T",
+        "Lordick F",
+        "Nilsson M",
+        "et al."
+      ],
+      "title": "Oesophageal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol",
+      "year": "2022",
+      "volume": "33",
+      "fpage": "992",
+      "lpage": "1004",
+      "doi": "10.1016/j.annonc.2022.07.003",
+      "pmid": "35914638"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Wang R",
+        "Liu S",
+        "Chen B",
+        "Xi M"
+      ],
+      "title": "Recent advances in combination of immunotherapy and chemoradiotherapy for locally advanced esophageal squamous cell carcinoma",
+      "journal": "Cancers",
+      "year": "2022",
+      "volume": "14",
+      "elocation_id": "5168",
+      "doi": "10.3390/cancers14205168",
+      "pmid": "36291954",
+      "pmc_id": "PMC9599968"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Li C",
+        "Zhao S",
+        "Zheng Y",
+        "Han Y",
+        "Chen X",
+        "Cheng Z",
+        "et al."
+      ],
+      "title": "Preoperative pembrolizumab combined with chemoradiotherapy for oesophageal squamous cell carcinoma (PALACE-1)",
+      "journal": "Eur J Cancer",
+      "year": "2021",
+      "volume": "144",
+      "doi": "10.1016/j.ejca.2020.11.039",
+      "pmid": "33373868"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Zheng Y",
+        "Li C",
+        "Yu B",
+        "Zhao S",
+        "Li J",
+        "Chen X",
+        "et al."
+      ],
+      "title": "Preoperative pembrolizumab combined with chemoradiotherapy for esophageal squamous cell carcinoma: Trial design",
+      "journal": "JTCVS Open",
+      "year": "2022",
+      "volume": "9",
+      "doi": "10.1016/j.xjon.2021.11.003",
+      "pmid": "36003437",
+      "pmc_id": "PMC9390428"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "He W",
+        "Leng X",
+        "Mao T",
+        "Luo X",
+        "Zhou L",
+        "Yan J",
+        "et al."
+      ],
+      "title": "Toripalimab plus paclitaxel and carboplatin as neoadjuvant therapy in locally advanced resectable esophageal squamous cell carcinoma",
+      "journal": "Oncologist",
+      "year": "2022",
+      "volume": "27",
+      "doi": "10.1093/oncolo/oyab011",
+      "pmid": "35305102",
+      "pmc_id": "PMC8842349"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Yang W",
+        "Xing X",
+        "Yeung SJ",
+        "Wang S",
+        "Chen W",
+        "Bao Y",
+        "et al."
+      ],
+      "title": "Neoadjuvant programmed cell death 1 blockade combined with chemotherapy for resectable esophageal squamous cell carcinoma",
+      "journal": "J Immunother Cancer",
+      "year": "2022",
+      "volume": "10",
+      "elocation_id": "e003497",
+      "doi": "10.1136/jitc-2021-003497",
+      "pmid": "35022193",
+      "pmc_id": "PMC8756283"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Zhang W",
+        "Yan C",
+        "Zhang T",
+        "Chen X",
+        "Dong J",
+        "Zhao J",
+        "et al."
+      ],
+      "title": "Addition of camrelizumab to docetaxel, cisplatin, and radiation therapy in patients with locally advanced esophageal squamous cell carcinoma: a phase 1b study",
+      "journal": "Oncoimmunology",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "1971418",
+      "doi": "10.1080/2162402x.2021.1971418",
+      "pmid": "34616588",
+      "pmc_id": "PMC8489938"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Zhu Y",
+        "Wen J",
+        "Li Q",
+        "Chen B",
+        "Zhao L",
+        "Liu S",
+        "et al."
+      ],
+      "title": "Toripalimab combined with definitive chemoradiotherapy in locally advanced oesophageal squamous cell carcinoma (EC-CRT-001): a single-arm, phase 2 trial",
+      "journal": "Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "doi": "10.1016/s1470-2045(23)00060-8",
+      "pmid": "36990609"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Deng W",
+        "Chang X",
+        "Dong X",
+        "Zhao Y",
+        "Yang D",
+        "Jiang L",
+        "et al."
+      ],
+      "title": "Induction immunochemotherapy followed by radiotherapy for patients with unresectable locally advanced or metastatic esophageal cancer: A propensity score-matched analysis",
+      "journal": "Int Immunopharmacol",
+      "year": "2023",
+      "volume": "124",
+      "elocation_id": "110955",
+      "doi": "10.1016/j.intimp.2023.110955",
+      "pmid": "37725845"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Lian HM",
+        "Wu JL",
+        "Liufu WJ",
+        "Yu TT",
+        "Niu SQ",
+        "Bao Y",
+        "et al."
+      ],
+      "title": "Induction immunotherapy plus chemotherapy followed by definitive chemoradiation therapy in locally advanced esophageal squamous cell carcinoma: a propensity-score matched study",
+      "journal": "Cancer Immunol Immunother",
+      "year": "2024",
+      "volume": "73",
+      "fpage": "55",
+      "doi": "10.1007/s00262-024-03649-x",
+      "pmid": "38366287",
+      "pmc_id": "PMC10873219"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Slim K",
+        "Nini E",
+        "Forestier D",
+        "Kwiatkowski F",
+        "Panis Y",
+        "Chipponi J"
+      ],
+      "title": "Methodological index for non-randomized studies (minors): development and validation of a new instrument",
+      "journal": "Anz J Surg",
+      "year": "2003",
+      "volume": "73",
+      "doi": "10.1046/j.1445-2197.2003.02748.x",
+      "pmid": "12956787"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Sterne JAC",
+        "Savović J",
+        "Page MJ",
+        "Elbers RG",
+        "Blencowe NS",
+        "Boutron I",
+        "et al."
+      ],
+      "title": "RoB 2: a revised tool for assessing risk of bias in randomised trials",
+      "journal": "Bmj",
+      "year": "2019",
+      "volume": "366",
+      "elocation_id": "l4898",
+      "doi": "10.1136/bmj.l4898",
+      "pmid": "31462531"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Liberati A",
+        "Altman DG",
+        "Tetzlaff J",
+        "Mulrow C",
+        "Gøtzsche PC",
+        "Ioannidis JP",
+        "et al."
+      ],
+      "title": "The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate healthcare interventions: explanation and elaboration",
+      "journal": "Bmj",
+      "year": "2009",
+      "volume": "339",
+      "elocation_id": "b2700",
+      "doi": "10.1136/bmj.b2700",
+      "pmid": "19622552",
+      "pmc_id": "PMC2714672"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Tierney JF",
+        "Stewart LA",
+        "Ghersi D",
+        "Burdett S",
+        "Sydes MR"
+      ],
+      "title": "Practical methods for incorporating summary time-to-event data into meta-analysis",
+      "journal": "Trials",
+      "year": "2007",
+      "volume": "8",
+      "elocation_id": "16",
+      "doi": "10.1186/1745-6215-8-16",
+      "pmid": "17555582",
+      "pmc_id": "PMC1920534"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Higgins JP",
+        "Thompson SG"
+      ],
+      "title": "Quantifying heterogeneity in a meta-analysis",
+      "journal": "Stat Med",
+      "year": "2002",
+      "volume": "21",
+      "doi": "10.1002/sim.1186",
+      "pmid": "12111919"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Cipriani A",
+        "Higgins JP",
+        "Geddes JR",
+        "Salanti G"
+      ],
+      "title": "Conceptual and technical challenges in network meta-analysis",
+      "journal": "Ann Intern Med",
+      "year": "2013",
+      "volume": "159",
+      "doi": "10.7326/0003-4819-159-2-201307160-00008",
+      "pmid": "23856683"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Cooper NJ",
+        "Peters J",
+        "Lai MC",
+        "Juni P",
+        "Wandel S",
+        "Palmer S",
+        "et al."
+      ],
+      "title": "How valuable are multiple treatment comparison methods in evidence-based health-care evaluation",
+      "journal": "Value Health",
+      "year": "2011",
+      "volume": "14",
+      "doi": "10.1016/j.jval.2010.09.001",
+      "pmid": "21296599"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Caldwell DM",
+        "Dias S",
+        "Welton NJ"
+      ],
+      "title": "Extending treatment networks in health technology assessment: How far should we go",
+      "journal": "Value Health",
+      "year": "2015",
+      "volume": "18",
+      "doi": "10.1016/j.jval.2015.03.1792",
+      "pmid": "26297096",
+      "pmc_id": "PMC4553939"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Ades AE",
+        "Sculpher M",
+        "Sutton A",
+        "Abrams K",
+        "Cooper N",
+        "Welton N",
+        "et al."
+      ],
+      "title": "Bayesian methods for evidence synthesis in cost-effectiveness analysis",
+      "journal": "Pharmacoeconomics",
+      "year": "2006",
+      "volume": "24",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.2165/00019053-200624010-00001",
+      "pmid": "16445299"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Salanti G",
+        "Del Giovane C",
+        "Chaimani A",
+        "Caldwell DM",
+        "Higgins JP"
+      ],
+      "title": "Evaluating the quality of evidence from a network meta-analysis",
+      "journal": "PloS One",
+      "year": "2014",
+      "volume": "9",
+      "elocation_id": "e99682",
+      "doi": "10.1371/journal.pone.0099682",
+      "pmid": "24992266",
+      "pmc_id": "PMC4084629"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Viechtbauer W",
+        "Cheung MW"
+      ],
+      "title": "Outlier and influence diagnostics for meta-analysis",
+      "journal": "Res Synth Methods",
+      "year": "2010",
+      "volume": "1",
+      "doi": "10.1002/jrsm.11",
+      "pmid": "26061377"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Ai D",
+        "Hao S",
+        "Shen W",
+        "Wu Q",
+        "Zhang S",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "Induction sintilimab and chemotherapy followed by concurrent chemoradiotherapy for locally advanced esophageal cancer: a proof-of-concept, single-arm, multicenter, phase 2 trial",
+      "journal": "EClinicalMedicine",
+      "year": "2024",
+      "volume": "69",
+      "elocation_id": "102471",
+      "doi": "10.1016/j.eclinm.2024.102471",
+      "pmid": "38356729",
+      "pmc_id": "PMC10864194"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Wang R",
+        "Guo T",
+        "Wang Q",
+        "Gao W",
+        "Yu Y",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "The efficacy and safety of induction chemotherapy combined with sintilimab followed by concurrent chemoradiotherapy plus sintilimab sequencing maintaining with sintilimab for patients with unresectable locally advanced esophageal squamous cell carcinoma",
+      "journal": "BMC Cancer",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "97",
+      "doi": "10.1186/s12885-025-13457-w",
+      "pmid": "39819558",
+      "pmc_id": "PMC11736957"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Wei ZJ",
+        "Wang L",
+        "Wang RQ",
+        "Wang Y",
+        "Chen H",
+        "Ma HL",
+        "et al."
+      ],
+      "title": "Safety and effectiveness of induction chemoimmunotherapy followed by definitive radiotherapy or concurrent chemoradiotherapy in esophageal squamous cell carcinoma",
+      "journal": "World J Clin Oncol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "101251",
+      "doi": "10.5306/wjco.v16.i3.101251",
+      "pmid": "40130057",
+      "pmc_id": "PMC11866093"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Lin L",
+        "Li H",
+        "Zhao L",
+        "Cheng Y",
+        "Liu MN",
+        "Fu X",
+        "et al."
+      ],
+      "title": "\"Induction immunochemotherapy followed by concurrent chemoradiotherapy for unresectable locally advanced esophageal squamous cell carcinoma (RICE): a prospective, single‑arm, phase II trial\"",
+      "journal": "ASTRO 2024 Annual Meeting Abstracts. American Society for Radiation Oncology (ASTRO) 2024 Annual Meeting; 2024 Sep 29–Oct 2; Washington, D.C., USA",
+      "year": "2024",
+      "doi": "10.1016/j.ijrobp.2024.07.1032"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Peng F",
+        "Wu J",
+        "Lian H",
+        "Wu S",
+        "Niu S",
+        "Xing X",
+        "et al."
+      ],
+      "title": "Induction chemotherapy plus camrelizumab followed by concurrent chemoradiotherapy in unresectable locally advanced esophageal squamous cell carcinoma: a single-arm phase II trial",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "10292",
+      "doi": "10.1038/s41467-025-65206-z",
+      "pmid": "41271680",
+      "pmc_id": "PMC12638862"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Kong Y",
+        "Su M",
+        "Fang J",
+        "Chen M",
+        "Zheng C",
+        "Jiang Y",
+        "et al."
+      ],
+      "title": "Radiotherapy for patients with locally advanced esophageal squamous cell carcinoma receiving neoadjuvant immunotherapy combined with chemotherapy",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "16495",
+      "doi": "10.1038/s41598-024-67419-6",
+      "pmid": "39019976",
+      "pmc_id": "PMC11255317"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Zhang W",
+        "Zhang T",
+        "Chen X",
+        "Li J",
+        "Gao L",
+        "Jiang S",
+        "et al."
+      ],
+      "title": "Iparomlimab and tuvonralimab (QL1706) combined definitive chemoradiotherapy in patients with locally advanced esophageal squamous cell carcinoma (QL1706-IIT-02): a single arm, phase 2 trial",
+      "journal": "eClinicalMedicine",
+      "year": "2026",
+      "volume": "92",
+      "fpage": "103758",
+      "doi": "10.1016/j.eclinm.2026.103758",
+      "pmid": "41623855",
+      "pmc_id": "PMC12859413"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Muto M",
+        "Nomura M",
+        "Sakanaka K",
+        "Shimizu J"
+      ],
+      "title": "\"Effect of nivolumab combined with definitive chemoradiotherapy on response rate for esophageal cancer: An immune active intrinsic subtype could be its biomarker——The NOBEL trial\"",
+      "journal": "2024 ASCO Annual Meeting Abstracts. American Society of Clinical Oncology Annual Meeting 2024; 2024 May 31–Jun 4; Chicago, IL, USA",
+      "year": "2024",
+      "doi": "10.1200/jco.2024.42.16_suppl.4068"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Hong Y",
+        "Tan Q",
+        "Li Y",
+        "Yang B",
+        "Wu Y",
+        "Zhao L",
+        "et al."
+      ],
+      "title": "Immunotherapy combined with definitive chemoradiotherapy for locally advanced unresectable esophageal squamous cell carcinoma",
+      "journal": "Front Immunol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1646568",
+      "doi": "10.3389/fimmu.2025.1646568",
+      "pmid": "41098719",
+      "pmc_id": "PMC12518077"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Bando H",
+        "Kumagai S",
+        "Kotani D",
+        "Mishima S",
+        "Irie T",
+        "Itahashi K",
+        "et al."
+      ],
+      "title": "Atezolizumab following definitive chemoradiotherapy in patients with unresectable locally advanced esophageal squamous cell carcinoma – a multicenter phase 2 trial (EPOC1802)",
+      "journal": "Nat Cancer",
+      "year": "2025",
+      "volume": "6",
+      "doi": "10.1038/s43018-025-00918-1",
+      "pmid": "39972105",
+      "pmc_id": "PMC11949839"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Wang J"
+      ],
+      "title": "\"Consolidative camrelizumab following definitive concurrent chemoradiotherapy with involved-field irradiation in locally advanced esophageal squamous cell carcinoma: A single-arm phase 2 trial\"",
+      "journal": "ASTRO 2025 Annual Meeting Abstracts. American Society for Radiation Oncology (ASTRO) 2025 Annual Meeting; 2025 Oct 19–23; Washington, D.C., USA",
+      "year": "2025",
+      "fpage": "Abstract #2597",
+      "doi": "10.1016/j.ijrobp.2026.04.026"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Raghunath S",
+        "Tiwari R",
+        "Rashmi S",
+        "Geetha SN",
+        "Sulthana R",
+        "Madabhavi I"
+      ],
+      "title": "Impact of radical dose escalation by endoluminal brachytherapy and induction chemotherapy in the definitive treatment of locally advanced esophageal cancer - a retrospective study",
+      "journal": "J Cancer Res Ther",
+      "year": "2022",
+      "volume": "18",
+      "doi": "10.4103/jcrt.jcrt_1783_22",
+      "pmid": "36510977"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Minsky BD",
+        "Neuberg D",
+        "Kelsen DP",
+        "Pisansky TM",
+        "Ginsberg RJ",
+        "Pajak T",
+        "et al."
+      ],
+      "title": "Final report of Intergroup Trial 0122 (ECOG PE-289, RTOG 90-12): Phase II trial of neoadjuvant chemotherapy plus concurrent chemotherapy and high-dose radiation for squamous cell carcinoma of the esophagus",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "1999",
+      "volume": "43",
+      "doi": "10.1016/s0360-3016(98)00463-5",
+      "pmid": "10078631"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Gkika E",
+        "Gauler T",
+        "Eberhardt W",
+        "Stahl M",
+        "Stuschke M",
+        "Pöttgen C"
+      ],
+      "title": "Long-term results of definitive radiochemotherapy in locally advanced cancers of the cervical esophagus",
+      "journal": "Dis Esophagus",
+      "year": "2014",
+      "volume": "27",
+      "doi": "10.1111/dote.12146",
+      "pmid": "24147973"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "Tran Vuong TN",
+        "Le Prisé E",
+        "Vauléon E",
+        "Boucher E",
+        "Audrain O",
+        "Raoul JL"
+      ],
+      "title": "Chemoradiotherapy for cancer of the esophagus: contribution of the leucovorin, 5-fluorouracil bolus, and infusion-cisplatin-radiotherapy schedule starting with two neoadjuvant chemotherapy cycles: results from a pilot study",
+      "journal": "Dis Esophagus",
+      "year": "2010",
+      "volume": "23",
+      "doi": "10.1111/j.1442-2050.2009.01016.x",
+      "pmid": "19863643"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Lee SS",
+        "Kim SB",
+        "Park SI",
+        "Kim YH",
+        "Ryu JS",
+        "Song HY",
+        "et al."
+      ],
+      "title": "Capecitabine and cisplatin chemotherapy (XP) alone or sequentially combined chemoradiotherapy containing XP regimen in patients with three different settings of stage IV esophageal cancer",
+      "journal": "Jpn J Clin Oncol",
+      "year": "2007",
+      "volume": "37",
+      "doi": "10.1093/jjco/hym117",
+      "pmid": "17951334"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "Gujral DM",
+        "Hawkins MA",
+        "Leonulli BG",
+        "Ashley S",
+        "Chau I",
+        "Cunningham D",
+        "et al."
+      ],
+      "title": "Nonsurgical management of esophageal adenocarcinoma",
+      "journal": "Clin Colorectal Cancer",
+      "year": "2011",
+      "volume": "10",
+      "doi": "10.1016/j.clcc.2011.03.017",
+      "pmid": "21855037"
+    },
+    {
+      "ref_id": "B44",
+      "label": "44",
+      "authors": [
+        "Herrmann E",
+        "Mertineit N",
+        "De Bari B",
+        "Hoeng L",
+        "Caparotti F",
+        "Leiser D",
+        "et al."
+      ],
+      "title": "Outcome of proximal esophageal cancer after definitive combined chemo-radiation: a Swiss multicenter retrospective study",
+      "journal": "Radiat Oncol",
+      "year": "2017",
+      "volume": "12",
+      "fpage": "97",
+      "doi": "10.1186/s13014-017-0834-8",
+      "pmid": "28615060",
+      "pmc_id": "PMC5470205"
+    },
+    {
+      "ref_id": "B45",
+      "label": "45",
+      "authors": [
+        "Ajani JA",
+        "Winter K",
+        "Komaki R",
+        "Kelsen DP",
+        "Minsky BD",
+        "Liao Z",
+        "et al."
+      ],
+      "title": "Phase II randomized trial of two nonoperative regimens of induction chemotherapy followed by chemoradiation in patients with localized carcinoma of the esophagus: RTOG 0113",
+      "journal": "J Clin Oncol",
+      "year": "2008",
+      "volume": "26",
+      "doi": "10.1200/jco.2008.16.6918",
+      "pmid": "18574157",
+      "pmc_id": "PMC2653130"
+    },
+    {
+      "ref_id": "B46",
+      "label": "46",
+      "authors": [
+        "Stuschke M",
+        "Stahl M",
+        "Wilke H",
+        "Walz M",
+        "Oldenburg A",
+        "Stüben G",
+        "et al."
+      ],
+      "title": "Induction chemotherapy followed by concurrent chemotherapy and high-dose radiotherapy for locally advanced squamous cell carcinoma of the upper-thoracic and midthoracic esophagus",
+      "journal": "Am J Clin Oncol",
+      "year": "2000",
+      "volume": "23",
+      "doi": "10.1097/00000421-200006000-00004",
+      "pmid": "10857883"
+    },
+    {
+      "ref_id": "B47",
+      "label": "47",
+      "authors": [
+        "Owens R",
+        "Cox C",
+        "Gomberg S",
+        "Pan S",
+        "Radhakrishna G",
+        "Parikh S",
+        "et al."
+      ],
+      "title": "Outcome of weekly carboplatin-paclitaxel-based definitive chemoradiation in oesophageal cancer in patients not considered to be suitable for platinum-fluoropyrimidine-based treatment: a multicentre, retrospective review",
+      "journal": "Clin Oncol (R Coll Radiol)",
+      "year": "2020",
+      "volume": "32",
+      "doi": "10.1016/j.clon.2019.09.058",
+      "pmid": "31662220"
+    },
+    {
+      "ref_id": "B48",
+      "label": "48",
+      "authors": [
+        "Xia Y",
+        "Li YH",
+        "Chen Y",
+        "Zhang JH",
+        "Liu Q",
+        "Deng JY",
+        "et al."
+      ],
+      "title": "A phase II study of concurrent chemoradiotherapy combined with a weekly paclitaxel and 5-fluorouracil regimen to treat patients with advanced oesophageal carcinoma",
+      "journal": "Radiat Oncol",
+      "year": "2017",
+      "volume": "12",
+      "fpage": "47",
+      "doi": "10.1186/s13014-017-0785-0",
+      "pmid": "28270162",
+      "pmc_id": "PMC5341476"
+    },
+    {
+      "ref_id": "B49",
+      "label": "49",
+      "authors": [
+        "Li HX",
+        "Liu J",
+        "Cheng Y",
+        "Liu MN",
+        "Fang WT",
+        "Lv CX"
+      ],
+      "title": "Concurrent chemoradiotherapy for cervical esophageal squamous cell carcinoma: treatment results from a prospective observational study",
+      "journal": "Dis Esophagus",
+      "year": "2018",
+      "volume": "31",
+      "elocation_id": "dox144",
+      "doi": "10.1093/dote/dox144",
+      "pmid": "29294022"
+    },
+    {
+      "ref_id": "B50",
+      "label": "50",
+      "authors": [
+        "Li H",
+        "Fang Y",
+        "Gu D",
+        "Du M",
+        "Zhang Z",
+        "Sun L",
+        "et al."
+      ],
+      "title": "Paclitaxel and cisplatin combined with concurrent involved-field irradiation in definitive chemoradiotherapy for locally advanced esophageal squamous cell carcinoma: a phase II clinical trial",
+      "journal": "Radiat Oncol",
+      "year": "2022",
+      "volume": "17",
+      "fpage": "105",
+      "doi": "10.1186/s13014-022-02078-3",
+      "pmid": "35681233",
+      "pmc_id": "PMC9185874"
+    },
+    {
+      "ref_id": "B51",
+      "label": "51",
+      "authors": [
+        "Wang X",
+        "Ge X",
+        "Wang X",
+        "Zhang W",
+        "Zhou H",
+        "Lin Y",
+        "et al."
+      ],
+      "title": "S-1-based chemoradiotherapy followed by consolidation chemotherapy with S-1 in elderly patients with esophageal squamous cell carcinoma: A multicenter phase II trial",
+      "journal": "Front Oncol",
+      "year": "2020",
+      "volume": "10",
+      "elocation_id": "1499",
+      "doi": "10.3389/fonc.2020.01499",
+      "pmid": "32983991",
+      "pmc_id": "PMC7484368"
+    },
+    {
+      "ref_id": "B52",
+      "label": "52",
+      "authors": [
+        "Kim DE",
+        "Kim UJ",
+        "Choi WY",
+        "Kim MY",
+        "Kim SH",
+        "Kim MJ",
+        "et al."
+      ],
+      "title": "Clinical prognostic factors for locally advanced esophageal squamous carcinoma treated after definitive chemoradiotherapy",
+      "journal": "Cancer Res Treat",
+      "year": "2013",
+      "volume": "45",
+      "doi": "10.4143/crt.2013.45.4.276",
+      "pmid": "24454000",
+      "pmc_id": "PMC3893325"
+    },
+    {
+      "ref_id": "B53",
+      "label": "53",
+      "authors": [
+        "Chen H",
+        "Liu Z",
+        "Zheng W",
+        "Sun X",
+        "Ge X",
+        "Xia X"
+      ],
+      "title": "Induction chemoimmunotherapy followed by concurrent radiotherapy in patients with locally advanced esophageal cancer: a single-arm phase 2 trial",
+      "journal": "Oncologist",
+      "year": "2026",
+      "volume": "31",
+      "doi": "10.1093/oncolo/oyaf438",
+      "pmid": "41495000",
+      "pmc_id": "PMC12854777"
+    },
+    {
+      "ref_id": "B54",
+      "label": "54",
+      "authors": [
+        "Zeng A",
+        "Zhang X",
+        "Xu T",
+        "Zhang Y",
+        "Ma D"
+      ],
+      "title": "Preliminary exploration of radiotherapy timing following induction chemoimmunotherapy in unresectable locally advanced esophageal squamous cell carcinoma: a single-center retrospective study",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "15",
+      "elocation_id": "1703563",
+      "doi": "10.3389/fonc.2025.1703563",
+      "pmid": "41473446",
+      "pmc_id": "PMC12745210"
+    },
+    {
+      "ref_id": "B55",
+      "label": "55",
+      "authors": [
+        "Liu F",
+        "Wang D",
+        "Rong Y",
+        "Wei S",
+        "SiTu Y",
+        "Wang M",
+        "et al."
+      ],
+      "title": "Safety and efficacy of neoadjuvant toripalimab plus chemotherapy followed by chemoradiotherapy for locally advanced esophageal squamous cell carcinoma in China (GASTO 1071): a non-randomised, two-cohort, phase 2 trial",
+      "journal": "EClinicalMedicine",
+      "year": "2025",
+      "volume": "82",
+      "elocation_id": "103184",
+      "doi": "10.1016/j.eclinm.2025.103184",
+      "pmid": "40242562",
+      "pmc_id": "PMC12002876"
+    },
+    {
+      "ref_id": "B56",
+      "label": "56",
+      "authors": [
+        "Song XY",
+        "Lin L",
+        "Yang Y",
+        "Hu HH",
+        "Li HX",
+        "Feng W",
+        "et al."
+      ],
+      "title": "Radiotherapy as an organ‐preserving alternative to surgery in patients with locally advanced esophageal squamous cell carcinoma achieving major pathologic response after induction immunochemotherapy",
+      "journal": "Int J Cancer",
+      "year": "2025",
+      "volume": "157",
+      "doi": "10.1002/ijc.35515",
+      "pmid": "40557980"
+    },
+    {
+      "ref_id": "B57",
+      "label": "57",
+      "authors": [
+        "Guo Y",
+        "Wang T",
+        "Liu Y",
+        "Gu D",
+        "Li H",
+        "Liu Y",
+        "et al."
+      ],
+      "title": "Comparison of immunochemotherapy followed by surgery or chemoradiotherapy in locally advanced esophageal squamous cell cancer",
+      "journal": "Int Immunopharmacol",
+      "year": "2024",
+      "volume": "141",
+      "elocation_id": "112939",
+      "doi": "10.1016/j.intimp.2024.112939",
+      "pmid": "39151385"
+    },
+    {
+      "ref_id": "B58",
+      "label": "58",
+      "authors": [
+        "Huang JQ",
+        "Liang HW",
+        "Liu Y",
+        "Chen L",
+        "Pei S",
+        "Yu BB",
+        "et al."
+      ],
+      "title": "Immune checkpoint inhibitors combined with concurrent chemoradiotherapy in locally advanced esophageal squamous cell carcinoma",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1355198",
+      "doi": "10.3389/fimmu.2024.1355198",
+      "pmid": "38550598",
+      "pmc_id": "PMC10973113"
+    },
+    {
+      "ref_id": "B59",
+      "label": "59",
+      "authors": [
+        "Park S",
+        "Oh D",
+        "Choi YL",
+        "Chi SA",
+        "Kim K",
+        "Ahn MJ",
+        "et al."
+      ],
+      "title": "Durvalumab and tremelimumab with definitive chemoradiotherapy for locally advanced esophageal squamous cell carcinoma",
+      "journal": "Cancer",
+      "year": "2022",
+      "volume": "128",
+      "doi": "10.1002/cncr.34176",
+      "pmid": "35319779"
+    },
+    {
+      "ref_id": "B60",
+      "label": "60",
+      "authors": [
+        "Yang X",
+        "Wang X",
+        "Xiao Q",
+        "Ge X",
+        "Yu N",
+        "Li J",
+        "et al."
+      ],
+      "title": "Definitive chemoradiotherapy combined with anti-PD-1 immunotherapy for inoperable esophageal squamous cell carcinoma: a multicenter real-world study",
+      "journal": "Cancer Biol Ther",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "2504726",
+      "doi": "10.1080/15384047.2025.2504726",
+      "pmid": "40367097",
+      "pmc_id": "PMC12080274"
+    },
+    {
+      "ref_id": "B61",
+      "label": "61",
+      "authors": [
+        "Yu N",
+        "Chen C",
+        "Wang X",
+        "Ge X",
+        "Yang X",
+        "Li J",
+        "et al."
+      ],
+      "title": "Impact of consolidation immunotherapy after definitive chemoradiotherapy in locally advanced esophageal squamous cell carcinoma: a real-world multicenter study",
+      "journal": "Int Immunopharmacol",
+      "year": "2025",
+      "volume": "167",
+      "fpage": "115666",
+      "doi": "10.1016/j.intimp.2025.115666",
+      "pmid": "41086556"
+    },
+    {
+      "ref_id": "B62",
+      "label": "62",
+      "authors": [
+        "Xiang G",
+        "Chai G",
+        "Lyu B",
+        "Li Z",
+        "Yin Y",
+        "Wang B",
+        "et al."
+      ],
+      "title": "Long-term results of induction chemotherapy for non-operable esophageal squamous cell carcinoma followed by concurrent chemoradiotherapy: a single-centre experience",
+      "journal": "Radiol Oncol",
+      "year": "2024",
+      "volume": "58",
+      "doi": "10.2478/raon-2024-0038",
+      "pmid": "39287163",
+      "pmc_id": "PMC11406992"
+    },
+    {
+      "ref_id": "B63",
+      "label": "63",
+      "authors": [
+        "Hosseini Toudeshki S",
+        "Garousi M",
+        "Arefpour AM",
+        "Fadavi P",
+        "Basi A",
+        "Foroughi A",
+        "et al."
+      ],
+      "title": "Outcomes of induction chemotherapy followed by chemoradiotherapy versus chemoradiotherapy alone in esophageal squamous cell carcinoma induction chemotherapy in esophageal squamous cell carcinoma",
+      "journal": "Asian Pac J Cancer Prev",
+      "year": "2024",
+      "volume": "25",
+      "doi": "10.31557/apjcp.2024.25.4.1183",
+      "pmid": "38679976",
+      "pmc_id": "PMC11162715"
+    },
+    {
+      "ref_id": "B64",
+      "label": "64",
+      "authors": [
+        "Chen MQ",
+        "Lin QL",
+        "Chen YG",
+        "Guo JH",
+        "Xu BH",
+        "Tian Y"
+      ],
+      "title": "Neoadjuvant chemotherapy may not benefit esophageal squamous cell carcinoma patients treated with definitive chemoradiotherapy",
+      "journal": "J Chin Med Assoc",
+      "year": "2017",
+      "volume": "80",
+      "doi": "10.1016/j.jcma.2017.06.014",
+      "pmid": "28716602"
+    },
+    {
+      "ref_id": "B65",
+      "label": "65",
+      "authors": [
+        "Xi M",
+        "Liao Z",
+        "Deng W",
+        "Komaki R",
+        "Ho L",
+        "Lin SH"
+      ],
+      "title": "Recursive partitioning analysis identifies pretreatment risk groups for the utility of induction chemotherapy before definitive chemoradiation therapy in esophageal cancer",
+      "journal": "Int J Radiat Oncol Biol Phys",
+      "year": "2017",
+      "volume": "99",
+      "doi": "10.1016/j.ijrobp.2017.05.050",
+      "pmid": "28871991"
+    },
+    {
+      "ref_id": "B66",
+      "label": "66",
+      "authors": [
+        "Qiu J",
+        "Lin H",
+        "Yu Y",
+        "Ke D",
+        "Li H",
+        "Zheng H",
+        "et al."
+      ],
+      "title": "Clinical outcomes and toxicities of locally advanced esophageal squamous cell carcinoma patients treated with early thoracic radiation therapy after induction chemotherapy",
+      "journal": "Int J Clin Oncol",
+      "year": "2023",
+      "volume": "28",
+      "doi": "10.1007/s10147-023-02299-w",
+      "pmid": "36735115"
+    },
+    {
+      "ref_id": "B67",
+      "label": "67",
+      "authors": [
+        "Luo LL",
+        "Xi M",
+        "Yang YD",
+        "Li QQ",
+        "Zhao L",
+        "Zhang P",
+        "et al."
+      ],
+      "title": "Comparative outcomes of induction chemotherapy followed by definitive chemoradiotherapy versus chemoradiotherapy alone in esophageal squamous cell carcinoma",
+      "journal": "J Cancer",
+      "year": "2017",
+      "volume": "8",
+      "doi": "10.7150/jca.21131",
+      "pmid": "29151927",
+      "pmc_id": "PMC5687157"
+    },
+    {
+      "ref_id": "B68",
+      "label": "68",
+      "authors": [
+        "Liu S",
+        "Chen B",
+        "Zhu Y",
+        "Wang S",
+        "Cheng X",
+        "Wang R",
+        "et al."
+      ],
+      "title": "Induction chemotherapy plus chemoradiotherapy in esophageal cancer: long-term results and exploratory analyses of a randomized controlled trial",
+      "journal": "Oncologist",
+      "year": "2025",
+      "volume": "30",
+      "elocation_id": "oyae295",
+      "doi": "10.1093/oncolo/oyae295",
+      "pmid": "39584557",
+      "pmc_id": "PMC12311283"
+    },
+    {
+      "ref_id": "B69",
+      "label": "69",
+      "authors": [
+        "Huang Y",
+        "Chang J",
+        "Guo X",
+        "Zhang C",
+        "Ji W",
+        "Zhou S",
+        "et al."
+      ],
+      "title": "Induction chemotherapy increases efficacy and survival rate of patients with locally advanced esophageal squamous cell carcinoma",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "1067838",
+      "doi": "10.3389/fonc.2022.1067838",
+      "pmid": "36620567",
+      "pmc_id": "PMC9812556"
+    },
+    {
+      "ref_id": "B70",
+      "label": "70",
+      "authors": [
+        "Li Y",
+        "Du Q",
+        "Wei X",
+        "Guo Z",
+        "Lei T",
+        "Li Y",
+        "et al."
+      ],
+      "title": "A clinical scoring model to predict the effect of induction chemotherapy with definitive concurrent chemoradiotherapy on esophageal squamous cell carcinoma prognosis",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "11",
+      "elocation_id": "703074",
+      "doi": "10.3389/fonc.2021.703074",
+      "pmid": "34912702",
+      "pmc_id": "PMC8666950"
+    },
+    {
+      "ref_id": "B71",
+      "label": "71",
+      "authors": [
+        "Chen Y",
+        "Guo L",
+        "Cheng X",
+        "Wang J",
+        "Zhang Y",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "With or without consolidation chemotherapy using cisplatin/5-FU after concurrent chemoradiotherapy in stage II-III squamous cell carcinoma of the esophagus: a propensity score-matched analysis",
+      "journal": "Radiother Oncol",
+      "year": "2018",
+      "volume": "129",
+      "doi": "10.1016/j.radonc.2017.10.031",
+      "pmid": "29122362"
+    },
+    {
+      "ref_id": "B72",
+      "label": "72",
+      "authors": [
+        "Wang H",
+        "Ryu J",
+        "Gandara D",
+        "Bold RJ",
+        "Urayama S",
+        "Tanaka M",
+        "et al."
+      ],
+      "title": "A phase II study of paclitaxel, carboplatin, and radiation with or without surgery for esophageal cancer",
+      "journal": "J Thorac Oncol",
+      "year": "2007",
+      "volume": "2",
+      "doi": "10.1097/JTO.0b013e31802bff75",
+      "pmid": "17410032"
+    },
+    {
+      "ref_id": "B73",
+      "label": "73",
+      "authors": [
+        "Jia R",
+        "Shan T",
+        "Zheng A",
+        "Zhang Y",
+        "Lu P",
+        "Zhang G",
+        "et al."
+      ],
+      "title": "Capecitabine or capecitabine plus oxaliplatin versus fluorouracil plus cisplatin in definitive concurrent chemoradiotherapy for locally advanced esophageal squamous cell carcinoma (CRTCOESC): a multicenter, randomized, open-label, phase 3 trial",
+      "journal": "J Clin Oncol",
+      "year": "2024",
+      "volume": "42",
+      "doi": "10.1200/jco.23.02009",
+      "pmid": "38710003",
+      "pmc_id": "PMC11227300"
+    },
+    {
+      "ref_id": "B74",
+      "label": "74",
+      "authors": [
+        "Noronha V",
+        "Patil VM",
+        "Menon NS",
+        "Joshi A",
+        "Goud S",
+        "More S",
+        "et al."
+      ],
+      "title": "Oral metronomic chemotherapy after definitive chemoradiation in esophageal squamous cell carcinoma: a randomized clinical trial",
+      "journal": "Esophagus",
+      "year": "2022",
+      "volume": "19",
+      "doi": "10.1007/s10388-022-00923-8",
+      "pmid": "35614161"
+    },
+    {
+      "ref_id": "B75",
+      "label": "75",
+      "authors": [
+        "Zhang H",
+        "Wang Q",
+        "Wang P",
+        "Tang B"
+      ],
+      "title": "Consolidation chemotherapy provided survival benefit for esophageal squamous cell carcinoma patients who underwent concurrent chemoradiotherapy lower than 60 Gy",
+      "journal": "Thorac Cancer",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "e70012",
+      "doi": "10.1111/1759-7714.70012",
+      "pmid": "40176263",
+      "pmc_id": "PMC11965269"
+    },
+    {
+      "ref_id": "B76",
+      "label": "76",
+      "authors": [
+        "Zhang AD",
+        "Su XH",
+        "Shi GF",
+        "Han C",
+        "Wang L",
+        "Liu H",
+        "et al."
+      ],
+      "title": "Survival comparision of three-dimensional radiotherapy alone vs. chemoradiotherapy for esophageal squamous cell carcinoma",
+      "journal": "Arch Med Res",
+      "year": "2020",
+      "volume": "51",
+      "doi": "10.1016/j.arcmed.2020.04.013",
+      "pmid": "32418649"
+    },
+    {
+      "ref_id": "B77",
+      "label": "77",
+      "authors": [
+        "Chen M",
+        "Shen M",
+        "Lin Y",
+        "Liu P",
+        "Liu X",
+        "Li X",
+        "et al."
+      ],
+      "title": "Adjuvant chemotherapy does not benefit patients with esophageal squamous cell carcinoma treated with definitive chemoradiotherapy",
+      "journal": "Radiat Oncol",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "150",
+      "doi": "10.1186/s13014-018-1086-y",
+      "pmid": "30111361",
+      "pmc_id": "PMC6094556"
+    },
+    {
+      "ref_id": "B78",
+      "label": "78",
+      "authors": [
+        "Wu SX",
+        "Li XY",
+        "Xu HY",
+        "Xu QN",
+        "Luo HS",
+        "Du ZS",
+        "et al."
+      ],
+      "title": "Effect of consolidation chemotherapy following definitive chemoradiotherapy in patients with esophageal squamous cell cancer",
+      "journal": "Sci Rep",
+      "year": "2017",
+      "volume": "7",
+      "fpage": "16870",
+      "doi": "10.1038/s41598-017-17254-9",
+      "pmid": "29203855",
+      "pmc_id": "PMC5715009"
+    },
+    {
+      "ref_id": "B79",
+      "label": "79",
+      "authors": [
+        "Koh HK",
+        "Park Y",
+        "Koo T",
+        "Park HJ",
+        "Lee MY",
+        "Chang AR",
+        "et al."
+      ],
+      "title": "Adjuvant chemotherapy and dose escalation in definitive concurrent chemoradiotherapy for esophageal squamous cell carcinoma",
+      "journal": "Anticancer Res",
+      "year": "2020",
+      "volume": "40",
+      "doi": "10.21873/anticanres.14131",
+      "pmid": "32132086"
+    },
+    {
+      "ref_id": "B80",
+      "label": "80",
+      "authors": [
+        "Chen H",
+        "Zhou L",
+        "Yang Y",
+        "Yang L",
+        "Chen L"
+      ],
+      "title": "Clinical effect of radiotherapy combined with chemotherapy for non-surgical treatment of the esophageal squamous cell carcinoma",
+      "journal": "Med Sci Monit",
+      "year": "2018",
+      "volume": "24",
+      "doi": "10.12659/msm.910326",
+      "pmid": "29915168",
+      "pmc_id": "PMC6040238"
+    },
+    {
+      "ref_id": "B81",
+      "label": "81",
+      "authors": [
+        "Zhao Y",
+        "Li H",
+        "Li H",
+        "Zhang Z",
+        "Wen J",
+        "Li J"
+      ],
+      "title": "First-line induction or consolidation chemotherapy combined with concurrent chemoradiotherapy for esophageal squamous cell carcinoma",
+      "journal": "J Gastrointest Oncol",
+      "year": "2024",
+      "volume": "15",
+      "doi": "10.21037/jgo-24-599",
+      "pmid": "39816011",
+      "pmc_id": "PMC11732346"
+    },
+    {
+      "ref_id": "B82",
+      "label": "82",
+      "authors": [
+        "Xia X",
+        "Wu M",
+        "Gao Q",
+        "Sun X",
+        "Ge X"
+      ],
+      "title": "Consolidation chemotherapy rather than induction chemotherapy can prolong the survival rate of inoperable esophageal cancer patients who received concurrent chemoradiotherapy",
+      "journal": "Curr Oncol",
+      "year": "2022",
+      "volume": "29",
+      "doi": "10.3390/curroncol29090499",
+      "pmid": "36135068",
+      "pmc_id": "PMC9498234"
+    },
+    {
+      "ref_id": "B83",
+      "label": "83",
+      "authors": [
+        "Xiang M",
+        "Liu B",
+        "Zhang G",
+        "Gong H",
+        "Han D",
+        "Ma C"
+      ],
+      "title": "Induction chemotherapy followed by chemoradiotherapy with or without consolidation chemotherapy versus chemoradiotherapy followed by consolidation chemotherapy for esophageal squamous cell carcinoma",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "doi": "10.3389/fonc.2022.813021",
+      "pmid": "35677167",
+      "pmc_id": "PMC9168112"
+    },
+    {
+      "ref_id": "B84",
+      "label": "84",
+      "authors": [
+        "Ai D",
+        "Ye J",
+        "Wei S",
+        "Li Y",
+        "Luo H",
+        "Cao J",
+        "et al."
+      ],
+      "title": "Comparison of 3 paclitaxel-based chemoradiotherapy regimens for patients with locally advanced esophageal squamous cell cancer: a randomized clinical trial",
+      "journal": "JAMA Netw Open",
+      "year": "2022",
+      "volume": "5",
+      "elocation_id": "e220120",
+      "doi": "10.1001/jamanetworkopen.2022.0120",
+      "pmid": "35188552",
+      "pmc_id": "PMC8861838"
+    },
+    {
+      "ref_id": "B85",
+      "label": "85",
+      "authors": [
+        "Xie L",
+        "Zhang Z"
+      ],
+      "title": "Survival benefit of combined immunotherapy and chemoradiotherapy in locally advanced unresectable esophageal cancer: an analysis based on the SEER database",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1334992",
+      "doi": "10.3389/fimmu.2024.1334992",
+      "pmid": "38292873",
+      "pmc_id": "PMC10825045"
+    },
+    {
+      "ref_id": "B86",
+      "label": "86",
+      "authors": [
+        "Xi M"
+      ],
+      "title": "\"Tislelizumab combined with induction chemotherapy and concurrent chemoradiotherapy in locally advanced esophageal squamous cell carcinoma: a multicenter, randomized, phase II trial (EC-CRT-002)",
+      "journal": "ESMO Congress 2025 Abstract Book. ESMO Congress 2025; 2025 Oct 17–21; Berlin, Germany",
+      "year": "2025",
+      "fpage": "Abstract LBA82",
+      "doi": "10.1200/JCO-25-03044",
+      "pmid": "41962116"
+    },
+    {
+      "ref_id": "B87",
+      "label": "87",
+      "authors": [
+        "Wang RZ",
+        "Ma CX",
+        "Liang HW",
+        "Huang W",
+        "Pan XB"
+      ],
+      "title": "Radiotherapy with versus without concurrent immunotherapy following neoadjuvant chemoimmunotherapy in unresectable locally advanced esophageal squamous cell carcinoma",
+      "journal": "Radiat Oncol",
+      "year": "2026",
+      "volume": "21",
+      "fpage": "31",
+      "doi": "10.1186/s13014-026-02802-3",
+      "pmid": "41699611",
+      "pmc_id": "PMC12922191"
+    },
+    {
+      "ref_id": "B88",
+      "label": "88",
+      "authors": [
+        "Xu RH"
+      ],
+      "title": "\"SKYSCRAPER-07: a phase III, randomised study of atezolizumab with or without tiragolumab in patients with unresectable esophageal squamous cell carcinoma that has not progressed following definitive concurrent chemoradiotherapy\"",
+      "journal": "ESMO Congress 2025 Abstract Book. ESMO Congress 2025; 2025 Oct 17–21; Berlin, Germany",
+      "year": "2025",
+      "fpage": "Abstract 2094O"
+    },
+    {
+      "ref_id": "B89",
+      "label": "89",
+      "authors": [
+        "Yang N",
+        "Yu J",
+        "Lei D",
+        "Zhang Z",
+        "Zhu C",
+        "Zhou S",
+        "et al."
+      ],
+      "title": "Efficacy and safety of sequential immunotherapy following concurrent radiotherapy with S-1 in older patients with esophageal squamous cell carcinoma: an inverse probability weighting analysis",
+      "journal": "Front Immunol",
+      "year": "2026",
+      "volume": "17",
+      "elocation_id": "1721745",
+      "doi": "10.3389/fimmu.2026.1721745",
+      "pmid": "41890746",
+      "pmc_id": "PMC13013532"
+    },
+    {
+      "ref_id": "B90",
+      "label": "90",
+      "authors": [
+        "Sahin TK",
+        "Eroglu I",
+        "Dilli I",
+        "Sutcuoglu O",
+        "Chalabiyev E",
+        "Guven DC",
+        "et al."
+      ],
+      "title": "Induction chemotherapy followed by definitive chemoradiation in patients with inoperable esophageal squamous cell carcinoma: a multicenter retrospective study",
+      "journal": "Discover Oncol",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "2128",
+      "doi": "10.1007/s12672-025-03962-6",
+      "pmid": "41251837",
+      "pmc_id": "PMC12627277"
+    },
+    {
+      "ref_id": "B91",
+      "label": "91",
+      "authors": [
+        "Tian L",
+        "Goldstein A",
+        "Wang H",
+        "Ching Lo H",
+        "Sun Kim I",
+        "Welte T",
+        "et al."
+      ],
+      "title": "Mutual regulation of tumour vessel normalization and immunostimulatory reprogramming",
+      "journal": "Nature",
+      "year": "2017",
+      "volume": "544",
+      "doi": "10.1038/nature21724",
+      "pmid": "28371798",
+      "pmc_id": "PMC5788037"
+    },
+    {
+      "ref_id": "B92",
+      "label": "92",
+      "authors": [
+        "Sharabi AB",
+        "Lim M",
+        "DeWeese TL",
+        "Drake CG"
+      ],
+      "title": "Radiation and checkpoint blockade immunotherapy: radiosensitisation and potential mechanisms of synergy",
+      "journal": "Lancet Oncol",
+      "year": "2015",
+      "volume": "16",
+      "elocation_id": "e498-509",
+      "doi": "10.1016/s1470-2045(15)00007-8",
+      "pmid": "26433823"
+    },
+    {
+      "ref_id": "B93",
+      "label": "93",
+      "authors": [
+        "Bradley JD",
+        "Sugawara S",
+        "Lee KH",
+        "Ostoros G",
+        "Demirkazik A",
+        "Zemanova M",
+        "et al."
+      ],
+      "title": "Simultaneous durvalumab and platinum-based chemoradiotherapy in unresectable stage III non-small cell lung cancer: the phase III PACIFIC-2 study",
+      "journal": "J Clin Oncol",
+      "year": "2025",
+      "volume": "43",
+      "doi": "10.1200/jco-25-00036",
+      "pmid": "41082707",
+      "pmc_id": "PMC12622289"
+    },
+    {
+      "ref_id": "B94",
+      "label": "94",
+      "authors": [
+        "Xu Y",
+        "Cheng Q",
+        "Wang Y",
+        "Zhu W"
+      ],
+      "title": "Comparing toripalimab combined with chemoradiotherapy versus chemoradiotherapy alone for locally advanced esophageal squamous cell carcinoma: a multicenter, open-label, randomized phase II clinical trial",
+      "journal": "2024 ASCO Annual Meeting Abstracts. American Society of Clinical Oncology Annual Meeting 2024; 2024 May 31–Jun 4; Chicago, IL, USA",
+      "year": "2024"
+    },
+    {
+      "ref_id": "B95",
+      "label": "95",
+      "authors": [
+        "Yu R",
+        "Wang W",
+        "Li T",
+        "Li J",
+        "Zhao K",
+        "Wang W",
+        "et al."
+      ],
+      "title": "RATIONALE 311: tislelizumab plus concurrent chemoradiotherapy for localized esophageal squamous cell carcinoma",
+      "journal": "Future Oncol",
+      "year": "2021",
+      "volume": "17",
+      "doi": "10.2217/fon-2021-0632",
+      "pmid": "34269067"
+    },
+    {
+      "ref_id": "B96",
+      "label": "96",
+      "authors": [
+        "Wu L",
+        "Wang Y",
+        "Li B",
+        "Wan G",
+        "Liang L",
+        "Li T",
+        "et al."
+      ],
+      "title": "Toripalimab in combination with induction chemotherapy and subsequent chemoradiation as first-line treatment in patients with advanced/metastatic esophageal carcinoma: protocol for a single-arm, prospective, open-label, phase II clinical trial (TR-EAT)",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "878851",
+      "doi": "10.3389/fonc.2022.878851",
+      "pmid": "35463350",
+      "pmc_id": "PMC9024160"
+    },
+    {
+      "ref_id": "B97",
+      "label": "97",
+      "authors": [
+        "Wang H",
+        "Zhang X",
+        "Zhao X",
+        "Song C",
+        "Deng W",
+        "Shen W"
+      ],
+      "title": "Minimal residual disease guided radical chemoradiotherapy combined with immunotherapy after neoadjuvant immunochemotherapy followed by adjuvant immunotherapy for esophageal squamous cell cancer (ECMRD-001): a study protocol for a prospective cohort study",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1330928",
+      "doi": "10.3389/fimmu.2023.1330928",
+      "pmid": "38274807",
+      "pmc_id": "PMC10808458"
+    },
+    {
+      "ref_id": "B98",
+      "label": "98",
+      "authors": [
+        "Shah MA",
+        "Bennouna J",
+        "Doi T",
+        "Shen L",
+        "Kato K",
+        "Adenis A",
+        "et al."
+      ],
+      "title": "KEYNOTE-975 study design: a phase III study of definitive chemoradiotherapy plus pembrolizumab in patients with esophageal carcinoma",
+      "journal": "Future Oncol",
+      "year": "2021",
+      "volume": "17",
+      "doi": "10.2217/fon-2020-0969",
+      "pmid": "33533655",
+      "pmc_id": "PMC7927908"
+    },
+    {
+      "ref_id": "B99",
+      "label": "99",
+      "authors": [
+        "Modesto A",
+        "Tougeron D",
+        "Tremolières P",
+        "Ronchin P",
+        "Jouve AD",
+        "Leignel DA",
+        "et al."
+      ],
+      "title": "Association of radiochemotherapy to immunotherapy in unresectable locally advanced oesophageal carcinoma-randomized phase 2 trial ARION UCGI 33/PRODIGE 67: the study protocol",
+      "journal": "BMC Cancer",
+      "year": "2023",
+      "volume": "23",
+      "fpage": "966",
+      "doi": "10.1186/s12885-023-11227-0",
+      "pmid": "37828434",
+      "pmc_id": "PMC10568784"
+    },
+    {
+      "ref_id": "B100",
+      "label": "100",
+      "authors": [
+        "Wang J",
+        "Xiao L",
+        "Wang S",
+        "Pang Q",
+        "Wang J"
+      ],
+      "title": "Addition of induction or consolidation chemotherapy in definitive concurrent chemoradiotherapy versus concurrent chemoradiotherapy alone for patients with unresectable esophageal cancer: a systematic review and meta-analysis",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "11",
+      "elocation_id": "665231",
+      "doi": "10.3389/fonc.2021.665231",
+      "pmid": "34589418",
+      "pmc_id": "PMC8473880"
+    },
+    {
+      "ref_id": "B101",
+      "label": "101",
+      "authors": [
+        "Xia X",
+        "Liu Z",
+        "Qin Q",
+        "Di X",
+        "Zhang Z",
+        "Sun X",
+        "et al."
+      ],
+      "title": "Long-term survival in nonsurgical esophageal cancer patients who received consolidation chemotherapy compared with patients who received concurrent chemoradiotherapy alone: a systematic review and meta-analysis",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "10",
+      "elocation_id": "604657",
+      "doi": "10.3389/onc.2020.604657",
+      "pmid": "33489910",
+      "pmc_id": "PMC7817852"
+    }
+  ]
+}

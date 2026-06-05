@@ -1,0 +1,1868 @@
+{
+  "metadata": {
+    "title": "Temporal dynamics of neuroplasticity and neurodegeneration in the central auditory system following noise-induced hearing loss: a multimodal imaging and histological study",
+    "authors": [
+      "Víctor Giménez-Esbrí",
+      "Susanne Schwitzer",
+      "Susanne Mueller",
+      "Stefan Koch",
+      "Marco Foddis",
+      "Stefan Donat",
+      "Jan Schmoranzer",
+      "Niclas Gimber",
+      "Janina Zeqiraj",
+      "Dietmar Basta",
+      "Philipp Boehm-Sturm",
+      "Moritz Gröschel"
+    ],
+    "journal": "Acta Neuropathologica Communications",
+    "year": "2026",
+    "doi": "10.1186/s40478-026-02252-8",
+    "pmc_id": "PMC13227874",
+    "pmid": "42231490",
+    "full_text_available": true,
+    "section_count": 29,
+    "reference_count": 90
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Noise-induced hearing loss (NIHL) is a sensorineural disorder that provokes complex neuroplastic and neurodegenerative changes within the central nervous system (CNS). This study investigated the temporal dynamics of neuronal density, axonal integrity and glutamatergic and GABAergic neurotransmission in the central inferior colliculus (CIC) and the ventral medial geniculate body of the thalamus (MGV) after NIHL. To achieve this, a correlative multimodal approach combining audiometric, magnetic resonance imaging (MRI) and histological biomarkers was performed. Adult mice were noise-exposed to broadband white noise (5–20 kHz) for 3 h at either high (115 dB SPL) or moderate (90 dB SPL) intensity, while unexposed mice served as controls. Separate cohorts of mice were investigated 1, 7, 56 and 84 days post-exposure using in vivo magnetic resonance imaging (MRI) techniques: Voxel-based morphometry (VBM) of gray matter density (GMD), diffusion MRI (dMRI) of microstructural connectivity, and proton magnetic resonance spectroscopy (1H-MRS) for glutamate and GABA quantification. Frequency-specific auditory brainstem responses (ABR) were recorded at 4, 8, 16 and 32 kHz before and after exposure to examine hearing threshold (HT) shifts. Brains were subsequently processed for fluorescence immunohistochemistry (FIHC) targeting NeuN, DAPI, NF, VGAT, VGLUT1 and VGLUT2. Mice exposed to 115 dB exhibited sustained HT elevations up to 84 days, suggesting a NIHL phenotype. Neurofilament (NF) expression significantly increased in the CIC and MGV 1d after 115 dB noise exposure, suggesting early axonal stress followed by normalization. dMRI alterations were observed 7d after 90 dB noise exposure. Glutamate and GABA decreases 84d after 90 dB exposure were also detected by 1H-MRS. No consistent changes in GMD or neuronal density were observed. Correlation analyses revealed weak relationships across audiometric, MRI and histological parameters. Overall, these findings reveal rapid neuroplastic adaptations following NIHL, and underscore the need for more sensitive biomarkers to detect early CNS consequences of NIHL. Supplementary Information The online version contains supplementary material available at 10.1186/s40478-026-02252-8.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Noise-induced hearing loss (NIHL) is defined as the sensorineural deafness resulting from prolonged and repetitive exposure to loud noise [ 1 ]. It represents the second most common cause of acquired hearing loss after age-related hearing loss (ARHL), representing a serious case of deafness and hearing impairment [ 2 – 5 ]. It has been estimated that 10% of the global population is affected by hearing loss, and 50% of the cases could be attributed to some form of NIHL [ 1 ]. As such, NIHL represents a significant hearing concern with substantial impact on individuals’ quality of life, contributing to social isolation, depression and cognitive decline [ 4 , 6 , 7 ]. The pathology of NIHL is primarily determined by the degree of biological injury caused by noise exposure [ 8 ]. The magnitude of the resulting injury is frequently assessed through the auditory Hearing Threshold Shift (HTS). Depending on the severity of the insult, auditory injury manifests either as a Temporary Threshold Shift (TTS), involving transient and reversible auditory damage, or a Permanent Threshold Shift (PTS), where noise induces profound and non-recoverable damage. These distinct trauma paradigms trigger different neuroplastic and neurodegenerative cascades throughout the whole peripheral and central auditory pathway. In the peripheral auditory system, PTS has been associated with extensive death of the sensory Hair Cells (HC), Auditory Nerve Fibers (ANF) and/or Spiral Ganglion Neurons (SGN) [ 9 , 10 ]; induction of acute inflammatory responses and increases in reactive oxidative species (ROS) formation [ 11 , 12 ]; profound mechanical damage to the entire organ of Corti (OC) [ 1 , 3 , 13 ]; and disruption of calcium homeostasis and metabolic pathways implicated in synaptic transmission, leading to the activation of apoptotic cell death pathways [ 12 , 14 ]. After these consequences, hearing damage becomes permanent and irreversible, primarily due to the inability of mammalian HCs to regenerate over time [ 15 – 17 ]. Noise causing TTS can trigger cochlear synaptopathy—often termed as “hidden hearing loss”—which involves a condition characterized by synaptic damage and speech-in-noise deficits despite preserved hearing thresholds. This condition has been widely associated with the first stages of NIHL [ 9 , 10 ]. While peripheral mechanisms of NIHL are well-documented [ 11 – 17 ], they do not fully explain the complex pathology of NIHL by themselves. However, key pathological effects have also been observed throughout the entire ascending auditory central nervous system (ACNS) [ 18 – 24 ]. These consequences can be summarized as (1) activation of apoptotic and cell death pathways leading to neuronal and cell loss [ 20 , 21 , 30 , 31 ]; (2) adaptive compensatory neuroplasticity and tonotopic synaptic reorganizations in order to compensate for peripheral auditory deprivation [ 22 – 24 , 32 – 36 ]; and (3) imbalances in the excitatory and inhibitory activity as a consequence of the disruption of glutamatergic and GABAergic synaptic neurotransmission [ 32 , 37 – 39 ]. Such alterations have been linked to several NIHL-derived mechanisms and/or clinical symptoms, as well as to related hearing disorders such as tinnitus or hyperacusis, and have been gaining attention in the field due to their essential clinical implications in the NIHL pathology [ 25 – 29 ]. However, the temporal dynamics of these central changes remain poorly understood. In addition, there is a critical lack of effective diagnostic tools to detect CNS alterations before they become irreversible [ 17 – 40 ]. Advanced imaging techniques, particularly Magnetic Resonance Imaging (MRI), offer a potential solution as a noninvasive assessment of brain structure and function after noise exposure. MRI signals have been associated and/or correlated with changes in the volume of grey matter (GMD) and white matter (WMD) density in auditory and non-auditory brain areas of human patients suffering from tinnitus, age- related hearing loss (ARHL) or occupational NIHL [ 41 – 53 ]. However, the potential of MRI to track the temporal progression of NIHL has yet to be fully elucidated. Similarly, it is not clear how the described alterations could translate into potential MRI-derived biomarkers for NIHL. In the present study, our objective was to investigate the temporal dynamics of neuroplasticity and neurodegeneration in the central auditory pathway following NIHL. Furthermore, we aimed to identify noninvasive biomarkers as a correlate for noise-induced pathophysiology using a multimodal approach. To this end, we assessed changes in cell density, axonal integrity, and glutamatergic and GABAergic neurotransmission 1- (1d), 7- (7d), 56- (56d), and 84- (84d) days after noise exposure in two core areas of the ACNS: the Central Inferior Colliculus (CIC) and the Ventral Medial Geniculate Body of the thalamus (MGV). These regions were selected due to their key role in the processing of ascending auditory neural signals and their implications in NIHL pathology. The study design is illustrated in Fig. 1 . To address the full spectrum of noise pathology, noise exposure was delivered to mice under three distinct paradigms: (1) Moderate-intensity exposure (90 dB SPL) to model cochlear synaptopathy [ 9 , 10 ]; (2) High-intensity noise exposure (115 dB SPL) was designed to induce damage across the whole auditory system; and (3) Sham exposure, were unexposed mice that served as controls. HTS were quantified using Auditory Brainstem Response (ABR) before (pre-ABR) and after (post-ABR) exposure. Subsequently, independent cohorts of mice were evaluated at the specified time points using in vivo MRI (VBM, dMRI, 1H-MRS) followed by ex vivo fluorescence immunohistochemistry (FIHC). Finally, correlation analysis was performed in order to investigate relationships between audiometric, histological and imaging data.",
+      "order": 1
+    },
+    {
+      "section": "Permanent Threshold Shifts After High Noise Exposure",
+      "text": "To quantify the impact of noise-induced damage on the auditory system, HTS were assessed before and after noise exposure by means of ABR at each time point included in the study. Seven days post-exposure, HTS were significantly elevated in the 115 dB group when compared to both 90 dB and Ctrl groups by one-way ANOVA and Tukey post hoc comparison for all tested frequencies (4 kHz: F(2,25) = 72.05, p < 0.0001, η 2 = 0.852; 8 kHz: F(2,25) = 69.70, p < 0.0001, η 2 = 0.848; 16 kHz: F(2,25) = 148.81, p < 0.0001, η 2 = 0.923; 32 kHz: F(2,25) = 65.32, p < 0.0001, η 2 = 0.839). Furthermore, one-way ANOVA also revealed a significant elevation of HTS for all tested frequencies in the 115 dB group when compared to the 90 dB and Ctrl groups, both 56 days (4 kHz: F(2,26) = 34.90, p < 0.0001, η 2 = 0.729; 8 kHz: F(2,26) = 44.930, p < 0.0001, η 2 = 0.776; 16 kHz: F(2,26) = 40.691, p < 0.0001, η 2 = 0.758; 32 kHz: F(2,26) = 37.96, p < 0.0001, η 2 = 0.745) and 84 days (4 kHz: F(2,25) = 18.27, p < 0.0001, η 2 = 0.594; 8 kHz: F(2,25) = 22.73, p < 0.0001, η 2 = 0.645; 16 kHz: F(2,25) = 17.021, p < 0.0001, η 2 = 0.577; 32 kHz: F(2,25) = 13, 0.73, p < 0.0001, η 2 = 0.523) post-exposure. Between the 90 dB and Ctrl groups, a slight but not significant increase in HT was observed 7 days post-exposure (4 kHz: F (2,25) = 72.05, p = 0.563, η 2 = 0.852; 8 kHz: F (2,25) = 69.70, p = 1.000, η 2 = 0.848; 16 kHz: F (2,25) = 148.81, p = 0.816, η 2 = 0.923; 32 kHz: F (2,25) = 65.32, p = 0.886, η 2 = 0.839). No significant differences between those groups were detected 56d (4 kHz: F (2,26) = 34.90, p = 0.239, η 2 = 0.729; 8 kHz: F(2,26) = 44,930, p = 0.219, η 2 = 0.776; 16 kHz: F(2,26) = 40.691, p = 0.422, η 2 = 0.758; 32 kHz: F(2,26) = 37.96, p = 2.88, η 2 = 0.745) and 84d post-exposure(4 kHz: F(2,25) = 18.27, p = 0.919, η 2 = 0.594; 8 kHz: F(2,25) = 22.73, p = 0.395, η 2 = 0.645; 16 kHz: F(2,25) = 17.021, p = 0.438, η 2 = 0.577; 32 kHz: F(2,25) = 13.73, p = 0.677, η 2 = 0.523). In addition, HTS across groups ranged between 50- and 70-dB SPL in the 115 dB group, whereas a HTS between 5- and 10-dB SPL could be observed in the 90 dB group for all investigated time points (Fig. 2 , Table 1 ).",
+      "order": 2
+    },
+    {
+      "section": "Gray Matter Density And Fractional Anisotropy After Noise Exposure",
+      "text": "To track neurodegenerative events after noise exposure at the MRI level, we employed VBM techniques to measure the gray matter density (GMD) between noise exposure conditions. One-way ANOVA showed no significant changes in GMD were observed between groups either in the CIC (1d: F (2,20) = 2.20, p = 0.136, η 2 = 0.1804, 7d: F (2,21) = 0.54, p = 0.588, η 2 = 0.049; 56d: F (2,20) = 1.23, p = 0.31, η 2 = 0.11; 84d: F (2,21) = 0.60, p = 0.533, η 2 = 0.054), or the MGV (1d: F (2,20) = 2.24, p = 0.131, η 2 = 0.183, 7d: F (2,21) = 1.40, p = 0.266, η 2 = 0.11; 56d: F (2,20) = 0.48, p = 0.62, η 2 = 0.046; 84d: F (2,21) = 3.29, p = 0.056, η 2 = 0.239) across the time points investigated (Fig. 3 , Table 2 ). Therefore, a reduction in gray matter was not observed after different noise exposure conditions in the current study. Similarly, Fractional Anisotropy (FA), a marker of microstructural integrity, showed no significant differences between noise exposure conditions within each time point in the CIC (1d: F (2,20) = 0.073, p = 0.92, η 2 = 0.007, 7d: F (2,21) = 1.43, p = 0.261, η 2 = 0.119; 56d: F (2,20) = 0.174, p = 0.841, η 2 = 0.017; 84d: F (2,21) = 0.71, p = 0.502, η 2 = 0.063) and the MGV (1d: F (2,20) = 0.243, p = 0.786, η 2 = 0.023, 7d: F (2,21) = 1.53, p = 0.238, η 2 = 0.127; 56d: F (2,20) = 0.633, p = 0.8541, η 2 = 0.059; 84d: F (2,21) = 0.414, p = 0.665, η 2 = 0.037) by One-way ANOVA (Fig. 3 , Table 2 ).",
+      "order": 3
+    },
+    {
+      "section": "Cell Density In The Cic And Mgv After Noise Exposure",
+      "text": "To observe the microscopic extent of neurodegeneration in the CIC and MGV after exposure, FIHC against Neuronal nuclear protein (NeuN) to label neuronal nuclei, and 4′,6-diamidino-2-phenylindole (DAPI) to stain cell nucleus was performed. Automated cell counting was used to quantify the amount of neuronal (NeuN + /DAPI + ) and total cell death (DAPI + ) between exposure conditions. In the CIC, one-way ANOVA revealed no significant differences in NeuN + /DAPI + cell counts between the noise exposure conditions and the different time points included in the study (1d: F (2,20) = 0.482, p = 0.625, η 2 = 0.046; 7d: F (2,21) = 2.158, p = 0.140, η 2 = 0.171; 56d: F (2,20) = 0.185, p = 0.883, η 2 = 0.012; 84d: F (2,20) = 0.427, p = 0.658, η 2 = 0.039). No significant differences in NeuN + /DAPI + cell density was also detected in the MGV (1d: F (2,20) = 0.626, p = 0.545, η 2 = 0.059; 7d: F (2,21) = 0.405, p = 0.672, η 2 = 0.037; 56d: F (2,20) = 1.763, p = 0.197, η 2 = 0.150; 84d: F (2,21) = 1.155, p = 0.334, η 2 = 0.099) (Fig. 4 , Table 2 ). Furthermore, one-way ANOVA showed no significant differences in total cell density (DAPI + ) when comparing the 115 dB group to both the 90 dB and the Ctrl groups at any time point in both the CIC (1d: F (2,20) = 0.587, p = 0.565, η 2 = 0.055; 7d: F (2,21) = 2.782, p = 0.085, η 2 = 0.209; 56d: F (2,20) = 0.395, p = 0.679, η 2 = 0.038; 84d: F (2,21) = 0.302, p = 0.742, η 2 = 0.028) and the MGV (1d: F (2,20) = 0.940, p = 0.407, η 2 = 0.086; 7d: F (2,21) = 0.540, p = 0.590, η 2 = 0.049; 56d: F (2,20) = 0.414, p = 0.666, η 2 = 0.040; 84d: F (2,21) = 1.061, p = 0.364, η 2 = 0.092) (Fig. 4 , Table 2 ).",
+      "order": 4
+    },
+    {
+      "section": "White Matter Integrity Changes In The Cic And Mgv",
+      "text": "Connectivity changes after exposure in the CIC and MGV were evaluated via the structural connectome, i.e., streamline reconstructions from the dMRI data. At 7d post-exposure, an increase in streamlines could be observed in the 90 dB group when compared to both 115 dB (F (2,21), η 2 = 0.43, p = 0.003 by one-way ANOVA and Tukey Post-hoc comparisons) and Ctrl (F (2,21), η 2 = 0.43, p = 0.015 by one-way ANOVA and Tukey Post-hoc comparisons) for the MGV (Fig. 5 , Table 3 ) Those effects were not seen between the 115 dB and Ctrl groups (F (2,21), η 2 = 0.43, p = 0.762 by one-way ANOVA and Tukey Post-hoc comparisons). Similarly, significant changes in streamlines were not observed 1, 56 and 84 days post-exposure for comparisons performed in the CIC (1d: F (2,20) = 0.601, p = 0.557, η 2 = 0.056; 56d: F (2,20) = 2.18, p = 0.138, η 2 = 0.179; 84d: F (2,21) = 0.387, p = 0.99, η 2 = 0.086) or the MGV (1d: F (2,20) = 0.022, p = 0.977, η 2 = 0.002; 56d: F (2,20) = 0.054, p = 0.9747, η 2 = 0.053; 84d: F (2,21) = 1.344, p = 0.284, η 2 = 0.122). (Fig. 5 , Table 3 ). Likewise, other microstructural integrity indices, including Axial Diffusivity (AD), Radial Diffusivity (RD) and Mean Diffusivity (MD) also showed no significant differences between groups (S1 Fig).",
+      "order": 5
+    },
+    {
+      "section": "Effects Of Nihl On Nf Expression",
+      "text": "Axonal changes in the CIC and the MGV after exposure were quantified by assessing changes in the expression of different Neurofilament (NF) proteins using FIHC labeling and fluorescence intensity quantification. The level of NF expression was used as a correlate of axonal microstructure, serving as a marker of axonal integrity. In the CIC, one-way ANOVA followed by Tukey post hoc test revealed a significant increase in NF intensity 1d after noise exposure between the 115 dB and the 90 dB groups (F (2,20) = 4.237, p = 0.030, η 2 = 0.298). However, no significant differences were found when comparing the 115 dB to the Ctrl group (F (2,20) = 4.237, p = 0.111, η 2 = 0.298), and the 90 dB to the Ctrl group (F (2,20) = 4.237, p = 0.843, η 2 = 0.298). Moreover, no statistically significant differences were found in NF expression between groups at 7d (F (2,21) = 0.455, p = 0.641, η 2 = 0.041), 56d (F (2,20) = 0.501, p = 0.613, η 2 = 0.048) and 84d (F (2,21) = 0.376, p = 0.691, η 2 = 0.035) after exposure. Nevertheless, a temporal decrease of NF expression could be observed from 1 to 84d post-exposure in the CIC (Fig. 6 , Table 3 ). In the MGV, similar results were obtained. Significant differences in NF intensity 1d after noise exposure between the 115 dB and the 90 dB groups (F (2,20) = 13,244, p = 0.012, η 2 = 0.570), and also between the 115 dB and the Ctrl group (F (2,20) = 13,244, p = 0.017, η 2 = 0.570) were observed by one-way ANOVA followed by Games-Howell post hoc comparisons. Moreover, no significant differences were observed between the 90 dB and Ctrl groups (F (2,20) = 13,244, p = 0.530, η 2 = 0.570). Within the other time points investigated, one-way ANOVA revealed no significant differences between noise exposure conditions (7d: F (2,21) = 1.054, p = 0.366, η 2 = 0.091; 56d: F (2,20) = 0.235, p = 0.793, η 2 = 0.023; 84d: F (2,21) = 1.378, p = 0.274, η 2 = 0.116) (Fig. 6 , Table 3 ).",
+      "order": 6
+    },
+    {
+      "section": "1H Mrs Of Neurotransmitter Concentrations",
+      "text": "Changes in glutamate and GABA concentration after NIHL at the MRI level, were quantified using 1H-MRS techniques. Slight Glutamate and GABA concentration changes were found mainly 84 days after noise exposure (Fig. 7 , Table 4 ). At this time point, a significant decrease in glutamate concentration was found in the 90 dB group when compared to the Ctrl group in the MGV (F (2,21) = 3.23; η 2 = 0.235; p = 0.035 by one-way ANOVA and Tukey Post-hoc test). However, this decrease was not significant between the 90 dB and the 115 dB group (F (2,21) = 3.23, η 2 = 0.235, p = 0.296 by one-way ANOVA and Tukey Post-hoc test) or the 115 dB and Ctrl groups (F (2,21) = 3.23, η 2 = 0.235, p = 0.245 by one-way ANOVA and Tukey Post-hoc test). No significant differences were observed in the CIC (1d: F (2,20) = 0.694, η 2 = 0.211, p = 0.511; 7d: F (2,20) = 0.510, η 2 = 0.048; p = 0.607; 56d: F (2,20) = 1.481, η 2 = 0.894, p = 0.129; 84d: F (2,20) = 2.05, η 2 = 0.163, p = 0.153) or the MGV (1d: F (2,20) = 0.052, η 2 = 0.005, p = 0.948; 7d: F (2,20) = 0.367, η 2 = 0.035, p = 0.669; 56d: F (2,20) = 3.347, η 2 = 0.25, p = 0.0055) in different time points. Regarding GABA, a significant decrease in concentration was also found in the MGV in the 90 dB group when compared to the Ctrl group (F (2,21) = 4.79, η 2 = 0.313, p = 0.026 by one-way ANOVA and Tukey Post-hoc test). No significant differences were found between the 115 dB and Ctrl groups (F (2,21) = 4.79, η 2 = 0.313, p = 0.666 by one-way ANOVA and Tukey Post-hoc test) and between the 90 dB groups (F (2,21) = 4.79, η 2 = 0.313, p = 0.864 by one-way ANOVA and Tukey Post-hoc test). For the other time points investigated, no significant differences were found across noise exposure conditions in the CIC (1d: F (2,21) = 2.34, η 2 = 0.190, p = 0.121, 7d: F (2,20) = 0.439; η 2 = 0.04, p = 0.650; 56d: F (2,20) = 0.214, η 2 = 0.020, p = 0.808; 84d: F (2,21) = 0.461, η 2 = 0.042, p = 0.638) or the MGV (1d: F (2,21) = 2.19; η 2 = 0.179; p = 0.137; 7d: F (2,20) = 0.558; η 2 = 0.052; p = 0.580; 56d: F (2,20) = 0.423, η 2 = 0.040, p = 0.660) by one-way ANOVA.",
+      "order": 7
+    },
+    {
+      "section": "Changes In Vntt Expression",
+      "text": "With the aim to observe changes in glutamate and GABA after exposure at the histological level, we labeled the vesicular glutamate transporter 1 (VGLUT1) and the vesicular glutamate transporter 2 (VGLUT2) as glutamatergic markers, and the vesicular GABA transporter (VGAT) as a GABAergic marker. The expression of these markers was evaluated by means of fluorescence intensity between noise exposure conditions after FIHC stainings. Regarding changes in glutamatergic neurotransmission, no significant differences were observed by one-way ANOVA in VGLUT1 expression in the CIC (1d: F (2,20) = 1.710, p = 0.206, η 2 = 0.146; 7d: F (2,21) = 0.364 p = 0.699, η 2 = 0.033; 56d: F (2,21) = 0.197, p = 0.823, η 2 = 0.018; 84d: F (2,21) = 0.240, p = 0.789, η 2 = 0.022) and the MGV (1d: F (2,20) = 0.729 p = 0.495, η 2 = 0.068; 7d: F (2,21) = 0.289 p = 0.752, η 2 = 0.027; 56d: F (2,21) = 0.206, p = 0.815, η 2 = 0.019; F (2,21) = 1.251, p = 0.307, η 2 = 0.106). Similarly, VGLUT2 expression was not significantly different between noise exposure conditions and time points in the CIC (1d: F (2,20) = 0.715, p = 0.501, η 2 = 0.067; 7d: F (2,20) = 0.415, p = 0.666, η 2 = 0.038; 56d: F (2,21) = 0.161, p = 0.852, η 2 = 0.015; 84d: F (2,21) = 2.717, p = 0.089, η 2 = 0.206) and the MGV (1d: F (2,20) = 0.378, p = 0.690, η 2 = 0.036; 7d: F (2,20) = 0.343, p = 0.714, η 2 = 0.032; 56d: F (2,21) = 0.493, p = 0.618, η 2 = 0.045; 84d: F (2,21) = 1.876, p = 0.178, η 2 = 0.152). Thus, no significant changes in glutamatergic neurotransmission could be detected by histological characterization (Fig. 8 , Table 5 ). With regard to GABAergic activity, no significant changes in VGAT expression were also not observed in the CIC (1d: F (2,20) = 0.776, p = 0.474, η 2 = 0.072; 7d: F (2,21) = 1.241, p = 0.309, η 2 = 0.106; 56d: F (2,21) = 1.571, p = 0.231, η 2 = 0.130; 84d: F (2,21) = 0.273, p = 0.764, η 2 = 0.025) or the MGV (1d: F (2,20) = 1.115, p = 0.348, η 2 = 0.100; 7d: F (2,21) = 0.764, p = 0.478, η 2 = 0.068; 56d: F (2,21) = 1.029, p = 0.375, η 2 = 0.089; 84d: F (2,21) = 3.128, p = 0.065, η 2 = 0.230) post-exposure by one-way ANOVA (Fig. 8 , Table 5 ). Thus, the present histological experiments did not detect significant changes in glutamatergic and GABAergic VNTT expression after NIHL.",
+      "order": 8
+    },
+    {
+      "section": "Correlation Analysis",
+      "text": "To evaluate potential associations between auditory function, MRI-derived parameters, and histological biomarkers, we performed a comprehensive correlation analysis using Spearman’s rank correlation coefficient. During this analysis, a scarce correlation between ABR, MRI and Histological parameters investigated was obtained, suggesting a low relationship between the investigated variables in the study. The findings are summarized in Fig. 9 .",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "The present study explored the temporal dynamics of neuroplastic and neurodegenerative changes in the central auditory nervous system following acute noise exposure, focusing on neuronal cell density, axonal connectivity and glutamatergic and GABAergic neurotransmission imbalances. Using a multimodal approach combining auditory brainstem response (ABR), magnetic resonance imaging (MRI), and fluorescence immunohistochemistry (FIHC), the aim was to identify potential early noninvasive biomarkers for noise-induced hearing loss (NIHL). Our findings revealed significant elevations in ABR thresholds in mice exposed to 115 dB, indicating a persistent NIHL phenotype. Increases in NF expression were observed in the CIC and MGV 1d post-exposure followed by a temporal expression decline, suggesting a time-course degeneration of axonal density. Connectivity alterations were also detected by diffusion MRI (dMRI) 7 days after moderate exposure. No significant alterations were detected in neuronal density or glutamatergic and GABAergic markers at any time point investigated. These results highlight early and transient neuroplastic responses in the auditory CNS following noise trauma, while also revealing the challenges in identifying robust noninvasive biomarkers for NIHL.",
+      "order": 10
+    },
+    {
+      "section": "Increases In Ht And Axonal Changes After Nihl",
+      "text": "The ABR results confirmed that mice exposed to 115 dB experienced significant and persistent threshold shifts across all tested frequencies and time points, consistent with a robust NIHL phenotype and prior reports of peripheral auditory damage conditions [ 18 , 19 , 36 ]. In contrast, 90 dB exposure did not lead to permanent hearing loss, in line with previous findings indicating that moderate noise levels induce only transient deficits [ 10 , 54 ]. Therefore, our NIHL model was confirmed due to consistent increases in HTS across exposure conditions. Those increases in HTS were accompanied by a marked increase in NF expression in the MGV 1d after exposure to 115 dB noise, with a similar but less pronounced change in the CIC. A later decline in NF expression was observed in 115 dB exposed-animals, progressively returning to baseline levels over time. This transient elevation may reflect axonal injury triggered by pathological mechanisms happening after NIHL, such as inflammation, oxidative stress, or swellings of the neural tissue. The progressive decrease in NF expression observed 7, 56 and 84d post-exposure may be likely attributed to axonal degeneration events. A transient increase may also represent an early compensatory mechanism aiming to restore input from lower auditory structures [ 24 , 55 , 56 ]. Interestingly, the timing and nature of NF expression pattern differ from previously reported changes in markers like GAP-43 or synaptophysin, which typically emerge weeks or months after exposure [ 57 – 59 ]. However, GAP-43 or synaptophysin expression is restricted to developing growth cones and has been associated with later phases of synaptic reorganization, where synaptic remodeling and axonal sprouting can occur in order to compensate peripheral damage [ 57 – 59 ]. In contrast, SMI312 antibody used in the present study targets NF proteins rather than growth cones, being a more sensitive marker to early connectivity changes. Therefore, our findings suggest that central neuroplastic responses start immediately after acoustic trauma, in contrast to previous assumptions. In addition, they could also reflect early signs of appearing hyperactivity and compensatory activity in the ACNS following acoustic trauma, which has been linked to NIHL and acoustic trauma [ 22 , 23 , 60 ]. In this line, previous works have described profoundly how after damage in the peripheral auditory system, the central auditory areas compensate this injury by increasing its activity, trying to mitigate the harm produced [ 24 , 28 , 32 , 56 ]. Increases in NF expression found in this study may also provide one additional proof for that damage mitigation. Moreover, axonal changes in the MGV were more pronounced axonal change than those in the CIC, possibly reflecting different vulnerabilities between these areas after NIHL. One hypothesis is that the MGV received reduced inhibitory input from the CIC due to early dysfunction of metabolically demanding GABAergic neurons, as proposed by earlier studies of Age-Related Hearing Loss (ARHL) [ 61 , 62 ]. Large GABAergic cells in the CIC might be first compromised, followed by a loss of GABAergic inhibitory inputs to the MGV [ 63 , 64 ]. This loss of inhibitory input could reduce the CIC’s capacity to control excitability in the MGV and induce higher vulnerability to noise exposure. Likewise, different results were shown by dMRI connectivity, showing only a transient increase in connectivity in 90 dB exposed mice 7d post-exposure. This effect may reflect a compensatory mechanism in the MGV to restore peripheral input. On the other hand, a substantial variability was produced by our image analysis techniques -particularly in FIHC-based quantification -, which may limit the sensitivity to find subtle changes in NF expression in our samples. Moreover, medium to small effect sizes were observed during statistical analysis. For this reason, future studies must confirm such detected changes over time. Second, connectivity increases 1d post-exposure were not detected by means of dMRI. Moreover, only transient alterations in dMRI were detected in either the CIC or MGV, which contrasts different studies that described connectivity changes weeks or months after exposure at the MRI level [ 41 , 58 , 59 , 65 , 66 ]. Differences in specificity and resolution between histological and MRI techniques may explain such a discrepancy. In future studies, measurements of structural connectivity using dMRI could be complemented with resting-state MRI studies of functional connectivity that may be more sensitive in detecting subtle changes in neuroplasticity after NIHL. Furthermore, differences between studies may arise due to the broad spectrum of experimental techniques and experimental models present in the field, as well as different brain regions investigated. NIHL pathological effects are demonstrated to be region-specific, and different noise exposure paradigms or animal models investigated could lead to different conclusions when evaluating the impact of central noise trauma [ 6 , 67 ]. Taken together, our study indicates that immediate and region-specific neuroplastic changes occur after NIHL in central auditory pathways. While the intrinsic nature of such changes is still unclear, these early events may be related to long-term alterations in auditory processing, and may represent a critical window for therapeutic, diagnostic or prevention strategies.",
+      "order": 11
+    },
+    {
+      "section": "Detection Of Neuronal Density Changes",
+      "text": "Cell density reductions in the CIC and the MGV after NIHL were not detected by histological or MRI experiments. Absence of GMD changes in VBM is in line with these histological results. Although these findings are in contrast to previous studies by our group (18,19,21), neurodegeneration was probably diminished in the present study despite increased ABR thresholds. In consistence, earlier studies by Aarnisalo et al. [ 30 ] and Kurioka et al. [ 68 ] found no changes in neuronal density in the VCN, but were able to demonstrate neuropathologies like hair cell damage, apoptosis, reduced VCN volume size and reduced neuronal soma size. Studies by Reuss et al. [ 69 ] were not able to quantify neuronal degeneration within the first two weeks after noise exposure in the olivocochlear complex (OC) of the Superior Olivary Complex (SOC). Neurodegeneration is probably more pronounced in other auditory regions not examined in the present study, or pathologies are not attributed to cell and neuron loss. Supporting this hypothesis, human studies detect changes in GMD in canonical and non-canonical ACNS regions of patients suffering from tinnitus, ARHL or occupational NIHL [ 46 , 49 – 52 , 70 , 71 ]. Since those studies described controversial results, GMD or cell density as a NIHL biomarker needs future research in order to assess its potential therapeutic implications. At the MRI level, VBM is only a coarse surrogate marker of cell density. One limitation is that, despite the broad use of VBM in the context of neurodegeneration, there is a lack of biophysical models that directly link cell density to GMD. At the histological level, this is the first study in our group to employ FIHC and automated cell counting. These novel methods offer higher specificity of cell detection while removing potential observer bias when performing manual cell counts.",
+      "order": 12
+    },
+    {
+      "section": "Vntt And 1H-Mrs Changes After Profound Hearing Loss",
+      "text": "Our study was able to detect minor changes in glutamate and GABA by means of 1H-MRS 84d post-exposure in the 90 dB group. Decrease in both Glutamate and GABA after moderate exposure may be attributed to a long-term compensatory mechanism to account for moderate hearing damage [ 10 ]. However, VGLUT1, VGLUT2 or VGAT expression levels in the CIC or MGV were not changed significantly in our data after noise exposure. These findings suggest that the observed increases in ABR HTS and/or the early NF expression may not be directly linked to that. One possible explanation is that that our study lacked sensitivity when trying to estimate changes in Glutamate and GABA concentration. At the MRI level, this is the first study that applied 1H-MRS to evaluate changes in Glutamate and GABA levels in vivo after NIHL in an animal model. Additional studies used 1H-MRS to observe changes in Glutamate and GABA, but none of them assessed it specifically after NIHL [ 72 – 76 ]. Supporting our results, in the CIC, the study by Brozoski et al. [ 72 ] detected no significant changes in Glutamate and GABA concentration in an ex vivo animal model of tinnitus. Interestingly, in the MGV, slightly lower GABA concentration in the contralateral site of the exposure, and increased GABA concentration ipsilaterally were found. Studying human patients suffering from tinnitus, studies made by Isler et al. [ 75 ] and Sedley et al. [ 76 ] detected a reduction in GABA concentration, but within the Auditory Cortex (AC). To our knowledge, this study is one of the first reports investigating changes in VGLUT1, VGLUT2 or VGAT expression after noise exposure in the CIC and the MGV. Another study by Park et al. [ 77 ], showed or evaluated the expression of VGLUT1 and VGLUT2 after noise exposure in the CIC using mRNA and protein quantification methods. Supporting the current results, VGLUT1 expression was not affected, but VGLUT2 expression was found to be increased 30 days after noise exposure. In the MGV, no studies have investigated the expression of VGLUT1, VGLUT2 and/or VGAT after hearing loss. VNTT expression has been evaluated particularly in the CN after hearing loss, indicating decreased VGLUT1 and increased VGLUT2 expression in this region [ 68 , 77 – 80 ]. Observed CN alterations might differ from those in the CIC and MGV, as NIHL presents a prominent region-specific pathology. Different molecular mechanisms may also play a role in the generation of NIHL central consequences. Several studies found alterations of other vesicular transporters (e.g., VGLUT3), glutamate and GABA receptors (e.g., NMDA, AMPA or GABAAR receptors), synthesis of specific enzymes (e.g., GAD67), or different pathways involved in neurotoxic long-term potentiation events (LTP), throughout the auditory pathway after hearing loss [ 54 , 81 – 86 ]. Therefore, future different synaptic targets could be responsible for similar NIHL phenotypes and additional experiments are suggested to assess glutamatergic and GABAergic imbalances in the tissue of interest. In the present study, one limitation is that, the sensitivity of 1H MRS of glutamate and GABA in our setting requires changes in the mM range. Furthermore, single voxel MRS cannot discriminate the compartment in neural tissue where the neurotransmitter is located in and it is prone to partial volume effects, since an average across a rather large volume is measured. It is thus conceivable that subtle changes in neurotransmission did not translate to measurable changes in 1H MRS. Similarly, variability produced due to Fluorescence Intensity measurements may had hindered such neurotransmission changes. Hence, further research needs to be done to assess central glutamatergic and GABAergic imbalances.",
+      "order": 13
+    },
+    {
+      "section": "Correlation Between Abr, Mri And Histological Parameters",
+      "text": "The present study applied a comprehensive multimodal approach to assess relationships among a wide range of biomarkers for NIHL. The selection of biomarkers and analytical methods employed in the study was carried out cautiously according to previous evidences pointing out their potential involvement in noise-induced plasticity and degeneration. However, it is possible to think that the sensitivity of the selected markers, or the resolution of the applied techniques, was insufficient to detect robust links under our experimental conditions. Nevertheless, as discussed before, many discrepancies arise in the field about how these biomarkers change and which noise exposure models are suitable for reliable studies. Probably, these discrepancies arise because noise-induced neuroplasticity and neurodegeneration is a highly-dynamic and context-dependent process, as multiple compensatory and neurodegenerative pathways may coexist. For instance, early axonal changes detected are transient and probably spatially heterogeneous, escaping detection at the macroscopic level of MRI. Similarly, central synaptic adaptations may not correlate linearly with peripheral damage, due to homeostatic mechanisms or region-specific circuit rewiring. While our results do not support a direct link between the studied parameters, we emphasize the need for refined multimodal and longitudinal approaches to understand the dynamics of auditory plasticity and degeneration. Until then, the diagnostic value of the current biomarkers remains inconclusive.",
+      "order": 14
+    },
+    {
+      "section": "Conclusion",
+      "text": "The current study demonstrates that high-intensity noise exposure triggers rapid but transient neuroplastic changes in central auditory structures during the first moments after noise exposure. Despite persistent elevation of auditory hearing thresholds, no long-term alterations in neuronal density, microstructural MRI markers, or glutamatergic/GABAergic neurotransmission were detected. The absence of significant correlations across functional, histological, and imaging datasets underscores the complexity of finding suitable preventive or diagnostic strategies against NIHL. Hence, these findings highlight the need for more sensitive biomarkers to detect and target early CNS consequences of noise-induced hearing loss.",
+      "order": 15
+    },
+    {
+      "section": "Pre-Registration",
+      "text": "This project was pre-registered in the Open Science Framework (osf.io) ( https://osf.io/6aryd/overview ).",
+      "order": 16
+    },
+    {
+      "section": "Animals",
+      "text": "Normal hearing mice (NMRI strain, Charles River, Massachusetts, USA) of both sexes were used in an adult state (aged 8–10 weeks at noise exposure) when the auditory system is fully developed. Mice did not exceed the age of 6 months during the entire experimental protocol to prevent age-related hearing disorders. Mice were caged in groups of no more than six mice. Each cage included a resting area as well as enrichment elements (plastic tunnels and nesting materials). The animals were kept in a 12/12 h dark/light cycle and had constant access to food and water. Between 7 and 8 mice were included in each experimental group in the present study. The governmental Ethics Commission for Animal Welfare (LaGeSo Berlin, Germany) approved the experimental protocol (approval number: G0256/19). The study protocol was in accordance to the EU Directive 2010/63/EU on the protection of animals used for scientific purposes.",
+      "order": 17
+    },
+    {
+      "section": "Noise Exposure",
+      "text": "The chosen noise exposure paradigm was based on earlier studies on neuronal degeneration and cell death mechanism detection after noise exposure in order to ensure similar experimental conditions, taking into account the hearing range of mice (1 kHz over 100 kHz) [ 18 , 19 , 21 ]. The noise was delivered binaurally inside a sound-proof chamber (80 cm × 80 cm × 80 cm, minimal attenuation 60 dB) by a speaker (HTC 11.19; Visaton, Haan, Germany) placed right above the animal’s head and connected to an audio amplifier (Tangent AMP-50; Aulum, Denmark). dB SPL levels were calibrated using a sound level meter (Voltcraft 329; Conrad Electronic, Hirschau, Germany) placed at the animal’s head position. Temperature inside the chamber was measured with a temperature controller (GTH 1200A Digital thermometer, Greisinger Electronic GmbH, Germany), and a heating pad (Thermolux Wärmeunterlagen, Witte & Sutor GmbH, Germany) was used to ensure constant body temperature (36 °C) during the experiments. Noise exposure experiments were conducted under anesthesia (4 mg/kg xylazine and 100 mg/kg ketamine). Animals were selected randomly to undergo noise exposure treatment (115 dB or 90 dB SPL) for 3 h to broadband white noise (5–20 kHz). A separate group of animals was used as the sham control (Ctrl) group, and did not receive any noise exposure treatment. The control animals were equally anesthetized and kept in the heating chamber under similar conditions. To ensure constant anesthetic state in the mice during noise exposure, 30% of the initial anesthesia dose was injected by a subcutaneous catheter approximately every 30 min during noise exposure treatment. Mice were constantly monitored using a video camera (Logilink UA0072A, Logitech, Lausanne, Switzerland) placed inside the soundproof chamber. After noise exposure, animals were placed in their home cages and kept in the animal facility with continuous access to food and water until subsequent measurements were performed.",
+      "order": 18
+    },
+    {
+      "section": "Auditory Brainstem Response (Abr)",
+      "text": "ABR recordings were performed one-week prior to noise exposure (pre-ABR) under anesthesia (100 mg/kg ketamine, 4 mg/kg xylazine) to assess the HT before noise exposure. 1–2 days prior to MRI measurements, ABR recordings (post-ABR) were repeated to detect changes in HT after noise delivery. ABR measurements were performed inside the soundproof chamber under temperature and anesthetic conditions as used during noise exposure. Subdermal needle electrodes (Neuro.Dart SD57-426-M, Spes Medica Inc., Italy) were positioned on the forehead (reference, green), mastoid (recording, red), and at one foot (ground, black). In order to prevent electrical interference, a metal cage was positioned above the animals. Tones were presented binaurally at various sound pressure levels (SPL) using a high-frequency loudspeaker (HTC 11.19; Visaton, Germany) placed right above the animal’s head. The presented tones were adjusted using a sine-wave generator (FG 250 D, H-Tronic, Germany) connected to an audio amplifier (Yamaha A-S 201, Yamaha Corp., Japan). ABR waveforms were recorded by the MC_Rack software (MC_Rack, Multichannel Systems, Harvard Bioscience Inc.) and a recording amplifier (USB-ME16-FAI-System, Multi-Channel Systems, Germany). In the present study, ABR -specific responses were recorded at four different frequencies (4, 8, 16, and 32 kHz) during both pre-ABRs and post-ABRs. After pre-ABRs and post-ABR, mice were returned to their home cages and kept in the animal facility until the experimental day. Following post-ABRs, the individual hearing threshold shift was calculated for each tested frequency. Results were averaged for each experimental group and experimental time point, and mean threshold shifts (Mean (dB) ± Standard Deviation) were calculated and compared to control animals. Post-ABR recordings were not performed in the 1d post-exposure group as previous studies from our group showed difficulties in detecting any ABR response 1d after acute noise (54), as well as to minimize the dropout rate of our experimental subjects.",
+      "order": 19
+    },
+    {
+      "section": "Magnetic Resonance Imaging (Mri)",
+      "text": "MRI was performed using a 7 T animal scanner (BioSpec 70/20 USR, Bruker, Ettlingen, Germany) with a cryogenically cooled transmit/receive mouse head surface coil and Paravision 6.0.1 software. Measurements started 1–2 days after post-ABR measurement. Animals were continuously anesthetized using Isoflurane (1.5%) in a 70%/30% N2O/O2 mixture. An MR-compatible monitoring system (SA Instruments, Stony Brook, NY, USA) was used to continuously control animal temperature via a rectal probe and respiration rate via a pressure-sensitive pad under the thorax. Animals were placed on an animal holder inside the MRI with ear and tooth bar fixation to avoid movement and in prone position. The protocol consisted of T2-weighted (T2w) MRI for VBM of gray matter changes, dMRI for connectome reconstruction, and 1H MR spectroscopy (1H MRS) for neurotransmitter quantification.",
+      "order": 20
+    },
+    {
+      "section": "Voxel-Based Morphometry (Vbm)",
+      "text": "T2w images were acquired with a 2D-RARE with repetition time (TR) = 5300 ms, effective echo time (TE) = 33 ms, echo spacing (ΔTE) = 11 ms, RARE factor = 8, 2 averages, 50 contiguous axial slices with a slice thickness of 0.32 mm, field of view (FOV) = 19.2 × 19.2 mm 2 , matrix size MTX = 256 × 256, bandwidth BW = 34,722 Hz, 3 averages and total acquisition time TA = 8:29 min. Images were segmented into tissue probability maps of gray/white matter and cerebrospinal fluid and nonlinearly registered to a custom brain atlas with 38 anatomical regions of the mouse auditory system (19 regions per hemisphere) derived from the Allen mouse brain atlas (CCFv3) in ANTx2 ( https://github.com/ChariteExpMri/antx2 ). Using the atlas, modulated (i.e. tissue probability multiplied with jacobian determinant of the registration) mean gray and white matter density (GMD, WMD) in CIC and MGV were measured for further group statistical analyses. For all readouts reported in this study, left and right CIC/MGV were merged, i.e. analyzed as one single region of interest.",
+      "order": 21
+    },
+    {
+      "section": "Diffusion Mri (Dmri)",
+      "text": "dMRI images were acquired with a multishot 2D spin echo EPI sequence with geometry matching the T2w images but lower resolution (MTX = 192 × 192, 40 contiguous slices, slice thickness 0.4 mm, 6 EPI segments, TR = 2200 ms, TE = 32.4 ms, double sampling on, BW = 300 kHz, diffusion gradient duration/separation = 3.9 ms/16 ms) and multishell diffusion encoding (5 b = 0 images, 6 directions with b = 100 s/mm 2 , 13 directions with b = 900 s/mm 2 , 25 directions with b = 1600 s/mm 2 , 37 directions with b = 2500 s/mm 2 , TA = 18:42 min). Diffusion directions were calculated with the online tool available at http://www.emmanuelcaruyer.com/q-space-sampling.php [ 87 ]. The number of directions varied linearly with diffusion wave vector q (b ~ q2), i.e., with a square root dependency N(b) ~ b 1/2 . The auditory brain system atlas was registered to the T2-weighted images using the inverse transform calculated for VBM and further registered with an affine transform (12 degrees of freedom) to the diffusion MR images using ANTx2 ( https://github.com/ChariteExpMri/antx2 ). Diffusion MR images were processed in mrtrix ( https://www.mrtrix.org ) and custom tools based on network analysis as described previously [ 88 , 89 ]. Scripts are available via github ( https://github.com/ChariteExpMri/rodentDtiConnectomics ). The processing pipeline consisted of: (1) Conversion of Bruker raw data into NIFTI image format; (2) Denoising, Gibbs ringing removal, bias field correction, eddy current correction and motion correction; (3) Calculation of conventional diffusion tensor imaging maps of axial and radial diffusivity and apparent diffusion coefficient (ad, rd, adc) and of fractional anisotropy (fa); (4) Diffusion orientation function reconstruction using constrained spherical deconvolution; (5) Connectome reconstruction using streamline tractography and SIFT2 optimization; (6) Reconstruction of connectivity matrices counting the number of streamlines from atlas region to region. Mean AD, RD, ADC and FA within CIC and MGV‚ and the sum of terminating streamlines originating from each of those regions were derived from the connectivity matrices.",
+      "order": 22
+    },
+    {
+      "section": "Proton Magnetic Resonance Spectroscopy (1H-Mrs)",
+      "text": "Single voxel 1H MRS was performed using a stimulated echo acquisition mode (STEAM) sequence following local shimming (MAPSHIM) across a single cuboid voxel placed in the target region (CIC or MGV) with TR/TE/mixing time/ = 2500 ms/3 ms/ 10 ms, VAPOR water suppression, outer volume suppression, acquisition duration 620.41 ms, 2048 points, bandwidth 3301.06 Hz, dwell time 151.47 µs, 0.81 Hz/point, number of averages 600, TA = 25:00 min. Voxel size was 1.0 mm (lateral) × 1.4 mm (ventral-dorsal) × 1.2 mm (rostral-caudal) for CIC and 0.8 mm × 1.2 mm × 1.4 mm for MGV. A water-unsuppressed scan was acquired for water-scaling. Spectra were fitted using LCModel ( http://s-provencher.com/lcmodel.shtml ), and water-scaling was used to calculate absolute metabolite concentrations of Glu and GABA.",
+      "order": 23
+    },
+    {
+      "section": "Fluorescence Immunohistochemistry (Fihc)",
+      "text": "Immediately after MRI measurements, mice were perfused via the left heart chamber first with NaCl solution (0.9%) and secondly with 4% paraformaldehyde (Sigma, Germany). Brains were carefully removed from the skull and preserved in 0.1% PFA. Neural tissue was post-fixed in formalin for 48 h. Brains were embedded in paraffin blocks using an embedding workstation (Epredia HistoStar Embedding Workstation, Massachusetts, Thermo Fisher Scientific), and 5-µm-thick slices were cut in the frontal plane using a rotation microtome (Rotationsmikrotom Microm HM 325, Thermo Fisher Scientific). Sectioning was carried out from the beginning of the Cochlear Nucleus (CN) (Bregma, − 6.48 mm; Interaural, − 2.68 mm) until the end of the MGV (Bregma, − 2.80 mm; Interaural, 1.00 mm), following the histological brain atlas of Paxinos and Franklin [ 90 ]. After sectioning, brain slices were first embedded in Roti Histol organic solvent (Roti Histol, Carl Roth, Karlsruhe, Germany) to remove paraffin (10 min., RT). Subsequently, slices were rehydrated using descending alcohol concentrations of 90% (1x, 5 min, RT), 80% (1x, 5 min, RT) and 70% (1x, 5 min, RT), and finally washed in PBS 1X (Gibco, New York, USA) (1x, 5 min., RT). Sections were incubated in 10 mM HIER Citrate Buffer (Biozol, Germany) for performing antigen retrieval steps through Heat Induced Epitope Retrieval Immunofluorescence protocol (HIER-IFA). HIER-IFA protocol was carried out by cooking brain slices in HIER Citrate Buffer inside a high-pressure cooker (Pressure Cooker, RC-HPC6L, Royal Catering, Poland), filled with 500 ml of dest. water (dH 2 O) for 5 min. Then, sections were cooled down for 30 min on running tap water, and washed 5 min in PBS 1X. Afterwards, the tissue of interest was delineated with hydrophobic liquid barrier (RotiLiquid, Carl Roth, Germany) and blocked in 5% normal goat serum (NGS), 0.3% Triton and PBS 1X for 30 min at RT. Thereafter, depending on the experiment, different primary antibodies were used. For NeuN labelling, the primary antibody NeuN (D3S3I) Rabbit mAb primary anti-NeuN antibody (Cell Signaling Technology, Massachusetts, USA) diluted 1:100 in 1% NGS, 0.3% Triton and PBS 1X was used. For NF labelling, primary antibody incubation solution was prepared using purified mouse NF anti-neurofilament marker antibody (pan axonal, cocktail) (Biolegend, San Diego, USA) diluted 1:1000 in 1% NGS, 0.3% Triton and PBS 1X incubation solution. For VNTT labelling, three different primary antibodies were used: polyclonal chicken antibody SySy 135 316 against VGLUT1 (Synaptic Systems, Inc.); polyclonal guinea pig antibody SySy 135 404 against VGLUT2 (Synaptic Systems, Inc.), and polyclonal rabbit antibody SySy 131 002 against VGAT (Synaptic Systems, Inc.) diluted 1:500 in 1% NGS and 0.3% Triton and PBS 1X incubation solution. All primary antibody incubation steps were performed during 24 h at 4 °C inside a humid chamber to avoid tissue drying. On the second day, slices were washed in PBS 1X three times during 10 min in agitation. Following, incubation of secondary antibodies was performed. For NeuN, we used Alexa Fluor 488 Goat anti-Rabbit IgG (H + L) (Thermo Fisher Scientific, USA) diluted 1:250 in 1% NGS, 0.3% Triton and PBS 1X incubation. For NF labelling, we used Alexa Fluor 488 Invitrogen Goat anti-mouse IgG (H + L) (Thermo Fisher Scientific, USA) diluted 1:250 in 1% NGS, 0.3% Triton and PBS 1X incubation. For VNTT labelling, we incubated simultaneously three different secondary antibodies diluted 1:500 in 1% NGS, 0.3% Triton and PBS 1X: For VGAT labelling, we used Alexa Fluor 488 Goat anti-Rabbit IgG (H + L) (Thermo Fisher Scientific, USA); For VGLUT1 labelling, we used Alexa Fluor 647 Invitrogen Goat anti-chicken IgY (H + L) (Thermo Fisher Scientific, USA); For VLGUT2 labelling, Alexa Fluor 546 Invitrogen Goat anti-Guinea Pig IgG (H + L) (Thermo Fisher Scientific, USA) was used. Secondary antibodies were incubated during 1 h at RT in dark. Finally, sections were rinsed three times in PBS 1X (10 min, RT, dark). Subsequently, each microscope slide was incubated with 300 µl of DAPI 300 µM in PBS 1X, 5 min at RT in dark conditions (4′,6-Diamidino-2-phenylindole, Dihydrochloride, D1306, Thermo Fisher Scientific, USA). Negative control (NC) stainings were performed for obtaining proper background fluorescence intensity. In NC stainings, secondary antibodies as well as DAPI incubation solution were added only, without primary antibody incubation. Stained microscope slides were mounted in Roti Mount FluorCare mounting media (RotiMount FluorCare, Carl Roth GmbH & Co), covered with coverslips (Deckgläser 24 × 60, H878, Carl Roth GmbH & Co.), sealed with nail polish and placed horizontally O/N at 4 °C inside microscope slide boxes. Sealed slides were kept at 4 °C in dark conditions until image acquisition.",
+      "order": 24
+    },
+    {
+      "section": "Image Acquisition: Histology",
+      "text": "For acquisition of histological images of the CIC and MGV an inverted widefield fluorescence microscope (Ti 2 , Nikon, Japan) controlled by NIS-Elements (Nikon) was used. A LED system (SpectraX, Lumencor, USA) provided the fluorescence excitation (ex). The emission (em) was detected by a sCMOS camera (pco.edge 4.2 USB, Excelitas pco, Germany). The system provided the following fluorescence channels (numbers in nm): DAPI (ex 395/25, em empty), GFP (ex 475/28, em 519/26); YFP (ex 511/16, em 540/30); Cy5 (ex 635/22, em 697/60) in combination with the following multi-band dichroic mirrors: DAPI/GFP/mCherry/Cy5 (quad ET435/33, 526/20, 595/38, 695/63), CFP/YFP (quad ET475/25, 537/30, 644/92, 806/100), FRET (455LP). NeuN and DAPI stained slices were imaged using the 20 × objective (Plan Apo Ph2 DM, NA 0.75, WD 1000 µm). NF (image size 336.16 × 335.20 µm) and VGAT, VGLUT1, VGLUT2 stained slices (image size 336.16 × 335.20 µm) were imaged using the 40 × objective (Plan Apo (Air), NA 0.95, WD 250–170 µm). Images from both positive and negative control staining were acquired under the same settings (LED power, exposure time) in order to quantitatively compare the fluorescence intensity values. Up to 12 images from both hemispheres were acquired for the CIC and MGV and for each experimental subject included in the study. Imaging was performed at the Advanced Medical BIOimaging Core Facility of the Charité-Universitätsmedizin Berlin (AMBIO).",
+      "order": 25
+    },
+    {
+      "section": "Image Analysis: Histology",
+      "text": "For histological data image analysis was performed using automated Fiji/ImageJ (NIH, USA) macros developed in collaboration with AMBIO. Automated cell counting was performed to assess total cell (DAPI⁺) and neuronal (NeuN⁺/DAPI⁺) densities. Fluorescence signals were segmented using Cellpose ( https://www.cellpose.org ) in a Python environment, with image intensities normalized between the 1st and 99th percentiles. The ‘nuclei’ model was used for DAPI⁺ segmentation and the ‘cyto’ model for NeuN⁺. Total cells (DAPI⁺) were counted from the DAPI channel, while neurons (NeuN⁺/DAPI⁺) were identified by overlapping fluorescent signals from the DAPI and NeuN channels. All processing steps were implemented in a custom Python Jupyter Notebook. Results are given in DAPI + or NeuN + /DAPI + counts / area (Mean ± Standard Deviation (SD)). Relative protein expression levels of NF, VGLUT1, VGLUT2, and VGAT were quantified using a custom Fiji/ImageJ (NIH, USA) macro. Images were acquired with the field of view (FOV) size kept constant for both positive control (PC) and negative control (NC) samples. Neurons were segmented via histogram-based thresholding (Yen’s method; 10.1109/83.366472) following ImageJ’s ‘rolling ball’ background subtraction. The following formula was applied to retrieve the Corrected Total Cell Fluorescence (CTCF) by subtracting the fluorescence intensity of the respective control group from each measurement. MeanFI_PC refers to fluorescence intensity values measured from PC samples, while MeanFI_NC refers to values from NC samples. NC samples were derived from negatively stained slices for each staining session and auditory brain region to minimize methodological and biological variability in fluorescence intensity. Results are given in Mean Fluorescence Intensity (NF CTCF , VGLUT1 CTCF , VGLUT2 CTCF and VGAT CTCF ) levels (Mean ± SD).",
+      "order": 26
+    },
+    {
+      "section": "Correlation Analysis",
+      "text": "In order to evaluate potential relationships between different parameters investigated, a correlation analysis was performed. Spearman correlation ranks between ABR, histological and MRI-derived variables were calculated. Analysis was performed without discriminating between time point s and noise exposure conditions, using both SPSS (version 29.0.0.0. (241), IBM SPSS Statistics) and GraphPad Prism 9.4.1 software.",
+      "order": 27
+    },
+    {
+      "section": "Statistics",
+      "text": "This study has a mixed design. A between-subject design with 4 groups (experimental time point: 1d, 7d, 56d, 84d) for 3 treatments (115 dB, 90 dB, and Ctrl), with 3 within-subject levels was established. Each of the hypotheses were tested separately for each auditory CNS area of interest (CIC and MGV). Since the primary objective of the current study was to track the pathological effects of various noise exposure conditions at 4 time points, the resulting data was compared between the experimental groups or treatments (115 dB, 90 dB and Ctrl) for each brain region within each experimental time point (1d, 7d, 56d and 84d). Data is always shown in mean ± Standard Deviation (SD). The resulting means of the experimental groups were compared using one-way ANOVA and the Tukey post-hoc test was applied to account for multiple comparisons, when homogeneity of variances in the data was assumed. In cases where homogeneity of variances was not given, Welch’s ANOVA followed by the Games-Howell post-hoc multiple comparisons test was performed. Taking into account the sample size collected and the robustness of the previously described statistical analysis against the normality assumption, violations of normality in data distribution were not taken into account in the present study. During the correlation analysis, Spearman correlations ranks were calculated due to the lack of normality and linear relationships between investigated variables. The software SPSS (IBM SPSS Statistics, version 29.0.0.0. (241), New York, USA), Microsoft Excel and GraphPad Prism 9 software were used for conducting statistical analyses. The alpha error level was set at p ≤ 0.05.",
+      "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Ding T",
+        "Yan A",
+        "Liu K"
+      ],
+      "title": "What is noise-induced hearing loss?",
+      "journal": "Br J Hosp Med",
+      "year": "2019",
+      "volume": "80",
+      "issue": "9",
+      "fpage": "525",
+      "lpage": "529",
+      "doi": "10.12968/hmed.2019.80.9.525",
+      "pmid": "31498679"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Basner M",
+        "Babisch W",
+        "Davis A",
+        "Brink M",
+        "Clark C",
+        "Janssen S",
+        "et al."
+      ],
+      "title": "Auditory and non-auditory effects of noise on health",
+      "journal": "Lancet",
+      "year": "2014",
+      "volume": "383",
+      "issue": "9924",
+      "fpage": "1325",
+      "lpage": "1332",
+      "doi": "10.1016/S0140-6736(13)61613-X",
+      "pmid": "24183105",
+      "pmc_id": "PMC3988259"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Natarajan N",
+        "Batts S",
+        "Stankovic KM"
+      ],
+      "title": "Noise-induced hearing loss",
+      "journal": "J Clin Med",
+      "year": "2023",
+      "doi": "10.3390/jcm12062347",
+      "pmc_id": "PMC10059082",
+      "pmid": "36983347"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "doi": "10.3390/ijerph14101139",
+      "pmc_id": "PMC5664640",
+      "pmid": "28953238"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Themann CL",
+        "Masterson EA"
+      ],
+      "title": "Occupational noise exposure: a review of its effects, epidemiology, and impact with recommendations for reducing its burden",
+      "journal": "J Acoust Soc Am",
+      "year": "2019",
+      "volume": "146",
+      "issue": "5",
+      "fpage": "3879",
+      "lpage": "3905",
+      "doi": "10.1121/1.5134465",
+      "pmid": "31795665"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Knipper M",
+        "Van Dijk P",
+        "Nunes I",
+        "Rüttiger L",
+        "Zimmermann U"
+      ],
+      "title": "Advances in the neurobiology of hearing disorders: recent developments regarding the basis of tinnitus and hyperacusis",
+      "journal": "Prog Neurobiol",
+      "year": "2013",
+      "volume": "111",
+      "fpage": "17",
+      "lpage": "33",
+      "doi": "10.1016/j.pneurobio.2013.08.002",
+      "pmid": "24012803"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Nelson DI",
+        "Nelson RY",
+        "Concha-Barrientos M",
+        "Fingerhut M"
+      ],
+      "title": "The global burden of occupational noise-induced hearing loss",
+      "journal": "Am J Ind Med",
+      "year": "2005",
+      "volume": "48",
+      "issue": "6",
+      "fpage": "446",
+      "lpage": "458",
+      "doi": "10.1002/ajim.20223",
+      "pmid": "16299704"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Le TN",
+        "Straatman LV",
+        "Lea J",
+        "Westerberg B"
+      ],
+      "title": "Current insigHTS in noise-induced hearing loss: a literature review of the underlying mechanism, pathophysiology, asymmetry, and management options",
+      "journal": "J Otolaryngol",
+      "year": "2017",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "15",
+      "doi": "10.1186/s40463-017-0219-x",
+      "pmc_id": "PMC5442866",
+      "pmid": "28535812"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "title": "Cochlear synaptopathy in acquired sensorineural hearing loss: Manifestations and mechanisms",
+      "journal": "Hear Res",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "138",
+      "lpage": "147",
+      "doi": "10.1016/j.heares.2017.01.003",
+      "pmid": "28087419",
+      "pmc_id": "PMC5438769"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Kujawa SG",
+        "Liberman MC"
+      ],
+      "title": "Adding insult to injury: cochlear nerve degeneration after “temporary” noise-induced hearing loss",
+      "journal": "J Neurosci",
+      "year": "2009",
+      "volume": "29",
+      "issue": "45",
+      "fpage": "14077",
+      "lpage": "14085",
+      "doi": "10.1523/JNEUROSCI.2845-09.2009",
+      "pmid": "19906956",
+      "pmc_id": "PMC2812055"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Henderson D",
+        "Bielefeld EC",
+        "Harris KC",
+        "Hu BH"
+      ],
+      "title": "The role of oxidative stress in noise-induced hearing loss",
+      "journal": "Ear Hear",
+      "year": "2006",
+      "volume": "27",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "19",
+      "doi": "10.1097/01.aud.0000191942.36672.f3",
+      "pmid": "16446561"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Kurabi A",
+        "Keithley EM",
+        "Housley GD",
+        "Ryan AF",
+        "Wong ACY"
+      ],
+      "title": "Cellular mechanisms of noise-induced hearing loss",
+      "journal": "Hear Res",
+      "year": "2017",
+      "volume": "349",
+      "fpage": "129",
+      "lpage": "137",
+      "doi": "10.1016/j.heares.2016.11.013",
+      "pmid": "27916698",
+      "pmc_id": "PMC6750278"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Sliwinska-Kowalska M",
+        "Davis A"
+      ],
+      "title": "Noise-induced hearing loss",
+      "journal": "Noise Health",
+      "year": "2012",
+      "volume": "14",
+      "issue": "61",
+      "fpage": "274",
+      "lpage": "280",
+      "doi": "10.4103/1463-1741.104893",
+      "pmid": "23257577"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Hickman TT",
+        "Hashimoto K",
+        "Liberman LD",
+        "Liberman MC"
+      ],
+      "title": "Synaptic migration and reorganization after noise exposure suggests regeneration in a mature mammalian cochlea",
+      "journal": "Sci Rep",
+      "year": "2020",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "14",
+      "doi": "10.1038/s41598-020-76553-w",
+      "pmid": "33203940",
+      "pmc_id": "PMC7672098"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Daniel E"
+      ],
+      "title": "Noise and hearing loss: a review",
+      "journal": "J Sch Health",
+      "year": "2007",
+      "volume": "77",
+      "issue": "5",
+      "fpage": "225",
+      "lpage": "231",
+      "doi": "10.1111/j.1746-1561.2007.00197.x",
+      "pmid": "17430434"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Ding-Pfennigdorff D",
+        "Smolders JWT",
+        "Müller M",
+        "Klinke R"
+      ],
+      "title": "Hair cell loss and regeneration after severe acoustic overstimulation in the adult pigeon",
+      "journal": "Hear Res",
+      "year": "1998",
+      "volume": "120",
+      "issue": "1–2",
+      "fpage": "109",
+      "lpage": "120",
+      "doi": "10.1016/S0378-5955(98)00055-0",
+      "pmid": "9667435"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Xu XM",
+        "Feng Y",
+        "Wang J",
+        "Salvi R",
+        "Yin X",
+        "Gao J",
+        "et al."
+      ],
+      "title": "Auditory–limbic–cerebellum interactions and cognitive impairments in noise-induced hearing loss",
+      "journal": "CNS Neurosci Ther",
+      "year": "2023",
+      "volume": "29",
+      "issue": "3",
+      "fpage": "932",
+      "lpage": "940",
+      "doi": "10.1111/cns.14028",
+      "pmid": "36377461",
+      "pmc_id": "PMC9928548"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Gröschel M",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Differential impact of temporary and permanent noise-induced hearing loss on neuronal cell density in the mouse central auditory pathway",
+      "journal": "J Neurotrauma",
+      "year": "2010",
+      "volume": "27",
+      "issue": "8",
+      "fpage": "1499",
+      "lpage": "1507",
+      "doi": "10.1089/neu.2009.1246",
+      "pmid": "20504154"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Basta D",
+        "Tzschentke B",
+        "Ernst A"
+      ],
+      "title": "Noise-induced cell death in the mouse medial geniculate body and primary auditory cortex",
+      "journal": "Neurosci Lett",
+      "year": "2005",
+      "volume": "381",
+      "issue": "1–2",
+      "fpage": "199",
+      "lpage": "204",
+      "doi": "10.1016/j.neulet.2005.02.034",
+      "pmid": "15882817"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Fröhlich F",
+        "Ernst A",
+        "Strübing I",
+        "Basta D",
+        "Gröschel M"
+      ],
+      "title": "Apoptotic mechanisms after repeated noise trauma in the mouse medial geniculate body and primary auditory cortex",
+      "journal": "Exp Brain Res",
+      "year": "2017",
+      "volume": "235",
+      "issue": "12",
+      "fpage": "3673",
+      "lpage": "3682",
+      "doi": "10.1007/s00221-017-5091-4",
+      "pmid": "28918463"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Gröschel M",
+        "Manchev T",
+        "Fröhlich F",
+        "Jansen S",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Neurodegeneration after repeated noise trauma in the mouse lower auditory pathway",
+      "journal": "Neurosci Lett",
+      "year": "2024",
+      "doi": "10.1016/j.neulet.2023.137571",
+      "pmid": "38013120"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Gröschel M",
+        "Ryll J",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Acute and long-term effects of noise exposure on the neuronal spontaneous activity in cochlear nucleus and inferior colliculus brain slices",
+      "journal": "Biomed Res Int",
+      "year": "2014",
+      "doi": "10.1155/2014/909260",
+      "pmc_id": "PMC4119618",
+      "pmid": "25110707"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Salvi RJ",
+        "Wang J",
+        "Ding D"
+      ],
+      "title": "Auditory plasticity and hyperactivity following cochlear damage",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "261",
+      "lpage": "274",
+      "doi": "10.1016/S0378-5955(00)00136-2",
+      "pmid": "10962190"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Schrode KM",
+        "Muniak MA",
+        "Kim YH",
+        "Lauer AM"
+      ],
+      "title": "Central compensation in auditory brainstem after damaging noise exposure",
+      "journal": "eNeuro",
+      "year": "2018",
+      "doi": "10.1523/ENEURO.0250-18.2018",
+      "pmc_id": "PMC6096756",
+      "pmid": "30123822"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Hickox AE",
+        "Liberman MC"
+      ],
+      "title": "Is noise-induced cochlear neuropathy key to the generation of hyperacusis or tinnitus?",
+      "journal": "J Neurophysiol",
+      "year": "2014",
+      "volume": "111",
+      "issue": "3",
+      "fpage": "552",
+      "lpage": "564",
+      "doi": "10.1152/jn.00184.2013",
+      "pmid": "24198321",
+      "pmc_id": "PMC3921399"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "raw_citation": "Hickox AE. Noise-induced cochlear neuronal degeneration and its role in hyperacusis- and tinnitus-like behavior. Diss Abstr Int. 2014;74(8-B)."
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Kalappa BI",
+        "Brozoski TJ",
+        "Turner JG",
+        "Caspary DM"
+      ],
+      "title": "Single unit hyperactivity and bursting in the auditory thalamus of awake rats directly correlates with behavioural evidence of tinnitus",
+      "journal": "J Physiol",
+      "year": "2014",
+      "volume": "592",
+      "issue": "22",
+      "fpage": "5065",
+      "lpage": "5078",
+      "doi": "10.1113/jphysiol.2014.278572",
+      "pmid": "25217380",
+      "pmc_id": "PMC4259543"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Knipper M",
+        "Singer W",
+        "Schwabe K",
+        "Hagberg GE",
+        "Li Hegner Y",
+        "Rüttiger L",
+        "et al."
+      ],
+      "title": "Disturbed balance of inhibitory signaling links hearing loss and cognition",
+      "journal": "Front Neural Circuits",
+      "year": "2022",
+      "volume": "15",
+      "fpage": "6",
+      "doi": "10.3389/fncir.2021.785603",
+      "pmc_id": "PMC8770933",
+      "pmid": "35069123"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Middleton JW",
+        "Kiritani T",
+        "Pedersen C",
+        "Turner JG",
+        "Shepherd GMG",
+        "Tzounopoulos T"
+      ],
+      "title": "Mice with behavioral evidence of tinnitus exhibit dorsal cochlear nucleus hyperactivity because of decreased GABAergic inhibition",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2011",
+      "volume": "108",
+      "issue": "18",
+      "fpage": "7601",
+      "lpage": "7606",
+      "doi": "10.1073/pnas.1100223108",
+      "pmid": "21502491",
+      "pmc_id": "PMC3088638"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Aarnisalo AA",
+        "Pirvola U",
+        "Liang XQ",
+        "Miller J",
+        "Ylikoski J"
+      ],
+      "title": "Apoptosis in auditory brainstem neurons after a severe noise trauma of the organ of corti: Intracochlear GDNF treatment reduces the number of apoptotic cells",
+      "journal": "ORL",
+      "year": "2000",
+      "volume": "62",
+      "issue": "6",
+      "fpage": "330",
+      "lpage": "334",
+      "doi": "10.1159/000027764",
+      "pmid": "11054017"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Fröhlich F",
+        "Gröschel M",
+        "Strübing I",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "Apoptosis in the cochlear nucleus and inferior colliculus upon repeated noise exposure",
+      "journal": "Noise Health",
+      "year": "2018",
+      "volume": "20",
+      "issue": "97",
+      "fpage": "223",
+      "doi": "10.4103/nah.NAH_30_18",
+      "pmid": "31823909",
+      "pmc_id": "PMC6924190"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Knipper M",
+        "van Dijk P",
+        "Schulze H",
+        "Mazurek B",
+        "Krauss P",
+        "Scheper V",
+        "et al."
+      ],
+      "title": "The Neural Bases of Tinnitus: Lessons from Deafness and Cochlear Implants",
+      "journal": "J Neurosci",
+      "year": "2020",
+      "volume": "40",
+      "issue": "38",
+      "fpage": "7190",
+      "lpage": "7202",
+      "doi": "10.1523/JNEUROSCI.1314-19.2020",
+      "pmid": "32938634",
+      "pmc_id": "PMC7534911"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Basta D",
+        "Ernest A"
+      ],
+      "title": "Noise-induced changes of neuronal spontaneous activity in mice inferior colliculus brain slices",
+      "journal": "Neurosci Lett",
+      "year": "2004",
+      "volume": "368",
+      "issue": "3",
+      "fpage": "297",
+      "lpage": "302",
+      "doi": "10.1016/j.neulet.2004.07.030",
+      "pmid": "15364415"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Manzoor NF",
+        "Licari FG",
+        "Klapchar M",
+        "Elkin RL",
+        "Gao Y",
+        "Chen G",
+        "et al."
+      ],
+      "title": "Noise-induced hyperactivity in the inferior colliculus: Its relationship with hyperactivity in the dorsal cochlear nucleus",
+      "journal": "J Neurophysiol",
+      "year": "2012",
+      "volume": "108",
+      "issue": "4",
+      "fpage": "976",
+      "lpage": "988",
+      "doi": "10.1152/jn.00833.2011",
+      "pmid": "22552192",
+      "pmc_id": "PMC3424082"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Mulders WHAM",
+        "Robertson D"
+      ],
+      "title": "Development of hyperactivity after acoustic trauma in the guinea pig inferior colliculus",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "298",
+      "fpage": "104",
+      "lpage": "108",
+      "doi": "10.1016/j.heares.2012.12.008",
+      "pmid": "23276730"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Singer W",
+        "Gröschel M",
+        "Zuccotti A",
+        "Mueller S",
+        "Ernst A",
+        "Basta D",
+        "et al."
+      ],
+      "title": "The aftermath of tinnitus-inducing inner ear damage for auditory brainstem responses and MEMR imaging of central brain activity in the rat",
+      "journal": "Hear Balance Commun",
+      "year": "2020",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "225",
+      "lpage": "233",
+      "doi": "10.1080/21695717.2020.1816116"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "doi": "10.1371/journal.pone.0035955",
+      "pmc_id": "PMC3343051",
+      "pmid": "22570693"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Cai R",
+        "Kalappa BI",
+        "Brozoski TJ",
+        "Ling LL",
+        "Caspary DM"
+      ],
+      "title": "Is GABA neurotransmission enhanced in auditory thalamus relative to inferior colliculus?",
+      "journal": "J Neurophysiol",
+      "year": "2014",
+      "volume": "111",
+      "issue": "2",
+      "fpage": "229",
+      "lpage": "238",
+      "doi": "10.1152/jn.00556.2013",
+      "pmid": "24155003",
+      "pmc_id": "PMC3921384"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Hackett TA"
+      ],
+      "title": "VGLUT1 and VGLUT2 mRNA expression in the primate auditory pathway",
+      "journal": "Hear Res",
+      "year": "2011",
+      "volume": "274",
+      "issue": "1-2",
+      "fpage": "129",
+      "lpage": "141",
+      "doi": "10.1016/j.heares.2010.11.001",
+      "pmid": "21111036",
+      "pmc_id": "PMC3073021"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Varela-Nieto I",
+        "Murillo-Cuesta S",
+        "Calvino M",
+        "Cediel R",
+        "Lassaletta L"
+      ],
+      "title": "Drug development for noise-induced hearing loss",
+      "journal": "Expert Opin Drug Discov",
+      "year": "2020",
+      "volume": "15",
+      "issue": "12",
+      "fpage": "1457",
+      "lpage": "1471",
+      "doi": "10.1080/17460441.2020.1806232",
+      "pmid": "32838572"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "authors": [
+        "Aldhafeeri FM",
+        "MacKenzie I",
+        "Kay T",
+        "Alghamdi J",
+        "Sluming V"
+      ],
+      "title": "Neuroanatomical correlates of tinnitus revealed by cortical thickness analysis and diffusion tensor imaging",
+      "journal": "Neuroradiology",
+      "year": "2012",
+      "volume": "54",
+      "issue": "8",
+      "fpage": "883",
+      "lpage": "892",
+      "doi": "10.1007/s00234-012-1044-6",
+      "pmid": "22614806"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Benson RR",
+        "Gattu R",
+        "Cacace AT"
+      ],
+      "title": "Left hemisphere fractional anisotropy increase in noise-induced tinnitus: a diffusion tensor imaging (DTI) study of white matter tracts in the brain",
+      "journal": "Hear Res",
+      "year": "2014",
+      "volume": "309",
+      "fpage": "8",
+      "lpage": "16",
+      "doi": "10.1016/j.heares.2013.10.005",
+      "pmid": "24212050"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Mühlau M",
+        "Rauschecker JP",
+        "Oestreicher E",
+        "Gaser C",
+        "Röttinger M",
+        "Wohlschläger AM",
+        "et al."
+      ],
+      "title": "Structural brain changes in tinnitus",
+      "journal": "Cereb Cortex",
+      "year": "2006",
+      "volume": "16",
+      "issue": "9",
+      "fpage": "1283",
+      "lpage": "1288",
+      "doi": "10.1093/cercor/bhj070",
+      "pmid": "16280464"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Talavage TM",
+        "Gonzalez-Castillo J",
+        "Scott S"
+      ],
+      "title": "Auditory neuroimaging with fMRI and PET",
+      "journal": "Hear Res",
+      "year": "2014",
+      "volume": "307",
+      "issue": "1",
+      "fpage": "4",
+      "lpage": "15",
+      "doi": "10.1016/j.heares.2013.09.009",
+      "pmid": "24076424",
+      "pmc_id": "PMC3893048"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "authors": [
+        "Wolak T",
+        "Cieśla K",
+        "Rusiniak M",
+        "Piłka A",
+        "Lewandowska M",
+        "Pluta A",
+        "et al."
+      ],
+      "title": "Influence of acoustic overstimulation on the central auditory system: an functional magnetic resonance imaging (fMRI) study",
+      "journal": "Med Sci Monit",
+      "year": "2016",
+      "volume": "22",
+      "fpage": "4623",
+      "lpage": "4635",
+      "doi": "10.12659/MSM.897929",
+      "pmid": "27893698",
+      "pmc_id": "PMC5132427"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Boyen K",
+        "Langers DRM",
+        "de Kleine E",
+        "van Dijk P"
+      ],
+      "title": "Gray matter in the brain: differences associated with tinnitus and hearing loss",
+      "journal": "Hear Res",
+      "year": "2013",
+      "volume": "295",
+      "fpage": "67",
+      "lpage": "78",
+      "doi": "10.1016/j.heares.2012.02.010",
+      "pmid": "22446179"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "authors": [
+        "Dewey RS",
+        "Hall DA",
+        "Guest H",
+        "Prendergast G",
+        "Plack CJ",
+        "Francis ST"
+      ],
+      "title": "The physiological bases of hidden noise-induced hearing loss: protocol for a functional neuroimaging study",
+      "journal": "JMIR Res Protoc",
+      "year": "2018",
+      "doi": "10.2196/resprot.9095",
+      "pmc_id": "PMC5866298",
+      "pmid": "29523503"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Holt AG",
+        "Bissig D",
+        "Mirza N",
+        "Rajah G",
+        "Berkowitz B"
+      ],
+      "title": "Evidence of key tinnitus-related brain regions documented by a unique combination of manganese-enhanced MRI and acoustic startle reflex testing",
+      "journal": "PLoS ONE",
+      "year": "2010",
+      "doi": "10.1371/journal.pone.0014260",
+      "pmc_id": "PMC3002264",
+      "pmid": "21179508"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Huang R",
+        "Wang A",
+        "Ba X",
+        "Zhang G",
+        "Li C",
+        "Liu Q"
+      ],
+      "title": "Association functional MRI studies of resting-state amplitude of low frequency fluctuation and voxel-based morphometry in patients with occupational noise-induced hearing loss",
+      "journal": "J Occup Environ Med",
+      "year": "2020",
+      "volume": "62",
+      "issue": "7",
+      "fpage": "472",
+      "lpage": "477",
+      "doi": "10.1097/JOM.0000000000001869",
+      "pmid": "32730022"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Husain FT",
+        "Medina RE",
+        "Davis CW",
+        "Szymko-bennett Y",
+        "Simonyan K",
+        "Pajor NM",
+        "et al."
+      ],
+      "title": "Neuroanatomical changes due to hearing loss and chronic tinnitus: a combined VBM and DTI study",
+      "journal": "Brain Res",
+      "year": "2011",
+      "doi": "10.1016/j.brainres.2010.10.095",
+      "pmc_id": "PMC3018274",
+      "pmid": "21047501"
+    },
+    {
+      "ref_id": "CR51",
+      "label": "51.",
+      "authors": [
+        "Koops EA",
+        "de Kleine E",
+        "van Dijk P"
+      ],
+      "title": "Gray matter declines with age and hearing loss, but is partially maintained in tinnitus",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "issue": "1",
+      "fpage": "88182",
+      "doi": "10.1038/s41598-021-88182-y",
+      "pmc_id": "PMC8044284",
+      "pmid": "33850261"
+    },
+    {
+      "ref_id": "CR52",
+      "label": "52.",
+      "authors": [
+        "Landgrebe M",
+        "Langguth B",
+        "Rosengarth K",
+        "Braun S",
+        "Koch A",
+        "Kleinjung T",
+        "et al."
+      ],
+      "title": "Structural brain changes in tinnitus: grey matter decrease in auditory and non-auditory brain areas",
+      "journal": "Neuroimage",
+      "year": "2009",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "213",
+      "lpage": "218",
+      "doi": "10.1016/j.neuroimage.2009.01.069",
+      "pmid": "19413945"
+    },
+    {
+      "ref_id": "CR53",
+      "label": "53.",
+      "authors": [
+        "Leaver AM",
+        "Turesky TK",
+        "Seydell-Greenwald A",
+        "Morgan S",
+        "Kim HJ",
+        "Rauschecker JP"
+      ],
+      "title": "Intrinsic network activity in tinnitus investigated using functional MRI",
+      "journal": "Hum Brain Mapp",
+      "year": "2016",
+      "volume": "37",
+      "issue": "8",
+      "fpage": "2717",
+      "lpage": "2735",
+      "doi": "10.1002/hbm.23204",
+      "pmid": "27091485",
+      "pmc_id": "PMC4945432"
+    },
+    {
+      "ref_id": "CR54",
+      "label": "54.",
+      "authors": [
+        "Gröschel M",
+        "Müller S",
+        "Götze R",
+        "Ernst A",
+        "Basta D"
+      ],
+      "title": "The possible impact of noise-induced Ca2+-dependent activity in the central auditory pathway: a manganese-enhanced MRI study",
+      "journal": "Neuroimage",
+      "year": "2011",
+      "volume": "57",
+      "issue": "1",
+      "fpage": "190",
+      "lpage": "197",
+      "doi": "10.1016/j.neuroimage.2011.04.022",
+      "pmid": "21530663"
+    },
+    {
+      "ref_id": "CR55",
+      "label": "55.",
+      "authors": [
+        "Hildebrandt H",
+        "Hoffmann NA",
+        "Illing RB"
+      ],
+      "title": "Synaptic reorganization in the adult rat’s ventral cochlear nucleus following its total sensory deafferentation",
+      "journal": "PLoS ONE",
+      "year": "2011",
+      "doi": "10.1371/journal.pone.0023686",
+      "pmc_id": "PMC3161744",
+      "pmid": "21887295"
+    },
+    {
+      "ref_id": "CR56",
+      "label": "56.",
+      "authors": [
+        "Möhrle D",
+        "Hofmeier B",
+        "Amend M",
+        "Wolpert S",
+        "Ni K",
+        "Bing D",
+        "et al."
+      ],
+      "title": "Enhanced Central Neural Gain Compensates Acoustic Trauma-induced Cochlear Impairment, but Unlikely Correlates with Tinnitus and Hyperacusis",
+      "journal": "Neuroscience",
+      "year": "2019",
+      "volume": "407",
+      "fpage": "146",
+      "lpage": "169",
+      "doi": "10.1016/j.neuroscience.2018.12.038",
+      "pmid": "30599268"
+    },
+    {
+      "ref_id": "CR57",
+      "label": "57.",
+      "authors": [
+        "Illing RB",
+        "Kraus KS",
+        "Meidinger MA"
+      ],
+      "title": "Reconnecting neuronal networks in the auditory brainstem following unilateral deafening",
+      "journal": "Hear Res",
+      "year": "2005",
+      "volume": "206",
+      "issue": "1–2",
+      "fpage": "185",
+      "lpage": "199",
+      "doi": "10.1016/j.heares.2005.01.016",
+      "pmid": "16081008"
+    },
+    {
+      "ref_id": "CR58",
+      "label": "58.",
+      "authors": [
+        "Kraus KS",
+        "Ding D",
+        "Zhou Y",
+        "Salvi RJ"
+      ],
+      "title": "Central auditory plasticity after carboplatin-induced unilateral inner ear damage in the chinchilla: up-regulation of GAP-43 in the ventral cochlear nucleus",
+      "journal": "Hear Res",
+      "year": "2009",
+      "volume": "255",
+      "issue": "1–2",
+      "fpage": "33",
+      "lpage": "43",
+      "doi": "10.1016/j.heares.2009.05.001",
+      "pmid": "19435600",
+      "pmc_id": "PMC2777517"
+    },
+    {
+      "ref_id": "CR59",
+      "label": "59.",
+      "authors": [
+        "Muly SM",
+        "Gross JS",
+        "Morest DK",
+        "Potashner SJ"
+      ],
+      "title": "Synaptophysin in the cochlear nucleus following acoustic trauma",
+      "journal": "Exp Neurol",
+      "year": "2002",
+      "volume": "177",
+      "issue": "1",
+      "fpage": "202",
+      "lpage": "221",
+      "doi": "10.1006/exnr.2002.7963",
+      "pmid": "12429223"
+    },
+    {
+      "ref_id": "CR60",
+      "label": "60.",
+      "authors": [
+        "Dong S",
+        "Rodger J",
+        "Mulders WHAM",
+        "Robertson D"
+      ],
+      "title": "Tonotopic changes in GABA receptor expression in guinea pig inferior colliculus after partial unilateral hearing loss",
+      "journal": "Brain Res",
+      "year": "2010",
+      "volume": "1342",
+      "fpage": "24",
+      "lpage": "32",
+      "doi": "10.1016/j.brainres.2010.04.067",
+      "pmid": "20438718"
+    },
+    {
+      "ref_id": "CR61",
+      "label": "61.",
+      "authors": [
+        "Ibrahim BA",
+        "Llano DA"
+      ],
+      "title": "Aging and central auditory disinhibition: is it a reflection of homeostatic downregulation or metabolic vulnerability?",
+      "journal": "Brain Sci",
+      "year": "2019",
+      "doi": "10.3390/brainsci9120351",
+      "pmc_id": "PMC6955996",
+      "pmid": "31805729"
+    },
+    {
+      "ref_id": "CR62",
+      "label": "62.",
+      "authors": [
+        "Llano DA",
+        "Turner J",
+        "Caspary DM"
+      ],
+      "title": "Diminished cortical inhibition in an aging mouse model of chronic tinnitus",
+      "journal": "J Neurosci",
+      "year": "2012",
+      "volume": "32",
+      "issue": "46",
+      "fpage": "16141",
+      "lpage": "16148",
+      "doi": "10.1523/JNEUROSCI.2499-12.2012",
+      "pmid": "23152598",
+      "pmc_id": "PMC3517907"
+    },
+    {
+      "ref_id": "CR63",
+      "label": "63.",
+      "authors": [
+        "Ito T",
+        "Oliver DL"
+      ],
+      "title": "Origins of glutamatergic terminals in the inferior colliculus identified by retrograde transport and expression of VGLUT1 and VGLUT2 genes",
+      "journal": "Front Neuroanat",
+      "year": "2010",
+      "volume": "4",
+      "fpage": "1",
+      "lpage": "11",
+      "doi": "10.3389/fnana.2010.00135",
+      "pmid": "21048892",
+      "pmc_id": "PMC2967334"
+    },
+    {
+      "ref_id": "CR64",
+      "label": "64.",
+      "authors": [
+        "Ito T",
+        "Oliver DL"
+      ],
+      "title": "The basic circuit of the IC: tectothalamic neurons with different patterns of synaptic organization send different messages to the thalamus",
+      "journal": "Front Neural Circuits",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "1",
+      "lpage": "9",
+      "doi": "10.3389/fncir.2012.00048",
+      "pmid": "22855671",
+      "pmc_id": "PMC3405314"
+    },
+    {
+      "ref_id": "CR65",
+      "label": "65.",
+      "authors": [
+        "Benson CG",
+        "Gross JS",
+        "Suneja SK",
+        "Potashner SJ"
+      ],
+      "title": "Synaptophysin immunoreactivity in the cochlear nucleus after unilateral cochlear or ossicular removal",
+      "journal": "Synapse",
+      "year": "1997",
+      "volume": "25",
+      "issue": "3",
+      "fpage": "243",
+      "lpage": "257",
+      "doi": "10.1002/(SICI)1098-2396(199703)25:3<243::AID-SYN3>3.0.CO;2-B",
+      "pmid": "9068122"
+    },
+    {
+      "ref_id": "CR66",
+      "label": "66.",
+      "authors": [
+        "Kaliyappan K",
+        "Nakuci J",
+        "Preda M",
+        "Schweser F",
+        "Muldoon S",
+        "Krishnan Muthaiah VP"
+      ],
+      "title": "Correlation of histomorphometric changes with diffusion tensor imaging for evaluation of blast-induced auditory neurodegeneration in chinchilla",
+      "journal": "J Neurotrauma",
+      "year": "2021",
+      "volume": "38",
+      "issue": "23",
+      "fpage": "3248",
+      "lpage": "3259",
+      "doi": "10.1089/neu.2020.7556",
+      "pmid": "34605670",
+      "pmc_id": "PMC8917894"
+    },
+    {
+      "ref_id": "CR67",
+      "label": "67.",
+      "authors": [
+        "Kiefer L",
+        "Koch L",
+        "Merdan-Desik M",
+        "Gaese BH",
+        "Nowotny M"
+      ],
+      "title": "Comparing the electrophysiological effects of traumatic noise exposure between rodents",
+      "journal": "J Neurophysiol",
+      "year": "2022",
+      "volume": "127",
+      "issue": "2",
+      "fpage": "452",
+      "lpage": "462",
+      "doi": "10.1152/jn.00081.2021",
+      "pmid": "35020518"
+    },
+    {
+      "ref_id": "CR68",
+      "label": "68.",
+      "authors": [
+        "Kurioka T",
+        "Lee MY",
+        "Heeringa AN",
+        "Beyer LA",
+        "Swiderski DL",
+        "Kanicki AC",
+        "et al."
+      ],
+      "title": "Selective hair cell ablation and noise exposure lead to different patterns of changes in the cochlea and the cochlear nucleus",
+      "journal": "Neuroscience",
+      "year": "2016",
+      "volume": "332",
+      "fpage": "242",
+      "lpage": "257",
+      "doi": "10.1016/j.neuroscience.2016.07.001",
+      "pmid": "27403879",
+      "pmc_id": "PMC4969227"
+    },
+    {
+      "ref_id": "CR69",
+      "label": "69.",
+      "authors": [
+        "Reuss S",
+        "Closhen C",
+        "Riemann R",
+        "Jaumann M",
+        "Knipper M",
+        "Rüttiger L",
+        "et al."
+      ],
+      "title": "Absence of early neuronal death in the olivocochlear system following acoustic overstimulation",
+      "journal": "Anat Rec",
+      "year": "2016",
+      "volume": "299",
+      "issue": "1",
+      "fpage": "103",
+      "lpage": "110",
+      "doi": "10.1002/ar.23277",
+      "pmid": "26452751"
+    },
+    {
+      "ref_id": "CR70",
+      "label": "70.",
+      "authors": [
+        "Schecklmann M",
+        "Lehner A",
+        "Poeppl TB",
+        "Kreuzer PM",
+        "Rupprecht R",
+        "Rackl J",
+        "et al."
+      ],
+      "title": "Auditory cortex is implicated in tinnitus distress: a voxel-based morphometry study",
+      "journal": "Brain Struct Funct",
+      "year": "2013",
+      "volume": "218",
+      "issue": "4",
+      "fpage": "1061",
+      "lpage": "1070",
+      "doi": "10.1007/s00429-013-0520-z",
+      "pmid": "23435735"
+    },
+    {
+      "ref_id": "CR71",
+      "label": "71.",
+      "authors": [
+        "Schneider P",
+        "Andermann M",
+        "Wengenroth M",
+        "Goebel R",
+        "Flor H",
+        "Rupp A",
+        "et al."
+      ],
+      "title": "Reduced volume of Heschl’s gyrus in tinnitus",
+      "journal": "Neuroimage",
+      "year": "2009",
+      "volume": "45",
+      "issue": "3",
+      "fpage": "927",
+      "lpage": "939",
+      "doi": "10.1016/j.neuroimage.2008.12.045",
+      "pmid": "19168138"
+    },
+    {
+      "ref_id": "CR72",
+      "label": "72.",
+      "authors": [
+        "Brozoski TJ",
+        "Odintsov B",
+        "Bauer C"
+      ],
+      "title": "Gamma-aminobutyric acid and glutamic acid levels in the auditory pathway of rats with chronic tinnitus: a direct determination using high resolution point-resolved proton magnetic resonance spectroscopy (1H-MRS)",
+      "journal": "Front Syst Neurosci",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "1",
+      "lpage": "12",
+      "doi": "10.3389/fnsys.2012.00009",
+      "pmid": "22383901",
+      "pmc_id": "PMC3285819"
+    },
+    {
+      "ref_id": "CR73",
+      "label": "73.",
+      "authors": [
+        "Wójcik J",
+        "Kochański B",
+        "Cieśla K",
+        "Lewandowska M",
+        "Karpiesz L",
+        "Niedziałek I",
+        "et al."
+      ],
+      "title": "An MR spectroscopy study of temporal areas excluding primary auditory cortex and frontal regions in subjective bilateral and unilateral tinnitus",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "16",
+      "doi": "10.1038/s41598-023-45024-3",
+      "pmid": "37891242",
+      "pmc_id": "PMC10611771"
+    },
+    {
+      "ref_id": "CR74",
+      "label": "74.",
+      "authors": [
+        "Gao F",
+        "Wang G",
+        "Ma W",
+        "Ren F",
+        "Li M",
+        "Dong Y",
+        "et al."
+      ],
+      "title": "Decreased auditory GABA+ concentrations in presbycusis demonstrated by edited magnetic resonance spectroscopy",
+      "journal": "Neuroimage",
+      "year": "2015",
+      "volume": "106",
+      "fpage": "311",
+      "lpage": "316",
+      "doi": "10.1016/j.neuroimage.2014.11.023",
+      "pmid": "25463460",
+      "pmc_id": "PMC4285773"
+    },
+    {
+      "ref_id": "CR75",
+      "label": "75.",
+      "authors": [
+        "Isler B",
+        "von Burg N",
+        "Kleinjung T",
+        "Meyer M",
+        "Stämpfli P",
+        "Zölch N",
+        "et al."
+      ],
+      "title": "Lower glutamate and GABA levels in auditory cortex of tinnitus patients: a 2D-JPRESS MR spectroscopy study",
+      "journal": "Sci Rep",
+      "year": "2022",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "14",
+      "doi": "10.1038/s41598-022-07835-8",
+      "pmid": "35260698",
+      "pmc_id": "PMC8904839"
+    },
+    {
+      "ref_id": "CR76",
+      "label": "76.",
+      "authors": [
+        "Sedley W",
+        "Parikh J",
+        "Edden RAE",
+        "Tait V",
+        "Blamire A",
+        "Griffiths TD"
+      ],
+      "title": "Human auditory cortex neurochemistry reflects the presence and severity of tinnitus",
+      "journal": "J Neurosci",
+      "year": "2015",
+      "volume": "35",
+      "issue": "44",
+      "fpage": "14822",
+      "lpage": "14828",
+      "doi": "10.1523/JNEUROSCI.2695-15.2015",
+      "pmid": "26538652",
+      "pmc_id": "PMC4635131"
+    },
+    {
+      "ref_id": "CR77",
+      "label": "77.",
+      "authors": [
+        "Park SS",
+        "Lee DH",
+        "Lee SM",
+        "Lee CH",
+        "Kim SY"
+      ],
+      "title": "Noise exposure alters MMP9 and brevican expression in the rat primary auditory cortex",
+      "journal": "BMC Neurosci",
+      "year": "2020",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1186/s12868-020-00567-3",
+      "pmid": "32334536",
+      "pmc_id": "PMC7183651"
+    },
+    {
+      "ref_id": "CR78",
+      "label": "78.",
+      "authors": [
+        "Heeringa AN",
+        "Stefanescu RA",
+        "Raphael Y",
+        "Shore SE"
+      ],
+      "title": "Altered vesicular glutamate transporter distributions in the mouse cochlear nucleus following cochlear insult",
+      "journal": "Neuroscience",
+      "year": "2016",
+      "volume": "315",
+      "fpage": "114",
+      "lpage": "124",
+      "doi": "10.1016/j.neuroscience.2015.12.009",
+      "pmid": "26705736",
+      "pmc_id": "PMC4715966"
+    },
+    {
+      "ref_id": "CR79",
+      "label": "79.",
+      "authors": [
+        "Zeng C",
+        "Yang Z",
+        "Shreve L",
+        "Bledsoe S",
+        "Shore S"
+      ],
+      "title": "Somatosensory projections to cochlear nucleus are upregulated after unilateral deafness",
+      "journal": "J Neurosci",
+      "year": "2012",
+      "volume": "32",
+      "issue": "45",
+      "fpage": "15791",
+      "lpage": "15801",
+      "doi": "10.1523/JNEUROSCI.2598-12.2012",
+      "pmid": "23136418",
+      "pmc_id": "PMC3501653"
+    },
+    {
+      "ref_id": "CR80",
+      "label": "80.",
+      "authors": [
+        "Zeng C",
+        "Nannapaneni N",
+        "Zhou J",
+        "Hughes LF",
+        "Shore S"
+      ],
+      "title": "Cochlear damage changes the distribution of vesicular glutamate transporters associated with auditory and nonauditory inputs to the cochlear nucleus",
+      "journal": "J Neurosci",
+      "year": "2009",
+      "volume": "29",
+      "issue": "13",
+      "fpage": "4210",
+      "lpage": "4217",
+      "doi": "10.1523/JNEUROSCI.0208-09.2009",
+      "pmid": "19339615",
+      "pmc_id": "PMC4487620"
+    },
+    {
+      "ref_id": "CR81",
+      "label": "81.",
+      "authors": [
+        "Abbott SD",
+        "Hughes LF",
+        "Bauer CA",
+        "Salvi R",
+        "Caspary DM"
+      ],
+      "title": "Detection of glutamate decarboxylase isoforms in rat inferior colliculus following acoustic exposure",
+      "journal": "Neuroscience",
+      "year": "1999",
+      "volume": "93",
+      "issue": "4",
+      "fpage": "1375",
+      "lpage": "1381",
+      "doi": "10.1016/S0306-4522(99)00300-0",
+      "pmid": "10501462"
+    },
+    {
+      "ref_id": "CR82",
+      "label": "82.",
+      "authors": [
+        "Basta D",
+        "Ernst A"
+      ],
+      "title": "Effects of salicylate on spontaneous activity in inferior colliculus brain slices",
+      "journal": "Neurosci Res",
+      "year": "2004",
+      "volume": "50",
+      "issue": "2",
+      "fpage": "237",
+      "lpage": "243",
+      "doi": "10.1016/j.neures.2004.07.003",
+      "pmid": "15380332"
+    },
+    {
+      "ref_id": "CR83",
+      "label": "83.",
+      "authors": [
+        "Çakır A",
+        "Ecevit MC",
+        "Bal R",
+        "Gürkan S",
+        "Alpay HC",
+        "Şerbetçioğlu MB"
+      ],
+      "title": "Assessment of synaptic plasticity via long-term potentiation in young mice on the day after acoustic trauma: implications for tinnitus",
+      "journal": "J Int Adv Otol",
+      "year": "2015",
+      "volume": "11",
+      "issue": "3",
+      "fpage": "196",
+      "lpage": "201",
+      "doi": "10.5152/iao.2015.1047",
+      "pmid": "26915149"
+    },
+    {
+      "ref_id": "CR84",
+      "label": "84.",
+      "authors": [
+        "Kou ZZ",
+        "Qu J",
+        "Zhang DL",
+        "Li H",
+        "Li YQ"
+      ],
+      "title": "Noise-induced hearing loss is correlated with alterations in the expression of GABAB receptors and PKC gamma in the murine cochlear nucleus complex",
+      "journal": "Front Neuroanat",
+      "year": "2013",
+      "volume": "7",
+      "issue": "JUL",
+      "fpage": "1",
+      "lpage": "11",
+      "pmid": "23908607",
+      "doi": "10.3389/fnana.2013.00025",
+      "pmc_id": "PMC3726868"
+    },
+    {
+      "ref_id": "CR85",
+      "label": "85.",
+      "authors": [
+        "Milbrandt JC",
+        "Holder TM",
+        "Wilson MC",
+        "Salvi RJ",
+        "Caspary DM"
+      ],
+      "title": "GAD levels and muscimol binding in rat inferior colliculus following acoustic trauma",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "251",
+      "lpage": "260",
+      "doi": "10.1016/S0378-5955(00)00135-0",
+      "pmid": "10962189"
+    },
+    {
+      "ref_id": "CR86",
+      "label": "86.",
+      "authors": [
+        "Mossop JE",
+        "Wilson MJ",
+        "Caspary DM",
+        "Moore DR"
+      ],
+      "title": "Down-regulation of inhibition following unilateral deafening",
+      "journal": "Hear Res",
+      "year": "2000",
+      "volume": "147",
+      "issue": "1–2",
+      "fpage": "183",
+      "lpage": "187",
+      "doi": "10.1016/S0378-5955(00)00054-X",
+      "pmid": "10962184"
+    },
+    {
+      "ref_id": "CR87",
+      "label": "87.",
+      "authors": [
+        "Caruyer E",
+        "et al."
+      ],
+      "title": "Design of Multishell Sampling Schemes with Uniform Coverage in Diffusion MRI",
+      "journal": "Magn Reson Med",
+      "year": "2013",
+      "volume": "69",
+      "issue": "6",
+      "fpage": "1534",
+      "lpage": "1540",
+      "doi": "10.1002/mrm.24736",
+      "pmid": "23625329",
+      "pmc_id": "PMC5381389"
+    },
+    {
+      "ref_id": "CR88",
+      "label": "88.",
+      "authors": [
+        "Boehm-Sturm P",
+        "Füchtemeier M",
+        "Foddis M",
+        "Mueller S",
+        "Trueman RC",
+        "Zille M",
+        "et al."
+      ],
+      "title": "Neuroimaging biomarkers predict brain structural connectivity change in a mouse model of vascular cognitive impairment",
+      "journal": "Stroke",
+      "year": "2017",
+      "volume": "48",
+      "issue": "2",
+      "fpage": "468",
+      "lpage": "475",
+      "doi": "10.1161/STROKEAHA.116.014394",
+      "pmid": "28070001",
+      "pmc_id": "PMC5266417"
+    },
+    {
+      "ref_id": "CR89",
+      "label": "89.",
+      "authors": [
+        "Rubinov M",
+        "Sporns O"
+      ],
+      "title": "Complex network measures of brain connectivity: uses and interpretations",
+      "journal": "Neuroimage",
+      "year": "2010",
+      "volume": "52",
+      "issue": "3",
+      "fpage": "1059",
+      "lpage": "1069",
+      "doi": "10.1016/j.neuroimage.2009.10.003",
+      "pmid": "19819337"
+    },
+    {
+      "ref_id": "CR90",
+      "label": "90.",
+      "raw_citation": "Paxinos, George. & Franklin KBJ (2001). The Mouse Brain in Stereotaxic coordinates. Vol. 35, J Neurosci. 2001."
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "metadata": {
+    "title": "Appraising the causal relationship between kidney function and hearing performance: a two-sample Mendelian randomization study",
+    "authors": [
+      "Weiling Huang",
+      "Zhao Li",
+      "Yue Zhang",
+      "Hongsheng Tan",
+      "Jianrong Shi"
+    ],
+    "journal": "Renal Failure",
+    "year": "2026",
+    "doi": "10.1080/0886022X.2026.2663653",
+    "pmc_id": "PMC13178041",
+    "pmid": "42135631",
+    "full_text_available": true,
+    "section_count": 12,
+    "reference_count": 42
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Epidemiological studies have reported an association between chronic kidney disease and hearing impairment, but the causal relationship remains uncertain. We conducted a bidirectional two-sample Mendelian randomization study to examine whether genetically predicted kidney function traits causally influence speech reception threshold, an objective measure of auditory performance. Genetic instruments for estimated glomerular filtration rate, chronic kidney disease, and blood urea nitrogen were obtained from large-scale genome-wide association studies conducted by the CKDGen Consortium, and summary statistics for speech reception threshold in the left and right ears were derived from the UK Biobank. The inverse variance weighted method was used as the primary analytical approach, complemented by MR-Egger, weighted median, and mode-based estimators. No robust causal associations were identified between genetically predicted kidney function traits and SRT in either ear. IVW estimates for BUN, CKD, and eGFR were non-significant (all P > 0.05). Although the IVW estimate for eGFR and left-ear SRT approached nominal significance and some secondary analyses showed nominal associations, these findings were inconsistent across methods and did not meet our criteria for robust causal inference. Reverse Mendelian randomization analyses also showed no significant associations. Sensitivity analyses showed no evidence of directional horizontal pleiotropy, and outlier correction did not materially change the results. This study provides no robust genetic evidence supporting a causal relationship between genetically predicted kidney function traits and hearing function, as measured by speech reception threshold, in either direction under the current MR framework. The observed epidemiological association may instead reflect shared systemic, developmental, or environmental mechanisms.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hearing loss (HL) is a highly prevalent sensory disorder and a major contributor to disability worldwide [ 1–3 ]. According to the World Health Organization, over 1.5 billion people currently experience of HL, a number projected to rise to 2.5 billion by 2050 [ 4 ]. Beyond its impact on communication and quality of life, HL has increasingly been associated with systemic physiological dysregulation [ 5 , 6 ]. Patients with HL are also at higher risk for cognitive impairment and neuropsychiatric disorders, further compromising their overall quality of life [ 7 , 8 ]. Speech reception threshold (SRT), which reflects the ability to perceive and recognize speech signals, has emerged as a functionally relevant auditory phenotype in large population-based studies and has also been incorporated into genetic and genomic analyses of hearing-related traits [ 9 ]. Investigations have further incorporated SRT as a quantitative phenotype in hearing-related genetic and genomic analyses, supporting its utility in evaluating auditory function within epidemiological and genetic frameworks [ 10 ]. In this context, SRT offers an opportunity to investigate hearing performance using continuous, objectively derived data in large-scale genome-wide association study (GWAS) resources. Chronic kidney disease (CKD) is a major global public health burden that affects an estimated 850 million individuals, accounting for approximately 11% of the world’s population, and is associated with substantial morbidity, mortality, and healthcare costs [ 11 , 12 ]. Due to its progressive nature and systemic involvement, monitoring kidney function–related biomarkers are essential for understanding their impact on other organ systems and for early disease prevention [ 13 ]. In addition to renal and cardiovascular complications, CKD has been linked to abnormalities in multiple organ systems, including the auditory system [ 14 , 15 ]. Epidemiological studies have reported associations between reduced kidney function and hearing impairment, and several reviews have emphasized shared vascular, metabolic, inflammatory, and developmental mechanisms between the kidney and the inner ear [ 16 ]. However, most of this evidence is observational or cross-sectional in nature and therefore remains vulnerable to residual confounding and reverse causation [ 17 ]. In particular, factors such as aging, diabetes, hypertension, microvascular injury, and systemic inflammation may contribute to both kidney dysfunction and auditory decline, making it difficult to determine whether kidney dysfunction itself directly causes impaired hearing performance. Developmental and physiological links between the kidney and the auditory system further complicate the interpretation of observational associations. The kidney and the inner ear share common structural and molecular features, including ciliary function, fluid transport mechanisms, and basement membrane components, and several genes involved in oto-renal syndromes play key roles in the development of both organs [ 18–20 ]. These observations support a biologically plausible connection between renal and auditory traits, but they do not necessarily establish a direct downstream causal pathway from impaired kidney function to later hearing dysfunction. Instead, they may reflect shared developmental architecture or pleiotropic biological processes affecting both organs in parallel. Mendelian randomization (MR) uses genetic variants as instrumental variables to strengthen causal inference by reducing confounding and reverse causation under specific assumptions. To our knowledge, no previous MR study has specifically evaluated whether genetically predicted kidney function influences SRT. We therefore performed a two-sample MR analysis to investigate whether three kidney function-related traits – estimated glomerular filtration rate (eGFR), CKD, and blood urea nitrogen (BUN) – are causally associated with left- and right-ear SRT. We selected SRT because it is a functionally relevant, continuous phenotype available in large-scale GWAS resources; however, we also recognize that SRT may not capture all dimensions of hearing impairment, particularly high-frequency peripheral auditory dysfunction. Accordingly, this study was designed to test whether genetically predicted kidney function affects speech reception performance, rather than all hearing phenotypes more broadly.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "We conducted a two-sample Mendelian randomization analysis to evaluate the potential causal effect of kidney function-related traits on auditory performance. In this framework, kidney function traits were treated as exposures and speech reception threshold (SRT) as the outcome. Three kidney-related traits were selected to represent complementary aspects of renal physiology and disease burden: estimated glomerular filtration rate (eGFR), chronic kidney disease (CKD), and blood urea nitrogen (BUN). eGFR reflects renal filtration capacity and is widely used for CKD staging and disease monitoring, whereas BUN provides additional information related to nitrogen metabolism and renal excretory function [ 21 , 22 ]. SRT was analyzed as the hearing-related outcome because it is a quantitative and functionally relevant phenotype available in large-scale GWAS datasets. A schematic overview of the study design is shown in Figure 1 . Genetic variants significantly associated with kidney function were selected as instrumental variables (IVs) [ 23 , 24 ]. To ensure the validity of the MR analysis, all instrumental variables were required to satisfy the three core MR assumptions: they were robustly associated with the exposure, independent of potential confounders, and influenced hearing ability only through their effects on kidney function.",
+      "order": 2
+    },
+    {
+      "section": "Data Sources For Estimated Glomerular Filtration Rate, Chronic Kidney Disease, And Blood Urea Nitrogen (Exposure Data)",
+      "text": "Summary-level GWAS data for eGFR, CKD, and BUN were obtained from the CKDGen Consortium. For the present study, we used European-ancestry-specific summary statistics to reduce bias from population stratification. The eGFR GWAS included 765,348 participants after quality control, the CKD GWAS included 625,219 participants including 64,164 CKD cases, and the BUN GWAS included 416,178 participants. In the original contributing studies, eGFR was derived using established equations, CKD was defined as eGFR < 60 mL/min/1.73 m 2 , and BUN values were harmonized across studies where necessary [ 25 , 26 ]. Details of the contributing cohorts and phenotype derivation have been described previously by the original consortium [ 27 ].",
+      "order": 3
+    },
+    {
+      "section": "Data Source For Hearing Function (Outcome Data)",
+      "text": "GWAS summary statistics for hearing function were obtained from the UK Biobank via the IEU OpenGWAS database. Hearing ability was assessed using speech reception threshold estimates, analyzed separately for the left ear (ukb-b-9052) and right ear (ukb-b-8316). Both traits were modeled as continuous variables and were derived from participants of European ancestry. The left-ear SRT GWAS included 146,131 individuals and the right-ear SRT GWAS included 146,031 individuals. All analyses were based on the HG19/GRCh37 genome build, with standardized genotype quality control and imputation procedures implemented in the original GWAS framework. Although the exposure data were obtained from CKDGen and the outcome data from UK Biobank/IEU OpenGWAS, complete exclusion of sample overlap between the datasets cannot be guaranteed.",
+      "order": 4
+    },
+    {
+      "section": "Selection Of Genetic Instruments (Selection Of Genetic Ivs)",
+      "text": "Genetic variants significantly associated with each kidney function trait at the genome-wide significance threshold ( P < 5e-08) were selected as candidate instrumental variables. To ensure independence between instruments, SNPs were linkage disequilibrium clumped using r 2 < 0.001 within a 10,000 kb window. These SNPs were then harmonized with the corresponding SRT summary statistics. Instrument strength was assessed using the F statistic; in general, the F statistic for an individual SNP can be approximated as beta 2 /SE 2 , and all selected instruments exceeded the conventional threshold of 10, indicating low risk of weak instrument bias. We additionally applied MR-PRESSO [ 28 ] to detect potential outlier variants that might introduce horizontal pleiotropy. The final sets of instrumental SNPs are provided in the Supplementary Tables (listed in Supplementary Tables 1–3 ).",
+      "order": 5
+    },
+    {
+      "section": "Mendelian Randomization Analyses",
+      "text": "MR relies on three core instrumental variable assumptions: (1) the genetic variants are robustly associated with the exposure (relevance); (2) the genetic variants are independent of confounders of the exposure–outcome relationship (independence); and (3) the genetic variants influence the outcome exclusively through the exposure and not via alternative biological pathways (exclusion restriction). The primary causal estimates were obtained using the inverse variance-weighted (IVW) method under a multiplicative random-effects model [ 29 ]. Under the IVW framework, SNP-specific Wald ratios are combined to generate an overall estimate of the causal effect. Because the IVW approach can be sensitive to pleiotropy, we also performed several complementary MR methods, including MR-Egger [ 30 ], weighted median [ 31 ], simple mode, and weighted mode [ 32 ]. These approaches provide robustness under different assumptions regarding invalid instruments and horizontal pleiotropy.",
+      "order": 6
+    },
+    {
+      "section": "Sensitivity Analyses",
+      "text": "To evaluate the robustness of the MR estimates, we performed a series of sensitivity analyses. Horizontal pleiotropy was assessed using the MR-Egger intercept test, and heterogeneity among SNP-specific estimates was assessed using Cochran’s Q statistic. MR-PRESSO was used to identify potential outlier variants and to compare raw and outlier-corrected estimates. Leave-one-out analyses were further conducted to determine whether any single SNP disproportionately influenced the overall effect estimate. Funnel plots and scatter plots were used to visualize heterogeneity and the distribution of SNP-specific effects across MR methods.",
+      "order": 7
+    },
+    {
+      "section": "Statistics",
+      "text": "All analyses were conducted using the TwoSampleMR (version 0.5.11) and MR-PRESSO (version 1.0) packages in R (version 4.4.0). For global-level tests, a two-sided P -value of 0.05 was considered statistically significant. Statistical power was calculated to estimate the minimum detectable effect size for continuous outcomes. The results are expressed as standardized β coefficients, representing the change in SRT per genetically predicted unit increase in exposure. In summary, results are considered significant if they meet the following stringent criteria: (1) the association using IVW reaches Bonferroni-corrected P < 0.05; (2) the association patterns are consistent across all MR methods; (3) the F-statistic for all IVs is > 10; (4) there is no significant heterogeneity among the IVs; (5) there is no evidence of horizontal pleiotropy (Egger intercept P > 0.05, and MR-PRESSO global test P > 0.05).",
+      "order": 8
+    },
+    {
+      "section": "Bidirectional Mendelian Randomization",
+      "text": "To examine potential reverse causality, we conducted bidirectional MR analyses by reversing the exposure–outcome relationship. In this analysis, speech reception threshold (SRT) for the left and right ears was treated as the exposure, while kidney function–related traits (eGFR, CKD, and BUN) were analyzed as outcomes. Genetic variants associated with SRT were selected as instrumental variables using a significance threshold of P < 5 × 10 −6 due to the limited availability of genome-wide significant variants. Although this relaxed threshold may increase the risk of weak-instrument bias, all included SRT instruments had F-statistics > 10, indicating adequate instrument strength. Linkage disequilibrium clumping was performed using r 2 < 0.001 within a 10,000 kb window. The subsequent harmonization procedures, MR methods, and sensitivity analyses were conducted following the same approach as described above. The detailed F-statistics for each SNP are provided in Supplementary Tables 4–5 .",
+      "order": 9
+    },
+    {
+      "section": "Results",
+      "text": "In this MR, we examined whether genetically predicted kidney-related traits, namely eGFR, CKD, and BUN, are causally associated with SRT. Robust genetic instruments were selected for each exposure, with all F-statistics exceeding 10, indicating adequate instrument strength. Multiple MR approaches, including both global and non-global weighting methods, were applied to strengthen causal inference. Across multiple MR methods, genetically predicted BUN, CKD, and eGFR showed no statistically significant causal associations with speech reception threshold in either ear ( Table 1 and Figure 2 ). Specifically, genetically predicted BUN was not associated with SRT in the left ear (IVW: β = −0.0625, SE = 0.0615, P = 0.309) or the right ear (IVW: β = −0.0253, SE = 0.0717, P = 0.724). Similarly, genetically predicted CKD showed no significant association with SRT in the left (IVW: β = −0.0070, SE = 0.0127, P = 0.585) or right ear (IVW: β = −0.0118, SE = 0.0103, P = 0.252). Consistently, no significant causal effect of eGFR on SRT was observed for either the left ear (IVW: β = 0.1803, SE = 0.0932, P = 0.0529) or the right ear (IVW: β = 0.1422, SE = 0.1014, P = 0.1608). The statistical power analysis indicated that the study was able to detect minimum causal effect sizes of approximately β = 0.04–0.06 for eGFR, β = 0.07–0.09 for BUN, and β = 0.12–0.16 for CKD at 80% power and a significance level of 0.05. These effect sizes are well within the range of effects reported in observational studies, reinforcing that the null finding is not due to inadequate power. Sensitivity analyses supported the robustness of the MR estimates for the associations of BUN, CKD, and eGFR with SRT ( Table 2 ). MR-Egger intercept tests showed no evidence of horizontal pleiotropy for any of the exposures in either ear. Cochran’s Q tests indicated no heterogeneity for most exposure–outcome pairs, although mild heterogeneity was observed for BUN with right-ear SRT and for eGFR with right-ear SRT. MR-PRESSO analyses did not detect significant distortion in the causal estimates, and outlier-corrected results were highly consistent with the primary estimates, indicating that the findings were not materially influenced by pleiotropic or outlying variants. Funnel plots demonstrated a largely symmetrical distribution of SNP-specific estimates around the IVW effect ( Figure 3 ) and leave-one-out analyses confirmed that no single SNP disproportionately influenced the overall results ( Supplementary Figure 1 ). The distributions of SNP-level associations and regression slopes across different MR methods are presented in Supplementary Figure 2 . Overall, these results support the conclusion that there is no significant causal effect of kidney function traits on auditory function as measured by SRT. To explore potential reverse causality, we performed bidirectional MR analyses using SRT (left and right) as the exposure and kidney function–related traits (eGFR, CKD, and BUN) as outcomes. Across all methods and both ears, no significant causal effects were observed (all P > 0.05). The full MR results are summarized in Supplementary Table 6 and Supplementary Figure 3 .",
+      "order": 10
+    },
+    {
+      "section": "Discussion",
+      "text": "To our knowledge, this study is the first Mendelian randomization analysis specifically designed to evaluate whether genetically predicted kidney function traits influence speech reception threshold. Using multiple complementary MR approaches, we found no robust evidence supporting a direct causal effect of genetically predicted BUN, CKD, or eGFR on SRT in either ear. Although the IVW estimate for eGFR and left-ear SRT approached nominal significance and isolated nominal associations were observed in selected secondary methods, these findings were not consistent across analyses and did not satisfy our prespecified criteria for robust causal inference. Overall, the results support the interpretation that the epidemiological association between kidney dysfunction and impaired hearing-related performance is unlikely to be explained by a strong direct causal pathway from kidney function traits to SRT. Importantly, these findings should not be interpreted as contradicting the well-established biological and developmental connections between the kidney and the inner ear. Previous studies have shown that these organs share developmental pathways, structural features, and molecular mechanisms, including ciliary function, fluid transport regulation, and basement membrane composition [ 18 , 33 ]. Genes implicated in oto-renal syndromes, such as EYA1, SIX1, and PAX2, further illustrate that disturbances in shared developmental programs can affect both renal and auditory structures [ 34–36 ]. In this context, our null MR findings are more appropriately interpreted as arguing against a simple vertical causal chain whereby genetically predicted reductions in kidney function directly lead to impaired speech reception, rather than against shared kidney, ear biology per se. A more plausible interpretation is that the observed epidemiological association may reflect shared developmental architecture, shared systemic pathophysiology, or horizontal pleiotropy, in which common biological mechanisms influence both organs independently [ 37 , 38 ]. This conceptual distinction is important for avoiding overinterpretation of either the developmental literature or the present MR findings. A major consideration in interpreting our results is the choice of auditory phenotype. SRT is a functionally relevant measure of hearing performance and is particularly attractive for large-scale genetic analyses because it is continuous, objectively derived, and available in large biobank resources. However, SRT reflects not only peripheral auditory sensitivity but also aspects of central auditory processing and cognition. This is especially relevant because CKD-related hearing impairment has often been described as predominantly high-frequency sensorineural hearing loss, likely involving peripheral cochlear structures such as the stria vascularis [ 39 ]. Since SRT primarily reflects speech-frequency performance, it may be relatively insensitive to isolated high-frequency deficits [ 40 ]. Accordingly, our findings should be interpreted specifically as showing no robust causal effect of kidney function traits on speech reception threshold, rather than excluding causal effects on all hearing phenotypes. Future MR studies incorporating frequency-specific pure-tone thresholds or other phenotypes more directly reflecting peripheral cochlear dysfunction are necessary to more definitively address this question. Our sensitivity analyses generally supported the robustness of the primary findings. MR-Egger intercept tests did not indicate clear directional horizontal pleiotropy, and MR-PRESSO-corrected estimates were largely consistent with the primary analyses. Nevertheless, heterogeneity was observed in selected exposure–outcome pairs, particularly BUN with right-ear SRT and eGFR with right-ear SRT. Such heterogeneity may reflect biological diversity of the selected instruments, phenotype complexity, non-directional pleiotropy, or analytic differences across SNPs rather than a single uniform mechanism. Therefore, the null findings for these specific pathways should be interpreted cautiously. Consequently, the null findings for right-ear SRT should be interpreted with greater caution than those for left-ear SRT, and the absence of heterogeneity for left-ear analyses provides stronger support for the null in that ear. At the same time, because the heterogeneity was not accompanied by consistent evidence of directional pleiotropy or material distortion after outlier correction, it does not provide strong support for an alternative causal interpretation. Another important point is that the exposure definitions used here may not capture all clinically relevant aspects of kidney dysfunction. CKD was modeled as a binary trait using a conventional threshold, which is clinically practical but may obscure non-linear effects or associations confined to more advanced disease stages. It is possible that auditory consequences, if present, emerge predominantly in severe CKD, dialysis-dependent disease, or subgroups with particularly high vascular, metabolic, or inflammatory burden, as recently demonstrated in a Turkish cohort of patients with CKD and systemic inflammatory disease [ 41 ]. Likewise, MR based on lifelong genetic predisposition may be less sensitive to short-term physiological interactions or acute pathological changes that affect both kidney and auditory function in clinical settings. For these reasons, the present null findings should not be interpreted as excluding all biologically meaningful kidney–hearing relationships. We also acknowledge several methodological limitations. First, complete exclusion of sample overlap between large consortia-based GWAS resources cannot be guaranteed. Although strong instrument strength reduces the risk of major weak-instrument bias, overlap remains a recognized limitation in two-sample MR and may affect precision or interpretation, particularly for near-threshold results [ 42 ]. Sample overlap, if present, would bias MR estimates toward the observational association; our null findings suggest this bias is not large enough to create a false positive, but it could contribute to type II error. Second, although we assessed pleiotropy and heterogeneity using multiple statistical approaches, the independence assumption of MR cannot be empirically verified with certainty using summary-level data alone. We note that while horizontal pleiotropy is a plausible conceptual explanation for our null findings, the MR-Egger intercept tests did not provide direct empirical evidence for its presence; thus, this interpretation remains inferential rather than demonstrative. Future work incorporating multivariable MR, frequency-specific hearing phenotypes, and more granular renal phenotypes may provide a more complete understanding of the kidney–hearing relationship. From a clinical perspective, our findings support the view that hearing impairment observed in CKD populations may be better understood as a marker of shared systemic disease burden rather than a simple direct consequence of reduced renal function alone. Aging, hypertension, diabetes, vascular injury, metabolic dysfunction, and inflammatory burden are all plausible contributors to the observed co-occurrence of renal dysfunction and hearing impairment. This interpretation does not diminish the clinical importance of hearing evaluation in patients with CKD; rather, it suggests that hearing abnormalities in these patients may reflect broader multisystem vulnerability and should be assessed within that context. In this two-sample Mendelian randomization study, we found no robust evidence supporting a direct causal effect of genetically predicted eGFR, CKD, or BUN on speech reception threshold. These findings suggest that the previously reported epidemiological association between kidney dysfunction and hearing impairment may be driven more by shared systemic, developmental, or environmental mechanisms than by a simple direct causal pathway from renal dysfunction to impaired speech reception. However, because SRT does not capture all aspects of auditory dysfunction, especially high-frequency peripheral hearing loss, our results should not be interpreted as excluding causal relationships with other hearing phenotypes. Future studies are encouraged to adopt comprehensive auditory assessments including high-frequency pure-tone average (4–8 kHz), distortion product otoacoustic emissions (DPOAEs), and word recognition scores, together with more refined renal phenotypes, multivariable MR, and bidirectional designs, to clarify the complex interplay between kidney and auditory health.",
+      "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CIT0001",
+      "label": "1",
+      "title": "Prioritising prevention of hearing loss",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "393",
+      "issue": "10174",
+      "fpage": "848",
+      "doi": "10.1016/S0140-6736(19)30403-9",
+      "pmid": "30837130"
+    },
+    {
+      "ref_id": "CIT0002",
+      "label": "2",
+      "year": "2021"
+    },
+    {
+      "ref_id": "CIT0003",
+      "label": "3",
+      "authors": [
+        "et al."
+      ],
+      "title": "Priorities for hearing loss prevention and estimates of global cause-specific burdens of hearing loss: a systematic rapid review",
+      "journal": "Lancet Glob Health",
+      "year": "2024",
+      "volume": "12",
+      "issue": "2",
+      "fpage": "e217",
+      "lpage": "e225",
+      "doi": "10.1016/S2214-109X(23)00514-4",
+      "pmid": "38245112"
+    },
+    {
+      "ref_id": "CIT0004",
+      "label": "4",
+      "title": "Hearing loss prevalence and years lived with disability, 1990-2019: findings from the Global Burden of Disease Study 2019",
+      "journal": "Lancet",
+      "year": "2021",
+      "volume": "397",
+      "issue": "10278",
+      "fpage": "996",
+      "lpage": "1009",
+      "pmid": "33714390",
+      "doi": "10.1016/S0140-6736(21)00516-X",
+      "pmc_id": "PMC7960691"
+    },
+    {
+      "ref_id": "CIT0005",
+      "label": "5",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association of hearing impairment and mortality in the national health and nutrition examination survey",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2015",
+      "volume": "141",
+      "issue": "10",
+      "fpage": "944",
+      "lpage": "946",
+      "doi": "10.1001/jamaoto.2015.1762",
+      "pmid": "26401904",
+      "pmc_id": "PMC4803066"
+    },
+    {
+      "ref_id": "CIT0006",
+      "label": "6",
+      "authors": [
+        "et al."
+      ],
+      "title": "A narrative review of lifestyle risk factors and the role of oxidative stress in age-related hearing loss",
+      "journal": "Antioxidants (Basel)",
+      "year": "2023",
+      "volume": "12",
+      "issue": "4",
+      "doi": "10.3390/antiox12040878",
+      "pmc_id": "PMC10135296",
+      "pmid": "37107253"
+    },
+    {
+      "ref_id": "CIT0007",
+      "label": "7",
+      "title": "Does cochlear implantation improve cognitive function?",
+      "journal": "Laryngoscope",
+      "year": "2019",
+      "volume": "129",
+      "issue": "10",
+      "fpage": "2208",
+      "lpage": "2209",
+      "doi": "10.1002/lary.28140",
+      "pmid": "31199514"
+    },
+    {
+      "ref_id": "CIT0008",
+      "label": "8",
+      "authors": [
+        "et al."
+      ],
+      "title": "A Lancet Commission to address the global burden of hearing loss",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "393",
+      "issue": "10186",
+      "fpage": "2106",
+      "lpage": "2108",
+      "doi": "10.1016/S0140-6736(19)30484-2",
+      "pmid": "30827785"
+    },
+    {
+      "ref_id": "CIT0009",
+      "label": "9",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association between speech reception threshold in noise and multimorbidity: the UK biobank study",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "170",
+      "issue": "2",
+      "fpage": "480",
+      "lpage": "489",
+      "doi": "10.1002/ohn.507",
+      "pmid": "37622533"
+    },
+    {
+      "ref_id": "CIT0010",
+      "label": "10",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association of polygenic risk scores for hearing difficulty in older adults with hearing loss in mid-childhood and midlife: a population-based cross-sectional study within the longitudinal study of Australian children",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "issue": "3",
+      "fpage": "204",
+      "lpage": "211",
+      "doi": "10.1001/jamaoto.2022.4466",
+      "pmid": "36701147",
+      "pmc_id": "PMC9880866"
+    },
+    {
+      "ref_id": "CIT0011",
+      "label": "11",
+      "authors": [
+        "et al."
+      ],
+      "title": "Kidney health for everyone everywhere-from prevention to detection and equitable access to care",
+      "journal": "Kidney Int Rep",
+      "year": "2020",
+      "volume": "5",
+      "issue": "3",
+      "fpage": "245",
+      "lpage": "251",
+      "doi": "10.1016/j.ekir.2020.01.023",
+      "pmid": "32154446",
+      "pmc_id": "PMC7056846"
+    },
+    {
+      "ref_id": "CIT0012",
+      "label": "12",
+      "authors": [
+        "et al."
+      ],
+      "title": "Investigating overall health and life quality of patients undergoing dialysis in chronic dialysis units: life quality of patients in dialysis units",
+      "journal": "HRJ",
+      "year": "2023",
+      "volume": "9",
+      "issue": "1",
+      "fpage": "23",
+      "lpage": "34",
+      "doi": "10.12681/healthresj.30770"
+    },
+    {
+      "ref_id": "CIT0013",
+      "label": "13",
+      "authors": [
+        "et al."
+      ],
+      "title": "Chronic kidney disease",
+      "journal": "Lancet",
+      "year": "2017",
+      "volume": "389",
+      "issue": "10075",
+      "fpage": "1238",
+      "lpage": "1252",
+      "doi": "10.1016/S0140-6736(16)32064-5",
+      "pmid": "27887750"
+    },
+    {
+      "ref_id": "CIT0014",
+      "label": "14",
+      "title": "Sensorineural hearing loss in patients with chronic kidney disease: a comprehensive review",
+      "journal": "Cureus",
+      "year": "2023",
+      "volume": "15",
+      "issue": "11",
+      "fpage": "e48244",
+      "doi": "10.7759/cureus.48244",
+      "pmid": "38054127",
+      "pmc_id": "PMC10694477"
+    },
+    {
+      "ref_id": "CIT0015",
+      "label": "15",
+      "title": "Otorhinolaryngological dysfunctions induced by chronic kidney disease in pre- and post-transplant stages",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2020",
+      "volume": "277",
+      "issue": "6",
+      "fpage": "1575",
+      "lpage": "1591",
+      "doi": "10.1007/s00405-020-05925-9",
+      "pmid": "32222803",
+      "pmc_id": "PMC7198632"
+    },
+    {
+      "ref_id": "CIT0016",
+      "label": "16",
+      "authors": [
+        "et al."
+      ],
+      "title": "A systematic review on hearing and balance in patients with chronic kidney disease with and without hemodialysis",
+      "journal": "Indian J Otolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "76",
+      "issue": "4",
+      "fpage": "2939",
+      "lpage": "2947",
+      "doi": "10.1007/s12070-024-04586-y",
+      "pmid": "39130234",
+      "pmc_id": "PMC11306716"
+    },
+    {
+      "ref_id": "CIT0017",
+      "label": "17",
+      "authors": [
+        "et al."
+      ],
+      "title": "Association between hearing loss, tinnitus, and chronic kidney disease: the NHANES 2015-2018",
+      "journal": "Front Med (Lausanne)",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1426609",
+      "doi": "10.3389/fmed.2024.1426609",
+      "pmid": "39099598",
+      "pmc_id": "PMC11294234"
+    },
+    {
+      "ref_id": "CIT0018",
+      "label": "18",
+      "title": "The multifaceted links between hearing loss and chronic kidney disease",
+      "journal": "Nat Rev Nephrol",
+      "year": "2024",
+      "volume": "20",
+      "issue": "5",
+      "fpage": "295",
+      "lpage": "312",
+      "doi": "10.1038/s41581-024-00808-2",
+      "pmid": "38287134"
+    },
+    {
+      "ref_id": "CIT0019",
+      "label": "19",
+      "authors": [
+        "et al."
+      ],
+      "title": "The association between reduced kidney function and hearing loss: a cross-sectional study",
+      "journal": "BMC Nephrol",
+      "year": "2020",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "145",
+      "doi": "10.1186/s12882-020-01810-z",
+      "pmid": "32321468",
+      "pmc_id": "PMC7178984"
+    },
+    {
+      "ref_id": "CIT0020",
+      "label": "20",
+      "authors": [
+        "et al."
+      ],
+      "title": "The association between reduced GFR and hearing loss: a cross-sectional population-based study",
+      "journal": "Am J Kidney Dis",
+      "year": "2010",
+      "volume": "56",
+      "issue": "4",
+      "fpage": "661",
+      "lpage": "669",
+      "doi": "10.1053/j.ajkd.2010.05.015",
+      "pmid": "20673695"
+    },
+    {
+      "ref_id": "CIT0021",
+      "label": "21",
+      "authors": [
+        "et al."
+      ],
+      "title": "Estimated Glomerular filtration rate, albuminuria, and adverse outcomes: an individual-participant data meta-analysis",
+      "journal": "JAMA",
+      "year": "2023",
+      "volume": "330",
+      "issue": "13",
+      "fpage": "1266",
+      "lpage": "1277",
+      "pmid": "37787795",
+      "doi": "10.1001/jama.2023.17002",
+      "pmc_id": "PMC10548311"
+    },
+    {
+      "ref_id": "CIT0022",
+      "label": "22",
+      "authors": [
+        "et al."
+      ],
+      "title": "Blood urea nitrogen is independently associated with renal outcomes in Japanese patients with stage 3-5 chronic kidney disease: a prospective observational study",
+      "journal": "BMC Nephrol",
+      "year": "2019",
+      "volume": "20",
+      "issue": "1",
+      "fpage": "115",
+      "doi": "10.1186/s12882-019-1306-1",
+      "pmid": "30940101",
+      "pmc_id": "PMC6444850"
+    },
+    {
+      "ref_id": "CIT0023",
+      "label": "23",
+      "title": "Expressing results from a mendelian randomization analysis: separating results from inferences",
+      "journal": "JAMA Cardiol",
+      "year": "2021",
+      "volume": "6",
+      "issue": "1",
+      "fpage": "7",
+      "lpage": "8",
+      "doi": "10.1001/jamacardio.2020.4317",
+      "pmid": "32965465",
+      "pmc_id": "PMC7614015"
+    },
+    {
+      "ref_id": "CIT0024",
+      "label": "24",
+      "title": "Heterogeneity between genetic variants as a proxy for pleiotropy in mendelian randomization-reply",
+      "journal": "JAMA Cardiol",
+      "year": "2020",
+      "volume": "5",
+      "issue": "1",
+      "fpage": "108",
+      "doi": "10.1001/jamacardio.2019.4284",
+      "pmid": "31693063"
+    },
+    {
+      "ref_id": "CIT0025",
+      "label": "25",
+      "authors": [
+        "et al."
+      ],
+      "title": "A new equation to estimate glomerular filtration rate",
+      "journal": "Ann Intern Med",
+      "year": "2009",
+      "volume": "150",
+      "issue": "9",
+      "fpage": "604",
+      "lpage": "612",
+      "doi": "10.7326/0003-4819-150-9-200905050-00006",
+      "pmid": "19414839",
+      "pmc_id": "PMC2763564"
+    },
+    {
+      "ref_id": "CIT0026",
+      "label": "26",
+      "authors": [
+        "et al."
+      ],
+      "title": "Improved equations estimating GFR in children with chronic kidney disease using an immunonephelometric determination of cystatin C",
+      "journal": "Kidney Int",
+      "year": "2012",
+      "volume": "82",
+      "issue": "4",
+      "fpage": "445",
+      "lpage": "453",
+      "doi": "10.1038/ki.2012.169",
+      "pmid": "22622496",
+      "pmc_id": "PMC3433576"
+    },
+    {
+      "ref_id": "CIT0027",
+      "label": "27",
+      "authors": [
+        "et al."
+      ],
+      "title": "A catalog of genetic loci associated with kidney function from analyses of a million individuals",
+      "journal": "Nat Genet",
+      "year": "2019",
+      "volume": "51",
+      "issue": "6",
+      "fpage": "957",
+      "lpage": "972",
+      "pmid": "31152163",
+      "doi": "10.1038/s41588-019-0407-x",
+      "pmc_id": "PMC6698888"
+    },
+    {
+      "ref_id": "CIT0028",
+      "label": "28",
+      "authors": [
+        "et al."
+      ],
+      "title": "Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases",
+      "journal": "Nat Genet",
+      "year": "2018",
+      "volume": "50",
+      "issue": "5",
+      "fpage": "693",
+      "lpage": "698",
+      "doi": "10.1038/s41588-018-0099-7",
+      "pmid": "29686387",
+      "pmc_id": "PMC6083837"
+    },
+    {
+      "ref_id": "CIT0029",
+      "label": "29",
+      "title": "Mendelian randomization analysis with multiple genetic variants using summarized data",
+      "journal": "Genet Epidemiol",
+      "year": "2013",
+      "volume": "37",
+      "issue": "7",
+      "fpage": "658",
+      "lpage": "665",
+      "doi": "10.1002/gepi.21758",
+      "pmid": "24114802",
+      "pmc_id": "PMC4377079"
+    },
+    {
+      "ref_id": "CIT0030",
+      "label": "30",
+      "title": "Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression",
+      "journal": "Int J Epidemiol",
+      "year": "2015",
+      "volume": "44",
+      "issue": "2",
+      "fpage": "512",
+      "lpage": "525",
+      "doi": "10.1093/ije/dyv080",
+      "pmid": "26050253",
+      "pmc_id": "PMC4469799"
+    },
+    {
+      "ref_id": "CIT0031",
+      "label": "31",
+      "authors": [
+        "et al."
+      ],
+      "title": "Consistent estimation in mendelian randomization with some invalid instruments using a weighted median estimator",
+      "journal": "Genet Epidemiol",
+      "year": "2016",
+      "volume": "40",
+      "issue": "4",
+      "fpage": "304",
+      "lpage": "314",
+      "doi": "10.1002/gepi.21965",
+      "pmid": "27061298",
+      "pmc_id": "PMC4849733"
+    },
+    {
+      "ref_id": "CIT0032",
+      "label": "32",
+      "title": "Robust inference in summary data Mendelian randomization via the zero modal pleiotropy assumption",
+      "journal": "Int J Epidemiol",
+      "year": "2017",
+      "volume": "46",
+      "issue": "6",
+      "fpage": "1985",
+      "lpage": "1998",
+      "doi": "10.1093/ije/dyx102",
+      "pmid": "29040600",
+      "pmc_id": "PMC5837715"
+    },
+    {
+      "ref_id": "CIT0033",
+      "label": "33",
+      "title": "The kidney and ear: emerging parallel functions",
+      "journal": "Annu Rev Med",
+      "year": "2009",
+      "volume": "60",
+      "issue": "1",
+      "fpage": "339",
+      "lpage": "353",
+      "doi": "10.1146/annurev.med.60.052307.120752",
+      "pmid": "18976115"
+    },
+    {
+      "ref_id": "CIT0034",
+      "label": "34",
+      "title": "Shared features in ear and kidney development - implications for oto-renal syndromes",
+      "journal": "Dis Model Mech",
+      "year": "2024",
+      "volume": "17",
+      "issue": "2",
+      "doi": "10.1242/dmm.050447",
+      "pmc_id": "PMC10886756",
+      "pmid": "38353121"
+    },
+    {
+      "ref_id": "CIT0035",
+      "label": "35",
+      "authors": [
+        "et al."
+      ],
+      "title": "Eya1 expression in the developing ear and kidney: towards the understanding of the pathogenesis of Branchio-Oto-Renal (BOR) syndrome",
+      "journal": "Dev Dyn",
+      "year": "1998",
+      "volume": "213",
+      "issue": "4",
+      "fpage": "486",
+      "lpage": "499",
+      "doi": "10.1002/(SICI)1097-0177(199812)213:4<486::AID-AJA13>3.0.CO;2-L",
+      "pmid": "9853969"
+    },
+    {
+      "ref_id": "CIT0036",
+      "label": "36",
+      "authors": [
+        "et al."
+      ],
+      "title": "The role of Pax2 in mouse inner ear development",
+      "journal": "Dev Biol",
+      "year": "2004",
+      "volume": "272",
+      "issue": "1",
+      "fpage": "161",
+      "lpage": "175",
+      "doi": "10.1016/j.ydbio.2004.04.024",
+      "pmid": "15242798"
+    },
+    {
+      "ref_id": "CIT0037",
+      "label": "37",
+      "authors": [
+        "et al."
+      ],
+      "title": "Alport syndrome",
+      "journal": "Adv Kidney Dis Health",
+      "year": "2024",
+      "volume": "31",
+      "issue": "3",
+      "fpage": "170",
+      "lpage": "179",
+      "doi": "10.1053/j.akdh.2024.02.004",
+      "pmid": "39004457"
+    },
+    {
+      "ref_id": "CIT0038",
+      "label": "38",
+      "authors": [
+        "et al."
+      ],
+      "title": "Hereditary kidney disease with auditory abnormalities: analysis of mutations and clinical phenotypes",
+      "journal": "BMC Med Genomics",
+      "year": "2025",
+      "volume": "18",
+      "issue": "1",
+      "fpage": "116",
+      "doi": "10.1186/s12920-025-02178-5",
+      "pmid": "40660297",
+      "pmc_id": "PMC12257844"
+    },
+    {
+      "ref_id": "CIT0039",
+      "label": "39",
+      "authors": [
+        "et al."
+      ],
+      "title": "Hypoacusia and chronic renal dysfunction: new etiopathogenetic prospective",
+      "journal": "Ther Apher Dial",
+      "year": "2015",
+      "volume": "19",
+      "issue": "2",
+      "fpage": "111",
+      "lpage": "118",
+      "doi": "10.1111/1744-9987.12232",
+      "pmid": "25257372"
+    },
+    {
+      "ref_id": "CIT0040",
+      "label": "40",
+      "authors": [
+        "et al."
+      ],
+      "title": "Prediction of the pure-tone average from the speech reception and auditory brainstem response thresholds in a geriatric population",
+      "journal": "ORL J Otorhinolaryngol Relat Spec",
+      "year": "2008",
+      "volume": "70",
+      "issue": "6",
+      "fpage": "366",
+      "lpage": "372",
+      "doi": "10.1159/000163032",
+      "pmid": "18984972"
+    },
+    {
+      "ref_id": "CIT0041",
+      "label": "41",
+      "authors": [
+        "et al."
+      ],
+      "title": "Real-world insights from Türkiye: biologic DMARDs usage in spondyloarthritis patients with chronic kidney disease",
+      "journal": "Int J Rheum Dis",
+      "year": "2025",
+      "volume": "28",
+      "issue": "5",
+      "fpage": "e70274",
+      "doi": "10.1111/1756-185X.70274",
+      "pmid": "40358366",
+      "pmc_id": "PMC12071336"
+    },
+    {
+      "ref_id": "CIT0042",
+      "label": "42",
+      "title": "Bias due to participant overlap in two-sample Mendelian randomization",
+      "journal": "Genet Epidemiol",
+      "year": "2016",
+      "volume": "40",
+      "issue": "7",
+      "fpage": "597",
+      "lpage": "608",
+      "doi": "10.1002/gepi.21998",
+      "pmid": "27625185",
+      "pmc_id": "PMC5082560"
+    }
+  ]
+}

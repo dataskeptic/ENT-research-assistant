@@ -1,0 +1,1748 @@
+{
+  "metadata": {
+    "title": "C-terminal interleukin 1 alpha (IL-1α) overexpression drives EMT and a vulnerability to ferroptosis in HNSCC",
+    "authors": [
+      "Ishrat Nourin Khan",
+      "Krishna Awasthi",
+      "Ziyu Wang",
+      "Nafis Md Irfan",
+      "Jay Saepoo",
+      "Joan N. Whittier",
+      "Nurgul Koyuncu",
+      "Md Roman Mogal",
+      "M.M. Hasibuzzaman",
+      "Shujie Yang",
+      "Michael Petronek",
+      "Andrean L. Simons"
+    ],
+    "journal": "Redox Biology",
+    "year": "2026",
+    "doi": "10.1016/j.redox.2026.104172",
+    "pmc_id": "PMC13122707",
+    "pmid": "42013543",
+    "full_text_available": true,
+    "section_count": 18,
+    "reference_count": 80
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "High tumor expression of the cytokine interleukin-1 alpha (IL-1α) is associated with an aggressive tumor phenotype and poor clinical outcomes in head and neck squamous cell carcinoma (HNSCC). However, the mechanism behind IL-1α-induced tumor aggressiveness is unclear. The goal of this work is to investigate the biological consequences of increased IL-1α in HNSCC cells. Three IL1A constructs (Full-length, N-terminal, and C-terminal [CT]) were transduced into Cal27 HNSCC cells and validated for IL-1α expression. Differences in cell survival, metabolic profiling, epithelial-to-mesenchymal transition (EMT), oxidative stress parameters and response to therapy were compared among the parental and IL-1α overexpressing cell lines. Overexpression of CT IL-1α (but not the other constructs) led to increased cell proliferation, membrane fluidity, hydroperoxide production, intracellular iron and lipid peroxidation, EMT changes, and a shift toward glutamate utilization compared to control cell lines. Finally, CT IL-1α cells (but not the other constructs) were highly sensitive to the ferroptosis inducer RSL3. Together this work suggests that increased tumor IL-1α expression triggers a shift toward an oxidative and ferroptotic environment, leading to an aggressive tumor phenotype and drug resistance; but also reveals a unique vulnerability to agents that induce ferroptosis.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Most head and neck squamous cell carcinoma (HNSCC) patients present with advanced locoregional disease at diagnosis and remain at a high risk of developing secondary tumors despite achieving local control with radiotherapy and systemic chemotherapy [ 1 , 2 ]. The primary disease-related mortality in HNSCC patients is due to locoregional failure [ [1] , [2] , [3] ], and these failures arise from biologically aggressive tumor cell subpopulations that promote immune evasion, drug resistance and radio-resistance. There have been major advances in genomic profiling for HNSCC patients [ 4 , 5 ], however predictive biomarkers for treatment response remain limited. Therefore, there is a strong need to identify functional biomarkers that capture tumor behavior and guide precision treatment strategies for this disease. Unlike other solid tumors, where actionable mutations or robust immune signatures can guide therapy selection (e.g. non-small cell lung cancer, melanoma, breast cancer, colorectal cancer), most HNSCC patients are treated without reliable biomarkers to predict response, resistance, or toxicity. Human papilloma virus (HPV)-positivity, which is prevalent in oropharyngeal squamous cell carcinomas (OPSCCs), provides important prognostic information and is a general indicator of radio-sensitivity [ 6 ], but offers limited predictive value for therapeutic decision-making [ 7 , 8 ]. Epidermal growth factor receptor (EGFR) expression is a prognostic factor for tumor recurrence in HNSCC patients treated with surgery and postoperative radiotherapy [ 9 ], but does not predict response to EGFR inhibitors [ 9 , 10 ]. PD-L1 expression is an important predictor of response to anti-PD1/PDL1 agents [ 11 ] but is limited by intratumoral and intertumoral heterogeneity [ 12 ], dynamic tumor expression over time [ 13 ], assay and scoring variability [ 14 ], and response rates to immunotherapy are modest (15-20%) even in PD-L1 high tumors [ 15 ]. As a result, more work should be carried out to identify effective predictive biomarkers to accurately predict therapeutic outcomes for HNSCC. Our previous work and others have shown that high tumor expression of interleukin-1 alpha (IL-1α) is associated with aggressive tumor behavior and poor clinical outcomes across multiple cancer types including HNSCC [ [16] , [17] , [18] , [19] , [20] ]. As a dual function cytokine, IL-1α plays a central role in immune and inflammatory responses. IL-1α binds to IL-1 receptor type I (IL-1R1) which forms a complex with the IL-1 receptor accessory protein (IL-1RAP) leading to the recruitment of myeloid differentiation primary response gene 88 (MyD88), IL-1 receptor-associated kinases (IRAKs) and tumor necrosis factor receptor-associated factor 6 (TRAF6) [ 21 ]. This signaling triggers the activation of the nuclear factor-kappa B (NFκB) and mitogen-activated protein kinase (MAPK) pathways resulting in the expression of IL-1 target genes. Tumor-specific IL-1 signaling activates pathways leading to the expression of numerous pro-inflammatory cytokines which promote and sustain tumor survival contributing to poor drug response [ 22 ]. IL-1α has been previously associated with antiapoptotic signals [ 23 ], angiogenesis [ 24 ], migration and metastasis [ 25 ], stemness [ 26 ] and modulation of the tumor microenvironment (TME) including activation of stromal cells [ 27 ] and immunosuppression [ 28 , 29 ]. In HNSCCs, elevated tumor IL-1α gene expression was found to correlate with increased risk of distant metastasis and significantly worse distant metastasis–free survival [ 16 ]. Increased IL-1α protein expression was associated with tumor aggressiveness and reduced overall survival [ 30 , 31 ]. Our previous work in oral squamous cell carcinoma (OSCC) has shown that tumor IL-1α protein expression was a strong indicator of tumor recurrence in EGFR-positive OSCC patients [ 32 ]. Beyond HNSCC, high IL-1α gene/protein expression has similarly been linked to poor overall survival in renal cell carcinoma [ 33 ] and bladder cancer [ 34 ], further supporting its adverse prognostic significance. Despite the prognostic potential of IL-1α expression in HNSCCs, the mechanism behind the ability of IL-1α to increase tumor aggressiveness is not clear. It is well established that IL-1α exists as a full-length 31 kDa protein that can be cleaved into C-terminal 17 kDa IL-1α and a 16 kDa N-terminal fragment [ 35 , 36 ]. Here we overexpressed these three IL-1α constructs (full-length [FL], N-terminal [NT], and C-terminal [CT]) in the Cal27 HNSCC cell line and conducted a series of experiments to understand the biological consequences of increased IL-1α expression. We found that overexpression of the CT IL-1α (but not the other constructs) led to the development of a ferroptotic environment and epithelial to mesenchymal transition (EMT) leading to a more aggressive and therapy-resistant phenotype. This work suggests that high IL-1α expressing tumors may be uniquely sensitive to ferroptosis-inducing agents and lays the foundation for additional work investigating the predictive value of tumor-derived IL-1α.",
+      "order": 1
+    },
+    {
+      "section": "Gene Expression Database Sources",
+      "text": "Pan cancer IL1A gene expression data was accessed and downloaded through the UALCAN (University of Alabama at Birmingham Cancer Data Analysis Portal) web tool ( http://ualcan.path.uab.edu/analysis.html ) [ 37 , 38 ], which facilitates user-friendly access to TCGA data for analyses of gene expression profiles and select associated clinical characteristics. IL1A expression levels were compared between HNSCC tumor and normal tissue samples. A dataset of gene expression of 604 HNSCC samples (GDC TCGA Head and Neck Cancer (HNSC) along with the corresponding clinical outcomes were downloaded from The Cancer Genome Atlas (TCGA) using Xena Functional Genomics Explorer ( https://xenabrowser.net/ , University of California, Santa Cruz). Patients were divided into quartiles according to their IL1A gene expression levels and labeled as ‘high’ (n = 140) and ‘low’ (n = 142) IL1A gene expression. The two gene expression groups were analyzed for differences in overall survival using Kaplan-Meier curves.",
+      "order": 2
+    },
+    {
+      "section": "Cell Lines And Reagents",
+      "text": "Cal27 cell line was obtained from American Type Culture Collection (ATCC, CRL-2095) and was cultured in high glucose Dulbecco's Modified Eagle's Medium (DMEM) containing 4 mM l -glutamine, 4.5 g/L glucose with 10% Fetal Bovine Serum (FBS) and 0.1% gentamycin solution. Cell cultures were maintained in a 5% CO 2 incubator at 37 °C and 95% humidity. Parental and IL-1α-overexpressing Cal27 cell lines were stored according to the supplier's instructions and the cell line was subcultured every 3–4 days using trypsin-EDTA. When necessary, the cells were collected with trypsin-EDTA and counted using a coulter counter Z1 series (Beckman Coulter, Brea, CA). Erlotinib, RSL3 (ras-selective lethal 3), and ferrostatin 1 (Fer-1) were purchased from Cayman chemical (MI, USA). Afatinib, osimertinib and silivertinib (BDTX-1535) were from MedchemExpress (NJ, USA).",
+      "order": 3
+    },
+    {
+      "section": "Lentiviral Transduction",
+      "text": "Lentiviral expression plasmids encoding full-length human interleukin-1 alpha ( IL1A ; amino acids 1–271) was generated in the pGenLenti backbone by GenScript (NJ, USA) using CloneEZ cloning (WT full-length IL-1A [1-271 aa] pGenLenti). Two additional IL1A constructs were derived from the full-length IL1A pGenLenti plasmid by site-directed mutagenesis to express the N-terminal IL1A (aa 1-112) and the C-terminal IL1A (aa 113-271). These fragments were generated using Nhe I and Pme I restriction sites according to vendor specifications. The control pGenLenti empty vector was generated in parallel and used as a negative control. Lentiviral transduction with the plasmids was performed by transfecting Lenti-X™ 293T lentiviral packaging cells (Takara Bio, USA) with 10 μg of plasmid DNA. Transfection was done using Lipofectamine Reagent and Plus Reagent (Invitrogen, Life Technologies, Carlsbad, CA, USA) according to manufacturer's instructions. Supernatant was collected at 48 and 72 h after transfection, filtered with 0.45 μm filters and supplemented with 8 μg/mL polybrene (Invitrogen, Life Technologies, Carlsbad, CA, USA). Serial transductions (48 and 72-h supernatants) were applied to Cal27 cells for 8 h. Pooled stable lines were generated by selecting with puromycin for one week.",
+      "order": 4
+    },
+    {
+      "section": "Quantitative Real-Time (Reverse Transcription) Pcr",
+      "text": "IL-1α overexpressed Cal27 cells were seeded in 100 mm dishes (2 x 10 6 cells/dish) and cultured for 48 h before isolating total RNA using RNeasy Plus mini kit (QIAGEN, Hilden, Germany) as per the manufacturer's protocol. The RNA purity was measured by NanoDrop (Thermo Fisher Scientific, Waltham, MA, USA). One μg of RNA was reverse-transcribed into cDNA using the iScript cDNA Synthesis kit (Bio-Rad Laboratories, Hercules, CA, USA). Target gene expression ( Supplementary Table 1 ) was assessed by qRT-PCR reaction containing iTaq Universal SYBR Green Supermix (Bio-Rad). qRT-PCR was performed using the QuantStudio 3 real-time PCR system (Thermo Fisher Scientific). Target genes were normalized to the housekeeping gene GAPDH and change in gene expression was determined using the delta delta cycle threshold (ΔΔCt) method. Each assay was performed in triplicate and results were presented as mean ± standard error of mean.",
+      "order": 5
+    },
+    {
+      "section": "Elisa And Western Blotting",
+      "text": "Cell culture media from IL-1α overexpressed Cal27 cells were collected for analyzing the levels of IL-1α, IL-1β, IL-6, IL-8 or IL-1RA using Human Duo Set ELISA kits (R&D Systems, Minneapolis, MN) according to the manufacturer's protocols. Colorimetric analyses were done using a Synergy H1 Hybrid Multi-Mode Reader (BioTek, Winooski, VT). For Western blot, whole cells were lysed in the RIPA lysis buffer (Thermo Fisher) whereas the cytoplasmic and nuclear fractions were extracted using NE-PER™ Nuclear and Cytoplasmic Extraction Reagents (Thermo Fisher). Protein concentration was measured using the Bradford assay, and 20–50 μg of protein per sample was loaded onto a NuPage 4-12% Bis Tris gel (Thermo Fisher). After transfer to nitrocellulose membranes (Invitrogen), separated proteins were probed with selected primary antibodies (listed in Supplementary Table 2 ), followed by Anti-rabbit IgG HRP-linked antibody or Anti-mouse IgG, HRP-linked antibody (Cell signaling) secondary antibodies (dilution 1:5000). Images were acquired using the ChemiDoc Imaging Systems (BioRad), and signals from 3 biological replicates were quantified by densitometry relative to the housekeeping proteins α-tubulin or GAPDH, using the Image Lab™ Software (Bio-Rad)",
+      "order": 6
+    },
+    {
+      "section": "Cell Proliferation And Survival Analysis",
+      "text": "Cell proliferation was determined using the Coulter counter Z1 series (Beckman). The cells were seeded in 6 well plates (2 x 10 5 cells/well) and were counted every 24 h for 72 h, and the obtained results were analyzed using the GraphPad prism v 10.6.1 (GraphPad Software, San Diego, CA, USA). Cell viability (MTT) assays were carried out in 96-well plates (Corning) and in each well 5000 cells were plated and harvested overnight. After drug treatment (48h), cell media was removed, and cells were rinsed with 1X PBS then 100 μl MTT (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) (Tocris Bioscience, Bristol, UK; Cat. No. 5224) solution (1 mg/mL in clear medium without serum and phenol red) was added to each well and the plates were incubated at 37 °C for 1-4 h. During the incubation, the active enzymes of the viable cells transformed the yellow MTT into purple formazan crystals. The MTT solution was then removed and DMSO was added to each well to dissolve the formazan crystals. The absorbance of the solution was determined at 570 nm by using a Synergy H1 Hybrid Multi-Mode Reader (BioTek, Winooski, VT). For clonogenic assays, a total of 1 × 10 5 cells were seeded into 60 mm dishes and allowed to grow for 24 h. Cells were then treated with RSL3 at final concentrations of 0.5 μM or 1 μM or with control (DMSO), for 24 h. After treatment cells were collected by trypsinization, and pelleted (1200 rpm for 5 min). Cell pellets were then resuspended in fresh medium, and the total cell population was determined using a Coulter Counter (Beckman). Cells were re-plated in six-well plates in specific dilutions and were allowed to form colonies over 12–14 days in complete medium supplemented with 0.1% gentamycin. At the end of the incubation period, colonies were fixed with 70% ethanol for 5 min and stained with Coomassie blue solution (0.4 w/v in a 1:4:1 mixture of methanol, water and acetic acid). Only colonies consisting of more than 50 cells were counted. Surviving fractions were determined by normalizing the plating efficiencies (Number of colonies observed/Number of cells plated × 100) of treated groups to the corresponding untreated control group.",
+      "order": 7
+    },
+    {
+      "section": "Apoptosis Assays",
+      "text": "Cellular apoptosis was evaluated using the Annexin V-FITC Apoptosis Detection Kit (ab14085, Abcam) according to the manufacturer's guidelines. IL-1α-overexpressing Cal27 cells were treated with RAS-selective lethal 3 (RSL3, 1 μM) with or without pretreatment (45 min) with Ferrostatin-1 (Fer-1, 2 μM). DMSO was used as a vehicle control. Cells were the washed twice with PBS and resuspended in 500 μl 1X Annexin V binding buffer followed by incubation with Annexin V-FITC and propidium iodide (PI) for 15 min in the dark at room temperature. Samples were then analyzed in flow cytometry (Attune NxT Acoustic Focusing Cytometer, Thermo Fisher Scientific). Percentage of cells that were viable, in early or late apoptosis, or necrotic were evaluated using Annexin V and P staining. Analysis was done using FlowJo software (v10; FlowJo LLC, Ashland, OR, USA).",
+      "order": 8
+    },
+    {
+      "section": "Membrane Fluidity Assay",
+      "text": "Membrane fluidity of the IL-1α overexpressed Cal27 cells were evaluated using the membrane fluidity kit (ab189819, Abcam, Cambridge, UK) as per manufacturer's instructions. Cells were incubated for 1 h at 25 °C in the dark with the fluorescent lipid reagent pyrenedecanoic acid (PDA) (5 μM) with 0.08 % Pluronic F127. Cells were then washed with PBS, trypsinized, and centrifuged to collect the stained cell pellets and flow cytometry analysis were performed on an LSR II Flow Cytometer (BD Biosciences). Fluorescence was monitored with 405 nm filter for monomers and 460 nm filter for excimer fluorescence. The ratio of excimer to monomer fluorescence was used to calculate the relative membrane fluidity.",
+      "order": 9
+    },
+    {
+      "section": "Rna Sequencing And Metabolomics",
+      "text": "Targeted reverse phase (RP) liquid chromatography (LC)-mass spectrometry (MS) metabolite analysis was performed by the Northwest Metabolomics Research Center following published protocols (University of Washington, Seattle, Washington) [ 39 , 40 ] to quantify 372 metabolites in the IL-1α-overexpressing Cal27 cells. A total of 200 metabolites were measured across study set and the relative metabolites intensities were analyzed using MetaboAnalyst 5.0. RNA sequencing of the IL-1α overexpressing cell lines was performed by the Novogene (Sacramento, CA, USA). RNA was extracted from the cells using the RNeasy Plus Mini kit (Qiagen) and mRNA library was prepared using poly A enrichment. Human mRNA Sequencing was performed on an Illumina NovaSeq X Plus platform using 150 bp paired end reads. Data analysis was performed using NovoMagic (Novogene).",
+      "order": 10
+    },
+    {
+      "section": "In Vivo Tumor Formation",
+      "text": "Female NU/J mice (4-6 weeks old, Strain #002019; The Jackson Laboratory) were housed in the Animal Care Facility at the University of Iowa. They were handled with aseptic procedures and were allowed to acclimate for at least 7 days before handling. Food and water were readily accessible to the mice. All animal procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at the University of Iowa and adhered to the guidelines set by the National Institutes of Health. The IL-1α overexpressed Cal27 HNSCC cell lines (1 × 10 6 cells/100 μL PBS) were inoculated subcutaneously into the right flank of each animal. Time to tumor formation was recorded when tumors became palpable (∼3-4 mm in any direction). Tumor measurements (using Vernier calipers) were evaluated, and tumor volumes were calculated using the formula: tumor volume = (length × width2)/2, where length is the longest dimension and width is the dimension perpendicular to the length. Mice were euthanized by CO 2 gas asphyxiation when the tumor size exceeded 15 mm in any dimension.",
+      "order": 11
+    },
+    {
+      "section": "Intracellular Prooxidant Analyses",
+      "text": "Intracellular reactive oxygen species (ROS) levels were evaluated by the 5-(and-6)-carboxy-2′,7′-dichlorodihydrofluorescein diacetate (DCFDA/H2DCFDA) Cellular ROS Assay Kit (ab113851, Abcam, Cambridge, UK) according to the manufacturer's guidelines. IL-1α overexpressing Cal27 cells were seeded in 100 mm dishes at a density of 5 x 10 5 cells/dish and cultured for 48 h. Cells were then tripsinized, washed with PBS resuspended in FACS tube and stained with freshly prepared DCFDA working solution (20 μM) for 30 min at 37 °C and 5% CO 2 in the dark. Cells were immediately analyzed by flow cytometry (Attune NxT Acoustic Focusing Cytometer, Thermo Fisher Scientific) using excitation/emission settings 488/535 nm. Appropriate unstained control samples were included to establish baseline fluorescence. ROS levels were quantified as the mean fluorescence intensity (MFI, geometric mean) using FlowJo software (v10; FlowJo LLC) in the gated 10,000 live cell population. Lipid peroxidation was assessed using the BODIPY 581/591 C11 fluorescent probe. Control and drug-treated cells were stained with BODIPY 581/591 C11 (2 μM in PBS + 1% FBS) for 30 min at 37 °C in the dark, pelleted (300× g , 5 min), washed twice, and stained with Zombie Violet viability dye (1:200 dilution) for 15 min at room temperature. Cells were washed twice, resuspended in 300 μL of PBS +1% FBS, and analyzed using flow cytometry (Attune NxT Acoustic Focusing Cytometer, Thermo Fisher Scientific)",
+      "order": 12
+    },
+    {
+      "section": "Intracellular Iron Analyses",
+      "text": "Cytoplasmic Fe2+ levels were evaluated using FerroOrange (Cell Signaling Technology, Danvers, MA, USA; Cat. No. 36104S) fluorescent probe. Cells were seeded at 1x10 5 density in a black plate with glass bottom. After removing the supernatant media, the cells were washed three times with serum-free medium. A working solution of 1 μmol/L FerroOrange fluorescent probe, prepared in serum-free medium, was then added to the cells. The cells were incubated at 37 °C in dark for 30 min. The cells were observed, and images were acquired using a fluorescence microscope at excitation/emission maxima of 543/580 nm. The fluorescence intensity of FerroOrange was quantified using ImageJ software/9 (National Institutes of Health, Bethesda, MD, USA).",
+      "order": 13
+    },
+    {
+      "section": "Statistical Analyses",
+      "text": "Survival outcome differences were plotted using the Kaplan-Meier method and hazard ratios were estimated using Cox proportional hazards modeling. Overall survival (OS) was defined as the length of time (in months) from the date of surgery to the date of death from any cause. One-and two-way Anova followed by Tukey post hoc test was performed to assess the mean differences between groups for one or multiple variables. For the in vitro studies, changes in tumor cell growth were analyzed using linear regression model. All the statistical analysis was carried out using GraphPad Prism V.10.6.1 for Windows (GraphPad Software, San Diego, California, USA) and statistical significance was defined as p < 0.05.",
+      "order": 14
+    },
+    {
+      "section": "Results",
+      "text": "Increased IL1A is associated with poor survival in HNSCC patients. Analysis of TCGA mRNA gene expression data using the UALCAN database showed that when compared with corresponding normal tissue, higher IL1A transcript levels were observed in the majority of cancer types, including bladder urothelial carcinoma (BLCA); cervical squamous cell carcinomas (CESC), cholangiocarcinoma (CHOL); colon adenocarcinoma (COAD); esophageal carcinoma (ESCA), HNSCC and others using pan-cancer comparison ( Fig. 1 ). Of these cancers, HNSCCs ranked the highest in IL1A expression ( Fig. 1 ) and survival rates of high IL1A expression patients (median survival = 28.3 months) were significantly lower than those of the low IL1A expression patients (median survival = 68.5 months, p = 0.013 Fig. 1 inset). These data support previous data proposing IL1A as a prognostic factor in HNSCC. Characterization of IL-1α overexpression constructs in Cal27 HNSCC cells. Validation of IL1A overexpression in the Cal27 cells (FL, NT, CT) by PCR showed that full-length IL1A was increased 3.4 fold in FL cells (although not statistically significant (p = 0.09) ( Fig. 2 A); N-terminal IL1A was significantly increased 7.5 fold (p < 0.0001) in NT cells ( Fig. 2 B); and C-terminal IL1A was significantly increased 8.7 (p = 0.0097) fold in CT cells ( Fig. 2 C) compared to control (CTL). CT cells also showed a significant increase in full-length IL1A compared to both the CTL (p < 0.0001) and FL cells (p = 0.0003) ( Fig. 2 A) and a dramatic (but not significant, p = 0.57) decrease in N-terminal IL1A compared to control ( Fig. 2 B). ELISA results indicated that the FL and CT cells significantly increased IL-1α release into the cell culture media compared to CTL (mean FL: 90.3 pg/mL vs mean CTL: 2.4 pg/mL, p < 0.0001; mean CT: 137 pg/mL vs mean CTL 2.4 pg/mL, p < 0.0001), with CT cells releasing significantly more than FL cells (p = 0.0084) ( Fig. 2 D). NT cells did not show an increase in IL-1α compared to control ( Fig. 2 D). Protein expression in whole cell lysates by Western blot showed that expression of full-length IL-1α was increased in FL cells compared to control ( Fig. 2 E) and that this increased expression was maintained in both the cytoplasmic ( Fig. 2 F) and nuclear fractions ( Fig. 2 G). Increased expression of N-terminal IL-1α in NT cells was not observed in the nuclear fraction compared to control ( Fig. 2 G); and overall IL-1α expression in NT cells appeared to be generally decreased compared to control ( Fig. 2 E). C-terminal IL-1α expression in the CT cells increased in the whole cell lysates and cytoplasmic fractions compared to control ( Fig. 2 E and F). C-terminal IL-1α was also observed in the nuclear fraction despite not possessing a NLS ( Fig. 2 G). These results suggest that the 3 cell lines (FL, CT, NT) were successfully transduced with their respective IL1A gene constructs by PCR, although overexpression of IL-1α protein was only demonstrated in FL and CT cell lines. IL-1α overexpression alters expression of IL-1 pathway genes . Given that FL and CT cells showed increased IL-1α protein expression ( Fig. 2 D–G), we further looked at the expression of IL-1α family genes and downstream endpoints. There was no increase in gene expression of IL1B , IL6, IL8, IL1R1, IL1RN , and IL1RAP in FL compared to CTL ( Fig. 3 A–F). However, there was a significant increase in protein release of IL-6 (mean FL: 198.1 pg/mL vs mean CTL: 46.4 pg/mL, p = 0.0002, Fig. 3 H), and IL-8 (mean FL: 584.6 pg/mL vs mean CTL: 150.4 pg/mL, p = 0.0033, Fig. 3 I) suggesting that the IL-1α released from FL cells was active and led to activation of downstream signaling. To confirm biological activity, we further showed that the increase in IL-1α from FL cells could be suppressed by anakinra (human recombinant IL-1RA) ( Supplemental Fig. 1A ) and neutralizing antibodies to IL-1α but not IL-1β ( Supplemental Fig. 1B ). There was also a significant decrease in release of IL-1RA in FL compared to CTL (mean FL: 55.1 pg/mL vs mean CTL: 95.6 pg/mL, p = 0.0002, Fig. 3 J). There were no significant increases in NT cells in any of the parameters measured with exception of the IL-1R1 gene expression (12.3 fold, p < 0.0001, Fig. 3 F) compared to CTL. Additionally, there was no change in IL-1β protein secretion among the cell lines ( Fig. 3 G). CT cells showed a significant decrease in IL1B, IL6, IL1R1, and IL1RN gene expression compared to CTL (p < 0.05), a significant decrease in IL1B, IL8, IL1R1, IL1RAP, and IL1RN gene expression compared to FL (p < 0.05), and a significant decrease in IL1B, IL6, IL1R1, IL1RAP, and IL1RN gene expression compared to NT cells (p < 0.05) ( Fig. 3 A–F). This general trend also remained with decreased protein release in CT cells of IL-6, IL-8 and IL-1RA ( Fig. 3 H–J). To understand why CT cells lacked an increase in IL-1 pathway endpoints ( i.e . IL-6 and IL-8, Fig. 3 B,C,H,I), we analyzed differences in IL-1R1 protein expression and showed a significant decrease in IL-1R1 expression in CT cells compared to all of the other lines (p < 0.05, Fig. 3 K and L). These results indicate that overexpression of full-length and C-terminal IL-1α leads to completely different outcomes in IL-1 pathway signaling. C-terminal IL-1α overexpressing cells demonstrate metabolic changes. To determine the biological consequences of IL-1α overexpression, we first compared the growth rate of the CT cells and the 3 IL-1α-overexpressing cell lines (FL, N, CT) in vitro . We observed that the growth rate of the CT cells was significantly faster than the other cell lines (p < 0.0001) and there was no difference in growth rates among the CTL, FL and NT cell lines ( Fig. 4 A). When these 4 cell lines were inoculated into the flanks of nude mice, CT cells began to form palpable tumors on Day 2 compared to Day 9 from the other inoculated cell lines ( Fig. 4 B) suggesting that the CT cells were more aggressive than the other cell lines. Metabolomic analysis of the 4 cell lines revealed a clear separation of the CT cells in global metabolite expression and metabolite signature compared to the other cell lines according to PLS-DA analysis ( Fig. 4 C) and the constructed heatmap ( Fig. 4 D). In all the IL-1α overexpressing cells (FL, NT and CT), cytidine and 5-methyl cytidine were significantly upregulated compared to CTL cells (p < 0.05, Fig. 4 E). However, CT cells additionally upregulated N-Acetyl-Aspartyl-Glutamate (NAAG), N-Acetyl-Aspartate (NAA) and N-Ac-Glutamate (NAG) suggesting a dependency on glutamate or glutamine metabolism ( Fig. 4 E and F) that is unique to CT IL-1α-overexpressing cells. Similar to the metabolomic analysis, transcriptomic analyses using single cell RNA sequencing revealed a clear separation of the CT cells compared to the other cell lines in the PCA analysis ( Supplementary Fig. 2A ). KEGG pathway enrichment from CT vs control cells showed upregulated genes from the MAPK, Epstein Barr virus infection and lipid/atherosclerosis pathways ( Supplementary Fig. 2B ); and downregulated genes from the ribonucleoprotein complex biogenesis, chromosomal region, and centrosome pathways ( Supplementary Fig. 2C ). Gene ontology (GO) pathway enrichment from CT versus control cells showed upregulated genes from the cell cycle, Wnt, and axon guidance pathways ( Supplementary Fig. 2D ); and downregulated genes from cell adhesion and neutrophil activation-related pathways ( Supplementary Fig. 2E ). Top 20 upregulated and downregulated genes from CT versus control cells are listed in Supplementary Table 3 . Together these results suggest that overexpression of the C-terminal of IL-1α leads to genetic and metabolic changes that result in an aggressive phenotype in vitro and in vivo . IL-1α overexpression induces changes in cell morphology, EMT and stemness markers. As vimentin (VIM), which is important in the epithelial to mesenchymal transition (EMT) process [ 41 , 42 ], was one of the top genes upregulated in the CT cells compared to control ( Supplementary Table 3 ) , we next investigated any changes in cell morphology and EMT markers. Compared to the FL, NT and control cells, CT cells displayed an elongated morphology with spindle like protrusions characteristic of mesenchymal cells ( Fig. 5 A–D). Consistent with the transcriptomic findings, the mesenchymal marker VIM was prominently expressed in CT cells, in addition to the other mesenchymal markers N-cadherin and Zeb1 which was nearly undetectable in the other cell lines (p < 0.05, Fig. 5E–G, I ,J). Epithelial markers such as E-cadherin and claudin were present in the FL, NT and CTL cells but absent in the CT cells ( Fig. 5 E, F, G) suggesting that the CT cells had undergone EMT. Given that EMT can induce stemness properties, we next investigated the differential expression of stem cell markers (nestin, Bmi1 and oct-4) in the 4 cell lines. All three markers were significantly increased in the CT cells compared to the other cell lines (p < 0.01, Fig. 5 K–N). Lastly since EMT is associated with changes in lipid content during development [ 43 ]), we analyzed membrane fluidity as a potential biophysical divergence in the CT cells. This was done by monitoring the incorporation of a fluorescent lipophilic pyrene probe into the cell membrane of each of the 4 cell lines. We found that the membrane fluidity of CT cells was significantly higher than the other cell lines (p < 0.05, Fig. 5 O). These results suggest that overexpression of the C-terminal of IL-1α leads to EMT and stem-like properties that may drive the aggressive phenotype of these cells. IL-1α overexpression suppresses EGFR expression leading to resistance to EGFR tyrosine kinase inhibitors (TKIs). Prior studies in NSCLC have shown that EMT can induce resistance to EGFR-TKIs [ 44 ]. We therefore analyzed if the EMT-like properties observed in the CT cells ( Fig. 5 ) conferred resistance to the EGFR TKIs – erlotinib, afatinib, osimertinib and silevertinib. EGFR and phospho-EGFR expression was dramatically decreased in the CT cells (p < 0.05, Fig. 6 A–C) but not in the FL and NT cells compared to CTL. We also found that for all the analyzed EGFR TKIs, there was significantly less cell killing in the CT cells compared to the other cell lines (CTL, FL, NT) (p < 0.05, Fig. 6 D–G, Supplemental Fig. 3 ) suggesting that the EMT induced by C-terminal IL-1α overexpression may contribute to resistance to EGFR TKIs. IL-1α overexpression induces ferroptosis-associated remodeling. In previous reports, the mesenchymal marker Zeb1 observed in our CT cells ( Fig. 5 E) has been associated with vulnerability to ferroptosis [ 45 ]. We therefore investigated differences in markers associated with a ferroptotic environment in CTL and the three IL-1α-overexpressing cell lines. Our results showed that glutathione peroxidase 4 (GPx4) ( Fig. 7 A and B) and xCT ( Fig. 7 A–C) expression were significantly increased (p < 0.01) in the CT cell lines compared to the other cell lines. xCT, which is the light chain subunit of the xCT transporter, cooperates with the heavy chain subunit (4Fc2hc/SLC3A2) to form the functional xCT transporter [ 46 ]. However, expression of 4Fc2hc/SLC3A2 was significantly decreased in CT cells (p < 0.01, Fig. 7 A–D) compared to the other cell lines suggesting a potential impairment of cystine/glutamate exchange. There was no change in Ferritin Heavy Chain 1 (FTH1) expression among the cell lines ( Fig. 7 A–E). Intracellular reactive oxygen species production indicated that the CT cells have increased steady-state levels of intracellular oxidants compared to the other cell lines (p < 0.01, Fig. 7 F and G). Congruently, intracellular iron (p < 0.0001, Fig. 7 H) and intracellular lipid peroxidation (oxidized vs reduced state) induced by RSL3 (GPx4 inhibitor) using significantly increased (p < 0.0001) in CT cells relative to all other cell lines, which was completely suppressed by Fer-1 (lipid peroxidation inhibitor) (p < 0.001, Fig. 7 I–S). Together these results suggest a highly oxidative environment that is associated with increased redox-active iron and lipid peroxidation in CT cells, which is characteristic of a ferroptotic environment. IL-1α overexpression increases sensitivity to RSL3-mediated ferroptosis. Given the increased ferroptotic environment in CT cells ( Fig. 7 ) we next examined the sensitivity of the CT cells to RSL3 compared to the other cell lines. Using the Annexin V/PI assay we observed a significant increase in necrotic (p < 0.0001, Fig. 8 A–C, E), and late apoptotic cells (p < 0.0001, Fig. 8 A–C, F); and a significant decrease in live cells (p < 0.0001, Fig. 8 A–C, H) following RSL3 treatment in the CT cells compared to CTL and the other cell lines. The FL cells also showed a significant increase in necrotic cells compared to CTL (p < 0.0001) but was not as dramatic as the CT cells ( Fig. 8 E). The addition of ferrostatin ( Fig. 8 B) completely reversed the effect of RSL3 in the CT cells confirming RSL3-mediated ferroptosis induction in the CT cells ( Fig. 8 D–H). Clonogenic analysis additionally revealed the increased sensitivity of the CT cells to RSL3 compared to the other cell lines (p < 0.0001, Fig. 8 I–M). Altogether, it appears that increased CT expression conferred an increased vulnerability to ferroptosis induction.",
+      "order": 15
+    },
+    {
+      "section": "Discussion",
+      "text": "Overall, the presented results suggest that the association of increased tumor-associated IL-1α expression with poor survival outcomes may be due to the development of a ferroptotic environment ( Fig. 7 ) and EMT ( Fig. 5 ), leading to more aggressive ( Fig. 4 ), therapy-resistant disease ( Fig. 6 ). Of note, the ferrototic environment was only observed in cells overexpressing the C-terminal (CT) of IL-1α (and not the full-length IL-1α) ( Fig. 7 ) even though both CT and FL overexpressing cells secreted IL-1α, as measured by ELISA ( Fig. 2 D) likely because the C-terminal of IL-1α is more active than full-length IL-1α. For example, although both forms of IL-1α (FL and CT) are able to bind to the IL-1R1 and trigger downstream signaling, the CT form is a high-affinity IL-1R1 agonist, and binds to the IL-1R1 several folds more strongly than the FL form [ 47 , 48 ]. FL IL-1α tends to preferentially function intracellularly particularly in the nucleus in an IL-1R1-independent manner, where it can produce transcriptional changes, and induce survival programs including IL-6 and IL-8 [ 48 , 49 ]. Therefore, sustained expression and secretion of the more bioactive CT form may have triggered the development of the intracellular ferroptotic environment. In the CT cells, evidence suggested that the observed ferroptotic environment was due to the increase in membrane fluidity accompanied by the loss of expression of the membranous receptors IL-1R1 ( Fig. 3 K) and EGFR ( Fig. 6 A–C) compared to the other cells. Ferroptosis is a form of non-apoptotic cell death driven by excessive iron-catalyzed oxidation of polyunsaturated fatty acid-containing phospholipids [ 50 ]. Following up on this evidence, we observed that the CT cells did show increased levels of intracellular iron ( Fig. 7 H), steady-state oxidation ( Fig. 7 G) and lipid peroxidation ( Fig. 7 I–S) supporting a ferroptotic environment. Excessive lipid peroxidation in cellular membranes changes the physical properties of lipids including thinning the membrane [ 51 ], increasing local curvature [ 52 ] and loss of anchoring of membranous proteins [ 53 ] making membranes more prone to rupturing and cell death. Although ferroptosis is known to result in cell death, it has recently begun to emerge that tumor cells that can - survive ferroptotic pressure or proliferate under sub-lethal ferroptotic stress can be more aggressive. From a biophysical standpoint, it has recently been reported in glioma cells that with accelerated iron accumulation, cells become significantly less stiff, have greater membrane fluidity, and are significantly more motile [ 54 , 55 ]. Ferroptosis evasion can be characterized by the following features: 1 - an increased dependency on GPx4 activity, which is necessary for the neutralization of lipid hydroperoxides; 2 – glutathione (GSH) synthesis, which is the cofactor for GPx4 activity; 3. sustained iron retention, which can catalyze lipid peroxidation to facilitate biophysical remodeling; and 4 - endogenous glutamate, which is necessary to form GSH (in addition to glycine and cysteine) [ 56 , 57 ]. Indeed, we observed elevated iron levels, lipid peroxidation, and increased GPX4 expression to counteract the increase lipid peroxidation ( Fig. 7 A) in the CT cells further supporting an adaptive survival mechanism to facilitate ferroptosis evasion. Therefore, it appears that IL-1α overexpression causes a robust cellular remodeling that allows tumor cells to leverage ferroptosis to become more aggressive and potentially more difficult to treat which can lead to poor therapy response and survival outcomes. Ferroptotic pressure is also associated with EMT which drives transcription factors including ZEB1 [ 45 ] which was dramatically increased in the CT cells ( Fig. 5 E). Stabilization of these transcription factors lead to a decrease in epithelial genes (e.g. E-cadherin) involved in the loss of cellular adhesion, and an increase in mesenchymal genes (e.g. N-cadherin, vimentin) involved in the gain of migratory properties - crucial for cancer metastasis [ 58 ]. Again, these features were prominent in the CT cells ( Fig. 5 E). In fact, vimentin gene expression was the 4th most upregulated gene in the CT cells compared to control cells ( Supplemental Table 3 ) which was not present in any of the other cell lines. EMT has been shown to trigger cystine uptake, GSH synthesis and lipid remodeling allowing cells to survive ferroptotic pressure [ 59 ]. Therefore, it is likely that EMT observed in the CT cells enabled them to survive and proliferate in ferroptotic conditions. One interesting finding is the presence of increased NAAG, NAA and NAG from the metabolomics analyses in the CT cells compared to the other IL-1α overexpressed cells ( Fig. 4 E and F). NAAG metabolism is important particularly in the mammalian nervous system where it acts as a neurotransmitter in the brain [ 60 ]. NAAG can be broken down into NAA and glutamate by glutamate carboxypeptidase II (GCPII), and the rate of this reaction is critical for controlling synaptic glutamate levels [ 60 ]. Given the necessity of glutamate for GSH synthesis and ultimately GPX4 activity, it is possible that the CT cells are using alternate sources ( i.e. NAAG metabolism) in addition to glutaminolysis to obtain glutamate to combat the ferroptotic pressure. Previous results have reported that increased synthesis of NAAG acts as a glutamate reservoir in high grade ovarian and brain cancers for when glutamate production from other sources is limited [ 61 , 62 ]. Additionally, Asaka et al. (2019) showed that the inhibition of GCPII suppresses tumor growth in patient-derived recurrent ovarian cancer orthotopic tumors and reduces glutamate production [ 63 ]. These data support our current findings that NAAG metabolism may act as a source of glutamate in the CT cells to persist despite the ferroptotic environment. The observed increase in the metabolite NAG in the CT cells ( Fig. 4 E and F) is somewhat unclear. NAG is an essential allosteric activator of carbamylphosphate synthetase (CPS1), the rate-limiting enzyme of the urea cycle [ 64 ]. Mitochondrial N-acetylglutamate synthetase (NAGS) catalyzes the reaction of glutamate and acetyl-CoA to form NAG and CoA [ 65 ]. NAGS is also activated by arginine [ 66 ]. Previous studies have proposed that the urea cycle driven by arginine can promote resistance to ferroptosis in non-small cell lung cancer (NSCLC) cells [ 67 ] by blocking cytosolic glutamine from entering the oxidative tricarboxylic acid (TCA) cycle and reducing mitochondrial-derived lipid ROS [ 67 , 68 ]. Therefore, increased NAG may be another mechanism (in addition to increased NAAG metabolism) that CT cells use to combat the oxidative ferroptotic environment. Although we found that increased IL-1α expression in the CT cells was associated with lipid peroxidation, it is not clear how IL-1α is metabolically inducing lipid peroxidation. The most obvious source is the elevated iron levels in the CT cells, as iron-catalyzed lipid peroxidation is the foundation of ferroptosis induction. This is further corroborated by the enhanced sensitivity to ferroptosis induction. However, the mechanism by which IL-1α is elevating iron levels is unclear. Given that IL-1α is known to induce nitric oxide synthase (iNOS/NOS2) and nitric oxide (NO) production can promote iron accumulation due to its ability to bind iron and disrupt aconitase activity [ 69 , 70 ], this may be a logical cause. In support of this, we observed a significant increase in NOS2 gene expression in the CT cells compared to other overexpressed and control cells and in the RNA sequencing data when comparing CT vs control cells ( Supplementary Fig. 7 ). It is also possible that IL-1α is increasing the production of peroxinitrite [ 71 ], which is a highly reactive nitrogen species formed from the reaction of NO with superoxide that can catalyze lipid peroxidation [ 72 ]. However, this introduces the complexity of iron/nitric oxide/peroxynitrite chemistry as a confounding variable as iron can readily react with nitric oxide (∼10 7 – 10 8 M −1 s −1 ) to prevent peroxynitrite formation. Iron can also react with and reduce peroxynitrite directly (∼10 6 – 10 7 M −1 s −1 ), however, its breakdown products (HO • and NO 2 • ) can readily initiate lipid peroxidation if formed within the vicinity of unsaturated fatty acids (∼10 10 M −1 s −1 and 10 5 M −1 s −1 , respectively) [ 73 , 74 ]. Taken together, it appears that there may be a complex underlying relationship between nitric oxide signaling and iron metabolism that is modulated by IL-1α. Future studies are needed to confirm if IL-1α-induced iNOS activity is involved in the ferroptosis vulnerability observed in the CT cells. Our findings raise important implications about the utility of IL-1α expression as a predictive biomarker for HNSCC. Previous studies (including ours) in various disease sites have shown that high IL-1α gene and protein expression is correlated with poor survival outcomes especially with increased likelihood of recurrence and metastasis [ 16 ] [ 30 , 31 ] [ 32 ]. However, IL-1 blockade (anakinra, neutralizing antibodies) as a treatment strategy for cancer has not been successful [ 75 , 76 ] ( NCT00072111 , NCT03631199 , NCT03626545 , NCT02492750 , NCT01767857 ). A likely explanation for these failures is the inability of these agents to target intracellular IL-1α. Additionally, the absence of membranous IL-1R1 in the CT cells ( Fig. 3 K and L) would explain why anakinra may be ineffective on high IL-1α expressing tumor cells. The loss of membranous EGFR expression in the CT cells also suggests that high IL-1α expression would drive resistance to EGFR inhibitors which was demonstrated in response to four generations of EGFR TKIs ( Fig. 6 D–G). However, the ferroptotic environment existing in the CT cells suggest that they would be highly sensitive to any agent that further drives ferroptosis. In support of this we showed that the CT cells (and not the other cell lines) were highly sensitive to the GPX4 inhibitor - RSL3 ( Fig. 8 ) suggesting that increased IL-1α expression may be correlated with favorable response to GPX4 inhibitors. While theoretically feasible, the development of GPX4 inhibitors for clinical use has been challenged by poor drug bioavailability and poor selectivity (targets other GPX enzymes) [ 77 , 78 ]. Given our findings, targeting other major players in the ferroptotic process i.e. Xct transporter, NAAG metabolism, NAG or arginine may be potential targets for further study in high IL-1α expressing tumor cells. Although not addressed in these studies, high IL-1α expression may be associated with an immunosuppressive tumor microenvironment in vivo . One of the limitations of these studies is that we did not collect and analyze immunosuppressive and stromal differences in the tumor microenvironment of the IL-1α-overexpressing tumor xenografts after the termination of the study ( Fig. 4 B). IL-1α is known to drive the expansion of myeloid-derived suppressor cells (MDSCs), skews tumor-associated macrophages (TAMs) toward an M2-like phenotype, increases immune checkpoint (e.g. PD-L1) expression, activates cancer-associated fibroblasts and drives exclusion of cytotoxic CD8 + T cells [ 79 , 80 ]. This suggests that strategies that can reverse the immunosuppressive environment in addition to driving ferroptosis would be helpful for cancer therapy. Altogether our results provide a mechanistic argument for why increased tumor-associated IL-1α expression may be associated with poor survival outcomes with an emphasis on iron-mediated lipid peroxidation and EMT. Therefore, high IL-1α-expressing tumors may be susceptible to agents that further increase lipid peroxidation. Although more investigations should be carried out in vitro and in vivo in this area to confirm these ideas; but if consistent, this work could highlight tumor-associated IL-1α expression as a novel predictive marker of drug response in HNSCCs.",
+      "order": 16
+    },
+    {
+      "section": "Credit Authorship Contribution Statement",
+      "text": "Ishrat Nourin Khan: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Validation, Visualization, Writing – original draft, Writing – review & editing. Krishna Awasthi: Data curation, Formal analysis, Methodology, Validation, Writing – review & editing. Ziyu Wang: Data curation, Formal analysis, Methodology, Validation, Writing – review & editing. Nafis Md Irfan: Data curation, Formal analysis, Methodology, Validation, Visualization, Writing – review & editing. Jay Saepoo: Data curation, Formal analysis, Methodology, Validation, Visualization, Writing – review & editing. Joan N. Whittier: Data curation, Formal analysis, Methodology, Validation, Visualization, Writing – review & editing. Nurgul Koyuncu: Data curation, Formal analysis, Methodology, Validation, Visualization, Writing – review & editing. Md Roman Mogal: Data curation, Formal analysis, Methodology, Validation, Visualization, Writing – review & editing. M.M. Hasibuzzaman: Conceptualization, Writing – review & editing. Shujie Yang: Conceptualization, Investigation, Resources, Writing – review & editing. Michael Petronek: Investigation, Methodology, Resources, Validation, Visualization, Writing – review & editing. Andrean L. Simons: Conceptualization, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Software, Supervision, Writing – original draft, Writing – review & editing.",
+      "order": 17
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1",
+      "authors": [
+        "Chang J.H.",
+        "Wu C.C.",
+        "Yuan K.S.",
+        "Wu A.T.H.",
+        "Wu S.Y."
+      ],
+      "title": "Locoregionally recurrent head and neck squamous cell carcinoma: incidence, survival, prognostic factors, and treatment outcomes",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "issue": "33",
+      "fpage": "55600",
+      "lpage": "55612",
+      "pmid": "28903447",
+      "doi": "10.18632/oncotarget.16340",
+      "pmc_id": "PMC5589686"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2",
+      "authors": [
+        "Brockstein B.",
+        "Haraf D.J.",
+        "Rademaker A.W.",
+        "Kies M.S.",
+        "Stenson K.M.",
+        "Rosen F.",
+        "et al."
+      ],
+      "title": "Patterns of failure, prognostic factors and survival in locoregionally advanced head and neck cancer treated with concomitant chemoradiotherapy: a 9-year, 337-patient, multi-institutional experience",
+      "journal": "Ann. Oncol.",
+      "year": "2004",
+      "volume": "15",
+      "issue": "8",
+      "fpage": "1179",
+      "lpage": "1186",
+      "pmid": "15277256",
+      "doi": "10.1093/annonc/mdh308"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3",
+      "authors": [
+        "Leeman J.E.",
+        "Li J.G.",
+        "Pei X.",
+        "Venigalla P.",
+        "Zumsteg Z.S.",
+        "Katsoulakis E.",
+        "et al."
+      ],
+      "title": "Patterns of treatment failure and postrecurrence outcomes among patients with locally advanced head and neck squamous cell carcinoma after chemoradiotherapy using modern radiation techniques",
+      "journal": "JAMA Oncol.",
+      "year": "2017",
+      "volume": "3",
+      "issue": "11",
+      "fpage": "1487",
+      "lpage": "1494",
+      "pmid": "28542679",
+      "doi": "10.1001/jamaoncol.2017.0973",
+      "pmc_id": "PMC5710194"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4",
+      "authors": [
+        "Hoesli R.C.",
+        "Ludwig M.L.",
+        "Michmerhuizen N.L.",
+        "Rosko A.J.",
+        "Spector M.E.",
+        "Brenner J.C.",
+        "et al."
+      ],
+      "title": "Genomic sequencing and precision medicine in head and neck cancers",
+      "journal": "Eur. J. Surg. Oncol.",
+      "year": "2017",
+      "volume": "43",
+      "issue": "5",
+      "fpage": "884",
+      "lpage": "892",
+      "pmid": "28034498",
+      "doi": "10.1016/j.ejso.2016.12.002",
+      "pmc_id": "PMC5393934"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5",
+      "authors": [
+        "Hwang S.",
+        "Hong M.H.",
+        "Shin S.H.",
+        "Yun T.",
+        "Lee K.W.",
+        "Kim J.H.",
+        "et al."
+      ],
+      "title": "Identifying predictive markers of head and neck squamous cell carcinoma in an umbrella trial (KCSG HN 15-16 TRIUMPH trial)",
+      "journal": "ESMO Open",
+      "year": "2025",
+      "volume": "10",
+      "issue": "10",
+      "doi": "10.1016/j.esmoop.2025.105772",
+      "pmc_id": "PMC12478085",
+      "pmid": "40967067"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6",
+      "authors": [
+        "Liang C.",
+        "Marsit C.J.",
+        "McClean M.D.",
+        "Nelson H.H.",
+        "Christensen B.C.",
+        "Haddad R.I.",
+        "et al."
+      ],
+      "title": "Biomarkers of HPV in head and neck squamous cell carcinoma",
+      "journal": "Cancer Res.",
+      "year": "2012",
+      "volume": "72",
+      "issue": "19",
+      "fpage": "5004",
+      "lpage": "5013",
+      "pmid": "22991304",
+      "doi": "10.1158/0008-5472.CAN-11-3277",
+      "pmc_id": "PMC3463756"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7",
+      "authors": [
+        "Bonner J.A.",
+        "Mesia R.",
+        "Giralt J.",
+        "Psyrri A.",
+        "Keilholz U.",
+        "Rosenthal D.I.",
+        "et al."
+      ],
+      "title": "p16, HPV, and cetuximab: what is the evidence?",
+      "journal": "Oncologist",
+      "year": "2017",
+      "volume": "22",
+      "issue": "7",
+      "fpage": "811",
+      "lpage": "822",
+      "pmid": "28526718",
+      "doi": "10.1634/theoncologist.2016-0433",
+      "pmc_id": "PMC5507644"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8",
+      "authors": [
+        "Miniuk M.",
+        "Reszec-Gielazyn J.",
+        "Bortnik P.",
+        "Borsukiewicz A.",
+        "Mroczek A."
+      ],
+      "title": "Novel predictive biomarkers in the head and neck squamous cell carcinoma (HNSCC)",
+      "journal": "J. Clin. Med.",
+      "year": "2024",
+      "volume": "13",
+      "issue": "19",
+      "doi": "10.3390/jcm13195876",
+      "pmc_id": "PMC11477133",
+      "pmid": "39407936"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9",
+      "authors": [
+        "Alterio D.",
+        "Marvaso G.",
+        "Maffini F.",
+        "Gandini S.",
+        "Chiocca S.",
+        "Ferrari A.",
+        "et al."
+      ],
+      "title": "Role of EGFR as prognostic factor in head and neck cancer patients treated with surgery and postoperative radiotherapy: proposal of a new approach behind the EGFR overexpression",
+      "journal": "Med. Oncol.",
+      "year": "2017",
+      "volume": "34",
+      "issue": "6",
+      "fpage": "107",
+      "pmid": "28452036",
+      "doi": "10.1007/s12032-017-0965-7"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10",
+      "authors": [
+        "Pedicini P.",
+        "Caivano R.",
+        "Jereczek-Fossa B.A.",
+        "Strigari L.",
+        "Vischioni B.",
+        "Alterio D.",
+        "et al."
+      ],
+      "title": "Modelling the correlation between EGFr expression and tumour cell radiosensitivity, and combined treatments of radiation and monoclonal antibody EGFr inhibitors",
+      "journal": "Theor. Biol. Med. Model.",
+      "year": "2012",
+      "volume": "9",
+      "fpage": "23",
+      "pmid": "22713695",
+      "doi": "10.1186/1742-4682-9-23",
+      "pmc_id": "PMC3502488"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11",
+      "authors": [
+        "Addeo R.",
+        "Caraglia M.",
+        "Iuliano G."
+      ],
+      "title": "Pembrolizumab: the value of PDL1 biomarker in head and neck cancer",
+      "journal": "Expert Opin Biol Ther",
+      "year": "2016",
+      "volume": "16",
+      "issue": "9",
+      "fpage": "1075",
+      "lpage": "1078",
+      "pmid": "27408990",
+      "doi": "10.1080/14712598.2016.1211635"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12",
+      "authors": [
+        "McLaughlin J.",
+        "Han G.",
+        "Schalper K.A.",
+        "Carvajal-Hausdorf D.",
+        "Pelekanou V.",
+        "Rehman J.",
+        "et al."
+      ],
+      "title": "Quantitative assessment of the heterogeneity of PD-L1 expression in non-small-cell lung cancer",
+      "journal": "JAMA Oncol.",
+      "year": "2016",
+      "volume": "2",
+      "issue": "1",
+      "fpage": "46",
+      "lpage": "54",
+      "pmid": "26562159",
+      "doi": "10.1001/jamaoncol.2015.3638",
+      "pmc_id": "PMC4941982"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13",
+      "authors": [
+        "Topalian S.L.",
+        "Hodi F.S.",
+        "Brahmer J.R.",
+        "Gettinger S.N.",
+        "Smith D.C.",
+        "McDermott D.F.",
+        "et al."
+      ],
+      "title": "Safety, activity, and immune correlates of anti-PD-1 antibody in cancer",
+      "journal": "N. Engl. J. Med.",
+      "year": "2012",
+      "volume": "366",
+      "issue": "26",
+      "fpage": "2443",
+      "lpage": "2454",
+      "pmid": "22658127",
+      "doi": "10.1056/NEJMoa1200690",
+      "pmc_id": "PMC3544539"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14",
+      "authors": [
+        "Hirsch F.R.",
+        "McElhinny A.",
+        "Stanforth D.",
+        "Ranger-Moore J.",
+        "Jansson M.",
+        "Kulangara K.",
+        "et al."
+      ],
+      "title": "PD-L1 immunohistochemistry assays for lung cancer: results from phase 1 of the blueprint PD-L1 IHC assay comparison Project",
+      "journal": "J. Thorac. Oncol.",
+      "year": "2017",
+      "volume": "12",
+      "issue": "2",
+      "fpage": "208",
+      "lpage": "222",
+      "pmid": "27913228",
+      "doi": "10.1016/j.jtho.2016.11.2228"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15",
+      "authors": [
+        "Ferris R.L.",
+        "Blumenschein G.",
+        "Fayette J.",
+        "Guigay J.",
+        "Colevas A.D.",
+        "Licitra L.",
+        "et al."
+      ],
+      "title": "Nivolumab for recurrent squamous-cell carcinoma of the head and neck",
+      "journal": "N. Engl. J. Med.",
+      "year": "2016",
+      "volume": "375",
+      "issue": "19",
+      "fpage": "1856",
+      "lpage": "1867",
+      "pmid": "27718784",
+      "doi": "10.1056/NEJMoa1602252",
+      "pmc_id": "PMC5564292"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16",
+      "authors": [
+        "Leon X.",
+        "Bothe C.",
+        "Garcia J.",
+        "Parreno M.",
+        "Alcolea S.",
+        "Quer M.",
+        "et al."
+      ],
+      "title": "Expression of IL-1alpha correlates with distant metastasis in patients with head and neck squamous cell carcinoma",
+      "journal": "Oncotarget",
+      "year": "2015",
+      "volume": "6",
+      "issue": "35",
+      "fpage": "37398",
+      "lpage": "37409",
+      "pmid": "26460957",
+      "doi": "10.18632/oncotarget.6054",
+      "pmc_id": "PMC4741937"
+    },
+    {
+      "ref_id": "bib17",
+      "label": "17",
+      "authors": [
+        "Rodriguez-Berriguete G.",
+        "Sanchez-Espiridion B.",
+        "Cansino J.R.",
+        "Olmedilla G.",
+        "Martinez-Onsurbe P.",
+        "Sanchez-Chapado M.",
+        "et al."
+      ],
+      "title": "Clinical significance of both tumor and stromal expression of components of the IL-1 and TNF-alpha signaling pathways in prostate cancer",
+      "journal": "Cytokine",
+      "year": "2013",
+      "volume": "64",
+      "issue": "2",
+      "fpage": "555",
+      "lpage": "563",
+      "pmid": "24063999",
+      "doi": "10.1016/j.cyto.2013.09.003"
+    },
+    {
+      "ref_id": "bib18",
+      "label": "18",
+      "authors": [
+        "Song Z.",
+        "Lin Y.",
+        "Ye X.",
+        "Feng C.",
+        "Lu Y.",
+        "Yang G.",
+        "et al."
+      ],
+      "title": "Expression of IL-1alpha and IL-6 is associated with progression and prognosis of human cervical cancer",
+      "journal": "Med. Sci. Monit.",
+      "year": "2016",
+      "volume": "22",
+      "fpage": "4475",
+      "lpage": "4481",
+      "pmid": "27866212",
+      "doi": "10.12659/MSM.898569",
+      "pmc_id": "PMC5120643"
+    },
+    {
+      "ref_id": "bib19",
+      "label": "19",
+      "authors": [
+        "Wang C.",
+        "Sturgis E.M.",
+        "Chen X.",
+        "Wei Q.",
+        "Li G."
+      ],
+      "title": "A functional variant at miRNA-122 binding site in IL-1a 3' UTR predicts risk of recurrence in patients with oropharyngeal cancer",
+      "journal": "Oncotarget",
+      "year": "2016",
+      "volume": "7",
+      "issue": "23",
+      "fpage": "34472",
+      "lpage": "34479",
+      "pmid": "27121322",
+      "doi": "10.18632/oncotarget.8908",
+      "pmc_id": "PMC5085169"
+    },
+    {
+      "ref_id": "bib20",
+      "label": "20",
+      "authors": [
+        "Siddiqui I.",
+        "Erreni M.",
+        "Kamal M.A.",
+        "Porta C.",
+        "Marchesi F.",
+        "Pesce S.",
+        "et al."
+      ],
+      "title": "Differential role of Interleukin-1 and Interleukin-6 in K-Ras-driven pancreatic carcinoma undergoing mesenchymal transition",
+      "journal": "OncoImmunology",
+      "year": "2018",
+      "volume": "7",
+      "issue": "2",
+      "doi": "10.1080/2162402X.2017.1388485",
+      "pmc_id": "PMC5749654",
+      "pmid": "29308316"
+    },
+    {
+      "ref_id": "bib21",
+      "label": "21",
+      "authors": [
+        "Dinarello C.A."
+      ],
+      "title": "Overview of the interleukin-1 family of ligands and receptors",
+      "journal": "Semin. Immunol.",
+      "year": "2013",
+      "volume": "25",
+      "issue": "6",
+      "fpage": "389",
+      "lpage": "393",
+      "pmid": "24275600",
+      "doi": "10.1016/j.smim.2013.10.001"
+    },
+    {
+      "ref_id": "bib22",
+      "label": "22",
+      "authors": [
+        "Lewis A.M.",
+        "Varghese S.",
+        "Xu H.",
+        "Alexander H.R."
+      ],
+      "title": "Interleukin-1 and cancer progression: the emerging role of interleukin-1 receptor antagonist as a novel therapeutic agent in cancer treatment",
+      "journal": "J. Transl. Med.",
+      "year": "2006",
+      "volume": "4",
+      "fpage": "48",
+      "pmid": "17096856",
+      "doi": "10.1186/1479-5876-4-48",
+      "pmc_id": "PMC1660548"
+    },
+    {
+      "ref_id": "bib23",
+      "label": "23",
+      "authors": [
+        "Voronov E.",
+        "Dotan S.",
+        "Krelin Y.",
+        "Song X.",
+        "Elkabets M.",
+        "Carmi Y.",
+        "et al."
+      ],
+      "title": "Unique versus redundant functions of IL-1alpha and IL-1beta in the tumor microenvironment",
+      "journal": "Front. Immunol.",
+      "year": "2013",
+      "volume": "4",
+      "fpage": "177",
+      "pmid": "23847618",
+      "doi": "10.3389/fimmu.2013.00177",
+      "pmc_id": "PMC3703603"
+    },
+    {
+      "ref_id": "bib24",
+      "label": "24",
+      "authors": [
+        "Voronov E.",
+        "Shouval D.S.",
+        "Krelin Y.",
+        "Cagnano E.",
+        "Benharroch D.",
+        "Iwakura Y.",
+        "et al."
+      ],
+      "title": "IL-1 is required for tumor invasiveness and angiogenesis",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "year": "2003",
+      "volume": "100",
+      "issue": "5",
+      "fpage": "2645",
+      "lpage": "2650",
+      "pmid": "12598651",
+      "doi": "10.1073/pnas.0437939100",
+      "pmc_id": "PMC151394"
+    },
+    {
+      "ref_id": "bib25",
+      "label": "25",
+      "authors": [
+        "Bent R.",
+        "Moll L.",
+        "Grabbe S.",
+        "Bros M."
+      ],
+      "title": "Interleukin-1 Beta-A friend or foe in malignancies?",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2018",
+      "volume": "19",
+      "issue": "8",
+      "doi": "10.3390/ijms19082155",
+      "pmc_id": "PMC6121377",
+      "pmid": "30042333"
+    },
+    {
+      "ref_id": "bib26",
+      "label": "26",
+      "authors": [
+        "Jones V.S.",
+        "Huang R.Y.",
+        "Chen L.P.",
+        "Chen Z.S.",
+        "Fu L.",
+        "Huang R.P."
+      ],
+      "title": "Cytokines in cancer drug resistance: cues to new therapeutic strategies",
+      "journal": "Biochim. Biophys. Acta",
+      "year": "2016",
+      "volume": "1865",
+      "issue": "2",
+      "fpage": "255",
+      "lpage": "265",
+      "pmid": "26993403",
+      "doi": "10.1016/j.bbcan.2016.03.005"
+    },
+    {
+      "ref_id": "bib27",
+      "label": "27",
+      "authors": [
+        "Friedrich M.",
+        "Pohin M.",
+        "Jackson M.A.",
+        "Korsunsky I.",
+        "Bullers S.J.",
+        "Rue-Albrecht K.",
+        "et al."
+      ],
+      "title": "IL-1-driven stromal-neutrophil interactions define a subset of patients with inflammatory bowel disease that does not respond to therapies",
+      "journal": "Nat Med",
+      "year": "2021",
+      "volume": "27",
+      "issue": "11",
+      "fpage": "1970",
+      "lpage": "1981",
+      "pmid": "34675383",
+      "doi": "10.1038/s41591-021-01520-5",
+      "pmc_id": "PMC8604730"
+    },
+    {
+      "ref_id": "bib28",
+      "label": "28",
+      "authors": [
+        "Garlanda C.",
+        "Dinarello C.A.",
+        "Mantovani A."
+      ],
+      "title": "The interleukin-1 family: back to the future",
+      "journal": "Immunity",
+      "year": "2013",
+      "volume": "39",
+      "issue": "6",
+      "fpage": "1003",
+      "lpage": "1018",
+      "pmid": "24332029",
+      "doi": "10.1016/j.immuni.2013.11.010",
+      "pmc_id": "PMC3933951"
+    },
+    {
+      "ref_id": "bib29",
+      "label": "29",
+      "authors": [
+        "Sims J.E.",
+        "Smith D.E."
+      ],
+      "title": "The IL-1 family: regulators of immunity",
+      "journal": "Nat. Rev. Immunol.",
+      "year": "2010",
+      "volume": "10",
+      "issue": "2",
+      "fpage": "89",
+      "lpage": "102",
+      "pmid": "20081871",
+      "doi": "10.1038/nri2691"
+    },
+    {
+      "ref_id": "bib30",
+      "label": "30",
+      "authors": [
+        "Khan I.N.",
+        "Gibson-Corley K.N.",
+        "Coppock J.D.",
+        "Simons A.L."
+      ],
+      "title": "Comparison of Interleukin-1 ligand expression by human Papilloma virus status in HNSCCs",
+      "journal": "Head Neck Pathol.",
+      "year": "2022",
+      "volume": "16",
+      "issue": "3",
+      "fpage": "763",
+      "lpage": "772",
+      "pmid": "35334093",
+      "doi": "10.1007/s12105-022-01440-x",
+      "pmc_id": "PMC9424424"
+    },
+    {
+      "ref_id": "bib31",
+      "label": "31",
+      "authors": [
+        "Fukui R.",
+        "Ogisawa S.",
+        "Yamada A.",
+        "Asano M."
+      ],
+      "title": "IL-1alpha promotes cancer cell migration and is a potential prognostic marker in oral squamous cell carcinoma",
+      "journal": "Cancers (Basel)",
+      "year": "2025",
+      "volume": "17",
+      "issue": "17",
+      "doi": "10.3390/cancers17172781",
+      "pmc_id": "PMC12427338",
+      "pmid": "40940885"
+    },
+    {
+      "ref_id": "bib32",
+      "label": "32",
+      "authors": [
+        "Rajan A.",
+        "Gibson-Corley K.N.",
+        "Choi A.B.",
+        "Ofori-Amanfo G.K.",
+        "Ten Eyck P.",
+        "Espinosa-Cotton M.",
+        "et al."
+      ],
+      "title": "Impact of nuclear Interleukin-1 alpha and EGFR expression on recurrence and survival outcomes in oral squamous cell carcinomas",
+      "journal": "J. Oncol.",
+      "year": "2019",
+      "volume": "2019",
+      "doi": "10.1155/2019/5859680",
+      "pmc_id": "PMC6607721",
+      "pmid": "31320902"
+    },
+    {
+      "ref_id": "bib33",
+      "label": "33",
+      "authors": [
+        "Jin S.",
+        "Liu C.",
+        "Shi G.",
+        "Mu Y.",
+        "Zhang H.",
+        "Zhu Y.",
+        "et al."
+      ],
+      "title": "IL-1A is associated with postoperative survival and immune contexture in clear cell renal cell carcinoma",
+      "journal": "Urol. Oncol.",
+      "year": "2022",
+      "volume": "40",
+      "issue": "3",
+      "fpage": "111 e1",
+      "lpage": "e9",
+      "doi": "10.1016/j.urolonc.2021.11.029",
+      "pmid": "35042661"
+    },
+    {
+      "ref_id": "bib34",
+      "label": "34",
+      "authors": [
+        "Yao S.J.",
+        "Ma H.S.",
+        "Liu G.M.",
+        "Gao Y.",
+        "Wang W."
+      ],
+      "title": "Increased IL-1alpha expression is correlated with bladder cancer malignant progression",
+      "journal": "Arch. Med. Sci.",
+      "year": "2023",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "160",
+      "lpage": "170",
+      "pmid": "36817666",
+      "doi": "10.5114/aoms.2020.100677",
+      "pmc_id": "PMC9897080"
+    },
+    {
+      "ref_id": "bib35",
+      "label": "35",
+      "authors": [
+        "Di Paolo N.C.",
+        "Shayakhmetov D.M."
+      ],
+      "title": "Interleukin 1alpha and the inflammatory process",
+      "journal": "Nat. Immunol.",
+      "year": "2016",
+      "volume": "17",
+      "issue": "8",
+      "fpage": "906",
+      "lpage": "913",
+      "pmid": "27434011",
+      "doi": "10.1038/ni.3503",
+      "pmc_id": "PMC5152572"
+    },
+    {
+      "ref_id": "bib36",
+      "label": "36",
+      "authors": [
+        "Stevenson F.T.",
+        "Turck J.",
+        "Locksley R.M.",
+        "Lovett D.H."
+      ],
+      "title": "The N-terminal propiece of interleukin 1 alpha is a transforming nuclear oncoprotein",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "year": "1997",
+      "volume": "94",
+      "issue": "2",
+      "fpage": "508",
+      "lpage": "513",
+      "pmid": "9012814",
+      "doi": "10.1073/pnas.94.2.508",
+      "pmc_id": "PMC19543"
+    },
+    {
+      "ref_id": "bib37",
+      "label": "37",
+      "authors": [
+        "Chandrashekar D.S.",
+        "Bashel B.",
+        "Balasubramanya S.A.H.",
+        "Creighton C.J.",
+        "Ponce-Rodriguez I.",
+        "Chakravarthi B.",
+        "et al."
+      ],
+      "title": "UALCAN: a portal for facilitating tumor subgroup gene expression and survival analyses",
+      "journal": "Neoplasia",
+      "year": "2017",
+      "volume": "19",
+      "issue": "8",
+      "fpage": "649",
+      "lpage": "658",
+      "pmid": "28732212",
+      "doi": "10.1016/j.neo.2017.05.002",
+      "pmc_id": "PMC5516091"
+    },
+    {
+      "ref_id": "bib38",
+      "label": "38",
+      "authors": [
+        "Chandrashekar D.S.",
+        "Karthikeyan S.K.",
+        "Korla P.K.",
+        "Patel H.",
+        "Shovon A.R.",
+        "Athar M.",
+        "et al."
+      ],
+      "title": "UALCAN: an update to the integrated cancer data analysis platform",
+      "journal": "Neoplasia",
+      "year": "2022",
+      "volume": "25",
+      "fpage": "18",
+      "lpage": "27",
+      "pmid": "35078134",
+      "doi": "10.1016/j.neo.2022.01.001",
+      "pmc_id": "PMC8788199"
+    },
+    {
+      "ref_id": "bib39",
+      "label": "39",
+      "authors": [
+        "Dai D.F.",
+        "Karunadharma P.P.",
+        "Chiao Y.A.",
+        "Basisty N.",
+        "Crispin D.",
+        "Hsieh E.J.",
+        "et al."
+      ],
+      "title": "Altered proteome turnover and remodeling by short-term caloric restriction or rapamycin rejuvenate the aging heart",
+      "journal": "Aging Cell",
+      "year": "2014",
+      "volume": "13",
+      "issue": "3",
+      "fpage": "529",
+      "lpage": "539",
+      "pmid": "24612461",
+      "doi": "10.1111/acel.12203",
+      "pmc_id": "PMC4040127"
+    },
+    {
+      "ref_id": "bib40",
+      "label": "40",
+      "authors": [
+        "Shao D.",
+        "Villet O.",
+        "Zhang Z.",
+        "Choi S.W.",
+        "Yan J.",
+        "Ritterhoff J.",
+        "et al."
+      ],
+      "title": "Glucose promotes cell growth by suppressing branched-chain amino acid degradation",
+      "journal": "Nat. Commun.",
+      "year": "2018",
+      "volume": "9",
+      "issue": "1",
+      "fpage": "2935",
+      "pmid": "30050148",
+      "doi": "10.1038/s41467-018-05362-7",
+      "pmc_id": "PMC6062555"
+    },
+    {
+      "ref_id": "bib41",
+      "label": "41",
+      "authors": [
+        "Usman S.",
+        "Yeudall W.A.",
+        "Teh M.T.",
+        "Ghloum F.",
+        "Tummala H.",
+        "Waseem A."
+      ],
+      "title": "A single cysteine residue in vimentin regulates long non-coding RNA XIST to suppress epithelial-mesenchymal transition and stemness in breast cancer",
+      "journal": "eLife",
+      "year": "2025",
+      "volume": "14",
+      "doi": "10.7554/eLife.104191",
+      "pmc_id": "PMC12279371",
+      "pmid": "40690373"
+    },
+    {
+      "ref_id": "bib42",
+      "label": "42",
+      "authors": [
+        "Usman S.",
+        "Waseem N.H.",
+        "Nguyen T.K.N.",
+        "Mohsin S.",
+        "Jamal A.",
+        "Teh M.T.",
+        "et al."
+      ],
+      "title": "Vimentin is at the heart of Epithelial Mesenchymal Transition (EMT) mediated metastasis",
+      "journal": "Cancers (Basel)",
+      "year": "2021",
+      "volume": "13",
+      "issue": "19",
+      "doi": "10.3390/cancers13194985",
+      "pmc_id": "PMC8507690",
+      "pmid": "34638469"
+    },
+    {
+      "ref_id": "bib43",
+      "label": "43",
+      "authors": [
+        "Piacentino M.L.",
+        "Hutchins E.J.",
+        "Andrews C.J.",
+        "Bronner M.E."
+      ],
+      "title": "Temporal changes in plasma membrane lipid content induce endocytosis to regulate developmental epithelial-to-mesenchymal transition",
+      "journal": "Proc Natl Acad Sci U S A.",
+      "year": "2022",
+      "volume": "119",
+      "issue": "51",
+      "doi": "10.1073/pnas.2212879119",
+      "pmc_id": "PMC9907157",
+      "pmid": "36508654"
+    },
+    {
+      "ref_id": "bib44",
+      "label": "44",
+      "authors": [
+        "Zhu X.",
+        "Chen L.",
+        "Liu L.",
+        "Niu X."
+      ],
+      "title": "EMT-mediated acquired EGFR-TKI resistance in NSCLC: mechanisms and strategies",
+      "journal": "Front. Oncol.",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "1044",
+      "pmid": "31681582",
+      "doi": "10.3389/fonc.2019.01044",
+      "pmc_id": "PMC6798878"
+    },
+    {
+      "ref_id": "bib45",
+      "label": "45",
+      "authors": [
+        "Schwab A.",
+        "Rao Z.",
+        "Zhang J.",
+        "Gollowitzer A.",
+        "Siebenkas K.",
+        "Bindel N.",
+        "et al."
+      ],
+      "title": "Zeb1 mediates EMT/plasticity-associated ferroptosis sensitivity in cancer cells by regulating lipogenic enzyme expression and phospholipid composition",
+      "journal": "Nat. Cell Biol.",
+      "year": "2024",
+      "volume": "26",
+      "issue": "9",
+      "fpage": "1470",
+      "lpage": "1481",
+      "pmid": "39009641",
+      "doi": "10.1038/s41556-024-01464-1",
+      "pmc_id": "PMC11392809"
+    },
+    {
+      "ref_id": "bib46",
+      "label": "46",
+      "authors": [
+        "Liu J.",
+        "Xia X.",
+        "Huang P."
+      ],
+      "title": "xCT: a critical molecule that links cancer metabolism to redox signaling",
+      "journal": "Mol. Ther.",
+      "year": "2020",
+      "volume": "28",
+      "issue": "11",
+      "fpage": "2358",
+      "lpage": "2366",
+      "pmid": "32931751",
+      "doi": "10.1016/j.ymthe.2020.08.021",
+      "pmc_id": "PMC7647670"
+    },
+    {
+      "ref_id": "bib47",
+      "label": "47",
+      "authors": [
+        "Mosley B.",
+        "Urdal D.L.",
+        "Prickett K.S.",
+        "Larsen A.",
+        "Cosman D.",
+        "Conlon P.J.",
+        "et al."
+      ],
+      "title": "The interleukin-1 receptor binds the human interleukin-1 alpha precursor but not the interleukin-1 beta precursor",
+      "journal": "J. Biol. Chem.",
+      "year": "1987",
+      "volume": "262",
+      "issue": "7",
+      "fpage": "2941",
+      "lpage": "2944",
+      "pmid": "2950091"
+    },
+    {
+      "ref_id": "bib48",
+      "label": "48",
+      "authors": [
+        "Chiu J.W.",
+        "Binte Hanafi Z.",
+        "Chew L.C.Y.",
+        "Mei Y.",
+        "Liu H."
+      ],
+      "title": "IL-1alpha processing, signaling and its role in cancer progression",
+      "journal": "Cells",
+      "year": "2021",
+      "volume": "10",
+      "issue": "1",
+      "doi": "10.3390/cells10010092",
+      "pmc_id": "PMC7827341",
+      "pmid": "33430381"
+    },
+    {
+      "ref_id": "bib49",
+      "label": "49",
+      "authors": [
+        "Luheshi N.M.",
+        "Rothwell N.J.",
+        "Brough D."
+      ],
+      "title": "The dynamics and mechanisms of interleukin-1alpha and beta nuclear import",
+      "journal": "Traffic",
+      "year": "2009",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "16",
+      "lpage": "25",
+      "pmid": "18939951",
+      "doi": "10.1111/j.1600-0854.2008.00840.x",
+      "pmc_id": "PMC2682621"
+    },
+    {
+      "ref_id": "bib50",
+      "label": "50",
+      "authors": [
+        "Dixon S.J.",
+        "Lemberg K.M.",
+        "Lamprecht M.R.",
+        "Skouta R.",
+        "Zaitsev E.M.",
+        "Gleason C.E.",
+        "et al."
+      ],
+      "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death",
+      "journal": "Cell",
+      "year": "2012",
+      "volume": "149",
+      "issue": "5",
+      "fpage": "1060",
+      "lpage": "1072",
+      "pmid": "22632970",
+      "doi": "10.1016/j.cell.2012.03.042",
+      "pmc_id": "PMC3367386"
+    },
+    {
+      "ref_id": "bib51",
+      "label": "51",
+      "authors": [
+        "Wong-Ekkabut J.",
+        "Xu Z.",
+        "Triampo W.",
+        "Tang I.M.",
+        "Tieleman D.P.",
+        "Monticelli L."
+      ],
+      "title": "Effect of lipid peroxidation on the properties of lipid bilayers: a molecular dynamics study",
+      "journal": "Biophys. J.",
+      "year": "2007",
+      "volume": "93",
+      "issue": "12",
+      "fpage": "4225",
+      "lpage": "4236",
+      "pmid": "17766354",
+      "doi": "10.1529/biophysj.107.112565",
+      "pmc_id": "PMC2098729"
+    },
+    {
+      "ref_id": "bib52",
+      "label": "52",
+      "authors": [
+        "Agmon E.",
+        "Solon J.",
+        "Bassereau P.",
+        "Stockwell B.R."
+      ],
+      "title": "Modeling the effects of lipid peroxidation during ferroptosis on membrane properties",
+      "journal": "Sci. Rep.",
+      "year": "2018",
+      "volume": "8",
+      "issue": "1",
+      "fpage": "5155",
+      "pmid": "29581451",
+      "doi": "10.1038/s41598-018-23408-0",
+      "pmc_id": "PMC5979948"
+    },
+    {
+      "ref_id": "bib53",
+      "label": "53",
+      "authors": [
+        "Balakrishnan M.",
+        "Kenworthy A.K."
+      ],
+      "title": "Lipid peroxidation drives liquid-liquid phase separation and disrupts raft protein partitioning in biological membranes",
+      "journal": "J. Am. Chem. Soc.",
+      "year": "2024",
+      "volume": "146",
+      "issue": "2",
+      "fpage": "1374",
+      "lpage": "1387",
+      "pmid": "38171000",
+      "doi": "10.1021/jacs.3c10132",
+      "pmc_id": "PMC10797634"
+    },
+    {
+      "ref_id": "bib54",
+      "label": "54",
+      "authors": [
+        "Owusu S.B.",
+        "Ekanayake A.B.",
+        "Tivanski A.V.",
+        "Petronek M.S."
+      ],
+      "title": "Iron mediates radiation-induced glioblastoma cell diffusion",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2025",
+      "volume": "26",
+      "issue": "10",
+      "doi": "10.3390/ijms26104755",
+      "pmc_id": "PMC12112530",
+      "pmid": "40429897"
+    },
+    {
+      "ref_id": "bib55",
+      "label": "55",
+      "authors": [
+        "Owusu S.B.",
+        "Russell E.",
+        "Ekanayake A.B.",
+        "Tivanski A.V.",
+        "Petronek M.S."
+      ],
+      "title": "Iron promotes isocitrate dehydrogenase mutant glioma cell motility",
+      "journal": "Free Radic. Biol. Med.",
+      "year": "2025",
+      "volume": "226",
+      "fpage": "109",
+      "lpage": "116",
+      "pmid": "39551451",
+      "doi": "10.1016/j.freeradbiomed.2024.11.032"
+    },
+    {
+      "ref_id": "bib56",
+      "label": "56",
+      "authors": [
+        "Lei G.",
+        "Zhuang L.",
+        "Gan B."
+      ],
+      "title": "Targeting ferroptosis as a vulnerability in cancer",
+      "journal": "Nat. Rev. Cancer",
+      "year": "2022",
+      "volume": "22",
+      "issue": "7",
+      "fpage": "381",
+      "lpage": "396",
+      "pmid": "35338310",
+      "doi": "10.1038/s41568-022-00459-0",
+      "pmc_id": "PMC10243716"
+    },
+    {
+      "ref_id": "bib57",
+      "label": "57",
+      "authors": [
+        "Lee J.",
+        "Roh J.L."
+      ],
+      "title": "Ferroptosis in oral cancer: mechanistic insights and clinical prospects",
+      "journal": "Cells",
+      "year": "2025",
+      "volume": "14",
+      "issue": "21",
+      "doi": "10.3390/cells14211685",
+      "pmc_id": "PMC12607507",
+      "pmid": "41227330"
+    },
+    {
+      "ref_id": "bib58",
+      "label": "58",
+      "authors": [
+        "Sanchez-Tillo E.",
+        "Lazaro A.",
+        "Torrent R.",
+        "Cuatrecasas M.",
+        "Vaquero E.C.",
+        "Castells A.",
+        "et al."
+      ],
+      "title": "ZEB1 represses E-cadherin and induces an EMT by recruiting the SWI/SNF chromatin-remodeling protein BRG1",
+      "journal": "Oncogene",
+      "year": "2010",
+      "volume": "29",
+      "issue": "24",
+      "fpage": "3490",
+      "lpage": "3500",
+      "pmid": "20418909",
+      "doi": "10.1038/onc.2010.102"
+    },
+    {
+      "ref_id": "bib59",
+      "label": "59",
+      "authors": [
+        "Liaghat M.",
+        "Ferdousmakan S.",
+        "Mortazavi S.H.",
+        "Yahyazadeh S.",
+        "Irani A.",
+        "Banihashemi S.",
+        "et al."
+      ],
+      "title": "The impact of epithelial-mesenchymal transition (EMT) induced by metabolic processes and intracellular signaling pathways on chemo-resistance, metastasis, and recurrence in solid tumors",
+      "journal": "Cell Commun. Signal.",
+      "year": "2024",
+      "volume": "22",
+      "issue": "1",
+      "fpage": "575",
+      "pmid": "39623377",
+      "doi": "10.1186/s12964-024-01957-4",
+      "pmc_id": "PMC11610171"
+    },
+    {
+      "ref_id": "bib60",
+      "label": "60",
+      "authors": [
+        "Morland C.",
+        "Nordengen K."
+      ],
+      "title": "N-Acetyl-Aspartyl-Glutamate in brain health and disease",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2022",
+      "volume": "23",
+      "issue": "3",
+      "doi": "10.3390/ijms23031268",
+      "pmc_id": "PMC8836185",
+      "pmid": "35163193"
+    },
+    {
+      "ref_id": "bib61",
+      "label": "61",
+      "authors": [
+        "Zhou J.",
+        "Neale J.H.",
+        "Pomper M.G.",
+        "Kozikowski A.P."
+      ],
+      "title": "NAAG peptidase inhibitors and their potential for diagnosis and therapy",
+      "journal": "Nat. Rev. Drug Discov.",
+      "year": "2005",
+      "volume": "4",
+      "issue": "12",
+      "fpage": "1015",
+      "lpage": "1026",
+      "pmid": "16341066",
+      "doi": "10.1038/nrd1903"
+    },
+    {
+      "ref_id": "bib62",
+      "label": "62",
+      "authors": [
+        "Yourick D.L.",
+        "Koenig M.L.",
+        "Durden A.V.",
+        "Long J.B."
+      ],
+      "title": "N-acetylaspartylglutamate and beta-NAAG protect against injury induced by NMDA and hypoxia in primary spinal cord cultures",
+      "journal": "Brain Res.",
+      "year": "2003",
+      "volume": "991",
+      "issue": "1–2",
+      "fpage": "56",
+      "lpage": "64",
+      "pmid": "14575876",
+      "doi": "10.1016/s0006-8993(03)03533-9"
+    },
+    {
+      "ref_id": "bib63",
+      "label": "63",
+      "authors": [
+        "Asaka R.",
+        "Le A."
+      ],
+      "title": "Dual role of N-acetyl-aspartyl-glutamate metabolism in cancer monitor and therapy",
+      "journal": "Mol Cell Oncol",
+      "year": "2019",
+      "volume": "6",
+      "issue": "5",
+      "doi": "10.1080/23723556.2019.1627273",
+      "pmc_id": "PMC6736126",
+      "pmid": "31528698"
+    },
+    {
+      "ref_id": "bib64",
+      "label": "64",
+      "authors": [
+        "Caldovic L.",
+        "Ah Mew N.",
+        "Shi D.",
+        "Morizono H.",
+        "Yudkoff M.",
+        "Tuchman M."
+      ],
+      "title": "N-acetylglutamate synthase: structure, function and defects",
+      "journal": "Mol Genet Metab",
+      "year": "2010",
+      "volume": "100",
+      "issue": "Suppl 1",
+      "fpage": "S13",
+      "lpage": "S19",
+      "pmid": "20303810",
+      "doi": "10.1016/j.ymgme.2010.02.018",
+      "pmc_id": "PMC2876818"
+    },
+    {
+      "ref_id": "bib65",
+      "label": "65",
+      "authors": [
+        "Morizono H.",
+        "Caldovic L.",
+        "Shi D.",
+        "Tuchman M."
+      ],
+      "title": "Mammalian N-acetylglutamate synthase",
+      "journal": "Mol Genet Metab",
+      "year": "2004",
+      "volume": "81",
+      "issue": "Suppl 1",
+      "fpage": "S4",
+      "lpage": "S11",
+      "pmid": "15050968",
+      "doi": "10.1016/j.ymgme.2003.10.017",
+      "pmc_id": "PMC3031861"
+    },
+    {
+      "ref_id": "bib66",
+      "label": "66",
+      "authors": [
+        "Shi D.",
+        "Allewell N.M.",
+        "Tuchman M."
+      ],
+      "title": "The N-Acetylglutamate synthase family: structures, function and mechanisms",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2015",
+      "volume": "16",
+      "issue": "6",
+      "fpage": "13004",
+      "lpage": "13022",
+      "pmid": "26068232",
+      "doi": "10.3390/ijms160613004",
+      "pmc_id": "PMC4490483"
+    },
+    {
+      "ref_id": "bib67",
+      "label": "67",
+      "authors": [
+        "Hu Q.",
+        "Dai J.",
+        "Zhang Z.",
+        "Yu H.",
+        "Zhang J.",
+        "Zhu X.",
+        "et al."
+      ],
+      "title": "ASS1-Mediated reductive carboxylation of cytosolic glutamine confers ferroptosis resistance in cancer cells",
+      "journal": "Cancer Res.",
+      "year": "2023",
+      "volume": "83",
+      "issue": "10",
+      "fpage": "1646",
+      "lpage": "1665",
+      "pmid": "36892426",
+      "doi": "10.1158/0008-5472.CAN-22-1999"
+    },
+    {
+      "ref_id": "bib68",
+      "label": "68",
+      "authors": [
+        "Guo X.",
+        "Guo Y.",
+        "Li J.",
+        "Liu Q.",
+        "Wu H."
+      ],
+      "title": "Arginine expedites erastin-induced ferroptosis through fumarate",
+      "journal": "Int. J. Mol. Sci.",
+      "year": "2023",
+      "volume": "24",
+      "issue": "19",
+      "doi": "10.3390/ijms241914595",
+      "pmc_id": "PMC10572513",
+      "pmid": "37834044"
+    },
+    {
+      "ref_id": "bib69",
+      "label": "69",
+      "authors": [
+        "Pantopoulos K.",
+        "Weiss G.",
+        "Hentze M.W."
+      ],
+      "title": "Nitric oxide and oxidative stress (H2O2) control Mammalian iron metabolism by different pathways",
+      "journal": "Mol. Cell Biol.",
+      "year": "1996",
+      "volume": "16",
+      "issue": "7",
+      "fpage": "3781",
+      "lpage": "3788",
+      "pmid": "8668195",
+      "doi": "10.1128/mcb.16.7.3781",
+      "pmc_id": "PMC231374"
+    },
+    {
+      "ref_id": "bib70",
+      "label": "70",
+      "authors": [
+        "Gupta K.J.",
+        "Shah J.K.",
+        "Brotman Y.",
+        "Jahnke K.",
+        "Willmitzer L.",
+        "Kaiser W.M.",
+        "et al."
+      ],
+      "title": "Inhibition of aconitase by nitric oxide leads to induction of the alternative oxidase and to a shift of metabolism towards biosynthesis of amino acids",
+      "journal": "J. Exp. Bot.",
+      "year": "2012",
+      "volume": "63",
+      "issue": "4",
+      "fpage": "1773",
+      "lpage": "1784",
+      "pmid": "22371326",
+      "doi": "10.1093/jxb/ers053"
+    },
+    {
+      "ref_id": "bib71",
+      "label": "71",
+      "authors": [
+        "Boota A.",
+        "Zar H.",
+        "Kim Y.M.",
+        "Johnson B.",
+        "Pitt B.",
+        "Davies P."
+      ],
+      "title": "IL-1 beta stimulates superoxide and delayed peroxynitrite production by pulmonary vascular smooth muscle cells",
+      "journal": "Am. J. Physiol.",
+      "year": "1996",
+      "volume": "271",
+      "issue": "6 Pt 1",
+      "fpage": "L932",
+      "lpage": "L938",
+      "pmid": "8997263",
+      "doi": "10.1152/ajplung.1996.271.6.L932"
+    },
+    {
+      "ref_id": "bib72",
+      "label": "72",
+      "authors": [
+        "Szabo C.",
+        "Ischiropoulos H.",
+        "Radi R."
+      ],
+      "title": "Peroxynitrite: biochemistry, pathophysiology and development of therapeutics",
+      "journal": "Nat. Rev. Drug Discov.",
+      "year": "2007",
+      "volume": "6",
+      "issue": "8",
+      "fpage": "662",
+      "lpage": "680",
+      "pmid": "17667957",
+      "doi": "10.1038/nrd2222"
+    },
+    {
+      "ref_id": "bib73",
+      "label": "73",
+      "authors": [
+        "Damasceno F.C.",
+        "Condeles A.L.",
+        "Lopes A.K.B.",
+        "Facci R.R.",
+        "Linares E.",
+        "Truzzi D.R.",
+        "et al."
+      ],
+      "title": "The labile iron pool attenuates peroxynitrite-dependent damage and can no longer be considered solely a pro-oxidative cellular iron source",
+      "journal": "J. Biol. Chem.",
+      "year": "2018",
+      "volume": "293",
+      "issue": "22",
+      "fpage": "8530",
+      "lpage": "8542",
+      "pmid": "29661935",
+      "doi": "10.1074/jbc.RA117.000883",
+      "pmc_id": "PMC5986223"
+    },
+    {
+      "ref_id": "bib74",
+      "label": "74",
+      "authors": [
+        "Pryor W.A.",
+        "Lightsey J.W."
+      ],
+      "title": "Mechanisms of nitrogen dioxide reactions: initiation of lipid peroxidation and the production of nitrous Acid",
+      "journal": "Science",
+      "year": "1981",
+      "volume": "214",
+      "issue": "4519",
+      "fpage": "435",
+      "lpage": "437",
+      "pmid": "17730242",
+      "doi": "10.1126/science.214.4519.435"
+    },
+    {
+      "ref_id": "bib75",
+      "label": "75",
+      "authors": [
+        "Mullard A."
+      ],
+      "title": "Novartis's canakinumab stumbles in cancer, again",
+      "journal": "Nat. Rev. Drug Discov.",
+      "year": "2021",
+      "volume": "20",
+      "issue": "12",
+      "fpage": "888",
+      "doi": "10.1038/d41573-021-00188-3",
+      "pmid": "34728769"
+    },
+    {
+      "ref_id": "bib76",
+      "label": "76",
+      "authors": [
+        "Lythgoe M.P.",
+        "Prasad V."
+      ],
+      "title": "Repositioning canakinumab for non-small cell lung cancer-important lessons for drug repurposing in oncology",
+      "journal": "Br. J. Cancer",
+      "year": "2022",
+      "volume": "127",
+      "issue": "5",
+      "fpage": "785",
+      "lpage": "787",
+      "pmid": "35739301",
+      "doi": "10.1038/s41416-022-01893-5",
+      "pmc_id": "PMC9427732"
+    },
+    {
+      "ref_id": "bib77",
+      "label": "77",
+      "authors": [
+        "Eaton J.K.",
+        "Furst L.",
+        "Cai L.L.",
+        "Viswanathan V.S.",
+        "Schreiber S.L."
+      ],
+      "title": "Structure-activity relationships of GPX4 inhibitor warheads",
+      "journal": "Bioorg Med Chem Lett.",
+      "year": "2020",
+      "volume": "30",
+      "issue": "23",
+      "doi": "10.1016/j.bmcl.2020.127538",
+      "pmc_id": "PMC8006158",
+      "pmid": "32920142"
+    },
+    {
+      "ref_id": "bib78",
+      "label": "78",
+      "authors": [
+        "Eaton J.K.",
+        "Furst L.",
+        "Ruberto R.A.",
+        "Moosmayer D.",
+        "Hilpmann A.",
+        "Ryan M.J.",
+        "et al."
+      ],
+      "title": "Selective covalent targeting of GPX4 using masked nitrile-oxide electrophiles",
+      "journal": "Nat. Chem. Biol.",
+      "year": "2020",
+      "volume": "16",
+      "issue": "5",
+      "fpage": "497",
+      "lpage": "506",
+      "pmid": "32231343",
+      "doi": "10.1038/s41589-020-0501-5",
+      "pmc_id": "PMC7251976"
+    },
+    {
+      "ref_id": "bib79",
+      "label": "79",
+      "authors": [
+        "Hanggi K.",
+        "Li J.",
+        "Gangadharan A.",
+        "Liu X.",
+        "Celias D.P.",
+        "Osunmakinde O.",
+        "et al."
+      ],
+      "title": "Interleukin-1alpha release during necrotic-like cell death generates myeloid-driven immunosuppression that restricts anti-tumor immunity",
+      "journal": "Cancer Cell",
+      "year": "2024",
+      "volume": "42",
+      "issue": "12",
+      "fpage": "2015",
+      "lpage": "2031 e11",
+      "pmid": "39577420",
+      "doi": "10.1016/j.ccell.2024.10.014",
+      "pmc_id": "PMC11631672"
+    },
+    {
+      "ref_id": "bib80",
+      "label": "80",
+      "authors": [
+        "Koncina E.",
+        "Nurmik M.",
+        "Pozdeev V.I.",
+        "Gilson C.",
+        "Tsenkova M.",
+        "Begaj R.",
+        "et al."
+      ],
+      "title": "IL1R1(+) cancer-associated fibroblasts drive tumor development and immunosuppression in colorectal cancer",
+      "journal": "Nat. Commun.",
+      "year": "2023",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "4251",
+      "pmid": "37460545",
+      "doi": "10.1038/s41467-023-39953-w",
+      "pmc_id": "PMC10352362"
+    }
+  ]
+}

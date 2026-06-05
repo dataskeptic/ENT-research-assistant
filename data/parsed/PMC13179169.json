@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "title": "Optimal Timing of Surgery Following Neoadjuvant Therapy for Surgical and Oncological Outcomes in Advanced Esophageal Squamous Cell Carcinoma: An Exploratory Analysis of JCOG1109",
+    "authors": [
+      "Ryosuke Kita",
+      "Ken Kato",
+      "Ryunosuke Machida",
+      "Yoshinori Ito",
+      "Hiroyuki Daiko",
+      "Hirofumi Kawakubo",
+      "Keita Sasaki",
+      "Haruhiko Fukuda",
+      "Yasue Kimura",
+      "Kohei Akiyoshi",
+      "Kazuo Koyanagi",
+      "Hiroki Hara",
+      "Keiko Minashi",
+      "Kenji Amagai",
+      "Tetsuya Abe",
+      "Satoru Matsuda",
+      "Takahiro Tsushima",
+      "Hiroya Takeuchi"
+    ],
+    "journal": "Annals of Surgical Oncology",
+    "year": "2026",
+    "doi": "10.1245/s10434-025-19050-6",
+    "pmc_id": "PMC13179169",
+    "pmid": "41535566",
+    "full_text_available": true,
+    "section_count": 11,
+    "reference_count": 29
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background The optimal timing of surgery following neoadjuvant therapy in esophageal squamous cell carcinoma (ESCC) remains uncertain. This exploratory analysis aims to assess the impact of time to surgery (TTS) on perioperative and survival outcomes in patients with advanced ESCC enrolled in the phase III trial JCOG1109. Methods Patients who underwent esophagectomy following neoadjuvant chemotherapy or chemoradiotherapy were included. Within each treatment arm, patients were categorized into four TTS subgroups according to cohort quartiles. Perioperative complications, overall survival (OS), and progression-free survival (PFS) were evaluated. Results The median TTS was 35 (range, 16–81), 38 (17–109), and 41 (14–98) days for the cisplatin plus fluorouracil (CF), docetaxel, cisplatin plus fluorouracil, and CF with radiotherapy (CF-RT) arms, respectively. Baseline characteristics were comparable across the TTS subgroups. Operative time and overall complication rates showed no significant differences. In the CF-RT arm, a longer TTS was associated with increased blood loss (200, 210, 300, and 370 mL) and a trend toward a higher anastomotic leakage (6%, 7%, 14%, and 18%), as well as a trend toward poorer PFS and OS, particularly at more prolonged intervals. However, across all treatment arms, OS and PFS did not differ among the TTS subgroups, with multivariable analysis revealing no consistent associations between TTS and survival. Conclusions Time to surgery following neoadjuvant therapy did not significantly influence prognosis in advanced ESCC. Nonetheless, prolonged intervals after chemoradiotherapy may increase surgical complexity and leakage risk, in addition to elevating the potential for adverse prognostic effects associated with excessive delays. Supplementary Information The online version contains supplementary material available at 10.1245/s10434-025-19050-6.",
+      "order": 0
+    },
+    {
+      "section": "Patients",
+      "text": "Details of the eligibility criteria and study design for JCOG1109, a multicenter phase III randomized trial evaluating neoadjuvant treatments for esophageal cancer, have been previously described. 19 The following were the key eligibility criteria: (1) histologically confirmed squamous cell carcinoma, adenosquamous carcinoma, or basaloid cell carcinoma of the thoracic esophagus; (2) clinical stage IB, II, or III, excluding T4 according to the seventh UICC TNM classification; (3) aged 20–75 years; and 4) Eastern Cooperative Oncology Group (ECOG) performance status 0–1. Patients were randomly allocated (1:1:1) to one of three neoadjuvant treatment arms as follows: CF, DCF, or CF-RT. This exploratory analysis encompassed eligible patients from JCOG1109 who underwent esophagectomy following receiving neoadjuvant therapy. All clinical data were obtained from the JCOG1109 database. Written informed consent was obtained from all patients, including consent for secondary data use. JCOG1109 is registered with the Japan Registry of Clinical Trials (jRCTs031180202).",
+      "order": 1
+    },
+    {
+      "section": "Definition Of Tts And Subgrouping",
+      "text": "Time to surgery was defined as the duration from the last day of neoadjuvant therapy to the date of surgery. Patients were stratified into four subgroups within each treatment arm on the basis of TTS distribution quantiles in the overall cohort.",
+      "order": 2
+    },
+    {
+      "section": "Neoadjuvant Treatments",
+      "text": "In the CF arm, patients received two cycles of neoadjuvant CF (cisplatin 80 mg/m 2 /day on day 1 and 5-FU 800 mg/m 2 /day on days 1–5) at 3-week intervals. In the DCF arm, three cycles of neoadjuvant DCF (docetaxel 70 mg/m 2 /day and cisplatin 70 mg/m 2 /day on day 1, with 5-FU 750 mg/m 2 /day on days 1–5) were administered at 3-week intervals. In the CF-RT arm, neoadjuvant CRT was delivered with a total radiation dose of 41.4 Gy over 5 weeks (23 fractions), combined with two cycles of CF (cisplatin 75 mg/m 2 /day on day 1 and 5-FU 1,000 mg/m 2 /day on days 1–4) at 4-week intervals. The radiation fields covered the primary tumor with a 2-cm margin and regional lymph nodes according to tumor location. Surgery, either subtotal or total thoracic esophagectomy with regional lymphadenectomy via right thoracotomy, was performed within 56 days following neoadjuvant treatment. Reconstruction methods were not required and were left to the discretion of the surgeon, with gastric tube reconstruction and cervical anastomosis being the standard approach.",
+      "order": 3
+    },
+    {
+      "section": "Outcomes",
+      "text": "Short-term outcomes encompassed intraoperative findings (number of dissected lymph nodes, proportion of R0 resection, operative time, and blood loss) and postoperative outcomes (pathological response rate assessed according to the Japanese Classification of Esophageal Cancer, 11th edition, and postoperative complications classified using the Common Terminology Criteria for Adverse Events version 4.0). 20 Long-term outcomes consisted of OS, defined as the time from randomization to death from any cause, and progression-free survival (PFS), defined as the time from randomization to the first evidence of disease progression or death from any cause. Disease progression noted during neoadjuvant therapy was not considered a PFS event if followed by R0 or R1 resection; however, in cases of R2 resection, radiologically confirmed progression postoperatively was considered a PFS event.",
+      "order": 4
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Baseline characteristics across the TTS subgroups were compared using the Kruskal–Wallis and chi-square tests for continuous and categorical variables, respectively. Trends in perioperative outcomes across the TTS subgroups within each treatment arm were analyzed using the Jonckheere–Terpstra and Cochran–Armitage trend tests for continuous and categorical variables, respectively. Long-term outcomes, including OS and PFS, were estimated using the Kaplan–Meier method. Hazard ratios (HR) and corresponding 95% confidence intervals (CI) for the TTS subgroups were calculated by using the Cox proportional hazards model. Multivariable analysis was adjusted for age, sex, ECOG performance status, neoadjuvant therapy completion, and clinical stage. All p -values were two-sided, and statistical analyses were performed using SAS version 9.4 (SAS Institute, Cary, NC).",
+      "order": 5
+    },
+    {
+      "section": "Patient Characteristics And Tts Distribution",
+      "text": "From December 2012 to July 2018, 601 patients were enrolled in JCOG1109 and randomly allocated to one of three neoadjuvant treatment groups: CF ( n = 199), DCF ( n = 202), and CF-RT ( n = 200). Of the patients, 546 proceeded to esophagectomy following neoadjuvant therapy (CF, n = 185; DCF, n = 183; CF-RT, n = 178). The flowchart of patient enrollment, exclusions, and surgical cases is depicted in Supplementary Fig. 1 (Supplemental Digital Content 1). In the overall cohort, the median age was 65 (range, 30–75) years, with almost all patients having squamous cell carcinoma histology. In 58.6% of patients, the tumor was located in the middle thoracic esophagus. The completion proportion of neoadjuvant therapy was 92.1%, and 93.8% of patients underwent surgery within 56 days following neoadjuvant therapy completion, in accordance with protocol specifications. The overall median TTS was 38 (range, 14–109) days, with median TTS of 35 (range, 16–81), 38 (range, 17–109), and 41 (range, 14–98) days in the CF, DCF, and CF-RT arms, respectively (Table 1 ). To maximize the statistical power for detecting potential trends, the main analysis adopted a quantile-based classification of TTS, ensuring balanced patient numbers across the subgroups within each treatment arm. Based on TTS quantiles of the overall cohort, patients were stratified into the following four groups: Q1 (<32 days), Q2 (32–37 days), Q3 (38–46 days), and Q4 (≥47 days). The following was the distribution of patients across these subgroups 64, 50, 43, and 28 patients in Q1–Q4 of the CF arm; 46, 38, 50, and 49 in the DCF arm; and 17, 41, 59, and 61 in the CF-RT arm. Generally, the demographic and clinical characteristics of the patients were comparable across all TTS subgroups within each treatment arm, except for age, body mass index, and neoadjuvant treatment completion proportions in the DCF arm (Table 2 ).",
+      "order": 6
+    },
+    {
+      "section": "Perioperative Outcomes",
+      "text": "The operative procedures and perioperative outcomes, including surgical approach, extent of lymph node dissection, operative time, residual tumor status, and length of postoperative hospital stay, exhibited no significant differences across the TTS subgroups within each treatment arm (Table 3 ). In the CF-RT arm, a gradual increase in intraoperative blood loss was noted across the TTS subgroups from Q1 to Q4 (Q1: 200 mL, Q2: 210 mL, Q3: 300 mL, Q4: 370 mL; p = 0.010). Conversely, the number of harvested lymph nodes progressively decreased with longer TTS from 54 in Q1 to 42 in Q4 ( p = 0.010). Although the overall incidence of postoperative complications did not significantly differ between the TTS subgroups, the CF-RT arm demonstrated a trend toward a higher anastomotic leakage proportion with longer TTS (Q1: 5.9%, Q2: 7.3%, Q3: 13.6%, and Q4: 18.0%; p = 0.073). Regarding pathological response, in the CF-RT arm, the proportion of patients achieving Grade 2 (≥two-thirds tumor necrotic/fibrotic) and Grade 3 (complete absence of viable tumor cells) progressively decreased from Q1 to Q4 (Q1: 88.2%, Q2: 92.7%, Q3: 78%, and Q4: 65%; p = 0.001).",
+      "order": 7
+    },
+    {
+      "section": "Survival Outcomes",
+      "text": "The median follow-up duration was 67.5 months, during which 284 PFS events and 247 deaths were observed. The 5-year OS across the TTS subgroups from Q1 to Q4 were 49.8%, 55.1%, 53.5%, and 63.6% in the CF arm ( p = 0.386), 78.2%, 71.1%, 56%, and 68.9% in the DCF arm ( p = 0.294); and 64.7%, 68.3%, 74.3%, and 45.9% in the CF-RT arm, respectively ( p = 0.083) (Fig. 1 ). Similarly, the 5-year PFS from Q1 to Q4 across the TTS subgroups were 43.7%, 42%, 41.5%, and 56.4% in the CF arm ( p = 0.587); 56.5%, 63.2%, 53.9%, and 61.1% in the DCF arm ( p = 0.555); and 64.7%, 56.1%, 66.1%, and 42.6% in the CF-RT arm, respectively ( p = 0.228; Fig. 2 ). The TTS subgroups within any treatment arm revealed no significant differences in OS or PFS. However, in the CF-RT arm, a comparison between Q1 to Q3 and Q4 showed a tendency toward worse PFS and OS in the Q4 subgroup (Fig. 3 ). Multivariable analysis adjusted for age, sex, ECOG performance status, neoadjuvant therapy completion, and clinical stage demonstrated no significant differences in HR across the TTS subgroups (Table 4 ; Supplementary Table 1). Moreover, sensitivity analyses using quantile-based stratification within each treatment arm and absolute value-based stratification, alternative TTS classifications, consistently indicated that TTS variations were not associated with prognostic differences in any treatment arms (Supplementary Tables 2 and 3; Supplementary Figs. 2 and 3; Supplemental Digital Content 1).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "This exploratory analysis of JCOG1109 evaluated the impact of surgical timing following neoadjuvant therapy on short- and long-term outcomes in patients with advanced ESCC. Variations in TTS did not significantly impact postoperative complications, PFS, or OS irrespective of the treatment regimen. However, a slight tendency toward increased intraoperative blood loss and a higher anastomotic leakage incidence was noted with longer TTS in the neoadjuvant CRT arm, and patients with the most prolonged intervals also showed a trend toward poorer PFS and OS. Most previous studies on the impact of the interval between neoadjuvant therapy and surgery have been retrospective, where longer TTS is frequently associated with factors, including treatment toxicity or delayed recovery. 14 , 21 – 23 However, patient-related factors or heterogeneity in patient selection and treatment have not been fully accounted for in these studies, thereby limiting their ability to draw definitive conclusions. The NeoRes II trial, a randomized controlled trial, investigated the effects of prolonged TTS following neoadjuvant CRT in patients with resectable locally advanced esophageal cancer. The trial reported a trend toward worse survival, suggesting caution in delaying surgery beyond 6 weeks. 17 Similarly, the GRECCAR-6 trial on rectal cancer revealed that extended TTS did not improve survival outcomes and was associated with higher morbidity and more difficult surgery. 24 , 25 To the best of our knowledge, this is the first study to utilize data from a randomized trial to evaluate homogeneous cohorts of patients with ESCC. Furthermore, although most prior studies have focused on TTS following neoadjuvant CRT, this study uniquely investigated TTS following neoadjuvant chemotherapy, demonstrating that surgical timing did not affect postoperative complications or prognosis. In the CF-RT arm, longer TTS was associated with increased intraoperative blood loss, a higher anastomotic leakage incidence, and a reduced number of harvested lymph nodes, as well as a tendency toward poorer PFS and OS, particularly when the interval approached the time frame examined in the NeoRes II trial. These perioperative and survival patterns are consistent with those observed in that study in patients with ESCC. Although radiation-induced damage to lymph node structures may have contributed to the reduced number of harvested lymph nodes, the impact of increased therapy-induced fibrosis and local inflammation due to prolonged TTS is probably more significant. Previous animal studies have demonstrated that radiation-treated esophagi exhibit significant changes in tissue layers, including decreased collagen fiber density in the lamina propria and collagen fiber infiltration into the muscularis mucosae over time. 26 , 27 Notably, similar alterations are noted in muscle tissue, where collagen fiber deposition increases, and the expression of fibrosis markers also increases over time following irradiation. 28 These findings suggest that radiation therapy causes esophageal tissue thickening and continuous fibrosis development over time. Such changes can complicate the surgical procedure and impair tissue viability, thereby affecting surgical complexity and postoperative outcomes, potentially contributing to the observed increases in blood loss and anastomotic leakage. Moreover, in the CF-RT arm, a longer TTS was associated with a lower proportion of patients achieving pathological response of grade ≥2. Although previous studies have suggested that prolonged TTS does not adversely affect, or may even improve, pathological response rates, our study showed that prolonged TTS was associated with reduced pathological response. 7 , 16 , 29 The underlying mechanisms remain unclear, and further investigations, including larger-scale studies and molecular biological analyses, are warranted. The lower pathological response rate in patients with extended TTS may have contributed to a higher proportion of patients with pathological stage III or higher in the CF-RT arm. This relative increase in advanced tumors may have further complicated the surgical procedure, potentially leading to the observed increased intraoperative blood loss and radiation-induced fibrosis. Nevertheless, no significant differences in OS or PFS were noted, suggesting that sufficient local control was achieved through surgery, irrespective of the timing of surgery. This study had several limitations. First, the protocol-specified requirement for surgery within 56 days of completing neoadjuvant therapy hindered the evaluation of the study participants. With a protocol adherence proportion of 90%, only a small number of patients had TTS >56 days, limiting the ability to completely evaluate the influence of TTS beyond this threshold. However, within a 56-day window, TTS variations did not appear to influence postoperative outcomes or prognosis. Second, although TTS duration may be more influenced by institutional factors than patient characteristics, these institutional variations were not considered in our analysis. Third, the molecular mechanisms underlying the effect of TTS on tissue behavior and response to treatment remain unclear, warranting further research into the biological implications of prolonged TTS on tissue characteristics. Finally, as this is an ad hoc analysis, prospective clinical studies are warranted to validate these findings.",
+      "order": 9
+    },
+    {
+      "section": "Conclusion",
+      "text": "The timing of surgery following neoadjuvant therapy did not influence prognosis in patients with advanced ESCC withing 56-day interval, regardless of the neoadjuvant therapy regimen. However, earlier surgery following neoadjuvant CRT, as opposed to neoadjuvant chemotherapy, may help to mitigate surgical complexity and anastomotic leakage-associated risks, and could contribute to avoiding potential adverse prognostic impacts associated with delayed surgery.",
+      "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Sung H",
+        "Ferlay J",
+        "Siegel RL",
+        "et al."
+      ],
+      "title": "Global Cancer Statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin.",
+      "year": "2021",
+      "volume": "71",
+      "fpage": "209",
+      "lpage": "249",
+      "pmid": "33538338",
+      "doi": "10.3322/caac.21660"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Liu C-Q",
+        "Ma Y-L",
+        "Qin Q",
+        "et al."
+      ],
+      "title": "Epidemiology of esophageal cancer in 2020 and projections to 2030 and 2040",
+      "journal": "Thorac Cancer.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "3",
+      "lpage": "11",
+      "doi": "10.1111/1759-7714.14745",
+      "pmid": "36482832",
+      "pmc_id": "PMC9807450"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Siegel RL",
+        "Miller KD",
+        "Fuchs HE",
+        "et al."
+      ],
+      "title": "Cancer statistics, 2022",
+      "journal": "CA Cancer J Clin.",
+      "year": "2022",
+      "volume": "72",
+      "fpage": "7",
+      "lpage": "33",
+      "pmid": "35020204",
+      "doi": "10.3322/caac.21708"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Lordick F",
+        "Mariette C",
+        "Haustermans K",
+        "et al."
+      ],
+      "title": "Oesophageal cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up",
+      "journal": "Ann Oncol.",
+      "year": "2016",
+      "volume": "27",
+      "fpage": "v50",
+      "lpage": "v57",
+      "doi": "10.1093/annonc/mdw329",
+      "pmid": "27664261"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan esophageal society: part 1",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "343",
+      "lpage": "372",
+      "doi": "10.1007/s10388-023-00993-2",
+      "pmid": "36933136",
+      "pmc_id": "PMC10024303"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Kitagawa Y",
+        "Ishihara R",
+        "Ishikawa H",
+        "et al."
+      ],
+      "title": "Esophageal cancer practice guidelines 2022 edited by the Japan Esophageal Society: part 2",
+      "journal": "Esophagus.",
+      "year": "2023",
+      "volume": "20",
+      "fpage": "373",
+      "lpage": "389",
+      "doi": "10.1007/s10388-023-00994-1",
+      "pmid": "36995449",
+      "pmc_id": "PMC10235142"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Shapiro J",
+        "van Hagen P",
+        "Lingsma HF",
+        "et al."
+      ],
+      "title": "Prolonged time to surgery after neoadjuvant chemoradiotherapy increases histopathological response without affecting survival in patients with esophageal or junctional cancer",
+      "journal": "Ann Surg.",
+      "year": "2014",
+      "volume": "260",
+      "fpage": "807",
+      "lpage": "13",
+      "doi": "10.1097/SLA.0000000000000966",
+      "pmid": "25379852"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Singla S",
+        "Gabriel E",
+        "Alnaji R",
+        "et al."
+      ],
+      "title": "Complete pathologic response is independent of the timing of esophagectomy following neoadjuvant chemoradiation for esophageal cancer",
+      "journal": "J Gastrointest Oncol.",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "73",
+      "lpage": "79",
+      "doi": "10.21037/jgo.2017.09.11",
+      "pmid": "29564173",
+      "pmc_id": "PMC5848031"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Tsang JS",
+        "Tong DKH",
+        "Lam KO",
+        "et al."
+      ],
+      "title": "Appropriate timing for surgery after neoadjuvant chemoradiation for esophageal cancer",
+      "journal": "Dis Esophagus.",
+      "year": "2017",
+      "volume": "30",
+      "fpage": "1",
+      "lpage": "8",
+      "doi": "10.1093/dote/dox062",
+      "pmid": "28859363"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Franko J",
+        "McAvoy S"
+      ],
+      "title": "Timing of esophagectomy after neoadjuvant chemoradiation treatment in squamous cell carcinoma",
+      "journal": "Surgery.",
+      "year": "2018",
+      "volume": "164",
+      "fpage": "455",
+      "lpage": "459",
+      "doi": "10.1016/j.surg.2018.04.026",
+      "pmid": "29903507"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Müller A-K",
+        "Lenschow C",
+        "Palmes D",
+        "et al."
+      ],
+      "title": "Timing of esophagectomy in multimodal therapy of esophageal cancer: Impact of time interval between neoadjuvant therapy and surgery on outcome and response",
+      "journal": "Chir Z Alle Geb Oper Medizen.",
+      "year": "2015",
+      "volume": "86",
+      "fpage": "874",
+      "lpage": "80",
+      "doi": "10.1007/s00104-014-2916-6",
+      "pmid": "25662991"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Ranney DN",
+        "Mulvihill MS",
+        "Yerokun BA",
+        "et al."
+      ],
+      "title": "Surgical resection after neoadjuvant chemoradiation for oesophageal adenocarcinoma: what is the optimal timing?",
+      "journal": "Eur J Cardio-Thorac Surg Off J Eur Assoc Cardio-Thorac Surg.",
+      "year": "2017",
+      "volume": "52",
+      "fpage": "543",
+      "lpage": "551",
+      "doi": "10.1093/ejcts/ezx132",
+      "pmid": "28498967"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Haisley KR",
+        "Laird AE",
+        "Nabavizadeh N",
+        "et al."
+      ],
+      "title": "Association of intervals between neoadjuvant chemoradiation and surgical resection with pathologic complete response and survival in patients with esophageal cancer",
+      "journal": "JAMA Surg.",
+      "year": "2016",
+      "volume": "151",
+      "fpage": "e162743",
+      "doi": "10.1001/jamasurg.2016.2743",
+      "pmid": "27627765"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Chidambaram S",
+        "Owen R",
+        "Sgromo B",
+        "et al."
+      ],
+      "title": "Delayed surgical intervention after chemoradiotherapy in esophageal cancer: (DICE) study",
+      "journal": "Ann Surg.",
+      "year": "2023",
+      "volume": "278",
+      "fpage": "701",
+      "lpage": "708",
+      "doi": "10.1097/SLA.0000000000006028",
+      "pmid": "37477039"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "van der Werf LR",
+        "Dikken JL",
+        "van der Willik EM",
+        "et al."
+      ],
+      "title": "Time interval between neoadjuvant chemoradiotherapy and surgery for oesophageal or junctional cancer: a nationwide study",
+      "journal": "Eur J Cancer Oxf Engl",
+      "year": "1990",
+      "volume": "2018",
+      "issue": "91",
+      "fpage": "76",
+      "lpage": "85",
+      "doi": "10.1016/j.ejca.2017.12.009",
+      "pmid": "29353163"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Maramara T",
+        "Shridhar R",
+        "Blinn P",
+        "et al."
+      ],
+      "title": "Timing after neoadjuvant therapy predicts mortality in patients undergoing esophagectomy: a propensity score-matched analysis",
+      "journal": "J Gastrointest Surg.",
+      "year": "2023",
+      "volume": "27",
+      "fpage": "2342",
+      "lpage": "2351",
+      "doi": "10.1007/s11605-023-05851-1",
+      "pmid": "37848687"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Nilsson K",
+        "Klevebro F",
+        "Sunde B",
+        "et al."
+      ],
+      "title": "Oncological outcomes of standard versus prolonged time to surgery after neoadjuvant chemoradiotherapy for oesophageal cancer in the multicentre, randomised, controlled NeoRes II trial",
+      "journal": "Ann Oncol.",
+      "year": "2023",
+      "volume": "34",
+      "fpage": "1015",
+      "lpage": "1024",
+      "doi": "10.1016/j.annonc.2023.08.010",
+      "pmid": "37657554"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Kato K",
+        "Machida R",
+        "Ito Y",
+        "et al."
+      ],
+      "title": "Doublet chemotherapy, triplet chemotherapy, or doublet chemotherapy combined with radiotherapy as neoadjuvant treatment for locally advanced oesophageal cancer (JCOG1109 NExT): a randomised, controlled, open-label, phase 3 trial",
+      "journal": "Lancet Lond Engl.",
+      "year": "2024",
+      "volume": "404",
+      "fpage": "55",
+      "lpage": "66",
+      "doi": "10.1016/S0140-6736(24)00745-1",
+      "pmid": "38876133"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Nakamura K",
+        "Kato K",
+        "Igaki H",
+        "et al."
+      ],
+      "title": "Three-arm phase III trial comparing cisplatin plus 5-FU (CF) versus docetaxel, cisplatin plus 5-FU (DCF) versus radiotherapy with CF (CF-RT) as preoperative therapy for locally advanced esophageal cancer (JCOG1109, NExT study)",
+      "journal": "Jpn J Clin Oncol.",
+      "year": "2013",
+      "volume": "43",
+      "fpage": "752",
+      "lpage": "755",
+      "doi": "10.1093/jjco/hyt061",
+      "pmid": "23625063"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "title": "Japanese classification of esophageal cancer. Part I",
+      "journal": "Esophagus.",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "1",
+      "lpage": "36",
+      "doi": "10.1007/s10388-016-0551-7",
+      "pmid": "28111535",
+      "pmc_id": "PMC5222932"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Azab B",
+        "Amundson JR",
+        "Picado O",
+        "et al."
+      ],
+      "title": "Impact of chemoradiation-to-surgery interval on pathological complete response and short- and long-term overall survival in esophageal cancer patients",
+      "journal": "Ann Surg Oncol.",
+      "year": "2019",
+      "volume": "26",
+      "fpage": "861",
+      "lpage": "868",
+      "doi": "10.1245/s10434-018-6897-4",
+      "pmid": "30311162"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Klevebro F",
+        "Nilsson K",
+        "Lindblad M",
+        "et al."
+      ],
+      "title": "Association between time interval from neoadjuvant chemoradiotherapy to surgery and complete histological tumor response in esophageal and gastroesophageal junction cancer: a national cohort study",
+      "journal": "Dis Esophagus.",
+      "year": "2020",
+      "volume": "33",
+      "fpage": "doz078",
+      "doi": "10.1093/dote/doz078",
+      "pmid": "31676895",
+      "pmc_id": "PMC7203996"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Liu J",
+        "Zeng X",
+        "Zhou X",
+        "et al."
+      ],
+      "title": "Longer interval between neoadjuvant chemoradiotherapy and surgery is associated with improved pathological response, but does not accurately estimate survival in patients with resectable esophageal cancer",
+      "journal": "Oncol Lett.",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "155",
+      "doi": "10.3892/ol.2023.13741",
+      "pmid": "36936022",
+      "pmc_id": "PMC10018328"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Lefèvre JH",
+        "Mineur L",
+        "Cachanado M",
+        "et al."
+      ],
+      "title": "Does a longer waiting period after neoadjuvant radio-chemotherapy improve the oncological prognosis of rectal cancer? Three years’ follow-up results of the greccar-6 randomized multicenter trial",
+      "journal": "Ann Surg.",
+      "year": "2019",
+      "volume": "270",
+      "fpage": "747",
+      "lpage": "754",
+      "doi": "10.1097/SLA.0000000000003530",
+      "pmid": "31634178"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Collard MK",
+        "Mineur L",
+        "Nekrouf C",
+        "et al."
+      ],
+      "title": "Final results of the GRECCAR-6 trial on waiting period following neoadjuvant radiochemotherapy for locally advanced rectal cancer: 5 years of follow-up",
+      "journal": "Dis Colon Rectum.",
+      "year": "2025",
+      "volume": "68",
+      "fpage": "199",
+      "lpage": "208",
+      "doi": "10.1097/DCR.0000000000003477",
+      "pmid": "39508462"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Yoshizumi K",
+        "Saito N",
+        "Wu Y",
+        "et al."
+      ],
+      "title": "Adipose-derived stem cells and wound healing are progressively impaired long-term after radiotherapy in mice",
+      "journal": "Plast Reconstr Surg Glob Open.",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "e6419",
+      "doi": "10.1097/GOX.0000000000006419",
+      "pmid": "39872086",
+      "pmc_id": "PMC11771654"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Fountain MD",
+        "Abernathy LM",
+        "Lonardo F",
+        "et al."
+      ],
+      "title": "Radiation-induced esophagitis is mitigated by soy isoflavones",
+      "journal": "Front Oncol.",
+      "year": "2015",
+      "volume": "5",
+      "fpage": "238",
+      "doi": "10.3389/fonc.2015.00238",
+      "pmid": "26557504",
+      "pmc_id": "PMC4617099"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Zhou Y",
+        "Sheng X",
+        "Deng F",
+        "et al."
+      ],
+      "title": "Radiation-induced muscle fibrosis rat model: establishment and valuation",
+      "journal": "Radiat Oncol Lond Engl.",
+      "year": "2018",
+      "volume": "13",
+      "fpage": "160",
+      "doi": "10.1186/s13014-018-1104-0",
+      "pmc_id": "PMC6114061",
+      "pmid": "30157899"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Lin G",
+        "Han S-Y",
+        "Xu Y-P",
+        "et al."
+      ],
+      "title": "Increasing the interval between neoadjuvant chemoradiotherapy and surgery in esophageal cancer: a meta-analysis of published studies",
+      "journal": "Dis Esophagus.",
+      "year": "2016",
+      "volume": "29",
+      "fpage": "1107",
+      "lpage": "1114",
+      "doi": "10.1111/dote.12432",
+      "pmid": "26542065"
+    }
+  ]
+}

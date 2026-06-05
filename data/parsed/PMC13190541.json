@@ -1,0 +1,1007 @@
+{
+  "metadata": {
+    "title": "Salvage microsurgery for vestibular schwannoma after failed stereotactic radiosurgery: a multi-institutional retrospective study",
+    "authors": [
+      "Filippo Friso",
+      "Noa Ben Dor",
+      "Alfredo Conti",
+      "Alfredo Decio Fabbri",
+      "Federico Calvaruso",
+      "Virginia Dallari",
+      "Francesca De Cecco",
+      "Franco Federico Bochicchio",
+      "Emanuele La Corte",
+      "Tomasz Wojciechowski",
+      "Kazimierz Niemczyk",
+      "Adrian Drożdż",
+      "Grzegorz Turek",
+      "Lukas Anschuetz",
+      "Davide Soloperto",
+      "Giacomo Pavesi",
+      "Barbara Masotto",
+      "Daniele Marchioni",
+      "Carmelo Sturiale",
+      "Paolo Ferroli",
+      "Francesco DiMeco",
+      "Livio Presutti",
+      "Giulia Molinari"
+    ],
+    "journal": "Journal of Neuro-Oncology",
+    "year": "2026",
+    "doi": "10.1007/s11060-026-05598-0",
+    "pmc_id": "PMC13190541",
+    "pmid": "42159832",
+    "full_text_available": true,
+    "section_count": 16,
+    "reference_count": 50
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objective The management of sporadic vestibular schwannoma (VS) with stereotactic radiosurgery (SRS) is becoming increasingly common worldwide. Despite its efficacy, treatment failure can occur in a subset of patients. This study aimed to describe the clinical outcomes of salvage microsurgery following failed primary SRS in patients with sporadic VS. Methods This retrospective study included adult patients (≥ 18 years) who underwent salvage microsurgery following failed primary SRS at six European tertiary referral centers. Data collection was performed from January 2012 to December 2022, and data analysis was performed from July to September 2025. Results Among 28 patients (15 men, 13 women), surgery indication was radiological regrowth in 27/28 patients. The median interval from SRS to salvage microsurgery was 48 months (range, 24–120), and the median age at time of salvage microsurgery was 53 years (range, 30–74). Axial diameter increased from median 18.5 mm (range, 7.5–27) before SRS to 25 mm (range, 10.5–33) before surgery. Gross total resection was achieved in 13/28 (46.4%). Complications occurred in 3/28 patients (10.7%). Serviceable hearing (AAO-HNS class A/B) declined from 10/20 patients (50.0%) pre-SRS to 4/24 (16.7%) preoperatively; all patients with postoperative follow-up (14/28) were AAO-HNS class D. Preoperative facial nerve function was House–Brackmann (HB) grade I in 25/28 patients (89.3%); good facial function (HB I–II) was seen in 14/27 (51.9%) at discharge and 11/15 (73.3%) at 12 months, with 3/15 (20.0%) remaining HB grade V–VI. Conclusion Salvage microsurgery is a viable therapeutic option for managing VS after failed SRS. GTR or NTR with a relatively low complication profile is achievable, although hearing preservation is not a realistic goal in this setting, whereas facial nerve function may improve postoperatively.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Vestibular schwannomas (VS) are benign tumors that arise from Schwann cells in the vestibular division of the eighth cranial nerve. These lesions are the most prevalent neoplasm of the cerebellopontine angle (CPA) and typically present with progressive unilateral hearing loss, tinnitus, and imbalance, and less commonly with facial weakness or trigeminal dysfunction [ 1 – 4 ]. The widespread application of high-resolution MRI has contributed to an increased detection rate of small, often asymptomatic tumors, particularly in older adults [ 3 , 5 ]. Historically, microsurgical resection was the primary treatment modality; however, the therapeutic landscape has evolved markedly with the advent and refinement of stereotactic radiosurgery (SRS) [ 6 – 8 ]. SRS is now widely accepted as a first-line intervention for small- to medium-sized VS, typically those measuring ≤ 2.5 to 3.0 cm in maximal extracanalicular diameter, owing to its high long-term tumor control rates (91–98% at five years) and favorable safety profile in appropriately selected patients [ 5 , 9 ]. Despite its high efficacy, treatment failure following SRS occurs in a small proportion of patients, with reported rates ranging from 2.5% to 5%. Contributing factors may include suboptimal marginal dosing, inadequate isocenter coverage, and intrinsic tumor radioresistance [ 5 , 9 – 16 ]. In such cases, salvage management options include repeat radiosurgery or microsurgical resection, both of which carry an elevated risk of morbidity due to radiation-induced tissue alterations [ 5 , 9 , 11 , 16 – 21 ]. Salvage microsurgical resection is particularly demanding because prior irradiation frequently obscures normal anatomical landmarks and increases the technical complexity of tumor dissection. Consequently, these procedures require substantial surgical expertise, advanced intraoperative neurophysiological monitoring, and carefully individualized treatment planning to optimize functional outcomes [ 5 , 9 , 16 , 17 , 19 , 22 ]. Given the rarity of these cases, a European multi-institutional collaboration was initiated with the primary objective of characterizing the indications, operative challenges, and postoperative outcomes among patients with sporadic vestibular schwannoma who underwent salvage microsurgery following failed primary SRS.",
+      "order": 1
+    },
+    {
+      "section": "Study Design And Setting",
+      "text": "This multi-institutional retrospective study was conducted at six European tertiary referral centers in Bologna (Italy), Modena (Italy), Verona (Italy), Milan (Italy), Warsaw (Poland), and Bern (Switzerland). The study period spanned January 2012 to December 2022; the end date was chosen to allow for at least 12 months of clinical follow-up for functional outcomes in a subset of patients. Each center performed a systematic query of operative logs and institutional VS/radiosurgery databases to identify consecutive patients who underwent salvage microsurgical resection after primary SRS treatment. Case lists were reviewed locally by the skull base teams to maximize the completeness of case ascertainment.",
+      "order": 2
+    },
+    {
+      "section": "Eligibility Criteria",
+      "text": "Eligible participants included adult patients (≥ 18 years) with unilateral sporadic VS who received SRS as the initial definitive treatment and subsequently underwent salvage microsurgical resection. We defined SRS failure as either (1) progressive radiological tumor growth, characterized as a > 20% increase in tumor volume compared with the earliest post-SRS MRI, confirmed on serial imaging and occurring outside the expected post-SRS pseudoprogression window, or (2) clinically significant neurological deterioration attributable to the tumor (e.g., trigeminal neuralgia, facial dysfunction, hydrocephalus) prompting surgical management, even in the absence of a clear volumetric increase [ 23 – 25 ]. Patients were excluded if they had undergone microsurgical resection prior to SRS, had a diagnosis of neurofibromatosis type 2 (NF2), showed malignant transformation of the tumor post-radiosurgery, or were treated with cerebrospinal fluid diversion alone without tumor removal.",
+      "order": 3
+    },
+    {
+      "section": "Clinical Data",
+      "text": "Clinical, audiometric, radiological, and surgical data were retrospectively extracted from institutional databases, medical records, and intraoperative video reviews. The demographic variables included age and sex. Tumor characteristics included the Koos classification (pre-SRS and pre-surgery) [ 26 ], internal auditory canal (IAC) involvement, and quantitative tumor size when available (maximum extracanalicular axial diameter measured parallel to the petrous ridge). Hearing status was recorded at three time points (pre-SRS, pre-surgery, and post-surgery when available) using pure-tone audiometry and the American Academy of Otolaryngology–Head and Neck Surgery (AAO-HNS) classification [ 27 – 29 ]. Facial nerve function was assessed preoperatively, at discharge, and at 3, 6, and 12 months (when available) using the House–Brackmann (HB) grading system [ 29 , 30 ]. The radiosurgical variables included the device type (Gamma Knife, CyberKnife, or LINAC-based), number of sessions, and delivered dose when available. Surgical variables included the surgical approach, intraoperative findings, and extent of resection (EOR). Residual tumor was assessed using volumetric comparison between preoperative and first postoperative contrast-enhanced T1-weighted MRI (typically obtained 2–3 months after surgery). EOR was classified as gross total resection (GTR; no radiographic residual), near-total resection (NTR; residual volume ≤ 2%), subtotal resection (STR; residual volume > 2% and < 5%), and partial resection (PR; residual volume ≥ 5%) [ 31 ]. We acknowledge that proportional thresholds do not account for absolute residual size; volumetrically defined absolute thresholds for NTR/STR have been proposed recently [ 32 ] but could not be applied uniformly in this retrospective multicenter cohort due to heterogeneous imaging workflows and incomplete availability of standardized 3D volumetry outputs across the centers. Beyond the early postoperative MRI used for residual assessment, subsequent radiological follow-up was heterogeneous and incompletely documented; therefore, time-specific tumor control rates after salvage surgery could not be calculated. Importantly, owing to the rarity of salvage cases and the multi-institutional retrospective design, missing data were expected for some variables; therefore, all denominators are reported explicitly in the Results section.",
+      "order": 4
+    },
+    {
+      "section": "Results",
+      "text": "A total of 28 patients met the inclusion criteria, comprising 15 men and 13 women. Cases were contributed by Bologna ( n = 1), Modena ( n = 1), Verona ( n = 10), Milan ( n = 10), Warsaw ( n = 5), and Bern ( n = 1). The demographic, tumor, radiosurgery characteristics, and surgical outcomes of the study population are summarized in Table 1 .",
+      "order": 5
+    },
+    {
+      "section": "Tumor Characteristics",
+      "text": "Quantitative tumor size data were available for a subset of the patients. The maximum extra canalicular axial diameter (measured parallel to the petrous ridge) prior to radiosurgery was available in 16/28 patients, with a median of 19 mm (range 7.5–27). The same measurement prior to salvage surgery was available in 21/28 patients, with a median of 24.4 mm (range, 10.5–33). Among patients with paired measurements ( n = 16), the axial diameter increased from radiosurgery to the time of surgery. The Koos classification was documented at the time of stereotactic radiosurgery and prior to salvage surgery in 22 and 27 patients, respectively (Fig. 1 ). Before radiosurgery, Koos grades I–IV were present in two (9.1%), four (18.2%), seven (31.8%), and nine (40.9%) patients, respectively. At the time of salvage surgery, a higher proportion of advanced tumors was observed, with two patients (7.4%) classified as grade II, eight (29.6%) as grade III, and 17 (63.0%) as grade IV (Koos data missing in one patient at the surgical time point).",
+      "order": 6
+    },
+    {
+      "section": "Radiosurgery And Microsurgery Characteristics",
+      "text": "The most commonly used modality was the Gamma Knife (20/28, 71.4%), followed by CyberKnife (6/28, 21.4%) and LINAC-based SRS (2/28, 7.1%). The number of sessions and dose information were incompletely documented and thus not reported. The median interval between radiosurgery and salvage microsurgery was 48 months (range, 24–120 months), corresponding to 4 years (range, 2–10 years). The most frequent indication for surgery was radiological tumor regrowth without new or progressive symptoms (15/28, 53.6%). Tumor regrowth associated with clinically relevant symptoms (e.g., trigeminal neuralgia, hemifacial spasm, and hydrocephalus) occurred in 12/28 patients (42.9%). One patient (3.6%) underwent surgery due to symptomatic worsening in the absence of measurable tumor growth. Microsurgical resection was performed via the retrosigmoid approach in 25/28 patients (89.3%), translabyrinthine approach in 2/28 (7.1%), and transpromontorial approach in 1/28 (3.6%). Intraoperative findings revealed firm, poorly mobile tumors due to arachnoid adhesions or post-radiation changes in 19/28 cases (67.9%). Gross total resection was achieved in 13/28 patients (46.4%), near-total resection (≤ 2% residual) in 6/28 (21.4%), subtotal resection (> 2% and < 5% residual) in 8/28 (28.6%), and partial resection (≥ 5% residual) in 1/28 (3.6%). Postoperative complications were observed in three patients (10.7%). These included one case of meningitis, one case of cerebrospinal fluid leakage, and one case of atrial fibrillation.",
+      "order": 7
+    },
+    {
+      "section": "Clinical Outcomes",
+      "text": "Pre-SRS hearing class (AAO-HNS) was available in 20/28 patients: 7 were class A, 3 were class B, 5 were class C, and 5 were class D. Preoperative (pre-microsurgery) hearing class was available in 24/28 patients: 2 were class A, 2 were class B, 8 were class C, and 12 were class D. Among the 14 patients with audiometric follow-up available after salvage surgery (50%), all were classified as AAO-HNS Class D, indicating non-serviceable hearing. The median duration of facial nerve follow-up was 64 months (range, 3–120 months). Preoperative facial nerve function was HB grade I in 25/28 patients and HB grade II in 3/28 patients (including two patients with hemifacial spasm). At discharge, facial nerve outcome was evaluated in 27 out of 28 patients, with HB grades I–VI observed in three, eleven, six, four, two, and one patient, respectively. At the 12-month follow-up ( n = 15), 10 patients had recovered to HB grade I, one to grade II, one to grade III, and three remained in HB grades five to six. These trends are illustrated in Fig. 2 and are detailed in Table 2 .",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "This multi-institutional retrospective study contributes to the expanding body of literature on the outcomes of salvage microsurgery for VS after failed SRS. As SRS continues to be widely adopted as a primary management strategy for small- to medium-sized VS, the frequency of salvage surgical interventions, although still relatively uncommon, may increase over time. In this evolving landscape, a deeper understanding of the indications, technical challenges, and outcomes of salvage procedures warrants further investigation.",
+      "order": 9
+    },
+    {
+      "section": "Indications And Timing For Salvage Intervention",
+      "text": "In our cohort, radiological tumor regrowth was the predominant indication for salvage microsurgery (27/28, 96.4%). These findings are in concordance with the most recent systematic review and meta-analysis by Ribeiro et al. [ 5 ] and are further supported by earlier studies [ 9 , 19 , 33 , 34 ]. Standardized definitions of radiological failure are essential when interpreting tumor control and failure rates in the post-SRS setting, particularly when cohorts are restricted to actively growing tumors [ 22 ]. The median interval between SRS and surgical intervention was 48 months, reflecting the clinical preference for delayed surgery in the absence of acute neurological deterioration [ 5 , 9 , 35 , 36 ]. This strategy also facilitates the differentiation between true progression and post-SRS pseudoprogression, a transient swelling that typically occurs within the first 6–18 months after treatment [ 37 – 39 ]. Crucially, surgical intervention during this period is associated with increased operative risk owing to obscured anatomical planes and the heightened vulnerability of adjacent neurovascular structures. Therefore, delayed surgery, ideally beyond 24 to 36 months, has become the preferred strategy for patients without urgent clinical deterioration [ 10 , 36 – 38 , 40 – 42 ].",
+      "order": 10
+    },
+    {
+      "section": "Considerations On Pre-Radiosurgery Tumor Volume",
+      "text": "A noteworthy characteristic of our salvage cohort was the substantial tumor burden at the time of initial SRS. Among the 22 patients with available pre-SRS Koos data, 16 (72.7%) were classified as Koos grade III–IV at the time of radiosurgery. In patients with quantitative size data, the median axial diameter prior to SRS was 19 mm and increased to 24.4 mm prior to salvage surgery, with enlargement observed in all patients with paired measurements. Although this study was not designed to identify predictors of SRS failure, the predominance of higher Koos grades and increasing tumor size in this cohort underscores the importance of careful patient selection and counseling when considering primary SRS for larger tumors, where the balance between tumor control and functional preservation may be less favorable [ 22 , 25 , 43 ].",
+      "order": 11
+    },
+    {
+      "section": "Operative Challenges",
+      "text": "The intraoperative findings in our cohort highlight the inherent complexity of salvage microsurgery in previously irradiated VS. Radiation-induced alterations, most notably fibrosis and arachnoid adhesions, were encountered in 67.9% of cases, and several tumors initially graded as Koos II demonstrated surgical characteristics typical of grade IV lesions, including dense adhesions to the brainstem and facial nerve, loss of arachnoidal planes, and friable tumor consistency. These findings suggest that in the salvage setting, the Koos classification, which has traditionally served as a radiological staging tool and guide for treatment selection [ 26 ], may not reliably reflect the surgical complexity posed by radiation-induced anatomical distortion [ 36 , 44 ], as it is associated with obscure surgical planes, increases the difficulty of internal debulking and extracapsular dissection, and heightens the risk of cranial nerve injury [ 15 , 18 , 19 , 39 , 40 , 44 – 48 ]. The clinical implications are apparent in the degree of resection, with gross total resection (GTR) accomplished in fewer than half of the cases. This is in line with recent multicenter data showing a higher likelihood of foregoing GTR during salvage surgery than during primary microsurgery, particularly as tumor size increases [ 34 ]. From a functional preservation perspective, recent volumetric studies suggest that leaving a very small residual tumor (NTR) may offer a “win–win” balance between long-term tumor control and facial nerve preservation [ 2 , 5 , 9 , 11 , 12 , 32 , 46 , 49 ]. However, in our study, radiological follow-up beyond early postoperative MRI used to assess residual disease was heterogeneous and incompletely captured across centers, precluding robust time-to-event analyses of tumor regrowth after salvage surgery. Future collaborative studies with standardized volumetry and predefined imaging intervals are needed to better define the oncological durability after salvage resection. Notably, our complication rate was relatively low (10.7%) and included only one case each of meningitis, cerebrospinal fluid leakage, and atrial fibrillation. This compares favorably with published reports [ 5 , 15 , 17 , 19 ] and likely reflects careful patient selection and experience at high-volume centers. Importantly, no procedure-related mortality occurred, consistent with the experience of other high-volume centers and underscoring the safety of salvage MS when performed by experienced teams with appropriate patient-selection criteria [ 11 , 46 ].",
+      "order": 12
+    },
+    {
+      "section": "Functional Outcomes",
+      "text": "Hearing preservation was not achieved in any of the patients in our cohort, including the four patients who had serviceable hearing (AAO-HNS class A/B) before salvage surgery and deteriorated postoperatively to AAO-HNS class D. This outcome might be explained by cumulative cochlear and neural injury from tumor growth, radiation, and surgery [ 13 , 23 , 24 , 46 , 50 ]. In this context, we argue that hearing preservation should not be considered a realistic goal of salvage surgery. Long-term facial nerve follow-up beyond 12 months was available for 14 patients (median, 64 months). Facial nerve outcomes have improved over time. At discharge, 14/27 patients (51.9%) had good facial function (HB grade I–II), which improved to 11/15 patients (73.3%) at 12 months among those with available follow-up. Nonetheless, a clinically relevant subset (3/15, 20.0%) remained in HB grades V–VI at 12 months, underscoring the importance of preoperative counseling and a function-preserving operative strategy in this challenging population [ 14 , 33 , 39 ].",
+      "order": 13
+    },
+    {
+      "section": "Limitations",
+      "text": "There are notable limitations to the current study, inherent to its retrospective multi-institutional design and the relative rarity of salvage microsurgery after failed SRS. The small sample size precluded inferential statistics or robust risk factor analyses. Baseline variables (audiometry, quantitative size/volumetry, radiosurgical dosimetry) and follow-up were inconsistently captured across institutions; therefore, denominators varied by endpoint/time point, and interval-specific tumor control after salvage surgery could not be calculated. Outcomes were derived from routine clinical documentation rather than from standardized assessments; therefore, incomplete case ascertainment and selection/referral bias cannot be excluded. Because only patients undergoing salvage surgery were included and no control group was available, the study could not estimate overall SRS failure rates or compare salvage strategies. Finally, percentage-based EOR categories may not reflect the impact of small, absolute residuals. Prospective registries with predefined endpoints are needed, although they may prove challenging given the relative rarity of the studied events.",
+      "order": 14
+    },
+    {
+      "section": "Conclusion",
+      "text": "Salvage microsurgery is a viable therapeutic option for managing vestibular schwannomas after failed stereotactic radiosurgery. Despite inherent challenges, such as radiation-induced fibrosis and altered surgical planes, experienced multidisciplinary teams can achieve acceptable rates of tumor resection with a relatively low complication profile. Hearing preservation is not a realistic goal in this setting, whereas facial nerve function may improve postoperatively, although a subset of patients may experience persistent deficits. Given the retrospective design, limited sample size, and incomplete long-term follow-up, these findings are descriptive and hypothesis-generating in nature. Prospective multicenter studies with standardized imaging and functional assessments are needed to better define oncological durability and optimize functional outcomes after salvage surgery.",
+      "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Carlson ML",
+        "Link MJ",
+        "Vestibular Schwannomas"
+      ],
+      "journal": "N Engl J Med",
+      "year": "2021",
+      "volume": "384",
+      "fpage": "1335",
+      "lpage": "1348",
+      "doi": "10.1056/NEJMra2020394",
+      "pmid": "33826821"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Marinelli JP",
+        "Beeler CJ",
+        "Carlson ML",
+        "Caye-Thomasen P",
+        "Spear SA",
+        "Erbele ID"
+      ],
+      "title": "Global Incidence of Sporadic Vestibular Schwannoma: A Systematic Review",
+      "journal": "Otolaryngol - -head neck surg",
+      "year": "2022",
+      "volume": "167",
+      "fpage": "209",
+      "lpage": "214",
+      "doi": "10.1177/01945998211042006",
+      "pmid": "34464224"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Marinelli JP",
+        "Lohse CM",
+        "Carlson ML"
+      ],
+      "title": "Incidence of Vestibular Schwannoma over the Past Half-Century: A Population‐Based Study of Olmsted County, Minnesota",
+      "journal": "Otolaryngol - -head neck surg",
+      "year": "2018",
+      "volume": "159",
+      "fpage": "717",
+      "lpage": "723",
+      "doi": "10.1177/0194599818770629",
+      "pmid": "29712512",
+      "pmc_id": "PMC6339687"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Reznitsky M",
+        "Petersen MMBS",
+        "West N",
+        "Stangerup S-E",
+        "Cayé-Thomasen P"
+      ],
+      "title": "Epidemiology Of Vestibular Schwannomas – Prospective 40-Year Data From An Unselected National Cohort",
+      "journal": "CLEP",
+      "year": "2019",
+      "volume": "11",
+      "fpage": "981",
+      "lpage": "986",
+      "doi": "10.2147/CLEP.S218670",
+      "pmc_id": "PMC6850685",
+      "pmid": "31807080"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Ribeiro FV",
+        "Sousa MP",
+        "Ferreira MY",
+        "Andreão FF",
+        "Palavani LB",
+        "Fabrini Paleare LF",
+        "Simoni G",
+        "Corrêa E",
+        "Fukunaga CK",
+        "Mitre LP",
+        "et al."
+      ],
+      "title": "Salvage Surgery for Vestibular Schwannomas after Failed Stereotactic Radiosurgery or Radiation: A Systematic Review and Meta-Analysis",
+      "journal": "J Clin Neurosci",
+      "year": "2025",
+      "volume": "137",
+      "fpage": "111330",
+      "doi": "10.1016/j.jocn.2025.111330",
+      "pmid": "40409174"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Battista R",
+        "Wiet R"
+      ],
+      "title": "Stereotactic Radiosurgery for Acoustic Neuromas: A Survey of the American Neurotology Society",
+      "journal": "Am J Otolaryngol",
+      "year": "2000",
+      "volume": "21",
+      "fpage": "371",
+      "lpage": "381",
+      "doi": "10.1016/S0196-0709(00)80047-2",
+      "pmid": "10821551"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Boari N",
+        "Bailo M",
+        "Gagliardi F",
+        "Franzin A",
+        "Gemma M",
+        "D Vecchio A",
+        "Bolognesi A",
+        "Picozzi P",
+        "Mortini P"
+      ],
+      "title": "Gamma Knife Radiosurgery for Vestibular Schwannoma: Clinical Results at Long-Term Follow-up in a Series of 379 patients",
+      "journal": "JNS",
+      "year": "2014",
+      "volume": "121",
+      "fpage": "123",
+      "lpage": "142",
+      "doi": "10.3171/2014.8.GKS141506",
+      "pmid": "25434946"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Flickinger JC",
+        "Kondziolka D",
+        "Niranjan A",
+        "Lunsford LD"
+      ],
+      "title": "Results of Acoustic Neuroma Radiosurgery: An Analysis of 5 Years’ Experience Using Current Methods",
+      "journal": "J Neurosurg",
+      "year": "2001",
+      "volume": "94",
+      "fpage": "1",
+      "lpage": "6",
+      "doi": "10.3171/jns.2001.94.1.0001",
+      "pmid": "11147876"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Whitmeyer M",
+        "Brahimaj BC",
+        "Beer-Furlan A",
+        "Alvi S",
+        "Epsten MJ",
+        "Crawford F",
+        "Byrne RW",
+        "Wiet RM"
+      ],
+      "title": "Resection of Vestibular Schwannomas after Stereotactic Radiosurgery: A Systematic Review",
+      "journal": "J Neurosurg",
+      "year": "2021",
+      "volume": "135",
+      "fpage": "881",
+      "lpage": "889",
+      "doi": "10.3171/2020.7.JNS2044",
+      "pmid": "34331121"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Pollock BE",
+        "Lunsford LD",
+        "Kondziolka D",
+        "Sekula R",
+        "Subach BR",
+        "Foote RL",
+        "Flickinger JC"
+      ],
+      "title": "Vestibular Schwannoma Management. Part II. Failed Radiosurgery and the Role of Delayed Microsurgery",
+      "journal": "J Neurosurg",
+      "year": "1998",
+      "volume": "89",
+      "fpage": "949",
+      "lpage": "955",
+      "doi": "10.3171/jns.1998.89.6.0949",
+      "pmid": "9833821"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Breshears JD",
+        "Osorio JA",
+        "Cheung SW",
+        "Barani IJ",
+        "Theodosopoulos PV"
+      ],
+      "title": "Surgery after Primary Radiation Treatment for Sporadic Vestibular Schwannomas: Case Series",
+      "journal": "Oper Neurosurg",
+      "year": "2017",
+      "volume": "13",
+      "fpage": "441",
+      "lpage": "446",
+      "doi": "10.1093/ons/opx023",
+      "pmid": "28838116"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Iwai Y",
+        "Ishibashi K",
+        "Nakanishi Y",
+        "Onishi Y",
+        "Nishijima S",
+        "Yamanaka K"
+      ],
+      "title": "Functional Outcomes of Salvage Surgery for Vestibular Schwannomas after Failed Gamma Knife Radiosurgery",
+      "journal": "World Neurosurg",
+      "year": "2016",
+      "volume": "90",
+      "fpage": "385",
+      "lpage": "390",
+      "doi": "10.1016/j.wneu.2016.03.014",
+      "pmid": "26987634"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Husseini ST",
+        "Piccirillo E",
+        "Taibah A",
+        "Almutair T",
+        "Sequino G",
+        "Sanna M"
+      ],
+      "title": "Salvage Surgery of Vestibular Schwannoma after Failed Radiotherapy: The Gruppo Otologico Experience and Review of the Literature",
+      "journal": "Am J Otolaryngol",
+      "year": "2013",
+      "volume": "34",
+      "fpage": "107",
+      "lpage": "114",
+      "doi": "10.1016/j.amjoto.2012.09.012",
+      "pmid": "23177377"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Friedman RA",
+        "Brackmann DE",
+        "Hitselberger WE",
+        "Schwartz MS",
+        "Iqbal Z",
+        "Berliner KI"
+      ],
+      "title": "Surgical Salvage after Failed Irradiation for Vestibular Schwannoma",
+      "journal": "Laryngoscope",
+      "year": "2005",
+      "volume": "115",
+      "fpage": "1827",
+      "lpage": "1832",
+      "doi": "10.1097/01.mlg.0000175063.76945.75",
+      "pmid": "16222204"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "doi": "10.1016/j.clineuro.2018.03.006",
+      "pmid": "29525732"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Kay-Rivest E",
+        "Golfinos JG",
+        "McMenomey SO",
+        "Friedmann DR",
+        "Jethanamest D",
+        "Kondziolka D",
+        "Roland JT"
+      ],
+      "title": "Outcomes of Salvage Resection and Radiosurgery Following Failed Primary Treatment of Vestibular Schwannomas",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2022",
+      "volume": "166",
+      "fpage": "957",
+      "lpage": "963",
+      "doi": "10.1177/01945998211039786",
+      "pmid": "34488519"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "year": "2025",
+      "doi": "10.1002/ohn.1161"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "doi": "10.1007/s11060-022-04140-2",
+      "pmid": "36316569"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Troude L",
+        "Boucekine M",
+        "Balossier A",
+        "Baucher G",
+        "Lavieille J-P",
+        "Régis J",
+        "Roche P-H"
+      ],
+      "title": "Is Salvage Surgery for Large Vestibular Schwannomas after Failed Gamma Knife Radiosurgery More Challenging?",
+      "journal": "Neurosurg Rev",
+      "year": "2022",
+      "volume": "45",
+      "fpage": "751",
+      "lpage": "761",
+      "doi": "10.1007/s10143-021-01604-3",
+      "pmid": "34269934"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Christine D",
+        "Delsanti C",
+        "Roche P",
+        "Roche P-H",
+        "Thomassin JM",
+        "Thomassin J-M"
+      ],
+      "title": "Jean Régis; Régis, J. Morphological Changes of Vestibular Schwannomas after Radiosurgical Treatment: Pitfalls and Diagnosis of Failure",
+      "journal": "Prog Neurol Surg",
+      "year": "2008",
+      "volume": "21",
+      "fpage": "93",
+      "lpage": "97",
+      "doi": "10.1159/000156712",
+      "pmid": "18810205"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Youngmee K",
+        "Kwon Y",
+        "Kwon YH",
+        "Shin K",
+        "Khang K",
+        "Kim SK;CJ",
+        "Kim CJ",
+        "Lee DJ",
+        "Lee DJ",
+        "Lee JK",
+        "et al."
+      ],
+      "title": "Radiologic and Histopathologic Changes after Gamma Knife Radiosurgery for Acoustic Schwannoma",
+      "journal": "Stereotact Funct Neurosurg",
+      "year": "1999",
+      "volume": "72",
+      "fpage": "2",
+      "lpage": "10",
+      "doi": "10.1159/000056433",
+      "pmid": "10681685"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "doi": "10.1001/jamaoto.2025.1953",
+      "pmc_id": "PMC12412036",
+      "pmid": "40906473"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "De Melo Junior JO",
+        "Benalia VHC",
+        "Landeiro JA"
+      ],
+      "title": "Surgical Salvage for Recurrent Vestibular Schwannoma after Primary Stereotactic Radiosurgery",
+      "journal": "Surg Neurol Int",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "419",
+      "doi": "10.25259/SNI_875_2023",
+      "pmid": "38213456",
+      "pmc_id": "PMC10783665"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Collen C",
+        "Ampe B",
+        "Gevaert T",
+        "Moens M",
+        "Linthout N",
+        "De Ridder M",
+        "Verellen D",
+        "D’Haens J",
+        "Storme G"
+      ],
+      "title": "Single Fraction Versus Fractionated Linac-Based Stereotactic Radiotherapy for Vestibular Schwannoma: A Single-Institution Experience",
+      "journal": "Int J Radiation Oncology*Biology*Physics",
+      "year": "2011",
+      "volume": "81",
+      "fpage": "e503",
+      "lpage": "e509",
+      "doi": "10.1016/j.ijrobp.2011.04.066",
+      "pmid": "21665381"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "doi": "10.1093/neuonc/noz153",
+      "pmc_id": "PMC6954440",
+      "pmid": "31504802"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Erickson NJ",
+        "Schmalz PGR",
+        "Agee BS",
+        "Fort M",
+        "Walters BC",
+        "McGrew BM",
+        "Fisher WS"
+      ],
+      "title": "Koos Classification of Vestibular Schwannomas: A Reliability Study",
+      "journal": "Neurosurg",
+      "year": "2019",
+      "volume": "85",
+      "fpage": "409",
+      "lpage": "414",
+      "doi": "10.1093/neuros/nyy409",
+      "pmid": "30169695"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "raw_citation": "Murakami S, Watanabe N, Kamei S (2003) New classification of postoperative hearing results following acoustic neuroma surgery. In Acoustic Neuroma ; Kanzaki, J., Tos, M., Sanna, M., Moffat, D.A., Kunihiro, T., Inoue, Y., Eds.; Springer Japan: Tokyo; pp. 117–120 ISBN 978-4-431-67960-8"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "title": "Evaluation of Hearing Preservation in Acoustic Neuroma (Vestibular Schwannoma) ∗",
+      "journal": "Otolaryngol - -head neck surg",
+      "year": "1995",
+      "volume": "113",
+      "fpage": "179",
+      "lpage": "180",
+      "doi": "10.1016/S0194-5998(95)70101-X",
+      "pmid": "7675475"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Gurgel RK",
+        "Jackler RK",
+        "Dobie RA",
+        "Popelka GR"
+      ],
+      "title": "A New Standardized Format for Reporting Hearing Outcome in Clinical Trials",
+      "journal": "Otolaryngol - -head neck surg",
+      "year": "2012",
+      "volume": "147",
+      "fpage": "803",
+      "lpage": "807",
+      "doi": "10.1177/0194599812458401",
+      "pmid": "22931898"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Jin K",
+        "Kanzaki J",
+        "Mirko T",
+        "Tos M",
+        "Mario Sanna; Sanna M",
+        "Sanna M",
+        "David A",
+        "Moffat; Moffat DA",
+        "David A",
+        "Moffat",
+        "et al."
+      ],
+      "title": "New and Modified Reporting Systems from the Consensus Meeting on Systems for Reporting Results in Vestibular Schwannoma",
+      "journal": "Otology Neurotology",
+      "year": "2003",
+      "volume": "24",
+      "fpage": "642",
+      "lpage": "649",
+      "doi": "10.1097/00129492-200307000-00019",
+      "pmid": "12851559"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Carlson ML",
+        "Van Abel KM",
+        "Driscoll CL",
+        "Neff BA",
+        "Beatty CW",
+        "Lane JI",
+        "Castner ML",
+        "Lohse CM",
+        "Link MJ"
+      ],
+      "title": "Magnetic resonance imaging surveillance following vestibular schwannoma resection†‡",
+      "journal": "Laryngoscope",
+      "year": "2012",
+      "volume": "122",
+      "fpage": "378",
+      "lpage": "388",
+      "doi": "10.1002/lary.22411",
+      "pmid": "22252688"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "doi": "10.3171/2025.6.JNS242466",
+      "pmid": "41072057"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Gerganov VM",
+        "Giordano M",
+        "Samii A",
+        "Samii M",
+        "et al."
+      ],
+      "title": "Surgical Treatment of Patients with Vestibular Schwannomas after Failed Previous Radiosurgery",
+      "journal": "J Neurosurg",
+      "year": "2012",
+      "volume": "116",
+      "fpage": "713",
+      "lpage": "720",
+      "doi": "10.3171/2011.12.jns111682",
+      "pmid": "22264180"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Marinelli JP",
+        "Herberg HA",
+        "Moore LS",
+        "Yancey KL",
+        "Kay-Rivest E",
+        "Casale GG",
+        "Durham A",
+        "Khandalavala KR",
+        "Lund-Johansen M",
+        "Kosaraju N",
+        "Lohse CM",
+        "Patel NS",
+        "Gurgel RK",
+        "Babu SC",
+        "Golfinos JG",
+        "Roland JT",
+        "Hunter JB",
+        "Kutz JW",
+        "Maria S",
+        "Link PL",
+        "Tveiten MJ",
+        "Carlson ØV"
+      ],
+      "title": "Salvage Microsurgery Following Failed Primary Radiosurgery in Sporadic Vestibular Schwannoma",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "150",
+      "issue": "4",
+      "fpage": "287",
+      "lpage": "294",
+      "doi": "10.1001/jamaoto.2023.4474",
+      "pmid": "38358763",
+      "pmc_id": "PMC10870221"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Balossier A",
+        "Régis J",
+        "Reyns N",
+        "Roche P-H",
+        "Daniel RT",
+        "George M",
+        "Faouzi M",
+        "Levivier M",
+        "Tuleasca C"
+      ],
+      "title": "Repeat Stereotactic Radiosurgery for Progressive Vestibular Schwannomas after Previous Radiosurgery: A Systematic Review and Meta-Analysis",
+      "journal": "Neurosurg Rev",
+      "year": "2021",
+      "volume": "44",
+      "fpage": "3177",
+      "lpage": "3188",
+      "doi": "10.1007/s10143-021-01528-y",
+      "pmid": "33847846",
+      "pmc_id": "PMC8592961"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Kano H",
+        "Kondziolka D",
+        "Niranjan A",
+        "Flannery TJ",
+        "Flickinger JC",
+        "Lunsford LD"
+      ],
+      "title": "Repeat Stereotactic Radiosurgery for Acoustic Neuromas",
+      "journal": "Int J Radiation Oncology*Biology*Physics",
+      "year": "2010",
+      "volume": "76",
+      "fpage": "520",
+      "lpage": "527",
+      "doi": "10.1016/j.ijrobp.2009.01.076",
+      "pmid": "19783373"
+    },
+    {
+      "ref_id": "CR37",
+      "label": "37.",
+      "authors": [
+        "El-Shehaby AMN",
+        "Reda WA",
+        "Abdel Karim KM",
+        "Nabeel AM",
+        "Emad Eldin RM",
+        "Alazzazi AH",
+        "Tawadros SR"
+      ],
+      "title": "A Retrospective Study Demonstrating the Growth Patterns and the Pseudoprogression Temporal Classification after Stereotactic Radiosurgery for Sporadic Vestibular Schwannomas",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "18187",
+      "doi": "10.1038/s41598-025-03095-4",
+      "pmid": "40415100",
+      "pmc_id": "PMC12104479"
+    },
+    {
+      "ref_id": "CR38",
+      "label": "38.",
+      "authors": [
+        "Rueß D",
+        "Schütz B",
+        "Celik E",
+        "Baues C",
+        "Jünger ST",
+        "Neuschmelting V",
+        "Hellerbach A",
+        "Eichner M",
+        "Kocher M",
+        "Ruge MI"
+      ],
+      "title": "Pseudoprogression of Vestibular Schwannoma after Stereotactic Radiosurgery with Cyberknife ® : Proposal for New Response Criteria",
+      "journal": "Cancers",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "1496",
+      "doi": "10.3390/cancers15051496",
+      "pmid": "36900290",
+      "pmc_id": "PMC10000564"
+    },
+    {
+      "ref_id": "CR39",
+      "label": "39.",
+      "authors": [
+        "Lee T-K",
+        "Kim Y-J",
+        "Jung T-Y",
+        "Moon K-S",
+        "Kim I-Y",
+        "Jung S"
+      ],
+      "title": "From the Perspective of Pseudo-Progression Rather than Treatment Failure, How Long Should We Wait before Considering Treatment Failure If Large Cystic Enlargement Occurs after Gamma Knife Radiosurgery for Vestibular Schwannoma? Insight into Pseudoprogression Based on Two Case Reports",
+      "journal": "Acta Neurochir (Wien)",
+      "year": "2023",
+      "volume": "165",
+      "fpage": "2105",
+      "lpage": "2109",
+      "doi": "10.1007/s00701-023-05684-6",
+      "pmid": "37421424"
+    },
+    {
+      "ref_id": "CR40",
+      "label": "40.",
+      "authors": [
+        "Nonaka Y",
+        "Fukushima T",
+        "Watanabe K",
+        "Friedman AH",
+        "Cunningham CD",
+        "Zomorodi AR"
+      ],
+      "title": "Surgical Management of Vestibular Schwannomas after Failed Radiation Treatment",
+      "journal": "Neurosurg Rev",
+      "year": "2016",
+      "volume": "39",
+      "fpage": "303",
+      "lpage": "312",
+      "doi": "10.1007/s10143-015-0690-7",
+      "pmid": "26782633"
+    },
+    {
+      "ref_id": "CR41",
+      "label": "41.",
+      "doi": "10.1159/000156902",
+      "pmid": "18810213"
+    },
+    {
+      "ref_id": "CR42",
+      "label": "42.",
+      "authors": [
+        "Meng Y",
+        "Lee MD",
+        "Berger A",
+        "Wiggins R",
+        "O’Callaghan J",
+        "Bernstein K",
+        "Santhumayor B",
+        "Block KT",
+        "Fatterpekar G",
+        "Kondziolka D"
+      ],
+      "title": "Understanding Permeability Changes in Vestibular Schwannomas as Part of the Dynamic Response to Radiosurgery Using Golden-Angle Radial Sparse Parallel Imaging: A Retrospective Study",
+      "journal": "Neurosurgery",
+      "year": "2025",
+      "volume": "97",
+      "fpage": "157",
+      "lpage": "165",
+      "doi": "10.1227/neu.0000000000003288",
+      "pmc_id": "PMC12245358",
+      "pmid": "39625281"
+    },
+    {
+      "ref_id": "CR43",
+      "label": "43.",
+      "authors": [
+        "Mindermann T",
+        "Schlegel I"
+      ],
+      "title": "Grading of Vestibular Schwannomas and Corresponding Tumor Volumes: Ramifications for Radiosurgery",
+      "journal": "Acta Neurochir",
+      "year": "2013",
+      "volume": "155",
+      "fpage": "71",
+      "lpage": "74",
+      "doi": "10.1007/s00701-012-1553-4",
+      "pmid": "23160632"
+    },
+    {
+      "ref_id": "CR44",
+      "label": "44.",
+      "authors": [
+        "Charles J",
+        "Limb; Limb CJ",
+        "Donlin ML",
+        "Long DM",
+        "John K",
+        "Niparko; John K",
+        "Niparko; Niparko JK"
+      ],
+      "title": "Acoustic Neuromas after Failed Radiation Therapy: Challenges of Surgical Salvage",
+      "journal": "Laryngoscope",
+      "year": "2005",
+      "volume": "115",
+      "fpage": "93",
+      "lpage": "98",
+      "doi": "10.1097/01.mlg.0000150686.93011.49",
+      "pmid": "15630374"
+    },
+    {
+      "ref_id": "CR45",
+      "label": "45.",
+      "year": "2022",
+      "doi": "10.1016/j.wneu.2022.03.094"
+    },
+    {
+      "ref_id": "CR46",
+      "label": "46.",
+      "authors": [
+        "Misra BK",
+        "Churi ON"
+      ],
+      "title": "Microsurgery of Vestibular Schwannoma Post-Radiosurgery",
+      "journal": "Neurol India",
+      "year": "2019",
+      "volume": "67",
+      "fpage": "1274",
+      "lpage": "1278",
+      "doi": "10.4103/0028-3886.271243",
+      "pmid": "31744957"
+    },
+    {
+      "ref_id": "CR47",
+      "label": "47.",
+      "doi": "10.1007/s11060-010-0178-9",
+      "pmid": "20405307"
+    },
+    {
+      "ref_id": "CR48",
+      "label": "48.",
+      "authors": [
+        "Schulder M",
+        "Sreepada GS",
+        "Kwartler JA",
+        "Cho ES"
+      ],
+      "title": "Microsurgical Removal of a Vestibular Schwannoma after Stereotactic Radiosurgery: Surgical and Pathologic Findings",
+      "journal": "Am J Otol",
+      "year": "1999",
+      "volume": "20",
+      "fpage": "364",
+      "lpage": "367",
+      "pmid": "10337979"
+    },
+    {
+      "ref_id": "CR49",
+      "label": "49.",
+      "authors": [
+        "Seol HJ",
+        "Kim C",
+        "Park C-K",
+        "Kim CH",
+        "Kim DG",
+        "Chung Y-S",
+        "Jung H-W"
+      ],
+      "title": "Optimal Extent of Resection in Vestibular Schwannoma Surgery: Relationship to Recurrence and Facial Nerve Preservation",
+      "journal": "Neurol Med Chir (Tokyo)",
+      "year": "2006",
+      "volume": "46",
+      "fpage": "176",
+      "lpage": "181",
+      "doi": "10.2176/nmc.46.176",
+      "pmid": "16636507"
+    },
+    {
+      "ref_id": "CR50",
+      "label": "50.",
+      "authors": [
+        "Lee H-J",
+        "Kim MJ",
+        "Koh SH",
+        "Chang WS",
+        "Moon IS"
+      ],
+      "title": "Comparing Outcomes Following Salvage Microsurgery in Vestibular Schwannoma Patients Failing Gamma-Knife Radiosurgery or Microsurgery",
+      "journal": "Otology Neurotology",
+      "year": "2017",
+      "volume": "38",
+      "fpage": "1339",
+      "lpage": "1344",
+      "doi": "10.1097/MAO.0000000000001536",
+      "pmid": "28796091"
+    }
+  ]
+}

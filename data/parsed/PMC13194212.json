@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "title": "NECKCHECK project: development and validation of a digital checklist for radiologic assessment of oral cavity squamous cell carcinoma",
+    "authors": [
+      "Sara Maria Ferrero-Coloma",
+      "Jose Antonio Quesada",
+      "Julián Izquierdo-Luzón",
+      "Carlos Ferrero-Coloma",
+      "Manuela Sancho-Mestre",
+      "Elena Garcia-Garrigós",
+      "Avelino Pereira-Expósito",
+      "Vicente Gil-Guillen"
+    ],
+    "journal": "Clinical Oral Investigations",
+    "year": "2026",
+    "doi": "10.1007/s00784-026-06934-4",
+    "pmc_id": "PMC13194212",
+    "pmid": "42168667",
+    "full_text_available": true,
+    "section_count": 11,
+    "reference_count": 31
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objectives Oral cavity squamous cell carcinoma (OCSCC) is one of the most common malignancies affecting the oral region and requires accurate imaging assessment for staging and treatment planning. However, variability in radiologic interpretation may lead to inconsistencies in clinical decision-making. The aim of this study was to develop and evaluate a structured radiologic checklist (NECKCHECK) to improve diagnostic accuracy and interobserver agreement in the imaging assessment of OCSCC. Materials and methods NECKCHECK was developed following a comprehensive narrative review of the literature focusing on relevant staging features of OCSCC using computed tomography (CT) and magnetic resonance imaging (MRI). Key radiologic parameters were organized into a digital checklist designed to guide systematic image interpretation. A concordance study was performed in which otolaryngologists independently evaluated anonymized CT and MRI examinations of patients with OCSCC, both with and without checklist support. Expert radiologist assessment served as the reference standard. Interobserver agreement was assessed using Cohen’s kappa coefficient, and diagnostic accuracy was measured as the proportion of correct responses. Results Use of the checklist significantly improved interobserver agreement, with mean Cohen’s kappa increasing from 0.44 to 0.72. Diagnostic accuracy also improved significantly, with correct responses increasing from 67.1% to 84.7% ( p < 0.001). Perfect agreement was achieved for key parameters such as tumor size and depth of invasion. Conclusions Implementation of a structured radiologic checklist improves both diagnostic accuracy and interobserver agreement in the imaging evaluation of OCSCC. Clinical relevance NECKCHECK may support more standardized radiologic assessment of oral cavity squamous cell carcinoma and improve multidisciplinary clinical decision-making in oral cancer management. Supplementary Information The online version contains supplementary material available at 10.1007/s00784-026-06934-4.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "According to the World Health Organization (WHO), it is estimated that more than 350,000 new cases of oral cavity cancer are diagnosed worldwide each year, with approximately 177,000 deaths attributable to this disease [ 1 ]. The global epidemiology of oral cavity squamous cell carcinoma (OCSCC) has undergone significant changes inrecent years, with a consistent increase in prevalence observed among women compared with men. These changes are primarily attributed to shifts in lifestyle and behavioural patterns, as well as to increased societal awareness and the implementation of national preventive and early detection programs worldwide [ 2 ]. Radiologic studies play a central role in the management of patients with oral cavity tumors. The integration of clinical and radiologic assessment enables a more precise evaluation of tumor extent and supports appropriate treatment planning. Owing to the complex anatomy of the oral cavity and its adjacent structures, imaging plays a fundamental role not only in locoregional staging but also in the assessment of distant metastatic disease and post-treatment surveillance [ 3 ]. The appropriate selection and use of imaging modalities are therefore critical for the diagnosis, management and prognosis of patients with OCSCC [ 4 ] The interpretation of radiologic studies is commonly performed by medical professionals in clinical practice, given the importance of obtaining accurate information that may directly influence patient management and treatment decisions [ 5 ]. In addition, diagnostic workflows and management strategies for OCSCC may vary across healthcare systems and clinical settings, reflecting differences in specialist roles and organizational structures. Medical specialty residency programs, such as those in Otolaryngology, Head and Neck Surgery (OHNS), require structured and standardized training frameworks to strengthen radiologic education, with the objective of optimizing patient care and promoting effective interdisciplinary collaboration between otolaryngologists and radiologists. However, these educational frameworks are not universally established nor consistently implemented, raising concerns regarding potential gaps in radiologic training among specialists [ 6 ]. In this context, the systematic review and standardization of key radiologic principles applied to OCSCC may lead to improved diagnostic effectiveness. It is hypothesized that the development of a novel diagnostic tool, grounded in published and digitized scientific evidence, enhances the accuracy, validity, and overall performance of image interpretation and, consequently, reduces errors associated with the radiologic assessment of OCSCC by physicians who are not radiology specialists, such as otolaryngologists. The primary objective of this study is to determine whether a computerized decision-support tool, based on a narrative review of the scientific literature, improves diagnostic reliability in the interpretation of radiologic images of patients with OCSCC when used by otolaryngology specialists. Secondary objectives include assessing whether this digital tool improves diagnostic validity and clinical utility, as measured by the number of correct interpretations, as well as identifying epidemiologic and professional factors related to both participating clinicians and the study population, together with tool-specific variables, that are associated with higher levels of diagnostic agreement or with discrepancies between otolaryngologists and radiologists, considered the reference standard. Finally, the integration of the developed tool into an expanded digital platform is proposed to facilitate broader dissemination and use, enhancing accessibility in both clinical and educational settings.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This investigation was designed as a three-stage sequential study comprising: (1) a structured narrative literature review to identify key radiologic features relevant to image interpretation, staging, and treatment planning in OCSCC; (2) development and digital implementation of a standardized imaging checklist based on the synthesized evidence; and (3) an observational concordance study assessing agreement in radiologic image interpretation between radiologists and otorhinolaryngologists (ENTs). The study was conducted in accordance with the ethical principles of the Declaration of Helsinki and was approved by the Ethics Committee of the General University Hospital of Elda (protocol 2022/55PI). The project was developed within the framework of a doctoral research program.",
+      "order": 2
+    },
+    {
+      "section": "Stage 1: Literature Review And Evidence Synthesis",
+      "text": "A structured literature search was performed in PubMed, Google Scholar, and the Cochrane Library for studies published between January 2005 and January 2024, with the final search conducted in January 2024. The search strategy incorporated MeSH terms including “Oral Cavity,” “Carcinoma”, “Computed Tomography” and “Magnetic Resonance Imaging”. Predefined inclusion and exclusion criteria were applied. Eligible studies included systematic reviews, meta-analyses, and observational studies evaluating computed tomography (CT) and/or magnetic resonance imaging (MRI) in oral cavity carcinoma and reporting imaging findings relevant to tumor extension, staging, or treatment planning. Non–peer-reviewed publications, case reports, articles not available in English or Spanish, and studies lacking sufficient imaging data were excluded. Methodological quality was appraised according to study design, relevance to imaging evaluation in OCSCC, clarity of radiologic outcome definitions, and consistency with established staging and treatment guidelines. Articles were reviewed in three consecutive rounds by a multidisciplinary team composed of otorhinolaryngologists specialized in head and neck oncology and radiologists with expertise in head and neck imaging. Imaging-related concepts aligned with international staging recommendations and the TNM classification system were identified and selected by consensus. Priority was given to high-quality systematic reviews and meta-analyses, although relevant observational studies, reference textbooks, and clinical practice guidelines were also considered.",
+      "order": 3
+    },
+    {
+      "section": "Stage 2: Checklist Development And Digital Implementation",
+      "text": "Based on the synthesized evidence from the literature and multidisciplinary agreement, key imaging domains were operationalized into a standardized checklist structured around primary tumor location and anatomical subsite, tumor extent and depth of invasion, involvement of adjacent anatomical structures, nodal disease characteristics, and additional findings relevant to TNM staging and treatment planning. The checklist was implemented as an open-access web-based tool developed using the GoodBarber platform and is accessible at https://neckcheck.goodbarber.app/ (Supplementary material 1.1). The interface guides users sequentially through predefined imaging domains and generates a structured summary upon completion. No patient-identifiable data are stored or processed by the application, ensuring compliance with data protection standards. In addition, illustrative imaging examples were developed to support selected checklist items and facilitate conceptual clarification (Supplementary material 1.2). These visual aids were incorporated into the digital interface as explanatory material and were not part of the image datasets used for the concordance analysis.",
+      "order": 4
+    },
+    {
+      "section": "Stage 3: Observational Concordance Study",
+      "text": "Patients diagnosed with OCSCC between 2010 and 2024 constituted the unit of analysis. All patients were managed according to established clinical practice guidelines within hospitals of the Spanish National Health System. Inclusion criteria required complete, diagnostic-quality CT and/or MRI examinations accompanied by an official radiology report issued by a board-certified radiologist. Patients were excluded if imaging datasets were incomplete, lacked a formal report, or demonstrated tumor extension involving multiple anatomical regions that precluded isolated oral cavity assessment. The reference standard was established by radiologists dedicated to head and neck imaging, with several years of experience in this subspecialty. To ensure consistency and reduce variability, the number of radiologists involved in this process was intentionally limited. Eligible imaging studies were retrospectively retrieved from institutional Picture Archiving and Communication System (PACS) repositories. CT examinations were performed using multidetector scanners with standardized acquisition parameters, including 2-mm slice thickness with 1-mm overlap. Intravenous iodinated contrast was administered, and image acquisition was performed approximately 70 s after contrast injection. MRI protocols included T1-weighted sequences acquired with and without intravenous contrast, T2-weighted sequences for soft tissue characterization, and fat-suppressed sequences. Protocols were harmonized to minimize motion- and metal-related artifacts and complied with quality standards recommended by the European Society of Radiology. Actively practicing otorhinolaryngologists and senior residents with at least three completed years of training from public hospitals were recruited as evaluators, whereas retired or non–clinically active physicians were excluded. Participants independently reviewed anonymized imaging datasets under blinded and randomized conditions. Limited demographic information, including age and sex, was provided in anonymized form and linked to each case through a unique identification code. Image assessment was conducted in two sequential phases. In the first phase, participants reviewed three OCSCC cases without structured decision support, providing a free-text interpretation and assigning TNM staging. After a 7-day washout period to reduce recall bias, a second phase was performed using three different OCSCC cases following the same evaluation procedure but with access to the digital checklist via QR code on personal smartphones; compatible devices were provided when necessary. Each participant evaluated six distinct cases in total, and no feedback was provided between phases. Image interpretation was performed on calibrated 27-inch diagnostic monitors (2560 × 1440 pixels) under standardized ambient lighting conditions, and descriptive data from both participants and imaging cases were systematically recorded. Statistical analyses were performed using SPSS (version 28) and R (version 4.3.1). Categorical variables were expressed as frequencies and percentages, and continuous variables as means and standard deviations. Data distribution was assessed using the Kolmogorov–Smirnov test. Group comparability was evaluated using chi-square tests for categorical variables and Student’s t tests for continuous variables. Agreement between ENT specialists and radiologists was analyzed for each checklist item as a binary outcome (concordant vs. non-concordant), and accuracy in TNM T and N classification was assessed. Cohen’s kappa coefficients with 95% confidence intervals were calculated for each item. Overall concordance was estimated using a meta-analytic approach treating individual checklist items as units of analysis and kappa values as effect sizes. A mixed-effects model was fitted with professional group as a moderator, and forest plots were generated. Additionally, proportions of correct responses were compared using chi-square tests, and the total number of correct responses per participant was compared between phases using Student’s t test.",
+      "order": 5
+    },
+    {
+      "section": "Results",
+      "text": "The literature selection process is summarized in Fig. 1 . The database search yielded 17,374 records, which were reduced to 16,256 unique articles after removal of duplicates. After sequential screening and full-text evaluation based on predefined eligibility criteria, 49 studies were retained for qualitative synthesis. These studies formed the methodological foundation for the identification and consolidation of the imaging features included in the final checklist.",
+      "order": 6
+    },
+    {
+      "section": "Key Imaging Elements For Oral Cavity Squamous Cell Carcinoma: Framework For Checklist Development",
+      "text": "Following the literature synthesis, a set of core imaging elements essential for a comprehensive and reproducible assessment of OCSCC was defined (Table 1 ). These elements were selected based on their relevance for TNM staging, prognostic stratification, and surgical decision-making. To promote systematic evaluation and reduce interpretative variability, all checklist items were designed to be completed using dichotomous or structured multiple-choice responses. The checklist guides the user through sequential tumour assessment, starting with primary tumour characterization and progressing to locoregional extension. The key imaging elements considered in the checklist are outlined below: Tumor size: Tumor size is a fundamental parameter in TNM classification for OCSCC and is closely related to local control and survival. Lesions ≤ 2 cm may correspond to T1 or T2 depending on depth of invasion (DOI), tumors > 2 cm and ≤ 4 cm to T2 or T3, and those > 4 cm to T3 or T4, also conditioned by DOI. DOI: It is measured by drawing a reference line between the adjacent normal mucosal surfaces and a perpendicular line to the deepest point of tumor infiltration. Increasing DOI is associated with a higher risk of regional nodal metastases and the need for elective neck dissection. Radiological DOI correlates with pathological DOI but may overestimate it by 2–3 mm. Lesions not detectable on MRI typically correspond to a pathological DOI < 4 mm [ 8 ]. Extrinsic tongue musculature involvement: Assessment includes the genioglossus, hyoglossus, styloglossus, palatoglossus, and the mylohyoid muscle of the floor of the mouth. MRI evidence of invasion of the styloglossus or hyoglossus muscles correlates with DOI > 4 mm and has implications for prognosis and elective neck management [ 8 , 9 ]. Lingual septum crossing: Midline involvement is defined when the primary tumor reaches or crosses the lingual septum. This finding is strongly associated with contralateral cervical nodal metastases and adversely impacts disease-free and overall survival, influencing both surgical planning and neck management strategies [ 10 , 17 ]. Fascial spread along the pterygomandibular raphe: Invasion of the pterygomandibular raphe is a critical determinant of surgical approach and is associated with a high risk of local recurrence [ 11 ]. MRI, particularly axial T2- and T1-weighted sequences, is useful for assessing soft tissue and fat plane involvement in this region [ 18 ]. Base of tongue extension: Posteriorly located OCSCCs may extend into the tongue base. Surgical resection in this area may compromise lingual neurovascular structures, with potential swallowing, respiratory, and phonatory consequences. Bone erosion: Cortical interruption on CT or diffuse hypointensity on MRI across all sequences indicates osseous invasion [ 12 ]. CT is superior for detecting subtle cortical involvement, whereas MRI is more sensitive for medullary invasion. Bone erosion represents an adverse prognostic factor and may complicate both diagnosis and treatment [ 19 – 21 ]. Maxillary sinus, pterygoid processes, and skull base involvement: Involvement of these regions is uncommon but clinically significant. Multidetector CT is typically the first-line modality. Maxillary sinus invasion classifies tumors as T4a and may be associated with palatal nerve involvement and posterior skull base extension [ 21 ]. Sublingual space involvement: This space is predominantly fatty and communicates across the midline beneath the lingual frenulum. Identification of the mylohyoid and hyoglossus muscles is essential for detecting pathological extension [ 22 , 23 ]. Submandibular gland involvement: Although direct submandibular gland invasion is rare, it may occur in advanced tumors or in the presence of high nodal burden with extracapsular spread. These findings influence decisions regarding gland preservation during neck dissection [ 22 , 24 , 25 ]. Masticator space involvement: Invasion of the masticator space complicates surgical management and is often associated with advanced disease. While traditionally considered unresectable in T4b tumors, selected cases may benefit from surgery in experienced multidisciplinary centers [ 13 , 26 ]. Internal carotid artery (ICA) involvement: Tumor encasement exceeding 270° of the ICA circumference on CT or MRI is associated with extremely high mortality [ 27 ]. Lesser degrees of contact are less predictive of vascular invasion [ 14 ]. Doppler ultrasound may provide complementary hemodynamic information [ 28 ]. Perineural spread (PNS): PNS is associated with reduced survival and increased nodal involvement [ 29 ]. MRI is the preferred modality, with primary signs including nerve enhancement and enlargement, obliteration of perineural fat, foraminal widening, and intracranial extension [ 15 ]. Secondary signs include denervation atrophy of the masticatory muscles or tongue [ 16 ]. After completion of all items, the user assigns the final T classification using a structured reference table linking patterns of involvement to TNM categories. A summarized report of responses is then generated and identified by a unique user-defined code.",
+      "order": 7
+    },
+    {
+      "section": "Results",
+      "text": "An image repository was created specifically for this study, consisting of 45 representative cases of OCSCC selected from an initial pool of more than 500 radiological examinations. Case selection was based on predefined inclusion and exclusion criteria and required high-quality visualization of deep anatomical structures, tumor sublocalization, and muscular planes. After blinded randomization, each case was evaluated in two independent rounds, resulting in a total of 90 image interpretations. A descriptive analysis of baseline characteristics confirmed the comparability of the two evaluation rounds. No statistically significant differences were observed in case origin (Alicante vs. Valencia; p = 0.803), sex distribution (33.3% female and 66.7% male in both rounds; p = 1.000), or mean age (65.6 (12.8) vs. 64.7 (11.8) years; p = 0.704), with age following a normal distribution (Kolmogorov–Smirnov test, p = 0.076). Tumor stage distribution (stages II, III, IVa, and IVb) was also comparable ( p = 0.494), as was the low prevalence of distant metastases (6.7% vs. 15.6%; p = 0.180). These findings indicate homogeneity between the two evaluation rounds and support the internal validity of the concordance analysis. (Table 2 ) All image sets were independently assessed by 15 otorhinolaryngologists selected according to predefined eligibility criteria, ensuring a consistent level of clinical training. Item-level analysis (Table 3 ) demonstrated a clear improvement in diagnostic performance with the use of the structured checklist. The mean number of correct responses increased from 11.4 ± 2.5 without checklist support to 14.4 ± 1.5 with checklist use, out of a maximum of 17 items (67.1% vs. 84.7%; p < 0.001). This improvement was accompanied by a reduction in response dispersion, reflected by a lower standard deviation in the checklist-assisted evaluations. Statistically significant improvements were observed in several clinically relevant parameters, including depth of invasion (12.2% vs. 87.8%; p < 0.001), tumor size (25.0% vs. 75.0%; p < 0.001), T classification (26.9% vs. 73.1%; p = 0.005), and tumor sublocalization (40.3% vs. 59.7%; p = 0.006). Additional gains were noted for nodal involvement, muscular invasion, and bone erosion. Other items showed a numerical increase in correct responses without reaching statistical significance, likely due to lower prevalence or higher baseline agreement. Interobserver concordance was assessed using Cohen’s kappa coefficients and visualized with forest plots (Fig. 2 ). Overall agreement was significantly higher when the checklist was used, with a mean kappa of 0.72 (95% CI: 0.61–0.82), compared with 0.44 (95% CI: 0.23–0.64) without checklist support ( p < 0.02). Perfect agreement (kappa = 1.00) was achieved for DOI, tumor size, and skull base involvement. In contrast, several complex items showed low or negative agreement in the absence of structured guidance. Although heterogeneity across items was high (I² = 100%), between-item variance was substantially lower in the checklist-assisted analysis (τ² = 0.03 vs. 0.17), indicating greater consistency among evaluators. Overall, these findings demonstrate that the use of a structured imaging checklist significantly enhances diagnostic accuracy and interobserver concordance in the radiological assessment of OCSCC, particularly for high-impact features relevant to TNM staging and treatment planning.",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "The results of the present study indicate that the implementation of the NECKCHECK tool is associated with a substantial improvement in diagnostic agreement between otolaryngologists and radiologists in the evaluation of oral cavity squamous cell carcinoma. The kappa index increased from 0.44, reflecting a low level of agreement, to 0.72, a value interpreted as substantial concordance according to the Landis and Koch classification. This increase represents a clinically relevant reduction in interobserver variability and supports the usefulness of the checklist as a complementary aid in the radiological interpretation of OCSCC. The observed improvement in kappa values reflects greater consistency in image-based assessments and highlights the contribution of structured evaluation frameworks in complex oncological imaging. In parallel with the enhancement in qualitative agreement, the analysis of the total number of correct responses showed a statistically significant increase when the checklist was used. This finding confirms that NECKCHECK not only improves interobserver reliability but also results in higher overall diagnostic accuracy. The most relevant gains were observed in parameters of major clinical importance, including tumor sublocalization, maximum tumor diameter, DOI, T classification, bone erosion, and cervical lymph node involvement. Among these, the improvement in DOI assessment is particularly noteworthy, as DOI is a well-established predictor of cervical lymph node metastasis and a key criterion for indicating elective neck dissection in oral cavity cancer. The accuracy of DOI identification increased from low baseline values to levels approaching 90%, underscoring the clinical relevance of a systematic, checklist-based approach [ 8 ]. Interobserver variability in radiologic interpretation is influenced by multiple factors, including differences in training, experience, and familiarity with head and neck imaging. The heterogeneity observed across certain checklist items reflects the inherent complexity of specific anatomical regions and imaging features. In this context, structured tools such as NECKCHECK may help reduce variability by promoting a systematic approach and minimizing the risk of overlooking relevant findings, particularly in more complex or less familiar parameters. (C3.2) Significant improvements were also observed in the estimation of tumor size and T category, variables that are frequently underestimated in routine clinical practice and that have undergone substantial revisions in recent editions of the AJCC Cancer Staging Manual [ 7 ]. The assessment of mandibular or cortical bone erosion improved notably with checklist use, addressing a known diagnostic challenge in both computed tomography and magnetic resonance imaging. Previous studies have reported limited sensitivity of conventional imaging modalities in detecting bone invasion, reinforcing the need for structured interpretative strategies [ 19 , 30 ]. In this context, NECKCHECK contributes by guiding clinicians through a standardized sequence of key radiological features. The detection of cervical lymphadenopathy increased significantly, with accuracy rising from 42.0% to 58.0%. This finding is particularly relevant in oral cavity cancer, where nodal involvement is strongly associated with reduced survival and directly influences surgical planning and adjuvant treatment decisions. Radiological factors such as increased DOI, muscular invasion, and midline crossing are recognized predictors of cervical metastasis. The checklist facilitated a more systematic identification of these high-risk features, functioning not only as a standardization tool but also as a cognitive aid that reduces the likelihood of overlooking subtle yet prognostically significant findings. However, it is important to emphasize that structured tools such as NECKCHECK are not intended to replace comprehensive clinical reasoning or multidisciplinary decision-making, but rather to support a systematic and thorough evaluation of radiological findings. To facilitate clinical implementation, a mobile web-based application, NECKCHECK, was developed and made freely accessible. The digital format provides an interactive and standardized environment for image interpretation, aligning with contemporary clinical workflows and educational practices. Comparable digital platforms have been shown to improve radiological knowledge acquisition and user engagement, and NECKCHECK offers similar advantages by integrating radiological criteria with clinically oriented decision-making in head and neck oncology [ 31 ]. The digital and accessible design of NECKCHECK facilitates its potential integration into routine clinical workflows, particularly as a structured aid for radiologic image interpretation. The checklist is primarily intended for clinicians involved in the management of oral cavity cancer, particularly otorhinolaryngologists and other specialists with limited experience in radiologic interpretation. This accessible design supports its potential integration into routine clinical workflows, particularly as a structured aid for radiologic image interpretation. The checklist is primarily intended for clinicians involved in the management of oral cavity cancer, particularly otorhinolaryngologists and other specialists with limited experience in radiologic interpretation. In addition to its clinical utility, NECKCHECK has considerable potential as an educational resource. Its structured and sequential design supports the learning of complex radiological criteria and may be particularly beneficial for residents and early-career specialists. By promoting systematic image evaluation and minimizing non-protocolized readings, the checklist contributes to more homogeneous training and supports the development of diagnostic competencies in oral cavity cancer imaging. Certain considerations should be taken into account when interpreting these findings. The number of cases evaluated per participant and the controlled study setting may influence the direct translation of results to routine clinical practice. Furthermore, the checklist was specifically designed to focus on radiological parameters as a structured aid for image interpretation, while clinical information remains an essential component of comprehensive patient assessment. It should also be considered that the roles of different specialists involved in OCSCC management may vary across healthcare systems. In our setting, otorhinolaryngologists play an active role in diagnostic and therapeutic decision-making, although this may differ in other contexts. From a broader perspective, the increasing emphasis on digital image analysis in oncological diagnosis highlights the relevance of structured tools capable of extracting clinically meaningful information from radiological studies. Checklist-based systems such as NECKCHECK provide a suitable framework for future integration with artificial intelligence applications, as they define explicit variables and decision points that are amenable to supervised learning approaches. Although current AI models have not yet reached widespread clinical applicability in this field, structured diagnostic tools represent an important step toward hybrid systems combining automated analysis with expert clinical interpretation. Future directions include multicenter validation, evaluation in real-world clinical settings, and potential expansion of the tool to other areas within head and neck oncology, as well as its assessment in different specialist groups.",
+      "order": 9
+    },
+    {
+      "section": "Conclusion",
+      "text": "In conclusion, the use of the NECKCHECK checklist is associated with improved interobserver agreement and diagnostic accuracy in the radiological assessment of OCSCC. The tool enhances the identification of key parameters relevant for TNM staging and therapeutic planning while reducing diagnostic variability. NECKCHECK should be regarded as a complementary and educational resource that supports standardized image interpretation within multidisciplinary clinical practice. However, it should be emphasized that this tool is intended as a complementary resource and should not replace comprehensive clinical assessment or multidisciplinary decision-making.",
+      "order": 10
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Bray F",
+        "Ferlay J",
+        "Soerjomataram I",
+        "Siegel RL",
+        "Torre LA",
+        "Jemal A"
+      ],
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "journal": "CA Cancer J Clin",
+      "year": "2018",
+      "volume": "68",
+      "issue": "6",
+      "fpage": "394",
+      "lpage": "424",
+      "doi": "10.3322/caac.21492",
+      "pmid": "30207593"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Sarode G",
+        "Maniyar N",
+        "Sarode SC",
+        "Jafer M",
+        "Patil S",
+        "Awan KH"
+      ],
+      "title": "Epidemiologic aspects of oral cancer",
+      "journal": "Dis Mon",
+      "year": "2020",
+      "volume": "66",
+      "issue": "12",
+      "fpage": "100988",
+      "doi": "10.1016/j.disamonth.2020.100988",
+      "pmid": "32605720"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Mahajan A",
+        "Ahuja A",
+        "Sable N",
+        "Stambuk HE"
+      ],
+      "title": "Imaging in oral cancers: a comprehensive review",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "104",
+      "fpage": "104658",
+      "doi": "10.1016/j.oraloncology.2020.104658",
+      "pmid": "32208340"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Pfister DG",
+        "Spencer S",
+        "Adelstein D",
+        "Adkins D",
+        "Anzai Y",
+        "Brizel DM",
+        "et al."
+      ],
+      "title": "Head and neck cancers, version 2.2020, NCCN clinical practice guidelines in oncology",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2020",
+      "volume": "18",
+      "issue": "7",
+      "fpage": "873",
+      "lpage": "98",
+      "doi": "10.6004/jnccn.2020.0031",
+      "pmid": "32634781"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Butler KL",
+        "Chang Y",
+        "DeMoya M",
+        "Feinstein A",
+        "Ferrada P",
+        "Maduekwe U",
+        "et al."
+      ],
+      "title": "Needs assessment for a focused radiology curriculum in surgical residency: a multicenter study",
+      "journal": "Am J Surg",
+      "year": "2016",
+      "volume": "211",
+      "issue": "1",
+      "fpage": "279",
+      "lpage": "87",
+      "doi": "10.1016/j.amjsurg.2015.05.027",
+      "pmid": "26329901"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Lozada KN",
+        "Bernstein JM"
+      ],
+      "title": "Current status of radiology training in otolaryngology residency programs",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2018",
+      "volume": "144",
+      "issue": "3",
+      "fpage": "218",
+      "lpage": "221",
+      "doi": "10.1001/jamaoto.2017.2881",
+      "pmid": "29346475",
+      "pmc_id": "PMC5885872"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Amin MB",
+        "Greene FL",
+        "Edge SB"
+      ],
+      "journal": "AJCC Cancer Staging Manual",
+      "year": "2017"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Baba A",
+        "Hashimoto K",
+        "Kayama R",
+        "Yamauchi H",
+        "Ikeda K",
+        "Ojiri H"
+      ],
+      "title": "Radiological approach for the newly incorporated T staging factor, depth of invasion (DOI), of the oral tongue cancer in the 8th edition of American Joint Committee on Cancer (AJCC) staging manual: assessment of the necessity for elective neck dissection",
+      "journal": "Jpn J Radiol",
+      "year": "2020",
+      "volume": "38",
+      "issue": "9",
+      "fpage": "821",
+      "lpage": "32",
+      "doi": "10.1007/s11604-020-00982-w",
+      "pmid": "32356237"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Baba A",
+        "Okuyama Y",
+        "Yamauchi H",
+        "Ikeda K",
+        "Ogino N",
+        "Kozakai A",
+        "et al."
+      ],
+      "title": "Magnetic resonance imaging findings of styloglossus and hyoglossus muscle invasion: relationship to depth of invasion and clinical significance as a predictor of advisability of elective neck dissection in node negative oral tongue cancer",
+      "journal": "Eur J Radiol",
+      "year": "2019",
+      "volume": "118",
+      "fpage": "19",
+      "lpage": "24",
+      "doi": "10.1016/j.ejrad.2019.06.023",
+      "pmid": "31439241"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Mannelli G",
+        "Arcuri F",
+        "Agostini T",
+        "Innocenti M",
+        "Raffaini M",
+        "Spinelli G"
+      ],
+      "title": "Classification of tongue cancer resection and treatment algorithm",
+      "journal": "J Surg Oncol",
+      "year": "2018",
+      "volume": "117",
+      "issue": "5",
+      "fpage": "1092",
+      "lpage": "1099",
+      "doi": "10.1002/jso.24991",
+      "pmid": "29432642"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Otsuru M",
+        "Yanamoto S",
+        "Naruse T",
+        "Omori K",
+        "Morishita K",
+        "Sumi M",
+        "et al."
+      ],
+      "title": "Surgical treatment and prognosis of posteriorly invading oral cancer: potential clinical significance of pterygomandibular raphe",
+      "journal": "J Dent Sci",
+      "year": "2023",
+      "volume": "18",
+      "issue": "1",
+      "fpage": "81",
+      "lpage": "6",
+      "doi": "10.1016/j.jds.2022.07.008",
+      "pmid": "36643228",
+      "pmc_id": "PMC9831833"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Bouhir S",
+        "Mortuaire G",
+        "Dubrulle-Berthelot F",
+        "Leroy X",
+        "Deken-Delannoy V",
+        "Rysman B",
+        "et al."
+      ],
+      "title": "Radiological assessment of mandibular invasion in squamous cell carcinoma of the oral cavity and oropharynx",
+      "journal": "Eur Ann Otorhinolaryngol Head Neck Dis",
+      "year": "2019",
+      "volume": "136",
+      "issue": "5",
+      "fpage": "361",
+      "lpage": "6",
+      "doi": "10.1016/j.anorl.2019.05.005",
+      "pmid": "31196801"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Kumar A",
+        "Singh R",
+        "Santhosh M",
+        "Vijay S",
+        "Surendran N",
+        "Sahu GC",
+        "et al."
+      ],
+      "title": "Role of structures in the masticator space in selecting patients with resectable T4b oral cancer: findings from a survival analysis",
+      "journal": "Int J Oral Maxillofac Surg",
+      "year": "2021",
+      "volume": "50",
+      "issue": "5",
+      "fpage": "579",
+      "lpage": "84",
+      "doi": "10.1016/j.ijom.2020.07.026",
+      "pmid": "32861555"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "raw_citation": "Ventura AJR, Salamé F, Cano B, Pallardó Y, Andres AT, Fuentes CR SERAM 2012 EPOS [Text] [Internet]. European Congress of Radiology - SERAM 2012; 2012 [cited 2023 Jan 22]. El espacio carotídeo cervical. Ademas de la carótida, ¿qué hay? Available from: https://epos.myesr.org/poster/esr/seram2012/S-0539"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Brea Álvarez B",
+        "Tuñón Gómez M"
+      ],
+      "title": "Diseminación perineural en tumores de cabeza y cuello",
+      "journal": "Radiologia",
+      "year": "2014",
+      "volume": "56",
+      "issue": "5",
+      "fpage": "400",
+      "lpage": "12",
+      "doi": "10.1016/j.rx.2014.04.006",
+      "pmid": "25002354"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "raw_citation": "Ojiri H, editor. Diagnostic Imaging in Head and Neck Cancer [Internet]. Singapore: Springer Singapore (2020) [cited 2023 May 23]. Available from: http://link.springer.com/ 10.1007/978-981-15-3188-0 doi:10.1007/978-981-15-3188-0"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Akamatsu M",
+        "Makino T",
+        "Morita S",
+        "Noda Y",
+        "Kariya S",
+        "Onoda T",
+        "et al."
+      ],
+      "title": "Midline involvement and perineural invasion predict contralateral neck metastasis that affects overall and disease-free survival in locally advanced oral tongue squamous cell carcinoma",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "1010252",
+      "doi": "10.3389/fonc.2022.1010252",
+      "pmid": "36387194",
+      "pmc_id": "PMC9644196"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Rao D",
+        "Sandhu SJS",
+        "Ormsby C",
+        "Natter P",
+        "Haymes D",
+        "Cohen I",
+        "et al."
+      ],
+      "title": "Review of the pterygomandibular raphe",
+      "journal": "Neurographics",
+      "year": "2017",
+      "volume": "7",
+      "issue": "2",
+      "fpage": "121",
+      "lpage": "5",
+      "doi": "10.3174/ng.2170196"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Brandão Neto JDS",
+        "Aires FT",
+        "Dedivitis RA",
+        "Matos LL",
+        "Cernea CR"
+      ],
+      "title": "Comparison between magnetic resonance and computed tomography in detecting mandibular invasion in oral cancer: a systematic review and diagnostic meta-analysis",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "78",
+      "fpage": "114",
+      "lpage": "8",
+      "doi": "10.1016/j.oraloncology.2018.01.026",
+      "pmid": "29496038"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Král D",
+        "Pink R",
+        "Šašková L",
+        "Michálek J",
+        "Tvrdý P"
+      ],
+      "title": "Bone invasion by oral squamous cell carcinoma",
+      "journal": "Acta Chir Plast",
+      "year": "2021",
+      "volume": "63",
+      "issue": "3",
+      "fpage": "139",
+      "lpage": "44",
+      "doi": "10.48095/ccachp2021139",
+      "pmid": "34814695"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Slieker FJB",
+        "Rombout D",
+        "de Bree R",
+        "Cann EMV"
+      ],
+      "title": "Local recurrence and survival after treatment of oral squamous cell carcinoma of the maxilla: a systematic review and meta-analysis",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2022",
+      "volume": "133",
+      "issue": "6",
+      "fpage": "626",
+      "lpage": "38",
+      "doi": "10.1016/j.oooo.2021.10.003",
+      "pmid": "35165055"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Patel S",
+        "Bhatt AA"
+      ],
+      "title": "Imaging of the sublingual and submandibular spaces",
+      "journal": "Insights Imaging",
+      "year": "2018",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "391",
+      "lpage": "401",
+      "doi": "10.1007/s13244-018-0615-4",
+      "pmid": "29675626",
+      "pmc_id": "PMC5990998"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "La’Porte SJ",
+        "Juttla JK",
+        "Lingam RK"
+      ],
+      "title": "Imaging the floor of the mouth and the sublingual space",
+      "journal": "Radiographics",
+      "year": "2011",
+      "volume": "31",
+      "issue": "5",
+      "fpage": "1215",
+      "lpage": "1230",
+      "doi": "10.1148/rg.315105062",
+      "pmid": "21918039"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Jakhetiya A",
+        "Kaul P",
+        "Pandey A",
+        "Patel T",
+        "Kumar Meena J",
+        "Pal Singh M",
+        "et al."
+      ],
+      "title": "Distribution and determinants of submandibular gland involvement in oral cavity squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "118",
+      "fpage": "105316",
+      "doi": "10.1016/j.oraloncology.2021.105316",
+      "pmid": "33940532"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Cakir Cetin A",
+        "Dogan E",
+        "Ozay H",
+        "Kumus O",
+        "Erdag TK",
+        "Karabay N",
+        "et al."
+      ],
+      "title": "Submandibular gland invasion and feasibility of gland-sparing neck dissection in oral cavity carcinoma",
+      "journal": "J Laryngol Otol",
+      "year": "2018",
+      "volume": "132",
+      "issue": "5",
+      "fpage": "446",
+      "lpage": "51",
+      "doi": "10.1017/S0022215118000592",
+      "pmid": "29720283"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Trivedi NP"
+      ],
+      "title": "Oral cancer involving masticator space (T4b): review of literature and future directions",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "issue": "10",
+      "fpage": "2288",
+      "lpage": "94",
+      "doi": "10.1002/hed.25211",
+      "pmid": "29756367"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Kontopodis N",
+        "Igoumenakis D",
+        "Mastorakis G",
+        "Logothetis I",
+        "Daskalakis N",
+        "Ioannou CV"
+      ],
+      "title": "Local metastatic neck cancer involving the distal internal carotid artery treated with en bloc resection and arterial reconstruction after mandibular osteotomy",
+      "journal": "Vasc Spec Int",
+      "year": "2020",
+      "volume": "36",
+      "issue": "4",
+      "fpage": "252",
+      "lpage": "7",
+      "doi": "10.5758/vsi.200046",
+      "pmc_id": "PMC7790687",
+      "pmid": "33177248"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Kudva A",
+        "Dhara V",
+        "Patil B",
+        "Sankaran M"
+      ],
+      "title": "Caution with carotids: a necessary cognizance",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "121",
+      "fpage": "105392",
+      "doi": "10.1016/j.oraloncology.2021.105392",
+      "pmid": "34167899"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Keerthi R",
+        "Dutta A",
+        "Agarwal S",
+        "Kani V",
+        "Khatua A"
+      ],
+      "title": "Perineural invasion of oral squamous cell carcinoma: a new hurdle for surgeons",
+      "journal": "J Maxillofac Oral Surg",
+      "year": "2018",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "59",
+      "lpage": "63",
+      "doi": "10.1007/s12663-016-0943-1",
+      "pmid": "29382995",
+      "pmc_id": "PMC5772014"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Qiao X",
+        "Liu W",
+        "Cao Y",
+        "Miao C",
+        "Yang W",
+        "Su N",
+        "et al."
+      ],
+      "title": "Performance of different imaging techniques in the diagnosis of head and neck cancer mandibular invasion: a systematic review and meta-analysis",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "86",
+      "fpage": "150",
+      "lpage": "64",
+      "doi": "10.1016/j.oraloncology.2018.09.024",
+      "pmid": "30409295"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Ferrero-Coloma SM",
+        "Izquierdo-Luzón J",
+        "Pereira-Expósito A",
+        "Quesada JA",
+        "Ferrero-Coloma C",
+        "Sancho-Mestre M",
+        "et al."
+      ],
+      "title": "NECKCHECK PROJECT: enhancing diagnostic accuracy in oropharyngeal squamous cell carcinoma through computer-based radiological tools",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "19645",
+      "doi": "10.1038/s41598-025-03895-8",
+      "pmid": "40467734",
+      "pmc_id": "PMC12137671"
+    }
+  ]
+}

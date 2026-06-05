@@ -1,0 +1,866 @@
+{
+  "metadata": {
+    "title": "Digital Health Communication for Deaf Individuals: Scoping Review of Technologies, Strategies, and Outcomes",
+    "authors": [
+      "Thay Hui Tan",
+      "Zi Chiang Lim",
+      "Uma Devi Palanisamy",
+      "Amutha Selvaraj",
+      "Jamuna Rani Appalasamy"
+    ],
+    "journal": "JMIR Medical Informatics",
+    "year": "2026",
+    "doi": "10.2196/81358",
+    "pmc_id": "PMC13148759",
+    "pmid": "42090622",
+    "full_text_available": true,
+    "section_count": 14,
+    "reference_count": 42
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background Hearing loss affects approximately 432 million adults globally, with Deaf individuals representing a distinct linguistic and cultural minority that faces significant barriers to accessing health information. These challenges contribute to health disparities by limiting preventive education and timely health interventions. Objective This scoping review examines the effectiveness of digital communication technologies in promoting health literacy, awareness, and health-related skills among Deaf adults and children. Methods A comprehensive literature search was conducted across 5 major databases: MEDLINE, Embase, Scopus, Web of Science, and PubMed, focusing on peer-reviewed studies published in English within the past 10 years. Seventeen studies were included, encompassing a variety of research designs, including randomized controlled trials, cross-sectional surveys, and mixed methods approaches. Data extraction focused on intervention type, outcomes, and target populations. Results Findings indicate that video-based interventions are the most prevalent and effective, leveraging sign language, subtitles, and animations to enhance accessibility and comprehension. These digital tools improved health awareness, knowledge acquisition, and the practical application of health-related skills across both adult and child populations. Interventions ranged from stroke preparedness and cancer education to breast self-examination and cardiopulmonary resuscitation training. Social media platforms, SMS text messaging campaigns, and eHealth programs were also identified as effective in promoting preventive health behaviors. Despite these promising outcomes, several challenges remain, including limited digital literacy, inconsistent access to technology, and a lack of culturally and linguistically appropriate content. Additionally, most studies were geographically concentrated in the United States, with a limited number of high-quality randomized trials. Conclusions This review highlights the transformative potential of accessible digital technologies to reduce health disparities and promote health equity among Deaf individuals. Future research should prioritize inclusive, culturally sensitive, and user-centered designs and explore emerging platforms to maximize engagement and improve health outcomes.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hearing loss affects an estimated 432 million adults globally, representing over 5% of the world’s population [ 1 ]. Among them, the Deaf population stands out as a distinct linguistic and cultural minority, enriched with its own traditions, values, and sign languages as the primary mode of communication [ 1 ]. The term “deaf” refers to individuals with profound hearing loss without the support of amplification devices in an audiological context. In contrast, the term “Deaf” carries a more specific cultural and linguistic identity within the Deaf community [ 2 ]. Despite this distinction, communication barriers persist and continue to pose significant challenges particularly in accessing timely, accurate, and critical health information. This gap in health communication not only limits access to preventive health education but also hinders timely action in managing or avoiding diseases [ 2 ]. For example, a scoping review from Rogers et al [ 3 ] found that Deaf individuals who use sign language reported suboptimal patient experiences, ineffective communication, unsatisfactory interactions with health care providers, and a lack of culturally competent health care professionals. The issue of health literacy becomes even more pressing among Deaf children. Compared to adults, Deaf children are at heightened risk of health complications due to their developing immune systems. Currently, an estimated 34 million children live with hearing loss, and alarmingly, 60% of these cases are due to preventable causes [ 4 ]. Health literacy, defined as the capacity to obtain, process, and understand basic health information and services, plays a pivotal role in empowering Deaf children with the knowledge and skills to adopt preventive health behaviors and advocate for their well-being. Without equitable access to health education, Deaf individuals, both children and adults, remain vulnerable to adverse health outcomes. A recent study by Friedman et al [ 5 ] highlights that Deaf individuals are approximately 7 times more likely to experience lower health literacy compared to their hearing counterparts. This disparity is exacerbated by the lack of accessible health information in sign language and other appropriate formats, creating significant obstacles that contribute to poorer health outcomes, increased morbidity, and higher mortality rates within the Deaf population [ 6 ]. One of the most critical areas affected by limited health literacy is the prevention and management of chronic noncommunicable diseases. Noncommunicable disease, including cardiovascular diseases, diabetes, chronic respiratory diseases, kidney disease, and cancers, constitutes a major public health challenge, disproportionately affecting aging populations and contributing to over 41 million deaths annually worldwide [ 7-9 ]. These diseases are largely preventable through early intervention and lifestyle modifications, such as regular exercise, balanced nutrition, and reduced tobacco and alcohol use [ 10 11 ]. However, to adopt and sustain these preventive behaviors, Deaf individuals must first have access to comprehensible and culturally appropriate health information. Amid the rapid advancement of technology in health care, digital solutions collectively termed eHealth have emerged as transformative tools for health promotion and disease prevention [ 12 13 ]. eHealth encompasses a broad range of digital platforms, including websites, mobile apps, social media, videos, and ebooks, offering unprecedented access to health education [ 14 15 ]. For Deaf individuals, digital communication technologies provide an opportunity to overcome traditional barriers by delivering health information through accessible mediums such as sign language videos, visual aids, and captioned content [ 16 ]. Furthermore, health care institutions and professionals can leverage these platforms to disseminate public health messages, promote preventive practices, and enhance disease awareness within the Deaf population [ 17 ]. Despite these advancements, there remains a notable gap in the literature concerning how digital communication tools are used to promote health literacy and health communication among both Deaf adults and Deaf children. Digital health literacy refers to the ability to seek, understand, appraise, and apply health information using digital technologies [ 18 ]. While this competency is essential for all individuals in an increasingly digital world, Deaf populations, defined here as individuals who identify culturally and linguistically and use sign language as a primary mode of communication, face unique challenges. Existing health interventions often fail to consider the language preferences, literacy levels, and visual learning styles of deaf users [ 18 19 ]. Therefore, a critical gap persists between technological availability and meaningful health engagement for Deaf adults and children. These 2 groups have distinct needs and preferences in accessing digital health information. Adults often engage with a variety of digital resources, including articles, social media, and research publications, while children benefit more from interactive and visually engaging educational content [ 20 21 ]. In this review, communication refers to the ways in which individuals access, interpret, and apply health information, particularly through digital platforms. This is closely aligned with key aspects of health literacy and digital health literacy, which involve understanding information, navigating digital tools, and expressing health-related needs or questions. The central aim of this review is to examine and synthesize existing evidence on the use of digital communication tools to enhance health literacy among Deaf adults and children. The review focuses on understanding how digital platforms, particularly those incorporating sign language, captions, and visual content, facilitate access to health information, knowledge acquisition, and the development of practical health skills. The central concepts are therefore: (1) the Deaf population as a distinct linguistic and cultural group with unique communication needs; (2) digital health literacy, which encompasses the ability to access, understand, and apply health information using digital tools; and (3) the role of digital technologies, particularly video-based and interactive formats, in promoting health education, awareness, and preventive behaviors. By highlighting differences and similarities across age groups, formats, and outcomes, the review aims to provide evidence-based recommendations to improve health communication and reduce disparities among Deaf individuals.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This review, registered at OSF [ 22 ], was guided by the central research question: “Is digital technology effective in promoting health prevention among adults and children who are deaf?” To address this question, a comprehensive and systematic search was conducted across 5 major electronic databases: MEDLINE, Embase, Scopus, Web of Science, and PubMed. The search was limited to peer-reviewed studies published in English within the past 10 years to ensure relevance to the evolving landscape of digital health technologies. Boolean operators were applied strategically to broaden or refine the search results, with “OR” used to connect synonymous terms and “AND” used to focus on specific intersections of interest. Additionally, Medical Subject Headings were incorporated to systematically capture 3 key concepts: Deafness and hard-of-hearing, digital communication technologies, and health promotion strategies. The complete list of Medical Subject Headings terms and search keywords is presented in Multimedia Appendix 1 . All identified studies were screened rigorously according to predefined inclusion and exclusion criteria. The selection process was managed using Covidence, an established software platform designed to facilitate systematic review workflows, including study screening and data extraction. Titles and abstracts were screened independently by 2 reviewers (TH and ZC), with any disagreements resolved by a third and fourth reviewer (JR and UP). A PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) flow diagram was developed to provide a visual summary of the study selection process. Following screening, data extraction was conducted systematically and recorded in an Excel spreadsheet. Extracted data included key information such as author(s), study objectives, study design, population characteristics, methodology, key findings, and study conclusions. This structured approach enabled a comprehensive synthesis of current evidence on the use of digital communication tools in promoting health literacy and preventive health behaviors among Deaf individuals.",
+      "order": 2
+    },
+    {
+      "section": "Results",
+      "text": "As a result of the comprehensive database search, a total of 2834 records were identified, and 847 records were removed. During the title and abstract screening phase, 1987 records were screened, and 1912 records were excluded, leaving 75 full-text articles deemed as eligible. During the full-text article review, 17 studies were included, and 73 studies were excluded, based on the reasons mentioned in Figure 1 . This study identified 17 articles that were eligible to be included in this review. Of the 17 included studies, 5 (29%) focused on children (aged <18 y), while 12 (71%) focused on adults (aged >18 y). Tables1 2 summarize the 17 articles [ 23-39 ] that met the inclusion criteria.",
+      "order": 3
+    },
+    {
+      "section": "Study Characteristics",
+      "text": "The studies included in this review employed a diverse array of research designs, reflecting both methodological rigor and adaptability to the research context. Among the 17 studies reviewed, randomized controlled trials (RCTs) emerged as the most frequently used design, with 5 studies adopting this approach [ 23 25 27 32 34 ]. Notably, 4 of these were single-blinded RCTs [ 25 27 32 34 ], while 1 used an open-blinded format [ 23 ]. Beyond RCTs, the studies encompassed descriptive research [ 38 ], cross-sectional designs [ 26 30 ], group concept mapping [ 24 ], pretest-posttest evaluations [ 31 33 ], and quasi-experimental studies [ 39 ], offering a comprehensive methodological landscape to explore the effectiveness of digital health interventions among Deaf and hard-of-hearing populations. In terms of data collection approaches, the studies predominantly relied on quantitative methodologies, with 13 studies focusing on numerical outcomes and statistical analyses [ 23 25-27 30-37 39 undefined undefined undefined undefined undefined undefined undefined undefined undefined ]. Four studies adopted qualitative methods to capture nuanced insights from participants [ 24 28 29 38 ]. Notably, Morris et al [ 28 ] stood out by employing a mixed methods approach that combined both interviews and questionnaires, providing a more holistic understanding of participant experiences. Questionnaires were the most commonly used tool for data collection, featured in 13 studies [ 23 25-27 30-37 39 undefined undefined undefined undefined undefined undefined undefined undefined undefined ], underscoring their practicality in assessing knowledge, attitudes, and behaviors in digital health interventions. Additionally, 4 studies implemented surveys to collect data [ 26 29 30 36 ], while 3 leveraged interviews to gather in-depth qualitative data from Deaf individuals [ 28 32 39 ]. This variety in data collection methods highlights the importance of tailoring research tools to ensure accessibility and inclusivity for Deaf individuals. All included studies were published within the past decade, emphasizing the growing interest and ongoing evolution of digital health technologies in this field. Publication years spanned from 2014 to 2023, with notable contributions in 2014 [ 28 ], 2015 [ 29 ], 2016 [ 30 ], 2017 [ 31 ], 2019 [ 32 ], 2021 [ 33 ], 2022 [ 34 ], and 2023 [ 39 ]. This distribution reflects a consistent and increasing academic focus on leveraging digital communication technologies to promote health prevention and education among Deaf individuals.",
+      "order": 4
+    },
+    {
+      "section": "Overview Of Health Promotion Outcomes: Comparing Adult And Child Deaf Populations",
+      "text": "The differences and similarities between adult and pediatric groups are synthesized in Figure 2 , providing an integrated overview of Tables1 2 . Building on this, Table 3 presents a comparative analysis of health promotion outcomes, highlighting distinct trends in how the health needs of Deaf adults and children are addressed. Video-based interventions dominated across both groups due to their flexibility, visual appeal, and accessibility features such as American Sign Language (ASL) interpretation and captions. Among adults, health promotion often focuses on chronic disease prevention and management. For example, SMS text messaging-based interventions aim to improve health knowledge in areas such as hypertension and cancer awareness [ 30 33 ]. These interventions underscore the priority of preventive health measures and chronic disease education within adult populations. In contrast, interventions for Deaf children focus on the prevention of common acute childhood illnesses and the development of healthy habits from an early age. Audiovisual media have proven effective in improving oral hygiene and increasing school engagement [ 31 38 ]. Despite their differing health priorities, both adult and child populations benefited significantly from digital health interventions, particularly in terms of knowledge acquisition and practical skills. Studies have shown that video-based learning can improve both health awareness and competency in life-saving skills like CPR across age groups. Nonetheless, accessibility remains a concern. A cross-sectional study in Sweden revealed that Deaf individuals, particularly those with deafblindness, were less likely to use eHealth services such as online health care appointment booking [ 26 ]. This finding highlights the ongoing challenge of ensuring that digital platforms are inclusive and easy to navigate for Deaf and hard-of-hearing users.",
+      "order": 5
+    },
+    {
+      "section": "Digital Technology In Communication: Characteristics",
+      "text": "The reviewed studies demonstrated a diverse application of digital technologies as communication interventions aimed at improving health outcomes among Deaf individuals. These technologies included video clips, social media platforms, online courses, and SMS text messaging. Among them, video-based interventions were the most prevalently used, offering a versatile medium that integrates visual, auditory, and textual elements to enhance accessibility and comprehension. For example, Engelberg et al [ 36 ] used humorous video clips to deliver cancer awareness messages, effectively increasing cancer-related knowledge among Deaf individuals. Ferguson et al [ 35 ] implemented short, interactive videos with subtitles to support auditory rehabilitation for first-time hearing aid users. Koçak Akgün and İldan Çalım [ 32 ] developed a breast self-examination (BSE) training video incorporating sign language, providing Deaf women with practical, life-saving skills. Similarly, Muñoz et al [ 27 ] introduced an eHealth educational program that combined weekly phone check-ins with a series of instructional videos for parents managing young children’s hearing aids. Several studies further enhanced accessibility through the integration of sign language, subtitles, and animations. Ahmadi et al [ 39 ] created hygiene education videos for Deaf students, while Asogwa et al [ 38 ] used video-guided educational clips to foster school engagement. Kurniawati et al [ 31 ] promoted oral hygiene among Deaf children through audiovisual media, and Galindo Neto et al [ 34 ] developed a CPR training video that improved life-saving competencies. Springer et al [ 24 ] created an interactive stroke preparedness video incorporating ASL, which significantly improved stroke symptom recognition among Deaf students. These varied implementations highlight how video-based technologies have become instrumental in bridging communication gaps and addressing health education disparities among Deaf individuals.",
+      "order": 6
+    },
+    {
+      "section": "Health Awareness",
+      "text": "Digital technologies have emerged as powerful tools in raising health awareness and disseminating health information tailored to Deaf individuals. The inclusion of accessible features such as sign language, captions, and interactive elements has made health content more relatable and understandable. For instance, Springer et al [ 24 ] collaborated with Deaf interpreters and content creators to develop a culturally resonant stroke preparedness video. By transforming stroke education into a song interpreted in ASL, they made complex health messages both engaging and memorable. Similarly, Kurniawati et al [ 31 ] used a 2-minute video to promote oral hygiene among Deaf children, fostering awareness and positive behavioral change. Neto et al [ 34 ] reinforced health preparedness by offering CPR training through educational videos, equipping Deaf students with critical life-saving skills. Among adults, social media platforms such as Facebook and Instagram have served as channels for increasing health awareness. A cross-sectional study by Kushalnagar et al [ 30 ] found that Deaf women informed about BRCA1/2 genetic testing were significantly more likely to seek health information online ( χ 2 =10.75, P =.001), highlighting the role of digital communication in empowering individuals to advocate for preventive health practices, including BSEs. Similarly, Asogwa et al [ 38 ] reported that 27% (56/208) Deaf respondents were more likely than 15% (123/811) participants from other disability groups to use social media for receiving emergency or health-related information. Overall, the evidence indicates that Deaf individuals are receptive to digital health services, especially when they have been unable to access adequate health information or support through traditional means [ 37 ]. This is further illustrated in the findings of the Crowe study on the viability of tele–mental health (TMH) services for Deaf individuals. Participants expressed a clear willingness to engage with TMH, with a mean score of 2.47 (SD 1.83) for willingness to use TMH services themselves.",
+      "order": 7
+    },
+    {
+      "section": "Education And Health-Related Knowledge",
+      "text": "Digital communication technologies have consistently shown significant value in enhancing health knowledge across diverse Deaf populations. These tools provide flexible learning opportunities that overcome traditional barriers to accessing health education. Engelberg et al [ 36 ] reported a significant improvement in cancer knowledge among Deaf adults after exposure to an educational video that combined humor with health messaging (mean score increased from 6.63 to 8.84, P <.001). This approach not only boosted knowledge retention but also encouraged further health-seeking behavior, with 77% (48/62) of participants motivated to explore additional cancer information. In South Africa, Haricharan et al [ 33 ] demonstrated the value of SMS text messaging campaigns in raising awareness of hypertension and promoting healthy living among Deaf adults. Participants’ knowledge scores significantly improved following the intervention ( P =.003), underlining the feasibility of text-based interventions when video is impractical. For Deaf children, Kurniawati et al [ 31 ] highlighted the use of audiovisual media in promoting oral health. Knowledge scores rose markedly after intervention, from a mean of 10.39 to 12.73, confirming the role of visual storytelling and multimedia tools in delivering complex health messages to younger audiences.",
+      "order": 8
+    },
+    {
+      "section": "Application Of Health-Related Skills",
+      "text": "Beyond raising awareness and disseminating knowledge, digital technologies facilitate the application of practical health skills, empowering Deaf individuals to take actionable steps toward improved health outcomes. Koçak Akgün and İldan Çalım [ 32 ] demonstrated the impact of sign language-integrated video instruction on BSE skills among Deaf women. Participants who viewed the sign-supported videos performed BSE more accurately than those without access to sign language support ( P <.05). This reinforces the importance of accessible instructional content in cultivating life-saving self-care skills. Similarly, Neto et al [ 34 ] reported significant gains in both theoretical and practical CPR competencies among Deaf students following exposure to a specialized educational video. Compared with traditional lecture-based instruction, the video intervention group exhibited higher accuracy in performing CPR, both immediately ( P =.035) and after 15 days ( P =.026). This finding illustrates how digital education strategies can enhance not only knowledge acquisition but also skill mastery in critical health procedures.",
+      "order": 9
+    },
+    {
+      "section": "Results",
+      "text": "The adoption of digital technologies in health promotion has shown substantial benefits for both Deaf adults and children. These tools, especially interactive video interventions, have enhanced health knowledge, practical skills, and engagement levels within these groups. While the overarching goal remains the same, improving health education and inclusivity strategies, areas of focus, and outcomes differ notably between adult and child cohorts. For Deaf adults, health promotion initiatives tend to address a broader spectrum of health concerns, including chronic conditions, mental health, and preventive care. Digital platforms such as mobile apps, video-based education, social media campaigns, and TMH services are increasingly leveraged to bridge gaps in health care accessibility. Notably, accessible formats such as sign language interpretation, captioning, and subtitles are essential in enhancing the usability of these interventions [ 19 ]. Studies indicate that these tailored approaches not only improve health knowledge but also foster greater engagement and more positive mental health outcomes among Deaf adults [ 40 ]. Larger sample sizes in many of these studies allow for broader generalizability of findings, strengthening the evidence base for these interventions. Conversely, health promotion efforts targeting Deaf children often emphasize prevention and early health education, with a focus on fostering positive health behaviors from an early age. Interactive content, such as gamified learning, storytelling videos, and visual-rich tutorials, has proven particularly beneficial in capturing and sustaining attention among younger audiences. School-based programs play a crucial role in this demographic, providing a structured and inclusive environment that encourages peer learning and community involvement [ 41 ]. Additionally, the involvement of Deaf role models has been identified as a beneficial practice, offering sociolinguistic and cultural perspectives that complement traditional audiological approaches [ 41 ]. However, these studies often involve smaller, localized sample groups, which can limit the generalizability of their findings beyond specific contexts. Despite the promising outcomes, both Deaf adults and children continue to report lower utilization rates and greater difficulties in accessing eHealth services compared to their hearing counterparts. Barriers include limited digital literacy, inadequate internet access, and the scarcity of culturally and linguistically appropriate content. Questionnaires remain the primary tool for evaluating intervention effectiveness in both populations, ensuring consistency in outcome measurement but also underscoring the need for more diverse assessment methodologies in future research. While digital health tools have successfully enhanced health knowledge and practical health-related skills in both groups, their distinct developmental stages and priorities necessitate tailored approaches. Adults benefit from scalable, wide-reaching interventions that address complex health topics, whereas children require engaging, interactive formats that encourage active participation and early adoption of healthy behaviors. Ultimately, the shared success across both groups lies in the strategic use of accessible digital content. Video-guided educational interventions, in particular, have significantly increased engagement levels, especially among Deaf secondary school students, demonstrating that when designed with inclusivity in mind, digital tools can profoundly impact health outcomes. The findings of this review highlight the transformative potential of digital communication technologies in advancing health education, awareness, and practical skills within these populations, particularly in contexts where conventional, speech-dependent health services remain inaccessible. Unlike hearing populations, who typically benefit from verbally mediated, face-to-face health communication, Deaf individuals often encounter persistent linguistic and communication barriers that limit access to health information. By prioritizing accessible design and tailoring interventions to the distinct needs of both deaf and Deaf adults and children, digital health initiatives can reduce these inequities and promote health equity. This review identifies a wide range of digital technologies, including mobile phones, personal computers, television, and SMS text messaging, delivered through platforms such as online courses, video-based content, email, and social media, that have been effectively used in health promotion and disease prevention. Effectiveness is conceptualized within an implementation science framework as the real-world impact of digital services on reach, acceptability, and user outcomes, with particular relevance to improving health literacy and advancing digital equity [ 42 ]. Nevertheless, while digital technologies show considerable promise in improving health outcomes, their successful implementation depends on overcoming several persistent challenges. Accessibility, digital literacy, and cultural relevance remain key concerns that need to be addressed to ensure the sustainability of these interventions. Leveraging digital communication effectively for Deaf children and Deaf adults presents unique challenges. One major challenge is the lack of accessible content in local sign languages. Many health platforms rely on text-based materials or spoken audio, which are not always suitable for Deaf individuals, especially those with limited reading literacy due to delayed language acquisition. Deaf children, in particular, may face language deprivation if they are not exposed to sign language early, affecting their ability to understand health content. Conversely, Deaf adults may carry long-standing gaps in health knowledge due to years of exclusion from accessible education and health care communication [ 18 ].",
+      "order": 10
+    },
+    {
+      "section": "Conclusion",
+      "text": "The reviewed studies illustrate the growing use of digital technologies, particularly video-based platforms, to enhance health awareness, education, and skill development among Deaf adults and children. These interventions, which often integrate sign language, captions, and visual storytelling, have shown positive outcomes in improving health-related knowledge and enabling practical health actions such as BSE and CPR. Thus, the dominance of video-based interventions may reflect both user preference and gaps in research on emerging platforms. However, despite these promising results, significant digital health literacy gaps remain. Discrepancies persist due to the lack of inclusive design features, such as sign language options, and usability for Deaf individuals. Literacy development gaps are evident as many interventions are stand-alone with little to no follow-up, particularly for those with limited health knowledge. There is a lack of support where Deaf users are not equipped to assess the digital health content or apply information in decision-making contexts. Together, these gaps underscore the need for digital health interventions to move beyond surface-level accessibility. To be effective and equitable, such interventions must be linguistically aligned, developmentally appropriate, cognitively empowering, and embedded within inclusive health systems that recognize the unique needs of Deaf individuals.",
+      "order": 11
+    },
+    {
+      "section": "Limitations",
+      "text": "This review highlights important insights into the use of digital technologies for health promotion among Deaf populations; however, several limitations should be acknowledged. First, most of the studies included were conducted in the United States, limiting the generalizability of findings across different cultural, socioeconomic, and health care contexts. Future research should actively include more geographically and culturally diverse Deaf communities to enhance the global applicability and relevance of interventions. Second, only 3 of the 12 studies employed RCT designs. While observational and quasi-experimental studies offer valuable perspectives, the lack of high-quality RCTs reduces the strength of evidence and the effect of interventions. Future research should prioritize well-designed RCTs with double- or triple-blinded methods where feasible, to minimize bias and enhance the validity of outcomes. Additionally, several studies relied on outdated technologies such as DVDs and CDs, which do not reflect current digital media usage trends. As digital access evolves rapidly, future interventions should focus on contemporary technologies, including mobile apps, video-based platforms, and interactive tools that are more relevant to today’s Deaf populations. Another limitation of this review was the narrow scope of digital technologies considered. While the focus was intentionally placed on broader digital health tools rather than specific social media platforms, this approach may have overlooked the potential impact of emerging platforms like TikTok and Threads. These platforms play an increasingly significant role in health communication, particularly for younger audiences, and warrant further exploration in future research.",
+      "order": 12
+    },
+    {
+      "section": "Future Research Directions",
+      "text": "Despite these limitations, this review emphasizes the significant potential of digital technologies to reduce health disparities and improve health outcomes. To address these challenges, digital health communication must be co-designed with Deaf communities, prioritize sign language-first content, incorporate Deaf cultural perspectives, and be supported by inclusive policies and trained personnel. This approach can bridge the communication gap and promote equitable health outcomes for both Deaf children and adults. Future research could benefit from explicitly incorporating behavioral and communication theories to better explain why certain interventions succeed or fail, particularly as the evidence base grows. Tailoring interventions to the unique language and modality needs of Deaf individuals is likely to enhance engagement, comprehension, and ultimately health outcomes.",
+      "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "authors": [
+        "Al-Ani RM"
+      ],
+      "title": "Various aspects of hearing loss in newborns: a narrative review",
+      "journal": "World J Clin Pediatr",
+      "year": "2023",
+      "volume": "12",
+      "issue": "3",
+      "fpage": "86",
+      "lpage": "96",
+      "doi": "10.5409/wjcp.v12.i3.86",
+      "pmid": "37342452",
+      "pmc_id": "PMC10278076"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "authors": [
+        "Smith SR",
+        "Kushalnagar P",
+        "Hauser PC"
+      ],
+      "title": "Deaf adolescents’ learning of cardiovascular health information: sources and access challenges",
+      "journal": "J Deaf Stud Deaf Educ",
+      "year": "2015",
+      "volume": "20",
+      "issue": "4",
+      "fpage": "408",
+      "lpage": "418",
+      "doi": "10.1093/deafed/env021",
+      "pmid": "26048900",
+      "pmc_id": "PMC4615750"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "authors": [
+        "Rogers KD",
+        "Lovell K",
+        "Bower P",
+        "Armitage CJ",
+        "Young A"
+      ],
+      "title": "What are Deaf sign language users’ experiences as patients in healthcare services? A scoping review",
+      "journal": "PLOS Glob Public Health",
+      "year": "2025",
+      "volume": "5",
+      "issue": "2",
+      "elocation_id": "e0003535",
+      "doi": "10.1371/journal.pgph.0003535",
+      "pmid": "40009582",
+      "pmc_id": "PMC11864532"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "authors": [
+        "Maharjan M",
+        "Phuyal S",
+        "Shrestha M",
+        "Bajracharya R"
+      ],
+      "title": "Chronic otitis media and subsequent hearing loss in children from the Himalayan region residing in Buddhist Monastic schools of Nepal",
+      "journal": "J Otol",
+      "year": "2020",
+      "volume": "15",
+      "issue": "4",
+      "fpage": "144",
+      "lpage": "148",
+      "doi": "10.1016/j.joto.2020.09.001",
+      "pmid": "33293915",
+      "pmc_id": "PMC7691833"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "authors": [
+        "Friedman SM",
+        "Scheuer K",
+        "Beha BG",
+        "Dewhirst M",
+        "Barnett TD"
+      ],
+      "title": "Whole-food plant-based jumpstart for a deaf and hard of hearing cohort",
+      "journal": "Front Nutr",
+      "year": "2023",
+      "volume": "10",
+      "elocation_id": "1125075",
+      "doi": "10.3389/fnut.2023.1125075",
+      "pmid": "37090777",
+      "pmc_id": "PMC10113654"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "authors": [
+        "Shahid R",
+        "Shoker M",
+        "Chu LM",
+        "Frehlick R",
+        "Ward H",
+        "Pahwa P"
+      ],
+      "title": "Impact of low health literacy on patients’ health outcomes: a multicenter cohort study",
+      "journal": "BMC Health Serv Res",
+      "year": "2022",
+      "volume": "22",
+      "issue": "1",
+      "elocation_id": "1148",
+      "doi": "10.1186/s12913-022-08527-9",
+      "pmid": "36096793",
+      "pmc_id": "PMC9465902"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "authors": [
+        "Osborne RH",
+        "Elmer S",
+        "Hawkins M",
+        "et al."
+      ],
+      "title": "Health literacy development is central to the prevention and control of non-communicable diseases",
+      "journal": "BMJ Glob Health",
+      "year": "2022",
+      "volume": "7",
+      "issue": "12",
+      "elocation_id": "e010362",
+      "doi": "10.1136/bmjgh-2022-010362",
+      "pmid": "36460323",
+      "pmc_id": "PMC9723891"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "authors": [
+        "Bhattacharya S",
+        "Heidler P",
+        "Varshney S"
+      ],
+      "title": "Incorporating neglected non-communicable diseases into the national health program-a review",
+      "journal": "Front Public Health",
+      "year": "2023",
+      "volume": "10",
+      "elocation_id": "1093170",
+      "doi": "10.3389/fpubh.2022.1093170",
+      "pmid": "36703821",
+      "pmc_id": "PMC9871457"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "authors": [
+        "Ramesh S",
+        "Kosalram K"
+      ],
+      "title": "The burden of non-communicable diseases: a scoping review focus on the context of India",
+      "journal": "J Educ Health Promot",
+      "year": "2023",
+      "volume": "12",
+      "elocation_id": "41",
+      "doi": "10.4103/jehp.jehp_1113_22",
+      "pmid": "37113407",
+      "pmc_id": "PMC10127498"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "authors": [
+        "Budreviciute A",
+        "Damiati S",
+        "Sabir DK",
+        "et al."
+      ],
+      "title": "Management and prevention strategies for non-communicable diseases (NCDs) and their risk factors",
+      "journal": "Front Public Health",
+      "year": "2020",
+      "volume": "8",
+      "elocation_id": "574111",
+      "doi": "10.3389/fpubh.2020.574111",
+      "pmid": "33324597",
+      "pmc_id": "PMC7726193"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "authors": [
+        "Ioannidis JPA",
+        "Adami HO"
+      ],
+      "title": "Nested randomized trials in large cohorts and biobanks: studying the health effects of lifestyle factors",
+      "journal": "Epidemiology",
+      "year": "2008",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "75",
+      "lpage": "82",
+      "doi": "10.1097/EDE.0b013e31815be01c",
+      "pmid": "18090999"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "authors": [
+        "Stoumpos AI",
+        "Kitsios F",
+        "Talias MA"
+      ],
+      "title": "Digital transformation in healthcare: technology acceptance and its applications",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2023",
+      "volume": "20",
+      "issue": "4",
+      "fpage": "3656",
+      "doi": "10.3390/ijerph20043407",
+      "pmid": "36834105",
+      "pmc_id": "PMC9963556"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "authors": [
+        "Eysenbach G"
+      ],
+      "title": "What is e-health?",
+      "journal": "J Med Internet Res",
+      "year": "2001",
+      "volume": "3",
+      "issue": "2",
+      "elocation_id": "E20",
+      "doi": "10.2196/jmir.3.2.e20",
+      "pmid": "11720962",
+      "pmc_id": "PMC1761894"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "authors": [
+        "Saigí-Rubió F",
+        "Borges do Nascimento IJ",
+        "Robles N",
+        "et al."
+      ],
+      "title": "The current status of telemedicine technology use across the World Health Organization European Region: an overview of systematic reviews",
+      "journal": "J Med Internet Res",
+      "year": "2022",
+      "volume": "24",
+      "issue": "10",
+      "elocation_id": "e40877",
+      "doi": "10.2196/40877",
+      "pmid": "36301602",
+      "pmc_id": "PMC9650581"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "authors": [
+        "Yeung AWK",
+        "Torkamani A",
+        "Butte AJ",
+        "et al."
+      ],
+      "title": "The promise of digital healthcare technologies",
+      "journal": "Front Public Health",
+      "year": "2023",
+      "volume": "11",
+      "elocation_id": "1196596",
+      "doi": "10.3389/fpubh.2023.1196596",
+      "pmid": "37822534",
+      "pmc_id": "PMC10562722"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "authors": [
+        "Morisod K",
+        "Malebranche M",
+        "Marti J",
+        "Spycher J",
+        "Grazioli VS",
+        "Bodenmann P"
+      ],
+      "title": "Interventions aimed at improving healthcare and health education equity for adult d/Deaf patients: a systematic review",
+      "journal": "Eur J Public Health",
+      "year": "2022",
+      "volume": "32",
+      "issue": "4",
+      "fpage": "548",
+      "lpage": "556",
+      "doi": "10.1093/eurpub/ckac056",
+      "pmid": "35640159",
+      "pmc_id": "PMC9341675"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "authors": [
+        "Stadnick NA",
+        "Laurent LC",
+        "Cain KL",
+        "et al."
+      ],
+      "title": "Community-engaged optimization of COVID-19 rapid evaluation and testing experiences: roll-out implementation optimization trial",
+      "journal": "Implement Sci",
+      "year": "2023",
+      "volume": "18",
+      "issue": "1",
+      "elocation_id": "46",
+      "doi": "10.1186/s13012-023-01306-y",
+      "pmid": "37784200",
+      "pmc_id": "PMC10544564"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "authors": [
+        "Kuenburg A",
+        "Fellinger P",
+        "Fellinger J"
+      ],
+      "title": "Health care access among deaf people",
+      "journal": "J Deaf Stud Deaf Educ",
+      "year": "2016",
+      "volume": "21",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "10",
+      "doi": "10.1093/deafed/env042",
+      "pmid": "26405210"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "authors": [
+        "McKee MM",
+        "Barnett SL",
+        "Block RC",
+        "Pearson TA"
+      ],
+      "title": "Impact of communication on preventive services among deaf American Sign Language users",
+      "journal": "Am J Prev Med",
+      "year": "2011",
+      "volume": "41",
+      "issue": "1",
+      "fpage": "75",
+      "lpage": "79",
+      "doi": "10.1016/j.amepre.2011.03.004",
+      "pmid": "21665066",
+      "pmc_id": "PMC3117257"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "authors": [
+        "Wong CA",
+        "Madanay F",
+        "Ozer EM",
+        "et al."
+      ],
+      "title": "Digital health technology to enhance adolescent and young adult clinical preventive services: affordances and challenges",
+      "journal": "J Adolesc Health",
+      "year": "2020",
+      "volume": "67",
+      "issue": "2S",
+      "fpage": "S24",
+      "lpage": "S33",
+      "doi": "10.1016/j.jadohealth.2019.10.018",
+      "pmid": "32718511",
+      "pmc_id": "PMC11925059"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "authors": [
+        "Oh C",
+        "Carducci B",
+        "Vaivada T",
+        "Bhutta ZA"
+      ],
+      "title": "Digital interventions for universal health promotion in children and adolescents: a systematic review",
+      "journal": "Pediatrics",
+      "year": "2022",
+      "volume": "149",
+      "issue": "Suppl 5",
+      "elocation_id": "e2021053852H",
+      "doi": "10.1542/peds.2021-053852H",
+      "pmid": "35503335"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "authors": [
+        "Hui TT"
+      ],
+      "title": "Effectiveness of digital communication in the deaf community: a scoping review",
+      "journal": "Open Science Framework",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "authors": [
+        "Thorén ES",
+        "Oberg M",
+        "Wänström G",
+        "Andersson G",
+        "Lunner T"
+      ],
+      "title": "A randomized controlled trial evaluating the effects of online rehabilitative intervention for adult hearing-aid users",
+      "journal": "Int J Audiol",
+      "year": "2014",
+      "volume": "53",
+      "issue": "7",
+      "fpage": "452",
+      "lpage": "461",
+      "doi": "10.3109/14992027.2014.892643",
+      "pmid": "24749664"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "authors": [
+        "Springer MV",
+        "Corches CL",
+        "McCracklin B",
+        "Scott M",
+        "Robles MC",
+        "Skolarus LE"
+      ],
+      "title": "Expanding stroke preparedness to vulnerable populations: a music video for the Deaf community",
+      "journal": "J Am Heart Assoc",
+      "year": "2020",
+      "volume": "9",
+      "issue": "20",
+      "elocation_id": "e018352",
+      "doi": "10.1161/JAHA.120.018352",
+      "pmid": "33032499",
+      "pmc_id": "PMC7763368"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "authors": [
+        "Rothpletz AM",
+        "Moore AN",
+        "Preminger JE"
+      ],
+      "title": "Acceptance of internet-based hearing healthcare among adults who fail a hearing screening",
+      "journal": "Int J Audiol",
+      "year": "2016",
+      "volume": "55",
+      "issue": "9",
+      "fpage": "483",
+      "lpage": "490",
+      "doi": "10.1080/14992027.2016.1185804",
+      "pmid": "27409278"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "authors": [
+        "Pettersson L",
+        "Johansson S",
+        "Demmelmaier I",
+        "Gustavsson C"
+      ],
+      "title": "Disability digital divide: survey of accessibility of eHealth services as perceived by people with and without impairment",
+      "journal": "BMC Public Health",
+      "year": "2023",
+      "volume": "23",
+      "issue": "1",
+      "elocation_id": "181",
+      "doi": "10.1186/s12889-023-15094-z",
+      "pmid": "36707791",
+      "pmc_id": "PMC9880913"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "authors": [
+        "Muñoz K",
+        "San Miguel GG",
+        "Barrett TS",
+        "et al."
+      ],
+      "title": "eHealth parent education for hearing aid management: a pilot randomized controlled trial",
+      "journal": "Int J Audiol",
+      "year": "2021",
+      "volume": "60",
+      "issue": "sup1",
+      "fpage": "S42",
+      "lpage": "S48",
+      "doi": "10.1080/14992027.2021.1886354",
+      "pmid": "33635156"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "authors": [
+        "Morris JT",
+        "Mueller JL",
+        "Jones ML"
+      ],
+      "title": "Use of social media during public emergencies by people with disabilities",
+      "journal": "West J Emerg Med",
+      "year": "2014",
+      "volume": "15",
+      "issue": "5",
+      "fpage": "567",
+      "lpage": "574",
+      "doi": "10.5811/westjem.2014.4.21274",
+      "pmid": "25157303",
+      "pmc_id": "PMC4140198"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "authors": [
+        "Meyer C",
+        "Waite M",
+        "Atkins J",
+        "et al."
+      ],
+      "title": "How can eHealth meet the hearing and communication needs of adults with hearing impairment and their significant others? A group concept mapping study",
+      "journal": "Ear Hear",
+      "year": "2022",
+      "volume": "43",
+      "issue": "2",
+      "fpage": "335",
+      "lpage": "346",
+      "doi": "10.1097/AUD.0000000000001097",
+      "pmid": "34320524"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "authors": [
+        "Kushalnagar P",
+        "Holcomb J",
+        "Sadler GR"
+      ],
+      "title": "Genetic testing and eHealth usage among Deaf women",
+      "journal": "J Genet Couns",
+      "year": "2019",
+      "volume": "28",
+      "issue": "5",
+      "fpage": "933",
+      "lpage": "939",
+      "doi": "10.1002/jgc4.1134",
+      "pmid": "31180177",
+      "pmc_id": "PMC6777990"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "authors": [
+        "Kurniawati D",
+        "Bernice SF",
+        "Pasha FRA"
+      ],
+      "title": "The effectiveness of dental and oral health promotion with audiovisual media on knowledge level and oral hygiene status of deaf children",
+      "journal": "Rev Lat Am Hipertens",
+      "year": "2022",
+      "volume": "17",
+      "issue": "1",
+      "fpage": "75",
+      "lpage": "81"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "authors": [
+        "Koçak Akgün M",
+        "İldan Çalım S"
+      ],
+      "title": "Breast self-examination training video with the sign language for deaf women: an interventional study",
+      "journal": "Eur J Cancer Care (Engl)",
+      "year": "2022",
+      "volume": "31",
+      "issue": "1",
+      "elocation_id": "e13543",
+      "doi": "10.1111/ecc.13543",
+      "pmid": "34935220"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "authors": [
+        "Haricharan HJ",
+        "Heap M",
+        "Hacking D",
+        "Lau YK"
+      ],
+      "title": "Health promotion via SMS improves hypertension knowledge for deaf South Africans",
+      "journal": "BMC Public Health",
+      "year": "2017",
+      "volume": "17",
+      "issue": "1",
+      "elocation_id": "663",
+      "doi": "10.1186/s12889-017-4619-7",
+      "pmid": "28821288",
+      "pmc_id": "PMC5563060"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "authors": [
+        "Galindo Neto NM",
+        "Sá GGM",
+        "Barros LM",
+        "Lima MMS",
+        "Santos SMJD",
+        "Caetano JÁ"
+      ],
+      "title": "Effectiveness of educational video on deaf people’s knowledge and skills for cardiopulmonary resuscitation: a randomized controlled trial",
+      "journal": "Rev Esc Enferm USP",
+      "year": "2023",
+      "volume": "57",
+      "elocation_id": "e20220227",
+      "doi": "10.1590/1980-220X-REEUSP-2022-0227en",
+      "pmid": "37216652",
+      "pmc_id": "PMC10205125"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "authors": [
+        "Ferguson M",
+        "Brandreth M",
+        "Brassington W",
+        "Leighton P",
+        "Wharrad H"
+      ],
+      "title": "A randomized controlled trial to evaluate the benefits of a multimedia educational program for first-time hearing aid users",
+      "journal": "Ear Hear",
+      "year": "2016",
+      "volume": "37",
+      "issue": "2",
+      "fpage": "123",
+      "lpage": "136",
+      "doi": "10.1097/AUD.0000000000000237",
+      "pmid": "26565785",
+      "pmc_id": "PMC4764016"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "authors": [
+        "Engelberg M",
+        "Nakaji MC",
+        "Harry KM",
+        "et al."
+      ],
+      "title": "Promotion of healthy humor cancer education messages for the Deaf community",
+      "journal": "J Cancer Educ",
+      "year": "2019",
+      "volume": "34",
+      "issue": "2",
+      "fpage": "323",
+      "lpage": "328",
+      "doi": "10.1007/s13187-017-1305-5",
+      "pmid": "29204806"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "authors": [
+        "Crowe TV"
+      ],
+      "title": "Is telemental health services a viable alternative to traditional psychotherapy for deaf individuals?",
+      "journal": "Community Ment Health J",
+      "year": "2017",
+      "volume": "53",
+      "issue": "2",
+      "fpage": "154",
+      "lpage": "162",
+      "doi": "10.1007/s10597-016-0025-3",
+      "pmid": "27260308"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "authors": [
+        "Asogwa UD",
+        "Ofoegbu TO",
+        "Ogbonna CS",
+        "et al."
+      ],
+      "title": "Effect of video-guided educational intervention on school engagement of adolescent students with hearing impairment: implications for health and physical education",
+      "journal": "Medicine (Baltimore)",
+      "year": "2020",
+      "volume": "99",
+      "issue": "23",
+      "elocation_id": "e20643",
+      "doi": "10.1097/MD.0000000000020643",
+      "pmid": "32502050",
+      "pmc_id": "PMC7306343"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "authors": [
+        "Ahmadi M",
+        "Abbasi M",
+        "Bahaadinbeigy K"
+      ],
+      "title": "Design and implementation of a software for teaching health related topics to deaf students: the first experience in Iran",
+      "journal": "Acta Inform Med",
+      "year": "2015",
+      "volume": "23",
+      "issue": "2",
+      "fpage": "76",
+      "lpage": "80",
+      "doi": "10.5455/aim.2015.23.76-80",
+      "pmid": "26005271",
+      "pmc_id": "PMC4430007"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "authors": [
+        "Kandeel M",
+        "Morsy MA",
+        "Alkhodair K",
+        "Alhojaily S"
+      ],
+      "title": "Digital health interventions for individuals with disabilities and their impacts on health, quality of life, and social participation",
+      "journal": "Digit Health",
+      "year": "2024",
+      "volume": "10",
+      "doi": "10.1177/20552076241294190"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "authors": [
+        "Naugle K",
+        "Stephans J",
+        "Lazar A",
+        "et al."
+      ],
+      "title": "Teletherapy to address language disparities in deaf and hard-of-hearing children: study protocol for an inclusive multicentre clinical trial",
+      "journal": "BMJ Open",
+      "year": "2024",
+      "volume": "14",
+      "issue": "8",
+      "elocation_id": "e089118",
+      "doi": "10.1136/bmjopen-2024-089118",
+      "pmid": "39122403",
+      "pmc_id": "PMC11407196"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "authors": [
+        "Rogers K",
+        "Lovell K",
+        "Young A"
+      ],
+      "title": "What is the efficacy and effectiveness of telemedicine intervention for deaf signing populations in comparison to face-to-face interventions? A systematic review",
+      "journal": "BMC Health Serv Res",
+      "year": "2023",
+      "volume": "23",
+      "issue": "1",
+      "elocation_id": "678",
+      "doi": "10.1186/s12913-023-09509-1",
+      "pmid": "37349811",
+      "pmc_id": "PMC10288820"
+    }
+  ]
+}

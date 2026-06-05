@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "title": "Photon counting computed tomography in head and neck squamous cell carcinoma: iodine concentration and histopathological features",
+    "authors": [
+      "Alexey Surov",
+      "Raihanatou Diallo-Danebrock",
+      "Hagen Sonnemann",
+      "Ruth Roggel",
+      "Martin Scheer",
+      "Stefan Volkenstein",
+      "Andreas Wienke",
+      "Jan Borggrefe"
+    ],
+    "journal": "Journal of Cancer Research and Clinical Oncology",
+    "year": "2026",
+    "doi": "10.1007/s00432-026-06509-6",
+    "pmc_id": "PMC13230370",
+    "pmid": "42219395",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 33
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose Head and neck squamous cell carcinoma (HNSCC) is a common malignancy with increasing relevance in oncologic imaging. Photon-counting computed tomography (PCCT) allows for quantitative assessment in iodine concentration (IC) offering new insights into tumor biology. This study aimed to investigate the association between normalized IC (NIC) and histopathological features in HNSCC. Methods Eighty-four patients with primary untreated HNSCC underwent contrast-enhanced PCCT of the neck in venous phase. Iodine maps were generated to quantify intratumoral IC. NIC was calculated as the ratio of tumoral IC to aortal IC. Histopathological analysis included tumor stage, tumor grade, Ki 67 proliferation index, tumor cell count and human papillomavirus (HPV) status. Group comparison were conducted using Mann-Whitney-U tests. Interreader agreement was assessed via intraclass correlation coefficient (ICC). Receiver operating characteristic (ROC) analysis was performed to evaluate diagnostic performance of NIC for HPV status. Results NIC values demonstrated excellent interreader reliability (ICC = 0.96, 95%CI = (0.92; 0.98), p < 0.01). NIC showed an inverse correlation with tumoral cell count ( r = -0.24, p = 0.03). Tumors with lymphonodal metastases exhibited lower NIC values compared to N0 tumors (0.42 ± 0.20 vs. 0.54 ± 0.26, p = 0.02). Cell-rich tumors had lower NIC values than cell-poor tumors (0.42 ± 0.18 vs. 0.53 ± 0.26, p = 0.003). HPV negative tumors showed higher NIC values than HPV-positive tumors (0.51 ± 0.23 vs. 0.33 ± 0.18, respectively, p < 0.01). A NIC threshold of ≥ 0.5 predicted HPV negative tumors, demonstrating 54.5% sensitivity and 94.4% specificity, with an AUC of 0.74 (95% CI = 0.62–0.86, p < 0.01). Conclusions NIC derived from PCCT is a robust and reproducible imaging parameter in HSNCC. It is moderately associated with tumor cellularity, nodal involvement, and HPV status. Thus, NIC may serve as a valuable adjunct in non-invasive tumor characterization.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Head and neck squamous cell carcinoma (HNSCC) ranks among the most prevalent malignancies worldwide and remains a major contributor to cancer-related morbidity and mortality (Siegel et al. 2025 ). Radiological imaging plays a pivotal role, not only in tumor staging but also in providing insights into tumor biology. In recent years, multi-parametric imaging approaches, using computed tomography and particularly magnetic resonance imaging have demonstrated promising associations between imaging biomarkers and histopathological features (Surov et al. 2018 ; van der Hulst et al. 2023 ). For instance, several magnetic resonance imaging parameters like apparent diffusion coefficient (ADC) can reflect different histopathological features in HNSCC, such as tumor cell count, proliferation index Ki 67 and expression of p53 (Surov et al. 2018 ; van der Hulst et al. 2023 ). Building on this paradigm, Dual-energy computed tomography (DECT) as well as photon-counting computed tomography (PCCT) introduced new possibilities for oncological staging in the last decade (Johnson 2012 ; Wu et al. 2023a , b ). PCCT emerged as a next generation imaging modality with advantages over conventional CT including improved spatial resolution, reduced electronic noise, and enhanced material decomposition (Wu et al. 2023a , b ; Wrazidlo et al. 2023 ). A key innovation of both dual DECT and PCCT is the ability to quantify tissue iodine concentration (IC), a surrogate marker for perfusion and vascularization, especially in tumors (Surov et al. 2024 ; Wu et al. 2023a , b ; Fan et al. 2017 ). This possibility presents new opportunities for tumor characterization. Previous studies have shown that IC can distinguish between benign and malignant lesions throughout the body, including the head and neck region (Hsu et al. 2021 ). Thus, it may correlate with tumor aggressiveness. For example, Foust and colleagues found that IC was lower in metastatic lymph nodes (0.96 ± 0.28 mg/mL) than in non-metastatic nodes (1.65 ± 0.38 mg/mL; P = 0.002) in squamous cell carcinoma of the oropharynx (Foust et al. 2018 ). Furthermore, IC has been explored as a predictive marker for treatment response and microvascular characteristics in other malignancies, such as rectal, lung and gastric cancers (Surov et al. 2024 ; Wu et al. 2023a , b ; Fan et al. 2017 ; Wei et al. 2022 ). IC can predict the efficacy of neoadjuvant chemotherapy and provides imaging evidence to assist in treatment decisions for patients with hypopharyngeal carcinoma Wei et al. 2022 ). In HNSCC, however, data on the relationship between IC and histopathology remains limited. Given the biological relevance of angiogenesis and perfusion in tumor progression, we hypothesized that IC may reflect specific histopathological findings and help characterize tumor biology in a non-invasive way. Therefore, the objective of this study was to investigate associations between normalized iodine concentration (NIC) derived from PCCT and the key histopathological features in HNSCC such as tumor stage, cellularity and proliferation. Further, we evaluated specifically the HPV status in HNSCC as a key end-point.",
+      "order": 1
+    },
+    {
+      "section": "Study Design, Patients And Tumors",
+      "text": "This retrospective, single center study was approved by the institutional review board (Ethics Committee of the Faculty of Medicine, Ruhr-University Bochum, approval code 2021–827) and conducted in accordance with the Declaration of Helsinki. Patients with histologically confirmed primary HNSCC, who underwent contrast-enhanced photon-counting computed tomography (PCCT) between January 2022 and December 2024 were identified from the institutional Picture Archiving and Communication System (PACS). Overall, 200 patients/tumors were identified. Figure 1 gives an overview of the data acquisition. Inclusion criteria: Histopathologically confirmed, previously untreated HNSCC; Availability of contrast-enhanced PCCT of the neck region in venous phase; available histopathological specimens for analysis. Exclusion criteria: Non-squamous cell tumors such as neuroendocrine tumors, mucinous, and undifferentiated carcinomas; Recurrent HNSCC; Carcinoma of unknown primary (CUP); Relevant imaging artifacts precluding accurate analysis. Overall, 116 patients/tumors were excluded and the final cohort comprised 84 cases. Tumor staging (TNM) and grading were obtained from the institutional pathology database.",
+      "order": 2
+    },
+    {
+      "section": "Pcct Technique",
+      "text": "All imaging was performed using a dual-source photon counting CT scanner (NAEOTOM Alpha Prime, software version Syngo CT VA40A/VA50A, Siemens Healthineers, Erlangen, Germany). The scan protocol of the neck in venous contrast phased was acquired with the following parameters: tube voltage, 120 kVp; collimation, 144 × 0.4 mm; pitch factor, 0.8; gantry rotation time, 0.5 s. The tube current was modulated based on the manufacturer-specific dose modulation with set image quality level (IQ level) of 170. Intravenous contrast medium (ACCUPAQUE ® 300, GE Healthcare, Chicago, IL, USA) was administered at a weight-adjusted dose of 1 ml / kg body weight via a coupled automated injector (MEDRAD ® Centargo, Bayer Healthcare, Leverkusen, Germany). The contrast medium was applied into a peripheral vein of the arm using a flow rate of 2.4 ml/s followed by 40 ml of saline solution at the same injection rate. Both polyenergetic and spectral datasets were reconstructed using convolution kernels Br36 (polyenergetic) and Qr36 (spectral data sets), respectively, each using the fourth Quantum Iterative Reconstruction (QIR level 4).",
+      "order": 3
+    },
+    {
+      "section": "Imaging Analysis",
+      "text": "Post-processing and quantitative analysis wer conducted using the vendor specific software (Syngo.Via, software version VB60, Siemens Healthineers, Erlangen, Germany). Two readers independently performed the measurements: One board-certified radiologist with 5 years of experience in head&neck imaging (RR) and one radiologist with 1 year of experience (HS). All measures were performed by the investigators independent to each other and blinded to the histopathological findings. The radiologists underwent task training before data evaluation. In each case, an axial slice with the largest tumor extent of the HSCCM was selected. On this image a polygonal region of interest (ROI) was manually drawn on the iodine map, encompassing the viable tumor while avoiding necrotic, cystic, or hemorrhagic areas as well as vessels (Fig. 2 a). For all tumors, mean iodine concentration (IC, mg/ml) was recorded. For normalization, a circular ROI was placed in the ascending aorta to estimate vascular IC. Normalized IC (NIC) was calculated as: This approach was performed to reduce technical and/or physiological variabilities in iodine accumulation within the tissue of interest due to varying cardiac output and contrast phases (Tian et al. 2022 ).",
+      "order": 4
+    },
+    {
+      "section": "Histopathological Analysis",
+      "text": "The histological analysis was performed on the bioptic specimens. Tumor specimens were analysed by a board-certified pathologist (RD) with 20 years of clinical experience. Tumor grade was assessed according to the World Health Organization (WHO) criteria (Almangush et al. 2020 ). Human Papilloma Virus (HPV) status of the tumors was assessed using routine clinical testing using p16 immunohistochemistry (Lewis et al. 2025 ). The Ki 67 proliferation index was assessed using MIB-1 monoclonal antibody (DakoCytomation, Denmark) on formalin-fixed, paraffin embedded sections. Two high power fields (0.20 mm 2 per field, x200 magnification) with the highest staining density of positive tumor nuclei were selected, and the Ki 67 proliferation index was calculated as: Tumor cellularity was defined as the average number of tumor cells per two high-power fields (hematoxylin-eosin (H&E) stained images, x200 magnification, 0.2 mm 2 per field).",
+      "order": 5
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "All statistical calculations were performed with the SPSS (IBM SPSS Statistics for Windows, version 28.0). Continuous variables are reported as means, medians and standard deviations, categorical variables as absolute and relative frequencies. Interreader agreement for NIC values was assessed using intraclass correlation coefficient (ICC) ICC estimate and its 95% confidence interval was calculated using SPSS statistical package version 28 (SPSS Inc, Chicago, IL) based on a mean-rating (k = 2), absolute-agreement, 2-way mixed-effects model. Group comparisons of NIC values (e.g., HPV status, nodal stage) were performed by Wilcoxon test. Spearman’s correlation was used to assess associations between NIC and continuous parameters (e.g. Ki 67 index, cell count). Receiver-operating characteristic (ROC) curve analyses derived from logistic regression was performed to assess NIC´s diagnostic accuracy for HPV status. Sensitivity, specificity, area under the curve (AUC), positive predictive value (PPV) and negative predictive value (NPV) were calculated. Because of the exploratory nature of the present study all p-values were interpreted in an exploratory fashion.",
+      "order": 6
+    },
+    {
+      "section": "Tumor Characteristics And Tumoral Nic",
+      "text": "A total of 84 patients (convenience sample) with primary HNSCC met the inclusion criteria (see Fig. 1 ). Clinical and histopathological characteristics of the cohort are summarized in Table 1 . The majority of tumors were classified as grade 3 (61%), and presented at advanced tumor stage T3-T4 (73.7%). Lymph node involvement (N+) was present in 62% of cases, while distant metastases (M1) were rare (6%). Most tumors were HPV negative (79%) and predominantly located in the oropharynx or oral cavity (63%). The mean value of normalized intratumoral iodine concentration (NIC) was 0.47 ± 0.23, (median: 0.48; range: 0.09–1.03). Interreader reliability of NIC values was excellent, with an ICC of 0.96 (95%CI = (0.92; 0.98), p < 0.01).",
+      "order": 7
+    },
+    {
+      "section": "Associations Between Nic And Histopathological Parameters",
+      "text": "Tumor proliferation: NIC showed nearly no correlation with Ki-67 ( r = 0.08, p = 0.46). Tumor cellularity: An inverse correlation between NIC and tumoral cell count was observed ( r = -0.24, p = 0.03). Tumors with higher cellularity (cell count above the cohort median value) demonstrated lower NIC values than less cellular lesions (0.42 ± 0.18 vs. 0.53 ± 0.26, respectively, p = 0.003). Lymph node metastases: Tumors with lymph node metastases (N+) had lower NIC values compared to N0 tumors (0.42 ± 0.20 vs. 0.54 ± 0.26, respectively, p = 0.02). A NIC value of ≥ 0.56 predicted N+ stage with a sensitivity of 78.8%, a specificity of 53.1%, a positive predictive value of 73.2%, a negative predictive value of 60.7%, an area under the curve of 0.64 (95%CI = (0.52; 0.77), p = 0.03) (Fig. 3 ). Tumor grade or stage: No relevant associations were found between NIC and tumor grade, T stage and M stage (Table 2 ). HPV status: HPV negative tumors showed higher NIC values than HPV positive HNSCC, 0.51 ± 0.23 vs. 0.33 ± 0.18, respectively, p < 0.003 (Fig. 4 ). A NIC value of ≥ 0 .5 predicted HPV negative tumors with a sensitivity of 54.5%, a specificity of 94.4%, a positive predictive value of 97.3%, a negative predictive value of 36.2%, an area under the curve of 0.74 (95%CI = 0.62; 0.86, p < 0.01) (Fig. 5 ). Furthermore, relationships between NIC and histopathology were analyzed in HPV positive and HPV negative tumors separately. In HPV positive HNSCC, tumors with lymph node metastases (N+) showed lower NIC values compared to N0 tumors (Table 3 ). In HPV positive HNSCC, NIC values were higher in grade 3 lesions in comparison to grade1/2 tumors (Table 4 ).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "This study investigated the association between normalized iodine concentration (NIC derived from photon-counting CT (PCCT) and key histopathological features in head and neck squamous cell carcinoma (HNSCC). Our results demonstrate that NIC is a highly reproducible imaging parameter, with excellent interreader agreement. Importantly, NIC was moderately associated with HPV status. Also NIC showed relationships with nodal stage and tumoral cellularity. This finding indicates that NIC may be used as an additional parameter to characterize HSNCC non-invasively. To date, most of the existing evidence stems from MRI-based studies. Previous studies have shown that MRI-based parameters such as apparent diffusion coefficient (ADC) and dynamic contrast enhanced (DCE) perfusion metrics correlate well with tumor cellularity, proliferation index (KI-67) (van der Hulst et al. 2023 ; Swartz et al. 2018 ; Surov et al. 2016 , 2017 ; Driessen et al. 2016 ; Nakahira et al. 2014 ; Jansen et al. 2012 ). Furthermore, some reports indicated that ADC may discriminate HPV positive and negative tumors (van der Hulst et al. 2023 ; Driessen et al. 2016 ). As reported previously, HPV-positive tumors consistently exhibited lower ADC values than HPV-negative tumors (van der Hulst et al. 2023 ; Driessen et al. 2016 ; Nakahira et al. 2014 ). So far, several DCE MRI parameters correlated well with microvessel density and the proliferation marker Ki 67 Surov et al. 2017 ; Jansen et al. 2012 ). Finally, positron emission tomography (PET)- CT metrics such as standardized uptake value (SUV) and/or metabolic tumor volume have also demonstrated correlations with microvessel density and tumor in HNSCC (Surov et al. 2019 ). However, while CT remains the primary imaging modality for head and neck tumor staging (Gage et al. 2017 ), its ability to reflect underlying histopathology has traditionally been limited. Previously, associations between CT imaging and histopathology in HNSCC were only demonstrated using complex post-processing imaging analyses such as radiomics feature extraction that are currently neither implemented in the clinical routine nor easy to standardize (Zheng et al. 2023 ). Only recently, with the advent of DECT and PCCT, has it become possible to extract functional and quantitative imaging data such as iodine concentration, that may reflect tumor vascularity of perfusion and are available in every radiological reading (Wu et al. 2023a , b ; Fan et al. 2017 ). Ever since, there is a growing interest to identify CT derived imaging biomarkers and analyzed as a possible imaging biomarker in different tumors. Our findings are consistent with recent PCCT and DECT studies in other tumor entities. So far, IC was shown to be associated with lymphovascular invasion in rectal cancer (Surov et al. 2024 ). Furthermore, IC correlated with expression of Ki 67 in lung and rectal cancers (Wu et al. 2023a , b ). In rectal cancer, IC correlated well also with hypoxia-inducible factor 1α (HIF-1α) (Fan et al. 2017 ). In gastric cancer, IC was associated with microvessel density (Chen et al. 2017 ). In HNSCC specifically, only two studies have explored similar questions (Wang et al. 2021 ; Geng et al. 2023 ). Wang et al. reported a moderate correlation between IC and Ki 67 in laryngeal cancer. Geng et al. demonstrated that arterial NIC values differed by tumor differentiation grade. Our study builds upon these results and is, to our knowledge, the first to link NIC to HPV status and tumor cellularity in a clinically applicable PCCT setting. Furthermore, our study revealed that the associations between NIC and histopathology were different in HPV positive and HPV negative tumors. This finding may be related to the different tumoral architecture in HPV positive and HPV negative lesions. We observed that HPV-negative tumors had higher NIC-values that HPV-positive tumors. Of dedicated clinical interest is, that a NIC ≥ 0.5 was, despite it‘s limited sensitivity, highly specific for HPV negative tumors. Furthermore, the study results show that more aggressive tumors had lower NIC values. Prior studies have shown that HPV negative tumors express higher levels of pro-angiogenic markers, such as vascular endothelial growth factor (VEGF), and exhibit increased microvascular density (Baruah et al. 2015 ; Dok et al. 2017 ). This could lead to greater iodine accumulation and thus higher NIC values in HPV-negative lesions. Interistingly, NIC correlated inversely with tumor cell count, supporting the hypothesis that hypercellular tumors may exhibit relatively reduced perfusion due to poor vascular supply or central necrosis (Zhu et al. 2014 ; Miles 1999 ; Dou et al. 2020 ). The observed association between lower NIC values and lymph node metastasis further supports the link between perfusion and tumor aggressiveness. No relevant association was found between NIC and expression of Ki 67 in our study. This may be due to the complex, non-linear relationship between proliferation and perfusion, or to sampling variability in Ki-67. Furthermore, in the present study, NIC did not reflect tumor grade in HNSCC. This finding is in agreement with the literature. Similarly, Geng et al. did not find any relevant association between venous NIC and tumor stage/grade in HNSCC (Geng et al. 2023 ). The ability to non-invasively estimate tumor cellularity or predict HPV status using PCCT could have meaningful clinical implications. HPV negative HNSCC is known to be associated with poorer treatment response, especially to radiotherapy, as well as reduced survival (Park et al. 2025 ). While biopsy and immunohistochemistry remain the gold standard, NIC could serve as a supplementary marker, particularly in cases where histologiccal confirmation is delayed or challenging. The high specificity of NIC (94.4%) for HPV-negative tumors may make it a valuable tool for treatment planning and stratification in clinical trials. Compared to MRI or PET, PCCT offers the advantage of being rapidly available in routine staging workflows, without the need for time-consuming post-processing or contrast protocols beyond standard practice. This study has several limitations. First, its retrospective nature intrudes inherent selection bias. Second, our results are based on a relatively small sample size. Third, our histopathological analysis focused on a limited number of parameters; more comprehensive immune or vascular profiling could offer deeper mechanistic insights. We also used p16 staining and it is a surrogate marker for the HPV status. Selection bias may also be present in the histopathological analysis. Finally single-slice tumor sampling may not fully capture intratumoral heterogeneity. Despite these limitations, NIC is a promising imaging biomarker in HNSCC. Future prospective studies should evaluate its role in larger multicenter cohorts and explore its integration with multiparametric imaging approaches (e.g. PCCT + PET + MRI). Moreover, correlation with outcome data could establish NIC as a prognostic marker. In conclusion, NIC derived from PCCT is a reproducible parameter. It is associated moderately with tumor cellularity, nodal stage as well as HPV status in HNSCC. It may offer added value in non-invasive tumor characterization and risk stratification, especially in cases where histopathological information is limited or unavailable.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "authors": [
+        "Almangush A",
+        "Mäkitie AA",
+        "Triantafyllou A",
+        "et al."
+      ],
+      "title": "Staging and grading of oral squamous cell carcinoma: An update",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "107",
+      "fpage": "104799",
+      "doi": "10.1016/j.oraloncology.2020.104799",
+      "pmid": "32446214"
+    },
+    {
+      "ref_id": "CR2",
+      "authors": [
+        "Baruah P",
+        "Lee M",
+        "Wilson PO",
+        "et al."
+      ],
+      "title": "Impact of p16 status on pro- and anti-angiogenesis factors in head and neck cancers",
+      "journal": "Br J Cancer",
+      "year": "2015",
+      "volume": "113",
+      "issue": "4",
+      "fpage": "653",
+      "lpage": "659",
+      "doi": "10.1038/bjc.2015.251",
+      "pmid": "26171937",
+      "pmc_id": "PMC4647678"
+    },
+    {
+      "ref_id": "CR3",
+      "authors": [
+        "Chen XH",
+        "Ren K",
+        "Liang P",
+        "et al."
+      ],
+      "title": "Spectral computed tomography in advanced gastric cancer: Can iodine concentration non-invasively assess angiogenesis?",
+      "journal": "World J Gastroenterol",
+      "year": "2017",
+      "volume": "23",
+      "issue": "9",
+      "fpage": "1666",
+      "lpage": "1675",
+      "doi": "10.3748/wjg.v23.i9.1666",
+      "pmid": "28321168",
+      "pmc_id": "PMC5340819"
+    },
+    {
+      "ref_id": "CR4",
+      "authors": [
+        "Dok R",
+        "Glorieux M",
+        "Holacka K",
+        "et al."
+      ],
+      "title": "Dual role for p16 in the metastasis process of HPV positive head and neck cancers",
+      "journal": "Mol Cancer",
+      "year": "2017",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "113",
+      "doi": "10.1186/s12943-017-0678-8",
+      "pmid": "28662664",
+      "pmc_id": "PMC5492443"
+    },
+    {
+      "ref_id": "CR5",
+      "authors": [
+        "Dou P",
+        "Liu Z",
+        "Xie L",
+        "et al."
+      ],
+      "title": "The predictive value of energy spectral CT parameters for assessing Ki-67 expression of lung cancer",
+      "journal": "Transl Cancer Res",
+      "year": "2020",
+      "volume": "9",
+      "issue": "7",
+      "fpage": "4267",
+      "lpage": "4278",
+      "doi": "10.21037/tcr-19-2769a",
+      "pmid": "35117793",
+      "pmc_id": "PMC8798171"
+    },
+    {
+      "ref_id": "CR7",
+      "authors": [
+        "Driessen JP",
+        "van Bemmel AJ",
+        "van Kempen PM",
+        "et al."
+      ],
+      "title": "Correlation of human papillomavirus status with apparent diffusion coefficient of diffusion-weighted MRI in head and neck squamous cell carcinomas",
+      "journal": "Head Neck",
+      "year": "2016",
+      "volume": "38",
+      "issue": "Suppl 1",
+      "fpage": "E613",
+      "lpage": "E618",
+      "pmid": "25783872",
+      "doi": "10.1002/hed.24051"
+    },
+    {
+      "ref_id": "CR8",
+      "authors": [
+        "Fan S",
+        "Li X",
+        "Zheng L",
+        "et al."
+      ],
+      "title": "Correlations between the iodine concentrations from dual energy computed tomography and molecular markers Ki-67 and HIF-1α in rectal cancer: A preliminary study",
+      "journal": "Eur J Radiol",
+      "year": "2017",
+      "volume": "96",
+      "fpage": "109",
+      "lpage": "114",
+      "doi": "10.1016/j.ejrad.2017.08.026",
+      "pmid": "29103468"
+    },
+    {
+      "ref_id": "CR9",
+      "authors": [
+        "Foust AM",
+        "Ali RM",
+        "Nguyen XV",
+        "et al."
+      ],
+      "title": "Dual-Energy CT-Derived Iodine Content and Spectral Attenuation Analysis of Metastatic Versus Nonmetastatic Lymph Nodes in Squamous Cell Carcinoma of the Oropharynx",
+      "journal": "Tomography",
+      "year": "2018",
+      "volume": "4",
+      "issue": "2",
+      "fpage": "66",
+      "lpage": "71",
+      "doi": "10.18383/j.tom.2018.00009",
+      "pmid": "30206546",
+      "pmc_id": "PMC6127352"
+    },
+    {
+      "ref_id": "CR10",
+      "authors": [
+        "Gage KL",
+        "Thomas K",
+        "Jeong D",
+        "et al."
+      ],
+      "title": "Multimodal Imaging of Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancer Control",
+      "year": "2017",
+      "volume": "24",
+      "issue": "2",
+      "fpage": "172",
+      "lpage": "179",
+      "doi": "10.1177/107327481702400209",
+      "pmid": "28441371"
+    },
+    {
+      "ref_id": "CR11",
+      "authors": [
+        "Geng D",
+        "Chen X",
+        "Zhao XG",
+        "et al."
+      ],
+      "title": "Laryngeal and hypopharyngeal squamous cell carcinoma: association between quantitative parameters derived from dual-energy CT and histopathological prognostic factors",
+      "journal": "Acta Radiol",
+      "year": "2023",
+      "volume": "64",
+      "issue": "7",
+      "fpage": "2268",
+      "lpage": "2276",
+      "doi": "10.1177/02841851221095237",
+      "pmid": "35502811"
+    },
+    {
+      "ref_id": "CR12",
+      "authors": [
+        "Hsu CC",
+        "Jeavon C",
+        "Fomin I",
+        "et al."
+      ],
+      "title": "Dual-Layer Spectral CT Imaging of Upper Aerodigestive Tract Cancer: Analysis of Spectral Imaging Parameters and Impact on Tumor Staging",
+      "journal": "AJNR Am J Neuroradiol",
+      "year": "2021",
+      "volume": "42",
+      "issue": "9",
+      "fpage": "1683",
+      "lpage": "1689",
+      "doi": "10.3174/ajnr.A7239",
+      "pmid": "34326102",
+      "pmc_id": "PMC8423050"
+    },
+    {
+      "ref_id": "CR13",
+      "authors": [
+        "Jansen JF",
+        "Carlson DL",
+        "Lu Y",
+        "et al."
+      ],
+      "title": "Correlation of a priori DCE-MRI and (1)H-MRS data with molecular markers in neck nodal metastases: Initial analysis",
+      "journal": "Oral Oncol",
+      "year": "2012",
+      "volume": "48",
+      "issue": "8",
+      "fpage": "717",
+      "lpage": "722",
+      "doi": "10.1016/j.oraloncology.2012.02.001",
+      "pmid": "22366441",
+      "pmc_id": "PMC3368067"
+    },
+    {
+      "ref_id": "CR14",
+      "authors": [
+        "Johnson TR"
+      ],
+      "title": "Dual-energy CT: general principles",
+      "journal": "Am J Roentgenol",
+      "year": "2012",
+      "volume": "199",
+      "fpage": "S3",
+      "lpage": "8",
+      "doi": "10.2214/AJR.12.9116",
+      "pmid": "23097165"
+    },
+    {
+      "ref_id": "CR15",
+      "authors": [
+        "Lewis JS",
+        "Beadle B",
+        "Bishop JA",
+        "et al."
+      ],
+      "title": "Human Papillomavirus Testing in Head and Neck Carcinomas: Guideline Update",
+      "journal": "Arch Pathol Lab Med",
+      "year": "2025",
+      "doi": "10.5858/arpa.2024-0388-CP",
+      "pmid": "40126379"
+    },
+    {
+      "ref_id": "CR16",
+      "authors": [
+        "Miles KA"
+      ],
+      "title": "Tumour angiogenesis and its relation to contrast enhancement on computed tomography: a review",
+      "journal": "Eur J Radiol",
+      "year": "1999",
+      "volume": "30",
+      "fpage": "198",
+      "lpage": "205",
+      "doi": "10.1016/S0720-048X(99)00012-1",
+      "pmid": "10452718"
+    },
+    {
+      "ref_id": "CR17",
+      "authors": [
+        "Nakahira M",
+        "Saito N",
+        "Yamaguchi H",
+        "et al."
+      ],
+      "title": "Use of quantitative diffusion-weighted magnetic resonance imaging to predict human papilloma virus status in patients with oropharyngeal squamous cell carcinoma",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2014",
+      "volume": "271",
+      "issue": "5",
+      "fpage": "1219",
+      "lpage": "1225",
+      "doi": "10.1007/s00405-013-2641-7",
+      "pmid": "23880924"
+    },
+    {
+      "ref_id": "CR18",
+      "authors": [
+        "Park JC",
+        "Ye GH",
+        "Merkin R",
+        "et al."
+      ],
+      "title": "Outcomes for recurrent or metastatic head and neck cancer by HPV status: a systematic review and meta-analysis",
+      "journal": "Oncologist",
+      "year": "2025",
+      "volume": "30",
+      "issue": "4",
+      "fpage": "oyaf043",
+      "doi": "10.1093/oncolo/oyaf043",
+      "pmid": "40212022",
+      "pmc_id": "PMC11986418"
+    },
+    {
+      "ref_id": "CR19",
+      "authors": [
+        "Siegel RL",
+        "Kratzer TB",
+        "Giaquinto AN",
+        "et al."
+      ],
+      "title": "Cancer statistics, 2025",
+      "journal": "CA Cancer J Clin",
+      "year": "2025",
+      "volume": "75",
+      "issue": "1",
+      "fpage": "10",
+      "lpage": "45",
+      "pmid": "39817679",
+      "doi": "10.3322/caac.21871",
+      "pmc_id": "PMC11745215"
+    },
+    {
+      "ref_id": "CR20",
+      "authors": [
+        "Surov A",
+        "Diallo-Danebrock R",
+        "Radi A",
+        "et al."
+      ],
+      "title": "Photon Counting Computed Tomography in Rectal Cancer: Associations Between Iodine Concentration, Histopathology and Treatment Response: A Pilot Study",
+      "journal": "Acad Radiol",
+      "year": "2024",
+      "volume": "31",
+      "issue": "9",
+      "fpage": "3620",
+      "lpage": "3626",
+      "doi": "10.1016/j.acra.2024.02.006",
+      "pmid": "38418345"
+    },
+    {
+      "ref_id": "CR21",
+      "authors": [
+        "Surov A",
+        "Meyer HJ",
+        "Gawlitza M",
+        "et al."
+      ],
+      "title": "Correlations Between DCE MRI and Histopathological Parameters in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Transl Oncol",
+      "year": "2017",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "17",
+      "lpage": "21",
+      "doi": "10.1016/j.tranon.2016.10.001",
+      "pmid": "27888709",
+      "pmc_id": "PMC5124350"
+    },
+    {
+      "ref_id": "CR22",
+      "authors": [
+        "Surov A",
+        "Meyer HJ",
+        "Höhn AK",
+        "et al."
+      ],
+      "title": "Associations Between [(18)F]FDG-PET and Complex Histopathological Parameters Including Tumor Cell Count and Expression of KI 67, EGFR, VEGF, HIF-1alpha, and p53 in Head and Neck Squamous Cell Carcinoma",
+      "journal": "Mol Imaging Biol",
+      "year": "2019",
+      "volume": "21",
+      "issue": "2",
+      "fpage": "368",
+      "lpage": "374",
+      "doi": "10.1007/s11307-018-1223-x",
+      "pmid": "29931433"
+    },
+    {
+      "ref_id": "CR23",
+      "authors": [
+        "Surov A",
+        "Meyer HJ",
+        "Wienke A"
+      ],
+      "title": "Can Imaging Parameters Provide Information Regarding Histopathology in Head and Neck Squamous Cell Carcinoma? A Meta-Analysis",
+      "journal": "Transl Oncol",
+      "year": "2018",
+      "volume": "11",
+      "issue": "2",
+      "fpage": "498",
+      "lpage": "503",
+      "doi": "10.1016/j.tranon.2018.02.004",
+      "pmid": "29510360",
+      "pmc_id": "PMC5884190"
+    },
+    {
+      "ref_id": "CR24",
+      "authors": [
+        "Surov A",
+        "Stumpp P",
+        "Meyer HJ",
+        "et al."
+      ],
+      "title": "Simultaneous (18)F-FDG-PET/MRI: Associations between diffusion, glucose metabolism and histopathological parameters in patients with head and neck squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2016",
+      "volume": "58",
+      "fpage": "14",
+      "lpage": "20",
+      "doi": "10.1016/j.oraloncology.2016.04.009",
+      "pmid": "27311397"
+    },
+    {
+      "ref_id": "CR25",
+      "authors": [
+        "Swartz JE",
+        "Driessen JP",
+        "van Kempen PMW",
+        "et al."
+      ],
+      "title": "Influence of tumor and microenvironment characteristics on diffusion-weighted imaging in oropharyngeal carcinoma: A pilot study",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "77",
+      "fpage": "9",
+      "lpage": "15",
+      "doi": "10.1016/j.oraloncology.2017.12.001",
+      "pmid": "29362130"
+    },
+    {
+      "ref_id": "CR26",
+      "authors": [
+        "Tian S",
+        "Jianguo X",
+        "Tian W",
+        "et al."
+      ],
+      "title": "Application of dual-energy computed tomography in preoperative evaluation of Ki-67 expression levels in solid non-small cell lung cancer",
+      "journal": "Med (Baltim)",
+      "year": "2022",
+      "volume": "101",
+      "issue": "31",
+      "fpage": "e29444",
+      "doi": "10.1097/MD.0000000000029444",
+      "pmc_id": "PMC9351836",
+      "pmid": "35945799"
+    },
+    {
+      "ref_id": "CR27",
+      "authors": [
+        "van der Hulst HJ",
+        "Jansen RW",
+        "Vens C",
+        "Bos P",
+        "et al."
+      ],
+      "title": "The Prediction of Biological Features Using Magnetic Resonance Imaging in Head and Neck Squamous Cell Carcinoma: A Systematic Review and Meta-Analysis",
+      "journal": "Cancers (Basel)",
+      "year": "2023",
+      "volume": "15",
+      "issue": "20",
+      "fpage": "5077",
+      "doi": "10.3390/cancers15205077",
+      "pmid": "37894447",
+      "pmc_id": "PMC10605807"
+    },
+    {
+      "ref_id": "CR28",
+      "authors": [
+        "Wang P",
+        "Tang Z",
+        "Xiao Z",
+        "et al."
+      ],
+      "title": "Dual-energy CT in predicting Ki-67 expression in laryngeal squamous cell carcinoma",
+      "journal": "Eur J Radiol",
+      "year": "2021",
+      "volume": "140",
+      "fpage": "109774",
+      "doi": "10.1016/j.ejrad.2021.109774",
+      "pmid": "34004427"
+    },
+    {
+      "ref_id": "CR29",
+      "authors": [
+        "Wei X",
+        "Cao R",
+        "Li H",
+        "Long M",
+        "et al."
+      ],
+      "title": "Dual-energy CT iodine map in predicting the efficacy of neoadjuvant chemotherapy for hypopharyngeal carcinoma: a preliminary study",
+      "journal": "Sci Rep",
+      "year": "2022",
+      "volume": "12",
+      "issue": "1",
+      "fpage": "21356",
+      "doi": "10.1038/s41598-022-25828-5",
+      "pmid": "36494378",
+      "pmc_id": "PMC9734148"
+    },
+    {
+      "ref_id": "CR30",
+      "authors": [
+        "Wrazidlo R",
+        "Walder L",
+        "Estler A",
+        "et al."
+      ],
+      "title": "Radiation Dose Reduction in Contrast-Enhanced Abdominal CT: Comparison of Photon-Counting Detector CT with 2nd Generation Dual-Source Dual-Energy CT in an oncologic cohort",
+      "journal": "Acad Radiol",
+      "year": "2023",
+      "volume": "30",
+      "issue": "5",
+      "fpage": "855",
+      "lpage": "862",
+      "doi": "10.1016/j.acra.2022.05.021",
+      "pmid": "35760710"
+    },
+    {
+      "ref_id": "CR31",
+      "authors": [
+        "Wu N",
+        "Cao QW",
+        "Wang CN",
+        "et al."
+      ],
+      "title": "Association between quantitative spectral CT parameters, Ki-67 expression, and invasiveness in lung adenocarcinoma manifesting as ground-glass nodules",
+      "journal": "Acta Radiol",
+      "year": "2023",
+      "volume": "64",
+      "issue": "4",
+      "fpage": "1400",
+      "lpage": "1409",
+      "doi": "10.1177/02841851221128213",
+      "pmid": "36131377"
+    },
+    {
+      "ref_id": "CR32",
+      "authors": [
+        "Wu Y",
+        "Ye Z",
+        "Chen J",
+        "et al."
+      ],
+      "title": "Photon Counting CT: Technical Principles, Clinical Applications, and Future Prospects",
+      "journal": "Acad Radiol",
+      "year": "2023",
+      "volume": "30",
+      "issue": "10",
+      "fpage": "2362",
+      "lpage": "2382",
+      "doi": "10.1016/j.acra.2023.05.029",
+      "pmid": "37369618"
+    },
+    {
+      "ref_id": "CR33",
+      "authors": [
+        "Zheng YM",
+        "Chen J",
+        "Zhang M",
+        "et al."
+      ],
+      "title": "CT radiomics nomogram for prediction of the Ki-67 index in head and neck squamous cell carcinoma",
+      "journal": "Eur Radiol",
+      "year": "2023",
+      "volume": "33",
+      "issue": "3",
+      "fpage": "2160",
+      "lpage": "2170",
+      "doi": "10.1007/s00330-022-09168-6",
+      "pmid": "36222864"
+    },
+    {
+      "ref_id": "CR34",
+      "authors": [
+        "Zhu YH",
+        "Wang X",
+        "Zhang J",
+        "et al."
+      ],
+      "title": "Low enhancement on multiphase contrast-enhanced CT images: an independent predictor of the presence of high tumour grade of clear cell renal cell carcinoma",
+      "journal": "AJR Am J Roentgenol",
+      "year": "2014",
+      "volume": "203",
+      "fpage": "W295",
+      "lpage": "300",
+      "doi": "10.2214/AJR.13.12297",
+      "pmid": "25148187"
+    }
+  ]
+}

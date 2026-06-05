@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "title": "ACR ‐ TIRADS Institution and Effect on Thyroid Surgeries in Veterans: A 10‐Year Retrospective Study",
+    "authors": [
+      "Isabella W. Leon",
+      "Davis S. Chong",
+      "Bryle Nicole G. Barrameda",
+      "Anusha A. Gogulapati",
+      "Lane D. Squires"
+    ],
+    "journal": "The Laryngoscope",
+    "year": "2026",
+    "doi": "10.1002/lary.70438",
+    "pmc_id": "PMC13158828",
+    "pmid": "41786639",
+    "full_text_available": true,
+    "section_count": 6,
+    "reference_count": 17
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "ABSTRACT Introduction Risk stratification systems (RSSs) have had an increasing role in standardizing thyroid ultrasound reports. The VA Northern California Healthcare System (VA‐NCHCS) Radiology department adopted the American College of Radiology Thyroid Imaging Reporting and Data System (TI‐RADS) in 2018. We aimed to assess what effect the adoption of TI‐RADS at VA‐NCHCS had on thyroid surgical practices. Methods A 10‐year retrospective review of the VA corporate data warehouse was completed (approximately 5 years prior and 5 years after universal adoption of TI‐RADS) (i.e: 1/1/2013–7/1/2018 and 7/2/2018–12/30/2023). Using CPT and diagnosis codes, data were collected on all thyroid surgeries, including demographics, type of surgery performed, final pathology, staging of malignancy, and any incidental findings. A two‐sample t ‐test with equal and unequal variances was used for comparative statistics. Results 3985 patients (1921 PRE‐TIRADS vs. 2064 POST‐TIRADS) and 7908 thyroid ultrasounds (3411 vs. 4497) were identified. 2859 FNAs were performed (1245 vs. 1614). One hundred and ninety‐three surgeries (96 vs. 97) were performed with a decreasing trend in surgeries for benign pathology (56 vs. 45) and an increasing trend in surgeries for malignancy (39 vs. 51). We identified an increase in partial thyroidectomy surgeries for cancer diagnoses (11 vs. 18). Finally, there was a significant decrease in total thyroidectomies performed for benign pathology (30 vs. 13, p = 0.02). Conclusion After the institution of TIRADs at our single institution, there was a dramatic increase in the number of ultrasounds and FNAs performed, despite near stable thyroid surgical numbers. There was a significant trend towards less‐invasive surgical practices. Level of Evidence 3.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Historically, thyroid gland nodules have been treated as malignant until proven otherwise. This approach has led to vast overdiagnosis and overtreatment, exposing patients to a much higher risk rate than necessary for nodular thyroid disease. Despite identifying this challenge, risk stratification of malignant disease based solely on imaging remains difficult. Multiple attempts have been made to quantify and codify malignancy risk based on ultrasonographic (US) characteristics, with the stated goal to reduce the number of fine‐needle biopsies and eventual surgical extirpations for benign thyroid disease. One of the earliest radiographic risk stratification systems (RSS) created was the American College of Radiology Thyroid Imaging Reporting and Data System (ACR‐TIRADS)—first published in 2017 [ 1 ]. The ACR‐TIRADS is point‐based, considering five US categories: composition, echogenicity, shape, margin, and echogenic foci. In each category, US features are attributed points ranging from 0 to 3. Summation of these points allows one to obtain the final classification of the nodule, with TR1: benign, TR2: not suspicious, TR3: mildly suspicious, TR4: moderately suspicious, TR5: highly suspicious. Solid composition, hypo‐echogenicity, irregular margins, and peripheral calcifications correspond to 2 points. Marked hypo‐echogenicity, a taller‐than‐wide shape, extra‐thyroidal extension, and all punctate echogenic foci give 3 points [ 2 , 3 , 4 ]. In 2018, the VA Northern California Healthcare System (VANCHCS) became an early adopter of the ACR‐TIRADS risk stratification system. By adopting this system, VANCHCS desired to assist primary care services with their triage and consultation process, with the eventual goal to reduce the number of veteran biopsies and eventual surgeries required over time. Specifically, it was predicted a more appropriate selection of veterans for biopsy and/or subspecialty consultation would result. Also, it was expected that improved short and long‐term surveillance imaging management would occur. This study is a retrospective review using historical data from all veterans presenting for thyroid disease via those who received ultrasounds and then eventual fine needle aspirations (FNAs) in the VANCHCS, approximately 5 years prior (1/1/2013–7/1/2018) and 5 years after (7/2/2018–12/30/2023) the adoption of ACR‐TIRADS in 2018. Through comparing rates of thyroid FNAs and thyroid surgeries for benign and malignant disease before and after the adoption of ACR TIRADS, we hypothesize the number of patients needing needle biopsies, subspecialty consultations, and eventual removal of thyroid glands will have decreased dramatically since the introduction of this RSS in July 2018. The objective of this study is to evaluate our experience with this transition and to determine if all such VA facilities and others not yet using an ultrasound‐based RSS should adopt this approach.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This study was approved by the Veterans Affairs (VA) IRB (# 1741006‐1). Using Current Procedural Terminology code CPT codes, the VA Corporate Data Warehouse (CDW) was queried for all encounters within the VANCHCS between 2013 and 2023. Patients were identified by using CPT codes to identify all of the patients who received thyroid ultrasounds for thyroid disease (Table 1 ). These included: (76536) Thyroid And excluded other ultrasounds of the neck that do not involve the thyroid disease: (76536) Parathyroid (93880) Carotid duplex Secondary and tertiary datasets were derived and cross‐checked using CPT codes to identify patients who received diagnostic and surgical interventions for benign thyroid disease. These will include: (Table 1 ). Any patient in our data set that had occurrences of the following procedural codes will be excluded in our analysis: (Table 2 ). All identified charts were then manually reviewed, and inappropriately coded and duplicate patients were excluded (Figure 1 ). The remaining charts in each cohort were then reviewed, and data was extracted on all pathology and surgical procedures performed in this population. Demographic data including age at intervention (FNA) and gender was recorded. As ACR‐TIRADS was adopted by the VANCHCS, patient cohorts were divided into PRE‐TIRADS (2013–7/1/2018) and POST‐TIRADS (7/2/2018–2023). The number of hemithyroidectomies versus total thyroidectomies was measured in each of these cohorts and compared. Microsoft Excel (Microsoft, Version 16.66) was used to perform statistical analysis and a p value < 0.05 was considered statistically significant.",
+      "order": 2
+    },
+    {
+      "section": "Results",
+      "text": "Using our CPT codes, a total of 3985 patients underwent thyroid ultrasounds (1921 PRE‐TIRADS vs. 2064 POST‐TIRADS) for thyroid disease between 2013 and 2023. Most patients were male and middle‐aged (Table 3 ). A total of 7908 thyroid ultrasounds (3411 PRE vs. 4497 POST; p < 0.05) were identified in our 10‐year study period. A total of 2859 FNAs were performed, with a significant increase after TIRADS adoption in 2018 (1245 PRE vs. 1614 POST; p < 0.001) (Table 4 ). There was no significant change or increase in the number of benign versus malignant lesions identified between cohorts. Amongst the patients with malignant pathology (38 PRE, 49 POST), there was an increase in lower stage papillary malignancies between cohorts (21/38 55% PRE vs. 31/49 63% POST). See Table 5 , Figure 2 . A total of 193 surgeries (96 PRE vs. 97 POST) were performed (Table 4 ). There was a decreasing trend in surgeries for benign pathology (54/96 surgeries 56% PRE vs. 44/97 surgeries 45% POST) and an increasing trend in surgeries for malignancy (38/96 39% PRE vs. 49/97 51% POST). There was a significant decrease in total thyroidectomies performed for benign pathology (29/96 30% PRE vs. 13/97 13% POST, p = 0.02). We identified an increase in partial thyroidectomy surgeries for cancer diagnoses (11/96 11% PRE vs. 17/97 18% POST). See Table 5 , Figure 3 .",
+      "order": 3
+    },
+    {
+      "section": "Discussion",
+      "text": "Thyroid nodules are common and often benign, with prevalence ranging from 2% to 6% by palpation and 19%–35% by ultrasound [ 5 ]. The frequency of malignancy amongst thyroid nodules range from 3.9% and 13% [ 5 , 6 ]. The rising use of imaging over the last four decades has led to a significant increase in nodule detection, fine‐needle aspiration (FNA), a higher reported incidence of thyroid cancer, and thyroidectomy. Because the majority of thyroid nodules are benign, accurate risk stratification is essential to guide management. In an effort to address the cost of overdiagnosis, the ACR‐TIRADS was designed to balance the benefit of identifying clinically important cancers against the risk and cost of subjecting patients with benign nodules or indolent cancers to biopsy and treatment [ 7 ]. While there are several RSS used, the ACR‐TIRADS system codifies all thyroid lesions into diagnostic US categories, with points given for (a) composition, (b) echogenicity, (c) shape, (d) margin, and (e) echogenic foci. It is claimed that ACR‐TIRADS outperforms other RSS, as it has a higher threshold for biopsy and the lowest rate of unnecessary biopsy [ 8 ]. While we hypothesized that the number of patients within the VANCHCS needing needle biopsies, subspecialty consultations, and eventual removal of thyroid glands would have dramatically decreased after July 2018, the results of our study revealed a substantial increase in the number of ultrasounds (3411 PRE vs. 4497 POST) and FNAs (1245 PRE vs. 1614 POST) with near stable thyroid surgical numbers (Ninety‐five thyroid surgeries PRE vs. 95 POST). Amongst the nodules biopsied, there was an increasing trend of low stage papillary malignancies identified from PRE to POST ACR‐TIRADS adoption, perhaps suggesting that ACR‐TIRADS implementation yielded identification of low stage cancers amongst thyroid nodules. There was, however, no significant trend in the proportion of malignancy over time. And thus, ACR‐TIRADS did not have a statistically significant effect on discriminating benign from malignant nodules or numbers referred for biopsy. While total surgeries remained fairly stable following ACR‐TIRADS, the statistically significant decrease in total thyroidectomies for benign pathology and increasing trend in partial thyroidectomy surgeries for malignancy could suggest that the adoption of this RSS has led to identification of earlier stage malignant nodules that may be treated with less invasive surgical techniques, such as hemithyroidectomies. However, it is our belief that these trends are more likely attributable to the concurrent adoption of the 2015 American Thyroid Association Management Guidelines which recommended that in the absence of certain high‐risk features, patients with well‐differentiated thyroid cancer of up to 4 cm would be eligible for thyroid lobectomy [ 9 ]. Notably, our findings appear to oppose studies that support the implementation of ACR‐TIRADS criteria, predicting a decrease in FNA procedures by 49% to 66% [ 8 , 10 , 11 ]. First, natural variance between guideline implementation amongst providers, including differences in identifying characteristics amongst VANCHCS radiologists, may explain the findings found in our study. At baseline, these characteristics have intermediate levels of sensitivity and specificity for malignancy and could be affected by variability in interpretation. Concurrent with our findings, Bolland et al. audited ACR‐TIRADS at a public hospital in New Zealand and similarly saw a dramatic increase in the workload (FNA) without a clinically relevant increase in the proportion of cancers number of cancers being diagnosed per FNA or operation. They identified five additional cancers per year after ACR‐TIRADS implementation, most measuring < 20 mm [ 10 ]. Hawkins et al. performed a similar audit and found that after ACR‐TIRADS was introduced, there was no statistical trend to an increasing proportion of malignancy at fine‐needle aspiration biopsy (FNAB) and therefore no statistically significant effect on discriminating benign from malignant nodules or numbers referred for biopsy [ 12 ]. Given the stated purpose of ACR‐TIRADS is to identify nodules at higher risk of malignancy and thereby increase selectivity for biopsy and operation, it has not achieved its intended goal. Hawkins writes that “TIRADS ‘feeds the fire’ of thyroid activity, with more patients referred every year for FNAB” and questions whether, “once identified with a thyroid nodule, a patient can ever escape a surveillance/biopsy programme without having surgery?” [ 10 ]. Interestingly, these findings appear to have occurred at hospitals in community‐based settings. While it is difficult to fully explain increased FNA rates after TIRADS implementation, it is possible that the adoption itself of a simpler, more algorithmic approach to ultrasound appraisal at these institutions lowered the barrier to FNA utilization compared to how they were previously used. This may highlight the need for further research distinguishing the effects of ACR‐TIRADS and subsequent algorithms on community versus academic hospital centers. Interobserver variability amongst radiologists and sonographers is an important consideration to improve ACR‐TIRADS performance. In a retrospective analysis of 127 nodules using ACR‐TIRADS, Sahli et al. showed that in addition to ACR‐TIRADS interobserver variability, shape and margin criteria were major points of conflict. Differences in opinion with respect to these characteristics can impact the overall ACR‐ACR‐TIRADS score and, ultimately, whether a patient will need FNA or not [ 13 ]. To address the interobserver variability with respect to shape, Grani et al. aimed to improve the reliability of the taller than wide definition. By applying a more specific AP/T ratio ≥ 1.2, they saw a decrease in unnecessary FNAs by up to 58.2% without a negative impact on sensitivity or diminishing their overall diagnostic performance [ 14 ]. While ACR‐TIRADS may present an improved approach towards distinguishing benign from malignancy at an earlier stage to prevent significant surgery, the nearly stable thyroid surgical practices before and after adoption of ACR‐TIRADS guidelines at a single institution may argue against the full realization of the guideline's expected effects. Combined with the significant increase in utilization of clinic‐based techniques for thyroid malignancy, this lack of subsequent impact on apparent surgical decision‐making or improved detection of malignancy may indicate a need for careful reappraisal of ACR‐TIRADS guidelines to help further refine an algorithmic and reliable approach to thyroid malignancy. There are several limitations to this study that warrant further discussion. This study is a retrospective chart review of veteran care from a single healthcare system with multiple otolaryngology clinics across Northern California. Charts were collected from the VA CDW using CPT codes. Medical coding is prone to error, and, as noted, our individual review of the included charts revealed a high rate of incorrect CPT codes. It is difficult to know if this may also be extrapolated to patients being excluded incorrectly, which would have led to a loss of patients who could have met our criteria. This study also does not account for veterans who left the VA health care system to seek care. The VA Mission Act was passed in 2018 and increased veterans' ability to obtain care from community providers, and these records are not searchable via the CDW [ 15 ]. Additionally, we did not independently validate ACR‐TIRADS reporting and thus should be aware of the possibility of inaccurate scoring by reporting radiologists. For patients who proceeded to surgery following the introduction of ACR‐TIRADS, it is possible that these decisions were made by individual clinicians and patients rather than strict adherence to established guidelines, thus influencing the total number of surgeries.",
+      "order": 4
+    },
+    {
+      "section": "Conclusion",
+      "text": "While ACR‐TIRADS accurately assigns risk categories to thyroid nodules, within our veteran cohort, this stratification system for thyroid nodule disease does not appear to achieve the intended clinical value at reducing the number of FNAs performed, the number of malignancies identified, or the number of surgeries provided. Overall, while our findings are applicable to other veteran populations, further work is needed to generalize the results of this study to a more widespread population. It cannot yet be determined if by adopting ACR‐TIRADS, we are adding value or, conversely, diverting health resources that could be better allocated to other conditions. With several studies showing opportunity for reducing interobserver variability amongst radiologists [ 16 , 17 ], ACR‐TIRADS may benefit from modifications in shape and margin criteria; but overall, because of the low probability of thyroid malignancy for any thyroid nodule, it will be challenging to develop any test that performs accurately enough for clinical use. Whether ACR‐TIRADS merits continuing use and promotion in veteran populations should be further investigated.",
+      "order": 5
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "lary70438-bib-0001",
+      "label": "1",
+      "title": "ACR Thyroid Imaging, Reporting and Data System (TI‐RADS): White Paper of the ACR TI‐RADS Committee",
+      "journal": "Journal of the American College of Radiology",
+      "year": "2017",
+      "volume": "14",
+      "issue": "5",
+      "fpage": "587",
+      "lpage": "595",
+      "doi": "10.1016/j.jacr.2017.01.046",
+      "pmid": "28372962"
+    },
+    {
+      "ref_id": "lary70438-bib-0002",
+      "label": "2",
+      "title": "Correlation of Thyroid Imaging Reporting and Data System [TI‐RADS] and Fine Needle Aspiration: Experience in 1,000 Nodules",
+      "journal": "Einstein (Sao Paulo)",
+      "year": "2016",
+      "volume": "14",
+      "issue": "2",
+      "fpage": "119",
+      "lpage": "123",
+      "doi": "10.1590/S1679-45082016AO3640",
+      "pmid": "27462883",
+      "pmc_id": "PMC4943343"
+    },
+    {
+      "ref_id": "lary70438-bib-0003",
+      "label": "3",
+      "title": "Diagnostic Reliability of the Thyroid Imaging Reporting and Data System (TI‐RADS) in Routine Practice",
+      "journal": "Polish Journal of Radiology",
+      "year": "2019",
+      "volume": "84",
+      "fpage": "e274",
+      "lpage": "e280",
+      "doi": "10.5114/pjr.2019.86823",
+      "pmid": "31482001",
+      "pmc_id": "PMC6717936"
+    },
+    {
+      "ref_id": "lary70438-bib-0004",
+      "label": "4",
+      "title": "Diagnostic Performance of American College of Radiology TI‐RADS: A Systematic Review and Meta‐Analysis",
+      "journal": "American Journal of Roentgenology",
+      "year": "2021",
+      "volume": "216",
+      "issue": "1",
+      "fpage": "38",
+      "lpage": "47",
+      "doi": "10.2214/AJR.19.22691",
+      "pmid": "32603229"
+    },
+    {
+      "ref_id": "lary70438-bib-0005",
+      "label": "5",
+      "title": "Epidemiology of Thyroid Nodules",
+      "journal": "Best Practice & Research Clinical Endocrinology & Metabolism",
+      "year": "2008",
+      "volume": "22",
+      "issue": "6",
+      "fpage": "901",
+      "lpage": "911",
+      "doi": "10.1016/j.beem.2008.09.019",
+      "pmid": "19041821"
+    },
+    {
+      "ref_id": "lary70438-bib-0006",
+      "label": "6",
+      "title": "Thyroid Nodule Size and Prediction of Cancer",
+      "journal": "Journal of Clinical Endocrinology and Metabolism",
+      "year": "2013",
+      "volume": "98",
+      "issue": "2",
+      "fpage": "564",
+      "lpage": "570",
+      "doi": "10.1210/jc.2012-2968",
+      "pmid": "23275525"
+    },
+    {
+      "ref_id": "lary70438-bib-0007",
+      "label": "7",
+      "title": "Reduction in Thyroid Nodule Biopsies and Improved Accuracy With American College of Radiology Thyroid Imaging Reporting and Data System",
+      "journal": "Radiology",
+      "year": "2018",
+      "volume": "289",
+      "issue": "3",
+      "fpage": "913",
+      "lpage": "920",
+      "doi": "10.1148/radiol.2018180443",
+      "pmid": "29498593"
+    },
+    {
+      "ref_id": "lary70438-bib-0008",
+      "label": "8",
+      "title": "Reducing the Number of Unnecessary Thyroid Biopsies While Improving Diagnostic Accuracy: Toward the “Right” TIRADS",
+      "journal": "Journal of Clinical Endocrinology and Metabolism",
+      "year": "2019",
+      "volume": "104",
+      "issue": "1",
+      "fpage": "95",
+      "lpage": "102",
+      "doi": "10.1210/jc.2018-01674",
+      "pmid": "30299457"
+    },
+    {
+      "ref_id": "lary70438-bib-0009",
+      "label": "9",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients With Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+      "journal": "Thyroid",
+      "year": "2016",
+      "volume": "26",
+      "issue": "1",
+      "fpage": "1",
+      "lpage": "133",
+      "doi": "10.1089/thy.2015.0020",
+      "pmid": "26462967",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "lary70438-bib-0010",
+      "label": "10",
+      "title": "Increased Workload Without Clinical Benefit: Results Following Implementation of the ACR‐TIRADS System for Thyroid Nodules",
+      "journal": "Clinical Endocrinology",
+      "year": "2023",
+      "volume": "99",
+      "issue": "3",
+      "fpage": "328",
+      "lpage": "334",
+      "doi": "10.1111/cen.14883",
+      "pmid": "36710430"
+    },
+    {
+      "ref_id": "lary70438-bib-0011",
+      "label": "11",
+      "title": "The Global Epidemic of Thyroid Cancer Overdiagnosis Illustrated Using 18 Months of Consecutive Nodule Biopsy Correlating Clinical Priority, ACR‐TIRADS and Bethesda Scoring",
+      "journal": "Journal of Medical Imaging and Radiation Oncology",
+      "year": "2021",
+      "volume": "65",
+      "issue": "3",
+      "fpage": "309",
+      "lpage": "316",
+      "doi": "10.1111/1754-9485.13161",
+      "pmid": "33665957"
+    },
+    {
+      "ref_id": "lary70438-bib-0012",
+      "label": "12",
+      "title": "Fine Needle Aspiration Biopsy Indications for Thyroid Nodules: Compare a Point‐Based Risk Stratification System With a Pattern‐Based Risk Stratification System",
+      "journal": "European Radiology",
+      "year": "2019",
+      "volume": "29",
+      "issue": "9",
+      "fpage": "4871",
+      "lpage": "4878",
+      "doi": "10.1007/s00330-018-5992-z",
+      "pmid": "30715590"
+    },
+    {
+      "ref_id": "lary70438-bib-0013",
+      "label": "13",
+      "title": "TIRADS Interobserver Variability Among Indeterminate Thyroid Nodules: A Single‐Institution Study",
+      "journal": "Journal of Ultrasound in Medicine",
+      "year": "2019",
+      "volume": "38",
+      "issue": "7",
+      "fpage": "1807",
+      "lpage": "1813",
+      "doi": "10.1002/jum.14870",
+      "pmid": "30467876",
+      "pmc_id": "PMC7103459"
+    },
+    {
+      "ref_id": "lary70438-bib-0014",
+      "label": "14",
+      "title": "Taller‐Than‐Wide Shape: A New Definition Improves the Specificity of TIRADS Systems",
+      "journal": "European Thyroid Journal",
+      "year": "2020",
+      "volume": "9",
+      "issue": "2",
+      "fpage": "85",
+      "lpage": "91",
+      "doi": "10.1159/000504219",
+      "pmid": "32257957",
+      "pmc_id": "PMC7109429"
+    },
+    {
+      "ref_id": "lary70438-bib-0015",
+      "label": "15",
+      "title": "“Text—S.2372—115th Congress (2017–2018): VA MISSION Act of 2018,” 2018"
+    },
+    {
+      "ref_id": "lary70438-bib-0016",
+      "label": "16",
+      "title": "ACR TI‐RADS: Pitfalls, Solutions, and Future Directions",
+      "journal": "Radiographics",
+      "year": "2019",
+      "volume": "39",
+      "issue": "7",
+      "fpage": "2040",
+      "lpage": "2052",
+      "doi": "10.1148/rg.2019190026",
+      "pmid": "31603734"
+    },
+    {
+      "ref_id": "lary70438-bib-0017",
+      "label": "17",
+      "title": "Multiinstitutional Analysis of Thyroid Nodule Risk Stratification Using the American College of Radiology Thyroid Imaging Reporting and Data System",
+      "journal": "American Journal of Roentgenology",
+      "year": "2017",
+      "volume": "208",
+      "issue": "6",
+      "fpage": "1331",
+      "lpage": "1341",
+      "doi": "10.2214/AJR.16.17613",
+      "pmid": "28402167"
+    }
+  ]
+}

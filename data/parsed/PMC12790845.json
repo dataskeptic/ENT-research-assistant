@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "title": "Hearing Measures in Children Perinatally HIV-Exposed and Uninfected in the PHACS SMARTT Study",
+    "authors": [
+      "Peter Torre",
+      "Elham Sirag",
+      "Paige L. Williams",
+      "Zhongli Zhang",
+      "Toni Frederick",
+      "Murli Purswani",
+      "Howard J. Hoffman",
+      "Tzy-Jyun Yao"
+    ],
+    "journal": "The Pediatric infectious disease journal",
+    "year": "2025",
+    "doi": "10.1097/INF.0000000000005098",
+    "pmc_id": "PMC12790845",
+    "pmid": "41355029",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 32
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background: Few studies have evaluated ototoxic effects of in utero antiretroviral (ARV) exposure on hearing in children HIV-exposed uninfected (CHEU). Concerns have been identified for some ARVs: tenofovir disoproxil fumarate (TDF), emtricitabine (FTC), lamivudine (3TC), zidovudine (ZDV), and atazanavir (ATV). The aims are to describe hearing outcomes in 5-year-old CHEU in the Surveillance Monitoring for ART Toxicities study and evaluate their association with in utero ARV exposures. Methods: Hearing evaluations including pure tone thresholds and distortion product otoacoustic emissions (DPOAEs) were completed in CHEU at 5 years. Log-binomial regression models were fit to assess associations of maternal ARV exposures with risk of sensorineural hearing loss (SNHL) and incomplete DPOAE responses. Results: Among 1078 CHEU, 13% had SNHL. Among those exposed <13 weeks gestation, there was 28% higher risk (95% CI: −37%, 158%) of SNHL with TDF/FTC with ATV and 38% lower risk (95% CI: −68%, 19%) with ZDV/3TC without ATV than for regimens containing TDF/FTC without ATV. There was a higher risk of incomplete DPOAE responses for ZDV/3TC without ATV and lower risk for TDF/FTC with ATV. For CHEU with first ARV exposure at 13-26 weeks gestation, those exposed to TDF/FTC with ATV or ZDV/3TC without ATV had lower risk for SNHL compared to TDF/FTC without ATV. Despite nontrivial relative risks, all confidence intervals were wide. Conclusion: While SNHL was relatively common, there were no consistent associations between in utero ARV exposure and SNHL or incomplete DPOAEs. Further research is needed on ARV exposures and other hearing measures in CHEU.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Few studies have examined potential ototoxic effects of antiretroviral (ARV) medications in people living with HIV. Most prior work found no association between specific ARV classes and hearing loss. In adults, case reports suggest ototoxicity from nucleoside reverse transcriptase inhibitors (NRTIs) 1 , 2 , but a larger study observed no link between years on NRTIs, non-NRTIs (NNRTIs), or protease inhibitors (PIs) and poorer hearing once demographics and noise exposure were considered 3 . Among children living with HIV, combination antiretroviral therapy (cART) has not been associated with hearing loss 4 , 5 . Animal models, however, indicate the possibility of ARV-related ototoxicity, specifically affecting auditory cells 6 and function 7 . Fourteen ARVs from multiple classes have demonstrated dose-dependent cytotoxicity in mouse auditory cells 6 . Five commonly-used ARV combinations, abacavir/lamivudine (ABC/3TC), abacavir/lamivudine/zidovudine (ABC/3TC/ZDV), efavirenz/lamivudine/tenofovir disoproxil fumarate (EFV/3TC/TDF), zidovudine/lamivudine (ZDV/3TC), and tenofovir disoproxil fumarate/emtricitabine (TDF/FTC) were cytotoxic to an auditory cell line (HEI-OC1) 6 , likely due to exposure to ABC, 3TC, EFV, ZDV, or TDF 6 . Although not cochlear cells, these auditory cells express prestin 8 , the motor protein of cochlear outer hair cells 9 . Mouse offspring exposed in utero to ZDV and/or EFV had higher (poorer) auditory brainstem response (ABR) thresholds, while distortion product otoacoustic emission (DPOAE, a measure of outer cell function 10 ) thresholds were unchanged 7 , suggesting possible damage to inner hair cells or auditory nerve pathways. Data on in utero ARV exposure and hearing among children who are perinatally HIV-exposed but uninfected (CHEU) are limited. In the Surveillance Monitoring for ART Toxicities (SMARTT) study conducted by the Pediatric HIV/AIDS Cohort Study (PHACS) network, 3.1% of 1,435 infants did not pass newborn hearing screening 11 . Exposure to atazanavir (ATV), especially late in the third trimester, was associated with higher odds of referral, suggesting that timing of maternal ART use may be important. No prior studies have assessed potential ototoxic effects of in utero ARV exposure in school-aged CHEU. The aims of the study were: (1) to describe pure-tone thresholds and underlying outer hair cell function via DPOAEs in 5-year-old CHEU from the PHACS SMARTT study; and (2) to evaluate associations between in utero ARV exposure and both pure-tone thresholds and DPOAEs, considering the timing of earliest ARV exposure relative to fetal auditory development.",
+      "order": 1
+    },
+    {
+      "section": "Study Participants",
+      "text": "Hearing data were collected around age 5 years from CHEU in the PHACS SMARTT study, which enrolled pregnant mother/infant pairs between 2007 and 2025 across 22 U.S. sites including Puerto Rico 12 , 13 . Pregnant persons with HIV were enrolled between 13 weeks’ gestation and one week postpartum. Children were followed annually to age 5, then every other year to age 17. The protocol was approved by site Institutional Review Boards and the Harvard T.H. Chan School of Public Health; pregnant participants provided written consent for themselves and their infants.",
+      "order": 2
+    },
+    {
+      "section": "Hearing Assessments",
+      "text": "Beginning August 2010, the 5-year study visit included otoscopy, tympanometry, and air-conduction pure-tone thresholds (at octave frequencies from 0.25 to 8 kHz) 14 . Bone-conduction thresholds (0.5, 1, 2, 4 kHz) were obtained if air-conduction thresholds were elevated. DPOAEs were added in July 2015 14 . DPOAEs rely on the middle ear system to be functioning (e.g., Type A tympanogram) for accurate measurement. DPOAEs were collected using two frequencies f 1 and f 2 ( f 2 > f 1 ) with f 2 / f 1 =1.2, 65 decibels of sound pressure level (dB SPL) ( f 1 ) and 55 dB SPL ( f 2 ), and f 2 at 1, 2, 3, and 4 kHz. Certified audiologists tested children seated in sound-treated rooms.",
+      "order": 3
+    },
+    {
+      "section": "Hearing Outcome Measures",
+      "text": "Pure-tone averages (PTA) at 0.5, 1, 2, and 4 kHz were calculated for each ear. Normal hearing was defined as PTA ≤15 dB and hearing loss was defined as worse-ear PTA >15 dB. Sensorineural hearing loss (SNHL) was defined as air- and bone-conduction thresholds >15 dB; conductive hearing loss was defined as air-conduction thresholds >15 dB with bone-conduction ≤15 dB and an air–bone gap >15 dB. DPOAE signal-to-noise ratios (SNRs) were categorized as no response (<3 dB), intermediate response (3 dB to <6 dB), or complete (≥6 dB) response.",
+      "order": 4
+    },
+    {
+      "section": "In Utero Art Regimens",
+      "text": "Three regimens—selected for prevalence and potential ototoxicity 6 , 7 —were evaluated. Due to small numbers, EFV-containing regimens were excluded. Regimens considered were: Analyses were stratified by gestational age (GA) at earliest in utero ART exposure: (1) at conception (GA=0); (2) embryonic period (GA <13 weeks); (3) second trimester (13≤GA<26 weeks); or (4) third trimester (≥26 weeks). Between 0-13 weeks GA, the development of the cochlea, the cochlear nerve, and afferent pathways occurs while between 13-26 weeks, there is rapid maturation of the cochlea and the cochlear nerve 15 .",
+      "order": 5
+    },
+    {
+      "section": "Otitis Media And Other Ototoxic Medications",
+      "text": "Because otitis media can increase conductive hearing loss risk, children with ≥4 episodes >60 days apart or at least one diagnosis of otitis media with effusion were defined as having a significant history of otitis media. This variable was not included in regression models because it may lie on the causal pathway between in utero ARV exposure and hearing outcomes. Exposures before age 5 to potentially ototoxic medications (aminoglycosides—gentamicin, amikacin, tobramycin; macrolides—clarithromycin, azithromycin; and vancomycin) were summarized.",
+      "order": 6
+    },
+    {
+      "section": "Statistical Analyses",
+      "text": "Descriptive statistics were used to summarize PTAs and DPOAE SNRs by timing of ARV initiation and regimen. The proportion with worse-ear PTA >15 dB was calculated by hearing loss type. Log-binomial regression models implemented with generalized estimating equations (GEE) were used to assess associations between regimens and SNHL among children with Type A tympanograms, both unadjusted and adjusted for child characteristics (sex at birth, number of ototoxic medication exposures) and maternal characteristics (age at delivery, education, household income, first-trimester substance use, and first available prenatal HIV viral load and CD4 before ART). Analyses accounted for clustering by site and were stratified by timing of exposure; with GA=0 and 0 to <13 combined in primary analyses and with sensitivity analyses restricted to GA=0. CHEU whose regimen changed later in gestation were considered to have inconsistent ART exposures and were excluded. For DPOAEs, log-binomial GEE models were fit to evaluate risk of less-than-complete response (<6 dB) across four frequencies and both ears, unadjusted and adjusted as above, with interaction terms permitting frequency-specific regimen effects.",
+      "order": 7
+    },
+    {
+      "section": "Study Population",
+      "text": "Among 1078 CHEU with pure-tone data, mean age at their hearing assessment was 5.2 years (SD=0.3); 49% were female and 64% Black ( Table 1 ). Overall, 6% had a significant otitis media history (although 56% lacked this history information); 28% were exposed to at least one potentially ototoxic medication before testing.",
+      "order": 8
+    },
+    {
+      "section": "Art Exposures And Pure-Tone Outcomes",
+      "text": "Hearing sensitivity is summarized in Table 2 . Better- and worse-ear PTAs were similar by timing of earliest ART exposure. Overall, 15% had worse-ear PTA >15 dB and ranged between 10% and 17% across different GA at ART initiation groups. Much of the worse ear hearing loss type was sensorineural (13%; 139 of 1075), which is permanent, and 2% was conductive, which is treatable ( Table 2 ). CHEU with significant otitis media history had more hearing loss (21.4%, 15/70) than those without such history (16.6%, 68/409). There were 763 CHEU with consistent exposure to one of the three regimens of interest and known maternal ART initiation timing. Demographic and maternal characteristics of this subset were very similar to the full cohort ( Supplemental Table 1 ). Eleven CHEU exposed to TDF/FTC/(-ATV) and six exposed to TDF/FTC/ATV also received EFV and were excluded from analyses. Hearing loss prevalence was similar between CHEU exposed to the three regimens (103/746, 13.8%) and those on other regimens (32/271, 11.8%). Too few infants initiated ART at GA ≥26 weeks (n=68) for fully adjusted models. Given fetal developmental differences between second and third trimester, the ≥26-weeks stratum was excluded from regressions. In log-binomial models ( Table 3 ), among CHEU with earliest exposure <13 weeks, CHEU exposed to TDF/FTC/ATV had a 28% higher risk of hearing loss (adjusted RR=1.28, 95% CI: 0.63, 2.58) and 38% lower risk for those exposed to ZDV/3TC/(-ATV) (adjusted RR=0.62, 95% CI: 0.32, 1.19) compared to those exposed to TDF/FTC/(-ATV), although both had wide 95% confidence intervals (CIs). Results were similar in unadjusted and adjusted models. For exposures initiated at 13≤GA<26 weeks, both TDF/FTC/ATV and ZDV/3TC/(-ATV) had lower risk than TDF/FTC/(-ATV), again with wide CIs.",
+      "order": 9
+    },
+    {
+      "section": "Dpoaes",
+      "text": "Of 493 CHEU with DPOAE and tympanogram data, demographic and maternal characteristics were again similar to the full cohort ( Supplemental Table 2 ). Most (454; 92%) had bilateral Type A tympanograms; 14 (2.9%) had Type A in one ear and Type C in the other ear. All 25 CHEU with single-ear tympanograms had Type A tympanograms. Across GAs, >90% had DPOAE SNRs ≥6 dB at 2, 3, and 4 kHz in both ears ( Table 4 ). One site did not have a DPOAE system that obtained 1 kHz data; among remaining sites, ~90% had ≥6 dB SNRs bilaterally at 1 kHz. In regression models ( Table 5 ), among 228 CHEU whose mothers initiated ART at GA <13 weeks, there was a higher risk of incomplete (<6 dB) DPOAE responses in CHEU exposed to ZDV/3TC/(-ATV) and a lower risk for CHEU exposed to TDF/FTC/ATV compared to CHEU exposed to TDF/FTC/(-ATV) across all frequencies, although all estimates had wide 95% CIs. For 113 CHEU with maternal ART initiation at 13≤GA<26 weeks, both TDF/FTC/ATV and ZDV/3TC/(-ATV) had lower risk than TDF/FTC/(-ATV) across frequencies, again with wide CIs.",
+      "order": 10
+    },
+    {
+      "section": "Relationship Between Pure-Tone And Dpoae Data",
+      "text": "Among 440 CHEU with both hearing measures, those with DPOAE SNRs <6 dB had substantially higher rates of hearing loss defined by PTA >15 dB (27%–43%) than those with complete responses (6%–8%) for all frequencies and ears. Median PTA was 2.5–3.75 dB higher for those with <6 dB DPOAEs at all frequencies except left-ear 3 kHz.",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "In this cohort, 15% of 5-year-old CHEU had hearing loss, ranging from 10% to 17% across exposure-timing strata. This prevalence exceeds that reported for older (6–11-year-old) U.S. children: 7.6% using PTA at 0.5, 1, and 2 kHz and 12.2% using PTA at 3, 4, and 6 kHz 16 . Early identification is therefore critical to enable interventions that mitigate impacts on speech and language development 17 , academic performance, and social interactions 18 . DPOAEs were largely robust (92%–95% with ≥6 dB SNR at 2–4 kHz), consistent with norms among children with Type A tympanograms 19 . There was no consistent association between earliest in utero ARV exposure and either hearing loss or DPOAE outcomes. Among CHEU with exposure initiated <13 weeks, TDF/FTC/ATV showed a nonsignificant higher risk of hearing loss compared to TDF/FTC/(-ATV), whereas ZDV/3TC/(-ATV) had a lower risk. For DPOAEs in CHEU exposed at GA <13 weeks, ZDV/3TC/(-ATV) was associated with higher risk of <6 dB DPOAEs and TDF/FTC/ATV with lower risk of <6 dB DPOAEs. The timing of exposure relative to auditory system development likely matters. Because the development of the cochlea and cochlear nerve occurs during GA <13 weeks 15 , this may explain the higher risk of <6 dB DPOAEs and hearing loss in CHEU with in utero exposure to ZDV/3TC/(-ATV) and TDF/FTC/ATV, respectively, for children whose mothers first initiated ARV at GA <13 weeks. Conversely, among children whose mothers first initiated ARV at 13≤GA<26 weeks, another critical period of auditory development 15 , there was a lower risk of hearing loss and <6 dB DPOAEs with in utero TDF/FTC/(ATV) or ZDV/3TC/(-ATV). There are no prior studies specifically linking in utero ARV exposure to hearing outcomes in school-aged CHEU. However, multiple SMARTT analyses have examined neurodevelopment 20 - 22 , speech and language 23 , and cognition/academics 24 . For example, ATV-containing regimens in the second/third trimester have been linked with adverse language and social-emotional outcomes at age 1-year-old CHEU 21 . In utero TDF exposure has been associated with higher risk of speech impairment at age 3 years 23 , but among older CHEU (5–13 years), no significant associations with specific ARVs were observed for cognitive/academic outcomes 24 . More recently, 5-year-old CHEU with in utero TDF/FTC/ATV had higher adjusted cumulative odds of one or more neurodevelopmental signals compared to ZDV/3TC plus other PI or NNRTI 22 . This aligns with our observation of a higher risk of hearing loss with early TDF/FTC/ATV exposure. Limitations include the absence of an HIV-unexposed, uninfected control group; small numbers for certain ARVs (e.g., EFV) and some exposure-timing strata; and exclusion of the ≥26-weeks initiation group from regressions due to both size and developmental differences. Maternal ARVs evaluated in this study are not currently the most widely used. WHO and U.S. guidelines recommend the use of integrase strand transfer inhibitors (INSTIs) for treatment of HIV infection during pregnancy 25 , 26 . Second-generation INSTIs generally offer improved efficacy and higher resistance barriers than other drug classes 27 , and some studies suggest lower risk of adverse perinatal outcomes with maternal use of INSTI-based regimens 28 , 29 . Some hearing measures in younger children can be less reliable, potentially contributing to inconsistent associations. Additionally, pure tones and DPOAEs assess peripheral hearing and in utero ARV exposure could also affect central auditory processing. Central measures (e.g., dichotic digits) are typically feasible at ≥7 years 30 , while competing sentences and frequency patterns testing are commonly performed at ≥8 years 31 , 32 . In summary, approximately one in eight 5-year-old CHEU had permanent SNHL, underscoring the need for early screening, timely intervention, and awareness of hearing testing among parents and caregivers of CHEU. While there were no consistent regimen-specific associations, exploratory patterns suggest exposure timing, particularly GA <13 weeks, may influence risk. These results support continued hearing testing in CHEU and motivate future studies incorporating central auditory processing measures as children get older. Further work should examine newer ARVs and regimen initiation timing to clarify potential auditory effects. Clinicians caring for CHEU should ensure adherence to hearing screening as part of standard care as hearing is a fundamental component to communication and quality of life, and undiagnosed hearing loss can have lasting adverse effects.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "title": "Ototoxicity associated with use of nucleoside analog reverse transcriptase inhibitors: a report of 3 possible cases and review of the literature",
+      "journal": "Clin Infect Dis",
+      "year": "2001",
+      "volume": "32",
+      "fpage": "1623",
+      "lpage": "1627",
+      "pmid": "11340535",
+      "doi": "10.1086/320522"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "Antiviral therapy in a child with pediatric human immunodeficiency virus (HIV): case study of audiologic findings",
+      "journal": "J Am Acad Audiol",
+      "year": "1998",
+      "volume": "9",
+      "fpage": "292",
+      "lpage": "298",
+      "pmid": "9733239"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "Hearing loss among HIV-seropositive and HIV-seronegative men and women",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2015",
+      "volume": "141",
+      "fpage": "202",
+      "lpage": "210",
+      "pmid": "25541676",
+      "doi": "10.1001/jamaoto.2014.3302",
+      "pmc_id": "PMC4369193"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "High prevalence of hearing impairment in HIV-infected Peruvian children",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2012",
+      "volume": "146",
+      "fpage": "259",
+      "lpage": "265",
+      "pmid": "22128111",
+      "doi": "10.1177/0194599811429271",
+      "pmc_id": "PMC3593743"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Hearing loss in perinatally HIV-infected and HIV-exposed but uninfected children and adolescents",
+      "journal": "Pediatr Infect Dis J",
+      "year": "2012",
+      "volume": "31",
+      "fpage": "835",
+      "lpage": "841",
+      "pmid": "22549437",
+      "doi": "10.1097/INF.0b013e31825b9524",
+      "pmc_id": "PMC3410657"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "title": "In vitro assessment of antiretroviral drugs demonstrates potential for ototoxicity",
+      "journal": "Hear Res",
+      "year": "2014",
+      "volume": "310",
+      "fpage": "27",
+      "lpage": "35",
+      "pmid": "24487230",
+      "doi": "10.1016/j.heares.2014.01.005",
+      "pmc_id": "PMC3983029"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "title": "Hearing loss in offspring exposed to antiretrovirals during pregnancy and breastfeeding",
+      "journal": "Front Mo Neurosc",
+      "year": "2022",
+      "volume": "15",
+      "fpage": "920528"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "title": "HEI-OC1 cells as a model for investigating prestin function",
+      "journal": "Hear Res",
+      "year": "2016",
+      "volume": "335",
+      "fpage": "9",
+      "lpage": "17",
+      "pmid": "26854618",
+      "doi": "10.1016/j.heares.2016.02.001"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "title": "Prestin is the motor protein of cochlear outer hair cells",
+      "journal": "Nat",
+      "year": "2000",
+      "volume": "405",
+      "fpage": "149",
+      "lpage": "155"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "title": "Evidence of mechanical nonlinearity and frequency selective wave amplification in the cochlea",
+      "journal": "Arch Otorhinolaryngol-Head Neck Surg",
+      "year": "1979",
+      "volume": "224",
+      "fpage": "37",
+      "lpage": "45"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "title": "Newborn hearing screenings in human immunodeficiency virus-exposed uninfected infants",
+      "journal": "J AIDS Immunol Res",
+      "year": "2016",
+      "volume": "1",
+      "fpage": "102",
+      "lpage": "106"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "title": "Antiretroviral exposure during pregnancy and adverse outcomes in HIV-exposed uninfected infants and children using a trigger-based design",
+      "journal": "AIDS",
+      "year": "2016",
+      "volume": "30",
+      "fpage": "133",
+      "lpage": "44",
+      "pmid": "26731758",
+      "doi": "10.1097/QAD.0000000000000916",
+      "pmc_id": "PMC4704129"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "title": "The PHACS SMARTT Study: Assessment of the safety of in utero exposure to antiretroviral drugs",
+      "journal": "Front Immunol",
+      "year": "2016",
+      "volume": "7",
+      "fpage": "199",
+      "pmid": "27242802",
+      "doi": "10.3389/fimmu.2016.00199",
+      "pmc_id": "PMC4876360"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "journal": "Guidelines for the Audiologic Assessment of Children From Birth to 5 Years of Age [Guidelines]",
+      "year": "2004"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "title": "The human auditory system: a timeline of development",
+      "journal": "Int J Audiol",
+      "year": "2007",
+      "volume": "46",
+      "fpage": "460",
+      "lpage": "478",
+      "pmid": "17828663",
+      "doi": "10.1080/14992020701383019"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "title": "Prevalence of hearing loss among children 6 to 19 years of age: The Third National Health and Nutrition Examination Survey",
+      "journal": "JAMA",
+      "year": "1998",
+      "volume": "279",
+      "fpage": "1071",
+      "lpage": "75",
+      "pmid": "9546565",
+      "doi": "10.1001/jama.279.14.1071"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "title": "From screening to early identification and intervention: Discovering predictors to successful outcomes for children with significant hearing loss",
+      "journal": "J Deaf Stud Deaf Educ",
+      "year": "2003",
+      "volume": "8",
+      "fpage": "11",
+      "lpage": "30",
+      "pmid": "15448044",
+      "doi": "10.1093/deafed/8.1.11"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "title": "Children with minimal sensorineural hearing loss: prevalence, educational performance, and functional status",
+      "journal": "Ear Hear",
+      "year": "1998",
+      "volume": "19",
+      "fpage": "339",
+      "lpage": "54",
+      "pmid": "9796643",
+      "doi": "10.1097/00003446-199810000-00001"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "title": "Distortion product otoacoustic emissions in children at school entry: A comparison with pure-tone screening and tympanometry results",
+      "journal": "J Am Acad Audiol",
+      "year": "2004",
+      "volume": "15",
+      "fpage": "702",
+      "lpage": "715",
+      "pmid": "15646668",
+      "doi": "10.3766/jaaa.15.10.5"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "title": "Safety of perinatal exposure to antiretroviral medications: Developmental outcomes in infants",
+      "journal": "Pediatr Infect Dis J",
+      "year": "2013",
+      "volume": "32",
+      "fpage": "648",
+      "lpage": "655",
+      "pmid": "23340561",
+      "doi": "10.1097/INF.0b013e318284129a",
+      "pmc_id": "PMC3723344"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "title": "Atazanavir exposure in utero and neurodevelopment in infants: A comparative safety study",
+      "journal": "AIDS",
+      "year": "2016",
+      "volume": "30",
+      "fpage": "1267",
+      "lpage": "1278",
+      "pmid": "26867136",
+      "doi": "10.1097/QAD.0000000000001052",
+      "pmc_id": "PMC4851579"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "title": "In utero antiretroviral exposure and risk of neurodevelopment problems in HIV-exposed uninfected 5-year-old children",
+      "journal": "AIDS Pat Care STDs",
+      "year": "2023",
+      "volume": "37",
+      "fpage": "119",
+      "lpage": "130"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "title": "Risk for speech and language impairments in preschool age HIV-exposed uninfected children with in utero combination antiretroviral exposure",
+      "journal": "Pediatr Infect Dis J",
+      "year": "2018",
+      "volume": "37",
+      "fpage": "678",
+      "lpage": "685",
+      "pmid": "29278615",
+      "doi": "10.1097/INF.0000000000001875",
+      "pmc_id": "PMC5995619"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Safety of in utero and neonatal antiretroviral exposure: Cognitive and academic outcomes in HIV-exposed, uninfected children 5-13 years of age",
+      "journal": "Pediatr Infect Dis J",
+      "year": "2014",
+      "volume": "33",
+      "fpage": "1128",
+      "lpage": "1133",
+      "pmid": "25361407",
+      "doi": "10.1097/INF.0000000000000410",
+      "pmc_id": "PMC4217087"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "journal": "Consolidated Guidelines on HIV Prevention, Testing, Treatment, Service Delivery and Monitoring: Recommendations for a Public Health Approach",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "journal": "Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "HIV-1 integrase strand transfer inhibitors: a review of current drugs, recent advances and drug resistance",
+      "journal": "Int J Antimicrob Agents",
+      "year": "2021",
+      "volume": "57",
+      "fpage": "106343",
+      "pmid": "33852932",
+      "doi": "10.1016/j.ijantimicag.2021.106343"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "title": "Type and timing of antiretroviral therapy during pregnancy: Impact on risk of preterm delivery and small-for-gestational age births in Canada, a retrospective cohort study",
+      "journal": "Int J Gynaecol Obstet",
+      "year": "2023",
+      "volume": "162",
+      "fpage": "614",
+      "lpage": "622",
+      "pmid": "36707102",
+      "doi": "10.1002/ijgo.14705"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "title": "Comparative risk of adverse perinatal outcomes associated with classes of antiretroviral therapy in pregnant women living with HIV: systematic review and meta-analysis",
+      "journal": "Front Med",
+      "year": "2024",
+      "volume": "11",
+      "fpage": "1323813"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "title": "Assessment of central auditory dysfunction: The dichotic digit test revisited",
+      "journal": "Ear Hear",
+      "year": "1983",
+      "volume": "4",
+      "fpage": "79",
+      "lpage": "83",
+      "pmid": "6840415",
+      "doi": "10.1097/00003446-198303000-00002"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "journal": "Assessment of central auditory dysfunction: Foundations and clinical correlates",
+      "year": "1985",
+      "fpage": "201",
+      "lpage": "218"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "title": "Frequency patterns in cochlear, brainstem and cerebral lesions",
+      "journal": "Audiol",
+      "year": "1987",
+      "volume": "26",
+      "fpage": "79",
+      "lpage": "88"
+    }
+  ]
+}

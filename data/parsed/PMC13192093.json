@@ -1,0 +1,779 @@
+{
+  "metadata": {
+    "title": "Thyroid cancer-derived exosomal SPP1 promotes tumor progression by driving macrophage M2 polarization through the CD44/JAK2/STAT3 signaling pathway",
+    "authors": [
+      "Jiwen Yang",
+      "Weili Yin",
+      "Junliang Ge",
+      "Guangjian Gao",
+      "Xinming Yao",
+      "Yayin Huang"
+    ],
+    "journal": "Organogenesis",
+    "year": "2026",
+    "doi": "10.1080/15476278.2026.2670152",
+    "pmc_id": "PMC13192093",
+    "pmid": "42153613",
+    "full_text_available": true,
+    "section_count": 29,
+    "reference_count": 46
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background While secreted phosphoprotein 1 (SPP1) drives macrophage M2 polarization and cancer progression in multiple malignancies, its role in thyroid cancer remains poorly understand. This study investigated the roles and mechanisms of thyroid cancer-derived exosomal SPP1 in regulating macrophage M2 polarization and malignant progression in thyroid cancer. Methods SPP1 protein expression in thyroid cancer tissues and cell lines was assessed. Exosomes from TPC1 cells were isolated and characterized for SPP1 expression. THP-1 cell-differentiated M0 macrophages were treated with unmodified or SPP1-knockdown exosomes, followed by detection of M2 phenotype markers and analysis of cytokine secretion profiling in response to LPS stimulation. The conditioned macrophages were then co-cultured with thyroid cancer cells, and cell proliferation, migration and invasion were examined. Mechanistic studies focused on CD44/JAK2/STAT3 signaling using an anti-CD44 monoclonal antibody. Additionally, tumor growth and macrophage infiltration were assessed in a xenograft tumor mouse model following exosomal SPP1 knockdown. Results SPP1 was upregulated in thyroid cancer and enriched in TPC1-derived exosomes. These exosomes induced macrophage M2 polarization, thereby promoting cancer cell proliferation, migration and invasion. However, SPP1 knockdown in exosomes abolished these effects. Exosomal SPP1 directly interacted with CD44 receptors and activated the JAK2/STAT3 signaling pathway to drive M2 polarization. CD44 blockade reversed M2 polarization and pro-tumorigenic effects. SPP1-deficient exosomes reversed tumor growth and attenuated M2 macrophage infiltration in xenograft model. Conclusions Thyroid cancer-derived exosomal SPP1 promotes tumor progression by driving macrophage M2 polarization via the CD44/JAK2/STAT3 signaling pathway. The exosomal SPP1-CD44 axis represents a promising therapeutic target for thyroid cancer.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Thyroid cancer, the most prevalent endocrine malignancy globally, exhibits a steadily increasing incidence. 1 It is uniquely characterized by a prominent female predominance among non-reproductive cancers, with a 3- to 4-fold higher incidence in females. 2 The disease comprises four major histological subtypes with distinct clinical and molecular profiles, including papillary (PTC), follicular (FTC), anaplastic (ATC), and medullary (MTC). 3 PTC is a well-differentiated subtype with significant recurrent and metastatic potential, accounting for 80%–90% of thyroid cancer cases. 4 Early-stage cases typically asymptomatic and discovered incidentally via neck ultrasound during routine examinations. 5 Tumor progression may manifest as neck lumps/nodules, swelling, or discomfort. Most patients achieve optimistic outcomes and even cure through standardized management including surgery, radioactive iodine therapy, and thyroid hormone replacement/suppression. 6 , 7 Nevertheless, patients with advanced stage or distant metastases still have poor prognosis and higher mortality risk. 8 , 9 Consequently, delving into the molecular mechanisms driving thyroid cancer metastasis and developing effective therapies for advanced cases remain imperative. Tumor-associated macrophages (TAMs) represent crucial immune cell populations within the tumor microenvironment (TME), contributing to immunosuppression, angiogenesis, tumor metastasis, and drug resistance. 10 , 11 TAMs play a dual role in tumor development due to their dynamic polarization into two distinct M1 and M2 phenotypes. M1 macrophages exert anti-tumor effects by directly inducing cancer cell death and activating immune effector cells through the release of pro-inflammatory cytokines such as interleukin-12 (IL-12) and tumor necrosis factor-α (TNF-α). 12 Conversely, M2 macrophages exhibit a pro-tumor phenotype that promotes immunosuppression and metastatic progression via release of cytokines like c interleukin-10 (IL-10) and transforming growth factor-β (TGF-β). 12 High-density infiltration of M2-polarized TAMs correlates strongly with lymph node metastasis, poor prognosis, and increased recurrence risk in thyroid cancer. 13 Therefore, reprogramming of TAMs towards the M1 phenotype offers a viable immunotherapeutic approach in thyroid cancer. Cancer cell-derived exosomes (30–150 nm diameter) are extracellular vesicles that mediate TME communication by transferring parental cell-specific biomolecules, including proteins, microRNAs, mRNAs, and lipids. 14 These vesicles contribute to tumorigenesis, metastasis, and drug resistance through crosstalk between cancer cells and immune cells within TME. Notably, accumulating evidence highlights their critical role in driving macrophage M2 polarization, which subsequently enhances cancer cell proliferation, migration, and invasion to establish a self-reinforcing feedback loop. 15‐17 Therefore, elucidating the molecular mechanisms of the exosome–macrophage axis and developing exosome-targeting immunotherapies to reprogram M2 macrophages toward an M1 anti-tumor phenotype are essential for improving patient outcomes. Secreted phosphoprotein 1 (SPP1), also known as osteopontin (OPN), is an aglyco-phosphoprotein. SPP1 modulates bone biology, tissue remodeling, immunology and cancer progression through regulating diverse processes, including bone resorption, immune response, cell survival and migration. 18 SPP1 upregulation occurs in multiple cancers, promoting tumor cell proliferation, migration, and angiogenesis. For instance, SPP1 drives malignant progression and stimulates angiogenesis in endometrial carcinoma. 19 Similarly, it stimulates breast cancer cell proliferation and suppresses apoptosis through activating the PI3K/Akt pathway. 20 Moreover, SPP1 acts as a prognostic marker in lung cancer and contributes to malignant progression and cisplatin resistance. 21 Notably, a macrophage subpopulation exhibiting high SPP1 expression correlates with poor prognosis across various cancers. 22 , 23 SPP1 is a key gene associated with M2 macrophage polarization within the TME and adverse patient outcomes. 24 , 25 Given its role in driving M2 macrophage infiltration and consequent tumor progression, SPP1 emerges as a key anti-tumor therapeutic target. 26 The Cancer Genome Atlas (TCGA) data reveal upregulation of SPP1 in thyroid cancer, with positively correlation with advanced pathological stages. Significantly, SPP1 levels are also strongly associated with macrophage infiltration in this malignancy. 27 However, the specific roles of SPP1 in thyroid cancer progression, particularly its regulation of the TME, remain poorly understood. This work explored the roles of SPP1 derived from thyroid cancer cells in regulation of TAM infiltration within TME in thyroid cancer progression, focusing on SPP1/CD44-mediated macrophage M2 polarization. Our findings reveal critical insights into the novel paracrine mechanism within TME in thyroid cancer, and may provide a potential immunotherapeutic target for anti-tumor treatment.",
+      "order": 1
+    },
+    {
+      "section": "Clinical Specimens",
+      "text": "Tumor and matched adjacent tissue specimens were collected from 40 patients with papillary thyroid carcinoma (PTC) undergoing surgery at the First Affiliated Hospital of Wannan Medical College. The BRAF V600E mutation status was evaluated for patients with available clinical testing data. Detailed clinicopathological characteristics of the cohort, including patient demographics, tumor histopathology, and available mutational profiles, are provided in Table 1 . Participants were excluded if they had other malignant tumors, severe systemic diseases, or had received prior antitumor therapy. This study was approved by the Ethic Committee of the First Affiliated Hospital of Wannan Medical College, with written informed consent obtained from all individuals.",
+      "order": 2
+    },
+    {
+      "section": "Data Analysis From Public Databases",
+      "text": "Gene expression analyses were generated using the GEPIA database ( http://gepia.cancer-pku.cn/ ). Specifically, for, differential gene expression analysis, the box plot comparing SPP1 expression between THCA tumors and normal tissues was generated using the “Expression DIY” module, with parameters set to log 2 (TPM + 1) scale and a |Log 2 FC| cutoff of 1. The statistical significance ( p -value) displayed is calculated by GEPIA2 using a one-way ANOVA test. For expression across stages, the box plot depicting SPP1 expression across pathological stages (I–IV) in THCA was generated using the “Stage Plot” module. The p -value is automatically computed and displayed by GEPIA. Immune infiltration correlation analysis was performed using the TIMER2.0 database ( http://timer.cistrome.org /). We utilized, the THCA cohort from the TCGA dataset and immune infiltrates (macrophages) was selected in the “Immune Association” module. The scatter plots depict the partial correlation (Spearman's Rho) between SPP1 expression and the estimated infiltration level of M2 macrophages. TIMER2.0's model corrects for tumor purity, and the result panels for three independent algorithms (CIBERSORT-ABS, QUANTISEQ, and XCELL) are shown. All correlation coefficients and p -values are directly output by the TIMER2.0 algorithm.",
+      "order": 3
+    },
+    {
+      "section": "Cell Culture And Transfection",
+      "text": "Thyroid cancer cell lines (TPC1, BCPAP, K1, and FTC-133) and human thyroid follicular epithelial cell line Nthy-ori3−1 were obtained from ATCC and cultured in DMEM containing 10% fetal bovine serum (FBS) and penicillin–streptomycin solution at 37 °C in 5% CO 2 . Short hairbin RNA for SPP1 (sh-SPP1) and non-targeting control shRNA (sh-NC) provided by RiboBio (Guangzhou, China) were transfected into cancer cells using Lipofectamin 3000 reagent (Invitrogen, USA) according to the manufacturer's protocol.",
+      "order": 4
+    },
+    {
+      "section": "Cd44 Blocking Assay",
+      "text": "To functionally inhibit the interaction between exosomal SPP1 and its receptor CD44 on macrophages, the anti-human CD44 monoclonal antibody (anti-CD44 mAb; Clone IM7, BE0039, BioXCell, USA) and isotype control (BE0090, BioXCell, USA) were used. For the blocking experiment, THP-1-derived M0 macrophages were pre-treated with the anti-CD44 mAb or isotype control at a concentration of 10 µg/mL in complete culture medium for 1 h at 37 °C. This pre-treatment blocks the ligand-binding domain of CD44, thereby specifically preventing the binding of exosomal SPP1 to its receptor and inhibiting downstream signal activation. Following pre-treatment, the culture medium was replaced with fresh medium containing TPC1-derived exosomes, and the co-culture was continued for the indicated durations for subsequent polarization and functional analyses.",
+      "order": 5
+    },
+    {
+      "section": "Isolation And Identification Of Thyroid Cancer Cell-Derived Exosomes",
+      "text": "Exosomes were isolated through the following ultra-highspeed centrifugation procedures. 28 Cell culture supernatants were collected and sequential centrifugated (300 × g , 10 min; 2000 × g , 10 min; 18,000 × g , 30 min) at 4 °C, while resulting supernatant was ultracentrifuged at 120,000 × g for 70 min to pellet extracellular vesicles. The isolated exosomes were resuspended in PBS and purified via ultracentrifugation (120,000 × g , 70 min). Subsequently, transmission electron microscopy (TEM; Hitachi, Japan) was used to evaluate exosome morphology, and nanoparticle tracking analysis (NTA, Malvern Instruments, UK) was used to examine particle size distribution. Exosomal surface markers CD63, CD9, CD81, and negative control Calnexin were assessed by Western blot assay.",
+      "order": 6
+    },
+    {
+      "section": "Differentiation And Identification Of Macrophages",
+      "text": "THP-1 monocytes (ATCC) were maintained in RPMI 1640 medium (Gibco) containing 10% FBS and 1% antibiotics at 37 °C in 5% CO 2. THP-1 cells (1 × 10 6 ) were treated with 100 nM phorbol myristate acetate (PMA) for 48 h to induce macrophage differentiation. Differentiated macrophages were identified by microscopic observation of cell morphology and detection of the macrophage-specific marker CD68.",
+      "order": 7
+    },
+    {
+      "section": "Exosome Uptake Assay",
+      "text": "The isolated exosomes were labeled with 2 µM PKH26 (Sigma-Aldrich) for 5 min, and the reaction was quenched with 1% bovine serum albumin (BSA). PKH26-labeled exosomes were purified through ultracentrifugation and then were incubated with M0 macrophage cells for 24 h. Subsequently, cells were fixed with 4% paraformaldehyde, permeabilized with 0.1% Triton X-100, and blocked with 5% BSA. cells were incubated overnight at 4 °C with an anti-CD68 antibody or non-specific IgG, followed by incubation with a fluorescent secondary antibody. Cell nuclei were counterstained with DAPI. After PBS washing, exosome uptake and macrophage identity were assessed using a fluorescence confocal microscope (Zeiss, Jena, Germany).",
+      "order": 8
+    },
+    {
+      "section": "Macrophage Polarization Analysis",
+      "text": "M0 macrophages were incubated with 100 μg/mL isolated exosomes for 24 h. Macrophage M2-phenotype polarization marker CD206 was examined using flow cytometry. Briefly, cells were stained with fluorochrome-conjugated antibodies against F4/80-FITC (1:200, BioLegend) and CD206-PE (1:200, BioLegend) for 1 h at 4 °C in the dark. Cells were then subjected to flow cytometer analysis (BD Bioscience, USA). Other M2-phenotype markers (ARG1, IL-10) were assessed using Western blot analysis.",
+      "order": 9
+    },
+    {
+      "section": "Rt-Qpcr",
+      "text": "Following total RNA isolation from BMDCs using TRIzol reagent, cDNA was synthesized from 1 µg RNA using the PrimeScript™ RT Reagent Kit. Real-time PCR amplification was conducted on an ABI 7500 system in 25 µL reactions under the following conditions: 95 °C for 30 s; then 40 cycles of 95 °C for 5 s and 60 °C for 34 s. Relative expression levels were calculated by the 2 − ΔΔCT method with normalization to GAPDH.",
+      "order": 10
+    },
+    {
+      "section": "Western Blot Analysis",
+      "text": "Proteins were extracted using RIPA lysis, separated by 10% SDS-PAGE, and transferred to PVDF membranes. Membranes were blocked with 5% non-fat milk, and then incubated with primary antibodies overnight at 4 °C. After probing with secondary antibody for 2 h, protein bands were visualized using an enhanced chemiluminescence (ECL) detection kit (Beyotime, China) and quantified with ImageJ software. Primary antibodies (Abcam, USA) include: SPP1 (1:1000, ab216406), CD63 (1:1000, ab134045), CD9 (1:1000, ab236630), CD81 (1:1000, ab109201), Calnexin (1: 1000, ab92573), CD68 (1:1000, ab283654), ARG1 (1:1000, ab124917), IL-10 (1: 1000, ab9969), CD44 (1:1000, ab189524), and GAPDH (1:1000, ab8245).",
+      "order": 11
+    },
+    {
+      "section": "Elisa For Cytokine Quantification",
+      "text": "The concentrations of pro-inflammatory cytokine (tumor necrosis factor-α, TNF-α) and anti-inflammatory cytokine (interleukin-10, IL-10) in macrophage culture supernatants were measured using commercially available enzyme-linked immunosorbent assay (ELISA) kits (Beyotime, Shanghai, China) according to the manufacturer's instructions.",
+      "order": 12
+    },
+    {
+      "section": "Cell Counting Kit-8 (Cck-8) Assay",
+      "text": "Cancer cells were plated at 1 × 10³ cells/well in 96-well plates and incubated for 24, 48, or 72 h. At these designated times, 10 µL of CCK-8 reagent (Solarbio, Beijing, China) was added, followed by a 2 h incubation. Absorbance was read at 450 nm on a microplate reader (Bio-Rad, USA).",
+      "order": 13
+    },
+    {
+      "section": "Wound Healing Assay",
+      "text": "Cancer cells were cultured in 6-well plates to 60%–70% confluence. Sterile micropipette tip was used to create a straight wound in the monolayer. After PBS washing to remove detached cells, serum-free medium was added for 48 h incubation. Images of cell migration at the wound site were captured at 0 and 24 h using a light microscope (Nikon, Japan), and the migration distance was assessed using ImageJ software. To account for potential effects on cell proliferation, parallel cultures were set up in 96-well plates under identical conditions. Cell viability at the 24-h time point was assessed using CCK-8 assay. The final wound closure data are presented as the migration distance normalized to the corresponding cell viability (OD 450 nm value).",
+      "order": 14
+    },
+    {
+      "section": "Transwell Assay",
+      "text": "A Transwell chamber (8 μm; Corning, USA) with Matrigel was used. Thyroid cancer cells suspended in serum-free medium (5 × 10 4 cells, 200 µL) were seeded in the upper chamber, while bottom chambers contained 600 µL of medium containing 10% FBS. Following a 48-h incubation, invaded cells were stained with 0.1% crystal violet and subjected to microscopic analysis. In parallel, cells were seeded in 96-well plates at an equivalent density and cultured under identical conditions for 48 h. A CCK-8 assay was performed to determine relative cell numbers. The final invasion counts were normalized to the CCK-8 absorbance values of their respective groups and are expressed as the normalized invasion rate.",
+      "order": 15
+    },
+    {
+      "section": "Co-Immunoprecipitation (Co-Ip)",
+      "text": "Macrophage lysates were immunoprecipitated overnight at 4 °C with anti-SPP1 or IgG control. Protein A/G agarose beads (100 μL) were added to capture antibody complexes during a 4 h incubation at 4 °C. Following bead isolation, immunoprecipitated proteins were eluted via 5 min boiling in loading buffer and analyzed by Western blot.",
+      "order": 16
+    },
+    {
+      "section": "Animal Experiments",
+      "text": "BALB/c nude mice (6–8 weeks, Wannan Medical College) were housed in laboratory environments (22 °C–25 °C, 12-h light/dark cycle). Xenograft tumor model was established by subcutaneous injection of TPC1 cells (5 × 10⁶ cells/mL mouse) into the right flank of mice. After tumor implantation, mice were randomized into four groups: PBS, TPC1-Exo (sh-NC), and TPC1-Exo (sh-SPP1) ( n = 8 per group). Exosomes isolated from sh-NC/sh-SPP1-transfected TPC1 cells in PBS (200 μL) underwent tail vein injection. Equal volume of PBS was served as control. This injection procedure was repeated every 2 d for 2 weeks. Tumor volumes were recorded weekly until euthanasia on day 28, followed by tumor collection. All animal experimental procedures were approved by the Animal Ethics Committee of the First Affiliated Hospital of Wannan Medical College.",
+      "order": 17
+    },
+    {
+      "section": "Immunohistochemistry",
+      "text": "After fixation in 4% paraformaldehyde, paraffin-embedding, and sectioning (4 μm), tissue specimens underwent microwave heating in sodium citrate buffer. Sections were then immunostained with primary antibodies (4 °C, overnight) and secondary antibodies for 1 h, followed by diaminobenzidine (DAB) development. Images were acquired by light microscopy and analyzed with ImageJ. The primary antibodies included SPP1 (1:100, ab216406) and Ki67 (1:200, ab16667).",
+      "order": 18
+    },
+    {
+      "section": "Immunofluorescence Staining",
+      "text": "After deparaffinization, rehydration, and antigen retrieval using citrate buffer, tissue sections were permeabilized in 0.5% Triton X-100 for 15 min and then blocked with 5% BSA for 2 h. Next, the sections underwent an overnight incubation at 4 °C with primary antibodies against CD68 (1:50, ab283654) or CD206 (1:100, ab64693) overnight at 4 °C. Following PBS washes, fluorescence-conjugated secondary antibody sections were added for 2 h of incubation. Nuclei were counterstained with DAPI. Fluorescence signals were visualized using a fluorescence microscope (Nikon, Japan).",
+      "order": 19
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Quantitative data from at least triplicate repeated experiments are presented as mean ± standard deviation (SD). Statistical analyses were conducted using SPSS 22.0. Student's t -test was used for two-group comparisons, while one-way analysis of variance (ANOVA) followed by Tukey's post hoc test was applied for multi-group comparisons. p < 0.05 was statistically significant.",
+      "order": 20
+    },
+    {
+      "section": "Upregulation Of Spp1 Was Observed In Thyroid Cancer Specimens",
+      "text": "Analysis of the GEPIA database revealed significant upregulation of SPP1 in thyroid carcinoma (THCA) ( Figure 1A ). Furthermore, Elevated SPP1 levels were associated with advancing disease stages in thyroid cancer patients ( Figure 1B ). Our Western blot analysis of patient tissues confirmed this upregulation, suggesting that significantly higher SPP1 protein levels in tumor tissues than adjacent tissues ( Figure 1C and D ). Clinicopathological correlation analysis in our cohort of 40 PTC patients further demonstrated that high SPP1 expression was significantly associated with aggressive tumor features, including larger tumor size (>2 cm), extrathyroidal extension, lymph node metastasis, and advanced TNM stage (III/IV) ( Table 1 ). Additionally, we observed elevated SPP1 expression across multiple thyroid cancer cell lines relative to normal Nthy-ori 3-1 cells ( Figure 1E and F ). Notably, bioinformatic analysis using the TIMER2.0 database indicated a significant association between SPP1 expression and M2 macrophage infiltration within the thyroid cancer microenvironment ( Figure 1G ). We suggest that SPP1 may facilitate the advancement of thyroid malignancies and is associated with M2 macrophage infiltration.",
+      "order": 21
+    },
+    {
+      "section": "Spp1 Was Highly Enriched In Thyroid Cancer Cell-Derived Exosomes",
+      "text": "To define the function of SPP1 within the thyroid cancer microenvironment, we isolated exosomes from thyroid cancer cells. Given its highest endogenous SPP1 protein expression among the tested cell lines ( Figure 1E and F ), TPC1 cells were selected as the primary model to ensure high-yield isolation of SPP1-enriched exosomes for subsequent mechanistic exploration. Characterization revealed typical cup-shaped morphology by TEM ( Figure 2A ) and particle size distribution (30–140 nm) via NTA ( Figure 2B ). Moreover, Western blot confirmed positive expression of exosomal markers (CD63/CD9/CD81) and absence of Calnexin ( Figure 2C ), indicating successful exosome isolation. To systematically quantify the distribution and secretion pathway of SPP1, SPP1 levels in cell lysate, total conditioned medium (CM), exosomes isolated from CM, exosome-depleted CM, and CM from exosome secretion inhibitor GW4869-treated cells were quantified. Western blot analysis revealed pronounced SPP1 expression in cell lysate, total CM, and isolated exosomes ( Figure 2D and E ). In contrast, minimal SPP1 was detected in exosome-depleted CM. Accordingly, inhibition of exosome secretion by GW4869 substantially reduced SPP1 levels in CM. These data provide direct evidence that SPP1 is preferentially packaged into and secreted via thyroid cancer cell-derived exosomes. Successful THP-1 monocyte differentiation was confirmed by adherent morphology ( Figure 2F ) and high CD68 expression ( Figure 2G ). To assess exosome uptake by macrophages, PKH26-labeled exosomes were cultured with M0 macrophages for 12 h. Cells were then subjected to immunofluorescence staining for the macrophage marker CD68. Fluorescence microscopy revealed efficient internalization of labeled exosomes within CD68-positive macrophages ( Figure 2H , upper panel). The use of a non-specific IgG negative control for anti-CD68 antibody confirmed the specificity of the CD68 immunofluorescence signal ( Figure 2H , lower panel).",
+      "order": 22
+    },
+    {
+      "section": "Thyroid Cancer-Derived Exosomes Induced M2 Macrophage Polarization And Enhanced Thyroid Cancer Cell Malignant Progression",
+      "text": "The effects of exosomes on regulating macrophage phenotype within the thyroid cancer microenvironment were then determined. M0 macrophages were treated with 100 μg/mL exosomes derived from TPC1 cells for 24 h. This treatment significantly increased SPP1 protein levels in macrophages ( Figure 3A and B ). Exosome exposure significantly expanded the M2 macrophage (F4/80⁺CD206⁺) population ( Figure 3C and D ). Consistently, further analysis by Western blot suggested that exosome treatment upregulated M2 markers (ARG1/IL-10) ( Figure 3E and F ). To functionally validate the M2-like phenotype, the cytokine secretion profile of macrophages upon LPS challenge were assessed. Compared to PBS group, exosome-treated macrophages secreted significantly lower levels of the pro-inflammatory cytokine TNF-α, while producing higher levels of the anti-inflammatory cytokine IL-10 ( Figure 3G ). This cytokine secretion profile aligns with a functional M2-like phenotype and corroborates the surface marker and protein expression data. To assess the functional impact of this exosome-induced macrophage polarization on thyroid cancer cells, the conditioned macrophages were co-cultured with thyroid cancer cell lines. To evaluate the generalizability of this effect across different molecular subtypes, we selected TPC1 (RET/PTC1 rearrangement) and BCPAP (BRAF V600E mutation) cells for functional assessment. CCK-8 assays showed that co-culture with exosome-treated macrophages promoted TPC1 and BCPAP cell proliferation ( Figure 3H and I ). Furthermore, co-culture with exosome-treated macrophages enhanced the migration ( Figure 3J and K ) and invasion capabilities ( Figure 3L and M ) of TPC1 cells and BCPAP cells. These findings collectively reveal that thyroid cancer cell-derived exosomes drive M2 macrophage polarization, which in turn enhances thyroid cancer cell malignant progression. The consistent pro-tumor effects observed in these two genetically distinct models suggest that exosome-mediated reprogramming of macrophages may be a pervasive mechanism contributing to thyroid cancer malignancy.",
+      "order": 23
+    },
+    {
+      "section": "Spp1 Knockdown Attenuated Exosome-Induced M2 Macrophage Polarization And Thyroid Cancer Cell Malignant Progression",
+      "text": "To thoroughly elucidate exosomal SPP1-mediated regulation of macrophage phenotype, TPC1 cells were transfected with SPP1 shRNA (sh-SPP1) or negative control shRNA (sh-NC), followed by exosome isolation. RT-qPCR and Western blot analyses confirmed effective SPP1 knockdown in TPC1 cells ( Figure 4A–C ). Correspondingly, SPP1 levels within the isolated exosomes were significantly reduced ( Figure 4D and E ). Macrophages were then treated with unmodified exosomes, SPP1-knockdown exosomes or control (sh-NC) exosomes. SPP1 protein levels in macrophages were decreased after treatment with SPP1-knockdown exosomes compared with control exosomes ( Figure 4F and G ). Furthermore, compared with the control exosomes, SPP1-knockdown exosomes significantly reduced M2 macrophage (F4/80⁺CD206⁺) proportion ( Figure 4H and I ). Consistently, the protein levels of ARG1 and IL-10 were also decreased following treatment with SPP1-knockdown exosomes ( Figure 4F and J ). Consistent with this shift, the exosome-induced attenuation of TNF-α secretion upon LPS stimulation was also reversed by SPP1 knockdown, while the augmentation of IL-10 secretion was diminished ( Figure 4K ). Additionally, co-culture with macrophages treated with SPP1-knockdown exosomes effectively attenuated the promoting effects of control exosome-treated macrophages on thyroid cancer cell proliferation ( Figure 4L and M ), migration ( Figure 4N and O ), and invasion ( Figure 4P and Q ). We highlight exosomal SPP1 as a key mediator of thyroid cancer malignancy through regulation of M2 macrophage polarization.",
+      "order": 24
+    },
+    {
+      "section": "Thyroid Cancer-Derived Exosomal Spp1 Activated Cd44/Jak2/Stat3 Signaling Pathway In Macrophages",
+      "text": "SPP1 regulates M2 macrophage polarization within TME through interacting with CD44. 26 Co-IP analysis revealed that treatment with unmodified exosomes increased the interaction of SPP1 and CD44, while treatment with SPP1-knockdown exosomes reversed this effect ( Figure 5A ). Furthermore, phosphorylated JAK2 and STAT3 were significantly increased after treatment with unmodified exosomes, while SPP1 knockdown abolished these changes ( Figure 5B–D ).",
+      "order": 25
+    },
+    {
+      "section": "Cd44 Blockage Reversed Exosome-Induced M2 Macrophage Polarization And Thyroid Cancer Cell Malignant Progression",
+      "text": "To clarify SPP1/CD44 axis-mediated M2 macrophage phenotype, macrophages were treated with TPC1-derived exosomes and anti-CD44 mAb. Western blot confirmed the effective blockage of CD44 by anti-CD44 mAb in macrophages ( Figure 6A ). Functional rescue experiments showed that CD44 blockage reversed exosome-induced increase in M2 macrophage proportion ( Figure 6B and C ), as well as M2 marker proteins ARG1 and IL-10 ( Figure 6D and E ). Furthermore, CD44 blockage restored the pro-inflammatory cytokine secretion capacity (TNF-α) and mitigated the excessive anti-inflammatory response (IL-10) in exosome-treated macrophages upon LPS challenge ( Figure 6F ), confirming the functional rescue at the cytokine level. Additionally, co-culture with exosome-treated macrophages enhanced cell proliferation ( Figure 6G and H ), migration ( Figure 6I and J ), and invasion ( Figure 6K and L ) of TPC1 cells and BCPAP cells, while all these effects were abolished by anti-CD44 mAb treatment. Additionally, exosome treatment increased the phosphorylated JAK2 and STAT3 protein levels, while these effects were reversed by CD44 blockage ( Figure 6M–O ). These results reveal that exosomal SPP1 induced M2 macrophage polarization and enhanced thyroid cancer cell malignant progression through CD44 signaling.",
+      "order": 26
+    },
+    {
+      "section": "Thyroid Cancer-Derived Exosomal Spp1 Promotes Tumor Growth In Mice",
+      "text": "The role of exosomal SPP1 in tumor growth was assessed using a mouse xenograft model. Mice were treated with exosomes derived from TPC1 cells transfected with sh-NC (control exosomes) or sh-SPP1 (SPP1-knockdown exosomes). Treatment with control exosomes significantly enhanced tumor volume and weight ( Figure 7A–C ). Whereas treatment with SPP1-knockdown exosomes effectively counteracted this promoting effect. Consistent with the growth data, immunohistochemistry results illustrated increased expression of the proliferation marker Ki67 from the control exosome-treated group than PBS group. Whereas SPP1-knockdown exosome treatment significantly inhibited Ki67 expression ( Figure 7D and E ). Furthermore, we confirmed that control exosome treatment upregulated SPP1 expression in tumors, while SPP1-knockdown exosome treatment normalized SPP1 levels to those in PBS group ( Figure 7D and E ). Importantly, immunofluorescence staining of tumor tissues demonstrated that control exosomes significantly promoted macrophage infiltration and M2 polarization, as evidenced by increased CD68 and CD206 expression ( Figure 7F and G ). However, knockdown of exosomal SPP1 abolished these effects. Collectively, these findings demonstrate that thyroid cancer-derived exosomal SPP1 promotes tumor growth in mice through inducing M2 macrophage polarization.",
+      "order": 27
+    },
+    {
+      "section": "Discussion",
+      "text": "Cancer-immune crosstalk within the TME contribute to tumorigenesis, metastasis, and drug resistance. Cancer cell-derived exosomes drives macrophage M2 polarization, accelerating cancer cell malignant progression. 15‐17 This study reveals a novel undescribed mechanism by which thyroid cancer-derived exosomal SPP1 induces TAMs toward an M2 phenotype through CD44/JAK2/STAT3 signaling, thereby fostering tumor progression. Our work extends current understanding of thyroid cancer microenvironment remodeling. We establish cancer cell-derived exosomes as critical vehicles for SPP1 delivery, directly linking tumor cell aggressiveness to immune evasion. This mechanism is consistent with the emerging roles of exosomes in modulating the tumor microenvironment across cancers but is the first to delineate a specific SPP1-dependent mechanism in thyroid malignancy. Notably, the pathway we elucidated is distinct from the canonical M2 polarization induced by cytokines like IL-4 via the PKA/STAT6 axis. Our findings reveal a tumor-driven mechanism initiated by cancer exosomes, highlighting how thyroid cancer cells actively reprogram macrophages through a paracrine signal (SPP1), rather than responding to host immune signals. This distinction underscores the potential tumor-specificity of the SPP1-CD44-JAK2/STAT3 axis in the thyroid cancer microenvironment. Additionally, to validate that this mechanism operates across prevalent molecular subtypes of thyroid cancer, we employed two complementary functional models: TPC1 (RET/PTC-rearranged) and BCPAP (BRAF V600E-mutant). The consistent observation of exosome-induced M2 polarization and subsequent pro-tumorigenic effects in both models suggests that the exosomal SPP1-CD44-JAK2/STAT3 axis may be a pervasive and fundamental pathway in thyroid cancer biology, transcending specific driver mutations. Upregulation of SPP1 in multiple cancers promotes cancer cell proliferation, migration, and angiogenesis, 19‐21 serving as an immunological and prognostic biomarker. 29 Notably, elevated SPP1 expression predicts adverse outcomes in thyroid cancer. 30 Microarrays revealed SPP1 hypomethylation and upregulation in thyroid tumors, highlighting its diagnostic precision. 31 Consistent with the previous bioinformatics analyses, our preliminary validation confirms the upregulation of SPP1 in thyroid cancer and provides direct clinical evidence linking high SPP1 expression to aggressive clinicopathological characteristics, including advanced stage and metastasis. Furthermore, SPP1-expressing macrophages mediate TME immunosuppression in thyroid cancer, supporting that therapeutic approaches targeting these cells could potentially enhance patient outcomes. 32 TCGA data demonstrate that upregulation of SPP1 correlates with advanced disease stages and M2 macrophage infiltration. Importantly, our results identified SPP1 as a key cargo enriched in thyroid cancer cell-derived exosomes, which serves as a paracrine effector to mediate intercellular crosstalk within the tumor microenvironment. Exposure of macrophages to these exosomes triggered significant M2 polarization, which in turn enhances thyroid cancer malignant behaviors, establishing a feedforward malignancy loop. SPP1 regulates cell proliferation, adhesion, and migration by binding to various integrins via its arginine-glycine-aspartic acid (RGD) domain. 26 SPP1 could promote macrophage M2 polarization through directly interacting with CD44 receptors in macrophages, 33 , 34 establishing SPP1-CD44 signaling as a pivotal immunosuppression driver. SPP1 macrophages induce immunosuppression in ovarian cancer through the SPP1-CD44 axis, 35 implying its therapeutic potential. For instance, supporting evidence shows that SPP1 knockdown significantly inhibits xenograft tumor growth and M2 macrophage infiltration in esophageal squamous cell carcinoma through regulation of the CD44/PI3K/AKT signaling pathway. 26 Tetrahydrocurcumin impedes colorectal carcinogenesis by blockade of SPP1/CD44-mediated M2 macrophage polarization. 36 In addition, SPP1 activates JAK2/STAT3 signaling to drive M2 polarization. 37 Nasopharyngeal carcinoma-derived SPP1 specifically activating the integrated CD44/JAK2/STAT3 pathway to recruit and polarize M2 macrophages, positioning this mechanism as a promising prognostic biomarker and immunotherapy target. 25 Our mechanistic studies revealed that thyroid cancer-derived exosomal SPP1 directly engages CD44 receptors in macrophages, activating the downstream JAK2/STAT3 signaling pathway. Genetic ablation of exosomal SPP1 or pharmacological blockade of CD44 effectively reversed M2 macrophage polarization and abolished its pro-tumorigenic effects, confirming the SPP1/CD44 axis as the central signaling node in regulating TME. Importantly, in vivo validation in xenograft models demonstrated that SPP1-deficient exosomes reversed tumor growth and attenuated M2 macrophage infiltration, providing translational evidence for targeting this pathway. Collectively, these findings position exosomal SPP1 as a master regulator of TAM phenotype in thyroid cancer. CD44, a widely expressed non-kinase transmembrane glycoprotein, plays a central role in the proliferation, invasion, metastasis, and drug resistance of various solid tumors. 38 , 39 Of particular importance, CD44 is recognized as a key marker of cancer stem cells, associated with tumor initiation, self-renewal, and chemotherapy resistance. 40 , 41 The upregulation of CD44 expression and its clinical significance in thyroid cancer have been confirmed by multiple studies. For instance, a bioinformatics analysis revealed the hypomethylation and upregulation of CD44 in thyroid cancer. 31 Furthermore, a survival analysis showed that the up-regulation of CD44 is associated with the favorable and unfavorable outcomes of patients with thyroid cancer. 42 Functional assays demonstrated that γ-glutamylcyclotransferase suppresses the growth and metastasis ability of PTC cells by stabilizing CD44 expression. 43 It is important to note that CD44 exists as multiple isoforms, primarily including the standard form (CD44s) and variant isoforms (e.g. CD44v6), which exert distinct biological functions in cancer progression. 38 CD44s has been specifically implicated in promoting invasion within RAS-driven thyroid tumors, 44 while the variant CD44v6 is emerging as a promising therapeutic target for highly aggressive thyroid carcinomas and is currently under clinical evaluation. 45 , 46 Our study demonstrates the essential role of the CD44 receptor family in mediating exosomal SPP1 signaling through using a pan-CD44 antibody. However, the specific isoform preferentially engaged by exosomal SPP1 in the thyroid cancer microenvironment remain to be determined. Future studies utilizing isoform-specific reagents or genetic approaches are warranted to delineate this interaction with greater precision. Defining the specific CD44 variant partner for SPP1 could significantly refine potential therapeutic strategies aimed at disrupting this critical axis in the tumor microenvironment. Our findings hold dual clinical significance. First, circulating exosomal SPP1 levels may serve as non-invasive biomarkers for predicting M2 TAM infiltration and disease aggressiveness, complementing current diagnostic frameworks. Second, targeting exosomal SPP1 or its receptor CD44 represents a promising immunomodulatory strategy for advanced thyroid cancer, particularly for radioiodine-resistant cases where TAM-driven immunosuppression. Meanwhile, we also recognize that there are some limitations in certain aspects. First, our clinical cohort from a single institution remains relatively small, limiting the generalizability of these findings. Further studies with expanded multi-center cohorts are needed to validate our findings and investigate the correlation between SPP1 expression and metastasis, prognostic outcomes, and disease progression in thyroid cancer patients. Second, our mechanistic studies employed the THP-1 monocytic cell line, a standardized model for human macrophage research. Verification using primary monocytes isolated from human peripheral blood would further strengthen the translational relevance of our conclusions. Third, co-culture cell model and xenograft tumor model cannot fully recapitulate the spatial heterogeneity and dynamic cellular crosstalk of human TME. Clinical translation of these mechanisms requires further validation in patient-derived organoids and humanized mouse models that preserve tumor-stroma-immune interactions. Fourth, the detailed kinetic profile of exosome-induced phenotypic changes, such as the onset and duration of effects on cell migration, remains to be elucidated in future time-course studies. Finally, while our study demonstrates the essential role of the CD44 receptor family using a pan-CD44 antibody, the specific isoform (e.g. CD44s or CD44v6) engaged by exosomal SPP1 remains to be determined. Future studies with isoform-specific tools are needed for precise mechanistic delineation. Taken together, our findings confirm the upregulation of SPP1 in thyroid cancer tissues. Thyroid cancer-derived exosomal SPP1 induces macrophage M2 polarization through CD44/JAK2/STAT3 signaling pathway, thereby accelerating malignant tumor progression. This work elucidates a novel paracrine mechanism within the thyroid cancer microenvironment and identifies the SPP1-CD44 axis as a promising therapeutic target to disrupt protumoral immune crosstalk.",
+      "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "cit0001",
+      "label": "1.",
+      "journal": "Adv Exp Med Biol",
+      "year": "2021",
+      "volume": "1287",
+      "fpage": "155",
+      "lpage": "168",
+      "doi": "10.1007/978-3-030-55031-8_10",
+      "pmid": "33034031",
+      "pmc_id": "PMC8422843"
+    },
+    {
+      "ref_id": "cit0002",
+      "label": "2.",
+      "title": "Sex differences in differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2022",
+      "volume": "32",
+      "issue": "3",
+      "fpage": "224",
+      "lpage": "235",
+      "doi": "10.1089/thy.2021.0361",
+      "pmid": "34969307"
+    },
+    {
+      "ref_id": "cit0003",
+      "label": "3.",
+      "title": "Thyroid cancer: epidemiology, classification, risk factors, diagnostic and prognostic markers, and current treatment strategies",
+      "journal": "Int J Mol Sci",
+      "year": "2025",
+      "volume": "26",
+      "issue": "11",
+      "fpage": "5173",
+      "doi": "10.3390/ijms26115173",
+      "pmid": "40507982",
+      "pmc_id": "PMC12155147"
+    },
+    {
+      "ref_id": "cit0004",
+      "label": "4.",
+      "title": "Spatial and single-cell transcriptomics unraveled spatial evolution of papillary thyroid cancer",
+      "journal": "Adv Sci (Weinh)",
+      "year": "2025",
+      "volume": "12",
+      "issue": "2",
+      "elocation_id": "e2404491",
+      "doi": "10.1002/advs.202404491",
+      "pmid": "39540244",
+      "pmc_id": "PMC11727256"
+    },
+    {
+      "ref_id": "cit0005",
+      "label": "5.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Triggers of thyroid cancer diagnosis: a systematic review and meta-analysis",
+      "journal": "Endocrine",
+      "year": "2021",
+      "volume": "72",
+      "issue": "3",
+      "fpage": "644",
+      "lpage": "659",
+      "doi": "10.1007/s12020-020-02588-8",
+      "pmid": "33512656"
+    },
+    {
+      "ref_id": "cit0006",
+      "label": "6.",
+      "title": "Thyroid cancer: a review",
+      "journal": "J Am Med Assoc",
+      "year": "2024",
+      "volume": "331",
+      "issue": "5",
+      "fpage": "425",
+      "lpage": "435",
+      "doi": "10.1001/jama.2023.26348",
+      "pmid": "38319329"
+    },
+    {
+      "ref_id": "cit0007",
+      "label": "7.",
+      "title": "Thyroid cancer, recent advances in diagnosis and therapy",
+      "journal": "Int J Cancer",
+      "year": "2021",
+      "volume": "149",
+      "issue": "5",
+      "fpage": "984",
+      "lpage": "992",
+      "doi": "10.1002/ijc.33690",
+      "pmid": "34013533"
+    },
+    {
+      "ref_id": "cit0008",
+      "label": "8.",
+      "title": "Metabolic reprogramming in thyroid carcinoma",
+      "journal": "Front Oncol",
+      "year": "2018",
+      "volume": "8",
+      "fpage": "82",
+      "doi": "10.3389/fonc.2018.00082",
+      "pmid": "29629339",
+      "pmc_id": "PMC5876306"
+    },
+    {
+      "ref_id": "cit0009",
+      "label": "9.",
+      "title": "Radioiodine therapy of advanced differentiated thyroid cancer: clinical considerations and multidisciplinary approach",
+      "journal": "Q J Nucl Med Mol Imaging",
+      "year": "2019",
+      "volume": "63",
+      "issue": "3",
+      "fpage": "229",
+      "lpage": "234",
+      "doi": "10.23736/S1824-4785.19.03190-X",
+      "pmid": "31271270"
+    },
+    {
+      "ref_id": "cit0010",
+      "label": "10.",
+      "title": "Tumor-associated macrophage subsets: shaping polarization and targeting",
+      "journal": "Int J Mol Sci",
+      "year": "2023",
+      "volume": "24",
+      "issue": "8",
+      "fpage": "7493",
+      "doi": "10.3390/ijms24087493",
+      "pmid": "37108657",
+      "pmc_id": "PMC10138703"
+    },
+    {
+      "ref_id": "cit0011",
+      "label": "11.",
+      "title": "Metabolism, metabolites, and macrophages in cancer",
+      "journal": "J Hematol Oncol",
+      "year": "2023",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "80",
+      "doi": "10.1186/s13045-023-01478-6",
+      "pmid": "37491279",
+      "pmc_id": "PMC10367370"
+    },
+    {
+      "ref_id": "cit0012",
+      "label": "12.",
+      "title": "Shaping polarization of tumor-associated macrophages in cancer immunotherapy",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "888713",
+      "doi": "10.3389/fimmu.2022.888713",
+      "pmid": "35844605",
+      "pmc_id": "PMC9280632"
+    },
+    {
+      "ref_id": "cit0013",
+      "label": "13.",
+      "title": "Tumor-associated macrophages as a potential therapeutic target in thyroid cancers",
+      "journal": "Cancer Immunol Immunother",
+      "year": "2023",
+      "volume": "72",
+      "issue": "12",
+      "fpage": "3895",
+      "lpage": "3917",
+      "doi": "10.1007/s00262-023-03549-6",
+      "pmid": "37796300",
+      "pmc_id": "PMC10992981"
+    },
+    {
+      "ref_id": "cit0014",
+      "label": "14.",
+      "title": "Exosomes and their role in cancer progression",
+      "journal": "Yonago Acta Med",
+      "year": "2019",
+      "volume": "62",
+      "issue": "2",
+      "fpage": "182",
+      "lpage": "190",
+      "doi": "10.33160/yam.2019.06.002",
+      "pmid": "31320822",
+      "pmc_id": "PMC6584259"
+    },
+    {
+      "ref_id": "cit0015",
+      "label": "15.",
+      "title": "Role of cancer cell-derived exosomal glycoproteins in macrophage polarization",
+      "journal": "Mol Biol Rep",
+      "year": "2025",
+      "volume": "52",
+      "issue": "1",
+      "fpage": "451",
+      "doi": "10.1007/s11033-025-10535-x",
+      "pmid": "40347313"
+    },
+    {
+      "ref_id": "cit0016",
+      "label": "16.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Exosome circATP8A1 induces macrophage M2 polarization by regulating the miR-1-3p/STAT6 axis to promote gastric cancer progression",
+      "journal": "Mol Cancer",
+      "year": "2024",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "49",
+      "doi": "10.1186/s12943-024-01966-4",
+      "pmid": "38459596",
+      "pmc_id": "PMC10921793"
+    },
+    {
+      "ref_id": "cit0017",
+      "label": "17.",
+      "title": "Gastric cancer cell-derived exosomal miR-541-5p induces M2 macrophage polarization through DUSP3/JAK2/STAT3 pathway",
+      "journal": "BMC Cancer",
+      "year": "2024",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "957",
+      "doi": "10.1186/s12885-024-12672-1",
+      "pmid": "39103776",
+      "pmc_id": "PMC11302208"
+    },
+    {
+      "ref_id": "cit0018",
+      "label": "18.",
+      "journal": "Adv Clin Chem",
+      "year": "2024",
+      "volume": "118",
+      "fpage": "87",
+      "lpage": "110",
+      "doi": "10.1016/bs.acc.2023.11.002",
+      "pmid": "38280808"
+    },
+    {
+      "ref_id": "cit0019",
+      "label": "19.",
+      "title": "LncRNA TRPM2-AS promotes endometrial carcinoma progression and angiogenesis via targeting miR-497-5p/SPP1 axis",
+      "journal": "Cell Mol Biol Lett",
+      "year": "2024",
+      "volume": "29",
+      "issue": "1",
+      "fpage": "93",
+      "doi": "10.1186/s11658-024-00612-7",
+      "pmid": "38956502",
+      "pmc_id": "PMC11218065"
+    },
+    {
+      "ref_id": "cit0020",
+      "label": "20.",
+      "title": "microRNA-944 inhibits breast cancer cell proliferation and promotes cell apoptosis by reducing SPP1 through inactivating the PI3K/Akt pathway",
+      "journal": "Apoptosis",
+      "year": "2023",
+      "volume": "28",
+      "issue": "11-12",
+      "fpage": "1546",
+      "lpage": "1563",
+      "doi": "10.1007/s10495-023-01870-0",
+      "pmid": "37486406"
+    },
+    {
+      "ref_id": "cit0021",
+      "label": "21.",
+      "title": "Upregulation of SPP1 is a marker for poor lung cancer prognosis and contributes to cancer progression and cisplatin resistance",
+      "journal": "Front Cell Dev Biol",
+      "year": "2021",
+      "volume": "9",
+      "elocation_id": "646390",
+      "doi": "10.3389/fcell.2021.646390",
+      "pmid": "33996808",
+      "pmc_id": "PMC8116663"
+    },
+    {
+      "ref_id": "cit0022",
+      "label": "22.",
+      "title": "Identification of SPP1(+) macrophages in promoting cancer stemness via vitronectin and CCL15 signals crosstalk in liver cancer",
+      "journal": "Cancer Lett",
+      "year": "2024",
+      "volume": "604",
+      "elocation_id": "217199",
+      "doi": "10.1016/j.canlet.2024.217199",
+      "pmid": "39216547"
+    },
+    {
+      "ref_id": "cit0023",
+      "label": "23.",
+      "title": "SPP1+ macrophages promote head and neck squamous cell carcinoma progression by secreting TNF-α and IL-1β",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2024",
+      "volume": "43",
+      "issue": "1",
+      "fpage": "332",
+      "doi": "10.1186/s13046-024-03255-w",
+      "pmid": "39726047",
+      "pmc_id": "PMC11670405"
+    },
+    {
+      "ref_id": "cit0024",
+      "label": "24.",
+      "title": "SPP1 mRNA expression is associated with M2 macrophage infiltration and poor prognosis in triple-negative breast cancer",
+      "journal": "Curr Issues Mol Biol",
+      "year": "2024",
+      "volume": "46",
+      "issue": "12",
+      "fpage": "13499",
+      "lpage": "13513",
+      "doi": "10.3390/cimb46120806",
+      "pmid": "39727934",
+      "pmc_id": "PMC11674533"
+    },
+    {
+      "ref_id": "cit0025",
+      "label": "25.",
+      "title": "SPP1-mediated M2 macrophage polarization shapes the tumor microenvironment and enhances prognosis and immunotherapy guidance in nasopharyngeal carcinoma",
+      "journal": "Int Immunopharmacol",
+      "year": "2025",
+      "volume": "147",
+      "elocation_id": "113944",
+      "doi": "10.1016/j.intimp.2024.113944",
+      "pmid": "39742726"
+    },
+    {
+      "ref_id": "cit0026",
+      "label": "26.",
+      "title": "SPP1 represents a therapeutic target that promotes the progression of oesophageal squamous cell carcinoma by driving M2 macrophage infiltration",
+      "journal": "Br J Cancer",
+      "year": "2024",
+      "volume": "130",
+      "issue": "11",
+      "fpage": "1770",
+      "lpage": "1782",
+      "doi": "10.1038/s41416-024-02683-x",
+      "pmid": "38600327",
+      "pmc_id": "PMC11130281"
+    },
+    {
+      "ref_id": "cit0027",
+      "label": "27.",
+      "title": "Investigation of scutellaria Barbata's immunological mechanism against thyroid cancer using network pharmacology and experimental validation",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "2490",
+      "doi": "10.1038/s41598-025-86733-1",
+      "pmid": "39833432",
+      "pmc_id": "PMC11747344"
+    },
+    {
+      "ref_id": "cit0028",
+      "label": "28.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Hypoxic tumor-derived exosomal miR-4488 induces macrophage M2 polarization to promote liver metastasis of pancreatic neuroendocrine neoplasm through RTN3/FABP5 mediated fatty acid oxidation",
+      "journal": "Int J Biol Sci",
+      "year": "2024",
+      "volume": "20",
+      "issue": "8",
+      "fpage": "3201",
+      "lpage": "3218",
+      "doi": "10.7150/ijbs.96831",
+      "pmid": "38904015",
+      "pmc_id": "PMC11186367"
+    },
+    {
+      "ref_id": "cit0029",
+      "label": "29.",
+      "title": "SPP1 could be an immunological and prognostic biomarker: from pan-cancer comprehensive analysis to osteosarcoma validation",
+      "journal": "FASEB J",
+      "year": "2024",
+      "volume": "38",
+      "issue": "14",
+      "elocation_id": "e23783",
+      "doi": "10.1096/fj.202400622RR",
+      "pmid": "39037571"
+    },
+    {
+      "ref_id": "cit0030",
+      "label": "30.",
+      "title": "Gene expression profile of epithelial-mesenchymal transition mediators in papillary thyroid cancer",
+      "journal": "Endocrine",
+      "year": "2021",
+      "volume": "72",
+      "issue": "2",
+      "fpage": "452",
+      "lpage": "461",
+      "doi": "10.1007/s12020-020-02466-3",
+      "pmid": "32914379"
+    },
+    {
+      "ref_id": "cit0031",
+      "label": "31.",
+      "title": "Identification of candidate aberrantly methylated and differentially expressed genes in thyroid cancer",
+      "journal": "J Cell Biochem",
+      "year": "2018",
+      "volume": "119",
+      "issue": "11",
+      "fpage": "8797",
+      "lpage": "8806",
+      "doi": "10.1002/jcb.27129",
+      "pmid": "30069928",
+      "pmc_id": "PMC6220990"
+    },
+    {
+      "ref_id": "cit0032",
+      "label": "32.",
+      "title": "Novel T cell exhaustion gene signature to predict prognosis and immunotherapy response in thyroid carcinoma from integrated RNA-sequencing analysis",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "8375",
+      "doi": "10.1038/s41598-024-58419-7",
+      "pmid": "38600248",
+      "pmc_id": "PMC11006682"
+    },
+    {
+      "ref_id": "cit0033",
+      "label": "33.",
+      "title": "Single-cell transcriptomic analysis revealed a critical role of SPP1/CD44-Mediated crosstalk between macrophages and cancer cells in glioma",
+      "journal": "Front Cell Dev Biol",
+      "year": "2021",
+      "volume": "9",
+      "elocation_id": "779319",
+      "doi": "10.3389/fcell.2021.779319",
+      "pmid": "34805184",
+      "pmc_id": "PMC8602110"
+    },
+    {
+      "ref_id": "cit0034",
+      "label": "34.",
+      "title": "Macrophages cytokine Spp1 increases growth of prostate intraepithelial neoplasia to promote prostate tumor progression",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "23",
+      "issue": "8",
+      "fpage": "4247",
+      "doi": "10.3390/ijms23084247",
+      "pmid": "35457063",
+      "pmc_id": "PMC9027984"
+    },
+    {
+      "ref_id": "cit0035",
+      "label": "35.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Targeting SPP1(+) macrophages via the SPP1-CD44 axis reveals a key mechanism of immune suppression and tumor progression in ovarian cancer",
+      "journal": "Int Immunopharmacol",
+      "year": "2025",
+      "volume": "160",
+      "elocation_id": "114906",
+      "doi": "10.1016/j.intimp.2025.114906",
+      "pmid": "40446696"
+    },
+    {
+      "ref_id": "cit0036",
+      "label": "36.",
+      "title": "Tetrahydrocurcumin alleviates colorectal tumorigenesis by modulating the SPP1/CD44 axis and preventing M2 tumor-associated macrophage polarization",
+      "journal": "Phytomedicine",
+      "year": "2025",
+      "volume": "141",
+      "elocation_id": "156674",
+      "doi": "10.1016/j.phymed.2025.156674",
+      "pmid": "40220425"
+    },
+    {
+      "ref_id": "cit0037",
+      "label": "37.",
+      "title": "SPP1 promotes the polarization of M2 macrophages through the Jak2/Stat3 signaling pathway and accelerates the progression of idiopathic pulmonary fibrosis",
+      "journal": "Int J Mol Med",
+      "year": "2024",
+      "volume": "54",
+      "issue": "4",
+      "fpage": "89",
+      "doi": "10.3892/ijmm.2024.5413",
+      "pmid": "39129313",
+      "pmc_id": "PMC11335352"
+    },
+    {
+      "ref_id": "cit0038",
+      "label": "38.",
+      "title": "CD44: a multifunctional mediator of cancer progression",
+      "journal": "Biomolecules",
+      "year": "2021",
+      "volume": "11",
+      "issue": "12",
+      "fpage": "1850",
+      "doi": "10.3390/biom11121850",
+      "pmid": "34944493",
+      "pmc_id": "PMC8699317"
+    },
+    {
+      "ref_id": "cit0039",
+      "label": "39.",
+      "title": "CD44 and its implication in neoplastic diseases",
+      "journal": "MedComm",
+      "year": "2024",
+      "volume": "5",
+      "issue": "6",
+      "fpage": "2020",
+      "doi": "10.1002/mco2.554",
+      "pmc_id": "PMC11112461",
+      "pmid": "38783892"
+    },
+    {
+      "ref_id": "cit0040",
+      "label": "40.",
+      "title": "AGD1/USP10/METTL13 complexes enhance cancer stem cells proliferation and diminish the therapeutic effect of docetaxel via CD44 m6A modification in castration resistant prostate cancer",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2025",
+      "volume": "44",
+      "issue": "1",
+      "fpage": "12",
+      "doi": "10.1186/s13046-025-03272-3",
+      "pmid": "39806412",
+      "pmc_id": "PMC11730809"
+    },
+    {
+      "ref_id": "cit0041",
+      "label": "41.",
+      "authors": [
+        "et al."
+      ],
+      "title": "USP10 deubiquitinates and stabilizes CD44 leading to enhanced breast cancer cell proliferation, stemness and metastasis",
+      "journal": "Biochem J",
+      "year": "2024",
+      "volume": "481",
+      "issue": "24",
+      "fpage": "1877",
+      "lpage": "1900",
+      "doi": "10.1042/BCJ20240611",
+      "pmid": "39564770"
+    },
+    {
+      "ref_id": "cit0042",
+      "label": "42.",
+      "title": "A biomarker and molecular mechanism investigation for thyroid cancer",
+      "journal": "Cent Eur J Immunol",
+      "year": "2023",
+      "volume": "48",
+      "issue": "3",
+      "fpage": "203",
+      "lpage": "218",
+      "doi": "10.5114/ceji.2023.132163",
+      "pmid": "37901864",
+      "pmc_id": "PMC10604643"
+    },
+    {
+      "ref_id": "cit0043",
+      "label": "43.",
+      "authors": [
+        "et al."
+      ],
+      "title": "MiR-205-5p/GGCT attenuates growth and metastasis of papillary thyroid cancer by regulating CD44",
+      "journal": "Endocrinology",
+      "year": "2022",
+      "volume": "163",
+      "issue": "4",
+      "doi": "10.1210/endocr/bqac022",
+      "pmc_id": "PMC8944316",
+      "pmid": "35213720"
+    },
+    {
+      "ref_id": "cit0044",
+      "label": "44.",
+      "title": "Alterations in gene expression associated with invasion of RAS-mutant thyroid tumors and their potential diagnostic and therapeutic utility",
+      "journal": "Eur Thyroid J",
+      "year": "2025",
+      "volume": "14",
+      "issue": "3",
+      "fpage": "e250022",
+      "doi": "10.1530/ETJ-25-0022",
+      "pmid": "40440326",
+      "pmc_id": "PMC12152851"
+    },
+    {
+      "ref_id": "cit0045",
+      "label": "45.",
+      "title": "CD44v6 expression in non-anaplastic thyroid carcinoma: characterization of candidates for targeted therapy",
+      "journal": "Thyroid Res",
+      "year": "2025",
+      "volume": "18",
+      "issue": "1",
+      "fpage": "47",
+      "doi": "10.1186/s13044-025-00266-3",
+      "pmid": "41039489",
+      "pmc_id": "PMC12492884"
+    },
+    {
+      "ref_id": "cit0046",
+      "label": "46.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Dual-nuclide biodistribution and therapeutic evaluation of a novel antibody-based radiopharmaceutical in anaplastic thyroid cancer xenografts",
+      "journal": "Mol Cancer Ther",
+      "year": "2025",
+      "volume": "24",
+      "issue": "5",
+      "fpage": "753",
+      "lpage": "762",
+      "doi": "10.1158/1535-7163.MCT-24-0524",
+      "pmid": "39976160",
+      "pmc_id": "PMC12046332"
+    }
+  ]
+}

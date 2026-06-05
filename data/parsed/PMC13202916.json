@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "title": "Arecoline-induced EV-mediated ZNF582 hypermethylation drives IFIT1–PD-L1 immune evasion in oral squamous cell carcinoma",
+    "authors": [
+      "Hui-Hsin Ko",
+      "Hsin-Hui Peng",
+      "Chun-Pin Chiang",
+      "Hsiang-Fong Kao",
+      "Hung-Ying Lin",
+      "Mark Yen-Ping Kuo",
+      "Shih-Jung Cheng"
+    ],
+    "journal": "Clinical Epigenetics",
+    "year": "2026",
+    "doi": "10.1186/s13148-026-02066-4",
+    "pmc_id": "PMC13202916",
+    "pmid": "42185863",
+    "full_text_available": true,
+    "section_count": 27,
+    "reference_count": 36
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background This study examined the role of arecoline-induced zinc finger protein 582 (ZNF582) methylation via extracellular vesicles (EVs) in oral squamous cell carcinoma (OSCC) and its effect on PD-L1 expression through the interferon-induced protein with tetratricopeptide repeats 1 (IFIT1) pathway. Materials and methods EVs were isolated from SAS and TW2.6 cancer cell lines using ultracentrifugation and characterized using electron microscopy. ZNF582 methylation and protein expression were assessed, with stemness and epithelial-mesenchymal transition (EMT) markers analyzed via Western blotting. T cell populations were evaluated using flow cytometry. Results Arecoline-induced ZNF582 methylation via EVs reduced protein expression. ZNF582 knockdown promoted OSCC proliferation, migration, stemness, and EMT, and increased PD-L1 expression, aiding immune evasion via IFIT1. PD-L1 expression was linked to lower CD4+/CD8 + T cell ratios in OSCC patients. Conclusion Arecoline-induced ZNF582 hypermethylation via EVs promotes immune evasion through IFIT1, suggesting a potential therapeutic target for OSCC treatment. Clinical relevance Targeting the EV-mediated ZNF582 - IFIT1 - PD-L1 pathway may offer new therapeutic strategies for immune modulation in OSCC patients, especially those with a history of areca nut exposure. Supplementary Information The online version contains supplementary material available at 10.1186/s13148-026-02066-4.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "According to 2020 cancer mortality data from Taiwan’s Ministry of Health and Welfare, oral cancer is the fourth leading cause of cancer-related deaths among men, with over 80% of cases linked to betel quid chewing. Oral cancer patients have the youngest average age of death among the top five cancers, highlighting its importance in public health. Despite surgical resection, advanced oral cancer has a local recurrence rate of 40%, and the 5-year survival rate remains at 45%–50%. Improving outcomes requires the exploration of metastasis, drug resistance, and recurrence mechanisms in betel quid-induced oral cancer, focusing on cancer stem cells and the tumor microenvironment (TME). DNA methylation, a chemical modification of DNA, plays a crucial role in cancer development. This process primarily occurs in cytosine-guanine dinucleotide sequences (CpG islands), where a methyl group is added to cytosine [ 1 ]. DNA methylation regulates tumor suppressor and embryonic genes, often accumulating in cancerous or precancerous cells. Analyzing DNA methylation can help detect or predict cancer progression and guide the development of demethylation therapies. Studies have shown that the methylation of genes such as p53, c-Myc, Ras, EGFR, VEGF, PlGF, and SOX9 may contribute to oral cancer development. Additionally, the methylation of five tumor suppressor genes (SOX1, ZNF582, PAX1, NKX6, and PTPRR) is linked to cancer progression, suggesting similar mechanisms in oral cancer [ 1 , 2 ]. In 1991, zinc finger (ZNF) proteins with a Krüppel-associated box (KRAB-containing proteins) were identified, which encode the Krüppel-type ZNF582, containing one KRAB-A-B domain and nine ZNF motifs. The KRAB-ZNF family likely comprises various physiological processes associated with DNA damage repair, cell cycle control, and neoplastic transformation [ 3 , 4 ]. Hypermethylated ZNF582 is also found in cervical neoplasms [ 5 ]. Our previous research identified ZNF582 gene methylation as a promising biomarker for detecting oral mucosal diseases and predicting oral cancer progression. We observed that ZNF582 methylation levels correlated with disease severity, ranging from normal oral mucosa (NOM) to dysplasia and oral squamous cell carcinoma (OSCC). Moreover, ZNF582 methylation was strongly associated with various oral mucosal diseases, particularly in patients who chewed betel quid alone or with smoking and/or alcohol consumption [ 6 ]. Additionally, results from mouthwash-based sampling of oral mucosal cells mirrored those obtained via scraping [ 7 ]. Higher ZNF582 methylation in the normal mucosa adjacent to tumors was linked to faster cancer progression and shorter survival times [ 8 ]. This suggests that ZNF582 methylation changes occur earlier than visible mucosal alterations and may be more accurate than clinical visual examinations. However, the mechanism by which ZNF582 hypermethylation promotes disease progression remains unclear. We found that oxidative stress increases extracellular vesicle (EV) secretion, which contributes to cancer development. EVs, lipid bilayer vesicles discovered in the 1970s, are released through various mechanisms such as shedding or budding [ 9 ]. Tumor cells secrete EVs, facilitating paracrine and endocrine signaling within the TME. These EVs transport nucleic acids, proteins, and lipids, promoting epithelial-mesenchymal transition (EMT), creating a pre-metastatic niche, and fostering drug resistance, cancer recurrence, or metastasis. Research has shown [ 10 ] that EVs can encapsulate mitochondrial DNA (mtDNA), a circular chromosome encoding 13 proteins essential for metabolism. Unlike nuclear DNA, mtDNA lacks histone protection, making it vulnerable to oxidative stress, which allows it to move into the cytosol. Tumor cells with damaged mitochondria release mtDNA, particularly mtDNA D-loop, into the cytosol, triggering immune responses, such as the production of interferon-stimulated genes. Recent studies have reported that exosomes carrying mtDNA D-loop are closely linked to cancer progression, invasion [ 11 ], metastasis [ 12 ], and chemotherapy resistance [ 13 ]. Additionally, the immune inhibitory protein programmed cell death ligand 1 (PD-L1) can be packaged within EVs and secreted on tumor cell membranes. Elevated levels of EV PD-L1 correlate with tumor progression [ 14 ]. EV PD-L1 suppresses T-cell function via regional lymphatic or systemic immune pathways [ 15 ]. High levels of circulating EV PD-L1 have been associated with failures in anti-PD-L1/PD-1 therapies [ 16 ]. Our previous research showed that under oxidative stress, the mitochondrial Lon protein promoted the translocation of mtDNA D-loop into the cytosol, activating the cGAS-STING-TBK1 pathway. This triggered interferon signaling and led to PD-L1 production. Excessive EV secretion containing mtDNA D-loop and PD-L1 contributed to immune suppression in the TME [ 17 ]. However, research on the effect of arecoline, a betel quid alkaloid, on EV production and its contents in oral cancer cells remains limited. No studies have reported how arecoline affects ZNF582 methylation. This study aimed to investigate whether arecoline influences ZNF582 methylation in OSCC cells. Furthermore, we sought to understand how these changes affect downstream target genes, promoting cancer stem cell characteristics and contributing to immune suppression within the TME.",
+      "order": 1
+    },
+    {
+      "section": "Patient Data And Samples",
+      "text": "A total of 58 patients with primary OSCC, diagnosed between January 2018 and December 2020 at National Taiwan University Hospital (NTUH), were included in this study, which received approval from the NTUH Research Ethics Committee (reference number: 201811052RINB). All participants provided written informed consent and underwent surgical excision of their primary lesions at the Department of Oral and Maxillofacial Surgery, NTUH. The mean follow-up period from diagnosis to death or the last follow-up was 15 months, whereas the median follow-up period was 14 months (range: 3–37 months). Surgical specimens and blood samples were collected for subsequent experiments. Tumor staging was determined according to the 8th version of the American Joint Committee on Cancer (AJCC) staging system [ 18 ]. Demographic and clinicopathological data as well as oral habits were recorded, with regular alcohol drinkers defined as those consuming alcohol more than once per week for at least a year, regular betel quid chewers as those chewing one or more pieces daily for at least a year, and regular cigarette smokers as those smoking 10 or more cigarettes daily for at least a year. Twenty-five participants without oral mucosal diseases, recruited during odontectomy, served as controls (Table 1 ).",
+      "order": 2
+    },
+    {
+      "section": "Cell Culture And Arecoline Treatment",
+      "text": "The conditions for cell culture followed previously described protocols [ 19 ]. Two stable human OSCC cell lines, SAS and TW2.6 (from tongue and buccal cancers), were used. The cells were cultured in Dulbecco’s modified Eagle’s medium (DMEM; Invitrogen Corporation, Waltham, MA, USA) supplemented with 10% fetal bovine serum (FBS), 100 units/mL of penicillin, and 100 µg/mL of streptomycin, and maintained in a humidified 5% CO₂ atmosphere at 37 °C. To assess the effects of arecoline (Sigma 31593; Sigma-Aldrich, St. Louis, MO, USA), SAS and TW2.6 cells were starved in serum-free medium overnight, followed by treatment with various arecoline concentrations for 0–4 h.",
+      "order": 3
+    },
+    {
+      "section": "Isolation And Purification Of Evs",
+      "text": "EV isolation was performed using differential centrifugation techniques outlined in a previous study [ 17 ]. In short, the culture medium underwent centrifugation at 300 × g for 10 min to remove cells, followed by spinning at 3000 × g and 10,000 × g to remove debris. The resulting supernatant was centrifuged at 120,000 × g for 90 min to pellet the EVs, which were then washed with phosphate buffered saline. The method mirrored that used for patient blood samples. EV concentration was expressed in µg/µL.",
+      "order": 4
+    },
+    {
+      "section": "Transmission Electron Microscopy Characterization Of Evs",
+      "text": "The morphology and size of EVs were characterized using transmission electron microscopy (TEM), in accordance with previously described procedures. Isolated EVs were fixed in 2% glutaraldehyde in 0.1 M phosphate buffer and stained with 2% phosphotungstic acid solution (pH 7.0). Negative staining was applied to carbon support films, and TEM procedures were conducted using Bio Materials Analysis Technology (Bio MA-Tek, Hsinchu, Taiwan).",
+      "order": 5
+    },
+    {
+      "section": "Dna Methylation Test And Dna Methyltransferase Inhibitor",
+      "text": "Our analysis focused on the ZNF582 promoter region by ISO17025 certified laboratory, specifically targeting its CpG islands, which are critical for gene regulation (iStat Biomedical Co., Ltd, New Taipei City, Taiwan). To ensure accurate results, we employed bisulfite conversion, which converts unmethylated cytosines to uracil while leaving methylated cytosines unchanged. Controls were included to confirm the efficiency and specificity of the conversion process: a positive control (unmethylated DNA) showed near 100% conversion efficiency, and a negative control (untreated DNA) confirmed no background signals. After bisulfite treatment, we conducted quantitative methylation-specific polymerase chain reaction (q-MSP) amplification and sequencing to validate that the analyzed CpG sites were within the promoter region. The primers were specifically designed to amplify the ZNF582 promoter CpG island, and sequencing confirmed our analysis focused on these regulatory regions. These sites are strongly associated with transcriptional regulation, supporting the relevance of our findings [ 6 ]. The Cp is the difference of crossing-point (Cp) values between the target gene and COL2A (Cp = Cp Genem –Cp COL2A ). The methylation levels were expressed as the methylation index (M-Index), which was calculated with the formula (2 − Cp ) × 10,000. The DNA methyltransferase inhibitor 5-aza-2’-deoxycytidine (AZC; Sigma-Aldrich) was used for epigenetic modulation.",
+      "order": 6
+    },
+    {
+      "section": "Western Blotting",
+      "text": "Western blotting was performed following standard protocols [ 20 ]. Proteins were separated using 10% sodium dodecyl-sulfate polyacrylamide gel electrophoresis, transferred to nitrocellulose membranes, and incubated with specific primary antibodies, including ZNF582, E-cadherin, N-cadherin, IFIT1, PD-L1, Snail, Vimentin, NANOG, SOX2, OCT4a, and GAPDH. Protein bands were visualized using enhanced chemiluminescence (PerkinElmer, Waltham, MA, USA) and quantified using a Fuji LAS-4000 analyzer.",
+      "order": 7
+    },
+    {
+      "section": "Cell Viability And Proliferation Assay",
+      "text": "Cell viability, proliferation, and cytotoxicity were evaluated using a 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide-based assay, as previously described [ 20 ].",
+      "order": 8
+    },
+    {
+      "section": "In Vitro Migration And Invasion Assay",
+      "text": "Migration and invasion were assessed using a Boyden chamber with 8.0-µm tissue culture inserts. Cells (2–5 × 10⁴) were seeded in serum-free DMEM in the upper chamber, and 2% FBS was added to the lower chamber as a chemoattractant. For invasion assays, OSCC cells (4–10 × 10⁴) were seeded into Matrigel-coated chambers. After 24–48 h, invaded cells were fixed with methanol, stained with 1% crystal violet, and quantified by absorbance at 570 nm.",
+      "order": 9
+    },
+    {
+      "section": "Plasmids, Transient Transfection, And Stable Clone Selection",
+      "text": "Transfections were performed using shRNA plasmids targeting ZNF582 and siRNAs for IFIT1 and PD-L1 [ 21 ]. Lipofectamine™ 3000 was used for stable clone selection, whereas RNAiMAX was applied for siRNA transfections. Successfully transfected cells were confirmed through Western blotting and used for migration and invasion assays.",
+      "order": 10
+    },
+    {
+      "section": "Sphere Culture And Sphere-Forming Assay",
+      "text": "SAS and TW2.6 cells (2 × 10⁴) were seeded in agarose-coated dishes and cultured for 1–2 weeks. Spheres were counted after being cultured for an additional 7 days, followed by methanol fixation and crystal violet staining.",
+      "order": 11
+    },
+    {
+      "section": "Immunofluorescence Staining",
+      "text": "Cells were fixed in 1% paraformaldehyde and stained with ZNF528, IFIT1 and PD-L1 antibodies, followed by incubation with secondary antibodies conjugated with Rhodamine RedTM. Mounting was performed using Prolong Diamond.",
+      "order": 12
+    },
+    {
+      "section": "Enzyme-Linked Immunosorbent Assay And Immunohistochemistry",
+      "text": "PD-L1 serum levels were measured using enzyme-linked immunosorbent assay kits, and tissue samples were stained for ZNF582 and IFIT1 using the peroxidase-labeled streptavidin-biotin technique. The labeling index was calculated as the ratio of immunostained cells to total cancer or epithelial cells. The specimens were formalin-fixed, paraffin-embedded, and immunostained as previously described [ 6 ]. Briefly, antigens were retrieved at 100 °C for 10 min in a 0.1 M citrate buffer after deparaffinized and rehydrated sections of specimens were obtained. H2O2 (3%) was applied to block endogenous peroxidase activity. Sections were then incubated with rabbit anti-ZNF582 polyclonal antibody (1:1000 dilution, GeneTex, Irvine, CA, USA), mouse anti-IFIT1 monoclonal antibody (1:100 dilution, GeneTex, Hsinchu, Taiwan), and rabbit antibodies to PD-L1 (1:1000 dilution, GeneTex), CD4 and CD8 (1:500 dilution, GeneTex) overnight at 4 °C. Sequential incubations were performed with the aforementioned antibodies, streptavidin-peroxidase conjugate, and diaminobenzidine (BioGenex, San Ramon, CA, USA), followed by counterstaining with hematoxylin and examination via light microscopy. Regarding the quantification of the labeling indices, all counts for ZNF582, IFIT1, PD-L1, CD4 + and CD8+, were carried out using tissue sections at 100x magnification, specifically in areas containing tumor nests. The tumor nests were identified based on histopathological evaluation, and the number of immunostaining-positive cells as a percentage of the total number of counted cancers within these regions. This method ensured that only tumor-associated markers were measured, excluding areas such as normal muscle or stromal tissue.",
+      "order": 13
+    },
+    {
+      "section": "Detection And Isolation Of Cd4+/Cd8 + T Cells Via Flow Cytometry",
+      "text": "T cells from OSCC patient peripheral blood mononuclear cells were stained with carboxyfluorescein succinimidyl ester and isolated using a Pan T Cell Isolation Kit. After stimulation with anti-CD3/CD28 and IL-2, T cell proliferation was analyzed via flow cytometry, and CD4 + and CD8 + ratios were evaluated.",
+      "order": 14
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Data were expressed as the mean ± standard error of the mean. Two-group comparisons were conducted using Student’s t-test, whereas multiple group comparisons employed a one-way analysis of variance. Survival analysis was performed using the Kaplan–Meier method, with the log-rank test used for group comparisons. A p -value of < 0.05 was considered significant.",
+      "order": 15
+    },
+    {
+      "section": "Znf582 Mrna Was Negatively Correlated With An Advanced Tumor-Node-Metastasis Stage And Poor Survival In Oscc Patients",
+      "text": "Fifty-eight OSCC patients (50 men, 8 women, mean age 59 years, range 39–84 years) were analyzed. OSCC cases were localized to the buccal mucosa (33%), tongue (29%), and other oral sites (38%). Tumor-node-metastasis classification revealed 34% stage 1, 16% stage 2, 26% stage 3, and 24% stage 4 (Table 1 ). ZNF582 protein was strongly positive in NOM but weaker in OSCC (Fig. 1 a). ZNF582 mRNA was significantly downregulated in OSCC compared to NOM ( p < 0.001, Fig. 1 b). Higher ZNF582 mRNA △Cq was associated with larger tumor size ( p < 0.01, Fig. 1 c), lymph node metastasis ( p < 0.01, Fig. 1 d), and advanced stage ( p < 0.05, Fig. 1 e). OSCC patients with betel quid chewing or smoking habits had lower ZNF582 mRNA ( p < 0.05, Fig. 1 f). Kaplan–Meier analysis showed shorter survival in patients with ZNF582 mRNA △Cq > 11.4 ( p = 0.029, Fig. 1 g).",
+      "order": 16
+    },
+    {
+      "section": "Arecoline Promoted Hypermethylation Of Znf582 And Inhibited Its Protein Production In Sas And Tw2.6 Cells",
+      "text": "Arecoline treatment at 0.1 mM increased ZNF582 methylation in SAS and TW2.6 cells ( p < 0.001, Fig. 2 a) and significantly reduced ZNF582 protein levels at 0.4 mM ( p < 0.001, Fig. 2 b). Different concentrations of arecoline were applied to separately assess its effects on ZNF582 promoter hypermethylation and protein suppression. A relatively low concentration (0.1 mM) was used in the methylation assay because it represents a physiologically relevant exposure that is sufficient to trigger epigenetic changes without causing significant cytotoxicity, thus allowing us to detect an early effect on DNA methylation. In contrast, a higher concentration (0.4 mM) was necessary to observe a significant reduction in ZNF582 protein levels, as protein suppression typically requires more prolonged or intense exposure. Together, these findings demonstrate a dose-dependent effect: lower concentrations of arecoline induce promoter hypermethylation, while higher concentrations lead to protein suppression. Thus, arecoline promotes hypermethylation of ZNF582, reducing protein production.",
+      "order": 17
+    },
+    {
+      "section": "Arecoline Increased Ev Production, Promoting Znf582 Hypermethylation In Sas And Tw2.6 Cells",
+      "text": "Arecoline-induced SAS and TW2.6 cells secreted more EVs, confirmed by TEM and elevated EV markers CD9 and TSG101 ( p < 0.01, Fig. 3 a, b). Arecoline significantly increased EV secretion ( p < 0.05, Fig. 3 c). The methylation level was significantly higher for EV-stimulated SAS/TW2.6 cells than that without EV pretreatment ( p < 0.01, Fig. 3 d). EV-treated SAS/TW2.6 cells showed reduced ZNF582 expression ( p < 0.01, Fig. 3 e), indicating that EVs promote ZNF582 hypermethylation. Furthermore, EVs from arecoline-treated SAS/TW2.6 cells at the concentration of 0.4 mM significantly promoted DNMT3brelative to EVs without arecoline pretreatment, but not DNMT1 or DNMT3a, protein expression, thereby contributing to ZNF582 hypermethylation ( p < 0.01; ns = not significant, Fig. 3 f). These results suggest that arecoline enhances EV production, which in turn promotes hypermethylation of the ZNF582 gene through its effects on SAS and TW2.6 cells.",
+      "order": 18
+    },
+    {
+      "section": "Znf582 Regulates Emt And Invasion In Oscc Cells",
+      "text": "In SAS and TW2.6 cells, ZNF582 methylation was higher and ZNF582 mRNA expression was lower than in normal cells (Fig. 4 a). Functional assays demonstrated that ZNF582 overexpression significantly suppressed cell invasion, whereas ZNF582 knockdown (shZNF582) conversely enhanced the invasion ability (Fig. 4 b). In addition, representative phase-contrast unstained and immunofluorescent images showed that there were morphological changes in the shZNF582 cells compared to the control (SAS/TW2.6) cells, including the shZNF582 cells exhibiting more elongated and spindle-shaped morphology, reduced cell-cell adhesion, and a less uniform distribution compared to the control SAS cells (Fig. 4 c). Furthermore, shZNF582 SAS/Tw2.6 cells showed significantly reduced protein expression compared with the vector control (Fig. 4 d). Knockdown also significantly elevated N-cadherin, Vimentin, and Snail, while reducing E-cadherin in both SAS and TW2.6 cells (Fig. 4 e). In contrast, overexpressed ZNF582 significantly reduced N-cadherin, Vimentin, and Snail, while elevating E-cadherin in both SAS and TW2.6 cells (Fig. 4 f). These findings indicate that ZNF582 negatively regulates EMT and suppresses the invasive potential of OSCC cells.",
+      "order": 19
+    },
+    {
+      "section": "Ifit1 Is A Downstream Target Involved In Znf582-Regulated Emt And Stemness",
+      "text": "Our earlier study [ 16 ] unveiled a compelling link between mitochondrial DNA leakage, triggered by mitochondrial Lon protease, and the activation of the STING-IFN axis, culminating in PD-L1 upregulation and immune evasion in OSCC. This revelation spotlighted IFN-related signaling as a critical driver of immunosuppressive mechanisms within the OSCC milieu. RNA sequencing of SAS and TW2.6 cells with ZNF582 knockdown revealed a striking pattern: among the total 15,083 genes, 92 differential expression genes (DEGs) were significantly upregulated > 2 folds in shZNF582 SAS/TW2.6 compared to wild type. However, 23 of which were IFN-related, with IFIT1 showing a five-fold increase (Fig. 5 a). IFIT1 expression promoted EMT and stemness, whereas siRNA-mediated IFIT1 knockdown significantly reduced EMT and stemness markers (Fig. 5 b, d), confirming its role in ZNF582-regulated pathways. In addition, the results demonstrated a clear reduction in sphere formation upon siIFIT1 treatment, indicating that IFIT1 played a crucial role in maintaining the stemness properties of these cells (Fig. 5 c). This supports our hypothesis that IFIT1, which is upregulated following ZNF582 knockdown, contributes to the EMT and stemness pathways in OSCC.",
+      "order": 20
+    },
+    {
+      "section": "Znf582 Knockdown Promotes Pd-L1 Expression Through The Ifit1 Pathway",
+      "text": "ZNF582 knockdown in SAS and TW2.6 cells significantly increased PD-L1 expression (Fig. 6 a, b). siRNA-mediated IFIT1 knockdown suppressed PD-L1 expression (Fig. 6 a, b). Fluorescence staining showed elevated IFIT1 and PD-L1 proteins after ZNF582 knockdown (Fig. 6 c), suggesting that ZNF582 knockdown promotes PD-L1 through the IFIT1 pathway.",
+      "order": 21
+    },
+    {
+      "section": "Ifit1 Expression And Pd-L1 Levels Correlated With Clinicopathological Parameters In Oscc Patients",
+      "text": "Among 58 OSCC patients, we included the clinicopathological characteristics and distribution of the 30 patients analyzed in this subset. As shown in Table 1 , the subset of 30 patients is representative of the larger cohort with regard to key characteristics, including age, sex, cancer location, T classification, N classification, clinical staging, histological differentiation, and risk factors (alcohol drinking, betel quid chewing, and cigarette smoking). This ensures that the results derived from the 30 patients are reflective of the broader OSCC population in this study. In 30 OSCC and 17 NOM samples, IFIT1 and PD-L1 immunostaining were higher in OSCC patients ( p < 0.001, Fig. 7 a, b). IFIT1 and PD-L1 were correlated with larger tumor size, lymph node metastasis, and advanced stage ( p < 0.05, Fig. 7 c, d).",
+      "order": 22
+    },
+    {
+      "section": "Znf582 Mrna Expression Was Negatively Correlated With Ifit1 And Pd-L1 Levels In Oscc",
+      "text": "In 30 OSCC patients, ZNF582 mRNA was negatively correlated with IFIT1 ( r = -0.496, p = 0.005, Fig. 8 a) and PD-L1 expression ( r = -0.386, p = 0.035, Fig. 8 c). IFIT1 expression was positively correlated with PD-L1 expression ( r = 0.590, p < 0.001, Fig. 8 b).",
+      "order": 23
+    },
+    {
+      "section": "Impact Of Cd4 + T Cell Reduction",
+      "text": "The CD4+/CD8 + T-cell ratio was significantly lower in OSCC patients than in normal controls ( p < 0.001, Fig. 9 a, b). Reduced CD4 + T-cells in OSCC ( p < 0.0001) may have attenuated anti-tumor immunity, whereas CD8 + T-cell numbers were unchanged (Fig. 9 b). Immunohistochemical staining of OSCC tissues for ZNF582, IFIT1, PD-L1, CD4+, and CD8 + markers. Representative images show differential expression patterns. The bar graph quantifies the labeling indices of these markers in OSCC tissues with statistical significance indicated (Fig. 9 c). Correlation analysis between the CD4+/CD8 + ratio and ZNF582, IFIT1, and PD-L1 labeling indices was performed in OSCC tissues. A positive correlation was observed between the CD4+/CD8 + ratio and ZNF582 expression ( p = 0.032, r = 0.910), while negative correlations were found with IFIT1 ( p = 0.008, r = -0.963) and PD-L1 ( p = 0.013, r = -0.911) expression (Fig. 9 d), suggesting that higher IFIT1/PD-L1 levels may be associated with a reduced CD4+/CD8 + ratio, potentially reflecting immunosuppressive mechanisms.",
+      "order": 24
+    },
+    {
+      "section": "Discussion",
+      "text": "Arecoline, a key component of betel quid, promotes oral cancer cell proliferation, progression, and EMT. It induces metastasis by regulating inflammatory cytokines, including serum amyloid A1, IL-6, IL-36G, and chemokine 2. Arecoline also stimulates the production of epidermal growth factor and IL-6, activating the STAT3 and AKT signaling pathways [ 22 ]. Recent research, including our own studies, has established that ZNF582 methylation is a reliable biomarker for detecting oral mucosal diseases and predicting disease progression. Specifically, ZNF582 methylation is a critical early screening marker for OSCC [ 6 – 8 ]. However, the mechanisms through which arecoline influences ZNF582 expression remain unclear. In this study, we observed that arecoline exposure significantly increased ZNF582 methylation in OSCC cells, leading to reduced ZNF582 protein expression. This knockdown of ZNF582 promoted cancer growth and metastasis by increasing PD-L1 expression via the IFIT1 signaling pathway. EVs, first discovered in the 1970s, are classified into exosomes, microvesicles, and apoptotic bodies, with size ranges of 30–100 nm, 100–1000 nm, and 50–5000 nm, respectively. In our study, we isolated exosomes measuring 30–100 nm from the SAS/TW2.6 OSCC cell lines. These exosomes were characterized by their cellular protein markers, size, and origin [ 23 ]. EVs serve as intercellular messengers in the TME and can induce epigenetic changes, including alterations in DNA methylation that lead to carcinogenesis [ 24 ]. For instance, microvesicles derived from leukemia cells have been shown to enhance DNA methylation in recipient cells through the activity of DNMT1, DNMT3a, and DNMT3b [ 25 ]. Additionally, EVs purified from the gastric fluid of gastric cancer patients have been linked to cancer-related LINE1 and SOX17 DNA methylation [ 26 ]. In earlier studies, we demonstrated that oxidative stress in the TME increases EV production via the mitochondrial Lon-ROS pathway. We also found that arecoline induces the production of EVs that encapsulate mtDNA and PD-L1 in OSCC cells, promoting cancer progression [ 17 ]. In this study, we confirmed that arecoline-induced EVs further increase ZNF582 methylation, inhibiting the tumor-suppressor role of ZNF582. Prolonged exposure to arecoline-induced oxidative stress disrupts cellular metabolic balance, contributing to oral cancer development. The three most common epigenetic modifications in cancer are DNA methylation, histone modifications, and non-coding RNA expression [ 27 ]. DNA methylation typically occurs in CpG-rich promoter regions, leading to gene silencing without alteration of the DNA sequence [ 28 ]. Hypermethylation of tumor suppressor genes can result in carcinogenesis [ 29 ]. Histone modifications, such as acetylation and methylation, influence chromatin structure and gene expression in OSCC. For example, histone deacetylase inhibitors have been shown to reactivate silenced tumor suppressor genes and suppress OSCC metastasis [ 30 ]. Non-coding RNAs, including microRNAs and long non-coding RNAs (lncRNAs), further regulate gene expression by targeting mRNAs or interacting with chromatin-modifying complexes. MicroRNA dysregulation in OSCC is linked to metastasis and therapy resistance, while lncRNAs such as HOTAIR have been implicated in chromatin remodeling and EMT in OSCC [ 31 ]. Therefore, DNA methylation, histone modifications, and non-coding RNAs collectively contribute to OSCC progression. ZNF582 methylation exemplifies how epigenetic alterations can serve as biomarkers and therapeutic targets in OSCC. Our previous work demonstrated that ZNF582 hypermethylation is linked to the severity of oral leukoplakia and poorer survival rates. We found that ZNF582 mRNA expression was significantly lower in OSCC compared to NOM and abnormal oral mucosa (AN) [ 32 ]. ZNF582 mRNA expression was negatively correlated with tumor size, lymph node metastasis, clinical stage, and oral habits, with low expression associated with reduced survival. Data from The Cancer Genome Atlas corroborate these findings, showing high ZNF582 methylation and downregulated mRNA levels in head and neck cancers. Using two stable cancer cell lines with shRNA knockdown of ZNF582, we assessed their functional capabilities. Compared to the vector control, shZNF582-SAS/TW2.6 cells showed significantly higher proliferation, migration, and invasion. These cells also exhibited increased EMT, characterized by the upregulation of Snail, vimentin, and N-cadherin, along with decreased E-cadherin expression. Additionally, shZNF582 cells had a higher rate of tumor sphere formation and overexpression of stemness markers such as NANOG, SOX2, OCT4a, and CD44. These findings suggest that ZNF582 downregulation enhances cell motility, EMT, and stemness. To further investigate how ZNF582 regulates EMT and stemness, RNA sequencing was conducted on shZNF582-SAS/TW2.6 and wild-type control cells. The analysis identified 92 differentially expressed interferon-stimulated genes, with IFIT1 showing significant differential expression. Knockdown of ZNF582 significantly increased IFIT1 expression in both cell lines and OSCC tissue samples, indicating that ZNF582 suppression promotes EMT and stemness through the IFIT1 pathway. The IFIT family, discovered in the 1980s, comprises four members: IFIT1, IFIT2, IFIT3, and IFIT5, all located on chromosome 10q23.31 [ 33 ]. IFIT1 and IFIT3 enhance EMT and promote cancer cell migration and invasion, aligning with our findings [ 34 ]. Conversely, IFIT2 inhibits EMT, and its higher expression is associated with better prognosis in OSCC patients [ 35 ]. Our previous research also showed that oxidative stress activates mitochondrial Lon protein, leading to the release of mtDNA D-loop into the cytosol, which triggers PD-L1 production through the cGAS-STING-TBK1-dependent IFN signaling pathway. This cascade promotes immune evasion by remodeling the TME [ 16 ]. In the current study, we found a significant correlation between IFIT1 and PD-L1 expression in OSCC patient tissues, whereas ZNF582 expression was negatively correlated with IFIT1 and PD-L1. The lower CD4+/CD8 + T-cell ratio observed in OSCC patients highlights an imbalance in the immune system that may weaken anti-tumor immunity. CD4 + T-cells are essential for activating immune responses, and their reduction could impair the body’s ability to control tumor growth. Interestingly, CD8 + T-cell numbers were unaffected, suggesting the imbalance is primarily due to a loss of CD4 + T-cells. This reduction is likely linked to increased PD-L1 expression in OSCC, driven by the ZNF582-IFIT1 pathway. PD-L1 suppresses T-cell activity, particularly CD4 + T-cells, allowing the tumor to evade immune detection and progress. Similar findings in other cancers show that a lower CD4+/CD8 + ratio is associated with advanced stages and worse outcomes in other cancers [ 36 ]. In OSCC, this ratio could serve as a useful marker of immune suppression and disease severity. Therapies targeting PD-L1 or restoring CD4 + T-cell function might help improve immune responses and patient outcomes. Future research should explore these approaches further. In conclusion, this study is the first to demonstrate that ZNF582 methylation suppresses its protein expression, leading to immune evasion through the IFIT1/PD-L1 signaling pathway. However, this study has limitations. The small sample size may have introduced bias, and additional mechanistic studies are needed to clarify whether ZNF582 protein directly interacts with the IFIT1 promoter region. Furthermore, these findings should be validated using in vivo models to confirm the role of the IFIT1/PD-L1 axis in immune evasion. In summary, arecoline enhances ZNF582 methylation, activating the IFIT1 pathway and promoting PD-L1 overexpression, allowing cancer cells to evade immune surveillance. The ZNF582/IFIT1/PD-L1 axis presents a potential biomarker for molecular targeted therapy in OSCC patients.",
+      "order": 25
+    },
+    {
+      "section": "Conclusion",
+      "text": "The hypothetical schematic pathway of OSCC cells illustrates that arecoline induces the excessive production of EVs, which results in the suppression of ZNF582 protein synthesis through DNA hypermethylation (Fig. 10 ). The reduced levels of ZNF582 protein diminish its inhibitory effect on IFIT1, leading to hyperactivation of the downstream IFIT1 pathway. This hyperactivation promotes epithelial-mesenchymal transition (EMT) and enhances stemness. Furthermore, immunosuppression is evident as IFIT1 stimulates the production of the immunosuppressive protein PD-L1 within the TME. A hypothetical schematic pathway of OSCC cells illustrating that arecoline induces the excessive production of EVs, which results in the suppression of ZNF582 protein synthesis through DNA hypermethylation (Fig. 9 ). The reduced levels of ZNF582 protein diminish its inhibitory effect on IFIT1, leading to hyperactivation of the downstream IFIT1 pathway. This hyperactivation promotes EMT and enhances stemness. Furthermore, immunosuppression is evident because IFIT1 stimulates the production of the immunosuppressive protein PD-L1 within the TME.",
+      "order": 26
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Huang Y",
+        "Peng B",
+        "Wu C",
+        "et al."
+      ],
+      "title": "DNA methylation of ZNF582 as a biomarker for oral squamous cell carcinoma",
+      "journal": "Clin Oral Investig",
+      "year": "2014",
+      "volume": "18",
+      "fpage": "801",
+      "lpage": "8",
+      "doi": "10.1007/s00784-013-1023-3",
+      "pmid": "23907469"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Liou Y",
+        "Zhang Y",
+        "Liu Y",
+        "et al."
+      ],
+      "title": "Comparison of HPV genotyping and methylated ZNF582 as triage for women with equivocal liquid-based cytology results",
+      "journal": "Clin Epigenetics",
+      "year": "2015",
+      "volume": "7",
+      "fpage": "50",
+      "doi": "10.1186/s13148-015-0077-8",
+      "pmid": "25945131",
+      "pmc_id": "PMC4419454"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Huang R",
+        "Chang C",
+        "Su P",
+        "et al."
+      ],
+      "title": "Methylomic analysis identifies epigenetically silenced genes in oral squamous cell carcinoma",
+      "journal": "Clin Cancer Res",
+      "year": "2012",
+      "volume": "18",
+      "fpage": "15",
+      "lpage": "23",
+      "doi": "10.1371/journal.pone.0041060"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Chen Y",
+        "Cheng S",
+        "Ko H",
+        "et al."
+      ],
+      "title": "ZNF582 methylation and human papillomavirus are associated with oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2017",
+      "volume": "72",
+      "fpage": "129",
+      "lpage": "37",
+      "doi": "10.1016/j.oraloncology.2017.05.011"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Chang C",
+        "Ko H",
+        "Hsiao S",
+        "et al."
+      ],
+      "title": "Hypermethylated ZNF582 in serum as a biomarker for oral cancer",
+      "journal": "Cancer Biomark",
+      "year": "2017",
+      "volume": "19",
+      "fpage": "479",
+      "lpage": "88",
+      "doi": "10.1111/jop.13137"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Cheng S",
+        "Chang C",
+        "Ko H",
+        "et al."
+      ],
+      "title": "Hypermethylated ZNF582 and ZNF582 are effective biomarkers for detection of oral dysplasia and oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2016",
+      "volume": "62",
+      "fpage": "34",
+      "lpage": "43",
+      "doi": "10.1016/j.oraloncology.2016.09.008",
+      "pmid": "27865370"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Cheng S",
+        "Chang C",
+        "Ko H",
+        "et al."
+      ],
+      "title": "Hypermethylated ZNF582 and ZNF582 genes in mouth rinse samples as biomarkers for oral dysplasia and oral cancer detection",
+      "journal": "Head Neck",
+      "year": "2018",
+      "volume": "40",
+      "fpage": "355",
+      "lpage": "68",
+      "doi": "10.1002/hed.24956",
+      "pmid": "28960639"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Cheng S",
+        "Chang C",
+        "Ko H",
+        "et al."
+      ],
+      "title": "Hypermethylated ZNF582 and ZNF582 genes in oral scrapings collected from cancer-adjacent normal oral mucosal sites are associated with aggressive progression and poor prognosis of oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2017",
+      "volume": "75",
+      "fpage": "169",
+      "lpage": "77",
+      "doi": "10.1016/j.oraloncology.2017.11.013",
+      "pmid": "29224816"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Chen M",
+        "Yang H",
+        "Ko H",
+        "et al."
+      ],
+      "title": "Hypermethylated ZNF582 as an epigenetic biomarker for head and neck cancer",
+      "journal": "Oral Oncol",
+      "year": "2017",
+      "volume": "72",
+      "fpage": "153",
+      "lpage": "8",
+      "doi": "10.1111/odi.14399"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Li Y",
+        "Guo X",
+        "Xing J",
+        "et al."
+      ],
+      "title": "Next generation sequencing-based analysis of mitochondrial DNA characteristics in plasma extracellular vesicles of patients with hepatocellular carcinoma",
+      "journal": "Oncol Lett",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "2820",
+      "lpage": "8",
+      "doi": "10.3892/ol.2020.11831",
+      "pmid": "32782600",
+      "pmc_id": "PMC7400774"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Ko H",
+        "Hsu Y",
+        "Kao T",
+        "et al."
+      ],
+      "title": "Diagnostic value of ZNF582 DNA methylation as a biomarker for early detection of oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2019",
+      "volume": "94",
+      "fpage": "104",
+      "lpage": "11",
+      "doi": "10.1016/j.oraloncology.2022.105990"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Ko H",
+        "Hsu Y",
+        "Cheng S",
+        "et al."
+      ],
+      "title": "Application of ZNF582 DNA methylation as a biomarker for screening and prognosis of oral cancer",
+      "journal": "J Oral Pathol Med",
+      "year": "2021",
+      "volume": "50",
+      "fpage": "226",
+      "lpage": "33",
+      "doi": "10.1111/jop.13137"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Williams HK"
+      ],
+      "title": "Molecular pathogenesis of oral squamous carcinoma",
+      "journal": "Mol Pathol",
+      "year": "2000",
+      "volume": "53",
+      "fpage": "165",
+      "lpage": "72",
+      "doi": "10.1136/mp.53.4.165",
+      "pmid": "11040937",
+      "pmc_id": "PMC1186964"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Huang B",
+        "Lin N",
+        "Cheng D",
+        "et al."
+      ],
+      "title": "Histone deacetylase inhibitors suppress metastasis in oral squamous cell carcinoma",
+      "journal": "Oncol Lett",
+      "year": "2016",
+      "volume": "11",
+      "fpage": "3679",
+      "lpage": "84",
+      "doi": "10.3892/ol.2016.4642"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Li W",
+        "Zheng J",
+        "Deng J",
+        "et al."
+      ],
+      "title": "LncRNA HOTAIR promotes EMT by regulating chromatin remodeling in oral squamous cell carcinoma",
+      "journal": "Cancer Lett",
+      "year": "2017",
+      "volume": "410",
+      "fpage": "47",
+      "lpage": "55",
+      "doi": "10.1016/j.canlet.2017.08.004"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Juan YC",
+        "Su YF",
+        "Bai CH",
+        "et al."
+      ],
+      "title": "ZNF582 hypermethylation as a prognostic biomarker for malignant transformation of oral lesions",
+      "journal": "Oral Dis",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "505",
+      "lpage": "14",
+      "doi": "10.1111/odi.13946",
+      "pmid": "34145953"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Chebath J",
+        "Merlin G",
+        "Metz R",
+        "et al."
+      ],
+      "title": "Interferon-induced 56,000 Mr protein and its mRNA in human cells: molecular cloning and partial sequence of the cDNA",
+      "journal": "Nucleic Acids Res",
+      "year": "1983",
+      "volume": "11",
+      "fpage": "1213",
+      "lpage": "26",
+      "doi": "10.1093/nar/11.4.1213",
+      "pmid": "6186990",
+      "pmc_id": "PMC325791"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Gendler SJ",
+        "Cohen EP",
+        "Kim S",
+        "et al."
+      ],
+      "title": "Induction of an interferon-induced protein in human cells by human alpha and gamma interferons",
+      "journal": "J Biol Chem",
+      "year": "1983",
+      "volume": "258",
+      "fpage": "14755",
+      "lpage": "61",
+      "doi": "10.1016/S0021-9258(18)30339-7"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Schmeisser H",
+        "Schopf T",
+        "Hentschel J",
+        "et al."
+      ],
+      "title": "Interferon-inducible protein with tetratricopeptide repeats 1 (IFIT1) is a novel host restriction factor of influenza A virus",
+      "journal": "J Virol",
+      "year": "2013",
+      "volume": "87",
+      "fpage": "11132",
+      "lpage": "44",
+      "doi": "10.1128/JVI.02032-13"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Perdomo C",
+        "Coudereau D",
+        "Kress E",
+        "et al."
+      ],
+      "title": "The interferon-induced protein with tetratricopeptide repeats 1 (IFIT1) is an inhibitor of human papillomavirus 16 (HPV16) E6-E7-mediated transformation",
+      "journal": "Cell Microbiol",
+      "year": "2013",
+      "volume": "15",
+      "fpage": "1916",
+      "lpage": "28",
+      "doi": "10.1111/cmi.12170"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Ding C",
+        "Yang J",
+        "Yang X",
+        "et al."
+      ],
+      "title": "The IFIT family of interferon-stimulated genes: a review",
+      "journal": "J Transl Med",
+      "year": "2018",
+      "volume": "16",
+      "fpage": "284",
+      "doi": "10.1186/s12967-018-1674-5"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Phelan A",
+        "Li R",
+        "Li G",
+        "et al."
+      ],
+      "title": "Interferon-induced protein with tetratricopeptide repeats 1 (IFIT1) inhibits hepatitis B virus (HBV) replication",
+      "journal": "J Virol",
+      "year": "2012",
+      "volume": "86",
+      "fpage": "12439",
+      "lpage": "44",
+      "doi": "10.1128/JVI.01522-12"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Li R",
+        "Wang R",
+        "Han Y",
+        "et al."
+      ],
+      "title": "IFIT1 promotes pancreatic cancer progression by regulating cell proliferation and apoptosis",
+      "journal": "Exp Cell Res",
+      "year": "2018",
+      "volume": "363",
+      "fpage": "172",
+      "lpage": "9",
+      "doi": "10.1016/j.yexcr.2018.01.031"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Wang Y",
+        "Wang H",
+        "Zhang L",
+        "et al."
+      ],
+      "title": "IFIT1 inhibits breast cancer cell proliferation and invasion",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2018",
+      "volume": "37",
+      "fpage": "29",
+      "doi": "10.1186/s13046-018-0692-4"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Sun C",
+        "Mezzadra A",
+        "Mao M"
+      ],
+      "title": "PD-1/PD-L1 blockade: current status and future directions",
+      "journal": "Cell Death Dis",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "104",
+      "doi": "10.1038/s41419-017-0124-1"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "authors": [
+        "Han Y",
+        "Liu D",
+        "Li L"
+      ],
+      "title": "PD-1/PD-L1 pathway: molecular mechanisms and clinical significance",
+      "journal": "Cancer Lett",
+      "year": "2016",
+      "volume": "371",
+      "fpage": "177",
+      "lpage": "87",
+      "doi": "10.1016/j.canlet.2015.11.020"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Chen H",
+        "Tang C",
+        "Chen J",
+        "et al."
+      ],
+      "title": "PD-L1 expression in oral squamous cell carcinoma: a systematic review and meta-analysis",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "35687",
+      "lpage": "97",
+      "doi": "10.18632/oncotarget.17002"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Al-Jubran O",
+        "Al-Harthi A",
+        "Al-Thakafi S",
+        "et al."
+      ],
+      "title": "PD-L1 expression in oral squamous cell carcinoma and its correlation with clinicopathological features",
+      "journal": "Saudi Dent J",
+      "year": "2019",
+      "volume": "31",
+      "fpage": "181",
+      "lpage": "7",
+      "doi": "10.1016/j.sdentj.2018.05.004"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Li M",
+        "Wu Y",
+        "Tang C",
+        "et al."
+      ],
+      "title": "PD-L1 expression and its prognostic significance in oral squamous cell carcinoma",
+      "journal": "Clin Transl Oncol",
+      "year": "2018",
+      "volume": "20",
+      "fpage": "365",
+      "lpage": "71",
+      "doi": "10.1007/s12094-017-1764-8"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Zhang H",
+        "Chen J",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "PD-L1 expression and its prognostic value in oral squamous cell carcinoma",
+      "journal": "Med Sci Monit",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "709",
+      "lpage": "16",
+      "doi": "10.12659/MSM.907848"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Wu W",
+        "Zhang W",
+        "Shi L",
+        "et al."
+      ],
+      "title": "PD-L1 expression as a prognostic biomarker in oral squamous cell carcinoma: a meta-analysis",
+      "journal": "Onco Targets Ther",
+      "year": "2018",
+      "volume": "11",
+      "fpage": "531",
+      "lpage": "9",
+      "doi": "10.2147/OTT.S156227"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Sun X",
+        "Liu Y",
+        "Li G",
+        "et al."
+      ],
+      "title": "PD-L1 expression in oral squamous cell carcinoma: correlations with clinicopathological features and prognosis",
+      "journal": "J Oral Pathol Med",
+      "year": "2018",
+      "volume": "47",
+      "fpage": "178",
+      "lpage": "84",
+      "doi": "10.1111/jop.12608"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Wu Y",
+        "Zheng Z",
+        "Li X",
+        "et al."
+      ],
+      "title": "PD-L1 expression in oral squamous cell carcinoma: a systematic review and meta-analysis",
+      "journal": "Oncotarget",
+      "year": "2018",
+      "volume": "9",
+      "fpage": "2549",
+      "lpage": "60",
+      "doi": "10.18632/oncotarget.23122"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Cheng S",
+        "Ko H",
+        "Chen Y",
+        "et al."
+      ],
+      "title": "The hypermethylation of ZNF582 associated with the high PD-L1 expression in oral squamous cell carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2022",
+      "volume": "131",
+      "fpage": "105990",
+      "doi": "10.1016/j.oraloncology.2022.105990"
+    },
+    {
+      "ref_id": "CR35",
+      "label": "35.",
+      "authors": [
+        "Mehdi A",
+        "Rabbani SA"
+      ],
+      "title": "Role of methylation in pro- and anti-cancer immunity",
+      "journal": "Cancers (Basel)",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "545",
+      "doi": "10.3390/cancers13040545",
+      "pmid": "33535484",
+      "pmc_id": "PMC7867049"
+    },
+    {
+      "ref_id": "CR36",
+      "label": "36.",
+      "authors": [
+        "Borsetto D",
+        "Tomasoni M",
+        "Boscolo-Rizzo P",
+        "et al."
+      ],
+      "title": "Prognostic significance of CD4 + and CD8 + Tumor-Infiltrating lymphocytes in head and neck squamous cell carcinoma: A Meta-Analysis",
+      "journal": "Cancers (Basel)",
+      "year": "2021",
+      "volume": "13",
+      "issue": "4",
+      "fpage": "781",
+      "doi": "10.3390/cancers13040781",
+      "pmid": "33668519",
+      "pmc_id": "PMC7918220"
+    }
+  ]
+}

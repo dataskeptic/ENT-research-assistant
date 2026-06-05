@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "title": "Association between coffee consumption and the risk of thyroid cancer: A Mendelian randomization study",
+    "authors": [
+      "Weibo Wen",
+      "Dongyuan Xu",
+      "Xiangdan Li"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000049084",
+    "pmc_id": "PMC13225522",
+    "pmid": "42216389",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 28
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Coffee consumption has been previously reported to be linked to the incidence of thyroid cancer. However, the exact nature of the causal relationship between the 2 remains elusive. We conducted a 2-sample Mendelian randomization (MR) study to evaluate the relationship between coffee consumption and thyroid cancer incidence. We used 36 SNPs associated with coffee consumption obtained from genome-wide association study (GWAS) summary data (ieu-a-1082) involving 212,119 female UK Biobank subjects with White British ancestry. Thyroid cancer incidence was estimated using the public GWAS summary data and the FinnGen research project. Sensitivity analysis was conducted with random-effects inverse-variance weighted MR analysis to assess the effects of possible MR assumption violations. The GWAS summary data (ieu-a-1082) did not reveal a causal relationship between SNPs related to coffee consumption and thyroid cancer incidence. The summary statistics based on the FinnGen research project and obtained using the inverse-variance weighted method revealed no markedly increased coffee consumption risk among patients with different thyroid cancers: follicular thyroid cancer (odds ratio [OR] = 1.101, 95% confidence interval [CI]: 0.492–2.467, P = .814), thyroid malignancy (OR = 0.915, 95% CI: 0.722–1.159, P = .460), and papillary thyroid adenocarcinoma (OR = 0.938, 95% CI: 0.716–1.227, P = .640). Similarly, MR-Egger, weighted median, simple mode, and weighted mode methods produced consistent findings. No significant bias, heterogeneity, or pleiotropy was detected. The large-scale MR analysis demonstrated that although genetically predicted coffee intake is not linked to thyroid cancer incidence, a weak relationship may not be excluded.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Thyroid cancer has witnessed a sharp increase in its incidence, particularly in females. [ 1 ] Certain thyroid cancer-related risk factors, such as excessive or deficient iodine, female gender, and radiation exposure, have been identified. [ 2 , 3 ] Coffee is a popular drink globally, and one conventional cup contains over 1000 bioactive compounds. [ 4 ] It contains numerous compounds, including caffeine, polyphenols, melanoidins and diterpenes, which have been confirmed to eliminate several carcinogens and reduce the harmful oxidation process. [ 5 – 7 ] Many compounds in coffee have the potential to induce biological effects, including antiproliferative, antiangiogenic, and antimetastatic effects. [ 8 ] Potential mechanisms for the chemopreventive effects of coffee phytochemicals include the inhibition of oxidative stress and oxidative damage as well as the regulation of DNA repair, phase II enzymatic activity, apoptosis, and inflammation. Previous epidemiologic studies have evaluated the associations between increased coffee consumption and a reduced risk of cancer, such as liver cancer, endometrial cancer, and oral cancer. [ 4 ] However, the relationship between coffee intake and thyroid cancer incidence has remained controversial. Mendelian randomization (MR) is a complementary study to conventional epidemiology. It uses genetic variants as instrumental variables (IVs) [ 9 ] to explore the possible causality of an interested exposure with an outcome, thereby strengthening the causal inference. [ 10 ] In addition, this method maximally reduces residual confounding due to the random allocation of genetic variants at conception and the subsequent general lack of a link to confounders, such as self-adopted or environmental factors. [ 11 ] The MR analysis randomly allocates the effect allele, which is similar to the randomization during randomized controlled studies. In addition, the MR study reduces reverse causation because genetic variants adopted for substituting the exposure’s impact are not modified through the outcome onset or progression. [ 11 ] Previous MR studies have focused on thyroid-related diseases. [ 12 ] In the present study, we investigated the relationship of coffee intake with thyroid cancer incidence through MR studies based on genome-wide association study (GWAS) data obtained from the UK Biobank (UKB) and FinnGen databases.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Study Design",
+      "text": "The 2-sample MR design was applied to investigate the causality of coffee consumption susceptibility and severity with thyroid cancer incidence. The MR analysis was based on the following 3 assumptions: IVs were highly associated with coffee consumption susceptibility and the severity (exposure), IVs were unrelated to confounders probably affecting exposure (coffee consumption susceptibility and the severity), and outcome (thyroid cancer), and IVs were not directly associated with the outcome (thyroid cancer); instead, they might affect the outcome by the exposure. [ 13 ] The present work was conducted following the updated STROBE-MR guidelines.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Data Sources",
+      "text": "The data used for the study were obtained using the same methodology as previously described. [ 14 ] The UKB cohort study [ 15 ] comprises about 500,000 subjects from the UK from 2006 to 2010. The cohort mostly includes middle-aged subjects with European ancestry, with the age ranging from 37 to 73 years. Subjects were asked to fill in different fundamental questionnaires, receive different physical assessments, and record their medical conditions. Currently, the UKB records over 2000 traits covering clinical diagnoses, anthropometric measurements, and self-reported behavioral outcomes. This study was conducted on 438,870 White British subjects with sufficient genetic data. Self-reported data on daily coffee intake were available for 408,191 White British subjects from the UKB cohort. The data also recorded information on milk, sugar, and artificial sweeteners added to the coffee. Coffee intake was considered as one part of the UKB diet survey (UKB data-field ID: 1498). Coffee intake <1 cup/d was deemed to be zero. Coffee types included instant coffee, decaffeinated coffee, ground coffee, or others (UKB data-field ID: 1508). The average coffee intake was adopted for subjects who reported coffee intake data during several visits to the assessment center. Traits associated with thyroid cancer were obtained from one large-scale GWAS ( https://gwas.mrcieu.ac.uk/datasets/ieu-a-1082 ), covering 649 patients and 431 controls [ 16 ] ( https://gwas.mrcieu.ac.uk/ ). Thyroid cancer summary statistics were obtained from the FinnGen ( https://www.finngen.fi/en ) research project, follicular thyroid cancer (C3_THYROID_FOLLICULAR_EXALLC), thyroid malignancy (C3_THYROID_GLAND_EXALLC), and papillary thyroid adenocarcinoma (C3_THYROID_PAPILLARY_ADENO_EXALLC) to validate the findings. The FinnGen research project, a public–private partnership, combines digital health data from Finnish health registries with genotype data from Finnish biobanks. It offers a unique approach to studying genetic variations associated with disease trajectories for a certain population. [ 17 ] In addition, it uses massive longitudinal registry data from the Finnish, including GWAS statistics regarding diverse disease types such as thyroid cancer. Because the present work only utilized the public data, no informed consent was required. The studies included were previously approved by the corresponding institutional review boards. Data utilized in this MR study were previous summary statistics, and therefore, no ethical approval or patient consent was required.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Iv Analyses",
+      "text": "The first hypothesis was validated by identifying the single-nucleotide polymorphisms (SNPs) closely related to the exposure ( P < 5 × 10 − 6) in the whole genome. SNPs with an R 2 value <0.001 in the 10,000 kb window were excluded to identify independent SNPs. In addition, horizontal pleiotropy was adjusted using the Mendelian randomization pleiotropy residual sum and outlier approach to remove weak instrumental bias [ 18 ] by evaluating the strength of selected SNPs using variance ( R 2 ) and F -statistics. [ 17 ] Notably, we adopted the updated and accurate calculation approach F = R 2 (N − K − 1)/ K (1 − R 2 ), where R 2 stands for the cumulative variance for coffee intake susceptibility and the severity, K represents the total IV number, whereas N stands for the total sample number used in coffee intake susceptibility and the severity GWAS. F -statistics >10 indicated sufficient association for preventing weak instrumental bias.",
+      "order": 4
+    },
+    {
+      "section": "2.4. Mr Study",
+      "text": "The causality of coffee intake susceptibility and severity with thyroid cancer incidence was constructed using the MR-Egger, [ 19 ] weighted median, [ 20 ] and inverse-variance weighted (IVW) models. [ 21 ] Among these, IVW was the major analysis method used, although it was probably skewed in the case of horizontal pleiotropy among IVs. Next, we conducted a sensitivity analysis using weighted median and MR-Egger regression methods to examine whether our results were reliable and whether pleiotropy existed. [ 18 ] The weighted median model was used to obtain the unbiased causal estimation if at least 50% of weights were on the basis of valid SNPs. Moreover, MR-Egger regression can provide estimates with the application of pleiotropy corrections. The MR-Egger intercept was adopted to determine the presence or absence of pleiotropy. The Cochran Q test was conducted to quantify the IVW estimate heterogeneity, and the Mendelian randomization pleiotropy residual sum and outlier test was applied to check for outliers, which were eliminated manually. The robustness of our findings was analyzed by conducting the leave-one-out analysis to remove specific SNPs negatively affecting the outcomes and recalculating the results. R software (R version 4.4.1), “MRPRESSO,” and “TwoSampleMR” (version 0.6.8) packages were adopted for analysis.",
+      "order": 5
+    },
+    {
+      "section": "3.1. Ivs For Coffee Consumption On Thyroid Cancer",
+      "text": "A total of 36 independent SNPs were related to genetically predicted thyroid cancer risk incidence and were selected based on the predetermined criteria ( P value < 5 × 10 −8 and R 2 < 0.01 in 1000 kb windows for variants at the locus). F -statistics were determined for SNPs to exclude weak instrumental bias. All 36 SNPs did not have weak instrumental bias, with F statistics >10. An analysis of these 36 SNPs using PhenoScanner revealed that these were not related to thyroid cancer or possible thyroid cancer-related risk factors. Therefore, 36 SNPs were identified as IVs for coffee consumption and thyroid cancer (Table 1 ).",
+      "order": 6
+    },
+    {
+      "section": "3.2. Causal Effect Of Coffee Consumption On Thyroid Cancer",
+      "text": "The 2-sample MR analysis was performed with GWAS data (ieu-a-1082) and the FinnGen research project to investigate the causality of coffee consumption SNPs with thyroid cancer. Five diverse models were adopted to estimate IVs, namely, IVW, MR-Egger, weighted median, weighted mode, and simple mode. Detailed results are shown in Table 1 . No causality of coffee consumption SNPs with thyroid cancer was identified using the obtained summary data on thyroid cancer from GWAS (ieu-a-1082). The thyroid cancer summary statistics based on the FinnGen research project obtained using the IVW method revealed no markedly increased coffee consumption risk among patients with different thyroid cancers, including follicular thyroid cancer (odds ratio [OR] = 1.101, 95% confidence interval [CI]: 0.492–2.467, P = .814; Fig. 1 A; Table 2 ), thyroid malignancy (OR = 0.915, 95% CI: 0.722–1.159, P = .460; Fig. 1 B; Table 2 ), and papillary thyroid adenocarcinoma (OR = 0.938, 95% CI: 0.716–1.227, P = .640; Fig. 1 C; Table 2 ), as compared with those obtained using the MR-Egger, weighted median, simple mode, and weighted mode methods for follicular thyroid cancer, thyroid malignancy, and papillary thyroid adenocarcinoma. Detailed results are shown in Table 2 . The primary genetic instruments used were the FinnGen thyroid cancer summary data to validate the results. For follicular thyroid cancer, papillary thyroid adenocarcinoma, and follicular thyroid cancer, the funnel plot may bias the MR model by indicating directional horizontal pleiotropy. Funnel plot results are presented in Figure S1A, 1C, and 1E , Supplemental Digital Content, respectively, which revealed no such evidence in our study. Both potential heterogeneity ( P = .473, 0.890, and P = .671, respectively) and directional pleiotropy ( P = .096 and 0.460, and 0.819, respectively) were undetected. The sensitivity analysis demonstrated that the total results remained unchanged after the leave-one-out analysis ( Fig. S1B, 1D, and 1F , Supplemental Digital Content, respectively).",
+      "order": 7
+    },
+    {
+      "section": "Discussion",
+      "text": "In the present work, we applied the 2-sample MR analysis to assess how coffee intake affects thyroid cancer incidence. Genetically predicted coffee intake was not significantly associated with thyroid cancer incidence based on large-scale GWAS summary statistics. Outlier SNP and horizontal pleiotropy were undetected. In addition, sensitivity analysis revealed the robustness of the results. Coffee contains over 1000 bioactive components, such as caffeine and diverse minerals. Such components are mostly reported to resist tumors. [ 22 ] Nonetheless, previous research [ 23 , 24 ] on the relationship of coffee intake with thyroid cancer has reported controversial findings. [ 17 , 25 – 27 ] A dose–response meta-analysis revealed that coffee intake does not affect thyroid cancer incidence, whereas hospital-based case-control studies have reported different results. [ 28 ] Nevertheless, such results are mostly obtained using case-control and cross-sectional cohorts, which could be associated with residual confounding due to additional coffee intake-related lifestyles (such as protection of dietary components), behaviors, and misclassification bias. In addition, observational studies measuring long-time coffee consumption could lead to inaccurate results. We conducted a large-scale GWAS data-based integrative analysis to investigate the relationship between coffee intake and thyroid cancer incidence. Furthermore, the results were reinforced by external validation. The MR analysis design accounts for the main strength of this work. Compared with observational or randomized controlled studies, the MR analysis remains unaffected by confounders (such as lifestyle or social environmental factors) or reverse causal relationships, with genetic variations being proxies. Genetic variations can be stable and long-term. Thus, the present 2-sample MR analysis provides the first assessment of the possible relationship between coffee intake and thyroid cancer incidence. Horizontal pleiotropy was undetected using the MR-Egger test, increasing the study’s reliability. Our sensitivity analysis conformed to the primary analysis, indicating that the link between coffee-related SNPs and thyroid cancer remained unaffected by confounders. Although the present study shed new light on the relationship of coffee intake with thyroid cancer incidence, more investigations are warranted to explore the associated mechanisms. Nonetheless, the results help expand the relevant literature on coffee intake in thyroid cancer occurrence. This study had certain limitations. First, the standard MR analysis assumes a linear relationship between exposure and the outcome. This work assessed the linear relationship of coffee intake with thyroid cancer. Our results could not exclude that moderate but not excessive coffee consumption protects against thyroid cancer occurrence. When a threshold effect or nonlinear relation existed between coffee intake and thyroid cancer, the relation was undetectable, and future MR studies need to assess the nonlinear association between coffee intake and thyroid cancer. Second, preliminary analysis detected horizontal pleiotropy in different groups; however, sensitivity analysis produced consistent results when SNPs showing possible confounders were excluded. Moreover, this work was restricted to the European population; therefore, the findings may not be generalizable to other populations, such as Asians. Caution is warranted when extrapolating these results to different ethnic groups. External validation of the findings in diverse populations, using larger thyroid cancer datasets, is also required. Third, the relationship between diverse coffee types and thyroid cancer incidence might vary because of the different content of components such as caffeine among diverse coffee types. This hypothesis was not validated in the present MR analysis because genetically predicted coffee consumption was related to all coffee types, such as filtered, instant, latte, espresso, or others.",
+      "order": 8
+    },
+    {
+      "section": "Conclusion",
+      "text": "To summarize, SNPs were utilized as IVs to determine the causality of coffee intake with thyroid cancer incidence. Genetically predicted coffee consumption was not causally related to thyroid cancer incidence, with no confounding bias or horizontal pleiotropy. Consequently, considering the above-mentioned limitations, future studies are warranted to verify the above findings, and more data on coffee and thyroid cancer, data across ethnic groups, and data on the nonlinear relationship between coffee intake and thyroid cancer are needed to understand more fully the relationship between coffee intake and thyroid cancer risk.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Bray F",
+        "Laversanne M",
+        "Sung H",
+        "et al."
+      ],
+      "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+      "journal": "CA Cancer J Clin",
+      "year": "2024",
+      "volume": "74",
+      "fpage": "229",
+      "lpage": "63",
+      "pmid": "38572751",
+      "doi": "10.3322/caac.21834"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Davies L",
+        "Welch HG"
+      ],
+      "title": "Current thyroid cancer trends in the United States.",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "140",
+      "fpage": "317",
+      "lpage": "22",
+      "pmid": "24557566",
+      "doi": "10.1001/jamaoto.2014.1"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Zimmermann MB",
+        "Galetti V"
+      ],
+      "title": "Iodine intake as a risk factor for thyroid cancer: a comprehensive review of animal and human studies.",
+      "journal": "Thyroid Res",
+      "year": "2015",
+      "volume": "8",
+      "fpage": "8",
+      "pmid": "26146517",
+      "doi": "10.1186/s13044-015-0020-8",
+      "pmc_id": "PMC4490680"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Butt MS",
+        "Sultan MT"
+      ],
+      "title": "Coffee and its consumption: benefits and risks.",
+      "journal": "Crit Rev Food Sci Nutr",
+      "year": "2011",
+      "volume": "51",
+      "fpage": "363",
+      "lpage": "73",
+      "pmid": "21432699",
+      "doi": "10.1080/10408390903586412"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Li G",
+        "Ma D",
+        "Zhang Y",
+        "Zheng W",
+        "Wang P"
+      ],
+      "title": "Coffee consumption and risk of colorectal cancer: a meta-analysis of observational studies.",
+      "journal": "Public Health Nutr",
+      "year": "2013",
+      "volume": "16",
+      "fpage": "346",
+      "lpage": "57",
+      "pmid": "22694939",
+      "doi": "10.1017/S1368980012002601",
+      "pmc_id": "PMC10271502"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Li YM",
+        "Peng J",
+        "Li LZ"
+      ],
+      "title": "Coffee consumption associated with reduced risk of oral cancer: a meta-analysis.",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2016",
+      "volume": "121",
+      "fpage": "381",
+      "lpage": "9.e1",
+      "pmid": "26972538",
+      "doi": "10.1016/j.oooo.2015.12.006"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Wierzejska R"
+      ],
+      "title": "Coffee consumption vs. cancer risk – a review of scientific data.",
+      "journal": "Rocz Panstw Zakl Hig",
+      "year": "2015",
+      "volume": "66",
+      "fpage": "293",
+      "lpage": "8",
+      "pmid": "26656410"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Bøhn SK",
+        "Blomhoff R",
+        "Paur I"
+      ],
+      "title": "Coffee and cancer risk, epidemiological evidence, and molecular mechanisms.",
+      "journal": "Mol Nutr Food Res",
+      "year": "2014",
+      "volume": "58",
+      "fpage": "915",
+      "lpage": "30",
+      "pmid": "24668519",
+      "doi": "10.1002/mnfr.201300526"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Katan MB"
+      ],
+      "title": "Commentary: Mendelian randomization, 18 years on.",
+      "journal": "Int J Epidemiol",
+      "year": "2004",
+      "volume": "33",
+      "fpage": "10",
+      "lpage": "1",
+      "pmid": "15075137",
+      "doi": "10.1093/ije/dyh023"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Poole R",
+        "Kennedy OJ",
+        "Roderick P",
+        "Fallowfield JA",
+        "Hayes PC",
+        "Parkes J"
+      ],
+      "title": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes.",
+      "journal": "BMJ",
+      "year": "2017",
+      "volume": "359",
+      "fpage": "j5024",
+      "pmid": "29167102",
+      "doi": "10.1136/bmj.j5024",
+      "pmc_id": "PMC5696634"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Burgess S",
+        "Thompson SG"
+      ],
+      "title": "Multivariable Mendelian randomization: the use of pleiotropic genetic variants to estimate causal effects.",
+      "journal": "Am J Epidemiol",
+      "year": "2015",
+      "volume": "181",
+      "fpage": "251",
+      "lpage": "60",
+      "pmid": "25632051",
+      "doi": "10.1093/aje/kwu283",
+      "pmc_id": "PMC4325677"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Zhang H",
+        "Wu Z",
+        "Chen Q",
+        "et al."
+      ],
+      "title": "Subtype-specific causal effects of hypothyroidism on obstructive sleep apnea: a bidirectional Mendelian randomization study.",
+      "journal": "Medicine (Baltimore)",
+      "year": "2025",
+      "volume": "104",
+      "fpage": "e43266",
+      "pmid": "40629611",
+      "doi": "10.1097/MD.0000000000043266",
+      "pmc_id": "PMC12237354"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Sanderson E",
+        "Spiller W",
+        "Bowden J"
+      ],
+      "title": "Testing and correcting for weak and pleiotropic instruments in two-sample multivariable Mendelian randomization.",
+      "journal": "Stat Med",
+      "year": "2021",
+      "volume": "40",
+      "fpage": "5434",
+      "lpage": "52",
+      "pmid": "34338327",
+      "doi": "10.1002/sim.9133",
+      "pmc_id": "PMC9479726"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Ong JS",
+        "Law MH",
+        "An J",
+        "et al."
+      ],
+      "title": "Association between coffee consumption and overall risk of being diagnosed with or dying from cancer among >300 000 UK Biobank participants in a large-scale Mendelian randomization study.",
+      "journal": "Int J Epidemiol",
+      "year": "2019",
+      "volume": "48",
+      "fpage": "1447",
+      "lpage": "56",
+      "pmid": "31412118",
+      "doi": "10.1093/ije/dyz144"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Sudlow C",
+        "Gallacher J",
+        "Allen N",
+        "et al."
+      ],
+      "title": "UK Biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age.",
+      "journal": "PLoS Med",
+      "year": "2015",
+      "volume": "12",
+      "fpage": "e1001779",
+      "pmid": "25826379",
+      "doi": "10.1371/journal.pmed.1001779",
+      "pmc_id": "PMC4380465"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Köhler A",
+        "Chen B",
+        "Gemignani F",
+        "et al."
+      ],
+      "title": "Genome-wide association study on differentiated thyroid cancer.",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2013",
+      "volume": "98",
+      "fpage": "E1674",
+      "lpage": "81",
+      "pmid": "23894154",
+      "doi": "10.1210/jc.2013-1941"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Pierce BL",
+        "Ahsan H",
+        "Vanderweele TJ"
+      ],
+      "title": "Power and instrument strength requirements for Mendelian randomization studies using multiple genetic variants.",
+      "journal": "Int J Epidemiol",
+      "year": "2011",
+      "volume": "40",
+      "fpage": "740",
+      "lpage": "52",
+      "pmid": "20813862",
+      "doi": "10.1093/ije/dyq151",
+      "pmc_id": "PMC3147064"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Verbanck M",
+        "Chen CY",
+        "Neale B",
+        "Do R"
+      ],
+      "title": "Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases.",
+      "journal": "Nat Genet",
+      "year": "2018",
+      "volume": "50",
+      "fpage": "693",
+      "lpage": "8",
+      "pmid": "29686387",
+      "doi": "10.1038/s41588-018-0099-7",
+      "pmc_id": "PMC6083837"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Bowden J",
+        "Davey Smith G",
+        "Burgess S"
+      ],
+      "title": "Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression.",
+      "journal": "Int J Epidemiol",
+      "year": "2015",
+      "volume": "44",
+      "fpage": "512",
+      "lpage": "25",
+      "pmid": "26050253",
+      "doi": "10.1093/ije/dyv080",
+      "pmc_id": "PMC4469799"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Bowden J",
+        "Davey Smith G",
+        "Haycock PC",
+        "Burgess S"
+      ],
+      "title": "Consistent estimation in Mendelian randomization with some invalid instruments using a weighted median estimator.",
+      "journal": "Genet Epidemiol",
+      "year": "2016",
+      "volume": "40",
+      "fpage": "304",
+      "lpage": "14",
+      "pmid": "27061298",
+      "doi": "10.1002/gepi.21965",
+      "pmc_id": "PMC4849733"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Burgess S",
+        "Butterworth A",
+        "Thompson SG"
+      ],
+      "title": "Mendelian randomization analysis with multiple genetic variants using summarized data.",
+      "journal": "Genet Epidemiol",
+      "year": "2013",
+      "volume": "37",
+      "fpage": "658",
+      "lpage": "65",
+      "pmid": "24114802",
+      "doi": "10.1002/gepi.21758",
+      "pmc_id": "PMC4377079"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Ludwig IA",
+        "Clifford MN",
+        "Lean ME",
+        "Ashihara H",
+        "Crozier A"
+      ],
+      "title": "Coffee: biochemistry and potential impact on health.",
+      "journal": "Food Funct",
+      "year": "2014",
+      "volume": "5",
+      "fpage": "1695",
+      "lpage": "717",
+      "pmid": "24671262",
+      "doi": "10.1039/c4fo00042k"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Kim SY",
+        "Yoo DM",
+        "Min C",
+        "Choi HG"
+      ],
+      "title": "Association between coffee consumption/physical exercise and gastric, hepatic, colon, breast, uterine cervix, lung, thyroid, prostate, and bladder cancer.",
+      "journal": "Nutrients",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "3927",
+      "pmid": "34836181",
+      "doi": "10.3390/nu13113927",
+      "pmc_id": "PMC8620757"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Michikawa T",
+        "Inoue M",
+        "Shimazu T",
+        "et al."
+      ],
+      "title": "Green tea and coffee consumption and its association with thyroid cancer risk: a population-based cohort study in Japan.",
+      "journal": "Cancer Causes Control",
+      "year": "2011",
+      "volume": "22",
+      "fpage": "985",
+      "lpage": "93",
+      "pmid": "21562752",
+      "doi": "10.1007/s10552-011-9771-2"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Riza E",
+        "Linos A",
+        "Petralias A",
+        "de Martinis L",
+        "Duntas L",
+        "Linos D"
+      ],
+      "title": "The effect of Greek herbal tea consumption on thyroid cancer: a case-control study.",
+      "journal": "Eur J Public Health",
+      "year": "2015",
+      "volume": "25",
+      "fpage": "1001",
+      "lpage": "5",
+      "pmid": "25842380",
+      "doi": "10.1093/eurpub/ckv063"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Park SY",
+        "Freedman ND",
+        "Haiman CA",
+        "Le Marchand L",
+        "Wilkens LR",
+        "Setiawan VW"
+      ],
+      "title": "Prospective study of coffee consumption and cancer incidence in non-white populations.",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2018",
+      "volume": "27",
+      "fpage": "928",
+      "lpage": "35",
+      "pmid": "29777049",
+      "doi": "10.1158/1055-9965.EPI-18-0093",
+      "pmc_id": "PMC6072575"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Takezaki T",
+        "Hirose K",
+        "Inoue M",
+        "et al."
+      ],
+      "title": "Risk factors of thyroid cancer among women in Tokai, Japan.",
+      "journal": "J Epidemiol",
+      "year": "1996",
+      "volume": "6",
+      "fpage": "140",
+      "lpage": "7",
+      "pmid": "8952218",
+      "doi": "10.2188/jea.6.140"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Han MA",
+        "Kim JH"
+      ],
+      "title": "Coffee consumption and the risk of thyroid cancer: a systematic review and meta-analysis.",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2017",
+      "volume": "14",
+      "fpage": "129",
+      "pmid": "28134794",
+      "doi": "10.3390/ijerph14020129",
+      "pmc_id": "PMC5334683"
+    }
+  ]
+}

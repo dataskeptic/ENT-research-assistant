@@ -1,0 +1,687 @@
+{
+  "metadata": {
+    "title": "Genetic Landscape of Oral Carcinoma Cuniculatum and its Histological Mimics",
+    "authors": [
+      "Sawako Ono",
+      "Yuki Fukawa",
+      "Katsutoshi Hirose",
+      "Yumiko Hori",
+      "Daisuke Motooka",
+      "Hiroyuki Harada",
+      "Eiichi Morii",
+      "Satoru Toyosawa",
+      "Naozumi Ishimaru",
+      "Hidetaka Yamamoto"
+    ],
+    "journal": "Head and Neck Pathology",
+    "year": "2026",
+    "doi": "10.1007/s12105-026-01921-3",
+    "pmc_id": "PMC13201809",
+    "pmid": "42183888",
+    "full_text_available": true,
+    "section_count": 12,
+    "reference_count": 34
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose Oral carcinoma cuniculatum (CC) is a rare variant of oral squamous cell carcinoma (OSCC), characterized by a well-differentiated, burrowing invasive pattern and minimal cellular atypia. Its diagnosis is challenging owing to its bland morphology, which makes differentiation from non-neoplastic lesions difficult on biopsy. Despite this, CC often requires distinction from conventional OSCC, even in surgical specimens. Histological overlap with conventional OSCC suggests a continuous spectrum of diseases. To clarify the genetic identity of pure CC, we analyzed 23 cases of OSCC with burrowing invasive patterns and classified them into three groups: CC, conventional OSCC (SCC), and uncertain CC (UCC). Methods We retrospectively reviewed 2002 OSCC cases from multicenter archives. From this cohort, 23 cases exhibiting a burrowing invasive pattern characteristic of CC were selected. The cases were classified into the three study groups based on the WHO diagnostic criteria, and clinicopathological features were reviewed. Targeted next-generation sequencing was performed to identify clinically significant genetic alterations, and immunohistochemical staining was also conducted. Results The 23 cases were histologically classified into CC ( n = 8), UCC ( n = 7), and SCC ( n = 8) groups. Clinically, the CC group predominantly affected the gingiva with no recurrence or metastasis. Conversely, the SCC group primarily involved the tongue and showed recurrence and metastasis. Genetic alterations were detected in 87.5% (7/8) of CC cases, with low frequencies of TP53 (12.5%) and CDKN2A (25.0%) alterations and higher frequencies of FAT1 (50.0%), NOTCH1 (37.5%), PIK3CA (37.5%), and CASP8 (50.0%) alterations. In contrast, the SCC group showed frequent TP53 (75.0%) and CDKN2A (75.0%) alterations, whereas FAT1 and NOTCH1 alterations were absent. Consistent with these findings, p53 staining revealed wild-type patterns in the CC group along with a lower Ki-67 labeling index. The UCC group exhibited intermediate clinicopathological and genetic characteristics. Conclusion This study provides the first genetic characterization of oral CC, distinct from that of conventional OSCC. This genetic signature may contribute to the biological behavior of CC and offer a potential tool for its differential diagnosis. Further studies with larger cohorts are required to confirm the relationship between CC and conventional OSCC, and to fully elucidate the genetic landscape of CC. Supplementary Information The online version contains supplementary material available at 10.1007/s12105-026-01921-3.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Oral squamous cell carcinoma (OSCC) is the most common malignancy of the oral cavity [ 1 , 2 ]. Carcinoma cuniculatum (CC) is an extremely rare variant of OSCC that is well-differentiated, locally destructive, and non-metastatic [ 1 ]. The term “ cuniculus ,” which describes subterranean interconnected networks resembling rabbit burrows, characterizes the hallmark infiltration pattern of this tumor [ 3 , 4 ]. Aird et al. first described CC of the plantar region in 1954 [ 3 ], and Flieger and Owinski reported CC of the oral cavity in 1977 [ 5 ]. Histologically, oral CC is defined by a characteristic, unique, burrowing invasive pattern of stratified squamous epithelium with keratin-filled crypts [ 1 ]. Notably, significant cytological atypia is consistently absent. Due to its bland morphology and lack of remarkable cytological atypia, the diagnosis of CC remains challenging as it is frequently missed or misdiagnosed, particularly in biopsy specimens [ 1 , 6 – 10 ]. Consequently, the preoperative diagnosis is inaccurate in most cases [ 1 , 6 – 10 ]. CC is commonly misdiagnosed as other conditions such as reactive hyperplasia, hyperkeratosis, abscess, and osteomyelitis, frequently resulting in treatment delays [ 7 – 12 ]. Genetic analysis may serve as a useful tool for differentiating CC from these conditions [ 1 , 2 , 13 ]. OSCC harbors pathogenic somatic alterations, primarily in genes such as TP53 , CDKN2A , FAT1 , NOTCH1 , PIK3CA , and CASP8 [ 1 , 2 , 14 – 16 ]. Furthermore, specific variants of OSCC have genetic characteristics distinct from those of conventional OSCC variants [ 17 , 18 ], suggesting that CC may also have characteristics that are different from those of conventional OSCC. To our knowledge, no previous studies have identified genetic alterations in patients with CC. A detailed analysis of the genetic profile of CC may provide a useful tool for its pathological diagnosis and enhance our understanding of its biology. One obstacle to oral CC research is the difficulty in making a definitive diagnosis, even from surgical specimens [ 7 , 11 , 12 , 19 , 20 ]. Although CC generally has a very good prognosis, its differentiation from conventional OSCC, which often involves recurrence and metastasis, is challenging, and evaluations are inconsistent even among pathologists [ 1 , 12 , 19 , 20 ]. The distinguishing features of CC and conventional OSCC are thought to be their invasion patterns and cellular atypia. However, some conventional OSCC exhibit a similar burrowing infiltrative pattern [ 19 ]. Moreover, the evaluation of cellular atypia, such as nuclear pleomorphism, is often inconsistent among pathologists [ 21 ]. These facts blur the boundary between CC and conventional OSCC. Based on these characteristics, it has been suggested that CC is a distinct entity that also may exist on a continuous spectrum of diseases with conventional OSCC [ 6 , 19 ]. Indeed, reports have described a case of CC that included conventional OSCC components [ 9 ], a case where a portion of the CC underwent transformation to conventional OSCC upon recurrence [ 12 ], a case where CC recurred as conventional OSCC [ 20 ], and a case where CC metastases in the lymph node were diagnosed as conventional OSCC [ 20 ]. It has also been reported that among previously described CC cases, some do not meet histological diagnostic criteria and cannot be considered pure CC (which we will refer to as uncertain CC [UCC] cases hereinafter) [ 19 ]. Thus, to clarify the genetic profile of CC, we considered it necessary to select pure CC from the spectrum of CC to conventional OSCC. In this study, we evaluated 23 cases of OSCC that exhibited the burrowing invasive pattern characteristic of CC. Based on the WHO histological diagnostic criteria for oral CC [ 1 ], the cases were classified into the following three groups: CC (typical CC), SCC (conventional OSCC), and UCC (borderline cases that were histologically difficult to distinguish from the other two). This study aimed to clarify the genetic characteristics of oral CC, as well as histologically similar OSCC. To the best of our knowledge, this is the first study to provide genetic data on CC and other histologically similar diseases.",
+      "order": 1
+    },
+    {
+      "section": "Patient Selection And Histological Assessment",
+      "text": "We retrospectively reviewed a total of 2002 OSCC cases from the pathology archives of Okayama University Hospital, Institute of Science Tokyo Hospital, Osaka University Dental Hospital, and NHO Osaka National Hospital. From these, 23 cases exhibiting a burrowing invasive pattern were selected. Cases of non-primary or recurrent OSCC were excluded. Resected tissue specimens were fixed in 10% neutral-buffered formalin and embedded in paraffin. The resulting formalin-fixed, paraffin-embedded (FFPE) tissue specimens were sectioned into 4-µm-thick serial sections and subjected to hematoxylin and eosin (H&E) and immunohistochemical stainings. Three experienced oral and maxillofacial pathologists (SO, YF, and KH) from different institutions independently reviewed the 23 OSCC cases. The classification was based on the essential diagnostic criteria for CC as defined by the WHO Classification of Head and Neck Tumors, 5th edition: well-differentiated, keratin-containing crypts, no more than mild atypia, and a labyrinthine, burrowing, and cohesive invasive pattern [ 1 ]. In addition, the pathologists assessed each case according to the desirable diagnostic criteria (keratin microabscesses, stromal neutrophils, microsequestra, bone invasion at mucoperiosteal sites) and the presence of epithelial changes at the tumor margins. After independent reviews, a final consensus diagnosis was reached for each case through discussion. Based on this consensus, cases that fulfilled all essential criteria with unanimous agreement among the three pathologists were classified into the CC group. In contrast, cases that fulfilled some essential criteria, but with some interobserver disagreement regarding a definitive diagnosis of CC, were classified into the UCC group. Finally, cases that, despite potentially fulfilling some essential criteria, were unanimously determined not to be CC on the overall assessment were classified into the SCC group.",
+      "order": 2
+    },
+    {
+      "section": "Immunohistochemistry",
+      "text": "Immunohistochemical staining was performed on paraffin sections using the Bond III automated stainer (Leica Biosystems, Deer Park, IL, USA). Primary antibodies included anti-p53 (clone Pab1801, Cat# sc-98, Santa Cruz Biotechnology, Dallas, TX, USA) and anti-Ki-67 (clone MM1, Cat# NCL-L-Ki-67-MM1, Leica Biosystems). The immunohistochemical staining pattern of p53 was classified as either wild-type or abnormal, according to previously described criteria [ 22 ].",
+      "order": 3
+    },
+    {
+      "section": "Molecular Analysis",
+      "text": "Next-generation sequencing was performed using the SureSelect Cancer CGP Assay (Agilent Technologies, Santa Clara, CA, USA) as previously described [ 18 ]. The DNA-based cancer gene panel was designed to detect genetic alterations of clinical significance, including single-nucleotide variants (SNVs) and small insertions/deletions (Indels) in 679 genes and copy number variations (CNVs) in 32 genes. The investigated genes are listed in Supplementary Table 1. Two pathologists (SO and KH) identified FFPE blocks of the analyzed cases with > 15% tumor content. Genomic DNA was extracted from FFPE tissues using a QIAamp DNA FFPE Tissue Kit (Qiagen, Valencia, CA, USA) according to the manufacturer’s instructions. Sequence libraries were prepared using the custom SureSelect Low-Input Target Enrichment System (Agilent Technologies) and sequenced using Illumina MiSeq (Illumina, San Diego, CA, USA). Alissa Reporter ver1.3.3 (Agilent Technologies) was used for variant calling and for calculating tumor mutational burden (TMB) and microsatellite instability (MSI). Intron DNA, non-coding DNA, variant allele frequency < 5%, and minor allele frequency > 0.001 based on the gnomAD database were excluded. The pathogenicity of the detected variants (SNVs/Indels) was systematically classified. First, the variants were annotated against the ClinVar and InterVar databases. Those classified by the databases as “Pathogenic” or “Likely pathogenic” were categorized as “Pathogenic mutation” in the Results section. Variants that did not meet these criteria and those labeled as “uncertain significance” in the ClinVar or InterVar databases were processed for further analysis using in silico functional prediction tools. Variants were classified as “variant of uncertain significance” (VUS) in the Results section if they were predicted to be deleterious by at least one of the following tools: SIFT ( https://sift.bii.a-star.edu.sg/ ), PolyPhen-2 ( http://genetics.bwh.harvard.edu/pph2/ ), and MutationTaster ( https://www.mutationtaster.org/ ). These molecular analyses were performed for the purposes of this study. Three molecular pathologists (YF, KH, and YH) and a bioinformatician (DM) evaluated the interpretation of the results.",
+      "order": 4
+    },
+    {
+      "section": "Statistical Analyses",
+      "text": "Data are expressed as means ± standard deviations. Statistical analyses were performed and graphs were created using Microsoft Excel and GraphPad Prism (version 10; La Jolla, CA, USA). Statistical significance was set at a p -value < 0.05. Data were tested using Fisher’s exact test and Tukey’s multiple comparison test.",
+      "order": 5
+    },
+    {
+      "section": "Case Classification",
+      "text": "We retrospectively investigated 23 cases of OSCC characterized by burrowing invasive growth. These cases were histologically classified into CC and SCC groups based on the essential diagnostic criteria for CC according to the WHO classification [ 1 ]. Cases that could not be clearly classified as CC or conventional OSCC were conveniently assigned to the UCC group in this study. On magnetic resonance imaging, lesions from all three groups exhibited an endophytic growth pattern (Fig. 1 A, C and E). Consistent with its classification, the CC group exhibited all essential histological features of typical CC, including keratin-containing crypts, no more than mild atypia, a labyrinthine, burrowing, cohesive invasive pattern, and being well-differentiated (Fig. 1 B–Bʺ). The UCC group exhibited several features suggestive of CC, but these were ultimately classified as uncertain owing to interobserver disagreement. The points of contention included the degree of cellular atypia, the incompleteness of the labyrinthine architecture with unclear continuity (in 5/7 cases), and the inadequate amount of intracryptal keratin (in 3/7 cases) (Fig. 1 D–Dʺ). The SCC group also met some of the essential criteria for CC, including burrowing growth patterns. However, the cases in this group were ultimately classified as SCC due to the presence of features inconsistent with a CC diagnosis, such as cytologic atypia greater than mild and a non-cohesive invasive front, making them more characteristic of conventional OSCC (Fig. 1 F–Fʺ). Other histological features (including desirable diagnostic criteria and the presence of epithelial changes at the tumor margins) among the three groups are summarized in Supplementary Fig. 1 . Of the 23 cases, one was initially considered for the UCC group because of an incomplete labyrinthine architecture and inadequate intracryptal keratin (Fig. 2 A–C). However, because this case also showed components of conventional OSCC with marked cellular atypia and an abnormal p53 immunostaining pattern, it was ultimately classified as the SCC group (Fig. 2 C and D).",
+      "order": 6
+    },
+    {
+      "section": "Clinical Validation",
+      "text": "To verify that the characteristics of the CC group were consistent with the known clinical profile of CC and distinct from those of the other groups, we compared the clinical characteristics of the three histologically categorized groups (Table 1 ). Overall, the median age of the 23 patients was 74 (range, 44–88) years, with 15 (65.2%) male and 8 (34.8%) female patients. The median ages of patients in the CC, UCC, and SCC groups were 71, 78, and 74 years, respectively. The most common primary site was the gingiva (11/23 cases, 47.8%), followed by the tongue (8/23 cases, 34.8%). Gingival tumors were predominant in the CC and UCC groups (6/8 cases, 75.0% and 4/7 cases, 57.1%, respectively), whereas tongue tumors were most frequent in the SCC group (4/8 cases, 50.0%). Regarding tumor stage in the entire cohort, early-stage (T1–T2) tumors accounted for 9 cases (39.1%), and advanced-stage (T3–T4) tumors accounted for 14 cases (60.9%). Advanced T stages (T3–T4) were most frequent in the CC group (7/8 cases, 87.5%), followed by the SCC group (5/8 cases, 62.5%), whereas early stages (T1–T2) were more common in the UCC group (5/7 cases, 71.4%). Regarding nodal metastasis status, 20 cases (87.0%) were negative, and 3 cases (13.0%) were positive. All positive cases were confined to the SCC group (3/8 cases, 37.5% of the SCC group). Recurrence or postoperative distant metastasis was observed in 2 cases (8.7%), with both cases occurring in the SCC group (2/8 cases, 25.0% of the SCC group). No recurrence or metastasis was observed in either the CC or UCC group. The clinical characteristics of the CC group, such as age, sex, tumor site, and absence of metastasis, were consistent with those reported in previous studies [ 1 , 8 , 23 , 24 ]. These findings suggest that the histology-based categorization of OSCC exhibiting a burrowing infiltrative pattern may effectively distinguish pure CC from conventional OSCC. The UCC group may represent a clinical entity with intermediate characteristics between those of the CC and SCC groups.",
+      "order": 7
+    },
+    {
+      "section": "Msolecular Genetic Analysis",
+      "text": "We investigated the genetic characteristics of the CC group, as well as the UCC and SCC groups. Overall, genetic alterations, including both pathogenic mutations (SNVs/Indels) and CNVs (gain/loss), were detected in 75.0% (6/8 cases), 100% (7/7 cases), and 100% (8/8 cases) of the CC, UCC, and SCC groups, respectively (Fig. 3 A and B). The most frequently altered genes across all groups were CDKN2A (12/23 cases), TP53 (7/23 cases), and PIK3CA (6/23 cases). The frequencies of pathogenic mutations ( p = 0.10) or CNVs ( p = 0.066) did not statistically significantly differ between the CC and SCC groups (Fig. 3 A and B). No significant differences in TMB were observed among the three groups, with overall low scores (Fig. 3 C). MSI scores were likewise low, and all cases were microsatellite stable (Fig. 3 C). Details of the pathogenic mutations and CNVs are shown in Supplementary Fig. 2. Next, we sought to elucidate the detailed genetic characteristics of the CC group by focusing on key genes implicated in OSCC pathogenesis [ 1 , 2 , 14 – 16 ] (Fig. 3 D). Genetic alterations, including pathogenic and VUS mutations and CNVs, were detected in 87.5% (7/8 cases) of patients in the CC group (Fig. 3 D). VUS mutations are genetic mutations predicted to be deleterious by in silico prediction tools. Two major causal genes in OSCC, TP53 and CDKN2A , were detected in only a small number of patients in the CC group (Fig. 3 D). In contrast, mutations in PIK3CA (related to the phosphoinositide 3-kinase [PI3K] pathway), CASP8 (related to cell death), and FAT1 and NOTCH1 (related to cell differentiation) were detected in approximately half of the CC group [ 2 , 25 , 26 ]. These findings suggest that CC and conventional OSCC may have distinct genetic profiles, and the genetic analysis of CC could provide a useful tool for differential diagnosis, especially for non-neoplastic epithelial lesions. We investigated whether the genetic profile of the CC group differed from that of the other histologically similar disorders (Fig. 3 E). A difference was observed in TP53 mutations, which were significantly more frequent in the SCC group (6/8 cases, 75.0%) than in the CC (1/8 cases, 12.5%) group ( p = 0.020). Similarly, alterations in CDKN2A (including pathogenic/VUS mutations or CNV loss) showed a trend towards a higher frequency in the SCC group (6/8 cases, 75.0%) than in the CC group (2/8 cases, 25.0%) ( p = 0.066). Conversely, FAT1 mutations, all of which were classified as VUS, were significantly more prevalent in the CC (4/8 cases, 50.0%) and UCC (2/7 cases, 28.6%) groups and were entirely absent in the SCC group (0/8 cases, 0.0%; p = 0.038 for CC vs. SCC). All FAT1 mutations in the CC group were stopgain, whereas those in the UCC group were nonsynonymous. A similar pattern was observed for NOTCH1 mutations, which were detected only in the CC (3/8 cases, 37.5%) and UCC (2/7 cases, 28.6%) groups. Alterations in PIK3CA and CASP8 levels were detected in all three groups, without significant differences between the CC and SCC groups. Collectively, these results revealed that the genetic profile of the CC group was different from that of the SCC group (Fig. 3 E). The SCC group was characterized by a high frequency of alterations in tumor suppressor genes such as TP53 and CDKN2A , consistent with previous reports on OSCC [ 1 , 2 , 14 – 16 ]. In contrast, the CC group showed alterations in FAT1 and NOTCH1 , which were absent in the SCC group. The UCC group exhibited genetic characteristics intermediate between those of the CC and SCC groups (Fig. 3 E).",
+      "order": 8
+    },
+    {
+      "section": "Immunohistochemical Finding",
+      "text": "Both TP53 and CDKN2A are major tumor suppressor genes in OSCC, and CDKN2A is involved in cell cycle regulation [ 1 , 2 , 27 , 28 ]. We hypothesized that these genetic alterations might be involved in the phenotypes and biological behaviors of the CC group, as well as the UCC and SCC groups. Therefore, we performed immunohistochemistry for p53 and Ki-67 to evaluate differences among the three groups. Immunohistochemical examination of p53 revealed a wild-type staining pattern in the CC and UCC groups and an abnormal staining pattern in the SCC group (Fig. 4 A). The wild-type staining pattern in the CC group was significantly different from that in the SCC group ( p = 0.0007), which was consistent with the results of the genetic analysis (Figs. 3 E and 4 B). The Ki-67 labeling index was 18.8 ± 5.2% in the CC group, 21.4 ± 12.0% in the UCC group, and 32.9 ± 11.2% in the SCC group. The CC group showed a significantly lower proliferation rate than the SCC group ( p = 0.037) (Fig. 4 C and D).",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "In the present study, we conducted the first genetic analysis of clinically and histologically confirmed CC of the oral cavity. Genetic alterations were detected in almost all CC cases (Fig. 3 D). CC cases were characterized by a low frequency of mutations in two major OSCC driver genes, TP53 and CDKN2A , coupled with a high frequency of alterations in other key genes, such as FAT1 and NOTCH1 . Thus, CC may have genetic profiles distinct from those of conventional OSCC, and genetic analysis of CC may provide a useful tool for differential diagnosis, especially for non-neoplastic lesions. Oral CC is an extremely rare variant of OSCC that is histologically characterized by a well-differentiated appearance and burrowing-like invasive pattern. Clinically, it has an excellent prognosis, marked by rare recurrence and the absence of metastasis [ 1 ]. Typical clinical features include an onset in patients aged 60–70 years, a slight male predominance, and a predilection for the gingiva as the most common site, followed by the tongue [ 1 , 8 , 23 , 24 ]. Our CC group had a mean age of approximately 70 years and a slight male predominance (Table 1 ). The most common site was the gingiva, followed by the tongue. Furthermore, the CC group showed no lymph node metastases or recurrence. These results support the notion that our CC group represents cases of pure oral CC. In our CC group, mutations were detected in TP53 (12.5%), CDKN2A (SNVs/Indels, 25%; CNVs, 0.0%), FAT1 (50.0%), NOTCH1 (37.5%), PIK3CA (37.5%), and CASP8 (50.0%) (Fig. 3 E). For comparison, the mutation frequencies in general OSCC cohorts, including data from previous reports and the Cancer Genome Atlas (TCGA) database, are as follows: TP53 (61.7–70.4%), CDKN2A (SNVs/Indels, 12.8–26.0%; CNVs, 14.9–74.0%), FAT1 (9.1–30.0%), NOTCH1 (3.2–25.5%), PIK3CA (10.6–16.8%), and CASP8 (10.0–13.9%) [ 14 – 16 ]. Compared with these general OSCC cohorts, our CC group exhibited notably lower mutation frequencies in TP53 and lower CDKN2A CNVs, along with higher frequencies in FAT1 , NOTCH1 , PIK3CA , and CASP8 . Furthermore, verrucous carcinoma, a rare OSCC variant characterized by exophytic growth and well-differentiated histology, lacks genetic alterations in TP53 , CDKN2A , FAT1 , and NOTCH1 [ 17 ], a finding which supports the distinct genetic profile of CC. Further investigations are warranted to determine whether these gene mutations contribute to the specific biology of CC. A combination of mutations in these four genes ( FAT1 , NOTCH1 , PIK3CA , and CASP8 ) was found in 75.0% (6/8 cases) of the patients in the CC group (Fig. 3 D). This suggests that analyzing these mutations might be a useful tool for distinguishing CC from non-neoplastic epithelial lesions, especially in biopsy samples. Furthermore, the high frequency of PIK3CA mutations is clinically significant as it is a therapeutic target. PI3K inhibitors, which have proven antitumor activity, may expand potential treatment options for this specific OSCC variant [ 29 , 30 ]. All FAT1 mutations detected in the present study were classified as VUS using database annotation and in silico prediction (Fig. 3 D and E). Under physiological conditions, FAT1 regulates actin dynamics associated with cell adhesion and polarity, contributes to development and organ formation, and modulates mitochondrial function [ 31 , 32 ]. However, given the large size of FAT1 mRNA and the protein it encodes, clarifying the biological function of FAT1 remains challenging [ 31 , 32 ]. Although FAT1 is among the most frequently mutated genes across human cancers, it lacks clearly defined mutational hotspots, and the functional consequences of individual FAT1 variants are often unclear [ 31 ]. Consistent with this, most FAT1 variants are categorized as “uncertain significance” in the ClinVar database. While FAT1 mutations have been implicated in the initiation and progression of OSCC [ 2 , 15 , 31 ], further investigations are warranted to clarify their contribution to CC. Both TP53 and CDKN2A are major tumor suppressor genes in OSCC. TP53 is activated in response to DNA damage and is mutated in most common human malignancies [ 2 , 27 ], whereas CDKN2A is involved in cell cycle regulation [ 2 , 28 ]. Furthermore, mutations in these two genes often co-occur and are correlated with poor prognosis, such as lower overall survival rates and treatment resistance [ 2 , 27 , 28 ]. Consistent with these genetic findings, our CC group exhibited a wild-type staining pattern for p53 and a low Ki-67 labeling index (Fig. 4 B and D). Although a few previously reported cases of CC showed both wild-type and abnormal p53 staining patterns [ 6 , 8 , 11 ], these cases lacked genetic analysis for confirmation. The low Ki-67 labeling index (< 5–15%) observed in previous CC cases is compatible with that in our CC group [ 8 , 11 , 33 ]. The characteristic wild-type p53 staining and low Ki-67 labeling index of CC may make it difficult to distinguish CC from non-neoplastic epithelial lesions, particularly in biopsies. In contrast, the SCC group showed an abnormal p53 staining pattern and a high Ki-67 labeling index (Fig. 4 B and D). Therefore, as supported by our genetic analysis, p53 staining pattern and Ki-67 index may serve as valuable ancillary tools for distinguishing between CC and histologically similar OSCC cases. Furthermore, given the multifocal nature of OSCC, previously reported cases in which primary CC metastasized as, or recurred as conventional OSCC [ 12 , 20 ] may have harbored a coexisting SCC component or, alternatively, possessed intrinsic potential for progression toward an SCC phenotype. Although their biological behaviors differ, the histological boundary between CC and conventional OSCC is often ambiguous. Based on histological features, it has been suggested that CC is a distinct entity that also may exist on a continuous spectrum of diseases with conventional OSCC [ 6 , 19 ]. In the present study, we categorized cases that were difficult to classify as either CC or conventional OSCC into the UCC group. Our results demonstrated that the UCC group exhibited intermediate characteristics between the CC and SCC groups across clinical, pathological, and genetic profiles. This intermediate state raises two possibilities. The first possibility is that the UCC group does not represent a distinct biological entity, but rather a heterogeneous mixture of the CC and SCC groups. This is plausible given that the UCC designation arose from a lack of diagnostic consensus among the three pathologists who used the WHO criteria. Alternative classification methods, perhaps those incorporating additional molecular markers, may resolve these indeterminate cases in the CC or SCC categories. Second, OSCC with a burrowing invasive pattern may represent a continuous biological spectrum ranging from CC to SCC, with UCC as an intermediate phase, as previously suggested [ 6 , 19 ]. Our findings partially support this notion, as one of our cases showed histological coexistence of UCC and SCC (Fig. 2 ). In fact, CC cases with SCC components have been reported [ 9 ]. It is unclear whether the histological features change from CC to SCC over time or whether aggressive transformation occurs because of the accumulation of genetic alterations. As an example of transformation, the acquisition of TP53 or CDKN2A mutations in addition to initial KRAS or EGFR mutations drives the aggressive transformation in inverted papillomas of the nasal cavity [ 34 ]. A similar mechanism involving the sequential accumulation of genetic alterations might underlie the progression of CC to SCC in a UCC-like state. However, further investigations are required to validate this hypothesis. Interpretation of the UCC group in the present study requires caution. While we provisionally categorized a subset of OSCC cases as UCC—with the aim of clarifying the genetic characteristics of pure CC—this classification may be challenging for both research groups and practicing pathologists. This difficulty arises because UCC comprises a diagnostically ambiguous category; even within our group, despite some pathologists diagnosing these cases as CC, we could not reach unanimous consensus on their classification. The UCC group exhibited characteristics intermediate between the CC and SCC groups. Nevertheless, the absence of TP53 mutations (Fig. 3 E), a low Ki-67 labeling index (Fig. 4 D), and lack of metastasis or recurrence (Table 1 ) suggest that the UCC group may be more closely related to the CC group than to the SCC group. For research and diagnosis, a two-category classification of CC and SCC is preferable to the three-category classification used in this study. The p53 staining pattern and Ki-67 index may serve as valuable auxiliary tools for categorizing UCC as either CC or conventional OSCC. This study has several limitations. First, our analysis intentionally focused on OSCCs with a burrowing invasive pattern, which is characteristic of CC. This selection criterion, which was necessary for our study design, may have introduced bias. Consequently, our SCC control group is not fully representative of conventional OSCCs. Therefore, the differences observed in the present study should be interpreted as a comparison between CC and a histologically similar subset of OSCC rather than between CC and OSCC in general. However, this targeted approach is unlikely to distort the intrinsic clinicopathological and genetic characteristics of CC. Second, the statistical power of this study was inherently limited by its small sample size, which is an unavoidable consequence of the rarity of CC. Therefore, our findings, particularly regarding the genetic landscape of CC and its effects on tumor biology, require validation in larger multi-institutional cohort studies.",
+      "order": 10
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study provided the first comprehensive description of the genetic characteristics of oral CC. We demonstrated that pure CC possesses a genetic profile distinct from that of conventional OSCC, characterized by a low frequency of TP53 and CDKN2A alterations coupled with a high frequency of mutations in key genes. This genetic signature may contribute to the distinct biological behavior of CC and offer a potential tool for differential diagnosis, particularly for non-neoplastic lesions. While our findings suggest that CC and conventional OSCC may represent a continuous spectrum of diseases, further studies with larger cohorts are required to confirm this relationship and fully elucidate the genetic landscape of CC.",
+      "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "journal": "WHO Classification of Tumours, Head and Neck Tumours",
+      "year": "2024"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "authors": [
+        "Tan Y",
+        "Wang Z",
+        "Xu M",
+        "et al."
+      ],
+      "title": "Oral squamous cell carcinomas: State of the field and emerging directions",
+      "journal": "Int J Oral Sci",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "44",
+      "doi": "10.1038/s41368-023-00249-w",
+      "pmid": "37736748",
+      "pmc_id": "PMC10517027"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Aird I",
+        "Johnson HD",
+        "Lennox B",
+        "Stansfeld AG"
+      ],
+      "title": "Epithelioma cuniculatum: a variety of squamous carcinoma peculiar to the foot",
+      "journal": "Br J Surg",
+      "year": "1954",
+      "volume": "42",
+      "fpage": "245",
+      "lpage": "250",
+      "doi": "10.1002/bjs.18004217304",
+      "pmid": "13219306"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Sivapathasundharam B",
+        "Kavitha B",
+        "Padmapriya VM"
+      ],
+      "title": "Carcinoma cuniculatum of the alveolar mucosa: a rare variant of squamous cell carcinoma",
+      "journal": "Head Neck Pathol",
+      "year": "2019",
+      "volume": "13",
+      "fpage": "652",
+      "lpage": "655",
+      "doi": "10.1007/s12105-018-0938-y",
+      "pmid": "29948589",
+      "pmc_id": "PMC6854127"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Flieger S",
+        "Owiński T"
+      ],
+      "title": "Epithelioma cuniculatum an unusual form of mouth and jaw neoplasm",
+      "journal": "Czas Stomatol",
+      "year": "1977",
+      "volume": "30",
+      "fpage": "395",
+      "lpage": "401",
+      "pmid": "266444"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Allon D",
+        "Kaplan I",
+        "Manor R",
+        "Calderon S"
+      ],
+      "title": "Carcinoma cuniculatum of the jaw: a rare variant of oral carcinoma",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod",
+      "year": "2002",
+      "volume": "94",
+      "fpage": "601",
+      "lpage": "608",
+      "doi": "10.1067/moe.2002.126913",
+      "pmid": "12424455"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Padilla RJ",
+        "Murrah VA"
+      ],
+      "title": "Carcinoma cuniculatum of the oral mucosa: a potentially underdiagnosed entity in the absence of clinical correlation",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2014",
+      "volume": "118",
+      "fpage": "684",
+      "lpage": "693",
+      "doi": "10.1016/j.oooo.2014.08.011",
+      "pmid": "25443811"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Farag AF",
+        "Abou-Alnour DA",
+        "Abu-Taleb NS"
+      ],
+      "title": "Oral carcinoma cuniculatum, an unacquainted variant of oral squamous cell carcinoma: a systematic review",
+      "journal": "Imaging Sci Dent",
+      "year": "2018",
+      "volume": "48",
+      "fpage": "233",
+      "lpage": "244",
+      "doi": "10.5624/isd.2018.48.4.233",
+      "pmid": "30607347",
+      "pmc_id": "PMC6305781"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Takashi I",
+        "Miura KI",
+        "Kakehashi H",
+        "Shiraishi T",
+        "Egashira K",
+        "Asahina I"
+      ],
+      "title": "Carcinoma cuniculatum of the lower gingiva masked with leukoplakia: a case of difficult diagnosis",
+      "journal": "J Oral Maxillofac Surg Med Pathol",
+      "year": "2021",
+      "volume": "33",
+      "fpage": "281",
+      "lpage": "285",
+      "doi": "10.1016/j.ajoms.2020.11.006"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Yadav S",
+        "Bal M",
+        "Rane S",
+        "Mittal N",
+        "Janu A",
+        "Patil A"
+      ],
+      "title": "Carcinoma cuniculatum of the oral cavity: a series of 6 cases and review of literature",
+      "journal": "Head Neck Pathol",
+      "year": "2022",
+      "volume": "16",
+      "fpage": "213",
+      "lpage": "223",
+      "doi": "10.1007/s12105-021-01340-6",
+      "pmid": "34076846",
+      "pmc_id": "PMC9018931"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Thavaraj S",
+        "Cobb A",
+        "Kalavrezos N",
+        "Beale T",
+        "Walker DM",
+        "Jay A"
+      ],
+      "title": "Carcinoma cuniculatum arising in the tongue",
+      "journal": "Head Neck Pathol",
+      "year": "2012",
+      "volume": "6",
+      "fpage": "130",
+      "lpage": "134",
+      "doi": "10.1007/s12105-011-0270-2",
+      "pmid": "21643820",
+      "pmc_id": "PMC3311953"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Sun Y",
+        "Kuyama K",
+        "Burkhardt A",
+        "Yamamoto H"
+      ],
+      "title": "Clinicopathological evaluation of carcinoma cuniculatum: a variant of oral squamous cell carcinoma",
+      "journal": "J Oral Pathol Med",
+      "year": "2012",
+      "volume": "41",
+      "fpage": "303",
+      "lpage": "308",
+      "doi": "10.1111/j.1600-0714.2011.01116.x",
+      "pmid": "22085046"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Fowler JC",
+        "Jones PH"
+      ],
+      "title": "Somatic mutation: What shapes the mutational landscape of normal epithelia?",
+      "journal": "Cancer Discov",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "1642",
+      "lpage": "1655",
+      "doi": "10.1158/2159-8290.CD-22-0145",
+      "pmid": "35397477",
+      "pmc_id": "PMC7613026"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Pickering CR",
+        "Zhang J",
+        "Yoo SY",
+        "et al."
+      ],
+      "title": "Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers",
+      "journal": "Cancer Discov",
+      "year": "2013",
+      "volume": "3",
+      "fpage": "770",
+      "lpage": "781",
+      "doi": "10.1158/2159-8290.CD-12-0537",
+      "pmid": "23619168",
+      "pmc_id": "PMC3858325"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Chen SJ",
+        "Liu H",
+        "Liao CT",
+        "et al."
+      ],
+      "title": "Ultra-deep targeted sequencing of advanced oral squamous cell carcinoma identifies a mutation-based prognostic gene signature",
+      "journal": "Oncotarget",
+      "year": "2015",
+      "volume": "6",
+      "fpage": "18066",
+      "lpage": "18080",
+      "doi": "10.18632/oncotarget.3768",
+      "pmid": "25980437",
+      "pmc_id": "PMC4621868"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Nakagaki T",
+        "Tamura M",
+        "Kobashi K",
+        "et al."
+      ],
+      "title": "Profiling cancer-related gene mutations in oral squamous cell carcinoma from Japanese patients by targeted amplicon sequencing",
+      "journal": "Oncotarget",
+      "year": "2017",
+      "volume": "8",
+      "fpage": "59113",
+      "lpage": "59122",
+      "doi": "10.18632/oncotarget.19262",
+      "pmid": "28938622",
+      "pmc_id": "PMC5601718"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Samman M",
+        "Wood HM",
+        "Conway C",
+        "et al."
+      ],
+      "title": "A novel genomic signature reclassifies an oral cancer subtype",
+      "journal": "Int J Cancer",
+      "year": "2015",
+      "volume": "137",
+      "fpage": "2364",
+      "lpage": "2373",
+      "doi": "10.1002/ijc.29615",
+      "pmid": "26014678"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Hirose K",
+        "Shibahara T",
+        "Teramoto A",
+        "et al."
+      ],
+      "title": "Clear cell squamous cell carcinoma of the maxillary gingiva associated with PIK3CA and HRAS mutations: report of a case and literature review",
+      "journal": "Head Neck Pathol",
+      "year": "2023",
+      "volume": "17",
+      "fpage": "1026",
+      "lpage": "1033",
+      "doi": "10.1007/s12105-023-01580-8",
+      "pmid": "37735286",
+      "pmc_id": "PMC10739645"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Barrett AW",
+        "Garg M",
+        "Armstrong D",
+        "et al."
+      ],
+      "title": "Cystic squamous cell carcinomas of the jaws: twelve cases highlighting histopathological pitfalls",
+      "journal": "Int J Surg Pathol",
+      "year": "2020",
+      "volume": "28",
+      "fpage": "624",
+      "lpage": "630",
+      "doi": "10.1177/1066896920903388",
+      "pmid": "32046560"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Simón AM",
+        "de Leyva P",
+        "Cárdenas C",
+        "et al."
+      ],
+      "title": "Carcinoma cuniculatum, a rare variant of oral squamous cell carcinoma: presentation of five clinical cases and review of the literature",
+      "journal": "J Maxillofac Oral Surg",
+      "year": "2024",
+      "volume": "23",
+      "fpage": "972",
+      "lpage": "978",
+      "doi": "10.1007/s12663-024-02247-9",
+      "pmid": "39118902",
+      "pmc_id": "PMC11303646"
+    },
+    {
+      "ref_id": "CR21",
+      "label": "21.",
+      "authors": [
+        "Mahmood H",
+        "Bradburn M",
+        "Rajpoot N",
+        "Islam NM",
+        "Kujan O",
+        "Khurram SA"
+      ],
+      "title": "Prediction of malignant transformation and recurrence of oral epithelial dysplasia using architectural and cytological feature specific prognostic models",
+      "journal": "Mod Pathol",
+      "year": "2022",
+      "volume": "35",
+      "fpage": "1151",
+      "lpage": "1159",
+      "doi": "10.1038/s41379-022-01067-x",
+      "pmid": "35361889",
+      "pmc_id": "PMC9424112"
+    },
+    {
+      "ref_id": "CR22",
+      "label": "22.",
+      "authors": [
+        "Novack R",
+        "Zhang L",
+        "Hoang LN",
+        "et al."
+      ],
+      "title": "Abnormal p53 immunohistochemical patterns shed light on the aggressiveness of oral epithelial dysplasia",
+      "journal": "Mod Pathol",
+      "year": "2023",
+      "volume": "36",
+      "fpage": "100153",
+      "doi": "10.1016/j.modpat.2023.100153",
+      "pmid": "36906072"
+    },
+    {
+      "ref_id": "CR23",
+      "label": "23.",
+      "authors": [
+        "Huang PJ",
+        "Ting CH",
+        "Leu YS",
+        "Ho NH",
+        "Lin CF"
+      ],
+      "title": "Oral carcinoma cuniculatum: a rare, clinically challenging entity-a case report and updated systematic review",
+      "journal": "Head Neck",
+      "year": "2026",
+      "volume": "48",
+      "fpage": "583",
+      "lpage": "596",
+      "doi": "10.1002/hed.70111",
+      "pmid": "41328503"
+    },
+    {
+      "ref_id": "CR24",
+      "label": "24.",
+      "authors": [
+        "Saluja TS",
+        "Hosalkar RM",
+        "Gupta S",
+        "Khurana S"
+      ],
+      "title": "Oral carcinoma cuniculatum: systematic review of a rare diagnostically challenging entity",
+      "journal": "J Stomatol Oral Maxillofac Surg",
+      "year": "2026",
+      "volume": "127",
+      "fpage": "102639",
+      "doi": "10.1016/j.jormas.2025.102639",
+      "pmid": "41167307"
+    },
+    {
+      "ref_id": "CR25",
+      "label": "25.",
+      "authors": [
+        "Stransky N",
+        "Egloff AM",
+        "Tward AD",
+        "et al."
+      ],
+      "title": "The mutational landscape of head and neck squamous cell carcinoma",
+      "journal": "Science",
+      "year": "2011",
+      "volume": "333",
+      "fpage": "1157",
+      "lpage": "1160",
+      "doi": "10.1126/science.1208130",
+      "pmid": "21798893",
+      "pmc_id": "PMC3415217"
+    },
+    {
+      "ref_id": "CR26",
+      "label": "26.",
+      "title": "Comprehensive genomic characterization of head and neck squamous cell carcinomas",
+      "journal": "Nature",
+      "year": "2015",
+      "volume": "517",
+      "fpage": "576",
+      "lpage": "582",
+      "doi": "10.1038/nature14129",
+      "pmid": "25631445",
+      "pmc_id": "PMC4311405"
+    },
+    {
+      "ref_id": "CR27",
+      "label": "27.",
+      "authors": [
+        "Hainaut P",
+        "Hollstein M"
+      ],
+      "title": "p53 and human cancer: the first ten thousand mutations",
+      "journal": "Adv Cancer Res",
+      "year": "2000",
+      "volume": "77",
+      "fpage": "81",
+      "lpage": "137",
+      "doi": "10.1016/s0065-230x(08)60785-x",
+      "pmid": "10549356"
+    },
+    {
+      "ref_id": "CR28",
+      "label": "28.",
+      "authors": [
+        "Wang Y",
+        "Zhou C",
+        "Li T",
+        "Luo J"
+      ],
+      "title": "Prognostic value of CDKN2A in head and neck squamous cell carcinoma via pathomics and machine learning",
+      "journal": "J Cell Mol Med",
+      "year": "2024",
+      "volume": "28",
+      "fpage": "e18394",
+      "doi": "10.1111/jcmm.18394",
+      "pmid": "38751024",
+      "pmc_id": "PMC11096642"
+    },
+    {
+      "ref_id": "CR29",
+      "label": "29.",
+      "authors": [
+        "Engelman JA"
+      ],
+      "title": "Targeting PI3K signalling in cancer: opportunities, challenges and limitations",
+      "journal": "Nat Rev Cancer",
+      "year": "2009",
+      "volume": "9",
+      "fpage": "550",
+      "lpage": "562",
+      "doi": "10.1038/nrc2664",
+      "pmid": "19629070"
+    },
+    {
+      "ref_id": "CR30",
+      "label": "30.",
+      "authors": [
+        "Marquard FE",
+        "Jücker M"
+      ],
+      "title": "PI3K/AKT/mTOR signaling as a molecular target in head and neck cancer",
+      "journal": "Biochem Pharmacol",
+      "year": "2020",
+      "volume": "172",
+      "fpage": "113729",
+      "doi": "10.1016/j.bcp.2019.113729",
+      "pmid": "31785230"
+    },
+    {
+      "ref_id": "CR31",
+      "label": "31.",
+      "authors": [
+        "Wang T",
+        "Li J",
+        "Du J",
+        "et al."
+      ],
+      "title": "Recent advances in the role of atypical cadherin FAT1 in tumorigenesis (Review)",
+      "journal": "Oncol Lett",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "110",
+      "doi": "10.3892/ol.2024.14856",
+      "pmid": "39776648",
+      "pmc_id": "PMC11704873"
+    },
+    {
+      "ref_id": "CR32",
+      "label": "32.",
+      "authors": [
+        "Cao LL",
+        "Riascos-Bernal DF",
+        "Chinnasamy P",
+        "et al."
+      ],
+      "title": "Control of mitochondrial function and cell growth by the atypical cadherin Fat1",
+      "journal": "Nature",
+      "year": "2016",
+      "volume": "539",
+      "fpage": "575",
+      "lpage": "578",
+      "doi": "10.1038/nature20170",
+      "pmid": "27828948",
+      "pmc_id": "PMC5257202"
+    },
+    {
+      "ref_id": "CR33",
+      "label": "33.",
+      "authors": [
+        "Fonseca FP",
+        "Pontes HA",
+        "Pontes FS",
+        "et al."
+      ],
+      "title": "Oral carcinoma cuniculatum: two cases illustrative of a diagnostic challenge",
+      "journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+      "year": "2013",
+      "volume": "116",
+      "fpage": "457",
+      "lpage": "463",
+      "doi": "10.1016/j.oooo.2013.06.006",
+      "pmid": "24035112"
+    },
+    {
+      "ref_id": "CR34",
+      "label": "34.",
+      "authors": [
+        "Brown NA",
+        "Plouffe KR",
+        "Yilmaz O",
+        "et al."
+      ],
+      "title": "TP53 mutations and CDKN2A mutations/deletions are highly recurrent molecular alterations in the malignant progression of sinonasal papillomas",
+      "journal": "Mod Pathol",
+      "year": "2021",
+      "volume": "34",
+      "fpage": "1133",
+      "lpage": "1142",
+      "doi": "10.1038/s41379-020-00716-3",
+      "pmid": "33203919",
+      "pmc_id": "PMC8126579"
+    }
+  ]
+}

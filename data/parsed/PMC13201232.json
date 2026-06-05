@@ -1,0 +1,1845 @@
+{
+  "metadata": {
+    "title": "The biological characteristics of tertiary lymphoid structures in head and neck cancer",
+    "authors": [
+      "Suwen Bai",
+      "Yuan Wei",
+      "Fankai Liu",
+      "Hexing Sun",
+      "Xianhai Zeng",
+      "Peng Zhang"
+    ],
+    "journal": "Frontiers in Immunology",
+    "year": "2026",
+    "doi": "10.3389/fimmu.2026.1818962",
+    "pmc_id": "PMC13201232",
+    "pmid": "42206030",
+    "full_text_available": true,
+    "section_count": 27,
+    "reference_count": 87
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Head and neck cancer (HNC) is one of the most prevalent malignancies worldwide, and its clinical management remains fraught with formidable challenges. In recent years, as our understanding of the tumor microenvironment (TME) has deepened, immunotherapy—especially the clinical application of immune checkpoint inhibitors (ICIs)—has brought a revolutionary breakthrough to HNC treatment. However, only a subset of patients can derive clinical benefits from such therapies, highlighting the urgent need to identify reliable predictive biomarkers. Tertiary lymphoid structures (TLS), lymphocyte aggregates ectopically formed in non-lymphoid tissues such as chronically inflamed or tumor sites with functions analogous to secondary lymphoid organs, have emerged as a burgeoning research hotspot in tumor immunology. This review aims to systematically elaborate on the biological characteristics of TLS in HNC, their clinical value as biomarkers for prognostic evaluation and immunotherapy response prediction, current TLS detection and assessment methodologies, as well as potential therapeutic strategies targeting TLS. We employed a systematic literature review methodology. Studies have confirmed that mature, intra-tumoral TLS are significantly correlated with improved patient prognosis and higher immunotherapy response rates, acting as the “central core” of tumor immunity by initiating and sustaining adaptive anti-tumor immune responses locally. Despite the promising clinical translation prospects of TLS, standardization of assessment systems, development of non-invasive detection technologies, and clarification of TLS functional heterogeneity across different HNC subtypes remain major challenges in current research. This review synthesizes the latest advances in this field, providing a comprehensive and insightful perspective for understanding the pivotal role of TLS in HNC treatment.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Head and neck cancer (HNC) is a heterogeneous group of malignant tumors originating from the mucosal epithelium of the head and neck, primarily including oral cancer, oropharyngeal cancer, hypopharyngeal cancer, laryngeal cancer, and nasopharyngeal cancer, among which more than 90% are squamous cell carcinomas (Head and Neck Squamous Cell Carcinoma, HNSCC) ( 1 ). Despite significant progress in traditional treatment modalities such as surgery, radiotherapy, and chemotherapy, the five-year survival rate for patients with locally advanced or recurrent/metastatic head and neck cancer remains suboptimal. Moreover, conventional treatments often come with severe toxic side effects, severely impacting patients’ quality of life ( 2 , 3 ). Tertiary lymphoid structures (TLS), also known as ectopic lymphoid structures, are aggregates of lymphocytes induced in non-lymphoid tissues such as chronic inflammation, autoimmune diseases, organ transplant rejection, or tumors, in addition to the formation of lymphoid organs during embryonic development ( 4 , 5 ). The structure and function of the Tumor-Lymphoid System (TLS) are highly analogous to those of secondary lymphoid organs (such as lymph nodes and the spleen), typically comprising well-defined T-cell and B-cell zones, with the latter potentially developing into B-cell follicles containing germinal centers (GCs). Additionally, the TLS includes mature dendritic cells (DCs), follicular dendritic cell (FDC) networks, and high endothelial microvessels (HEVs), which serve as critical pathways for lymphocytes to migrate from the bloodstream into the TLS ( 4 , 6 ). This highly organized architecture enables the TLS to perform comprehensive immune functions at the tumor- in-situ level: capturing and presenting tumor antigens, activating initial T cells, promoting affinity maturation and class switching of B cells, thereby generating a robust adaptive immune effector cells targeting tumor-specific antigens ( 7 ). In recent years, immune checkpoint inhibitor (ICI), represented by PD-1/PD-L1 inhibitors, have transformed the treatment landscape for advanced head and neck squamous cell carcinoma (HNSCC), delivering durable clinical benefits to some patients ( 1 , 8 ). However, the overall objective response rate to ICIs remains only 15-20%, indicating the presence of complex immunosuppressive mechanisms within the tumor microenvironment (TME) that limit the broad efficacy of immunotherapy ( 9 ). TME can be broadly classified into “immunoinflammatory” (“hot” tumors), “immunorejective, “ and “immune desert” (“cold” tumors) ( 10 ). “Hot” tumors are typically characterized by effector T cell infiltration and exhibit better responses to ICI therapy. Transforming “cold” tumors into “hot” tumors represents one of the core strategies for enhancing the efficacy of immunotherapy. Among the various components of the TME, a highly organized aggregate of immune cells-TLS-has been identified as playing a pivotal role. In this review, we focus on the tertiary lymphoid structures in the treatment of HNC including its formation mechanisms, structural functions, and heterogeneity; secondly, it focuses on analyzing the clinical value of TLS in predicting prognosis and immunotherapy efficacy for head and neck cancer; thirdly, it provides a detailed overview of mainstream and cutting-edge technologies currently used for TLS detection and assessment; finally, it explores innovative therapeutic strategies that may target TLS in the future.",
+      "order": 1
+    },
+    {
+      "section": "Formation And Maturation Mechanism Of Tls",
+      "text": "The formation and maturation of TLS is a complex process involving multiple steps, cells, and molecules, with its core mechanism being the reactivation of molecular signaling pathways that mimic lymphoid organ development within the tumor microenvironment ( 11 ). As shown in Figure 1 .",
+      "order": 2
+    },
+    {
+      "section": "Initial Signal And Cell Recruitment",
+      "text": "The death of tumor cells (such as immunogenic cell death) releases tumor antigens and damage-associated molecular patterns (DAMPs), activating local innate immune cells like dendritic cells and macrophages ( 12 ). These activated cells, along with tumor and stromal cells, begin secreting a series of pro-inflammatory cytokines and chemokines ( 13 ). Among these, the chemokine CXCL13 is considered a key molecule initiating TLS formation ( 14 , 15 ). It is primarily produced by follicular helper T cells (Tfh) and stromal cells, responsible for recruiting CXCR5 + B cells and some T cells ( 16 , 17 ). Concurrently, chemokines CCL19 and CCL21 secreted by stromal cells and dendritic cells recruit naive T cells and mature dendritic cells via their receptor CCR7, laying the foundation for T cell zone formation ( 18 ).",
+      "order": 3
+    },
+    {
+      "section": "Lymphotoxin Signaling Pathway",
+      "text": "The lymphotoxin (LT) signaling pathway plays a central role in the maintenance and maturation of the T lymphoid site (TLS). Lymphotoxin-α1β2 (LTα1β2) is expressed by lymphoid tissue-inducing (LTi) cells, B cells, and activated T cells, binding to the lymphotoxin-β receptor (LTβR) on the surface of stromal cells. This interaction induces stromal cells to differentiate into lymphoid tissue stromal cells and upregulates multiple molecules critical for lymphocyte homing, survival, and function. These include chemokines such as CCL19, CCL21, CXCL12, and CXCL13, as well as cell adhesion molecules like ICAM-1, VCAM-1, and MAdCAM-1.",
+      "order": 4
+    },
+    {
+      "section": "Cell Interactions And Structural Organization",
+      "text": "As various immune cells and stromal cells aggregate and interact under specific chemokine gradients, the structure of TLS gradually becomes defined ( 19 ). T cells and antigen-presenting DCs aggregate to form the T cell zone, B cells aggregate under the guidance of CXCL13 to form B-cell follicles ( 20 ). At HEVs, lymphocytes express L-selectin to bind molecules such as PNAd (Peripheral Node Addressin) on HEV surfaces, enabling efficient migration from the bloodstream to continuously replenish the lymphocyte pool within the TLS ( 21 – 23 ).",
+      "order": 5
+    },
+    {
+      "section": "Maturation And Formation Of The Germ Center",
+      "text": "Under sustained antigenic stimulation, functional GCs develop within B-cell follicles ( 24 ). With the assistance of Tfh cells, B cells within GCs undergo rapid proliferation, high-frequency somatic hypermutation, and class-switch recombination ( 25 , 26 ). This process selects high-affinity antibodies and differentiates B cells into plasma cells and memory B cells. Mature TLS containing GCs represent the hallmark of local humoral immune responses and signify the highest level of immunological organization ( 18 , 27 , 28 ).",
+      "order": 6
+    },
+    {
+      "section": "Structure And Function Of Tls",
+      "text": "Mature tumor lymphoid tissue structurally represents a highly concentrated version of secondary lymphoid organs, serving multifaceted functions: It serves not only as a gathering place for immune cells but also as a fully functional “immune reactor” ( 29 ). This structure independently executes a series of complex immune processes-including antigen presentation, lymphocyte activation, proliferation, and differentiation-thereby generating and sustaining a diverse, tumor-specific immune effector force locally within the tumor ( 30 ). Its core function lies in initiating precise and highly efficient antitumor immune responses at the tumor site ( 29 , 31 ). The TLS composition and related functions are shown in Table 1 .",
+      "order": 7
+    },
+    {
+      "section": "B-Cell Zone/Follicle",
+      "text": "The core region is primarily formed by clusters of CD20 + B cells, and it may contain germinal centers. Within germinal centers reside B cells undergoing high-frequency somatic hypermutation and antibody class switching, alongside follicular dendritic cells responsible for capturing and presenting antigens to B cells ( 32 , 33 ).",
+      "order": 8
+    },
+    {
+      "section": "T-Cell Zone",
+      "text": "This zone is rich in CD3 + T cells, particularly CD4 + helper T cells and CD8 + cytotoxic T cells, as well as antigen-presenting mature dendritic cells expressing CD83 + or LAMP3 + ( 34 – 37 ). This serves as the primary site for T cell activation and proliferation. Dendritic cells present antigens captured from tumor cells to naive T cells, initiating the cellular immune response ( 38 ).",
+      "order": 9
+    },
+    {
+      "section": "Matrix And Vascular Network",
+      "text": "This primarily includes the stromal cell network and high endothelial venules. The stromal cell network comprises fibroblast-reticular cells (FRCs) and follicular dendritic cells (FDCs), which form the scaffolding of the TLS and secrete key chemokines and survival factors to guide the localization and interactions of immune cells ( 39 ). HEVs are uniquely structured blood vessels expressing specific molecules such as PNAd, serving as the primary gateway for circulating lymphocytes to enter TLS. The density and functional state of HEVs directly influence the TLS’s capacity for immune cell recruitment ( 32 , 40 ).",
+      "order": 10
+    },
+    {
+      "section": "The Heterogeneity Of Tls",
+      "text": "TLS is not a homogeneous structure; it exhibits significant heterogeneity across different patients, tumor types, and even distinct regions within the same tumor. This heterogeneity manifests primarily in two dimensions: maturation status and spatial distribution, profoundly influencing its clinical significance.",
+      "order": 11
+    },
+    {
+      "section": "Maturity Heterogeneity",
+      "text": "The formation of TLS is a dynamic process with a continuous spectrum of maturity, ranging from simple lymphocyte aggregates to highly organized structures ( 41 ). It is broadly categorized into early TLS, primary follicular-like TLS, and secondary follicular-like TLS. Early TLS consists solely of diffuse aggregates of T cells and B cells; primary follicular-like TLS forms distinct T cell and B cell zones without germinal centers; secondary follicular-like TLS contains active germinal centers (GCs), signifying a mature and functionally active humoral immune response is underway, representing the most mature form of TLS ( 42 ). Research generally indicates that TLS maturity correlates positively with its functional and prognostic value ( 43 ). Mature TLS containing GCs is associated with stronger antitumor immunity, improved patient survival, and higher immunotherapy response rates ( 44 ).",
+      "order": 12
+    },
+    {
+      "section": "Spatial Distribution Heterogeneity",
+      "text": "The spatial distribution of tumor-associated lymphocytes (TLS) in the tumor microenvironment carries distinct biological significance and prognostic value ( 42 ). Intra-tumor TLS, which are directly embedded within tumor cell nests or adjacent to tumor cells, are considered to possess the strongest antitumor potential-because their effector cells and antibodies can act on target cells most directly and rapidly ( 44 , 45 ). Peritumoral TLS are distributed in the stromal regions at tumor margins or invasion frontiers. Although they also exhibit antitumor functions, their effects require longer physical distances or penetration of stromal barriers to reach tumor cells ( 19 , 43 ). Stromal TLS are located in fibrotic stromal regions distant from the tumor body, and their functions and prognostic significance remain incompletely elucidated, though they are hypothesized to be associated with the chronic inflammatory background of tumors ( 46 , 47 ).",
+      "order": 13
+    },
+    {
+      "section": "The Value Of Tls In The Diagnosis, Treatment, And Prognosis Of Hnc",
+      "text": "TLS, as a specialized immune structure with quasi-secondary lymphoid organ functions within the tumor microenvironment, demonstrates significant clinical value in the diagnosis, treatment, and prognostic assessment of head and neck cancer. At the diagnostic level, the presence, density, maturity, and spatial distribution characteristics of TLS can serve as potential biomarkers ( 29 ). Through methods such as pathological section staining and imaging detection, TLS aids in the early screening, pathological classification, and risk stratification of invasive metastasis for HNC ( 48 ). It is particularly valuable for identifying and differentiating occult lesions ( 49 ). Therapeutically, TLS can reshape the tumor-suppressive microenvironment by recruiting and activating immune cells such as T cells and B cells ( 50 ). Its presence and functional status not only predict patient response to treatments like immune checkpoint inhibitors and chemotherapy but also provide a theoretical basis for novel therapeutic strategies targeting TLS formation to enhance antitumor immune efficacy ( 51 ). In prognostic assessment, multiple clinical studies confirm that the presence of TLS in head and neck cancer tissues particularly mature, functional TLS is strongly associated with longer disease-free survival and overall survival ( 52 , 53 ). This serves as an independent prognostic factor distinct from traditional indicators like tumor stage and differentiation grade, providing crucial guidance for personalized treatment decisions and follow-up management. Next, we will discuss the characteristics and significance of TLS for various HNC including oral cancer, nasopharyngeal carcinoma, laryngeal cancer, and thyroid cancer.",
+      "order": 14
+    },
+    {
+      "section": "Characteristics And Significance Of Tls In Oral Cancer",
+      "text": "Oral cancer is one of the common malignant tumors among HNC ( 54 ). Research indicates that TLS significantly impacts both pathological outcomes and clinical prognosis in oral cancer patients ( 55 ). Peng et al. suggested that TCF1/TCF7 + T cell subpopulations in TLS may serve as novel therapeutic targets for modulating immune responses in oral squamous cell carcinoma and hold promise as new prognostic markers ( 55 ). Li et al. confirmed the presence of TLS in oral cancer tissues, which are closely associated with the infiltration levels of CD8 + T cells and CD57 + NK cells-indicating that TLS positivity serves as a significant indicator for favorable prognosis in patients with oral cancer ( 56 ). Almangush et al. reported that TLS can predict survival rates for early-stage buccal squamous cell carcinoma and demonstrates independent prognostic predictive capability superior to conventional WHO grading and TNM staging systems ( 57 ). Therefore, inducing or enhancing the formation of TLS is considered a potential strategy that holds promise for improving the efficacy of immunotherapies such as immune checkpoint inhibitors in the diagnosis and treatment of oral cancer, thereby opening new therapeutic avenues for enhancing patient prognosis ( 58 ).",
+      "order": 15
+    },
+    {
+      "section": "Characteristics And Significance Of Tls In Nasopharyngeal Carcinoma",
+      "text": "Similar to other regions of the head and neck, the nasopharynx can develop various types of tumors, including epithelial, mesenchymal, lymphoid, and neuroectodermal tumors ( 59 ). However, the most notable among these is nasopharyngeal carcinoma (NPC) - a “special” tumor that differs significantly from other head and neck tumors in many aspects ( 60 ). In the diagnosis of NPC, early symptoms are often atypical and easily overlooked. Most patients are diagnosed at an advanced stage, significantly compromising treatment outcomes ( 61 , 62 ). In terms of treatment, the unique anatomical location of the nasopharynx imposes significant limitations on traditional surgical resection. Furthermore, issues such as radiotherapy-induced side effects and chemotherapeutic drug resistance further complicate clinical management ( 63 ). In terms of prognosis, patients with advanced-stage NPC are highly susceptible to metastasis ( 64 ). Once metastasis occurs, the prognosis for NPC patients is typically poor. Therefore, appropriate assessment is crucial in the clinical management of NPC. Among these, TLS, a tissue structure formed within a tumor that is structurally and functionally similar to a lymph node, playing a distinct role in diagnosis, treatment, and prognosis. Liu et al., showed that TLS-related cell signatures correlate with prognosis and PD-1 blockade response, offering insights for therapeutic strategies in NPC ( 65 ). Hou et al., suggested that TLS-related RNA interacts with metastasis risk factor in NPC ( 66 ). Liu et al., reported that TLS formation predict immunotherapy response in NPC ( 67 ). In summary, TLS serve as crucial anatomical landmarks for assessing the extent of metastasis and achieving accurate staging in nasopharyngeal carcinoma diagnosis. During treatment, they represent a key region that must be considered when delineating radiotherapy target volumes. Regarding prognosis, their involvement is frequently associated with higher recurrence risk and poorer survival rates. Therefore, meticulous evaluation of level III lymph nodes holds clear clinical significance throughout the comprehensive management of nasopharyngeal carcinoma.",
+      "order": 16
+    },
+    {
+      "section": "Characteristics And Significance Of Tls In Laryngeal Cancer",
+      "text": "Laryngeal cancer is a significant malignancy in the head and neck region, with its pathogenesis closely associated with lifestyle factors such as smoking and alcohol consumption ( 68 ). Current treatment strategies emphasize precise staging and the development of individualized approaches within a multidisciplinary collaborative framework, where early diagnosis and function-preserving therapy are critical for improving patient outcomes ( 69 ). The TLS serves not only as a key prognostic marker for laryngeal cancer but also as a predictive indicator of the efficacy of radiotherapy, chemotherapy, and immunotherapy. For instance, Gkegka et al. found that the tumor microenvironment promotes TLS formation and is correlated with enhanced angiogenic potential ( 70 ). Liang et al. demonstrated that the maturity of TLS-particularly follicular TLS-serves as a potential mediator of anti-tumor immunity in laryngeal cancer ( 71 ). In addition, TLS serves not only as an indirect biomarker for effective antitumor responses in laryngeal cancer, but also as a reliable predictor of recurrence risk ( 72 , 73 ). In summary, the three-TLS functions as an “anti-tumor immune base” in laryngeal cancer. Diagnostically, it serves as a novel indicator for evaluating the tumor immune microenvironment. Therapeutically, it predicts the efficacy of immunotherapy and inspires new treatment strategies; prognostically, it acts as a positive marker for assessing patient survival outcomes. Future in-depth research and clinical application of TLS hold great promise for providing more robust evidence to support personalized, precision immunotherapy in laryngeal cancer.",
+      "order": 17
+    },
+    {
+      "section": "Characteristics And Significance Of Tls In Other Hnc",
+      "text": "In addition to the above three types, common head and neck tumors include thyroid cancer and pharyngeal cancer. TLS has been clearly identified in thyroid cancer, where its maturity may correlate with immune regulatory functions. Particularly in anaplastic carcinoma, it may be associated with immunotherapy sensitivity ( 74 , 75 ). However, research on TLS in other head and neck tumors, such as hypopharyngeal carcinoma, remains in its infancy. Although evidence supporting TLS as a biomarker for clinical decision-making in hypopharyngeal carcinoma and other cancers is currently insufficient, its central role in tumor immunity positions it as a highly promising research direction in this field.",
+      "order": 18
+    },
+    {
+      "section": "Methods",
+      "text": "Accurate and reliable detection and quantification of TLS are prerequisites for advancing it from research to clinical application. Current methods primarily rely on tissue samples and are evolving toward more refined and quantitative approaches (TLS evaluation process as shown in Figure 2 ). In clinical practice, a combination of approaches is typically used to assess TLS according tumor type, clinical stage, treatment goals, and local medical resources. We have provided a detailed summary of the advantages and disadvantages of our TLS detection method ( Table 2 ).",
+      "order": 19
+    },
+    {
+      "section": "Methods",
+      "text": "Histopathological methods involve direct observation and analysis of tissue sections, including hematoxylin and eosin (H&E) staining, which allows preliminary identification of TLS through morphological recognition of lymphocyte aggregates. This approach is low-cost and straightforward to perform, but it cannot distinguish cell subtypes and relies heavily on the pathologist’s experience, which introduces subjective bias ( 5 ). Immunohistochemistry (IHC) and immunofluorescence (IF) utilize specific antibodies to label cells such as CD20 + B cells, CD3 + T cells, PDPN + fibroblasts, confirming the cellular composition and structure of TLS. This represents the most accurate method for TLS identification currently available ( 76 , 77 ). Multiplex immunohistochemistry/immunofluorescence (mIHC/mIF) enables simultaneous labeling of multiple proteins on a single section, providing deeper insights into the spatial relationships and interactions among cells within TLS. It serves as a crucial tool for studying the spatial biology of TLS ( 5 , 77 , 78 ).",
+      "order": 20
+    },
+    {
+      "section": "Gene Expression Profile-Based Detection Method",
+      "text": "These methods indirectly or directly assess TLS by analyzing gene expression, primarily including real-time quantitative PCR (qPCR) indirectly indicates TLS presence by detecting gene expression levels of TLS-associated chemokines (such as CXCL13, CCL19, CCL21) ( 5 ). Another approach is RNA sequencing (RNA-seq), which performs transcriptome analysis on tissue samples to calculate expression scores for TLS-associated genes (such as the “12-chemokine score” or specific multi-gene signatures) ( 79 ). This enables relative quantification and correlates with prognosis. Compared to histological methods, genomic analysis may offer greater objectivity and is well-suited for efficient evaluation ( 42 ).",
+      "order": 21
+    },
+    {
+      "section": "Emerging High-Dimensional Spatial Technology",
+      "text": "To overcome the limitations of traditional methods, technologies such as spatial omics have emerged, enabling the in situ analysis of TLS’s cellular phenotypes, gene expression, and spatial location information at unprecedented resolution and throughput. For example, spatial transcriptomics, which measures gene expression profiles in localized regions while preserving tissue spatial positioning, enables detailed characterization of immune cell phenotypes and active signaling pathways both within and outside the TLS ( 42 , 79 ). 3D imaging, through techniques such as optical sectioning or micro-CT, enables the reconstruction of the three-dimensional structure of TLS, yielding richer information including volume and cell-cell contacts ( 78 ). Imaging Mass Cytometry combined with highly multiplexed tissue imaging enables simultaneous detection of over 40 protein biomarkers at the single-cell level, significantly enhancing the ability to resolve the complex cellular composition of TLS ( 79 ). Despite remarkable advances in relevant technologies, the detection of TLS still faces numerous challenges. For instance, significant discrepancies exist across different studies in terms of the marker panels, scoring systems, and technical platforms adopted for the definition, classification, and quantification of TLS, which hinders valid cross-study comparisons of research outcomes. Therefore, the establishment of a fully validated standardized TLS assessment protocol constitutes a critical prerequisite for facilitating its translation into a clinical companion diagnostic tool. Furthermore, all current detection modalities for TLS rely on tumor tissue specimens, which necessitates sample acquisition via invasive biopsy or surgical procedures. For patients who are unable to obtain sufficient tumor tissue due to various reasons or require long-term dynamic monitoring of TLS alterations, such detection approaches present notable limitations. Therefore, the development of imaging techniques enabling non-invasive, in vivo detection and quantification of TLS have emerged as a key research direction in this field moving forward.",
+      "order": 22
+    },
+    {
+      "section": "Evolution Of Tls Detection And Evaluation Paradigm Driven By Artificial Intelligence",
+      "text": "With the rapid advancement of artificial intelligence (AI) technology, AI-based methods are gaining increasing attention in the field of TLS automatic identification and quantitative analysis. Machine learning and deep learning have become core technological supports driving the standardization and automation of TLS evaluation processes. The development of AI offers several key advantages for TLS detection and assessment: (1) Traditional TLS identification relies on pathologists conducting manual observation and counting of H&E or IHC sections, which is not only time-consuming and labor-intensive but also prone to subjective bias. In contrast, AI can achieve automated detection, segmentation, and counting of TLS based on digital pathological images, significantly improving analytical efficiency and result reproducibility, thereby realizing the goal of automated identification and quantification ( 5 , 79 , 80 ); (2) AI technology can efficiently process conventional H&E images while integrating multidimensional data such as mIHC/mIF, spatial transcriptomics, and radiomics ( 42 ). Through multimodal data fusion and deep feature extraction, it provides robust technical tools for in-depth analysis of TLS functional status and its correlation with clinical outcomes ( 5 ); (3) AI facilitates the establishment of objective and unified TLS evaluation standards, effectively reducing human variability and advancing the standardization of TLS assessment ( 79 , 81 ). Additionally, combining AI-extracted TLS features with clinical data enables the construction of precise predictive and prognostic models ( 29 ); (4) AI can also assist in developing novel detection methods, such as indirectly assessing TLS status through analysis of blood or other body fluid components, thereby providing more diverse approaches and tools for clinical testing ( 5 , 81 ). However, AI detection of TLS primarily relies on conventional staining images, aiming to overcome the subjectivity and complexity inherent in traditional image recognition while addressing the limitations of conventional experimental methods in large-scale data analysis. In summary, AI has brought revolutionary potential to TLS detection, enabling objective, efficient, and in-depth analysis, serving as a key technology for advancing TLS from research to clinical practice. However, its development still faces multiple challenges including data availability, algorithmic limitations, and clinical validation ( 78 ). Future efforts require interdisciplinary collaboration to build high-quality datasets, develop practical models, and validate their value through clinical studies, ultimately achieving AI-assisted precision immunopathological analysis.",
+      "order": 23
+    },
+    {
+      "section": "Strategies For Targeted Tls Therapy In Hnc",
+      "text": "Targeting TLS has emerged as a novel strategy in HNC immunotherapy, as its presence correlates with improved prognosis and immunotherapy response. Consequently, inducing TLS formation has become a key therapeutic approach targeting TLS ( Figure 3 ). Zhu et al. reported generating TLS de novo in HNC by activating lymphotoxin β receptor (LTβR), which promotes lymphoid cell aggregation and HEV formation. Preclinical studies demonstrated that this strategy enhances immune cell infiltration and improves treatment efficacy ( 4 ). In addition, local administration or expression of chemokines via vectors (such as CXCL13, CCL19, CCL21) can recruit B cells, T cells, and dendritic cells to promote TLS assembly. Alternatively, cytokines like IL-7 and IL-2 can stimulate lymphoid cell proliferation and aggregation, thereby supporting TLS development ( 43 , 82 ). In summary, targeting TLS offers a novel approach for immunotherapy in head and neck cancer. By inducing or leveraging these structures to enhance antitumor immune responses, it holds promise for improving response rates to existing immunotherapies and enhancing patient outcomes. We summarized the strategies for combining TLS with immunotherapy ( Table 3 ).",
+      "order": 24
+    },
+    {
+      "section": "Current Status And Future Prospects Of Tls Application In Clinical Diagnosis And Treatment",
+      "text": "In recent years, with the rise of immunotherapy, the value of TLS in clinical diagnosis and treatment of tumors has become increasingly prominent. Firstly, TLS can be utilized for prognostic assessment in cancer patients-numerous studies have demonstrated that the presence of TLS within or peritumors, particularly structurally intact and functionally mature TLS, is significantly associated with longer patient survival ( 78 , 83 ). Additionally, as a key biomarker for responses to immunotherapies such as ICIs, TLS whether pre-existing or newly formed post-treatment is closely linked to higher response rates and prolonged survival benefits in ICIs therapy ( 78 , 84 ). TLS serves not only as a significant biomarker but also as an emerging therapeutic target. For instance, inducing TLS formation through chemokines, chemical agents, or vaccines can transform “cold tumor” into “hot tumor, “ thereby enhancing immune therapy sensitivity ( 77 , 85 , 86 ). Despite promising prospects, the clinical translation of TLS faces challenges: firstly, the standardization of TLS histological scoring and large-scale clinical validation have not been effectively advanced; secondly, TLS exhibits high heterogeneity, necessitating the establishment of a more refined classification system ( 42 , 87 ). In summary, TLS has rapidly evolved from a mere pathological phenomenon into a highly valuable biomarker and emerging therapeutic target in the field of tumor immunotherapy. Currently, it is widely utilized for prognosis assessment and efficacy prediction. In the future, standardized detection and therapeutic strategies that actively induce TLS formation are expected to fundamentally improve clinical outcomes in patients with immunotherapy insensitivity, ushering in a new era of personalized immunotherapy.",
+      "order": 25
+    },
+    {
+      "section": "Conclusion",
+      "text": "In conclusion, TLS have been identified as critical regulators of the tumor immune microenvironment in HNC, with specific mechanisms and clinical implications. Clinical studies have demonstrated that the formation of TLS is associated with improved survival rates in HNC patients. Mechanistically, TLS assembly is driven by chemokines and cytokines, which recruit tissue immune cells to form functional germinal centers (GCs), thereby generating high-affinity antibodies and sustaining a prolonged antitumor immune response. Treatment strategies targeting TLS have demonstrated promising prospects in preclinical models, with combination therapies (TLS induction + ICIs, vaccines, or CAR-T) potentially overcoming the “immune desert” phenotype in advanced head and neck cancers. These advancements position TLS as a core component of precision immunotherapy, offering the potential to revolutionize the treatment of head and neck cancers by enhancing response rates and improving long-term patient outcomes.",
+      "order": 26
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Forster MD",
+        "Devlin MJ"
+      ],
+      "title": "Immune checkpoint inhibition in head and neck cancer",
+      "journal": "Front Oncol",
+      "year": "2018",
+      "volume": "8",
+      "elocation_id": "310",
+      "doi": "10.3389/fonc.2018.00310",
+      "pmid": "30211111",
+      "pmc_id": "PMC6123367"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Liao K",
+        "Tian Y",
+        "Li H",
+        "Zheng R"
+      ],
+      "title": "Neck dose-limiting rings reduce head and neck lymphedema in early nasopharyngeal carcinoma patients undergoing IMRT: a dosimetric-clinical validation",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "11755",
+      "doi": "10.1038/s41598-025-96339-2",
+      "pmid": "40189610",
+      "pmc_id": "PMC11973186"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Leewiboonsilp T",
+        "Jianpinijnan C",
+        "Thokanit NS",
+        "Pattaranutaporn P",
+        "Ngamphaiboon N"
+      ],
+      "title": "Postoperative radiation with or without concurrent chemotherapy for patients with locally advanced head and neck squamous cell carcinoma with multiple intermediate risks: a propensity score-matched study",
+      "journal": "Cancer Med",
+      "year": "2025",
+      "volume": "14",
+      "elocation_id": "e70746",
+      "doi": "10.1002/cam4.70746",
+      "pmid": "40052649",
+      "pmc_id": "PMC11886883"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Zhu J",
+        "Lu H",
+        "Wang K",
+        "Liu B",
+        "Yan J"
+      ],
+      "title": "Tertiary lymphoid structures in head and neck squamous cell carcinoma",
+      "journal": "Transl Oncol",
+      "year": "2024",
+      "volume": "44",
+      "elocation_id": "101949",
+      "doi": "10.1016/j.tranon.2024.101949",
+      "pmid": "38583352",
+      "pmc_id": "PMC11391034"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Yang M",
+        "Che Y",
+        "Li K",
+        "Fang Z",
+        "Li S",
+        "Wang M",
+        "et al."
+      ],
+      "title": "Detection and quantitative analysis of tumor-associated tertiary lymphoid structures",
+      "journal": "J Zhejiang Univ-Sci B",
+      "year": "2023",
+      "volume": "24",
+      "doi": "10.1631/jzus.b2200605",
+      "pmid": "37701955",
+      "pmc_id": "PMC10500099"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Kang W",
+        "Feng Z",
+        "Luo J",
+        "He Z",
+        "Liu J",
+        "Wu J",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in cancer: the double-edged sword role in antitumor immunity and potential therapeutic induction strategies",
+      "journal": "Front Immunol",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "689270",
+      "doi": "10.3389/fimmu.2021.689270",
+      "pmid": "34394083",
+      "pmc_id": "PMC8358404"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Yu C",
+        "Xu J",
+        "Xu S",
+        "Tang L",
+        "Han Q",
+        "Sun Z"
+      ],
+      "title": "Research trends, hotspots and future directions of tertiary lymphoid structures in cancer: a comprehensive informatics analysis and visualization study",
+      "journal": "Discov Oncol",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "665",
+      "doi": "10.1007/s12672-024-01556-2",
+      "pmid": "39549226",
+      "pmc_id": "PMC11569082"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Qiao XW",
+        "Jiang J",
+        "Pang X",
+        "Huang MC",
+        "Tang YJ",
+        "Liang XH",
+        "et al."
+      ],
+      "title": "The evolving landscape of PD-1/PD-L1 pathway in head and neck cancer",
+      "journal": "Front Immunol",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "1721",
+      "doi": "10.3389/fimmu.2020.01721",
+      "pmid": "33072064",
+      "pmc_id": "PMC7531035"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Wang HC",
+        "Yeh TJ",
+        "Chan LP",
+        "Hsu CM",
+        "Cho SF"
+      ],
+      "title": "Exploration of feasible immune biomarkers for immune checkpoint inhibitors in head and neck squamous cell carcinoma treatment in real world clinical practice",
+      "journal": "Int J Mol Sci",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "7621",
+      "doi": "10.3390/ijms21207621",
+      "pmid": "33076306",
+      "pmc_id": "PMC7589088"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Meliante PG",
+        "Zoccali F",
+        "de Vincentiis M",
+        "Ralli M",
+        "Petrella C",
+        "Fiore M",
+        "et al."
+      ],
+      "title": "Diagnostic predictors of immunotherapy response in head and neck squamous cell carcinoma",
+      "journal": "Diagnostics (Basel)",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "862",
+      "doi": "10.3390/diagnostics13050862",
+      "pmid": "36900006",
+      "pmc_id": "PMC10001329"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Wang Y",
+        "Zhang D",
+        "Huang X",
+        "Wu G",
+        "Wang C",
+        "Li J",
+        "et al."
+      ],
+      "title": "From heterogeneity to prognosis: understanding the complexity of tertiary lymphoid structures in tumors",
+      "journal": "Mol Biol Rep",
+      "year": "2025",
+      "volume": "52",
+      "fpage": "197",
+      "doi": "10.1007/s11033-025-10319-3",
+      "pmid": "39903372"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Pimenta EM",
+        "Barnes BJ"
+      ],
+      "title": "Role of tertiary lymphoid structures (TLS) in anti-tumor immunity: potential tumor-induced cytokines/chemokines that regulate TLS formation in epithelial-derived cancers",
+      "journal": "Cancers (Basel)",
+      "year": "2014",
+      "volume": "6",
+      "doi": "10.3390/cancers6020969",
+      "pmid": "24762633",
+      "pmc_id": "PMC4074812"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Miglietta G",
+        "Russo M",
+        "Capranico G",
+        "Marinello J"
+      ],
+      "title": "Stimulation of cGAS-STING pathway as a challenge in the treatment of small cell lung cancer: a feasible strategy",
+      "journal": "Br J Cancer",
+      "year": "2024",
+      "volume": "131",
+      "doi": "10.1038/s41416-024-02821-5",
+      "pmid": "39215193",
+      "pmc_id": "PMC11555062"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Niogret J",
+        "Berger H",
+        "Rebe C",
+        "Mary R",
+        "Ballot E",
+        "Truntzer C",
+        "et al."
+      ],
+      "title": "Follicular helper-T cells restore CD8(+)-dependent antitumor immunity and anti-PD-L1/PD-1 efficacy",
+      "journal": "J Immunother Cancer",
+      "year": "2021",
+      "volume": "9",
+      "elocation_id": ":e002157",
+      "doi": "10.1136/jitc-2020-002157",
+      "pmid": "34103351",
+      "pmc_id": "PMC8190041"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Hsieh CH",
+        "Jian CZ",
+        "Lin LI",
+        "Low GS",
+        "Ou PY",
+        "Hsu C",
+        "et al."
+      ],
+      "title": "Potential role of CXCL13/CXCR5 signaling in immune checkpoint inhibitor treatment in cancer",
+      "journal": "Cancers (Basel)",
+      "year": "2022",
+      "volume": "14",
+      "fpage": "294",
+      "doi": "10.3390/cancers14020294",
+      "pmid": "35053457",
+      "pmc_id": "PMC8774093"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Li JP",
+        "Wu CY",
+        "Chen MY",
+        "Liu SX",
+        "Yan SM",
+        "Kang YF",
+        "et al."
+      ],
+      "title": "PD-1(+)CXCR5(-)CD4(+) Th-CXCL13 cell subset drives B cells into tertiary lymphoid structures of nasopharyngeal carcinoma",
+      "journal": "J Immunother Cancer",
+      "year": "2021",
+      "volume": "9",
+      "elocation_id": "e002101",
+      "doi": "10.1136/jitc-2020-002101",
+      "pmid": "34253636",
+      "pmc_id": "PMC8276302"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Li X",
+        "Xu H",
+        "Du Z",
+        "Cao Q",
+        "Liu X"
+      ],
+      "title": "Advances in the study of tertiary lymphoid structures in the immunotherapy of breast cancer",
+      "journal": "Front Oncol",
+      "year": "2024",
+      "volume": "14",
+      "elocation_id": "1382701",
+      "doi": "10.3389/fonc.2024.1382701",
+      "pmid": "38628669",
+      "pmc_id": "PMC11018917"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Paijens ST",
+        "Vledder A",
+        "de Bruyn M",
+        "Nijman HW"
+      ],
+      "title": "Tumor-infiltrating lymphocytes in the immunotherapy era",
+      "journal": "Cell Mol Immunol",
+      "year": "2021",
+      "volume": "18",
+      "doi": "10.1038/s41423-020-00565-9",
+      "pmid": "33139907",
+      "pmc_id": "PMC8115290"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Deng S",
+        "Chen Y",
+        "Song B",
+        "Wang H",
+        "Huang S",
+        "Wu K",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in cancer: spatiotemporal heterogeneity, immune orchestration, and translational opportunities",
+      "journal": "J Hematol Oncol",
+      "year": "2025",
+      "volume": "18",
+      "fpage": "97",
+      "doi": "10.1186/s13045-025-01754-7",
+      "pmid": "41219991",
+      "pmc_id": "PMC12606831"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Rubio AJ",
+        "Porter T",
+        "Zhong X"
+      ],
+      "title": "Duality of B cell-CXCL13 axis in tumor immunology",
+      "journal": "Front Immunol",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "521110",
+      "doi": "10.3389/fimmu.2020.521110",
+      "pmid": "33193299",
+      "pmc_id": "PMC7609404"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Tohya K",
+        "Umemoto E",
+        "Miyasaka M"
+      ],
+      "title": "Microanatomy of lymphocyte-endothelial interactions at the high endothelial venules of lymph nodes",
+      "journal": "Histol Histopathol",
+      "year": "2010",
+      "volume": "25",
+      "doi": "10.14670/HH-25.781",
+      "pmid": "20376785"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Warnock RA",
+        "Askari S",
+        "Butcher EC",
+        "von Andrian UH"
+      ],
+      "title": "Molecular mechanisms of lymphocyte homing to peripheral lymph nodes",
+      "journal": "J Exp Med",
+      "year": "1998",
+      "volume": "187",
+      "doi": "10.1084/jem.187.2.205",
+      "pmid": "9432978",
+      "pmc_id": "PMC2212097"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Goc J",
+        "Fridman WH",
+        "Sautes-Fridman C",
+        "Dieu-Nosjean MC"
+      ],
+      "title": "Characteristics of tertiary lymphoid structures in primary cancers",
+      "journal": "Oncoimmunology",
+      "year": "2013",
+      "volume": "2",
+      "elocation_id": "e26836",
+      "doi": "10.4161/onci.26836",
+      "pmid": "24498556",
+      "pmc_id": "PMC3912008"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Stebegg M",
+        "Kumar SD",
+        "Silva-Cayetano A",
+        "Fonseca VR",
+        "Linterman MA",
+        "Graca L"
+      ],
+      "title": "Regulation of the germinal center response",
+      "journal": "Front Immunol",
+      "year": "2018",
+      "volume": "9",
+      "elocation_id": "2469",
+      "doi": "10.3389/fimmu.2018.02469",
+      "pmid": "30410492",
+      "pmc_id": "PMC6209676"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Scourzic L",
+        "Izzo F",
+        "Teater M",
+        "Polyzos AP",
+        "Cucereavii L",
+        "Chin CR",
+        "et al."
+      ],
+      "title": "T follicular helper cells transiently unlock a plasticity state in germinal centre B cells during the humoral immune response",
+      "journal": "Nat Cell Biol",
+      "year": "2026",
+      "volume": "28",
+      "fpage": "35",
+      "lpage": "48",
+      "doi": "10.1038/s41556-025-01833-4",
+      "pmid": "41466145",
+      "pmc_id": "PMC13070251"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Le Coz C",
+        "Oldridge DA",
+        "Herati RS",
+        "De Luna N",
+        "Garifallou J",
+        "Cruz CE",
+        "et al."
+      ],
+      "title": "Human T follicular helper clones seed the germinal center-resident regulatory pool",
+      "journal": "Sci Immunol",
+      "year": "2023",
+      "volume": "8",
+      "elocation_id": "e8162",
+      "doi": "10.1101/2022.10.26.513910",
+      "pmid": "37027481",
+      "pmc_id": "PMC10329285"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Trub M",
+        "Zippelius A"
+      ],
+      "title": "Tertiary lymphoid structures as a predictive biomarker of response to cancer immunotherapies",
+      "journal": "Front Immunol",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "674565",
+      "doi": "10.3389/fimmu.2021.674565",
+      "pmid": "34054861",
+      "pmc_id": "PMC8149953"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Bao X",
+        "Lin X",
+        "Xie M",
+        "Yao J",
+        "Song J",
+        "Ma X",
+        "et al."
+      ],
+      "title": "Mature tertiary lymphoid structures: important contributors to anti-tumor immune efficacy",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1413067",
+      "doi": "10.3389/fimmu.2024.1413067",
+      "pmid": "39026670",
+      "pmc_id": "PMC11254644"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Zhang Q",
+        "Wu S"
+      ],
+      "title": "Tertiary lymphoid structures are critical for cancer prognosis and therapeutic response",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "elocation_id": "1063711",
+      "doi": "10.3389/fimmu.2022.1063711",
+      "pmid": "36713409",
+      "pmc_id": "PMC9875059"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Goc J",
+        "Germain C",
+        "Vo-Bourgais TK",
+        "Lupo A",
+        "Klein C",
+        "Knockaert S",
+        "et al."
+      ],
+      "title": "Dendritic cells in tumor-associated tertiary lymphoid structures signal a Th1 cytotoxic immune contexture and license the positive prognostic value of infiltrating CD8+ T cells",
+      "journal": "Cancer Res",
+      "year": "2014",
+      "volume": "74",
+      "doi": "10.1158/0008-5472.can-13-1342",
+      "pmid": "24366885"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Lin WP",
+        "Li H",
+        "Sun ZJ"
+      ],
+      "title": "T cell exhaustion initiates tertiary lymphoid structures and turbocharges cancer-immunity cycle",
+      "journal": "EBioMedicine",
+      "year": "2024",
+      "volume": "104",
+      "elocation_id": "105154",
+      "doi": "10.1016/j.ebiom.2024.105154",
+      "pmid": "38749300",
+      "pmc_id": "PMC11108856"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Liu YM",
+        "Zhao K",
+        "Xie M",
+        "Bao XY",
+        "Cai WH",
+        "Jin JM",
+        "et al."
+      ],
+      "title": "Density and maturity ratio of tertiary lymphoid structures in stage II-III non-small cell lung cancer predict postoperative recurrence risk",
+      "journal": "Transl Lung Cancer Res",
+      "year": "2025",
+      "volume": "14",
+      "doi": "10.21037/tlcr-2025-477",
+      "pmid": "41132984",
+      "pmc_id": "PMC12541829"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Hegoburu A",
+        "Amer M",
+        "Frizelle F",
+        "Purcell R"
+      ],
+      "title": "B cells and tertiary lymphoid structures in cancer therapy response",
+      "journal": "BJC Rep",
+      "year": "2025",
+      "volume": "3",
+      "fpage": "40",
+      "doi": "10.1038/s44276-025-00146-1",
+      "pmid": "40437260",
+      "pmc_id": "PMC12119954"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Zou L",
+        "Chen J",
+        "Xie L",
+        "Zhang L",
+        "Wan L",
+        "Li W",
+        "et al."
+      ],
+      "title": "Landscape of T cells in tuberculous pleural effusion",
+      "journal": "Clin Respir J",
+      "year": "2025",
+      "volume": "19",
+      "elocation_id": "e70066",
+      "doi": "10.1111/crj.70066",
+      "pmid": "40170555",
+      "pmc_id": "PMC11962214"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Brown C",
+        "Sekhavati F",
+        "Cardenes R",
+        "Windmueller C",
+        "Dacosta K",
+        "Rodriguez-Canales J",
+        "et al."
+      ],
+      "title": "CTLA-4 immunohistochemistry and quantitative image analysis for profiling of human cancers",
+      "journal": "J Histochem Cytochem",
+      "year": "2019",
+      "volume": "67",
+      "doi": "10.1369/0022155419882292",
+      "pmid": "31609157",
+      "pmc_id": "PMC6882065"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Ohtani H",
+        "Jin Z",
+        "Takegawa S",
+        "Nakayama T",
+        "Yoshie O"
+      ],
+      "title": "Abundant expression of CXCL9 (MIG) by stromal cells that include dendritic cells and accumulation of CXCR3+ T cells in lymphocyte-rich gastric carcinoma",
+      "journal": "J Pathol",
+      "year": "2009",
+      "volume": "217",
+      "fpage": "21",
+      "lpage": "31",
+      "doi": "10.1002/path.2448",
+      "pmid": "18980207"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Wakasu S",
+        "Tagawa T",
+        "Haratake N",
+        "Kinoshita F",
+        "Oku Y",
+        "Ono Y",
+        "et al."
+      ],
+      "title": "Preventive effect of tertiary lymphoid structures on lymph node metastasis of lung adenocarcinoma",
+      "journal": "Cancer Immunol Immunother",
+      "year": "2023",
+      "volume": "72",
+      "doi": "10.21203/rs.3.rs-2055351/v1",
+      "pmid": "36688996",
+      "pmc_id": "PMC10992259"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Pittet MJ",
+        "Di Pilato M",
+        "Garris C",
+        "Mempel TR"
+      ],
+      "title": "Dendritic cells as shepherds of T cell immunity in cancer",
+      "journal": "Immunity",
+      "year": "2023",
+      "volume": "56",
+      "doi": "10.1016/j.immuni.2023.08.014",
+      "pmid": "37708889",
+      "pmc_id": "PMC10591862"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Kee R",
+        "Naughton M",
+        "McDonnell GV",
+        "Howell OW",
+        "Fitzgerald DC"
+      ],
+      "title": "A review of compartmentalised inflammation and tertiary lymphoid structures in the pathophysiology of multiple sclerosis",
+      "journal": "Biomedicines",
+      "year": "2022",
+      "volume": "10",
+      "fpage": "2604",
+      "doi": "10.3390/biomedicines10102604",
+      "pmid": "36289863",
+      "pmc_id": "PMC9599335"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Lv Z",
+        "Jiao J",
+        "Xue W",
+        "Shi X",
+        "Wang R",
+        "Wu J"
+      ],
+      "title": "Activation-induced cytidine deaminase in tertiary lymphoid structures: dual roles and implications in cancer prognosis",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "15",
+      "elocation_id": "1555491",
+      "doi": "10.3389/fonc.2025.1555491",
+      "pmid": "40270606",
+      "pmc_id": "PMC12014437"
+    },
+    {
+      "ref_id": "B41",
+      "label": "41",
+      "authors": [
+        "You X",
+        "Koop K",
+        "Weigert A"
+      ],
+      "title": "Heterogeneity of tertiary lymphoid structures in cancer",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1286850",
+      "doi": "10.3389/fimmu.2023.1286850",
+      "pmid": "38111571",
+      "pmc_id": "PMC10725932"
+    },
+    {
+      "ref_id": "B42",
+      "label": "42",
+      "authors": [
+        "Zhang Y",
+        "Xu M",
+        "Ren Y",
+        "Ba Y",
+        "Liu S",
+        "Zuo A",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structural heterogeneity determines tumour immunity and prospects for clinical application",
+      "journal": "Mol Cancer",
+      "year": "2024",
+      "volume": "23",
+      "fpage": "75",
+      "doi": "10.1186/s12943-024-01980-6",
+      "pmid": "38582847",
+      "pmc_id": "PMC10998345"
+    },
+    {
+      "ref_id": "B43",
+      "label": "43",
+      "authors": [
+        "Teillaud JL",
+        "Houel A",
+        "Panouillot M",
+        "Riffard C",
+        "Dieu-Nosjean MC"
+      ],
+      "title": "Tertiary lymphoid structures in anticancer immunity",
+      "journal": "Nat Rev Cancer",
+      "year": "2024",
+      "volume": "24",
+      "doi": "10.1038/s41568-024-00728-0",
+      "pmid": "39117919"
+    },
+    {
+      "ref_id": "B44",
+      "label": "44",
+      "authors": [
+        "Wang Z",
+        "Ge Q",
+        "Mo R",
+        "Lu J",
+        "Tian X",
+        "Anwaier A",
+        "et al."
+      ],
+      "title": "Spatial and maturity heterogeneity of tertiary lymphoid structures shapes immune microenvironment and progression in prostate cancer",
+      "journal": "J Natl Cancer Cent",
+      "year": "2025",
+      "volume": "5",
+      "doi": "10.1016/j.jncc.2025.06.003",
+      "pmid": "41111928",
+      "pmc_id": "PMC12529619"
+    },
+    {
+      "ref_id": "B45",
+      "label": "45",
+      "authors": [
+        "Li H",
+        "Zhang MJ",
+        "Zhang B",
+        "Lin WP",
+        "Li SJ",
+        "Xiong D",
+        "et al."
+      ],
+      "title": "Mature tertiary lymphoid structures evoke intra-tumoral T and B cell responses via progenitor exhausted CD4(+) T cells in head and neck cancer",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "4228",
+      "doi": "10.1038/s41467-025-59341-w",
+      "pmid": "40335494",
+      "pmc_id": "PMC12059173"
+    },
+    {
+      "ref_id": "B46",
+      "label": "46",
+      "authors": [
+        "Xia ZA",
+        "Lu C",
+        "Pan C",
+        "Li J",
+        "Li J",
+        "Mao Y",
+        "et al."
+      ],
+      "title": "The expression profiles of signature genes from CD103(+)LAG3(+) tumour-infiltrating lymphocyte subsets predict breast cancer survival",
+      "journal": "BMC Med",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "268",
+      "doi": "10.1186/s12916-023-02960-1",
+      "pmid": "37488535",
+      "pmc_id": "PMC10367329"
+    },
+    {
+      "ref_id": "B47",
+      "label": "47",
+      "authors": [
+        "Mattiuz R",
+        "Boumelha J",
+        "Hamon P",
+        "Le Berichel J",
+        "Vaidya A",
+        "Soong BY",
+        "et al."
+      ],
+      "title": "Dendritic cells type 1 control the formation, maintenance, and function of tertiary lymphoid structures in cancer",
+      "journal": "bioRxiv",
+      "year": "2024",
+      "doi": "10.1101/2024.12.27.628014"
+    },
+    {
+      "ref_id": "B48",
+      "label": "48",
+      "authors": [
+        "Hong S",
+        "Wang Q",
+        "Yu D",
+        "Zheng J",
+        "Huang P",
+        "Gu J",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in head and neck squamous cell carcinoma (Review)",
+      "journal": "Oncol Rep",
+      "year": "2025",
+      "volume": "54",
+      "fpage": "76",
+      "doi": "10.3892/or.2025.8909",
+      "pmid": "40341409"
+    },
+    {
+      "ref_id": "B49",
+      "label": "49",
+      "authors": [
+        "Xu S",
+        "Han C",
+        "Zhou J",
+        "Yang D",
+        "Dong H",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Distinct maturity and spatial distribution of tertiary lymphoid structures in head and neck squamous cell carcinoma: implications for tumor immunity and clinical outcomes",
+      "journal": "Cancer Immunol Immunother",
+      "year": "2025",
+      "volume": "74",
+      "fpage": "107",
+      "doi": "10.1007/s00262-025-03952-1",
+      "pmid": "39932546",
+      "pmc_id": "PMC11813844"
+    },
+    {
+      "ref_id": "B50",
+      "label": "50",
+      "authors": [
+        "Wang Y",
+        "Zhang G",
+        "Zhang X",
+        "Liu G",
+        "Zhang L",
+        "Chen L",
+        "et al."
+      ],
+      "title": "Single-cell and spatial transcriptomics implicate a prognostic function of tertiary lymphoid structures in gastric cancer",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "10435",
+      "doi": "10.1038/s41467-025-65421-8",
+      "pmid": "41290589",
+      "pmc_id": "PMC12647882"
+    },
+    {
+      "ref_id": "B51",
+      "label": "51",
+      "authors": [
+        "Wang JB",
+        "Jiang CY",
+        "Ye YH",
+        "Gao YX",
+        "Zheng QL",
+        "Luo HY",
+        "et al."
+      ],
+      "title": "Intratumoral plasma cells predict patient prognosis and responsiveness to neoadjuvant immunotherapy in advanced gastric cancer",
+      "journal": "NPJ Precis Oncol",
+      "year": "2025",
+      "volume": "9",
+      "fpage": "333",
+      "doi": "10.1038/s41698-025-01071-9",
+      "pmid": "41145683",
+      "pmc_id": "PMC12559250"
+    },
+    {
+      "ref_id": "B52",
+      "label": "52",
+      "authors": [
+        "Wang M",
+        "Zhai R",
+        "Wang M",
+        "Zhu W",
+        "Zhang J",
+        "Yu M",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in head and neck squamous cell carcinoma improve prognosis by recruiting CD8(+) T cells",
+      "journal": "Mol Oncol",
+      "year": "2023",
+      "volume": "17",
+      "doi": "10.1016/j.tranon.2024.101949",
+      "pmid": "36825382",
+      "pmc_id": "PMC10399718"
+    },
+    {
+      "ref_id": "B53",
+      "label": "53",
+      "authors": [
+        "Sosa J",
+        "Glathar A",
+        "Sinha S"
+      ],
+      "title": "Architecture of head and neck squamous cell carcinoma tumor microenvironment revealed: can tertiary lymphoid structures predict post-surgery recurrence",
+      "journal": "Transl Cancer Res",
+      "year": "2024",
+      "volume": "13",
+      "doi": "10.21037/tcr-23-2098",
+      "pmid": "38482424",
+      "pmc_id": "PMC10928623"
+    },
+    {
+      "ref_id": "B54",
+      "label": "54",
+      "authors": [
+        "Rodriguez-Molinero J",
+        "Miguelanez-Medran B",
+        "Puente-Gutierrez C",
+        "Delgado-Somolinos E",
+        "Martin CC",
+        "Fernandez-Farhall J",
+        "et al."
+      ],
+      "title": "Association between oral cancer and diet: an update",
+      "journal": "Nutrients",
+      "year": "2021",
+      "volume": "13",
+      "fpage": "1299",
+      "doi": "10.3390/nu13041299",
+      "pmid": "33920788",
+      "pmc_id": "PMC8071138"
+    },
+    {
+      "ref_id": "B55",
+      "label": "55",
+      "authors": [
+        "Peng Y",
+        "Xiao L",
+        "Rong H",
+        "Ou Z",
+        "Cai T",
+        "Liu N",
+        "et al."
+      ],
+      "title": "Single-cell profiling of tumor-infiltrating TCF1/TCF7(+) T cells reveals a T lymphocyte subset associated with tertiary lymphoid structures/organs and a superior prognosis in oral cancer",
+      "journal": "Oral Oncol",
+      "year": "2021",
+      "volume": "119",
+      "elocation_id": "105348",
+      "doi": "10.1016/j.oraloncology.2021.105348",
+      "pmid": "34044317"
+    },
+    {
+      "ref_id": "B56",
+      "label": "56",
+      "authors": [
+        "Li Q",
+        "Liu X",
+        "Wang D",
+        "Wang Y",
+        "Lu H",
+        "Wen S",
+        "et al."
+      ],
+      "title": "Prognostic value of tertiary lymphoid structure and tumour infiltrating lymphocytes in oral squamous cell carcinoma",
+      "journal": "Int J Oral Sci",
+      "year": "2020",
+      "volume": "12",
+      "fpage": "24",
+      "doi": "10.1038/s41368-020-00092-3",
+      "pmid": "32934197",
+      "pmc_id": "PMC7493903"
+    },
+    {
+      "ref_id": "B57",
+      "label": "57",
+      "authors": [
+        "Almangush A",
+        "Bello IO",
+        "Elseragy A",
+        "Hagstrom J",
+        "Haglund C",
+        "Kowalski LP",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures associate with improved survival in early oral tongue cancer",
+      "journal": "BMC Cancer",
+      "year": "2022",
+      "volume": "22",
+      "fpage": "1108",
+      "doi": "10.1186/s12885-022-10208-z",
+      "pmid": "36309667",
+      "pmc_id": "PMC9618224"
+    },
+    {
+      "ref_id": "B58",
+      "label": "58",
+      "authors": [
+        "Ribeiro V",
+        "Teillaud JL",
+        "Dieu-Nosjean MC",
+        "Lescaille G",
+        "Rochefort J"
+      ],
+      "title": "The prognostic significance of tertiary lymphoid structures in oral squamous cell carcinomas: a systematic review",
+      "journal": "Front Oral Health",
+      "year": "2024",
+      "volume": "5",
+      "elocation_id": "1524313",
+      "doi": "10.3389/froh.2024.1524313",
+      "pmid": "39911478",
+      "pmc_id": "PMC11794802"
+    },
+    {
+      "ref_id": "B59",
+      "label": "59",
+      "authors": [
+        "Wang Z",
+        "Fang M",
+        "Zhang J",
+        "Tang L",
+        "Zhong L",
+        "Li H",
+        "et al."
+      ],
+      "title": "Radiomics and deep learning in nasopharyngeal carcinoma: a review",
+      "journal": "IEEE Rev BioMed Eng",
+      "year": "2024",
+      "volume": "17",
+      "doi": "10.1109/rbme.2023.3269776",
+      "pmid": "37097799"
+    },
+    {
+      "ref_id": "B60",
+      "label": "60",
+      "authors": [
+        "Cantu G"
+      ],
+      "title": "Nasopharyngeal carcinoma. A “different” head and neck tumour. Part A: from histology to staging",
+      "journal": "Acta Otorhinolaryngol Ital",
+      "year": "2023",
+      "volume": "43",
+      "fpage": "85",
+      "lpage": "98",
+      "doi": "10.14639/0392-100X-N2222",
+      "pmid": "37099432",
+      "pmc_id": "PMC10132485"
+    },
+    {
+      "ref_id": "B61",
+      "label": "61",
+      "authors": [
+        "Lin C",
+        "Lin K",
+        "Zhang B",
+        "Su Y",
+        "Guo Q",
+        "Lu T",
+        "et al."
+      ],
+      "title": "Plasma Epstein-Barr virus microRNA BART8-3p as a diagnostic and prognostic biomarker in nasopharyngeal carcinoma",
+      "journal": "Oncologist",
+      "year": "2022",
+      "volume": "27",
+      "doi": "10.1093/oncolo/oyac024",
+      "pmid": "35380720",
+      "pmc_id": "PMC8982379"
+    },
+    {
+      "ref_id": "B62",
+      "label": "62",
+      "authors": [
+        "Qian T",
+        "Zhou Z",
+        "Zhang Q",
+        "Liou YL",
+        "Zhou H"
+      ],
+      "title": "SEPT9, H4C6, and RASSF1A methylation in nasopharyngeal swabs: a reflection of potential minimally invasive biomarkers for early screening of nasopharyngeal cancer",
+      "journal": "Med (Baltimore)",
+      "year": "2023",
+      "volume": "102",
+      "elocation_id": "e36583",
+      "doi": "10.1097/md.0000000000036583",
+      "pmid": "38115290",
+      "pmc_id": "PMC10727677"
+    },
+    {
+      "ref_id": "B63",
+      "label": "63",
+      "authors": [
+        "Huang H",
+        "Yao Y",
+        "Deng X",
+        "Weng H",
+        "Chen Z",
+        "Yu L",
+        "et al."
+      ],
+      "title": "Characteristics of immunotherapy trials for nasopharyngeal carcinoma over a 15-year period",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1195659",
+      "doi": "10.3389/fimmu.2023.1195659",
+      "pmid": "37622113",
+      "pmc_id": "PMC10445486"
+    },
+    {
+      "ref_id": "B64",
+      "label": "64",
+      "authors": [
+        "Tan Y",
+        "Zhou J",
+        "Liu K",
+        "Liu R",
+        "Zhou J",
+        "Wu Z",
+        "et al."
+      ],
+      "title": "Novel prognostic biomarkers in nasopharyngeal carcinoma unveiled by mega-data bioinformatics analysis",
+      "journal": "Front Oncol",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "1354940",
+      "doi": "10.21203/rs.3.rs-3621647/v1",
+      "pmid": "38854728",
+      "pmc_id": "PMC11157084"
+    },
+    {
+      "ref_id": "B65",
+      "label": "65",
+      "authors": [
+        "Liu Y",
+        "Ye SY",
+        "He S",
+        "Chi DM",
+        "Wang XZ",
+        "Wen YF",
+        "et al."
+      ],
+      "title": "Single-cell and spatial transcriptome analyses reveal tertiary lymphoid structures linked to tumour progression and immunotherapy response in nasopharyngeal carcinoma",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "7713",
+      "doi": "10.1038/s41467-024-52153-4",
+      "pmid": "39231979",
+      "pmc_id": "PMC11375053"
+    },
+    {
+      "ref_id": "B66",
+      "label": "66",
+      "authors": [
+        "Hou Z",
+        "Feng P",
+        "Chiang CL",
+        "Islam KA",
+        "Liu S",
+        "Wang Y",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structure-related RNA indicator as metastasis risk factor in nasopharyngeal carcinoma",
+      "journal": "Clin Transl Med",
+      "year": "2025",
+      "volume": "15",
+      "elocation_id": "e70539",
+      "doi": "10.1002/ctm2.70539",
+      "pmid": "41397929",
+      "pmc_id": "PMC12705341"
+    },
+    {
+      "ref_id": "B67",
+      "label": "67",
+      "authors": [
+        "Liu SX",
+        "Wu TW",
+        "Luo DH",
+        "Zhang LL",
+        "Zhou L",
+        "Luo YL",
+        "et al."
+      ],
+      "title": "Interferon-responsive HEVs drive tumor tertiary lymphoid structure formation and predict immunotherapy response in nasopharyngeal carcinoma",
+      "journal": "Cell Rep Med",
+      "year": "2025",
+      "volume": "6",
+      "elocation_id": "102200",
+      "doi": "10.1016/j.xcrm.2025.102200",
+      "pmid": "40543508",
+      "pmc_id": "PMC12281385"
+    },
+    {
+      "ref_id": "B68",
+      "label": "68",
+      "authors": [
+        "Obid R",
+        "Redlich M",
+        "Tomeh C"
+      ],
+      "title": "The treatment of laryngeal cancer",
+      "journal": "Oral Maxillofac Surg Clin North Am",
+      "year": "2019",
+      "volume": "31",
+      "fpage": "1",
+      "lpage": "11",
+      "doi": "10.1016/j.coms.2018.09.001",
+      "pmid": "30449522"
+    },
+    {
+      "ref_id": "B69",
+      "label": "69",
+      "authors": [
+        "Brisson-McKenna M",
+        "Jefferson GD",
+        "Siddiqui SH",
+        "Adams S",
+        "Afanasieva SS",
+        "Cherid A",
+        "et al."
+      ],
+      "title": "Swallowing function after treatment of laryngeal cancer",
+      "journal": "Otolaryngol Clin North Am",
+      "year": "2023",
+      "volume": "56",
+      "doi": "10.1016/j.otc.2022.11.004",
+      "pmid": "37030949"
+    },
+    {
+      "ref_id": "B70",
+      "label": "70",
+      "authors": [
+        "Gkegka AG",
+        "Koukourakis MI",
+        "Katotomichelakis M",
+        "Giatromanolaki A"
+      ],
+      "title": "Cancer microenvironment defines tumor-infiltrating lymphocyte density and tertiary lymphoid structure formation in laryngeal cancer",
+      "journal": "Head Neck Pathol",
+      "year": "2023",
+      "volume": "17",
+      "doi": "10.1007/s12105-022-01517-7",
+      "pmid": "36586079",
+      "pmc_id": "PMC10293152"
+    },
+    {
+      "ref_id": "B71",
+      "label": "71",
+      "authors": [
+        "Liang H",
+        "Zhang Z",
+        "Guan Z",
+        "Zheng S",
+        "Lou J",
+        "Liu W",
+        "et al."
+      ],
+      "title": "Follicle-like tertiary lymphoid structures: a potential biomarker for prognosis and immunotherapy response in patients with laryngeal squamous cell carcinoma",
+      "journal": "Front Immunol",
+      "year": "2023",
+      "volume": "14",
+      "elocation_id": "1096220",
+      "doi": "10.3389/fimmu.2023.1096220",
+      "pmid": "36776859",
+      "pmc_id": "PMC9912937"
+    },
+    {
+      "ref_id": "B72",
+      "label": "72",
+      "authors": [
+        "Alessandrini L",
+        "Franz L",
+        "Ottaviano G",
+        "Ghi MG",
+        "Lanza C",
+        "Blandamura S",
+        "et al."
+      ],
+      "title": "Prognostic role of programmed death ligand 1 (PD-L1) and the immune microenvironment in laryngeal carcinoma",
+      "journal": "Oral Oncol",
+      "year": "2020",
+      "volume": "108",
+      "elocation_id": "104836",
+      "doi": "10.1016/j.oraloncology.2020.104836",
+      "pmid": "32512470"
+    },
+    {
+      "ref_id": "B73",
+      "label": "73",
+      "authors": [
+        "Franz L",
+        "Alessandrini L",
+        "Ottaviano G",
+        "di Carlo R",
+        "Fasanaro E",
+        "Ramacciotti G",
+        "et al."
+      ],
+      "title": "Postoperative radiotherapy for laryngeal cancer. The prognostic role of programmed death-ligand 1: an immune microenvironment-based cluster analysis",
+      "journal": "Pathol Res Pract",
+      "year": "2020",
+      "volume": "216",
+      "elocation_id": "153120",
+      "doi": "10.1016/j.prp.2020.153120",
+      "pmid": "32825972"
+    },
+    {
+      "ref_id": "B74",
+      "label": "74",
+      "authors": [
+        "Li YY",
+        "Li SJ",
+        "Liu MC",
+        "Chen Z",
+        "Li L",
+        "Shen F",
+        "et al."
+      ],
+      "title": "B cells and tertiary lymphoid structures are associated with survival in papillary thyroid cancer",
+      "journal": "J Endocrinol Invest",
+      "year": "2023",
+      "volume": "46",
+      "doi": "10.1007/s40618-023-02072-w",
+      "pmid": "37004696"
+    },
+    {
+      "ref_id": "B75",
+      "label": "75",
+      "authors": [
+        "Nakadaira KS",
+        "Saito KC",
+        "Fuziwara CS",
+        "Magalhaes P",
+        "Ramalho L",
+        "Ricarte-Filho JC",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in thyroid cancer",
+      "journal": "Arch Endocrinol Metab",
+      "year": "2025",
+      "volume": "69",
+      "elocation_id": "e250103",
+      "doi": "10.20945/2359-4292-2025-0103",
+      "pmid": "41004667",
+      "pmc_id": "PMC12483169"
+    },
+    {
+      "ref_id": "B76",
+      "label": "76",
+      "authors": [
+        "Deng S",
+        "Yang X",
+        "He L",
+        "Hou Y",
+        "Meng H"
+      ],
+      "title": "Tertiary lymphoid structures in microorganism-related cancer",
+      "journal": "Cancers (Basel)",
+      "year": "2024",
+      "volume": "16",
+      "fpage": "3464",
+      "doi": "10.3390/cancers16203464",
+      "pmid": "39456558",
+      "pmc_id": "PMC11505735"
+    },
+    {
+      "ref_id": "B77",
+      "label": "77",
+      "authors": [
+        "Zhao L",
+        "Jin S",
+        "Wang S",
+        "Zhang Z",
+        "Wang X",
+        "Chen Z",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in diseases: immune mechanisms and therapeutic advances",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2024",
+      "volume": "9",
+      "fpage": "225",
+      "doi": "10.1038/s41392-024-01947-5",
+      "pmid": "39198425",
+      "pmc_id": "PMC11358547"
+    },
+    {
+      "ref_id": "B78",
+      "label": "78",
+      "authors": [
+        "Radandish M",
+        "Mashhadi N",
+        "Aghayan AH",
+        "Taghizadeh M",
+        "Salehianfard S",
+        "Yahyazadeh S",
+        "et al."
+      ],
+      "title": "In-depth insight into tumor-infiltrating stromal cells linked to tertiary lymphoid structures and their prospective function in cancer immunotherapy",
+      "journal": "Exp Hematol Oncol",
+      "year": "2025",
+      "volume": "14",
+      "fpage": "105",
+      "doi": "10.1186/s40164-025-00695-8",
+      "pmid": "40784879",
+      "pmc_id": "PMC12337498"
+    },
+    {
+      "ref_id": "B79",
+      "label": "79",
+      "authors": [
+        "Sun G",
+        "Liu Y"
+      ],
+      "title": "Tertiary lymphoid structures in ovarian cancer",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1465516",
+      "doi": "10.3389/fimmu.2024.1465516",
+      "pmid": "39569184",
+      "pmc_id": "PMC11576424"
+    },
+    {
+      "ref_id": "B80",
+      "label": "80",
+      "authors": [
+        "Barmpoutis P",
+        "Di Capite M",
+        "Kayhanian H",
+        "Waddingham W",
+        "Alexander DC",
+        "Jansen M",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures (TLS) identification and density assessment on H&E-stained digital slides of lung cancer",
+      "journal": "PloS One",
+      "year": "2021",
+      "volume": "16",
+      "elocation_id": "e256907",
+      "doi": "10.1371/journal.pone.0256907",
+      "pmid": "34555057",
+      "pmc_id": "PMC8460026"
+    },
+    {
+      "ref_id": "B81",
+      "label": "81",
+      "authors": [
+        "Domblides C",
+        "Rochefort J",
+        "Riffard C",
+        "Panouillot M",
+        "Lescaille G",
+        "Teillaud J",
+        "et al."
+      ],
+      "title": "Tumor-associated tertiary lymphoid structures: from basic and clinical knowledge to therapeutic manipulation",
+      "journal": "Front Immunol",
+      "year": "2021",
+      "volume": "12",
+      "elocation_id": "698604",
+      "doi": "10.3389/fimmu.2021.698604",
+      "pmid": "34276690",
+      "pmc_id": "PMC8279885"
+    },
+    {
+      "ref_id": "B82",
+      "label": "82",
+      "authors": [
+        "Calvanese AL",
+        "Cecconi V",
+        "Staheli S",
+        "Schnepf D",
+        "Nater M",
+        "Pereira P",
+        "et al."
+      ],
+      "title": "Sustained innate interferon is an essential inducer of tertiary lymphoid structures",
+      "journal": "Eur J Immunol",
+      "year": "2024",
+      "volume": "54",
+      "elocation_id": "e2451207",
+      "doi": "10.1002/eji.202451207",
+      "pmid": "38980268"
+    },
+    {
+      "ref_id": "B83",
+      "label": "83",
+      "authors": [
+        "Yang F",
+        "Yang J",
+        "Wu M",
+        "Chen C",
+        "Chu X"
+      ],
+      "title": "Tertiary lymphoid structures: new immunotherapy biomarker",
+      "journal": "Front Immunol",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1394505",
+      "doi": "10.3389/fimmu.2024.1394505",
+      "pmid": "39026662",
+      "pmc_id": "PMC11254617"
+    },
+    {
+      "ref_id": "B84",
+      "label": "84",
+      "authors": [
+        "Nohira S",
+        "Kuramitsu S",
+        "Ohno M",
+        "Fujita M",
+        "Yamashita K",
+        "Nagasaka T",
+        "et al."
+      ],
+      "title": "Tertiary lymphoid structures in brain metastases of lung cancer: prognostic significance and correlation with clinical outcomes",
+      "journal": "Anticancer Res",
+      "year": "2024",
+      "volume": "44",
+      "doi": "10.21873/anticanres.17184",
+      "pmid": "39060050"
+    },
+    {
+      "ref_id": "B85",
+      "label": "85",
+      "authors": [
+        "Varghese A",
+        "Hess SM",
+        "Chilakapati S",
+        "Conejo-Garcia JR",
+        "McGray AJR",
+        "Zsiros E"
+      ],
+      "title": "Tertiary lymphoid structures: exploring opportunities to improve immunotherapy in ovarian cancer",
+      "journal": "Front Immunol",
+      "year": "2025",
+      "volume": "16",
+      "elocation_id": "1473969",
+      "doi": "10.3389/fimmu.2025.1473969",
+      "pmid": "40475770",
+      "pmc_id": "PMC12137288"
+    },
+    {
+      "ref_id": "B86",
+      "label": "86",
+      "authors": [
+        "Xie J",
+        "Xie Y",
+        "Tan W",
+        "Ye Y",
+        "Ou X",
+        "Zou X",
+        "et al."
+      ],
+      "title": "Deciphering the role of ELAVL1: insights from pan-cancer multiomics analyses with emphasis on nasopharyngeal carcinoma",
+      "journal": "J Trans Internal Med",
+      "year": "2025",
+      "volume": "13",
+      "doi": "10.1515/jtim-2025-0009",
+      "pmid": "40443402",
+      "pmc_id": "PMC12116272"
+    },
+    {
+      "ref_id": "B87",
+      "label": "87",
+      "authors": [
+        "van Rijthoven M",
+        "Obahor S",
+        "Pagliarulo F",
+        "van den Broek M",
+        "Schraml P",
+        "Moch H",
+        "et al."
+      ],
+      "title": "Multi-resolution deep learning characterizes tertiary lymphoid structures and their prognostic relevance in solid tumors",
+      "journal": "Commun Med",
+      "year": "2024",
+      "volume": "4",
+      "elocation_id": "5",
+      "doi": "10.1038/s43856-023-00421-7",
+      "pmid": "38182879",
+      "pmc_id": "PMC10770129"
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "title": "Single 0.9-mg intramuscular rhTSH dose achieves target TSH levels in differentiated thyroid carcinoma",
+    "authors": [
+      "Pedro Henrique Furst Leite",
+      "Magda Carvalho Pires",
+      "Gustavo Cancela Penna"
+    ],
+    "journal": "Endocrine",
+    "year": "2026",
+    "doi": "10.1007/s12020-026-04671-y",
+    "pmc_id": "PMC13230280",
+    "pmid": "42228192",
+    "full_text_available": true,
+    "section_count": 6,
+    "reference_count": 20
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background Differentiated thyroid carcinoma (DTC) is the most common thyroid malignancy, with incidences increasing globally. Radioisotopic therapy with iodine-131 (RAI) is recommended after total thyroidectomy for patients at intermediate/high risk. A new approach that involves the use of recombinant human TSH (rhTSH) to stimulate iodine-131 uptake during RAI has long been approved. In the standard protocol, 0.9 mg of rhTSH is administered intramuscularly on two consecutive days, followed by a therapeutic dose of iodine-131 on day 3. Unlike the traditional method of levothyroxine (LT4) withdrawal, this protocol allows the continuation of LT4, avoiding the symptoms and metabolic consequences of profound hypothyroidism. However, its high cost remains an important limitation in our setting. Therefore, this study evaluated whether a single intramuscular dose (0.9 mg) of rhTSH, instead of the currently recommended two doses, is sufficient to achieve the target thyroid-stimulating hormone (TSH) level (> 30 mIU/L) currently recommended for RAI. Methods This prospective, cross-sectional study included 88 patients. The TSH level on day 1 (TSH D1), defined as the primary outcome, was evaluated in relation to sex, age, body weight, recurrence risk (ATA 2025), baseline TSH values, and the interval between TSH measurements. Results A single rhTSH dose substantially increased TSH levels to > 30 mIU/L in all patients. Age and body weight were independently associated with TSH D1. Conclusions These preliminary results support the potential of single-dose rhTSH as a cost-effective and clinically feasible alternative in selected patients with DTC to achieve TSH levels > 30 mIU/L. Future comparative clinical trials should assess iodine uptake, therapeutic response, and long-term oncologic outcomes.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Following total thyroidectomy, radioiodine therapy (RAI) with iodine-131 may be indicated for ablative, adjuvant, or therapeutic purposes in patients with differentiated thyroid carcinoma (DTC), based on the AJCC/TNM 8th edition staging and the American Thyroid Association (ATA, 2025) recurrence risk criteria [ 1 ]. The efficacy of RAI rests on two pillars: a low-iodine diet and adequate elevation of thyroid-stimulating hormone (TSH) levels [ 1 , 2 ]. This elevation upregulates expression of the sodium/iodide symporter (NIS), increasing radioiodine uptake by thyroid or neoplastic cells [ 3 ]. A serum TSH value considered adequate for this stimulation is > 30 mIU/L [ 4 , 5 ]. Traditionally, TSH elevation was achieved by withdrawing levothyroxine (LT4), inducing a hypothyroid state; this remains the approach used in the Brazil’s public health system because rhTSH is inaccessible owing to its cost. Despite its efficacy and practicality, rhTSH has a major limitation: its high cost (approximately $1,000). However, this strategy carries undesirable clinical implications and negatively affects quality of life. As an alternative, recombinant human TSH (rhTSH), administered as two 0.9 mg intramuscular doses on consecutive days, has become the preferred strategy for most patients with DTC, as it effectively elevates TSH without requiring LT4 interruption [ 1 , 2 ]. The two-dose regimen was established based on foundational preclinical and phase I/II studies [ 6 – 8 ] which, although demonstrating a biochemical response to a single dose, favored a second dose to ensure a more sustained TSH elevation. However, the clinical superiority of two doses over one has never been formally demonstrated in a large-scale clinical trial with oncologic endpoints. In this context, we hypothesized that a single intramuscular dose of rhTSH could be sufficient to achieve TSH stimulation levels required for RAI. This prospective study was designed to validate, in a contemporary cohort of patients with DTC, whether a single intramuscular 0.9 mg dose of rhTSH can raise serum TSH levels sufficiently above the recommended threshold of 30 mIU/L, providing a robust basis for the design of future dose de-escalation trials.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "This prospective, cross-sectional study enrolled 88 patients with DTC who were referred for iodine-131 (131I) therapy under rhTSH stimulation, as recommended by their treating endocrinologists. Patient selection occurred between September 2022 and October 2024 at the Nuclear Medicine Department of Hospital Orizonti. The study was approved by the Institutional Review Board of Hospital Orizonti and registered in the Plataforma Brasil national research ethics system (CEP/Conep) under protocol number CAAE 61747522.0.0000.0151. All participants provided written informed consent. Clinical and laboratory data, including age, sex, body weight, date of total thyroidectomy, recurrence risk classification (ATA, 2025), administered 131I activity, baseline laboratory values (TSH, thyroglobulin, and anti-thyroglobulin antibodies), and TSH levels 22–24 h after the first rhTSH injection (TSH D1), were collected. RAI therapy was administered approximately 4 h after blood sampling for the TSH D1 assay, corresponding to a 26–28 h interval following the single rhTSH injection. The inclusion criteria were: confirmed diagnosis of DTC, age ≥ 18 years, preparation for the first RAI dose with rhTSH, measurement of TSH levels 22–24 h after the first rhTSH dose, availability of complete clinical and laboratory data, and interval of < 90 days between baseline TSH and TSH D1 measurements. The primary outcome, TSH D1, was analyzed in relation to sex, age, body weight, recurrence risk (ATA, 2025), baseline TSH levels, and the interval between baseline TSH and TSH D1 measurements.",
+      "order": 2
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Quantitative variables were reported as the median and interquartile range (IQR), and categorical variables as absolute and relative frequencies (%). Statistical analyses were conducted using R software with a significance threshold of 5%. TSH D1 was considered right-censored because of the laboratory assay’s upper quantification limit of 150 mIU/L. To account for this, a parametric regression model was fitted assuming a lognormal distribution for TSH D1. In this model, the logarithm of TSH D1 was expressed as a linear function of the following covariates: sex, age, body weight, recurrence risk category, baseline TSH level, and timing of TSH measurement, Model coefficients were estimated using the partial maximum likelihood method, implemented via the survreg function in R software (version 4.5.0). To facilitate interpretation, exponentiated coefficients were reported as median ratios.",
+      "order": 3
+    },
+    {
+      "section": "Results",
+      "text": "The final sample comprised 88 patients, 62.4% women, with a median age of 43 years (range, 18–77) and a median body weight of 75 kg (range, 50–139). Regarding recurrence risk (ATA 2025), 12.5%, 28.4%, 39.8%, and 19.3% were of low, lower-intermediate, higher-intermediate, and high risk, respectively. All patients (100%) achieved serum TSH D1 > 30 mIU/L, with a median level of 90.2 mIU/L (IQR = 73.81–110.23) (Fig. 1 ). In the adjusted multivariate analysis, age and body weight were independently associated with TSH D1 (Table 1 ). Specifically, each 10-year increase in age was associated with a 6% increase in median TSH D1 (effect = 1.006; p = 0.010), and each 1-kg increase in body weight was associated with a 1.2% decrease in median TSH D1 (effect = 0.988; p < 0.001).",
+      "order": 4
+    },
+    {
+      "section": "Discussion",
+      "text": "In this context, administration of a single 0.9 mg dose of rhTSH was sufficient to raise serum TSH levels above 30 mIU/L in all patients with DTC, achieving a median of 90.2 mIU/L. These results are consistent with evidence from early phase trials [ 8 , 9 ]. It is worth noting that the currently approved two-dose rhTSH protocol was defined based on early preclinical and pharmacokinetic trials [ 6 – 8 ], which often used diagnostic rather than therapeutic endpoints, limiting their applicability to contemporary therapeutic contexts. Although widely adopted, the conventional TSH target of > 30 mIU/L remains controversial [ 10 , 11 ]. This threshold was initially established from observational data in the era of thyroid hormone withdrawal [ 5 ] and subsequently extrapolated to rhTSH protocols. Recent evidence has questioned the necessity and adequacy of this target, revealing a critical gap regarding the optimal peak level and duration of TSH elevation required to maximize therapeutic efficacy [ 10 , 11 ]. This study also confirmed that body weight [ 12 – 14 ] and age [ 15 – 17 ] influence the response to rhTSH stimulation. The inverse relationship with body weight is likely explained by pharmacokinetic factors such as a larger volume of distribution [ 12 ], while the positive correlation with age may result from an age-related reduction in TSH metabolic clearance [ 15 , 16 ]. Although all patients in this cohort achieved the target threshold, the negative correlation between body weight and serum TSH levels warrants vigilance for individuals with body weights significantly above the 75 kg median observed in our study. It would, therefore, be prudent for future, larger clinical trials to explore the establishment of a practical weight cutoff (e.g., 90–100 kg) or a weight-based dose adjustment. This would help ensure the universality and safety of the single-dose regimen, particularly in populations with a high prevalence of obesity. Notably, our analysis did not find a significant association between sex and TSH response, in contrast with some previous findings [ 12 , 17 ]. The limitations of this study include its modest sample size and single-center nature. Another limitation was the absence of data on renal function, a known predictor of peak TSH levels [ 15 , 18 ]. Most importantly, as this study was not designed to assess clinical outcomes, it is crucial to highlight that a single dose might influence the kinetics of ¹³¹I differently compared to the standard dual-dose protocol, a point that warrants future investigation. A further limitation to be considered is the potential difference in NIS kinetics induced by a single-dose regimen compared to the standard two-dose protocol. Although our study demonstrates that a peak TSH > 30 mIU/L was consistently achieved, the duration of stimulation is inherently shorter. Functional NIS expression at the cell membrane is not an instantaneous process; it relies on a sustained TSH stimulus to ensure not only the initial iodide uptake (‘trapping’) but also its subsequent retention and organification. A shorter stimulation period could, theoretically, impact the effective half-life of radioiodine within remnant thyroid tissue or in metastases, a crucial determinant of the final absorbed radiation dose [ 19 ]. The literature suggests that iodine retention often follows a bi-exponential behavior, and optimizing the slow phase of this curve may depend on a more prolonged stimulus. Nevertheless, its prospective design and the standardization of protocols are methodological strengths. These results may support the feasibility of prospective trials comparing one- versus two-dose rhTSH regimens and evaluating outcomes such as iodine uptake and long-term response. If validated, a single-dose regimen could significantly reduce costs and improve patient convenience. This cost-reduction is particularly relevant in developing countries, where the standard two-dose protocol is often financially burdensome [ 20 ], aligning with the principles of value-based thyroid cancer care.",
+      "order": 5
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "CR1",
+      "label": "1.",
+      "authors": [
+        "Ringel MD",
+        "Sosa JA",
+        "Baloch Z",
+        "Bischoff L",
+        "Bloom G",
+        "Brent GA",
+        "Brock PL",
+        "Chou R",
+        "Flavell RR",
+        "Goldner W"
+      ],
+      "title": "2025 American Thyroid Association management guidelines for adult patients with differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "841",
+      "lpage": "985",
+      "doi": "10.1177/10507256251363120",
+      "pmid": "40844370",
+      "pmc_id": "PMC13090833"
+    },
+    {
+      "ref_id": "CR2",
+      "label": "2.",
+      "journal": "NCCN Guidelines Thyroid Carcinoma. Version 1",
+      "year": "2025"
+    },
+    {
+      "ref_id": "CR3",
+      "label": "3.",
+      "authors": [
+        "Bizhanova A",
+        "Kopp P"
+      ],
+      "title": "Minireview: the sodium-iodide symporter NIS and pendrin in iodide homeostasis of the thyroid",
+      "journal": "Endocrinology",
+      "year": "2009",
+      "volume": "150",
+      "fpage": "1084",
+      "lpage": "1090",
+      "doi": "10.1210/en.2008-1437",
+      "pmid": "19196800",
+      "pmc_id": "PMC2654752"
+    },
+    {
+      "ref_id": "CR4",
+      "label": "4.",
+      "authors": [
+        "Mazzaferri EL"
+      ],
+      "title": "Thyroid carcinoma: papillary and follicular",
+      "journal": "Endocrine Tumors",
+      "year": "1993",
+      "fpage": "278",
+      "lpage": "333"
+    },
+    {
+      "ref_id": "CR5",
+      "label": "5.",
+      "authors": [
+        "Edmonds CJ",
+        "Hayes S",
+        "Kermode JC",
+        "Thompson BD"
+      ],
+      "title": "Measurement of serum TSH and thyroid hormones in the management of treatment of thyroid carcinoma with radioiodine",
+      "journal": "Br. J. Radiol.",
+      "year": "1977",
+      "volume": "50",
+      "fpage": "799",
+      "lpage": "807",
+      "doi": "10.1259/0007-1285-50-599-799",
+      "pmid": "588901"
+    },
+    {
+      "ref_id": "CR6",
+      "label": "6.",
+      "authors": [
+        "Braverman LE",
+        "Pratt BM",
+        "Ebner S",
+        "Longcope C"
+      ],
+      "title": "Recombinant human thyrotropin stimulates thyroid function and radioactive iodine uptake in the rhesus monkey",
+      "journal": "J. Clin. Endocrinol. Metab.",
+      "year": "1992",
+      "volume": "74",
+      "fpage": "1135",
+      "lpage": "1139",
+      "doi": "10.1210/jcem.74.5.1569160",
+      "pmid": "1569160"
+    },
+    {
+      "ref_id": "CR7",
+      "label": "7.",
+      "authors": [
+        "Cole ES",
+        "Lee K",
+        "Lauziere K",
+        "Kelton C",
+        "Chappel S",
+        "Weintraub B",
+        "Ferrara D",
+        "Peterson P",
+        "Bernasconi R",
+        "Edmunds T"
+      ],
+      "title": "Recombinant human thyroid stimulating hormone: development of a biotechnology product for detection of metastatic lesions of thyroid carcinoma",
+      "journal": "Biotechnology",
+      "year": "1993",
+      "volume": "11",
+      "fpage": "1014",
+      "lpage": "1024",
+      "doi": "10.1038/nbt0993-1014",
+      "pmid": "7764071"
+    },
+    {
+      "ref_id": "CR8",
+      "label": "8.",
+      "authors": [
+        "Meier CA",
+        "Braverman LE",
+        "Ebner SA",
+        "Veronikis I",
+        "Daniels GH",
+        "Ross DS",
+        "Deraska DJ",
+        "Davies TF",
+        "Valentine M",
+        "DeGroot LJ"
+      ],
+      "title": "Diagnostic use of recombinant human thyrotropin in patients with thyroid carcinoma (phase I/II study)",
+      "journal": "J. Clin. Endocrinol. Metab.",
+      "year": "1994",
+      "volume": "78",
+      "fpage": "188",
+      "lpage": "196",
+      "doi": "10.1210/jc.78.1.188",
+      "pmid": "8288703"
+    },
+    {
+      "ref_id": "CR9",
+      "label": "9.",
+      "authors": [
+        "Ladenson PW",
+        "Braverman LE",
+        "Mazzaferri EL",
+        "Brucker-Davis F",
+        "Cooper DS",
+        "Garber JR",
+        "Wondisford FE",
+        "Davies TF",
+        "DeGroot LJ",
+        "Daniels GH"
+      ],
+      "title": "Comparison of Administration of Recombinant Human Thyrotropin with Withdrawal of Thyroid Hormone for Radioactive Iodine Scanning in Patients with Thyroid Carcinoma",
+      "journal": "N Engl. J. Med.",
+      "year": "1997",
+      "volume": "337",
+      "fpage": "888",
+      "lpage": "896",
+      "doi": "10.1056/nejm199709253371304",
+      "pmid": "9302303"
+    },
+    {
+      "ref_id": "CR10",
+      "label": "10.",
+      "authors": [
+        "Xiao J",
+        "Shen Y",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "A pre-ablation serum TSH value between 30 and 70 mIU/L may predict better long-term outcomes in DTC after RAI",
+      "journal": "Front. Endocrinol.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1222473"
+    },
+    {
+      "ref_id": "CR11",
+      "label": "11.",
+      "authors": [
+        "Ju N",
+        "Hou L",
+        "Song H",
+        "Qiu Z",
+        "Wang Y",
+        "Sun Z",
+        "Luo Q",
+        "Shen C"
+      ],
+      "title": "TSH ≥ 30 mU/L may not be necessary for successful 131I remnant ablation in patients with differentiated thyroid cancer",
+      "journal": "Eur. Thyroid J.",
+      "year": "2023",
+      "volume": "12",
+      "fpage": "e220219",
+      "doi": "10.1530/etj-22-0219",
+      "pmid": "37022724",
+      "pmc_id": "PMC10305696"
+    },
+    {
+      "ref_id": "CR12",
+      "label": "12.",
+      "authors": [
+        "Castagna MG",
+        "Pinchera A",
+        "Marsili A",
+        "Giannetti M",
+        "Molinaro E",
+        "Fierabracci P",
+        "Grasso L",
+        "Pacini F",
+        "Santini F",
+        "Elisei R"
+      ],
+      "title": "Influence of human body composition on serum peak thyrotropin (TSH) after recombinant human TSH administration in patients with differentiated thyroid carcinoma",
+      "journal": "J. Clin. Endocrinol. Metab.",
+      "year": "2005",
+      "volume": "90",
+      "fpage": "4047",
+      "lpage": "4050",
+      "doi": "10.1210/jc.2005-0534",
+      "pmid": "15870133"
+    },
+    {
+      "ref_id": "CR13",
+      "label": "13.",
+      "authors": [
+        "Zanotti-Fregonara P",
+        "Duron F",
+        "Keller I",
+        "Khoury A",
+        "Devaux JY",
+        "Hindié E"
+      ],
+      "title": "Stimulation test in the follow-up of thyroid cancer: plasma rhTSH levels are dependent on body weight, not endogenously stimulated TSH values",
+      "journal": "Nucl. Med. Commun.",
+      "year": "2007",
+      "volume": "28",
+      "fpage": "257",
+      "lpage": "259",
+      "doi": "10.1097/mnm.0b013e32804c58c2",
+      "pmid": "17325587"
+    },
+    {
+      "ref_id": "CR14",
+      "label": "14.",
+      "authors": [
+        "Vitale G",
+        "Lupoli GA",
+        "Ciccarelli A",
+        "Lucariello A",
+        "Fittipaldi MR",
+        "Fonderico F",
+        "Panico A",
+        "Lupoli G"
+      ],
+      "title": "Influence of body surface area on serum peak thyrotropin (TSH) levels after recombinant human TSH administration",
+      "journal": "J. Clin. Endocrinol. Metab.",
+      "year": "2003",
+      "volume": "88",
+      "fpage": "1319",
+      "lpage": "1322",
+      "doi": "10.1210/jc.2002-020953",
+      "pmid": "12629125"
+    },
+    {
+      "ref_id": "CR15",
+      "label": "15.",
+      "authors": [
+        "Son SH",
+        "Lee SW",
+        "Jung JH",
+        "Kim CY",
+        "Kim DH",
+        "Jeong SY",
+        "Ahn BC",
+        "Lee J"
+      ],
+      "title": "Analysis of clinical factors for the determination of optimal serum level of thyrotropin after recombinant human thyroid-stimulating hormone administration",
+      "journal": "Nucl. Med. Mol. Imaging",
+      "year": "2015",
+      "volume": "49",
+      "fpage": "268",
+      "lpage": "275",
+      "doi": "10.1007/s13139-015-0348-y",
+      "pmid": "26550045",
+      "pmc_id": "PMC4630326"
+    },
+    {
+      "ref_id": "CR16",
+      "label": "16.",
+      "authors": [
+        "Over R",
+        "Nsouli-Maktabi H",
+        "Burman KD",
+        "Jonklaas J"
+      ],
+      "title": "Age modifies the response to recombinant human thyrotropin",
+      "journal": "Thyroid",
+      "year": "2010",
+      "volume": "20",
+      "fpage": "1377",
+      "lpage": "1384",
+      "doi": "10.1089/thy.2010.0177",
+      "pmid": "20954824",
+      "pmc_id": "PMC2990279"
+    },
+    {
+      "ref_id": "CR17",
+      "label": "17.",
+      "authors": [
+        "Montesano T",
+        "Durante C",
+        "Attard M",
+        "Crocetti U",
+        "Meringolo D",
+        "Bruno R",
+        "Tumino S",
+        "Rubello D",
+        "Al-Nahhas A",
+        "Colandrea M"
+      ],
+      "title": "Age influences TSH serum levels after withdrawal of l-thyroxine or rhTSH stimulation in patients affected by differentiated thyroid cancer",
+      "journal": "Biomed. Pharmacother",
+      "year": "2007",
+      "volume": "61",
+      "fpage": "468",
+      "lpage": "471",
+      "doi": "10.1016/j.biopha.2007.04.001",
+      "pmid": "17553654"
+    },
+    {
+      "ref_id": "CR18",
+      "label": "18.",
+      "authors": [
+        "Hautzel H",
+        "Pisar E",
+        "Lindner D",
+        "Schott M",
+        "Grandt R",
+        "Müller HW"
+      ],
+      "title": "Impact of renal function and demographic/anthropomorphic variables on peak thyrotropin after recombinant human thyrotropin stimulation: a stepwise forward multiple-regression analysis",
+      "journal": "Thyroid",
+      "year": "2013",
+      "volume": "23",
+      "fpage": "662",
+      "lpage": "670",
+      "doi": "10.1089/thy.2012.0284",
+      "pmid": "23136932"
+    },
+    {
+      "ref_id": "CR19",
+      "label": "19.",
+      "authors": [
+        "Luster M",
+        "Sherman S",
+        "Skarulis M"
+      ],
+      "title": "Comparison of radioiodine biokinetics following the administration of recombinant human thyroid stimulating hormone and after thyroid hormone withdrawal in thyroid carcinoma",
+      "journal": "Eur. J. Nucl. Med. Mol. Imaging",
+      "year": "2003",
+      "volume": "30",
+      "issue": "10",
+      "fpage": "1371",
+      "lpage": "1377",
+      "doi": "10.1007/s00259-003-1277-6",
+      "pmid": "12856155"
+    },
+    {
+      "ref_id": "CR20",
+      "label": "20.",
+      "authors": [
+        "Ora M",
+        "Madhusudanan P",
+        "Jain S",
+        "Barai S",
+        "Gambhir S"
+      ],
+      "title": "The need for a low-expense universally acceptable rhTSH protocol",
+      "journal": "J. Nucl. Med.",
+      "year": "2011",
+      "volume": "52",
+      "fpage": "1166",
+      "lpage": "1166",
+      "doi": "10.2967/jnumed.110.081174",
+      "pmid": "21680682"
+    }
+  ]
+}

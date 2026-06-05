@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "title": "Nasal steroids, irrigation, oral antibiotics, and subgroup targeting for effective management of acute sinusitis (NOSES): Protocol for a comparative effectiveness randomized controlled trial",
+    "authors": [
+      "Daniel Merenstein",
+      "Nawar Shara",
+      "David P. Rabago",
+      "Derjung Mimi Tarn",
+      "Bruce Barrett",
+      "Alex H. Krist",
+      "Sebastian T. Tong",
+      "Aleksandra E. Zgierska",
+      "Tina P. Tan",
+      "Keisha Herbin Smith",
+      "Gabriela Villalobos",
+      "Charles R. Fencil",
+      "Kavya K. Sanghavi",
+      "Syed Junaid Imam",
+      "Stephen Fernandez",
+      "Mihriye Mete",
+      "Katrien Janin",
+      "Katrien Janin"
+    ],
+    "journal": "PLOS One",
+    "year": "2026",
+    "doi": "10.1371/journal.pone.0348522",
+    "pmc_id": "PMC13148658",
+    "pmid": "42090381",
+    "full_text_available": true,
+    "section_count": 15,
+    "reference_count": 45
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Introduction Acute rhinosinusitis (ARS) affects approximately 15% of adults annually. It accounts for nearly 30 million outpatient visits and one in five antibiotic prescriptions, and contributes to over $11 billion in direct healthcare costs in the United States. Because routine clinical evaluation cannot reliably distinguish viral from bacterial ARS, antibiotics are frequently prescribed for infections that are likely viral. Non-antibiotic therapies such as intranasal corticosteroids (INCS) and saline nasal irrigation may provide symptom relief, but their comparative effectiveness in ARS has not been rigorously evaluated. Objectives This protocol describes the design and methodology of a large, multi-center, pragmatic randomized controlled trial to evaluate antibiotic and non-antibiotic treatment strategies for ARS. The trial will compare supportive care, and clinical and laboratory indicators that may identify subgroups most likely to benefit from specific therapies. Methods This placebo-controlled trial is underway in primary care and urgent care settings in six regions across the U.S. Adults aged 18–75 years with ARS initially receive clinician-directed care. Participants who do not improve after 9 days of symptoms will be randomized into one of four groups: antibiotics alone; placebo-antibiotics plus INCS; antibiotics plus INCS; or placebo-antibiotics alone. All participants receive educational materials and kits for saline nasal irrigation. The trial will enroll 3,720 participants, with approximately 60% expected to enter the randomized phase. Primary outcomes include symptom severity prior to and 3 days post-randomization, as measured by the modified Sino-Nasal Outcome Test-16). Significance This trial will generate high-quality evidence to inform targeted treatment of ARS, identify subgroups most likely to benefit from antibiotics or non-antibiotic therapies, and support more judicious antibiotic stewardship in routine clinical practice.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Acute rhinosinusitis (ARS) affects approximately 15% of adults annually and accounts for nearly 20% of all antibiotic prescriptions in outpatient care [ 1 – 8 ]. In the United States, one in seven adults—with approximately 30 million office visits each year—is diagnosed with ARS, resulting in one in five antibiotic prescriptions and more than $11 billion in direct annual healthcare costs [ 1 – 5 , 7 , 9 ]. Reducing inappropriate antibiotic prescribing for ARS is therefore critical to limiting the development and spread of antimicrobial resistance [ 10 ]. The World Health Organization has identified antibiotic overuse and resistance as a major global public health threat, and the United Nations has convened a high-level meeting to address antimicrobial resistance, making it only the fourth health issue ever considered by the General Assembly [ 11 , 12 ]. Multiple stakeholders have prioritized reducing unnecessary antibiotic use and promoting alternative management strategies for ARS. The Get Smart: Know When Antibiotics Work program at the Centers for Disease Control and Prevention identified ARS as the leading cause of inappropriate outpatient antibiotic prescribing [ 13 ]. Similarly, the Infectious Diseases Society of America (IDSA), the American Academy of Family Physicians (AAFP), and the Choosing Wisely® campaign have all recommended more judicious antibiotic use for ARS [ 14 – 16 ]. The consequences of inappropriate antibiotic use extend beyond societal concerns to individual patient harm. Prior work by our group and others has demonstrated that antibiotic exposure can lead to significant alterations in the microbiome and metabolic pathways, with potential long-term health implications for individuals [ 17 – 21 ]. Antibiotics are also among the most common causes of adverse drug events leading to emergency department visits, accounting for approximately 16% of all such reactions in the emergency room [ 22 ]. Unlike other common infections encountered in primary care—such as pharyngitis, urinary tract infections, or pneumonia—routine laboratory testing and physical examination findings cannot reliably distinguish viral from bacterial ARS [ 1 , 23 – 26 ]. In a prior meta-analysis of nine randomized controlled trials (RCTs) involving patients with clinically-diagnosed ARS, we found that commonly used signs and symptoms did not reliably identify subgroups more likely to benefit from antibiotic therapy [ 27 – 35 ]. Non-antibiotic treatments, including intranasal corticosteroids (INCS) and saline nasal irrigation (SNI), show promise for symptom relief in ARS. INCS has demonstrated benefit in selected patient subgroups, while SNI is widely recommended as adjunctive therapy for ARS despite limited evidence from large-scale effectiveness trials [ 32 , 36 ]. There is a need for large, pragmatic RCTs to evaluate the comparative effectiveness of antibiotic and non-antibiotic strategies, and to identify clinical and laboratory indicators—such as C-reactive protein (CRP) levels or symptom patterns, including “double-sickening”—that can predict treatment needs and response. This manuscript describes the design and methods of the largest RCT that aims to address these gaps and inform evidence-based, targeted clinical management of ARS.",
+      "order": 1
+    },
+    {
+      "section": "Participants",
+      "text": "The Nasal Steroids, Irrigation, Oral Antibiotics, and Subgroup Targeting for Effective Management of Acute Sinusitis (NOSES) study is designed to enroll individuals with a higher likelihood of bacterial ARS, based on IDSA guidelines [ 14 ]. Eligibility criteria exclude patients with conditions, complications, comorbidities, or immune impairments that would preclude safe study participation, including in a placebo arm. Detailed eligibility criteria are provided in Table 1 . They are based on participant self-report or clinician’s assessment completed as a part of usual clinical care.",
+      "order": 2
+    },
+    {
+      "section": "Recruitment And Screening Procedures",
+      "text": "Study participants will be recruited from clinics affiliated with six academic sites across U.S.: the University of Wisconsin–Madison (Madison, Wisconsin), Virginia Commonwealth University (Richmond, Virginia), University of California–Los Angeles (Los Angeles, California), Washington State University (Seattle, Washington), Penn State (Hershey, Pennsylvania), and Georgetown University (Washington, DC). Sites were selected based on investigator expertise, prior success conducting clinical trials, and geographic diversity. All sites participated in a feasibility study prior to the launch of the full-scale study and demonstrated readiness through successful recruitment and protocol implementation [ 37 ]. For in-clinic enrollment, study sites will collaborate with clinicians in primary care and urgent care settings who care for patients with ARS. Clinics and clinicians serving as primary recruitment sites were selected based on site-level patient volume, infrastructure, resources, and interest in participation, as documented during the feasibility assessment. To reflect real-world care pathways for ARS, recruitment will also occur via online portals where local investigators will evaluate patients for eligibility; this will occur outside of clinic settings. Interested individuals will be contacted by, or will themselves contact, site research personnel who will explain the study and conduct eligibility screening. Enrollment procedures—including informed consent, collection of clinical and demographic information, and distribution of saline nasal irrigation (SNI) educational materials and kits—may occur in a private location convenient for the participant, such as the clinic, residence, community, or an academic research space. In addition, participants can be screened remotely and will complete study surveys either remotely or in person; however, they will need to meet a research coordinator in-person to collect a finger stick sample for CRP analysis. After the study enrollment and baseline assessments (surveys, CRP assay), participant activities will follow one of three pathways; 1. Participants with symptom duration of less than 9 days at enrollment will enter Phase 1 and receive supportive care recommendations, an SNI kit, and instructions on its use. 2. Participants with symptom duration of at least 9 days at enrollment or those enrolled into Phase 1 whose symptoms reached day 9 and have not improved will be randomized into one of the four study arms (Phase 2). 3. Participants experiencing “double-sickening” may bypass the symptom duration criterion and be directly enrolled into Phase 2 with randomization into one of the four study arms. The duration of the Phase 1 (supportive care) period was selected based on evidence suggesting that patients with at least 9 days of ARS symptoms are more likely to have bacterial ARS [ 14 , 38 ]. Participants whose symptoms persist for at least 9 days will be offered to continue to Phase 2, with the decision about this progression made by the individual.",
+      "order": 3
+    },
+    {
+      "section": "Study Design",
+      "text": "The protocol was developed by academic partners at six primary care research centers—Georgetown University, Pennsylvania State University, the University of California–Los Angeles, the University of Washington, the University of Wisconsin–Madison, and Virginia Commonwealth University—drawing on their collective expertise in clinical trials and the evidence base ARS. We also conducted focus groups with clinicians and staff at the pretrial stage. Additionally, we sought feedback from all the committees, including the Patient Advisory Board (PAB) about different aspects of the trial. This approach reflects the growing emphasis on engagement during the pretrial phase of randomized controlled trials, allowing investigators to identify potential recruitment challenges, gain deeper insight into real-world clinical settings and patient populations, and enhance the transferability of study findings. This is a multicenter, pragmatic, placebo-controlled RCT. Study participants will be randomized in a 1:1:1:1 ratio to four treatment groups with allocation concealment. Based on a sample size calculation, the study is powered to detect clinically meaningful within and between group changes in outcomes of interest. The study has two phases: All participants, regardless of phase or study group, will receive instructions for supportive care, which includes as-needed over-the-counter (OTC) acetaminophen, guaifenesin, dextromethorphan, pseudoephedrine, and short-term use of oxymetazoline spray; participants can purchase these OTC medications by themselves, if they wish. Additionally, the treating clinician can recommend any medication with the exception of antibiotics or INCS. An SNI kit will be offered to all participants. The kit will include a Soft Tip Micro-Filtered Nasal Wash System with pre-packaged salt packets. A timeline of study events is presented in Fig 1 . The study will enroll 3,720 participants into Phase 1, with 2,232 (60%) estimated to be randomized into Phase 2 to achieve the following aims:",
+      "order": 4
+    },
+    {
+      "section": "Randomization And Blinding",
+      "text": "Randomization will use the REDCap web-based system with a permuted block scheme by site, four bin numbers per site, and random block sizes of 8. Participants will be automatically assigned to their allocated group. All research personnel and participants will be blinded to treatment assignments, except for INCS administration. Treating clinicians and research personnel will remain blinded. If treatment failure occurs, primary care clinicians may manage patients without breaking the blind. Clinicians may modify or stop interventions as clinically indicated and may submit requests for unblinding through a Blinding Specialist unaffiliated with the research team.",
+      "order": 5
+    },
+    {
+      "section": "Assessments And Outcome Measures",
+      "text": "Data will be collected using the REDCap platform. At the initial visit, research staff and/or participants will complete pre-screening, eligibility, baseline health, demographic, and other enrollment forms. Participants will also complete a daily symptom survey. On Day E1, a fingerstick blood sample will be collected for CRP testing. Point-of-care testing (POCT) will be performed by research personnel using a QuikRead go Instrument and CRP (Aidian, Espoo, Finland).",
+      "order": 6
+    },
+    {
+      "section": "Primary And Secondary Outcomes",
+      "text": "Primary and secondary outcomes, along with other measures of interest, are summarized in Table 2 . The primary outcome is disease-specific quality of life at Day R3, measured using the patient-oriented Modified Sino-Nasal Outcome Test (mSNOT-16) [ 39 ]. The mSNOT-16, validated for primary care ARS patients, was adapted from the Rhinosinusitis Outcome Measure-31 [ 40 ], which was developed with patient input to capture outcomes meaningful to them. The mSNOT-16 includes 16 sinus-specific symptom items rated on a 4-point scale: 0 = no problem, 1 = mild/slight, 2 = moderate, 3 = severe. Respondents may also identify up to five symptoms most important to their health. The individual mSNOT-16 score is the mean of the 16 items, ranging from 0 to 3. The minimally important clinical difference is 0.50, representing a small change on the self-reported Patient Global Rating of Change scale (“a lot worse” to “a lot better”) [ 39 , 41 ]. The daily symptom survey records mSNOT-16 scores and supplemental medication use, with participants receiving daily reminders. The Work Productivity and Activity Impairment (WPAI) Questionnaire will assess absenteeism, presenteeism, and activity impairment due to ARS over the preceding 7 days [ 42 ]. Clinicians will also provide their clinical prediction of bacterial sinusitis probability (low, intermediate, high).",
+      "order": 7
+    },
+    {
+      "section": "Treatment Groups",
+      "text": "Participants who did not improve in Phase I or those who had more than 9 days of symptoms at enrollment or those with double-sickening will be randomized to one of the four treatment groups in Phase 2: antibiotics alone, antibiotics plus INCS, placebo antibiotics plus INCS and placebo antibiotics alone. Table 3 summarizes the interventions to be conducted in four groups.",
+      "order": 8
+    },
+    {
+      "section": "Safety Considerations",
+      "text": "Safety will be overseen by the single IRB, Principal investigators (PIs), and an independent Data Safety Monitoring Board (DSMB). Adverse Events (AEs) will be graded using the NCI Common Terminology Criteria for Adverse Events (CTCAE) Version 5.0. Severe or medically significant AEs resulting in hospitalization or death will be considered Serious Adverse Events (SAEs). Expedited reporting requires serious, unanticipated, and related events to be reported to the single IRB within 5 days, and to the DSMB Chair within 48 hours. The DSMB will review safety data after 10%, 20%, 40%, and 70% data completion. Individuals who are actively pregnant and breastfeeding are not eligible to enroll in this trial. Participants who become pregnant while on study will be recommended to withdraw from the intervention arms.",
+      "order": 9
+    },
+    {
+      "section": "Data Management",
+      "text": "The Data Coordinating Center (MedStar Health Research Institute) will manage data collection and quality. Data quality checks will be embedded into REDCap, preventing entry of data outside acceptable ranges and requiring answers for necessary items. Participant data will be stored on secure servers and protected by two-factor authentication. Identifiable information will be maintained separately from the research database.",
+      "order": 10
+    },
+    {
+      "section": "Statistical Analysis Plan",
+      "text": "Descriptive statistics will summarize demographic and clinical characteristics of study participants for the overall enrolled sample (Phase 1) and the randomized sample (Phase 2). Continuous variables will be described using means, standard deviations, medians, and ranges, while categorical variables will be summarized using frequencies and percentages. Given the four-group study design, bivariate comparisons of continuous outcomes will be conducted using analysis of variance (ANOVA), with Bonferroni-adjusted pairwise comparisons to control for multiple testing (α = 0.05/6 = 0.008). Categorical variables will be compared using Chi-square tests or Fisher’s exact tests, as appropriate. Within-group changes will be assessed using paired t-tests for continuous outcomes and symmetry tests for paired proportions. The primary outcome analysis (Aim 1) will be conducted using both the intent-to-treat (ITT) and per-protocol approaches. The primary outcome is the change in modified SNOT-16 (mSNOT-16) score from randomization visit R1 to follow-up visit R3. This outcome will be used to evaluate the comparative effectiveness of the four intervention groups. Although six pairwise comparisons are possible, the primary comparisons of interest are: An overall ANOVA will first test for differences in change in mSNOT-16 across the four groups. If the F-test is statistically significant, pairwise comparisons will be conducted using Bonferroni-adjusted Type I error. For pairwise comparisons that are not statistically different, equivalence testing will be performed using 99% confidence intervals and a predefined equivalence margin of ±0.25 (half of the clinically meaningful important difference). If equivalence is rejected, non-inferiority or superiority will be assessed; otherwise, results will be considered inconclusive. To account for potential baseline confounding and to leverage longitudinal data, multivariable analyses will be conducted using linear mixed-effects models. These models will include fixed effects for treatment group and relevant baseline covariates (age, sex, CRP level, and double-sickening) and random effects at both the study site and participant levels. Heterogeneity of treatment effects (Aim 2) will be examined using linear regression models of change in mSNOT-16 that include interaction terms between treatment group and the subgroup variable of interest, adjusting for baseline mSNOT-16. Subgroup variables to be evaluated include elevated CRP, double-sickening, purulence on examination, change in smell, dental pain, provider clinical impression/gestalt, and visit type (in-person vs telehealth). Due to sample size limitations, interaction terms will be tested one at a time. For Aim 3, analyses will focus on identifying factors associated with clinical improvement during Phase 1 without progression to Phase 2. Logistic regression models will be used to examine demographic and clinical predictors hypothesized to be related to bacterial infection and reduced likelihood of improvement with supportive care alone. Additional exploratory analyses will assess symptom clusters derived using machine-learning–based clustering methods. All statistical analyses will be conducted using Stata 19 [ 43 ] and R [ 44 ].",
+      "order": 11
+    },
+    {
+      "section": "Sample Size",
+      "text": "This study is a parallel, four-group randomized clinical trial designed for comparative effectiveness. The primary outcome is the mSNOT-16 score, with effectiveness assessed as the mean change from baseline to Day 3. Based on the Garbutt et al. validation study (baseline mean mSNOT-16 = 1.71, mean change = 0.58, SD = 0.52, MCID = 0.50), initial sample size calculations aimed to estimate the mean change in each group with high precision (95% CI, margin of error ±0.05) [ 39 ]. Calculations indicated that 2,232 participants need to be randomized (1:1:1:1; accounting for 20% dropout), with 3,720 participants expected to consent and enroll, and assuming 60% of enrolled participants would not improve spontaneously and would require randomization. The sample size was further refined based on pilot data to support subgroup analyses and ensure sufficient power for equivalence and superiority testing. Observed mSNOT-16 changes across the four groups (0.30, 0.40, 0.42, 0.29) with a maximum SD of 0.60 were used to compute power for a 4 × 3 factorial design. Assuming subgroup means of 0.30, 0.40, and 0.50 (SD = 0.60), a total of 1,860 participants provides: 1) 80% power at α = 0.005 (Bonferroni adjustment for 10 pairwise comparisons) to detect at least one significant difference among the four treatment groups (effect size = 0.10); 2) 99% power to detect at least one significant pair within the subgroup variable (effect size = 0.14); 3) 100% power to detect a significant interaction (effect size = 0.17) with 155 participants per cell for 12 treatment combinations (4 × 3). Additionally, 465 participants per group provide 100% power for equivalence testing for each of the six possible pairwise comparisons across four groups, using a Bonferroni-adjusted α = 0.05/6 = 0.008 and a margin of equivalence of 0.25 (half the MCID). If a difference between groups is not statistically significant (p > 0.008), the two one-sided test (TOST) procedure will be applied. Equivalence will be concluded if the 99% confidence interval for the difference lies within [−0.25, 0.25]. If equivalence cannot be shown or a significant difference exists, the same margin will be used to assess non-inferiority or superiority, comparing the lower or upper bound of the 99% CI to −0.25 or 0.25, respectively. Sample size calculations were conducted in PASS [ 45 ].",
+      "order": 12
+    },
+    {
+      "section": "Status And Timeline",
+      "text": "The full-scale study commenced with the first enrollment on January 29, 2025, following completion of an 18-month feasibility and pilot (n = 140) phase [ 37 ]. Participant recruitment is estimated to run from the first quarter of 2025 (Q1) through Q1 2028, and data collection will be completed by Q2 of 2028. Data analysis of the specific aims will be completed in Q4 2028. The total planned duration for the full-scale study is 48 months.",
+      "order": 13
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study should be a pivotal trial that transforms care for ARS. ARS is highly prevalent but remains understudied, with only a few small randomized trials reporting heterogeneous results. Our trial, nearly ten times larger than any prior ARS study, will allow robust identification of patient subgroups that benefit from specific therapies, evaluation of multiple supportive care strategies, and more precise guidance on appropriate antibiotic use. Beyond advancing care for a common primary care condition, we hope this study will encourage further rigorous investigation of primary care issues with significant public health impact.",
+      "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "pone.0348522.ref001",
+      "label": "1",
+      "title": "Antibiotics for acute rhinosinusitis in adults",
+      "journal": "Cochrane Database Syst Rev",
+      "year": "2018",
+      "volume": "9",
+      "issue": "9",
+      "doi": "10.1002/14651858.CD006089.pub5",
+      "pmid": "30198548",
+      "pmc_id": "PMC6513448"
+    },
+    {
+      "ref_id": "pone.0348522.ref002",
+      "label": "2",
+      "title": "National burden of antibiotic use for adult rhinosinusitis",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2013",
+      "volume": "132",
+      "issue": "5",
+      "fpage": "1230",
+      "lpage": "2",
+      "doi": "10.1016/j.jaci.2013.07.009",
+      "pmid": "23987794",
+      "pmc_id": "PMC3815964"
+    },
+    {
+      "ref_id": "pone.0348522.ref003",
+      "label": "3",
+      "title": "The “top 5” lists in primary care: meeting the responsibility of professionalism",
+      "journal": "Arch Intern Med",
+      "year": "2011",
+      "volume": "171",
+      "issue": "15",
+      "fpage": "1385",
+      "lpage": "90",
+      "doi": "10.1001/archinternmed.2011.231",
+      "pmid": "21606090"
+    },
+    {
+      "ref_id": "pone.0348522.ref004",
+      "label": "4",
+      "title": "National trends in visit rates and antibiotic prescribing for adults with acute sinusitis",
+      "journal": "Arch Intern Med",
+      "year": "2012",
+      "volume": "172",
+      "issue": "19",
+      "fpage": "1513",
+      "lpage": "4",
+      "doi": "10.1001/archinternmed.2012.4089",
+      "pmid": "23007315"
+    },
+    {
+      "ref_id": "pone.0348522.ref005",
+      "label": "5",
+      "title": "Treatment of mild to moderate sinusitis",
+      "journal": "Arch Intern Med",
+      "year": "2012",
+      "volume": "172",
+      "issue": "6",
+      "fpage": "510",
+      "lpage": "3",
+      "doi": "10.1001/archinternmed.2012.253",
+      "pmid": "22450938"
+    },
+    {
+      "ref_id": "pone.0348522.ref006",
+      "label": "6",
+      "raw_citation": "U.S. Action to Combat Antibiotic Resistance. 2019 [cited 29 June 2020]. Available: https://www.cdc.gov/drugresistance/us-activities.html"
+    },
+    {
+      "ref_id": "pone.0348522.ref007",
+      "label": "7",
+      "title": "Antimicrobial treatment guidelines for acute bacterial rhinosinusitis",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2004",
+      "volume": "130",
+      "fpage": "1",
+      "lpage": "45",
+      "doi": "10.1016/j.otohns.2003.12.003",
+      "pmid": "14726904",
+      "pmc_id": "PMC7118847"
+    },
+    {
+      "ref_id": "pone.0348522.ref008",
+      "label": "8",
+      "journal": "Sinusitis",
+      "year": "2020",
+      "pmid": "29262090"
+    },
+    {
+      "ref_id": "pone.0348522.ref009",
+      "label": "9",
+      "journal": "Trusts C for DC and P and TPC, editor. Planning for a national goal for reduction in outpatient antibiotic use. Emory Conference Center, Atlanta, GA",
+      "year": "2015"
+    },
+    {
+      "ref_id": "pone.0348522.ref010",
+      "label": "10",
+      "title": "Outpatient antibiotic use in Europe and association with resistance: a cross-national database study",
+      "journal": "Lancet",
+      "year": "2005",
+      "volume": "365",
+      "issue": "9459",
+      "fpage": "579",
+      "lpage": "87",
+      "doi": "10.1016/S0140-6736(05)17907-0",
+      "pmid": "15708101"
+    },
+    {
+      "ref_id": "pone.0348522.ref011",
+      "label": "11",
+      "title": "Study to investigate the potential of probiotics in children attending school",
+      "journal": "Eur J Clin Nutr",
+      "year": "2011",
+      "volume": "65",
+      "issue": "4",
+      "fpage": "447",
+      "lpage": "53",
+      "doi": "10.1038/ejcn.2010.290",
+      "pmid": "21326270"
+    },
+    {
+      "ref_id": "pone.0348522.ref012",
+      "label": "12",
+      "title": "Antibiotic resistance: synthesis of recommendations by expert policy groups",
+      "journal": "Alliance Prudent Use Antibiot World Health Organ",
+      "year": "2001"
+    },
+    {
+      "ref_id": "pone.0348522.ref013",
+      "label": "13",
+      "title": "Prevalence of inappropriate antibiotic prescriptions among US ambulatory care visits, 2010-2011",
+      "journal": "JAMA",
+      "year": "2016",
+      "fpage": "1864",
+      "pmid": "27139059",
+      "doi": "10.1001/jama.2016.4151"
+    },
+    {
+      "ref_id": "pone.0348522.ref014",
+      "label": "14",
+      "title": "IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults",
+      "journal": "Clin Infect Dis",
+      "year": "2012",
+      "volume": "54",
+      "issue": "8",
+      "lpage": "112",
+      "doi": "10.1093/cid/cir1043",
+      "pmid": "22438350"
+    },
+    {
+      "ref_id": "pone.0348522.ref015",
+      "label": "15",
+      "raw_citation": "Clinical Practice Guideline Adult Sinusitis. [cited 29 Jan 2026]. Available: https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/adult-sinusitis.html"
+    },
+    {
+      "ref_id": "pone.0348522.ref016",
+      "label": "16",
+      "raw_citation": "Choosing Wisely® Antibiotics for Sinusitis . American Academy of Family Physicians; [cited 29 Jan 2026]. Available: https://www.aafp.org/family-physician/patient-care/clinical-recommendations/all-clinical-recommendations/cw-sinusitis.html"
+    },
+    {
+      "ref_id": "pone.0348522.ref017",
+      "label": "17",
+      "title": "Bifidobacterium animalis subsp. lactis BB-12 Protects against Antibiotic-Induced Functional and Compositional Changes in Human Fecal Microbiome",
+      "journal": "Nutrients",
+      "year": "2021",
+      "volume": "13",
+      "issue": "8",
+      "fpage": "2814",
+      "doi": "10.3390/nu13082814",
+      "pmid": "34444974",
+      "pmc_id": "PMC8398419"
+    },
+    {
+      "ref_id": "pone.0348522.ref018",
+      "label": "18",
+      "title": "An antibiotic-impacted microbiota compromises the development of colonic regulatory T cells and predisposes to dysregulated immune responses",
+      "journal": "mBio",
+      "year": "2021",
+      "volume": "12",
+      "doi": "10.1128/mBio.03335-20",
+      "pmc_id": "PMC7858066",
+      "pmid": "33531385"
+    },
+    {
+      "ref_id": "pone.0348522.ref019",
+      "label": "19",
+      "title": "Long-Term Effects of Early-Life Antibiotic Exposure on Resistance to Subsequent Bacterial Infection",
+      "journal": "mBio",
+      "year": "2019",
+      "volume": "10",
+      "issue": "6",
+      "doi": "10.1128/mBio.02820-19",
+      "pmid": "31874917",
+      "pmc_id": "PMC6935859"
+    },
+    {
+      "ref_id": "pone.0348522.ref020",
+      "label": "20",
+      "doi": "10.1080/10408398.2021.1912706",
+      "pmid": "33909528"
+    },
+    {
+      "ref_id": "pone.0348522.ref021",
+      "label": "21",
+      "title": "Effects from diet-induced gut microbiota dysbiosis and obesity can be ameliorated by fecal microbiota transplantation: A multiomics approach",
+      "journal": "PLoS One",
+      "year": "2019",
+      "volume": "14",
+      "issue": "9",
+      "doi": "10.1371/journal.pone.0218143",
+      "pmid": "31545802",
+      "pmc_id": "PMC6756520"
+    },
+    {
+      "ref_id": "pone.0348522.ref022",
+      "label": "22",
+      "raw_citation": "Centers for Disease Control and Prevention. Adverse Drug Events from Specific Medicines. [cited 21 Dec 2020]. Available: https://www.cdc.gov/medicationsafety/adverse-drug-events-specific-medicines.html"
+    },
+    {
+      "ref_id": "pone.0348522.ref023",
+      "label": "23",
+      "title": "Antibiotics for clinically diagnosed acute rhinosinusitis in adults",
+      "journal": "Cochrane Database Syst Rev",
+      "year": "2012",
+      "volume": "10",
+      "doi": "10.1002/14651858.CD006089.pub4",
+      "pmid": "23076918"
+    },
+    {
+      "ref_id": "pone.0348522.ref024",
+      "label": "24",
+      "title": "Antibiotics for adults with clinically diagnosed acute rhinosinusitis: a meta-analysis of individual patient data",
+      "journal": "Lancet",
+      "year": "2008",
+      "volume": "371",
+      "issue": "9616",
+      "fpage": "908",
+      "lpage": "14",
+      "doi": "10.1016/S0140-6736(08)60416-X",
+      "pmid": "18342685"
+    },
+    {
+      "ref_id": "pone.0348522.ref025",
+      "label": "25",
+      "title": "No evidence for distinguishing bacterial from viral acute rhinosinusitis using fever and facial/dental pain: a systematic review of the evidence base",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "150",
+      "issue": "1",
+      "fpage": "28",
+      "lpage": "33",
+      "doi": "10.1177/0194599813510891",
+      "pmid": "24357394"
+    },
+    {
+      "ref_id": "pone.0348522.ref026",
+      "label": "26",
+      "title": "No evidence for distinguishing bacterial from viral acute rhinosinusitis using symptom duration and purulent rhinorrhea: a systematic review of the evidence base",
+      "journal": "Otolaryngol Head Neck Surg",
+      "year": "2014",
+      "volume": "150",
+      "issue": "4",
+      "fpage": "533",
+      "lpage": "7",
+      "doi": "10.1177/0194599814522595",
+      "pmid": "24515968"
+    },
+    {
+      "ref_id": "pone.0348522.ref027",
+      "label": "27",
+      "title": "Procalcitonin-guided antibiotic use vs a standard approach for acute respiratory tract infections in primary care",
+      "journal": "Arch Intern Med",
+      "year": "2008",
+      "volume": "168",
+      "issue": "18",
+      "fpage": "2000",
+      "lpage": "7",
+      "doi": "10.1001/archinte.168.18.2000",
+      "pmid": "18852401"
+    },
+    {
+      "ref_id": "pone.0348522.ref028",
+      "label": "28",
+      "title": "The end of antibiotic treatment in adults with acute sinusitis-like complaints in general practice? A placebo-controlled double-blind randomized doxycycline trial",
+      "journal": "Br J Gen Pract",
+      "year": "1997",
+      "volume": "47",
+      "issue": "425",
+      "fpage": "794",
+      "lpage": "9",
+      "pmid": "9463979",
+      "pmc_id": "PMC1410064"
+    },
+    {
+      "ref_id": "pone.0348522.ref029",
+      "label": "29",
+      "title": "Effects of antibiotic treatment in the subset of common-cold patients who have bacteria in nasopharyngeal secretions",
+      "journal": "Lancet",
+      "year": "1996",
+      "volume": "347",
+      "issue": "9014",
+      "fpage": "1507",
+      "lpage": "10",
+      "doi": "10.1016/s0140-6736(96)90670-4",
+      "pmid": "8684101"
+    },
+    {
+      "ref_id": "pone.0348522.ref030",
+      "label": "30",
+      "title": "Effect of amoxicillin-clavulanate in clinically diagnosed acute rhinosinusitis: a placebo-controlled, double-blind, randomized trial in general practice",
+      "journal": "Arch Intern Med",
+      "year": "2003",
+      "volume": "163",
+      "issue": "15",
+      "fpage": "1793",
+      "lpage": "8",
+      "doi": "10.1001/archinte.163.15.1793",
+      "pmid": "12912714"
+    },
+    {
+      "ref_id": "pone.0348522.ref031",
+      "label": "31",
+      "title": "Are antibiotics beneficial for patients with sinusitis complaints? A randomized double-blind clinical trial",
+      "journal": "J Fam Pract",
+      "year": "2005",
+      "volume": "54",
+      "issue": "2",
+      "fpage": "144",
+      "lpage": "51",
+      "pmid": "15689289"
+    },
+    {
+      "ref_id": "pone.0348522.ref032",
+      "label": "32",
+      "title": "Antibiotics and topical nasal steroid for treatment of acute maxillary sinusitis: a randomized controlled trial",
+      "journal": "JAMA",
+      "year": "2007",
+      "volume": "298",
+      "issue": "21",
+      "fpage": "2487",
+      "lpage": "96",
+      "doi": "10.1001/jama.298.21.2487",
+      "pmid": "18056902"
+    },
+    {
+      "ref_id": "pone.0348522.ref033",
+      "label": "33",
+      "title": "Does amoxicillin improve outcomes in patients with purulent rhinorrhea? A pragmatic randomized double-blind controlled trial in family practice",
+      "journal": "J Fam Pract",
+      "year": "2002",
+      "volume": "51",
+      "issue": "4",
+      "fpage": "317",
+      "lpage": "23",
+      "pmid": "11978253"
+    },
+    {
+      "ref_id": "pone.0348522.ref034",
+      "label": "34",
+      "title": "Treating acute rhinosinusitis: comparing efficacy and safety of mometasone furoate nasal spray, amoxicillin, and placebo",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2005",
+      "volume": "116",
+      "issue": "6",
+      "fpage": "1289",
+      "lpage": "95",
+      "doi": "10.1016/j.jaci.2005.08.044",
+      "pmid": "16337461"
+    },
+    {
+      "ref_id": "pone.0348522.ref035",
+      "label": "35",
+      "title": "Treatment of acute rhinosinusitis diagnosed by clinical criteria or ultrasound in primary care. A placebo-controlled randomised trial",
+      "journal": "Scand J Prim Health Care",
+      "year": "2003",
+      "volume": "21",
+      "issue": "2",
+      "fpage": "121",
+      "lpage": "6",
+      "doi": "10.1080/02813430310001743",
+      "pmid": "12877377"
+    },
+    {
+      "ref_id": "pone.0348522.ref036",
+      "label": "36",
+      "title": "Impact of Implementation of the Core Elements of Outpatient Antibiotic Stewardship Within Veterans Health Administration Emergency Departments and Primary Care Clinics on Antibiotic Prescribing and Patient Outcomes",
+      "journal": "Clin Infect Dis",
+      "year": "2021",
+      "volume": "73",
+      "issue": "5",
+      "lpage": "34",
+      "doi": "10.1093/cid/ciaa1831",
+      "pmid": "33289028"
+    },
+    {
+      "ref_id": "pone.0348522.ref037",
+      "label": "37",
+      "title": "Moving from a pilot study to large pragmatic trial in primary care settings: A study on acute rhinosinusitis",
+      "journal": "J Clin Transl Sci",
+      "year": "2025",
+      "volume": "9",
+      "issue": "1",
+      "doi": "10.1017/cts.2025.10175",
+      "pmid": "41496781",
+      "pmc_id": "PMC12766510"
+    },
+    {
+      "ref_id": "pone.0348522.ref038",
+      "label": "38",
+      "title": "Clinical Practice Guideline: Adult Sinusitis Update",
+      "journal": "Otolaryngology–Head and Neck Surgery",
+      "year": "2025",
+      "volume": "173",
+      "lpage": "56",
+      "doi": "10.1002/ohn.1344",
+      "pmid": "40742114"
+    },
+    {
+      "ref_id": "pone.0348522.ref039",
+      "label": "39",
+      "title": "Use of the modified SNOT-16 in primary care patients with clinically diagnosed acute rhinosinusitis",
+      "journal": "Arch Otolaryngol Head Neck Surg",
+      "year": "2011",
+      "volume": "137",
+      "issue": "8",
+      "fpage": "792",
+      "lpage": "7",
+      "doi": "10.1001/archoto.2011.120",
+      "pmid": "21844413",
+      "pmc_id": "PMC3671945"
+    },
+    {
+      "ref_id": "pone.0348522.ref040",
+      "label": "40",
+      "title": "Psychometric and clinimetric validity of the 31-item rhinosinusitis outcome measure (RSOM-31)",
+      "journal": "Am J Rhinol",
+      "year": "1995",
+      "volume": "9",
+      "fpage": "297",
+      "lpage": "308",
+      "doi": "10.2500/105065895781808711"
+    },
+    {
+      "ref_id": "pone.0348522.ref041",
+      "label": "41",
+      "title": "High-Dose vs Standard-Dose Amoxicillin Plus Clavulanate for Adults With Acute Sinusitis: A Randomized Clinical Trial",
+      "journal": "JAMA Netw Open",
+      "year": "2021",
+      "volume": "4",
+      "issue": "3",
+      "doi": "10.1001/jamanetworkopen.2021.2713",
+      "pmid": "33755168",
+      "pmc_id": "PMC7988367"
+    },
+    {
+      "ref_id": "pone.0348522.ref042",
+      "label": "42",
+      "title": "The Validity and Reproducibility of a Work Productivity and Activity Impairment Instrument",
+      "journal": "PharmacoEconomics",
+      "year": "1993",
+      "volume": "4",
+      "fpage": "353",
+      "lpage": "365",
+      "doi": "10.2165/00019053-199304050-00006",
+      "pmid": "10146874"
+    },
+    {
+      "ref_id": "pone.0348522.ref043",
+      "label": "43",
+      "year": "2026"
+    },
+    {
+      "ref_id": "pone.0348522.ref044",
+      "label": "44",
+      "raw_citation": "PASS: Power Analysis and Sample Size Software. Kaysville, Utah: NCSS, LLC."
+    },
+    {
+      "ref_id": "pone.0348522.ref045",
+      "label": "45",
+      "doi": "10.1002/14651858.CD006089.pub5",
+      "pmc_id": "PMC6513448",
+      "pmid": "30198548"
+    }
+  ]
+}

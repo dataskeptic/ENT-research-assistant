@@ -1,0 +1,1397 @@
+{
+  "metadata": {
+    "title": "Prevalence of GJB2 gene mutations in nonsyndromic hearing impairments: A systematic review and meta-analysis",
+    "authors": [
+      "Ruijie Feng",
+      "Ernest Mangantig",
+      "Wan Shahriman Yushdie Wan Yusoff",
+      "Hui Li",
+      "Xiaoze Li",
+      "Mohd Nazri Abu"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000048877",
+    "pmc_id": "PMC13225560",
+    "pmid": "42216359",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 73
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background: Nonsyndromic hearing impairment (NSHI) is the most common type of inherited hearing loss. Mutations in GJB2 , which encodes connexin 26, are a major cause worldwide, but their prevalence and variant distribution vary across populations. To systematically evaluate the global prevalence of GJB2 mutations and 5 hotspot variants (c.35delG, c.176_191del16, c.235delC, c.299_300delAT, and c.109G > A) in NSHI patients, and assess their diagnostic relevance. Methods: A meta-analysis was conducted on studies published between January 2019 and June 2024 retrieved from PubMed, Scopus, Web of Science, and Cochrane Library. Only high-quality studies (Newcastle-Ottawa Scale ≥ 7) with molecular diagnostic data were included. Pooled prevalence, 95% confidence intervals, and heterogeneity (I 2 ) were calculated. Subgroup and meta-regression analyses were performed according to geographic region. Results: Fifty-one studies from 24 countries covering 18,968 patients with NSHI were included. The overall prevalence of GJB2 mutations was 25.9% (95% confidence intervals: 21.7–30.1%; I 2 = 96%). The variant-specific rates included c.235delC (15.2%), c.35delG (12.0%), c.109G > A (7.6%), c.299_300delAT (3.1%), and c.176_191del16 (0.7%). The highest prevalence occurred in the Middle East (38.5%), whereas Africa had the lowest (11.1%). Conclusion: GJB2 mutations show marked geographic and ethnic variability in populations with NSHI. These findings support region-specific genetic screening to improve the early diagnosis, counseling, and targeted interventions for hereditary hearing loss.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hearing loss is a growing global health concern, currently affecting over 430 million people. This number corresponds to more than 5% of the world’s population and is expected to exceed 700 million (approximately 1 in every ten people) by 2050, according to the World Health Organization. [ 1 ] The burden of hearing impairment extends beyond communication difficulties, encompassing substantial economic and health care consequences. These include expenditures for hearing aids, cochlear implants, early intervention in newborns, speech and auditory rehabilitation, and long-term care for the affected individuals and their families. Clinically, hearing loss is defined as a hearing threshold of ≥20 dB and can range in severity from mild to profound. [ 2 ] Among the various etiological factors, genetic causes are particularly prominent, accounting for at least 50% of congenital and early onset hearing loss cases. Approximately 70% of genetic hearing loss cases are nonsyndromic (NSHI), with autosomal recessive inheritance accounting for nearly 80% of these cases. [ 3 ] One of the most extensively studied genes in NSHI is GJB2 , which encodes the gap junction protein connexin 26. [ 4 ] This protein facilitates intercellular communication by enabling the passage of ions and small molecules across cell membranes. [ 5 ] Mutations in GJB2 disrupt gap junction channels, impair cochlear function, and ultimately result in hearing loss. [ 6 , 7 ] Extensive research has investigated the molecular consequences of GJB2 mutations, including their effects on protein function, membrane transport, and channel conductance. [ 6 ] However, despite growing evidence, considerable uncertainty persists regarding the diagnostic value of specific GJB2 variants across different populations. Advances in genetic testing technologies, particularly in direct gene sequencing, have significantly improved the precision of GJB2 mutation detection. Nonetheless, variations in mutation prevalence across regions, ethnic groups, and detection methods underscore the need for comprehensive synthesis. Therefore, the present study aimed to systematically review and meta-analyze the existing literature on GJB2 mutations in NSHI patients. We focused on hotspot variants and performed subgroup analyses based on geographic distribution and detection techniques, with emphasis on direct gene sequencing as the most accurate method for mutation identification. This study aimed to elucidate the clinical utility of GJB2 screening for NSHI and to inform future strategies for early genetic diagnosis and targeted intervention.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Literature Search Strategy",
+      "text": "A systematic literature search was performed using 4 electronic databases: PubMed, Scopus, Web of Science, and Cochrane Library, covering studies published from January 2019 to June 2024, a period marked by heightened research activity in this field. The search covered publications published from January 2019 to June 2024, a period marked by increased research activity in the field of genetic hearing loss. The search strategy included the following keywords and MeSH terms: GJB2 , deafness gene, hearing loss, autosomal recessive, connexin 26, and Cx26. No language restrictions were applied. The protocol was prospectively registered with PROSPERO (registration number: CRD420250580566).",
+      "order": 2
+    },
+    {
+      "section": "2.2. Inclusion And Exclusion Criteria",
+      "text": "Studies were selected based on the following inclusion criteria: full-text original research articles published between January 2019 and June 2024; reported the carrier frequency of GJB2 mutations associated with nonsyndromic hearing impairment (NSHI), along with valid and extractable statistical data; and employed molecular diagnostic techniques, such as microarray analysis, matrix-assisted laser desorption/ionization time-of-flight mass spectrometry, or direct gene sequencing. The following were excluded: review articles, case reports, editorials, and conference abstracts; basic experimental studies or mechanistic investigations that did not involve human subjects; and duplicate publications or overlapping datasets.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Quality Assessment And Data Extraction",
+      "text": "Two independent reviewers evaluated the methodological quality of the included studies using the Newcastle-Ottawa Scale. Only studies with a score ≥7 were considered high-quality and were included in the final analysis. Relevant data were extracted using a standardized form and cross-verified by both reviewers to ensure accuracy and consistency.",
+      "order": 4
+    },
+    {
+      "section": "2.4. Statistical Analysis",
+      "text": "Pooled carrier frequencies and the corresponding 95% confidence intervals (CIs) were calculated. Heterogeneity among studies was assessed using Cochran Q test (with P <.10 indicating significance) and quantified using the I 2 statistic, where values >50% indicated substantial heterogeneity. A random-effects model was applied in cases of significant heterogeneity; otherwise, a fixed effects model was used. Publication bias was assessed using funnel plot inspection and Egger regression test ( P < .05, considered significant). Subgroup and meta-regression analyses were conducted based on geographical region, age, severity of hearing impairment, and detection techniques to explore the potential sources of heterogeneity. Sensitivity analyses were performed by sequentially omitting the individual studies to test the robustness of the results. All statistical analyses were conducted using the R software (version 4.4.1).",
+      "order": 5
+    },
+    {
+      "section": "3.1. Characteristics Of Included Studies",
+      "text": "A total of 1911 potential records were identified through database searches, using predefined keywords. After screening titles, abstracts, and full texts, 51 studies from 24 countries were included in the final meta-analysis, encompassing a total of 18,968 individuals diagnosed with NSHI. The majority of studies have employed sequencing-based methods for mutation detection, except for a few (e.g., Tian et al 2023, Dai et al 2022, Lin et al 2019) [ 8 – 10 ] that utilized microarray technology. Among the analyzed GJB2 variants, c.235delC was the most frequently reported, particularly in East Asian populations such as China, where multiple studies (e.g., Wu et al 2022, Zhou et al 2019, Sun et al 2022) [ 11 – 13 ] have documented high prevalence rates. Other commonly reported mutations included c.35delG, which was predominantly observed in European cohorts (e.g., Hungary, Portugal, and Russia), and c.109G > A, which showed a notable presence in several Chinese and Southeast Asian studies (Table 1 ). The detailed literature search and study selection process is illustrated in Figure 1 .",
+      "order": 6
+    },
+    {
+      "section": "3.2. Related Study Indexes In The Meta-Analysis",
+      "text": "The pooled detection rate for GJB2 mutations across all included studies was estimated at 25.9% (95% CI: 21.7%–30.1%), with substantial heterogeneity among studies (I 2 = 96%, P <.001). Among the specific hotspot variants, c.235delC exhibited the highest estimated carrier rate (15.2%), followed by c.35delG (12.0%), both of which demonstrated significant heterogeneity (I 2 > 97%). The estimated rates of c.299_300delAT, c.109G > A, and c.176_191del16 were 3.1%, 7.6%, and 0.7%, respectively. Owing to the high heterogeneity ( P <.001) observed in these analyses, random-effects models were consistently applied. These findings underscore the notable regional and ethnic differences in GJB2 mutation frequencies across global NSHI populations. The detailed characteristics of the included studies are summarized in Table 2 .",
+      "order": 7
+    },
+    {
+      "section": "3.3. Mutation Specific Meta-Analysis",
+      "text": "Figures 2 – 7 present the pooled prevalence estimates and effect sizes of overall GJB2 mutations and 5 major hotspot variants (c.35delG, c.176_191del16, c.235delC, c.299_300delAT, and c.109G > A) across the included NSHI cohorts. Significant heterogeneity was detected in the pooled analyses ( P < .10 or I 2 > 65%), leading to the use of random-effects models for calculating pooled odds ratios. The resulting forest plots illustrate the association between each mutation and the risk of NSHI, highlighting substantial genetic variability among populations. These findings reinforce the importance of region- and ethnicity-specific strategies for genetic screening and early intervention. We then analyzed publication bias and conducted a sensitivity analysis. The results are presented in Figures S1 and S2 .",
+      "order": 8
+    },
+    {
+      "section": "3.4. Subgroup Analysis",
+      "text": "Subgroup meta-analysis based on geographic region revealed significant differences in the prevalence of GJB2 mutations across 45 studies (Table 3 ). The overall proportion of GJB2 mutations among NSHI patients was 25.9% (95% CI: 21.7%–30.1%), accompanied by marked heterogeneity (I 2 = 96.1%, P < .001). The highest prevalence was observed in the Middle East (38.5%), followed by Europe (30.8%), and East Asia (25.6%), whereas lower prevalence rates were found in Australia (13.4%) and Africa (11.1%). Similar regional disparities were observed for the hotspot mutations. For instance, c.35delG was highly prevalent in Europe (23.6%) and the Middle East (30.2%) but was almost absent in East Asia (0.3%). In contrast, c.235delC and c.109G > A were predominantly observed in East Asian populations, with estimated prevalence rates of 16.6% and 12.1%, respectively, but rarely reported in other regions. However, when stratified by genetic variations, it was shown that these “geographical differences” largely reflected the differences in the genetic background of the population (such as the high frequency of 35delG in the European population and its rarity in the East Asian population), rather than being the result of independent geographical environmental influences. Furthermore, subgroup analyses were performed according to age, severity of hearing impairment, and detection methodologies. The findings indicated no significant differences across age groups for the overall GJB2 gene ( P = .987) ( Table S1 ). However, within the 35delG mutation subgroup, age demonstrated a highly significant effect ( P < .001), primarily attributable to an anomalously elevated value (51.1%) reported in a study comprising a heterogeneous sample of newborns, children, and adults. These results imply that the impact of age may differ depending on the specific gene and could be influenced by the demographic composition of individual study samples. Neither the severity of hearing impairment nor the detection techniques yielded significant effects within each gene subgroup ( Tables S2 and S3 ); nonetheless, certain subgroups may present unstable estimates due to the limited number of studies included (n = 1).",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "This meta-analysis confirmed that GJB2 mutations, particularly 5 hotspot variants (c.35delG, c.176_191del16, c.235delC, c.299_300delAT, and c.109G > A), were significantly associated with NSHI. Clear evidence of regional and ethnic variability has been observed. [ 59 – 66 ] The overall pooled prevalence of GJB2 mutations was 25.9% (95% CI: 21.7%–30.1%), with estimates ranging widely from 3.3% to 63.2% across individual studies, highlighting substantial heterogeneity (I 2 = 96%, P < .001). Possible contributors to this heterogeneity include differences in genetic backgrounds, sample sizes, case selection criteria, and detection methods. [ 67 ] This genetic variability underscores the need to implement population-specific screening strategies. Among the hotspot variants, c.235delC demonstrated the highest pooled prevalence (15.2%) and is particularly common in East Asian populations (China, Japan, and Korea). [ 61 ] A high frequency of GJB2 variants has also been reported in some Middle Eastern cohorts (including Iraqi samples about 55.8%), indicating that parts of the Middle East may also harbor elevated GJB2 burdens, which may reflect local founder events and the well-documented impact of high consanguinity on recessive disorder prevalence in several Arab populations. [ 44 , 63 , 68 ] In contrast, c.35delG, with an overall prevalence of 12.0%, was predominantly identified in European and Middle Eastern populations, especially in Hungary (51.1%), Iraq (78.9%), and Iran (46.1%), which is rare or absent in East Asia, likely reflecting distinct evolutionary histories and founder effects, a distribution consistent with a well-documented founder effect and the historical spread of this allele across Caucasian/Eurasian populations. [ 59 , 60 ] c.176_191del16 and c.299_300delAT variants have been reported in Chinese cohorts, with pooled prevalence rates of 0.7% and 3.1%, respectively, reflecting their largely population-specific distribution and contribution to the genetic architecture of NSHI in East Asia. [ 63 ] c.109G > A exhibited a moderate overall prevalence of 7.6%, with higher frequencies documented in Eastern China (up to 15.8%), but was infrequently reported in other regions. Additionally, several localized Chinese cohorts have reported notably higher allele frequencies (for example, the Xiamen cohort), underscoring intra-China regional variation and the need for area-tailored screening panels. [ 69 ] Finally, many pathogenic GJB2 genotypes occur as compound heterozygotes, and genotype class (biallelic truncating vs truncating/non-truncating vs non-truncating) correlates with the degree of hearing loss, indicating that compound states and variant type meaningfully influence clinical severity and age of onset. [ 70 ] Subgroup analyses and meta-regression revealed considerable heterogeneity within regions for all major variants (I 2 > 65%), indicating substantial variability even among studies conducted in similar geographic settings. For some variants, including c.176_191del16, c.235delC, and c.109G > A, no statistically significant differences between regional subgroups were observed, suggesting that intrapopulation factors or study-level methodological differences may contribute to variability in prevalence estimates. In contrast, for c.35delG, meta-regression analysis identified geographic region as a significant source of heterogeneity ( P < .001), reinforcing its strong regional association. Compared with previous reports, this study offers several advantages. It incorporates a larger number of recent studies (N = 45), represents a broader geographic scope, and applies meta-regression to assess the potential sources of between-study and between-region heterogeneity. [ 71 – 73 ] These strengths not only enhance the accuracy of prevalence estimates, but also provide actionable evidence to guide the development of region-specific genetic testing strategies and targeted public health interventions. This provides an important epidemiological basis for the development of targeted gene therapy intervention measures. For instance, in the European population, base editing therapies directed at the c.35delG mutation should be prioritized, whereas in the East Asian population, gene replacement strategies focusing on the c.235delC and c.299_300delAT mutations warrant greater emphasis. Overall, this meta-analysis reinforces the complexity of the genetic landscape underlying NSHI, and highlights the importance of incorporating regional and ethnic mutation patterns into both clinical practice and public health strategies.",
+      "order": 10
+    },
+    {
+      "section": "5. Limitations",
+      "text": "This study had several limitations that may influence the interpretation and generalizability of the findings. First, the quality and methodological rigor of the included studies varied, with some studies assessing only selected hotspot mutations using microarrays, MALDI-TOF-MS, or targeted sequencing panels. Moreover, in the original studies, the reporting of detection methods was insufficient and the number of microarray studies was limited. Consequently, the rare GJB2 variants that were not covered in these studies may have been underestimated. Second, owing to incomplete reporting of relevant data in some original publications, it was not feasible to comprehensively analyze the impact of additional factors, such as age at diagnosis, audiometric phenotypes, or population genetic backgrounds, which could potentially influence prevalence estimates and heterogeneity. This study exclusively concentrated on the 5 predominant mutation sites of the GJB2 gene, excluding other less common pathogenic variants. Consequently, this approach may result in an underestimation of the total mutation frequency within the GJB2 gene. Finally, our meta-analysis was limited by the geographic distribution of the available data, with underrepresentation of studies from certain regions, particularly Africa and South America. As a result, these findings may not fully capture the global distribution of GJB2 mutations.",
+      "order": 11
+    },
+    {
+      "section": "Conclusion",
+      "text": "This comprehensive meta-analysis evaluated the prevalence and distribution of GJB2 gene mutations and 5 key hotspot variants (c.35delG, c.176_191del16, c.235delC, c.299_300delAT, and c.109G > A) among NSHI populations across 51 regions. Despite the methodological heterogeneity among studies, the findings provide valuable insights into the geographic and ethnic patterns of pathogenic GJB2 variants, reinforcing their critical role in hereditary hearing loss. These results support the development of region-specific genetic screening strategies and highlight the need for additional research in underrepresented populations to further characterize mutation profiles and improve early diagnosis, genetic counseling, and preventive public health initiatives.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "journal": "Deafness and Hearing Loss",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Olusanya BO",
+        "Davis AC",
+        "Hoffman HJ"
+      ],
+      "title": "Hearing loss grades and the International classification of functioning, disability and health.",
+      "journal": "Bull World Health Organ",
+      "year": "2019",
+      "volume": "97",
+      "fpage": "725",
+      "lpage": "8",
+      "pmid": "31656340",
+      "doi": "10.2471/BLT.19.230367",
+      "pmc_id": "PMC6796665"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Yang T",
+        "Guo L",
+        "Wang L",
+        "Yu X"
+      ],
+      "title": "Diagnosis, intervention, and prevention of genetic hearing loss.",
+      "journal": "Adv Exp Med Biol",
+      "year": "2019",
+      "volume": "1130",
+      "fpage": "73",
+      "lpage": "92",
+      "pmid": "30915702",
+      "doi": "10.1007/978-981-13-6123-4_5"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Zong YJ",
+        "Liu X-Z",
+        "Shi X-Y",
+        "Zhao Z-D",
+        "Sun Y"
+      ],
+      "title": "Promotion of Cx26 mutants located in TM4 region for membrane translocation successfully rescued hearing loss.",
+      "journal": "Theranostics",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "5801",
+      "lpage": "25",
+      "pmid": "40365300",
+      "doi": "10.7150/thno.112225",
+      "pmc_id": "PMC12068290"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Wang X",
+        "Zhang L",
+        "Chen S",
+        "et al."
+      ],
+      "title": "Viral-mediated Connexin 26 expression combined with dexamethasone rescues hearing in a conditional Gjb2 null mice model.",
+      "journal": "Adv Sci (Weinh)",
+      "year": "2025",
+      "volume": "12",
+      "fpage": "e2406510",
+      "pmid": "39739601",
+      "doi": "10.1002/advs.202406510",
+      "pmc_id": "PMC12362743"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Posukh OL",
+        "Maslova EA",
+        "Danilchenko VY",
+        "Zytsar MV",
+        "Orishchenko KE"
+      ],
+      "title": "Functional consequences of pathogenic variants of the GJB2 gene (Cx26) localized in different Cx26 domains.",
+      "journal": "Biomolecules",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1521",
+      "pmid": "37892203",
+      "doi": "10.3390/biom13101521",
+      "pmc_id": "PMC10604905"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Xia JH",
+        "Liu CY",
+        "Tang BS",
+        "et al."
+      ],
+      "title": "Mutations in the gene encoding gap junction protein beta-3 associated with autosomal dominant hearing impairment.",
+      "journal": "Nat Genet",
+      "year": "1998",
+      "volume": "20",
+      "fpage": "370",
+      "lpage": "3",
+      "pmid": "9843210",
+      "doi": "10.1038/3845"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Tian Y",
+        "Chang A"
+      ],
+      "title": "Comparative analysis of allele frequencies of 15 deafness gene variants between hearing-loss and normal populations in Henan, China.",
+      "journal": "Heliyon",
+      "year": "2023",
+      "volume": "9",
+      "fpage": "e21185",
+      "pmid": "37964827",
+      "doi": "10.1016/j.heliyon.2023.e21185",
+      "pmc_id": "PMC10641134"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Dai QQ",
+        "Dai W",
+        "Wang D",
+        "et al."
+      ],
+      "title": "Molecular screening of patients with profound hearing loss from Chengdu, China.",
+      "journal": "Acta Otolaryngol",
+      "year": "2022",
+      "volume": "142",
+      "fpage": "57",
+      "lpage": "60",
+      "pmid": "34936523",
+      "doi": "10.1080/00016489.2021.2014564"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Lin Y",
+        "Yu F",
+        "Jiao Y",
+        "Zhou F"
+      ],
+      "title": "Variations in the mutational spectrum in nonsyndromic hearing impairment: a study of the special schools for the deaf in Southern China.",
+      "journal": "J Int Adv Otol",
+      "year": "2019",
+      "volume": "15",
+      "fpage": "247",
+      "lpage": "52",
+      "pmid": "31347505",
+      "doi": "10.5152/iao.2019.6512",
+      "pmc_id": "PMC6750793"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Wu J",
+        "Cao Z",
+        "Su Y",
+        "et al."
+      ],
+      "title": "Molecular diagnose of a large hearing loss population from China by targeted genome sequencing.",
+      "journal": "J Hum Genet",
+      "year": "2022",
+      "volume": "67",
+      "fpage": "643",
+      "lpage": "9",
+      "pmid": "35982127",
+      "doi": "10.1038/s10038-022-01066-5",
+      "pmc_id": "PMC9592555"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Zhou Y",
+        "Li C",
+        "Li M",
+        "et al."
+      ],
+      "title": "Mutation analysis of common deafness genes among 1,201 patients with non-syndromic hearing loss in Shanxi Province.",
+      "journal": "Mol Genet Genomic Med",
+      "year": "2019",
+      "volume": "7",
+      "fpage": "e537",
+      "pmid": "30693673",
+      "doi": "10.1002/mgg3.537",
+      "pmc_id": "PMC6418354"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Sun Y",
+        "Pan C",
+        "Sun L,",
+        "et al."
+      ],
+      "title": "Results of hearing test combined with gene test for deafness in patients with hearing impairment: an analysis of 5 664 cases from Shandong Province.",
+      "journal": "Chin Gen Pract",
+      "year": "2022",
+      "volume": "25",
+      "fpage": "614",
+      "lpage": "9"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Wener ER",
+        "McLennan JD",
+        "Papsin BC",
+        "et al."
+      ],
+      "title": "Variants in genes associated with hearing loss in children: prevalence in a large Canadian cohort.",
+      "journal": "Laryngoscope",
+      "year": "2024",
+      "volume": "134",
+      "fpage": "3832",
+      "lpage": "8",
+      "pmid": "38426810",
+      "doi": "10.1002/lary.31373"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Tlili A",
+        "Mahfood M",
+        "Al Mutery A",
+        "Chouchen J"
+      ],
+      "title": "Genetic analysis of 106 sporadic cases with hearing loss in the UAE population.",
+      "journal": "Hum Genomics",
+      "year": "2024",
+      "volume": "18",
+      "fpage": "59",
+      "pmid": "38844983",
+      "doi": "10.1186/s40246-024-00630-8",
+      "pmc_id": "PMC11157727"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Sansovic I",
+        "Meašić A-M",
+        "Bobinec A",
+        "et al."
+      ],
+      "title": "Spectrum of genetic variants in 306 patients with non-syndromic hearing loss from Croatia.",
+      "journal": "Croat Med J",
+      "year": "2024",
+      "volume": "65",
+      "fpage": "198",
+      "lpage": "208",
+      "pmid": "38868966",
+      "doi": "10.3325/cmj.2024.65.198",
+      "pmc_id": "PMC11157262"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Li Y",
+        "Wang H",
+        "Li D",
+        "Wang Q"
+      ],
+      "title": "Distribution characteristics and correlation analysis of GJB2 variation in patients with auditory neuropathy.",
+      "journal": "Lin Chuang Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "year": "2024",
+      "volume": "38",
+      "fpage": "23",
+      "lpage": "9",
+      "pmid": "38297845",
+      "doi": "10.13201/j.issn.2096-7993.2024.01.004",
+      "pmc_id": "PMC11116162"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Kriukelis R",
+        "Gabbett MT",
+        "Beswick R",
+        "McInerney-Leo AM",
+        "Driscoll C",
+        "Liddle K"
+      ],
+      "title": "The congenital hearing phenotype in GJB2 in Queensland, Australia: V37I and mild hearing loss predominates.",
+      "journal": "Eur J Hum Genet",
+      "year": "2025",
+      "volume": "33",
+      "fpage": "208",
+      "lpage": "19",
+      "pmid": "38486023",
+      "doi": "10.1038/s41431-024-01584-0",
+      "pmc_id": "PMC11840006"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "El Fizazi K",
+        "Abbassi M",
+        "Nmer S",
+        "et al."
+      ],
+      "title": "Unraveling the diversity of GJB2 mutations in nonsyndromic hearing loss: a comprehensive study in the Moroccan population.",
+      "year": "2024",
+      "volume": "29",
+      "fpage": "216",
+      "lpage": "23",
+      "doi": "10.1159/000535346",
+      "pmid": "38253033"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Alkhidir S",
+        "El-Akouri K",
+        "Al-Dewik N",
+        "et al."
+      ],
+      "title": "The genetic basis and the diagnostic yield of genetic testing related to nonsyndromic hearing loss in Qatar.",
+      "journal": "Sci Rep",
+      "year": "2024",
+      "volume": "14",
+      "fpage": "4202",
+      "pmid": "38378725",
+      "doi": "10.1038/s41598-024-52784-z",
+      "pmc_id": "PMC10879212"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Vu Hoang PT",
+        "Ngo MX",
+        "Le Tran QM,",
+        "et al."
+      ],
+      "title": "Prevalence of GJB2 and TECTA gene mutations in children with non-syndromic hearing loss visiting an Otorhino-laryngology Hospital in Ho Chi Minh City, Viet Nam.",
+      "journal": "Biomed Res Ther",
+      "year": "2023",
+      "volume": "10",
+      "fpage": "5523",
+      "lpage": "9"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Riza AL",
+        "Alkhzouz C",
+        "Farcaș M",
+        "et al."
+      ],
+      "title": "Non-syndromic hearing loss in a Romanian population: carrier status and frequent variants in the GJB2 gene.",
+      "journal": "Genes",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "69",
+      "doi": "10.3390/genes14010069",
+      "pmc_id": "PMC9858611",
+      "pmid": "36672810"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Pshennikova VG",
+        "Teryutin FM",
+        "Cherdonova AM",
+        "et al."
+      ],
+      "title": "The GJB2 (Cx26) gene variants in patients with hearing impairment in the Baikal Lake Region (Russia).",
+      "journal": "Genes",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1001",
+      "pmid": "37239361",
+      "doi": "10.3390/genes14051001",
+      "pmc_id": "PMC10218609"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Gunsel AS",
+        "Ergoren MC",
+        "Kemal H",
+        "et al."
+      ],
+      "title": "Determination of carrier frequency of actionable pathogenic variants in autosomal recessive genetic diseases in the Turkish Cypriot population.",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1967",
+      "doi": "10.3390/genes14101967",
+      "pmc_id": "PMC10606490",
+      "pmid": "37895316"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Peart LS",
+        "Gonzalez J",
+        "Morel Swols D",
+        "et al."
+      ],
+      "title": "Dispersed DNA variants underlie hearing loss in South Florida’s minority population.",
+      "journal": "Hum Genomics",
+      "year": "2023",
+      "volume": "17",
+      "fpage": "103",
+      "pmid": "37996878",
+      "doi": "10.1186/s40246-023-00556-7",
+      "pmc_id": "PMC10668374"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Pál M",
+        "Nagy D",
+        "Neller A",
+        "et al."
+      ],
+      "title": "Genetic etiology of nonsyndromic hearing loss in hungarian patients.",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "7401",
+      "doi": "10.3390/ijms24087401",
+      "pmc_id": "PMC10138659",
+      "pmid": "37108562"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Liang S",
+        "Li W",
+        "Chen Z",
+        "Yuan S",
+        "Wang Z"
+      ],
+      "title": "Analysis of GJB2 gene mutations spectrum and the characteristics of individuals with c.109G>A in Western Guangdong.",
+      "journal": "Mol Genet Genomic Med",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "e2185",
+      "pmid": "37070846",
+      "doi": "10.1002/mgg3.2185",
+      "pmc_id": "PMC10422065"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Lee YH",
+        "Tsai C-Y",
+        "Lu Y-S",
+        "et al."
+      ],
+      "title": "Revisiting genetic epidemiology with a refined targeted gene panel for hereditary hearing impairment in the taiwanese population.",
+      "journal": "Genes (Basel)",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "880",
+      "pmid": "37107638",
+      "doi": "10.3390/genes14040880",
+      "pmc_id": "PMC10137978"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "Hu Y",
+        "Xia Z",
+        "Chen P"
+      ],
+      "title": "Follow-up of infants with mild-to-moderate sensorineural hearing loss over three years.",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2023",
+      "volume": "173",
+      "fpage": "111697",
+      "pmid": "37604100",
+      "doi": "10.1016/j.ijporl.2023.111697"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Fu YF",
+        "Zhao Z",
+        "Zheng J",
+        "Zhu Y",
+        "Sun L"
+      ],
+      "title": "Gene screening for non-syndromic deafness in hainanese patients.",
+      "journal": "J Int Adv Otol",
+      "year": "2023",
+      "volume": "19",
+      "fpage": "283",
+      "lpage": "7",
+      "pmid": "37528592",
+      "doi": "10.5152/iao.2023.21582",
+      "pmc_id": "PMC10544452"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Vallian Broojeni J",
+        "Kazemi A",
+        "Rezaei H",
+        "Vallian S"
+      ],
+      "title": "Exome sequencing identifies novel variants associated with non-syndromic hearing loss in the Iranian population.",
+      "journal": "PLoS One",
+      "year": "2023",
+      "volume": "18",
+      "fpage": "e0289247",
+      "pmid": "37561809",
+      "doi": "10.1371/journal.pone.0289247",
+      "pmc_id": "PMC10414579"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Tropitzsch A",
+        "Schade-Mann T",
+        "Gamerdinger P",
+        "et al."
+      ],
+      "title": "Diagnostic yield of targeted hearing loss gene panel sequencing in a large German cohort with a balanced age distribution from a single diagnostic center: an eight-year study.",
+      "journal": "Ear Hear",
+      "year": "2022",
+      "volume": "43",
+      "fpage": "1049",
+      "lpage": "66",
+      "pmid": "34753855",
+      "doi": "10.1097/AUD.0000000000001159",
+      "pmc_id": "PMC9007094"
+    },
+    {
+      "ref_id": "R33",
+      "label": "[33]",
+      "authors": [
+        "Reis CS",
+        "Quental S",
+        "Fernandes S",
+        "Castedo S",
+        "Moura CP"
+      ],
+      "title": "Whole-exome sequencing targeting a gene panel for sensorineural hearing loss: the first Portuguese cohort study.",
+      "journal": "Cytogenet Genome Res",
+      "year": "2022",
+      "volume": "162",
+      "fpage": "1",
+      "lpage": "9",
+      "pmid": "35580552",
+      "doi": "10.1159/000523840"
+    },
+    {
+      "ref_id": "R34",
+      "label": "[34]",
+      "authors": [
+        "Liu Y",
+        "Tan M",
+        "Cai L",
+        "et al."
+      ],
+      "title": "Genetic profiles of non-syndromic severe-profound hearing loss in Chinese Hans by whole-exome sequencing.",
+      "journal": "Gene",
+      "year": "2022",
+      "volume": "819",
+      "fpage": "146258",
+      "pmid": "35114279",
+      "doi": "10.1016/j.gene.2022.146258"
+    },
+    {
+      "ref_id": "R35",
+      "label": "[35]",
+      "authors": [
+        "Lin YF",
+        "Lin H-C",
+        "Tsai C-L",
+        "Hsu Y-C"
+      ],
+      "title": "GJB2 mutation spectrum in the Taiwanese population and genotype–phenotype comparisons in patients with hearing loss carrying GJB2 c.109G>A and c.235delC mutations.",
+      "journal": "Hear Res",
+      "year": "2022",
+      "volume": "413",
+      "fpage": "108135",
+      "pmid": "33288323",
+      "doi": "10.1016/j.heares.2020.108135"
+    },
+    {
+      "ref_id": "R36",
+      "label": "[36]",
+      "authors": [
+        "Güleç C",
+        "Aslanger AD",
+        "Karaman V,",
+        "et al."
+      ],
+      "title": "GJB2-related non-syndromic hearing loss variants’ spectrum and their frequency in Turkish population.",
+      "journal": "Istanbul Tip Fakultesi Dergisi",
+      "year": "2022",
+      "volume": "85",
+      "fpage": "162",
+      "lpage": "9"
+    },
+    {
+      "ref_id": "R37",
+      "label": "[37]",
+      "authors": [
+        "Bian P",
+        "Xu B",
+        "Zhao X",
+        "et al."
+      ],
+      "title": "Analysis of GJB2 gene mutations in 1330 deafness cases of major ethnic groups in Northwest China.",
+      "journal": "Inquiry",
+      "year": "2022",
+      "volume": "59",
+      "fpage": "469580211055571",
+      "pmid": "35212567",
+      "doi": "10.1177/00469580211055571",
+      "pmc_id": "PMC8891923"
+    },
+    {
+      "ref_id": "R38",
+      "label": "[38]",
+      "authors": [
+        "Adeyemo A",
+        "Faridi R",
+        "Chattaraj P",
+        "et al."
+      ],
+      "title": "Genomic analysis of childhood hearing loss in the Yoruba population of Nigeria.",
+      "journal": "Eur J Hum Genet",
+      "year": "2022",
+      "volume": "30",
+      "fpage": "42",
+      "lpage": "52",
+      "pmid": "34837038",
+      "doi": "10.1038/s41431-021-00984-w",
+      "pmc_id": "PMC8738750"
+    },
+    {
+      "ref_id": "R39",
+      "label": "[39]",
+      "authors": [
+        "Niu W",
+        "Xu H",
+        "Qin L",
+        "et al."
+      ],
+      "title": "Genotype and clinical phenotype analysis of 42 patients with delayed nonsyndromic hearing loss.",
+      "journal": "Lin Chuang Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "year": "2021",
+      "volume": "35",
+      "fpage": "131",
+      "lpage": "6",
+      "pmid": "33540994",
+      "doi": "10.13201/j.issn.2096-7993.2021.02.009",
+      "pmc_id": "PMC10127873"
+    },
+    {
+      "ref_id": "R40",
+      "label": "[40]",
+      "authors": [
+        "Liu Q",
+        "Shen S",
+        "Yu H"
+      ],
+      "title": "Analysis of hearing loss-associated gene mutations using MALDI-TOF mass spectrometry in neonates from Shaoxing, China.",
+      "journal": "Hong Kong J Paediatr",
+      "year": "2021",
+      "volume": "26",
+      "fpage": "88",
+      "lpage": "91"
+    },
+    {
+      "ref_id": "R41",
+      "label": "[41]",
+      "authors": [
+        "Guan J",
+        "Li J",
+        "Chen G",
+        "et al."
+      ],
+      "title": "Family trio-based sequencing in 404 sporadic bilateral hearing loss patients discovers recessive and De novo genetic variants in multiple ways.",
+      "journal": "Eur J Med Genet",
+      "year": "2021",
+      "volume": "64",
+      "fpage": "104311",
+      "pmid": "34416374",
+      "doi": "10.1016/j.ejmg.2021.104311"
+    },
+    {
+      "ref_id": "R42",
+      "label": "[42]",
+      "authors": [
+        "Duan S",
+        "Guo Y",
+        "Chen X",
+        "Li Y"
+      ],
+      "title": "Genetic mutations in patients with nonsyndromic hearing impairment of minority and Han Chinese ethnicities in Qinghai, China.",
+      "journal": "J Int Med Res",
+      "year": "2021",
+      "volume": "49",
+      "fpage": "3000605211000892",
+      "pmid": "33827324",
+      "doi": "10.1177/03000605211000892",
+      "pmc_id": "PMC8040579"
+    },
+    {
+      "ref_id": "R43",
+      "label": "[43]",
+      "authors": [
+        "Dobric B",
+        "Radivojevic D",
+        "Jecmenica J",
+        "et al."
+      ],
+      "title": "Audiological features in Serbian patients with hearing impairment identified with c.35delG in the GJB2 gene.",
+      "journal": "Srp Arh Celok Lek",
+      "year": "2021",
+      "volume": "149",
+      "fpage": "685",
+      "lpage": "90"
+    },
+    {
+      "ref_id": "R44",
+      "label": "[44]",
+      "authors": [
+        "Al-Janabi AM",
+        "Ahmmed HS",
+        "Al-Khafaji SM"
+      ],
+      "title": "Connexin 26 (GJB2) gene mutations linked with autosomal recessive non-syndromic sensor neural hearing loss in the Iraqi population.",
+      "journal": "J Med Life",
+      "year": "2021",
+      "volume": "14",
+      "fpage": "841",
+      "lpage": "6",
+      "pmid": "35126756",
+      "doi": "10.25122/jml-2021-0152",
+      "pmc_id": "PMC8811675"
+    },
+    {
+      "ref_id": "R45",
+      "label": "[45]",
+      "authors": [
+        "Downie L",
+        "Halliday J",
+        "Burt R",
+        "et al."
+      ],
+      "title": "Exome sequencing in infants with congenital hearing impairment: a population-based cohort study.",
+      "journal": "Eur J Hum Genet",
+      "year": "2020",
+      "volume": "28",
+      "fpage": "587",
+      "lpage": "96",
+      "pmid": "31827275",
+      "doi": "10.1038/s41431-019-0553-8",
+      "pmc_id": "PMC7171096"
+    },
+    {
+      "ref_id": "R46",
+      "label": "[46]",
+      "authors": [
+        "Zhang M",
+        "Han Y",
+        "Zhang F",
+        "Bai X",
+        "Wang H"
+      ],
+      "title": "Mutation spectrum and hotspots of the common deafness genes in 314 patients with nonsyndromic hearing loss in Heze area, China.",
+      "journal": "Acta Otolaryngol",
+      "year": "2019",
+      "volume": "139",
+      "fpage": "612",
+      "lpage": "7",
+      "pmid": "31107121",
+      "doi": "10.1080/00016489.2019.1609699"
+    },
+    {
+      "ref_id": "R47",
+      "label": "[47]",
+      "authors": [
+        "Yang YL",
+        "Ma J",
+        "Ruan B",
+        "Zhang TS"
+      ],
+      "title": "Molecular genetics study of the locus of the midrange sensorineural deafness unique to the non-syndromes of ethnic minorities in Yunnan province.",
+      "journal": "Int J Clin Exp Med",
+      "year": "2019",
+      "volume": "12",
+      "fpage": "10696",
+      "lpage": "702"
+    },
+    {
+      "ref_id": "R48",
+      "label": "[48]",
+      "authors": [
+        "Xiang Y-B",
+        "Tang S-H",
+        "Li H-Z",
+        "et al."
+      ],
+      "title": "Mutation analysis of common deafness-causing genes among 506 patients with nonsyndromic hearing loss from Wenzhou city, China.",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2019",
+      "volume": "122",
+      "fpage": "185",
+      "lpage": "90",
+      "pmid": "31035178",
+      "doi": "10.1016/j.ijporl.2019.04.024"
+    },
+    {
+      "ref_id": "R49",
+      "label": "[49]",
+      "authors": [
+        "Sun S",
+        "Niu L",
+        "Tian J",
+        "et al."
+      ],
+      "title": "Analysis of GJB2, SLC26A4, GJB3 and 12S rRNA gene mutations among patients with nonsyndromic hearing loss from eastern Shandong.",
+      "journal": "Zhonghua Yi Xue Yi Chuan Xue Za Zhi",
+      "year": "2019",
+      "volume": "36",
+      "fpage": "433",
+      "lpage": "8",
+      "pmid": "31030427",
+      "doi": "10.3760/cma.j.issn.1003-9406.2019.05.005"
+    },
+    {
+      "ref_id": "R50",
+      "label": "[50]",
+      "authors": [
+        "Raymond M",
+        "Walker E",
+        "Dave I",
+        "Dedhia K"
+      ],
+      "title": "Genetic testing for congenital non-syndromic sensorineural hearing loss.",
+      "journal": "Int J Pediatr Otorhinolaryngol",
+      "year": "2019",
+      "volume": "124",
+      "fpage": "68",
+      "lpage": "75",
+      "pmid": "31163360",
+      "doi": "10.1016/j.ijporl.2019.05.038"
+    },
+    {
+      "ref_id": "R51",
+      "label": "[51]",
+      "authors": [
+        "Li HF",
+        "Qiu J",
+        "Zhu J",
+        "Huang Y"
+      ],
+      "title": "Gene mutation analysis and genetic counseling for patients with non-syndromic hearing loss in Linyi region.",
+      "journal": "Exp Ther Med",
+      "year": "2019",
+      "volume": "17",
+      "fpage": "413",
+      "lpage": "7",
+      "pmid": "30651814",
+      "doi": "10.3892/etm.2018.6927",
+      "pmc_id": "PMC6307381"
+    },
+    {
+      "ref_id": "R52",
+      "label": "[52]",
+      "authors": [
+        "Wang L",
+        "Gu Y",
+        "Yang S",
+        "et al."
+      ],
+      "title": "Mutational analysis of 117 patients with non-syndromic hearing loss.",
+      "journal": "Zhonghua Yi Xue Yi Chuan Xue Za Zhi",
+      "year": "2019",
+      "volume": "36",
+      "fpage": "108",
+      "lpage": "11",
+      "pmid": "30703224",
+      "doi": "10.3760/cma.j.issn.1003-9406.2019.02.003"
+    },
+    {
+      "ref_id": "R53",
+      "label": "[53]",
+      "authors": [
+        "Küçük Kurtulgan H",
+        "Altuntaş EE",
+        "Yildirim ME",
+        "Özdemir O",
+        "Bağci B",
+        "Sezgin I"
+      ],
+      "title": "The analysis of GJB2, GJB3, and GJB6 gene mutations in patients with hereditary non-syndromic hearing loss living in sivas.",
+      "journal": "J Int Adv Otol",
+      "year": "2019",
+      "volume": "15",
+      "fpage": "373",
+      "lpage": "8",
+      "pmid": "31846914",
+      "doi": "10.5152/iao.2019.5401",
+      "pmc_id": "PMC6937194"
+    },
+    {
+      "ref_id": "R54",
+      "label": "[54]",
+      "authors": [
+        "Khan A",
+        "Han S",
+        "Wang R",
+        "Ansar M",
+        "Ahmad W",
+        "Zhang X"
+      ],
+      "title": "Sequence variants in genes causing nonsyndromic hearing loss in a Pakistani cohort.",
+      "journal": "Mol Genet Genomic Med",
+      "year": "2019",
+      "volume": "7",
+      "fpage": "e917",
+      "pmid": "31389194",
+      "doi": "10.1002/mgg3.917",
+      "pmc_id": "PMC6732339"
+    },
+    {
+      "ref_id": "R55",
+      "label": "[55]",
+      "authors": [
+        "Gal A",
+        "Kecskemeti N",
+        "Szonyi M,",
+        "et al."
+      ],
+      "title": "Analysis of GJB2 mutations and the clinical manifestation in a large Hungarian cohort.",
+      "journal": "Eur J Hum Genet",
+      "year": "2019",
+      "volume": "27",
+      "fpage": "894",
+      "lpage": "894",
+      "doi": "10.1007/s00405-018-5083-4",
+      "pmid": "30094485"
+    },
+    {
+      "ref_id": "R56",
+      "label": "[56]",
+      "authors": [
+        "Adadey SM",
+        "Manyisa N",
+        "Mnika K",
+        "et al."
+      ],
+      "title": "GJB2 and GJB6 mutations in non-syndromic childhood hearing impairment in Ghana.",
+      "journal": "Front Genet",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "841",
+      "pmid": "31620164",
+      "doi": "10.3389/fgene.2019.00841",
+      "pmc_id": "PMC6759689"
+    },
+    {
+      "ref_id": "R57",
+      "label": "[57]",
+      "authors": [
+        "Figueroa-Ildefonso E",
+        "Bademci G",
+        "Rajabli F",
+        "et al."
+      ],
+      "title": "Identification of main genetic causes responsible for non-syndromic hearing loss in a Peruvian population.",
+      "journal": "Genes (Basel)",
+      "year": "2019",
+      "volume": "10",
+      "fpage": "581",
+      "pmid": "31370293",
+      "doi": "10.3390/genes10080581",
+      "pmc_id": "PMC6723399"
+    },
+    {
+      "ref_id": "R58",
+      "label": "[58]",
+      "authors": [
+        "Felix F",
+        "Ribeiro MG",
+        "Tomita S",
+        "Zalis MG"
+      ],
+      "title": "Frequency of GJB2 mutations in patients with nonsyndromic hearing loss from an ethnically characterized Brazilian population.",
+      "journal": "Braz J Otorhinolaryngol",
+      "year": "2019",
+      "volume": "85",
+      "fpage": "92",
+      "lpage": "8",
+      "pmid": "29773520",
+      "doi": "10.1016/j.bjorl.2017.10.013",
+      "pmc_id": "PMC9442831"
+    },
+    {
+      "ref_id": "R59",
+      "label": "[59]",
+      "authors": [
+        "Van Laer L",
+        "Coucke P",
+        "Mueller RF",
+        "et al."
+      ],
+      "title": "A common founder for the 35delG GJB2 gene mutation in connexin 26 hearing impairment.",
+      "journal": "J Med Genet",
+      "year": "2001",
+      "volume": "38",
+      "fpage": "515",
+      "lpage": "8",
+      "pmid": "11483639",
+      "doi": "10.1136/jmg.38.8.515",
+      "pmc_id": "PMC1734914"
+    },
+    {
+      "ref_id": "R60",
+      "label": "[60]",
+      "authors": [
+        "Dzhemileva LU",
+        "Barashkov NA",
+        "Posukh OL",
+        "et al."
+      ],
+      "title": "Carrier frequency of GJB2 gene mutations c.35delG, c.235delC and c.167delT among the populations of Eurasia.",
+      "journal": "J Hum Genet",
+      "year": "2010",
+      "volume": "55",
+      "fpage": "749",
+      "lpage": "54",
+      "pmid": "20739944",
+      "doi": "10.1038/jhg.2010.101"
+    },
+    {
+      "ref_id": "R61",
+      "label": "[61]",
+      "authors": [
+        "Yuan L",
+        "Wang X",
+        "Liu X",
+        "et al."
+      ],
+      "title": "Genotypic and allelic frequencies of GJB2 variants and features of hearing phenotypes in the Chinese population of the Dongfeng-Tongji cohort.",
+      "journal": "Genes (Basel)",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "2007",
+      "pmid": "38002950",
+      "doi": "10.3390/genes14112007",
+      "pmc_id": "PMC10670965"
+    },
+    {
+      "ref_id": "R62",
+      "label": "[62]",
+      "authors": [
+        "Chen Y",
+        "Tudi M",
+        "Sun J",
+        "et al."
+      ],
+      "title": "Genetic mutations in non-syndromic deafness patients of Uyghur and Han Chinese ethnicities in Xinjiang, China: a comparative study.",
+      "journal": "J Transl Med",
+      "year": "2011",
+      "volume": "9",
+      "fpage": "154",
+      "pmid": "21917135",
+      "doi": "10.1186/1479-5876-9-154",
+      "pmc_id": "PMC3189127"
+    },
+    {
+      "ref_id": "R63",
+      "label": "[63]",
+      "authors": [
+        "Dai P",
+        "Yu F",
+        "Han B",
+        "et al."
+      ],
+      "title": "GJB2 mutation spectrum in 2,063 Chinese patients with nonsyndromic hearing impairment.",
+      "journal": "J Transl Med",
+      "year": "2009",
+      "volume": "7",
+      "fpage": "26",
+      "pmid": "19366456",
+      "doi": "10.1186/1479-5876-7-26",
+      "pmc_id": "PMC2679712"
+    },
+    {
+      "ref_id": "R64",
+      "label": "[64]",
+      "authors": [
+        "Colbert BM",
+        "Gosstola NC",
+        "Dykxhoorn DM",
+        "Zhong Liu X"
+      ],
+      "title": "Generation of hiPSC line UMi030-A from an individual with the hearing loss-related GJB2 mutation c.109G > A.",
+      "journal": "Stem Cell Res",
+      "year": "2022",
+      "volume": "58",
+      "fpage": "102599",
+      "pmid": "34883447",
+      "doi": "10.1016/j.scr.2021.102599"
+    },
+    {
+      "ref_id": "R65",
+      "label": "[65]",
+      "authors": [
+        "Shen J",
+        "Oza AM",
+        "Del Castillo I",
+        "et al."
+      ],
+      "title": "Consensus interpretation of the p.Met34Thr and p.Val37Ile variants in GJB2 by the ClinGen Hearing Loss Expert Panel.",
+      "journal": "Genet Med",
+      "year": "2019",
+      "volume": "21",
+      "fpage": "2442",
+      "lpage": "52",
+      "pmid": "31160754",
+      "doi": "10.1038/s41436-019-0535-9",
+      "pmc_id": "PMC7235630"
+    },
+    {
+      "ref_id": "R66",
+      "label": "[66]",
+      "authors": [
+        "Chen K",
+        "Sun L",
+        "Zong L",
+        "et al."
+      ],
+      "title": "GJB2 and mitochondrial 12S rRNA susceptibility mutations in sudden deafness.",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2016",
+      "volume": "273",
+      "fpage": "1393",
+      "lpage": "8",
+      "pmid": "26119842",
+      "doi": "10.1007/s00405-015-3693-7"
+    },
+    {
+      "ref_id": "R67",
+      "label": "[67]",
+      "authors": [
+        "Shearer AE",
+        "Smith RJH"
+      ],
+      "title": "Genetics: advances in genetic testing for deafness.",
+      "journal": "Curr Opin Pediatr",
+      "year": "2012",
+      "volume": "24",
+      "fpage": "679",
+      "lpage": "86",
+      "pmid": "23042251",
+      "doi": "10.1097/MOP.0b013e3283588f5e",
+      "pmc_id": "PMC3694178"
+    },
+    {
+      "ref_id": "R68",
+      "label": "[68]",
+      "authors": [
+        "Sidenna M",
+        "Fadl T",
+        "Zayed H"
+      ],
+      "title": "Genetic epidemiology of hearing loss in the 22 Arab countries: a systematic review.",
+      "journal": "Otol Neurotol",
+      "year": "2020",
+      "volume": "41",
+      "fpage": "e152",
+      "lpage": "62",
+      "pmid": "31860473",
+      "doi": "10.1097/MAO.0000000000002489"
+    },
+    {
+      "ref_id": "R69",
+      "label": "[69]",
+      "authors": [
+        "Jiang Y",
+        "Huang S",
+        "Deng T",
+        "et al."
+      ],
+      "title": "Mutation spectrum of common deafness-causing genes in patients with non-syndromic deafness in the Xiamen Area, China.",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "fpage": "e0135088",
+      "pmid": "26252218",
+      "doi": "10.1371/journal.pone.0135088",
+      "pmc_id": "PMC4529078"
+    },
+    {
+      "ref_id": "R70",
+      "label": "[70]",
+      "authors": [
+        "Snoeckx RL",
+        "Huygen PLM",
+        "Feldmann D",
+        "et al."
+      ],
+      "title": "GJB2 mutations and degree of hearing loss: a multicenter study.",
+      "journal": "Am J Hum Genet",
+      "year": "2005",
+      "volume": "77",
+      "fpage": "945",
+      "lpage": "57",
+      "pmid": "16380907",
+      "doi": "10.1086/497996",
+      "pmc_id": "PMC1285178"
+    },
+    {
+      "ref_id": "R71",
+      "label": "[71]",
+      "authors": [
+        "Fu Y",
+        "Zha S",
+        "Lü N",
+        "et al."
+      ],
+      "title": "Carrier frequencies of hearing loss variants in newborns of China: a meta-analysis.",
+      "journal": "J Evid Based Med",
+      "year": "2019",
+      "volume": "12",
+      "fpage": "40",
+      "lpage": "50",
+      "pmid": "29968368",
+      "doi": "10.1111/jebm.12305"
+    },
+    {
+      "ref_id": "R72",
+      "label": "[72]",
+      "authors": [
+        "Koohiyan M",
+        "Azadegan-Dehkordi F",
+        "Koohian F",
+        "Hashemzadeh-Chaleshtori M"
+      ],
+      "title": "Genetics of hearing loss in north Iran population: an update of spectrum and frequency of GJB2 mutations.",
+      "journal": "J Audiol Otol",
+      "year": "2019",
+      "volume": "23",
+      "fpage": "175",
+      "lpage": "80",
+      "pmid": "31569309",
+      "doi": "10.7874/jao.2019.00059",
+      "pmc_id": "PMC6773957"
+    },
+    {
+      "ref_id": "R73",
+      "label": "[73]",
+      "authors": [
+        "Yao J",
+        "Lu Y",
+        "Wei Q",
+        "Cao X",
+        "Xing G"
+      ],
+      "title": "A systematic review and meta-analysis of 235delC mutation of GJB2 gene.",
+      "journal": "J Transl Med",
+      "year": "2012",
+      "volume": "10",
+      "fpage": "136",
+      "pmid": "22747691",
+      "doi": "10.1186/1479-5876-10-136",
+      "pmc_id": "PMC3443034"
+    }
+  ]
+}

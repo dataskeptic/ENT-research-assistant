@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "title": "Pre-existing TCR clones drive major pathological responses in HNSCC patients treated with dual immune checkpoint inhibitors",
+    "authors": [
+      "Huaibin Ge",
+      "Housaiyin Li",
+      "Aditi Kulkarni",
+      "Zhangguo Chen",
+      "Pragati Upadhyay",
+      "Robert L. Ferris",
+      "Jing H Wang"
+    ],
+    "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+    "year": "2026",
+    "doi": "10.1158/1078-0432.CCR-25-3749",
+    "pmc_id": "PMC13094506",
+    "pmid": "41785014",
+    "full_text_available": true,
+    "section_count": 19,
+    "reference_count": 40
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose: Immune checkpoint inhibitors (ICI) elicit variable responses in head and neck squamous cell carcinoma (HNSCC), yet mechanisms driving major pathological responses (MPR) remain poorly defined. We sought to evaluate longitudinal CD8 T-cell repertoire evolution to identify determinants of MPR. Experimental Design: We analyzed high-resolution single-cell TCR sequencing data from paired pre- and post-treatment CD8 tumor-infiltrating lymphocytes (TILs) obtained from HNSCC patients treated with neoadjuvant anti-PD-1 combined with either anti-CTLA-4 or anti-LAG-3. Results: Contrary to \"clonal replacement\" hypothesis, post-treatment CD8 T-cell pools were dominated by pre-existing TCR clones regardless of clinical outcome. MPR was uniquely characterized by higher abundance and greater expansion magnitude of \"super-expanded\" clones. We developed the TCR Adaptivity Index (TAI) to quantify coordinate flux (expansion and contraction) of all TCR clones detected across pre- and post-treatment timepoints; this index emerged as the most significant parameter associated with MPR. Importantly, clonal expansion in non-MPR was \"uncoupled\" from the productive, therapy-induced transcriptional reprogramming—characterized by markers of effector vigor and cellular fitness—that was observed in MPR. Furthermore, expansion dynamics positively correlated with predicted tumor reactivity as calculated by the Tumor Reactive Signature (TRS) score. Finally, a TRS-integrated TAI remained significantly correlated with MPR. Conclusions: Dual ICI drives MPR predominantly through the adaptivity and functional reprogramming of pre-existing immunity. Successful therapy relies on a coordinate repertoire response that promotes transition of putative tumor-reactive super-expanders into productive functional states. TRS-integrated TAI provides a high-throughput framework incorporating clonal dynamics and functional reprogramming to predict therapeutic efficacy.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Head and neck squamous cell carcinoma (HNSCC) accounts for 90% of cases of head and neck cancers. The etiological factors of HNSCC include human papilloma virus (HPV + ) or carcinogens (e.g., tobacco or alcohol) (HPV − ). While immune checkpoint inhibitors (ICI) have significantly improved cancer treatment, the response rate to ICI monotherapy remains relatively low (10-20%) for many solid tumors including HNSCC ( 1 - 3 ). Anti-PD-1 monoclonal antibodies (mAb) therapy is now standard-of-care in recurrent/metastatic (R/M) HNSCC, with the first approval of nivolumab and pembrolizumab monotherapy in the platinum failure setting, and more recently with pembrolizumab monotherapy for PD-L1 expressing patients or pembrolizumab plus chemotherapy for all patients in the frontline setting ( 4 - 7 ). Despite substantial efforts, the response rate with anti-PD-1 monotherapy remains 16-20% ( 4 - 8 ), and multiple subsequent phase II/III trials of combination therapy with anti-PD-1/anti-PD-L1 have not produced positive outcomes in the R/M frontline setting ( 9 - 11 ). Thus, there is a significant unmet need to develop new combination therapies ( 6 ). Promising results were shown with neoadjuvant ICI therapies for resectable tumors, including HNSCC ( 12 - 15 ). To this end, we have conducted a clinical trial comparing the dual ICI treatment, namely, anti-PD-1/anti-CTLA-4 versus (vs.) anti-PD-1/anti-LAG-3 in resectable locally advanced HNSCC ( 16 ). Besides the potential clinical benefits, the window of opportunity pre- and post-surgery provides a unique setting for investigating ICI-induced immune responses and identifying correlative markers in CD8 tumor-infiltrating lymphocytes (TILs) for treatment outcome ( 16 ). ICI treatment elicits highly variable responses in solid tumors including HNSCC with some patients achieving major pathological responses (MPR) while others are completely unresponsive. However, the underlying mechanisms to drive MPR remain poorly defined and correlative markers are still lacking to distinguish MPR from non-MPR. Based on T cell receptor (TCR) sequencing data, clonal replacement hypothesis was proposed to attribute ICI response to newly recruited T cell clones into tumor ( 17 ). Most conventional T cells express αβ TCR consisting of a TCRα and TCRβ chain encoded by the TRA and TRB gene, respectively. The variable regions of TCRα and TCRβ chains are generated by a somatic DNA recombination process, termed V(D)J recombination, which occurs in a stochastic and random fashion ( 18 , 19 ). V(D)J recombination generates a highly diverse TCR repertoire recognizing various pathogens or self-antigens ( 18 , 19 ). Extensive prior studies have investigated the role of TCR repertoire in anti-tumor immunity and ICI responses ( 20 - 25 ). While the diversity and clonality of TCR repertoire are considered as key factors potentially associated with prognosis or therapeutic responses, the significance of various indices of TCR repertoire remains unclear due to the unavailability of single-cell TCR-sequencing data from pre-TIL vs. post-TIL samples, variability in sampling conditions, data analysis and data interpretation. Despite recent advances, several fundamental questions remain: what is the specific clonal composition of the post-treatment TCR repertoire, and do pre-existing or newly emerging TCR clones dominate the post-treatment CD8 T-cell pool? Furthermore, which repertoire parameters most significantly associate with MPR? In the current study, we analyzed paired pre- and post-treatment single-cell TCR sequencing data from CD8 TILs in HNSCC patients treated with neoadjuvant anti-PD-1/anti-CTLA-4 or anti-PD-1/anti-LAG-3. We aimed to delineate the longitudinal dynamics of TCR clones—with a specific focus on \"super-expanders\"—and identify clonotypic features linked to therapeutic efficacy. We developed the TCR Adaptivity Index (TAI) to quantify coordinate repertoire flux, which we then integrated with predicted tumor reactivity to derive the TRS-integrated TAI. Our findings provide new insights into the mechanisms driving MPR, highlighting the adaptability of CD8 T-cell clones in response to dual-ICI therapy. Notably, while our recent work utilizing this patient cohort focused on transcriptomic shifts within CD8 T-cell subsets ( 16 ), the current study provides an independent, in-depth analysis of TCR clonal dynamics. These two studies address distinct biological questions with no significant overlap in the data presented.",
+      "order": 1
+    },
+    {
+      "section": "Patient Information And Sample Collection",
+      "text": "Patient recruitment and trial design were described previously ( 16 ). Briefly, treatment-naïve stage III/IV HNSCC patients eligible for surgical resection were enrolled in a phase II neoadjuvant trial ( NCT04080804 ), at the University of Pittsburgh Hillman Cancer Center (HCC), which evaluated neoadjuvant immunotherapy before curative intent surgical resection. The prior clinical study was approved by the Institutional Review Board (IRB) (HCC 18-139) at the University of Pittsburgh and conducted in accordance with Good Clinical Practice guidelines and the Declaration of Helsinki, and all subjects provided written informed consent. Patients were randomized to two arms: Nivo(480mg IV)+Rela(160mg IV) together on day 1, every 28 days, or Nivo+Ipi with Ipi at 1mg/m 2 IV on day 1, and Nivo at 240mg IV day 1 and 14, every 28 days. The option to administer a second cycle prior to surgery was available according to provider preference and surgical timing. Surgical resection was performed 21-35 days after the start of immunotherapy. The basic clinical characteristics of patients were described previously, and fresh baseline and post-surgical resected tumor tissues were collected as previously described ( 16 ). Samples were partitioned for immediate formalin fixation or single-cell analysis. Formalin-fixed paraffin-embedded (FFPE) tissue sections were employed for diagnostic and pathological response evaluation by a pathologist and categorized as MPR=pTR-2; mR=pTR-1; NR=pTR-0 defined in the prior study based on the percentage of viable tumor cells ( 16 ). Radiological response was assessed via RECIST criteria. For sequencing, CD45 + CD3 + TILs were isolated and processed for single-cell TCRαβ sequencing and single-cell RNA sequencing using the 10×Genomics platform ( 16 ). Clinical samples were collected upon approval of IRB at the University of Pittsburgh (HCC 18-139) in a prior study. The current study only involves the analysis of existing datasets.",
+      "order": 2
+    },
+    {
+      "section": "Analysis Of Tcr Sequencing Data And Statistical Analysis",
+      "text": "A total of 30 samples from 15 HNSCC patients were analyzed, consisting of paired pre- and post-treatment TILs. Single-cell V(D)J sequencing data were processed using CellRanger for alignment to the GRCh38.p14 reference genome and assembly of TCRαβ sequences. Subsequent quality control and TCR filtering were performed in R (v4.4.0). To identify functional and productive TCRs, multiple filtering criteria were applied, TCRs were retained in the subsequent analysis only if they had: (1) cell-associated barcodes (is_cell = TRUE); (2) complete V(D)J annotation; (3) full-length receptor sequences containing complete CDR3 regions (full_length = TRUE); and (4) classified as productive and high-confidence (productive = TRUE & high_confidence = TRUE). Qualified cells were then further filtered to allow each cell at most to have 2 TCRα chains and 1 TCRβ chain and cells with >1 TCRβ or >2 TCRα were removed. Based on the corresponding single-cell transcriptome sequencing annotation in our previous study ( 16 ), only CD8 + cells were extracted out and used for subsequent analysis. We combined the productive rearrangements that encode the same CDR3 amino acid (a.a.) into the same TCR clonotypes. TCR richness was defined as the number of unique productive TCR a.a. sequences in each sample. Normalized TCR richness was calculated by dividing the number of unique productive TCR a.a. sequences by the number of total CD8 T cells in each sample. Our normalization strategy was similarly employed by an independent pipeline of the R package scRepertoire. Statistical comparisons were performed using the two-sided Wilcoxon rank sum test. P-values were reported for each comparison, and statistical significance was defined as p <0.05. To determine the expansion rate of each TCR clonotype, we first calculated its clonal frequency as the percentage of CD8 T cells carrying that TCR relative to all CD8 T cells in the sample. The expansion rate was then defined as the frequency in the post-TIL sample divided by the corresponding frequency in the pre-TIL sample, calculated as: . If the expansion rate is >1 for a given TCR clonotype, it will be counted as an expanded clonotype. Singleton clonotype was defined as the TCR sequences that only occurred once in a given TIL sample. The sum of singleton clonotype frequency was calculated by adding up the clonal frequency of all singleton clonotypes in each sample. To account for differences in the overall expansion capacity across samples, we calculated a normalized expansion rate (NER) that contextualizes each clone's expansion within the sample's global clonal dynamics. The underlying assumption is that samples with a lower singleton burden (lower cumulative frequency of TCRs appearing only once) reflect repertoires that have undergone substantial clonal expansion, thereby possessing higher expansion capacity. Conversely, samples with a higher singleton burden indicate less consolidated repertoires with lower expansion capacity. Therefore, clonal expansion occurring in a low-singleton environment should be weighted more heavily than the same degree of expansion in a high-singleton environment. NER was calculated as follows: , where and represent the clonal frequency (percentage) of TCR clone in post-TIL and pre-TIL samples, respectively; and are the total numbers of singleton clonotypes in post-TIL and pre-TIL samples, respectively. The sum of singleton frequencies represents the total proportion of the repertoire occupied by rare, unexpanded clones. By dividing each clone's frequency by the singleton burden in its respective sample, we normalize the expansion rate to the baseline clonal diversity state of each repertoire. For clones with newly emerging TCRs (not detected in pre-TIL), the % in pre-TIL was substituted with the % of singleton in the corresponding pre-TIL sample. Differences between two independent groups were compared by the Wilcoxon rank sum test for NER. Data analyses were carried out using R (version 4.4.0). All tests are two-sided and a p-value<0.05 is considered statistically significant.",
+      "order": 3
+    },
+    {
+      "section": "Calculation Of Tcr Adaptivity Index (Tai)",
+      "text": "To quantify the global flux of both expanded and contracted clonotypes, the TAI was calculated as: , where is the number of overlapping TCR clonotypes between pre- and post-TIL (pre-existing), is the expansion rate (ER) of the -th clone, and and represent the number of CD8 T cells sequenced in pre-TIL vs. post-TIL samples, respectively. Mathematical rationale: Log-transformation and absolute values were applied to ensure that expansions and contractions contribute symmetrically to the index. For example, a two-fold expansion (ER=2) and a two-fold contraction (ER=0.5) result in identical absolute log-values (∣ln(2)∣ ≈ ∣ln(0.5)∣ ≈ 0.69), preventing expanded clones from disproportionately dominating the score. The normalization strategy in the denominator accounts for two sources of technical variation: (1) the number of overlapped pre-existing TCR clonotypes ( n ) between pre- and post-TIL samples varies between patients. This normalization prevents inflated TAI values in patients with a higher number of overlapping clones; (2) the number of CD8 T cells sequenced varies across samples ( Figure 1A ). Deeper sequencing increases the detection of rare clones, which often display extreme expansion or contraction rates and thus contribute disproportionately high values to the TAI numerator. We use to appropriately scale the normalization based on detection capability. Patients with larger minimum sequencing depths will detect more rare clones, resulting in more super-expanders or super-contractors contributing to the TAI numerator, these samples therefore require stronger normalization (higher penalty in the denominator) to prevent inflated TAI values. Conversely, patients with smaller minimum sequencing depths detect fewer rare clones and super-expanders/contractors, yielding a lower TAI numerator that should receive proportionally less normalization (lower penalty). Using ensures that normalization scales with the limiting sequencing depth between paired samples—the sample with fewer cells sequenced determines the baseline detection sensitivity for tracking clonal dynamics between pre- and post-treatment timepoints. Therefore, the denominator normalizes for both repertoire complexity and sequencing depth, enabling fair comparison of TCR adaptivity across samples with different repertoire sizes and sequencing coverage.",
+      "order": 4
+    },
+    {
+      "section": "Identifying Super-Expanders",
+      "text": "Since a consensus definition for 'super-expanders' is not yet established in the literature, we utilized a selection strategy consistent with our previously described methodology ( 26 ). To identify the most robustly expanded clonotypes across the study population (n=15 patients), we aggregated and ranked all identified TCR clones by their NER across the entire dataset. A cumulative threshold of the top 300 clones was selected, derived from a benchmark of 20 clones per patient (20 × 15 = 300). This cross-patient ranking approach ensured the inclusion of clonotypes with the highest expansion potential across the cohort—regardless of their patient of origin—while providing a standardized sample size for downstream comparative analyses.",
+      "order": 5
+    },
+    {
+      "section": "Transcriptomic Analysis Of Super-Expanders",
+      "text": "CD8 TILs were pre-processed, and clusters were defined as previously described ( 16 ). For downstream analyses, we specifically extracted CD8 T cells harboring the super-expanded TCRs (both newly emerging and pre-existing or pre-existing only) or non-super-expanded TCRs. The distribution of these cells across clusters was visualized using UMAP plots and quantified via bar plots, stratified by response group (MPR, mR, and NR) and timepoint (pre- vs. post-treatment). The “FindMarkers” function and the limma implementation of the Wilcoxon Rank Sum test in Seurat were utilized to identify differentially expressed genes (DEG) between groups. DEG analysis included comparing post-TIL samples across NR, MPR, and mR, and longitudinal comparison between pre- vs. post-TIL within each response group. All DEG comparisons were restricted to super-expanding CD8 T cells and visualized using volcano plots.",
+      "order": 6
+    },
+    {
+      "section": "Calculation Of The Trs-Integrated Tai",
+      "text": "To refine TAI by incorporating the potential tumor reactivity of each TCR clone, we first quantified the tumor reactivity score (TRS) for individual T cells, then averaged the score for each TCR clonotype, and finally integrated these values into a TRS-integrated TAI metric. TRS score assignment: The TRS score was assigned to each T cell based on the expression of a curated module of tumor reactivity-related genes ( 27 ) using the AddModuleScore function in Seurat. TRS scores with higher values indicating greater likelihood of tumor reactivity based on transcriptomic signatures. Tumor Reactivity Ratio . For each TCR clonotype identified in both pre- and post-treatment samples, we calculated the mean TRS score of T cells carrying the same at each timepoint ( and ). To enable ratio calculation and avoid division by zero or negative values, we applied offset to shift all TRS values above 0. The Reactivity Transition Ratio for each clone was then calculated as: . quantifies the functional shift in tumor reactivity for clone upon ICI treatment, where values >1 indicate increased reactivity, values <1 indicate decreased reactivity, and values ≈1 indicate maintained reactivity levels. TRS-integrated TAI calculation: We incorporated into TAI to weight each clone's contribution by its functional transition: . By weighting each TCR's dynamic change by its , prioritizes clones that undergo both substantial numerical expansion/contraction and functional reactivity transitions, thereby capturing the coordinated numerical and functional adaptations of the TCR repertoire in response to dual ICI treatment.",
+      "order": 7
+    },
+    {
+      "section": "Normalized Tcr Richness Decreased Significantly In Post-Treatment Tils Of Mpr Patients.",
+      "text": "We analyzed longitudinal single-cell TCR sequencing data of CD8 TILs from paired pre- and post-treatment samples (pre-TIL and post-TIL) of HNSCC patients treated with anti-PD-1/anti-CTLA-4 or anti-PD-1/anti-LAG-3 ( Supplemental Figure 1A ). All patients included in this study were HPV − ( Supplemental Figure 1A ). We found that the number of CD8 T cells sequenced varied significantly in different samples; in particular, it appeared to be higher in post-TIL samples ( Figure 1A ), likely due to the abundance of TILs in surgically resected tumor tissues compared to pre-treatment biopsies. As shown by our prior findings ( 26 ), TCR richness analysis is influenced by sampling variation; therefore, we applied a similar normalization step to calculate the normalized TCR richness for all comparisons. The normalized TCR richness was significantly lower in CD8 T cells of post-TIL than pre-TIL in MPR ( Figure 1B , top) but not in minor responders (mR) or non-responders (NR) ( Figure 1B , middle and bottom). Consistent results were obtained using scRepertoire to calculate normalized TCR richness ( Supplemental Figure 1B ). Normalized TCR richness did not differ significantly between all pre- and post-treatment samples ( Supplemental Figure 2A ), nor among MPR, mR, and NR groups at either timepoint ( Supplemental Figure 2B , C ). We also evaluated the clonality of TCR repertoire by calculating Simpson Clonality and Inverse Simpson Clonality but did not detect any significance in any of the comparisons ( Figure 1C , Supplemental Figures 2A , D , E , and 3 ). These data suggest only MPR patients exhibited fewer unique TCR sequences post-treatment—reflecting reduced diversity—unlike mR and NR patients with limited clinical benefit.",
+      "order": 8
+    },
+    {
+      "section": "Pre-Existing Tcrs Predominate In Post-Treatment Cd8 Tils Regardless Of Clinical Response.",
+      "text": "Given that MPR was observed in the resected tumor tissues after dual ICI treatment in approximately 40% of patients (6/15) and was associated with better survival ( 16 ), we hypothesized that the remodeling of the CD8 T-cell repertoire post-treatment may be a key driver of clinical outcome. To test this, we performed longitudinal single-cell TCR tracking to determine the clonal origin of post-treatment TILs. Notably, our approach shifts focus from total TIL density or baseline phenotypes—previously used to predict efficacy (e.g., ( 24 ))—to the dynamic origin of the post-treatment repertoire. Specifically, we classified post-treatment T cells by whether their TCR sequences were detectable at baseline (pre-existing) or absent (newly emerging) ( Figure 1D ). We found a majority of post-treatment CD8 TILs (~70%) harbored pre-existing TCRs across all outcome groups ( Figure 1E ), while a minority (~30%) had newly emerging TCRs ( Figure 1F ). The absence of 'newly emerging' clones at baseline could stem from sequencing detection limits, their presence in the periphery, or de novo priming post-ICI. Our data suggest that the post-treatment repertoire is primarily comprised of clones already present within the tumor microenvironment prior to therapy.",
+      "order": 9
+    },
+    {
+      "section": "Clonal Origin And Stability Of Top-Ranking Tcrs",
+      "text": "We focused our analysis on the top 20 TCR clones (ranked by their clonal frequency) per sample, as these dominant clonotypes can constitute up to 70% of the CD8 TIL repertoire ( Supplemental Figure 4 ) and likely exert a greater influence on ICI efficacy than rare clones. Longitudinal tracking revealed high stability in the top-tier repertoire: approximately 90% of the TCR sequences belonging to the baseline top 20 clones (pre-top20) persisted in post-treatment samples ( Figure 2A , Supplemental Figure 5A ). To determine the origin of the dominant post-treatment clones (post-top20) ( Figure 2A ), we analyzed the data at two levels: unique TCR sequences (TCR-based) and the percentage of cells harboring those sequences (cell-based). For the TCR-based analysis of the 300 total post-top20 sequences across all 15 samples, we found that the majority originated from the pre-top20 or other pre-existing pools ( Figure 2B ). In contrast, newly emerging TCR sequences accounted for only a small fraction of the top-ranking repertoire ( Figure 2B ). This compositional origin of post-top20 TCRs was not associated with clinical outcome ( Supplemental Figure 5B ). For the cell-based analysis, we examined the post-top20 CD8 T cells, defined as CD8 T cells within post-TIL samples harboring post-top20 TCR sequences. Within this T-cell pool, the vast majority (~70%) carried TCRs already identified as 'top-performers' at baseline ( Figure 2C ). Conversely, only a minimal fraction (~5%) of post-top20 CD8 T cells harbored newly emerging TCRs—a finding consistent whether evaluating the entire post-TIL sample ( Supplemental Figure 5C ) or only the post-top20 subset ( Figure 2D , E ). As with the TCR-based results, the origin of post-top20 CD8 T cells did not correlate with clinical outcome ( Figure 2C , D ; Supplemental Figure 5D ). When we analyzed all CD8 post-TILs by TCR origin, we detected no significant differences among pre-top20, pre-existing, and newly emerging groups, regardless of outcome ( Supplemental Figure 5E ), meaning that a similar percentage of CD8 post-TILs harbor pre-top20, pre-existing except top20 and newly emerging TCRs. Clone tracking of pre-top20 and post-top20 TCRs confirmed that baseline top-performing clones largely maintained their presence following therapy, with rare exceptions (e.g., patient 113) ( Figure 2F , G ; Supplemental Figure 6 ). Between pre- and post-TIL samples, certain clonal proportions shifted significantly while others remained stable ( Figure 2F , G ; Supplemental Figure 6 ). We conclude that most post-top20 clones originate from pre-top20 clones with newly emerging clones contributing little to the top-performers identified in resected tissues at the time of MPR, indicating a dominance of pre-existing immunity upon ICI treatment, regardless of clinical response.",
+      "order": 10
+    },
+    {
+      "section": "The Detection Of Super-Expanders In Cd8 Post-Til Samples",
+      "text": "We observed that normalized TCR richness was significantly lower in CD8 post-TIL than pre-TIL in MPR patients ( Figure 1B ), suggesting a focused clonal expansion following successful dual ICI treatment. Hence, we characterized TCR clonal expansion by comparing frequencies before and after treatment, inferring that such expansion is induced by ICI therapy. The expansion rate was calculated to reflect this magnitude of change for a given TCR clonotype between pre- and post-TIL samples. As established in our prior study ( 26 ), we normalized the clonal expansion rate to account for variations in the number of CD8 T cells sequenced per sample ( Figure 1A ). To accurately quantify the expansion potential of both pre-existing and newly emerging top-ranking clones, we applied our previously developed calibration method ( 26 )—using the sum of total singleton frequencies—to calculate a normalized clonal expansion rate (NER) (see Methods ). Based on the highest NER values across the entire cohort, we identified the top 300 expanded clones, termed “super-expanders” (see Method for details). The number of super-expanders was significantly higher in MPR compared to those with mR or NR ( Figure 3A , left). When stratified by TCR origin, we found that the number of super-expanders harboring pre-existing TCRs was still significantly higher in MPR than mR or NR ( Figure 3A , right). While subgroup analysis of Nivo/Ipi and Nivo/Rela showed similar trends, the individual subgroups reached lower levels of significance, likely due to limited sample sizes; therefore, we aggregated the dual ICI cohorts for subsequent analyses ( Supplemental Figure 7A ). In addition to the number of super-expanders, we assessed the magnitude of their expansion by calculating the sum of their NER values. The total expansion magnitude was significantly greater in MPR ( Figure 3B , left). When stratified by TCR origin, the sum of NER of super-expanders was still significantly higher in MPR than mR or NR for pre-existing but not newly emerging clones ( Figure 3B , right). However, we did not detect significance if we separated MPR into Nivo/Ipi or Nivo/Rela subgroups for the sum of NER ( Supplemental Figure 7B ). The sum of NER of the super-expanders in each of 15 samples from HNSCC patients was summarized ( Supplemental Figure 8 ). To confirm these findings, we performed a secondary analysis identifying the top 300 super-expanders specifically from the T cell pool carrying pre-existing TCRs. This confirmed that both the number ( Figure 3C , D ) and the cumulative expansion magnitude ( Figure 3E , F ) of super-expanders harboring pre-existing TCRs were robust predictors of MPR. We conclude that MPR is positively associated with not only the number of super-expanders but also the magnitude of their clonal expansion (the sum of NER). To visualize these dynamics, we generated heatmaps of all TCR clones with a frequency >1% in the total repertoire with each row representing a unique TCR clone (shown as TCRα CDR3a.a._TCRβ CDR3a.a.) and ranked them according to their relative abundance in each MPR (arrow up) or NR sample (arrow down) ( Figure 3G , H ). The clonal frequency did not differ much between NR pre-treatment ( Figure 3G ) vs. NR post-treatment ( Figure 3H ) or in mR samples ( Supplemental Figure 9 ). In contrast, a majority of MPR samples exhibited repertoire remodeling, characterized by both an increase in the frequency of individual clones and the emergence of a larger number of highly expanded clonotypes. Collectively, these data demonstrate that MPR is uniquely associated with the robust expansion of a pre-existing T-cell pool.",
+      "order": 11
+    },
+    {
+      "section": "Defining Tcr Adaptivity Index (Tai) And Higher Tai Associated With Mpr",
+      "text": "To better delineate the changes in TCR clonal frequency between pre- vs. post-TIL samples, we employed scRepertoire to generate “Clonal Scatter” plots which compare the TCR clonal frequency of singleton (n=1, only 1 cell harboring this TCR), expanded clones (n>2, at least 2 cells harboring this TCR), and dual expanded clones (n>2, present in both pre- and post-TIL, so called pre-existing clones) in pre- vs. post-TIL samples ( Figure 4A ). Notably, we found that more clones appeared to be expanded or contracted in MPR than mR or NR ( Figure 4A , Supplemental Figure 10 ). To visualize repertoire-wide expansion, we plotted NER values for all TCRs across clinical outcome groups ( Figure 4B , C ). Regardless of whether all or only pre-existing clones were considered ( Figure 4B , C ), MPR samples consistently harbored more super-expanders falling beyond the dashed line, with these clones also exhibiting significantly higher NER values. Notably, MPR samples also contained more clones that underwent substantial clonal contraction (LogNER<−2.5) ( Figure 4B , C ). The peaks of distribution indicated the location of the highest number of TCR clones in the entire repertoire of each sample. To capture repertoire-wide flux, we defined the TCR Adaptivity Index (TAI) by summing the expansion and contraction rates of all clones detected pre- and post-treatment (see Methods ). We found that TAI is significantly higher in MPR than in mR or NR ( Figure 4D ), displaying the most significant p-values out of all parameters compared across MPR, mR and NR (p=0.0043 for MPR vs. mR; p=0.0095 for MPR vs. NR). When we separated MPR samples into Nivo/Ipi or Nivo/Rela subgroups, the TAI was still significantly higher in MPR than mR (p=0.036), and almost statistically significant between MPR and NR (p=0.057) ( Figure 4E ). Overall, a higher TAI, reflecting the TCR repertoire’s adaptability to ICI treatment, is strongly associated with MPR.",
+      "order": 12
+    },
+    {
+      "section": "Outcome-Associated Transcriptome Differences In Super-Expanders.",
+      "text": "To further characterize the phenotypes of super-expanders, we performed transcriptomic analysis on CD8 T cells harboring 'super-expanded' TCRs. According to our prior clustering of CD8 TILs ( 16 ) ( Supplemental Figure 11A ), most super-expanders primarily mapped to clusters C4, C7, and C8 ( Supplemental Figure 11B ), a distribution pattern consistent across super-expanders harboring pre-existing and newly emerging TCRs and those harboring pre-existing TCRs only ( Figure 5A ). At baseline, super-expanded clones in MPR patients were notably less exhausted and less terminally differentiated than those in NR/mR ( Figure 5A ), a phenotype not observed in non-super-expanders ( Figure 5B ). Following therapy, MPR clones across both super-expanded and non-super-expanded compartments significantly enriched for effector memory (C04_T EM- ISG low ) and tissue-resident memory (C07_T RM- ICR low ) states ( Figure 5A , B ), which correlate with favorable clinical outcomes ( 16 ). In contrast, clones in non-MPR patients remained largely restricted to, or further enriched in, terminally exhausted states (C08_T EX -ISG high ). We compared the transcriptome of super-expanders in post-TIL samples between MPR vs. NR ( Figure 5C ) or MPR vs. mR ( Figure 5D ) to identify differentially expressed genes (DEGs), and found that: (1) MPR super-expanders upregulated many TCR V genes including various TRAV and TRBV; (2) MPR super-expanders upregulated a limited set of genes (about ~12% of DEGs) while NR or mR super-expanders upregulated many more genes (~88% of DEG) ( Supplemental Table 1 and 2 ); (3) a list of genes appeared to be consistently upregulated in MPR super-expanders compared to NR or mR ones, including GZMK , GIMAP7 , EOMES , CXCR5 (receptor for CXCL13), CCR4 , TXNIP , ZNF80 , RAB37 , CMC1 , LYAR , and KLRG1 ( Figure 5C , D ); thus, we identified the overlapping genes upregulated in MPR compared to NR or mR ( Supplemental Figure 12A ; Supplemental Table 3 ). Similar findings were observed in MPR super-expanders that harbor pre-existing TCRs only when compared to NR or mR counterparts ( Figure 5E , F ). A list of overlapping genes upregulated in MPR super-expanders (pre-existing clones) compared to NR or mR ones was also identified ( Supplemental Figure 12B ; Supplemental Table 4 - 6 ). Lastly, we identified a list of 35 genes upregulated in MPR super-expanders overlapping between all clones and pre-existing clones across three comparisons ( Supplemental Figure 12C ; Supplemental Table 7 ).",
+      "order": 13
+    },
+    {
+      "section": "Longitudinal Transcriptomic Profiling Of Super-Expanders Within Each Outcome Group.",
+      "text": "To identify therapy-induced transcriptomic changes in super-expanders that harbor pre-existing TCRs, we compared their longitudinal profiles between paired pre- and post-TIL samples. Super-expanders in MPR upregulated a set of genes including RAB37 , GFI1 , ZNF683 , DAPK2 , MT-ATP8 , TOX2 , and FKBP5 in post-TIL, while many more genes were downregulated in MPR super-expanders in post-TIL including CX3CR1 (log 2 FC =−3.09) , CXCR5 and CDKN1A ( Figure 6A , Supplemental Table 8 ). Conversely, mR super-expanders remained transcriptomically stable, exhibiting minimal longitudinal changes ( Figure 6B , Supplemental Table 9 ). Notably, NR super-expanders were not quiescent; they mounted a robust but distinct response, upregulating many immune activation genes including LAG3 , TIGIT , IFNG , GZMA , GZMB , HLA-DRB1 , HLA-DRA , and CD74 , and most prominently, FASLG , while downregulating IL-7R , TXNIP , MT-ATP8 , FKBP5 ( Figure 6C , Supplemental Table 10 ). Similar findings were observed in super-expanders that harbor pre-existing and newly emerging TCRs (all clones) ( Supplemental Figure 13 , Supplemental Table 11 - 13 ). Notably, LAG3 expression increased significantly in NR super-expanders across both the Nivo/Ipi and Nivo/Rela cohorts, with no regimen-specific differences ( Supplemental Figure 14 ). This suggests that the upregulation of co-inhibitory markers in NR super-expanders following treatment is a consistent feature of their T cell program, independent of the specific ICI regimen administered. Thus, while both MPR and NR super-expanders are transcriptionally responsive to ICI, their trajectories are diametrically opposed: MPR clones undergo productive functional maturation, whereas NR clones transition toward a terminal effector/exhausted state. In contrast, mR super-expanders remain relatively quiescent, failing to significantly modulate their transcriptome in response to dual ICI. To determine if clonal origin influences functional fate, we compared the transcriptomes of super-expanders harboring pre-existing vs. newly emerging TCRs across all outcome groups ( Supplemental Figure 15 , Supplemental Table 14 - 18 ). We did not observe many upregulated DEGs in super-expanders with pre-existing TCRs while super-expanders with newly emerging TCRs upregulated many more genes, albeit no substantial transcriptional differences regarding core CD8 T-cell effector functions, cytotoxicity markers, and exhaustion-related genes (e.g., GZMK, RAB37, EOMES, KLRG1 ) ( Supplemental Figure 15A ). This transcriptional convergence suggests that both newly emerging and pre-existing super-expanders may contribute to anti-tumor immunity, as they exhibit similar effector potential despite differences in other gene profiles.",
+      "order": 14
+    },
+    {
+      "section": "Clonal Expansion Positively Correlates With Predicted Tumor Reactivity In Mpr Super-Expanders.",
+      "text": "To investigate whether clonal expansion magnitude was linked to predicted tumor reactivity, we assigned a Tumor Reactive Signature (TRS) score based on established markers of tumor reactivity ( 27 ) to individual T cells from post-TIL samples ( Supplemental Figure 16A ). Pooled analysis revealed that a higher density of T cells appeared to be TRS low (<0) and NER low ( Supplemental Figure 16B ). Notably, mR and NR cohorts contain fewer super-expanders than MPR ( Figure 6D ). In MPR, NER and TRS scores correlated significantly (Pearson r=0.491) among super-expanders but not non-super-expanders ( Figure 6D , top). Conversely, this correlation was absent or diminished in mR and NR super-expanders ( Figure 6D , middle and bottom), indicating that clonal expansion in non-MPR is relatively uncoupled from predicted tumor reactivity. Although super-expanders consistently had higher TRS scores than non-super-expanders ( Figure 6E ), TRS score alone did not distinguish clinical outcomes ( Supplemental Figure 16C ). Instead, MPR is uniquely distinguished by the preferential expansion of highly reactive clones. These data indicate that a productive clinical response hinges not on the mere presence of tumor-reactive TCRs, but on their selective expansion and functional mobilization following treatment.",
+      "order": 15
+    },
+    {
+      "section": "Integrating Tumor Reactivity Into The Tai Metric",
+      "text": "To validate the biological relevance of TAI and its link to tumor-reactive programs, we developed a TRS-integrated TAI. While the original TAI is a systems-level antigen-agnostic parameter, this integrated version prioritizes clones undergoing simultaneous numerical expansion and functional reprogramming. For each TCR clonotype identified in both pre- and post-TIL samples, we calculated a reactivity transition ratio, TRS ratio = TRS post /TRS pre for all of its constituent cells within the given TCR ( Supplemental Figure 17 ). This ratio captures the degree of clone-specific shifts in tumor-reactive states following therapy ( Supplemental Figure 17 ). By weighting clonal flux by this ratio, the TRS-integrated TAI remained a robust predictor of clinical outcome, clearly distinguishing MPR from NR/mR cohorts across distinct treatment regimens ( Figure 6F , G ). Both the antigen-agnostic TAI and its TRS-integrated version serve as robust predictors of clinical outcome. This confirms that the “adaptivity” measured by these metrics tracks the coordinated expansion and functional reprogramming of tumor-reactive clones rather than stochastic flux.",
+      "order": 16
+    },
+    {
+      "section": "Discussion",
+      "text": "While prior studies have explored the immune landscape of HNSCC patients treated with ICI ( 22 - 24 ), fundamental questions remain regarding the longitudinal dynamics of the TCR repertoire. By analyzing paired pre- and post-treatment single-cell TCR sequencing data from CD8 TILs in neoadjuvant dual-ICI-treated HNSCC patients, we show that MPR is characterized by decreased TCR richness post-treatment, reflecting a focused expansion within the resected tumor. Notably, the post-treatment T-cell pools—specifically the most dominant clones—primarily harbored pre-existing rather than newly emerging TCRs. These data indicate that dual ICI predominantly mobilizes pre-existing immunity rather than recruiting new clones, contradicting \"clonal replacement\" theory ( 17 ). The resolution required to definitively address this question was provided by the high sequencing depth of our dataset (~137,000 cells) ( 16 ), permitting comprehensive tracking of longitudinal clonal evolution. It is critical to distinguish two different concepts: pre-treatment TIL abundance vs. TCR clonal origin. We define 'pre-existing' clones by their presence in the baseline repertoire, regardless of initial density. While baseline TIL abundance or phenotypic states may predict ICI efficacy ( 24 ), we found that pre-existing TCR dominance (~70% of post-treatment CD8 TILs) is a near-universal feature of dual-ICI therapy in both MPR and non-MPR cohorts. Thus, a clone's pre-existing status does not determine clinical success. Instead, MPR is driven by the dynamic behavior of these clones—specifically their clonal adaptivity (captured by TAI and super-expander metrics) and functional states. This explains why some pre-existing clones achieve pathological response while others expand but fail to reach a productive functional state. We recognize that T cells harboring newly emerging TCRs—constituting ~30% of the post-treatment T-cell pool—may also contribute to anti-tumor immunity. These newly recruited clones could be particularly relevant in the context of antigen spreading, where the release of secondary antigens during initial tumor cell death leads to the recruitment of fresh T-cell waves ( 28 ). However, the post-treatment dominant repertoire was overwhelmingly composed of pre-existing clones; specifically, 95% of the T-cell pool within the top20 most frequent clonotypes harbored pre-existing TCRs ( Figure 2E , Supplemental Figure 5D ). These findings indicate that the expansion and functional reprogramming of the baseline repertoire, rather than the recruitment of new clones, is the primary driver of clinical efficacy in this neoadjuvant dual-ICI HNSCC cohort. Standard metrics like Simpson Clonality of the entire TCR repertoire failed to distinguish outcomes; however, we identified a significantly higher abundance of 'super-expanders' in MPR patients. This suggests that TCR analysis should prioritize these clonal ‘outliers’ over the entire repertoire, as most TILs are non-tumor-specific bystanders ( 29 ) ( Supplemental Figure 16B ). Consequently, aggregate metrics often obscure critical reactive clones. The increased abundance and expansion rate of these super-expanders in MPR align with the concept that immunodominant, polyclonal neoantigen-reactive TCR responses drive successful clinical outcomes ( 30 ). MPR patients possessed more super-expanders which also exhibited greater expansion magnitude. While some mR/NR patients harbor many super-expanders, they fail to achieve pathological responses, suggesting that qualitative differences are also important. We propose that clinical success depends on expanding the \"right\" TCRs ( 31 , 32 ); supporting this, the most significant DEGs between MPR and NR super-expanders included distinct TRAV / TRBV genes. These TCRs may recognize various tumor antigens or exhibit varying binding affinities ( 33 , 34 ). We propose that distinct TCRs may translate conformational changes during TCR/antigen interaction into differential downstream signaling potencies, serving as determinants of pathological response ( 31 , 32 ). Beyond TCR specificity, functional state also distinguishes MPR from NR super-expanders. GZMK emerged as the most significantly upregulated DEG in MPR super-expanders, consistent with its identification as the most significantly upregulated gene in putative tumor-reactive TILs in ICI responders ( 35 ). Conversely, NR super-expanders may lack this functional vigor or enter terminal exhaustion (upregulating ENTPD1 /CD39 and CTLA-4 ) despite numerical expansion. Furthermore, a productive anti-tumor response likely requires a synergistic composition or an optimal 'team' of super-expanded clones to address tumor heterogeneity. As shown in our previous HNSCC mouse model ( 20 ), the mere presence of a few ICI response-associated TCRs is insufficient for tumor inhibition in NR mice. Thus, we hypothesize that the quantitative and qualitative differences—reflected by TCR specificity, functional state (e.g., GZMK ), and clonal composition—within the super-expanded compartment collectively determine pathological response. Our analysis revealed a treatment-induced 'reprogramming' of pre-existing clones in MPR, uniquely characterized by the upregulation of a set of interesting genes such as RAB37 and GFI1 . RAB37 , a small GTPase involved in vesicle exocytosis ( 36 , 37 ), was both longitudinally induced by therapy in MPR and significantly enriched in MPR vs. NR super-expanders post-treatment. Its robust expression may suggest a previously unrecognized role in regulating the cytotoxic secretory machinery required for anti-tumor efficacy. Concurrently, the longitudinal induction of GFI1 likely preserves effector-like programs, as its loss in T cells dampens effector functions of CD8 TILs and anti-CTLA-4 efficacy ( 38 ). Together, these findings suggest that successful clonal adaptation in MPR involves a coordinated transcriptional shift toward enhanced secretory capacity ( RAB37 ) and effector function ( GFI1 ), both warranting functional validation in future studies. While an increase in post-treatment TCR frequency ('super-expanders') can reflect either local proliferation or recruitment from the periphery, distinguishing these mechanisms in clinical samples remains a challenge. However, our longitudinal scRNA-seq analysis reveals that MPR super-expanders adopt a more profound tissue-resident program after treatment. This is characterized by the longitudinal induction of the residency master regulator ZNF683 ( Hobit ), downregulation of the cell-cycle inhibitor CDKN1A , and a loss of CX3CR1 (log 2 FC = −3.09), a marker typically associated with circulating terminal effectors. This shift toward a T RM phenotype suggests these clones are not transient visitors, but a committed resident population undergoing local functional maturation and anchoring within the tumor niche. Regardless of the relative contributions of recruitment vs. local mitosis, TAI successfully captures this global flux of the TCR repertoire. By prioritizing these dynamic clonal shifts, TAI provides a functional surrogate of the immune response that transcends the challenges of distinguishing expansion from de novo recruitment. We introduce the TAI as a novel metric that captures global flux—the coordinate expansion and contraction—of the T-cell repertoire, distinct from prior studies that often focus on clonal expansion not clonal contraction ( 22 - 24 , 39 , 40 ). Unlike traditional, static measures such as TIL density or top-clone frequency, the TAI emerged as the most statistically significant predictor of MPR in our cohort. Our findings suggest that successful anti-tumor immunity is a system-level event; it relies on the coordinated remodeling of the entire repertoire by promoting the \"right\" super-expanders while contracting futile clones. Crucially, we show that this global flux is intrinsically linked to a tumor-reactive transcriptional program in MPR but is \"uncoupled\" in non-MPR. This distinction provides a definitive framework for understanding why numerical expansion does not always equate to clinical efficacy. While the requirement for longitudinal tissue sampling and high sequencing depth of scTCR-seq limits the TAI’s feasibility as a clinical biomarker, it may serve as a powerful interpretive tool to elucidate the underlying biological mechanisms of ICI response. Ultimately, our study addresses fundamental questions regarding the role of TCR dynamics in mediating ICI responses and provides key mechanistic insights into the drivers of dual-ICI-induced MPR.",
+      "order": 17
+    },
+    {
+      "section": "Limitations Of The Study",
+      "text": "While the TAI demonstrates superior sensitivity in predicting MPR, further validation in larger, independent longitudinal cohorts is warranted. However, the current availability of high-resolution, paired pre- and post-treatment scTCR-seq data in HNSCC remains limited. The current cohort size (n=15) and the homogeneity of the cohort (HPV − ) may also limit the generalizability of these findings across broader HNSCC populations. Further research is needed to determine if these TCR dynamics are consistent in HPV + HNSCC. Additionally, the lack of MPR in the mono-ICI arm prevents a formal comparison to determine if these coordinated dynamics are unique to dual-ICI blockade or a universal requirement for MPR. A key takeaway from our analysis is that accurately capturing the coordinate clonal dynamics defined by the TAI requires high-resolution datasets with sufficient sequencing depth and TCR αβ-chain pairing. Consequently, our findings should be viewed as a foundational framework for future clinical trial design. We suggest that prioritizing these technical standards in future studies may help to ensure that longitudinal immune profiling can provide novel actionable insights into therapeutic efficacy.",
+      "order": 18
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "title": "The Evolving Landscape of PD-1/PD-L1 Pathway in Head and Neck Cancer",
+      "journal": "Front Immunol",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "1721",
+      "doi": "10.3389/fimmu.2020.01721",
+      "pmid": "33072064",
+      "pmc_id": "PMC7531035"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "title": "Nivolumab for Recurrent Squamous-Cell Carcinoma of the Head and Neck",
+      "journal": "N Engl J Med",
+      "year": "2016",
+      "volume": "375",
+      "issue": "19",
+      "fpage": "1856",
+      "lpage": "67",
+      "doi": "10.1056/NEJMoa1602252",
+      "pmid": "27718784",
+      "pmc_id": "PMC5564292"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "title": "Nivolumab vs investigator's choice in recurrent or metastatic squamous cell carcinoma of the head and neck: 2-year long-term survival update of CheckMate 141 with analyses by tumor PD-L1 expression",
+      "journal": "Oral Oncol",
+      "year": "2018",
+      "volume": "81",
+      "fpage": "45",
+      "lpage": "51",
+      "doi": "10.1016/j.oraloncology.2018.04.008",
+      "pmid": "29884413",
+      "pmc_id": "PMC6563923"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "title": "Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048): a randomised, open-label, phase 3 study",
+      "journal": "Lancet",
+      "year": "2019",
+      "volume": "394",
+      "issue": "10212",
+      "fpage": "1915",
+      "lpage": "28",
+      "doi": "10.1016/S0140-6736(19)32591-7",
+      "pmid": "31679945"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "title": "Pembrolizumab Alone or With Chemotherapy for Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma in KEYNOTE-048: Subgroup Analysis by Programmed Death Ligand-1 Combined Positive Score",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "year": "2022",
+      "volume": "40",
+      "issue": "21",
+      "fpage": "2321",
+      "lpage": "32",
+      "doi": "10.1200/JCO.21.02198",
+      "pmid": "35333599",
+      "pmc_id": "PMC9287281"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "title": "Immunotherapy Breakthroughs in the Treatment of Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma",
+      "journal": "Cancers (Basel)",
+      "year": "2020",
+      "volume": "12",
+      "issue": "9",
+      "doi": "10.3390/cancers12092691"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "title": "Nivolumab for Recurrent Squamous-Cell Carcinoma of the Head and Neck",
+      "journal": "The New England journal of medicine",
+      "year": "2016",
+      "doi": "10.1056/NEJMoa1602252"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "title": "Immunotherapy in Recurrent/Metastatic Squamous Cell Carcinoma of the Head and Neck",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "705614",
+      "doi": "10.3389/fonc.2021.705614",
+      "pmid": "34540672",
+      "pmc_id": "PMC8440813"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "title": "Nivolumab Plus Ipilimumab Versus EXTREME Regimen as First-Line Treatment for Recurrent/Metastatic Squamous Cell Carcinoma of the Head and Neck: The Final Results of CheckMate 651",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "year": "2023",
+      "volume": "41",
+      "issue": "12",
+      "fpage": "2166",
+      "lpage": "80",
+      "doi": "10.1200/JCO.22.00332",
+      "pmid": "36473143",
+      "pmc_id": "PMC10115555"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "title": "Efficacy and Safety of Nivolumab Plus Ipilimumab vs Nivolumab Alone for Treatment of Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck: The Phase 2 CheckMate 714 Randomized Clinical Trial",
+      "journal": "JAMA Oncol",
+      "year": "2023",
+      "volume": "9",
+      "issue": "6",
+      "fpage": "779",
+      "lpage": "89",
+      "doi": "10.1001/jamaoncol.2023.0147",
+      "pmid": "37022706",
+      "pmc_id": "PMC10080406"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "title": "Durvalumab with or without tremelimumab versus the EXTREME regimen as first-line treatment for recurrent or metastatic squamous cell carcinoma of the head and neck: KESTREL, a randomized, open-label, phase III study",
+      "journal": "Ann Oncol",
+      "year": "2023",
+      "volume": "34",
+      "issue": "3",
+      "fpage": "262",
+      "lpage": "74",
+      "doi": "10.1016/j.annonc.2022.12.008",
+      "pmid": "36535565"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "title": "Neoadjuvant PD-1 Blockade in Resectable Lung Cancer",
+      "journal": "The New England journal of medicine",
+      "year": "2018",
+      "volume": "378",
+      "issue": "21",
+      "fpage": "1976",
+      "lpage": "86",
+      "doi": "10.1056/NEJMoa1716078",
+      "pmid": "29658848",
+      "pmc_id": "PMC6223617"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "title": "Neoadjuvant relatlimab and nivolumab in resectable melanoma",
+      "journal": "Nature",
+      "year": "2022",
+      "volume": "611",
+      "issue": "7934",
+      "fpage": "155",
+      "lpage": "60",
+      "doi": "10.1038/s41586-022-05368-8",
+      "pmid": "36289334",
+      "pmc_id": "PMC9607737"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "title": "Neoadjuvant immune checkpoint blockade in high-risk resectable melanoma",
+      "journal": "Nature medicine",
+      "year": "2018",
+      "volume": "24",
+      "issue": "11",
+      "fpage": "1649",
+      "lpage": "54",
+      "doi": "10.1038/s41591-018-0197-1"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "title": "Neoadjuvant nivolumab for patients with resectable HPV-positive and HPV-negative squamous cell carcinomas of the head and neck in the CheckMate 358 trial",
+      "journal": "Journal for immunotherapy of cancer",
+      "year": "2021",
+      "volume": "9",
+      "issue": "6",
+      "doi": "10.1136/jitc-2021-002568"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "title": "Distinct CD8(+) T cell dynamics associate with response to neoadjuvant cancer immunotherapies",
+      "journal": "Cancer Cell",
+      "year": "2025",
+      "volume": "43",
+      "issue": "4",
+      "fpage": "757",
+      "lpage": "75 e8",
+      "doi": "10.1016/j.ccell.2025.02.026",
+      "pmid": "40086437",
+      "pmc_id": "PMC12359303"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "title": "Clonal replacement of tumor-specific T cells following PD-1 blockade",
+      "journal": "Nature medicine",
+      "year": "2019",
+      "volume": "25",
+      "issue": "8",
+      "fpage": "1251",
+      "lpage": "9",
+      "doi": "10.1038/s41591-019-0522-3"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "title": "The mechanism and regulation of chromosomal V(D)J recombination",
+      "journal": "Cell",
+      "year": "2002",
+      "volume": "109",
+      "issue": "Suppl",
+      "fpage": "S45",
+      "lpage": "55",
+      "pmid": "11983152",
+      "doi": "10.1016/s0092-8674(02)00675-x"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "title": "Unraveling V(D)J recombination; insights into gene regulation",
+      "journal": "Cell",
+      "year": "2004",
+      "volume": "116",
+      "issue": "2",
+      "fpage": "299",
+      "lpage": "311",
+      "pmid": "14744439",
+      "doi": "10.1016/s0092-8674(04)00039-x"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "title": "Divergent outcomes of anti-PD-L1 treatment coupled with host-intrinsic differences in TCR repertoire and distinct T cell activation states in responding versus non-responding tumors",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "992630",
+      "doi": "10.3389/fimmu.2022.992630",
+      "pmid": "36330507",
+      "pmc_id": "PMC9624473"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "title": "Peripheral T cell receptor repertoire features predict durable responses to anti-PD-1 inhibitor monotherapy in advanced renal cell carcinoma",
+      "journal": "Oncoimmunology",
+      "year": "2021",
+      "volume": "10",
+      "issue": "1",
+      "fpage": "1862948",
+      "doi": "10.1080/2162402X.2020.1862948",
+      "pmid": "33537170",
+      "pmc_id": "PMC7833759"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "title": "Tissue-resident memory and circulating T cells are early responders to pre-surgical cancer immunotherapy",
+      "journal": "Cell",
+      "year": "2022",
+      "volume": "185",
+      "issue": "16",
+      "fpage": "2918",
+      "lpage": "35 e29",
+      "doi": "10.1016/j.cell.2022.06.018",
+      "pmid": "35803260",
+      "pmc_id": "PMC9508682"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "title": "CD4(+) T cell activation distinguishes response to anti-PD-L1+anti-CTLA4 therapy from anti-PD-L1 monotherapy",
+      "journal": "Immunity",
+      "year": "2024",
+      "volume": "57",
+      "issue": "3",
+      "fpage": "541",
+      "lpage": "58 e7",
+      "doi": "10.1016/j.immuni.2024.02.007",
+      "pmid": "38442708"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Preexisting tumor-resident T cells with cytotoxic potential associate with response to neoadjuvant anti-PD-1 in head and neck cancer",
+      "journal": "Sci Immunol",
+      "year": "2023",
+      "volume": "8",
+      "issue": "87",
+      "fpage": "eadf4968",
+      "doi": "10.1126/sciimmunol.adf4968",
+      "pmid": "37683037",
+      "pmc_id": "PMC10794154"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "title": "Dual Immune Checkpoint Blockade Induces Analogous Alterations in the Dysfunctional CD8+ T-cell and Activated Treg Compartment",
+      "journal": "Cancer discovery",
+      "year": "2023",
+      "volume": "13",
+      "issue": "10",
+      "fpage": "2212",
+      "lpage": "27",
+      "doi": "10.1158/2159-8290.CD-22-0851",
+      "pmid": "37548431",
+      "pmc_id": "PMC10551666"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "title": "Cetuximab Responses in Patients with HNSCC Correlate to Clonal Expansion Feature of Peripheral and Tumor-Infiltrating T Cells with Top T-Cell Receptor Clonotypes",
+      "journal": "Clin Cancer Res",
+      "year": "2023",
+      "volume": "29",
+      "issue": "3",
+      "fpage": "647",
+      "lpage": "58",
+      "doi": "10.1158/1078-0432.CCR-22-2355",
+      "pmid": "36315045",
+      "pmc_id": "PMC9898159"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "Transcriptional programs of neoantigen-specific TIL in anti-PD-1-treated lung cancers",
+      "journal": "Nature",
+      "year": "2021",
+      "volume": "596",
+      "issue": "7870",
+      "fpage": "126",
+      "lpage": "32",
+      "doi": "10.1038/s41586-021-03752-4",
+      "pmid": "34290408",
+      "pmc_id": "PMC8338555"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "title": "Personalized vaccines for cancer immunotherapy",
+      "journal": "Science",
+      "year": "2018",
+      "volume": "359",
+      "issue": "6382",
+      "fpage": "1355",
+      "lpage": "60",
+      "doi": "10.1126/science.aar7112",
+      "pmid": "29567706"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "title": "Bystander T cells in cancer immunology and therapy",
+      "journal": "Nat Cancer",
+      "year": "2022",
+      "volume": "3",
+      "issue": "2",
+      "fpage": "143",
+      "lpage": "55",
+      "doi": "10.1038/s43018-022-00335-8",
+      "pmid": "35228747"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "title": "Neoantigen-targeted CD8(+) T cell responses with PD-1 blockade therapy",
+      "journal": "Nature",
+      "year": "2023",
+      "volume": "615",
+      "issue": "7953",
+      "fpage": "697",
+      "lpage": "704",
+      "doi": "10.1038/s41586-023-05787-1",
+      "pmid": "36890230",
+      "pmc_id": "PMC10441586"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "title": "Why the Outcome of Anti-Tumor Immune Responses is Heterogeneous: A Novel Idea in the Context of Immunological Heterogeneity in Cancers",
+      "journal": "Bioessays",
+      "year": "2020",
+      "volume": "42",
+      "issue": "10",
+      "fpage": "e2000024",
+      "doi": "10.1002/bies.202000024",
+      "pmid": "32767371",
+      "pmc_id": "PMC7546576"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "title": "Why responses to immune checkpoint inhibitors are heterogeneous in head and neck cancers: Contributions from tumor-intrinsic and host-intrinsic factors",
+      "journal": "Front Oncol",
+      "year": "2022",
+      "volume": "12",
+      "fpage": "995434",
+      "doi": "10.3389/fonc.2022.995434",
+      "pmid": "36330485",
+      "pmc_id": "PMC9623029"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "title": "Antigen and checkpoint receptor engagement recalibrates T cell receptor signal strength",
+      "journal": "Immunity",
+      "year": "2021",
+      "volume": "54",
+      "issue": "11",
+      "fpage": "2481",
+      "lpage": "96 e6",
+      "doi": "10.1016/j.immuni.2021.08.020",
+      "pmid": "34534438",
+      "pmc_id": "PMC8585507"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "title": "Cancer Therapy With TCR-Engineered T Cells: Current Strategies, Challenges, and Prospects",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "835762",
+      "doi": "10.3389/fimmu.2022.835762",
+      "pmid": "35309357",
+      "pmc_id": "PMC8928448"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "title": "A minimal gene set characterizes TIL specific for diverse tumor antigens across different cancer types",
+      "journal": "Nature communications",
+      "year": "2025",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "1070",
+      "doi": "10.1038/s41467-024-55059-3"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "title": "Rab37 is a novel mast cell specific GTPase localized to secretory granules",
+      "journal": "FEBS Lett",
+      "year": "2000",
+      "volume": "470",
+      "issue": "1",
+      "fpage": "61",
+      "lpage": "4",
+      "doi": "10.1016/s0014-5793(00)01288-6",
+      "pmid": "10722846"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "title": "Small GTPase Rab37 targets tissue inhibitor of metalloproteinase 1 for exocytosis and thus suppresses tumour metastasis",
+      "journal": "Nature communications",
+      "year": "2014",
+      "volume": "5",
+      "fpage": "4804",
+      "doi": "10.1038/ncomms5804"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "title": "Gfi1 controls the formation of effector-like CD8(+) T cells during chronic infection and cancer",
+      "journal": "Nature communications",
+      "year": "2025",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "4542",
+      "doi": "10.1038/s41467-025-59784-1"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "title": "Characteristics of TCR Repertoire Associated With Successful Immune Checkpoint Therapy Responses",
+      "journal": "Front Immunol",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "587014",
+      "doi": "10.3389/fimmu.2020.587014",
+      "pmid": "33163002",
+      "pmc_id": "PMC7591700"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "title": "T-cell repertoire diversity: friend or foe for protective antitumor response?",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2022",
+      "volume": "41",
+      "issue": "1",
+      "fpage": "356",
+      "doi": "10.1186/s13046-022-02566-0",
+      "pmid": "36550555",
+      "pmc_id": "PMC9773533"
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "metadata": {
+    "title": "Association between circadian rhythm disruption and the risk of malignancy in patients with thyroid nodules: a propensity score-matched study",
+    "authors": [
+      "Pengfei Gu",
+      "Beibei Zhang",
+      "Ziliang Ding",
+      "Yukun Wei",
+      "Yahui Sun",
+      "Pengzhao Song",
+      "Weiwei Zou",
+      "Yong Han",
+      "Fengli Guo"
+    ],
+    "journal": "Frontiers in Endocrinology",
+    "year": "2026",
+    "doi": "10.3389/fendo.2026.1832788",
+    "pmc_id": "PMC13201181",
+    "pmid": "42205260",
+    "full_text_available": true,
+    "section_count": 16,
+    "reference_count": 40
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background The rising incidence of thyroid cancer (TC) underscores the need to identify modifiable risk factors for malignancy in patients with thyroid nodules. The role of circadian rhythm disruption (CRD), a pervasive modern lifestyle factor, in TC is poorly understood. We aimed to investigate the association between cumulative CRD and the risk of malignancy and aggressiveness in patients with thyroid nodules. Methods We conducted a hospital-based, propensity score-matched study involving 2,541 patients who underwent thyroidectomy for thyroid nodules between 2016 and 2019. A novel cumulative circadian rhythm disruption index (cCRDI), integrating sleep insufficiency, shift work history, chronotype/mid-sleep timing, and dietary irregularity, was calculated from preoperative questionnaires. The primary outcome was the definitive postoperative histopathological diagnosis (benign vs. malignant). Propensity score matching (PSM) (1:1) was performed to balance baseline confounders (e.g., age, sex, BMI, TSH levels, and autoimmune status), yielding a cohort of 850 matched pairs (1,700 patients). Conditional logistic regression was used to assess the association between cCRDI and malignancy. Results In the matched cohort, a strong, dose-dependent relationship was observed. Compared to the No CRD group, the adjusted odds ratios (aOR) for malignancy were 1.58 (95% CI: 1.15–2.15) for Low CRD, 1.85 (95% CI: 1.30–2.62) for Moderate CRD, and 2.95 (95% CI: 2.05–4.25) for High CRD ( P for trend < 0.001). Restricted cubic splines confirmed a non-linear association with accelerating risk at higher cCRDI scores ( P for non-linearity = 0.008). Crucially, increasing CRD severity was independently associated with aggressive clinicopathological features, including multifocality, extrathyroidal extension (ETE), and a dramatic increase in lymph node metastasis (LNM) (69.4% in High CRD vs. 29.3% in No CRD, P < 0.001). High CRD remained the strongest independent predictor for LNM in multivariable analysis (aOR = 4.21, 95% CI: 2.90–6.10, P < 0.001). Conclusion Cumulative CRD is independently associated with both the presence of malignancy and the aggressive progression of TC in patients with thyroid nodules. Assessing a patient’s circadian health might have potential utility as a novel, modifiable factor for risk stratification and may underscore the importance of lifestyle interventions in the clinical management of thyroid nodules.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Thyroid nodules are a ubiquitous clinical finding, with a prevalence reaching up to 68% in the general population due to the widespread application of high-resolution ultrasonography ( 1 ). While the vast majority of these nodules are benign, approximately 5% to 15% harbor malignancy, predominantly papillary thyroid carcinoma (PTC) ( 2 ). The rapidly rising incidence of thyroid cancer (TC) globally has intensified the clinical challenge of distinguishing malignant from benign lesions, aiming to avoid both overtreatment of benign nodules and delayed intervention for aggressive carcinomas ( 3 , 4 ). Currently, established risk factors for TC include advanced age, genetic predisposition [e.g., familial adenomatous polyposis ( 5 )], history of childhood radiation exposure ( 6 ). However, these factors are largely non-modifiable. Consequently, identifying modifiable lifestyle factors that drive the malignant transformation of thyroid nodules is of paramount public health importance, as it could offer novel strategies for risk stratification and early preventive interventions. In modern society, circadian rhythm disruption (CRD)—characterized by shift work, insufficient sleep duration, and delayed chronotypes—has emerged as a pervasive public health concern ( 7 , 8 ). The endogenous circadian clock, governed by transcription-translation feedback loops involving core genes (e.g., CLOCK, BMAL1, PER, CRY), orchestrates 24-hour rhythms in cellular processes critical to genomic integrity, including cell cycle progression, DNA damage repair, apoptosis, metabolic homeostasis, and immune surveillance ( 9 – 11 ). Chronic misalignment of this biological clock has been robustly linked to oncogenesis; notably, the International Agency for Research on Cancer (IARC) has classified night shift work as a Group 2A “probable human carcinogen” ( 12 ). The proposed biological mechanisms linking CRD to cancer involve the suppression of nocturnal melatonin secretion, which serves as a potent antioxidant and oncostatic hormone, as well as systemic immune dysregulation and chronic low-grade inflammation ( 13 , 14 ). While the carcinogenic effects of CRD have been well-documented in breast, prostate, and colorectal cancers, its specific impact on the endocrine system remains an area of active investigation ( 15 – 17 ). Recent studies have specifically linked short sleep duration and poor sleep quality to an increased prevalence of thyroid nodules and altered circadian gene expression in nodule patients ( 18 – 21 ). The hypothalamic-pituitary-thyroid (HPT) axis exhibits a distinct circadian rhythm, with thyroid-stimulating hormone (TSH) levels typically peaking during the night ( 22 , 23 ). CRD can significantly blunt this nocturnal TSH surge and perturb peripheral thyroid hormone metabolism. While this may appear counterintuitive in the context of TC risk, circadian misalignment could nonetheless foster a microenvironment conducive to malignant transformation through mechanisms beyond TSH alone ( 24 , 25 ). Compelling experimental evidence further supports this link: BMAL1 knockout in thyroid cells decreases NFKBIA expression, accelerates cellular senescence, and impairs hormone synthesis, directly implicating circadian dysfunction in thyroid cellular decline ( 26 ). This is further supported by systematic reviews indicating that dysregulation of core circadian clock genes is a hallmark of malignant transformation in thyroid tissue ( 27 ), and that evaluating circadian disruption may offer novel insights into thyroid cancer etiology ( 28 ). Additionally, environmental disruptors inducing circadian misalignment (e.g., cortisone, TBPH) have been associated with thyroid endocrine disruption and elevated TC risk in preclinical models. Melatonin administration has demonstrated protective effects against circadian disruption-induced thyroid dysfunction and tumor progression, underscoring the therapeutic relevance of circadian pathways ( 29 , 30 ). Despite this mechanistic plausibility, epidemiological evidence regarding the association between CRD and TC is scarce and conflicting. Most prior studies compared TC patients with healthy controls ( 31 , 32 ), failing to address the more pressing clinical dilemma: among patients already presenting with thyroid nodules, does CRD increase the likelihood of malignancy? Furthermore, many existing investigations rely on ultrasonographic diagnosis or fine-needle aspiration (FNA) cytology, which are susceptible to misclassification biases—particularly in indeterminate nodules (Bethesda III–V)—compared to the gold standard of postoperative histopathology ( 33 ). Molecular profiling has emerged to refine risk stratification in indeterminate nodules ( 34 , 35 ), yet its integration with circadian metrics remains unexplored. Crucially, no study to date has rigorously evaluated CRD as an independent, modifiable risk factor for malignancy specifically within a histopathologically confirmed cohort of thyroid nodule patients. To bridge this critical knowledge gap, we conducted a rigorous study utilizing a surgical cohort with definitive histopathological diagnoses. To minimize the confounding effects of baseline demographic disparities, we employed a propensity score matching (PSM) analysis. The primary objective of this study was to investigate the association between various dimensions of CRD—including shift work history, sleep duration, and chronotype—and the risk of malignancy in patients with thyroid nodules. We hypothesized that severe CRD is an independent risk factor for thyroid malignancy. By elucidating this relationship, these findings are intended to provide evidence-based lifestyle recommendations for the conservative management of patients with thyroid nodules.",
+      "order": 1
+    },
+    {
+      "section": "Study Design And Ethical Considerations",
+      "text": "This hospital-based retrospective cohort study was conducted at the Department of Thyroid Surgery, Binzhou Medical University Hospital, Binzhou, Shandong, China. We reviewed the medical records of consecutive patients who underwent initial thyroidectomy for thyroid nodules between January 2016 and December 2019. The study protocol adhered to the ethical guidelines of the Declaration of Helsinki and was approved by the Institutional Review Board (IRB) of Binzhou Medical University Hospital (Approval No. KYLL-067). Written informed consent was obtained from all participants prior to data collection. Patients unable to provide written informed consent were not included, which may have introduced selection bias.",
+      "order": 2
+    },
+    {
+      "section": "Participants And Eligibility Criteria",
+      "text": "We consecutively recruited adult patients admitted for thyroidectomy due to thyroid nodules. The decision for surgery was based on current clinical guidelines, including suspicious ultrasonographic features, compression symptoms, or indeterminate cytology. Inclusion Criteria: (1) Age between 18 and 65 years; (2) Preoperative diagnosis of thyroid nodules by high-resolution ultrasonography; (3) Underwent total thyroidectomy or lobectomy with definitive postoperative histopathological reports. Exclusion Criteria: (1) History of other malignancies or previous neck irradiation (to exclude radiation-induced carcinomas); (2) Diagnosis of severe psychiatric disorders (e.g., major depression, schizophrenia) or regular use of sedatives/hypnotics within the past 6 months (to eliminate pharmacological interference with sleep architecture); (3) Pregnant or lactating women; (4) Incomplete questionnaire data preventing the calculation of the cumulative circadian rhythm disruption index (cCRDI).",
+      "order": 3
+    },
+    {
+      "section": "Data Collection And Covariates",
+      "text": "Baseline demographic and clinical data were extracted from electronic medical records and face-to-face interviews conducted by trained research assistants 24 hours prior to surgery. Demographic Variables: Age, sex, body mass index (BMI, calculated as kg/m²), and educational level. Clinical Parameters: Thyroid function tests—including serum TSH and thyroid autoantibodies (TPOAb, TgAb) were measured using fasting blood samples collected on the morning of admission. Ultrasonographic Features: Thyroid nodules were characterized according to the ACR TI-RADS classification (size, composition, echogenicity, shape, and margins).",
+      "order": 4
+    },
+    {
+      "section": "Assessment Of Ccrdi",
+      "text": "To comprehensively evaluate the cumulative impact of CRD on TC progression, we developed a novel metric: the cCRDI. The cCRDI was designed as an exploratory composite exposure index intended to summarize cumulative circadian burden, rather than to imply strict biological equivalence or identical effect sizes across its individual components. Conceptually analogous to the “pack-years” metric used in smoking history, the cCRDI integrates the intensity of circadian disruption with its duration of exposure. This index aims to quantify the long-term allostatic and metabolic burden imposed by adverse chronobiological behaviors on the endocrine and immune systems. Patients were instructed to report their habitual sleep, work, and dietary patterns during the 12-month period preceding the initial clinical or ultrasonographic diagnosis of the thyroid nodule that ultimately led to surgery, in order to standardize the exposure window. The cCRDI was derived from preoperatively administered lifestyle questionnaires and constructed through a three-step algorithmic approach: Step 1: Assessment of CRD Intensity (0—11points) The baseline intensity of recent CRD was evaluated across four dimensions, reflecting both central and peripheral circadian clock disturbances. The Intensity Score was calculated as the sum of these four domains (A + B + C+ D): Domain A: Sleep Insufficiency (Reflecting central clock disruption and cortisol dysregulation) 0 points: Sufficient sleep (average daily sleep ≥7.0 hours) 1 point: Mild deprivation (6.0—6.9 hours) 2 points: Moderate deprivation (5.0—5.9 hours) 3 points: Severe deprivation (<5.0 hours) Domain B: Shift Work History (Reflecting external photoperiod disruption and melatonin suppression) 0 points: No night-shift history 1 point: Rare night shifts (<3 days/month) 2 points: Frequent night shifts (3–8 days/month) 3 points: Rotating or permanent night shifts (≥8 nights crossing midnight per month) Domain C: Chronotype/Mid-Sleep Timing (Reflecting internal circadian phase preference) 0 points: Typical sleep onset before 23:30 1 point: Occasional late sleep onset (24:00–01:00, 1–2 times/week) 2 points: Habitual late chronotype (persistent sleep onset after 01:00) 3 points: Persistent sleep onset after 02:00 or clinically diagnosed delayed sleep-wake phase disorder Domain D: Dietary Irregularity (Reflecting metabolic misalignment of peripheral clocks, e.g., liver and thyroid) 0 points: Regular daily meals, no nocturnal eating habit. 1 point: Occasional irregularity (skipping breakfast or consuming high-calorie meals after 22:00, 1—2 times/week). 2 points: Severe irregularity (skipping breakfast and/or nocturnal eating ≥3 times/week). Patients maintaining strictly regular chronobiological habits across all domains received an Intensity Score of 0. Step 2: Determination of Exposure Duration (Years) Patients self-reported the duration (in years) of the aforementioned adverse behaviors prior to diagnosis. To standardize retrospective time-range estimations, categorical responses were converted into continuous numerical equivalents using representative midpoints: Recent onset/<1 year → assigned 0.5 years 1–3 years → assigned 2.0 years 3–5 years → assigned 4.0 years 5–10 years → assigned 7.5 years >10 years → assigned 12.0 years (A conservative cap applied to mitigate the undue influence of extreme outliers). For patients with an Intensity Score of 0, the duration was inherently designated as 0. Step 3: Calculation of the cCRDI The final cCRDI was computed using a multiplicative model: cCRDI = Intensity Score × Duration Based on the distribution of cCRDI scores, patients were categorized into four groups: No CRD (Q1, cCRDI=0), Low CRD (Q2, cCRDI values ranging from the lowest positive value to the 33rd percentile of the non-zero distribution), Moderate CRD (Q3, cCRDI values between the 34th and 66th percentiles), and High CRD (Q4, cCRDI values above the 66th percentile). To ensure data robustness and minimize bias, patients with missing data in two or more intensity domains or missing duration data were excluded from the analysis. For patients missing a single intensity domain, a conservative imputation strategy was applied by assigning a score of 0 to the missing variable, thereby preventing the overestimation of CRD risk.",
+      "order": 5
+    },
+    {
+      "section": "Outcome Assessment And Patient Grouping",
+      "text": "The primary outcome of the study was the definitive postoperative histopathological diagnosis of the resected thyroid nodules. All surgical specimens were processed using standard formalin-fixed, paraffin-embedding techniques. To ensure objective and unbiased assessment, all slides were independently reviewed by two senior pathologists who were blinded to the patients’ clinical data and circadian rhythm profiles. Any diagnostic discrepancies were resolved by a third expert pathologist to reach a consensus. For the purpose of comparative analysis, patients within the cohort were categorized into two distinct groups based on this primary outcome: Malignant Group: This group comprised patients with a histopathological diagnosis of differentiated thyroid carcinoma, including but not limited to PTC and follicular thyroid carcinoma (FTC). Benign Group: This group included patients with a diagnosis of a benign thyroid condition, such as nodular goiter, follicular adenoma, or Hashimoto’s thyroiditis (HT). For all patients in the malignant group, tumors were staged according to the 8th edition of the American Joint Committee on Cancer (AJCC) TNM staging system.",
+      "order": 6
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Continuous variables were expressed as mean ± standard deviation (SD) or median (interquartile range, IQR) depending on normality, while categorical variables were presented as frequencies and percentages. Differences between groups were compared using the Student’s t-test, Mann-Whitney U test, or Chi-square test, as appropriate. PSM: To minimize selection bias and balance baseline confounders between the malignant and benign groups, a 1:1 PSM analysis was performed. The propensity score for each patient was calculated using a multivariable logistic regression model that included a comprehensive set of potential confounders identified from clinical knowledge and baseline data. These variables were: age, sex, body mass index (BMI, as a categorical variable), education level, history of diabetes, preoperative TSH levels, and thyroid autoimmune status (defined by TPOAb/TgAb positivity or a histopathological diagnosis of HT). A nearest-neighbor matching algorithm with a caliper width of 0.02 was applied. The balance of covariates before and after matching was assessed using the Standardized Mean Difference (SMD), with an SMD < 0.10 indicating negligible imbalance. Association Analysis: Conditional logistic regression models were utilized to estimate Odds Ratios (ORs) and 95% Confidence Intervals (CIs) for the association between cCRDI quartiles and thyroid malignancy. Model 1 was unadjusted and Model 2 was further adjusted for residual clinical variables not included in the matching algorithm, specifically nodule size and preoperative TSH levels. To visualize the potential non-linear dose-response relationship between continuous cCRDI scores and malignancy risk, Restricted Cubic Splines (RCS) with three knots were employed. All statistical analyses were performed using R software (version 4.2.0) or SPSS (version 26.0). A two-sided P-value < 0.05 was considered statistically significant.",
+      "order": 7
+    },
+    {
+      "section": "Baseline Characteristics Of The Total Cohort (Pre-Matching)",
+      "text": "A total of 2,541 patients with thyroid nodules who underwent surgical resection were included in this study. Based on definitive postoperative histopathology, the total cohort comprised 1,649 patients in the malignant group and 892 patients in the benign group. The baseline demographic and clinical characteristics of the unmatched cohort are detailed in Table 1 . Prior to matching, several significant differences were observed between the two groups, indicating the presence of confounding factors. Patients with thyroid malignancy were significantly younger than those with benign nodules (mean age: 40.5 ± 9.6 vs. 46.8 ± 11.5 years, P < 0.001), with a notably higher proportion of individuals aged under 55 years (80.0% vs. 70.0%, P < 0.001). There was also a marginal but statistically significant difference in BMI distribution ( P = 0.045). Clinically, as expected for surgically resected specimens, malignant nodules were significantly smaller in diameter (1.08 ± 0.79 vs. 2.55 ± 1.40 cm, P < 0.001) and were associated with slightly higher preoperative TSH levels (1.90 vs. 1.80 mIU/L, P = 0.035). Crucially, in the unmatched cohort, the distribution of CRD categories differed dramatically. The malignant group had a substantially higher proportion of patients with High CRD compared to the benign group (27.8% vs. 16.0%), whereas the benign group had more patients with No CRD (22.0% vs. 12.0%, P < 0.001 for trend).",
+      "order": 8
+    },
+    {
+      "section": "Psm Cohort",
+      "text": "To rigorously control for the aforementioned baseline disparities and isolate the independent effect of circadian disruption, a 1:1 PSM was performed. This procedure successfully yielded a highly balanced matched cohort consisting of 850 pairs (850 malignant cases and 850 benign cases, total N = 1,700). Following PSM, all incorporated covariates were optimally balanced between the two groups. As shown in Table 1 , the SMDs for all matched variables—including age (SMD = 0.029), gender (SMD = 0.014), BMI category (SMD = 0.012), education level, diabetes, TSH levels, and thyroid autoimmune status (TPOAb, TgAb, and HT)—decreased to well below the stringent threshold of 0.10. Correspondingly, all P -values for these covariates exceeded 0.05, indicating negligible residual confounding. Subsequent primary analyses were conducted on this matched cohort to ensure robust causal inference.",
+      "order": 9
+    },
+    {
+      "section": "Independent Association Between Crd And Thyroid Malignancy In The Matched Cohort",
+      "text": "In the rigorously matched cohort, where baseline demographic, metabolic, and autoimmune confounders were successfully equalized, the significant association between the severity of CRD and the risk of thyroid malignancy persisted robustly ( Table 2 ). To quantify this risk, we performed multivariable conditional logistic regression analyses. Using patients with strict circadian regularity (No CRD, Q1) as the reference group, a clear, dose-dependent escalation in the risk of thyroid malignancy was observed across increasing CRD categories. In the unadjusted model within the PSM cohort (Model 1), the odds of harboring a malignancy increased progressively: patients in the Low, Moderate, and High CRD groups exhibited Odds Ratios (ORs) of 1.69 (95% CI: 1.25–2.28, P < 0.001), 1.97 (95% CI: 1.41–2.75, P < 0.001), and 3.18 (95% CI: 2.28–4.44, P < 0.001), respectively. To ensure the utmost rigor, we constructed a fully adjusted model (Model 2) to account for residual clinical variables not included in the PSM algorithm, specifically preoperative TSH levels and nodule size (which inherently differ between benign and malignant pathologies). Even after this stringent adjustment, the independent detrimental effect of CRD remained highly significant. Compared to the No CRD group, the adjusted ORs for the Low, Moderate, and High CRD categories were 1.58 (95% CI: 1.15–2.15, P = 0.004), 1.85 (95% CI: 1.30–2.62, P < 0.001), and 2.95 (95% CI: 2.05–4.25, P < 0.001). Crucially, the trend test across all quartiles in both models demonstrated a highly significant positive correlation ( P for trend < 0.001). To further explore the shape of this association, we used restricted cubic splines to model the continuous cCRDI score. The analysis revealed a significant non-linear relationship ( P for non-linearity = 0.008), characterized by a steep acceleration in risk at higher cCRDI values ( Figure 1 ). In exploratory analyses, each individual component of the cCRDI—sleep insufficiency, shift work history, late chronotype, and dietary irregularity—was independently associated with an increased risk of malignancy in the matched cohort ( Supplementary Table 1 ). This robust, non-linear dose-response relationship underscores that the cumulative burden of circadian disruption acts as a strong, independent driver of malignant transformation in patients presenting with thyroid nodules. Each component was analyzed in a separate conditional logistic regression model in the matched cohort, additionally adjusting for nodule size and preoperative TSH. In trend analyses treating each component score as an ordinal variable, every 1-point increase was significantly associated with malignancy.",
+      "order": 10
+    },
+    {
+      "section": "Subgroup Analyses: Consistency Across Populations",
+      "text": "Given that sleep patterns and chronotype are known to vary with age, we examined the correlation between cCRDI and age. In the matched cohort, cCRDI scores showed no significant correlation with age (Spearman’s ρ = 0.11, P = 0.07). To further ensure that age did not confound the primary association, we additionally adjusted for continuous age in the multivariable Model 2 ( Table 2 ). The adjusted OR for High CRD remained substantially unchanged (AOR = 2.92, 95% CI: 2.01–4.24), confirming the independence of the observed effect. While this approach does not fully exclude age-related behavioral variation in individual cCRDI components, the absence of material change in the effect estimates suggests that the overall association between cCRDI and malignancy was not solely attributable to age differences. To validate the consistency of our findings, stratified analyses were performed across various predefined demographic and clinical subgroups ( Figure 2 ). The detrimental impact of High CRD (vs. No CRD) on thyroid malignancy risk remained consistent and statistically significant across all strata. Notably, the risk magnitude appeared slightly more pronounced in younger patients (<55 years: OR = 3.10, 95% CI: 2.10–4.60) compared to older patients (≥55 years: OR = 2.35, 95% CI: 1.25–4.40), although the interaction term did not reach statistical significance ( P for interaction = 0.182). Similarly, the association was observed in both males (OR = 2.65, 95% CI: 1.45–4.85) and females (OR = 3.05, 95% CI: 2.05–4.55), as well as in patients with and without HT. These findings suggest that the carcinogenic effect of CRD is a universal phenomenon among patients with thyroid nodules, independent of their baseline metabolic or autoimmune status.",
+      "order": 11
+    },
+    {
+      "section": "Impact Of Crd On Clinicopathological Aggressiveness In Thyroid Carcinoma",
+      "text": "Beyond its role in the initial malignant transformation, we first sought to visualize how CRD alters the overall landscape of pathological outcomes. A striking shift was observed across CRD categories: as CRD severity increased, the proportion of benign nodules dramatically decreased, while the proportion of thyroid carcinomas with LNM surged ( Figure 3 ). This visual evidence suggests that CRD not only promotes carcinogenesis but also drives a more aggressive phenotype. To dissect this further, we analyzed detailed histopathological features within the malignant cohort (n = 1,649), stratified by CRD severity ( Table 3 ). Strikingly, increasing severity of CRD was significantly associated with a stepwise escalation in tumor aggressiveness. Patients in the High CRD group presented with significantly larger primary tumors compared to the No CRD group (mean size: 1.15 ± 0.88 cm vs. 0.97 ± 0.65 cm, P = 0.012). Furthermore, severe circadian disruption was strongly correlated with a higher incidence of adverse pathological features, including multifocality (34.5% in High CRD vs. 16.7% in No CRD, P = 0.008), bilaterality (24.0% vs. 12.6%, P = 0.045), and ETE (19.2% vs. 10.1%, P = 0.012). Most notably, CRD severity was a powerful predictor of lymphatic metastasis. The prevalence of central LNM (N1a) surged from 29.3% in patients with No CRD to a staggering 69.4% in those with High CRD ( P < 0.001). Even more alarmingly, lateral LNM (N1b)—a hallmark of advanced disease requiring extensive neck dissection—was exceptionally rare in the No CRD group (4.0%) but highly prevalent in the High CRD group (25.8%, P < 0.001). The absolute number of metastatic lymph nodes also increased in a dose-dependent manner (mean 1.20 vs. 3.40 nodes, P < 0.001). These findings compellingly suggest that chronic circadian misalignment not only initiates oncogenesis but also actively promotes tumor invasion and metastatic dissemination in TC.",
+      "order": 12
+    },
+    {
+      "section": "Independent Predictors Of Lnm",
+      "text": "To further dissect the mechanisms by which circadian disruption promotes a more aggressive phenotype, we performed a separate multivariable logistic regression analysis specifically within the malignant cohort (n = 1,649) to identify independent predictors for LNM ( Table 4 ). In the univariate analysis, High CRD demonstrated the strongest association with LNM among all examined variables, with a striking 5.45-fold increased risk compared to the No CRD group (OR = 5.45, 95% CI: 3.85–7.70, P < 0.001). Other significant predictors in the univariate setting included younger age (< 55 years), larger tumor size (> 1 cm), multifocality, and ETE. After adjusting for this comprehensive set of conventional clinicopathological risk factors in the multivariable model, High CRD remained the most dominant and statistically significant independent predictor for LNM, with an adjusted odds ratio (AOR) of 4.21 (95% CI: 2.90–6.10, P < 0.001). This indicates that the observed increase in metastatic burden is not merely a secondary consequence of CRD-induced larger tumor size or more aggressive local invasion, but rather a direct biological consequence of circadian disruption itself. The risk of LNM also exhibited a clear dose-response relationship with CRD severity ( P for trend < 0.001). Younger age (< 55 years) also emerged as an independent risk factor for LNM (AOR = 1.30, 95% CI: 1.05–1.60, P = 0.015). In contrast, factors such as male gender and the presence of HT, which were significant in the univariate analysis, lost their statistical significance in the multivariable model, suggesting their association with LNM was likely confounded by other variables, primarily CRD.",
+      "order": 13
+    },
+    {
+      "section": "Discussion",
+      "text": "In this large, propensity score-matched study of a surgical cohort, we present emerging evidence that cumulative CRD is a potent and independent risk factor for both the presence and aggressiveness of malignancy in patients with thyroid nodules. Our primary finding reveals a striking dose-response relationship: the risk of a nodule being malignant escalates with increasing severity of CRD, with those in the highest quartile of our novel cCRDI exhibiting a nearly threefold increased risk compared to individuals with regular chronobiological habits. This association was confirmed to be non-linear, with a risk that accelerates sharply at higher levels of CRD, suggesting a potential biological threshold beyond which the body’s homeostatic mechanisms may be overwhelmed. Even more compellingly, our secondary analysis demonstrated that severe CRD is not merely an initiator of carcinogenesis but a powerful promoter of tumor progression. Increasing CRD severity was independently associated with a stepwise increase in adverse clinicopathological features, most notably a dramatic surge in the risk of both central and lateral LNM. These findings suggest CRD may be an important, modifiable lifestyle factor associated with the entire spectrum of TC development, from initial malignant transformation to metastatic dissemination. Our study significantly advances the current understanding by addressing key limitations of prior epidemiological investigations. Previous studies, which have reported conflicting results, predominantly compared TC patients to healthy controls, failing to resolve the more pressing clinical dilemma of risk stratification among patients already presenting with thyroid nodules ( 31 , 32 ). By utilizing a rigorously selected surgical cohort with definitive histopathological diagnoses, we eliminated the misclassification bias inherent in studies relying on ultrasonography or FNA cytology. Furthermore, the implementation of PSM successfully balanced a comprehensive set of demographic, metabolic, and autoimmune confounders, allowing for a more robust inference of CRD’s independent effect. Among the matched covariates, BMI warrants consideration because higher BMI has been associated with thyroid cancer risk in previous studies and may reflect underlying metabolic and inflammatory alterations ( 36 , 37 ). The observed association between CRD and malignancy risk is biologically plausible, aligning with established knowledge of the HPT axis’s circadian regulation and the role of chronic TSH stimulation in promoting thyrocyte proliferation ( 22 , 24 , 25 ). While our multivariable model adjusted for TSH, the persistence of a strong association suggests that CRD’s oncogenic effects extend beyond simple HPT axis dysregulation, implicating other pathways such as systemic inflammation and immune dysfunction. Perhaps the most striking and novel finding of our study is the profound impact of CRD on TC aggressiveness, particularly its role as the strongest independent predictor of LNM in our multivariable analysis ( Table 4 ). This suggests that circadian misalignment creates a microenvironment conducive to invasion and metastasis. Several biological mechanisms likely underpin this phenomenon. Firstly, chronic CRD, especially through light-at-night exposure, suppresses nocturnal melatonin secretion, thereby depriving the body of a potent oncostatic agent known to inhibit tumor cell proliferation, invasion, and angiogenesis ( 13 ). Secondly, a misaligned central clock dysregulates the immune system, impairing the surveillance and elimination of metastatic cells by natural killer (NK) cells and cytotoxic T lymphocytes ( 9 , 11 ). Thirdly, core clock genes such as BMAL1 directly regulate pathways critical to metastasis, including epithelial-mesenchymal transition (EMT) and cell adhesion. The impaired cellular function observed in BMAL1 knockout thyroid cells supports this direct mechanistic link ( 26 ). Notably, a systematic review found that among 12 tested circadian clock genes, 9 were significantly dysregulated in thyroid cancer tissue ( 27 ), and the expression levels of CLOCK and BMAL1 have been positively correlated with lymph node metastasis counts in thyroid carcinoma ( 38 ). The fact that CRD’s association with LNM remained robust after adjusting for tumor size and ETE suggests it may exert a direct pro-metastatic effect, a hypothesis that warrants urgent investigation in preclinical models. The observed association between younger age and LNM is consistent with prior studies showing that younger age is associated with a higher likelihood of lymph node metastasis or more extensive locoregional disease in papillary thyroid carcinoma, despite generally favorable overall survival ( 39 , 40 ). The clinical implications of our findings are suggestive but require prospective validation. The cCRDI, or a simplified version thereof, might eventually be integrated into clinical practice as a novel, non-invasive tool to aid in the risk stratification of thyroid nodules, particularly those with indeterminate cytology (Bethesda III-IV). A patient with a suspicious nodule and a high cCRDI score might warrant closer surveillance or a lower threshold for surgical intervention. For patients diagnosed with TC, a high cCRDI could potentially signal a higher a priori risk for occult metastases, which might influence the extent of the initial surgery, such as the decision to perform a prophylactic central neck dissection. From a public health perspective, our results provide preliminary evidence supporting the potential role of circadian health as a preventative strategy. For the vast population of patients with benign or low-risk thyroid nodules undergoing conservative management, lifestyle interventions aimed at regularizing sleep-wake cycles, optimizing meal timing, and avoiding night shift work may represent a crucial, patient-empowering strategy to potentially mitigate the risk of future malignant transformation. This study has several notable strengths, including its large sample size, reliance on gold-standard histopathological outcomes, the development of a comprehensive cumulative exposure index (cCRDI), and the use of rigorous statistical methods to control for confounding. However, certain limitations must be acknowledged. Firstly, the design, although robust, is retrospective, making it susceptible to recall bias in the self-reported questionnaire data used to construct the cCRDI. While we have demonstrated a strong association, definitive causality can only be established through prospective studies. Secondly, as a single-center study, our findings may require validation in other populations with different genetic backgrounds and lifestyle patterns. Finally, the cCRDI, while innovative, is a subjective measure of chronodisruption. Future research should aim to corroborate these findings using objective markers such as actigraphy, serial melatonin or cortisol profiling, and clock gene expression analyses. Prospective cohort studies are imperative to confirm our findings and to investigate whether interventions aimed at restoring circadian rhythm can actively reduce the risk of malignancy and progression in patients with thyroid nodules. Additionally, several specific limitations merit further discussion. First, the retrospective assessment of lifestyle behaviors during the 12-month period preceding the initial diagnosis of the index thyroid nodule is inherently vulnerable to differential recall bias, wherein patients with a cancer diagnosis may over-report adverse sleep and dietary habits, potentially inflating the observed associations. Specifically, the cCRDI captures a snapshot of behaviors during the 12-month period preceding the initial diagnosis of the index thyroid nodule and may not reflect lifetime exposure patterns. Therefore, an individual with a remote history of severe CRD (e.g., 20 years ago) who has recently adopted healthier habits would be misclassified into a lower CRD category, potentially biasing our results toward the null. Second, the cCRDI is a novel composite index that has not been externally validated; although exploratory analyses confirmed independent contributions of each component ( Supplementary Table 1 ), the index requires validation against objective circadian biomarkers in future studies. Third, preoperative Bethesda cytology classifications were not systematically retrievable for this historical surgical cohort. We acknowledge this as an important limitation, because Bethesda category is a major determinant of baseline malignancy risk in patients with thyroid nodules and residual confounding by preoperative cytologic risk cannot be excluded. Nevertheless, the fact that no nodule in either group exceeded 4.0 cm suggests that resections performed solely for compressive symptoms were uncommon, partially mitigating concerns about confounding by surgical indication. However, the decision for surgery in this cohort was guided by standard clinical practice, including suspicious ultrasound features (ACR TI-RADS) and/or compressive symptoms, and the use of definitive histopathology as the outcome mitigates the risk of misclassification inherent in cytology-based studies. Finally, while we adjusted for ACR TI-RADS scores, residual confounding by unmeasured factors cannot be excluded, and definitive causal inference will require prospective cohort studies with objective circadian phenotyping.",
+      "order": 14
+    },
+    {
+      "section": "Conclusion",
+      "text": "In conclusion, this propensity score-matched study provides preliminary evidence that cumulative CRD is a potent, independent risk factor for malignancy in patients with thyroid nodules. This association follows a dose-response relationship, with a non-linear acceleration in risk at higher levels of chronodisruption, suggesting a threshold effect. Furthermore, beyond its role in carcinogenesis, CRD was independently associated with tumor aggressiveness, most notably LNM. These findings suggest the potential utility of assessing a patient’s circadian health as a novel, modifiable factor for both risk stratification and potential prevention in the management of thyroid nodules.",
+      "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "B1",
+      "label": "1",
+      "authors": [
+        "Guth S",
+        "Theune U",
+        "Aberle J",
+        "Galach A",
+        "Bamberger CM"
+      ],
+      "title": "Very high prevalence of thyroid nodules detected by high frequency (13 MHz) ultrasound examination",
+      "journal": "Eur J Clin Invest",
+      "year": "2009",
+      "volume": "39",
+      "fpage": "699",
+      "lpage": "706",
+      "doi": "10.1111/j.1365-2362.2009.02162.x",
+      "pmid": "19601965"
+    },
+    {
+      "ref_id": "B2",
+      "label": "2",
+      "authors": [
+        "Haugen BR",
+        "Alexander EK",
+        "Bible KC",
+        "Doherty GM",
+        "Mandel SJ",
+        "Nikiforov YE",
+        "et al."
+      ],
+      "title": "2015 american thyroid association management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the american thyroid association guidelines task force on thyroid nodules and differentiated thyroid cancer",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2016",
+      "volume": "26",
+      "issue": "1",
+      "doi": "10.1089/thy.2015.0020",
+      "pmid": "26462967",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "B3",
+      "label": "3",
+      "authors": [
+        "Zhu Q",
+        "Liu J",
+        "Hu J",
+        "Zhang Y"
+      ],
+      "title": "The epidemiological landscape of thyroid cancer and estimates of overdiagnosis in China: A population-based study",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2025",
+      "volume": "35",
+      "doi": "10.1089/thy.2024.0583",
+      "pmid": "39970038"
+    },
+    {
+      "ref_id": "B4",
+      "label": "4",
+      "authors": [
+        "Li M",
+        "Dal Maso L",
+        "Pizzato M",
+        "Vaccarella S"
+      ],
+      "title": "Evolving epidemiological patterns of thyroid cancer and estimates of overdiagnosis in 2013–17 in 63 countries worldwide: a population-based study",
+      "journal": "Lancet Diabetes Endocrinol",
+      "year": "2024",
+      "volume": "12",
+      "doi": "10.1016/s2213-8587(24)00223-7",
+      "pmid": "39389067"
+    },
+    {
+      "ref_id": "B5",
+      "label": "5",
+      "authors": [
+        "Smith JR",
+        "Kamihara J",
+        "Church AJ",
+        "Asch E",
+        "Cherella CE",
+        "Fox VL",
+        "et al."
+      ],
+      "title": "Thyroid nodules in children with familial adenomatous polyposis",
+      "journal": "Am J Gastroenterol",
+      "year": "2022",
+      "volume": "117",
+      "doi": "10.14309/ajg.0000000000001747",
+      "pmid": "35333786"
+    },
+    {
+      "ref_id": "B6",
+      "label": "6",
+      "authors": [
+        "Kitahara CM",
+        "Sosa JA"
+      ],
+      "title": "The changing incidence of thyroid cancer",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2016",
+      "volume": "12",
+      "doi": "10.1038/nrendo.2016.110",
+      "pmid": "27418023",
+      "pmc_id": "PMC10311569"
+    },
+    {
+      "ref_id": "B7",
+      "label": "7",
+      "authors": [
+        "Ruan W",
+        "Yuan X",
+        "Eltzschig HK"
+      ],
+      "title": "Circadian rhythm as a therapeutic target",
+      "journal": "Nat Rev Drug Discov",
+      "year": "2021",
+      "volume": "20",
+      "fpage": "287",
+      "lpage": "307",
+      "doi": "10.1038/s41573-020-00109-w",
+      "pmid": "33589815",
+      "pmc_id": "PMC8525418"
+    },
+    {
+      "ref_id": "B8",
+      "label": "8",
+      "authors": [
+        "Roenneberg T",
+        "Merrow M"
+      ],
+      "title": "The circadian clock and human health",
+      "journal": "Curr Biology: CB",
+      "year": "2016",
+      "volume": "26",
+      "doi": "10.1016/j.cub.2016.04.011",
+      "pmid": "27218855"
+    },
+    {
+      "ref_id": "B9",
+      "label": "9",
+      "authors": [
+        "Sancar A",
+        "Lindsey-Boltz LA",
+        "Gaddameedhi S",
+        "Selby CP",
+        "Ye R",
+        "Chiou YY",
+        "et al."
+      ],
+      "title": "Circadian clock, cancer, and chemotherapy",
+      "journal": "Biochemistry",
+      "year": "2014",
+      "volume": "54",
+      "doi": "10.1021/bi5007354",
+      "pmid": "25302769",
+      "pmc_id": "PMC4303322"
+    },
+    {
+      "ref_id": "B10",
+      "label": "10",
+      "authors": [
+        "Malik S",
+        "Stokes J III",
+        "Manne U",
+        "Singh R",
+        "Mishra MK"
+      ],
+      "title": "Understanding the significance of biological clock and its impact on cancer incidence",
+      "journal": "Cancer Lett",
+      "year": "2021",
+      "volume": "527",
+      "fpage": "80",
+      "lpage": "94",
+      "doi": "10.1016/j.canlet.2021.12.006",
+      "pmid": "34906624",
+      "pmc_id": "PMC8816870"
+    },
+    {
+      "ref_id": "B11",
+      "label": "11",
+      "authors": [
+        "Zhou Z",
+        "Zhang R",
+        "Zhang Y",
+        "Xu Y",
+        "Wang R",
+        "Chen S",
+        "et al."
+      ],
+      "title": "Circadian disruption in cancer hallmarks: Novel insight into the molecular mechanisms of tumorigenesis and cancer treatment",
+      "journal": "Cancer Lett",
+      "year": "2024",
+      "volume": "604",
+      "elocation_id": "217273",
+      "doi": "10.1016/j.canlet.2024.217273",
+      "pmid": "39306230"
+    },
+    {
+      "ref_id": "B12",
+      "label": "12",
+      "authors": [
+        "Straif K",
+        "Baan R",
+        "Grosse Y",
+        "Secretan B",
+        "El Ghissassi F",
+        "Bouvard V",
+        "et al."
+      ],
+      "title": "Carcinogenicity of shift-work, painting, and fire-fighting",
+      "journal": "Lancet Oncol",
+      "year": "2007",
+      "volume": "8",
+      "doi": "10.1016/s1470-2045(07)70373-x",
+      "pmid": "19271347"
+    },
+    {
+      "ref_id": "B13",
+      "label": "13",
+      "authors": [
+        "Reiter RJ",
+        "Rosales-Corral SA",
+        "Tan DX",
+        "Acuna-Castroviejo D",
+        "Qin L",
+        "Yang SF",
+        "et al."
+      ],
+      "title": "Melatonin, a full service anti-cancer agent: Inhibition of initiation, progression and metastasis",
+      "journal": "Int J Mol Sci",
+      "year": "2017",
+      "volume": "18",
+      "issue": "4",
+      "fpage": "843",
+      "doi": "10.3390/ijms18040843",
+      "pmid": "28420185",
+      "pmc_id": "PMC5412427"
+    },
+    {
+      "ref_id": "B14",
+      "label": "14",
+      "authors": [
+        "Zhao H",
+        "Yin JY",
+        "Yang WS",
+        "Qin Q",
+        "Li TT",
+        "Shi Y",
+        "et al."
+      ],
+      "title": "Sleep duration and cancer risk: a systematic review and meta-analysis of prospective studies",
+      "journal": "Asian Pacific J Cancer Prevention: APJCP",
+      "year": "2013",
+      "volume": "14",
+      "doi": "10.7314/apjcp.2013.14.12.7509",
+      "pmid": "24460326"
+    },
+    {
+      "ref_id": "B15",
+      "label": "15",
+      "authors": [
+        "Schernhammer ES",
+        "Laden F",
+        "Speizer FE",
+        "Willett WC",
+        "Hunter DJ",
+        "Kawachi I",
+        "et al."
+      ],
+      "title": "Night-shift work and risk of colorectal cancer in the nurses' health study",
+      "journal": "J Natl Cancer Institute",
+      "year": "2003",
+      "volume": "95",
+      "doi": "10.1093/jnci/95.11.825",
+      "pmid": "12783938"
+    },
+    {
+      "ref_id": "B16",
+      "label": "16",
+      "authors": [
+        "Schernhammer ES",
+        "Laden F",
+        "Speizer FE",
+        "Willett WC",
+        "Hunter DJ",
+        "Kawachi I",
+        "et al."
+      ],
+      "title": "Rotating night shifts and risk of breast cancer in women participating in the nurses' health study",
+      "journal": "J Natl Cancer Inst",
+      "year": "2001",
+      "volume": "93",
+      "doi": "10.1093/jnci/93.20.1563",
+      "pmid": "11604480"
+    },
+    {
+      "ref_id": "B17",
+      "label": "17",
+      "authors": [
+        "Sigurdardottir LG",
+        "Valdimarsdottir UA",
+        "Mucci LA",
+        "Fall K",
+        "Rider JR",
+        "Schernhammer E",
+        "et al."
+      ],
+      "title": "Sleep disruption among older men and risk of prostate cancer",
+      "journal": "Cancer Epidemiol Biomarkers Prev",
+      "year": "2013",
+      "volume": "22",
+      "doi": "10.1158/1055-9965.epi-12-1227-t",
+      "pmid": "23652374",
+      "pmc_id": "PMC3652595"
+    },
+    {
+      "ref_id": "B18",
+      "label": "18",
+      "authors": [
+        "Lou X",
+        "Wang H",
+        "Tu Y",
+        "Tan W",
+        "Jiang C",
+        "Sun J",
+        "et al."
+      ],
+      "title": "Alterations of sleep quality and circadian rhythm genes expression in elderly thyroid nodule patients and risks associated with thyroid Malignancy",
+      "journal": "Sci Rep",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "13682",
+      "doi": "10.1038/s41598-021-93106-x",
+      "pmid": "34211057",
+      "pmc_id": "PMC8249375"
+    },
+    {
+      "ref_id": "B19",
+      "label": "19",
+      "authors": [
+        "Yan Y",
+        "Wang X",
+        "Wu H",
+        "Chen C",
+        "Li X",
+        "Yang R",
+        "et al."
+      ],
+      "title": "Short night-time sleep duration is associated with thyroid nodules: A community-based survey from Guangzhou, China",
+      "journal": "Postgrad Med",
+      "year": "2023",
+      "volume": "135",
+      "doi": "10.1080/00325481.2022.2139485",
+      "pmid": "36268949"
+    },
+    {
+      "ref_id": "B20",
+      "label": "20",
+      "authors": [
+        "Afrashteh S",
+        "Fararouei M",
+        "Parad MT",
+        "Mirahmadizadeh A"
+      ],
+      "title": "Sleep quality, stress and thyroid cancer: a case-control study",
+      "journal": "J Endocrinol Invest",
+      "year": "2022",
+      "volume": "45",
+      "doi": "10.1007/s40618-022-01751-4",
+      "pmid": "35112324"
+    },
+    {
+      "ref_id": "B21",
+      "label": "21",
+      "authors": [
+        "Zhang Y",
+        "Zhou S",
+        "Liu S",
+        "Wang Y",
+        "Zhou H",
+        "Wang J",
+        "et al."
+      ],
+      "title": "Association between night eating frequency and thyroid function and sensitivity: a cross-sectional study from the NHANES database",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "volume": "15",
+      "elocation_id": "1489459",
+      "doi": "10.3389/fendo.2024.1489459",
+      "pmid": "39764244",
+      "pmc_id": "PMC11700809"
+    },
+    {
+      "ref_id": "B22",
+      "label": "22",
+      "authors": [
+        "Ji C",
+        "Ou Y",
+        "Yu W",
+        "Lv J",
+        "Zhang F",
+        "Li H",
+        "et al."
+      ],
+      "title": "Thyroid-stimulating hormone-thyroid hormone signaling contributes to circadian regulation through repressing clock2/npas2 in zebrafish",
+      "journal": "J Genet Genomics = Yi Chuan Xue Bao",
+      "year": "2023",
+      "volume": "51",
+      "fpage": "61",
+      "lpage": "74",
+      "doi": "10.1016/j.jgg.2023.05.015",
+      "pmid": "37328030"
+    },
+    {
+      "ref_id": "B23",
+      "label": "23",
+      "authors": [
+        "Javaid U",
+        "Kennedy D",
+        "Addison C",
+        "Tsatlidis V",
+        "Razvi S"
+      ],
+      "title": "Frequency, determinants and costs of thyroid function testing in a laboratory serving a large population",
+      "journal": "Eur J Endocrinol",
+      "year": "2022",
+      "volume": "186",
+      "doi": "10.1530/eje-21-1172",
+      "pmid": "35275844"
+    },
+    {
+      "ref_id": "B24",
+      "label": "24",
+      "authors": [
+        "Sheppard MC"
+      ],
+      "title": "Thyrotrophin receptor expression: does it help in assessing the prognosis of thyroid cancer",
+      "journal": "Clin Endocrinol",
+      "year": "1993",
+      "volume": "39",
+      "doi": "10.1111/j.1365-2265.1993.tb02364.x",
+      "pmid": "8222288"
+    },
+    {
+      "ref_id": "B25",
+      "label": "25",
+      "authors": [
+        "Rowe CW",
+        "Paul JW",
+        "Gedye C",
+        "Tolosa JM",
+        "Bendinelli C",
+        "McGrath S",
+        "et al."
+      ],
+      "title": "Targeting the TSH receptor in thyroid cancer",
+      "journal": "Endocrine-related Cancer",
+      "year": "2017",
+      "volume": "24",
+      "doi": "10.1530/erc-17-0010",
+      "pmid": "28351942"
+    },
+    {
+      "ref_id": "B26",
+      "label": "26",
+      "authors": [
+        "Zong D",
+        "Sun B",
+        "Ye Q",
+        "Cao H",
+        "Guan H",
+        "et al."
+      ],
+      "title": "Circadian gene BMAL1 regulation of cellular senescence in thyroid aging",
+      "journal": "Aging Cell",
+      "year": "2025",
+      "volume": "24",
+      "elocation_id": "e70119",
+      "doi": "10.1111/acel.70119",
+      "pmid": "40434135",
+      "pmc_id": "PMC12341809"
+    },
+    {
+      "ref_id": "B27",
+      "label": "27",
+      "authors": [
+        "Putilov AA",
+        "Budkevich EV",
+        "Budkevich RO"
+      ],
+      "title": "A review of evidence for the involvement of the circadian clock genes into Malignant transformation of thyroid tissue",
+      "journal": "Clocks Sleep",
+      "year": "2023",
+      "volume": "5",
+      "doi": "10.3390/clockssleep5030029",
+      "pmid": "37489438",
+      "pmc_id": "PMC10366820"
+    },
+    {
+      "ref_id": "B28",
+      "label": "28",
+      "authors": [
+        "Putilov A"
+      ],
+      "title": "Prospects of testing diurnal profiles of expressions of TSH-R and circadian clock genes in thyrocytes for identification of preoperative biomarkers for thyroid carcinoma",
+      "journal": "Int J Mol Sci",
+      "year": "2022",
+      "volume": "23",
+      "issue": "20",
+      "fpage": "12208",
+      "doi": "10.3390/ijms232012208",
+      "pmid": "36293065",
+      "pmc_id": "PMC9603503"
+    },
+    {
+      "ref_id": "B29",
+      "label": "29",
+      "authors": [
+        "Yang M",
+        "Huang J",
+        "Zhang S",
+        "Zhao X",
+        "Feng D",
+        "Feng X"
+      ],
+      "title": "Melatonin mitigated circadian disruption and cardiovascular toxicity caused by 6-benzylaminopurine exposure in zebrafish",
+      "journal": "Ecotoxicology Environ Saf",
+      "year": "2021",
+      "volume": "223",
+      "elocation_id": "112555",
+      "doi": "10.1016/j.ecoenv.2021.112555",
+      "pmid": "34332249"
+    },
+    {
+      "ref_id": "B30",
+      "label": "30",
+      "authors": [
+        "Yang H",
+        "Zhang Z",
+        "Ding X",
+        "Jiang X",
+        "Tan L",
+        "Lin C",
+        "et al."
+      ],
+      "title": "RP58 knockdown contributes to hypoxia-ischemia-induced pineal dysfunction and circadian rhythm disruption in neonatal rats",
+      "journal": "J Pineal Res",
+      "year": "2023",
+      "volume": "75",
+      "elocation_id": "e12885",
+      "doi": "10.1111/jpi.12885",
+      "pmid": "37183291"
+    },
+    {
+      "ref_id": "B31",
+      "label": "31",
+      "authors": [
+        "Luo J",
+        "Sands M",
+        "Wactawski-Wende J",
+        "Song Y",
+        "Margolis KL",
+        "et al."
+      ],
+      "title": "Sleep disturbance and incidence of thyroid cancer in postmenopausal women the Women's Health Initiative",
+      "journal": "Am J Epidemiol",
+      "year": "2012",
+      "volume": "177",
+      "doi": "10.1093/aje/kws193",
+      "pmid": "23221728",
+      "pmc_id": "PMC3590038"
+    },
+    {
+      "ref_id": "B32",
+      "label": "32",
+      "authors": [
+        "Papantoniou K",
+        "Konrad P",
+        "Haghayegh S",
+        "Strohmaier S",
+        "Eliassen AH",
+        "Schernhammer E"
+      ],
+      "title": "Rotating night shift work, sleep, and thyroid cancer risk in the nurses' health study 2",
+      "journal": "Cancers",
+      "year": "2023",
+      "volume": "15",
+      "issue": "23",
+      "fpage": "5673",
+      "doi": "10.3390/cancers15235673",
+      "pmid": "38067376",
+      "pmc_id": "PMC10705158"
+    },
+    {
+      "ref_id": "B33",
+      "label": "33",
+      "authors": [
+        "Schumm MA",
+        "Shu ML",
+        "Hughes EG",
+        "Nikiforov YE",
+        "Nikiforova MN",
+        "Wald AI",
+        "et al."
+      ],
+      "title": "Prognostic value of preoperative molecular testing and implications for initial surgical management in thyroid nodules harboring suspected (Bethesda V) or known (Bethesda VI) papillary thyroid cancer",
+      "journal": "JAMA Otolaryngology-- Head Neck Surg",
+      "year": "2023",
+      "volume": "149",
+      "doi": "10.1001/jamaoto.2023.1494",
+      "pmid": "37382944",
+      "pmc_id": "PMC10311424"
+    },
+    {
+      "ref_id": "B34",
+      "label": "34",
+      "authors": [
+        "Landa I",
+        "Cabanillas ME"
+      ],
+      "title": "Genomic alterations in thyroid cancer: biological and clinical insights",
+      "journal": "Nat Rev Endocrinol",
+      "year": "2023",
+      "volume": "20",
+      "issue": "2",
+      "doi": "10.1038/s41574-023-00920-6",
+      "pmid": "38049644"
+    },
+    {
+      "ref_id": "B35",
+      "label": "35",
+      "authors": [
+        "Jasim S",
+        "Golding A",
+        "Bimston D",
+        "Alshalalfa M",
+        "Chen Y",
+        "Jiang R",
+        "et al."
+      ],
+      "title": "Cytologic and molecular assessment of isthmus thyroid nodules and carcinomas",
+      "journal": "Thyroid: Off J Am Thyroid Assoc",
+      "year": "2024",
+      "volume": "35",
+      "doi": "10.1089/thy.2024.0254",
+      "pmid": "39527399"
+    },
+    {
+      "ref_id": "B36",
+      "label": "36",
+      "authors": [
+        "Abiri B",
+        "Ramezani Ahmadi A",
+        "Valizadeh A",
+        "Abbaspour F",
+        "Valizadeh M",
+        "Hedayati M"
+      ],
+      "title": "Obesity and thyroid cancer: unraveling the connection through a systematic review and meta-analysis of cohort studies",
+      "journal": "J Diabetes Metab Disord",
+      "year": "2024",
+      "volume": "23",
+      "doi": "10.1007/s40200-024-01425-3",
+      "pmid": "38932807",
+      "pmc_id": "PMC11196530"
+    },
+    {
+      "ref_id": "B37",
+      "label": "37",
+      "authors": [
+        "Franchini F",
+        "Palatucci G",
+        "Colao A",
+        "Ungaro P",
+        "Macchia PE",
+        "Nettore IC"
+      ],
+      "title": "Obesity and thyroid cancer risk: An update",
+      "journal": "Int J Environ Res Public Health",
+      "year": "2022",
+      "volume": "19",
+      "issue": "3",
+      "fpage": "1116",
+      "doi": "10.3390/ijerph19031116",
+      "pmid": "35162142",
+      "pmc_id": "PMC8834607"
+    },
+    {
+      "ref_id": "B38",
+      "label": "38",
+      "authors": [
+        "Mou YK",
+        "Ren C",
+        "Li YM",
+        "Yu GH",
+        "Zheng GB",
+        "Song H",
+        "et al."
+      ],
+      "title": "Correlation analysis of clock genes and MEN2 medullary thyroid carcinoma",
+      "journal": "Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi",
+      "year": "2022",
+      "volume": "57",
+      "doi": "10.3760/cma.j.cn115330-20211225-00822",
+      "pmid": "36177562"
+    },
+    {
+      "ref_id": "B39",
+      "label": "39",
+      "authors": [
+        "Mao J",
+        "Zhang Q",
+        "Zhang H",
+        "Zheng K",
+        "Wang R",
+        "Wang G",
+        "et al."
+      ],
+      "title": "Risk factors for lymph node metastasis in papillary thyroid carcinoma: A systematic review and meta-analysis",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2020",
+      "volume": "11",
+      "elocation_id": "265",
+      "doi": "10.3389/fendo.2020.00265",
+      "pmid": "32477264",
+      "pmc_id": "PMC7242632"
+    },
+    {
+      "ref_id": "B40",
+      "label": "40",
+      "authors": [
+        "Liu Y",
+        "Wang Y",
+        "Zhao K",
+        "Li D",
+        "Chen Z",
+        "Jiang R",
+        "et al."
+      ],
+      "title": "Lymph node metastasis in young and middle-aged papillary thyroid carcinoma patients: a SEER-based cohort study",
+      "journal": "BMC Cancer",
+      "year": "2020",
+      "volume": "20",
+      "fpage": "181",
+      "doi": "10.1186/s12885-020-6675-0",
+      "pmid": "32131769",
+      "pmc_id": "PMC7057480"
+    }
+  ]
+}

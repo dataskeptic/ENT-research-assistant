@@ -1,0 +1,1122 @@
+{
+  "metadata": {
+    "title": "Comprehensive Immunophenotypic Profiling and Prognostic Value in Salivary Gland Mucoepidermoid Carcinoma",
+    "authors": [
+      "Vy Ngoc Thuy Tran",
+      "Komkrit Ruangritchankul",
+      "Nikolaos G. Nikitakis",
+      "João N. Ferreira",
+      "Risa Chaisuparat"
+    ],
+    "journal": "International Dental Journal",
+    "year": "2026",
+    "doi": "10.1016/j.identj.2026.109516",
+    "pmc_id": "PMC13066963",
+    "pmid": "41921445",
+    "full_text_available": true,
+    "section_count": 14,
+    "reference_count": 58
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Objectives To characterize the proliferative and immunophenotypic profiles of salivary gland mucoepidermoid carcinoma (MEC) and to explore their associations with clinicopathologic features, tumour microenvironment (TME) characteristics, Pan-TRK expression, and disease prognosis. Methods Forty-one MEC cases were examined using immunohistochemistry for Ki-67, Cytokeratin 19 (CK19), Aquaporin 5 (AQP5), CD3, CD8, and Pan-TRK. Clinicopathologic parameters were correlated with protein expression patterns to assess tumour behaviour and potential TRK fusion activity. Results Elevated Ki-67 expression correlated with aggressive histologic features and poor clinical outcomes. CK19 expression was significantly reduced in high-grade (HG) MECs, and its loss was associated with unfavourable prognosis. High tumour-infiltrating lymphocyte density correlated with an increased risk, while cases with poor outcomes exhibited heterogeneous CD3⁺ and CD8⁺ T-cell profiles. Pan-TRK expression was detected in only five cases (12.2%), typically weak and heterogeneous, and no robust correlation with cancer recurrence risk was present. Conclusions The heterogeneous immunophenotypic profiles observed in MEC reflect the biological complexity of the TME. Ki-67 was found to be a reliable indicator of tumour proliferative activity and an unfavourable prognosis. High Ki-67 expression, loss of CK19, and elevated TIL density were associated with increased recurrence risk. Although Pan-TRK expression was infrequent and not prognostically relevant, its occurrence in highly proliferative tumours suggests possible biologic interplay. Expanding immunophenotypic profiling to incorporate spatial analyses and single-cell–level characterization may deepen our understanding of MEC pathogenesis and support personalized therapeutic strategies.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Mucoepidermoid carcinoma (MEC) is the most common malignant neoplasm of the salivary glands (SG). 1 , 2 It exhibits marked histologic and clinical heterogeneity, ranging from indolent to highly aggressive. The latter often shows high rates of recurrence and metastasis and may exhibit resistance to conventional chemoradiotherapy. 3 , 4 Histologic grading remains a key prognostic indicator, as low-grade (LG) MECs generally show favourable outcomes, whereas high-grade (HG) tumours are associated with increased recurrence, metastatic potential, and reduced survival. 5 , 6 However, accurately predicting tumour behaviour remains challenging due to the variable biological characteristics of MEC. As tumours are complex organ-like structures composed of neoplastic cells and their surrounding microenvironment, 7 , 8 investigating the tumour microenvironment (TME) through specific marker profiles may provide valuable insights into MEC pathogenesis and support the development of more personalized therapeutic strategies. With recent research advances enabled by spatial omics, immunohistochemical markers have become essential tools for characterizing MEC at both molecular and phenotypic levels. 9 , 10 Ki-67 reflects the proliferative activity of tumour cells, and a high Ki-67 labelling index has been associated with aggressive behaviour and poor prognosis in various cancers, including head and neck malignancies. 11 , 12 , 13 Assessment of Ki-67 expression therefore provides meaningful prognostic insight into tumour growth dynamics. In addition, the TME of MEC consists of neoplastic epithelial cells and surrounding stromal and immune components. 8 The immune contexture, characterized by inflammatory infiltrates, also plays a crucial role in tumour progression and immune modulation. 14 , 15 Investigating these aspects can deepen understanding of MEC pathogenesis and identify prognostically relevant biomarkers. In parallel, research has highlighted the potential involvement of tropomyosin receptor kinase (Trk) signalling in SG neoplasms. 16 , 17 On this front, the U.S. Food and Drug Administration (FDA) recently approved two selective receptor tyrosine kinase inhibitors (RTKIs), larotrectinib (VITRAKVI, Loxo Oncology Inc. and Bayer) and entrectinib (ROZLYTREK, Genentech Inc.), for the treatment of tumours harbouring neurotrophic tropomyosin receptor kinase ( NTRK ) fusions, regardless of tumour types or histology. 18 , 19 , [20] This approval highlights the therapeutic potential of targeting NTRK fusions, which may offer an effective treatment option for MEC patients who are unresponsive to standard chemoradiotherapies. NTRK fusions have been identified across a wide range of malignancies, including lung, colorectal, breast, thyroid, and SG cancers, 21 , 22 however, their overall prevalence remains low – typically below 3% in most tumour types. 23 In MEC, NTRK fusions are rarely reported. Nevertheless, identifying these rare genetic alterations is clinically important, as targeted therapies have demonstrated striking clinical benefits in affected patients, including those with SG cancer. [17] , 18 , 19 Within this context, this study aimed to profile the proliferative (Ki-67), epithelial (CK19, AQP5), and immune (CD3, CD8) phenotypic clusters of MEC and to evaluate their associations with clinicopathologic characteristics, recurrence risk, and Pan-TRK expression.",
+      "order": 1
+    },
+    {
+      "section": "Mec Clinical Cohort",
+      "text": "This study included 51 samples, comprising 41 cases diagnosed with SG MEC, which were identical to those analysed in our previous study, and 10 normal SGs as controls. 24 Formalin-fixed paraffin-embedded (FFPE) tissue blocks were obtained from biopsy and surgical resection specimens archived between 2008 and 2022 at two major cancer centres in Thailand: Chulalongkorn University Dental Hospital and King Chulalongkorn Memorial Hospital. Comprehensive patient reports, including demographic, clinical, and outcome data, were reviewed. All haematoxylin and eosin (H&E) stained tissue slides were examined to confirm MEC diagnoses according to the 2023 WHO classification for head and neck tumors. 25 Histological features were recorded, and tumour grading was performed using Brandwein’s system by board-certified pathologists (R.C. and K.R.). 26 Tumour-infiltrating lymphocyte (TIL) densities were assessed on whole-slide tissue sections and quantified within intratumoral regions. TILs were evaluated according to the recommendations of the International TILs Working Group (ITWG), which provides a standardized methodology for TIL assessment across solid tumors. 27 Cases were excluded from the study if tissue samples were insufficient for analysis or if they had been pre-treated with a decalcification solution. This study was approved by the Human Research Ethics Committee of the Faculty of Dentistry at Chulalongkorn University (study code: HREC-DCU 2023-053; approved on July 7, 2023) in accordance with the principles set forth in the Declaration of Helsinki.",
+      "order": 2
+    },
+    {
+      "section": "Immunohistochemistry",
+      "text": "Tissue sections (4 μm) from FFPE tissue blocks were prepared for immunohistochemistry (IHC) protocols using antibodies against Ki-67, cytokeratin 19 (CK19), aquaporin 5 (AQP5), cluster of differentiation 3 (CD3), CD8, and Pan-TRK. The sources of antibodies, dilutions, antigen retrieval methods, and positive controls are summarized in Table 1 . Negative controls were included by substituting the primary antibody with an IgG isotype control.",
+      "order": 3
+    },
+    {
+      "section": "Imaging Analysis",
+      "text": "IHC slides were evaluated using both digital image analysis and conventional microscopic examination. Ki-67, CD3, CD8, and Pan-TRK expression were assessed using digital image analysis, while CK19 and AQP5 were evaluated by conventional light microscopy. For all markers, expressions were analysed specifically within the tumour areas. For digital image analysis, IHC slides were scanned at 20× magnification (0.9 μm/pixel) using the EVOS FL Auto Imaging System (Thermo Fisher Scientific, Carlsbad, CA, USA). Whole slide images (WSIs) were analysed using the open-source software QuPath (v0.3.2, University of Edinburgh, UK). 28 Tumour areas were manually delineated based on corresponding H&E-stained images, and IHC analyses were performed within these tumour regions. Objects detected within the tumour areas were classified as tumour cells or non-tumour cells, including stromal and immune cells, as well as irrelevant elements such as false detections ( Supplementary Figure S1 ). The delineation of tumour areas and the accuracy of cell classification were validated by a pathologist (R.C.). The scoring of Ki-67 staining was conducted according to the recommendations from the International Ki-67 in Breast Cancer Working Group. 11 , 29 Ki-67 positivity was indicated by the presence of stained nuclei, regardless of staining intensity. The Ki-67 labelling index (LI) was calculated as the percentage of positive tumour cells among a minimum of 1000 total tumour cells, counted across ten hotspot fields within the tumour areas on the whole sections. Hotspot fields, defined as areas with the highest density of Ki-67-positive tumour cell nuclei, were identified using heat map measurements generated in QuPath ( Supplementary Figure S2 ). Hotspots located in areas of necrosis, inflammation, microinvasion, or poor section quality were manually excluded to prevent false-positive detection. 30 CD3⁺ and CD8⁺ T cells were identified by brown membranous staining, and their densities were quantified by counting positive lymphocytes within tumour areas, as previously described. 24 Pan-TRK expression was defined by cytoplasmic and/or nuclear brown staining, with cases considered positive when ≥1% of tumour cells showed staining stronger than the background, regardless of localization. 31 , 32 Areas with artifacts or neuronal bundles that could lead to false interpretations were manually excluded. The expression patterns of Pan-TRK, including the types of positive cells, spatial distribution, and subcellular localization (nuclear, cytoplasmic, and membranous), were recorded. CK19 and AQP5 expressions were evaluated based on brown-coloured reactions in the cytoplasm and/or membrane. Marker expression was classified as negative (less than 10% of stained cells) or positive (more than 10% of stained cells), following previously described methods. 33 , 34",
+      "order": 4
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "Group comparisons were conducted using the Wilcoxon–Mann–Whitney test. Pearson correlation analysis was performed to assess associations between continuous variables. A Cox regression model was employed to analyse disease-free survival (DFS), defined as the time from curative surgery to locoregional recurrence or distant metastasis. All statistical analyses were conducted using SPSS (version 28, IBM, New York, USA), with a two-sided P -value of <.05 considered statistically significant.",
+      "order": 5
+    },
+    {
+      "section": "Mec Cohort Characteristics",
+      "text": "The study cohort included 41 human subjects diagnosed with MEC, with a mean age of 49.3 years. 24 The group comprised 11 males (26.8%) and 30 females (73.2%). Tumour location was evenly distributed between the major (53.7%, n = 22) and minor (46.3%, n = 19) SG. The parotid gland was the most affected site (43.9%, n = 18), followed by the palate (19.5%, n = 8), and submandibular gland (9.8%, n = 4). Follow-up data were available for 30 subjects. Among them, four patients developed local recurrence or distant metastasis. One elderly patient (78 years old) died of an unknown cause. The remaining 25 patients survived without evidence of cancer pathology at the last follow-up, which ranged from 5 months to 5 years (median: 27 months). Clinical and histopathological characteristics of the MEC cohort are illustrated in the heatmap ( Figure 1 ).",
+      "order": 6
+    },
+    {
+      "section": "Low Overall Proliferative Activity With Increased Ki-67 In Hg Mecs",
+      "text": "Ki-67 was evaluated as a marker of tumour proliferation. IHC revealed that MEC tissues exhibited a higher proliferation index compared to normal SG tissue ( Figure 2A , B ). Despite this relative increase, MEC cases showed generally low proliferative activity, with a cohort median Ki-67 LI below 5%. No significant difference in Ki-67 LI was found between tumours arising from major versus minor SGs ( P > .05; Figure 2D ). Although most tumours showed only scattered nuclear positivity, HG MECs showed a significant increase in Ki-67 expression, with numerous positively stained nuclei ( P < .01; Figure 2A , C ). Notably, HG cases with recurrence or metastasis exhibited Ki-67 LI >10%, whereas HG cases with favourable treatment outcomes had Ki-67 LI <10% ( Supplementary File 1 ).",
+      "order": 7
+    },
+    {
+      "section": "Positive Ck19 And Aqp5 Expression As Indicators Of Favourable Tumour Differentiation",
+      "text": "CK19, a ductal epithelial marker normally expressed in SG ductal cells, and AQP5, a water channel typically localized at the apical level in acinar epithelial cells, were positively expressed in most MEC cases ( Supplementary Figure S3 ). In tumour tissues, CK19 expression was predominantly localized to epithelial tumour cells within the tumour parenchyma ( Supplementary Figure S3 ). Notably, CK19 expression was significantly reduced in HG tumours compared with non–HG cases ( P < .01; Figure 3 ). Meanwhile, AQP5 was predominantly observed in mucous cells and occasionally in intermediate and clear cells. Consistently, its expression was reduced in solid patterns, which typically lack mucous cells. However, no major differences in AQP5 expression were observed across tumour grades ( P > .05; Figure 4 ).",
+      "order": 8
+    },
+    {
+      "section": "Elevated Intratumoral Til Infiltration In Hg Mec",
+      "text": "TILs play a critical role in anti-tumour immune responses. In MEC, overall intra-tumoral TIL density was low, with a median of 95 TILs/mm². Although TIL density tended to increase in HG tumours, the difference did not reach significance ( P = .053; Figure 5A ). CD3⁺ T cells ( r = 0.86, P < .001) and CD8⁺ cytotoxic subsets ( r = 0.92, P < .001) were strongly correlated with overall TIL density ( Figure 5B ). Interestingly, CD3⁺ T-cell density was higher in HG tumours ( P < .05, Figure 5A ), whereas CD8⁺ T-cell density did not differ across grades. Among HG cases, four tumours with recurrence or metastasis exhibited heterogeneous CD3 and CD8 profiles ( Figure 5C ), and their CD3/CD8 ratios did not differ from other HG tumours with favourable outcomes ( Figure 5D ).",
+      "order": 9
+    },
+    {
+      "section": "Weak Pan-Trk Expression Identified In Intermediate-Grade (Ig) And Hg Mec",
+      "text": "Pan-TRK IHC is recommended as an initial screening tool for detecting NTRK fusions. In MEC, weak cytoplasmic and/or membranous Pan-TRK positivity was observed in 5 cases (12.2%), whereas the remaining 36 cases (87.8%) were negative. In all positive tumours, staining involved fewer than 30% of tumour cells, and no nuclear reactivity was detected ( Figure 6A - C ). Weak Pan-TRK staining was occasionally observed in macrophages and neuronal bundles, independent of tumour Pan-TRK status. Normal SG tissues showed no immunoreactivity in any compartment ( Figure 6D ). Notably, the Pan-TRK–positive cases were graded as IG ( n = 3) or HG ( n = 2). All Pan-TRK–positive tumours had a Ki-67 LI above 5%, exceeding the cohort median, and exhibited greater proliferation than Pan-TRK–negative tumours ( P < .05; Supplementary Figure S4 ).",
+      "order": 10
+    },
+    {
+      "section": "Cox Regression Analysis And Prognostic Relevance Of Ihc Profiles In Mec",
+      "text": "Univariate Cox analysis revealed that a higher Ki-67 LI was significantly associated with increased recurrence risk ( P = .005; HR = 1.047; 95% CI: 1.014-1.081), indicating that a 1% increase in Ki-67 expression corresponded to a 4.7% increased risk of recurrence. CK19 positivity was associated with a reduced recurrence risk ( P = .029; HR = 0.080; 95% CI: 0.008-0.775), although the wide CI suggests uncertainty in the strength of this association. Lymphovascular invasion was strongly linked to recurrence ( P = .011; HR = 19.728; 95% CI: 1.961-198.512), though the very wide CI indicates limited precision and potential variability in effect size. Increased TIL density was also linked to a higher likelihood of recurrence ( P = .007; HR = 1.004; 95% CI: 1.001-1.007). However, CD3 ( P = .177; HR = 1.002; 95% CI: 0.999-1.005) and CD8 ( P = .057; HR = 1.010; 95% CI: 1.000-1.020) expression showed no meaningful correlation with disease progression ( Table 2 ). Only one patient in the Pan-TRK-positive cohort developed recurrence with metastasis to the liver and bone at 28-months post-diagnostic stage ( Supplementary Figure S5 ). Univariate Cox analysis also confirmed that Pan-TRK positivity was not associated with recurrence risk ( P = .832; HR = 1.279; 95% CI: 0.131-12.501), and the wide confidence interval reflects the limited precision of this estimate regarding its prognostic value. In the multivariate Cox regression analysis, IHC variables selected for their potential prognostic significance, including Ki-67 LI, CK19 expression, and Pan-TRK positivity, were not significantly associated with recurrence risk ( P > .05; Table 2 ).",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "Tumour heterogeneity plays a critical role in shaping cancer progression, treatment response, and prognosis. 35 , 36 In SG MEC, this heterogeneity is reflected in variations in histologic subtypes, proliferative activity, immune infiltration, and oncogenic signaling. 37 , 38 Investigating the proteomic profiles of MEC subtypes is therefore key to the identification of cancer prognostic factors of clinical relevance. In this MEC cohort study, the mean Ki-67 LI in SG MEC was low (∼5%), reflecting the typically low proliferative activity and favourable biological behaviour of this tumour type. 39 , 40 Specifically, most non–HG tumours showed low Ki-67 LI (around 4%), whereas HG tumours displayed increased levels (approximately 10%), consistent with previous reports. 39 , 41 As no standardized Ki-67 quantification guideline exists for mucoepidermoid carcinoma or SG malignancies, the recommendations of the International Ki-67 in Breast Cancer Working Group were applied in this study cohort. Although originally developed for breast cancer, criteria such as Ki-67 LI calculation and hotspot evaluation of positively stained tumour nuclei have been widely applied across multiple tumour types, including SG cancers. 42 , 43 , 44 In breast cancer, Ki-67 is widely used as a prognostic and predictive biomarker; however, its optimal cut-off value remains controversial. 11 , 45 Notably, the Ki-67 cut-off value for prognostic assessment might vary by tumour type and can be influenced by technical factors such as counting methods, and inter-observer variability. 45 In our MEC cohort, main findings indicate that a Ki-67 LI threshold of 10% in HG MECs may help identify patients at increased risk for recurrence or metastasis. However, multivariate analysis suggested that Ki-67 LI is not independently predictive of disease-free survival, although it correlates with histologic grade and provides supportive prognostic information. Therefore, Ki-67 may be useful for risk stratification in MEC, but its utility as a standalone prognostic marker remains limited. To further investigate tumour behaviour and the TME in MEC, we evaluated additional key SG tumour proteomic markers. Interestingly, although CK19 was observed in most MEC cases, with expression varying among different tumour cell types, it was largely absent in tumours associated with poor clinical outcomes. While CK19 has been associated with poor prognosis in other malignancies, including thyroid, lung, pancreatic, colorectal, and breast cancers, our findings indicate a favourable correlation in MEC, possibly reflecting a more differentiated phenotype consistent with its excretory ductal origin. 46 , 47 Importantly, Cox regression analysis revealed that CK19 expression was associated with a lower risk of recurrence or metastasis, although the wide confidence interval suggests uncertainty in regard to the strength of this association. Loss of CK19 may therefore reflect dedifferentiation and increased aggressiveness in HG tumours. Notably, in our cohort, there was one MEC case with strong CK19 expression that ultimately developed recurrence and metastasis; however, the delayed disease progression in this patient suggests a slower tumour course compared to CK19-negative tumours. In contrast, AQP5 expression showed no association with recurrence or metastasis, consistent with prior studies, though its overexpression may reflect activation of oncogenic pathways, as observed in other cancers such as those of the lung and esophagus. 33 , 48 , 49 Note that AQP5 has a typical apical location in the plasma membrane of acinar epithelial cells in normal SG. In MEC, however, AQP5 was found in both the membrane and cytoplasm of mucous cells, and occasionally in intermediate and clear cells, suggesting disrupted cellular polarity and altered differentiation. TILs are key modulators of anti-tumour immunity, and their distribution within the TME can influence tumour progression and immune escape. 14 Consequently, we evaluated the intra-tumoral TIL density in MEC and observed a trend toward increased infiltration in HG tumours. However, overall TIL density alone provided limited prognostic value in MEC, and only CD3⁺ T-cell density reached statistical significance across tumour grades. This pattern is consistent with our previous findings, showing that CD3⁺ T cells are more prominent in the tumour core, whereas CD8⁺ cytotoxic T cells preferentially accumulate in the inner invasive margin of HG MEC. 24 These observations support the concept that spatial TIL distribution plays a critical role in shaping the tumour immune microenvironment. 7 Despite the observed association between higher TIL density and increased risk of recurrence in this cohort, 24 , 50 neither CD3⁺ nor CD8⁺ T-cell densities were associated with DFS. Furthermore, among HG cases, CD8/CD3 ratios were similar between subjects with favourable outcomes and those who developed recurrence. The poor-outcome cases also showed heterogeneous CD3 and CD8 profiles. This variability limits our ability to interpret the protective role of TILs when relying on general density measures alone. Future studies incorporating spatially resolved immune profiling will be crucial to determine how distinct TIL neighbourhoods contribute to immune evasion and response to immune checkpoint inhibitors, thereby improving patient stratification and guiding personalized immunotherapy strategies in MEC. 51 As targeted therapies continue to advance, identifying actionable genetic alterations has become increasingly important in cancer management. Among these, NTRK gene fusions have emerged as promising therapeutic targets, particularly with the market availability of selective TRK inhibitors such as larotrectinib and entrectinib. 20 Hence, Pan-TRK expression was assessed in this study and found infrequent and weak in MEC, alike previous reports. Notably, staining was confined to the cytoplasm and membrane, with no nuclear expression, suggesting the likely absence of ETV6–NTRK3 fusions, which are typically associated with nuclear staining. 52 , 53 , 54 Pan-TRK–positive cases showed no clear association with prognosis, although expression was slightly more common in tumours with higher Ki-67 levels and higher histologic grade. The biological relevance of this weak cytoplasmic staining remains questionable and may reflect non–fusion-related Trk expression rather than true oncogenic activation. Together with evidence of false-positive staining – driven by antibody clone differences, tumour-specific background, and interpretation challenges – these findings support that true NTRK fusion events are likely rare in MEC. 55 , 56 These results indicate that TRK-targeted therapy is unlikely to benefit the majority of MEC patients. However, Pan-TRK IHC may still serve as an initial screening tool to identify rare cases warranting confirmatory molecular testing, particularly in advanced or refractory disease where targeted therapy is being considered. While Pan-TRK IHC remains useful for triage, definitive therapeutic decisions should rely on molecular confirmation of NTRK fusions. 57 , 58 As a retrospective analysis, this study poses several limitations. Firstly, it does not account for therapeutic responses, and the relatively limited sample size due to scarce MEC cases may cap the detection of rare events, such as NTRK fusions. Nevertheless, our findings provide clinically relevant insights by demonstrating that high Ki-67 expression, CK19 loss, and elevated TIL density are associated with increased recurrence risk, supporting their potential use in prognostic stratification. Subsequent studies should focus on a multi-omic analytical approach, incorporating spatial transcriptomics, and whole slide digital imaging and analysis of TILs, to better elucidate the functional consequences of tumour heterogeneity and its impact on prognosis and therapeutic response.",
+      "order": 12
+    },
+    {
+      "section": "Conclusion",
+      "text": "SG MEC displays substantial heterogeneity in proliferation, epithelial differentiation, and immune profiles. Ki-67 reliably reflects tumour proliferative activity, with higher LI in HG or poor-outcome tumours, supporting its use in risk stratification. CK19 loss may indicate dedifferentiation, whereas AQP5 showed no clear prognostic value. Pan-TRK expression was rare, cytoplasmic, and non-prognostic, consistent with the low prevalence of NTRK fusions, though it may co-occur with proliferative tumours. Heterogeneous TIL patterns highlight the limitation of overall density measurements and emphasize the need for more spatially resolved immune assessment. Integrating proliferation, epithelial differentiation, and immune biomarker profiling enhances prognostic evaluation in MEC and may assist clinicians in making risk-adapted treatment decisions.",
+      "order": 13
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib0001",
+      "label": "1",
+      "authors": [
+        "Brandwein MS",
+        "Ivanov K",
+        "Wallace DI",
+        "et al."
+      ],
+      "title": "Mucoepidermoid carcinoma: a clinicopathologic study of 80 patients with special reference to histological grading",
+      "journal": "Am J Surg Pathol",
+      "year": "2001",
+      "volume": "25",
+      "fpage": "835",
+      "lpage": "845",
+      "pmid": "11420454",
+      "doi": "10.1097/00000478-200107000-00001"
+    },
+    {
+      "ref_id": "bib0002",
+      "label": "2",
+      "authors": [
+        "Speight PM",
+        "Barrett AW"
+      ],
+      "title": "Salivary gland tumours",
+      "journal": "Oral Dis",
+      "year": "2002",
+      "volume": "8",
+      "fpage": "229",
+      "lpage": "240",
+      "pmid": "12363107",
+      "doi": "10.1034/j.1601-0825.2002.02870.x"
+    },
+    {
+      "ref_id": "bib0003",
+      "label": "3",
+      "authors": [
+        "Laurie SA",
+        "Licitra L"
+      ],
+      "title": "Systemic therapy in the palliative management of advanced salivary gland cancers",
+      "journal": "J Clin Oncol",
+      "year": "2006",
+      "volume": "24",
+      "fpage": "2673",
+      "lpage": "2678",
+      "pmid": "16763282",
+      "doi": "10.1200/JCO.2005.05.3025"
+    },
+    {
+      "ref_id": "bib0004",
+      "label": "4",
+      "authors": [
+        "Alfieri S",
+        "Granata R",
+        "Bergamini C",
+        "et al."
+      ],
+      "title": "Systemic therapy in metastatic salivary gland carcinomas: a pathology-driven paradigm?",
+      "journal": "Oral Oncol",
+      "year": "2017",
+      "volume": "66",
+      "fpage": "58",
+      "lpage": "63",
+      "pmid": "28249649",
+      "doi": "10.1016/j.oraloncology.2016.12.016"
+    },
+    {
+      "ref_id": "bib0005",
+      "label": "5",
+      "authors": [
+        "Chen MM",
+        "Roman SA",
+        "Sosa JA",
+        "et al."
+      ],
+      "title": "Histologic grade as prognostic indicator for mucoepidermoid carcinoma: a population-level analysis of 2400 patients",
+      "journal": "Head Neck",
+      "year": "2014",
+      "volume": "36",
+      "fpage": "158",
+      "lpage": "163",
+      "pmid": "23765800",
+      "doi": "10.1002/hed.23256"
+    },
+    {
+      "ref_id": "bib0006",
+      "label": "6",
+      "authors": [
+        "Katabi N",
+        "Ghossein R",
+        "Ali S",
+        "et al."
+      ],
+      "title": "Prognostic features in mucoepidermoid carcinoma of major salivary glands with emphasis on tumour histologic grading",
+      "journal": "Histopathology",
+      "year": "2014",
+      "volume": "65",
+      "fpage": "793",
+      "lpage": "804",
+      "pmid": "25040772",
+      "doi": "10.1111/his.12488"
+    },
+    {
+      "ref_id": "bib0007",
+      "label": "7",
+      "authors": [
+        "Fu T",
+        "Dai LJ",
+        "Wu SY",
+        "et al."
+      ],
+      "title": "Spatial architecture of the immune microenvironment orchestrates tumor immunity and therapeutic response",
+      "journal": "J Hematol Oncol",
+      "year": "2021",
+      "volume": "14",
+      "fpage": "98",
+      "pmid": "34172088",
+      "doi": "10.1186/s13045-021-01103-4",
+      "pmc_id": "PMC8234625"
+    },
+    {
+      "ref_id": "bib0008",
+      "label": "8",
+      "authors": [
+        "Pertzborn D",
+        "Arolt C",
+        "Ernst G",
+        "et al."
+      ],
+      "title": "Multi-class cancer subtyping in salivary gland carcinomas with MALDI imaging and deep learning",
+      "journal": "Cancers (Basel)",
+      "year": "2022",
+      "volume": "14",
+      "fpage": "4342",
+      "pmid": "36077876",
+      "doi": "10.3390/cancers14174342",
+      "pmc_id": "PMC9454426"
+    },
+    {
+      "ref_id": "bib0009",
+      "label": "9",
+      "authors": [
+        "Porcheri C",
+        "Meisel CT",
+        "Mitsiadis TA"
+      ],
+      "title": "Molecular and cellular modelling of salivary gland tumors open new landscapes in diagnosis and treatment",
+      "journal": "Cancers (Basel)",
+      "year": "2020",
+      "volume": "12",
+      "fpage": "3107",
+      "pmid": "33114321",
+      "doi": "10.3390/cancers12113107",
+      "pmc_id": "PMC7690880"
+    },
+    {
+      "ref_id": "bib0010",
+      "label": "10",
+      "authors": [
+        "Mueller SK",
+        "Haderlein M",
+        "Lettmaier S",
+        "et al."
+      ],
+      "title": "Targeted therapy, chemotherapy, immunotherapy and novel treatment options for different subtypes of salivary gland cancer",
+      "journal": "J Clin Med",
+      "year": "2022",
+      "volume": "11",
+      "fpage": "720",
+      "pmid": "35160172",
+      "doi": "10.3390/jcm11030720",
+      "pmc_id": "PMC8836387"
+    },
+    {
+      "ref_id": "bib0011",
+      "label": "11",
+      "authors": [
+        "Lashen AG",
+        "Toss MS",
+        "Ghannam SF",
+        "et al."
+      ],
+      "title": "Expression, assessment and significance of Ki67 expression in breast cancer: an update",
+      "journal": "J Clin Pathol",
+      "year": "2023",
+      "volume": "76",
+      "fpage": "357",
+      "lpage": "364",
+      "pmid": "36813558",
+      "doi": "10.1136/jcp-2022-208731"
+    },
+    {
+      "ref_id": "bib0012",
+      "label": "12",
+      "authors": [
+        "Bussari S",
+        "Ganvir SM",
+        "Sarode M",
+        "et al."
+      ],
+      "title": "Immunohistochemical detection of proliferative marker Ki-67 in benign and malignant salivary gland tumors",
+      "journal": "J Contemp Dent Pract",
+      "year": "2018",
+      "volume": "19",
+      "fpage": "375",
+      "lpage": "383",
+      "pmid": "29728539"
+    },
+    {
+      "ref_id": "bib0013",
+      "label": "13",
+      "authors": [
+        "Szentkúti G",
+        "Dános K",
+        "Brauswetter D",
+        "et al."
+      ],
+      "title": "Correlations between prognosis and regional biomarker profiles in head and neck squamous cell carcinomas",
+      "journal": "Pathol Oncol Res",
+      "year": "2015",
+      "volume": "21",
+      "fpage": "643",
+      "lpage": "650",
+      "pmid": "25547827",
+      "doi": "10.1007/s12253-014-9869-4"
+    },
+    {
+      "ref_id": "bib0014",
+      "label": "14",
+      "authors": [
+        "Binnewies M",
+        "Roberts EW",
+        "Kersten K",
+        "et al."
+      ],
+      "title": "Understanding the tumor immune microenvironment (TIME) for effective therapy",
+      "journal": "Nat Med",
+      "year": "2018",
+      "volume": "24",
+      "fpage": "541",
+      "lpage": "550",
+      "pmid": "29686425",
+      "doi": "10.1038/s41591-018-0014-x",
+      "pmc_id": "PMC5998822"
+    },
+    {
+      "ref_id": "bib0015",
+      "label": "15",
+      "authors": [
+        "Zhao H",
+        "Wu L",
+        "Yan G",
+        "et al."
+      ],
+      "title": "Inflammation and tumor progression: signaling pathways and targeted intervention",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2021",
+      "volume": "6",
+      "fpage": "263",
+      "pmid": "34248142",
+      "doi": "10.1038/s41392-021-00658-5",
+      "pmc_id": "PMC8273155"
+    },
+    {
+      "ref_id": "bib0016",
+      "label": "16",
+      "authors": [
+        "O’Haire S",
+        "Franchini F",
+        "Kang YJ",
+        "et al."
+      ],
+      "title": "Systematic review of NTRK 1/2/3 fusion prevalence pan-cancer and across solid tumours",
+      "journal": "Sci Rep",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "4116",
+      "pmid": "36914665",
+      "doi": "10.1038/s41598-023-31055-3",
+      "pmc_id": "PMC10011574"
+    },
+    {
+      "ref_id": "bib0017",
+      "label": "17",
+      "authors": [
+        "Le X",
+        "Baik C",
+        "Bauman J",
+        "et al."
+      ],
+      "title": "Larotrectinib treatment for patients with TRK fusion-positive salivary gland cancers",
+      "journal": "Oncologist",
+      "year": "2022",
+      "volume": "29",
+      "fpage": "e779",
+      "lpage": "e788",
+      "pmid": "35536733",
+      "doi": "10.1093/oncolo/oyac080",
+      "pmc_id": "PMC11144979"
+    },
+    {
+      "ref_id": "bib0018",
+      "label": "18",
+      "authors": [
+        "Drilon A",
+        "Laetsch TW",
+        "Kummar S",
+        "et al."
+      ],
+      "title": "Efficacy of Larotrectinib in TRK fusion-positive cancers in adults and children",
+      "journal": "N Engl J Med",
+      "year": "2018",
+      "volume": "378",
+      "fpage": "731",
+      "lpage": "739",
+      "pmid": "29466156",
+      "doi": "10.1056/NEJMoa1714448",
+      "pmc_id": "PMC5857389"
+    },
+    {
+      "ref_id": "bib0019",
+      "label": "19",
+      "authors": [
+        "Doebele RC",
+        "Drilon A",
+        "Paz-Ares L",
+        "et al."
+      ],
+      "title": "Entrectinib in patients with advanced or metastatic NTRK fusion-positive solid tumours: integrated analysis of three phase 1-2 trials",
+      "journal": "Lancet Oncol",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "271",
+      "lpage": "282",
+      "pmid": "31838007",
+      "doi": "10.1016/S1470-2045(19)30691-6",
+      "pmc_id": "PMC7461630"
+    },
+    {
+      "ref_id": "bib0020",
+      "label": "20",
+      "raw_citation": "Food and Drug Administration Website. Approved drug products with therapeutic equivalence evaluations 2021 Available from: https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book . Accessed 26 October 2021."
+    },
+    {
+      "ref_id": "bib0021",
+      "label": "21",
+      "authors": [
+        "Westphalen CB",
+        "Krebs MG",
+        "Le Tourneau C",
+        "et al."
+      ],
+      "title": "Genomic context of NTRK1/2/3 fusion-positive tumours from a large real-world population",
+      "journal": "NPJ Precis Oncol",
+      "year": "2021",
+      "volume": "5",
+      "fpage": "69",
+      "pmid": "34285332",
+      "doi": "10.1038/s41698-021-00206-y",
+      "pmc_id": "PMC8292342"
+    },
+    {
+      "ref_id": "bib0022",
+      "label": "22",
+      "authors": [
+        "Solomon JP",
+        "Linkov I",
+        "Rosado A",
+        "et al."
+      ],
+      "title": "NTRK fusion detection across multiple assays and 33,997 cases: diagnostic implications and pitfalls",
+      "journal": "Mod Pathol",
+      "year": "2020",
+      "volume": "33",
+      "fpage": "38",
+      "lpage": "46",
+      "pmid": "31375766",
+      "doi": "10.1038/s41379-019-0324-7",
+      "pmc_id": "PMC7437403"
+    },
+    {
+      "ref_id": "bib0023",
+      "label": "23",
+      "authors": [
+        "Okamura R",
+        "Boichard A",
+        "Kato S",
+        "et al."
+      ],
+      "title": "Analysis of NTRK alterations in pan-cancer adult and pediatric malignancies: implications for NTRK-targeted therapeutics",
+      "journal": "JCO Precis Oncol",
+      "year": "2018",
+      "volume": "2",
+      "fpage": "1",
+      "lpage": "20",
+      "doi": "10.1200/PO.18.00183",
+      "pmc_id": "PMC6329466",
+      "pmid": "30637364"
+    },
+    {
+      "ref_id": "bib0024",
+      "label": "24",
+      "authors": [
+        "Tran VNT",
+        "Ruangritchankul K",
+        "Nikitakis NG",
+        "et al."
+      ],
+      "title": "Immunoarchitectural pattern and its potential prognostic value in mucoepidermoid carcinoma",
+      "journal": "Oral Dis",
+      "year": "2024",
+      "volume": "31",
+      "fpage": "1745",
+      "lpage": "1756",
+      "pmid": "39652836",
+      "doi": "10.1111/odi.15216"
+    },
+    {
+      "ref_id": "bib0025",
+      "label": "25",
+      "authors": [
+        "Agarwal A",
+        "Bhatt AA",
+        "Bathla G",
+        "et al."
+      ],
+      "title": "Update from the 5th edition of the WHO classification of nasal, paranasal, and skull base tumors: imaging overview with histopathologic and genetic correlation",
+      "journal": "AJNR Am J Neuroradiol",
+      "year": "2023",
+      "volume": "44",
+      "fpage": "1116",
+      "lpage": "1125",
+      "pmid": "37591773",
+      "doi": "10.3174/ajnr.A7960",
+      "pmc_id": "PMC10549938"
+    },
+    {
+      "ref_id": "bib0026",
+      "label": "26",
+      "authors": [
+        "Brandwein MS",
+        "Ferlito A",
+        "Bradley PJ",
+        "et al."
+      ],
+      "title": "Diagnosis and classification of salivary neoplasms: pathologic challenges and relevance to clinical outcomes",
+      "journal": "Acta Otolaryngol",
+      "year": "2002",
+      "volume": "122",
+      "fpage": "758",
+      "lpage": "764",
+      "pmid": "12484654"
+    },
+    {
+      "ref_id": "bib0027",
+      "label": "27",
+      "authors": [
+        "Salgado R",
+        "Denkert C",
+        "Demaria S",
+        "et al."
+      ],
+      "title": "The evaluation of tumor-infiltrating lymphocytes (TILs) in breast cancer: recommendations by an International TILs Working Group 2014",
+      "journal": "Ann Oncol",
+      "year": "2015",
+      "volume": "26",
+      "fpage": "259",
+      "lpage": "271",
+      "pmid": "25214542",
+      "doi": "10.1093/annonc/mdu450",
+      "pmc_id": "PMC6267863"
+    },
+    {
+      "ref_id": "bib0028",
+      "label": "28",
+      "authors": [
+        "Bankhead P",
+        "Loughrey MB",
+        "Fernandez JA",
+        "et al."
+      ],
+      "title": "QuPath: open source software for digital pathology image analysis",
+      "journal": "Sci Rep",
+      "year": "2017",
+      "volume": "7",
+      "doi": "10.1038/s41598-017-17204-5",
+      "pmc_id": "PMC5715110",
+      "pmid": "29203879"
+    },
+    {
+      "ref_id": "bib0029",
+      "label": "29",
+      "authors": [
+        "Penault-Llorca F",
+        "Radosevic-Robin N"
+      ],
+      "title": "Ki67 assessment in breast cancer: an update",
+      "journal": "Pathology",
+      "year": "2017",
+      "volume": "49",
+      "fpage": "166",
+      "lpage": "171",
+      "pmid": "28065411",
+      "doi": "10.1016/j.pathol.2016.11.006"
+    },
+    {
+      "ref_id": "bib0030",
+      "label": "30",
+      "authors": [
+        "Focke CM",
+        "Decker T",
+        "van Diest PJ"
+      ],
+      "title": "Intratumoral heterogeneity of Ki67 expression in early breast cancers exceeds variability between individual tumours",
+      "journal": "Histopathology",
+      "year": "2016",
+      "volume": "69",
+      "fpage": "849",
+      "lpage": "861",
+      "pmid": "27270560",
+      "doi": "10.1111/his.13007"
+    },
+    {
+      "ref_id": "bib0031",
+      "label": "31",
+      "authors": [
+        "De Winne K",
+        "Sorber L",
+        "Lambin S",
+        "et al."
+      ],
+      "title": "Immunohistochemistry as a screening tool for NTRK gene fusions: results of a first Belgian ring trial",
+      "journal": "Virchows Arch",
+      "year": "2021",
+      "volume": "478",
+      "fpage": "283",
+      "lpage": "291",
+      "pmid": "32915263",
+      "doi": "10.1007/s00428-020-02921-6",
+      "pmc_id": "PMC7969564"
+    },
+    {
+      "ref_id": "bib0032",
+      "label": "32",
+      "authors": [
+        "Hechtman JF",
+        "Benayed R",
+        "Hyman DM",
+        "et al."
+      ],
+      "title": "Pan-Trk immunohistochemistry is an efficient and reliable screen for the detection of NTRK fusions",
+      "journal": "Am J Surg Pathol",
+      "year": "2017",
+      "volume": "41",
+      "fpage": "1547",
+      "lpage": "1551",
+      "pmid": "28719467",
+      "doi": "10.1097/PAS.0000000000000911",
+      "pmc_id": "PMC5636652"
+    },
+    {
+      "ref_id": "bib0033",
+      "label": "33",
+      "authors": [
+        "Stamboni MB",
+        "Gomes ANM",
+        "Souza MM",
+        "et al."
+      ],
+      "title": "Aquaporin 1, 3, and 5 patterns in salivary gland mucoepidermoid carcinoma: expression in surgical specimens and an in vitro pilot study",
+      "journal": "Int J Mol Sci",
+      "year": "2020",
+      "volume": "21",
+      "fpage": "1287",
+      "pmid": "32075009",
+      "doi": "10.3390/ijms21041287",
+      "pmc_id": "PMC7073006"
+    },
+    {
+      "ref_id": "bib0034",
+      "label": "34",
+      "authors": [
+        "Azevedo RS",
+        "de Almeida O P",
+        "Kowalski LP",
+        "et al."
+      ],
+      "title": "Comparative cytokeratin expression in the different cell types of salivary gland mucoepidermoid carcinoma",
+      "journal": "Head Neck Pathol",
+      "year": "2008",
+      "volume": "2",
+      "fpage": "257",
+      "lpage": "264",
+      "pmid": "20614291",
+      "doi": "10.1007/s12105-008-0074-1",
+      "pmc_id": "PMC2807572"
+    },
+    {
+      "ref_id": "bib0035",
+      "label": "35",
+      "authors": [
+        "Yousaf A",
+        "Sulong S",
+        "Abdullah B",
+        "et al."
+      ],
+      "title": "Heterogeneity of genetic landscapes in salivary gland tumors and their critical roles in current management",
+      "journal": "Medeni Med J",
+      "year": "2022",
+      "volume": "37",
+      "fpage": "194",
+      "lpage": "202",
+      "pmid": "35735183",
+      "doi": "10.4274/MMJ.galenos.2022.63139",
+      "pmc_id": "PMC9234367"
+    },
+    {
+      "ref_id": "bib0036",
+      "label": "36",
+      "authors": [
+        "Cirillo N",
+        "Wu C",
+        "Prime SS"
+      ],
+      "title": "Heterogeneity of cancer stem cells in tumorigenesis, metastasis, and resistance to antineoplastic treatment of head and neck tumours",
+      "journal": "Cells",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "3068",
+      "pmid": "34831291",
+      "doi": "10.3390/cells10113068",
+      "pmc_id": "PMC8619944"
+    },
+    {
+      "ref_id": "bib0037",
+      "label": "37",
+      "authors": [
+        "Bou Zerdan M",
+        "Kumar PA",
+        "Zaccarini D",
+        "et al."
+      ],
+      "title": "Molecular targets in salivary gland cancers: a comprehensive genomic analysis of 118 mucoepidermoid carcinoma tumors",
+      "journal": "Biomedicines",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "519",
+      "pmid": "36831055",
+      "doi": "10.3390/biomedicines11020519",
+      "pmc_id": "PMC9953533"
+    },
+    {
+      "ref_id": "bib0038",
+      "label": "38",
+      "authors": [
+        "Kang H",
+        "Seo MK",
+        "Park B",
+        "et al."
+      ],
+      "title": "Characterizing intrinsic molecular features of the immune subtypes of salivary mucoepidermoid carcinoma",
+      "journal": "Transl Oncol",
+      "year": "2022",
+      "volume": "24",
+      "doi": "10.1016/j.tranon.2022.101496",
+      "pmc_id": "PMC9352547",
+      "pmid": "35917642"
+    },
+    {
+      "ref_id": "bib0039",
+      "label": "39",
+      "authors": [
+        "Okabe M",
+        "Inagaki H",
+        "Murase T",
+        "et al."
+      ],
+      "title": "Prognostic significance of p27 and Ki-67 expression in mucoepidermoid carcinoma of the intraoral minor salivary gland",
+      "journal": "Mod Pathol",
+      "year": "2001",
+      "volume": "14",
+      "fpage": "1008",
+      "lpage": "1014",
+      "pmid": "11598171",
+      "doi": "10.1038/modpathol.3880426"
+    },
+    {
+      "ref_id": "bib0040",
+      "label": "40",
+      "authors": [
+        "Vargas PA",
+        "Cheng Y",
+        "Barrett AW",
+        "et al."
+      ],
+      "title": "Expression of Mcm-2, Ki-67 and geminin in benign and malignant salivary gland tumours",
+      "journal": "J Oral Pathol Med",
+      "year": "2008",
+      "volume": "37",
+      "fpage": "309",
+      "lpage": "318",
+      "pmid": "18248354",
+      "doi": "10.1111/j.1600-0714.2007.00631.x"
+    },
+    {
+      "ref_id": "bib0041",
+      "label": "41",
+      "authors": [
+        "Triantafillidou K",
+        "Dimitrakopoulos J",
+        "Iordanidis F",
+        "et al."
+      ],
+      "title": "Mucoepidermoid carcinoma of minor salivary glands: a clinical study of 16 cases and review of the literature",
+      "journal": "Oral Dis",
+      "year": "2006",
+      "volume": "12",
+      "fpage": "364",
+      "lpage": "370",
+      "pmid": "16792720",
+      "doi": "10.1111/j.1601-0825.2005.01166.x"
+    },
+    {
+      "ref_id": "bib0042",
+      "label": "42",
+      "authors": [
+        "Faur AC",
+        "Sas I",
+        "Motoc AG",
+        "et al."
+      ],
+      "title": "Ki-67 and p53 immunostaining assessment of proliferative activity in salivary tumors",
+      "journal": "Rom J Morphol Embryol",
+      "year": "2015",
+      "volume": "56",
+      "fpage": "1429",
+      "lpage": "1439",
+      "pmid": "26743291"
+    },
+    {
+      "ref_id": "bib0043",
+      "label": "43",
+      "authors": [
+        "Miyabe S",
+        "Okabe M",
+        "Nagatsuka H",
+        "et al."
+      ],
+      "title": "Prognostic significance of p27Kip1, Ki-67, and CRTC1-MAML2 fusion transcript in mucoepidermoid carcinoma: a molecular and clinicopathologic study of 101 cases",
+      "journal": "J Oral Maxillofac Surg",
+      "year": "2009",
+      "volume": "67",
+      "fpage": "1432",
+      "lpage": "1441",
+      "pmid": "19531414",
+      "doi": "10.1016/j.joms.2009.03.021"
+    },
+    {
+      "ref_id": "bib0044",
+      "label": "44",
+      "authors": [
+        "Eren OC",
+        "Ohike N",
+        "Tuncel D",
+        "et al."
+      ],
+      "title": "Intratumoral heterogeneity of Ki67 index and its impact on the diagnosis and prognostication of pancreatic neuroendocrine tumors: hot-spot count differs significantly from random-area count",
+      "journal": "Endocr Pathol",
+      "year": "2025",
+      "volume": "36",
+      "fpage": "36",
+      "pmid": "41076497",
+      "doi": "10.1007/s12022-025-09880-1"
+    },
+    {
+      "ref_id": "bib0045",
+      "label": "45",
+      "authors": [
+        "Tashima R",
+        "Nishimura R",
+        "Osako T",
+        "et al."
+      ],
+      "title": "Evaluation of an optimal cut-off point for the Ki-67 index as a prognostic factor in primary breast cancer: a retrospective study",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "doi": "10.1371/journal.pone.0119565",
+      "pmc_id": "PMC4503758",
+      "pmid": "26177501"
+    },
+    {
+      "ref_id": "bib0046",
+      "label": "46",
+      "authors": [
+        "Zhu D",
+        "Yang W",
+        "Zhou HF",
+        "et al."
+      ],
+      "title": "Prognostic implications of CK19 positivity in patients with early recurrent hepatocellular carcinoma after hepatic resection undergoing transarterial chemoembolization",
+      "journal": "BMC Gastroenterol",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "347",
+      "pmid": "39363264",
+      "doi": "10.1186/s12876-024-03417-2",
+      "pmc_id": "PMC11451204"
+    },
+    {
+      "ref_id": "bib0047",
+      "label": "47",
+      "authors": [
+        "Mehrpouya M",
+        "Pourhashem Z",
+        "Yardehnavi N",
+        "et al."
+      ],
+      "title": "Evaluation of cytokeratin 19 as a prognostic tumoral and metastatic marker with focus on improved detection methods",
+      "journal": "J Cell Physiol",
+      "year": "2019",
+      "volume": "234",
+      "fpage": "21425",
+      "lpage": "21435",
+      "pmid": "31042009",
+      "doi": "10.1002/jcp.28768"
+    },
+    {
+      "ref_id": "bib0048",
+      "label": "48",
+      "authors": [
+        "Liu S",
+        "Zhang S",
+        "Jiang H",
+        "et al."
+      ],
+      "title": "Co-expression of AQP3 and AQP5 in esophageal squamous cell carcinoma correlates with aggressive tumor progression and poor prognosis",
+      "journal": "Med Oncol",
+      "year": "2013",
+      "volume": "30",
+      "fpage": "636",
+      "pmid": "23797770",
+      "doi": "10.1007/s12032-013-0636-2"
+    },
+    {
+      "ref_id": "bib0049",
+      "label": "49",
+      "authors": [
+        "Machida Y",
+        "Ueda Y",
+        "Shimasaki M",
+        "et al."
+      ],
+      "title": "Relationship of aquaporin 1, 3, and 5 expression in lung cancer cells to cellular differentiation, invasive growth, and metastasis potential",
+      "journal": "Hum Pathol",
+      "year": "2011",
+      "volume": "42",
+      "fpage": "669",
+      "lpage": "678",
+      "pmid": "21237499",
+      "doi": "10.1016/j.humpath.2010.07.022"
+    },
+    {
+      "ref_id": "bib0050",
+      "label": "50",
+      "authors": [
+        "Urumarudappa SKJ",
+        "Tran VNT",
+        "Oo HM",
+        "et al."
+      ],
+      "title": "Identifying potential immuno-oncology targets in salivary gland mucoepidermoid carcinoma based on inflammatory status and treatment response",
+      "journal": "J Oral Pathol Med",
+      "year": "2023",
+      "volume": "52",
+      "fpage": "939",
+      "lpage": "950",
+      "pmid": "37756121",
+      "doi": "10.1111/jop.13488"
+    },
+    {
+      "ref_id": "bib0051",
+      "label": "51",
+      "authors": [
+        "Veneroni MV",
+        "Festa BM",
+        "Costantino A",
+        "et al."
+      ],
+      "title": "Prognostic impact of tumor immune microenvironment and its predictive role in salivary gland cancer",
+      "journal": "Head Neck Pathol",
+      "year": "2023",
+      "volume": "17",
+      "fpage": "515",
+      "lpage": "527",
+      "pmid": "36723850",
+      "doi": "10.1007/s12105-023-01528-y",
+      "pmc_id": "PMC10293532"
+    },
+    {
+      "ref_id": "bib0052",
+      "label": "52",
+      "authors": [
+        "Rudzinski ER",
+        "Lockwood CM",
+        "Stohr BA",
+        "et al."
+      ],
+      "title": "Pan-Trk immunohistochemistry identifies NTRK rearrangements in pediatric mesenchymal tumors",
+      "journal": "Am J Surg Pathol",
+      "year": "2018",
+      "volume": "42",
+      "fpage": "927",
+      "lpage": "935",
+      "pmid": "29683818",
+      "doi": "10.1097/PAS.0000000000001062"
+    },
+    {
+      "ref_id": "bib0053",
+      "label": "53",
+      "authors": [
+        "Xu B",
+        "Haroon Al Rasheed MR",
+        "Antonescu CR",
+        "et al."
+      ],
+      "title": "Pan-Trk immunohistochemistry is a sensitive and specific ancillary tool for diagnosing secretory carcinoma of the salivary gland and detecting ETV6-NTRK3 fusion",
+      "journal": "Histopathology",
+      "year": "2020",
+      "volume": "76",
+      "fpage": "375",
+      "lpage": "382",
+      "pmid": "31448442",
+      "doi": "10.1111/his.13981",
+      "pmc_id": "PMC6994356"
+    },
+    {
+      "ref_id": "bib0054",
+      "label": "54",
+      "authors": [
+        "Hung YP",
+        "Fletcher CDM",
+        "Hornick JL"
+      ],
+      "title": "Evaluation of pan-TRK immunohistochemistry in infantile fibrosarcoma, lipofibromatosis-like neural tumour and histological mimics",
+      "journal": "Histopathology",
+      "year": "2018",
+      "volume": "73",
+      "fpage": "634",
+      "lpage": "644",
+      "pmid": "29863809",
+      "doi": "10.1111/his.13666"
+    },
+    {
+      "ref_id": "bib0055",
+      "label": "55",
+      "authors": [
+        "Hondelink LM",
+        "Schrader AMR",
+        "Asri Aghmuni G",
+        "et al."
+      ],
+      "title": "The sensitivity of pan-TRK immunohistochemistry in solid tumours: a meta-analysis",
+      "journal": "Eur J Cancer",
+      "year": "2022",
+      "volume": "173",
+      "fpage": "229",
+      "lpage": "237",
+      "pmid": "35933886",
+      "doi": "10.1016/j.ejca.2022.06.030"
+    },
+    {
+      "ref_id": "bib0056",
+      "label": "56",
+      "authors": [
+        "Haberecker M",
+        "Töpfer A",
+        "Melega F",
+        "et al."
+      ],
+      "title": "A systematic comparison of pan-Trk immunohistochemistry assays among multiple cancer types",
+      "journal": "Histopathology",
+      "year": "2023",
+      "volume": "82",
+      "fpage": "1003",
+      "lpage": "1012",
+      "pmid": "36759438",
+      "doi": "10.1111/his.14884"
+    },
+    {
+      "ref_id": "bib0057",
+      "label": "57",
+      "authors": [
+        "Marchio C",
+        "Scaltriti M",
+        "Ladanyi M",
+        "et al."
+      ],
+      "title": "ESMO recommendations on the standard methods to detect NTRK fusions in daily practice and clinical research",
+      "journal": "Ann Oncol",
+      "year": "2019",
+      "volume": "30",
+      "fpage": "1417",
+      "lpage": "1427",
+      "pmid": "31268127",
+      "doi": "10.1093/annonc/mdz204"
+    },
+    {
+      "ref_id": "bib0058",
+      "label": "58",
+      "authors": [
+        "Murphy DA",
+        "Ely HA",
+        "Shoemaker R",
+        "et al."
+      ],
+      "title": "Detecting gene rearrangements in patient populations through a 2-step diagnostic test comprised of rapid IHC enrichment followed by sensitive next-generation sequencing",
+      "journal": "Appl Immunohistochem Mol Morphol",
+      "year": "2017",
+      "volume": "25",
+      "fpage": "513",
+      "lpage": "523",
+      "pmid": "27028240",
+      "doi": "10.1097/PAI.0000000000000360",
+      "pmc_id": "PMC5553231"
+    }
+  ]
+}

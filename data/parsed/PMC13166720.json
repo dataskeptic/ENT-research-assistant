@@ -1,0 +1,665 @@
+{
+  "metadata": {
+    "title": "Rheumatoid arthritis and airway hyperresponsiveness: A GWAS-based mendelian randomization study",
+    "authors": [
+      "Hengxiang Shu",
+      "Yu Wang",
+      "Ruoyi Shen",
+      "Chen Qian",
+      "Ankejiang Anniwaer",
+      "Xuwei Ling",
+      "Xu Zhu",
+      "Hao Shen",
+      "Qin Zhang"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000048682",
+    "pmc_id": "PMC13166720",
+    "pmid": "42116394",
+    "full_text_available": true,
+    "section_count": 12,
+    "reference_count": 32
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Previous observational studies have indicated a link between rheumatoid arthritis (RA) and airway hyperresponsiveness diseases (AHDs). However, the causality of this relationship remains uncertain. Our research aims to investigate the causal relationship between RA and AHDs. Using publicly available genome-wide association study summary statistics, we selected single nucleotide polymorphisms associated with RA (including overall RA, seropositive RA and seronegative RA), and AHDs (including asthma, bronchitis, allergic rhinitis and chronic obstructive pulmonary disease [COPD]) as instrumental variables for 2-sample Mendelian randomization (MR) analysis. The primary analytical approach was the inverse variance weighted method. Other methods, such as weighted median, weighted mode, MR-Egger regression and MR pleiotropy residual sum and outlier, were employed for quality control. We also used multiple sensitivity analysis methods to verify the robustness of our result. Genetically determined RA (odds ratio [OR] = 1.007, 95% confidence interval [CI] = 1.003–1.011, P < .001), seropositive rheumatoid arthritis (OR = 1.007, 95% CI = 1.002–1.011, P = .037) had a causal effect with asthma, RA (OR = 1.001, 95% CI: 1.000–1.001, P = .022), seropositive rheumatoid arthritis (OR = 1.001, 95% CI: 1.000–1.001, P < .001), or seronegative rheumatoid arthritis (OR = 1.002, 95% CI: 1.001–1.003, P = .001) all were associated with bronchitis risk. No obvious causal relationship was found between RA and allergic rhinitis and COPD. Sensitivity analysis did not find obvious pleiotropy or heterogeneity. The results of this study showed that genetic susceptibility to RA was causally associated with an increased risk of asthma and bronchitis but not with allergic rhinitis and COPD.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Airway hyperresponsiveness diseases (AHDs), mainly asthma, bronchitis, allergic rhinitis, and chronic obstructive pulmonary disease (COPD), pose a significant public health challenge worldwide. These diseases cause substantial morbidity and mortality, and their prevalence is increasing globally. [ 1 ] AHDs are primarily caused by a complex interplay between genetic susceptibility and environmental factors. [ 2 ] Research has indicated that genetic factors play a crucial role in developing airway hyperresponsiveness and that specific genetic mutations are associated with an increased risk of developing the disease. [ 3 , 4 ] Furthermore, environmental factors such as air pollution, allergens, and respiratory infections have also been shown to induce AHDs. [ 5 ] Rheumatoid arthritis (RA) is a chronic autoimmune disorder that manifests as joint inflammation, pain, and stiffness, affecting approximately 1.71 billion people worldwide. [ 6 ] Based on the presence or absence of anti-citrullinated protein antibodies and rheumatoid factors, RA can be classified into 2 subtypes: seropositive RA (POSRA) and seronegative RA (NEGRA). Several observational studies have found evidence of the association between RA and AHDs. [ 7 ] However, the conclusions drawn from these studies are often inconsistent. [ 8 ] More importantly, there are far fewer articles exploring potential connections between the different subtypes of RA and AHDs. Therefore, it is a key issue that needs to be urgently addressed at present to investigate RA, especially the various subtypes and their relationship with AHDs. Mendelian randomization (MR) is an epidemiological method that uses genetic variants as instrumental variables (IVs) to assess the potential causal relationship between exposure and outcome. [ 9 , 10 ] It can effectively avoid bias caused by confounding factors in observational studies and has been used to explore the relationship between risk factors and disease. [ 11 , 12 ] In this study, we applied a 2-sample MR using large-scale genome-wide association studies (GWAS) to reveal the causal effect of RA on AHDs risk, including asthma, bronchitis, allergic rhinitis and COPD. Previous studies have predominantly relied on observational designs to assess direct associations between RA and airway reactivity or structural lung damage. To our knowledge, this study represents the first 2-sample MR analysis leveraging large-scale GWAS summary statistics to dissect the causal relationships between different RA subtypes (seropositive and seronegative) and specific AHDs (asthma, bronchitis, allergic rhinitis, and COPD). By utilizing genetic variants as IVs, our approach provides unconfounded evidence regarding the differential causal effects of systemic autoimmunity on airway pathophysiology, thereby offering novel insights into the shared genetic architecture between joint and respiratory inflammation and informing targeted screening strategies for high-risk subpopulations.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Study Design",
+      "text": "A practical MR analysis must satisfy 3 critical assumptions: hypothesis of association: there is a strong association between single nucleotide polymorphism (SNP) and the exposure factor; hypothesis of independence: SNP is independent of confounding factors; hypothesis of exclusivity: SNP can only affect the outcome through the exposure factor. [ 13 ] For the first assumption, we chose the SNP whose P value < 5e−8 as genetic variants. For the second assumption, we filter out the SNP related to the confounding factor through the website of PhenoScanner. For the third assumption, we delete the SNP whose P value > 5e−8 in the outcome. This study was based on publicly available GWAS data, and ethical approval and informed consent were obtained before the initiation of the original research.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Gwas Dataset Sources",
+      "text": "The GWAS summary datasets for RA were obtained from the integrative epidemiology unit OpenGWAS ( https://gwas.mrcieu.ac.uk/ ), which included 6236 cases with diagnostic information on RA. Among these cases, 4596 were POSRA, 1937 were NEGRA, and 172,834 were controls. Genetic IVs for AHDs as outcome variants encompassing asthma, bronchitis, allergic rhinitis, and COPD. GWAS were obtained from the United Kingdom Biobank ( https://www.ukbiobank.ac.uk/ ). There were 53,598 cases and 409,335 controls for asthma; 4283 cases and 356,911 controls for allergic rhinitis; 19,320 cases and 317,839 controls for bronchitis; and 1605 cases and 461,328 controls for COPD. All cases were confirmed either by clinical laboratory testing or self-reporting. The cases and controls were derived from the European population to reduce bias in results due to the confounding effect of ethnicity. Details of all GWASs included in this study are represented in Table 1 .",
+      "order": 3
+    },
+    {
+      "section": "2.3. Quality Control And Identifying Genetic Instruments",
+      "text": "Initially, we selected SNPs that strongly associated with RA, POSRA and NEGRA based on a P value threshold of less than 5e−8. Subsequently, SNPs were further subjected to clumping by restricting low linkage disequilibrium ( R 2 < 0.01, 10 Mb). Thirdly, we standardized the effect estimates for both exposure and outcome variants and removed any possible palindromic SNPs. Then, we used the PhenoScanner V2 database ( https://doi.org/10.1093/bioinformatics/btw373 ) to remove SNPs associated with potential confounders. [ 14 ] The potential confounders excluded from the analysis included hypertension, heart disease, autoimmune diseases, inflammation-related cells, and other lung-related conditions. The F -statistic for each SNP was calculated using an online tool at https://sb452.shinyapps.io/overlap , whereby a higher F -statistic indicates a more potent instrument. [ 15 ]",
+      "order": 4
+    },
+    {
+      "section": "2.4. Mr Analyses",
+      "text": "In this study, we utilized several MR analysis methods to estimate the causal effects of RA on AHDs. These methods included the Inverse Variance Weighted (IVW), MR-Egger regression, weighted median, weighted mode, and simple mode methods. The IVW method was employed as the primary analysis method. The Wald ratio method was applied when only 1 IV was available. A P value < .05 indicated suggestive evidence for potential association during the execution of MR analyses. We estimated the effect sizes by calculating the IVs’ odd ratio (OR) and standard error. We applied the MR-Egger regression to assess the possibility of horizontal pleiotropy, which measures the average pleiotropic effect of the IVs through the intercept ter. In addition, we used the MR-Radial and MR-pleiotropy residual sum and outlier (PRESSO) test to detect and remove any horizontal pleiotropic outliers that might bias the results. [ 16 ] To evaluate the heterogeneity in the estimates, we employed the MR-Egger regression and quantified it using Cochran Q test. [ 17 ] Furthermore, to ascertain the stability and coherence of the causal association between RA and AHDs, we carried out a leave-one-out analysis. [ 18 ] The diagram outlining our approach for incorporating IVs can be found in Figure 1 . All the analyses were conducted using the “TwoSampleMR” [ 19 ] and “MR-PRESSO” packages in R version 4.2.3. A P value below .05 was considered compelling evidence of causal relationships.",
+      "order": 5
+    },
+    {
+      "section": "3.1. Causal Effects Of Ra On Asthma",
+      "text": "For the analysis of asthma, we selected 12, 7, and 4 independent SNPs with significant P values less than 1 × 10 -8 as IVs for RA, POSRA, and NEGRA, respectively. These genetic variants did not have intermediate allele frequencies or palindromic structures. However, we could not include 2 RA-associated SNPs and 1 POSRA-associated SNP in the pooled analysis of asthma, as they were unavailable, and no suitable proxy SNPs were found to replace them. After excluding outliers detected in the MR-PRESSO global test, we finally used 7, 4, and 3 independent SNPs as IVs for RA, POSRA, and NEGRA, respectively, for the subsequent MR analysis. The results of the study showed that the IVW, weighted median, simple mode, and weighted mode methods all revealed a significant causal relationship between RA and asthma. Specifically, the IVW method yielded an OR of 1.007 with a 95% confidence interval (CI) of 1.003–1.011 and a P value < .001 (Fig. 2 ). Similar results were obtained in the weighted median method (OR = 1.009, 95% CI = 1.004–1.013, P < .001), simple mode method (OR = 1.009, 95% CI = 1.003–1.016, P = .035), and weighted mode method (OR = 1.009, 95% CI = 1.003–1.014, P = .018) ( Table S1 ). Similarly, a causal relationship between POSRA and asthma was also observed (IVW, OR = 1.007, 95% CI = 1.002–1.011, P = .037; weighted median, OR = 1.007, 95% CI = 1.002–1.011, P = .003). However, no causal link was found between NEGRA and asthma in this study (IVW, OR = 1.006, 95% CI = 0.992–1.020, P = .367). Scatter plots of the effect sizes of SNPs for RA and its subtypes and those for arthritis are presented in Figure 3 A– 3 C. Furthermore, the MR-Egger regression indicated that horizontal pleiotropy was unlikely to have skewed the causal relationships, as indicated by the results (RA: P = .404; POSRA, P = .964; NEGRA, P = .607). Cochran Q test showed no heterogeneity in the risk of RA, POSRA, or NEGRA and asthma (Table 2 ). Moreover, Table S2 shows detailed information on the final IVs used in the MR analysis of RA and asthma. The leave-one-out analysis suggested that any single SNP did not drive the causal estimates of RA and NEGRA on asthma. However, the causal relationship between POSRA and asthma is unstable due to being influenced by multiple SNPs ( Fig. S1A–S1C ).",
+      "order": 6
+    },
+    {
+      "section": "3.2. Causal Effects Of Arthritis On Bronchitis",
+      "text": "In the MR analysis of bronchitis, we ultimately included 9, 7, and 4 independent SNPs as IVs for RA, POSRA, and NEGRA, the overall F -statistic for all SNPs was 167.76, 211.96, and 53.67 ( Table S3 ), respectively. The main results of the IVW method showed a statistically significant relationship between RA (whether POSRA or NEGRA) and increased risk of bronchitis (RA: OR = 1.001, 95% CI: 1.000–1.001, P = .022; POSRA: OR = 1.001, 95% CI: 1.000–1.001, P <.001; NEGRA: OR = 1.002, 95% CI: 1.001–1.003, P = .001, Fig. 2 ). The causal estimates obtained from the other 4 MR analysis methods were consistent with IVW in terms of direction (Fig. 3 D– 3 F and Table S1 ). Leave-one-out analysis indicated that the effect estimates of RA on bronchitis were influenced by 1 single SNP (rs34434863), while the causal relationship of RA on bronchitis remained robust ( Fig. S1D–S1F ). The MR-Egger intercept test did not show a significant deviation from zero, indicating no directional pleiotropy (Table 2 ). Cochran Q test revealed no heterogeneity in the causal estimates of RA, POSRA, or NEGRA on bronchitis (Table 2 ).",
+      "order": 7
+    },
+    {
+      "section": "3.3. Causal Effects Of Arthritis On Allergic Rhinitis",
+      "text": "After removing outliers, 6, 3, and 4 IVs were included in the MR analysis to investigate the causal effects of RA, POSRA, and NEGRA on allergic rhinitis; the overall F -statistic for all SNPs was 79.7, 58.8, and 36.29 ( Table S4 ). The results of IVW showed no significant causal relationship between RA, POSRA, or NEGRA and allergic rhinitis (RA: OR = 1.001, 95% CI: 0.998–1.003, P = .705; POSRA: OR = 1.003, 95% CI: 0.998–1.009, P = .25; NEGRA, OR = 0.998, 95% CI: 0.994–1.001, P = .216. Fig. 2 ). The results of MR-Egger, weighted median, simple mode, and weighted mode methods were consistent with those obtained from the IVW method ( Fig. S2A–S2C , Table S1 ). There was no significant evidence of intercept, indicating the absence of directional pleiotropy (Table 2 ). The leave-one-out analysis demonstrated that no single SNP significantly influenced the overall outcome of RA on allergic rhinitis ( Fig. S3A–S3C ). Therefore, the study found no evidence of a causal relationship between RA, POSRA, or NEGRA and allergic rhinitis.",
+      "order": 8
+    },
+    {
+      "section": "3.4. Causal Effects Of Arthritis On Copd",
+      "text": "For the analysis of COPD, we have identified 14 SNPs that serve as IVs for RA, 8 for POSRA, and 1 for NEGRA, as presented in Table S5 . Employing the IVW method, we found no causal association between RA, POSRA, and COPD (RA: OR = 1.000, 95% CI: 1.000–1.001, P = .214; POSRA: OR = 1.000, 95% CI: 1.000–1.001, P = .222, Fig. 2 , Fig. S2D–S2E ). The heterogeneity tests conducted for RA and POSRA showed no significant evidence of heterogeneity, with P-values of 0.777 and 0.703, respectively (Table 2 ). The MR-Egger intercept was proximal to zero, and the P value was > .05, indicating the absence of significant pleiotropy. The leave-one-out analysis demonstrated that no single SNP significantly influenced the overall outcome of RA or POSRA on COPD ( Fig. S3D–S3E ). Correspondingly, the MR analysis by Wald ratio revealed that NEGRA negatively correlated with COPD (OR = 1.000, 95% CI: 0.999–1.002, P = .471 (Fig. 2 ). As included only a single SNP in the study on the causal effects of arthritis on COPD, sensitivity analysis was not performed.",
+      "order": 9
+    },
+    {
+      "section": "Discussion",
+      "text": "Our 2-sample MR analysis results provide evidence of a positive causal relationship between RA, POSRA, and asthma while also showing that RA, POSRE, or NEGRA have a causal link with bronchitis. However, there is no evidence of a causal relationship between RA and other AHDs, including allergic rhinitis and COPD. It is important to note that we have found a causal relationship between POSRA and both asthma and bronchitis. However, there is no causal relationship between NEGRA and these diseases. This result also indicates that patients with positive RA, compared to those with NEGRA, need to be more vigilant in protecting against upper airway hyperreactivity diseases. Previous observational studies have reported an association between RA and airway-related health outcomes. For instance, a propensity-matched population study conducted in Korea revealed that patients with RA had a higher risk of developing diseases such as asthma and allergic rhinitis. [ 20 ] Another study collected data from 6695 patients with RA and matched them with 26,780 individuals in the control group; the prevalence of asthma was significantly higher in the RA group, with approximately 16.4% (1095/6695) compared to 13.0% (3469/26,780) in the control group ( P < .001). After adjusting for confounding factors, the RA group exhibited a higher asthma incidence than the control group (adjusted hazard ratio = 1.23, 95% CI = 1.15–1.32, P < .001). [ 21 ] A cross-sectional study that utilized administrative health data included 24,625 RA patients and 25,396 individuals in the control group; the incidence rate of COPD was higher in the RA group compared to the control group (incidence rate ratio 1.58, 95% CI 1.34–1.87). [ 22 ] Nevertheless, the results of these observational studies concerning the relationship between RA and AHD are only sometimes consistent. The results of a large-scale population survey indicate a significant positive correlation between RA and asthma (OR 2.32; 95% CI 1.51–3.57) and allergic rhinitis (OR 1.51; 95% CI 1.08–2.10) but no correlation with COPD (OR 0.69; 95% CI 0.45–1.06). [ 8 ] Above all, these articles all support our conclusion that RA has a strong correlation with asthma and bronchitis. By leveraging GWAS data and MR techniques, we were able to further confirm the causal effect of RA on these diseases. However, there are some observational studies that do not support our findings that RA has no causal effect on COPD and allergic rhinitis. It is proposed that several explanations for these observed discrepancies. First, the positive associations reported in previous cohort studies likely reflect residual confounding by environmental factors, particularly cigarette smoking, which is strongly associated with both RA and COPD but often inadequately adjusted for in observational designs. Second, corticosteroid use in RA patients may increase susceptibility to respiratory infections and airflow limitation, thereby generating spurious associations that our MR approach effectively circumvents. Thus, while our findings confirm the causal link between systemic autoimmunity (RA) and inflammatory airway diseases (asthma/bronchitis), they suggest that the relationships with COPD and allergic rhinitis observed in epidemiological studies may be non-causal, driven by confounding, or mediated by distinct pathophysiological pathways not captured by RA genetic risk variants. Several potential explanations can shed light on the association between RA and AHDs. Firstly, RA’s systemic inflammation and immune dysregulation may contribute to developing AHDs [ 23 ] ; this is attributable to the heightened activity and expression of helper T cells 17 and interleukin 17 in RA patients. [ 24 , 25 ] These factors can instigate eosinophilic expansion, enhance airway hypersensitivity, and engender AHDs such as asthma, allergic rhinitis, and COPD. [ 26 – 28 ] Secondly, it has been discovered that certain gene variants related to the immune system can increase genetic susceptibility to both RA and AHD. Examples of such variants include human leukocyte antigen – DR beta 1, cluster of differentiation 40 ligand and cluster of differentiation 86. [ 29 – 31 ] Furthermore, using particular RA medications can lead to pulmonary complications, such as methotrexate. [ 32 ] Nevertheless, akin to most MR studies, this study has a few limitations that warrant acknowledgments. The exposure and outcome analyzed in this study were derived from European populations, which raises questions about external validity across other ethnicities. Additionally, only a single SNP was chosen as the IVs for NEGRA and COPD, which may only explain a small part of the variation in exposure and potentially impact the statistical power of causal inference. Our study provides genetic evidence that RA, particularly POSRA, causally increases the risk of asthma and bronchitis. These findings suggest shared inflammatory pathways between RA and airway diseases, highlighting the potential for integrated therapeutic strategies targeting common immune mechanisms. Furthermore, our results underscore the importance of routine airway monitoring in RA patients, especially seropositive cases, to enable early detection and intervention. Despite identifying causal associations between RA and certain AHDs through MR, our study has several key limitations. First, the findings are currently restricted to European populations, and their generalizability requires validation in larger, more diverse cohorts, including Asian populations. Second, the potential mediating factors or biological pathways (e.g., proteomic or metabolic mechanisms) linking RA to AHDs remain to be further elucidated. Third, further stratification by other autoantibodies, such as anti-cyclic citrullinated peptide, is needed to clarify the specific associations between RA subtypes and AHDs. Last but not least, smoking is an important risk factor for both RA and airway disease. MR studies are inherently robust to confounding by lifestyle factors due to the random assortment of alleles at conception. Although we have excluded the possibility of horizontal pleiotropy via smoking-related genetic variants using PhenoScanner, residual smoking-related pleiotropy cannot be entirely ruled out. Whether smoking acts as a mediator or effect modifier that amplifies the causal effect of RA on AHDs warrants further investigation through multivariable MR, mediation MR, or stratified MR analyses in future studies.",
+      "order": 10
+    },
+    {
+      "section": "Conclusion",
+      "text": "In conclusion, this MR study provides genetic evidence supporting a causal relationship between RA and asthma and bronchitis, but not allergic rhinitis and COPD. Our results highlight the importance of clinicians paying attention to respiratory symptoms in patients with RA to ensure early detection of AHDs. Further inquiry is crucial to pinpoint the precise pathogenic mechanisms by which RA heightens the likelihood of AHDs, intending to formulate targeted intervention approaches.",
+      "order": 11
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Labaki WW",
+        "Han MK"
+      ],
+      "title": "Chronic respiratory diseases: a global view.",
+      "journal": "Lancet Respir Med",
+      "year": "2020",
+      "volume": "8",
+      "fpage": "531",
+      "lpage": "3",
+      "pmid": "32526184",
+      "doi": "10.1016/S2213-2600(20)30157-0",
+      "pmc_id": "PMC8034823"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Hizawa N"
+      ],
+      "title": "The understanding of asthma pathogenesis in the era of precision medicine.",
+      "journal": "Allergol Int",
+      "year": "2023",
+      "volume": "72",
+      "fpage": "3",
+      "lpage": "10",
+      "pmid": "36195530",
+      "doi": "10.1016/j.alit.2022.09.001"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Silverman EK"
+      ],
+      "title": "Genetics of COPD.",
+      "journal": "Annu Rev Physiol",
+      "year": "2020",
+      "volume": "82",
+      "fpage": "413",
+      "lpage": "31",
+      "pmid": "31730394",
+      "doi": "10.1146/annurev-physiol-021317-121224",
+      "pmc_id": "PMC7193187"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Shrine N",
+        "Portelli MA",
+        "John C",
+        "et al."
+      ],
+      "title": "Moderate-to-severe asthma in individuals of European ancestry: a genome-wide association study.",
+      "journal": "Lancet Respir Med",
+      "year": "2019",
+      "volume": "7",
+      "fpage": "20",
+      "lpage": "34",
+      "pmid": "30552067",
+      "doi": "10.1016/S2213-2600(18)30389-8",
+      "pmc_id": "PMC6314966"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Zhang Z-Q",
+        "Li J-Y",
+        "Guo Q",
+        "et al."
+      ],
+      "title": "Association between air pollution and allergic upper respiratory diseases: a meta-analysis.",
+      "journal": "Eur Respir Rev",
+      "year": "2025",
+      "volume": "34",
+      "fpage": "240266",
+      "pmid": "40562438",
+      "doi": "10.1183/16000617.0266-2024",
+      "pmc_id": "PMC12220745"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Finckh A",
+        "Gilbert B",
+        "Hodkinson B",
+        "et al."
+      ],
+      "title": "Global epidemiology of rheumatoid arthritis.",
+      "journal": "Nat Rev Rheumatol",
+      "year": "2022",
+      "volume": "18",
+      "fpage": "591",
+      "lpage": "602",
+      "pmid": "36068354",
+      "doi": "10.1038/s41584-022-00827-y"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Kronzer VL",
+        "Westerlind H",
+        "Alfredsson L",
+        "et al."
+      ],
+      "title": "Respiratory diseases as risk factors for seropositive and seronegative rheumatoid arthritis and in relation to smoking.",
+      "journal": "Arthritis Rheumatol",
+      "year": "2021",
+      "volume": "73",
+      "fpage": "61",
+      "lpage": "8",
+      "pmid": "32799411",
+      "doi": "10.1002/art.41491"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Kim JG",
+        "Kang J",
+        "Lee J-H",
+        "Koo H-K"
+      ],
+      "title": "Association of rheumatoid arthritis with bronchial asthma and asthma-related comorbidities: a population-based national surveillance study.",
+      "journal": "Front Med (Lausanne)",
+      "year": "2023",
+      "volume": "10",
+      "fpage": "1006290",
+      "pmid": "36968830",
+      "doi": "10.3389/fmed.2023.1006290",
+      "pmc_id": "PMC10036351"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Karjalainen MK",
+        "Karthikeyan S",
+        "Oliver-Williams C",
+        "et al."
+      ],
+      "title": "Genome-wide characterization of circulating metabolic biomarkers.",
+      "journal": "Nature",
+      "year": "2024",
+      "volume": "628",
+      "fpage": "130",
+      "lpage": "8",
+      "pmid": "38448586",
+      "doi": "10.1038/s41586-024-07148-y",
+      "pmc_id": "PMC10990933"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Bouzid H",
+        "Belk JA",
+        "Jan M",
+        "et al."
+      ],
+      "title": "Clonal hematopoiesis is associated with protection from Alzheimer’s disease.",
+      "journal": "Nat Med",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "1662",
+      "lpage": "70",
+      "pmid": "37322115",
+      "doi": "10.1038/s41591-023-02397-2",
+      "pmc_id": "PMC10353941"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Ek WE",
+        "Karlsson T",
+        "Höglund J",
+        "Rask-Andersen M",
+        "Johansson A"
+      ],
+      "title": "Causal effects of inflammatory protein biomarkers on inflammatory diseases.",
+      "journal": "Sci Adv",
+      "year": "2021",
+      "volume": "7",
+      "fpage": "eabl4359",
+      "pmid": "34878845",
+      "doi": "10.1126/sciadv.abl4359",
+      "pmc_id": "PMC8654293"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Yin K-J",
+        "Huang J-X",
+        "Wang P",
+        "et al."
+      ],
+      "title": "No genetic causal association between periodontitis and arthritis: a bidirectional two-sample mendelian randomization analysis.",
+      "journal": "Front Immunol",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "808832",
+      "pmid": "35154127",
+      "doi": "10.3389/fimmu.2022.808832",
+      "pmc_id": "PMC8825874"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Dudbridge F"
+      ],
+      "title": "Polygenic mendelian randomization.",
+      "journal": "Cold Spring Harb Perspect Med",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "a039586",
+      "pmid": "32229610",
+      "doi": "10.1101/cshperspect.a039586",
+      "pmc_id": "PMC7849343"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Kamat MA",
+        "Blackshaw JA",
+        "Young R",
+        "et al."
+      ],
+      "title": "PhenoScanner V2: an expanded tool for searching human genotype-phenotype associations.",
+      "journal": "Bioinformatics",
+      "year": "2019",
+      "volume": "35",
+      "fpage": "4851",
+      "lpage": "3",
+      "pmid": "31233103",
+      "doi": "10.1093/bioinformatics/btz469",
+      "pmc_id": "PMC6853652"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Palmer TM",
+        "Lawlor DA",
+        "Harbord RM",
+        "et al."
+      ],
+      "title": "Using multiple genetic variants as instrumental variables for modifiable risk factors.",
+      "journal": "Stat Methods Med Res",
+      "year": "2012",
+      "volume": "21",
+      "fpage": "223",
+      "lpage": "42",
+      "pmid": "21216802",
+      "doi": "10.1177/0962280210394459",
+      "pmc_id": "PMC3917707"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Zhang Q",
+        "Liu A",
+        "Huang C",
+        "et al."
+      ],
+      "title": "Effect of basal metabolic rate on rheumatoid arthritis: a Mendelian randomization study.",
+      "journal": "Postgrad Med J",
+      "year": "2024",
+      "volume": "100",
+      "fpage": "187",
+      "lpage": "95",
+      "pmid": "37978228",
+      "doi": "10.1093/postmj/qgad105"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Gao R-C",
+        "Sang N",
+        "Jia C-Z",
+        "et al."
+      ],
+      "title": "Association between sleep traits and rheumatoid arthritis: a mendelian randomization study.",
+      "journal": "Front Public Health",
+      "year": "2022",
+      "volume": "10",
+      "fpage": "940161",
+      "pmid": "35844889",
+      "doi": "10.3389/fpubh.2022.940161",
+      "pmc_id": "PMC9280285"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Park S",
+        "Lee S",
+        "Kim Y",
+        "et al."
+      ],
+      "title": "A Mendelian randomization study found causal linkage between telomere attrition and chronic kidney disease.",
+      "journal": "Kidney Int",
+      "year": "2021",
+      "volume": "100",
+      "fpage": "1063",
+      "lpage": "70",
+      "pmid": "34339747",
+      "doi": "10.1016/j.kint.2021.06.041"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Wang E",
+        "Li S",
+        "Li Y",
+        "Zhou T"
+      ],
+      "title": "HMOX1 as a potential drug target for upper and lower airway diseases: insights from multi-omics analysis.",
+      "journal": "Respir Res",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "41",
+      "pmid": "39871287",
+      "doi": "10.1186/s12931-025-03124-w",
+      "pmc_id": "PMC11773792"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Jeong HE",
+        "Jung S-M",
+        "Cho S-I"
+      ],
+      "title": "Association between rheumatoid arthritis and respiratory allergic diseases in korean adults: a propensity score matched case-control study.",
+      "journal": "Int J Rheumatol",
+      "year": "2018",
+      "volume": "2018",
+      "fpage": "3798124",
+      "pmid": "29849649",
+      "doi": "10.1155/2018/3798124",
+      "pmc_id": "PMC5937383"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Kim SY",
+        "Min C",
+        "Oh DJ",
+        "Choi HG"
+      ],
+      "title": "Increased risk of asthma in patients with rheumatoid arthritis: a longitudinal follow-up study using a national sample cohort.",
+      "journal": "Sci Rep",
+      "year": "2019",
+      "volume": "9",
+      "fpage": "6957",
+      "pmid": "31061451",
+      "doi": "10.1038/s41598-019-43481-3",
+      "pmc_id": "PMC6502877"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Mcguire K",
+        "Aviña-Zubieta JA",
+        "Esdaile JM",
+        "et al."
+      ],
+      "title": "Risk of incident chronic obstructive pulmonary disease in rheumatoid arthritis: a population-based cohort study.",
+      "journal": "Arthritis Care Res (Hoboken)",
+      "year": "2019",
+      "volume": "71",
+      "fpage": "602",
+      "lpage": "10",
+      "pmid": "29047218",
+      "doi": "10.1002/acr.23410"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Farquhar H",
+        "Vassallo R",
+        "Edwards AL",
+        "Matteson EL"
+      ],
+      "title": "Pulmonary Complications of rheumatoid arthritis.",
+      "journal": "Semin Respir Crit Care Med",
+      "year": "2019",
+      "volume": "40",
+      "fpage": "194",
+      "lpage": "207",
+      "pmid": "31137060",
+      "doi": "10.1055/s-0039-1683995"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Lee S-Y",
+        "Moon J",
+        "Lee AR",
+        "et al."
+      ],
+      "title": "mtSTAT3 suppresses rheumatoid arthritis by regulating Th17 and synovial fibroblast inflammatory cell death with IL-17-mediated autophagy dysfunction.",
+      "journal": "Exp Mol Med",
+      "year": "2025",
+      "volume": "57",
+      "fpage": "221",
+      "lpage": "34",
+      "pmid": "39825104",
+      "doi": "10.1038/s12276-024-01376-y",
+      "pmc_id": "PMC11799179"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Yang Y-J",
+        "Lu L-J",
+        "Wang J-J",
+        "et al."
+      ],
+      "title": "Tubson-2 decoction ameliorates rheumatoid arthritis complicated with osteoporosis in CIA rats involving isochlorogenic acid A regulating IL-17/MAPK pathway.",
+      "journal": "Phytomedicine",
+      "year": "2023",
+      "volume": "116",
+      "fpage": "154875",
+      "pmid": "37263000",
+      "doi": "10.1016/j.phymed.2023.154875"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Le Rouzic O",
+        "Pichavant M",
+        "Frealle E",
+        "Guillon A",
+        "Si-Tahar M",
+        "Gosset P"
+      ],
+      "title": "Th17 cytokines: novel potential therapeutic targets for COPD pathogenesis and exacerbations.",
+      "journal": "Eur Respir J",
+      "year": "2017",
+      "volume": "50",
+      "fpage": "1602434",
+      "pmid": "29025886",
+      "doi": "10.1183/13993003.02434-2016"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Han S",
+        "Kim B",
+        "Hyeon DY",
+        "et al."
+      ],
+      "title": "Distinctive CD39+CD9+ lung interstitial macrophages suppress IL-23/Th17-mediated neutrophilic asthma by inhibiting NETosis.",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "fpage": "8628",
+      "pmid": "39366998",
+      "doi": "10.1038/s41467-024-53038-2",
+      "pmc_id": "PMC11452667"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Bai X",
+        "Liu P",
+        "Shen H",
+        "Zhang Q",
+        "Zhang T",
+        "Jin X"
+      ],
+      "title": "Water-extracted Lonicera japonica polysaccharide attenuates allergic rhinitis by regulating NLRP3-IL-17 signaling axis.",
+      "journal": "Carbohydr Polym",
+      "year": "2022",
+      "volume": "297",
+      "fpage": "120053",
+      "pmid": "36184153",
+      "doi": "10.1016/j.carbpol.2022.120053"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "Vince N",
+        "Limou S",
+        "Daya M",
+        "et al."
+      ],
+      "title": "Association of HLA-DRB1*09:01 with tIgE levels among African-ancestry individuals with asthma.",
+      "journal": "J Allergy Clin Immunol",
+      "year": "2020",
+      "volume": "146",
+      "fpage": "147",
+      "lpage": "55",
+      "pmid": "31981624",
+      "doi": "10.1016/j.jaci.2020.01.011"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Mahdi BM",
+        "Al-Hadithi ATR",
+        "Raouf H",
+        "Zalzala HH",
+        "Abid LA",
+        "Nehad Z"
+      ],
+      "title": "Effect of HLA on development of asthma.",
+      "journal": "Ann Med Surg (Lond)",
+      "year": "2018",
+      "volume": "36",
+      "fpage": "118",
+      "lpage": "21",
+      "pmid": "30455876",
+      "doi": "10.1016/j.amsu.2018.10.003",
+      "pmc_id": "PMC6230961"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Sakamoto E",
+        "Katahira Y",
+        "Mizoguchi I",
+        "et al."
+      ],
+      "title": "Chemical- and drug-induced allergic, inflammatory, and autoimmune diseases via haptenation.",
+      "journal": "Biology (Basel)",
+      "year": "2023",
+      "volume": "12",
+      "fpage": "123",
+      "pmid": "36671815",
+      "doi": "10.3390/biology12010123",
+      "pmc_id": "PMC9855847"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Kahlmann V",
+        "Bonás MJ",
+        "Moor CC",
+        "et al."
+      ],
+      "title": "First-line treatment of pulmonary sarcoidosis with prednisone or methotrexate.",
+      "journal": "N Engl J Med",
+      "year": "2025",
+      "volume": "393",
+      "fpage": "231",
+      "lpage": "42",
+      "pmid": "40387020",
+      "doi": "10.1056/NEJMoa2501443"
+    }
+  ]
+}

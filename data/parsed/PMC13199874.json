@@ -1,0 +1,1052 @@
+{
+  "metadata": {
+    "title": "Hollow Cu 2-x Se/PDA/IR820 Composite Nanoparticles with pH Response for Multimodal Synergistic Treatment of Esophageal Cancer",
+    "authors": [
+      "Feixiao Ma",
+      "Anqi Ji",
+      "Beng Ma",
+      "Pingjuan Yang",
+      "Jiayi Li",
+      "Shuxin Liao",
+      "Haonan Yao",
+      "Xuanhu Xie",
+      "Zhiwei Wang",
+      "Linlin Shi",
+      "Shegan Gao",
+      "Xin Hou"
+    ],
+    "journal": "International Journal of Nanomedicine",
+    "year": "2026",
+    "doi": "10.2147/IJN.S576500",
+    "pmc_id": "PMC13199874",
+    "pmid": "42199656",
+    "full_text_available": true,
+    "section_count": 39,
+    "reference_count": 66
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Purpose Esophageal cancer (EC) ranks among the most prevalent and lethal malignancies worldwide, and conventional therapeutic modalities, including surgery, radiotherapy, and chemotherapy, are constrained by inherent limitations. Recent advances in nanomedicine have opened new avenues for EC treatment. To achieve efficient and precise tumor eradication, this study developed a pH-responsive composite nanoplatform featuring a hollow architecture to enable high-efficiency loading of photosensitizers and realize multimodal synergistic therapy against EC through the integration of photothermal therapy (PTT), photodynamic therapy (PDT), and chemodynamic therapy (CDT). Methods A pH-responsive Cu 2-x Se/PDA/IR820 composite nanoplatform was constructed by coating hollow Cu 2-x Se nanoparticles with polydopamine PDA and loading the near-infrared photosensitizer IR820. Morphology, crystalline phase, elemental composition, and surface chemistry were characterized by TEM, XRD, XPS, and FT-IR. Photothermal conversion efficiency was quantified under 808 nm laser irradiation. IR820 release kinetics were monitored under different pH conditions of 5.0, 6.0, and 7.0 to assess pH-responsive behavior. In vitro studies on KYSE-150 EC cells included viability by CCK-8 assay, apoptosis by flow cytometry, ROS generation by DCFH-DA probe, mitochondrial membrane potential by JC-1 staining, and cellular uptake analysis. In vivo antitumor efficacy and biosafety were evaluated in an AKR tumor-bearing C57BL/6J mouse model via intratumoral injection and 808 nm laser irradiation, followed by tumor volume measurement, histopathological analysis with H&E, Ki-67, and TUNEL staining, and systemic toxicity assessment. Results The hollow Cu 2-x Se/PDA/IR820 nanoparticles exhibited a uniform size of approximately 164 nm, excellent colloidal stability, and a high photothermal conversion efficiency of 44.56% under 808 nm laser irradiation. IR820 release displayed pronounced pH sensitivity, with a cumulative release of 23.07% at pH 5.0 within 30 minutes. In vitro, the nanoplatform combined with laser irradiation reduced KYSE-150 cell viability to 1.2% at 100 μg/mL, with an IC50 value of 18.74 μg/mL, induced 28.57% apoptosis, elevated intracellular ROS levels, decreased mitochondrial membrane potential, and depleted glutathione to 335 μmol/gprot. In vivo fluorescence imaging confirmed effective tumor accumulation via the EPR effect, with peak signal at 24 hours post-injection. Combined PTT/PDT/CDT treatment significantly suppressed tumor growth, reducing final tumor volume to 17.8% of the control group, and induced extensive apoptosis and necrosis in tumor tissues. Systemic biosafety evaluations revealed no significant hematological or histopathological abnormalities. Conclusion Hollow Cu 2-x Se/PDA/IR820 composite nanoparticles loaded with IR820 were successfully fabricated and demonstrated remarkable advantages in multimodal combination therapy against EC.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Esophageal cancer (EC), which originates from the mucosal epithelium of the esophagus, is characterized by aggressive progression and extensive local invasion. 1 Globally, EC ranks among the top ten most common malignancies and represents a leading cause of cancer-related mortality, with a 5-year survival rate persistently below 20% due to late-stage diagnosis and high recurrence rates. 2 While conventional therapeutic strategies, including surgery, radiotherapy, and chemotherapy, remain the mainstay of clinical management, their efficacy is severely hampered by significant systemic toxicity, acquired drug resistance, and the inherent difficulty of achieving complete tumor eradication without damaging adjacent vital structures. This stark clinical landscape underscores an urgent and unmet need for the development of innovative, targeted, and multimodal therapeutic approaches capable of improving patient outcomes. In recent years, nanomedicine has emerged as a promising avenue for EC treatment by enabling the construction of multifunctional nanoplatforms that integrate diverse therapeutic modalities. Such systems permit the co-delivery of photothermal agents, photosensitizers, and chemotherapeutic components, thereby enhancing tumor targeting and achieving synergistic therapeutic effects. 3 , 4 Among these systems, metal-based nanomaterials have attracted considerable attention due to their unique physicochemical properties, which enable the integration of phototherapy and catalytic therapy. For example, two-dimensional metallic nanomaterials can modulate the tumour microenvironment (TME) through redox reactions, inducing tumour cell apoptosis. 4 Additionally, metal-organic frameworks (MOFs) are widely used for efficient drug loading and responsive release, further facilitating multimodal therapy. 5 These nanomaterials can effectively accumulate in tumour tissues via passive targeting mechanisms, providing a foundation for enhanced therapeutic efficacy. 6 Photothermal therapy (PTT) is a minimally invasive therapeutic modality that utilizes photothermal agents to absorb near-infrared (NIR) light and convert it into localized hyperthermia, leading to thermal ablation of tumor cells. PTT offers several distinct advantages, including high spatiotemporal selectivity, minimal damage to surrounding healthy tissues, and the ability to overcome drug resistance mechanisms associated with conventional chemotherapy. 7 , 8 Moreover, the localized hyperthermia generated by PTT can enhance blood perfusion and improve tumor oxygenation, thereby sensitizing cancer cells to subsequent therapeutic interventions. Photodynamic therapy (PDT), based on photosensitizer-mediated generation of reactive oxygen species (ROS), offers advantages such as minimal invasiveness and high spatiotemporal selectivity. 1 Recent advances in photosensitizer design have improved ROS generation efficiency and targeting capability. 9–11 Nevertheless, the oxygen-dependent nature of PDT restricts its effectiveness in hypoxic tumour environments. 12 In contrast, chemodynamic therapy (CDT) employs transition metal ions to catalyse Fenton or Fenton-like reactions, generating cytotoxic hydroxyl radicals from endogenous hydrogen peroxide in the mildly acidic TME. 13 Although both PDT and CDT rely on ROS-mediated tumor cell killing, they operate through distinct mechanisms and exhibit different toxicity profiles. PDT primarily generates singlet oxygen ( 1 O 2 ) via Type-II photochemical reactions upon light activation of photosensitizers, a process that is oxygen-dependent and therefore less effective in hypoxic tumor regions. 14 In contrast, CDT produces hydroxyl radicals (˙OH) through metal ion-catalyzed Fenton/Fenton-like reactions using endogenous H 2 O 2 , functioning independently of oxygen availability. 15 By combining these two modalities, the nanoplatform can achieve complementary ROS generation: PDT provides rapid and potent oxidative damage in well-oxygenated tumor areas, while CDT sustains ROS production even under hypoxic conditions, thereby overcoming the inherent limitations of each individual therapy. To surmount the constraints of single-modality treatments, combination therapies that integrate PTT, PDT, and CDT have been extensively explored. PTT can enhance blood flow and improve oxygen supply, thereby alleviating hypoxia and boosting PDT efficiency, while simultaneously increasing cellular permeability to facilitate drug uptake. Conversely, oxidative stress induced by PDT can sensitize tumor cells to thermal damage. 16 , 17 Furthermore, CDT can amplify oxidative stress through catalytic ROS generation, enabling synergistic tumor suppression. 18 Inspired by previous investigations, Ji et al developed a hollow nanostructured system (Cu 9 S 8 @PCM@Cur) that integrates photothermal responsiveness with drug delivery, significantly enhancing therapeutic outcome. 19 The hollow architecture augments drug loading capacity, while external stimuli trigger controlled release and therapeutic activation. Building upon this concept, the construction of hollow nanostructures with uniform dimensions and high loading capacity remains highly desirable. In this method, a sacrificial template, such as Cu 2 O, is selectively etched by an appropriate reagent (eg., a selenium source) to generate well-defined hollow cavities. This approach offers several notable advantages over conventional synthesis routes. It enables precise tuning of wall thickness and internal cavity dimensions, ensures high uniformity in particle size and morphology, and can be executed under mild reaction conditions without the need for elevated temperatures or hazardous reagents. 20 To achieve stable drug loading and controlled release, polydopamine (PDA) has been widely employed owing to its strong adhesive properties and pH-responsive behavior. Under alkaline conditions, dopamine undergoes polymerization and deposits onto nanomaterial surfaces, forming a functional coating that facilitates efficient drug loading and protects the cargo from premature release. 21 Herein, we report the development of a multifunctional nanoplatform based on near-infrared (NIR)-responsive and pH-sensitive Cu 2-x Se/PDA/IR820 nanoparticles, which integrates PTT, PDT, and copper ion-mediated CDT for synergistic cancer therapy. The Cu 2-x Se core exhibits strong NIR absorption attributable to LSPR and can generate hydroxyl radicals via Cu⁺/Cu 2 ⁺-mediated Fenton-like reactions. 22 IR820 serves as an NIR-responsive photosensitizer capable of producing ROS under 808 nm laser irradiation. 23 The PDA coating not only enhances photothermal performance but also enables high drug loading capacity and pH-responsive release, ensuring selective activation within the acidic TME. 21 Upon laser irradiation, the nanoplatform efficiently converts light into heat, inducing tumor ablation via PTT. Simultaneously, the released IR820 generates ROS for PDT, while Cu⁺ ions catalyze the decomposition of endogenous H 2 O 2 to produce hydroxyl radicals, thereby triggering CDT. 24 Furthermore, Cu 2 ⁺ can deplete intracellular glutathione (GSH), compromising the antioxidant defense system and amplifying oxidative stress. Collectively, this platform enables spatiotemporally controlled synergistic enhancement of PTT, PDT, and CDT. Both in vitro and in vivo results demonstrate excellent biocompatibility and significant antitumor efficacy. 25 , 26",
+      "order": 1
+    },
+    {
+      "section": "Chemicals And Materials",
+      "text": "Selenium powder (Se), sodium borohydride (NaBH 4 , purity > 98%), polyvinylpyrrolidone (PVP, average molecular weight ~55,000), copper chloride (CuCl 2 , purity > 98%), sodium hydroxide (NaOH), ascorbic acid (AA, 99% purity), dopamine hydrochloride (C 8 H 11 NO 2 ·HCl, 98% purity), and new indocyanine green (IR820, C 48 H 51 ClN 2 O 6 S 2 , 99% purity) were purchased from Sigma-Aldrich (St. Louis, MO, USA) and used without further purification. Tris(hydroxymethyl)aminomethane (Tris, C 4 H 11 NO 3 , 99.9% purity) was obtained from Aladdin Industries (Shanghai, China). RPMI-1640 medium, fetal bovine serum (FBS), and 4′,6-diamidino-2-phenylindole (DAPI) were acquired from Thermo Fisher Scientific (Waltham, MA, USA). Deionized (DI) water was used throughout all experiments. The morphology of the synthesized materials was characterized using transmission electron microscopy (TEM, JEM-2100, JEOL, Japan) and scanning electron microscopy (SEM, S-8010, Hitachi, Japan) operated at an acceleration voltage of 10 kV. Absorption spectra were recorded on a UV–visible spectrometer (Cary 60, Varian, Monrovia, USA). The crystalline phases of the prepared hollow nanospheres were analyzed by X-ray diffraction (XRD, D8 ADVANCE, Bruker, Germany). X-ray photoelectron spectroscopy (XPS, ESCALAB 250XI, Thermo Fisher, USA) was employed to determine the chemical states of the elements on the material surface. Fourier transform infrared spectroscopy (FT-IR, Nicolet iS5, Thermo Fisher, USA) was performed to confirm the successful loading of polydopamine (PDA) and IR820 onto the Cu 2-x Se nanoparticles. Cell invasion and migration assays were observed using an inverted microscope (Eclipse Ti, Nikon, Japan). Fluorescence images of live/dead cell staining, reactive oxygen species (ROS) detection, and JC-1 mitochondrial potential assays were captured using an Evos M7000 fluorescence microscope (Thermo Fisher Scientific, USA). Cellular uptake, proliferation, and cytoskeletal morphology were examined by confocal laser scanning microscopy (CLSM, LSM-800, Zeiss, Germany). Apoptosis analysis was performed using a flow cytometer (FongCyte™, Challenbio, China).",
+      "order": 2
+    },
+    {
+      "section": "Preparation Of Hollow Cu 2-X Se/Pda/Ir820 Nanoparticles",
+      "text": "We first synthesized the Cu 2-x Se nanoparticles. Hollow Cu 2-x Se nanoparticles were created using a template etching technique. Initially, Cu 2 O was produced to serve as a template, which was then subjected to etching with a selenium source, leading to the development of hollow Cu 2-x Se structures. The detailed preparation process includes the following steps: 1) Se source preparation: 50 mL of deionised water was placed in an aeration flask, which was aerated for 5 minutes to remove oxygen. Subsequently, 19 mg of NaBH 4 and 39.5 mg of selenium powder were added in order. The aeration reaction was maintained for 3 hours. 2) Cu 2 O preparation: 0.048 g of NaOH and 0.1056 g of ascorbic acid (AA) were measured and dissolved in 6 mL of deionised water, then set aside. Next, 0.051 g of CuCl 2 was dissolved in 150 mL of deionised water and stirred until uniform. Afterward, 0.3 g of polyvinylpyrrolidone (PVP) was incorporated, and once fully dissolved, 2 mL of 0.2 M NaOH was added dropwise until the solution turned blue. Following a 5-minute reaction period, 2 mL of 0.1 M AA solution was added dropwise while stirring, resulting in a colour change from blue to green and finally to yellow, indicating the formation of Cu 2 O. Following a 5-minute reaction period, 30 mL of the aerated mixed solution was introduced into the system, and the reaction proceeded for an additional 20 minutes. Once the reaction concluded, the resulting product was separated via centrifugation and thoroughly washed three times with both ethanol and deionized water. The final product was then resuspended in 3 mL of water and adjusted to the required concentration to create a dispersion for further experimentation. A 1 mL aliquot of Cu 2-x Se dispersion (1 mg/mL) was centrifuged, and the supernatant was discarded. The resulting Cu 2-x Se precipitate was redispersed in 0.5 mL of Tris-HCl buffer (pH 8.5). To this suspension, 10 mg of dopamine hydrochloride and 450 μL of IR820 solution (1 mg/mL) were added simultaneously. The mixture was protected from light and agitated on a shaker for 2 h. Following the reaction, the mixture was centrifuged, and the obtained pellet was washed three times with deionized water. The final product was redispersed in 1 mL of deionized water to obtain the Cu 2-x Se/PDA/IR820 composite nanoparticles. For control experiments, Cu 2-x Se/PDA and Cu 2-x Se/IR820 were synthesized following the identical procedure, except that only dopamine hydrochloride or only IR820 was added, respectively.",
+      "order": 3
+    },
+    {
+      "section": "Photothermal Effect",
+      "text": "The photothermal performance of Cu 2-x Se/PDA/IR820 was evaluated by exposing an aqueous suspension of the nanocomposites to an 808 nm laser at a power density of 1 W/cm 2 . Temperature changes were monitored in real time using an infrared thermal camera. The photothermal conversion efficiency ( η ) was calculated according to the following equation: where m (g) is the mass of the nanoparticle suspension, c (4.2 J/g·°C) is the specific heat capacity of water, T max (°C) is the maximum steady-state temperature of the sample, T surr (°C) is the ambient room temperature, I (W) is the incident laser power, A 808 is the absorbance of the sample at 808 nm, τ s (s) is the system time constant, t (s) is the cooling time, and T (°C) is the temperature recorded during the cooling process.",
+      "order": 4
+    },
+    {
+      "section": "Ir820 Release",
+      "text": "To assess the pH-responsive release behavior of IR820, 1 mL of Cu 2-x Se/PDA/IR820 suspension (15 μg/mL) was centrifuged, and the supernatant was removed. The collected nanoparticles were redispersed in Tri’s buffer solutions adjusted to pH 5.0, 6.0, and 7.0, respectively, and incubated in a water bath at 37 °C for predetermined time intervals (5, 10, 15, 20, 25, and 30 min). At each time point, the samples were centrifuged, and the supernatants were collected. The absorbance of the released IR820 in the supernatant was measured at 820 nm using a UV–Vis spectrophotometer, and the concentration was determined by reference to a previously established standard curve. The cumulative release percentage of IR820 was calculated as the ratio of the amount released at each time point to the initial loading amount. Release profiles were plotted to evaluate the pH-responsive behavior of the composite nanoparticles.",
+      "order": 5
+    },
+    {
+      "section": "Culture Of Cells",
+      "text": "The human esophageal cancer cell line KYSE-150 was obtained from iCell Bioscience Inc. (Shanghai, China). Human umbilical vein endothelial cells (HUVECs) and the murine esophageal carcinoma cell line AKR were purchased from ATCC (Manassas, VA, USA). All cell lines were authenticated by short tandem repeat (STR) profiling and confirmed to be free of mycoplasma contamination prior to use. KYSE-150 cells were maintained in RPMI-1640 medium supplemented with 10% FBS and 1% penicillin–streptomycin solution at 37 °C in a humidified atmosphere containing 5% CO 2 . HUVECs and AKR cells were cultured in DMEM supplemented with 10% FBS and 1% penicillin–streptomycin under identical conditions. All cultures were routinely monitored to ensure the absence of mycoplasma contamination.",
+      "order": 6
+    },
+    {
+      "section": "Cell Viability",
+      "text": "Cell viability was evaluated using the CCK-8 assay kit. Briefly, KYSE-150 cells were seeded into 96-well plates at a density of 8 × 10 3 cells per well. After 24 h of incubation, the culture medium was replaced with fresh medium containing Cu 2-x Se/PDA/IR820 at various concentrations (0, 5, 10, 15, 20, 30, and 40 μg/mL). The cells were then incubated for 14 h at 37 °C. Subsequently, half of the wells were irradiated with an 808 nm laser at a power density of 1 W/cm 2 for 5 min. Following an additional 10 h of incubation, the cells were washed twice with PBS, and 100 μL of serum-free RPMI-1640 medium containing 10 μL of CCK-8 solution was added to each well. After a further 4 h incubation at 37 °C, the optical absorbance was measured at 450 nm using a microplate reader. To delineate the individual contributions of each component within the composite nanomaterial, the cytotoxic effects of Cu 2-x Se/PDA + L, Cu 2-x Se/IR820 + L, and IR820 + L were assessed under identical experimental conditions. In brief, KYSE-150 cells were treated with Cu 2-x Se/PDA, Cu 2-x Se/IR820, or IR820 at a fixed concentration of 15 μg/mL for 14 h, followed by 808 nm laser irradiation (1 W/cm 2 , 5 min). After an additional 10 h of incubation, cell viability was determined using the same CCK-8 assay procedure described above.",
+      "order": 7
+    },
+    {
+      "section": "Cellular Uptake",
+      "text": "HUVEC and KYSE-150 cells (8 × 10 3 cells per dish) were seeded into confocal dishes and cultured for 48 h. The culture medium was then replaced with fresh medium containing Cu 2-x Se/PDA/DiD (15 μg/mL). After incubation for 0, 2, 4, 6 and 8 h, lysosomes were stained with LysoBrite™ Green for 20 min. Cells were then fixed and the nuclei were stained with DAPI. The intracellular localization and uptake of the nanoparticles were visualized using confocal laser scanning microscopy.",
+      "order": 8
+    },
+    {
+      "section": "Edu Cell Proliferation Assay",
+      "text": "Cell proliferation was assessed by measuring the incorporation of 5-ethynyl-2′-deoxyuridine (EdU) during DNA synthesis. KYSE-150 cells were seeded into confocal dishes (5 × 10 3 cells per dish) and incubated overnight to allow attachment. The medium was then replaced with 0.5 mL of serum-free RPMI-1640 medium containing either Cu 2-x Se or Cu 2-x Se/PDA/IR820 at a concentration of 15 μg/mL. After 14 h of incubation, cells in the laser-treated groups were irradiated with an 808 nm laser (1 W/cm 2 ) for 5 min and incubated for an additional 10 h. Cells were then fixed with 4% paraformaldehyde for 15–30 min, permeabilized with 0.5% Triton X-100 for 5–10 min, and stained with EdU reaction solution for 30 min in the dark. Nuclei were counterstained with DAPI for 10 min. After thorough washing with PBS, fluorescence images were acquired using CLSM.",
+      "order": 9
+    },
+    {
+      "section": "Cell Morphology Observation",
+      "text": "To observe morphological changes, KYSE-150 cells were seeded into confocal dishes (5 × 10 3 cells per dish) and cultured for 48 h. The medium was replaced with 0.5 mL of serum-free RPMI-1640 medium containing 15 μg/mL of Cu 2-x Se or Cu 2-x Se/PDA/IR820. After 14 h of incubation, the laser-treated groups were irradiated with an 808 nm laser (1 W/cm 2 ) for 5 min and further incubated for 10 h. The cytoskeleton was stained with FITC-conjugated phalloidin, and nuclei were stained with DAPI. After three washes with PBS, cells were imaged using CLSM.",
+      "order": 10
+    },
+    {
+      "section": "Live/Dead Staining",
+      "text": "HUVEC and KYSE-150 cells were used in parallel to evaluate cell viability via live/dead staining and to assess intracellular nanoparticle localization under identical experimental conditions. HUVEC cells were cultured in DMEM, whereas KYSE-150 cells were maintained in RPMI-1640 medium. For the live/dead staining assay, KYSE-150 cells were seeded into 12-well plates at a density of 2×10 5 cells per well and cultured overnight. HUVEC cells were seeded under the same conditions for parallel analysis. Following overnight incubation, the culture medium was removed, and 0.5 mL of serum-free medium containing 15 μg/mL of either Cu 2-x Se or Cu 2-x Se/PDA/IR820 was added to each well. After a 12 h incubation, cells in the laser-treated groups were irradiated with an 808 nm laser at a power density of 1 W/cm 2 for 5 min. Subsequently, the cells were washed with PBS and stained with a working solution containing 2 μM Calcein-AM and 4 μM ethidium homodimer-1 for 30 min in the dark. Following three additional washes with PBS, stained cells were observed and imaged under a fluorescence microscope to evaluate cell viability. Intracellular localization of the nanoparticles was assessed under the same experimental conditions.",
+      "order": 11
+    },
+    {
+      "section": "Cell Migration Assay",
+      "text": "KYSE-150 cells were seeded in 12-well plates at a density of 1.5×10 5 cells per well and incubated overnight to form a confluent monolayer. A scratch was created using a 200 μL sterile pipette tip, and detached cells were gently washed away with PBS. The remaining cells were treated according to the experimental groups. Images of the scratch area were captured at 0 h and 24 h post-treatment using an inverted microscope. The wound area was quantified using ImageJ software, and the cell migration rate was calculated.",
+      "order": 12
+    },
+    {
+      "section": "In Vitro Cell Invasion Assay",
+      "text": "Matrigel was thawed at 4 °C overnight and used to pre-coat the upper chambers of Transwell inserts for 3 h at 37 °C. KYSE-150 cells (1.5 × 10 5 cells per well) were treated with serum-free medium containing 15 μg/mL of Cu 2-x Se or Cu 2-x Se/PDA/IR820 for 12 h. For laser-treated groups, cells were irradiated with an 808 nm laser (1 W/cm 2 ) for 5 min. The cell suspensions were then seeded into the upper chamber, and 500 μL of complete medium was added to the lower chamber as a chemoattractant. After 48 h of incubation, cells that had invaded through the membrane were fixed with 4% paraformaldehyde and stained with 0.1% crystal violet. Images were captured using an inverted microscope, and the number of invaded cells was quantified.",
+      "order": 13
+    },
+    {
+      "section": "Colony Formation Assay",
+      "text": "KYSE-150 cells were seeded in 12-well plates at a density of 1 × 10 3 cells per well and cultured in a CO 2 incubator. After 3 days, the medium was replaced with 1 mL of serum-free medium containing 15 μg/mL of the respective nanoparticles as per group assignment. The cells were maintained for 14 days, with the medium replaced every three days. At the endpoint, colonies were fixed with 4% paraformaldehyde and stained with 0.1% crystal violet. Images of the colonies were captured using a microscope, and the number of colonies was quantified using ImageJ software.",
+      "order": 14
+    },
+    {
+      "section": "Apoptosis Detection",
+      "text": "KYSE-150 cells were seeded into 12-well plates at a density of 1.5×10 5 cells per well and incubated overnight. Following the designated treatments, cells in the laser-treated groups were irradiated with an 808 nm laser at a power density of 1 W/cm 2 for 5 min. Eight hours post-irradiation, cells were harvested by trypsinization, washed three times with PBS, and resuspended in 500 μL of Binding Buffer. The cells were then stained with 5 μL each of Annexin V-FITC and propidium iodide (PI) for 10 min at room temperature in the dark. Apoptosis was analyzed within 1 h using a flow cytometer (Ex/Em: 488/530 nm for FITC; Ex/Em: 488/≥630 nm for PI).",
+      "order": 15
+    },
+    {
+      "section": "Ldh Release Assay",
+      "text": "Lactate dehydrogenase (LDH) release into the culture supernatant was measured to evaluate membrane integrity and cytotoxicity. KYSE-150 cells were seeded in 96-well plates (5 × 10 3 cells per well) and treated according to the experimental groups. After 24 h, cells in the laser-treated groups were exposed to an 808 nm laser (1 W/cm 2 ) for 5 min, with the culture medium temperature maintained at 45 °C as monitored by an infrared camera. Following an additional 10 h of incubation, LDH activity in the supernatant was quantified using an LDH cytotoxicity assay kit according to the manufacturer’s protocol. Absorbance was measured at 490 nm using a multifunctional microplate reader.",
+      "order": 16
+    },
+    {
+      "section": "Detection Of Reducing Intracellular Reduced Glutathione (Gsh) Level",
+      "text": "Six experimental groups were established: non-irradiated control (Control, Cu 2-x Se, Cu 2-x Se/PDA/IR820) and corresponding laser-irradiated groups (+L) exposed to 808 nm NIR irradiation. For GSH quantification, cells were placed on ice and lysed by ultrasonication. Pre-cooled (4 °C) cell lysis buffer (100 μL) was added, and the lysate was centrifuged. The supernatant was collected, mixed with Solution One (provided in the GSH assay kit), vortexed vigorously, and incubated at 37 °C for 10 min. Subsequently, Solution Two was added, and the mixture was incubated at room temperature for a further 10 min. Absorbance was measured at 405 nm. Total protein concentration in the lysate was determined using a BCA protein assay kit. Intracellular GSH content was calculated as follows: Intracellular total glutathione (T-GSH) and oxidized glutathione (GSSG) levels were quantified using a Total Glutathione/Oxidized Glutathione Assay Kit (microplate method, A061, Nanjing Jiancheng Bioengineering Institute, Nanjing, China) in accordance with the manufacturer’s instructions. Following the designated treatments, cells were collected, washed once or twice with isotonic PBS, and harvested by low-speed centrifugation (1000–2000 rpm). The resulting cell pellets were lysed in 0.3 mL of Reagent 4 via sonication on ice or manual homogenization, and the lysates were centrifuged at 3500 rpm for 10 min. The supernatants were collected for subsequent analysis. For T-GSH measurement, 10 μL of sample supernatant was added to a 96-well plate, and standard wells were prepared in parallel. Subsequently, 100 μL of Reagent 1 and 10 μL of Reagent 2 were added to each well, mixed gently, and incubated at room temperature in the dark for 2 min. After the addition of 50 μL of Reagent 3, absorbance was measured at 405 nm at 30s (A1) and 10 min 30s (A2). The difference in absorbance (ΔA = A2 − A1) was used to calculate T-GSH levels. For GSSG determination, a pretreatment step was performed to mask endogenous reduced glutathione (GSH) and activate GSSG. Briefly, 100 μL of sample supernatant was mixed with 2 μL of Reagent 5 and 5 μL of Reagent 6, vortexed for 1 min, and incubated at 37 °C for 30 min. Subsequently, 10 μL of the pretreated sample was subjected to the same colorimetric procedure described above. GSSG levels were calculated based on the standard control. Intracellular T-GSH and GSSG contents were calculated using the following equations: There, ΔA sample represents the absorbance difference of the sample well, ΔA standard represents the absorbance difference of the T-GSH standard well, C standard represents the concentration of the T-GSH standard, and D represents the sample dilution factor. There, ΔA sample represents the absorbance difference of the sample well, ΔA standard represents the absorbance difference of the GSSG standard well, C standard represents the concentration of the GSSG standard, and D represents the sample dilution factor.",
+      "order": 17
+    },
+    {
+      "section": "Atp Detection",
+      "text": "KYSE-150 cells were seeded into 12-well plates at a density of 1×10 5 cells per well and treated according to the different groups. Cells were collected, lysed, and the supernatant was obtained for ATP measurement. Protein concentration was quantified using a BCA assay. ATP content was determined using a chemiluminescence-based ATP detection kit according to the manufacturer’s instructions, and RLU was measured using a GloMax multifunctional chemiluminescence imaging system.",
+      "order": 18
+    },
+    {
+      "section": "Intracellular Ros Analysis",
+      "text": "KYSE-150 cells were seeded into 12-well plates at a density of 1×10 5 cells per well and cultured for 24 h. The medium was replaced with 0.5 mL of serum-free RPMI-1640 containing 15 μg/mL of Cu 2-x Se or Cu 2-x Se/PDA/IR820. After 8 h of incubation, cells were irradiated with an 808 nm laser (1 W/cm 2 ) for 0, 5, or 10 min. Following an additional 4 h incubation, intracellular ROS levels were detected using the fluorescent probe 2′,7′-dichlorofluorescein diacetate (DCFH-DA). Cells were incubated with 300 μL of DCFH-DA working solution (10 μM) for 20 min at 37 °C in the dark, washed three times with PBS, and observed under a fluorescence microscope. ROS-mediated DCF fluorescence intensity was also quantified by flow cytometry. For comparison, separate experiments were conducted following the same procedure to assess ROS generation in the IR820+L, Cu 2-x Se/PDA+L, and Cu 2-x Se/IR820+L groups.",
+      "order": 19
+    },
+    {
+      "section": "Mitochondrial Membrane Potential (Δψm) Assessment",
+      "text": "Changes in mitochondrial membrane potential were evaluated using the JC-1 fluorescent probe. KYSE-150 cells were seeded in 12-well plates (1 × 10 5 cells/well) and cultured for 24 h. The cells were then treated with 15 μg/mL of Cu 2-x Se or Cu 2-x Se/PDA/IR820 for 14 h. Laser-treated groups were irradiated with an 808 nm laser (1 W/cm 2 ) for 5 min and incubated for an additional 10 h. Cells were subsequently stained with JC-1 working solution for 15 min at 37 °C in the dark. After washing with serum-free medium, the red (J-aggregates, indicative of high ΔΨm) and green (J-monomers, indicative of low ΔΨm) fluorescence were observed using a fluorescence microscope. The ratio of red to green fluorescence intensity was further quantified by flow cytometry.",
+      "order": 20
+    },
+    {
+      "section": "Animal Model Establishment And Anesthesia-Euthanasia Procedures",
+      "text": "Male C57BL/6J mice (8–12 weeks old, 18 ± 2 g) were purchased from Spefo Bio Co., Ltd. Healthy mice were used to establish an AKR tumor-bearing model by subcutaneously injecting 100 μL of AKR cell suspension (2.0×10 7 cells/mL) into the right dorsal lumbar region, delivering approximately 2.0×10 6 cells per mouse. Tumor growth was monitored every other day using a digital caliper, and the tumor volume (V) was calculated as V = L × W 2 /2, where L and W represent the longest and shortest diameters, respectively. Once the average tumor volume reached approximately 80–100 mm 3 (designated as day 0), the mice were randomly assigned to different treatment groups for subsequent experiments. All procedures involving animals were performed under isoflurane inhalation anesthesia. Anesthesia was induced with 2.0%–3.0% isoflurane in oxygen and maintained at 1.5%–2.0% during procedures such as intratumoral injection, in vivo imaging, and laser irradiation. At the experimental endpoint, all mice were euthanized by cervical dislocation under deep anesthesia, in strict accordance with the approved protocol (HUSOM2025-717) and the AVMA Guidelines for the Euthanasia of Animals.",
+      "order": 21
+    },
+    {
+      "section": "In Vivo Photothermal Efficiency Assessment",
+      "text": "For biodistribution studies, tumor-bearing mice were intravenously injected via the tail vein with either free near-infrared dye DiD or Cu 2-x Se/PDA/DiD nanoparticles (both at an equivalent DiD dose of 3 mg/kg). In vivo fluorescence imaging was performed using an IVIS Lumina III imaging system at 0, 4, 8, 12, 24, and 48 h post-injection. At the 48-h time point, mice were euthanized, and the tumors and major organs were collected for ex vivo imaging to quantify fluorescence intensity and assess biodistribution. To directly assess the photothermal conversion capability of the nanoparticles at the tumor site, a separate cohort of tumor-bearing mice was intravenously injected (via the tail vein) with 50 μL of saline or Cu 2-x Se /PDA/IR820 (3 mg/kg). Twenty-four hours later, the tumor region was irradiated with an 808 nm laser at 1.0 W/cm 2 . The temperature elevation and spatial heat distribution at the tumor surface were recorded over a 5-minute period using an infrared thermal imaging camera.",
+      "order": 22
+    },
+    {
+      "section": "In Vivo Antitumor Efficacy Study",
+      "text": "To evaluate the therapeutic efficacy of Cu 2-x Se/PDA/IR820 in vivo, AKR tumor-bearing C57BL/6J mice (prepared as described above) were randomly divided into six groups (n = 6 per group) when the tumor volume reached ~80 mm 3 : (1) Saline (Control); (2) Cu 2-x Se nanoparticles; (3) Cu 2-x Se /PDA/IR820 nanoparticles; (4) Saline + L; (5) Cu 2-x Se + L; (6) Cu 2-x Se /PDA/IR820 + L. On day 0, mice in the respective groups received a single intratumoral injection of 50 μL of saline, Cu 2-x Se, or Cu 2-x Se /PDA/IR820 suspension (at a unified Cu 2-x Se dose of 3 mg/kg body weight). For the laser-treated groups (+ Laser), the tumor site was irradiated with an 808 nm near-infrared (NIR) laser at a power density of 1.0 W/cm 2 for 5 minutes at 24 hours post-injection. During laser irradiation, the temperature of the tumor region was monitored and recorded in real-time using an infrared thermal camera (HIKMICRO, Hangzhou, China) to ensure a consistent hyperthermic effect (reaching 42–45 °C). Following treatment, the tumor dimensions and body weight of each mouse were measured and recorded every two days. Tumor volume was calculated using the formula V = L × W 2 /2. The relative tumor volume was normalized to the initial volume on day 0. The therapeutic experiment was terminated on day 13 post-treatment. At the endpoint, all mice were euthanized, and the tumors were surgically excised, photographed, and weighed. Subsequently, the collected tumor tissues were fixed in 4% paraformaldehyde for H&E staining and immunohistochemical/immunofluorescence staining (Ki-67 for proliferation and TUNEL for apoptosis), while major organs (heart, liver, spleen, lung, and kidney) were also harvested for systemic toxicity evaluation via H&E staining. Whole blood samples were collected for hematological and serum biochemical analysis to further assess in vivo biosafety.",
+      "order": 23
+    },
+    {
+      "section": "Preparation Of Single-Cell Suspensions From Tumor Tissues",
+      "text": "Tumor tissues were freshly isolated, washed with cold PBS to remove residual blood, and minced into small pieces of approximately 1 mm 3 . The tissues were digested in enzyme solution containing collagenase IV, hyaluronidase, and DNase I at 37°C for 30–60 min with gentle agitation. During digestion, the samples were gently pipetted every 10 min to facilitate tissue dissociation. The digestion was terminated by adding an equal volume of culture medium containing 10% FBS. The cell suspension was then filtered through a 70 μm cell strainer to obtain a single-cell suspension. Cells were collected by centrifugation at 300–400 g for 5 min, washed with PBS, and resuspended for subsequent analyses. Red blood cells were removed using red blood cell lysis buffer when necessary. The resulting single-cell suspensions were used for ROS, LDH, and ATP assays.",
+      "order": 24
+    },
+    {
+      "section": "Flow Cytometric Analysis Of Ros In Tumor-Derived Cells",
+      "text": "Single-cell suspensions prepared from tumor tissues were adjusted to the desired concentration, and 1 × 10 6 cells per sample were resuspended in serum-free medium. Following the indicated treatments, the cells were incubated with DCFH-DA at a final concentration of 10 μM at 37°C for 20–30 min in the dark. After incubation, the cells were washed three times with PBS and resuspended for flow cytometric analysis. Fluorescence was detected in the FITC channel, and intracellular ROS levels were expressed as mean fluorescence intensity (MFI) after exclusion of debris and doublets.",
+      "order": 25
+    },
+    {
+      "section": "Ldh Assay In Tumor-Derived Single-Cell Suspensions",
+      "text": "Freshly prepared tumor-derived single-cell suspensions were counted, and equal numbers of cells were collected for analysis. After low-speed centrifugation, the cell pellets were lysed in an appropriate lysis buffer, and the lysates were centrifuged at 4°C to collect the supernatants for LDH measurement. LDH levels or activity were determined using a commercial assay kit according to the manufacturer’s instructions.",
+      "order": 26
+    },
+    {
+      "section": "Atp Assay In Tumor-Derived Single-Cell Suspensions",
+      "text": "Tumor-derived single-cell suspensions were prepared as described above. Cells were counted, and equal numbers of cells were collected and pelleted by centrifugation. The cell pellets were lysed, and the supernatants were collected for ATP measurement. Protein concentration was determined using a BCA assay. ATP levels were measured using the same chemiluminescence-based ATP detection kit as described above, according to the manufacturer’s instructions. Luminescence (RLU) was recorded using a GloMax multifunctional chemiluminescence imaging system.",
+      "order": 27
+    },
+    {
+      "section": "Haemolysis Assay",
+      "text": "Red blood cells (RBCs) obtained from fresh mouse blood were centrifuged and diluted with saline to prepare a 2% (v/v) RBC suspension. RBCs were incubated with Cu 2-x Se/PDA/IR820 nanoparticles at various concentrations (5, 10, 15, 50, and 100 μg/mL) for 1 h at 37 °C. After centrifugation, the supernatant absorbance was measured at 540 nm. Deionized water and saline served as positive and negative controls, respectively. The hemolysis percentage (HP) was calculated using the following formula. where A S , A C (−), and A C (+) denote the absorbance of the experimental sample, negative control, and positive control, respectively.",
+      "order": 28
+    },
+    {
+      "section": "In Vivo Biosafety Evaluation",
+      "text": "At the conclusion of the efficacy study, mice were euthanized, and 0.8 mL of whole blood was collected into heparinized tubes for hematological and serum biochemical analyses. Parameters measured included white blood cell count (WBC), red blood cell count (RBC), platelet count (PLT), hemoglobin (HGB), alanine aminotransferase (ALT), aspartate aminotransferase (AST), blood urea nitrogen (UREA), and creatinine (CREA). Major organs were fixed in 4% paraformaldehyde, embedded in paraffin, and sectioned at a thickness of 4–5 μm. Tissue sections were stained with H&E for histopathological examination. For immunofluorescence staining, sections were deparaffinized, rehydrated, and incubated with TdT reaction buffer in the dark at 37 °C for 1 h. Nuclei were counterstained with DAPI for 8–10 min. Stained sections were scanned using a slide scanner.",
+      "order": 29
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "All experiments were performed independently at least three times. Quantitative data are expressed as the mean ± standard deviation (SD). Statistical analyses were performed using GraphPad Prism 10.1.2 (GraphPad Software, San Diego, CA, USA) and Origin 8.0 (OriginLab Corporation, Northampton, MA, USA). For comparisons between two groups, an unpaired two-tailed Student’s t -test was employed. For multiple group comparisons (≥3 groups), one‑way analysis of variance (ANOVA) was applied, followed by Tukey’s post‑hoc test for pairwise multiple comparisons to control for type I error. Prior to ANOVA, the normality of data distribution was assessed using the Shapiro–Wilk test, and homogeneity of variances was verified using Levene’s test; when these assumptions were not met, the non‑parametric Kruskal–Wallis test followed by Dunn’s multiple comparisons test was used as an alternative. A p ‑value < 0.05 was considered statistically significant. Significance levels in figures are denoted as follows: * p < 0.05, ** p < 0.01, and *** p < 0.001. In all in vivo experiments, n refers to the number of biologically independent animals (n = 6 per treatment group), and in vitro data were collected from at least three independent technical replicates (n = 3). Specific details regarding statistical tests and sample sizes are also provided in the respective figure legends.",
+      "order": 30
+    },
+    {
+      "section": "Fabrication And Characterization Of Cu 2-X Se/Pda/Ir820 Composite Nanoparticles",
+      "text": "Hollow Cu 2-x Se nanospheres were initially synthesized via a template-assisted etching strategy. TEM images revealed a well-defined hollow architecture with uniform particle dimensions and a shell thickness of approximately 10 nm ( Figure 1A ). High-resolution TEM (HRTEM) analysis further identified a lattice spacing of 2.02 Å, consistent with the (220) crystallographic plane of copper selenide ( Figure 1B ). X-ray diffraction (XRD) patterns of the as-prepared Cu 2-x Se nanoparticles displayed characteristic diffraction peaks at 2θ angles corresponding to the (111), (220), and (311) planes, which matched closely with the standard reference pattern (PDF #99-0348) ( Figure 1C ). Energy-dispersive X-ray spectroscopy (EDS) elemental mapping confirmed the homogeneous distribution of copper (Cu) and selenium (Se) throughout the hollow nanostructures, with the corresponding spectra provided in Figure 1D and Figure S1 . Subsequently, Cu 2-x Se/PDA/IR820 composite nanoparticles were prepared by in situ polymerization of dopamine under alkaline conditions, enabling simultaneous deposition of the PDA coating and loading of the photosensitizer IR820. TEM imaging confirmed the successful formation of a conformal PDA layer on the nanoparticle surface, with an average coating thickness of approximately 6.24 nm ( Figure 1E ). Dynamic light scattering (DLS) measurements indicated that the average hydrodynamic diameter increased from 98.96 ± 0.64 nm (PDI = 0.099) for pristine Cu 2-x Se nanoparticles to 164.1 ± 1.81 nm (PDI = 0.263) for the Cu 2-x Se/PDA/IR820 composite ( Figure 1F and Figure S2 ). This substantial increase in particle size confirms the successful incorporation of both the PDA shell and IR820 cargo. FT‑IR spectroscopy of the composite nanoparticles ( Figure 1G ) exhibited characteristic absorption bands in the regions of 3500–3300 cm⁻ 1 and 1620–1650 cm⁻ 1 , attributable to N–H and C=O stretching vibrations of IR820, respectively, 27 thereby corroborating the effective loading of the photosensitizer. X‑ray photoelectron spectroscopy (XPS) was employed to further elucidate the surface chemical composition and oxidation states. The high‑resolution Cu 2p spectrum ( Figure 1H ) displayed prominent peaks at binding energies of 932–934 eV (Cu 2p 3/2 ) and 952–954 eV (Cu 2p 1/2 ), consistent with previously reported values. 28 , 29 Peak deconvolution analysis revealed a Cu⁺/Cu 2 ⁺ ratio of approximately 1.95:1, indicating the coexistence of mixed copper valence states that are potentially beneficial for chemodynamic therapeutic activity. The full-survey XPS spectrum ( Figure S3 ) confirmed the presence of Cu, Se, O, C, and N elements within the expected binding energy range (0–1200 eV). To assess colloidal stability, the composite nanoparticles were dispersed in deionized water, phosphate‑buffered saline (PBS), and RPMI‑1640 medium supplemented with 10% FBS, and the hydrodynamic size was monitored over a period of 7 days. No significant changes in particle diameter were observed under any of the tested conditions ( Figure 1I and Figure S4 ), demonstrating excellent colloidal stability of the Cu 2-x Se/PDA/IR820 nanoparticles ( p >0.05).",
+      "order": 31
+    },
+    {
+      "section": "Assessment Of The Photothermal And Ph-Responsive Characteristics Of Cu 2-X Se/Pda/Ir820 Composite Nanoparticles",
+      "text": "The optical properties of the synthesized materials were characterized by ultraviolet–visible–near-infrared (UV–Vis–NIR) absorption spectroscopy. The pristine Cu 2-x Se nanoparticles exhibited strong absorbance across the 800–1100 nm wavelength range ( Figure S5A ), characteristic of localized surface plasmon resonance (LSPR) effects (quantitative absorption data are provided in Figure S5B ). Concentration-dependent absorption spectra of Cu 2-x Se/PDA/IR820 are presented in Figure 2A , with the corresponding linear fitting curves shown in Figure S6A . A comparative analysis of the absorption profiles of free IR820, Cu 2-x Se, and Cu 2-x Se/PDA/IR820 ( Figure 2B ) revealed that the composite nanoparticles retain a prominent absorption peak at 820 nm, primarily attributable to the encapsulated IR820 ( Figure S7A and B ). Given the close spectral match with the 808 nm laser, this wavelength was selected for all subsequent photothermal and photodynamic experiments to maximize energy conversion efficiency. 30 , 31 The role of the PDA shell in regulating IR820 loading and release was further investigated. Quantitative UV–Vis analysis, based on the absorbance of the supernatant and a standard calibration curve, determined the IR820 loading capacity of the Cu 2-x Se/PDA/IR820 composite to be 66.80% ( Figure S6B ). This high loading efficiency is attributed to strong π–π stacking interactions and hydrogen bonding between the aromatic moieties of IR820 and the PDA coating, as well as the high specific surface area conferred by the hollow nanostructure. The degradation behavior of the PDA coating under acidic conditions, which mimics the tumor microenvironment, was evaluated by thermogravimetric analysis (TGA). Within the characteristic thermal decomposition range of PDA (220–320 °C), the mass loss progressively increased from 15.76% at 10 min to 20.93% at 20 min, and further to 28.76% at 30 min of acid incubation ( Figure S8 ). These results confirm the time-dependent degradation of the PDA shell under acidic pH, facilitating the subsequent controlled release of the loaded IR820 cargo. Consistent with the acid-triggered PDA degradation, the release of IR820 exhibited pronounced pH dependence. As illustrated in Figure 2C and D , the cumulative release of IR820 increased significantly with decreasing pH. At pH 5.0, the cumulative release reached 23.07% within 30 min, which was substantially higher than the release observed at pH 6.0 (10.23%) and pH 7.0 (4.2%) Collectively, these findings demonstrate that the Cu 2-x Se/PDA/IR820 composite nanoparticles possess marked pH-responsive release behavior, enabling preferential IR820 liberation within the acidic tumor microenvironment. The photothermal heating characteristics of Cu 2-x Se/PDA/IR820 were evaluated under 808 nm laser irradiation. As shown in Figure 2E , the rate of temperature elevation exhibited a direct correlation with laser power density. Similarly, at a fixed power density of 1 W/cm 2 , the temperature increase was positively correlated with nanoparticle concentration ( Figure 2F ). At a concentration of 100 μg/mL, the suspension temperature reached 62.8 °C after 5 min of irradiation, demonstrating robust and concentration-dependent photothermal conversion. 32 , 33 Infrared thermal imaging provided spatial visualization of the photothermal effect. 34 As depicted in Figure 2G and quantified in Figure S9 , the temperature of the Cu 2-x Se/PDA/IR820 suspension (50 μg/mL) rose from ambient temperature to 51.2 °C within 5 min of laser exposure, markedly surpassing the temperature elevations observed for Cu 2-x Se nanoparticles (43 °C) and PBS control (32 °C). Furthermore, cyclic photothermal stability tests ( Figure 2H ) revealed that the composite nanoparticles maintained a consistent thermal response over five consecutive heating–cooling cycles, indicating excellent photothermal reproducibility. Based on the cooling curve and the established formula, the photothermal conversion efficiency ( η ) of the Cu 2-x Se/PDA/IR820 composite was calculated to be 44.56% ( Figure 2I ), underscoring the substantial potential of this nanoplatform for photothermal therapeutic applications. 35",
+      "order": 32
+    },
+    {
+      "section": "Cellular Uptake And In Vitro Cytotoxicity Of Cu 2-X Se/Pda/Ir820 Composite Nanoparticles",
+      "text": "The anticancer potential of Cu 2-x Se/PDA/IR820 was initially evaluated using the CCK-8 cytotoxicity assay. Human umbilical vein endothelial cells (HUVECs) were employed as a model of normal primary endothelial cells to assess biocompatibility and selective targeting. As shown in Figure 3A , exposure to varying concentrations of the composite nanoparticles induced negligible changes in the viability of both KYSE-150 esophageal cancer cells and HUVECs in the absence of laser irradiation. Even at the highest tested concentration of 40 μg/mL, cell viability remained approximately 90%, indicating favorable cytocompatibility and low intrinsic cytotoxicity. In marked contrast, upon exposure to 808 nm laser irradiation, the viability of KYSE-150 cells decreased significantly in a concentration-dependent manner ( p < 0.001), reaching an inhibition rate of 98.80% at 100 μg/mL ( Figure S10 ). The half-maximal inhibitory concentration for the Cu 2-x Se/PDA/IR820 + L group was determined to be 18.74 μg/mL by nonlinear regression analysis ( Figure 3B ). As shown in Figure S11A , different treatment conditions exhibited distinct cytotoxic effects on KYSE-150 cells, among which the Cu 2-x Se/PDA/IR820 composite nanomaterial combined with laser irradiation group showed the strongest cytotoxicity. Additional subgroup controls, including IR820 + L, Cu 2-x Se/PDA + L, and Cu 2-x Se/IR820 + L, were incorporated into the cell viability to further delineate the contributions of individual components under identical experimental conditions. As shown in Figure S11B , the Cu 2-x Se/PDA + L and Cu 2-x Se/IR820 + L groups exhibited comparable cytotoxicity, both of which were significantly higher than that of the IR820 + L group but still significantly lower than that of the Cu 2-x Se/PDA/IR820 + L group. These results indicate that PDA and IR820 play complementary roles in the composite nanoplatform. Specifically, Cu 2-x Se/PDA primarily enhances the photothermal effect, whereas IR820 provides additional photothermal and photodynamic activities. The synergistic integration of these functions ultimately leads to enhanced therapeutic efficacy, demonstrating that each component is indispensable for achieving optimal multimodal cancer therapy. Cellular internalization is a critical determinant of nanoparticle–cell interactions and therapeutic efficacy. 36 To investigate the uptake kinetics of the composite nanoparticles, KYSE-150 cells were incubated with fluorescently labeled Cu 2-x Se/PDA/DiD and visualized by CLSM. As illustrated in Figure 3C , the intracellular red fluorescence signal intensified progressively over time and exhibited substantial colocalization with lysosomal markers, suggesting that the nanoparticles are predominantly internalized via endocytic pathways and trafficked to lysosomal compartments. Notably, the fluorescence intensity reached a maximum at 6 h and decreased at 8 h, suggesting partial lysosomal escape of the nanocomposites. Further characterization by transmission electron microscopy and CLSM confirmed effective internalization of Cu 2-x Se/PDA/DiD nanocomposites by HUVECs ( Figure S12 ). Similarly, a comparable uptake and lysosomal escape behavior was also observed in HUVECs. A time-dependent increase in cytoplasmic red fluorescence was observed from 0 to 6 h, accompanied by a significant rise in the colocalization coefficient with the lysosomal probe, demonstrating effective uptake and lysosomal accumulation. The fluorescence intensity began to decrease after 8 h, indicating the onset of lysosomal escape. Experimental results demonstrated that both normal cells and cancer cells were capable of effectively internalizing the composite nanoparticles. Building upon this established uptake mechanism, live/dead cell staining experiments ( Figure S13 ) revealed that, in the absence of laser irradiation, all treatment groups maintained high cell viability without detectable phototoxicity. Under NIR laser irradiation, both the Cu 2-x Se/PDA and Cu 2-x Se/PDA/IR820 composite groups exhibited marked necrosis; however, the proportion of dead cells was substantially higher in the Cu 2-x Se/PDA/IR820 group. Collectively, these results demonstrate that the photothermal and photodynamic therapeutic effects mediated by this material are highly dependent on efficient cellular internalization, thereby enabling targeted tumor ablation.",
+      "order": 33
+    },
+    {
+      "section": "In Vitro Combination Therapy Effects",
+      "text": "The impact of Cu 2-x Se/PDA/IR820 on cell proliferation was quantitatively assessed using the EdU incorporation assay. 37 Actively proliferating cells were identified by green fluorescence corresponding to Alexa Fluor 488-labeled EdU incorporated during DNA synthesis ( Figure 3D ). Quantitative analysis ( Figure S14 ) revealed that the proliferation rate in the Cu 2-x Se/PDA/IR820 + L group was reduced to merely 8.83% of that observed in control groups ( p < 0.001), confirming a potent antiproliferative effect induced by the combined action of the composite nanoparticles and NIR irradiation. Given that inhibition of proliferation is often accompanied by cytoskeletal remodeling. 38 , 39 We further examined alterations in F-actin architecture using FITC-conjugated phalloidin staining. Untreated KYSE-150 cells maintained a well-organized cytoskeleton with distinct cellular protrusions, indicative of a healthy state. In contrast, following NIR laser irradiation, cells treated with Cu 2-x Se and Cu 2-x Se/PDA/IR820 exhibited a marked loss of filopodial extensions and pronounced cytoskeletal collapse, with the most severe morphological disruption observed in the Cu 2-x Se/PDA/IR820 + L group ( Figure 3E ). These observations corroborate the substantial antitumor activity of the composite nanoplatform upon photoactivation. Live/dead cell staining using Calcein-AM (green fluorescence, viable cells) and propidium iodide (red fluorescence, dead cells) provided a direct visualization of treatment-induced cytotoxicity. As depicted in Figure 3F , cells in the non-irradiated groups displayed predominant green fluorescence, indicating high viability with minimal cell death. In stark contrast, both the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups exhibited intense red fluorescence, with the latter group showing the highest proportion of dead cells. This finding underscores the potent cytotoxic effect exerted by Cu 2-x Se/PDA/IR820 upon 808 nm laser irradiation. The influence of the composite nanoparticles on cell migration and invasion was assessed using wound healing and Transwell assays, respectively. In the wound healing assay ( Figure S15 ), the migration rate of KYSE-150 cells in the Cu 2-x Se + L group was significantly reduced to 27.07% relative to the control ( p < 0.001). Notably, the migration rate in the Cu 2-x Se/PDA/IR820 + L group was further diminished to 14.06% ( p < 0.05 versus Cu 2-x Se + L). Consistently, the Transwell invasion assay ( Figure S16 ) revealed a marked decrease in the number of invasive cells following treatment, with the Cu 2-x Se/PDA/IR820 + L group exhibiting an average of only 262 invading cells per field compared to 721 cells in the Cu 2-x Se + L group ( p < 0.001). The invaded cells also displayed a rounded, contracted morphology with poor substrate adhesion. These results indicate that the combination of Cu 2-x Se/PDA/IR820 and laser irradiation significantly impairs both the migratory and invasive capacities of esophageal cancer cells. The long-term proliferative potential of KYSE-150 cells was evaluated using a colony formation assay. As shown in Figure S17 , both the number and size of colonies were substantially reduced in the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups. The average colony count in the Cu 2-x Se/PDA/IR820 + L group was only 44.33, compared to 258 in the Cu 2-x Se + L group ( p < 0.001) indicating a profound and sustained suppression of clonogenic survival. Flow cytometric analysis of Annexin V-FITC/PI staining was performed to quantify the induction of apoptosis. As presented in Figure 3G , the apoptosis rate in the Cu 2-x Se + L group was 12.78%, whereas it increased significantly to 28.57% in the Cu 2-x Se/PDA/IR820 + L group. Comprehensive statistical analysis ( Figure S18 ) further confirmed the superior pro-apoptotic efficacy of the composite nanoplatform under photoactivation (all p <0.001). The flow cytometry scatter plot ( Figure S19A ) revealed that the IR820+L group was predominantly composed of viable cells (approximately 94%), with only small proportions of early apoptotic cells (4.43%) and late apoptotic/necrotic cells (4.53%), resulting in a total apoptosis rate of 8.86%, which was significantly higher than that of the control group (4.58%). In contrast, the Cu 2-x Se/PDA+L group exhibited a marked increase in apoptotic cells, with early and late apoptotic/necrotic populations reaching 13.50% and 8.12%, respectively, corresponding to a total apoptosis rate of 21.62%. Similarly, the Cu 2-x Se/IR820+L group showed a comparable apoptosis-inducing effect, with early and late apoptotic/necrotic cell populations of 4.73% and 17.20%, respectively, resulting in a total apoptosis rate of 21.93%. Notably, although the Cu 2-x Se/PDA+L and Cu 2-x Se/IR820+L groups exhibited similar pro-apoptotic effects, both showed lower apoptosis rates than the Cu 2-x Se/PDA/IR820+L group (26.06%). These results highlight the superior apoptosis-inducing capability of the Cu 2-x Se/PDA/IR820+L treatment. Statistical analysis ( Figure S19B ) further confirmed that the apoptosis rates in these groups were significantly higher than that in the IR820+L group (both p < 0.001). Moreover, the Cu 2-x Se/PDA/IR820+L group showed the strongest pro-apoptotic efficacy among all treatment groups, further demonstrating the synergistic effect of this composite nanoplatform in enhancing tumor cell apoptosis under laser irradiation. To further elucidate the mechanisms underlying the combined therapeutic effects, a series of biochemical assays were conducted, as summarized in Figure 4 . LDH release, an indicator of plasma membrane integrity loss, 40 was measured to quantify acute cytotoxicity. As shown in Figure 4A , the Cu 2-x Se/PDA/IR820 + L group exhibited the highest level of LDH release among all treatment groups, significantly exceeding that of the Cu 2-x Se + L group and all non-irradiated controls, confirming the enhanced cell-killing capacity of the composite nanoplatform. Upon exposure to the acidic tumor microenvironment, the surface PDA coating is expected to undergo pH-dependent degradation, facilitating the release of Cu 2 ⁺ ions. These ions can interact with intracellular glutathione (GSH), leading to its depletion and consequent disruption of redox homeostasis. Concurrently, the generated Cu⁺ ions can catalyze Fenton-like reactions, converting endogenous hydrogen peroxide (H 2 O 2 ) into highly cytotoxic hydroxyl radicals (·OH) to potentiate chemodynamic therapy (CDT). Consistent with this proposed mechanism, the Cu 2-x Se/PDA/IR820 + L group exhibited the most pronounced reduction in intracellular GSH levels, with an average concentration of 335 μmol/g protein, compared to 697 μmol/g protein in the Cu 2-x Se + L group ( Figure 4B ). In the absence of laser irradiation, both Cu 2-x Se and Cu 2-x Se/PDA/IR820 nanoparticles induced comparable GSH depletion, significantly lower than the control group ( p < 0.001). To further elucidate the redox-modulating capacity of the nanoparticles, we examined the dynamics of oxidized glutathione (GSSG) as presented in Figure S20 . Upon laser irradiation, both the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups displayed a marked elevation in intracellular GSSG levels relative to their non-irradiated counterparts ( p < 0.001). Notably, the Cu 2-x Se/PDA/IR820 + L group exhibited the highest GSSG concentration among all treatment conditions, reaching 94.04 μmol/L ( p < 0.001). This observation aligns closely with the most extensive GSH depletion detected in the corresponding GSH assay, corroborating the enhanced redox imbalance induced by the composite nanosystem under NIR activation. Mitochondrial impairment was evaluated by measuring intracellular ATP levels. As depicted in Figure 4C , the Cu 2-x Se/PDA/IR820 + L group exhibited a dramatic reduction in ATP production, with levels dropping to approximately 25% of the control value, indicative of severe mitochondrial dysfunction. In comparison, the Cu 2-x Se + L group showed a less pronounced decrease in ATP content, consistent with its reliance primarily on photothermal effects. Both laser-treated groups displayed significant differences relative to the non-irradiated controls ( p < 0.001), underscoring the capacity of the combined treatment to disrupt mitochondrial oxidative phosphorylation. ROS play a pivotal role in mediating anticancer effects by inducing oxidative stress and triggering cell death pathways. 41 The intracellular ROS generation capability of Cu 2-x Se/PDA/IR820 upon laser irradiation was evaluated using the DCFH-DA fluorescent probe. 42 As illustrated in Figure 4D , under 808 nm laser irradiation (1 W/cm 2 ), the control group exhibited minimal green fluorescence even after 10 min of exposure, indicating negligible ROS production. In contrast, both the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups displayed a time-dependent increase in fluorescence intensity, with the composite nanoparticle group achieving the highest signal at the 10 min time point. Flow cytometric quantification ( Figure 4E and Figure S21 ) revealed that the proportion of ROS-positive cells in the Cu 2-x Se/PDA/IR820 + L group reached 76.32%, substantially exceeding the 38.68% observed in the Cu 2-x Se + L group ( p <0.001). To further delineate the kinetics of ROS generation among the individual components, fluorescence imaging was performed to compare the IR820, Cu 2-x Se/PDA, Cu 2-x Se/IR820 and Cu 2-x Se/PDA/IR820 nanosystems under 808 nm laser irradiation ( Figure S22 ). Temporally, the IR820 monotherapy group exhibited extremely weak green fluorescence at 0, 5, and 10 min, indicating a very limited intrinsic capacity for ROS induction. The overall fluorescence intensity of the Cu 2-x Se/PDA group was generally comparable to that of the Cu 2-x Se/IR820 group, and the fluorescence signal showed a slight increase over time, with a broadly similar spatial distribution. Both groups exhibited significantly higher fluorescence intensity than the IR820+L group, but remained significantly lower than that of the composite nanomaterial plus laser irradiation group. Notably, the Cu 2-x Se/PDA/IR820 group displayed a pronounced time-dependent escalation in green fluorescence, achieving the most extensive coverage area and the highest brightness by the 10 min time point. These findings directly corroborate the superior efficiency of the composite nanosystem in generating ROS upon photoactivation. These findings are consistent with the cumulative ROS production trend and support the role of ROS as a key mediator of cell death. Elevated ROS levels can compromise mitochondrial integrity, leading to a decrease in mitochondrial membrane potential (ΔΨm). 43 Changes in ΔΨm were monitored using the JC-1 fluorescent probe, which exhibits a reversible shift from red fluorescence (J-aggregates in polarized mitochondria) to green fluorescence (J-monomers in depolarized mitochondria). As shown in Figure 4F , the Cu 2-x Se/PDA/IR820 + L group displayed a marked reduction in red fluorescence accompanied by a concomitant increase in green fluorescence, signifying substantial mitochondrial depolarization. Flow cytometric analysis ( Figure 4G ) further quantified that the proportion of JC-1 monomers reached 58.03% in this treatment group, significantly higher than in all control groups. These results indicate that Cu 2-x Se/PDA/IR820 nanoparticles, upon photoactivation, effectively induce mitochondrial dysfunction, which likely contributes to their potent antitumor activity.",
+      "order": 34
+    },
+    {
+      "section": "In Vivo Evaluation Of Antitumor Efficacy",
+      "text": "To assess tumor-targeting capability and in vivo biodistribution, IR820 was replaced with the near-infrared fluorescent dye DiD to generate Cu 2-x Se/PDA/DiD nanoparticles. Tumor-bearing mice received intravenous tail vein injections of either Cu 2-x Se/PDA/DiD or an equivalent dose of free DiD. In vivo fluorescence imaging was performed at predetermined time intervals (0, 4, 8, 12, 24, and 48 h) post-injection. As shown in Figure 5A and B , mice administered with Cu 2-x Se/PDA/DiD exhibited discernible fluorescence accumulation at the tumor site beginning at 8 h post-injection, reaching peak intensity at 24 h and remaining detectable for up to 48 h. In stark contrast, the fluorescence signal in the free DiD group diminished rapidly, approaching background levels within the same timeframe. Ex vivo imaging of excised tumors and major organs at 48 h post-injection ( Figure 5C and D ) confirmed significantly higher fluorescence intensity in the tumor tissues of the Cu 2-x Se/PDA/DiD group compared to the free DiD group (9.56 vs 3.36, p < 0.001). Moreover, prominent nanoparticle accumulation was observed in the liver and spleen, consistent with clearance via the reticuloendothelial system, a typical biodistribution pattern for nanomedicines. 44 These results demonstrate that the Cu 2-x Se/PDA-based nanoplatform facilitates enhanced passive tumor accumulation and prolonged retention, likely mediated by the enhanced permeability and retention (EPR) effect. The in vivo photothermal conversion capability of Cu 2-x Se/PDA/IR820 was evaluated by monitoring tumor surface temperature during 808 nm laser irradiation following intravenous tail vein injections. As depicted in Figure 5E and F , the temperature of the tumor region in nanoparticle-treated mice increased rapidly within the first 2 min of irradiation, reaching a therapeutic threshold of approximately 42 °C, which is sufficient for effective photothermal ablation. In contrast, the saline-injected control group exhibited only a modest temperature elevation. These findings confirm the efficient tumor-targeted photothermal conversion of Cu 2-x Se/PDA/IR820 in vivo. The therapeutic efficacy of Cu 2-x Se/PDA/IR820 was comprehensively evaluated in an AKR tumor-bearing C57BL/6J mouse model. The experimental design is schematically illustrated in Figure 6A . When the average tumor volume reached approximately 80 mm 3 , mice were randomly allocated into six treatment groups (n = 6 per group): (1) Saline (Control), (2) Cu 2-x Se, (3) Cu 2-x Se/PDA/IR820, (4) Saline + L, (5) Cu 2-x Se + L, and (6) Cu 2-x Se/PDA/IR820 + L. Tumor volumes and body weights were monitored every two days throughout the 13-day study period. As shown in Figure 6B , tumor growth in the Control, Cu 2-x Se, Cu 2-x Se/PDA/IR820, and Saline + L groups proceeded rapidly and comparably. In contrast, tumor progression was significantly suppressed in both the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups, with the latter exhibiting the most pronounced inhibition ( p <0.001). At the study endpoint, the average tumor volume in the Control group had increased to approximately 13-fold of its initial size, whereas the final tumor volume in the Cu 2-x Se/PDA/IR820 + L group was merely 17.8% of that in the Control group. Notably, body weight measurements remained stable across all groups over the course of treatment ( Figure S23 ), indicating good overall tolerance to the administered therapies. At the conclusion of the experiment on day 13, tumors were surgically excised, photographed ( Figure 6C ), and weighed ( Figure 6D ). Consistent with the volumetric measurements, both the tumor size and mass were dramatically reduced in the Cu 2-x Se/PDA/IR820 + L group compared to all other groups, validating the superior antitumor efficacy of the combined photothermal, photodynamic, and chemodynamic therapeutic approach. Histological and immunohistochemical analyses were performed on excised tumor tissues to further characterize treatment-induced pathological changes. Hematoxylin and eosin (H&E) staining ( Figure 6E ) revealed extensive nuclear condensation, cytoplasmic vacuolation, and loss of tissue architecture in both the Cu 2-x Se + L and Cu 2-x Se/PDA/IR820 + L groups, with the most severe damage observed in the latter. TUNEL immunofluorescence staining demonstrated the highest levels of apoptotic cells (green fluorescence) in the Cu 2-x Se/PDA/IR820 + L group. Additionally, Ki-67 immunohistochemistry revealed a marked reduction in the number of proliferating cells following combination treatment. 45 Quantitative analysis of Ki-67 and TUNEL staining ( Figures S24 and S25 ) confirmed that the Cu 2-x Se/PDA/IR820 + L treatment significantly suppressed tumor cell proliferation (with a Ki-67 positivity rate of approximately 24.67%) ( p <0.01) while concurrently inducing extensive apoptosis (with a TUNEL positivity rate around 80%)( p <0.001), aligning with the findings from in vivo anti-tumour studies. Collectively, these results demonstrate that Cu 2-x Se/PDA/IR820 exerts a robust synergistic antitumor effect in vivo through the integration of photothermal, photodynamic, and chemodynamic modalities. To further corroborate the mechanism of action at the tissue level, the intratumoral generation of ROS was quantified across the different treatment groups. Figure S26A depicts the fluorescence intensity distribution histograms, wherein the Cu 2-x Se/PDA/IR820 + L group exhibited a marked rightward shift in the DCFH fluorescence signal relative to the other groups, indicative of pronounced ROS accumulation. Among the six treatment cohorts, the Cu 2-x Se/PDA/IR820 + L group showed the highest ROS generation rate (41.61%), which was significantly greater than that observed in the Cu 2-x Se + L group (24.63%). In contrast, ROS levels remained negligible in all non-irradiated groups (Control, Cu 2-x Se, and Cu 2-x Se/PDA/IR820) as well as the laser-only control (Control + L), with ROS generation rates consistently below 0.7%. Quantitative analysis of the mean fluorescence intensity (MFI, ×10 4 ) is shown in Figure S26B , further confirming that the Cu 2-x Se/PDA/IR820 composite nanoparticles induced the highest level of ROS-associated fluorescence. These results demonstrate that laser activation of the composite nanosystem triggers a robust intratumoral ROS burst. Concomitantly, the impact of treatment on cellular energy metabolism was assessed by measuring relative ATP levels in tumor tissues ( Figure S27 ). The Control group maintained ATP levels approximating 100%. Upon laser irradiation, a pronounced depletion of ATP was observed in the therapeutic groups: the Cu 2-x Se + L group exhibited a reduction to approximately 25% of the control level, whereas ATP levels in the Cu 2-x Se/PDA/IR820 + L group were further diminished. The differences between these combination therapy groups and the remaining cohorts were highly significant ( p < 0.001). This finding indicates that the nanoplatform, in conjunction with NIR irradiation, not only suppresses ATP synthesis but does so with superior efficacy compared to monocomponent treatment with laser activation. The integrity of the tumor cell membrane following treatment was evaluated by quantifying the relative LDH release rate ( Figure S28 ). The Cu 2-x Se/PDA/IR820 + L group displayed the highest level of LDH release, a value significantly exceeding that of the Control group and the other treatment groups. Intergroup comparisons revealed statistically significant differences reaching ( p < 0.01). These results indicate that the combined therapeutic regimen induces the most severe membrane compromise and necrotic cell death among all tested conditions.",
+      "order": 35
+    },
+    {
+      "section": "Systematic Assessment Of In Vivo Biosafety Of Cu 2-X Se/Pda/Ir820 Composite Nanoparticles",
+      "text": "The biosafety and biocompatibility of nanomaterials are critical prerequisites for clinical translation. An in vitro hemolysis assay was initially performed to assess the blood compatibility of Cu 2-x Se/PDA/IR820. As shown in Figure S29 , the hemolysis rate remained below 1.60% even at the highest tested concentration of 100 μg/mL, indicating favorable hemocompatibility. Furthermore, analysis of peripheral blood hematological parameters and serum biochemical indices ( Figure S30 ) revealed no significant abnormalities in any of the treated groups compared to the control group, suggesting the absence of appreciable hepatic or renal toxicity. Histological examination of major organs (heart, liver, spleen, lung, and kidney) via H&E staining ( Figure S31 ) revealed no evidence of pathological changes, such as hemorrhage, necrosis, or inflammatory infiltration. Taken together, these findings indicate that the Cu 2-x Se/PDA/IR820 composite nanoparticles exhibit excellent biocompatibility and in vivo biosafety within the administered dosage range.",
+      "order": 36
+    },
+    {
+      "section": "Discussion",
+      "text": "In recent years, nanomedicine has demonstrated considerable promise in cancer therapy by enhancing drug solubility, bioavailability, and tumor-targeting efficiency. Nanomaterial-based delivery systems can significantly improve therapeutic outcomes through rational surface modification and multifunctional integration. For instance, polyethylene glycol (PEG)-modified poly(lactic-co-glycolic acid) (PLGA) carriers have been shown to augment cellular uptake, prolong systemic circulation time, and reduce immunogenicity, thereby facilitating evasion of reticuloendothelial system (RES) clearance. 46 Similarly, polydopamine (PDA)-modified gold nanoparticle systems (eg., Au@PDA-PEG-MTX) exhibit both enhanced drug loading capacity and superior photothermal therapeutic efficacy in preclinical breast cancer models. 47 A variety of multifunctional nanoplatforms have been developed to achieve synergistic therapeutic outcomes. Metal-black phosphorus (Metal-BP) nanocomposites enable the co-delivery of multiple therapeutic agents for combined chemotherapy and gene therapy. 48 , 49 While gold nanorod-based composites (AuNRs@CuO) demonstrate excellent photothermal performance in the second near-infrared (NIR-II) window and can synergize with cuproptosis-related mechanisms. 50 Moreover, pH-responsive nanomaterials, including AuNRs@CuO and TLGp, permit controlled release of therapeutic payloads within the acidic tumor microenvironment, thereby mitigating systemic toxicity. Ti@PDA-PEG nanosheets further improve biocompatibility while enabling photothermal-triggered drug release, 51 and peptide-based nanomaterials offer stimulus-responsive targeting capabilities. Dual-responsive systems, such as Fe-MnPS/PDA-PEG, integrate Fenton reaction-based chemodynamic therapy (CDT) with photothermal effects to achieve enhanced therapeutic efficacy. 52 In comparison with these previously reported systems, the Cu 2-x Se/PDA/IR820 nanoplatform developed in the present study exhibits several distinct structural and functional advantages. First, the nanoparticle size (approximately 200 nm) falls within the optimal range for passive tumor accumulation via the enhanced permeability and retention (EPR) effect, enabling effective retention at tumor sites. 53 Meanwhile, both the IR820 photosensitizer and the Cu 2-x Se core exhibit susceptibility to degradation under near-infrared irradiation, a property that may facilitate metabolic clearance and reduce the potential for long-term systemic toxicity. Third, the introduction of a template-assisted etching strategy during synthesis enhances particle size uniformity and structural stability, thereby improving in vivo targeting efficiency, circulation behavior, and overall therapeutic performance. 54 Furthermore, the synthesis process is straightforward, highly reproducible, and conducted under mild reaction conditions, highlighting its translational potential for scalable production. When benchmarked against other IR820-based nanoplatforms, our system also demonstrates superior drug loading and antitumor efficacy. Specifically, the IR820 loading capacity of our Cu 2-x Se/PDA/IR820 nanoplatform reached 66.80%, which is substantially higher than that of the HSA-based CAI NPs (approximately 10.19%) reported by Xu et al 55 and the Bev-IR820@FeIII TA nanosystem (6.21%) reported by Li et al 56 This superior loading performance is attributed to the hollow porous structure of Cu 2-x Se and the strong π-π stacking/hydrogen bonding between IR820 and the PDA coating. In terms of therapeutic efficacy, under 808 nm laser irradiation, our platform reduced KYSE-150 cell viability to 1.2% at 100 μg/mL, with an IC50 value of 18.74 μg/mL. In contrast, the CAI NPs achieved a cell viability of approximately 40%–50% at comparable IR820 concentrations under similar irradiation conditions (0.25 W/cm 2 , 20 min). 55 The Bev-IR820@FeIII TA nanosystem exhibited an IC50 of 8.97 μg/mL (based on Fe concentration), yet the cell viability at the highest tested concentration remained above 20%. 56 Our system achieved a nearly complete (98.8%) inhibition rate at 100 μg/mL, which can be attributed to the triple synergistic effects of PTT from Cu 2-x Se and PDA, PDT from released IR820, and CDT from Cu⁺-mediated Fenton-like reactions, as well as the pronounced GSH depletion (335 μmol/gprot) that amplifies oxidative stress. Collectively, these comparisons underscore the advantage of integrating multiple therapeutic modalities within a single hollow-structured nanoplatform with high drug loading capacity. The experimental results presented in Figures 1–6 demonstrate that the Cu 2-x Se/PDA/IR820 nanoplatform exerts potent inhibitory effects against esophageal cancer. This enhanced therapeutic efficacy can be attributed to the synergistic interplay among its constituent components. The hollow Cu 2-x Se nanostructure provides a large specific surface area that facilitates high loading efficiency of the IR820 photosensitizer. Upon 808 nm near-infrared irradiation, both the Cu 2-x Se core and the PDA coating exhibit efficient photothermal conversion, generating localized hyperthermia that disrupts tumor cell membranes and organelles, thereby inducing apoptosis and necrosis. Concurrently, the PDA coating confers pH-responsive behavior, undergoing gradual degradation within the acidic tumor microenvironment to enable controlled, on-demand release of IR820 for targeted PDT. 57 In addition to photothermal effects, the nanoplatform integrates multiple ROS-mediated therapeutic mechanisms. Under the mildly acidic conditions of the tumor microenvironment, Cu 2-x Se releases Cu⁺ ions that catalyze Fenton/Fenton-like reactions to generate highly cytotoxic hydroxyl radicals (·OH), thereby effecting CDT. Simultaneously, IR820 generates ROS upon 808 nm laser irradiation, potentiating PDT. The combined action of PTT, PDT, and CDT results in amplified oxidative stress and enhanced tumor cell killing efficiency. The pronounced GSH depletion observed in this study (335 μmol/g protein in the Cu 2-x Se/PDA/IR820 + L group versus 697 μmol/g protein in the Cu 2-x Se + L group, Figure 4B ) further compromises the cellular antioxidant defense system, rendering tumor cells more susceptible to oxidative damage. While the generation of ROS and depletion of GSH observed in this study are directly linked to oxidative damage and apoptosis induction, these biochemical changes likely intersect with broader intracellular signaling cascades that further compromise tumor cell viability. For instance, excessive ROS production can overwhelm the cellular antioxidant defense regulated by nuclear factor erythroid 2-related factor 2 (Nrf2), a master transcription factor that controls the expression of detoxifying enzymes; while Nrf2 activation can protect normal cells, its dysregulation in cancer cells, often through the Keap1-Cul3 axis, contributes to therapeutic resistance by upregulating antioxidant defenses and inhibiting ferroptosis. 58 Therefore, the ROS surge generated by the combined PTT/PDT/CDT approach may help overcome Nrf2-mediated resistance mechanisms, thereby sensitizing cancer cells to oxidative insult. Concurrently, the significant depletion of intracellular GSH impairs the activity of GSH peroxidase 4 (GPX4), a selenoenzyme that utilizes GSH as a cofactor to reduce lipid peroxides to non-toxic lipid alcohols. 59 As GPX4 serves as the central guardian against ferroptosis, its inhibition whether through direct targeting or GSH depletion lowers the threshold for ferroptosis induction, potentially augmenting the efficacy of CDT. 60 This intersection between GSH depletion, GPX4 inactivation, and ferroptosis susceptibility highlights a promising therapeutic vulnerability that may be exploited in treatment-resistant cancers. In addition to these intracellular signaling modulations, the pronounced cell death triggered by the combined PTT/PDT/CDT approach is known to release tumor-associated antigens and damage-associated molecular patterns (DAMPs), a process characteristic of immunogenic cell death (ICD). This phenomenon can stimulate the maturation of dendritic cells and promote the infiltration of cytotoxic T lymphocytes into the tumor microenvironment, effectively transforming the treated tumor into an in-situ vaccine. 61 Although a detailed dissection of these signaling pathways and the corresponding in vivo immune responses falls outside the scope of the present work, the observed robust tumor inhibition strongly suggests that the therapeutic benefits of the Cu 2-x Se/PDA/IR820 nanoplatform extend beyond direct cytotoxicity. Future investigations will focus on delineating the Nrf2/Keap1/Cul3 and GPX4 regulatory axes in the context of this treatment, as well as exploring the synergistic potential of combining this nanoplatform with immune checkpoint blockade (eg., anti-PD-1/PD-L1) to achieve durable systemic anti-tumor immunity and prevent distant metastasis. The mechanistic link between GSH depletion and enhanced therapeutic vulnerability observed in our study can be further contextualized within the emerging understanding of ferroptosis regulation. GPX4, a selenoenzyme that utilizes GSH as an essential cofactor to reduce cytotoxic lipid peroxides to non-toxic lipid alcohols, serves as the central guardian against ferroptotic cell death. In cancer cells, upregulated GSH synthesis and GPX4 activity contribute to an enhanced antioxidant defense that counteracts oxidative stress induced by various therapeutic interventions. 62 The pronounced GSH depletion we observed (335 μmol/gprot in the Cu 2-x Se/PDA/IR820 + L group versus 697 μmol/gprot in the Cu 2-x Se + L group, Figure 4B ) likely impairs GPX4 function, thereby lowering the threshold for ferroptosis induction. Recent work by Huang et al demonstrated that synergistic induction of ferroptosis through GPX4 inhibition combined with GSH-depleted nanoparticles effectively reverses chemotherapy resistance in pancreatic cancer models, highlighting the therapeutic relevance of this dual-pronged strategy. 63 Moreover, Cu 2+ released from our Cu 2-x Se core may further sensitize tumor cells to ferroptosis through mechanisms beyond GSH depletion, copper can decrease SELENOP levels, thereby reducing selenium availability and further compromising GPX4 activity. Concurrently, the massive ROS surge generated by the combined PTT/PDT/CDT approach may overwhelm the cellular antioxidant defense regulated by Nrf2. Under physiological conditions, Nrf2 maintains redox homeostasis through Keap1-dependent regulation of antioxidant gene expression. However, sustained Nrf2 activation in cancer cells, often resulting from KEAP1 mutations, promotes tumor survival, drug resistance, and metabolic reprogramming. Targeting Nrf2 represents a promising strategy for overcoming treatment resistance, as Nrf2 enhances GSH synthesis and upregulates detoxifying enzymes that collectively counteract oxidative therapeutic insults. 64 The observed ROS production in our study (76.32% ROS-positive cells in the Cu 2-x Se/PDA/IR820 + L group, Figure 4E ) suggests that the nanoplatform may effectively bypass or overwhelm Nrf2-mediated resistance mechanisms, thereby sensitizing esophageal cancer cells to oxidative damage. Collectively, these signaling intersections, GSH depletion compromising GPX4 activity, copper ions further sensitizing cells to ferroptosis, and ROS overload overcoming Nrf2-mediated antioxidant defenses—converge to amplify the therapeutic efficacy of our multimodal approach. Beyond direct cytotoxicity, emerging evidence indicates that phototherapy can activate systemic antitumor immune responses. PTT and PDT are capable of inducing immunogenic cell death (ICD), characterized by the release of damage-associated molecular patterns (DAMPs) and tumor-associated antigens. 65 Furthermore, combining phototherapy with immune checkpoint blockade (eg., anti-PD-1/PD-L1 antibodies) has been shown to effectively suppress tumor recurrence and metastasis. The integration of multifunctional near-infrared AIEgen nanoparticles with PD-L1 antibody therapy has been demonstrated to further enhance systemic immune memory responses. 66 These findings suggest that the Cu 2-x Se/PDA/IR820 nanoplatform may serve as a promising candidate for future combination strategies incorporating immunotherapy. Despite these encouraging results, several limitations of the present study should be acknowledged. The current investigation is based primarily on in vitro experiments and murine xenograft models; the long-term biosafety and pharmacokinetic profile of the nanoplatform remain to be fully elucidated. In particular, the potential for accumulation in major organs such as the liver and kidneys, and any associated toxicological sequelae, warrant further systematic investigation. Future studies should therefore focus on: (1) comprehensive in vivo and preclinical evaluations of safety and therapeutic efficacy; (2) systematic characterization of pharmacokinetics, biodistribution, and metabolic clearance pathways; and (3) exploration of combinatorial strategies with emerging therapeutic modalities, including immunotherapy, gene therapy, and metabolic regulation. In summary, this study demonstrates that the Cu 2-x Se/PDA/IR820 nanoplatform achieves a synergistic integration of PTT, PDT, and CDT, offering a promising strategy for multimodal cancer therapy and establishing a foundation for the development of next-generation nanomedicine systems with improved efficacy and translational potential.",
+      "order": 37
+    },
+    {
+      "section": "Conclusion",
+      "text": "In this study, we developed pH-responsive Cu 2-x Se/PDA/IR820 composite nanoparticles. Under 808 nm near-infrared irradiation, these nanoparticles not only exhibited efficient photothermal conversion but also enhanced ROS production. They demonstrated significant antitumor activity and good biocompatibility, enabling the combined implementation of PTT, PDT, and CDT.",
+      "order": 38
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "cit0001",
+      "label": "1.",
+      "title": "Molecular phenotyping reveals the identity of Barrett’s esophagus and its malignant transition",
+      "journal": "Science",
+      "year": "2021",
+      "volume": "373",
+      "issue": "6556",
+      "fpage": "760",
+      "lpage": "28",
+      "doi": "10.1126/science.abd1449",
+      "pmid": "34385390"
+    },
+    {
+      "ref_id": "cit0002",
+      "label": "2.",
+      "title": "Burden of esophageal cancer in global, regional and national regions from 1990 to 2021 and its projection until 2050: results from the GBD study 2021",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "14",
+      "fpage": "1518567",
+      "doi": "10.3389/fonc.2024.1518567",
+      "pmid": "39902130",
+      "pmc_id": "PMC11788179"
+    },
+    {
+      "ref_id": "cit0003",
+      "label": "3.",
+      "title": "Targosomes: anti-HER2 PLGA nanocarriers for bioimaging, chemotherapy and local photothermal treatment of tumors and remote metastases",
+      "journal": "J Control Release",
+      "year": "2024",
+      "volume": "365",
+      "fpage": "317",
+      "lpage": "330",
+      "doi": "10.1016/j.jconrel.2023.11.036",
+      "pmid": "37996056"
+    },
+    {
+      "ref_id": "cit0004",
+      "label": "4.",
+      "title": "Photoacoustic and magnetic resonance imaging-based gene and photothermal therapy using mesoporous nanoagents",
+      "journal": "Bioact Mater",
+      "year": "2022",
+      "volume": "9",
+      "fpage": "157",
+      "lpage": "167",
+      "doi": "10.1016/j.bioactmat.2021.07.025",
+      "pmid": "34820563",
+      "pmc_id": "PMC8586268"
+    },
+    {
+      "ref_id": "cit0005",
+      "label": "5.",
+      "title": "A review of recent developments of metal-organic frameworks as combined biomedical platforms over the past decade",
+      "journal": "Adv Colloid Interface Sci",
+      "year": "2023",
+      "volume": "316",
+      "fpage": "102908",
+      "doi": "10.1016/j.cis.2023.102908",
+      "pmid": "37148581"
+    },
+    {
+      "ref_id": "cit0006",
+      "label": "6.",
+      "title": "Remodeling tumor microenvironment using prodrug nMOFs for synergistic cancer therapy",
+      "journal": "J Nanobiotechnology",
+      "year": "2025",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "123",
+      "doi": "10.1186/s12951-025-03202-7",
+      "pmid": "39972341",
+      "pmc_id": "PMC11837371"
+    },
+    {
+      "ref_id": "cit0007",
+      "label": "7.",
+      "title": "Improved Stability and Photothermal Performance of Polydopamine-Modified Fe(3) O(4) Nanocomposites for Highly Efficient Magnetic Resonance Imaging-Guided Photothermal Therapy",
+      "journal": "Small",
+      "year": "2020",
+      "volume": "16",
+      "issue": "45",
+      "fpage": "e2003969",
+      "doi": "10.1002/smll.202003969",
+      "pmid": "33053265"
+    },
+    {
+      "ref_id": "cit0008",
+      "label": "8.",
+      "title": "Recent Advances in Photothermal Therapy at Near-Infrared-II Based on 2D MXenes",
+      "journal": "Small",
+      "year": "2024",
+      "volume": "20",
+      "issue": "6",
+      "fpage": "e2305645",
+      "doi": "10.1002/smll.202305645",
+      "pmid": "37775938"
+    },
+    {
+      "ref_id": "cit0009",
+      "label": "9.",
+      "title": "Enhancing near-infrared II photodynamic therapy with nitric oxide for eradicating multidrug-resistant biofilms in deep tissues",
+      "journal": "Bioact Mater",
+      "year": "2024",
+      "volume": "33",
+      "fpage": "341",
+      "lpage": "354",
+      "doi": "10.1016/j.bioactmat.2023.11.006",
+      "pmid": "38107603",
+      "pmc_id": "PMC10724540"
+    },
+    {
+      "ref_id": "cit0010",
+      "label": "10.",
+      "title": "Recent advances in reactive oxygen species (ROS)-responsive drug delivery systems for photodynamic therapy of cancer",
+      "journal": "Acta Pharm Sin B",
+      "year": "2024",
+      "volume": "14",
+      "issue": "12",
+      "fpage": "5106",
+      "lpage": "5131",
+      "doi": "10.1016/j.apsb.2024.10.015",
+      "pmid": "39807318",
+      "pmc_id": "PMC11725102"
+    },
+    {
+      "ref_id": "cit0011",
+      "label": "11.",
+      "title": "Enzyme-Activatable Near-Infrared Hemicyanines as Modular Scaffolds for in vivo Photodynamic Therapy",
+      "journal": "Angew Chem Int Ed Engl",
+      "year": "2024",
+      "volume": "63",
+      "issue": "30",
+      "fpage": "e202404587",
+      "doi": "10.1002/anie.202404587",
+      "pmid": "38717316"
+    },
+    {
+      "ref_id": "cit0012",
+      "label": "12.",
+      "title": "Cell membranes targeted unimolecular prodrug for programmatic photodynamic-chemo therapy",
+      "journal": "Theranostics",
+      "year": "2021",
+      "volume": "11",
+      "issue": "7",
+      "fpage": "3502",
+      "lpage": "3511",
+      "doi": "10.7150/thno.55014",
+      "pmid": "33537100",
+      "pmc_id": "PMC7847693"
+    },
+    {
+      "ref_id": "cit0013",
+      "label": "13.",
+      "title": "Recent advances of redox-responsive nanoplatforms for tumor theranostics",
+      "journal": "J Control Release",
+      "year": "2021",
+      "volume": "332",
+      "fpage": "269",
+      "lpage": "284",
+      "doi": "10.1016/j.jconrel.2021.02.030",
+      "pmid": "33662455"
+    },
+    {
+      "ref_id": "cit0014",
+      "label": "14.",
+      "title": "Totally Caged Type I Pro-Photosensitizer for Oxygen-Independent Synergistic Phototherapy of Hypoxic Tumors",
+      "journal": "Adv Sci",
+      "year": "2024",
+      "volume": "11",
+      "issue": "31",
+      "fpage": "e2400462",
+      "doi": "10.1002/advs.202400462",
+      "pmc_id": "PMC11336908",
+      "pmid": "38885361"
+    },
+    {
+      "ref_id": "cit0015",
+      "label": "15.",
+      "title": "Synergistic photodynamic and chemodynamic therapy using hypoxia-adaptive Ce6@Co nanoparticles for enhanced tumor suppression",
+      "journal": "Int J Pharm X",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "100348",
+      "doi": "10.1016/j.ijpx.2025.100348",
+      "pmid": "40636884",
+      "pmc_id": "PMC12240129"
+    },
+    {
+      "ref_id": "cit0016",
+      "label": "16.",
+      "title": "Dual-Channel Theranostic System for Quantitative Self-Indication and Low-Temperature Synergistic Therapy of Cancer",
+      "journal": "Small",
+      "year": "2021",
+      "volume": "17",
+      "issue": "10",
+      "fpage": "e2007953",
+      "doi": "10.1002/smll.202007953",
+      "pmid": "33590704"
+    },
+    {
+      "ref_id": "cit0017",
+      "label": "17.",
+      "title": "A biodegradable semiconducting polymer phototherapeutic agent for safe cancer phototherapy",
+      "journal": "J Control Release",
+      "year": "2024",
+      "volume": "368",
+      "fpage": "265",
+      "lpage": "274",
+      "doi": "10.1016/j.jconrel.2024.02.038",
+      "pmid": "38423474"
+    },
+    {
+      "ref_id": "cit0018",
+      "label": "18.",
+      "title": "A Light-Triggered J-Aggregation-Regulated Therapy Conversion: from Photodynamic/Photothermal Therapy to Long-Lasting Chemodynamic Therapy for Effective Tumor Ablation",
+      "journal": "Angew Chem Int Ed Engl",
+      "year": "2024",
+      "volume": "63",
+      "issue": "23",
+      "fpage": "e202404395",
+      "doi": "10.1002/anie.202404395",
+      "pmid": "38577995"
+    },
+    {
+      "ref_id": "cit0019",
+      "label": "19.",
+      "title": "Photothermal-responsive curcumin-loaded copper-based nanocomposites for targeted drug release and combined immunotherapy",
+      "journal": "J Colloid Interface Sci",
+      "year": "2025",
+      "volume": "698",
+      "fpage": "138042",
+      "doi": "10.1016/j.jcis.2025.138042",
+      "pmid": "40505466"
+    },
+    {
+      "ref_id": "cit0020",
+      "label": "20.",
+      "title": "Dual-Plasmonic Yolk-Shell Au Nanoplate@Cu(2-x)Se Hollow Spheres for Enhanced Near-Infrared II Photothermal Conversion",
+      "journal": "Langmuir",
+      "year": "2025",
+      "volume": "41",
+      "issue": "30",
+      "fpage": "20195",
+      "lpage": "20206",
+      "doi": "10.1021/acs.langmuir.5c02478",
+      "pmid": "40761074"
+    },
+    {
+      "ref_id": "cit0021",
+      "label": "21.",
+      "title": "Ultrathin Zinc Selenide Nanoplatelets Boosting Photoacoustic Imaging of In Situ Copper Exchange in Alzheimer’s Disease Mice",
+      "journal": "ACS Nano",
+      "year": "2022",
+      "volume": "16",
+      "issue": "11",
+      "fpage": "19053",
+      "lpage": "19066",
+      "doi": "10.1021/acsnano.2c08094",
+      "pmid": "36349982"
+    },
+    {
+      "ref_id": "cit0022",
+      "label": "22.",
+      "title": "IR820 Sensitized Ceria Nanozyme via PDA Bridging for Multifaceted Antibacterial Wound Healing Therapy",
+      "journal": "Small",
+      "year": "2025",
+      "volume": "21",
+      "issue": "17",
+      "fpage": "e2500382",
+      "doi": "10.1002/smll.202500382",
+      "pmid": "40159834"
+    },
+    {
+      "ref_id": "cit0023",
+      "label": "23.",
+      "title": "A singular plasmonic-thermoelectric hollow nanostructure inducing apoptosis and cuproptosis for catalytic cancer therapy",
+      "journal": "Nat Commun",
+      "year": "2024",
+      "volume": "15",
+      "issue": "1",
+      "fpage": "7499",
+      "doi": "10.1038/s41467-024-51772-1",
+      "pmid": "39209877",
+      "pmc_id": "PMC11362521"
+    },
+    {
+      "ref_id": "cit0024",
+      "label": "24.",
+      "title": "Carrier-free nanoparticles of camptothecin prodrug for chemo-photothermal therapy: the making, in vitro and in vivo testing",
+      "journal": "J Nanobiotechnology",
+      "year": "2021",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "350",
+      "doi": "10.1186/s12951-021-01093-y",
+      "pmid": "34717646",
+      "pmc_id": "PMC8557616"
+    },
+    {
+      "ref_id": "cit0025",
+      "label": "25.",
+      "title": "Nanotransferrin-Based Programmable Catalysis Mediates Three-Pronged Induction of Oxidative Stress to Enhance Cancer Immunotherapy",
+      "journal": "ACS Nano",
+      "year": "2022",
+      "volume": "16",
+      "issue": "1",
+      "fpage": "997",
+      "lpage": "1012",
+      "doi": "10.1021/acsnano.1c08619",
+      "pmid": "34928122"
+    },
+    {
+      "ref_id": "cit0026",
+      "label": "26.",
+      "title": "Co-anchored Hollow Carbonized Kapok Fiber Encapsulated Phase Change Materials for Upgrading Photothermal Utilization",
+      "journal": "Small",
+      "year": "2025",
+      "volume": "21",
+      "issue": "21",
+      "fpage": "e2500479",
+      "doi": "10.1002/smll.202500479",
+      "pmid": "40166806"
+    },
+    {
+      "ref_id": "cit0027",
+      "label": "27.",
+      "title": "Photothermally induced natural vibration for versatile and high-speed actuation of crystals",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "issue": "1",
+      "fpage": "1354",
+      "doi": "10.1038/s41467-023-37086-8",
+      "pmid": "36907883",
+      "pmc_id": "PMC10008822"
+    },
+    {
+      "ref_id": "cit0028",
+      "label": "28.",
+      "title": "Fluorescence-Detected Mid-Infrared Photothermal Microscopy",
+      "journal": "J Am Chem Soc",
+      "year": "2021",
+      "volume": "143",
+      "issue": "30",
+      "fpage": "11490",
+      "lpage": "11499",
+      "doi": "10.1021/jacs.1c03642",
+      "pmid": "34264654",
+      "pmc_id": "PMC8750559"
+    },
+    {
+      "ref_id": "cit0029",
+      "label": "29.",
+      "title": "Synergistic photothermal and chemo-therapeutic platform utilizing Cu(2-x)Se/PDA/AIPH nanoparticles for targeted tumor eradication",
+      "journal": "Biomater Adv",
+      "year": "2025",
+      "volume": "169",
+      "fpage": "214196",
+      "doi": "10.1016/j.bioadv.2025.214196",
+      "pmid": "39854998"
+    },
+    {
+      "ref_id": "cit0030",
+      "label": "30.",
+      "title": "Microvilli Adhesion: an Alternative Route for Nanoparticle Cell Internalization",
+      "journal": "ACS Nano",
+      "year": "2021",
+      "volume": "15",
+      "issue": "10",
+      "fpage": "15803",
+      "lpage": "15814",
+      "doi": "10.1021/acsnano.1c03151",
+      "pmid": "34585565",
+      "pmc_id": "PMC8552441"
+    },
+    {
+      "ref_id": "cit0031",
+      "label": "31.",
+      "title": "Phagocytosis-Activating Nanocomplex Orchestrates Macrophage-Mediated Cancer Immunotherapy",
+      "journal": "Adv Mater",
+      "year": "2025",
+      "volume": "37",
+      "issue": "28",
+      "fpage": "e2500982",
+      "doi": "10.1002/adma.202500982",
+      "pmid": "40289887"
+    },
+    {
+      "ref_id": "cit0032",
+      "label": "32.",
+      "title": "A nano-platform combats the “attack” and “defense” of cytoskeleton to block cascading tumor metastasis",
+      "journal": "J Control Release",
+      "year": "2024",
+      "volume": "367",
+      "fpage": "572",
+      "lpage": "586",
+      "doi": "10.1016/j.jconrel.2024.01.069",
+      "pmid": "38301926"
+    },
+    {
+      "ref_id": "cit0033",
+      "label": "33.",
+      "title": "Disturbing cytoskeleton by engineered nanomaterials for enhanced cancer therapeutics",
+      "journal": "Bioact Mater",
+      "year": "2023",
+      "volume": "29",
+      "fpage": "50",
+      "lpage": "71",
+      "doi": "10.1016/j.bioactmat.2023.06.016",
+      "pmid": "37621771",
+      "pmc_id": "PMC10444958"
+    },
+    {
+      "ref_id": "cit0034",
+      "label": "34.",
+      "title": "Natural product triptolide induces GSDME-mediated pyroptosis in head and neck cancer through suppressing mitochondrial hexokinase-IotaIota",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2021",
+      "volume": "40",
+      "issue": "1",
+      "fpage": "190",
+      "doi": "10.1186/s13046-021-01995-7",
+      "pmid": "34108030",
+      "pmc_id": "PMC8188724"
+    },
+    {
+      "ref_id": "cit0035",
+      "label": "35.",
+      "title": "Targeting oxidative stress-mediated regulated cell death as a vulnerability in cancer",
+      "journal": "Redox Biol",
+      "year": "2025",
+      "volume": "84",
+      "fpage": "103686",
+      "doi": "10.1016/j.redox.2025.103686",
+      "pmid": "40424719",
+      "pmc_id": "PMC12159232"
+    },
+    {
+      "ref_id": "cit0036",
+      "label": "36.",
+      "title": "Facile and Affordable Design of MXene-Co(3) O(4) -Based Nanocomposites for Detection of Hydrogen Peroxide in Cancer Cells: toward Portable Tool for Cancer Management",
+      "journal": "Small",
+      "year": "2023",
+      "volume": "19",
+      "issue": "51",
+      "fpage": "e2208209",
+      "doi": "10.1002/smll.202208209",
+      "pmid": "37096900"
+    },
+    {
+      "ref_id": "cit0037",
+      "label": "37.",
+      "title": "Therapeutic targeting of P2X4 receptor and mitochondrial metabolism in clear cell renal carcinoma models",
+      "journal": "J Exp Clin Cancer Res",
+      "year": "2023",
+      "volume": "42",
+      "issue": "1",
+      "fpage": "134",
+      "doi": "10.1186/s13046-023-02713-1",
+      "pmid": "37231503",
+      "pmc_id": "PMC10214673"
+    },
+    {
+      "ref_id": "cit0038",
+      "label": "38.",
+      "title": "Understanding Nanomaterial-Liver Interactions to Facilitate the Development of Safer Nanoapplications",
+      "journal": "Adv Mater",
+      "year": "2022",
+      "volume": "34",
+      "issue": "11",
+      "fpage": "e2106456",
+      "doi": "10.1002/adma.202106456",
+      "pmid": "35029313",
+      "pmc_id": "PMC9040585"
+    },
+    {
+      "ref_id": "cit0039",
+      "label": "39.",
+      "title": "Prognostic significance of tumour Ki-67 dynamics during neoadjuvant treatment in patients with breast cancer: a population-based cohort study",
+      "journal": "Lancet Reg Health Eur",
+      "year": "2025",
+      "volume": "58",
+      "fpage": "101432",
+      "doi": "10.1016/j.lanepe.2025.101432",
+      "pmid": "40980814",
+      "pmc_id": "PMC12444493"
+    },
+    {
+      "ref_id": "cit0040",
+      "label": "40.",
+      "title": "The combination of ultrafine carbon black and lead provokes cytotoxicity and apoptosis in mice lung fibroblasts through oxidative stress-activated mitochondrial pathways",
+      "journal": "Sci Total Environ",
+      "year": "2021",
+      "volume": "799",
+      "fpage": "149420",
+      "doi": "10.1016/j.scitotenv.2021.149420",
+      "pmid": "34371411"
+    },
+    {
+      "ref_id": "cit0041",
+      "label": "41.",
+      "title": "Engineered CAF-cancer cell hybrid membrane biomimetic dual-targeted integrated platform for multi-dimensional treatment of ovarian cancer",
+      "journal": "J Nanobiotechnology",
+      "year": "2025",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "83",
+      "doi": "10.1186/s12951-025-03165-9",
+      "pmid": "39910555",
+      "pmc_id": "PMC11796236"
+    },
+    {
+      "ref_id": "cit0042",
+      "label": "42.",
+      "title": "A superoxide-driven redox state promotes geroconversion and resistance to senolysis in replication-stress associated senescence",
+      "journal": "Redox Biol",
+      "year": "2023",
+      "volume": "64",
+      "fpage": "102757",
+      "doi": "10.1016/j.redox.2023.102757",
+      "pmid": "37285741",
+      "pmc_id": "PMC10265521"
+    },
+    {
+      "ref_id": "cit0043",
+      "label": "43.",
+      "title": "The mitochondria-targeted antioxidant MitoQ attenuated PM(2.5)-induced vascular fibrosis via regulating mitophagy",
+      "journal": "Redox Biol",
+      "year": "2021",
+      "volume": "46",
+      "fpage": "102113",
+      "doi": "10.1016/j.redox.2021.102113",
+      "pmid": "34425389",
+      "pmc_id": "PMC8379696"
+    },
+    {
+      "ref_id": "cit0044",
+      "label": "44.",
+      "title": "Nanoparticles for Cancer Diagnosis, Radionuclide Therapy and Theranostics",
+      "journal": "ACS Nano",
+      "year": "2021",
+      "volume": "15",
+      "issue": "11",
+      "fpage": "16974",
+      "lpage": "16981",
+      "doi": "10.1021/acsnano.1c09139",
+      "pmid": "34748314",
+      "pmc_id": "PMC7612708"
+    },
+    {
+      "ref_id": "cit0045",
+      "label": "45.",
+      "title": "Prognostic Utility of the Ki-67 Labeling Index in Follicular Thyroid Tumors: a 20-Year Experience from a Tertiary Thyroid Center",
+      "journal": "Endocr Pathol",
+      "year": "2022",
+      "volume": "33",
+      "issue": "2",
+      "fpage": "231",
+      "lpage": "242",
+      "doi": "10.1007/s12022-022-09714-4",
+      "pmid": "35305239",
+      "pmc_id": "PMC9135869"
+    },
+    {
+      "ref_id": "cit0046",
+      "label": "46.",
+      "title": "PEGylated PLGA nanoparticles: unlocking advanced strategies for cancer therapy",
+      "journal": "Mol Cancer",
+      "year": "2025",
+      "volume": "24",
+      "issue": "1",
+      "fpage": "205",
+      "doi": "10.1186/s12943-025-02410-x",
+      "pmid": "40702523",
+      "pmc_id": "PMC12288292"
+    },
+    {
+      "ref_id": "cit0047",
+      "label": "47.",
+      "title": "Hierarchical drug release designed Au @PDA-PEG-MTX NPs for targeted delivery to breast cancer with combined photothermal-chemotherapy",
+      "journal": "J Nanobiotechnology",
+      "year": "2021",
+      "volume": "19",
+      "issue": "1",
+      "fpage": "143",
+      "doi": "10.1186/s12951-021-00883-8",
+      "pmid": "34001161",
+      "pmc_id": "PMC8130275"
+    },
+    {
+      "ref_id": "cit0048",
+      "label": "48.",
+      "title": "Decomposable black phosphorus nano-assembly for controlled delivery of cisplatin and inhibition of breast cancer metastasis",
+      "journal": "J Control Release",
+      "year": "2021",
+      "volume": "335",
+      "fpage": "59",
+      "lpage": "74",
+      "doi": "10.1016/j.jconrel.2021.05.013",
+      "pmid": "33992704"
+    },
+    {
+      "ref_id": "cit0049",
+      "label": "49.",
+      "title": "Bioinspired black phosphorus delivers histone deacetylase inhibitor-induced synergistic therapy for lung cancer",
+      "journal": "J Colloid Interface Sci",
+      "year": "2025",
+      "volume": "680",
+      "issue": "Pt B",
+      "fpage": "298",
+      "lpage": "310",
+      "doi": "10.1016/j.jcis.2024.11.033",
+      "pmid": "39571351"
+    },
+    {
+      "ref_id": "cit0050",
+      "label": "50.",
+      "title": "Improved Immune Response for Colorectal Cancer Therapy Triggered by Multifunctional Nanocomposites with Self-Amplifying Antitumor Ferroptosis",
+      "journal": "ACS Appl Mater Interfaces",
+      "year": "2024",
+      "volume": "16",
+      "issue": "11",
+      "fpage": "13481",
+      "lpage": "13495",
+      "doi": "10.1021/acsami.3c16813",
+      "pmid": "38456402"
+    },
+    {
+      "ref_id": "cit0051",
+      "label": "51.",
+      "title": "Titanium nanosheet as robust and biosafe drug carrier for combined photochemo cancer therapy",
+      "journal": "J Nanobiotechnology",
+      "year": "2022",
+      "volume": "20",
+      "issue": "1",
+      "fpage": "154",
+      "doi": "10.1186/s12951-022-01374-0",
+      "pmid": "35331256",
+      "pmc_id": "PMC8944145"
+    },
+    {
+      "ref_id": "cit0052",
+      "label": "52.",
+      "title": "Polydopamine-Modified 2D Iron (II) Immobilized MnPS(3) Nanosheets for Multimodal Imaging-Guided Cancer Synergistic Photothermal-Chemodynamic Therapy",
+      "journal": "Adv Sci",
+      "year": "2024",
+      "volume": "11",
+      "issue": "7",
+      "fpage": "e2306494",
+      "doi": "10.1002/advs.202306494",
+      "pmc_id": "PMC10870060",
+      "pmid": "38083977"
+    },
+    {
+      "ref_id": "cit0053",
+      "label": "53.",
+      "title": "Strategies for persistent retention of macromolecules and nanoparticles in the blood circulation",
+      "journal": "J Control Release",
+      "year": "2022",
+      "volume": "350",
+      "fpage": "486",
+      "lpage": "493",
+      "doi": "10.1016/j.jconrel.2022.05.063",
+      "pmid": "36029894"
+    },
+    {
+      "ref_id": "cit0054",
+      "label": "54.",
+      "title": "Etching Bulk Covalent Organic Frameworks into Nanoparticles of Uniform and Controllable Size by the Molecular Exchange Etching Method for Sonodynamic and Immune Combination Antitumor Therapy",
+      "journal": "Adv Mater",
+      "year": "2022",
+      "volume": "34",
+      "issue": "45",
+      "fpage": "e2205924",
+      "doi": "10.1002/adma.202205924",
+      "pmid": "36039617"
+    },
+    {
+      "ref_id": "cit0055",
+      "label": "55.",
+      "title": "A self-delivery albumin nanomedicine amplified photodynamic therapy against esophageal cancer through COX-2/PGE2 interruption and regulation of mitochondrial respiratory",
+      "journal": "Int J Pharm X",
+      "year": "2025",
+      "volume": "10",
+      "fpage": "100407",
+      "doi": "10.1016/j.ijpx.2025.100407",
+      "pmid": "41089759",
+      "pmc_id": "PMC12516533"
+    },
+    {
+      "ref_id": "cit0056",
+      "label": "56.",
+      "title": "Self-Assembled Acid-Responsive Nanosystem for Synergistic Anti-Angiogenic/Photothermal/Ferroptosis Therapy against Esophageal Cancer",
+      "journal": "Adv Healthc Mater",
+      "year": "2024",
+      "volume": "13",
+      "issue": "6",
+      "fpage": "e2302787",
+      "doi": "10.1002/adhm.202302787",
+      "pmid": "37988243"
+    },
+    {
+      "ref_id": "cit0057",
+      "label": "57.",
+      "title": "“Top-down and Bottom-up” cholesterol-depleting biomimetic nanoparticle for enhancing sonodynamic therapy against hepatocellular carcinoma",
+      "journal": "Mater Today Bio",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "102370",
+      "doi": "10.1016/j.mtbio.2025.102370",
+      "pmc_id": "PMC12524343",
+      "pmid": "41104047"
+    },
+    {
+      "ref_id": "cit0058",
+      "label": "58.",
+      "title": "NFE2L2 and ferroptosis resistance in cancer therapy",
+      "journal": "Cancer Drug Resist",
+      "year": "2024",
+      "volume": "7",
+      "fpage": "41",
+      "doi": "10.20517/cdr.2024.123",
+      "pmid": "39534872",
+      "pmc_id": "PMC11555182"
+    },
+    {
+      "ref_id": "cit0059",
+      "label": "59.",
+      "title": "Regulators of system x(c)(-)-glutathione-glutathione peroxidase 4 antioxidant pathway: recent advances and challenges in targeting ferroptosis for cancer treatment",
+      "journal": "Drug Discov Today",
+      "year": "2025",
+      "volume": "30",
+      "issue": "12",
+      "fpage": "104546",
+      "doi": "10.1016/j.drudis.2025.104546",
+      "pmid": "41241377"
+    },
+    {
+      "ref_id": "cit0060",
+      "label": "60.",
+      "title": "An overview of GPX4-targeting TPDs for cancer therapy",
+      "journal": "Bioorg Med Chem",
+      "year": "2025",
+      "volume": "118",
+      "fpage": "118046",
+      "doi": "10.1016/j.bmc.2024.118046",
+      "pmid": "39693712"
+    },
+    {
+      "ref_id": "cit0061",
+      "label": "61.",
+      "title": "Advancements in Nano-Delivery Systems for Photodynamic and Photothermal Therapy to Induce Immunogenic Cell Death in Tumor Immunotherapy",
+      "journal": "Int J Nanomed",
+      "year": "2025",
+      "volume": "20",
+      "fpage": "8221",
+      "lpage": "8248",
+      "doi": "10.2147/IJN.S514659",
+      "pmc_id": "PMC12209404",
+      "pmid": "40599401"
+    },
+    {
+      "ref_id": "cit0062",
+      "label": "62.",
+      "title": "A GSH-consuming polymeric nanoparticles drives ferroptosis amplification and combines chemotherapy to amplify breast cancer treatment",
+      "journal": "J Nanobiotechnology",
+      "year": "2025",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "497",
+      "doi": "10.1186/s12951-025-03569-7",
+      "pmid": "40634983",
+      "pmc_id": "PMC12239343"
+    },
+    {
+      "ref_id": "cit0063",
+      "label": "63.",
+      "title": "Synergistic Induction of Ferroptosis by GPX4 Inhibitor and GSH-Depleted Nanoparticles Effectively Reverses Gemcitabine Resistance in Pancreatic Ductal Adenocarcinoma PDX Model",
+      "journal": "Adv Healthc Mater",
+      "year": "2026",
+      "volume": "15",
+      "issue": "11",
+      "fpage": "e03694",
+      "doi": "10.1002/adhm.202503694",
+      "pmid": "41454527"
+    },
+    {
+      "ref_id": "cit0064",
+      "label": "64.",
+      "title": "The impact of oxidative stress and the NRF2-KEAP1-ARE signaling pathway on anticancer drug resistance",
+      "journal": "Oncol Res",
+      "year": "2025",
+      "volume": "33",
+      "issue": "8",
+      "fpage": "1819",
+      "lpage": "1834",
+      "doi": "10.32604/or.2025.065755",
+      "pmid": "40746900",
+      "pmc_id": "PMC12308266"
+    },
+    {
+      "ref_id": "cit0065",
+      "label": "65.",
+      "title": "Multi-pathway oxidative stress amplification via controllably targeted nanomaterials for photoimmunotherapy of tumors",
+      "journal": "J Nanobiotechnology",
+      "year": "2025",
+      "volume": "23",
+      "issue": "1",
+      "fpage": "33",
+      "doi": "10.1186/s12951-025-03116-4",
+      "pmid": "39844145",
+      "pmc_id": "PMC11753039"
+    },
+    {
+      "ref_id": "cit0066",
+      "label": "66.",
+      "title": "Microneedle patch-involved local therapy synergized with immune checkpoint inhibitor for pre- and post-operative cancer treatment",
+      "journal": "J Control Release",
+      "year": "2025",
+      "volume": "379",
+      "fpage": "678",
+      "lpage": "695",
+      "doi": "10.1016/j.jconrel.2025.01.051",
+      "pmid": "39848588"
+    }
+  ]
+}

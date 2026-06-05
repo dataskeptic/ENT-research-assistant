@@ -1,0 +1,924 @@
+{
+  "metadata": {
+    "title": "Quality and dissemination of nasopharyngeal cancer health information on TikTok and Bilibili: Cross-sectional study",
+    "authors": [
+      "Yang Miao",
+      "Hui Wu",
+      "Qineng Gong",
+      "Linlin Zhang",
+      "Tingting Shen",
+      "Ye Hu"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000048723",
+    "pmc_id": "PMC13166777",
+    "pmid": "42116344",
+    "full_text_available": true,
+    "section_count": 17,
+    "reference_count": 45
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Nasopharyngeal cancer is a cancer originating from the nasopharyngeal epithelium. Health education serves as an effective measure for prevention and treatment. With the rapid development of short videos, platforms such as TikTok and Bilibili have become primary sources for health information. However, the quality of nasopharyngeal cancer-related videos on these platforms remains unexplored. This study aims to evaluate the information quality of short videos related to nasopharyngeal cancer on the TikTok and Bilibili platforms. A cross-sectional study was conducted on October 1, 2025; the top 100 short videos related to nasopharyngeal cancer were collected from TikTok and Bilibili through searches in Chinese. After extracting basic information, the global quality score (GQS) and the modified DISCERN (mDISCERN) tool were used to assess each video’s quality and reliability. The GQS rating scale ranges from 1 (poor quality) to 5 (high-quality). The modified DISCERN scores range from 0 to 5, with higher scores indicating greater reliability. Additionally, Spearman correlation analysis was applied to examine relationships between video characteristics, GQS, and DISCERN scores. A total of 200 videos were included in the analysis, with 58.5% of the videos uploaded by healthcare professionals, 19.5% by science communicators, 14.0% by general users, and 8.0% by organizational users. The median GQS and mDISCERN scores for nasopharyngeal carcinoma videos were 3 and 2, respectively. TikTok videos showed significantly higher engagement compared to Bilibili, with median likes of 1018 vs 16, collections of 313 vs 14, comments of 206 vs 2, and shares of 282 vs 5 (all P < .001). No statistically significant differences were observed between TikTok and Bilibili in GQS or mDISCERN scores. The main content themes on both platforms were clinical manifestations and treatment, while prognosis was rarely discussed. Correlation analysis revealed strong correlations among interactive data points, but weak or negative correlations between interactive data and GQS or mDISCERN scores. The informational content and quality of nasopharyngeal cancer-related videos on TikTok and Bilibili require improvement. Enhanced management of health science popularization videos on short video platforms is needed to ensure the dissemination of accurate and reliable health information.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Nasopharyngeal cancer is a malignant tumor originating from the mucosal epithelium of the nasopharynx, with obvious geographical and population distribution characteristics. [ 1 , 2 ] In 2020, approximately 133,000 new cases and 80,000 deaths were reported globally, with over 75% occurring in Southeast Asia and southern China. The incidence rate among males was 3 times that of females. [ 3 ] Due to the hidden location of the nasopharynx and the lack of obvious early symptoms, about 80% of patients are in advanced stages at the time of diagnosis. [ 4 ] Therefore, early recognition, intervention, and treatment are particularly important to improve patient prognosis and increase the cure rate. [ 5 ] Short videos present complex health issues in an easily understandable format, meeting the public’s demand for convenience and immediacy in understanding disease-related content. [ 6 ] Studies have shown that active use of social media for disease-related information is associated with improved patient prognosis. [ 7 , 8 ] Since its launch in September 2016, TikTok has rapidly become one of the world’s fastest-growing social media platforms. Bilibili went live in June 2009 and boasts a broad user base spanning all age groups, with content covering diverse topics including health, nutrition, and beauty. [ 9 ] In recent years, short video platforms such as TikTok and Bilibili have become significant sources of public health information, not only in China but globally. [ 9 , 10 ] However, limited oversight raises concerns about the accuracy and reliability of health-related videos on these platforms. [ 11 ] Evaluations of short videos on pancreatic, lung, and liver cancers have reported highly variable quality and reliability. [ 12 – 14 ] Previous studies have evaluated nasopharyngeal cancer-related videos on YouTube, revealing significant variations in video quality. [ 15 ] Additionally, an assessment of publicly available English language online information about nasopharyngeal cancer using 3 search engines demonstrated considerable disparities in information quality and poor readability. [ 16 ] To date, no studies have evaluated the quality of nasopharyngeal cancer-related videos on TikTok and Bilibili. This study aims to assess the content, quality, and credibility of nasopharyngeal carcinoma-related videos and provide recommendations for improving future health communication strategies.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Ethical Considerations",
+      "text": "The data used in this study were sourced from publicly available video content published on platforms such as Bilibili and TikTok. These videos are publicly accessible, and no personal privacy information was involved during the data collection process. All analyzed content was publicly available, and the study did not involve the collection or processing of users’ private information. In accordance with relevant ethical review guidelines, ethical approval for this study was not required.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Search Strategy",
+      "text": "In this cross-sectional study, we designed the following search strategy based on previous studies. [ 17 – 19 ] The video search was completed on October 1, 2025, in Yancheng City, Jiangsu Province, China. To minimize the potential impact of algorithmic personalization, browser history, cached files, and cookies were thoroughly cleared before initiating the searches, and all searches were performed while logged out and using newly created accounts. Search results for each platform are sorted according to a default comprehensive ranking. We searched for relevant videos using the Chinese keyword “nasopharyngeal cancer” on TikTok and Bilibili. We excluded duplicate videos, irrelevant topics, and videos from deactivated accounts until we had collected 100 videos on each platform. Restricting our analysis to the top 100 videos serves 2 purposes. Firstly, videos exceeding this threshold have no significant impact on the analysis. [ 20 ] Secondly, the top 100 videos are considered to exert a greater influence on the audience. [ 21 ] During the screening process, 4 videos (Irrelevant to the subject) were excluded on TikTok, and 21 videos (Irrelevant to the subject (n = 12), Duplicated videos (n = 8), Account Cancellation (n = 1)) were excluded on Bilibili. Between 1 October, 2025 and 3 October, 2025, we completed video searches, metric extraction, and quality assessments.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Data Extraction",
+      "text": "We recorded detailed information about the selected videos. This information included video source (Bilibili or TikTok), authorship, video duration (in seconds), likes, comments, shares, and collections. Engagement metrics include likes, collections, comments, and shares. We categorized uploaders based on previous research into 4 groups: healthcare professionals, science communicators, general users, and organizational users. [ 22 , 23 ] Specifically, healthcare professionals include physicians and other medical personnel; science communicators include popular science writers and content creators; general users encompass patients or family members; and organizational users represent medical institutions, government agencies, educational institutions, and similar organizations. Firstly, identification was conducted based on verification information displayed on the account homepage. Secondly, for accounts with incomplete or ambiguous information, researchers determined their group by examining the account’s historical video content and comment interactions on the platform. All videos are searched, and metrics are collected by 1 person and completed within 1 day to minimize errors caused by platform algorithm recommendations and video updates.",
+      "order": 4
+    },
+    {
+      "section": "2.4. Video Quality Assessment",
+      "text": "Prior to evaluating the videos, 2 independent researchers reviewed guidelines related to nasopharyngeal cancer, the global quality score (GQS), and the modified DISCERN (mDISCERN) tool. The researchers engaged in discussions regarding these materials to familiarize themselves with and standardize their understanding, thereby minimizing cognitive biases. In this study, the quality and reliability of short videos were assessed using the GQS and the mDISCERN tool. The GQS is a widely used video scoring tool that evaluates the quality of a video through a 5-point Likert scale, with scores ranging from 1 (poor quality) to 5 (high-quality). [ 21 , 24 ] Further details are provided in Table 1 . The reliability of the video content was assessed using the mDISCERN tool. It takes the form of 5 questions that are scored based on a “yes” or “no” response. The lowest score is 0, and the highest score is 5, with higher scores indicating higher reliability. [ 25 ] Further details are provided in Table 2 . Also, we assessed the completeness of the video content. Video content completeness was assessed based on whether the videos covered the following 5 aspects: epidemiology (such as geographical distribution, racial differences, and age distribution); clinical manifestations (such as nasal congestion, bloody nasal discharge, and tinnitus); diagnosis (such as imaging studies, pathological examination, and laboratory indicators); treatment (such as medical therapy, radiotherapy, and surgical intervention); and prognosis (such as survival duration, quality of life, disease progression). A video was considered to cover all 5 domains (epidemiology, clinical manifestations, diagnosis, treatment, and prognosis) if it mentioned age distribution, tinnitus, laboratory indicators, radiotherapy, and survival duration. In contrast, a video that mentioned only geographical distribution and racial differences was considered to address epidemiology only. Given the brevity of the videos and the complexity of medical expertise, our assessment of video content is categorized as either mentioning or not mentioning the subject. If a video touches upon the relevant content in a superficial manner, this study also considers it to cover that topic. The content quality of the videos was recorded and assessed by 2 independent reviewers, and in case of disagreement, a third researcher was co-negotiated to resolve the issue.",
+      "order": 5
+    },
+    {
+      "section": "2.5. Statistical Analysis",
+      "text": "Categorical variables are expressed as frequencies and percentages, while continuous variables are described using the median (interquartile range [IQR]). The chi-square test or Fisher’s exact test was used to assess differences in platform distribution. The Mann–Whitney U test was employed for nonparametric comparisons between 2 independent groups, while the Kruskal-Wallis H test was used for comparisons among 3 or more groups. Interrater reliability between the 2 independent reviewers was assessed using Cohen’s kappa coefficient, with values interpreted as follows: <0.20, poor; 0.21 to 0.40, fair; 0.41 to 0.60, moderate; 0.61 to 0.80, good; and >0.81, excellent. [ 17 ] We used Cohen’s kappa coefficient to assess the level of agreement between reviewers. The kappa coefficient for each evaluation item exceeded 0.7, indicating a high degree of consistency. Spearman correlation analysis was applied to evaluate associations between video-related variables, mDISCERN, and GQS scores across 200 videos. [ 26 , 27 ] In Spearman correlation analysis, the intensity classification of the correlation coefficient ( r ) commonly includes levels such as: 0.00–0.19 (very weak), 0.20–0.39 (weak), 0.40–0.59 (moderate), 0.60–0.79 (strong), and 0.80–1.00 (very strong) correlation. [ 28 ] A P -value < .05 was considered statistically significant.",
+      "order": 6
+    },
+    {
+      "section": "3.1. Basic Characteristics Of Video",
+      "text": "Based on the established inclusion and exclusion criteria, we ultimately selected 100 videos from each platform for further data extraction and analysis. The detailed selection process is illustrated in Figure 1 . Table 3 shows the baseline characteristics of the 200 included nasopharyngeal cancer-related short videos. By uploader category, healthcare professionals accounted for 58.50%, followed by science communicators (19.50%), general users (14.00%), and organizational users (8.00%). The median video duration was 135 s (IQR 68–270). Median engagement metrics were 368 likes (IQR 16–1159), 116 collections (IQR 14–402), 39 comments (IQR 2–233), and 79 shares (IQR 4–320). The median GQS score was 3 (IQR 3–4), and the median mDISCERN score was 2 (IQR 2–2).",
+      "order": 7
+    },
+    {
+      "section": "3.2. Comparison Of Features Across Platforms",
+      "text": "Platform-specific characteristics are shown in Table 3 . Uploader composition differed significantly between TikTok and Bilibili ( P < .001). Bilibili videos were longer than TikTok videos ( P = .002). TikTok videos showed higher engagement than Bilibili videos across likes, collections, comments, and shares (all P < .001). GQS and mDISCERN scores did not differ significantly between platforms (GQS P = .093; mDISCERN P = .382).",
+      "order": 8
+    },
+    {
+      "section": "3.3. Video Content",
+      "text": "In the video content analysis section, as shown in Figure 2 , videos on the Bilibili platform most frequently covered clinical manifestation, followed by treatment. Videos on the TikTok platform most frequently covered treatment, followed by clinical manifestation. Notably, only a small number of videos on both Bilibili and TikTok mentioned Prognosis.",
+      "order": 9
+    },
+    {
+      "section": "3.4. Engagement Metrics Based On The Type Of Uploader On Both Bilibili And Tiktok",
+      "text": "Table 4 presents a comparison of video characteristics across different uploaders. Healthcare professionals had significantly shorter videos (105s), followed by general users (169s), organizational users (287s), while science communicators had the longest videos (582s). ( P < .001) Likewise, Healthcare professionals had a significantly higher number of collections (182), followed by general users (153), organizational users (57), while science communicators had the lowest number of collections (36). ( P = .02) Similarly, Healthcare professionals had a significantly higher number of shares (146), followed by general users (104), organizational users (85), while science communicators had the lowest number of shares (12). ( P < .001). Conversely, general users had a significantly higher number of likes (830) when compared to healthcare professionals (522), organizational users (121), and science communicators (15). ( P < .001) Furthermore, general users had a significantly higher number of comments (236) when compared to healthcare professionals (106), organizational users (6), and science communicators (1). ( P < .001)",
+      "order": 10
+    },
+    {
+      "section": "3.5. Engagement Metrics Based On The Type Of Uploader On Bilibili",
+      "text": "Table 5 presents a comparison of video characteristics across different uploaders on Bilibili. General users had a significantly higher number of likes (242) when compared to science communicators (13), healthcare professionals (6), and organizational users (3). ( P < .001) Likewise, general users had a significantly higher number of collections (84), followed by science communicators (34), organizational users (8), while healthcare professionals had the lowest number of collections (4). ( P = .002) Similarly, general users had a significantly higher number of comments (54) when compared to healthcare professionals (1), organizational users (1), and science communicators (1). ( P < .001) Furthermore, general users had a significantly higher number of shares (14) when compared to science communicators (9), organizational users (4), and healthcare professionals (2). ( P = .037) Conversely, healthcare professionals had significantly shorter videos (80s), followed by organizational users (153s), general users (182s), while science communicators had the longest videos (610s). ( P < .001)",
+      "order": 11
+    },
+    {
+      "section": "3.6. Engagement Metrics Based On The Type Of Uploader On Tiktok",
+      "text": "Table 6 presents a comparison of video characteristics across different uploaders on TikTok. Science communicators had a significantly higher number of likes (10853) when compared to general users (2029), organizational users (1172), and healthcare professionals (917). ( P = .024) Likewise, science communicators had a significantly higher number of collections (3180), followed by organizational users (777), general users (560), while healthcare professionals had the lowest number of collections (292). ( P = .031) Similarly, science communicators had a significantly higher number of shares (2170) when compared to general users (491), healthcare professionals (265), and organizational users (248). ( P = .234) Furthermore, general users had a significantly higher number of comments (1152) when compared to science communicators (435), organizational users (53), and healthcare professionals (178). ( P < .001) Conversely, healthcare professionals had significantly shorter videos (112s), followed by general users (118s), science communicators (195s), while organizational users had the longest videos (474s). ( P = .206)",
+      "order": 12
+    },
+    {
+      "section": "3.7. Video Quality Across Different Uploaders",
+      "text": "Figure 3 indicates that videos uploaded by healthcare professionals received higher GQS scores. Organizational users and science communicators achieved higher mDISCERN scores. Compared to general users, healthcare professionals’ videos scored higher on both GQS and mDISCERN, while no significant differences were observed between organizational users, science communicators, and healthcare professionals.",
+      "order": 13
+    },
+    {
+      "section": "3.8. Correlation Analysis",
+      "text": "We employed Spearman correlation analysis to examine the relationship between video interaction metrics (such as likes, comments, saves, and shares) and GQS, as well as mDISCERN scores (Fig. 4 ). The findings revealed significant positive correlations among interaction metrics ( R > 0.8, P < .05). The GQS showed a positive correlation with the number of video shares ( R = 0.15, P < .05). The mDISCERN scores demonstrated positive correlations with the number of video collections ( R = 0.04), video shares ( R = 0.05) and video duration ( R = 0.16, all P < .05).",
+      "order": 14
+    },
+    {
+      "section": "Discussion",
+      "text": "The aim of this study was to evaluate the content, quality, and reliability of nasopharyngeal cancer-related short videos on 2 major Chinese platforms, TikTok and Bilibili. Based on the analysis of 200 videos, 4 principal findings emerged. First, uploader composition and engagement metrics differed markedly between platforms. Second, the overall quality and reliability of nasopharyngeal cancer-related videos were poor. Third, content coverage was unbalanced, with prognosis rarely addressed. Fourth, user engagement metrics did not reliably reflect objective quality or reliability. Results showed that on Bilibili, uploaders were primarily healthcare professionals (36%) and science communicators (37%). On TikTok, healthcare professionals were the primary uploaders (81%). This is consistent with previous research findings. TikTok has implemented stricter regulations on video content, stipulating that only accredited institutions and doctors may upload medical content. [ 22 ] In this study, engagement metrics such as likes, collections, shares, and comments were higher on TikTok, though video durations were shorter than on Bilibili. This is a phenomenon associated with the platform’s characteristics. [ 29 ] Research suggests that TikTok’s videos are notably brief, typically lasting between 15 and 60 seconds, making them conducive to rapid dissemination. In contrast, Bilibili’s longer videos require viewer patience, potentially reducing engagement. [ 17 ] The platform should establish a video screening mechanism to prioritize the display of professional, high-quality video content in search results, ensuring the dissemination of accurate knowledge. We employed the GQS and mDISCERN score to evaluate the quality and reliability of video content across various platforms. The median GQS score for 200 videos was 3 (IQR 3–4), while the median mDISCERN score was 2 (IQR 2–2). Results indicate that videos related to nasopharyngeal carcinoma exhibit lower overall quality. This finding aligns with previous research. [ 30 ] This phenomenon is primarily attributed to the inherent characteristics of short videos: their concise and singular style limits the scope and depth of video content. [ 31 ] Although the video quality scores across the 2 platforms did not differ significantly, Bilibili’s videos appeared to be of lower quality than those on TikTok. This is consistent with the findings of Zheng et al. [ 14 ] This disparity may stem from TikTok’s predominantly healthcare professional uploaders. Research indicates that health videos uploaded by healthcare professionals are characterized by high content quality and credibility. [ 32 ] We found that video content on nasopharyngeal carcinoma across both platforms primarily covered clinical manifestations and treatment. However, some videos provided overly simplified symptom descriptions, such as bloody nasal discharge, without detailing comprehensive diagnostic processes. This may lead viewers to misinterpret common physiological changes as nasopharyngeal carcinoma, triggering excessive anxiety and panic. [ 19 , 32 ] Some videos briefly describe treatment options without addressing potential adverse reactions, resulting in a narrow understanding among patients. [ 33 ] Notably, over half of the videos fail to mention reports related to nasopharyngeal carcinoma prognosis. One possible explanation is that prognosis involves multiple factors with significant individual variation, requiring comprehensive interpretation based on treatment plans, tumor staging, and laboratory indicators. [ 34 , 35 ] Future educational videos should address this to provide viewers with a more holistic understanding of nasopharyngeal carcinoma and foster greater societal awareness for patients. We also found that videos uploaded by general users performed better in terms of likes and comments. Previous research shows that general users achieve better engagement metrics by sharing personal experiences of illness that resonate with their audience, offering neutral and relatable insights. [ 17 ] Science communicators’ videos have the longest duration, but lengthy videos require viewers to maintain their patience throughout. Healthcare professionals’ videos have more collections and shares. This indicates that the accumulation of expertise is crucial for medical information videos. However, compared to videos by healthcare professionals, those by general users had significantly lower GQS scores and mDISCERN scores. Regarding mDISCERN scores, healthcare professionals’ videos scored lower than those from organizational users and science communicators. This may stem from healthcare professionals prioritizing conciseness while neglecting source citations. [ 36 , 37 ] Healthcare professionals should incorporate more guideline references and recent research findings into their videos to enhance professionalism and credibility. [ 22 , 38 ] Additionally, Spearman correlation analysis revealed a significant positive correlation among likes, comments, collections, and shares, consistent with findings from numerous studies, including those by Guan et al. [ 39 ] This indicates synergistic effects in video interaction data, where highly engaged videos typically excel across multiple dimensions. [ 40 ] However, the interaction data is poorly or negatively correlated with video quality and reliability. [ 41 , 42 ] This aligns with prior research indicating that user engagement is more influenced by content popularity than by content quality. [ 43 ] Users struggle to discern the quality of health science videos through interaction metrics alone. [ 17 ] This underscores the necessity of enhancing the dissemination of high-quality medical science videos, as misinformation can generate harmful societal impacts. [ 42 ] Consequently, platforms should optimize review mechanisms and recommendation algorithms for medical science videos to increase the reach of reputable content. The primary significance of this study lies in providing a comprehensive methodology for evaluating video quality on short-form video platforms. This study employed the following measures to enhance the validity and credibility of its findings. Firstly, cross-platform comparisons (TikTok and Bilibili) mitigated platform-specific biases, rendering conclusions more robust across diverse social media environments. Secondly, prespecified retrieval strategies reduced selection bias and improved replicability. Thirdly, the use of established and validated measurement tools (GQS and mDISCERN) ensured greater reliability in assessing video quality and credibility. Fourthly, dual independent rater scoring, supplemented by consistency checks and disagreement arbitration, minimized subjectivity and scoring bias. Finally, correlational analysis between multidimensional interaction metrics and video quality scores bolstered the overall credibility of the findings. By comparing videos from TikTok and Bilibili, we analyzed how platform characteristics, video sources, and interaction data influence the dissemination quality of health information. Furthermore, utilizing the GQS and mDISCERN tools, this research conducted objective evaluations of health information videos, offering evidence for public health policy formulation, regulatory mechanisms for short-form video platforms, and the direction of medical science communication. Our study has some limitations. First, the videos were collected from Chinese-language platforms, which may limit generalizability to other languages and cultures. Second, platform rankings and engagement metrics can change over time, and a short capture window may affect representativeness. Third, video age may confound engagement comparisons because older videos have had more time to accumulate likes, comments, shares, and collections, whereas newer videos may not reflect long-term audience behavior. [ 44 , 45 ] Fourth, Video content and quality ratings rely on manual assessment, which may introduce subjective bias and affect replicability. Future research should consider incorporating Artificial Intelligence-driven analytical tools to reduce subjective bias.",
+      "order": 15
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study analyzed the characteristics and quality of 200 nasopharyngeal cancer-related videos from 2 short video platforms (TikTok and Bilibili). The results indicate significant differences in uploader composition and interaction patterns between the 2 platforms, with TikTok exhibiting higher engagement despite shorter videos. Overall video quality and reliability remain at a moderately low level. Content coverage is uneven, with pronounced deficiencies in prognosis. These findings underscore that while short video platforms hold considerable potential for public health education on nasopharyngeal cancer, issues such as improving content quality and optimizing platform recommendation mechanisms require attention.",
+      "order": 16
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Zhao F",
+        "Yang D",
+        "Li X"
+      ],
+      "title": "Effect of radiotherapy interruption on nasopharyngeal cancer.",
+      "journal": "Front Oncol",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1114652",
+      "pmid": "37091186",
+      "doi": "10.3389/fonc.2023.1114652",
+      "pmc_id": "PMC10116059"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Hsu CL",
+        "Chang YS",
+        "Li HP"
+      ],
+      "title": "Molecular diagnosis of nasopharyngeal carcinoma: past and future.",
+      "journal": "Biomed J",
+      "year": "2025",
+      "volume": "48",
+      "fpage": "100748",
+      "pmid": "38796105",
+      "doi": "10.1016/j.bj.2024.100748",
+      "pmc_id": "PMC11772973"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Zhou E",
+        "Xu F",
+        "Zhou T",
+        "et al."
+      ],
+      "title": "Shifting burden of nasopharyngeal carcinoma: global patterns and forecasts to 2050 from the GBD 2021.",
+      "journal": "Front Oncol",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "1687320",
+      "pmid": "41568385",
+      "doi": "10.3389/fonc.2025.1687320",
+      "pmc_id": "PMC12815733"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Chen JW",
+        "Lin ST",
+        "Lin YC",
+        "Wang BS",
+        "Chien YN",
+        "Chiou HY"
+      ],
+      "title": "Early detection of nasopharyngeal carcinoma through a machine-learning-driven prediction model in a population-based healthcare record database.",
+      "journal": "Cancer Med",
+      "year": "2024",
+      "volume": "13",
+      "fpage": "e7144",
+      "pmid": "38545735",
+      "doi": "10.1002/cam4.7144",
+      "pmc_id": "PMC10973879"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Alonto AHD",
+        "Mondia MWL",
+        "Planilla CJM",
+        "et al."
+      ],
+      "title": "Rare case of intramedullary spinal cord metastasis from nasopharyngeal carcinoma.",
+      "journal": "Curr Probl Cancer",
+      "year": "2021",
+      "volume": "45",
+      "fpage": "100713",
+      "pmid": "33589275",
+      "doi": "10.1016/j.currproblcancer.2021.100713"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Sun F",
+        "Zheng S",
+        "Wu J"
+      ],
+      "title": "Quality of information in gallstone disease videos on TikTok: cross-sectional study.",
+      "journal": "J Med Internet Res",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "e39162",
+      "pmid": "36753307",
+      "doi": "10.2196/39162",
+      "pmc_id": "PMC9947761"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Oser SM",
+        "Stuckey HL",
+        "Parascando JA",
+        "McGinley EL",
+        "Berg A",
+        "Oser TK"
+      ],
+      "title": "Glycated hemoglobin differences among blog-reading adults with type 1 diabetes compared with those who do not read blogs: cross-sectional study.",
+      "journal": "JMIR Diabetes",
+      "year": "2019",
+      "volume": "4",
+      "fpage": "e13634",
+      "pmid": "30938693",
+      "doi": "10.2196/13634",
+      "pmc_id": "PMC6465975"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Xu QR",
+        "Wu PZ",
+        "Du JZ",
+        "et al."
+      ],
+      "title": "Online short videos promoting public breast cancer literacy: a pretest-posttest control group trial on efficiency, attitude, and influencing factors.",
+      "journal": "Front Public Health",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "1198780",
+      "pmid": "37397762",
+      "doi": "10.3389/fpubh.2023.1198780",
+      "pmc_id": "PMC10310936"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Zhao K",
+        "Liu J"
+      ],
+      "title": "The quality and reliability of herpes zoster information on TikTok and Bilibili: a cross-sectional study.",
+      "journal": "Digit Health",
+      "year": "2026",
+      "volume": "12",
+      "fpage": "20552076251412693",
+      "pmid": "41509869",
+      "doi": "10.1177/20552076251412693",
+      "pmc_id": "PMC12775287"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Liu H",
+        "Peng J",
+        "Li L",
+        "et al."
+      ],
+      "title": "Assessment of the reliability and quality of breast cancer related videos on TikTok and Bilibili: cross-sectional study in China.",
+      "journal": "Front Public Health",
+      "year": "2023",
+      "volume": "11",
+      "fpage": "1296386",
+      "pmid": "38317686",
+      "doi": "10.3389/fpubh.2023.1296386",
+      "pmc_id": "PMC10839971"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Memioglu T",
+        "Ozyasar M"
+      ],
+      "title": "Analysis of YouTube videos as a source of information for myocarditis during the COVID-19 pandemic.",
+      "journal": "Clin Res Cardiol",
+      "year": "2022",
+      "volume": "111",
+      "fpage": "1113",
+      "lpage": "20",
+      "pmid": "35471259",
+      "doi": "10.1007/s00392-022-02026-x",
+      "pmc_id": "PMC9039268"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Lei Y",
+        "Liao F",
+        "Li X",
+        "Zhu Y"
+      ],
+      "title": "Quality and reliability evaluation of pancreatic cancer-related video content on social short video platforms: a cross-sectional study.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "1919",
+      "pmid": "40413453",
+      "doi": "10.1186/s12889-025-23130-3",
+      "pmc_id": "PMC12102813"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Mao T",
+        "Zhao X",
+        "Jiang K",
+        "et al."
+      ],
+      "title": "Evaluation of TikTok videos on acute pancreatitis: content quality and reliability analysis.",
+      "journal": "BMC Public Health",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "1216",
+      "pmid": "38698404",
+      "doi": "10.1186/s12889-024-18708-2",
+      "pmc_id": "PMC11067236"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Zheng S",
+        "Tong X",
+        "Wan D",
+        "Hu C",
+        "Hu Q",
+        "Ke Q"
+      ],
+      "title": "Quality and reliability of liver cancer-related short Chinese videos on TikTok and Bilibili: cross-sectional content analysis study.",
+      "journal": "J Med Internet Res",
+      "year": "2023",
+      "volume": "25",
+      "fpage": "e47210",
+      "pmid": "37405825",
+      "doi": "10.2196/47210",
+      "pmc_id": "PMC10357314"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Eker C",
+        "Surmelioglu O",
+        "Yucel SP",
+        "Dagkiran M",
+        "Onan E"
+      ],
+      "title": "Assessment of videos on YouTubeTM about nasopharyngeal cancer in terms of accuracy, reliability and understandability.",
+      "journal": "Asian Pac J Cancer Prev",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "1023",
+      "lpage": "9",
+      "pmid": "35345376",
+      "doi": "10.31557/APJCP.2022.23.3.1023",
+      "pmc_id": "PMC9360932"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Tan DJY",
+        "Ko TK",
+        "Fan KS"
+      ],
+      "title": "The readability and quality of web-based patient information on nasopharyngeal carcinoma: quantitative content analysis.",
+      "journal": "JMIR Formative Res",
+      "year": "2023",
+      "volume": "7",
+      "fpage": "e47762"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Wang H",
+        "Zhang H",
+        "Cao J",
+        "Zhang F",
+        "Xiong W"
+      ],
+      "title": "Quality and content evaluation of thyroid eye disease treatment information on TikTok and Bilibili.",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "25134",
+      "pmid": "40646154",
+      "doi": "10.1038/s41598-025-11147-y",
+      "pmc_id": "PMC12254225"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Jiang S",
+        "Zhou Y",
+        "Qiu J",
+        "Gou X"
+      ],
+      "title": "Search engines and short video apps as sources of information on acute pancreatitis in China: quality assessment and content assessment.",
+      "journal": "Front Public Health",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "1578076",
+      "pmid": "40535445",
+      "doi": "10.3389/fpubh.2025.1578076",
+      "pmc_id": "PMC12174125"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Zhang YX",
+        "Yin HT",
+        "Liu YX",
+        "Fu X",
+        "Liu J"
+      ],
+      "title": "Videos in short-video sharing platforms as sources of information on osteoarthritis: cross-sectional content analysis study.",
+      "journal": "Front Digital Health",
+      "year": "2025",
+      "volume": "7",
+      "fpage": "1622503"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Wang L",
+        "Chen Y",
+        "Zhao D",
+        "Xu T",
+        "Hua F"
+      ],
+      "title": "Quality and dissemination of uterine fibroid health information on TikTok and Bilibili: cross-sectional study.",
+      "journal": "JMIR Formative Res",
+      "year": "2025",
+      "volume": "9",
+      "fpage": "e75120"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Chen Y",
+        "Wang Q",
+        "Huang X",
+        "et al."
+      ],
+      "title": "The quality and reliability of short videos about thyroid nodules on BiliBili and TikTok: cross-sectional study.",
+      "journal": "Digital Health",
+      "year": "2024",
+      "volume": "10",
+      "fpage": "20552076241288831",
+      "pmid": "39381823",
+      "doi": "10.1177/20552076241288831",
+      "pmc_id": "PMC11459542"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Zhu W",
+        "He B",
+        "Wang X",
+        "Du Y",
+        "Young K",
+        "Jiang S"
+      ],
+      "title": "Information quality of videos related to esophageal cancer on TikTok, Kwai, and bilibili: a cross-sectional study.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "2245",
+      "pmid": "40604838",
+      "doi": "10.1186/s12889-025-23475-9",
+      "pmc_id": "PMC12220660"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Song S",
+        "Xue X",
+        "Zhao YC",
+        "Li J",
+        "Zhu Q",
+        "Zhao M"
+      ],
+      "title": "Short-video apps as a health information source for chronic obstructive pulmonary disease: information quality assessment of TikTok videos.",
+      "journal": "J Med Internet Res",
+      "year": "2021",
+      "volume": "23",
+      "fpage": "e28318",
+      "pmid": "34931996",
+      "doi": "10.2196/28318",
+      "pmc_id": "PMC8726035"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Zhou Y",
+        "Yang L",
+        "Luo L",
+        "Cao L",
+        "Qiu J"
+      ],
+      "title": "Quality assessment of videos about dengue fever on Douyin: cross-sectional study.",
+      "journal": "JMIR Infodemiol",
+      "year": "2025",
+      "volume": "5",
+      "fpage": "e76474"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Yin X",
+        "Lai Y",
+        "Zhu W",
+        "Xie N"
+      ],
+      "title": "Status of short videos as health information sources for chronic pancreatitis in China: a cross-sectional study.",
+      "journal": "BMC Gastroenterol",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "423",
+      "pmid": "40457176",
+      "doi": "10.1186/s12876-025-04005-8",
+      "pmc_id": "PMC12128484"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Zheng X",
+        "Li Q",
+        "Jin L",
+        "Shi K",
+        "Deng M"
+      ],
+      "title": "Quality, reliability, and dissemination of lung cancer information on short-video platforms in China: a cross-platform content analysis of TikTok, Kwai, and Rednote.",
+      "journal": "Front Public Health",
+      "year": "2025",
+      "volume": "13",
+      "fpage": "1683561",
+      "pmid": "41404572",
+      "doi": "10.3389/fpubh.2025.1683561",
+      "pmc_id": "PMC12702867"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Chen Q",
+        "Zhang Z",
+        "Huang Y",
+        "Wang Z"
+      ],
+      "title": "The quality and reliability of short videos about Melasma on TikTok and Bilibili: a cross-sectional study.",
+      "journal": "J Cosmet Dermatol",
+      "year": "2025",
+      "volume": "24",
+      "fpage": "e70578",
+      "pmid": "41363060",
+      "doi": "10.1111/jocd.70578",
+      "pmc_id": "PMC12687306"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Svensson E"
+      ],
+      "title": "Different ranking approaches defining association and agreement measures of paired ordinal data.",
+      "journal": "Stat Med",
+      "year": "2012",
+      "volume": "31",
+      "fpage": "3104",
+      "lpage": "17",
+      "pmid": "22714677",
+      "doi": "10.1002/sim.5382"
+    },
+    {
+      "ref_id": "R29",
+      "label": "[29]",
+      "authors": [
+        "He F",
+        "Yang M",
+        "Liu J",
+        "et al."
+      ],
+      "title": "Quality and reliability of pediatric pneumonia related short videos on mainstream platforms: cross-sectional study.",
+      "journal": "BMC Public Health",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "1896",
+      "pmid": "40410758",
+      "doi": "10.1186/s12889-025-22963-2",
+      "pmc_id": "PMC12101000"
+    },
+    {
+      "ref_id": "R30",
+      "label": "[30]",
+      "authors": [
+        "Tu J",
+        "Zhang C",
+        "Zhang H",
+        "Liang L",
+        "He J"
+      ],
+      "title": "Evaluating the reliability and quality of knee osteoarthritis educational content on TikTok and Bilibili: a cross-sectional content analysis.",
+      "journal": "Digital Health",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "20552076251366390",
+      "pmid": "40808711",
+      "doi": "10.1177/20552076251366390",
+      "pmc_id": "PMC12344336"
+    },
+    {
+      "ref_id": "R31",
+      "label": "[31]",
+      "authors": [
+        "Zhang Y",
+        "Huang C",
+        "Tong Y",
+        "et al."
+      ],
+      "title": "Quality assessment of spinal cord injury-related health information on short-form video platforms: cross-sectional content analysis of TikTok, Kwai, and BiliBili.",
+      "journal": "Digital Health",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "20552076251374226",
+      "pmid": "40918080",
+      "doi": "10.1177/20552076251374226",
+      "pmc_id": "PMC12409039"
+    },
+    {
+      "ref_id": "R32",
+      "label": "[32]",
+      "authors": [
+        "Xu R",
+        "Ren Y",
+        "Li X",
+        "Su L",
+        "Su J"
+      ],
+      "title": "The quality and reliability of short videos about premature ovarian failure on Bilibili and TikTok: cross-sectional study.",
+      "journal": "Digital Health",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "20552076251351077",
+      "pmid": "40534890",
+      "doi": "10.1177/20552076251351077",
+      "pmc_id": "PMC12174690"
+    },
+    {
+      "ref_id": "R33",
+      "label": "[33]",
+      "authors": [
+        "Tang W",
+        "Lv Y",
+        "Yang X",
+        "et al."
+      ],
+      "title": "Sintilimab‑induced acute erosive hemorrhagic gastritis as an adverse reaction of third‑line therapy in a nasopharyngeal carcinoma patient: a case report.",
+      "journal": "Oncol Lett",
+      "year": "2025",
+      "volume": "30",
+      "fpage": "326",
+      "pmid": "40370643",
+      "doi": "10.3892/ol.2025.15072",
+      "pmc_id": "PMC12076053"
+    },
+    {
+      "ref_id": "R34",
+      "label": "[34]",
+      "authors": [
+        "Shi Y",
+        "Wu Y",
+        "He J",
+        "Ling Y",
+        "Liu W"
+      ],
+      "title": "Prognosis of nasopharyngeal carcinoma in children and adolescents: a population-based analysis.",
+      "journal": "BMC Pediatr",
+      "year": "2025",
+      "volume": "25",
+      "fpage": "310",
+      "pmid": "40259339",
+      "doi": "10.1186/s12887-025-05653-1",
+      "pmc_id": "PMC12010594"
+    },
+    {
+      "ref_id": "R35",
+      "label": "[35]",
+      "authors": [
+        "Toumi N",
+        "Ennouri S",
+        "Charfeddine I",
+        "Daoud J",
+        "Khanfir A"
+      ],
+      "title": "Prognostic factors in metastatic nasopharyngeal carcinoma.",
+      "journal": "Braz J Otorhinolaryngol",
+      "year": "2022",
+      "volume": "88",
+      "fpage": "212",
+      "lpage": "9",
+      "pmid": "32690385",
+      "doi": "10.1016/j.bjorl.2020.05.022",
+      "pmc_id": "PMC9422638"
+    },
+    {
+      "ref_id": "R36",
+      "label": "[36]",
+      "authors": [
+        "Charnock D",
+        "Shepperd S",
+        "Needham G",
+        "Gann R"
+      ],
+      "title": "DISCERN: an instrument for judging the quality of written consumer health information on treatment choices.",
+      "journal": "J Epidemiol Community Health",
+      "year": "1999",
+      "volume": "53",
+      "fpage": "105",
+      "lpage": "11",
+      "pmid": "10396471",
+      "doi": "10.1136/jech.53.2.105",
+      "pmc_id": "PMC1756830"
+    },
+    {
+      "ref_id": "R37",
+      "label": "[37]",
+      "authors": [
+        "Grajales FJ",
+        "Sheps S",
+        "Ho K",
+        "Novak-Lauscher H",
+        "Eysenbach G"
+      ],
+      "title": "Social media: a review and tutorial of applications in medicine and health care.",
+      "journal": "J Med Internet Res",
+      "year": "2014",
+      "volume": "16",
+      "fpage": "e13",
+      "pmid": "24518354",
+      "doi": "10.2196/jmir.2912",
+      "pmc_id": "PMC3936280"
+    },
+    {
+      "ref_id": "R38",
+      "label": "[38]",
+      "authors": [
+        "Guo F",
+        "Ding G",
+        "Zhang Y",
+        "Liu X"
+      ],
+      "title": "Quality assessment of radiotherapy health information on short-form video platforms of TikTok and Bilibili: cross-sectional study.",
+      "journal": "JMIR Cancer",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "e73455",
+      "pmid": "40986789",
+      "doi": "10.2196/73455",
+      "pmc_id": "PMC12456845"
+    },
+    {
+      "ref_id": "R39",
+      "label": "[39]",
+      "authors": [
+        "Guan JL",
+        "Xia SH",
+        "Zhao K",
+        "et al."
+      ],
+      "title": "Videos in short-video sharing platforms as sources of information on colorectal polyps: cross-sectional content analysis study.",
+      "journal": "J Med Internet Res",
+      "year": "2024",
+      "volume": "26",
+      "fpage": "e51655",
+      "pmid": "39470708",
+      "doi": "10.2196/51655",
+      "pmc_id": "PMC11558218"
+    },
+    {
+      "ref_id": "R40",
+      "label": "[40]",
+      "authors": [
+        "Li A",
+        "Xing Q",
+        "Zhang Y",
+        "et al."
+      ],
+      "title": "Evaluation of the information quality related to osteoporosis on TikTok.",
+      "journal": "BMC Public Health",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "2880",
+      "pmid": "39425064",
+      "doi": "10.1186/s12889-024-20375-2",
+      "pmc_id": "PMC11490150"
+    },
+    {
+      "ref_id": "R41",
+      "label": "[41]",
+      "authors": [
+        "Ming S",
+        "Han J",
+        "Yao X",
+        "Guo X",
+        "Guo Q",
+        "Lei B"
+      ],
+      "title": "Myopia information on TikTok: analysis factors that impact video quality and audience engagement.",
+      "journal": "BMC Public Health",
+      "year": "2024",
+      "volume": "24",
+      "fpage": "1194",
+      "pmid": "38685020",
+      "doi": "10.1186/s12889-024-18687-4",
+      "pmc_id": "PMC11057166"
+    },
+    {
+      "ref_id": "R42",
+      "label": "[42]",
+      "authors": [
+        "Sun Y",
+        "Liu X",
+        "Zhang X",
+        "Xu Q",
+        "Li A"
+      ],
+      "title": "Health information analysis of cryptorchidism-related short videos: analyzing quality and reliability.",
+      "journal": "Digital Health",
+      "year": "2025",
+      "volume": "11",
+      "fpage": "20552076251317578",
+      "pmid": "39877853",
+      "doi": "10.1177/20552076251317578",
+      "pmc_id": "PMC11773521"
+    },
+    {
+      "ref_id": "R43",
+      "label": "[43]",
+      "authors": [
+        "Aragon-Guevara D",
+        "Castle G",
+        "Sheridan E",
+        "Vivanti G"
+      ],
+      "title": "The reach and accuracy of information on autism on TikTok.",
+      "journal": "J Autism Dev Disord",
+      "year": "2025",
+      "volume": "55",
+      "fpage": "1953",
+      "lpage": "8",
+      "pmid": "37544970",
+      "doi": "10.1007/s10803-023-06084-6"
+    },
+    {
+      "ref_id": "R44",
+      "label": "[44]",
+      "authors": [
+        "Zheng X",
+        "Li Q",
+        "Jin L",
+        "Shi K"
+      ],
+      "title": "Quality and dissemination of thyroid cancer information on short-video platforms a cross-platform evaluation.",
+      "journal": "Sci Rep",
+      "year": "2025",
+      "volume": "15",
+      "fpage": "44260",
+      "pmid": "41429799",
+      "doi": "10.1038/s41598-025-27833-w",
+      "pmc_id": "PMC12722304"
+    },
+    {
+      "ref_id": "R45",
+      "label": "[45]",
+      "authors": [
+        "Zhou X",
+        "Ma G",
+        "Su X",
+        "et al."
+      ],
+      "title": "The reliability and quality of short videos as health information of guidance for lymphedema: a cross-sectional study.",
+      "journal": "Front Public Health",
+      "year": "2024",
+      "volume": "12",
+      "fpage": "1472583",
+      "pmid": "39830188",
+      "doi": "10.3389/fpubh.2024.1472583",
+      "pmc_id": "PMC11739071"
+    }
+  ]
+}

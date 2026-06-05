@@ -1,0 +1,994 @@
+{
+  "metadata": {
+    "title": "Mobile Apps for Tinnitus: Systematic Search in App Stores and Review of Intervention Components and Behavior Change Techniques",
+    "authors": [
+      "Alina Rinn",
+      "Sarah Goetsch",
+      "Sandy Hannibal",
+      "Dirk Lehr",
+      "Cornelia Weise"
+    ],
+    "journal": "JMIR mHealth and uHealth",
+    "year": "2026",
+    "doi": "10.2196/66151",
+    "pmc_id": "PMC13186522",
+    "pmid": "42155139",
+    "full_text_available": true,
+    "section_count": 16,
+    "reference_count": 50
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background Previous research suggests that 14.4% of the general population is affected by tinnitus. For some of those affected, the ear noise is bothersome or associated with severe distress. There are various treatment options such as cognitive behavioral therapy (CBT), sound therapy, or hearing aids. In addition to browser-based online interventions, mobile apps have been introduced as novel treatment approaches. Previous studies have identified several apps aimed at supporting users with tinnitus. Yet, knowledge about the content of tinnitus apps is limited. Objective This study aimed to provide an overview of apps specifically developed for tinnitus by analyzing general app characteristics, as well as app content, focusing on intervention components and behavior change techniques (BCTs). Methods A systematic search using 7 search terms (eg, tinnitus and ear noise) was conducted in the Google Play Store and the Apple App Store. Apps designed specifically for tinnitus and available in German or English met the inclusion criteria. Two independent trained raters assessed general app characteristics (eg, age group and costs) using the app description section of the German version of the Mobile App Rating Scale. In addition, raters analyzed app content using the BCT taxonomy (v1) and a list of typical intervention components in tinnitus treatment. Differences in ratings were discussed, and a third trained rater was consulted if no consensus was reached. Results A total of 1198 apps were identified in the systematic search. Of those, 69 apps were included in the final analysis. Fifty-two apps were available for free, 23 of which offered in-app purchases. Among the 17 paid apps, costs ranged between €0.69 (US $0.81) and €450 (US $527) per 12 months. Fifty-eight of 69 apps provided sounds (eg, white noise and nature sounds). Many apps assessed tinnitus characteristics (n=38) and provided information about tinnitus (n=27). The most frequently used BCTs were “instruction on how to perform the behavior” (n=25; eg, audio instructions for relaxation techniques), “feedback on behavior” (n=11), “behavioral practice/rehearsal” (n=11), “information about health consequences” (n=11), “information about emotional consequences” (n=11), and “prompts/cues” (n=11). The number of BCTs implemented varied widely across apps (0‐18 per app). Conclusions Most tinnitus apps offer sound-based interventions (eg, white noise and nature sounds). Notably, CBT elements (eg, cognitive restructuring, attention training, and relaxation training) are implemented less frequently, despite CBT being recommended in tinnitus treatment guidelines. Further research on the efficacy of tinnitus apps is needed. Transparent reporting of intervention techniques may help clarify mechanisms of action and support the replication of effective interventions. Given the large number of readily accessible apps, this study provides an overview relevant to both researchers and health care professionals.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Tinnitus is often described as a hissing, sizzling, or ringing in one or both ears or within the head and is defined as an auditory perception without corresponding external sound [ 1 ]. Recent meta-analytic findings point to a pooled prevalence of 14.4% for any tinnitus in adults [ 2 ]. For a smaller proportion, the ear noise is bothersome or related to severe distress. For example, 1.2% of the participants in a European Tinnitus Survey reported severe tinnitus [ 3 4 ]. Sleep disturbances and concentration difficulties, as well as depression and anxiety, can be associated with the ear noise [ 5-7 ]. Both patients seeking treatment and practitioners encounter numerous options with a varying base of evidence (eg, medication, hearing aids, cognitive behavioral therapy, or sound therapy) [ 1 8 ]. Digital innovation has paved the way for new methods to deliver treatment by providing internet- and mobile-based interventions (IMIs) [ 9 ]. IMIs have the potential to provide access to evidence-based interventions on a larger scale. They may accompany traditional interventions, potentially enhancing their effects or reducing costs [ 10 ]. Nevertheless, questions and potential risks arise when implementing IMIs, for example, concerning data security or the efficacy of stand-alone smartphone apps [ 10-12 ]. In recent years, especially internet-based interventions that provide cognitive behavioral strategies to people affected by tinnitus have been developed. These interventions target the reduction of tinnitus distress and have shown promising effects in several studies [ 9 13 ]. In addition to these web-based interventions, a range of smartphone apps aimed at alleviating burdensome tinnitus are easily accessible on app stores [ 14 15 ]. An understanding of what is being offered in these interventions may foster the replication of effective interventions, help identify potential mechanisms of action, and inform future intervention development [ 16 ]. However, to date, information and studies on the content and aims of tinnitus apps remain scarce. A primary approach to providing an overview of app content is to categorize the intervention components used (eg, sounds, relaxation training, and information on tinnitus). Previous reviews of tinnitus apps have mostly focused on providing a brief summary on app content, for example, by sorting apps into categories (eg, “tinnitus education, awareness, and prevention,” “tinnitus relief,” “sound therapy,” or “individual therapy”) [ 14 15 17 ]. Two of these reviews additionally provide brief descriptions of what individual apps offer, without necessarily distinguishing the specific intervention components implemented (eg, offering sounds to mask tinnitus, providing individual therapy for tinnitus) [ 15 17 ]. Sereda et al [ 18 ] provided a detailed description of intervention components and functions of apps. However, the group did not systematically search the app stores but rather analyzed some of the apps that people affected by tinnitus reported using in their daily life [ 18 ]. We wanted to add to this line of research by using a systematic approach to differentiate individual intervention components (as described in treatment guidelines or handbooks on tinnitus therapy), thereby providing a detailed overview of the intervention components used. A second approach for categorizing app content is to identify the behavior change techniques (BCTs) used [ 19 ]. Michie et al [ 19 20 ] developed a cross-domain taxonomy that includes 93 BCTs (eg, “self-monitoring of behavior”), allocated to 16 categories (eg, “feedback and monitoring”). This approach, rooted in health psychology, may be a useful second perspective to understand what might enhance active tinnitus management by fostering health behavior change. Prior studies on tinnitus have documented the BCTs used in an internet-based intervention by applying the behavior change wheel [ 21 ]. Furthermore, BCTs, alongside other measures, were assessed to describe the intervention content of a single internet-based intervention and several self-help interventions [ 16 22 ]. The authors concluded that intervention coding fostered the understanding of potential mechanisms of action and may be used to guide future developments [ 16 21 22 ]. BCTs have not yet been investigated in tinnitus apps. Taken together, our study focused on the following research questions: Findings on the quality and content of a subsample of the apps included in this study, namely 21 German apps, have previously been published in German to contribute to ongoing discussions specific to the German health care system [ 23 ]. Based on an updated systematic search, we aim to provide a broad overview of current app content in both English and German apps. To advance tinnitus-specific research and intervention development, and to inform researchers, practitioners, and future tinnitus app development, we focused exclusively on apps explicitly developed for people affected by tinnitus.",
+      "order": 1
+    },
+    {
+      "section": "Systematic Search",
+      "text": "The project was registered at the Open Science Framework [ 24 ]. The German Google Play Store and Apple App Store (iTunes) were searched to identify both paid and free Android and iOS apps. The following search terms, as well as their German equivalents, were used: “tinnitus,” “ear ringing,” “ear noise,” “ear buzzing,” “Ohrenklingeln,” “Ohrgeräusch,” and “Ohrensausen.” The search was performed by one of the authors (AR) from November 2020 to April 2021 and updated in February 2023 (conducted by MK and AR). The search strategy was designed to prioritize sensitivity over specificity to ensure a comprehensive capture of all potentially relevant apps. As our aim was to provide an overview of apps explicitly developed for tinnitus, we established strict inclusion and exclusion criteria detailed below to ensure the quality of the final sample.",
+      "order": 2
+    },
+    {
+      "section": "Inclusion And Exclusion Criteria",
+      "text": "In the first step, identified apps were screened based on information provided in the app store (title, description, user comments, and screenshots). The following inclusion criteria were used: specifically developed for tinnitus and available in German or English. Apps were excluded if one of the following criteria applied: (1) duplicate; (2) app no longer available on the app store; (3) apps with limited functions with a full version of the app being included; (4) app bundles, that is, a group of apps offered together; and (5) app not developed for smartphones but for tablets. If an app was available on both stores, the iOS version was included. App screening for the initial search was performed by one of the authors (1073 apps, AR). In cases where the app screening was inconclusive, a second rater was involved (91 apps, LL; screening for updated search, 125 apps, by AR and MK). In the second step, the remaining apps were tested for eligibility by AR. For this purpose, apps were downloaded and tested again for inclusion criteria. Apps were excluded if either criteria (1) or (2) or one of the following criteria applied: (6) analysis not feasible due to technical shortcomings, (7) app has no app-specific functionality (eg, solely offers eBooks or articles), (8) app in development or test phase only, (9) no access to the app (eg, no purchase via the app store feasible, no user account provided by the app developer upon request), and (10) app offers no intervention itself but accompanies a therapy via earpiece.",
+      "order": 3
+    },
+    {
+      "section": "General Characteristics",
+      "text": "General app characteristics were assessed using the app description section of the German version of the Mobile App Rating Scale (MARS-G) [ 25 ]. We slightly adapted this section for the purpose of our study. The following factors were assessed: platform, cost, affiliations, age group, category in the app store, technical aspects of the app, embedding into routine care, type of use, type of treatment, support, certification, data safety, and barrier-free.",
+      "order": 4
+    },
+    {
+      "section": "Intervention Components",
+      "text": "To categorize app content, a list of typical intervention components in tinnitus treatment was developed by the authors (AR, DL, and CW). This list was built based on studies on the components of interventions for tinnitus [ 26 ], the German treatment guideline for chronic tinnitus [ 27 ], reviews on tinnitus treatment [ 9 28 29 ], as well as a handbook on cognitive behavioral therapy for tinnitus [ 30 ]. Furthermore, the evidence-based health information guideline was used [ 31 ]. The guideline, among other aspects, names criteria on how patients should be informed prior to the start of an intervention. The component “information on the intervention” was developed to capture several of the criteria described. For the list of typical intervention components in tinnitus treatment used to categorize app content, see Multimedia Appendix 1 . Moreover, raters analyzed which of the identified intervention components were a key component in the app’s concept (ie, important messages or key skills that are trained when using the app).",
+      "order": 5
+    },
+    {
+      "section": "Behavior Change Techniques",
+      "text": "To assess which techniques were used to encourage changes in behavior, the BCT taxonomy (v1) [ 19 ] was used. This taxonomy includes 93 techniques that might be used in behavior change interventions (eg, “self-monitoring of behavior” or “action planning”). These are allocated to 16 categories (eg, “feedback and monitoring” or “goals and planning”). For each app, raters analyzed which of the 93 techniques described in the BCT taxonomy (v1) were implemented.",
+      "order": 6
+    },
+    {
+      "section": "Rater Training",
+      "text": "Five raters with a bachelor’s or master’s degree in psychology were trained prior to the app ratings. The training consisted of several steps. First, the raters watched a video introducing the German version of the Mobile App Rating Scale rating, as provided by the authors [ 25 ]. As this video contains an example of how to rate a tinnitus app, this specific part was excluded, and instead, the raters viewed parts of the training video created by the authors of the original scale (which included an example of how to rate an app) [ 32 ]. Second, the raters used exercises offered on the BCT Taxonomy v1 online platform to train categorizing BCTs (all raters: “Practices”; rater 1: online-training) [ 33 ]. Third, to become familiar with the taxonomy, the raters developed and jointly discussed examples of how each BCT might be implemented in a tinnitus app. As a final step, the raters independently analyzed 5 apps developed for pain management and subsequently discussed their results until agreement was reached.",
+      "order": 7
+    },
+    {
+      "section": "Procedure And Data Analysis",
+      "text": "Two raters independently tested each app for at least 20 minutes and then proceeded to rate the app. The full versions of the apps (including all app features) were tested. Each rater was provided with a list of apps, which had to be rated in descending order. The order specified differed between raters to minimize potential order effects. Once all apps were analyzed, raters discussed the results based on differences in the ratings of general characteristics, intervention components, and BCTs. If no consensus was reached, a third rater participated in the discussion. Descriptive statistics (eg, frequencies of individual BCTs) were calculated using IBM SPSS Statistics version 28 [ 34 ].",
+      "order": 8
+    },
+    {
+      "section": "Systematic Search",
+      "text": "The initial search using the 7 search terms mentioned above yielded 1198 apps on the app stores (Google Play Store: n=957; Apple App Store: n=241). Of these, 1105 apps were excluded during screening. Most of the apps (n=962) were excluded as they were not explicitly developed for tinnitus (n=809 addressed topics other than tinnitus, eg, decibel meters; n=153 apps mentioned tinnitus but were not explicitly developed for it, eg, apps accompanying hearing aid devices; Figure 1 ). The remaining 94 apps were downloaded and tested for eligibility. Of these, 17 apps were excluded (eg, due to low technical functionality), leaving 77 apps that fulfilled all inclusion criteria. During the app testing, a further 8 apps had to be excluded (eg, no longer available on the app stores). Accordingly, 69 apps were included in the final analysis. Figure 1 displays the flowchart of the systematic search and inclusion process for tinnitus apps, and the caption provides further detailed information on the selection process. The list of all apps included in the final analysis can be found in Multimedia Appendix 1 .",
+      "order": 9
+    },
+    {
+      "section": "App Characteristics",
+      "text": "A total of 45 iOS and 24 Android apps were analyzed. Fifty-two apps were free, with 23 of them offering in-app purchases. The price for 17 paid apps ranged between €0.69 (US $0.81) and €450 (US $527) per 12 months. The majority of tinnitus apps were offered in the app store categories medical (n=29 apps) or health and fitness (n=28 apps). For 29 apps, we were not able to identify the developers or providers. Sixty-six apps offered a treatment, with 1 app additionally including content for prevention. One app aimed to track symptoms and 1 app offered an assessment of the tinnitus tone. Three apps had an app community (eg, motivational notifications can be sent to other users), and 3 apps offered an exchange with others via social media or messenger apps. Almost all apps were not by design embedded into routine care (n=63). Only 3 apps allowed for the sharing of information (eg, user statistics) with a health care professional. Few apps provided support for users (n=8), most of them regarding potential technical issues (n=6). For a full overview of app characteristics, see Table 1 .",
+      "order": 10
+    },
+    {
+      "section": "Intervention Components",
+      "text": "Intervention components were assessed using a list of components in tinnitus treatment developed by the authors. Most frequently used intervention components were sounds (eg, white noise, nature sounds, and music), which were implemented in 58 of 69 apps. In 52 apps, sounds were a key element. An assessment of tinnitus characteristics was offered by 38 apps (key element in 22 apps). Furthermore, information on tinnitus (n=27, key element in 16 apps) and the provision of information on, or assessment of risk factors for tinnitus (n=23) were implemented in several apps. Less than a third of the apps assessed tinnitus distress (n=18) or provided information on or assessed further otological symptoms (n=16). Further intervention components typically used in CBT were implemented in a smaller number of apps: relaxation training (n=16), techniques to improve sleep (n=12), identification of maladaptive thoughts (n=8), restructuring maladaptive thoughts (n=8), attention training (n=4), and exposure to tinnitus (n=1). Besides, a larger part of the apps (n=39) informed users about the aim of the intervention, while only a few apps offered information on uncertainties and missing evidence (n=7). Across all apps, we identified 41 different intervention components. Apps highly differed in the number of intervention components they included, ranging from 2 to 20 intervention components per app. For full details on the identified intervention components, see Table 2 .",
+      "order": 11
+    },
+    {
+      "section": "Behavior Change Techniques",
+      "text": "BCTs were categorized using the taxonomy by Michie et al [ 19 ]. In total, 36 out of 93 BCTs were identified in at least 1 app. The most frequently implemented BCTs were “instruction on how to perform the behavior” (n=25, eg, audio instructions on how to perform a relaxation technique), “feedback on behavior” (n=11), “behavioral practice/rehearsal” (n=11, eg, prompting users to practice mindfulness-based exercises), “information about health consequences” (n=11), “information about emotional consequences” (n=11), and “prompts/cues” (n=11, eg, app reminders to engage in pleasant activities). Apps highly differed in the number of implemented BCTs (none to 18 BCTs per app), with 32 apps including no BCTs at all. See Table 3 for a full overview of BCTs identified.",
+      "order": 12
+    },
+    {
+      "section": "Results",
+      "text": "In this systematic review, we assessed intervention components and BCTs [ 19 ] used in tinnitus apps and provided a detailed summary of the content of available apps. We analyzed a total of 69 apps available in English or German, all of which were easily accessible via 2 major app stores. Within the 69 apps included in our study, numerous intervention components were identified (eg, relaxation, assessment of tinnitus distress, or techniques to improve sleep). The most frequently implemented intervention component was sounds (eg, white noise and nature sounds). Furthermore, many apps offered an assessment of tinnitus characteristics or tinnitus distress and provided information on tinnitus, risk factors, and the basics of the intervention offered (eg, its aim). One possible reason for focusing on these components is that they are relatively easy to implement. Our findings are consistent with previous research reporting the frequent use of sound therapy in tinnitus apps [ 14 15 ] and patients’ preference for such apps [ 18 ]. In a recent health service evaluation, sound therapy (including hearing aids) was found to be the most frequently available intervention in both northern and southern Europe [ 35 ]. At the same time, clinical guidelines differ on whether they recommend sound therapy, given the lack of evidence or the risk of bias in previous studies [ 8 36 ]. Although meta-analytic evidence clearly supports the efficacy of CBT for treating tinnitus distress [ 8 36 37 ], CBT intervention components (eg, cognitive restructuring, relaxation training, and attention shifting) were implemented in only a small number of apps. In contrast, when analyzing CBT apps for depression, Martinengo and colleagues identified a variety of apps offering, for example, cognitive restructuring [ 38 ]. Thus, it seems possible to realize even more complex CBT components in smartphone apps. Interestingly, a closer look at the intervention components revealed considerable differences in how certain components were implemented. For example, 1 app addressed typical maladaptive thoughts by naming several maladaptive thoughts, briefly elaborating on their potential negative effects, and suggesting alternative thoughts. In another app, users were asked to name individual debilitating thoughts and were then provided with techniques to develop a more helpful thought. Our second aim was to assess the BCTs used in available tinnitus apps, as up-to-date knowledge on this topic is limited. In our study, we identified 36 of the 93 BCTs defined by Michie et al [ 19 ]. The 6 most frequently identified BCTs were “instruction of how to perform the behavior,” “information about emotional consequences,” “information about health consequences,” “feedback on behavior,” “behavioral practice/rehearsal,” and “prompts/cues.” Only a few other studies have assessed BCTs used in tinnitus interventions. Greenwell et al [ 16 ] analyzed BCTs in 5 studies on self-help interventions for tinnitus, and 2 studies reported on BCTs used in individual online interventions [ 21 22 ]. The techniques most frequently identified in our study are likely common because they are straightforward to implement in an app. For example, to promote relaxation behavior, users were instructed on how to perform a breathing exercise (“instruction on how to perform a behavior”), motivated to practice relaxation with audio recordings (“behavioral practice/ rehearsal”), or sent reminders to complete an exercise (“prompts/cues”). Interestingly, social support techniques were identified in only 4 out of 69 apps. This aligns with Greenwell et al [ 16 ] findings that social support components were largely absent in self-help interventions for tinnitus. In previous research on tinnitus support groups and group therapy, features such as the exchange of information, a sense of belonging, and validation of the tinnitus experience were identified as central helpful elements [ 39 40 ]. Including peer support in apps could therefore benefit tinnitus users, and smartphone apps offer various ways to provide this digitally. Moreover, goal setting was implemented in only a few apps. From a clinical perspective, prompting users to set goals and review them (“goal setting behavior,” “goal setting outcome,” “review behavior goals,” and “review outcome goals”) could enhance motivation. Reviewing these goals, according to Michie et al [ 19 ], may lead to adapting goals or modifying the behavior change strategy based on prior achievements. This process would allow users to evaluate whether they have met their goals using the app or if adjustments to the goal are needed. Additionally, normalizing the adaptation of goals or strategies may further support user motivation. In addition to numerous apps focusing on the provision of sounds and a small number of apps offering various CBT strategies, we identified apps offering, for example, acoustic neuromodulation or tailor-made notched music therapy. This highlights the general problem that tinnitus sufferers searching for an app are confronted with treatment approaches supported by varying levels of evidence [ 29 37 41 ]. It is likely that most app users are unaware of this. Furthermore, while a few tinnitus apps have been tested for efficacy, many apps lack scientific evaluation [ 42-47 ]. This aligns with our findings from a subsample of the apps included in this study [ 23 ]. In the current study, we also found only a few apps providing information on uncertainties or missing evidence regarding the intervention provided. As a basic requirement, app developers should inform users about the evidence base of the treatment approach and whether the app has been scientifically evaluated. Additionally, information on alternative treatment approaches should be provided to enable informed decision-making. This would also provide guidance to users if they are unable to reach their goals using the app. Similarly, Sander et al [ 48 ], in their review on posttraumatic stress disorder apps, proposed that apps categorized as medical or health apps should inform users that the app is not a replacement for standard treatment and provide guidance on accessing other treatment options. Correspondingly, other groups have called for evidence-based information in medical and health-related apps [ 49 50 ]. In our subsample analysis, we identified a few intervention components that could have negative effects if used without guidance from a clinical expert (eg, insufficient instructions for a training designed for users with hyperacusis) [ 23 ]. This is consistent with previous research highlighting potential negative effects when certain exercises are used without support [ 18 ]. Remarkably, none of the apps were categorized as “barrier-free.” However, we only screened for app features aimed at reducing barriers using a single yes or no item. In light of our findings and the large number of available tinnitus apps, health care professionals should ask patients whether they are using tinnitus apps and evaluate app content together. This may help patients assess whether the interventions offered are evidence based. In addition, potential shortcomings and negative effects can be identified, and professionals can provide guidance on the proper use of certain strategies. This aligns with recommendations by Brown et al [ 50 ], who call for increased awareness of potential negative effects among users and health care professionals. Assessing apps used in daily life also offers the opportunity to integrate exercises into a broader treatment plan. For example, a patient may use relaxation training offered in an app but struggle to practice it regularly. In this case, a health care professional can help identify barriers and develop strategies to overcome them. This review provided several key insights into the current landscape of tinnitus apps. Using a broad and systematic search strategy, we identified a large number of tinnitus-specific apps and evaluated each app in detail, rather than focusing only on the most popular ones. This approach allowed us to provide a comprehensive overview of the intervention components and BCTs currently implemented in tinnitus apps. A key strength of this review is the high sensitivity of the initial search. By using a broad search strategy, we accounted for nonclinical terminology often used by developers in app store metadata. During the screening phase, a significant number of hits had to be excluded because the apps were not related to tinnitus (eg, offering a decibel meter). Probably due to the app store search algorithms using a multitude of criteria (eg, screening title, description, and keywords), 153 apps (eg, accompanying hearing aid devices or generic sound or relaxation apps that lacked tinnitus-specific content) were further retrieved. While these apps might have used “tinnitus relief” as a keyword in their metadata to, for example, increase visibility, they were not specifically designed for tinnitus and were, therefore, excluded from the final analysis. Although the broad search strategy resulted in a high exclusion rate of apps, it ensured that no dedicated tinnitus-specific interventions were overlooked, providing a more reliable overview of the current digital health landscape for tinnitus. Our findings show that sounds were by far the most frequently implemented intervention component, whereas evidence-based CBT components were present in only a small proportion of apps, despite strong evidence for CBT in the treatment of tinnitus distress. Furthermore, only 36 of the 93 BCTs defined by Michie et al [ 19 ] were identified across all apps, indicating a limited use of established BCTs. By systematically mapping these components, we highlight which BCTs are currently under-represented and discuss their potential relevance for future app development. In addition, our results underscore the lack of transparent information on the evidence base of the treatment approaches offered in many apps and the need for scientific evaluation. Regular assessment of tinnitus apps by health care professionals may help identify potential shortcomings, support informed use of apps, and facilitate their integration into a broader treatment plan.",
+      "order": 13
+    },
+    {
+      "section": "Limitations And Future Directions",
+      "text": "Besides these strengths, several limitations should be considered. First, the systematic search was last updated in 2023. Accordingly, newly developed apps may not be included in the analysis. Furthermore, some of the included apps may no longer be available on the app stores, or their content might have changed substantially since the time of data extraction, limiting the temporal validity of our findings. Moreover, more recently developed apps might include more complex CBT components or a greater variety of BCTs. We searched 2 major app stores (Google Play Store and Apple App Store) but did not search app libraries (eg, ORCHA App Library) or other app stores (eg, Windows Store). Thus, the coverage of available apps may be incomplete. It is also possible that additional tinnitus apps were unavailable on the German app store but accessible to users in other countries. Second, we only analyzed apps available in English or German. Therefore, our findings may not be generalizable to apps in other languages and potential cultural or regional differences in app design and content are not captured. Third, as we used tinnitus-specific search terms and focused solely on apps explicitly developed for tinnitus, this review does not cover other apps that might potentially be beneficial for people suffering from tinnitus. In particular, transdiagnostic or mental health apps (eg, targeting stress or sleep) that may indirectly address tinnitus-related distress were not included, which may limit the scope of the review. Fourth, although we provide an overview of intervention components currently used in apps, no conclusions about the quality of their digital implementation can be drawn based on our data. Accordingly, we did not assess the mode of delivery for individual BCTs or how often they were used in each app. Our coding was based on the presence or absence of components rather than their depth or user engagement, which may vary substantially between apps. Fifth, based on our results, we cannot investigate associations between the implementation of a particular BCT or intervention component and the efficacy of an app. We did not incorporate user-level data (eg, adherence, engagement, or outcomes), which limits conclusions regarding the practical effectiveness of the apps and the identified components. Future research is needed to determine which intervention components, BCTs, or combination of BCTs are most effective in promoting behavior change and reducing tinnitus-related distress, ideally by linking specific components to user engagement and clinical outcomes. Moreover, subsequent studies may clarify how complex CBT components, such as cognitive restructuring, can be realized in an app to be beneficial for the user. Such research should also include questions of usability, personalization, and appropriate guidance. Future research should also examine how intervention components need to be implemented to be used safely without professional supervision, and under which conditions additional human support may be required to ensure both safety and effectiveness.",
+      "order": 14
+    },
+    {
+      "section": "Conclusion",
+      "text": "In this review, we provide a detailed and systematic analysis of tinnitus app content by categorizing intervention components and BCTs. By applying an established BCT framework, this study offers a structured and theory-informed overview of current app-based interventions. A variety of intervention components were identified at least once (eg, relaxation training, sound therapy, and information on tinnitus). However, the component most frequently implemented was sounds (eg, white noise and nature sounds), highlighting a discrepancy between commonly implemented features and evidence-based treatment recommendations. Core CBT elements, which are recommended in tinnitus treatment guidelines, were offered less frequently. Patients with tinnitus searching for support in app stores are confronted with a large number of easily accessible apps, yet the content and theoretical grounding of these apps vary substantially. In light of the limited scientific evaluation of these apps, future research on their efficacy as well as potential negative effects is highly needed. Importantly, this review provides a transparent and reproducible foundation for such evaluations by systematically mapping existing intervention components and BCTs. Overall, this study provides an overview for research and practice by summarizing current tinnitus app content and identifying key gaps that can inform evidence-based app development and future research priorities.",
+      "order": 15
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "authors": [
+        "Baguley D",
+        "McFerran D",
+        "Hall D"
+      ],
+      "title": "Tinnitus",
+      "journal": "The Lancet",
+      "year": "2013",
+      "volume": "382",
+      "issue": "9904",
+      "fpage": "1600",
+      "lpage": "1607",
+      "doi": "10.1016/S0140-6736(13)60142-7",
+      "pmid": "23827090"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "authors": [
+        "Jarach CM",
+        "Lugo A",
+        "Scala M",
+        "et al."
+      ],
+      "title": "Global prevalence and incidence of tinnitus: a systematic review and meta-analysis",
+      "journal": "JAMA Neurol",
+      "year": "2022",
+      "volume": "79",
+      "issue": "9",
+      "fpage": "888",
+      "lpage": "900",
+      "doi": "10.1001/jamaneurol.2022.2189",
+      "pmid": "35939312",
+      "pmc_id": "PMC9361184"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "authors": [
+        "Biswas R",
+        "Lugo A",
+        "Akeroyd MA",
+        "Schlee W",
+        "Gallus S",
+        "Hall DA"
+      ],
+      "title": "Tinnitus prevalence in Europe: a multi-country cross-sectional population study",
+      "journal": "Lancet Reg Health Eur",
+      "year": "2022",
+      "volume": "12",
+      "elocation_id": "100250",
+      "doi": "10.1016/j.lanepe.2021.100250",
+      "pmid": "34950918",
+      "pmc_id": "PMC8671623"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "authors": [
+        "Gallus S",
+        "Lugo A",
+        "Garavello W",
+        "et al."
+      ],
+      "title": "Prevalence and determinants of tinnitus in the Italian adult population",
+      "journal": "Neuroepidemiology",
+      "year": "2015",
+      "volume": "45",
+      "issue": "1",
+      "fpage": "12",
+      "lpage": "19",
+      "doi": "10.1159/000431376",
+      "pmid": "26182874"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "authors": [
+        "Bhatt JM",
+        "Bhattacharyya N",
+        "Lin HW"
+      ],
+      "title": "Relationships between tinnitus and the prevalence of anxiety and depression",
+      "journal": "Laryngoscope",
+      "year": "2017",
+      "volume": "127",
+      "issue": "2",
+      "fpage": "466",
+      "lpage": "469",
+      "doi": "10.1002/lary.26107",
+      "pmid": "27301552",
+      "pmc_id": "PMC5812676"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "authors": [
+        "Manchaiah V",
+        "Beukes EW",
+        "Granberg S",
+        "et al."
+      ],
+      "title": "Problems and life effects experienced by tinnitus research study volunteers: an exploratory study using the ICF classification",
+      "journal": "J Am Acad Audiol",
+      "year": "2018",
+      "volume": "29",
+      "issue": "10",
+      "fpage": "936",
+      "lpage": "947",
+      "doi": "10.3766/jaaa.17094",
+      "pmid": "30479266"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "authors": [
+        "McCormack A",
+        "Edmondson-Jones M",
+        "Fortnum H",
+        "et al."
+      ],
+      "title": "Investigating the association between tinnitus severity and symptoms of depression and anxiety, while controlling for neuroticism, in a large middle-aged UK population",
+      "journal": "Int J Audiol",
+      "year": "2015",
+      "volume": "54",
+      "issue": "9",
+      "fpage": "599",
+      "lpage": "604",
+      "doi": "10.3109/14992027.2015.1014577",
+      "pmid": "25766493",
+      "pmc_id": "PMC4673512"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "authors": [
+        "Fuller TE",
+        "Haider HF",
+        "Kikidis D",
+        "et al."
+      ],
+      "title": "Different teams, same conclusions? A systematic review of existing clinical guidelines for the assessment and treatment of tinnitus in adults",
+      "journal": "Front Psychol",
+      "year": "2017",
+      "volume": "8",
+      "elocation_id": "206",
+      "doi": "10.3389/fpsyg.2017.00206",
+      "pmid": "28275357",
+      "pmc_id": "PMC5319986"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "authors": [
+        "Andersson G"
+      ],
+      "title": "Internet-delivered psychological treatments for tinnitus: a brief historical review",
+      "journal": "Am J Audiol",
+      "year": "2022",
+      "volume": "31",
+      "issue": "3S",
+      "fpage": "1013",
+      "lpage": "1018",
+      "doi": "10.1044/2022_AJA-21-00245",
+      "pmid": "35442718"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "authors": [
+        "Ebert DD",
+        "Van Daele T",
+        "Nordgreen T",
+        "et al."
+      ],
+      "title": "Internet- and mobile-based psychological interventions: applications, efficacy, and potential for improving mental health",
+      "journal": "Eur Psychol",
+      "year": "2018",
+      "volume": "23",
+      "issue": "2",
+      "fpage": "167",
+      "lpage": "187",
+      "doi": "10.1027/1016-9040/a000318"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "authors": [
+        "Grundy Q",
+        "Chiu K",
+        "Held F",
+        "Continella A",
+        "Bero L",
+        "Holz R"
+      ],
+      "title": "Data sharing practices of medicines related apps and the mobile ecosystem: traffic, content, and network analysis",
+      "journal": "BMJ",
+      "year": "2019",
+      "volume": "364",
+      "elocation_id": "l920",
+      "doi": "10.1136/bmj.l920",
+      "pmid": "30894349",
+      "pmc_id": "PMC6425456"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "authors": [
+        "Weisel KK",
+        "Fuhrmann LM",
+        "Berking M",
+        "Baumeister H",
+        "Cuijpers P",
+        "Ebert DD"
+      ],
+      "title": "Standalone smartphone apps for mental health-a systematic review and meta-analysis",
+      "journal": "NPJ Digit Med",
+      "year": "2019",
+      "volume": "2",
+      "issue": "1",
+      "elocation_id": "118",
+      "doi": "10.1038/s41746-019-0188-8",
+      "pmid": "31815193",
+      "pmc_id": "PMC6889400"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "authors": [
+        "Beukes EW",
+        "Manchaiah V",
+        "Allen PM",
+        "Baguley DM",
+        "Andersson G"
+      ],
+      "title": "Internet-based interventions for adults with hearing loss, tinnitus, and vestibular disorders: a systematic review and meta-analysis",
+      "journal": "Trends Hear",
+      "year": "2019",
+      "volume": "23",
+      "elocation_id": "2331216519851749",
+      "doi": "10.1177/2331216519851749",
+      "pmid": "31328660",
+      "pmc_id": "PMC6647231"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "authors": [
+        "Deshpande AK",
+        "Shimunova T"
+      ],
+      "title": "A comprehensive evaluation of tinnitus apps",
+      "journal": "Am J Audiol",
+      "year": "2019",
+      "volume": "28",
+      "issue": "3",
+      "fpage": "605",
+      "lpage": "616",
+      "doi": "10.1044/2019_AJA-18-0135",
+      "pmid": "31330114"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "authors": [
+        "Mehdi M",
+        "Stach M",
+        "Riha C",
+        "et al."
+      ],
+      "title": "Smartphone and mobile health apps for tinnitus: systematic identification, analysis, and assessment",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2020",
+      "volume": "8",
+      "issue": "8",
+      "elocation_id": "e21767",
+      "doi": "10.2196/21767",
+      "pmid": "32808939",
+      "pmc_id": "PMC7463412"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "authors": [
+        "Greenwell K",
+        "Sereda M",
+        "Coulson N",
+        "El Refaie A",
+        "Hoare DJ"
+      ],
+      "title": "A systematic review of techniques and effects of self-help interventions for tinnitus: application of taxonomies from health psychology",
+      "journal": "Int J Audiol",
+      "year": "2016",
+      "volume": "55",
+      "issue": "sup3",
+      "fpage": "S79",
+      "lpage": "89",
+      "doi": "10.3109/14992027.2015.1137363",
+      "pmid": "27146036"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "authors": [
+        "Mehdi M",
+        "Riha C",
+        "Neff P",
+        "et al."
+      ],
+      "title": "Smartphone apps in the context of tinnitus: systematic review",
+      "journal": "Sensors (Basel)",
+      "year": "2020",
+      "volume": "20",
+      "issue": "6",
+      "elocation_id": "1725",
+      "doi": "10.3390/s20061725",
+      "pmid": "32204540",
+      "pmc_id": "PMC7146490"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "authors": [
+        "Sereda M",
+        "Smith S",
+        "Newton K",
+        "Stockdale D"
+      ],
+      "title": "Mobile apps for management of tinnitus: users’ survey, quality assessment, and content analysis",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2019",
+      "volume": "7",
+      "issue": "1",
+      "elocation_id": "e10353",
+      "doi": "10.2196/10353",
+      "pmid": "30672739",
+      "pmc_id": "PMC6364200"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "authors": [
+        "Michie S",
+        "Richardson M",
+        "Johnston M",
+        "et al."
+      ],
+      "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques: building an international consensus for the reporting of behavior change interventions",
+      "journal": "Ann Behav Med",
+      "year": "2013",
+      "volume": "46",
+      "issue": "1",
+      "fpage": "81",
+      "lpage": "95",
+      "doi": "10.1007/s12160-013-9486-6",
+      "pmid": "23512568"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "authors": [
+        "Michie S",
+        "Wood CE",
+        "Johnston M",
+        "Abraham C",
+        "Francis JJ",
+        "Hardeman W"
+      ],
+      "title": "Behaviour change techniques: The development and evaluation of a taxonomic method for reporting and describing behaviour change interventions (a suite of five studies involving consensus methods, randomised controlled trials and analysis of qualitative data)",
+      "journal": "Health Technol Assess",
+      "year": "2015",
+      "volume": "19",
+      "issue": "99",
+      "fpage": "1",
+      "lpage": "188",
+      "doi": "10.3310/hta19990",
+      "pmid": "26616119",
+      "pmc_id": "PMC4781650"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "authors": [
+        "Beukes EW",
+        "Manchaiah V",
+        "Andersson G",
+        "Maidment DW"
+      ],
+      "title": "Application of the behavior change wheel within the context of internet-based cognitive behavioral therapy for tinnitus management",
+      "journal": "Am J Audiol",
+      "year": "2022",
+      "volume": "31",
+      "issue": "2",
+      "fpage": "433",
+      "lpage": "444",
+      "doi": "10.1044/2022_AJA-21-00160",
+      "pmid": "35436419",
+      "pmc_id": "PMC9524758"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "authors": [
+        "Greenwell K",
+        "Featherstone D",
+        "Hoare DJ"
+      ],
+      "title": "The application of intervention coding methodology to describe the tinnitus e-programme, an internet-delivered self-help intervention for tinnitus",
+      "journal": "Am J Audiol",
+      "year": "2015",
+      "volume": "24",
+      "issue": "3",
+      "fpage": "311",
+      "lpage": "315",
+      "doi": "10.1044/2015_AJA-14-0089",
+      "pmid": "26649537"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "authors": [
+        "Rinn A",
+        "Hannibal S",
+        "Goetsch S",
+        "Weise C",
+        "Lehr D"
+      ],
+      "title": "Mit Apps gegen den Tinnitus? Ein systematisches Review zu Qualität, Interventionselementen und Techniken der Verhaltensänderung [Article in German]",
+      "journal": "Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz",
+      "year": "2024",
+      "volume": "67",
+      "issue": "2",
+      "fpage": "203",
+      "lpage": "214",
+      "doi": "10.1007/s00103-023-03805-1",
+      "pmid": "38085358",
+      "pmc_id": "PMC10834554"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "title": "Mobile applications for tinnitus: a review of quality, intervention components and behavior change techniques",
+      "journal": "OSF (Open Science Framework)"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "authors": [
+        "Messner EM",
+        "Terhorst Y",
+        "Barke A",
+        "et al."
+      ],
+      "title": "The German version of the Mobile App Rating Scale (MARS-G): development and validation study",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2020",
+      "volume": "8",
+      "issue": "3",
+      "elocation_id": "e14479",
+      "doi": "10.2196/14479",
+      "pmid": "32217504",
+      "pmc_id": "PMC7148545"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "authors": [
+        "Thompson DM",
+        "Hall DA",
+        "Walker DM",
+        "Hoare DJ"
+      ],
+      "title": "Psychological therapy for people with tinnitus: a scoping review of treatment components",
+      "journal": "Ear Hear",
+      "year": "2017",
+      "volume": "38",
+      "issue": "2",
+      "fpage": "149",
+      "lpage": "158",
+      "doi": "10.1097/AUD.0000000000000363",
+      "pmid": "27541331",
+      "pmc_id": "PMC5325252"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "title": "German S3 guideline: 017/064: chronic tinnitus",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "authors": [
+        "Weise C"
+      ],
+      "title": "Tinnitus",
+      "journal": "Psychotherapeut",
+      "year": "2011",
+      "volume": "56",
+      "issue": "1",
+      "fpage": "61",
+      "lpage": "78",
+      "doi": "10.1007/s00278-010-0791-2"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "authors": [
+        "Zenner HP",
+        "Delb W",
+        "Kröner-Herwig B",
+        "et al."
+      ],
+      "title": "A multidisciplinary systematic review of the treatment for chronic idiopathic tinnitus",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2017",
+      "volume": "274",
+      "issue": "5",
+      "fpage": "2079",
+      "lpage": "2091",
+      "doi": "10.1007/s00405-016-4401-y",
+      "pmid": "27995315"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "authors": [
+        "Weise C",
+        "Kleinstäuber M",
+        "Kaldo V",
+        "Andersson G"
+      ],
+      "journal": "Mit Tinnitus Leben Lernen: Ein Manual Für Therapeuten Und Betroffene [Book in German]",
+      "year": "2016",
+      "doi": "10.1007/978-3-642-54763-8"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "authors": [
+        "Lühnen J",
+        "Albrecht M",
+        "Mühlhauser I",
+        "Steckelberg A"
+      ],
+      "title": "Leitlinie evidenzbasierte Gesundheitsinformation",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "authors": [
+        "Stoyanov SR",
+        "Hides L",
+        "Kavanagh DJ",
+        "Zelenko O",
+        "Tjondronegoro D",
+        "Mani M"
+      ],
+      "title": "Mobile app rating scale: a new tool for assessing the quality of health mobile apps",
+      "journal": "JMIR Mhealth Uhealth",
+      "year": "2015",
+      "volume": "3",
+      "issue": "1",
+      "elocation_id": "e27",
+      "doi": "10.2196/mhealth.3422",
+      "pmid": "25760773",
+      "pmc_id": "PMC4376132"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "journal": "BCT Taxonomy",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "journal": "IBM SPSS Statistics for Windows",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "authors": [
+        "Cima RFF",
+        "Kikidis D",
+        "Mazurek B",
+        "et al."
+      ],
+      "title": "Tinnitus healthcare: a survey revealing extensive variation in opinion and practices across Europe",
+      "journal": "BMJ Open",
+      "year": "2020",
+      "volume": "10",
+      "issue": "1",
+      "elocation_id": "e029346",
+      "doi": "10.1136/bmjopen-2019-029346",
+      "pmid": "31969359",
+      "pmc_id": "PMC7045098"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "authors": [
+        "Meijers S",
+        "Stegeman I",
+        "van der Leun JA",
+        "Assegaf SA",
+        "Smit AL"
+      ],
+      "title": "Analysis and comparison of clinical practice guidelines regarding treatment recommendations for chronic tinnitus in adults: a systematic review",
+      "journal": "BMJ Open",
+      "year": "2023",
+      "volume": "13",
+      "issue": "9",
+      "elocation_id": "e072754",
+      "doi": "10.1136/bmjopen-2023-072754",
+      "pmid": "37714675",
+      "pmc_id": "PMC10510943"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "authors": [
+        "Hesser H",
+        "Weise C",
+        "Westin VZ",
+        "Andersson G"
+      ],
+      "title": "A systematic review and meta-analysis of randomized controlled trials of cognitive-behavioral therapy for tinnitus distress",
+      "journal": "Clin Psychol Rev",
+      "year": "2011",
+      "volume": "31",
+      "issue": "4",
+      "fpage": "545",
+      "lpage": "553",
+      "doi": "10.1016/j.cpr.2010.12.006",
+      "pmid": "21237544"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "authors": [
+        "Martinengo L",
+        "Stona AC",
+        "Griva K",
+        "et al."
+      ],
+      "title": "Self-guided cognitive behavioral therapy apps for depression: systematic assessment of features, functionality, and congruence with evidence",
+      "journal": "J Med Internet Res",
+      "year": "2021",
+      "volume": "23",
+      "issue": "7",
+      "elocation_id": "e27619",
+      "doi": "10.2196/27619",
+      "pmid": "34328431",
+      "pmc_id": "PMC8367167"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "authors": [
+        "Pryce H",
+        "Moutela T",
+        "Bunker C",
+        "Shaw R"
+      ],
+      "title": "Tinnitus groups: a model of social support and social connectedness from peer interaction",
+      "journal": "Br J Health Psychol",
+      "year": "2019",
+      "volume": "24",
+      "issue": "4",
+      "fpage": "913",
+      "lpage": "930",
+      "doi": "10.1111/bjhp.12386",
+      "pmid": "31449732",
+      "pmc_id": "PMC6899850"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "authors": [
+        "Thompson P",
+        "Pryce H",
+        "Refaie E"
+      ],
+      "title": "Group or individual tinnitus therapy: what matters to participants?",
+      "journal": "Audiol Med",
+      "year": "2011",
+      "volume": "9",
+      "issue": "3",
+      "fpage": "110",
+      "lpage": "116",
+      "doi": "10.3109/1651386X.2011.604470"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "authors": [
+        "Sereda M",
+        "Xia J",
+        "El Refaie A",
+        "Hall DA",
+        "Hoare DJ"
+      ],
+      "title": "Sound therapy (using amplification devices and/or sound generators) for tinnitus",
+      "journal": "Cochrane Database Syst Rev",
+      "year": "2018",
+      "volume": "12",
+      "issue": "12",
+      "elocation_id": "CD013094",
+      "doi": "10.1002/14651858.CD013094.pub2",
+      "pmid": "30589445",
+      "pmc_id": "PMC6517157"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "authors": [
+        "Abouzari M",
+        "Goshtasbi K",
+        "Sarna B",
+        "et al."
+      ],
+      "title": "Adapting personal therapies using a mobile application for tinnitus rehabilitation: a preliminary study",
+      "journal": "Ann Otol Rhinol Laryngol",
+      "year": "2021",
+      "volume": "130",
+      "issue": "6",
+      "fpage": "571",
+      "lpage": "577",
+      "doi": "10.1177/0003489420962818",
+      "pmid": "33030042",
+      "pmc_id": "PMC8051360"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43.",
+      "authors": [
+        "Mehdi M",
+        "Dode A",
+        "Pryss R",
+        "Schlee W",
+        "Reichert M",
+        "Hauck FJ"
+      ],
+      "title": "Contemporary review of smartphone apps for tinnitus management and treatment",
+      "journal": "Brain Sci",
+      "year": "2020",
+      "volume": "10",
+      "issue": "11",
+      "elocation_id": "867",
+      "doi": "10.3390/brainsci10110867",
+      "pmid": "33212928",
+      "pmc_id": "PMC7698350"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44.",
+      "authors": [
+        "Nagaraj MK",
+        "Prabhu P"
+      ],
+      "title": "Internet/smartphone-based applications for the treatment of tinnitus: a systematic review",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "year": "2020",
+      "volume": "277",
+      "issue": "3",
+      "fpage": "649",
+      "lpage": "657",
+      "doi": "10.1007/s00405-019-05743-8",
+      "pmid": "31807891"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45.",
+      "authors": [
+        "Oron Y",
+        "Ben David BM",
+        "Doron G"
+      ],
+      "title": "Brief cognitive-behavioral training for tinnitus relief using a mobile application: a pilot open trial",
+      "journal": "Health Informatics J",
+      "year": "2022",
+      "volume": "28",
+      "issue": "1",
+      "elocation_id": "14604582221083483",
+      "doi": "10.1177/14604582221083483",
+      "pmid": "35349777"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46.",
+      "authors": [
+        "Schlee W",
+        "Neff P",
+        "Simoes J",
+        "et al."
+      ],
+      "title": "Smartphone-guided educational counseling and self-help for chronic tinnitus",
+      "journal": "J Clin Med",
+      "year": "2022",
+      "volume": "11",
+      "issue": "7",
+      "elocation_id": "1825",
+      "doi": "10.3390/jcm11071825",
+      "pmid": "35407432",
+      "pmc_id": "PMC8999555"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47.",
+      "authors": [
+        "Walter U",
+        "Pennig S",
+        "Kottmann T",
+        "Bleckmann L",
+        "Röschmann-Doose K",
+        "Schlee W"
+      ],
+      "title": "Randomized controlled trial of a smartphone-based cognitive behavioral therapy for chronic tinnitus",
+      "journal": "PLOS Digit Health",
+      "year": "2023",
+      "volume": "2",
+      "issue": "9",
+      "elocation_id": "e0000337",
+      "doi": "10.1371/journal.pdig.0000337",
+      "pmid": "37676883",
+      "pmc_id": "PMC10484427"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48.",
+      "authors": [
+        "Sander LB",
+        "Schorndanner J",
+        "Terhorst Y",
+        "et al."
+      ],
+      "title": "“Help for trauma from the app stores?” A systematic review and standardised rating of apps for post-traumatic stress disorder (PTSD)",
+      "journal": "Eur J Psychotraumatol",
+      "year": "2020",
+      "volume": "11",
+      "issue": "1",
+      "elocation_id": "1701788",
+      "doi": "10.1080/20008198.2019.1701788",
+      "pmid": "32002136",
+      "pmc_id": "PMC6968629"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49.",
+      "authors": [
+        "Schoeppe S",
+        "Alley S",
+        "Rebar AL",
+        "et al."
+      ],
+      "title": "Apps to improve diet, physical activity and sedentary behaviour in children and adolescents: a review of quality, features and behaviour change techniques",
+      "journal": "Int J Behav Nutr Phys Act",
+      "year": "2017",
+      "volume": "14",
+      "issue": "1",
+      "elocation_id": "83",
+      "doi": "10.1186/s12966-017-0538-3",
+      "pmid": "28646889",
+      "pmc_id": "PMC5483249"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50.",
+      "authors": [
+        "Brown HM",
+        "Bucher T",
+        "Collins CE",
+        "Rollo ME"
+      ],
+      "title": "A review of pregnancy iPhone apps assessing their quality, inclusion of behaviour change techniques, and nutrition information",
+      "journal": "Matern Child Nutr",
+      "year": "2019",
+      "volume": "15",
+      "issue": "3",
+      "elocation_id": "e12768",
+      "doi": "10.1111/mcn.12768",
+      "pmid": "30569549",
+      "pmc_id": "PMC7650606"
+    }
+  ]
+}

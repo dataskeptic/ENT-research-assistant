@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "title": "Zanidatamab, a Dual HER2-Targeted Bispecific Antibody, in Patients with Unresectable Locally Advanced or Metastatic HER2-Positive Salivary Gland Cancer: A Combined Analysis of Early-Phase Studies",
+    "authors": [
+      "Keun-Wook Lee",
+      "Elena Elimova",
+      "Do-Youn Oh",
+      "Muralidhar Beeram",
+      "Toshihiko Doi",
+      "Kay T. Yeung",
+      "Theresa Samuel Nached",
+      "Kavita V. Shah",
+      "Douglas S. Fuller",
+      "Diana Shpektor",
+      "Emanuele Loro",
+      "Funda Meric-Bernstam"
+    ],
+    "journal": "Clinical Cancer Research",
+    "year": "2026",
+    "doi": "10.1158/1078-0432.CCR-25-4158",
+    "pmc_id": "PMC13223539",
+    "pmid": "41870284",
+    "full_text_available": true,
+    "section_count": 13,
+    "reference_count": 27
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Purpose: Human epidermal growth factor receptor 2 (HER2) overexpression occurs in various subtypes of salivary gland cancers (SGC) and can be associated with treatment challenges and poor clinical outcomes. Zanidatamab is a dual HER2-targeted, bispecific antibody that has demonstrated antitumor activity across multiple HER2-positive tumor types. This combined analysis aimed to assess the efficacy and safety of zanidatamab in HER2-positive SGC. Patients and Methods: Adult patients with previously treated, unresectable locally advanced or metastatic HER2-positive SGC were enrolled in three early-phase trials of zanidatamab: a first-in-human phase I study ( NCT02892123 ), a phase I study of patients in Japan (JRCT2031210161), and a phase Ib/II study evaluating zanidatamab plus evorpacept, a high-affinity CD47 inhibitor ( NCT05027139 ). Confirmed objective response rate (cORR) and progression-free survival (PFS) were measured in each study. Outcomes with zanidatamab monotherapy were pooled for summary analysis. Results: Ten patients with HER2-positive SGC were enrolled across trials; six patients were previously treated with HER2-targeted therapy. Among patients who received zanidatamab monotherapy ( n = 9), seven experienced zanidatamab-related adverse events (all grade 1/2), the most common being diarrhea and infusion-related reactions. The cORR [95% confidence interval (CI)] was 44% (14%–79%), the median (95% CI) PFS was 10.1 (3.8–not estimable) months, and the median (range) duration of response was not reached (9.4 to 42.3+ months). All patients experienced a reduction in tumor size. One patient who received zanidatamab plus evorpacept experienced a confirmed partial response and 18.4 months of PFS. Conclusions: Although the sample size is small, these findings support the clinical benefit of zanidatamab treatment for HER2-positive SGC.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Salivary gland cancers (SGC) are rare and heterogeneous malignancies comprising less than 5% of head and neck cancers ( 1 ). Advanced and/or metastatic SGCs are associated with poor outcomes, and there is limited consensus on optimal disease management, underscoring the need for personalized treatment strategies guided by actionable molecular targets ( 1 ). Human epidermal growth factor receptor 2 (HER2) overexpression and/or erb-b2 receptor tyrosine kinase 2 gene ( ERBB2 ; encodes HER2) amplification occurs across SGC subtypes (salivary duct carcinoma, 43%; carcinoma ex pleomorphic adenoma, 39%; squamous cell carcinoma, 17%; adenocarcinoma not otherwise specified, 13%; ref. 2 ). Some studies indicate that this overexpression/amplification is associated with aggressive disease and poor prognosis, suggesting that HER2-directed therapy may benefit this population ( 3 ). Small early-phase studies and subgroup analyses have shown promising activity of HER2-targeted therapies in advanced SGC, with objective response rates (ORR) ranging from 42% to 70% and median progression-free survival (PFS) ranging from 8.6 to 20.5 months ( 4 – 8 ). Accordingly, treatment guidelines recommend certain HER2-targeted regimens, such as the pan-tumor–indicated trastuzumab deruxtecan (T-DXd), for treating HER2-positive SGC ( 7 , 9 ). However, some clinical challenges remain for these therapies, such as the risk of interstitial lung disease (ILD; ref. 7 ). Zanidatamab is a dual HER2-targeted, bispecific antibody approved for the treatment of adult patients with previously treated, advanced HER2-positive [immunohistochemistry (IHC, 3+)] biliary tract cancer (BTC; ref. 10 ). By binding two distinct HER2 domains in a trans configuration, zanidatamab cross-links adjacent HER2 molecules, facilitating receptor clustering and exerting multiple antitumor mechanisms of action, including complement-dependent cytotoxicity, antibody-dependent cellular cytotoxicity, and phagocytosis ( 11 ). Zanidatamab has demonstrated antitumor activity and tolerability, both as monotherapy and as part of a combination, across multiple types of HER2-expressing solid tumors ( 12 – 16 ). In a first-in-human phase I study, the confirmed ORR (cORR) was 37%, with responses observed across multiple advanced solid tumor types, including SGC ( 12 ). This analysis reports the efficacy and safety of zanidatamab in patients with unresectable locally advanced or metastatic HER2-positive SGC from solid tumor cohorts in three early-phase trials.",
+      "order": 1
+    },
+    {
+      "section": "Study Design And Patients",
+      "text": "This analysis presents pooled efficacy and safety in patients with unresectable locally advanced or metastatic HER2-positive SGC who received zanidatamab monotherapy in the dose-expansion portion (part 2) of the first-in-human phase I study (ZW25-101) and in study ZW25-102. Outcomes are presented separately for one patient with unresectable locally advanced HER2-positive SGC who received zanidatamab plus evorpacept, a high-affinity CD47 inhibitor, in study ZW25-204. The data cutoffs were September 30, 2024 (ZW25-101); June 23, 2025 (ZW25-102); and June 2, 2025 (ZW25-204). These studies were conducted in accordance with the Declaration of Helsinki and International Good Clinical Practice guidelines. The trials were each overseen by a safety monitoring committee; protocols and all amendments were approved by independent ethics committees or Institutional Review Boards at each study site. All patients provided written informed consent.",
+      "order": 2
+    },
+    {
+      "section": "Phase I Monotherapy Trials: Zw25-101 And Zw25-102",
+      "text": "The methodology and primary results using an earlier data cutoff in the first-in-human, multicenter, phase I trial (ZW25-101; NCT02892123 ) were published previously ( 12 ). In part 1 of the study, a standard 3 + 3 dose escalation identified the recommended dose for part 2 (dose expansion), in which patients received intravenous zanidatamab 10 mg/kg weekly or 20 mg/kg every 2 weeks. Eligible patients in part 2 were adults (≥18 years) with unresectable locally advanced or metastatic HER2-positive [IHC 3+ or IHC 2+/fluorescence in situ hybridization (FISH)+] solid tumors, including SGC, that progressed after receipt of all therapies known to confer clinical benefit. Study ZW25-102 (JRCT2031210161), a phase I trial conducted in Japan, used a modified toxicity probability interval design for dose escalation (part 1) followed by evaluation of a flat weight-based dosing paradigm ( 17 ). Across all patients in part 2, zanidatamab was administered intravenously at 20 mg/kg every 2 weeks, 30 mg/kg every 3 weeks, or according to a flat dosing paradigm (1,800 mg every 3 weeks for patients weighing <70 kg or 2,400 mg every 3 weeks for patients weighing ≥70 kg). Eligible patients were Japanese adults (≥20 years) with unresectable locally advanced or metastatic HER2-expressing (IHC 1+, 2+, or 3+) solid tumors, including SGC, that progressed after receipt of all therapies known to confer clinical benefit.",
+      "order": 3
+    },
+    {
+      "section": "Phase Ib/Ii Trial Of Zanidatamab Plus Evorpacept: Zw25-204",
+      "text": "This multicenter, open-label, single-arm, phase Ib/II study evaluated zanidatamab plus evorpacept ( NCT05027139 ). Part 1 used a 3 + 3 dose-escalation design to determine the recommended combination dose (1,200 mg zanidatamab every 2 weeks for patients weighing <70 kg and 1,600 mg every 2 weeks for patients weighing ≥70 kg, plus 30 mg/kg evorpacept every 2 weeks for both), which was then administered intravenously in part 2. Eligible patients for part 2 were adults (≥18 years) with unresectable locally advanced or metastatic HER2-low or HER2-positive breast cancer [per American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) breast cancer HER2 testing guidelines; ref. 18 ], or HER2-positive (IHC 3+ or IHC 2+/FISH+) non-breast cancers that progressed during or after receipt of therapies known to confer clinical benefit. In all studies, HER2 status was centrally assessed using IHC (Dako HercepTest polyclonal anti-HER2 IHC antibody clone SK001) and FISH (Abbott PathVysion HER2 DNA probe kit) per ASCO/CAP breast cancer HER2 testing guidelines ( 18 , 19 ). Prophylaxis for potential infusion-related reactions (IRR; corticosteroid, antihistamine, and acetaminophen) was required before each zanidatamab infusion.",
+      "order": 4
+    },
+    {
+      "section": "Objectives And Assessments",
+      "text": "The primary objective for both phase I monotherapy trials was to evaluate the safety and tolerability of zanidatamab by characterizing the type, frequency, and severity of adverse events (AE) and laboratory abnormalities. Preliminary assessment of antitumor activity was a secondary objective. ORR per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1), disease control rate (DCR), clinical benefit rate (CBR), duration of response (DoR), and PFS were reported. The primary objective for part 2 of study ZW25-204 was to evaluate the antitumor activity of zanidatamab plus evorpacept, and the primary endpoint was cORR; PFS was a secondary endpoint. Evaluation of the safety of this combination, by characterizing AEs and laboratory abnormalities, was a secondary objective. ORR was defined as the percentage of patients who achieved a best overall response of either a complete response (CR) or partial response (PR). Responses included in the cORR required confirmation of ongoing CR or PR ≥4 weeks from the initial observation of response. DCR was defined as the percentage of patients achieving CR, PR, or stable disease (SD). CBR was defined as the percentage of patients achieving CR, PR, or SD lasting ≥24 weeks. DoR was defined as the time from the first CR or PR to documented progressive disease (PD) per RECIST v1.1, clinical progression, or death from any cause. PFS was defined as the time from the first dose of study treatment to the date of documented PD per RECIST v1.1, clinical progression, or death from any cause. AEs were monitored during the treatment period and for ≤30 days following the last dose. AE severity was graded using the National Cancer Institute Common Terminology Criteria for Adverse Events (v4.03 for ZW25-101 and ZW25-102; v5.0 for ZW25-204). Tumor imaging (computed tomography or magnetic resonance imaging) was conducted at baseline and every 8 weeks during treatment. Tumor responses were evaluated by the investigator using RECIST v1.1.",
+      "order": 5
+    },
+    {
+      "section": "Biomarker Analysis",
+      "text": "Molecular profiling of plasma circulating tumor DNA (ctDNA) was assessed with available cycle 1, day 1 (C1D1; baseline) patient samples from studies ZW25-101 and ZW25-204 using next-generation sequencing (NGS). The Guardant 360 and Guardant Infinity panels were used to analyze ctDNA samples from patients enrolled in studies ZW25-101 and ZW25-204, respectively. There was no ctDNA collection in the ZW25-102 trial.",
+      "order": 6
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "The pooled analysis included patients who received zanidatamab monotherapy in studies ZW25-101 and ZW25-102. Patients were included in the pooled tumor response analysis if they had measurable disease at baseline, received ≥1 dose of study treatment, and had ≥1 evaluable post-baseline tumor assessment. Safety outcomes and PFS were reported in all patients who received ≥1 dose of study treatment. All analyses were descriptive and performed using SAS v9.4. Kaplan–Meier plots and estimates of medians and their corresponding 95% confidence intervals (CI) were computed for PFS and DoR. Patients who had not progressed at the time of analysis were censored at the time of their last tumor assessment that was a CR, PR, or SD. Exact 2-sided binomial 95% CIs were calculated for tumor response variables using the Clopper–Pearson method.",
+      "order": 7
+    },
+    {
+      "section": "Baseline Characteristics",
+      "text": "Across three early-phase studies, 10 patients with SGC were enrolled; nine patients received zanidatamab monotherapy in the phase I studies, and one patient received zanidatamab plus evorpacept in study ZW25-204 ( Table 1 ). Of the nine patients who received monotherapy, the median (range) age was 68 (52–75) years, and most patients were male [7 (78%)] and Asian [7 (78%)]. All patients had centrally confirmed HER2 IHC 3+ or IHC 2+/FISH+ tumors and an Eastern Cooperative Oncology Group performance status (ECOG PS) of 0 (33%) or 1 (67%); three (33%) patients had prior brain metastasis ( Tables 1 and 2 ; Supplementary Tables S1 and S2). Five (56%) patients received prior cytotoxic chemotherapy for metastatic disease, and five (56%) patients received prior HER2-targeted therapies (three received trastuzumab; two received trastuzumab plus pertuzumab). Two patients received only prior HER2-targeted therapies, two patients received only prior cytotoxic chemotherapy for metastatic disease, three patients received both prior therapy types, and two patients did not receive either prior therapy type. Eight patients received zanidatamab 20 mg/kg every 2 weeks, and one patient received zanidatamab 1,800 mg every 3 weeks ( Table 1 ). The median (range) durations of treatment and follow-up in patients who received zanidatamab monotherapy were 8.8 (3.5–56.3) months and 10 (4.1–56.9) months, respectively. One 55-year-old male patient with a centrally confirmed HER2 IHC 3+/FISH+ tumor, ECOG PS of 1, and no prior brain metastasis received zanidatamab 1,600 mg combined with evorpacept 30 mg/kg every 2 weeks in study ZW25-204. This patient previously received trastuzumab plus pertuzumab and trastuzumab emtansine ( Table 1 ).",
+      "order": 8
+    },
+    {
+      "section": "Safety",
+      "text": "All patients treated with zanidatamab monotherapy experienced treatment-emergent AEs (TEAE; Table 2 ). There were no grade ≥3 treatment-related AEs (TRAE) or serious TRAEs. One (11%) patient experienced a serious TEAE (pulmonary embolism and pneumonia), and two (22%) patients experienced grade ≥3 TEAEs; none of these events were considered zanidatamab-related. Seven (78%) patients experienced TRAEs (all grade 1/2), with the most common (>20% of patients) being IRR [four (44%)], diarrhea [four (44%)], fatigue [two (22%)], and rash [two (22%); Table 2 ]. All IRRs were grade 1/2, and the infusion was either paused for the rest of the day or resumed once the low-grade IRR resolved. There were no TRAEs leading to dose reduction or treatment discontinuation. The patient who received zanidatamab plus evorpacept did not experience any grade ≥3 AEs; no AEs with this regimen were serious or required dose reduction or discontinuation, and TRAEs were all grade 1.",
+      "order": 9
+    },
+    {
+      "section": "Efficacy",
+      "text": "Tumor shrinkage was observed in all patients who received zanidatamab monotherapy ( Fig. 1A and B ); four (44%) patients achieved confirmed PRs and five (56%) experienced SD [cORR: 44% (95% CI, 14%–79%); DCR: 100% (95% CI, 66%–100%); Table 3 ; Supplementary Table S3]. The four patients who achieved an objective response did so by their first assessment at 2 months, with the response confirmed at the second assessment ( Fig. 1C ). The cORR among patients with ( n = 5) and without ( n = 4) prior exposure to HER2-targeted therapy was 20% (95% CI, 1%–72%; one PR) and 75% (95% CI, 19%–99%; three PRs), respectively (Supplementary Table S3). The median DoR was not reached [95% CI, 9.4–not estimable (NE) months]. At the time of data cutoff, individual DoRs ranged from 9.4 to 42.3+ months, with two responses ongoing (Supplementary Table S3). Additional details about the two patients with ongoing responses can be found in Supplementary Figs. S1 and S2. The median PFS was 10.1 (95% CI, 3.8–NE) months, with the longest observed PFS of 44.0+ months among patients who received zanidatamab monotherapy ( Fig. 1D ; Table 3 ; Supplementary Table S3). The median PFS for patients who received prior HER2-targeted therapy was 9.1 (95% CI, 3.8–NE) months, and 25.7 (95% CI, 11.0–NE) months for those without prior HER2-targeted therapy ( Fig. 1D ; Supplementary Table S3). The patient from study ZW25-204 achieved a confirmed PR and experienced 18.4 months of PFS with combined zanidatamab and evorpacept treatment ( Table 3 ).",
+      "order": 10
+    },
+    {
+      "section": "Biomarker Analysis",
+      "text": "Six patients had baseline (C1D1) samples available for plasma ctDNA NGS analysis [ZW25-101, n = 5 (three PRs, two SD); ZW25-204, n = 1 (PR)]. Overall, 83% (5/6) concordance was observed for ERBB2 amplification status as determined by plasma ctDNA NGS versus tumor tissue FISH. Among four patients who achieved PR and had available plasma ctDNA samples, three had detectable ERBB2 amplification and ≥5 total gene alterations; one patient also had ERBB2 mutations, and one patient with longer PFS (42.3 months) did not have any detectable alterations or mutations ( Table 3 ; Fig. 1E ). Both patients with SD who had available samples had ERBB2 amplification, alterations in either the receptor tyrosine kinase (RTK) or the phosphatidylinositol-3 kinase (PI3K) pathways, and ≥5 total gene alterations. Interestingly, of the patients with available samples, the one with the shortest PFS (5.6 months) had an ERBB2 mutation (E693fs, frameshift, indel deletion) detectable at baseline.",
+      "order": 11
+    },
+    {
+      "section": "Discussion",
+      "text": "There is no established standard of care for HER2-positive SGC, underscoring a significant unmet need in this rare malignancy. Among nine patients with unresectable locally advanced and/or metastatic HER2-positive SGC pooled from phase I studies, zanidatamab monotherapy demonstrated manageable safety and preliminary antitumor activity. All zanidatamab-related AEs were grade 1/2, and the most common were diarrhea and IRRs. The tolerability of zanidatamab was supported by the absence of discontinuations due to TRAEs and a median (range) treatment duration of 8.8 (3.5–56.3) months, indicating that patients were able to remain on therapy for a substantial period of time. All patients experienced a reduction in tumor size, with a cORR of 44.4% and a median PFS of 10.1 months; DoR ranged from 9.4 to 42.3+ months. The median DoR was not reached because only two patients experienced disease progression and the other two responses were ongoing at the time of data cutoff. Based on the censoring times of these ongoing responses, the median DoR would be ≥40.5 months. These results suggest durability of antitumor activity and encouraging disease control with zanidatamab treatment, although these data should be interpreted with caution given the small sample size. The one patient who received zanidatamab plus evorpacept also experienced a reduction in tumor size and achieved a PR. Zanidatamab monotherapy demonstrated clinical activity in patients with unresectable, locally advanced and/or metastatic HER2-positive SGC, with all treated patients achieving disease control regardless of prior HER2-targeted therapy status. In the first-in-human phase I study (ZW25-101), patients with pretreated HER2-positive BTC, colorectal cancer, or other cancer types experienced cORRs of 38%, 38%, and 36%, respectively, which are comparable with this analysis, and median PFS of 3.5, 6.8, and 5.5 months, respectively ( 12 ). In part 2 of the same phase I study, patients with HER2-positive gastroesophageal adenocarcinoma who received zanidatamab monotherapy experienced a cORR of 29.6% and a median PFS of 3.6 months, both lower than the values from this analysis of SGC; however, as trastuzumab is typically combined with first-line chemotherapy for HER2-positive gastroesophageal adenocarcinoma, these patients all received prior trastuzumab ( 20 ). Although the sample size for SGC is small, the current data may suggest response durability in SGC. In the previously published reports, similar to the safety profile observed in patients with SGC, most TEAEs were grade 1/2, with diarrhea and IRRs being the most frequently reported and occurring with comparable incidence rates to this analysis ( 12 , 20 ). Of four patients who responded to zanidatamab monotherapy, three were HER2-targeted therapy–naïve, suggesting that zanidatamab treatment should be further studied in this patient population. Of note, one patient who previously received trastuzumab had a PR with zanidatamab monotherapy, and all previously treated patients achieved disease control. HER2-targeted agents have also demonstrated promising efficacy and manageable safety profiles in small studies of patients with advanced HER2-expressing (most were IHC 3+ or IHC 2+/FISH+) SGC, with ORRs ranging from 42% to 70%, median PFS ranging from 8.6 to 20.5 months, and median duration of follow-up ranging from 9.1 to 28 months; however, there are limited findings in patients with prior exposure to HER2-targeted treatment ( 4 – 8 , 21 ). In a pooled analysis of phase I studies in which most patients were HER2-positive [14/17 (82%) IHC 3+] and had prior exposure to HER2-targeted agents [14/17 (82%)], the ORR and median PFS for all patients treated with T-DXd were 59% and 20.5 months, respectively ( 6 ). Among 19 patients with advanced HER2-overexpressing (IHC 3+ or 2+) SGC who received T-DXd in the phase II DESTINY-PanTumor02 trial, the ORR was 42% and the median PFS was 12.5 months; however, the extent of previous exposure to HER2-directed therapy within the SGC subgroup was not specified ( 7 ). Additionally, this study noted a safety concern of ILD with T-DXd treatment ( 7 ). Although the sample size was limited, high concordance (83%) was observed for ERBB2 amplification detection from plasma ctDNA NGS profiling as compared with tumor tissue by FISH. Alterations in the PI3K/protein kinase B (AKT) pathway have been suggested to confer resistance to HER2-targeted therapies based on preclinical data ( 22 , 23 ); however, in our analysis, despite variability in PFS, clinical benefit seemed to be achieved irrespective of alterations in PI3K/AKT or other RTK pathway genes. The patient with the longest PFS harbored an indel (R55f) deletion in phosphatase and tensin homolog ( PTEN ), which is an early truncating frameshift leading to constitutive PI3K/AKT signaling. This patient demonstrated a durable response with zanidatamab, whereas trastuzumab treatment has been associated with worse outcomes for patients with PTEN -deficient tumors ( 24 , 25 ). Notably, the patient with the shortest PFS harbored a mutation in ERBB2 located within the transmembrane/juxtamembrane region (exon 17–18 junction area), which results in a shift in the reading frame of the protein. This may lead to a premature stop codon, causing a truncated protein and resulting in the loss of the entire C-terminal cytoplasmic tail, which contains the tyrosine kinase domain and phosphorylation sites ( 26 , 27 ). Although tumor cells with this type of ERBB2 mutation retain HER2 protein membrane expression, as seen in this IHC 3+/FISH+ tumor, it would likely not be RTK-driven and may suggest potential resistance to HER2-targeted therapy. More research is needed to determine any potential markers of HER2-directed therapy resistance in these studies. This analysis is limited by a small sample size and heterogeneous patient characteristics, which may affect the generalizability of the findings. Data were assessed from three separate single-arm studies, and study enrollment began as early as January 2018. As a result, changes in available treatments and clinical management may affect the relevance of the outcomes. Lastly, treatment responses were investigator-assessed rather than independently reviewed, which may have introduced potential bias. In summary, these findings support HER2 as an actionable target in advanced SGC and warrant further evaluation of zanidatamab in this patient population. Additionally, given the presence of HER2 overexpression and/or ERBB2 amplification and the demonstration of preliminary efficacy across multiple rare solid tumor types, zanidatamab may offer a promising tumor-agnostic therapeutic approach ( 12 – 16 ). The ongoing phase II DiscovHER PAN-206 trial ( NCT06695845 ) is designed to assess the efficacy and safety of zanidatamab in previously treated, advanced HER2-overexpressing solid tumors, including rare cancers such as SGC.",
+      "order": 12
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "bib1",
+      "label": "1.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Current management and future challenges in salivary glands cancer",
+      "journal": "Front Oncol",
+      "year": "2023",
+      "volume": "13",
+      "fpage": "1264287",
+      "pmid": "37795454",
+      "doi": "10.3389/fonc.2023.1264287",
+      "pmc_id": "PMC10546333"
+    },
+    {
+      "ref_id": "bib2",
+      "label": "2.",
+      "title": "HER2 positivity in histological subtypes of salivary gland carcinoma: a systematic review and meta-analysis",
+      "journal": "Front Oncol",
+      "year": "2021",
+      "volume": "11",
+      "fpage": "693394",
+      "pmid": "34249747",
+      "doi": "10.3389/fonc.2021.693394",
+      "pmc_id": "PMC8264509"
+    },
+    {
+      "ref_id": "bib3",
+      "label": "3.",
+      "title": "Human epidermal growth factor receptor 2 (HER2/neu) in salivary gland carcinomas: a review of literature",
+      "journal": "J Clin Diagn Res",
+      "year": "2015",
+      "volume": "9",
+      "fpage": "ZE04",
+      "lpage": "8",
+      "doi": "10.7860/JCDR/2015/11289.5572",
+      "pmc_id": "PMC4378820",
+      "pmid": "25859537"
+    },
+    {
+      "ref_id": "bib4",
+      "label": "4.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Phase II trial of trastuzumab and docetaxel in patients with human epidermal growth factor receptor 2-positive salivary duct carcinoma",
+      "journal": "J Clin Oncol",
+      "year": "2019",
+      "volume": "37",
+      "fpage": "125",
+      "lpage": "34",
+      "pmid": "30452336",
+      "doi": "10.1200/JCO.18.00545"
+    },
+    {
+      "ref_id": "bib5",
+      "label": "5.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Targeted therapy for advanced salivary gland carcinoma based on molecular profiling: results from MyPathway, a phase IIa multiple basket study",
+      "journal": "Ann Oncol",
+      "year": "2020",
+      "volume": "31",
+      "fpage": "412",
+      "lpage": "21",
+      "pmid": "32067683",
+      "doi": "10.1016/j.annonc.2019.11.018",
+      "pmc_id": "PMC9743163"
+    },
+    {
+      "ref_id": "bib6",
+      "label": "6.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Trastuzumab deruxtecan in patients with human epidermal growth factor receptor 2-expressing salivary gland carcinoma: a pooled analysis of two phase I studies",
+      "journal": "Jpn J Clin Oncol",
+      "year": "2024",
+      "volume": "54",
+      "fpage": "434",
+      "lpage": "43",
+      "pmid": "38231777",
+      "doi": "10.1093/jjco/hyad181",
+      "pmc_id": "PMC10999761"
+    },
+    {
+      "ref_id": "bib7",
+      "label": "7.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Efficacy and safety of trastuzumab deruxtecan in patients with HER2-expressing solid tumors: primary results from the DESTINY-PanTumor02 phase II trial",
+      "journal": "J Clin Oncol",
+      "year": "2024",
+      "volume": "42",
+      "fpage": "47",
+      "lpage": "58",
+      "pmid": "37870536",
+      "doi": "10.1200/JCO.23.02005",
+      "pmc_id": "PMC10730032"
+    },
+    {
+      "ref_id": "bib8",
+      "label": "8.",
+      "authors": [
+        "et al."
+      ],
+      "title": "A phase 2 multicenter study of docetaxel-PM and trastuzumab-pkrb combination therapy in recurrent or metastatic salivary gland carcinomas",
+      "journal": "Cancer",
+      "year": "2023",
+      "volume": "129",
+      "fpage": "2966",
+      "lpage": "74",
+      "pmid": "37246414",
+      "doi": "10.1002/cncr.34892"
+    },
+    {
+      "ref_id": "bib9",
+      "label": "9.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Palliative systemic therapy for locally advanced or metastatic salivary duct carcinoma: a comprehensive review",
+      "journal": "Cancer Treat Rev",
+      "year": "2025",
+      "volume": "139",
+      "fpage": "102993",
+      "pmid": "40680490",
+      "doi": "10.1016/j.ctrv.2025.102993"
+    },
+    {
+      "ref_id": "bib10",
+      "label": "10.",
+      "journal": "Prescribing information",
+      "year": "2025"
+    },
+    {
+      "ref_id": "bib11",
+      "label": "11.",
+      "authors": [
+        "et al."
+      ],
+      "title": "An anti-HER2 biparatopic antibody that induces unique HER2 clustering and complement-dependent cytotoxicity",
+      "journal": "Nat Commun",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1394",
+      "pmid": "36914633",
+      "doi": "10.1038/s41467-023-37029-3",
+      "pmc_id": "PMC10011572"
+    },
+    {
+      "ref_id": "bib12",
+      "label": "12.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Zanidatamab, a novel bispecific antibody, for the treatment of locally advanced or metastatic HER2-expressing or HER2-amplified cancers: a phase 1, dose-escalation and expansion study",
+      "journal": "Lancet Oncol",
+      "year": "2022",
+      "volume": "23",
+      "fpage": "1558",
+      "lpage": "70",
+      "pmid": "36400106",
+      "doi": "10.1016/S1470-2045(22)00621-0"
+    },
+    {
+      "ref_id": "bib13",
+      "label": "13.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Zanidatamab for HER2-amplified, unresectable, locally advanced or metastatic biliary tract cancer (HERIZON-BTC-01): a multicentre, single-arm, phase 2b study",
+      "journal": "Lancet Oncol",
+      "year": "2023",
+      "volume": "24",
+      "fpage": "772",
+      "lpage": "82",
+      "pmid": "37276871",
+      "doi": "10.1016/S1470-2045(23)00242-5"
+    },
+    {
+      "ref_id": "bib14",
+      "label": "14.",
+      "authors": [
+        "et al."
+      ],
+      "title": "516MO Zanidatamab (Zani) + chemotherapy (CT) in first-line (1L) human epidermal growth factor receptor 2-positive (HER2+) advanced/metastatic colorectal cancer (mCRC)",
+      "journal": "Ann Oncol",
+      "year": "2024",
+      "volume": "35",
+      "fpage": "S436",
+      "lpage": "7"
+    },
+    {
+      "ref_id": "bib15",
+      "label": "15.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Zanidatamab plus chemotherapy as first-line treatment for patients with HER2-positive advanced gastro-oesophageal adenocarcinoma: primary results of a multicentre, single-arm, phase 2 study",
+      "journal": "Lancet Oncol",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "847",
+      "lpage": "59",
+      "pmid": "40473445",
+      "doi": "10.1016/S1470-2045(25)00287-6"
+    },
+    {
+      "ref_id": "bib16",
+      "label": "16.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Zanidatamab plus palbociclib and fulvestrant in previously treated patients with hormone receptor-positive, HER2-positive metastatic breast cancer: primary results from a two-part, multicentre, single-arm, phase 2a study",
+      "journal": "Lancet Oncol",
+      "year": "2025",
+      "volume": "26",
+      "fpage": "745",
+      "lpage": "58",
+      "pmid": "40339592",
+      "doi": "10.1016/S1470-2045(25)00140-8"
+    },
+    {
+      "ref_id": "bib17",
+      "label": "17.",
+      "title": "A modified toxicity probability interval method for dose-finding trials",
+      "journal": "Clin Trials",
+      "year": "2010",
+      "volume": "7",
+      "fpage": "653",
+      "lpage": "63",
+      "pmid": "20935021",
+      "doi": "10.1177/1740774510382799",
+      "pmc_id": "PMC5038924"
+    },
+    {
+      "ref_id": "bib18",
+      "label": "18.",
+      "title": "HER2 testing in breast cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline focused update summary",
+      "journal": "J Oncol Pract",
+      "year": "2018",
+      "volume": "14",
+      "fpage": "437",
+      "lpage": "41",
+      "pmid": "29920138",
+      "doi": "10.1200/JOP.18.00206"
+    },
+    {
+      "ref_id": "bib19",
+      "label": "19.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Human epidermal growth factor receptor 2 testing in breast cancer: ASCO-College of American Pathologists Guideline update",
+      "journal": "J Clin Oncol",
+      "year": "2023",
+      "volume": "41",
+      "fpage": "3867",
+      "lpage": "72",
+      "pmid": "37284804",
+      "doi": "10.1200/JCO.22.02864"
+    },
+    {
+      "ref_id": "bib20",
+      "label": "20.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Zanidatamab monotherapy or combined with chemotherapy in HER2-expressing gastroesophageal adenocarcinoma: a phase 1 trial",
+      "journal": "Nat Commun",
+      "year": "2025",
+      "volume": "16",
+      "fpage": "4293",
+      "pmid": "40341383",
+      "doi": "10.1038/s41467-025-59279-z",
+      "pmc_id": "PMC12062219"
+    },
+    {
+      "ref_id": "bib21",
+      "label": "21.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Significant and durable clinical benefit from trastuzumab in 2 patients with HER2-amplified salivary gland cancer and a review of the literature",
+      "journal": "Head Neck",
+      "year": "2017",
+      "volume": "39",
+      "fpage": "E40",
+      "lpage": "4",
+      "pmid": "28006087",
+      "doi": "10.1002/hed.24634"
+    },
+    {
+      "ref_id": "bib22",
+      "label": "22.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Phosphatidylinositol 3-kinase hyperactivation results in lapatinib resistance that is reversed by the mTOR/phosphatidylinositol 3-kinase inhibitor NVP-BEZ235",
+      "journal": "Cancer Res",
+      "year": "2008",
+      "volume": "68",
+      "fpage": "9221",
+      "lpage": "30",
+      "pmid": "19010894",
+      "doi": "10.1158/0008-5472.CAN-08-1740",
+      "pmc_id": "PMC2587064"
+    },
+    {
+      "ref_id": "bib23",
+      "label": "23.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Mutant PIK3CA accelerates HER2-driven transgenic mammary tumors and induces resistance to combinations of anti-HER2 therapies",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2013",
+      "volume": "110",
+      "fpage": "14372",
+      "lpage": "7",
+      "pmid": "23940356",
+      "doi": "10.1073/pnas.1303204110",
+      "pmc_id": "PMC3761610"
+    },
+    {
+      "ref_id": "bib24",
+      "label": "24.",
+      "authors": [
+        "et al."
+      ],
+      "title": "PTEN loss is associated with worse outcome in HER2-amplified breast cancer patients but is not associated with trastuzumab resistance",
+      "journal": "Clin Cancer Res",
+      "year": "2015",
+      "volume": "21",
+      "fpage": "2065",
+      "lpage": "74",
+      "pmid": "25649019",
+      "doi": "10.1158/1078-0432.CCR-14-2993",
+      "pmc_id": "PMC4417419"
+    },
+    {
+      "ref_id": "bib25",
+      "label": "25.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Genomic correlates of response to adjuvant trastuzumab (H) and pertuzumab (P) in HER2+ breast cancer (BC): biomarker analysis of the APHINITY trial",
+      "journal": "J Clin Oncol",
+      "year": "2019",
+      "volume": "37",
+      "issue": "15_suppl",
+      "fpage": "1012"
+    },
+    {
+      "ref_id": "bib26",
+      "label": "26.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Pan-cancer landscape and analysis of ERBB2 mutations identifies poziotinib as a clinically active inhibitor and enhancer of T-DM1 activity",
+      "journal": "Cancer Cell",
+      "year": "2019",
+      "volume": "36",
+      "fpage": "444",
+      "lpage": "57.e7",
+      "pmid": "31588020",
+      "doi": "10.1016/j.ccell.2019.09.001",
+      "pmc_id": "PMC6944069"
+    },
+    {
+      "ref_id": "bib27",
+      "label": "27.",
+      "authors": [
+        "et al."
+      ],
+      "title": "Computational and functional analyses of HER2 mutations reveal allosteric activation mechanisms and altered pharmacologic effects",
+      "journal": "Cancer Res",
+      "year": "2023",
+      "volume": "83",
+      "fpage": "1531",
+      "lpage": "42",
+      "pmid": "35503682",
+      "doi": "10.1158/0008-5472.CAN-21-0940",
+      "pmc_id": "PMC10152233"
+    }
+  ]
+}

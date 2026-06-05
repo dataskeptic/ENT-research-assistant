@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "title": "ATA 2015-2025 risk stratification transition: prognostic significance of N1b disease in papillary thyroid carcinoma with limited nodal burden",
+    "authors": [
+      "Ziqiang Wang",
+      "Yangyang Xie",
+      "Tingting Wang",
+      "Danwei Du",
+      "Xue Song"
+    ],
+    "journal": "The Oncologist",
+    "year": "2026",
+    "doi": "10.1093/oncolo/oyag186",
+    "pmc_id": "PMC13215381",
+    "pmid": "42124555",
+    "full_text_available": true,
+    "section_count": 15,
+    "reference_count": 34
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Abstract Background The ATA risk stratification system has evolved from the 2015 framework toward a more composite nodal risk assessment in the 2025 update. Whether low-volume lateral neck disease remains clinically meaningful is uncertain. We evaluated the prognostic significance of N1b vs N1a disease in papillary thyroid carcinoma (PTC) with ≤5 metastatic lymph nodes. Materials and Methods We identified 11 878 patients with PTC and N1a or N1b disease with ≤5 metastatic lymph nodes from the SEER database (2000-2022). One-to-one propensity score matching was performed. OS and CSS were assessed using Kaplan–Meier analysis, and CSD and OCD using cumulative incidence functions and Fine–Gray models. Results Among eligible patients, 9392 had N1a disease and 2486 had N1b disease. After matching, 2467 patients remained in each group. N1b was associated with significantly worse OS, CSS, and CSD in both unmatched and matched cohorts. In the matched cohort, 5-year CSD increased from 1.5% to 2.8%. On multivariable Fine–Gray analysis, N1b remained independently associated with higher CSD risk (SHR, 2.52; 95% CI, 1.85-3.43; P < .001). The adverse effect was more evident in patients with positive ETE, tumor diameter >2 cm, and older age. Conclusion Among patients with PTC and ≤5 metastatic lymph nodes, N1b retains independent adverse prognostic significance despite low nodal burden. Low-volume nodal disease should not be considered uniformly low risk when lateral neck involvement is present, particularly in patients with positive ETE, tumor diameter >2 cm, or older age.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Papillary thyroid carcinoma (PTC) is the most common endocrine malignancy and is generally associated with an excellent prognosis; however, the risk of recurrence and the need for long-term management are not uniform across patients. 1 , 2 For PTC, AJCC/TNM staging alone is insufficient to fully guide postoperative management. 3 Accordingly, the initial recurrence risk stratification system proposed by the American Thyroid Association (ATA) plays a central role in clinical practice. This framework is used not only to estimate the initial risk of recurrence, but also to guide the intensity of postoperative thyroid-stimulating hormone (TSH) suppression, the frequency of imaging and biochemical surveillance, and the use of adjuvant therapies. 4 , 5 As a result, changes in the boundaries of risk categories may have direct and important clinical implications. Lymph node metastasis is a key component of ATA initial recurrence risk stratification, yet its prognostic significance has long been recognized as heterogeneous. 6 , 7 The 2015 ATA guidelines explicitly incorporated both the number and size/volume of nodal metastases into risk assessment: patients with ≤5 micrometastatic lymph node foci (<0.2 cm) could be classified as low risk, whereas clinically apparent nodal disease or >5 pathologic positive lymph nodes (with the largest metastatic focus <3 cm) were generally categorized as intermediate risk. 8 , 9 In contrast, the ATA 2025 framework further refines the traditional 3-tier model into 4 categories—low, low-intermediate, intermediate-high, and high risk—and places greater emphasis on the anatomic location of nodal disease, the size and overall burden of metastases, and the cumulative effect of additional adverse features. Within this updated framework, low-volume central compartment nodal metastasis may correspond to a lower-risk category, whereas clinically apparent lateral neck metastasis (cN1b) <3 cm is classified as intermediate-high risk. 5 These changes suggest that nodal risk assessment is evolving from a relatively count-based approach toward a more refined composite evaluation, and that “low-volume” disease does not necessarily equate to “low-risk” disease, particularly when the patient also has the anatomic features of N1b involvement. 10 , 11 This evolution raises a clinically relevant but incompletely answered question: among patients with N1b disease and ≤5 metastatic lymph nodes, should low nodal burden be interpreted as indicating limited risk, or does the presence of lateral neck involvement still identify a subgroup at higher risk of adverse outcomes that warrants closer attention during postoperative risk reassessment? Direct evidence addressing this question remains limited. 12 Although previous studies have generally associated N1b disease with a higher risk of recurrence, most have focused on broad N1b populations or have used recurrence as the primary endpoint, with relatively little attention paid specifically to the setting of low nodal burden. 13 , 14 At the same time, evidence directly comparing long-term survival outcomes between N1a and N1b disease among patients with ≤5 metastatic lymph nodes remains insufficient. 15 Moreover, given the overall favorable prognosis of PTC, non-cancer death may act as a competing event in conventional survival analyses. Therefore, evaluating the true prognostic significance of nodal stage from the perspective of long-term adverse outcomes may provide important complementary evidence for refining risk stratification and postoperative management in patients with low-volume nodal metastases. 16 Against this background, we used the SEER database to focus on patients with PTC and ≤5 metastatic lymph nodes. Within propensity score–matched and competing-risk frameworks, we systematically compared overall survival, cancer-specific survival, and cancer-specific death between N1a and N1b disease, and further examined whether the adverse prognostic impact of N1b was concentrated in more aggressive clinical subgroups, including those with larger tumor size, extrathyroidal extension, and older age. 17 By addressing this question, we aimed to provide complementary evidence for postoperative risk assessment and follow-up stratification in patients with low-volume nodal metastases, and to inform individualized management decisions, including the intensity of TSH suppression. 18",
+      "order": 1
+    },
+    {
+      "section": "Data Source And Study Population",
+      "text": "This population-based retrospective cohort study used data from the SEER database maintained by the National Cancer Institute. Patients with PTC diagnosed between January 1, 2000 and December 31, 2022 were identified using SEER*Stat. Because SEER is a publicly available de-identified database, institutional review board approval and informed consent were not required. The study was designed to compare prognosis between N1a and N1b disease in the setting of low nodal burden (≤5 metastatic lymph nodes). We first identified patients with PTC and regional lymph node metastasis recorded as N1a or N1b in SEER, and then restricted the cohort to those with ≤5 metastatic lymph nodes. A total of 14 181 cases met the initial screening criteria. Inclusion criteria were (1) histologically confirmed PTC; (2) nodal stage recorded as N1a or N1b; (3) ≤5 metastatic lymph nodes; (4) no distant metastasis; and (5) available survival data. Patients were excluded for unknown race ( n = 312), tumor size coded as other/unknown ( n = 669), unknown surgical procedure ( n = 548), distant metastasis (M1, n = 412), or unavailable follow-up information ( n = 362). Ultimately, 11 878 patients were included ( Figure 1 ).",
+      "order": 2
+    },
+    {
+      "section": "Variable Definitions",
+      "text": "The primary exposure was nodal stage (N1a vs N1b). N1a was defined as metastasis to central compartment lymph nodes, whereas N1b was defined as metastasis to lateral cervical and/or superior mediastinal lymph nodes. To reduce ambiguity arising from possible inconsistencies between clinical and pathologic staging in SEER, the recorded N1a/N1b classification was used uniformly, without distinguishing cN1b from pN1b. Baseline covariates included demographic, tumor-related, treatment-related, and socioeconomic variables. Demographic variables were age (<55 vs ≥55 years), sex, race (White vs non-White), and marital status (married vs unmarried). Marital status was included as a sociodemographic covariate reflecting potential differences in social support and access to care, rather than as a thyroid cancer–specific clinical factor. Tumor-related variables included ETE, tumor size (≤1 cm, >1–2 cm, >2–4 cm, and >4 cm), number of metastatic lymph nodes (1–2 vs 3–5), and multifocality (single vs multi). Treatment-related variables included surgical procedure [lobectomy (LT) vs total thyroidectomy (TT)] and radioactive iodine (RAI) therapy. Socioeconomic variables included household income level (low, middle, high) and residential area (urban vs rural). Because ETE and multifocality had a relatively high proportion of missing values, complete-case analysis would have markedly reduced the sample size and potentially introduced selection bias. Therefore, unknown values were retained as separate categories in the primary analysis and incorporated into propensity score matching (PSM) and multivariable models. OS was defined as time from diagnosis to death from any cause, with surviving patients censored at last follow-up. CSS was defined as time from diagnosis to thyroid cancer–related death, with non-cancer deaths treated as censored events. In the competing-risk framework, CSD was defined as death attributed to thyroid cancer, whereas other-cause death (OCD) was defined as death from any other cause. Given the favorable prognosis of PTC and the non-negligible proportion of non-cancer deaths, CSD was prespecified as the primary endpoint, whereas CSS was used mainly for comparison with conventional survival analyses.",
+      "order": 3
+    },
+    {
+      "section": "Propensity Score Matching",
+      "text": "Because assignment to the N1a and N1b groups was not random, PSM was performed to reduce confounding. Propensity scores were estimated using multivariable logistic regression including all prespecified baseline covariates, with the probability of N1b classification defined as the propensity score. A 1:1 nearest-neighbor matching approach without replacement was applied. Covariate balance before and after matching was assessed using standardized mean differences (SMDs), with absolute SMD <0.10 indicating adequate balance. Changes in balance were visualized using a Love plot ( Figure S1 , see online supplementary material for a color version of this figure).",
+      "order": 4
+    },
+    {
+      "section": "Survival And Competing-Risk Analyses",
+      "text": "In both the unmatched and matched cohorts, Kaplan–Meier methods were used to estimate OS and CSS, and differences between N1a and N1b groups were compared using the log-rank test. Within the competing-risk framework, cumulative incidence functions (CIFs) were used to estimate CSD and OCD, and Gray’s test was used for between-group comparisons. The 1-, 3-, and 5-year cumulative incidence rates of CSD and OCD were reported in both cohorts. To assess independent predictors of CSD, a multivariable Fine–Gray subdistribution hazards model was constructed in the matched cohort. Variables entered into the model included age, sex, race, marital status, ETE, tumor size, number of metastatic lymph nodes, multifocality, RAI therapy, household income, residential area, and nodal stage. Subdistribution hazard ratios (SHRs) with 95% CIs were reported.",
+      "order": 5
+    },
+    {
+      "section": "Subgroup Analyses",
+      "text": "Prespecified subgroup analyses were conducted in the matched cohort to evaluate whether the prognostic difference between N1a and N1b varied across clinical settings. Main-text subgroups included ETE (no vs yes), tumor size (≤1 cm, >1-2 cm, >2-4 cm, and >4 cm), and age (<55 vs ≥55 years). Competing-risk analyses stratified by metastatic lymph node number (1-2 vs 3-5) were presented as supplementary analyses. Additional subgroup analyses according to sex, race, marital status, multifocality, RAI status, household income, and residential area were also performed, but were not shown individually in the main text.",
+      "order": 6
+    },
+    {
+      "section": "Statistical Analysis",
+      "text": "All analyses were performed using R software. PSM was conducted using the MatchIt package; balance assessment and Love plots were generated using cobalt; Kaplan–Meier analyses were performed using survival and survminer; and competing-risk analyses, including CIF estimation, Gray’s test, and Fine–Gray regression, were conducted using cmprsk. All tests were 2-sided, and P < .05 was considered statistically significant.",
+      "order": 7
+    },
+    {
+      "section": "Baseline Characteristics And Propensity Score Matching",
+      "text": "A total of 11 878 patients with PTC and ≤5 metastatic lymph nodes were included, including 9392 (79.1%) with N1a disease and 2486 (20.9%) with N1b disease. In the unmatched cohort, most patients were aged <55 years (67.4%), female (71.9%), and White (80.8%). Tumor size was most commonly >1-2 cm (38.0%) or >2-4 cm (28.7%), and 63.9% of patients had 1-2 metastatic lymph nodes, whereas 36.1% had 3-5 ( Table 1 ). Before matching, significant baseline differences existed between groups. Compared with N1a disease, N1b disease was more often associated with age ≥55 years (40.4% vs 30.6%, P < .001), male sex (34.6% vs 26.4%, P < .001), positive ETE (23.2% vs 17.0%, P < .001), tumor size >4 cm (12.4% vs 9.1%, P < .001), and 3-5 metastatic lymph nodes (54.1% vs 31.4%, P < .001). Patients with N1b disease were also more likely to undergo TT (97.3% vs 94.3%, P < .001) and receive RAI (70.0% vs 63.7%, P < .001). After 1:1 PSM, 4934 patients remained in the matched cohort, with 2467 in each group. All baseline variables were well balanced after matching (all P > .05), and all included covariates had SMDs < 0.1 ( Table 1 ; Figure S1 , see online supplementary material for a color version of this figure). Median follow-up for OS analysis was 76 months in the overall cohort and 88 months in the matched cohort. For competing-risk analyses, the corresponding median follow-up times were 58 and 85 months.",
+      "order": 8
+    },
+    {
+      "section": "Overall Survival And Cancer-Specific Survival",
+      "text": "Kaplan–Meier analyses showed that both OS and CSS were significantly worse in patients with N1b disease than in those with N1a disease in both the unmatched and matched cohorts ( Figure 2 ). In the unmatched cohort, OS and CSS curves separated early and continued to diverge over time (both log-rank P < .001). After matching, the differences remained significant for both OS and CSS (both log-rank P < .001), indicating that the adverse prognostic effect of N1b was not fully explained by baseline imbalance.",
+      "order": 9
+    },
+    {
+      "section": "Competing-Risk Analysis Of Csd And Ocd",
+      "text": "Given the favorable prognosis of PTC and the occurrence of non-cancer deaths, we further evaluated CSD and OCD using competing-risk methods ( Table 2 ; Figure 3A ). In the unmatched cohort, the 1-, 3-, and 5-year CSD rates were 0.30%, 0.60%, and 0.90% in the N1a group, compared with 0.80%, 1.80%, and 2.80% in the N1b group (Gray’s test, P < .001). Over the same intervals, OCD rates were 0.40%, 1.50%, and 2.80% in N1a, vs 0.80%, 2.90%, and 4.60% in N1b ( P < .001). This pattern persisted after matching. In the matched cohort, the 1-, 3-, and 5-year CSD rates were 0.40%, 1.00%, and 1.50% in the N1a group, compared with 0.80%, 1.80%, and 2.80% in the N1b group ( P < .001). The corresponding OCD rates were 0.50%, 1.90%, and 3.00% in N1a vs 0.80%, 2.90%, and 4.60% in N1b ( P = .004). Thus, patients with N1b disease had higher cumulative incidences of both thyroid cancer–related and non-cancer death, but the more pronounced and consistent difference remained concentrated in CSD.",
+      "order": 10
+    },
+    {
+      "section": "Multivariable Fine–Gray Model For Csd",
+      "text": "A multivariable Fine–Gray model was constructed in the matched cohort ( Table 3 ). Age ≥55 years was one of the strongest adverse factors for CSD (SHR, 7.15; 95% CI, 4.83-10.56; P < .001). Unmarried status, included as a sociodemographic covariate, was associated with a modestly higher CSD risk (SHR, 1.38; 95% CI, 1.03-1.84; P = .033). Positive extrathyroidal extension was also associated with increased CSD risk (SHR, 4.22; 95% CI, 2.77-6.42; P < .001). Tumor size demonstrated a clear risk gradient. Compared with tumors ≤1 cm, tumors >2-4 cm (SHR, 2.99; 95% CI, 1.79-5.01; P < .001) and >4 cm (SHR, 5.34; 95% CI, 3.13-9.09; P < .001) were significantly associated with higher CSD, whereas tumors >1-2 cm were not ( P = .490). Notably, within this cohort restricted to ≤5 metastatic lymph nodes, having 3-5 nodes rather than 1-2 was not an independent adverse factor (SHR, 1.03; 95% CI, 0.76-1.39; P = .860), suggesting that numerical differences alone were insufficient to explain prognostic heterogeneity in the low-burden setting. RAI therapy was independently associated with lower CSD risk (SHR, 0.46; 95% CI, 0.34-0.62; P < .001). Importantly, N1b stage remained an independent risk factor for CSD after adjustment (SHR, 2.52; 95% CI, 1.85-3.43; P < .001), indicating that even among patients with low-volume nodal metastases, lateral neck involvement retained clear adverse prognostic significance.",
+      "order": 11
+    },
+    {
+      "section": "Prespecified Subgroup Analyses",
+      "text": "Competing-risk subgroup analyses were performed in the matched cohort to explore effect heterogeneity ( Figure 3B–I ). Stratified by ETE, no significant between-group difference in CSD was observed in patients without ETE ( P 1 = .084), and OCD was likewise not different ( P 2 = .491; Figure 3B ). In contrast, among patients with positive ETE, N1b disease was associated with significantly higher CSD ( P 1 = .012) and OCD ( P 2 = .024; Figure 3C ), suggesting that the adverse effect of N1b was more prominent in locally invasive disease. Stratified by tumor size, no significant CSD difference between N1a and N1b disease was observed in tumors ≤1 cm ( P 1 = .451) or >1-2 cm ( P 1 = .766), and OCD differences were also not significant ( Figure 3D and E ). However, in the >2-4 cm and >4 cm subgroups, N1b disease was associated with significantly higher CSD (both P 1 = .004), whereas OCD remained nonsignificant ( Figure 3F and G ). These findings suggest that the adverse cancer-specific effect of N1b becomes more evident as tumor size increases. When stratified by age, N1b disease was associated with higher CSD in patients aged <55 years ( P 1 = .004), without a significant difference in OCD ( P 2 = .433; Figure 3H ). Among patients aged ≥55 years, N1b remained associated with higher CSD and higher OCD ( P 1 = .002, P 2 = .003; Figure 3I ). Overall, the adverse prognostic effect of N1b was not homogeneous, but was mainly concentrated in clinically more aggressive or higher-risk subgroups, particularly those with positive ETE, tumor diameter >2 cm, and older age. Supplementary analyses further showed that N1b disease was associated with higher CSD in both the 1-2 and 3-5 metastatic lymph node subgroups ( Figure S2 , see online supplementary material for a color version of this figure). Across other supplementary subgroup analyses, the direction of effect was generally consistent, although statistical significance was not uniform.",
+      "order": 12
+    },
+    {
+      "section": "Discussion",
+      "text": "In this large SEER-based study, we focused on patients with PTC and ≤5 metastatic lymph nodes and systematically compared long-term outcomes between N1a and N1b disease. Under both conventional survival analysis and competing-risk frameworks, N1b disease was associated with significantly worse OS, CSS, and CSD. After PSM and multivariable Fine–Gray adjustment, N1b remained independently associated with higher CSD risk (SHR, 2.52; 95% CI, 1.85-3.43; P < .001). In parallel, the 5-year cumulative incidence of CSD increased from 1.50% in the N1a group to 2.80% in the N1b group after matching. 19 Together, these findings indicate that even in the setting of low nodal burden, lateral neck involvement conveys adverse prognostic information beyond nodal count alone. 20 A key implication is that low-volume disease does not necessarily equate to low risk. In practice, patients with relatively few metastatic lymph nodes are often intuitively regarded as having limited risk. However, our results show that when such patients also have the anatomic pattern of N1b disease, their long-term risk of thyroid cancer–related death remains significantly increased. 21 This may explain why, in our cohort, 3-5 metastatic lymph nodes did not emerge as an independent adverse factor, whereas N1b status did. Within the low-burden range, numerical differences alone may be insufficient to explain prognostic heterogeneity, whereas lateral neck involvement may carry greater stratification value. 22 These findings are directionally aligned with the ATA emphasis on composite risk assessment. The 2015 ATA guidelines incorporated nodal number and size/volume into initial risk assessment, whereas ATA 2025 further refines the framework and places greater weight on nodal location, metastatic burden, and additional adverse features. Within this updated system, clinically apparent lateral neck metastasis (cN1b) <3 cm is classified as intermediate-high risk. 5 Our results cannot directly validate specific ATA 2025 category boundaries because SEER lacks important variables, including metastatic node size, extranodal extension, and the burden of clinically apparent nodal disease. Nevertheless, our findings support the view that low nodal count alone should not lead to underestimation of risk when N1b disease is present. 23 Therefore, our results are broadly consistent with the direction of the 2025 ATA framework. At the same time, they suggest that future refinements of risk stratification may further consider the heterogeneity of low-volume N1b disease by integrating nodal location with modifiers such as extrathyroidal extension, primary tumor size, patient age, extranodal extension, metastatic deposit size, postoperative thyroglobulin, and structural recurrence when such information is available. Most previous studies associating N1b disease with worse prognosis did not specifically focus on patients with ≤5 metastatic lymph nodes. By narrowing the question to this clinically relevant gray-zone population, our study provides more direct evidence for risk stratification in low-volume nodal disease. Subgroup analyses further showed that the adverse effect of N1b was concentrated mainly in patients with positive ETE, tumor diameter >2 cm, and older age. In contrast, among patients without ETE or with tumors ≤2 cm, the difference in CSD between N1a and N1b disease did not reach statistical significance. This pattern suggests that N1b may function less as a uniformly adverse label and more as a risk marker whose impact becomes amplified in the presence of additional aggressive features. 24 , 25 Our study also underscores the importance of competing-risk analysis in PTC. Because the prognosis is generally favorable, particularly in older patients, non-cancer death has a meaningful impact on long-term outcome assessment. If conventional survival methods alone are used, non-cancer deaths are treated as censored events and cancer-related risk may be overestimated. 26 In our analysis, N1b disease was associated with higher cumulative incidences of both CSD and OCD, but the more pronounced and consistent difference remained concentrated in CSD. This suggests that the effect of N1b is not merely a marker of greater overall vulnerability, but is closely linked to thyroid cancer–related mortality. 27 We also observed an association between RAI and lower CSD. Although directionally consistent with clinical practice, this finding should be interpreted cautiously. SEER does not provide information on RAI dose, indication, timing, postoperative thyroglobulin, or molecular markers, and residual indication bias may persist. Therefore, the association between RAI and lower CSD should be viewed as exploratory rather than causal. 28 , 29 By contrast, the more robust finding remains the independent adverse significance of N1b even in the setting of low nodal burden. From a clinical perspective, patients with N1b disease and ≤5 metastatic lymph nodes should not be regarded as uniformly low risk simply because the nodal burden is limited. In particular, when N1b coexists with extrathyroidal extension, tumor diameter >2 cm, or older age, its adverse effect becomes more apparent. These findings provide population-based outcome evidence supporting the continued consideration of lateral neck involvement during postoperative risk reassessment. More broadly, postoperative risk assessment in low-volume nodal disease should not rely solely on metastatic lymph node number but should integrate nodal location, tumor aggressiveness, and patient age into a more refined composite stratification. 30 Several limitations should be acknowledged. First, as a retrospective observational SEER-based study, residual confounding cannot be eliminated. Although we adjusted for confounders using PSM and multivariable Fine–Gray modeling, SEER lacks information on metastatic lymph node size, extranodal extension, postoperative thyroglobulin, structural recurrence, molecular markers such as BRAF and TERT, and detailed TSH management. 31 , 32 Therefore, our study cannot directly validate specific ATA 2025 criteria. 33 Second, several variables, particularly ETE and multifocality, had substantial missingness. Although unknown values were retained as separate categories to reduce selection bias, this approach cannot replace more sophisticated missing-data modeling. Third, we evaluated mortality rather than structural recurrence, whereas ATA risk stratification was originally developed primarily for recurrence risk. Accordingly, our results should be interpreted as complementary evidence for long-term adverse outcome stratification rather than as a direct substitute for recurrence-based guideline frameworks. Future validation using institutional or multi-institutional clinically annotated cohorts with structural recurrence, postoperative thyroglobulin, imaging surveillance, treatment details, and molecular data is warranted to determine whether the mortality-based signal observed here translates into recurrence-based risk stratification. Finally, SEER-based N1a/N1b classification relies on registry coding and cannot fully distinguish all details of clinically apparent vs pathologically identified nodal disease. 34",
+      "order": 13
+    },
+    {
+      "section": "Conclusion",
+      "text": "Among patients with PTC and ≤5 metastatic lymph nodes, N1b stage remained independently associated with worse long-term outcomes, and this adverse effect was mainly concentrated in clinically more aggressive or higher-risk subgroups, particularly those with positive ETE, tumor diameter >2 cm, and older age. These findings suggest that in low-volume nodal metastasis, risk assessment should not rely solely on metastatic lymph node number but should place greater emphasis on the anatomic location of N1b disease and its interaction with tumor aggressiveness. Our results may provide complementary evidence for postoperative risk assessment and follow-up stratification in patients with low-volume N1b disease.",
+      "order": 14
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "oyag186-B1",
+      "label": "1",
+      "title": "Differentiated thyroid carcinoma: an update",
+      "journal": "Best Pract Res Clin Endocrinol Metab",
+      "year": "2023",
+      "volume": "37",
+      "fpage": "101687",
+      "doi": "10.1016/j.beem.2022.101687",
+      "pmid": "36002346"
+    },
+    {
+      "ref_id": "oyag186-B2",
+      "label": "2",
+      "title": "The epidemiological landscape of thyroid cancer worldwide: GLOBOCAN estimates for incidence and mortality rates in 2020",
+      "journal": "Lancet Diabetes Endocrinol",
+      "year": "2022",
+      "volume": "10",
+      "fpage": "264",
+      "lpage": "272",
+      "doi": "10.1016/S2213-8587(22)00035-3",
+      "pmid": "35271818"
+    },
+    {
+      "ref_id": "oyag186-B3",
+      "label": "3",
+      "title": "Dynamic risk assessment in patients with differentiated thyroid cancer",
+      "journal": "Rev Endocr Metab Disord",
+      "year": "2024",
+      "volume": "25",
+      "fpage": "79",
+      "lpage": "93",
+      "doi": "10.1007/s11154-023-09857-7",
+      "pmid": "38015344"
+    },
+    {
+      "ref_id": "oyag186-B4",
+      "label": "4",
+      "title": "Current controversies in low-risk differentiated thyroid cancer: reducing overtreatment in an era of overdiagnosis",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2023",
+      "volume": "108",
+      "fpage": "271",
+      "lpage": "280",
+      "doi": "10.1210/clinem/dgac646",
+      "pmid": "36327392",
+      "pmc_id": "PMC10091361"
+    },
+    {
+      "ref_id": "oyag186-B5",
+      "label": "5",
+      "title": "2025 American Thyroid Association Management Guidelines for adult patients with differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2025",
+      "volume": "35",
+      "fpage": "841",
+      "lpage": "985",
+      "doi": "10.1177/10507256251363120",
+      "pmid": "40844370",
+      "pmc_id": "PMC13090833"
+    },
+    {
+      "ref_id": "oyag186-B6",
+      "label": "6",
+      "title": "The prognostic significance of lymph node metastases characteristics in papillary thyroid carcinoma: a scoping review",
+      "journal": "Expert Rev Anticancer Ther. Published",
+      "year": "2026",
+      "volume": "26",
+      "fpage": "479",
+      "lpage": "492",
+      "doi": "10.1080/14737140.2025.2600641"
+    },
+    {
+      "ref_id": "oyag186-B7",
+      "label": "7",
+      "title": "Recurrence risk evaluation in patients with papillary thyroid carcinoma: multicenter machine learning evaluation of lymph node variables",
+      "journal": "Cancers (Basel)",
+      "year": "2023",
+      "volume": "15",
+      "doi": "10.3390/cancers15020550"
+    },
+    {
+      "ref_id": "oyag186-B8",
+      "label": "8",
+      "title": "2015 American Thyroid Association Management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the American Thyroid Association Guidelines Task Force on thyroid nodules and differentiated thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2016",
+      "volume": "26",
+      "fpage": "1",
+      "lpage": "133",
+      "doi": "10.1089/thy.2015.0020",
+      "pmid": "26462967",
+      "pmc_id": "PMC4739132"
+    },
+    {
+      "ref_id": "oyag186-B9",
+      "label": "9",
+      "title": "Prospective study and proposal of an outcome predictive nomogram in a consecutive prospective series of differentiated thyroid cancer based on the new ATA risk categories and TNM",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1128963",
+      "doi": "10.3389/fendo.2023.1128963",
+      "pmid": "36992807",
+      "pmc_id": "PMC10040819"
+    },
+    {
+      "ref_id": "oyag186-B10",
+      "label": "10",
+      "title": "Risk factors for recurrent disease in small papillary thyroid cancers - a Swedish register-based study",
+      "journal": "Langenbecks Arch Surg",
+      "year": "2023",
+      "volume": "408",
+      "fpage": "162",
+      "doi": "10.1007/s00423-023-02905-5",
+      "pmid": "37099203",
+      "pmc_id": "PMC10133060"
+    },
+    {
+      "ref_id": "oyag186-B11",
+      "label": "11",
+      "title": "Lymph node ratio predicts recurrence in patients with papillary thyroid carcinoma with low lymph node yield",
+      "journal": "Cancers (Basel)",
+      "year": "2023",
+      "volume": "15",
+      "doi": "10.3390/cancers15112947"
+    },
+    {
+      "ref_id": "oyag186-B12",
+      "label": "12",
+      "title": "Synergy of nodal factors in predicting recurrence after treatment of N1b papillary thyroid carcinoma",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2024",
+      "volume": "109",
+      "fpage": "3137",
+      "lpage": "3145",
+      "doi": "10.1210/clinem/dgae329",
+      "pmid": "38748619"
+    },
+    {
+      "ref_id": "oyag186-B13",
+      "label": "13",
+      "title": "Lymph node ratio as a tool to stratify patients with N1b papillary thyroid cancer",
+      "journal": "Langenbecks Arch Surg",
+      "year": "2023",
+      "volume": "408",
+      "fpage": "315",
+      "doi": "10.1007/s00423-023-03033-w",
+      "pmid": "37584830"
+    },
+    {
+      "ref_id": "oyag186-B14",
+      "label": "14",
+      "title": "Predictive factors for failure in patients with N1b papillary thyroid carcinoma",
+      "journal": "World J Surg Oncol",
+      "year": "2025",
+      "volume": "23",
+      "fpage": "307",
+      "doi": "10.1186/s12957-025-03694-5",
+      "pmid": "40745308",
+      "pmc_id": "PMC12312268"
+    },
+    {
+      "ref_id": "oyag186-B15",
+      "label": "15",
+      "title": "Survival outcomes of low-risk papillary thyroid carcinoma at different risk levels: a corollary for active surveillance",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2023",
+      "volume": "14",
+      "fpage": "1235006",
+      "doi": "10.3389/fendo.2023.1235006",
+      "pmid": "37745712",
+      "pmc_id": "PMC10513486"
+    },
+    {
+      "ref_id": "oyag186-B16",
+      "label": "16",
+      "title": "Identification of risk factors for cause-specific mortality in advanced papillary thyroid cancer and construction of a competing risk model: a SEER-Based study",
+      "journal": "Cancer Control",
+      "year": "2025",
+      "volume": "32",
+      "fpage": "10732748251336412",
+      "doi": "10.1177/10732748251336412",
+      "pmid": "40268274",
+      "pmc_id": "PMC12034963"
+    },
+    {
+      "ref_id": "oyag186-B17",
+      "label": "17",
+      "title": "Current practice in intermediate risk differentiated thyroid cancer - a review",
+      "journal": "Rev Endocr Metab Disord",
+      "year": "2024",
+      "volume": "25",
+      "fpage": "95",
+      "lpage": "108",
+      "doi": "10.1007/s11154-023-09852-y",
+      "pmid": "37995023"
+    },
+    {
+      "ref_id": "oyag186-B18",
+      "label": "18",
+      "title": "What has changed in the 2025 American Thyroid Association Management guidelines for adult patients with differentiated thyroid cancer? Part 3: long-term surveillance, advanced and novel treatments",
+      "journal": "Sisli Etfal Hastan Tip Bul",
+      "year": "2025",
+      "volume": "59",
+      "fpage": "284",
+      "lpage": "297",
+      "doi": "10.14744/SEMB.2025.67864",
+      "pmid": "41573600",
+      "pmc_id": "PMC12821107"
+    },
+    {
+      "ref_id": "oyag186-B19",
+      "label": "19",
+      "title": "The impact of radioactive iodine on disease-specific survival in low-to-intermediate risk N1b papillary thyroid carcinoma",
+      "journal": "Ann Surg Oncol",
+      "year": "2025",
+      "volume": "32",
+      "fpage": "1698",
+      "lpage": "1708",
+      "doi": "10.1245/s10434-024-16388-1",
+      "pmid": "39505729"
+    },
+    {
+      "ref_id": "oyag186-B20",
+      "label": "20",
+      "title": "Morphometric analysis of lateral cervical lymph node metastasis in papillary thyroid carcinoma using digital pathology",
+      "journal": "Endocr Pathol",
+      "year": "2024",
+      "volume": "35",
+      "fpage": "113",
+      "lpage": "121",
+      "doi": "10.1007/s12022-023-09790-0",
+      "pmid": "38064165"
+    },
+    {
+      "ref_id": "oyag186-B21",
+      "label": "21",
+      "title": "Large-volume lateral lymph node metastasis predicts worse prognosis in papillary thyroid carcinoma patients with N1b",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2021",
+      "volume": "12",
+      "fpage": "815207",
+      "doi": "10.3389/fendo.2021.815207",
+      "pmid": "35185788",
+      "pmc_id": "PMC8847215"
+    },
+    {
+      "ref_id": "oyag186-B22",
+      "label": "22",
+      "title": "Laterocervical lymph node metastases in papillary thyroid carcinoma: predictive factors for recurrence and oncological outcome",
+      "journal": "J Pers Med",
+      "year": "2025",
+      "volume": "15",
+      "doi": "10.3390/jpm15100496"
+    },
+    {
+      "ref_id": "oyag186-B23",
+      "label": "23",
+      "title": "The initial risk stratification system for differentiated thyroid cancer: Key updates in the 2024 Korean Thyroid Association guideline",
+      "journal": "Endocrinol Metab (Seoul)",
+      "year": "2025",
+      "volume": "40",
+      "fpage": "357",
+      "lpage": "384",
+      "doi": "10.3803/EnM.2025.2465",
+      "pmid": "40598904",
+      "pmc_id": "PMC12230267"
+    },
+    {
+      "ref_id": "oyag186-B24",
+      "label": "24",
+      "title": "Predictive factors for nodal recurrence in differentiated thyroid cancers",
+      "journal": "Cancer Treat Res Commun",
+      "year": "2023",
+      "volume": "36",
+      "fpage": "100728",
+      "doi": "10.1016/j.ctarc.2023.100728",
+      "pmid": "37336036"
+    },
+    {
+      "ref_id": "oyag186-B25",
+      "label": "25",
+      "title": "Aggressive subtypes of papillary thyroid carcinoma smaller than 1 cm",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2023",
+      "volume": "108",
+      "fpage": "1370",
+      "lpage": "1375",
+      "doi": "10.1210/clinem/dgac739",
+      "pmid": "36546348",
+      "pmc_id": "PMC10188299"
+    },
+    {
+      "ref_id": "oyag186-B26",
+      "label": "26",
+      "title": "Competing causes of death in older adults with thyroid cancer",
+      "journal": "Thyroid",
+      "year": "2021",
+      "volume": "31",
+      "fpage": "1359",
+      "lpage": "1365",
+      "doi": "10.1089/thy.2020.0929",
+      "pmid": "33764188",
+      "pmc_id": "PMC8591088"
+    },
+    {
+      "ref_id": "oyag186-B27",
+      "label": "27",
+      "title": "All-cause and cause-specific mortality among low-risk differentiated thyroid cancer survivors in the United States",
+      "journal": "Thyroid",
+      "year": "2024",
+      "volume": "34",
+      "fpage": "215",
+      "lpage": "224",
+      "doi": "10.1089/thy.2023.0449",
+      "pmid": "38149602",
+      "pmc_id": "PMC10884550"
+    },
+    {
+      "ref_id": "oyag186-B28",
+      "label": "28",
+      "title": "Efficacy of postoperative radioactive iodine therapy for patients with low and intermediate risk papillary thyroid carcinoma",
+      "journal": "Endocrine",
+      "year": "2025",
+      "volume": "87",
+      "fpage": "685",
+      "lpage": "696",
+      "doi": "10.1007/s12020-024-04046-1",
+      "pmid": "39313708"
+    },
+    {
+      "ref_id": "oyag186-B29",
+      "label": "29",
+      "title": "Decision variables for the use of radioactive iodine in patients with thyroid cancer at intermediate risk of recurrence",
+      "journal": "Cancers (Basel)",
+      "year": "2024",
+      "volume": "16",
+      "fpage": "3096",
+      "doi": "10.3390/cancers16173096",
+      "pmid": "39272954",
+      "pmc_id": "PMC11394252"
+    },
+    {
+      "ref_id": "oyag186-B30",
+      "label": "30",
+      "title": "Differentiated thyroid cancer: a focus on post-operative thyroid hormone replacement and thyrotropin suppression therapy",
+      "journal": "Endocrine",
+      "year": "2024",
+      "volume": "83",
+      "fpage": "251",
+      "lpage": "258",
+      "doi": "10.1007/s12020-023-03548-8",
+      "pmid": "37824045"
+    },
+    {
+      "ref_id": "oyag186-B31",
+      "label": "31",
+      "title": "Thyroid cancer: a review",
+      "journal": "JAMA",
+      "year": "2024",
+      "volume": "331",
+      "fpage": "425",
+      "lpage": "435",
+      "doi": "10.1001/jama.2023.26348",
+      "pmid": "38319329"
+    },
+    {
+      "ref_id": "oyag186-B32",
+      "label": "32",
+      "title": "Genetic trio of BRAF and TERT alterations and rs2853669TT in papillary thyroid cancer aggressiveness",
+      "journal": "J Natl Cancer Inst",
+      "year": "2024",
+      "volume": "116",
+      "fpage": "694",
+      "lpage": "701",
+      "doi": "10.1093/jnci/djad265",
+      "pmid": "38113409",
+      "pmc_id": "PMC11077312"
+    },
+    {
+      "ref_id": "oyag186-B33",
+      "label": "33",
+      "title": "Restratification of intermediate risk factors on the recurrence of papillary thyroid carcinoma: a retrospective cohort study",
+      "journal": "Int J Surg",
+      "year": "2025",
+      "volume": "111",
+      "fpage": "884",
+      "lpage": "890",
+      "doi": "10.1097/JS9.0000000000001945",
+      "pmid": "38976907",
+      "pmc_id": "PMC11745661"
+    },
+    {
+      "ref_id": "oyag186-B34",
+      "label": "34",
+      "title": "Partial thyroidectomy with incidental metastatic lymph nodes",
+      "journal": "JAMA Otolaryngol Head Neck Surg",
+      "year": "2024",
+      "volume": "150",
+      "fpage": "49",
+      "lpage": "56",
+      "doi": "10.1001/jamaoto.2023.3668",
+      "pmid": "37971746",
+      "pmc_id": "PMC10654922"
+    }
+  ]
+}

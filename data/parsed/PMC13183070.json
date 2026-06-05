@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "title": "Predictive model for survival outcomes in rare primary glandular diffuse large B-cell lymphoma",
+    "authors": [
+      "Jun Lu",
+      "Chengtong Liang",
+      "Xijun Zhu"
+    ],
+    "journal": "Medicine",
+    "year": "2026",
+    "doi": "10.1097/MD.0000000000048673",
+    "pmc_id": "PMC13183070",
+    "pmid": "42152357",
+    "full_text_available": true,
+    "section_count": 10,
+    "reference_count": 28
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Primary glandular diffuse large B-cell lymphoma (PG-DLBCL) affecting 4 glands is an exceptionally rare malignancy with undefined prognostic drivers. This study developed a predictive model for overall survival (OS) and cancer-specific survival (CSS) in this unique patient subgroup. Primary glandular DLBCL patients from the surveillance, epidemiology, and end results database were randomly split into training and validation groups at a ratio of 7:3. Cox regression-based nomograms were created to predict OS and CSS in the training set and validated in the validation set. Key prognostic factors were identified, including age, Ann Arbor stage, tumor site, and treatment modalities. The OS rates for primary adrenal DLBCL at 3, 5, and 10 years were 43.65%, 38.10%, and 19.84%, respectively. In contrast, the rates for primary thyroid DLBCL were significantly higher at 76.44%, 72.79%, and 43.20%. This highlights the critical role of tumor location in prognosis. The nomograms accurately predicted survival and helped to tailor treatment strategies, with a C-index of 0.75 for OS and 0.77 for CSS. This predictive model effectively assesses the risk for primary glandular DLBCL patients, enabling healthcare professionals to evaluate survival probabilities and develop tailored treatment plans.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Diffuse large B-cell lymphoma (DLBCL) is an aggressive and highly varied type of lymphoma that can occur in almost every organ, particularly in extranodal sites; however, it is less frequently seen in glandular tissues. [ 1 ] The clinical management of DLBCL in primary glands is important due to differing survival rates and prognoses in the thyroid, breast, adrenal, and parotid glands. primary thyroid lymphoma is a rare form of cancer, representing a small fraction of both thyroid malignancies and extranodal lymphomas. [ 2 ] Primary adrenal lymphoma is a rare type of non-Hodgkin lymphoma, accounting for <1% of all cases. [ 3 ] Primary breast lymphoma accounts for 1% of NHL cases and <2% to 3% of extranodal lymphomas. [ 4 , 5 ] Primary lymphoma of the parotid gland accounts for 1% to 4% of parotid tumors. [ 6 ] Recently, targeted therapies have greatly enhanced survival rates for DLBCL patients. However, recurrence or drug resistance still occurs in about 30% to 40% of cases. The clinical and pathological features, along with treatment options for the 4 rare types of primary glandular DLBCL, are poorly defined. Furthermore, survival outcomes vary significantly. [ 7 – 9 ] Currently, research primarily comprises case reports and literature reviews related to this subject. These studies are limited by small sample sizes, hindering our understanding of survival outcomes and prognostic factors. Notably, recent studies have addressed the limitation of small cohorts by leveraging the surveillance, epidemiology, and end results (SEER) database – a large-scale population-based repository – to explore subtype-specific extranodal DLBCL. For instance, Liu et al [ 10 ] developed a predictive model for overall survival (OS) in adult patients with primary DLBCL of the breast using SEER data; their work validated that population-level analyses can minimize selection bias and refine prognostic assessments for single glandular sites. Similarly, Wang et al [ 11 ] constructed a visual prognostic model (e.g., nomogram) for primary DLBCL of the small intestine and colon, analyzing 1613 SEER cases to identify key prognostic factors (e.g., Ann Arbor stage, treatment modality) and emphasize the clinical utility of visual tools for individualized management. Despite these advancements, both studies remain restricted to one or 2 anatomical sites, failing to capture the collective heterogeneity of primary DLBCL involving the key glands targeted. Thus, further research is crucial to elucidate the intricate relationship between survival rates and prognostic factors in primary glandular DLBCL, especially regarding the thyroid, breast, adrenal, and parotid glands. Therefore, the changing field of DLBCL research highlights the need for new prognostic and treatment methods. This study aims to significantly improve current knowledge by using large datasets and advanced statistical tools to enhance patient care and outcomes in DLBCL management. To achieve this, we analyzed data from 4 DLBCL types retrieved from the SEER database. We compared disease characteristics across different primary sites, including incidence, prognostic factors, and survival outcomes. Additionally, we developed a nomogram to assist clinicians in accurately assessing the prognosis of patients with these 4 DLBCL types.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Data Source",
+      "text": "We obtained data on patients with DLBCL from the SEER database of the National Cancer Institute, utilizing SEER Stat software version 8.4.4. This data, specifically the Incidence-SEER study, includes information from 17 registries and covers the years 2000 to 2021, with a focus on data compiled in November 2023. Since all data were publicly available through the SEER database, no ethical approval was necessary for this study. The primary study endpoints were overall survival (OS) and cancer-specific survival (CSS): OS was defined as the duration from initial diagnosis to death from any cause, while CSS referred to the time from initial tumor diagnosis to death specifically attributed to the tumor or its treatment. The survival-related covariates under consideration included age, year of diagnosis, primary tumor site, histological type, Ann Arbor stage, treatment modalities, sex, race, diagnostic confirmation status, vital status, months of survival, and cause-specific death classification. We collected information on 1863 patients and classified the primary tumor sites associated with DLBCL as follows: thyroid (C73.9), parotid (C07.9), breast (C50.1–C50.9), and adrenal (C74.9). Each patient met the inclusion criteria consisting of a diagnosis between 2000 and 2015, a histologic type International Classification of Diseases for Oncology, 3rd Edition code indicating DLBCL nos (9680), and positive histology for diagnostic confirmation. Patients with incomplete Ann Arbor staging, unknown surgery, less than one month of follow-up, or missing data were excluded from the analysis (Fig. 1 ). Participants were randomly assigned to a training group (n = 1304) and a validation group (n = 559) in a 7:3 ratio. Furthermore, the patients were categorized into 5 age groups, 4 tumor location groups (adrenal, breast, parotid, and thyroid), and 8 groups with different treatment modalities for separate survival analyses.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Development And Examination Of The Nomograms",
+      "text": "In this study, nomograms were developed using the features of the training set. The endpoints were OS and CSS. We conducted survival analyses using the Kaplan–Meier method and univariate analysis ( P < .05). Subsequently, we applied two-sided multivariate Cox proportional hazards models to identify independent prognostic variables ( P < .05) and develop nomograms. Afterward, we validated the nomograms internally and assessed the model’s consistency and accuracy using concordance indices (C-index) and calibration curves. Additionally, we assessed the prognostic performance of the model through Decision curve analyses and receiver operating characteristic curves.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Statistical Analysis",
+      "text": "We used R statistical software version 4.3.2, R packages survminer, and Zstats v0.90 software for data processing and analysis ( www.medsta.cn/software ). Statistical significance was P < .05.",
+      "order": 4
+    },
+    {
+      "section": "3.1. Patient Features",
+      "text": "A total of 148,645 patients diagnosed with DLBCL were identified in the SEER database. After applying the specified criteria, we selected 1863 patients diagnosed with extranodal gland DLBCL for the study. In this study, cases of DLBCL originating from these 4 glands represented only about 1.3% of the total DLBCL population. Patients were categorized into 5 age groups: under 50 years (13.37%), 50 to 59 years (16.1%), 60 to 69 years (23.31%), 70 to 79 years (26.57%), and 80 years or older (22.65%). Notably, a greater proportion of patients were female (72.79%). In the statistics of the patients’ primary tumor sites, the thyroid gland was the most frequent (38.27%), followed by the breast (33.98%), with adrenal gland involvement being the least frequent (6.76%). Most patients (80.57%) were Ann Arbor Stage I or II. Of all the patients, 80.51% received chemotherapy, 42.41% received radiotherapy, and 44.02% underwent surgery. A total of 334 patients (17.93%) received all 3 treatment modalities: radiation therapy, surgery, and combined chemotherapy. Additionally, 693 patients (37.2%) received 2 modalities, including radiotherapy with combined chemotherapy (19%), chemotherapy with surgery (15.78%), and radiotherapy with surgery (2.42%). Furthermore, 722 patients (38.75%) received only one treatment modality: chemotherapy (27.8%), radiotherapy (3.06%), or surgery (7.89%). Lastly, 114 patients (6.12%) did not receive any treatment. Overall, patient characteristics were well balanced in both cohorts, with no statistically significant differences observed for each variable (Table 1 ).",
+      "order": 5
+    },
+    {
+      "section": "3.2. Prognostic Factors For Training Cohort",
+      "text": "Through univariate and multivariate analyses, age, Ann Arbor stage, primarysite, treatment, first malignant were found to be important factors affecting OS. Age, Ann Arbor stage, primarysite, treatment, year of diagnosis were associated with CSS (Table 2 ). These variables were selected to develop nomograms.",
+      "order": 6
+    },
+    {
+      "section": "3.3. Nomogram Construction And Survival Analysis",
+      "text": "We developed a prognostic nomogram to predict 3-year, 5-year, and 10-year OS using selected variables (Fig. 2 A). The nomogram indicated that older age, higher Ann Arbor stage, secondary tumors, absence of chemotherapy, and primary site in the adrenal gland were linked to worse OS. We also created a similar nomogram to predict CSS at 3, 5, and 10 years (Fig. 2 B). Our survival analyses revealed that receiving all 3 treatment regimens together significantly improved prognosis. Additionally, the regimen that included chemotherapy offered a relatively better outcome. Analysis of primary tumor sites showed that DLBCL originating in the adrenal gland had the poorest prognosis, whereas DLBCL from the thyroid had the best prognosis. The 3-, 5-, and 10-year OS for primary adrenal DLBCL were 43.65%, 38.10%, and 19.84%, respectively, whereas the 3-, 5-, and 10-year OS for primary thyroid DLBCL were 76.44%, 72.79%, and 43.20%, respectively.",
+      "order": 7
+    },
+    {
+      "section": "3.4. Nomogram Validation",
+      "text": "The nomograms developed from the training dataset predicted OS with a concordance index of 0.75 (95% confidence interval, 0.74–0.77) and CSS of 0.77 (95% confidence interval, 0.74–0.79). After validation in the internal primary glandular DLBCL validation set of 559 cases, the nomogram demonstrated strong predictive capability for OS with a C-index of 0.72 and CSS also with a C-index of 0.72. The nomogram proved to be well-calibrated, as shown by the calibration curves (Fig. 3 ). The model showed strong performance in forecasting the OS and CSS for individuals with primary glandular DLBCL, as illustrated in Figures 4 and 5 . In the training set, the area under the curve (AUC) for predicting 3-, 5-, and 10-year OS was 0.79, 0.81, and 0.83, while in the internal validation set, it was 0.75, 0.76, and 0.80. The nomogram achieved AUC values of 0.81, 0.82, and 0.84 for 3-, 5-, and 10-year CSS in the training set. In the internal validation set, the AUC values were 0.75, 0.76, and 0.80. There were significant variances ( P < .05) related to age, primary site, Ann Arbor stage, chemotherapy, radiotherapy, and surgical procedures (Figs. 4 and 5 ). Chart analysis indicated that an older age at diagnosis and a later stage at diagnosis were associated with a poorer prognosis. The prognosis of the tumor in the adrenal gland was the worst and that in the thyroid gland was the best. Chemotherapy-based regimens significantly improved prognosis, and patients treated with chemotherapy combined with radiotherapy and surgery had the best prognosis ( Supplement 1 ).",
+      "order": 8
+    },
+    {
+      "section": "Discussion",
+      "text": "DLBCL rarely occurs in anatomical sites such as the thyroid, breast, adrenal, and parotid glands. [ 12 – 16 ] Currently, most reports of these cases are case studies, resulting in limited information on their prognosis. The use of nomograms to predict survival in patients with primary DLBCL in these 4 extranodal sites has not been reported in previous studies. The results of our survival analysis results provide important insights into the prognostic factors affecting OS and CSS. These factors are specific pertain to patients with primary glandular DLBCL. It is noteworthy that the prognostic value of specific factors can vary significantly across lymphoma subtypes. Prior studies have identified marital status and medical insurance as important prognostic factors in some contexts, while other research has highlighted the superior independent predictive ability of age, stage, and radiation therapy for certain cancer types. [ 11 ] In our study of primary glandular DLBCL, older age has always been associated with a worse prognosis in cancer patients because it is linked to poorer nutritional status and reduced tolerance – a finding consistent with SEER-based studies of breast, small intestine, and colon DLBCL conducted by other researchers, all of which rank age among the top independent prognostic factors. [ 17 – 19 ] The Ann Arbor staging system can be used for extranodal lymphomas, with higher grades indicating greater invasion and worse prognosis. [ 20 ] Primary lymphomas with adrenal involvement had the worst prognosis, whereas thyroid lymphomas had the most favorable prognosis. [ 21 – 23 ] Our results are in accordance with these findings. However, studies have shown that in the SEER study of small intestinal and colon DLBCL, radiotherapy demonstrates superior independent predictive capacity. Adjuvant radiotherapy has been shown to reduce local recurrence rates and improve overall survival. [ 11 ] In our glandular DLBCL cohort, radiotherapy alone or with surgery did not improve survival, and multivariate Cox analysis confirmed no significant association between radiotherapy and OS/CSS ( P > .05). This discrepancy may reflect anatomy: gastrointestinal DLBCL benefits from radiotherapy’s local control, while glandular DLBCL (e.g., adrenal/thyroid) often has subclinical systemic spread at diagnosis, weakening radiotherapy. This highlights subtype-specific treatment differences and reinforces the utility of our glandular-specific SEER. We further validated the nomograms’ predictive capability through internal testing. The strong concordance indices for both OS and CSS highlighted its reliability in clinical settings. Calibration curves confirmed that the nomogram accurately reflected survival probabilities, thus providing clinicians with a robust framework for individualized patient management. Decision curve analyses and receiver operating characteristic curves further demonstrated the clinical utility of the nomograms. This tool can assist clinicians in making informed treatment decisions based on predicted survival outcomes. The main treatments for primary extranodal DLBCL are chemotherapy and radiotherapy. [ 24 – 27 ] Although surgery or radiotherapy alone did not improve survival in DLBCL with primary gland sites, there have been successful cases of extranodal lymphoma treated solely with surgery. [ 5 , 15 , 22 , 23 ] Relevant guidelines state that surgery is mainly used for diagnosis and is insufficient for treating DLBCL. [ 28 ] Our study found that chemotherapy-based treatment regimens are linked to improved overall survival in patients with DLBCL involving the primary gland sites. Additionally, a combination of chemotherapy, radiotherapy, and surgery yielded the most favorable prognosis, whereas treatment regimens that did not include chemotherapy were associated with relatively poor prognosis. The Kaplan–Meier method analysis yielded unexpected results, indicating that patients treated with radiotherapy alone or surgery in addition to radiotherapy exhibited poorer overall survival rates than those who did not undergo any treatment. However, multifactorial Cox analysis showed no statistically significant difference in survival outcomes between radiotherapy alone, surgery alone, surgery combined with radiotherapy, and no treatment ( P > .05). We analyzed potential factors contributing to the observed effect, including the small sample size of the population receiving the treatment modality under investigation, and other confounding variables. Our findings suggest that a combination approach involving chemotherapy could significantly enhance prognosis ( P < .05). This study was constrained by the lack of comprehensive novel target treatment data in the database, the restricted number of cases owing to the rarity of cancerous growth being studied, and the influence of confounding variables. As this was a retrospective study, a randomized controlled trial with a larger sample size is required to validate these findings. This study identifies key prognostic factors, including age, Ann Arbor stage, tumor site and treatment modality, as well as develops a validated nomogram to predict survival outcomes in DLBCL patients. Integrating these findings into clinical practice can significantly enhance personalized treatment strategies and improve patient management. Future studies should seek to overcome the key limitations of this work, such as the lack of detailed histopathological and molecular data in the SEER database, the limited sample size owing to the rarity of glandular DLBCL, and potential confounding factors inherent in the retrospective design. Therefore, prospective, multi-center studies with larger cohorts and external validation across diverse populations are warranted. The incorporation of comprehensive histologic and molecular profiling will be crucial to confirm and refine our prognostic model. Continued exploration of the biological underpinnings of DLBCL is essential for advancing the field. Additionally, refining prognostic models will help improve patient outcomes.",
+      "order": 9
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "[1]",
+      "authors": [
+        "Wang Y",
+        "Link BK",
+        "Witzig TE",
+        "et al."
+      ],
+      "title": "Impact of concurrent indolent lymphoma on the clinical outcome of newly diagnosed diffuse large B-cell lymphoma.",
+      "journal": "Blood",
+      "year": "2019",
+      "volume": "134",
+      "fpage": "1289",
+      "lpage": "97",
+      "pmid": "31350266",
+      "doi": "10.1182/blood.2019000858",
+      "pmc_id": "PMC6888139"
+    },
+    {
+      "ref_id": "R2",
+      "label": "[2]",
+      "authors": [
+        "Stein SA",
+        "Wartofsky L"
+      ],
+      "title": "Primary thyroid lymphoma: a clinical review.",
+      "journal": "J Clin Endocrinol Metab",
+      "year": "2013",
+      "volume": "98",
+      "fpage": "3131",
+      "lpage": "8",
+      "pmid": "23714679",
+      "doi": "10.1210/jc.2013-1428"
+    },
+    {
+      "ref_id": "R3",
+      "label": "[3]",
+      "authors": [
+        "Mozos A",
+        "Ye H",
+        "Chuang WY",
+        "et al."
+      ],
+      "title": "Most primary adrenal lymphomas are diffuse large B-cell lymphomas with non-germinal center B-cell phenotype, BCL6 gene rearrangement and poor prognosis.",
+      "journal": "Modern Pathol",
+      "year": "2009",
+      "volume": "22",
+      "fpage": "1210",
+      "lpage": "7",
+      "doi": "10.1038/modpathol.2009.87",
+      "pmid": "19525926"
+    },
+    {
+      "ref_id": "R4",
+      "label": "[4]",
+      "authors": [
+        "Thomas A",
+        "Link BK",
+        "Altekruse S",
+        "Romitti PA",
+        "Schroeder MC"
+      ],
+      "title": "Primary breast lymphoma in the United States: 1975–2013.",
+      "journal": "J Natl Cancer Inst",
+      "year": "2017",
+      "volume": "109",
+      "fpage": "6",
+      "doi": "10.1093/jnci/djw294",
+      "pmc_id": "PMC6059147",
+      "pmid": "28376147"
+    },
+    {
+      "ref_id": "R5",
+      "label": "[5]",
+      "authors": [
+        "Aviv A",
+        "Tadmor T",
+        "Polliack A"
+      ],
+      "title": "Primary diffuse large B-cell lymphoma of the breast: looking at pathogenesis, clinical issues and therapeutic options.",
+      "journal": "Ann Oncol",
+      "year": "2013",
+      "volume": "24",
+      "fpage": "2236",
+      "lpage": "44",
+      "pmid": "23712546",
+      "doi": "10.1093/annonc/mdt192"
+    },
+    {
+      "ref_id": "R6",
+      "label": "[6]",
+      "authors": [
+        "Gutierrez-Alvarez M",
+        "Martinez C",
+        "Campollo Lopez AP",
+        "Fuentes K",
+        "Robles Aviña JA"
+      ],
+      "title": "Warthin’s tumor of the parotid gland with degeneration to diffuse large B-cell lymphoma: a case report and review of literature.",
+      "journal": "Cureus",
+      "year": "2023",
+      "volume": "15",
+      "fpage": "e36802",
+      "pmid": "37123704",
+      "doi": "10.7759/cureus.36802",
+      "pmc_id": "PMC10134961"
+    },
+    {
+      "ref_id": "R7",
+      "label": "[7]",
+      "authors": [
+        "Tian T",
+        "Li J",
+        "Shi D",
+        "et al."
+      ],
+      "title": "SMYD3 promotes aerobic glycolysis in diffuse large B-cell lymphoma via H3K4me3-mediated PKM2 transcription.",
+      "journal": "Cell Death Dis",
+      "year": "2022",
+      "volume": "13",
+      "fpage": "763",
+      "pmid": "36057625",
+      "doi": "10.1038/s41419-022-05208-7",
+      "pmc_id": "PMC9440895"
+    },
+    {
+      "ref_id": "R8",
+      "label": "[8]",
+      "authors": [
+        "Wang L",
+        "Li LR",
+        "Young KH"
+      ],
+      "title": "New agents and regimens for diffuse large B cell lymphoma.",
+      "journal": "J Hematol Oncol",
+      "year": "2020",
+      "volume": "13",
+      "fpage": "175",
+      "pmid": "33317571",
+      "doi": "10.1186/s13045-020-01011-z",
+      "pmc_id": "PMC7734862"
+    },
+    {
+      "ref_id": "R9",
+      "label": "[9]",
+      "authors": [
+        "Patriarca A",
+        "Gaidano G"
+      ],
+      "title": "Investigational drugs for the treatment of diffuse large B-cell lymphoma.",
+      "journal": "Expert Opin Investig Drugs",
+      "year": "2021",
+      "volume": "30",
+      "fpage": "25",
+      "lpage": "38",
+      "doi": "10.1080/13543784.2021.1855140",
+      "pmid": "33295827"
+    },
+    {
+      "ref_id": "R10",
+      "label": "[10]",
+      "authors": [
+        "Liu Y",
+        "Han H",
+        "Wei H",
+        "Wang X",
+        "Luan Z",
+        "Jiang K"
+      ],
+      "title": "Predictive modelling of overall survival in adult patients with primary diffuse large B-cell lymphoma of the breast using the surveillance, epidemiology, and end results (SEER) database.",
+      "journal": "Recent Pat Anticancer Drug Discov",
+      "year": "2024",
+      "volume": "19",
+      "fpage": "373",
+      "lpage": "82",
+      "pmid": "37464821",
+      "doi": "10.2174/1574892818666230718153721"
+    },
+    {
+      "ref_id": "R11",
+      "label": "[11]",
+      "authors": [
+        "Wang Y",
+        "Song J",
+        "Wen S",
+        "Zhang X"
+      ],
+      "title": "A visual model for prognostic estimation in patients with primary diffuse large B-cell lymphoma of small intestine and colon: analysis of 1,613 cases from the SEER database.",
+      "journal": "Transl Cancer Res",
+      "year": "2021",
+      "volume": "10",
+      "fpage": "1842",
+      "lpage": "55",
+      "pmid": "35116506",
+      "doi": "10.21037/tcr-20-3086",
+      "pmc_id": "PMC8798054"
+    },
+    {
+      "ref_id": "R12",
+      "label": "[12]",
+      "authors": [
+        "Koh HH",
+        "Yoon SE",
+        "Kim SJ",
+        "Kim WS",
+        "Cho J"
+      ],
+      "title": "Differences in mutational signature of diffuse large B-cell lymphomas according to the primary organ.",
+      "journal": "Cancer Med",
+      "year": "2023",
+      "volume": "12",
+      "fpage": "19732",
+      "lpage": "43",
+      "pmid": "37706649",
+      "doi": "10.1002/cam4.6533",
+      "pmc_id": "PMC10587923"
+    },
+    {
+      "ref_id": "R13",
+      "label": "[13]",
+      "authors": [
+        "Kariya A",
+        "Tachibana T",
+        "Hiramatsu Y",
+        "et al."
+      ],
+      "title": "Primary thyroid lymphoma: clinical factors predicting the possibility of diffuse large B-Cell lymphoma.",
+      "journal": "Ear Nose Throat J",
+      "year": "2023",
+      "volume": "103",
+      "fpage": "1455613231218130",
+      "doi": "10.1177/01455613231218130",
+      "pmid": "38078418"
+    },
+    {
+      "ref_id": "R14",
+      "label": "[14]",
+      "authors": [
+        "Vita O",
+        "Dema A",
+        "Barna R",
+        "et al."
+      ],
+      "title": "Primary thyroid lymphoma: a retrospective-observational study in a single institutional center.",
+      "journal": "Medicina (Kaunas)",
+      "year": "2024",
+      "volume": "60",
+      "fpage": "476",
+      "pmid": "38541203",
+      "doi": "10.3390/medicina60030476",
+      "pmc_id": "PMC10971821"
+    },
+    {
+      "ref_id": "R15",
+      "label": "[15]",
+      "authors": [
+        "Andola SK",
+        "Masgal MM",
+        "Reddy RM"
+      ],
+      "title": "Diffuse large B-cell lymphoma of the parotid gland: cytological, histopathological, and immunohistochemical features: a rare case report.",
+      "journal": "J Cytol",
+      "year": "2016",
+      "volume": "33",
+      "fpage": "226",
+      "lpage": "8",
+      "pmid": "28028340",
+      "doi": "10.4103/0970-9371.190441",
+      "pmc_id": "PMC5156988"
+    },
+    {
+      "ref_id": "R16",
+      "label": "[16]",
+      "authors": [
+        "Li S",
+        "Wang Z",
+        "Wu Z",
+        "Zhuang H",
+        "Xu Y"
+      ],
+      "title": "Clinical characteristics and outcomes of primary adrenal diffuse large B cell lymphoma in a large contemporary cohort: a SEER-based analysis.",
+      "journal": "Ann Hematol",
+      "year": "2019",
+      "volume": "98",
+      "fpage": "2111",
+      "lpage": "9",
+      "pmid": "31227873",
+      "doi": "10.1007/s00277-019-03740-9"
+    },
+    {
+      "ref_id": "R17",
+      "label": "[17]",
+      "authors": [
+        "Ferrari AJ",
+        "Santomauro DF",
+        "Aali A",
+        "et al."
+      ],
+      "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021.",
+      "journal": "Lancet (London, England)",
+      "year": "2024",
+      "volume": "403",
+      "fpage": "2133",
+      "lpage": "61",
+      "pmid": "38642570",
+      "doi": "10.1016/S0140-6736(24)00757-8",
+      "pmc_id": "PMC11122111"
+    },
+    {
+      "ref_id": "R18",
+      "label": "[18]",
+      "authors": [
+        "Naghavi M",
+        "Ong KL",
+        "Aali A",
+        "et al."
+      ],
+      "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021.",
+      "journal": "Lancet (London, England)",
+      "year": "2024",
+      "volume": "403",
+      "fpage": "2100",
+      "lpage": "32",
+      "pmid": "38582094",
+      "doi": "10.1016/S0140-6736(24)00367-2",
+      "pmc_id": "PMC11126520"
+    },
+    {
+      "ref_id": "R19",
+      "label": "[19]",
+      "authors": [
+        "Miller KD",
+        "Nogueira L",
+        "Devasia T",
+        "et al."
+      ],
+      "title": "Cancer treatment and survivorship statistics, 2022.",
+      "journal": "CA Cancer J Clin",
+      "year": "2022",
+      "volume": "72",
+      "fpage": "409",
+      "lpage": "36",
+      "pmid": "35736631",
+      "doi": "10.3322/caac.21731"
+    },
+    {
+      "ref_id": "R20",
+      "label": "[20]",
+      "authors": [
+        "Lister TA",
+        "Crowther D",
+        "Sutcliffe SB",
+        "et al."
+      ],
+      "title": "Report of a committee convened to discuss the evaluation and staging of patients with Hodgkin’s disease: cotswolds meeting.",
+      "journal": "J Clin Oncol",
+      "year": "1989",
+      "volume": "7",
+      "fpage": "1630",
+      "lpage": "6",
+      "pmid": "2809679",
+      "doi": "10.1200/JCO.1989.7.11.1630"
+    },
+    {
+      "ref_id": "R21",
+      "label": "[21]",
+      "authors": [
+        "Costa LJ",
+        "Xavier AC"
+      ],
+      "title": "Features and outcomes of diffuse large B-cell lymphoma of the thyroid in a large contemporary cohort.",
+      "journal": "Leuk Lymphoma",
+      "year": "2014",
+      "volume": "55",
+      "fpage": "283",
+      "lpage": "7",
+      "pmid": "23647064",
+      "doi": "10.3109/10428194.2013.802317"
+    },
+    {
+      "ref_id": "R22",
+      "label": "[22]",
+      "authors": [
+        "Laurent C",
+        "Casasnovas O",
+        "Martin L",
+        "et al."
+      ],
+      "title": "Adrenal lymphoma: presentation, management and prognosis.",
+      "journal": "QJM",
+      "year": "2017",
+      "volume": "110",
+      "fpage": "103",
+      "lpage": "9",
+      "pmid": "27795295",
+      "doi": "10.1093/qjmed/hcw174"
+    },
+    {
+      "ref_id": "R23",
+      "label": "[23]",
+      "authors": [
+        "Yi J",
+        "Yi P",
+        "Wang W",
+        "et al."
+      ],
+      "title": "A multicenter retrospective study of 58 patients with primary thyroid diffuse large B cell lymphoma.",
+      "journal": "Front Endocrinol (Lausanne)",
+      "year": "2020",
+      "volume": "11",
+      "fpage": "542",
+      "pmid": "32982962",
+      "doi": "10.3389/fendo.2020.00542",
+      "pmc_id": "PMC7483576"
+    },
+    {
+      "ref_id": "R24",
+      "label": "[24]",
+      "authors": [
+        "Cunningham D",
+        "Hawkes EA",
+        "Jack A",
+        "et al."
+      ],
+      "title": "Rituximab plus cyclophosphamide, doxorubicin, vincristine, and prednisolone in patients with newly diagnosed diffuse large B-cell non-Hodgkin lymphoma: a phase 3 comparison of dose intensification with 14-day versus 21-day cycles.",
+      "journal": "Lancet",
+      "year": "2013",
+      "volume": "381",
+      "fpage": "1817",
+      "lpage": "26",
+      "pmid": "23615461",
+      "doi": "10.1016/S0140-6736(13)60313-X"
+    },
+    {
+      "ref_id": "R25",
+      "label": "[25]",
+      "authors": [
+        "Vitolo U",
+        "Seymour JF",
+        "Martelli M",
+        "et al."
+      ],
+      "title": "Extranodal diffuse large B-cell lymphoma (DLBCL) and primary mediastinal B-cell lymphoma: ESMO clinical practice guidelines for diagnosis, treatment and follow-up.",
+      "journal": "Ann Oncol",
+      "year": "2016",
+      "volume": "27",
+      "issue": "suppl 5",
+      "fpage": "v91",
+      "lpage": "v102",
+      "pmid": "27377716",
+      "doi": "10.1093/annonc/mdw175"
+    },
+    {
+      "ref_id": "R26",
+      "label": "[26]",
+      "authors": [
+        "Lamy T",
+        "Damaj G",
+        "Soubeyran P",
+        "et al."
+      ],
+      "title": "R-CHOP 14 with or without radiotherapy in nonbulky limited-stage diffuse large B-cell lymphoma.",
+      "journal": "Blood",
+      "year": "2018",
+      "volume": "131",
+      "fpage": "174",
+      "lpage": "81",
+      "pmid": "29061568",
+      "doi": "10.1182/blood-2017-07-793984",
+      "pmc_id": "PMC5757680"
+    },
+    {
+      "ref_id": "R27",
+      "label": "[27]",
+      "authors": [
+        "Zelenetz AD",
+        "Gordon LI",
+        "Abramson JS",
+        "et al."
+      ],
+      "title": "NCCN Guidelines® insights: B-cell lymphomas, version 6.2023.",
+      "journal": "J Natl Compr Canc Netw",
+      "year": "2023",
+      "volume": "21",
+      "fpage": "1118",
+      "lpage": "31",
+      "pmid": "37935098",
+      "doi": "10.6004/jnccn.2023.0057"
+    },
+    {
+      "ref_id": "R28",
+      "label": "[28]",
+      "authors": [
+        "Sica A",
+        "Santagata M",
+        "Sagnelli C",
+        "et al."
+      ],
+      "title": "Primary extra-nodal DLBCL of glands: our experiences outside guidelines of treatment.",
+      "journal": "Healthcare",
+      "year": "2021",
+      "volume": "9",
+      "fpage": "286",
+      "pmid": "33807793",
+      "doi": "10.3390/healthcare9030286",
+      "pmc_id": "PMC8002204"
+    }
+  ]
+}
