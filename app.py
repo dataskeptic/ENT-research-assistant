@@ -26,7 +26,7 @@ from ui_helpers import (
 # ──────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="ENT Research Assistant",
-    page_icon="🫺",
+    page_icon="👂",  # simpler, widely-supported ENT-related emoji
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -351,8 +351,9 @@ strong { color: #93c5fd !important; }
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
-MODE_ASK      = "Ask the Literature"
-MODE_EXPLORER = "Paper Explorer"
+# Use the same icons as the page content so navigation and hero are visually aligned
+MODE_ASK      = "🔬 Ask the Literature"
+MODE_EXPLORER = "📄 Paper Explorer"
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -455,9 +456,9 @@ def _paper_card_html(paper: dict) -> str:
 with st.sidebar:
     st.markdown(
         '<div style="padding:0.4rem 0 1.1rem;">'
-        '<div style="font-size:1.9rem;margin-bottom:0.35rem;">🫺</div>'
+        '<div style="font-size:1.9rem;margin-bottom:0.35rem;">👂</div>'
         '<div style="font-size:1rem;font-weight:700;color:#e2e8f0;letter-spacing:-0.01em;">ENT Research</div>'
-        '<div style="font-size:0.71rem;color:#64748b;margin-top:2px;">Research Assistant</div>'
+        '<div style="font-size:0.71rem;color:#64748b;margin-top:2px;">Otorhinolaryngology Assistant</div>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -504,7 +505,7 @@ if mode == MODE_ASK:
     st.markdown(
         '<div class="hero">'
         '<h1>🔬 Ask the Literature</h1>'
-        '<p>Ask any clinical or research question and get a citation-backed answer '
+        '<p>Ask any ENT / otorhinolaryngology question and get a citation-backed answer '
         'synthesised from peer-reviewed ENT papers. '
         'Switch to "Ranked Passages" to browse the raw semantic results.</p>'
         '</div>',
@@ -515,7 +516,7 @@ if mode == MODE_ASK:
     with q_col:
         query = st.text_input(
             "Question",
-            placeholder="e.g. What are the outcomes after TORS for oropharyngeal cancer?",
+            placeholder="e.g. How do outcomes compare after TORS vs open surgery for oropharyngeal cancer?",
             label_visibility="collapsed",
             key="qa_query",
         )
@@ -702,7 +703,7 @@ elif mode == MODE_EXPLORER:
     st.markdown(
         '<div class="hero">'
         '<h1>📄 Paper Explorer</h1>'
-        '<p>Browse the full corpus. Click any paper to view its full text, abstract, and references.</p>'
+        '<p>Browse the ENT corpus. Click any paper to view its full text, abstract, and references.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -711,7 +712,7 @@ elif mode == MODE_EXPLORER:
     with sc:
         search_q = st.text_input(
             "Search",
-            placeholder="Title, author, or PMC ID…",
+            placeholder="Title, otorhinolaryngology topic, author, or PMC ID…",
             label_visibility="collapsed",
             key="exp_search",
         )
