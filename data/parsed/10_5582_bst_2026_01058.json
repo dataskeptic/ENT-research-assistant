@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "title": "Allele-specific effects of distinct SLC26A4 variants on cochlear function and transcriptomic programs in compound heterozygous models",
+    "authors": [
+      "Yue Li",
+      "Yiding Yu",
+      "Yan Zhao",
+      "Lin Deng",
+      "Jinge Xie",
+      "Shan Gao",
+      "Ying Li",
+      "Qingjia Cui",
+      "Shuo Wang",
+      "Lihui Huang"
+    ],
+    "journal": "",
+    "year": "",
+    "doi": "10.5582/bst_2026_01058",
+    "pmc_id": "",
+    "pmid": "41866189",
+    "full_text_available": true,
+    "section_count": 29,
+    "reference_count": 80
+  },
+  "sections": [
+    {
+      "section": "Allele-Specific Effects Of Distinct Slc26A4 Variants On Cochlear Function And Transcriptomic Programs In Compound Heterozygous Models",
+      "text": "Yue Li 1,2,3 , Yiding Yu 1,2,3 , Yan Zhao 1,2,3 , Lin Deng 1,2,3 , Jinge Xie 1,2,3 , Shan Gao 1,2,3 , Ying Li 1,2,3 , Qingjia Cui 1,2,3 , Shuo Wang 1,2,3, * , Lihui Huang 1,2,3, * SUMMARY : SLC26A4 is a major causative gene for hereditary hearing loss, its mutation spectrum shows pronounced population specificity. In Chinese populations, patients predominantly carry biallelic mutations, and compound heterozygous genotypes are prevalent, which results in a wide spectrum of auditory phenotypes. However, how different alleles interact within these contexts to shape phenotypic variability remains poorly understood. We employed cellular and mouse models to explore the allele-specific mechanisms associated with two novel mutations, a frameshift mutation and a missense mutation, in compound heterozygous that share the same splice-site pathogenic allele. In vitro , wild-type (WT) and mutant (c.574delC, c.1211C>A) SLC26A4 constructs were expressed in HeLa cells to assess pendrin localization. Both mutations reduced membrane enrichment and increased intracellular retention. In vivo , compound heterozygous knock-in mouse models ( Slc26a4 c.574delC/c.919-2A>G and Slc26a4 c.1211C>A/c.919-2A>G ) were generated using CRISPR/Cas9. The auditory function and cochlear pathology were investigated. Both compound mutants exhibited elevated ABR thresholds, with more severe hearing loss in Slc26a4 c.574delC/c.919-2A>G mice. Correspondingly, these mice showed marked hair cell disruption, stereociliary loss, and cochlear structural abnormalities, whereas the Slc26a4 c.1211C>A/c.919-2A>G mice displayed milder changes. Transcriptomic profiling examined by bulk RNA-sequencing revealed broader differential expression in Slc26a4 c.574delC/c.919-2A>G mice, enriched in structural and developmental pathways, while the missense model showed predominantly immune-related signatures. Our findings demonstrate that allele-specific functional divergence in compound heterozygous SLC26A4 mutations leads to distinct auditory dysfunction, cochlear pathology, and transcriptional programs. These findings provide mechanistic insight into the phenotypic heterogeneity of hearing loss and may indicate future allele-specific interventions or therapeutic strategies. Keywords : pendrin, CRISPR/Cas9, hearing loss, cochlear malformations, RNA-seq",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Hearing loss is among the most prevalent sensory disorders worldwide, and a substantial proportion is attributable to genetic causes ( 1 ). SLC26A4 gene mutations are among the major causes of autosomal recessive hearing loss and include DFNB4 and Pendred syndrome ( 2,3 ). Affected individuals display a broad spectrum of auditory phenotypes that range from congenital to fluctuating or progressive hearing loss of different severities, and these phenotypes are often accompanied by inner ear malformations such as enlarged vestibular aqueducts (EV As) ( 4-7 ). SLC26A4 encodes pendrin, a member of the solute carrier 26 (SLC26) family of anion exchangers, which is expressed in epithelial cells of the inner ear, thyroid, and kidneys ( 2,4 ). Pendrin plays a critical role in ion transport (I -, Cl -, and HCO3 -) and endolymph homeostasis ( 8,9 ). Previous studies have reported that pendrin deficiency or loss of function leads to abnormal cochlear development, altered ionic balance, and sensory hair cell degeneration ( 9-11 ). Clinically, a wide spectrum of SLC26A4 mutations, such as frameshift, missense, and splice-site mutations, have been associated with various disease severities and clinical phenotypes ( 12-14 ). Among these mutations, the splice-site mutation c.919-2A>G is the most common mutation in Chinese populations, and associated hearing loss most commonly arises from biallelic compound heterozygous mutations. Affected individuals exhibit a broad spectrum of auditory phenotypes ( 3,13 ), which suggests that disease expression may be influenced by the specific allelic composition. In prior clinical investigations, we identified two previously uncharacterized SLC26A4 mutations, c.574delC and c.1211C>A, in two unrelated probands. In both cases, these mutations were present in compound heterozygosity with the shared splice-site mutation c.919-2A>G ( 15,16 ). Despite sharing an identical splicesite allele, the two probands were diagnosed as producing different degrees of hearing impairment-one proband produced profound hearing loss and the other proband produced severe hearing loss. Computed tomography (CT) imaging revealed bilateral EV As in both individuals. These observations suggest that SLC26A4 -associated hearing loss is not solely determined by the presence of a pathogenic splice-site mutation but may be modulated by the nature of the second allele within compound heterozygous configurations. Importantly, how distinct classes of mutations-such as frameshift versus missense mutations-differentially affect pendrin function and contribute to phenotypic variability when paired with the same splice site mutation remains unknown. To date, multiple Slc26a4 knock-in (KI) mouse models carrying missense mutations (including p.L236P, p.C565Y, p.H723R, and p.T721M) and splice-site mutations (such as c.919-2A>G) have been generated in either homozygous or compound heterozygous states ( 17-20 ). Different Slc26a4 mutations give rise to highly variable phenotypes in mouse models. For example, homozygous p.L236P mice exhibit hearing loss that ranges from mild to profound, whereas other reported mutations appear nonpathogenic and therefore make it more difficult to recapitulate human disease. While these models highlight the phenotypic diversity associated with Slc26a4 mutations, they do not allow for direct, controlled comparisons of how distinct classes of mutations-such as frameshift versus missense mutations-differentially affect pendrin expression, cochlear development, or auditory function within a clinically relevant compound heterozygous context. To address this gap, we generated mutation-specific cellular models and corresponding compound heterozygous KI mouse models with the same severe and profound hearing loss phenotypes observed in human patients. Through this integrated approach, we aimed to evaluate the functional consequences of distinct SLC26A4 alleles and identify mutation-dependent mechanisms underlying phenotypic variability in SLC26A4 -related hearing loss.",
+      "order": 1
+    },
+    {
+      "section": "2.1. Plasmid Construction",
+      "text": "Three types of plasmids were generated: a wild-type SLC26A4 construct and two mutant constructs (c.574delC and c.1211C>A). The full-length human SLC26A4 cDNA (NM_000441.2) and its mutant sequences were subcloned and inserted into the pcDNA3.1(+)-3×Flag vector using the BamHI and NheI restriction sites, respectively. Each construct was verified by double digestion and confirmed with Sanger sequencing to ensure sequence integrity and the presence of the intended mutations.",
+      "order": 2
+    },
+    {
+      "section": "2.2. Cell Culture And Transfection",
+      "text": "HeLa cells were cultured in Dulbecco's modified Eagle's medium (DMEM) (Gibco) supplemented with 10% fetal bovine serum (FBS) (Gibco) under 5% CO₂ at 37°C. Cells were transfected with 0.5 µg plasmid DNA per flask using JetPRIME ® (Polyplus). After 4 h, the transfection mixture was replaced with complete DMEM supplemented with 10% FBS, and cells were further incubated for 48 h prior to analysis.",
+      "order": 3
+    },
+    {
+      "section": "2.3. Immunofluorescence Analysis In Transfected Cells",
+      "text": "Transfected HeLa cells were fixed with 4% paraformaldehyde (PFA) for 15 min at room temperature, permeabilized with 0.1% Triton X-100 for 10 min, and blocked for 1 h with 5% bovine serum albumin (BSA) in PBS. Pendrin was detected using a rabbit anti-Flag primary antibody (1:100; Abcam; Cat# ab205606) and an Alexa Fluor 488-conjugated goat anti-rabbit IgG secondary antibody (1:200; ZSGB-Bio; Cat# ZF-0511). F-actin was labeled with Alexa Fluor 594-conjugated phalloidin (1:500; Beyotime, Cat# C2205S), and the nuclei were counterstained with DAPI (Beyotime, Cat# C1002). Fluorescence images were obtained using a Nikon Ti2 inverted microscope (Nikon Instruments).",
+      "order": 4
+    },
+    {
+      "section": "2.4. Generation Of Slc26A4 Mutant Ki Mice",
+      "text": "Ethical approval for all animal experimental procedures was provided by the Animal Experiments and Experimental Animal Welfare Committee of Capital Medical University (No. AEEI-2020-053). The mice were generated in a C57BL/6J background (MGI:3028467). The Slc26a4 mouse gene sequence was obtained from the Ensembl database, ID (Mouse): ENSMUSG00000020651. Slc26a4 c . 5 7 4 d e l C , c.1211C>A, and c.919-2A>G KI mice were generated using CRISPR/Cas9 nickase-mediated homologydirected repair. KI mouse models carried a c.574delC frameshift mutation (ACACTCACT → ACATCACT), a c.1211C>A missense mutation (ACC → AAC), and a splice-site mutation c.919-2A>G (TTATTTCAG → TTATTTCGG). For each mutation, single guide RNAs (sgRNAs) flanking the target site were designed and evaluated for cleavage efficiency, and the most efficient sgRNAs were selected. Cas9 nickase, sgRNAs, and the corresponding single-stranded oligodeoxynucleotide donor were microinjected into fertilized zygotes, which were subsequently transferred into pseudopregnant females. Founder (F0) mice were identified, and KI was confirmed by PCR and Sanger sequencing following embryo transfer. Sequence-validated F0 mice were crossed with wild-type mice to obtain F1 offspring, and germline transmission was verified. To generate compound heterozygous mouse models, mice carrying individual Slc26a4 mutations (c.574delC, c.1211C>A, or c.919-2A>G) were bred according to the experimental design. Homozygous mutant mice for each mutation were obtained by intercrossing heterozygous F1 mice and verified by PCR and Sanger sequencing. Then, c.574delC homozygous mice were crossed with c.9192A>G homozygous mice, and c.1211C>A homozygous mice were crossed with c.919-2A>G homozygous mice to generate c.574delC/c.919-2A>G and c.1211C>A/ c.919-2A>G compound heterozygous mice, respectively. Genotypes were confirmed by PCR amplification and Sanger sequencing of both mutant loci, and verified compound heterozygous mice were used for subsequent experiments.",
+      "order": 5
+    },
+    {
+      "section": "2.5. Auditory Brainstem Response (Abr)",
+      "text": "ABR tests were performed in WT ( n = 10), heterozygous c.574delC/c.919-2A>G ( n = 10), and c.1211C>A/ c.919-2A>G ( n = 10) mice every week between the ages of 3 and 12 weeks using an RZ6 acoustic system (Tucker-Davis Technologies). ABR testing was initiated at 3 weeks of age after the postnatal maturation of auditory sensitivity in C57BL/6J mice ( 21,22 ). Weekly measurements from 3-12 weeks were performed to longitudinally capture early-onset and progressive hearing changes before the emergence of strain-related age-dependent hearing loss ( 23,24 ). The mice were anesthetized via intraperitoneal injection of ketamine (100 mg/kg) and xylazine (10 mg/kg). The anesthetized mice were moved into a soundproof chamber, an active electrode was connected subdermally to the forehead, a reference electrode was connected below the pinna of one ear, and a ground electrode was connected below the contralateral ear. The ABR thresholds for click and toneburst stimuli at frequencies of 8, 16, 24, and 32 kHz were measured, with stimulus intensities starting at 90 dB SPL and decreasing in 10 dB increments. Thresholds were determined by the lowest stimulus intensity at which a repeatable wave II should be recorded.",
+      "order": 6
+    },
+    {
+      "section": "2.6. Cochlear Immunofluorescence",
+      "text": "Cochleae from 8-week-old mice were harvested for cryosection immunofluorescence analysis of SLC26A4 localization, fixed in 4% paraformaldehyde for 24 h at 4°C, and then decalcified in 10% EDTA for 48 h. After being rinsed, the cochleae were cryoprotected in 15% and 30% sucrose solutions for 1.5 h each, embedded in optimal cutting temperature compound (Sakura) at 4°C overnight, preserved at -20°C, and subsequently cryosectioned at a thickness of 10 µm. The sections were blocked in 10% FBS with 1% Triton X-100 for 3 h and incubated with primary antibodies (antiSLC26A4 , PA5-115911) overnight at 4°C. After washing with PBS, the sections were incubated with an Alexa Fluor 594-conjugated secondary antibody for 1 h, followed by staining with DAPI for 20 min at room temperature. For whole-mount cochlear preparations, cochleae from 4-week-old mice, a stage at which cochlear hair cell morphology is fully established, were fixed in 4% paraformaldehyde for 24 h at 4°C, after which the sensory epithelium (organ of Corti) was dissected. The samples were blocked in QuickBlock™ buffer containing Triton X-100 (Beyotime) for 1 h, followed by incubation with a rabbit anti-myosin VIIa antibody (1:200, Proteus Biosciences, Cat# 25-6790) at 4°C overnight. After washing with PBS, tissues were incubated with Alexa Fluor 568-conjugated goat anti-rabbit IgG secondary antibody (1:1000; Abcam, Cat#ab175471) for 1 h in the dark and counterstained with DAPI. Fluorescence images were obtained using an Olympus FV1000 confocal microscope.",
+      "order": 7
+    },
+    {
+      "section": "2.7. Scanning Electron Microscopy (Sem)",
+      "text": "Cochleae from 4-week-old mice were harvested and fixed in 2.5% glutaraldehyde (Servicebio) for 4 h at 4°C. Following decalcification in 10% EDTA solution, the cochlear epithelium was exposed using microdissection. Samples were subsequently rinsed three times in 0.1 M phosphate buffer (PB, pH 7.4) for 15 min each. Samples were postfixed in 1% osmium tetroxide prepared in 0.1 M PB for 1.5 h at room temperature, protected from light, and then washed three times in 0.1 M PB for 15 min each. Cochlear tissues were dehydrated through an ethanol gradient, transitioned through isoamyl acetate for 15 min, dried using a critical point dryer (Quorum), and sputter-coated under vacuum. Images were obtained using a Hitachi SU8100 scanning electron microscope.",
+      "order": 8
+    },
+    {
+      "section": "2.8. Hematoxylin And Eosin (He) Staining",
+      "text": "Cochlear tissues were harvested from 12-week-old mice (a fully mature adult stage), fixed and decalcified as described for immunofluorescence, and processed through graded ethanol dehydration. Tissues were embedded in paraffin, and 5 μm thick sections were cut. Sections were deparaffinized with xylene and rehydrated with ethanol. Sections were stained with hematoxylin solution for 1-2 minutes, followed by washing, and then stained with eosin for 2-5 minutes.",
+      "order": 9
+    },
+    {
+      "section": "2.9. Rna Sequencing",
+      "text": "Total RNA from the cochleae of 1-month-old (P28) mice (WT, Slc26a4 c.574delC/c.919-2A>G , Slc26a4 c.1211C>A/c.919-2A>G , n = 6 per group) was extracted using TRIzol ( Invitrogen ) according to the manufacturer's protocol. RNA quality was assessed using an Agilent 2100 Bioanalyzer (Agilent Technologies). Samples that met the quality requirements for transcriptome sequencing were used for library preparation. Sequencing libraries were prepared from total RNA using standard protocols for poly(A)-enriched mRNA sequencing. Briefly, poly(A)+ RNA was isolated using oligo(dT) magnetic beads, fragmented, and reverse transcribed to generate first-strand cDNA, followed by second-strand synthesis to produce double-stranded cDNA. After end repair, A-tailing, and adaptor ligation, the libraries were amplified using PCR and subsequently purified. Library quality and fragment size distribution were assessed prior to sequencing. Pooled libraries were subjected to paired-end sequencing using an Illumina NovaSeq 6000 platform (Illumina, Inc.).",
+      "order": 10
+    },
+    {
+      "section": "2.10.1. Rna-Seq Data Processing And Differential Expression Analysis",
+      "text": "A quality assessment of raw sequencing reads was performed to ensure overall data reliability. Exploratory analyses using principal component analysis (PCA) and Pearson correlation-based distance heatmaps were performed to assess sample dispersion and detect potential outliers. Samples exhibiting discordant global expression patterns and reduced within-group correlation were considered outliers. One biological replicate per group met these criteria and was excluded prior to downstream analysis. Five biological replicates per group were retained for differential expression analysis. Differential gene expression analysis was conducted in R 4.5.1. Pairwise comparisons were performed between the WT and each mutant group ( Slc26a4 c.574delC/c.919-2A>G vs. WT; Slc26a4 c.1211C>A/c.919-2A>G vs. WT), as well as between the two mutant groups. Genes with an adjusted P value ( Padj ) < 0.05 and an absolute log 2 -fold change > 0.2 were defined as differentially expressed genes (DEGs).",
+      "order": 11
+    },
+    {
+      "section": "2.10.2. Data Visualization",
+      "text": "To visualize global expression patterns, PCA results were displayed as biplots, and Pearson correlationbased sample-to-sample distance heatmaps were generated to examine relationships and clustering ( 25 ). The numbers of upregulated and downregulated DEGs identified in each pairwise comparison were summarized and visualized as bar plots using GraphPad Prism 10.6.1. The differential expression results were further visualized using volcano plots. To identify shared and unique transcriptional changes between the compound heterozygous mice mutants, Venn diagram analyses were performed to determine overlapping upregulated and",
+      "order": 12
+    },
+    {
+      "section": "2.10.3. Functional Enrichment Analysis",
+      "text": "A functional enrichment analysis was conducted to characterize the biological relevance of the DEGs. Gene Ontology (GO) enrichment analysis for the biological process (BP), cellular component (CC), and molecular function (MF) categories was performed using the \"clusterProfiler\" package. For each comparison, we summarized the top enriched GO terms. Commonly upregulated or downregulated genes in both mutant groups were further subjected to functional enrichment analysis using DAVID (Database for Annotation, Visualization and Integrated Discovery). Enrichment results for the GO categories (BP, CC, and MF) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways were summarized to identify biological processes and pathways associated with shared transcriptional alterations in Slc26a4 gene mutations.",
+      "order": 13
+    },
+    {
+      "section": "2.11. In Silico Cell-Type Mapping Using Public Cochlear Single-Cell Datasets",
+      "text": "To provide cellular context for representative DEGs identified in bulk RNA-seq analysis, we performed in silico cell-type mapping using publicly available mouse cochlear single-cell and single-nucleus RNA sequencing datasets hosted on the gEAR portal (umgear.org) ( 26 ). The following datasets were examined: Single cell RNA-seq analysis of P20 mouse cochlear cells ( 27 ) and Adult mouse single-nucleus RNA-seq (methanol-fixed; Hoa) ( 28 ). Expression patterns of selected DEGs were visualized across annotated cochlear cell populations, including hair cells, supporting cells, stria vascularis (SV) cell types, and macrophages. This analysis was used solely for contextual interpretation and did not involve reprocessing of raw sequencing data.",
+      "order": 14
+    },
+    {
+      "section": "2.12. Co-Immunoprecipitation And Lc-Ms/Ms Analysis",
+      "text": "To investigate whether mutation class alters pendrinassociated molecular complexes, co-immunoprecipitation coupled with Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) was performed in HEK293T cells transfected with Flag-tagged WT or mutant SLC26A4 constructs (c.574delC and c.1211C>A). Immunocomplexes were captured using anti-Flag magnetic beads and subjected to in-gel digestion followed by LC-MS/MS analysis. Proteins were identified using a target-decoy database with a false discovery rate < 1%. Selected candidate genes identified from proteomic analysis were further validated by quantitative PCR (qPCR). Detailed experimental procedures are provided in Supplementary Methods.",
+      "order": 15
+    },
+    {
+      "section": "2.13. Statistical Analysis",
+      "text": "Statistical analyses were performed using SPSS (IBM) and GraphPad Prism (GraphPad Software). Confocal images with intensity profiles plotting were generated in Fiji (ImageJ) along manually drawn lines across the plasma membrane to assess spatial correlation between pendrin and F-actin signals. Intensity values were normalized to the maximum signal within each channel. ABR thresholds are presented as the mean ± the standard deviation (SD). Group differences at each frequency and time point were assessed using an unpaired twotailed Student's t test. When no ABR response was detected at the maximum stimulus level (90 dB SPL), the threshold was assigned as 90 dB SPL for statistical purposes. For hair cell quantification, data are presented as mean values. Differences among groups and cochlear regions (apex, middle, and base) were analyzed using two-way analysis of variance (ANOVA), followed by Sidak's multiple comparisons test. A p value < 0.05 was considered to indicate statistical significance.",
+      "order": 16
+    },
+    {
+      "section": "Results",
+      "text": "3.1. Mutations alter pendrin intracellular distribution in transfected cells To investigate the potential pathogenic effects of the identified SLC26A4 mutations, the location of SLC26A4 mutations at the gene and protein levels was examined (Figure 1A and 1B). WT and two mutant plasmids were generated and verified. We investigated the subcellular distribution of WT and mutant pendrin in transfected cells using immunofluorescence staining to assess whether the mutations altered its intracellular distribution. Distinct localization patterns were detected in HeLa cells transfected with WT and mutant SLC26A4 constructs (Figure 1C). WT pendrin was enriched predominantly at the plasma membrane in transfected HeLa cells. In contrast, compared with WT cells, cells with both the c.574delC mutation and the c.1211C>A mutation presented reduced membrane enrichment and increased intracellular distribution. Although partial membrane-associated signals were still observed, a substantial proportion of mutant pendrin was distributed within intracellular compartments.",
+      "order": 17
+    },
+    {
+      "section": "3.2. Generation And Validation Of Slc26A4 Compound Heterozygous Ki Mouse Models",
+      "text": "For subsequent analyses of auditory function, we generated clinically relevant Slc26a4 KI mouse models carrying the c.574delC, c.1211C>A, and c.919-2A>G mutations, which targeted exon 5, exon 10, and the splice acceptor site of intron 7 (Figure 2A). Precise introduction of each mutation was confirmed by PCR genotyping and Sanger sequencing in single-mutant lines. Single KI mice carrying c.574delC, c.1211C>A, or c.9192A>G mutations were first crossed with wild-type mice to obtain heterozygous offspring. Homozygous mutant mice were subsequently generated by intercrossing heterozygous animals. Homozygous mutant lines were intercrossed to generate Slc26a4 c.574delC/c.919-2A>G and Slc26a4 c .1211C>A/c.919-2A>G compound heterozygous mice (Figure 2B and C). Sanger sequencing of compound heterozygous mice further confirmed the presence of two distinct Slc26a4 mutant alleles within individual animals (Figure 2D).",
+      "order": 18
+    },
+    {
+      "section": "3.3. Slc26A4 Compound Heterozygous Mice Show Elevated Abr Thresholds",
+      "text": "To assess whether the two compound heterozygous Slc26a4 mutations recapitulated the auditory phenotype observed in human patients, we performed ABR tests using click and tone-burst stimuli at 8, 16, 24, and 32 kHz beginning at postnatal week 3. As shown in Figure 3AB, compared with age-matched wild-type controls, both compound heterozygous lines exhibited significantly elevated ABR thresholds across all tested frequencies ( P < 0.001). Thresholds in Slc26a4 c.574delC/ c.919-2A>G mice were consistently higher than those in Slc26a4 c.1211C>A/c.919-2A>G mice. Notably, profound hearing loss was evident at 3 weeks of age; ABR thresholds approached the maximum stimulus level (90 dB SPL), and there were no identifiable waveforms in most Slc26a4 c.574delC/c.919-2A>G mice (Figure 3C).",
+      "order": 19
+    },
+    {
+      "section": "3.4. Impaired Hair Cell Integrity And Altered Cochlear Morphology In Compound Heterozygous Mice",
+      "text": "To characterize cochlear structural alterations associated with both compound heterozygous Slc26a4 mutations, hair cell morphology, ultrastructural features, cochlear histopathology, and pendrin expression were systematically examined (Figure 4). Whole-mount immunofluorescence staining of 4-week-old mice for Myosin7a revealed well-organized and continuous rows of inner hair cells (IHCs) and outer hair cells (OHCs) across the apical, middle, and basal turns in WT mice (Figure 4A and Supplementary Figure S1, https://www.biosciencetrends.com/action/ getSupplementalData.php?ID=291 ). In contrast, Slc26a4 c.574delC/c.919-2A>G mice exhibited pronounced disruption of OHC organization and discontinuity of hair cell rows in all cochlear turns, which were characterized by reduced Myosin VIIa and DAPI signal intensity. In Slc26a4 c.1211C>A/c.919-2A>G mice, the overall hair cells survived, with only sporadic loss of individual OHCs observed, and the general organization of hair cell rows remained comparable to that of WT mice (Figure 4C). SEM of 4-week-old mice demonstrated further differences in stereociliary architecture between the two compound genotypes (Figure 4B). In Slc26a4 c.574delC/ c.919-2A>G mice, more severe ultrastructural abnormalities included extensive loss of OHC stereocilia, fusion, disorganized arrangement, and IHC stereocilia bundle collapse. In comparison, Slc26a4 c.1211C>A/c.919-2A>G mice retained mostly intact hair bundles; however, OHC stereocilia exhibited loose organization and localized structural deformities. Relative to WT mice, IHC stereocilia of Slc26a4 c.1211C>A/c.919-2A>G mice displayed locally disrupted orientation but retained their overall bundle structure. Similar stereociliary abnormalities were also observed in the apex, middle, and basal turns of the cochlea, although representative SEM images from the middle and basal turns were limited by incomplete fields of view for Slc26a4 c.1211C>A/c.919-2A>G mice (Supplementary Figure S2, https://www.biosciencetrends.com/action/ getSupplementalData.php?ID=291 ). HE staining of cochlear sections from 12-week-old mice revealed the cochlear architecture and structure of the organ of Corti (Figure 4D). In Slc26a4 c.574delC/c.919-2A>G mice, marked histopathological abnormalities included dilation of the scala media, atrophy of the SV, and disorganization of the organ of Corti, with indistinct hair cell morphology. In contrast, Slc26a4 c.1211C>A/c.919-2A>G mice maintained overall cochlear structure and had identifiable hair cell layers in the organ of Corti. Immunolocalization further demonstrated that pendrin was expressed in the SV adjacent regions of the cochleae, including the spiral prominence (SP) and root cells (RCs), in WT mice (Figure 4E). Similar pendrin expression was detected in the Slc26a4 c.574delC/c.919-2A>G and Slc26a4 c.1211C>A/c.919-2A>G mice. No overt alteration in pendrin localization was evident among WT and compound heterozygous Slc26a4 mice. 3.5. Transcriptomic profiling reveals distinct and shared gene expression changes in response to compound Slc26a4 mutations",
+      "order": 20
+    },
+    {
+      "section": "3.5.1. Global Transcriptomic Variation",
+      "text": "A PCA revealed clear separation among WT cochleae and cochleae from the two Slc26a4 mutants (Figure 5A, Supplementary Figure S3, https://www.biosciencetrends. com/action/getSupplementalData.php?ID=291 ). Samples from Slc26a4 c.574delC/c.919-2A>G and Slc26a4 c.1211C>A/ c.919-2A>G mice formed distinct clusters that were spatially separated from those of WT mice, which indicated pronounced transcriptomic differences between mutant and WT cochleae. In addition, the two mutant groups were partially separated from each other along principal component axes, which suggested the presence of genotype-specific transcriptional signatures. Consistent with the PCA results, sample-to-sample distance heatmaps based on Pearson correlations demonstrated high within-group similarity and clear clustering according to genotype (Figure 5B, Supplementary Figure S3, https://www.biosciencetrends.com/action/ getSupplementalData.php?ID=291 ).",
+      "order": 21
+    },
+    {
+      "section": "3.5.2. Differential Patterns Of Transcriptomic Changes In Slc26A4 Mutant Cochleae",
+      "text": "Differential expression analysis revealed substantial transcriptional changes in both Slc26a4 mutants compared with the WT group. The numbers of upregulated and downregulated DEGs with different fold changes varied across comparisons, as summarized in Figure 5C. Notably, compared with WT cochleae, cochleae from the Slc26a4 c.574delC/c.919-2A>G mice exhibited a greater number of DEGs than cochleae from the Slc26a4 c.1211C>A/c.919-2A>G mice did, which indicated that more transcriptional alteration occurred in the former. Volcano plot visualization highlighted distinct DEG distributions for each pairwise comparison and illustrated the magnitude and statistical significance of gene expression changes (Figure 5D-F). In addition to differences relative to WT mice, a direct comparison between the two mutant models revealed further transcriptional differences (Figure 5F) that indicated genotype-specific gene expression changes. Together, these results demonstrated that each Slc26a4 mutant model exhibited a characteristic and distinguishable transcriptional signature.",
+      "order": 22
+    },
+    {
+      "section": "3.5.3. Distinct Functional Enrichment Programs Differentiate The Two Slc26A4 Mutant Models",
+      "text": "GO enrichment analysis revealed markedly distinct functional signatures between cochleae from the two Slc26a4 mutants. Analyses were performed separately for upregulated and downregulated DEGs; representative top terms for upregulated DEGs are shown in Figure 5G-I, and downregulated terms are shown in Supplementary Figure S4 ( https://www. biosciencetrends.com/action/getSupplementalData. php?ID=291 ). In Slc26a4 c.574delC/c.919-2A>G cochleae, upregulated DEGs were predominantly enriched in biological processes related to cell-substrate adhesion, Wnt signaling, and organ development (Figure 5G). Correspondingly, enriched cellular components included the plasma membrane and junctional complexes, whereas molecular functions were dominated by extracellular matrix structural constituents and integrinand collagen-binding activities. In contrast, a different enrichment profile occurred in Slc26a4 c.1211C>A/c.919-2A>G cochleae, and upregulated DEGs included functional categories that were associated primarily with immunerelated and regulatory processes such as leukocyte migration, chemotaxis, and cytokine activity, as well as membrane microdomain-related cellular components (Figure 5H). A direct comparison of DEGs between the two mutant models further revealed that the upregulated genes were predominantly enriched in biological processes associated with extracellular matrix organization, external encapsulating structure organization, Wnt signaling, and ear and sensory organ development. Additional enrichment was observed for developmental processes related to inner ear morphogenesis and connective tissue development (Figure 5I). Consistent with these findings, cellular component analysis highlighted enrichment in the basement membrane, apical and basolateral plasma membranes, and junctional complexes. Molecular function categories were enriched mainly for extracellular matrix structural constituents, integrin and collagen binding, glycosaminoglycan binding, and ion transport-related activities.",
+      "order": 23
+    },
+    {
+      "section": "3.5.4. Shared Transcriptional Alterations Between The Two Slc26A4 Mutant Models",
+      "text": "To identify common gene expression changes associated with Slc26a4 mutations, Venn diagram analysis was performed. A subset of DEGs, including commonly upregulated and downregulated genes, was shared between the two mutant groups and the WT group (Figure 5J and Figure 5K, Supplementary Table S1, https://www. biosciencetrends.com/action/getSupplementalData. php?ID=291 ). A total of 47 genes were consistently upregulated in cochleae from mutant mice compared with those from WT mice, and higher expression levels occurred in the Slc26a4 c.574delC/c.919-2A>G mutant than in the Slc26a4 c.1211C>A/ c.919-2A>G mutant (Supplementary Table S1, https://www. biosciencetrends.com/action/getSupplementalData. php?ID=291 ). These commonly upregulated genes included extracellular matrix components ( e.g ., Lama1 , Sparc , and Cdh1 ), antioxidant enzymes ( e.g ., Gpx3 and Hspa1b ), and stress-responsive molecules ( e.g ., Timp2 , Ndrg2 , and S100a10 ), as well as ion transport related genes ( e.g ., P2rx2 , Scnn1b , and Atp1a2 ). Many of these genes are known to contribute to epithelial integrity, oxidative stress responses, and ion homeostasis maintenance in the cochleae. Functional enrichment analysis of these 47 shared upregulated DEGs was performed using DAVID and revealed significant enrichment in GO terms. These upregulated genes were significantly enriched in biological processes related to extracellular matrix organization, cell adhesion, calcium ion binding, and stress responses (Supplementary Table S2, https://www.biosciencetrends.com/action/ getSupplementalData.php?ID=291 ). In addition, compared with those in the WT cochleae, the expression of 132 genes in mutant cochleae was also upregulated, but expression did not differ between the two mutant models; these genes were considered to be shared mutation-associated responses that were independent of genotype-specific effects. To further characterize the transcriptional programs commonly affected by Slc26a4 mutation, we performed DAVID analyses on consistently upregulated DEGs (179 genes) or downregulated DEGs (234 genes) in cochleae from both mutants relative to WT mice (Fig. 5L). Commonly upregulated genes were enriched primarily in pathways and biological processes related to extracellular matrix organization, cell adhesion, ion transport, and secretory or membrane-associated components. Commonly downregulated DEGs were enriched consistently in pathways associated with fundamental cellular processes, including cell cycle regulation, mitosis, DNA replication, DNA repair, and chromosome organization, and enriched cellular components included the nucleus, chromosome, centromere, kinetochore, and microtubule-associated structures.",
+      "order": 24
+    },
+    {
+      "section": "3.5.5. Cell-Type Contextualization Of Mutation-Associated Degs",
+      "text": "To provide cell-type context for bulk RNA-seq findings, we performed in silico mapping of mutation-associated DEGs using public cochlear single-cell atlases (gEAR; Figure 6). Ion transport- and epithelial-related genes, such as P2rx2 , Atp1a2 , Epyc, Clic5 were enriched in SV, hair cells and supporting cells in the organ of Corti, whereas immune-related genes such as Trem2 and Lbp were predominantly detected in macrophages and SV associated compartments.",
+      "order": 25
+    },
+    {
+      "section": "3.6. Mutation-Dependent Alteration Of Pendrin-Associated Interactions",
+      "text": "Given the mutation-severity-dependent transcriptional remodeling observed in vivo , we further examined whether pendrin-associated protein complexes were differentially altered according to mutation class. WT specific enriched gel regions were selectively excised and subjected to LC-MS/MS analysis (Supplementary Figure S5, https://www.biosciencetrends.com/action/ getSupplementalData.php?ID=291 ). This band-guided strategy identified 462 candidate pendrin-associated proteins. Functional annotation (GO/KEGG) suggested their predominant involvement in (1) protein folding and endoplasmic reticulum processing, (2) membrane and junctional organization, and (3) metabolic regulation. The related representative genes are presented in Supplementary Table S3 ( https://www.biosciencetrends. com/action/getSupplementalData.php?ID=291 ). qPCR validation of selected representative genes ( HSPA5 , HSPA1B , LTF , and JUP ) demonstrated expression trends associated with mutation-dependent molecular remodeling (Supplementary Figure S6, https://www. biosciencetrends.com/action/getSupplementalData. php?ID=291 ).",
+      "order": 26
+    },
+    {
+      "section": "Discussion",
+      "text": "In this study, we investigated two novel SLC26A4 mutations, the frameshift mutation c.574delC and the missense mutation c.1211C>A, which were identified in prior clinical observations. These mutations were associated with different severities of hearing loss in compound heterozygous mouse carriers due to the presence of a common shared splice-site mutation (c.919-2A>G). By generating mutation-specific cellular models and compound heterozygous KI mouse models, we identified how a distinct SLC26A4 mutation class of alleles shaped cochlear pathology when paired with the same splice-site mutation, and we explored the molecular mechanisms underlying SLC26A4 -related hearing loss. Pendrin is characterized by multiple transmembrane domains at the N-terminus and a highly conserved C-terminal sulfate transporter and anti-sigma factor antagonist (STAS) domain. Recent cryo-EM structural analyses of pendrin have provided a mechanistic framework for interpreting mutation-specific differences in pendrin ( 8 ). Disease-associated mutations are highly enriched within the anion-binding pocket, gating regions, and STAS-mediated dimerization interfaces, which are essential for anion recognition, transport cycling, and protein stability ( 11,29-31 ). Disruption of these core architectural elements is expected to result in ion transport-related functional loss. The two SLC26A4 mutations investigated in this study affected distinct structural and functional regions of pendrin. The c.574delC mutation introduces a frameshift and premature termination codon that results in a severely truncated protein that lacks the entire C-terminal STAS domain, whereas the c.1211C>A mutation is a missense mutation located within the transmembrane core domain. Although the c.1211C>A mutation produced a fulllength pendrin protein, perturbation of the core domain is likely to impair regulatory functions in anion transport or exchange activities ( 8 ). Consistent with these structural differences, in vitro overexpression experiments revealed intracellular distribution patterns in two identified mutations. Both mutations resulted in reduced membrane-associated signals in transfected cells. These observations reflect distribution patterns in heterologous overexpression systems and do not necessarily represent the physiological localization of pendrin in native cochlear cells. Notably, immunolocalization analyses in cochlear sections did not reveal an overt redistribution of pendrin in the SP or RCs among WT and compound heterozygous mice. This suggests that gross pendrin localization may be preserved in vivo despite functional impairment. Such preservation may reflect limitations in detecting subtle changes in membrane residency via immunostaining, differences between overexpression systems and endogenous regulation, or compensatory mechanisms that maintain apparent localization without fully restoring transporter activity. These findings are aligned with those of previous studies in which truncating SLC26A4 mutations often lead to complete loss of function, whereas missense mutations may retain partial activity but exhibit impaired trafficking or stability ( 10,32 ). Thus, these findings indicate that pendrin function relies upon different mechanisms, such as structural truncation and functional dysregulation, loss of protein integrity for c.574delC, and impaired trafficking or processing for c.1211C>A, which may diminish effective membranelocalized transporter activity. In the inner ear, pendrin is essential for maintaining endolymphatic pH and ionic composition, thereby supporting normal cochlear development and hair cell survival ( 9,33 ). Disruption of the structure or trafficking of pendrin might differentially affect cochlear homeostasis. In this context, truncating mutations and mutations that abolish pendrin integrity are likely to induce more severe perturbations than missense mutations are, which was consistent with the severity gradient observed between both compound heterozygous KI mouse models. In mice, auditory thresholds mature by postnatal day 14-21, and both KI models demonstrated markedly elevated ABR thresholds by postnatal week 3, which indicated an early-onset pattern of hearing loss. Importantly, the thresholds were higher in Slc26a4 c.574delC/c.919-2A>G mice, which was in agreement with more severe hearing loss observed clinically in this proband genotype. Morphological analyses further supported a severity gradient: Slc26a4 c.574delC/c.919-2A>G mice exhibited pronounced disruption of hair cell organization and stereociliary architecture, including extensive stereocilia loss or fusion in OHCs and IHC bundle collapse, along with dilation of the scala media, SV atrophy, and disorganization of the organ of Corti. In contrast, Slc26a4 c.1211C>A/c.919-2A>G mice retained hairbundle structures with loose organization and a relatively intact cochlear architecture. These findings are in accordance with clinical observations of Pendred syndrome and DFNB4, in which frameshift or splice-site SLC26A4 mutations are frequently associated with severe-to-profound, early-onset hearing loss that is accompanied by inner ear malformations ( 13,34,35 ). Notably, previous experimental studies have also shown that the c.9192A>G mutation, particularly in homozygous or functionally severe compound heterozygous states, is associated with more pronounced auditory phenotypes ( 18,19 ). Our findings encompass clinical phenotypes, auditory physiology, and cochlear histopathology in mouse models and extend previous observations by demonstrating that disease severity can be further modulated by the functional nature of a second SLC26A4 allele when a shared splice-site mutation (c.919-2A>G) is present. Specifically, the combination of c.919-2A>G with a truncating mutation (c.574delC) resulted in more severe functional and structural cochlear abnormalities than did pairing it with a missense mutation (c.1211C>A), which indicates that residual pendrin function contributed by the second allele may influence the phenotypic outcome. These features closely resemble the phenotypes reported in Slc26a4 -null or severely hylomorphic mouse models, thus supporting the notion that pendrin deficiency primarily disrupts epithelial integrity and endolymphatic homeostasis ( 17,33,36 ). In this study, transcriptomic profiling revealed shared and mutation-specific alterations in gene expression in both compound heterozygous Slc26a4 mouse models. Compared with Slc26a4 c.1211C>A/c.919-2A>G mice, Slc26a4 c.574delC/c.919-2A>G mice exhibited a markedly greater number of DEGs and broader disruption of gene expression profiles. This parallel between molecular and phenotypic severity suggests that the extent of transcriptomic dysregulation reflects the degree of cochlear pathology induced by different Slc26a4 mutations. Compared with WT mice, upregulated genes in the cochleae of Slc26a4 c.574delC/c.919-2A>G mice were predominantly enriched in pathways related to extracellular matrix organization, cell-substrate adhesion, and epithelial membrane compartments. Cochlear development and hair cell maturation depend on precise regulation of extracellular matrix composition and cell-matrix adhesion, which provide both structural support and signaling cues ( 37-39 ). Given the established roles of extracellular matrix composition, basement membrane integrity, and apical-basal polarity in cochlear morphogenesis, these transcriptional changes likely reflect a disturbance of epithelial structural programs during inner ear development ( 40-43 ). In contrast, upregulated DEGs associated with the Slc26a4 c.1211C>A/c.919- 2A>G mutation were enriched mainly in immune-related and regulatory processes, including leukocyte migration and cytokine signaling, as well as membrane raftassociated cellular components and cytokine/chemokine activity, which indicates a predominant regulatory transcriptional response in tissue damage or cochlear repair ( 44-47 ). Interestingly, enrichment of kidney and renal system development were also observed in DEGs of both two mutant types compared to WT. Given the well-established expression profile of pendrin and its ion transport function in the kidneys, related genes and enrichment might reflect shared epithelial transport and polarity gene networks that are utilized in the cochleae and kidneys ( 48-50 ). In addition, a direct comparison between the two mutant models revealed a distinct set of DEGs that demonstrated mutation severity-dependent transcriptional remodeling. Genes upregulated in Slc26a4 c.574delC/c.919- 2A>G mice were strongly enriched in pathways related to extracellular structure organization, cell-substrate adhesion, Wnt signaling, and ear development, which indicates disruption of epithelial architecture and developmental programs. Given that pendrin is a membrane-localized anion exchanger essential for epithelial polarity and ion homeostasis in the inner ear, the activation of extracellular matrix- and Wntassociated pathways likely reflects maladaptive structural remodeling and failed developmental compensation ( 5153 ) and is consistent with the more severe congenital hearing loss observed in patients with truncating or splice-disrupting SLC26A4 mutations. Despite genotype-specific differences, both mutant models shared substantial transcriptional alterations relative to WT mice. Commonly upregulated genes were enriched in cell adhesion and ion transport pathways, which suggested pendrin dysfunction and an impact on the cochlear epithelium system. Conversely, commonly downregulated genes were robustly and consistently enriched in pathways related to cell cycle regulation, mitosis, DNA replication, and chromosome organization. While mature cochlear sensory cells are mostly postmitotic, suppression of these pathways may reflect altered supporting-cell states, impaired structural repair susceptibility, or shifts in cellular composition secondary to developmental injury( 54 ). Notably, 47 shared upregulated DEGs and 11 shared downregulated DEGs exhibited greater expression bias in Slc26a4 c.574delC/ c.919-2A>G cochleae, which suggests a potential association with disease severity. Notably, several of the disease severity-associated genes identified in this study have previously been implicated in cochlear epithelial ion regulation and electrochemical homeostasis, such as upregulated P2rx2 (a known deafness gene), Atp1a2 (Na + /K + ion transport), Scnn1b (facilitating Na + absorption) and downregulated Slc4a10 (acid extrusion), suggesting disruption of coordinated ion transport networks ( 5557 ). Public single-cell atlases indicate that these genes are enriched mostly in SV, Reissner membrane and hair cells, supporting cells in organ of Corti, supporting the notion that pendrin deficiency perturbs epithelial ion homeostasis at the tissue level. Second, structural and adhesion-related genes, including hair cell-enriched Clic5 , supporting cell-enriched Epyc , epithelial adhesion gene Cdh1 , and SV cell-enriched Lmx1a , Epha7 , were more strongly upregulated in the c.574delC genotype ( 28,58-62 ). This gradient mirrors the morphological severity observed in Slc26a4 c.574delC/c.919-2A>G mice, characterized by greater structure disruption, hair cell loss and stereociliary fusion, suggesting different epithelial remodeling responses scale. Third, immune and stress responsive genes including Trem2 , Lbp , and Hspa1b , were consistently elevated, with stronger induction in the c.574delC genotype ( 63-65 ). They localize predominantly to SV and in macrophage cell populations, suggesting that the immune signature observed in bulk RNA-seq likely reflects activation of resident immune compartments in SV-related structures. Together, these findings support a model in which truncating mutations impose a greater effect in the cochlea, leading to amplified epithelial ion imbalance, related structural stress responses, and enhanced immune activation in different important regions of cochlea. The graded magnitude of these transcriptional changes parallels the observed severity of auditory dysfunction, providing a coherent molecular framework for alleleclass-dependent phenotypic variability. The distinct transcriptional signatures between mutation classes may reflect intrinsic differences in their molecular consequences. The truncating mutation c.574delC introduces a premature termination codon and may therefore be subject to nonsense-mediated mRNA decay (NMD), potentially reducing transcript stability and pendrin abundance. This could limit sustained protein-folding stress while triggering compensatory transcriptional responses associated with epithelial remodeling and stress adaptation. In contrast, the missense mutation c.1211C>A preserves transcript length but may destabilize at the protein level, leading to conformational perturbation and engagement of endoplasmic reticulum (ER) quality-control pathways. Consistent with this distinction, IP-LC-MS/MS analysis revealed pendrin associated protein enrichment of ER chaperones and proteostasis-related components, including HSPA5, HSP90B1 , LTF , etc . In vitro qPCR revealed mutation-dependent modulation of proteostasis pathways. HSPA5 upregulation under the missense condition is consistent with ER folding stress and adaptive unfolded protein response activation, whereas its reduction in the truncating construct, together with decreased HSPA1B , suggests limited sustained cytosolic stress engagement. Concurrent downregulation of LTF further indicates adjustment of ER-associated secretory load. Collectively, these patterns support a model in which the missense mutation induces conformational stress-driven folding engagement, while the truncating mutation may be rapidly cleared with reduced proteostatic activation. Although derived from a heterologous system, these findings provide a plausible mechanistic link between mutation class and divergent transcriptional remodeling observed in vivo . Together, these data raise the possibility that mutation severity influences not only ion transport capacity but also the stability and organization of pendrin-associated protein networks. Although the transcriptomic, proteomic, and cellular analyses provide converging evidence for mutationdependent molecular remodeling, the present study primarily establishes associations rather than direct causal relationships. In particular, the mechanisms of hearing impairment require further validation through spatial localization and functional perturbation experiments. In addition, the cell-type mapping analysis was performed using publicly available single-cell datasets and therefore provides an inferred cellular context rather than direct spatial validation in the knock-in mouse models. Future studies incorporating ion transport function measurement in cells, earlier postnatal time points measurement in mice models, spatial transcriptomic or in situ validation, as well as quantitative assessment of immune-related factors or anti-inflammatory interventions, will be important to further refine the mechanistic framework ( 65 ). Multiple basic proof-of-concept studies have demonstrated that restoring pendrin expression or function can rescue inner ear phenotypes ( 30,66,67 ). In recent years, approaches such as gene supplementation, viral-mediated gene delivery, and genomic strategies including DNAJC14 modulation, CRISPR/Cas9mediated exon skipping, and antisense oligonucleotide approaches have demonstrated the therapeutic potential of restoring pendrin function in Slc26a4 -mutant mice ( 68-70 ). Recent studies have reported that postnatal AAV-mediated Slc26a4 gene supplementation can restore pendrin expression and significantly improve hearing and inner ear morphology in missense mutation knock-in mouse models ( 71 ). Building on these advances and our findings, future studies will integrate the evaluation of mutation-specific severity and allele-dependent pathogenic mechanisms to guide the exploration of precision therapies for SLC26A4 -related hearing loss.",
+      "order": 27
+    },
+    {
+      "section": "Conclusion",
+      "text": "In summary, our study demonstrated that distinct SLC26A4 mutations conferred differential cochlear pathology and transcriptional remodeling when paired with a common splice-site mutation, which resulted in a graded severity of hearing loss. These findings establish a mutation-specific mechanistic framework for SLC26A4 -associated deafness and provide a foundation for the development of future therapeutic strategies.",
+      "order": 28
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "raw_citation": "GBD 2019 Hearing Loss Collaborators. Hearing loss prevalence and years lived with disability, 1990-2019: findings from the Global Burden of Disease Study 2019. Lancet. 2021; 397:996-1009.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "raw_citation": "Honda K, Griffith AJ. Genetic architecture and phenotypic landscape of SLC26A4-related hearing loss. Hum Genet. 2022; 141:455-464.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "raw_citation": "Dai P, Huang LH, Wang GJ, et al . Concurrent Hearing and Genetic Screening of 180,469 Neonates with Follow-up in Beijing, China. Am J Hum Genet. 2019; 105:803-812.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "raw_citation": "Smith RJH, Azaiez H, Odell AM. SLC26A4-Related Sensorineural Hearing Loss. In: GeneReviews ® (Adam MP, Ardinger HH, Pagon RA, et al ., eds.). University of Washington, Seattle, WA, USA, 1993.",
+      "year": "1993"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "raw_citation": "Ito T, Choi BY, King KA, Zalewski CK, Muskett J, Chattaraj P, Shawker T, Reynolds JC, Butman JA, Brewer CC, Wangemann P, Alper SL, Griffith AJ. SLC26A4 genotypes and phenotypes associated with enlargement of the vestibular aqueduct. Cell Physiol Biochem. 2011; 28:545-552.",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "raw_citation": "Deng L, Yang X, Cheng X, Wen C, Yu Y, Li Y, Gao S, Liu H, Liu D, Ruan Y, Xie J, En H, Xian J, Huang L. Hearing loss trajectory and prediction model for children with enlarged vestibular aqueduct. American Journal of Otolaryngology. 2025; 46:104573.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "raw_citation": "Wang QJ, Zhao YL, Rao SQ, Guo YF, Yuan H, Zong L, Guan J, Xu BC, Wang DY, Han MK, Lan L, Zhai SQ, Shen Y. A distinct spectrum of SLC26A4 mutations in patients with enlarged vestibular aqueduct in China. Clin Genet. 2007; 72:245-254.",
+      "year": "2007"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "raw_citation": "Liu Q, Zhang X, Huang H, et al . Asymmetric pendrin homodimer reveals its molecular mechanism as anion exchanger. Nature Communications. 2023; 14:3012.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "raw_citation": "Wangemann P, Nakaya K, Wu T, Maganti RJ, Itza EM, Sanneman JD, Harbidge DG, Billings S, Marcus DC. Loss of cochlear HCO3- secretion causes deafness via endolymphatic acidification and inhibition of Ca 2+ reabsorption in a Pendred syndrome mouse model. American Journal of Physiology-Renal Physiology. 2007; 292:F1345-F1353.",
+      "year": "2007"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "raw_citation": "Dossena S, Rodighiero S, Vezzoli V, Nofziger C, Salvioni E, Boccazzi M, Grabmayer E, Bottà G, Meyer G, Fugazzola L, Beck-Peccoz P, Paulmichl M. Functional characterization of wild-type and mutated pendrin (SLC26A4), the anion transporter involved in Pendred syndrome. J Mol Endocrinol. 2009; 43:93-103.",
+      "year": "2009"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "raw_citation": "Dossena S, Nofziger C, Tamma G, Bernardinelli E, Vanoni S, Nowak C, Grabmayer E, Kössler S, Stephan S, Patsch W,"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "raw_citation": "Paulmichl M. Molecular and functional characterization of human pendrin and its allelic variants. Cell Physiol Biochem. 2011; 28:451-466.",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "raw_citation": "Wen C, Yang X, Cheng X, et al . Optimized concurrent hearing and genetic screening in Beijing, China: A crosssectional study. Biosci Trends. 2023; 17:148-159.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "raw_citation": "Huang S, Gao X, Jiang Y, et al . Reevaluation of Enlarged Vestibular Aqueduct. JAMA Otolaryngol Head Neck Surg. 2025; 151:1046-1056.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "raw_citation": "Ali A, Tabouni M, Kizhakkedath P, Baydoun I, Allam M, John A, Busafared F, Alnuaimi A, Al-Jasmi F, Alblooshi H. Spectrum of genetic variants in bilateral sensorineural hearing loss. Front Genet. 2024; 15:1314535.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "raw_citation": "Zhao X, Cheng X, Huang L, Wang X, Wen C, Wang X. Novel compound heterozygous mutations in SLC26A4 gene in a Chinese family with enlarged vestibular aqueduct. Biosci Trends. 2018; 12:502-506.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "raw_citation": "Wen C, Wang S, Zhao X, Wang X, Wang X, Cheng X, Huang L. Mutation analysis of the SLC26A4 gene in three Chinese families. Biosci Trends. 2019; 13:441-447.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "raw_citation": "Lu YC, Wu CC, Shen WS, Yang TH, Yeh TH, Chen PJ, Yu IS, Lin SW, Wong JM, Chang Q, Lin X, Hsu CJ. Establishment of a knock-in mouse model with the SLC26A4 c.919-2A>G mutation and characterization of its pathology. PLoS One. 2011; 6:e22150.",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "raw_citation": "Hu CJ, Lu YC, Tsai CY, Chan YH, Lin PH, Lee YS, Yu IS, Lin S-W, Liu TC, Hsu CJ, Yang TH, Cheng YF, Wu CC. Insights into phenotypic differences between humans and mice with p.T721M and other C-terminal variants of the SLC26A4 gene. Scientific Reports. 2021; 11:20983.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "raw_citation": "Hu C-J, Lu Y-C, Yang T-H, Chan Y-H, Tsai C-Y, Yu I-S, Lin S-W, Liu T-C, Cheng Y-F, Wu C-C, Hsu C-J. Toward the Pathogenicity of the SLC26A4 p.C565Y Variant Using a Genetically Driven Mouse Model. International Journal of Molecular Sciences. 2021; 22:2789.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "raw_citation": "Wen Z, Zhu H, Li Z, Zhang S, Zhang A, Zhang T, Fu X, Sun D, Zhang J, Gao J. A knock-in mouse model of Pendred syndrome with Slc26a4 L236P mutation. Biochemical and Biophysical Research Communications. 2019; 515:359-365.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "raw_citation": "Panganiban CH, Barth JL, Tan J, Noble KV, McClaskey CM, Howard BA, Jafri SH, Dias JW, Harris KC, Lang H. Two distinct types of nodes of Ranvier support auditory nerve function in the mouse cochlea. Glia. 2022; 70:768791.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "raw_citation": "Saunders JC, Dolgin KG, Lowry LD. The maturation of frequency selectivity in C57BL/6J mice studied with auditory evoked response tuning curves. Brain Res. 1980; 187:69-79.",
+      "year": "1980"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "raw_citation": "Walton JP, Barsz K, Wilson WW. Sensorineural hearing loss and neural correlates of temporal acuity in the inferior colliculus of the C57BL/6 mouse. J Assoc Res Otolaryngol. 2008; 9:90-101.",
+      "year": "2008"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "raw_citation": "Kane KL, Longo-Guess CM, Gagnon LH, Ding D, Salvi RJ, Johnson KR. Genetic background effects on agerelated hearing loss associated with Cdh23 variants in mice. Hear Res. 2012; 283:80-88.",
+      "year": "2012"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "raw_citation": "Tang D, Chen M, Huang X, Zhang G, Zeng L, Zhang G, Wu S, Wang Y. SRplot: A free online platform for data visualization and graphing. PLOS ONE. 2023; 18:e0294236.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "raw_citation": "Orvis J, Gottfried B, Kancherla J, et al . gEAR: Gene Expression Analysis Resource portal for communitydriven, multi-omic data exploration. Nat Methods. 2021; 18:843-844.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "raw_citation": "Xue N, Song L, Song Q, Santos-Sacchi J, Wu H, Navaratnam D. Genes related to SNPs identified by Genome-wide association studies of age-related hearing loss show restriction to specific cell types in the adult mouse cochlea. Hear Res. 2021; 410:108347.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "raw_citation": "Gu S, Olszewski R, Taukulis I, Wei Z, Martin D, Morell RJ, Hoa M. Characterization of rare spindle and root cell transcriptional profiles in the stria vascularis of the adult mouse cochlea. Sci Rep. 2020; 10:18100.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "raw_citation": "Rapp C, Bai X, Reithmeier RAF. Molecular analysis of human solute carrier SLC26 anion transporter diseasecausing mutations using 3-dimensional homology modeling. Biochim Biophys Acta Biomembr. 2017; 1859:2420-2434.",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "raw_citation": "Yoon JS, Park H-J, Yoo S-Y, Namkung W, Jo MJ, Koo SK, Park H-Y, Lee W-S, Kim KH, Lee MG. Heterogeneity in the processing defect of SLC26A4 mutants. J Med Genet. 2008; 45:411-419.",
+      "year": "2008"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "raw_citation": "de Moraes VCS, Bernardinelli E, Zocal N, Fernandez JA, Nofziger C, Castilho AM, Sartorato EL, Paulmichl M, Dossena S. Reduction of Cellular Expression Levels Is a Common Feature of Functionally Affected Pendrin (SLC26A4) Protein Variants. Mol Med. 2016; 22:41-53.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "raw_citation": "Taylor JP, Metcalfe RA, Watson PF, Weetman AP, Trembath RC. Mutations of the PDS Gene, Encoding Pendrin, Are Associated with Protein Mislocalization and Loss of Iodide Efflux: Implications for Thyroid Dysfunction in Pendred Syndrome. J Clin Endocrinol Metab. 2002; 87:1778-1784.",
+      "year": "2002"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "raw_citation": "Everett LA, Belyantseva IA, Noben-Trauth K, Cantos R, Chen A, Thakkar SI, Hoogstraten-Miller SL, Kachar B, Wu DK, Green ED. Targeted disruption of mouse Pds provides insight about the inner-ear defects encountered in Pendred syndrome. Hum Mol Genet. 2001; 10:153--161.",
+      "year": "2001"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "raw_citation": "Pryor SP, Madeo AC, Reynolds JC, Sarlis NJ, Arnos KS, Nance WE, Yang Y, Zalewski CK, Brewer CC, Butman JA, Griffith AJ. SLC26A4/PDS genotypephenotype correlation in hearing loss with enlargement of the vestibular aqueduct (EV A): evidence that Pendred syndrome and non-syndromic EVA are distinct clinical and genetic entities. J Med Genet. 2005; 42:159-165.",
+      "year": "2005"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "raw_citation": "Madden C, Halsted M, Meinzen-Derr J, Bardo D, Boston M, Arjmand E, Nishimura C, Yang T, Benton C, Das V, Smith R, Choo D, Greinwald J. The Influence of Mutations in the SLC26A4 Gene on the Temporal Bone in a Population With Enlarged Vestibular Aqueduct. Archives of Otolaryngology-Head & Neck Surgery. 2007; 133:162168.",
+      "year": "2007"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "raw_citation": "Nishio A, Ito T, Cheng H, Fitzgerald TS, Wangemann P, Griffith AJ. Slc26a4 expression prevents fluctuation of hearing in a mouse model of large vestibular aqueduct syndrome. Neuroscience. 2016; 329:74-82.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "raw_citation": "Legan PK, Richardson GP. Extracellular matrix and cell adhesion molecules in the developing inner ear. Semin Cell Dev Biol. 1997; 8:217-224.",
+      "year": "1997"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "raw_citation": "Cosgrove D, Gratton MA. Extracellular matrix and inner ear development and function. In: Advances in Developmental Biology (Tuan RS, Lo CW, eds.). Elsevier Academic Press, San Diego, CA, USA, 2005; pp. 169201.",
+      "year": "2005"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "raw_citation": "Kim DK, Kim JA, Park J, Niazi A, Almishaal A, Park S. The release of surface-anchored α-tectorin, an apical extracellular matrix protein, mediates tectorial membrane organization. Sci Adv. 2019; 5:eaay6300.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "raw_citation": "Jayadev R, Morais MRPT, Ellingford JM, et al . A"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "raw_citation": "basement membrane discovery pipeline uncovers network complexity, regulators, and human disease associations. Sci Adv. 2022; 8:eabn2265.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43.",
+      "raw_citation": "Chiarugi P, Giannoni E. Anoikis: A necessary death program for anchorage-dependent cells. Biochem Pharmacol. 2008; 76:1352-1364.",
+      "year": "2008"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44.",
+      "raw_citation": "Montcouquiol M, Kelley MW. Development and Patterning of the Cochlea: From Convergent Extension to Planar Polarity. Cold Spring Harb Perspect Med. 2020; 10:a033266.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45.",
+      "raw_citation": "Driver EC, Kelley MW. Development of the cochlea. Development. 2020; 147: dev162263.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46.",
+      "raw_citation": "Mastrogiovanni M, Juzans M, Alcover A, Di Bartolo V. Coordinating Cytoskeleton and Molecular Traffic in T Cell Migration, Activation, and Effector Functions. Front Cell Dev Biol. 2020; 8:591348.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47.",
+      "raw_citation": "Sarris M, Masson J-B, Maurin D, Van der Aa LM, Boudinot P, Lortat-Jacob H, Herbomel P. Inflammatory chemokines direct and restrict leukocyte migration within live tissues as glycan-bound gradients. Curr Biol. 2012; 22:2375-2382.",
+      "year": "2012"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48.",
+      "raw_citation": "Hu T, Liu C-H, Lei M, Zeng Q, Li L, Tang H, Zhang N. Metabolic regulation of the immune system in health and diseases: mechanisms and interventions. Signal Transduct Target Ther. 2024; 9:268.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49.",
+      "raw_citation": "Ye M, Zhang C, Ding D, Chen GD, Adler HJ, Sharaf R, Hu BH. Organ of Corti macrophages: a distinct group of cochlear macrophages with potential roles in supporting cell degeneration and survival. Front Immunol. 2025; 16:1617146.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50.",
+      "raw_citation": "Royaux IE, Wall SM, Karniski LP, Everett LA, Suzuki K, Knepper MA, Green ED. Pendrin, encoded by the Pendred syndrome gene, resides in the apical region of renal intercalated cells and mediates bicarbonate secretion. Proc Natl Acad Sci U S A. 2001; 98:4221-4226.",
+      "year": "2001"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51.",
+      "raw_citation": "Chambrey R, Eladari D. Novel insight on physiological regulation of the Cl -/HCO3 -exchanger pendrin. Am J Physiol Renal Physiol. 2023; 324:F431-F432.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52.",
+      "raw_citation": "Wagner CA, Finberg KE, Stehberger PA, Lifton RP, Giebisch GH, Aronson PS, Geibel JP. Regulation of the expression of the Cl -/anion exchanger pendrin in mouse kidney by acid-base status. Kidney International. 2002; 62:2109-2117.",
+      "year": "2002"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53.",
+      "raw_citation": "Chai R, Kuo B, Wang T, Liaw EJ, Xia A, Jan TA, Liu Z, Taketo MM, Oghalai JS, Nusse R, Zuo J, Cheng AG. Wnt signaling induces proliferation of sensory precursors in the postnatal mouse cochlea. Proc Natl Acad Sci U S A. 2012; 109:8167-8172.",
+      "year": "2012"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54.",
+      "raw_citation": "Shi F, Hu L, Jacques BE, Mulvaney JF, Dabdoub A, Edge AS. β-Catenin is required for hair-cell differentiation in the cochlea. J Neurosci. 2014; 34:6470-6479.",
+      "year": "2014"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55.",
+      "raw_citation": "Santi PA, Aldaya R, Brown A, Johnson S, Stromback T, Cureoglu S, Rask-Andersen H. Scanning Electron Microscopic Examination of the Extracellular Matrix in the Decellularized Mouse and Human Cochlea. J Assoc Res Otolaryngol. 2016; 17:159-171.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56.",
+      "raw_citation": "Ding D, Chen GD, Zhang C, Ye M, Adler HJ, Sharaf R, Naldrett K, Mittal T, Hu BH. Supporting cell involvement in cochlear damage and repair: Novel insights from a quantitative analysis of cyclodextrin-induced ototoxicity in mice. Hear Res. 2025; 459:109201.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57.",
+      "raw_citation": "Bouzid A, Smeti I, Dhouib L, Roche M, Achour I, Khalfallah A, Gibriel AA, Charfeddine I, Ayadi H, Lachuer J, Ghorbel A, Petit C, Masmoudi S. Downexpression of P2RX2, KCNQ5, ERBB3 and SOCS3"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58.",
+      "raw_citation": "through DNA hypermethylation in elderly women with presbycusis. Biomarkers. 2018; 23:347-356.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59.",
+      "raw_citation": "Faletra F, Girotto G, D'Adamo AP, Vozzi D, Morgan A, Gasparini P. A novel P2RX2 mutation in an Italian family affected by autosomal dominant nonsyndromic hearing loss. Gene. 2014; 534:236-239.",
+      "year": "2014"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60.",
+      "raw_citation": "Hosoya M, Ueno M, Shimanuki MN, Nishiyama T, Oishi N, Ozawa H. Cell-specific α and β subunit expression patterns of Na(+)/K(+)-ATPases in the common marmoset cochlea. Sci Rep. 2025; 15:26814.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R61",
+      "label": "61.",
+      "raw_citation": "Hanada Y, Nakamura Y, Ishida Y, Takimoto Y, Taniguchi M, Ozono Y, Koyama Y, Morihana T, Imai T, Ota Y, Sato T, Inohara H, Shimada S. Epiphycan is specifically expressed in cochlear supporting cells and is necessary for normal hearing. Biochem Biophys Res Commun. 2017; 492:379-385.",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R62",
+      "label": "62.",
+      "raw_citation": "Korrapati S, Taukulis I, Olszewski R, Pyle M, Gu S, Singh R, Griffiths C, Martin D, Boger E, Morell RJ, Hoa M. Single Cell and Single Nucleus RNA-Seq Reveal Cellular Heterogeneity and Homeostatic Regulatory Networks in Adult Mouse Stria Vascularis. Front Mol Neurosci. 2019; 12:316.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R63",
+      "label": "63.",
+      "raw_citation": "Ryals M, Morell RJ, Martin D, Boger ET, Wu P, Raible DW, Cunningham LL. The Inner Ear Heat Shock Transcriptional Signature Identifies Compounds That Protect Against Aminoglycoside Ototoxicity. Front Cell Neurosci. 2018; 12:445.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R64",
+      "label": "64.",
+      "raw_citation": "Liu H, Chen L, Giffen KP, Stringham ST, Li Y, Judge PD, Beisel KW, He DZZ. Cell-Specific Transcriptome Analysis Shows That Adult Pillar and Deiters' Cells Express Genes Encoding Machinery for Specializations of Cochlear Hair Cells. Front Mol Neurosci. 2018; 11:356.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R65",
+      "label": "65.",
+      "raw_citation": "Kim YJ, Ibrahim LA, Wang SZ, Yuan W, Evgrafov OV, Knowles JA, Wang K, Tao HW, Zhang LI. EphA7 regulates spiral ganglion innervation of cochlear hair cells. Dev Neurobiol. 2016; 76:452-469.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R66",
+      "label": "66.",
+      "raw_citation": "Lei S, Huang L, Liu Y, Xu L, Wang D, Yang L. Association between polymorphisms of heat-shock protein 70 genes and noise-induced hearing loss: A meta-analysis. PLoS One. 2017; 12:e0188539.",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R67",
+      "label": "67.",
+      "raw_citation": "Mukherjee U, Reddy PH. Gut-brain relationship in dementia and Alzheimer's disease: Impact on stress and immunity. Ageing Res Rev. 2025; 111:102843.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R68",
+      "label": "68.",
+      "raw_citation": "Wang X, Wang Y, Yang L, Zhang Y, Yang L. TREM2 + macrophages: a key role in disease development. Front Immunol. 2025; 16:1550893.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R69",
+      "label": "69.",
+      "raw_citation": "Ishihara K, Okuyama S, Kumano S, Iida K, Hamana H, Murakoshi M, Kobayashi T, Usami S, Ikeda K, Haga Y, Tsumoto K, Nakamura H, Hirasawa N, Wada H. Salicylate restores transport function and anion exchanger activity of missense pendrin mutations. Hear Res. 2010; 270:110118.",
+      "year": "2010"
+    },
+    {
+      "ref_id": "R70",
+      "label": "70.",
+      "raw_citation": "Backliwal G, Hildinger M, Kuettel I, Delegrange F, Hacker DL, Wurm FM. Valproic acid: a viable alternative to sodium butyrate for enhancing protein expression in mammalian cell cultures. Biotechnol Bioeng. 2008; 101:182-189.",
+      "year": "2008"
+    },
+    {
+      "ref_id": "R71",
+      "label": "71.",
+      "raw_citation": "Kim MA, Kim SH, Ryu N, Ma JH, Kim YR, Jung J, Hsu CJ, Choi JY, Lee KY, Wangemann P, Bok J, Kim UK. Gene therapy for hereditary hearing loss by SLC26A4 mutations in mice reveals distinct functional roles of pendrin in normal hearing. Theranostics. 2019; 9:71847199.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R72",
+      "label": "72.",
+      "raw_citation": "Takeda H, Miwa T, Kim MY, Choi BY, Orita Y, Minoda R. Prenatal electroporation-mediated gene transfer restores"
+    },
+    {
+      "ref_id": "R73",
+      "label": "73.",
+      "raw_citation": "Slc26a4 knock-out mouse hearing and vestibular function. Scientific Reports. 2019; 9:17979.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R74",
+      "label": "74.",
+      "raw_citation": "Feng P, Xu Z, Chen J, et al . Rescue of mis-splicing of a common SLC26A4 mutant associated with sensorineural hearing loss by antisense oligonucleotides. Mol Ther Nucleic Acids. 2022; 28:280-292.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R75",
+      "label": "75.",
+      "raw_citation": "Tsai YH, Wu PY, Chuang YC, et al . Postnatal Slc26a4 gene therapy improves hearing and structural integrity in a hereditary hearing loss model. J Clin Invest. 2026. doi:10.1172/JCI193812.",
+      "doi": "10.1172/JCI193812",
+      "year": "2026"
+    },
+    {
+      "ref_id": "R76",
+      "label": "76.",
+      "raw_citation": "Received February 25, 2026; Revised March 17, 2026; Accepted March 19, 2026.",
+      "year": "2026"
+    },
+    {
+      "ref_id": "R77",
+      "label": "77.",
+      "raw_citation": "Address correspondence to:"
+    },
+    {
+      "ref_id": "R78",
+      "label": "78.",
+      "raw_citation": "Lihui Huang and Shuo Wang, Department of OtolaryngologyHead and Neck Surgery, Beijing Tongren Hospital, Capital Medical University, Beijing 100730, P.R. China; Beijing Institute of Otolaryngology, Beijing, 100005, P. R. China; Key Laboratory of Otolaryngology Head and Neck Surgery (Capital Medical University), Ministry of Education, Beijing, 100005, P. R. China."
+    },
+    {
+      "ref_id": "R79",
+      "label": "79.",
+      "raw_citation": "E-mail: huanglihui@ccmu.edu.cn (LH); shannonwsh@aliyun. com (SW)"
+    },
+    {
+      "ref_id": "R80",
+      "label": "80.",
+      "raw_citation": "Released online in J-STAGE as advance publication March 21, 2026.",
+      "year": "2026"
+    }
+  ]
+}

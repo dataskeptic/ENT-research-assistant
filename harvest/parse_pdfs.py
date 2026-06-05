@@ -128,6 +128,11 @@ _FAKE_TITLE_WORDS = {
 }
 
 
+def _is_doi_stem(text: str) -> bool:
+    """Return True if *text* looks like a DOI-encoded filename stem."""
+    return bool(_DOI_STEM_RE.match(text.strip()))
+
+
 def _clean(text: str) -> str:
     return _WHITESPACE_RE.sub(" ", text).strip()
 
@@ -135,6 +140,8 @@ def _clean(text: str) -> str:
 def _is_fake_title(text: str) -> bool:
     stripped = text.strip()
     if stripped.lower() in _FAKE_TITLE_WORDS:
+        return True
+    if _is_doi_stem(stripped):
         return True
     words = stripped.split()
     if len(words) <= 3 and len(stripped) < 40:
@@ -603,13 +610,17 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
 
     doi = meta.get("doi", "")
 
+    # Treat DOI-stem titles as missing — they are just filename artefacts
+    title_is_real = meta.get("title") and not _is_doi_stem(meta["title"])
+
     # Step 2: CrossRef
-    if doi and not all([meta.get("title"), meta.get("journal"), meta.get("year")]):
+    if doi and not all([title_is_real, meta.get("journal"), meta.get("year")]):
         cr = _crossref_lookup(doi)
         if cr:
             log.debug("CrossRef filled: %s", list(cr.keys()))
-        if not meta.get("title") and cr.get("title"):
+        if not title_is_real and cr.get("title"):
             meta["title"] = cr["title"]
+            title_is_real = True
         if not meta.get("journal") and cr.get("journal"):
             meta["journal"] = cr["journal"]
         if not meta.get("year") and cr.get("year"):
@@ -619,7 +630,7 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
 
     # Step 3: PubMed (title + pmid + pmc_id)
     needs_pubmed = doi and (
-        not meta.get("title")
+        not title_is_real
         or not meta.get("pmid")
         or not meta.get("pmc_id")
     )
@@ -627,15 +638,16 @@ def _enrich_metadata(meta: dict, pdf_path: Path, sections: list[dict]) -> dict:
         pm = _pubmed_lookup(doi)
         if pm:
             log.debug("PubMed filled: %s", list(pm.keys()))
-        if not meta.get("title") and pm.get("title"):
+        if not title_is_real and pm.get("title"):
             meta["title"] = pm["title"]
+            title_is_real = True
         if not meta.get("pmid") and pm.get("pmid"):
             meta["pmid"] = pm["pmid"]
         if not meta.get("pmc_id") and pm.get("pmc_id"):
             meta["pmc_id"] = pm["pmc_id"]
 
     # Step 4: Abstract text – last resort title
-    if not meta.get("title"):
+    if not title_is_real:
         abs_title = _title_from_abstract(sections)
         if abs_title:
             meta["title"] = abs_title
@@ -824,8 +836,8 @@ def parse_pdf(pdf_path: str | Path) -> dict:
     meta, sections = _promote_first_header_section(meta, sections)
     meta = _enrich_metadata(meta, pdf_path, sections)
 
-    if not meta["title"]:
-        meta["title"] = pdf_path.stem
+    if not meta["title"] or _is_doi_stem(meta["title"]):
+        meta["title"] = meta.get("doi") or _doi_from_stem(pdf_path.stem) or pdf_path.stem
 
     meta["full_text_available"] = full_text_available
     meta["section_count"] = len(sections)
@@ -904,8 +916,8 @@ def process_folder(
             meta, sections = _promote_first_header_section(meta, sections)
             meta = _enrich_metadata(meta, pdf_path, sections)
 
-            if not meta["title"]:
-                meta["title"] = pdf_path.stem
+            if not meta["title"] or _is_doi_stem(meta["title"]):
+                meta["title"] = meta.get("doi") or _doi_from_stem(pdf_path.stem) or pdf_path.stem
 
             meta["full_text_available"] = full_text_available
             meta["section_count"] = len(sections)

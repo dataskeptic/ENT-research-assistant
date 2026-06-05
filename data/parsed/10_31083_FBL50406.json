@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "title": "Epithelial SERPINB2 Overexpression Contributes to Impaired Fibrinolysis in Chronic Rhinosinusitis With Nasal Polyps via tPA Downregulation",
+    "authors": [
+      "Ying Zhu",
+      "Jiayao Zhou",
+      "Shiyao Zhang",
+      "Weitian Zhang",
+      "Zhipeng Li"
+    ],
+    "journal": "Frontiers in Bioscience-Landmark",
+    "year": "2026",
+    "doi": "10.31083/FBL50406",
+    "pmc_id": "",
+    "pmid": "42216541",
+    "full_text_available": true,
+    "section_count": 23,
+    "reference_count": 32
+  },
+  "sections": [
+    {
+      "section": "Abstract",
+      "text": "Background : Chronic rhinosinusitis with nasal polyps (CRSwNP) is characterized by persistent tissue remodeling, but the mechanisms underlying impaired fibrinolysis were not fully understood. SERPIN family B member 2 (SERPINB2/plasminogen activator inhibitor type 2 [PAI-2]) is a known inhibitor of tissue plasminogen activator (tPA). However, its role in CRSwNP pathogenesis remains unclear. This study investigated whether SERPINB2 contributes to fibrinolytic dysfunction in CRSwNP. Methods : tPA and SERPINB2 expression levels were assessed in nasal polyp and control turbinate tissues using qRT-PCR, Western blot, and immunofluorescence. Primary human nasal epithelial cells were stimulated with IFNγ , IL-13, or IL-17A to evaluate cytokine-mediated regulation. The direct effects of SERPINB2 on tPA expression were examined using recombinant protein treatment and siRNA-mediated knockdown. tPA enzymatic activity and fibrinolytic function were measured using a fluorometric substrate assay and D-dimer ELISA, respectively. Results : tPA expression was significantly reduced in nasal polyp tissues compared to control turbinate and inversely correlated with SERPINB2 levels. Immunofluorescence analysis revealed decreased tPA-positive and increased SERPINB2-positive cells in the nasal epithelium. Both the Th1 cytokine IFNγ and the Th2 cytokine IL-13 downregulated tPA while upregulating SERPINB2 in primary nasal epithelial cells, whereas IL-17A showed no significant effect. Notably, recombinant SERPINB2 dose-dependently suppressed epithelial tPA expression, while SERPINB2 knockdown rescued cytokine-induced tPA downregulation. Functionally, SERPINB2 inhibited tPA enzymatic activity in a dose-dependent manner and significantly impaired fibrinolytic function. Conclusions : This study identifies a novel SERPINB2-tPA regulatory axis in nasal epithelial cells. The convergent regulation by both Th1 and Th2 cytokines suggests that fibrinolytic dysfunction occurs across different CRSwNP inflammatory endotypes. These findings provide mechanistic insights into fibrin accumulation in nasal polyps and identify SERPINB2 as a potential therapeutic target for the prevention of polyp formation and recurrence. Keywords: rhinosinusitis; nasal polyps; plasminogen activator inhibitor 2; tissue plasminogen activator; fibrinolysis",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "Chronic rhinosinusitis with nasal polyps (CRSwNP) is an inflammatory condition characterized by outgrowth of sinonasal tissue [1]. According to the degree of eosinophilic infiltration, CRSwNP can be further divided into eosinophilic CRSwNP (eCRSwNP) and noneosinophilic CRSwNP (neCRSwNP) [2]. The eCRSwNP phenotype is characterized by predominant Th2 immune responses, while neCRSwNP displays a heterogeneous inflammatory profile involving Th1, Th2, and Th17 pathways [3]. Regardless of these distinct immunological patterns, both subtypes demonstrate substantial subepithelial fibrin accumulation [4]. Fibrin degradation is facilitated by plasmin, which is generated from plasminogen upon cleavage by either urokinase plasminogen activator (uPA) or tissue plasminogen activator (tPA) [5]. Previous reports have shown significant downregulation of tPA, but not uPA, in both eCRSwNP and neCRSwNP patients [6]. Exposure to both Th1 and Th2 inflammatory mediators has been shown to downregulate tPA in cultured nasal epithelial cells [7]. However, the mechanisms underlying their regulation in CRSwNPremainpoorly understood. Elucidating the mechanisms driving fibrin accumulation in CRSwNP could lead to improved therapeutic strategies. SERPIN family B member 2 (SERPINB2), also known as plasminogen activator inhibitor type 2 (PAI-2), is a coagulation factor that inactivates uPA and tPA [8]. Previous studies have shown that SERPINB2 is dramatically elevated in bronchial epithelial cells of asthmatic patients and is positively associated with pivotal clinical markers, such as FEV1, FeNO, eosinophil counts, and asthma severity [9]. Single-cell RNA sequencing analysis has identified SERPINB2 as one of the core upregulated genes in human bronchial epithelial cells after segmental allergen challenge [10]. We have previously shown that SERPINB2 upregulated by IL-13 promotes the expression of 15-lipoxygenase- 1 (15LO1), CCL26 and iNOS through activation of the STAT6 pathway in nasal polyp epithelial cells [11]. We also reported that elevated SERPINB2 in allergic rhinitis patients regulates MUC5AC expression via STAT6 signaling in nasal epithelial cells [12]. Based on these findings, we hypothesize that elevated SERPINB2 in nasal epithelial cells may suppress the expression and activity of tPA, thereby contributing to fibrin deposition in nasal polyps. Totest this hypothesis, SERPINB2 and tPA expression were analyzed in nasal polyp (NP) tissues from CRSwNP patients and turbinate tissues from healthy controls. Their colocalization was examined by immunofluorescence. Using air-liquid interface (ALI) cultures of primary nasal epithelial cells, the regulatory effects of SERPINB2 on tPA were examined through cytokine stimulation, recombinant protein treatment, and RNA interference. tPA enzymatic activity and fibrinolytic function were measured by fluorometric assays and D-dimer ELISA. Our results demonstrated that increased SERPINB2 in nasal polyp epithelial cells suppresses tPA expression and reduces tPA activity in CRSwNP.",
+      "order": 1
+    },
+    {
+      "section": "2.1 Participants",
+      "text": "The Ethical Committee of Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine granted approval for this investigation, and all subjects provided written informed consent prior to participation. The study cohort comprised 20 eCRSwNP patients, 25 neCRSwNP patients, and 20 healthy controls (HCs) ( Supplementary Table 1 ). CRSwNP classification adhered to the EPOS2020 criteria. Eosinophilic CRSwNP was defined as tissue eosinophil counts of ≥ 10 per high-power field ( × 400), while counts below this threshold were classified as non-eosinophilic CRSwNP. Control specimens consisted of inferior turbinate (IT) or middle turbinate (MT) biopsies obtained during septoplasty or skull base surgeries in patients without sinonasal pathology. Additional methodological details are provided in the Supplementary Material .",
+      "order": 2
+    },
+    {
+      "section": "2.2 Multiplex Immunohistochemistry Staining",
+      "text": "Multiplex immunohistochemistry (mIHC) was performed using the TSA Fluorescence Staining Kit on formalin-fixed paraffin-embedded tissue sections. Briefly, tissue sections underwent deparaffinization, antigen retrieval, and sequential antibody staining. Primary antibodies against tPA and SERPINB2 were sequentially applied, followed by HRP-conjugated secondary antibodies and TSA-fluorophore amplification. Microwave treatment was performed between each cycle to strip antibodies. Nuclei were counterstained with DAPI. Confocal images were acquired using Zeiss LSM 780 confocal laser scanning microscope. SERPINB2 + and tPA + cells within the epithe- lial compartment were manually counted in 5 randomly selected fields (200 × magnification) per sample.",
+      "order": 3
+    },
+    {
+      "section": "2.3 Primary Nec Ali Culture And Short Interfering Rna Transfection",
+      "text": "Turbinate epithelial scrapings (IT/MT) from control subjects served as the source for primary NEC isolation. All primary NECs were isolated and cultured following established protocols. Cell identity was confirmed by characteristic epithelial morphology under microscopy and tested negative for mycoplasma. Cultures were maintained under ALI conditions following established protocols. Inflammatory stimuli (IFNγ , IL-13, IL-17A) or SERPINB2 recombinant protein were administered via the basolateral compartment for 48 hours to recapitulate the subepithelial inflammatory microenvironment. Basolateral supernatants were subsequently collected for tPA quantification by ELISA. Gene silencing was achieved through DsiRNA delivery via Lipofectamine RNAiMAX-mediated transfection. Comprehensive protocols are provided in the Supplementary Material .",
+      "order": 4
+    },
+    {
+      "section": "2.4 Quantitative Real-Time Pcr",
+      "text": "Gene expression was quantified using SYBR Greenbased qRT-PCR on a Roche LightCycler 480 II system. β -Glucuronidase (GUSB) served as the endogenous reference gene for normalization. Relative mRNA levels were calculated using the 2 -∆∆ Ct method. Primer sequences and detailed protocols are provided in Supplementary Table 2 .",
+      "order": 5
+    },
+    {
+      "section": "2.5 Western Blotting",
+      "text": "Fresh tissue samples and cell lysates underwent 10% SDS-PAGE separation followed by immunoblotting with antibodies against tPA, SERPINB2, and GAPDH. Band intensities were quantified using ImageJ software (version 1.54j; National Institutes of Health, Bethesda, MD, USA). Detailed procedures are provided in the Supplementary Material .",
+      "order": 6
+    },
+    {
+      "section": "2.6 Elisa",
+      "text": "tPA protein levels in culture media were measured with quantitative sandwich ELISA kits (DTPA00, R&D Systems, Minneapolis, MN, USA) according to the manufacturer's instructions.",
+      "order": 7
+    },
+    {
+      "section": "2.7 Tpa Enzymatic Activity Assay",
+      "text": "tPA enzymatic activity was measured fluorometrically using the synthetic substrate Z-GGR-AMC (carbobenzoxyGly-Gly-Arg-7-amino-4-methylcoumarin). Recombinant human tPA (5 nM) was pre-incubated with increasing concentrations of recombinant SERPINB2 (0, 6.25, 25, or 100 nM) for 30 min at 37 °C to allow SERPINB2-tPA complex formation. Following pre-incubation, Z-GGR-AMC substrate was added to a final concentration of 100 µM. Fluorescence (Ex/Em 360/460 nm) was continuously monitored for 60 min at 37 °C using a microplate reader. The rate of AMCrelease, reflecting tPA proteolytic activity, was quantified as relative fluorescence units (RFU) over time.",
+      "order": 8
+    },
+    {
+      "section": "2.8 Fibrinolysis Functional Assay",
+      "text": "To assess the functional impact of SERPINB2 on fibrinolysis, human serum was treated with recombinant tPA (50 nM), recombinant SERPINB2 (0, 6.25, 25, or 100 nM), or both and incubated at 37 °C for 300 s. The higher tPA concentration (50 nM vs. 5 nM in the enzymatic assay) was used to overcome endogenous serum protease inhibitors and ensure measurable fibrinolysis. D-dimer levels, a specific marker of fibrin degradation, were quantified by ELISA according to the manufacturer's instructions.",
+      "order": 9
+    },
+    {
+      "section": "2.9 Statistical Analysis",
+      "text": "Statistical analyses and figure generation were performed using GraphPad Prism software (version 8.0; GraphPad Software, San Diego, CA, USA). Parametric data are presented as mean ± SEM; nonparametric data are presented as median (IQR). Comparisons between two groups were performed using unpaired t -tests or Mann-Whitney U tests based on distribution normality. Multiple-group anal- yses were conducted using one-way ANOVA or KruskalWallis tests. Variable associations were examined using Spearman rank correlation. Statistical significance was defined as p < 0.05.",
+      "order": 10
+    },
+    {
+      "section": "Results",
+      "text": "3.1 tPA Expression Is Reduced in Nasal Polyp Tissues and Inversely Correlates With SERPINB2 To investigate tPA expression in CRSwNP, we first examined PLAT mRNA levels in nasal polyp tissues from patients with eCRSwNP (n = 16) and neCRSwNP (n = 22), compared to HCs (n = 18). qRT-PCR analysis showed that PLAT mRNA levels were significantly reduced in eCRSwNP compared to control subjects, while neCRSwNP exhibited a trend toward reduction that did not reach statistical significance (Fig. 1A). Subgroup analysis showed no significant difference in PLAT expression between asthmatic and non-asthmatic patients within the eCRSwNP group ( Supplementary Fig. 1A ), or between non-asthmatic eCRSwNPandneCRSwNPpatients ( Supplementary Fig. 1B ), suggesting that tPA downregulation in CRSwNP is not confounded by asthma comorbidity. Correlation analysis revealed inverse correlations between PLAT mRNAand SER- PINB2 (Fig. 1B), IFNG (Fig. 1C), and CLC (Fig. 1D) expression in nasal polyp tissues, while no significant correlation was observed between PLAT and IL17A mRNAlevels (Fig. 1E), suggesting that tPA downregulation is associate with both Th1 and Th2, but not Th17, inflammatory mediators. At the protein level, WB analysis confirmed significant downregulation of tPA in both eCRSwNP and neCRSwNP tissues compared to control subjects (Fig. 1F,G).",
+      "order": 11
+    },
+    {
+      "section": "3.2 Nasal Polyp Epithelium Exhibits Decreased Tpa + And Increased Serpinb2 + Cells",
+      "text": "Tofurther characterize tPA and SERPINB2 expression at the cellular level, we performed mIHC on nasal tissue sections. Consistent with the mRNA findings described above, mIHC analysis revealed a significant increase in SERPINB2 + epithelial cells in both eCRSwNP and neCRSwNP tissues compared to control subjects (Fig. 2A,B). Conversely, tPA + epithelial cells were markedly reduced in both polyp endotypes relative to control subjects (Fig. 2A,C). No significant differences in either tPA + or SERPINB2 + epithelial cell counts were observed between eCRSwNPandneCRSwNPgroups(Fig.2B,C). These findings confirm reciprocal changes in tPA and SERPINB2 expression within the nasal polyp epithelium, corroborating the inverse correlation observed at the mRNA level.",
+      "order": 12
+    },
+    {
+      "section": "3.3 Ifnγ And Il-13 Downregulate Tpa While Upregulating Serpinb2 In Primary Nasal Epithelial Cells",
+      "text": "To investigate whether key inflammatory cytokines regulate tPA and SERPINB2 expression in nasal epithelium, we isolated and cultured primary human NECs from healthy donors and stimulated them with Th1 (IFNγ , 10 ng/mL), Th2 (IL-13, 20 ng/mL), and Th17 (IL-17A, 10 ng/mL) cytokines for 48 hours. qRT-PCR analysis revealed that IFNγ and IL-13 significantly downregulated PLAT mRNA expression compared to vehicle controls (Fig. 3A). Conversely, both IFNγ and IL-13 markedly upregulated SERPINB2 mRNA levels (Fig. 3B). In contrast, IL-17A treatment had no significant effect on either PLAT or SERPINB2 mRNA expression (Fig. 3A,B). Consistent with these mRNA findings, ELISA analysis of culture supernatants showed significant reductions in secreted tPA protein following IFNγ and IL-13 treatment (Fig. 3C), while IL-17A had no significant effect. Western blot analysis of cell lysates confirmed decreased intracellular tPA protein (Fig. 3D,E) and increased SERPINB2 protein (Fig. 3D,F) in IFNγ - and IL-13-treated cells compared to vehicle controls. These findings demonstrate that Th1 and Th2 cytokines, but not the Th17 cytokine IL-17A, suppress tPA and induce SERPINB2 expression in nasal epithelial cells, providing a mechanistic link between Th1/Th2 inflammation and the reciprocal tPA/SERPINB2 expression pattern observed in CRSwNP tissues.",
+      "order": 13
+    },
+    {
+      "section": "3.4 Recombinant Serpinb2 Suppresses Epithelial Tpa Expression Dose-Dependently",
+      "text": "To investigate whether SERPINB2 directly regulates tPA expression, we treated primary NECs with recombinant human SERPINB2 protein (0, 10, 25, or 50 nM) for 48 hours. qRT-PCR showed dose-dependent suppression of PLAT mRNAwithincreasing SERPINB2 concentrations (Fig. 4A). ELISA revealed corresponding reductions in secreted tPA protein (Fig. 4B). Western blot confirmed decreased intracellular tPA protein in cell lysates (Fig. 4C,D). These results demonstrate that exogenous SERPINB2 dosedependently suppresses tPA expression, suggesting a potential contribution to impaired fibrinolysis in CRSwNP. Con",
+      "order": 14
+    },
+    {
+      "section": "3.5 Serpinb2 Knockdown Rescues Th1 And Th2 Cytokine-Induced Tpa Downregulation",
+      "text": "To test whether SERPINB2 mediates cytokineinduced tPA suppression, we performed siRNA-mediated SERPINB2 knockdown in primary nasal epithelial cells. Knockdown efficiency was confirmed by Western blot analysis in three independent ALI culture samples ( Supplementary Fig. 2 ). Critically, SERPINB2 knockdown rescued IFNγ -and IL-13-induced PLAT mRNA suppression (Fig. 5A,B). This rescue was confirmed at the protein level for both secreted (Fig. 5C,D) and intracellular (Fig. 5E-G) tPA. Together, these loss-of-function data demonstrate that SERPINB2 is required for cytokinemediated tPA suppression, establishing a causal link between Th1/Th2 inflammatory signaling and impaired tPA expression in CRSwNP.",
+      "order": 15
+    },
+    {
+      "section": "3.6 Serpinb2 Inhibits Tpa Enzymatic Activity And Impairs Fibrinolytic Function In Vitro",
+      "text": "To validate the inhibitory effect of SERPINB2 on tPA activity and fibrinolytic function, we performed in vitro enzymatic activity and fibrinolysis assays. Using a fluoro- genic substrate assay (Fig. 6A), we observed that tPA alone (Sub+tPA) produced robust enzymatic activity, with fluorescence signals reaching approximately 4000 RFU at 300 seconds. Co-incubation with SERPINB2 dose-dependently inhibited tPA activity. At concentrations of 6.25 nM, 25 nM, and 100 nM, SERPINB2 reduced fluorescence signals to approximately 1900, 1100, and 600 RFU, respectively, corresponding to inhibition rates of 55%, 74%, and 86%, respectively. Consistent with these findings, a D-dimer release assay (Fig. 6B) demonstrated that SERPINB2 significantly impaired fibrinolytic function. While tPA alone generated approximately 290 ng/mL D-dimer at 300 seconds, SERPINB2 at 6.25 nM, 25 nM, and 100 nM reduced Ddimer levels to approximately 160, 90, and 0 ng/mL, respectively, representing inhibition rates of 45-69%. These results demonstrate that SERPINB2 directly inhibits tPA enzymatic activity in a dose-dependent manner, thereby impairing fibrinolytic function and potentially contributing to edema formation and fibrin accumulation in CRSwNP.",
+      "order": 16
+    },
+    {
+      "section": "Discussion",
+      "text": "In this study, we identified a novel SERPINB2-tPA regulatory axis in NECs that contributes to fibrin deposition in CRSwNP. Our findings demonstrate that SERPINB2 expression is significantly elevated in NP tissues and inversely correlates with tPA levels, with epithelial cells serving as the primary cellular source of this dysregulation. Importantly, we uncovered a dual inhibitory mechanism whereby SERPINB2notonlydirectly inhibits tPA enzymatic activity through classic SERPIN-mediated protease inhibition, but also suppresses tPA expression at the transcriptional level. This regulation is driven by both Th1 (IFNγ ) and Th2 (IL13) cytokines, suggesting that irrespective of inflammatory endotype, CRSwNP patients may experience convergent impairment of local fibrinolytic capacity. The functional consequence of this SERPINB2-tPA imbalance is severely compromised fibrin degradation, which may create a permissive microenvironment for persistent tissue remodeling and polyp formation. These findings provide a mechanistic explanation for the fibrin accumulation observed in nasal polyps and identify SERPINB2 as a potential therapeutic target for the prevention of polyp development and recurrence. The inverse relationship between SERPINB2 and tPA observed in nasal polyp tissues parallels findings in other fibroproliferative disorders [13,14], suggesting a conserved pathogenic mechanism. Similar dysregulation has been reported in infectious pulmonary disease, chronic obstructive pulmonary disease, and allergic asthma [15-17], where impaired fibrinolysis contributes to excessive extracellular matrix deposition and progressive fibrosis. In the tumor microenvironment, elevated SERPINB2 has been associated with fibrin-rich matrices that promote cancer cell invasion and metastasis [18,19]. However, our study reveals features unique to upper airway disease. Unlike PAI-1, SERPINB2 is highly expressed in nasal polyp epithelium, highlighting the central role of the airway epithelium in local hemostatic balance. The predominant epithelial localization also suggests that environmental triggers (allergens, pathogens, and pollutants) that directly stimulate epithelial cells may initiate the fibrinolytic dysfunction cascade [20]. Furthermore, the convergent regulation by both Th1 and Th2 cytokines distinguishes CRSwNP from other conditions where fibrinolytic impairment is typically associated with a specific inflammatory profile. This finding may explain why nasal polyps develop across different CRSwNP endotypes and whyanti-inflammatory therapies targeting a single cytokine pathway show variable efficacy in preventing polyp recurrence. Perhaps the most significant finding of our study is the discovery that SERPINB2 employs a dual mechanism to drive fibrinolytic dysfunction in CRSwNP. Excessive fibrin deposition is a pathological hallmark of CRSwNP, contributing to tissue remodeling and polyp recurrence [21-23]. The fibrinolytic system, primarily controlled by tPA and its inhibitors, normally maintains tissue homeostasis by clearing fibrin matrices [24]. However, the mechanisms underlying fibrinolytic impairment in nasal polyps have remained poorly understood. Our findings demonstrate that SERPINB2 disrupts this balance through two complementary pathways. Beyond its known function as a direct tPA inhibitor via SERPINmediated enzymatic inactivation, our data reveal a novel transcriptional regulatory role. Recombinant SERPINB2 dose-dependently suppressed tPA expression, while SERPINB2 knockdown rescued cytokine-induced tPA downregulation, providing strong evidence for this previously unrecognized mechanism. This dual inhibitory actionsuppressing tPA gene expression while simultaneously inactivating residual tPA enzymatic activity-creates a synergistic anti-fibrinolytic effect that severely compromises local fibrin clearance in polyp tissues. Whether these two mechanisms interact through feedback loops remains an open question. SERPINB2-mediated inhibition of tPA activity may secondarily alter the local cytokine milieu and reinforce SERPINB2 expression in a feed-forward manner; conversely, tPA may reciprocally regulate SERPINB2 transcription through plasmin-dependent signaling. Elucidating the temporal hierarchy and potential interdependence of these two mechanisms represents an important direction for future investigation. The molecular mechanisms underlying SERPINB2mediated transcriptional suppression of tPA warrant further investigation. Potential mechanisms include: (i) SERPINB2 acting through cell surface receptor-mediated transduction signaling to modulate downstream tran- scriptional activity, consistent with the demonstrated GPER/SERPINB2 signaling axis [25]; (ii) intracellular SERPINB2 interacting with transcription factors at the PLAT promoter, supported by evidence that IRF1 functions as an upstream transcriptional regulator in type 1 inflammatory environments [26]; and (iii) epigenetic modifications of the tPA gene locus, which remain speculative and require dedicated investigation. These possibilities align with the emerging recognition that SERPINs exert functions beyond classical protease inhibition [27,28]. The convergent suppression of tPA by IFNγ and IL-13 is particularly noteworthy: despite engaging distinct upstream pathways (STAT1 vs. STAT6) [11,29], both cytokines coordinately upregulate SERPINB2 and downregulate tPA, implying the existence of shared downstream transcriptional repressors at the PLAT locus, potentially within the JAK/STAT signaling network that operates in CRSwNP [30]. Identifying these convergence points may reveal broadly applicable therapeutic targets across CRSwNP endotypes. Our findings have important translational implications for the management of CRSwNP. First, the epithelial expression of SERPINB2 makes it potentially accessible as a disease biomarker through minimally invasive nasal brush- ing or lavage fluid sampling. Elevated SERPINB2 levels could serve as a surrogate marker of impaired fibrinolytic capacity and identify patients at high risk for polyp recurrence. Second, our knockdown experiments provide proofof-concept that targeting SERPINB2 can restore tPA expression and fibrinolytic function. While therapeutic development would require extensive validation, potential strategies include neutralizing antibodies or small molecule inhibitors targeting the SERPINB2-tPA interaction. Ultimately, defective fibrin clearance and subsequent fibrin overload represent a shared pathogenic pathway underlying edematous changes across CRSwNP endotypes. Interventions targeting fibrinolytic dysfunction could provide treatment benefits independent of endotype by disrupting the self-reinforcing cascade linking fibrin deposition, tissue remodeling, and polyp formation.",
+      "order": 17
+    },
+    {
+      "section": "5. Limitations",
+      "text": "Several limitations of this study should be acknowledged. First, this study relies primarily on in vitro ALI cultures and cross-sectional clinical tissue samples, and lacks in vivo functional validation. Future studies employing animal models with SERPINB2 knockout or epithelial-specific overexpression to assess fibrinolytic activity, fibrin deposition, and polyp formation would provide stronger causal evidence. Second, our in vitro studies utilized healthy control-derived ALI cultures, which may not fully reflect the altered responsiveness of the polyp epithelium or the complex multicellular interactions in nasal polyp tissues. Third, our fibrinolysis assay utilized a serum-based system, which measures tPA-mediated plasminogen activation but does not fully recapitulate the tissue fibrin microenvironment of nasal polyps; future studies incorporating 3D fibrin gel models or ex vivo tissue explants would provide additional spatial and contextual information. Fourth, the clinical findings of this study are based on cross-sectional observations; longitudinal studies correlating SERPINB2 and tPA dynamics with disease progression and treatment response are needed to establish their clinical translational relevance.",
+      "order": 18
+    },
+    {
+      "section": "Conclusion",
+      "text": "This study identifies a novel SERPINB2-tPA regulatory axis that drives fibrinolytic dysfunction in CRSwNP. We demonstrate that SERPINB2 employs a dual inhibitory mechanism-suppressing tPA expression at the transcriptional level while directly inhibiting its enzymatic activity-resulting in severely impaired local fibrinolysis. The convergent upregulation of SERPINB2 by both the Th1 cytokine IFNγ and the Th2 cytokine IL-13 suggests that fibrinolytic impairment occurs across different inflammatory endotypes in CRSwNP. These findings provide mechanistic insights into the fibrin accumulation and persistent tissue remodeling in nasal polyps, and identify SERPINB2 as a promising therapeutic target for the prevention of polyp formation and recurrence.",
+      "order": 19
+    },
+    {
+      "section": "Availability Of Data And Materials",
+      "text": "The data presented in this study are available on request from the corresponding author.",
+      "order": 20
+    },
+    {
+      "section": "Acknowledgment",
+      "text": "We would like to express our sincere gratitude to all patients and healthy volunteers who contributed samples to this study. We also thank all peer reviewers for their constructive opinions and suggestions.",
+      "order": 21
+    },
+    {
+      "section": "Declaration Of Ai And Ai-Assisted Technologies In The Writing Process",
+      "text": "During the preparation of this work, the authors used Claude to improve the grammar, readability, and organization of the manuscript text. After using this tool, the authors reviewed and edited the content as needed and took full responsibility for the content of the publication.",
+      "order": 22
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "raw_citation": "Hellings PW, Alobid I, Anselmo-Lima WT, Bernal-Sprekelsen M, Bjermer L, Caulley L, et al . EUFOREA/EPOS2020 statement on the clinical considerations for chronic rhinosinusitis with nasal polyps care. Allergy. 2024; 79: 1123-1133. https: //doi.org/10.1111/all.15982.",
+      "doi": "10.1111/all.15982",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "raw_citation": "Toppila-Salmi S, Reitsma S, Hox V, Gane S, Eguiluz-Gracia I, Shamji M, et al . Endotyping in Chronic Rhinosinusitis-An EAACI Task Force Report. Allergy. 2025; 80: 132-147. https: //doi.org/10.1111/all.16418.",
+      "doi": "10.1111/all.16418",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "raw_citation": "Xian M, Yan B, Song X, Chen J, Tang J, Jiang Y, et al . Chinese Position Paper on Biologic Therapy for Chronic Rhinosinusitis With Nasal Polyps. Allergy. 2025; 80: 1208-1225. https://doi. org/10.1111/all.16519.",
+      "doi": "10.1111/all.16519",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "raw_citation": "Takabayashi T, Schleimer RP. Formation of nasal polyps: The roles of innate type 2 inflammation and deposition of fibrin. The Journal of Allergy and Clinical Immunology. 2020; 145: 740750. https://doi.org/10.1016/j.jaci.2020.01.027.",
+      "doi": "10.1016/j.jaci.2020.01.027",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "raw_citation": "Kato A, Schleimer RP, Bleier BS. Mechanisms and pathogenesis of chronic rhinosinusitis. The Journal of Allergy and Clinical Immunology. 2022; 149: 1491-1503. https://doi.org/10.1016/j. jaci.2022.02.016.",
+      "doi": "10.1016/j",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "raw_citation": "Takabayashi T, Kato A, Peters AT, Hulse KE, Suh LA, Carter R, et al . Excessive fibrin deposition in nasal polyps caused by fibrinolytic impairment through reduction of tissue plasminogen"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "raw_citation": "activator expression. American Journal of Respiratory and Critical Care Medicine. 2013; 187: 49-57. https://doi.org/10.1164/ rccm.201207-1292OC.",
+      "year": "2013"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "raw_citation": "Chen CL, Yao Y, Pan L, Hu ST, Ma J, Wang ZC, et al . Common fibrin deposition and tissue plasminogen activator downregulation in nasal polyps with distinct inflammatory endotypes. The Journal of Allergy and Clinical Immunology. 2020; 146: 677681. https://doi.org/10.1016/j.jaci.2020.02.010.",
+      "doi": "10.1016/j.jaci.2020.02.010",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "raw_citation": "Wang J, Li J, Zhou L, Hou H, Zhang K. Regulation of epidermal barrier function and pathogenesis of psoriasis by serine protease inhibitors. Frontiers in Immunology. 2024; 15: 1498067. https: //doi.org/10.3389/fimmu.2024.1498067.",
+      "doi": "10.3389/fimmu.2024.1498067",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "raw_citation": "Baos S, Calzada D, Cremades-Jimeno L, de Pedro M, Sastre J, Picado C, et al . Discriminatory Molecular Biomarkers of Allergic and Nonallergic Asthma and Its Severity. Frontiers in Immunology. 2019; 10: 1051. https://doi.org/10.3389/fimmu. 2019.01051.",
+      "doi": "10.3389/fimmu",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "raw_citation": "Alladina J, Smith NP, Kooistra T, Slowikowski K, Kernin IJ, Deguine J, et al . A human model of asthma exacerbation reveals transcriptional programs and cell circuits specific to allergic asthma. Science Immunology. 2023; 8: eabq6352. https: //doi.org/10.1126/sciimmunol.abq6352.",
+      "doi": "10.1126/sciimmunol.abq6352",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "raw_citation": "Luo C, Zhu Y, Zhang S, Zhou J, Mao S, Tang R, et al . Increased SERPINB2 potentiates 15LO1 expression via STAT6 signalling in epithelial cells in eosinophilic chronic rhinosinusitis with nasal polyps. Clinical and Experimental Allergy. 2024; 54: 412-424. https://doi.org/10.1111/cea.14484.",
+      "doi": "10.1111/cea.14484",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "raw_citation": "Li J, Cui Q, Li Z, Zhu Y, Wang J, Chen W. Elevated SerpinB2 regulates MUC5AC expression via STAT6 signaling in nasal epithelial cells in allergic rhinitis. Frontiers in Immunology. 2025; 16: 1669777. https://doi.org/10.3389/fimmu.2025.1669777.",
+      "doi": "10.3389/fimmu.2025.1669777",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "raw_citation": "Di Stefano A, Nucera F, Rosani U, Brun P, Gnemmi I, Maniscalco M, et al . Impaired SERPIN-Protease Balance in the Peripheral Lungs of Stable COPD Patients. International Journal of Molecular Sciences. 2025; 26: 2832. https://doi.org/10.3390/ ijms26072832.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "raw_citation": "Zhao A, Yang Z, Sun R, Grinchuk V, Netzel-Arnett S, Anglin IE, et al . SerpinB2 is critical to Th2 immunity against enteric nematode infection. Journal of Immunology. 2013; 190: 57795787. https://doi.org/10.4049/jimmunol.1200293.",
+      "doi": "10.4049/jimmunol.1200293",
+      "year": "2013"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "raw_citation": "Liu T, Li S, Wang X, Liu M, Wang Y, Ying J, et al . Deciphering the therapeutic effects of Xiyanping injection: insights into pulmonary and gut microbiome modulation, SerpinB2/PAI2 targeting, and alleviation of influenza a virus-induced lung injury. Virology Journal. 2025; 22: 19. https://doi.org/10.1186/ s12985-025-02636-7.",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "raw_citation": "Peters MC, Mekonnen ZK, Yuan S, Bhakta NR, Woodruff PG, Fahy JV. Measures of gene expression in sputum cells can identify TH2-high and TH2-low subtypes of asthma. The Journal of Allergy and Clinical Immunology. 2014; 133: 388-394. https: //doi.org/10.1016/j.jaci.2013.07.036.",
+      "doi": "10.1016/j.jaci.2013.07.036",
+      "year": "2014"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "raw_citation": "Kelly-Robinson GA, Reihill JA, Lundy FT, McGarvey LP, Lockhart JC, Litherland GJ, et al . The Serpin Superfamily and Their Role in the Regulation and Dysfunction of Serine Protease Activity in COPD and Other Chronic Lung Diseases. International Journal of Molecular Sciences. 2021; 22: 6351. https: //doi.org/10.3390/ijms22126351.",
+      "doi": "10.3390/ijms22126351",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "raw_citation": "Lobov S, Ranson M. Molecular competition between plasminogen activator inhibitors type -1 and -2 for urokinase: Implications for cellular proteolysis and adhesion in cancer. Cancer Let-"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "raw_citation": "ters. 2011; 303: 118-127. https://doi.org/10.1016/j.canlet.2011. 01.018.",
+      "doi": "10.1016/j.canlet.2011",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "raw_citation": "Xie JX, Zhang QH, He WY, Liao HL, Wang LB, Wang LJ. SerpinB2 promotes the proliferation of glioma cells by regulating the cell cycle through the Wnt/ β -catenin signaling pathway. Genomics. 2025; 117: 111148. https://doi.org/10.1016/j.ygeno. 2025.111148.",
+      "doi": "10.1016/j.ygeno",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "raw_citation": "Dorscheid D, Gauvreau GM, Georas SN, Hiemstra PS, Varricchi G, Lambrecht BN, et al . Airway epithelial cells as drivers of severe asthma pathogenesis. Mucosal Immunology. 2025; 18: 524-536. https://doi.org/10.1016/j.mucimm.2025.03.003.",
+      "doi": "10.1016/j.mucimm.2025.03.003",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "raw_citation": "Cao PP, Wang BF, Norton JE, Suh LA, Carter RG, Stevens WW, et al . Studies on activation and regulation of the coagulation cascade in chronic rhinosinusitis with nasal polyps. The Journal of Allergy and Clinical Immunology. 2022; 150: 467-476.e1. https://doi.org/10.1016/j.jaci.2022.02.018.",
+      "doi": "10.1016/j.jaci.2022.02.018",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "raw_citation": "Jo A, Choi TG, Han JY, Tabor MH, Kolliputi N, Lockey RF, et al . Age-Related Increase of Collagen/Fibrin Deposition and High PAI-1 Production in Human Nasal Polyps. Frontiers in Pharmacology. 2022; 13: 845324. https://doi.org/10.3389/fpha r.2022.845324.",
+      "doi": "10.3389/fpha",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "raw_citation": "Sakashita M, Takabayashi T, Imoto Y, Homma T, Yoshida K, Ogi K, et al . Retinoic acid promotes fibrinolysis and may regulate polyp formation. The Journal of Allergy and Clinical Immunology. 2022; 150: 1114-1124.e3. https://doi.org/10.1016/j. jaci.2022.05.021.",
+      "doi": "10.1016/j",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "raw_citation": "Yang HW, Park JH, Shin JM, Son HG, Kim TH, Lee SH, et al . CHI3L1 on fibrinolytic system imbalance in chronic rhinosinusitis with nasal polyp. Frontiers in Immunology. 2024; 15: 1410948. https://doi.org/10.3389/fimmu.2024.1410948.",
+      "doi": "10.3389/fimmu.2024.1410948",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "raw_citation": "Cirillo F, Spinelli A, Talia M, Scordamaglia D, Santolla MF, Grande F, et al . Estetrol/GPER/SERPINB2 transduction signaling inhibits the motility of triple-negative breast cancer cells. Journal of Translational Medicine. 2024; 22: 450. https://doi.or g/10.1186/s12967-024-05269-6.",
+      "doi": "10.1186/s12967-024-05269-6",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "raw_citation": "Nazaroff CD, Kienzl M, Schutte CA, LeSuer WE, Ochkur SI, Folmes CDL, et al . IRF1 Is an upstream regulatory transcription factor of eosinophils in type 1 environments. The Journal of Allergy and Clinical Immunology. 2025. https://doi.org/10.1016/j. jaci.2025.11.011. (online ahead of print)",
+      "doi": "10.1016/j",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "raw_citation": "Li X, Guerra S, Ledford JG, Kraft M, Li H, Hastie AT, et al . Low CC16 mRNA Expression Levels in Bronchial Epithelial Cells Are Associated with Asthma Severity. American Journal of Respiratory and Critical Care Medicine. 2023; 207: 438-451. https://doi.org/10.1164/rccm.202206-1230OC.",
+      "doi": "10.1164/rccm.202206-1230OC",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "raw_citation": "Kim SR, Min EK, Lee CM, Park CH, Oh BC, Jung Y, et al . A Biomarker-Driven Ovary-Endometrium Organ-on-a-Chip Mimicking 3D Multicellular Complexity and Menstrual Cyclicity for Predicting Reproductive Toxicity. Advanced Science. 2026; e11098. https://doi.org/10.1002/advs.202511098. (online ahead of print)",
+      "doi": "10.1002/advs.202511098",
+      "year": "2026"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "raw_citation": "Korchagina AA, Shein SA, Muraoka WT, Nguyen J, Chen Q, Tumanova AA, et al . Tofacitinib ameliorates Campylobacterinduced intestinal pathology by suppressing IFN γ producing ILCs and T cells. Mucosal Immunology. 2025; 18: 1098-1112. https://doi.org/10.1016/j.mucimm.2025.06.010.",
+      "doi": "10.1016/j.mucimm.2025.06.010",
+      "year": "2025"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "raw_citation": "Zhuang M, Jiao J, Zhang Q, Pan S, Zhang Y, He T, et al . Ruxolitinib, a novel JAK/STAT-targeted therapy through restoring mucosal homeostasis for chronic rhinosinusitis with nasal polyps. The Journal of Allergy and Clinical Immunology. 2025; 156: 1219-1233. https://doi.org/10.1016/j.jaci.2025.07.020.",
+      "doi": "10.1016/j.jaci.2025.07.020",
+      "year": "2025"
+    }
+  ]
+}

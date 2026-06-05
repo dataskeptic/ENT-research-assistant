@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "title": "FOSL2 drives transcriptional activation of super-enhancerregulated DYNC1H1 to promote hypoxia-induced oral squamous cell carcinoma progression",
+    "authors": [],
+    "journal": "Key words: oral squamous cell carcinoma, hypoxia, super-enhancer, dynein cytoplasmic 1 heavy chain 1, FoS-like 2",
+    "year": "2025",
+    "doi": "10.3892/mmr.2026.13919",
+    "pmc_id": "",
+    "pmid": "42212377",
+    "full_text_available": true,
+    "section_count": 7,
+    "reference_count": 60
+  },
+  "sections": [
+    {
+      "section": "Fosl2 Drives Transcriptional Activation Of Super-Enhancerregulated Dync1H1 To Promote Hypoxia-Induced Oral Squamous Cell Carcinoma Progression",
+      "text": "linYu Jin 1* , JinG ZHanG 2* , WenJinG WanG 1 , nan ZHanG 3 , YanG liu 3 , alin Tian 4 , WeiWei Yin 4 and YonGle Qiu 1 1 department of Stomatology, The Fourth Hospital of Hebei Medical university, Shijiazhuang, Hebei 050000, P.r. china; 2 department of Medical Periodical Press, The Fourth Hospital of Hebei Medical university, Shijiazhuang, Hebei 050000, P.r. china; 3 department of Stomatology, The Second Hospital of Shijiazhuang, Shijiazhuang, Hebei 050000, P.r. china; 4 department of Stomatology, children's Hospital of Hebei Province, Shijiazhuang, Hebei 050000, P.r. china received august 13, 2025; accepted april 24, 2026 doi: 10.3892/mmr.2026.13919 Abstract. Hypoxia is a hallmark of oral squamous cell carcinoma (oScc) and plays a critical role in driving tumor progression. However, the mechanisms by which oScc cells respond to hypoxic signaling to promote malignant phenotypes remain unclear. The present study aimed to identify the key regulatory factors governing hypoxic adaptation in oScc. Based on bulk rna-sequencing (rna-seq) data from The cancer Genome atlas (TcGa) database, hypoxia was identified as a prognostic risk factor for OSCC. Hierarchical clustering revealed 'glycolysis' and 'hypoxia' as the most strongly associated cancer hallmarks. using single-cell rna-seq data from the Gene expression omnibus (Geo) Correspondence to: Professor Yongle Qiu, department of Stomatology, The Fourth Hospital of Hebei Medical university, 12 Health road, Shijiazhuang, Hebei 050000, P.r. china e-mail: qqqyl@hebmu.edu.cn * contributed equally Abbreviations: oScc, oral squamous cell carcinoma; ccK-8, cell counting Kit-8; chiP-qPcr, chromatin immunoprecipitation followed by qPcr; c-index, concordance index; dMeM, dulbecco's Modified eagle Medium; enet, elastic network; FoSl2, FoS-like 2; Geo, Gene expression omnibus; H3K27ac, histone-3 lysine-27 acetylation; hdWGcna, high-dimensional weighted gene co-expression network analysis; Kd, knockdown; lasso, least absolute shrinkage and selection operator; oe, overexpression; qPcr, quantitative Pcr; rFS, recurrence-free survival; scrna-seq, single-cell rna sequencing; Ses, super-enhancers; ssGSea, single-sample gene set enrichment analysis; Stepcox, stepwise cox; Tes, typical enhancers; TcGa, The cancer Genome atlas; uMaP, uniform Manifold approximation and Projection Key words: oral squamous cell carcinoma, hypoxia, super-enhancer, dynein cytoplasmic 1 heavy chain 1, FoS-like 2 database, 104 hypoxia- and glycolysis-associated genes were identified. integration of bulk rna-seq data from TcGa and Geo databases enabled the development of an optimized prognostic model [stepwise cox (backward) + elastic network (α=0.8)] through machine learning and highlighted four core genes: Heparan sulfate proteoglycan 2, immunoglobulin superfamily member 3, dihydrouridine synthase 1-like and dynein cytoplasmic 1 heavy chain 1 (DYNC1H1) . Further analysis of chromatin immunoprecipitation sequencing data from Geo database identified DYNC1H1 as the sole super-enhancer (Se)-regulated gene among these candidates, characterized by hypoxia-responsive upregulation. DYNC1H1 knockdown significantly abrogated hypoxia-induced proliferation, invasion, glucose uptake and lactate production in oScc cells. Hypoxia-responsive transcription factor FoS-like 2 (FoSl2) activated DYNC1H1 transcription by binding to enhancer regions. Functional validation established that the FoSl2/dYnc1H1 axis was a pivotal regulatory hub for hypoxia-driven malignant phenotypes in oScc. overall, DYNC1H1 is an Se-regulated hypoxia-responsive gene that undergoes transcriptional activation via FOSL2-specific binding to typical enhancer and Se regions. The FoSl2/dYnc1H1 axis drives the hypoxia-induced malignant progression of oScc. The present study therefore establishes a novel target for precision therapies targeting the hypoxic tumor microenvironment in oScc.",
+      "order": 0
+    },
+    {
+      "section": "Introduction",
+      "text": "oral squamous cell carcinoma (oScc), a prominent subtype of head and neck squamous cell carcinoma (HnScc), originates in the oral cavity epithelium (1). despite advancements in comprehensive surgery-based therapeutic approaches, the 5-year overall survival rate of patients with oScc remains stagnant at ~50% worldwide (1-3). elucidating the molecular regulatory mechanisms underlying oScc progression is critical for the development of effective targeted therapeutic strategies. Hypoxia is a hallmark of solid tumors (4-6). Patients with hypoxic primary tumors at diagnosis have an elevated risk of local recurrence and distant metastasis (5). Hypoxia is associated with adverse outcomes in various malignancies, including prostate cancer, liver cancer, breast cancer and HnScc (7-11). The hypoxic microenvironment drives malignant phenotypes such as proliferation and invasion by reprogramming the transcriptional landscape of tumor cells (12,13). Furthermore, hypoxia triggers metabolic reprogramming, characterized by enhanced glucose uptake to fuel rapid tumor growth (10,13). Concomitantly, hypoxia increases the glycolytic flux within tumor cells, resulting in excessive lactate production and secretion (10,13). However, the key molecular mechanisms underlying hypoxia-driven progression of oScc require systematic delineation. enhancers are critical cis-regulatory dna elements that modulate target gene expression by recruiting specific transcription factors (14,15). Super-enhancers (Ses) are large clusters of multiple typical enhancers (Tes) characterized by pronounced enrichment of histone modifications, such as histone-3 lysine-27 acetylation (H3K27ac) and master transcription factors, which collectively orchestrate transcriptional programs that define cellular identity (16-18). Ses exhibit notably enhanced transcriptional activation capacity compared with Tes (17,19). However, the regulatory mechanisms underlying the responsiveness of Ses to hypoxia in oScc remain poorly understood. Machine learning-based artificial intelligence technologies enable the construction of data-driven computational frameworks to extract latent patterns from multidimensional data (20,21). in oncology, machine learning is improving cancer research by addressing tumor heterogeneity, deciphering complex molecular regulatory networks and processing massive multi-omics datasets (20-24). However, the deep mining of transcriptomic data based on machine learning faces numerous challenges, particularly in overcoming high dimensionality and model overfitting. To address these challenges, liu et al (25) developed Mime, an open-source integrated machine learning platform tailored for transcriptomic analysis. By systematically evaluating the performance of diverse algorithmic models, Mime optimizes workflows for large-scale feature selection and candidate gene prioritization (25). application of the Mime platform to transcriptomic datasets from oScc provides a robust computational support for mechanistic investigations and therapeutic exploration. The present study aimed to identify key regulators of hypoxic adaptation in oScc by integrating multi-omics analysis, machine learning and experimental validation. The findings could establish the FoSl2/dYnc1H1 axis as a critical driver of the hypoxic adaptation in oScc.",
+      "order": 1
+    },
+    {
+      "section": "Methods",
+      "text": "Single-cell RNA sequencing (scRNA-seq) data processing and analysis. Single-cell transcriptomic analysis was performed using oScc scrna-seq data from the Gene expression omnibus (Geo) database (https://www.ncbi.nlm.nih.gov/geo/) under accession numbers GSe173468 (26), GSe188737 (27) and GSE234933 (28). To define a strict OSCC cohort, sample selection was limited to primary tumors localized in the oral cavity, specifically the tongue, buccal mucosa, floor of mouth, hard palate, alveolar ridge and lip, as verified by clinical metadata. Specimens from extraoral head and neck sites (such as the larynx or pharynx) were discarded. data processing was performed using the Seurat r package (v5.3.0; Posit Software, PBc). Seurat object was constructed using the 'createSeuratobject' function. The 'PercentageFeatureSet' function was employed to calculate the mitochondrial gene percentage per cell. Quality control thresholds were applied to retain cells expressing between 300 and 6,000 detected genes while exhibiting a mitochondrial gene content of <15%. Genes detected in <3 cells were excluded from subsequent analyses. Batch effects were corrected using the Harmony algorithm. Successful integration was confirmed by uniform Manifold approximation and Projection (uMaP) visualization, in which cells were clustered by biological cell type rather than by the dataset of origin, and canonical marker expression patterns for major cell lineages were preserved. The top 3,000 highly variable genes were identified using the 'FindVariableFeatures' function. Principal component analysis was executed with the 'runPca' function. cell clustering analysis was performed on the initial top 20 principal components using the 'Findclusters' function, followed by dimensionality reduction and visualization via uMaP implemented in the 'runuMaP' function. Marker genes defining cell clusters were identified using the 'FindallMarkers' function. cell clusters were annotated based on the expression profiles of canonical marker genes. High-dimensional weighted gene co-expression network analysis (hdWGcna) was performed on scrna-seq data for epithelial cells using the 'hdWGcna' package. Genes expressed in ≥5% of total epithelial cells were selected for metacell matrix construction via the 'MetacellsByGroups' function. The optimal soft-thresholding power was determined using the 'TestSoftPowers' function. Following soft threshold selection, an unsigned topological overlap matrix network was constructed via the 'constructnetwork' function. Module eigengenes were extracted using the 'Moduleeigengenes' function. Spearman's correlation coefficients were calculated to assess the associations between module eigengenes and hypoxia/glycolysis scores, with statistical significance defined as a false discovery rate-corrected P<0.05. Bulk RNA-seq data processing and analysis. Bulk rna-seq data were derived from The cancer Genome atlas (TcGa) Head and neck Squamous cell carcinoma dataset (n=522; http://tcga-data.nci.nih.gov/tcga), in which data from oScc samples, including tongue, buccal mucosa and lip, were extracted and assembled into the TcGa-oScc cohort. a total of 50 cancer-related hallmark scores were quantified using single-sample gene set enrichment analysis (ssGSea) with curated gene sets from the Molecular Signatures database [accession number: H (hallmark gene sets); https://www. gsea-msigdb.org/gsea/msigdb/index.jsp]. Hierarchical clustering analysis was performed based on the hallmark ssGSea scores using the gene set variation analysis algorithm. Kaplan-Meier recurrence-free survival (rFS) curves were generated using the 'survminer' r package. differential gene expression analysis between oScc tissues and normal control tissues was conducted using the 'limma' r package. Spearman's correlation coefficients were computed between gene expression levels using r (v4.3.1). Comprehensive machine learning analysis. The TcGa-oScc cohort was used as the training cohort, while the GSe65858 (HnScc samples; n=270) (29) dataset served as the validation cohort; only samples containing complete survival information were included in either cohort. Hypoxia- and glycolysis-associated genes identified by hdWGcna were used as input features within the Mime machine learning framework (25). Prior to model construction, the expression profiles of the input genes were independently extracted and subjected to Z-score standardization in both training and validation cohorts. This framework integrates 10 distinct algorithms: random survival forests, elastic network (enet), stepwise cox (Stepcox), coxBoost, partial least squares regression for cox, supervised principal components, generalized boosted regression models, survival support vector machine, ridge and least absolute shrinkage and selection operator. Briefly, the 'ML.Dev.Prog.Sig' function was employed to establish combined prognostic models based on the hypoxiaand glycolysis-associated genes using the training cohort (TcGa-oScc cohort), and the resulting models were validated using the independent validation cohort (GSe65858). The performance of the combined models was evaluated based on the concordance index (c-index) within the validation cohort, where a higher C-index signified superior predictive accuracy and reliability. Patients were stratified into high- and low-risk groups based on the median risk score calculated using the combined model with the highest validation c-index. Kaplan-Meier curves depicting rFS were generated to analyze survival outcomes. Core feature genes were identified from the candidate genes using the 'Ml.corefeature.Prog.Screen' function. cox proportional hazards regression was used to calculate hazard ratios and 95% confidence intervals for the core feature genes. Chromatin immunoprecipitation sequencing (ChIP-seq) data processing. H3K27ac chiP-seq data of oScc cells (HSc3 and SaS) were obtained from the GSe205455 dataset (30). reads were aligned to the hg19 reference genome using Bowtie2 (v2.4.1; Ben langmead, Johns Hopkins university), followed by sorting and filtering using the Picard tool to remove unmapped, multimapped and duplicate reads. H3K27ac peaks were identified using the 'findPeaks' function in HoMer (v5.1; http://homer.ucsd.edu/homer/) with -style histone parameter, where adjacent peaks within 12.5 kb were merged. SE and TE classification was performed via the SE tool in the HOMER algorithm, defining points with a tangent slope >1 as SEs, and those with a slope ≤1 as TEs. Visualization of the H3K27ac enrichment profiles was conducted using the integrative Genomics Viewer (https://igv.org). Transcription factor prediction. The Toolkit for cistrome data Browser (http://dbtoolkit.cistrome.org/) was used to identify the putative transcription factors for DYNC1H1 . Cell culture and hypoxia treatment. Human oScc cells (HSc3 and SaS) were obtained from the Japanese collection of research Bioresources cell Bank. cells were cultured in dulbecco's Modified eagle Medium (dMeM; Gibco; Thermo Fisher Scientific, Inc.) supplemented with 10% fetal bovine serum (Gibco; Thermo Fisher Scientific, inc.) and 1% penicillin-streptomycin (100 u/ml penicillin; 100 µg/ml streptomycin) at 37˚C. Under normoxic conditions, cells were maintained in 21% o 2 , 5% co2 and 74% n2. under hypoxic conditions, cells were cultured in 1% o 2 , 5% co2 and 94% n2 for 24 h. Gene knockdown (KD) and overexpression (OE). lentiviral constructs mediating the Kd of dYnc1H1 (Kd-dYnc1H1), oe of dYnc1H1 (oe-dYnc1H1), Kd of FoSl2 (Kd-FoSl2), oe of FoSl2 (oe-FoSl2) and corresponding negative control vectors [Kd-control (ctrl) and oe-ctrl] were purchased from Shanghai GenePharma co., ltd. For oe, the full-length coding sequences of dYnc1H1 and FoSl2 were cloned into the plV-cMV-McS-PGK-Puro lentiviral vector backbone (Shanghai GenePharma co., ltd). The corresponding oe control (oe-ctrl) was the plV-cMV-McS-PGK-Puro backbone without insert. For Kd, short hairpin rna (shrna) sequences targeting dYnc1H1 or FoSl2 were inserted into the plV-u6-shrna-PGK-Puro lentiviral vector (Shanghai GenePharma co., ltd). The Kd control (Kd-ctrl) was the plV-u6-shrna-PGK-Puro backbone inserted with nontargeting shrnas. recombinant lentiviruses were produced using a 3rd generation system. Briefly, 293T cells (cell Bank of the chinese academy of Sciences) were co-transfected with 10 µg of transfer plasmids (plV-cMV-McS-PGK-Puro for oe or plV-u6-shrna-PGK-Puro for Kd; Shanghai GenePharma), 7.5 µg psPaX2 and 2.5 µg pMd2.G using lipofectamine 3000 (Invitrogen; Thermo Fisher Scientific, Inc.) according to the manufacturer's protocol. Transfection was performed at 37˚C for 8 h, after which the medium was replaced. lentiviral particles were harvested from the culture supernatant at 48 h post-transfection, filtered through 0.45-µm membranes, and concentrated by ultracentrifugation. HSc3 and SaS cells were transfected with lentiviral particles at a multiplicity of infection of 10 for 24 h. Stable polyclonal populations were selected using 2 µg/ml puromycin for 7 days and subsequently maintained in dMeM containing 1 µg/ml puromycin. all downstream experiments were performed at least 48 h after the selection process was completed. The efficiency of target gene KD or OE was evalu ated using quantitative Pcr (qPcr) and western blot analyses. The shrna sequences were as follows: Kd-dYnc1H1, sense, 5'-GcaGauaaacccGuGucuu-3', and antisense, 5'-aaG aca cGG Guu uau cuG c-3'; Kd-FoSl2, sense: 5'-GGa uua ucc cGG Gaa cuu u-3', and antisense, 5'-aaa Guu ccc GGG aua auc c-3'; Kd-ctrl, sense, 5'-uuc ucc Gaa cGu Guc acG u-3' and antisense, 5'-acG uGa cac Guu cGG aGa a-3'. Reverse transcription (RT)-qPCR. Total rna from HSc3 and SaS cells was isolated using the Trizol ® reagent (invitrogen; Thermo Fisher Scientific, Inc.), followed by cDNA synthesis using the PrimeScript rT reagent Kit (Takara Bio, inc.) according to the manufacturer's protocol. qPCR amplification was performed on a 7,500 real-Time Pcr System (applied Biosystems; Thermo Fisher Scientific, Inc.) using the SYBR Green qPCR Master Mix Kit (Thermo Fisher Scientific, Inc.) with the following cycling conditions: initial denaturation at 95˚C for 30 sec; 40 cycles of 95˚C for 5 sec and 60˚C for 34 sec, and 95˚C for 15 sec. Relative gene expression was normalized to GaPdH and calculated via the 2 -ΔΔcq method (31). The primer sequences used for qPcr were as follows: dYnc1H1, forward, 5'-TTG GGc acT aGG aaa TTG aTG c-3', and reverse, 5'-Gca GGG TTG aTa cGc cac a-3'; mediator of rna polymerase ii transcription subunit 1 (Med1), forward, 5'-GaG GGc aTc aac aTT TGG Tca-3', and reverse, 5'-aGa TGa GaG ccc aGT cca TTc-3'; rna polymerase ii subunit a (Polr2a), forward, 5'-GGG TGG caT caa aTa ccc aGa-3', and reverse, 5'-aGa cac aGc Gca aaa cTT Tca-3'; SMarcc2, forward, 5'-acT Gcc GaT caa aTG TTT ccT-3', and reverse, 5'-aca GGc aaT TaT TcT Gca cca aG-3'; FoSl2, forward, 5'-caG aaa TTc cGG GTa GaT aTG cc-3', and reverse, 5'-GGT aTG GGT TGG aca TGG aGG-3'; rna polymerase ii subunit B (Polr2B), forward, 5'-aaa GGc TTG GTT aGa caa caG c-3', and reverse, 5'-aTc GTG GcG GTT cTT caa cTT-3'; 5'-3' exoribonuclease 2 (Xrn2), forward, 5'-cac aca TGa acc Gaa cTT Tacc a-3', and reverse, 5'-Gca caa GGa aGa cTa TcG Gca a-3'; mrna-decapping enzyme 1a (dcP1a), forward, 5'-TcT GGa cac aaG caT cTG acG-3', and reverse, 5'-GGG TGG TGa TTT caG GcT GG-3'; aSXl1, forward, 5'-cGc Gcc TGG TaT TaG aaa acT-3', and reverse, 5'-Gca Tcc TTc TTG AGC GTG AAA AG-3'; RING finger protein 2 (RNF2), forward, 5'-caa acG Gaa cTc aac caT Taa Gc-3', and reverse, 5'-cca cTT cTa aGG GcT GTG aTG-3'; peroxisome proliferator-activated receptor δ (PPard), forward, 5'-aGG GcT Gac TGc aaa cGa-3', and reverse, 5'-cTG cca caa TGT cTc GaT GTc-3'; rBPJ, forward, 5'-cGG ccT cca ccT aaa cGa c-3', and reverse, 5'-Tcc aTc cac TGc cca Taa GaT-3'; Myc-associated factor X (MaX), forward, 5'-caa TcT GcG GcT Gac aaa cG-3', and reverse, 5'-Gca cTT Gac cTc Gcc TTc T-3'; GaPdH, forward, 5'-GGa GcG aGa Tcc cTc caa aaT-3', and reverse, 5'-GGc TGT TGT caT acT TcT caT GG-3'. Western blot analysis. HSc3 and SaS cells were lysed in riPa buffer (MilliporeSigma). Protein concentrations were quantified using the Bca Protein assay Kit (Beyotime Biotechnology). Lysates were denatured at 95˚C for 10 min. denatured samples (40 µg per lane) were resolved using 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis and electrotransferred onto polyvinylidene fluoride membranes (MilliporeSigma). Membranes were blocked with 5% skim milk for 2 h at room temperature, followed by overnight incubation at 4˚C with primary antibodies. After washing with TBST (0.1% Tween-20), the membranes were incubated with horseradish peroxidase-conjugated goat anti-rabbit secondary antibody (1:5,000; cat. no. ab205718; abcam) for 1 h at room temperature. Protein bands were visualized using an enhanced chemiluminescence reagent (SuperSignal West Pico PluS Chemiluminescent Substrate; Thermo Fisher Scientific, Inc.). The following primary antibodies were used: anti-dYnc1H1 (1:2,000; cat. no. ab245554; abcam), anti-FoSl2 (1:2,000; cat. no. 19967; cell Signaling Technology, inc.), anti-aSXl1 (1:2,000; cat. no. ab50817; abcam) and anti-GaPdH (1:2,000; cat. no. ab8245; abcam). Chromatin immunoprecipitation followed by qPCR (ChIP-qPCR). HSc3 and SaS cells were crosslinked with 1% formaldehyde for 15 min at room temperature and quenched with 125 mM glycine solution. after washing with phosphate-buffered saline, cells were lysed in lysis buffer and sonicated on ice using a Q700 sonicator (Qsonica llc) for 15 cycles (15 sec on, 45 sec off). The sonicated lysates were immunoprecipitated with anti-H3K27ac (cat. no. ab4729; abcam) and anti-FoSl2 (cat. no. 19967, cell Signaling Technology, Inc.) overnight at 4˚C. Antibody-chromatin complexes were captured by incubation with Protein a/G magnetic beads (Thermo Fisher Scientific, Inc) at 4˚C for 2 h, followed by a series of salt washes (including one wash with low-salt buffer, one wash with high-salt buffer, one wash with LiCl buffer and two final washes with TE buffer). immunoprecipitated chromatin was eluted in elution buffer at 65˚C for 30 min, treated with RNase A and proteinase K, and purified by phenol-chloroform-isoamyl alcohol extraction. Purified DNA was analyzed using qPCR as aforementioned. The following primer sequences were used (based on human genome assembly hg38): Te (chr14: 101948350-101948574), forward, 5'-GTG TGa ccc GTc TGG TGT aG-3', and reverse, 5'-GTc cac GTc aTT GGG aGa GG-3'; Se1 (chr14: 101964657-101964898), forward, 5'-TcT caT cGc Tcc TGG aaG GT-3', and reverse, 5'-aaG Gaa cTT GcG caT cTG cT-3'; Se2 (chr14: 101972663-101972979), forward, 5'-GGa cTG cGc aaT TTc TGT GT-3', and reverse, 5'-aGc cac aca cGa TTa caa ccT-3'; Se3 (chr14: 101979574-101979881), forward, 5'-GaG GGT aac GcT aGT GaG cc-3', and reverse, 5'-TGG cTT TTc Tcc acG cTc aT-3'. Cell Counting Kit-8 (CCK-8) assay. cell proliferation was assessed using the ccK-8 (Beijing Solarbio Science & Technology co., ltd). Briefly, HSc3 and SaS cells were seeded into 96-well plates at a density of 5x10 3 cells/well. at 0, 1, 2 and 3 days post-seeding, 10 µl of ccK-8 solution was added to each well and incubated for 2 h at 37˚C. Absorbance was measured at 450 nm using a microplate reader (Thermo Fisher Scientific, Inc.). Transwell assay. Transwell inserts with an 8 µm pore size (corning, inc.) were pre-coated with Matrigel (Bd Biosciences) and incubated at 37˚C for 1 h to allow polymerization. HSc3 and SaS cells were resuspended in serum-free DMEM (Gibco; Thermo Fisher Scientific, Inc.) and seeded in the upper chambers at 3x10 5 cells/well in 200 µl. The lower chambers contained 600 µl of dMeM supplemented with 10% fetal bovine serum (Gibco; Thermo Fisher Scientific, Inc.). Following 12 h incubation at 37˚C, non-invaded cells were removed from the upper membrane surface. invading cells on the lower membrane surface were fixed with 4% paraformaldehyde for 20 min and stained with 0.1% crystal violet for 30 min at room temperature. The stained cells were quantified by counting five randomly selected fields per membrane under an optical microscope (olympus corporation) at x200 magnification. Glucose uptake and lactate production assay. HSc3 and SaS cells were seeded into 6-well plates at 3x10 6 cells/well and cultured for 48 h at 37˚C. Glucose uptake was quantified using a Glucose uptake assay Kit (cat. no. ab136955; abcam). lactate production was measured using an l-lactate assay Kit (cat. no. ab65331; abcam). Statistical analysis. Quantitative data are presented as mean ± standard deviation from at least three biologically independent experiments. Statistical analyses were performed using r (version 4.3.1; r Foundation for Statistical computing) and GraphPad Prism (version 10.4.0; dotmatics). comparisons between two groups were assessed using unpaired Student's t-tests. Comparisons among ≥3 groups were conducted using one-way analysis of variance followed by Tukey's post hoc test. P<0.05 was considered to indicate a statistically significant difference.",
+      "order": 2
+    },
+    {
+      "section": "Results",
+      "text": "Hypoxia as a risk factor for RFS in OSCC. To delineate the relationships among cancer-related hallmarks, a hierarchical clustering dendrogram of 50 cancer-related hallmark gene sets was generated based on the ssGSea score matrix. The 'hypoxia' and 'glycolysis' hallmark gene sets clustered closely in the dendrogram while maintaining greater distance from other hallmark gene sets such as 'fatty acid metabolism', 'oxidative phosphorylation' and 'bile acid metabolism' (Fig. 1A). Patients were stratified into high- and low-score groups based on the optimal cutoff values derived from hypoxia or glycolysis scores. Kaplan-Meier analysis revealed that patients with higher hypoxia scores had significantly worse rFS (Fig. 1B). although glycolysis scores showed no significant association with RFS in OSCC, a trend toward worse prognosis was observed in patients with high scores (Fig. 1c). collectively, these results indicate that hypoxia is a risk factor for worse rFS in oScc. Single-cell transcriptomic analysis revealed OSCC heterogeneity. unsupervised clustering was performed on single-cell transcriptomic data from 32 oScc tissues by integrating the GSe173468, GSe188737 and GSe234933 datasets (Fig. 2A). A total of nine distinct cell clusters were identified based on the expression of canonical cell type markers (Fig. 2B). Cell clusters were identified using the following marker genes: KrT6a + for epithelial cells, cd3d + for T/natural killer cells, col1a1 + rGS5 for fibroblasts, RGS5 + for pericytes, lYZ + for macrophages, cd79a + for B/plasma cells, irF4 + for dendritic cells, VWF + for endothelial cells, and TPSaB1 + for mast cells (Fig. 2c and d). Given that oScc originates from the oral epithelium (32), subsequent analyses on epithelial cells were focused on. Heparan sulfate proteoglycan 2 (HSPG2), immunoglobulin superfamily member 3 (IGSF3), dihydrouridine synthase 1 like (DUS1L) and DYNC1H1 emerge as the critical hypoxia- and glycolysis-associated genes. To identify the genes associated with hypoxia and glycolysis, hdWGcna was performed on single-cell transcriptomic data from epithelial cells. a co-expression network was constructed using a soft threshold power of 12 (Fig. S1). a total of 18 non-gray modules were identified (Fig. 3A). Subsequently, the correlation between module eigengenes and hypoxia and glycolysis scores was assessed. Modules M11 and M13 exhibited significant associations with both the hypoxia and glycolysis scores, with correlation coefficients higher than those of other modules (Fig. 3B). consequently, M11 and M13 modules were selected as the hypoxia- and glycolysis-associated modules. The 104 genes comprising these two modules were defined as the hypoxia- and glycolysis-associated genes (Table Si). To identify the critical hypoxia- and glycolysis-associated genes, the Mime framework was employed to construct prognostic models based on the 104 genes. The TcGa-oScc cohort served as the training cohort, and the GSe65858 dataset was used as the validation cohort. a total of 117 combined models were evaluated (Fig. S2). These combined models were ranked according to the c-index in the validation cohort, and the top 20 models are shown in Fig. 3c. The 'Stepcox(backward) + enet (α=0.8)' combined model demonstrated superior performance, achieving the highest c-index in the validation cohort (Fig. 3c). risk scores were then calculated based on this optimal combined model. in both the training and validation cohorts, patients in the high-risk group exhibited significantly worse rFS (Fig. 3d). Subsequently, core signatures were selected using multiple algorithms to identify four core genes: HSPG2 , IGSF3 , DUS1L and DYNC1H1 (Fig. 3e and F). To clarify their individual prognostic roles, a cox regression analysis was performed. The results indicated that HSPG2 and dYnc1H1 were risk factors, whereas iGSF3 and duS1l were associated with favorable outcomes (Table Sii). collectively, HSPG2 , IGSF3 , DUS1L and DYNC1H1 were identified as the critical hypoxia- and glycolysis-associated genes. DYNC1H1 is identified as a hypoxia-responsive SE-regulated gene and its KD attenuates hypoxia-induced oncogenic phenotypes in OSCC. To further elucidate the mechanisms regulating the expression of critical hypoxia- and glycolysis-associated genes, the H3K27ac signals at the HSPG2 , IGSF3 , DUS1L and DYNC1H1 loci in HSc3 and SaS cells were analyzed using the GSe205455 dataset. Tes were identified at the HSPG2 , IGSF3 and DUS1L loci in both HSc3 and SaS cells (Fig. 4a). The DYNC1H1 locus contained a Te and an Se in both cell lines (Fig. 4a). Thus, DYNC1H1 was identified as a putative SE-regulated gene, based on the presence of a broad H3K27ac domain. Subsequently, the H3K27ac peaks were profiled flanking the DYNC1H1 locus in HSc3 and SaS cells using the GSe205455 dataset to annotate the Te and Se regions (Fig. 4B). DYNC1H1 expression was significantly elevated in oScc tissues compared with that in normal controls (Fig. 4c). To further demonstrate that DYNC1H1 is an Se-regulated gene responsive to hypoxia, H3K27ac enrichment in the Te and Se regions of DYNC1H1 in oScc cells under normoxic and hypoxic conditions was measured. under normoxic conditions, significant H3K27ac enrichment was observed in the TE and Se regions (Se1-3; Fig. 4d). compared with normoxia, hypoxia significantly increased H3K27ac enrichment in these enhancer regions (Fig. 4d). Furthermore, hypoxia upregulated dYnc1H1 mrna and protein levels in HSc3 and SaS cells compared with hypoxic cells (Fig. 4e and F). To assess the functional role of dYnc1H1 in the hypoxic response of oScc cells, dYnc1H1 was knocked down in HSc3 and SaS cells (Fig. 4G and H; Fig. S3a and B). ccK-8 assays revealed that hypoxia significantly promoted the proliferation of HSc3 and SaS cells, whereas this effect was counteracted by dYnc1H1 Kd, with reversal rates of 129% in HSc3 cells and 125% in SaS cells (Fig. 4i). Transwell assays revealed that hypoxia markedly enhanced the invasive capacity of oScc cells (Fig. 4J). By contrast, hypoxia failed to promote cell invasion upon dYnc1H1 Kd (Fig. 4J). The rescue rate of dYnc1H1 Kd in hypoxia-induced invasion was 99% in both HSc3 and SaS cells (Fig. 4J). Glycolysis is a critical metabolic pathway in tumor cells under hypoxia, characterized by increased glucose uptake 2 and lactate production (10,13). in the present study, glucose uptake and lactate generation under normoxic and hypoxic conditions was measured. compared with normoxic conditions, hypoxia significantly increased glucose uptake, an effect that was partially reversed by dYnc1H1 Kd, with reversal rates of 93% in HSc3 cells and 91% in SaS cells (Fig. 4K). consistently, hypoxia significantly upregulated l-lactate production, which was partially counteracted by dYnc1H1 KD, with reversal efficiencies of 73% in HSC3 cells and 76% in SaS cells (Fig. 4l). Lasso collectively, DYNC1H1 was identified as a hypoxia-respon sive Se-regulated gene, and its Kd attenuated hypoxia-induced oncogenic phenotypes in oScc. FOSL2 is a hypoxia-responsive transcription factor that activates DYNC1H1 transcription by binding to TE and SE regions. To identify hypoxia-responsive transcription factors that potentially regulate DYNC1H1 , potential transcription factors binding to the enhancer regions of DYNC1H1 were predicted, with the top 20 shown in Fig. 5a. The correlation between these transcription factors and dYnc1H1 expression using bulk rna-seq data from the TcGa-oScc dataset was then analyzed. Since Faire was not included in the TcGa-oScc dataset, the remaining 19 transcription factors were analyzed. among these, 12 transcription factors (Med1, Polr2a, SMarcc2, FoSl2, Polr2B, Xrn2, dcP1a, ASXL1, RNF2, PPARD, RBPJ and MAX) were significantly positively correlated with dYnc1H1 expression (Fig. 5B). Thus, these 12 transcription factors were prioritized for further validation based on the strength of their correlation with dYnc1H1 expression. The mrna levels of 12 transcription factors in HSc3 and SaS cells were assessed under normoxic and hypoxic conditions. The transcription of Med1, Polr2a, SMarcc2, Polr2B, dcP1a, rBPJ and MaX remained hypoxia-insensitive in both cell lines (Fig. 5c). Xrn2 and rnF2 transcription was significantly elevated in HSC3 cells under hypoxia but exhibited no significant changes in SaS cells (Fig. 5C). Hypoxia significantly downregulated PPARD transcription in SaS cells but not in HSc3 cells (Fig. 5c). Hypoxia significantly upregulated FOSL2 and ASXL1 transcription in both cell lines (Fig. 5c). Furthermore, hypoxia increased the FoSl2 protein level in both HSc3 and SaS cells (Fig. 5d). Hypoxia elevated the aSXl1 protein level in SaS cells but downregulated it in HSc3 cells (Fig. 5d). To further validate FoSl2-driven transcriptional activation of DYNC1H1 , chiP-qPcr was performed to assess FoSl2 occupancy in the Te and Se regions of DYNC1H1 in oScc cells under normoxic and hypoxic conditions. compared with normoxia, hypoxia significantly increased FOSL2 enrichment in the Te and Se regions of DYNC1H1 in both HSc3 and SaS cells (Fig. 5e). Subsequently, FoSl2 was overexpressed in HSc3 and SaS cells (Fig. 5F and G; Fig. S3G and H). FoSl2 oe upregulated dYnc1H1 mrna and protein levels under normoxic conditions (Fig. 5H and i). collectively, FoSl2 was characterized as a hypoxiaresponsive transcription factor that activates DYNC1H1 transcription by binding to its Te and Se regions. FOSL2/DYNC1H1 axis drives hypoxia-induced proliferation, invasion, glucose uptake and lactate production in OSCC cells. To investigate the functional role of the FoSl2/dYnc1H1 axis under hypoxic conditions, FoSl2 Kd and dYnc1H1 oe in HSc3 and SaS cells was performed (Fig. S3c-F). Furthermore, it was confirmed that under normoxic conditions, FoSl2 was effectively downregulated in the FoSl2 Kd cells, while dYnc1H1 expression was upregulated in the dYnc1H1 oe group compared with their respective controls (Fig. 6a-d). ccK-8 assay demonstrated that the Kd of FoSl2 completely abolished hypoxia-induced proliferation, with an elimination efficiency of 128% in both cell lines (Fig. 6e). The anti-proliferative effect of FoSl2 Kd was partially rescued by dYnc1H1 oe under hypoxia, with rescue rates of 75% in HSc3 cells and 77% in SaS cells (Fig. 6e). Transwell assays revealed that the Kd of FoSl2 completely suppressed hypoxia-induced invasion in both cell lines, with 100% inhibition in both cell lines (Fig. 6F). dYnc1H1 oe under hypoxia led to a near-complete rescue of this inhibitory effect, with rescue rates of 98% in HSc3 cells and 104% in SaS cells (Fig. 6F). The glucose uptake and lactate production in HSc3 and SAS cells was further quantified. FOSL2 KD nearly completely attenuated hypoxia-stimulated glucose uptake, with inhibition rates of 99% in HSc3 cells and 95% in SaS cells (Fig. 6G). dYnc1H1 oe almost completely rescued the inhibitory effect of FoSl2 Kd on glucose uptake under hypoxic conditions, with a rescue rate of 96% in both cell lines (Fig. 6G). Similarly, FoSl2 Kd partially reduced hypoxia-stimulated lactate generation, with inhibition rates of 88% in HSc3 cells and 84% in SaS cells (Fig. 6H). under hypoxic conditions, the reduction in lactate generation caused by FoSl2 Kd was partially reversed by dYnc1H1 oe, with reversal rates of 60% in HSc3 cells and 64% in SaS cells (Fig. 6H). collectively, t hese results i ndicated t hat t he FoSl2/dYnc1H1 axis drove hypoxia-induced proliferation, invasion, glucose uptake and lactate production in oScc cells.",
+      "order": 3
+    },
+    {
+      "section": "Discussion",
+      "text": "The present study revealed that the FoSl2/dYnc1H1 axis critically regulated hypoxic adaptation in oScc. The Se-regulated gene DYNC1H1 , associated with hypoxia and glycolysis, was transcriptionally activated by FoSl2, which promoted the hypoxia-induced malignant phenotypes of oScc. Hypoxia is a hallmark feature of solid malignancies that critically drives tumorigenesis. Heterogeneous intra-tumoral oxygen distribution and heightened oxygen consumption collectively establish hypoxic microenvironments (33,34). Tumor hypoxia has emerged as a pivotal target for novel therapeutic developments as an independent prognostic factor for various types of cancer (33,35). The present study established hypoxia as a potential risk factor for worse prognosis in oScc. Beyond driving key malignant phenotypes, including proliferation, migration and invasion, hypoxia critically reprograms tumor cell metabolism, notably augmenting glycolytic flux (10,13). Consistent with this, the present study revealed immediate adjacency between the 'hypoxia' and 'glycolysis' hallmarks. although elevated glycolysis scores were not significantly associated with RFS in OSCC, a consistent trend toward a worse prognosis was observed. Hypoxia triggers epigenetic, transcriptomic and proteomic remodeling to drive malignant tumor phenotypes (13,36-38). For instance, hypoxia upregulates the transcription factor ceBPd, promoting cell invasion by activating extracellular matrix-integrin mediated eGFr/Pi3K signaling in glioblastoma (39). Hypoxia facilitates immune evasion in triple-negative breast cancer by inducing HiF1α-dependent epigenetic vulnerabilities (40). in oScc, hypoxia downregulates the expression of critical tight junction components, including Par3, TJP1 and claudins, thereby enhancing cell migration and invasion (41). additionally, hypoxia promotes proliferation and suppresses apoptosis in oScc cells by upregulating TPd52 expression (42). However, the comprehensive molecular mechanisms governing hypoxia-driven progression in oScc remain largely unknown. in the present study, malignant epithelial cell populations in oScc were identified. A total of 104 hypoxia- and glycolysis-associated genes were identified in malignant epithelial cells. To identify core hypoxia- and glycolysis-associated genes robustly, the Mime algorithm framework was implemented. Mime is a high-performance open-source r package that integrates 10 distinct machine learning algorithms, streamlining the development of prognostic models from transcriptomic data, while enabling deep feature mining (25). an optimal prognostic model was established ['Stepcox (backward) + enet (α=0.8)'] based on four key genes ( HSPG2 , IGSF3 , DUS1L and DYNC1H1 ) screened from 104 hypoxia- and glycolysis-associated candidates. Higher risk scores significantly predicted adverse rFS, confirming the detrimental role of these pathways in oScc. This optimized model serves as a robust stratification tool, allowing clinicians to identify high-risk patients with distinct hypoxic/glycolytic profiles, who may benefit from more aggressive adjuvant therapies or closer clinical monitoring. epigenetic remodeling plays a critical role in hypoxiadriven tumor malignancy (43,44). as key epigenetic regulatory elements, Ses (usually spanning 8-20 kb) robustly activate target gene transcription through high-density enrichment of master transcription factors (16,45). in the present study, DYNC1H1 was identified as a hypoxia-responsive SE-regulated gene. dYnc1H1 is a microtubule-activated aTPase, which plays central roles in multiple intracellular processes, such as protein sorting, spindle dynamics and molecular motors (46,47). as the heavy chain subunit of cytoplasmic dynein-1, dYnc1H1 binds to the dynein complex while also recognizing and associating with cargoes via its n-terminus; its c-terminus contains a motor domain responsible for driving the movement of the complex along microtubules (48,49). The function of dYnc1H1 has garnered increasing attention in cancer. it has been shown that loss of dYnc1H1 in non-small cell lung cancer cells reduces proliferation, migration and invasion, and induces cell-cycle arrest (50). downregulation of dYnc1H1 inhibits tumor stemness in ovarian cancer (51). Furthermore, dYnc1H1 has been reported to be a biomarker for colorectal cancer and nasopharyngeal carcinoma (52,53). The protumorigenic effects of dYnc1H1 are likely closely linked to its molecular functions. as a transport motor, it may directionally deliver cargoes such as the epidermal growth factor receptor and invasion-associated factors to specific subcellular locations, thereby regulating cell proliferation and invasion (46). It influences chromosome segregation and supports rapid tumor cell proliferation by modulating mitotic spindle dynamics (47,54). Furthermore, through spatially coordinated movement along microtubules, dYnc1H1 can affect the translocation and activation of key signaling molecules, such as STaTs, ultimately regulating downstream gene expression and cellular behavior (46,50). However, the functional significance of DNYC1H1 in OSCC progression remains unknown. In the present study, DYNC1H1 KD signifi cantly attenuated hypoxia-induced malignant phenotypes of oScc, including proliferation, invasion, glucose uptake and lactate production. These findings established that DYNC1H1 is a regulator of hypoxic adaptation in oScc. Ses orchestrate transcriptional programs through cooperative interactions with transcription factors, with their activity dynamically modulated by transcription factor enrichment (17). in the present study, FoSl2 drove DYNC1H1 transcriptional activation via specific binding to both TE and SE regions. Hypoxia significantly upregulated FoSl2 expression in oScc cells. FoSl2, also known as Fra2 or aced, is a key subunit of the aP-1 complex and is involved in mediating cellular responses to external stimuli, stress signals and internal perturbations (55-57). in hypoxic microenvironments, FoSl2 activation can be induced via the JnK and p38/MaPK pathways. upon activation, FoSl2 forms aP-1 complexes by dimerizing with Jun proteins (such as c-Jun, JunB and Jund), which then recognize specific genomic response-elements and regulate downstream gene expression (55,57). it has been reported that hypoxia promotes the natural evolution signature transition in glioblastoma through the HiF1a/FoSl2 axis (58). in oScc, inhibition of FoSl2 downregulates aP-1 target genes such as MMP9 and cyclin-d1, while upregulating Fra-1 and p53 expression, thereby suppressing tumor cell migration and cell-cycle progression (59). However, the precise role of FoSl2 in the hypoxic microenvironment of oScc and how upstream hypoxia signals precisely regulate its transcriptional activity and downstream network remain unclear. in the present study, it was demonstrated that FOSL2 KD significantly suppressed hypoxia-induced malignant phenotypes in oScc, whereas dYnc1H1 oe reversed this phenotypic rescue. These findings indicate that the FOSL2/DYNC1H1 axis is a key regulatory mechanism driving hypoxic adaptation in oScc. Targeting the epigenetic machinery that governs this axis is a novel therapeutic strategy. agents that inhibit Se components, such as BeT and JQ1, or cdK7 inhibitors, can block the FoSl2/dYnc1H1 signaling cascade. Such precise interventions would specifically target 'hypoxia-addicted' tumor cells without broadly impacting housekeeping gene expression, highlighting a potential avenue for treating Se-driven oScc. The present study has several limitations. First, although the findings established that the FoSl2/dYnc1H1 axis is a critical regulator of hypoxic adaptation in oScc, the conclusions were primarily derived from in vitro models. Future validation studies using in vivo models and larger clinical cohorts are required. Secondly, the multi-omics analysis initially identified several core genes, including HSPG2 , IGSF3 and DUS1L , whose roles in hypoxic oScc remain unclear. Third, the specific cofactors and chromatin remodelers that facilitate FoSl2-mediated activation in the dYnc1H1 Te and Se regions are unknown. Finally, targeting this pathway, potentially through inhibitors of aP-1 activity or dynein function, may offer a novel intervention strategy for patients with oScc and hypoxic tumors, a direction that merits future preclinical exploration. in conclusion, DYNC1H1 was identified as an SE-regulated gene that displayed hypoxia-responsive upregulation in oScc. FoSl2 bound the Te and Se regions of DYNC1H1 to drive its transcriptional activation. The FoSl2/dYnc1H1 axis drove hypoxia-induced malignant phenotypes in oScc cells, including proliferation, invasion, glucose uptake and lactate production. These findings identify the FOSL2/DYNC1H1 axis as a regulatory hub for hypoxic adaptation in oScc and suggest it as a potential therapeutic target.",
+      "order": 4
+    },
+    {
+      "section": "Availability Of Data And Materials",
+      "text": "The data generated in the present study may be requested from the corresponding author.",
+      "order": 5
+    },
+    {
+      "section": "Authors' Contributions",
+      "text": "YQ conceived the study and wrote the article and was involved in data analysis and interpretation. lJ and JZ performed the experiments, were involved in data analysis and wrote the article. WW and nZ were involved in data analysis and performed the experiments and wrote the article. Yl, aT and WY performed the experiments. all authors read and approved the final version of the manuscript. YQ and LJ confirm the authenticity of all the raw data.",
+      "order": 6
+    }
+  ],
+  "references": [
+    {
+      "ref_id": "R1",
+      "label": "1.",
+      "raw_citation": "Hu S, lu H, Xie W, Wang d, Shan Z, Xing X, Wang XM, Fang J, dong W, dai W, et al : TDO2+ myofibroblasts mediate immune suppression in malignant transformation of squamous cell carcinoma. J clin invest 132: e157649, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R2",
+      "label": "2.",
+      "raw_citation": "leemans cr, Braakhuis BJ and Brakenhoff rH: The molecular biology of head and neck cancer. nat rev cancer 11: 9-22, 2011.",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R3",
+      "label": "3.",
+      "raw_citation": "Sequeira i, neves JF, carrero d, Peng Q, Palasz n, liakath-ali K, lord GM, Morgan Pr, lombardi G and Watt FM: immunomodulatory role of Keratin 76 in oral and gastric cancer. nat commun 9: 3437, 2018.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R4",
+      "label": "4.",
+      "raw_citation": "Pouyssegur J, dayan F and Mazure nM: Hypoxia signalling in cancer and approaches to enforce tumour regression. nature 441: 437-443, 2006.",
+      "year": "2006"
+    },
+    {
+      "ref_id": "R5",
+      "label": "5.",
+      "raw_citation": "chen Z, Han F, du Y, Shi H and Zhou W: Hypoxic microenvironment in cancer: Molecular mechanisms and therapeutic interventions. Signal Transduct Target Ther 8: 70, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R6",
+      "label": "6.",
+      "raw_citation": "Bhandari V, Hoey c, liu lY, lalonde e, ray J, livingstone J, lesurf r, Shiah YJ, Vujcic T, Huang X, et al : Molecular landmarks of tumor hypoxia across cancer types. nat Genet 51: 308-318, 2019.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R7",
+      "label": "7.",
+      "raw_citation": "abu el Maaty Ma, Terzic J, Keime c, rovito d, lutzing r, Yanushko d, Parisotto M, Grelet e, namer iJ, lindner V, et al : Hypoxia-mediated stabilization of HiF1a in prostatic intraepithelial neoplasia promotes cell plasticity and malignant progression. Sci adv 8: eabo2295, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R8",
+      "label": "8.",
+      "raw_citation": "Beasley nJ, leek r, alam M, Turley H, cox GJ, Gatter K, Millard P, Fuggle S and Harris al: Hypoxia-inducible factors HiF-1alpha and HiF-2alpha in head and neck cancer: relationship to tumor biology and treatment outcome in surgically resected patients. cancer res 62: 2493-2497, 2002.",
+      "year": "2002"
+    },
+    {
+      "ref_id": "R9",
+      "label": "9.",
+      "raw_citation": "duan Y, Zhou M, Ye B, Yue K, Qiao F, Wang Y, lai Q, Wu Y, cao J, Wu Y, et al : Hypoxia-induced mir-5100 promotes exosome-mediated activation of cancer-associated fibroblasts and metastasis of head and neck squamous cell carcinoma. cell death dis 15: 215, 2024.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R10",
+      "label": "10.",
+      "raw_citation": "Bao MH and Wong cc: Hypoxia, metabolic reprogramming, and drug resistance in liver cancer. cells 10: 1715, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R11",
+      "label": "11.",
+      "raw_citation": "Yang r, chen H, Xing l, Wang B, Hu M, ou X, chen H, deng Y, liu d, Jiang r and chen J: Hypoxia-induced circWSB1 promotes breast cancer progression through destabilizing p53 by interacting with uSP10. Mol cancer 21: 88, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R12",
+      "label": "12.",
+      "raw_citation": "rey-Keim S and Schito l: origins and molecular effects of hypoxia in cancer. Semin cancer Biol 106-107: 166-178, 2024.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R13",
+      "label": "13.",
+      "raw_citation": "Jing X, Yang F, Shao c, Wei K, Xie M, Shen H and Shu Y: role of hypoxia in cancer therapy by regulating the tumor microenvironment. Mol cancer 18: 157, 2019.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R14",
+      "label": "14.",
+      "raw_citation": "ong cT and corces VG: enhancer function: new insights into the regulation of tissue-specific gene expression. Nat Rev Genet 12: 283-293, 2011.",
+      "year": "2011"
+    },
+    {
+      "ref_id": "R15",
+      "label": "15.",
+      "raw_citation": "Zabidi Ma, arnold cd, Schernhuber K, Pagani M, rath M, Frank o and Stark a: enhancer-core-promoter specificity separates developmental and housekeeping gene regulation. nature 518: 556-559, 2015.",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R16",
+      "label": "16.",
+      "raw_citation": "Wang M, chen Q, Wang S, Xie H, liu J, Huang r, Xiang Y, Jiang Y, Tian d and Bian e: Super-enhancers complexes zoom in transcription in cancer. J exp clin cancer res 42: 183, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R17",
+      "label": "17.",
+      "raw_citation": "Jiang Y, Jiang YY and lin dc: Super-enhancer-mediated core regulatory circuitry in human cancer. comput Struct Biotechnol J 19: 2790-2795, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R18",
+      "label": "18.",
+      "raw_citation": "Jiang YY, lin dc, Mayakonda a, Hazawa M, ding lW, chien WW, Xu l, chen Y, Xiao JF, Senapedis W, et al : Targeting super-enhancer-associated oncogenes in oesophageal squamous cell carcinoma. Gut 66: 1358-1368, 2017.",
+      "year": "2017"
+    },
+    {
+      "ref_id": "R19",
+      "label": "19.",
+      "raw_citation": "Tang F, Yang Z, Tan Y and li Y: Super-enhancer function and its application in cancer targeted therapy. nPJ Precis oncol 4: 2, 2020.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R20",
+      "label": "20.",
+      "raw_citation": "Gao Q, Yang L, Lu M, Jin R, Ye H and Ma T: The artificial intelligence and machine learning in lung cancer immunotherapy. J Hematol oncol 16: 55, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R21",
+      "label": "21.",
+      "raw_citation": "Swanson K, Wu e, Zhang a, alizadeh aa and Zou J: From patterns to patients: advances in clinical machine learning for cancer diagnosis, prognosis, and treatment. cell 186: 1772-1791, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R22",
+      "label": "22.",
+      "raw_citation": "Kourou K, exarchos TP, exarchos KP, Karamouzis MV and Fotiadis di: Machine learning applications in cancer prognosis and prediction. comput Struct Biotechnol J 13: 8-17, 2014.",
+      "year": "2014"
+    },
+    {
+      "ref_id": "R23",
+      "label": "23.",
+      "raw_citation": "Boehm KM, Khosravi P, Vanguri r, Gao J and Shah SP: Harnessing multimodal data integration to advance precision oncology. nat rev cancer 22: 114-126, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R24",
+      "label": "24.",
+      "raw_citation": "issa nT, Stathias V, Schürer S and dakshanamurthy S: Machine and deep learning approaches for cancer drug repurposing. Semin cancer Biol 68: 132-142, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R25",
+      "label": "25.",
+      "raw_citation": "liu H, Zhang W, Zhang Y, adegboro aa, Fasoranti do, dai l, Pan Z, liu H, Xiong Y, li W, et al : Mime: A flexible machine-learning framework to construct and visualize models for clinical characteristics prediction and feature selection. comput Struct Biotechnol J 23: 2798-2810, 2024.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R26",
+      "label": "26.",
+      "raw_citation": "chu Y, dai e, li Y, Han G, Pei G, ingram dr, Thakkar K, Qin JJ, dang M, le X, et al : Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance. nat Med 29: 1550-1562, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R27",
+      "label": "27.",
+      "raw_citation": "Quah HS, cao eY, Suteja l, li cH, leong HS, chong FT, Gupta S, arcinas c, ouyang JF, ang V, et al : Single cell analysis in head and neck cancer reveals potential immune evasion mechanisms during early metastasis. nat commun 14: 1680, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R28",
+      "label": "28.",
+      "raw_citation": "Bill r, Wirapati P, Messemaker M, roh W, Zitti B, duval F, Kiss M, Park Jc, Saal TM, Hoelzl J, et al : cXcl9:SPP1 macrophage polarity identifies a network of cellular programs that control human cancers. Science 381: 515-524, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R29",
+      "label": "29.",
+      "raw_citation": "Wichmann G, rosolowski M, Krohn K, Kreuz M, Boehm a, reiche a, Scharrer u, Halama d, Bertolini J, Bauer u, et al : The role of HPV rna transcription, immune response-related gene expression and disruptive TP53 mutations in diagnostic and prognostic profiling of head and neck cancer. Int J Cancer 137: 2846-2457, 2015.",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R30",
+      "label": "30.",
+      "raw_citation": "Saito T, asai S, Tanaka n, nohata n, Minemura c, Koma a, Kikkawa n, Kasamatsu a, Hanazawa T, uzawa K and Seki n: Genome-Wide super-enhancer-based analysis: Identification of prognostic genes in oral squamous cell carcinoma. int J Mol Sci 23: 9154, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R31",
+      "label": "31.",
+      "raw_citation": "livak KJ and Schmittgen Td: analysis of relative gene expression data using real-time quantitative Pcr and the 2(-delta delta c(T)) Method. Methods 25: 402-408, 2001.",
+      "year": "2001"
+    },
+    {
+      "ref_id": "R32",
+      "label": "32.",
+      "raw_citation": "Meng X, lou QY, Yang WY, Wang Yr, chen r, Wang l, Xu T and Zhang l: The role of non-coding rnas in drug resistance of oral squamous cell carcinoma and therapeutic potential. cancer commun (lond) 41: 981-1006, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R33",
+      "label": "33.",
+      "raw_citation": "Wu Q, You l, nepovimova e, Heger Z, Wu W, Kuca K and adam V: Hypoxia-inducible factors: Master regulators of hypoxic tumor immune escape. J Hematol oncol 15: 77, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R34",
+      "label": "34.",
+      "raw_citation": "nasri d, Manwar r, Kaushik a, er ee and avanaki K: Photoacoustic imaging for investigating tumor hypoxia: a strategic assessment. Theranostics 13: 3346-3367, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R35",
+      "label": "35.",
+      "raw_citation": "Balamurugan K: HIF-1 at the crossroads of hypoxia, inflammation, and cancer. int J cancer 138: 1058-1066, 2016.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R36",
+      "label": "36.",
+      "raw_citation": "Kopecka J, Salaroglio ic, Perez-ruiz e, Sarmento-ribeiro aB, Saponara S, de las rivas J and riganti c: Hypoxia as a driver of resistance to immunotherapy. drug resist updat 59: 100787, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R37",
+      "label": "37.",
+      "raw_citation": "roma-rodrigues c, Mendes r, Baptista PV and Fernandes ar: Targeting tumor microenvironment for cancer therapy. int J Mol Sci 20: 840, 2019.",
+      "year": "2019"
+    },
+    {
+      "ref_id": "R38",
+      "label": "38.",
+      "raw_citation": "Wang W, Han Y, Jo Ha, lee J and Song YS: non-coding rnas shuttled via exosomes reshape the hypoxic tumor microenvironment. J Hematol oncol 13: 67, 2020.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R39",
+      "label": "39.",
+      "raw_citation": "Mao XG, Xue XY, lv r, Ji a, Shi TY, chen XY, Jiang XF and Zhang X: ceBPd is a master transcriptional factor for hypoxia regulated proteins in glioblastoma and augments hypoxia induced invasion through extracellular matrix-integrin mediated eGFr/Pi3K pathway. cell death dis 14: 269, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R40",
+      "label": "40.",
+      "raw_citation": "Ma S, Zhao Y, lee Wc, ong lT, lee Pl, Jiang Z, oguz G, niu Z, liu M, Goh JY, et al : Hypoxia induces HiF1α-dependent epigenetic vulnerability in triple negative breast cancer to confer immune effector dysfunction and resistance to anti-Pd-1 immunotherapy. nat commun 13: 4118, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R41",
+      "label": "41.",
+      "raw_citation": "Kim S, Park S, Moon eH, Kim GJ and choi J: Hypoxia disrupt tight junctions and promote metastasis of oral squamous cell carcinoma via loss of par3. cancer cell int 23: 79, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R42",
+      "label": "42.",
+      "raw_citation": "abe Y, Mukudai Y, Kurihara M, Houri a, chikuda J, Yaso a, Kato K, Shimane T and Shirota T: Tumor protein d52 is upregulated in oral squamous carcinoma cells under hypoxia in a hypoxia-inducible-factor-independent manner and is involved in cell death resistance. cell Biosci 11: 122, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R43",
+      "label": "43.",
+      "raw_citation": "Schito l and Semenza Gl: Hypoxia-inducible factors: Master regulators of cancer progression. Trends cancer 2: 758-770, 2016.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R44",
+      "label": "44.",
+      "raw_citation": "lin YT and Wu KJ: epigenetic regulation of epithelial-mesenchymal transition: Focusing on hypoxia and TGF-beta signaling. J Biomed Sci 27: 39, 2020.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R45",
+      "label": "45.",
+      "raw_citation": "Calo E and Wysocka J: Modification of enhancer chromatin: What, how, and why? Mol cell 49: 825-837, 2013.",
+      "year": "2013"
+    },
+    {
+      "ref_id": "R46",
+      "label": "46.",
+      "raw_citation": "driskell oJ, Mironov a, allan VJ and Woodman PG: dynein is required for receptor sorting and the morphogenesis of early endosomes. nat cell Biol 9: 113-120, 2007.",
+      "year": "2007"
+    },
+    {
+      "ref_id": "R47",
+      "label": "47.",
+      "raw_citation": "Merdes a, ramyar K, Vechio Jd and cleveland dW: a complex of nuMa and cytoplasmic dynein is essential for mitotic spindle assembly. cell 87: 447-458, 1996.",
+      "year": "1996"
+    },
+    {
+      "ref_id": "R48",
+      "label": "48.",
+      "raw_citation": "roossien dH, Miller Ke and Gallo G: ciliobrevins as tools for studying dynein motor function. Front cell neurosci 9: 252, 2015.",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R49",
+      "label": "49.",
+      "raw_citation": "ramos rl, de Heredia MMB, Zhang Y, Stout rF, Tindi Jo, Wu l, Schwartz GJ, Botbol YM, Sidoli S, Poojari a, et al : Patient-specific mutation of Dync1h1 in mice causes brain and behavioral deficits. Neurobiol Dis 199: 106594, 2024.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R50",
+      "label": "50.",
+      "raw_citation": "Pan H, chai W, liu X, Yu T, Sun l and Yan M: dYnc1H1 regulates nSclc cell growth and metastasis by iFn-gamma-JaK-STaT signaling and is associated with an aberrant immune response. exp cell res 409: 112897, 2021.",
+      "year": "2021"
+    },
+    {
+      "ref_id": "R51",
+      "label": "51.",
+      "raw_citation": "ling l, Wen Y, chen H, Xiong Y, liu X, chen J, liu T and Zhang B: mir-134-3p driven by anisomycin impairs ovarian cancer stem cell activity through inhibiting GPr137 expression. J cancer 14: 3404-3415, 2023.",
+      "year": "2023"
+    },
+    {
+      "ref_id": "R52",
+      "label": "52.",
+      "raw_citation": "Palaniappan a, ramar K and ramalingam S: computational identification of novel stage-specific biomarkers in colorectal cancer progression. PloS one 11: e0156665, 2016.",
+      "year": "2016"
+    },
+    {
+      "ref_id": "R53",
+      "label": "53.",
+      "raw_citation": "Wu ZH, Zhou T and Sun HY: dna methylation-based diagnostic and prognostic biomarkers of nasopharyngeal carcinoma patients. Medicine (Baltimore) 99: e20682, 2020.",
+      "year": "2020"
+    },
+    {
+      "ref_id": "R54",
+      "label": "54.",
+      "raw_citation": "Zheng Z, Wan Q, liu J, Zhu H, chu X and du Q: evidence for dynein and astral microtubule-mediated cortical release and transport of Gαi/lGn/nuMa complex in mitotic cells. Mol Biol cell 24: 901-913, 2013.",
+      "year": "2013"
+    },
+    {
+      "ref_id": "R55",
+      "label": "55.",
+      "raw_citation": "Gazon H, Barbeau B, Mesnard JM and Peloponese JM Jr: Hijacking of the aP-1 signaling pathway during development of aTl. Front Microbiol 8: 2686, 2018.",
+      "year": "2018"
+    },
+    {
+      "ref_id": "R56",
+      "label": "56.",
+      "raw_citation": "carthy JM, Sundqvist a, Heldin a, van dam H, Kletsas d, Heldin cH and Moustakas a: Tamoxifen inhibits TGF-β-mediated activation of myofibroblasts by blocking non-smad signaling through erK1/2. J cell Physiol 230: 3084-3092, 2015.",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R57",
+      "label": "57.",
+      "raw_citation": "rampioni Vinciguerra Gl, capece M, Scafetta G, rentsch S, Vecchione a, lovat F and croce cM: role of Fra-2 in cancer. cell death differ 31: 136-149, 2024.",
+      "year": "2024"
+    },
+    {
+      "ref_id": "R58",
+      "label": "58.",
+      "raw_citation": "Wu l, Wu W, Zhang J, Zhao Z, li l, Zhu M, Wu M, Wu F, Zhou F, du Y, et al : natural coevolution of tumor and immunoenvironment in glioblastoma. cancer discov 12: 2820-2837, 2022.",
+      "year": "2022"
+    },
+    {
+      "ref_id": "R59",
+      "label": "59.",
+      "raw_citation": "Gupta S, Kumar P, Kaur H, Sharma n, Saluja d, Bharti ac and das Bc: Selective participation of c-Jun with Fra-2/c-Fos promotes aggressive tumor phenotypes and poor prognosis in tongue cancer. Sci rep 5: 16811, 2015.",
+      "year": "2015"
+    },
+    {
+      "ref_id": "R60",
+      "label": "60.",
+      "raw_citation": "Copyright © 2026 Jin et al. This work is licensed under a Creative Commons Attribution-NonCommercialNoDerivatives 4.0 International (CC BY-NC-ND 4.0) License.",
+      "year": "2026"
+    }
+  ]
+}

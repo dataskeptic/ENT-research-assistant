@@ -1,124 +1,257 @@
 {
-  "parsed": [],
-  "errors": [
+  "parsed": [
     {
       "file": "10_1007_s00405-026-10300-1.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1007_s00405-026-10300-1.json",
+      "pmc_id": "",
+      "doi": "10.1007/s00405-026-10300-1",
+      "title": "Transoral single-port robotic surgery for benign or early stage malignant tumors of pharynx and larynx - a prospective real-world study from mainland China",
+      "sections": 12,
+      "references": 25,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1007_s00405-026-10332-7.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1007_s00405-026-10332-7.json",
+      "pmc_id": "",
+      "doi": "10.1007/s00405-026-10332-7",
+      "title": "Enhanced response obtainability with chirp stimulus in boneconducted mVEMPs",
+      "sections": 7,
+      "references": 29,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1007_s00405-026-10347-0.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_1007_s12094-025-04131-5.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1007_s00405-026-10347-0.json",
+      "pmc_id": "",
+      "doi": "10.1007/s00405-026-10347-0",
+      "title": "High-frequency pseudo-hypofunction of the superior semicircular canal dehiscence syndrome: a vHIT - oVEMP dissociation explained by hydrodynamic energy loss",
+      "sections": 9,
+      "references": 17,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1016_j_compbiomed_2026_111646.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1016_j_compbiomed_2026_111646.json",
+      "pmc_id": "",
+      "doi": "10.1016/j_compbiomed_2026_111646",
+      "title": "Mapping intratumoral heterogeneity through PET-derived washout and deep learning after proton therapy",
+      "sections": 22,
+      "references": 87,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1016_j_ijrobp_2025_11_013.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1016_j_ijrobp_2025_11_013.json",
+      "pmc_id": "",
+      "doi": "10.1016/j.ijrobp.2025.11.013",
+      "title": "Involved Neck Only Versus Mucosal Radiation Therapy for Head and Neck Squamous Cell Cancer of Unknown Primary (HNSCCUP): A National Retrospective Multicenter Cohort Study",
+      "sections": 19,
+      "references": 48,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1055_a-2699-9904.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1055_a-2699-9904.json",
+      "pmc_id": "",
+      "doi": "10.1055/a-2699-9904",
+      "title": "Radiological Characterization of Malformations of the Internal Auditory Canal",
+      "sections": 24,
+      "references": 28,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1055_a-2725-8648.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
+      "output": "10_1055_a-2725-8648.json",
+      "pmc_id": "",
+      "doi": "10.1055/a-2725-8648",
+      "title": "Closure of Congenital Semicircular Dehiscence in the First 10 Years of Life",
+      "sections": 22,
+      "references": 22,
+      "full_text_available": true,
+      "ok": true
     },
     {
       "file": "10_1055_a-2776-5896.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
+      "output": "10_1055_a-2776-5896.json",
+      "pmc_id": "",
+      "doi": "10.1055/a-2776-5896",
+      "title": "The value of routine endoscopic ultrasound in patients with esophageal cancer undergoing active surveillance after neoadjuvant chemoradiotherapy",
+      "sections": 19,
+      "references": 23,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_1292_jvms_25-0585.pdf",
+      "output": "10_1292_jvms_25-0585.json",
+      "pmc_id": "",
+      "doi": "10.1292/jvms_25-0585",
+      "title": "Advance Publication",
+      "sections": 3,
+      "references": 0,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_2169_internalmedicine_6193-25.pdf",
+      "output": "10_2169_internalmedicine_6193-25.json",
+      "pmc_id": "",
+      "doi": "10.2169/internalmedicine.6193-25)",
+      "title": "【 CASE REPORT 】",
+      "sections": 6,
+      "references": 24,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_2176_jns-nmc_2025-0370.pdf",
+      "output": "10_2176_jns-nmc_2025-0370.json",
+      "pmc_id": "",
+      "doi": "10.2176/jns-nmc_2025-0370",
+      "title": "Surgical Management Strategy for Large Cystic Vestibular Schwannoma Based on the Cyst Classification",
+      "sections": 10,
+      "references": 18,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_31083_FBL50406.pdf",
+      "output": "10_31083_FBL50406.json",
+      "pmc_id": "",
+      "doi": "10.31083/FBL50406",
+      "title": "Epithelial SERPINB2 Overexpression Contributes to Impaired Fibrinolysis in Chronic Rhinosinusitis With Nasal Polyps via tPA Downregulation",
+      "sections": 23,
+      "references": 32,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_3348_kjr_2025_1883.pdf",
+      "output": "10_3348_kjr_2025_1883.json",
+      "pmc_id": "",
+      "doi": "10.3348/kjr.2025.1883",
+      "title": "Original Article | Thyroid",
+      "sections": 18,
+      "references": 36,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_36721_PJPS_2026_39_6_158_1.pdf",
+      "output": "10_36721_PJPS_2026_39_6_158_1.json",
+      "pmc_id": "",
+      "doi": "10.36721/PJPS_2026_39_6_158_1",
+      "title": "Development and characterization of polyherbal formulation from Allium sativum, Cuminum cyminum, Cinnamomum verum, Elettaria cardamomum and Zingiber officinale with therapeutic potential against sinusitis-associated pathogens",
+      "sections": 17,
+      "references": 41,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_36721_PJPS_2026_39_6_179_1.pdf",
+      "output": "10_36721_PJPS_2026_39_6_179_1.json",
+      "pmc_id": "",
+      "doi": "10.36721/PJPS_2026_39_6_179_1",
+      "title": "Effect of a combination of Ginkgo biloba leaf extract and triangle health management in patients with ischemic vertigo- An exploratory investigation",
+      "sections": 19,
+      "references": 36,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_3892_mmr_2026_13919.pdf",
+      "output": "10_3892_mmr_2026_13919.json",
+      "pmc_id": "",
+      "doi": "10.3892/mmr.2026.13919",
+      "title": "FOSL2 drives transcriptional activation of super-enhancerregulated DYNC1H1 to promote hypoxia-induced oral squamous cell carcinoma progression",
+      "sections": 7,
+      "references": 60,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_5546_aap_2025-10762_eng.pdf",
+      "output": "10_5546_aap_2025-10762_eng.json",
+      "pmc_id": "",
+      "doi": "10.5546/aap.2025-10762.eng",
+      "title": "Incidental finding of a lipoma of the internal auditory canal in a 12-year-old patient",
+      "sections": 6,
+      "references": 5,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_5546_aap_2025-10778_eng.pdf",
+      "output": "10_5546_aap_2025-10778_eng.json",
+      "pmc_id": "",
+      "doi": "10.5546/aap.2025-10778.eng",
+      "title": "Auditory and language performance of children with bilateral profound hearing loss following simultaneous bilateral cochlear implantation: An observational study",
+      "sections": 7,
+      "references": 9,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_5582_bst_2026_01058.pdf",
+      "output": "10_5582_bst_2026_01058.json",
+      "pmc_id": "",
+      "doi": "10.5582/bst_2026_01058",
+      "title": "Allele-specific effects of distinct SLC26A4 variants on cochlear function and transcriptomic programs in compound heterozygous models",
+      "sections": 29,
+      "references": 80,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_5692_clinicalneurol_cn-002193.pdf",
+      "output": "10_5692_clinicalneurol_cn-002193.json",
+      "pmc_id": "",
+      "doi": "10.5692/clinicalneurol_cn-002193",
+      "title": "片側下丘病変で出現した経時的に変化する特異な耳鳴と聴覚障害の 2 例",
+      "sections": 6,
+      "references": 0,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_61409_V10250855.pdf",
+      "output": "10_61409_V10250855.json",
+      "pmc_id": "",
+      "doi": "10.61409/V10250855",
+      "title": "Statusartikel",
+      "sections": 16,
+      "references": 0,
+      "full_text_available": true,
+      "ok": true
+    },
+    {
+      "file": "10_61409_V12251016.pdf",
+      "output": "10_61409_V12251016.json",
+      "pmc_id": "",
+      "doi": "10.61409/V12251016",
+      "title": "Statusartikel",
+      "sections": 13,
+      "references": 0,
+      "full_text_available": true,
+      "ok": true
+    }
+  ],
+  "errors": [
+    {
+      "file": "10_1007_s12094-025-04131-5.pdf",
+      "error": "Input document 10_1007_s12094-025-04131-5.pdf is not valid.",
       "ok": false
     },
     {
       "file": "10_1088_2057-1976_ae7090.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_1292_jvms_25-0585.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_2169_internalmedicine_6193-25.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_2176_jns-nmc_2025-0370.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_31083_FBL50406.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_3348_kjr_2025_1883.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_36721_PJPS_2026_39_6_158_1.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_36721_PJPS_2026_39_6_179_1.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_3892_mmr_2026_13919.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_5546_aap_2025-10762_eng.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_5546_aap_2025-10778_eng.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_5582_bst_2026_01058.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_5692_clinicalneurol_cn-002193.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_61409_V10250855.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
-      "ok": false
-    },
-    {
-      "file": "10_61409_V12251016.pdf",
-      "error": "'PdfPipelineOptions' object has no attribute 'backend'",
+      "error": "Input document 10_1088_2057-1976_ae7090.pdf is not valid.",
       "ok": false
     }
   ]
