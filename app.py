@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from ui_helpers import (
     get_corpus_stats,
@@ -402,6 +403,11 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 MODE_ASK      = "🔬 Ask the Literature"
 MODE_EXPLORER = "📂 Paper Explorer"
 
+if "app_mode" not in st.session_state:
+    st.session_state.app_mode = MODE_ASK
+
+mode = st.session_state.app_mode
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Rendering helpers
@@ -525,11 +531,13 @@ with st.sidebar:
     )
     st.markdown('<hr/>', unsafe_allow_html=True)
 
-    mode = st.radio(
-        "Navigation",
-        [MODE_ASK, MODE_EXPLORER],
-        label_visibility="collapsed",
-    )
+    if st.button(MODE_ASK, use_container_width=True, type="primary" if mode == MODE_ASK else "secondary"):
+        st.session_state.app_mode = MODE_ASK
+        st.rerun()
+    
+    if st.button(MODE_EXPLORER, use_container_width=True, type="primary" if mode == MODE_EXPLORER else "secondary"):
+        st.session_state.app_mode = MODE_EXPLORER
+        st.rerun()
 
     st.markdown('<hr/>', unsafe_allow_html=True)
 
@@ -797,53 +805,55 @@ elif mode == MODE_EXPLORER:
 
         st.markdown('<hr/>', unsafe_allow_html=True)
 
-    # ── Paper grid ──
-    st.markdown(
-        '<div class="hero">'
-        '<h1>Paper Explorer</h1>'
-        '<p>Browse the cutting-edge ENT corpus from <strong>this last month</strong>. Click any paper to view its full text, abstract, references, '
-        'and trigger an AI-generated structured summary.</p>'
-        '</div>',
-        unsafe_allow_html=True,
-    )
-
-    sc, _ = st.columns([3, 2])
-    with sc:
-        search_q = st.text_input(
-            "Search",
-            placeholder="Title, topic, author, or DOI…",
-            label_visibility="collapsed",
-            key="exp_search",
-        )
-
-    try:
-        papers = search_papers_by_title(search_q) if search_q else get_all_papers()
-        n      = len(papers)
-        label  = (
-            f'{n} result{"s" if n != 1 else ""} for "{search_q}"'
-            if search_q
-            else f'Showing all {n} papers'
-        )
+    # ── Paper grid (ONLY SHOWN IF NO PAPER IS SELECTED) ──
+    else:
         st.markdown(
-            f'<p style="font-size:0.76rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
+            '<div class="hero">'
+            '<h1>Paper Explorer</h1>'
+            '<p>Browse the cutting-edge ENT corpus from <strong>this last month</strong>. Click any paper to view its full text, abstract, references, '
+            'and trigger an AI-generated structured summary.</p>'
+            '</div>',
             unsafe_allow_html=True,
         )
-    except Exception as exc:
-        st.error(f"Could not load papers: {exc}")
-        papers = []
 
-    COLS = 3
-    for row_start in range(0, len(papers), COLS):
-        cols = st.columns(COLS)
-        for col, paper in zip(cols, papers[row_start : row_start + COLS]):
-            with col:
-                st.markdown(_paper_card_html(paper), unsafe_allow_html=True)
-                if st.button(
-                    "View details",
-                    key=f"v_{paper.get('doi', '')}_{row_start}",
-                    use_container_width=True,
-                ):
-                    st.session_state["selected_paper"] = paper
-                    st.session_state.pop("_sum_done", None)
-                    st.session_state.pop("_sum_id", None)
-                    st.rerun()
+        sc, _ = st.columns([3, 2])
+        with sc:
+            search_q = st.text_input(
+                "Search",
+                placeholder="Title, topic, author, or DOI…",
+                label_visibility="collapsed",
+                key="exp_search",
+            )
+
+        try:
+            papers = search_papers_by_title(search_q) if search_q else get_all_papers()
+            n      = len(papers)
+            label  = (
+                f'{n} result{"s" if n != 1 else ""} for "{search_q}"'
+                if search_q
+                else f'Showing all {n} papers'
+            )
+            st.markdown(
+                f'<p style="font-size:0.76rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
+                unsafe_allow_html=True,
+            )
+        except Exception as exc:
+            st.error(f"Could not load papers: {exc}")
+            papers = []
+
+        COLS = 3
+        for row_start in range(0, len(papers), COLS):
+            cols = st.columns(COLS)
+            for col, paper in zip(cols, papers[row_start : row_start + COLS]):
+                with col:
+                    st.markdown(_paper_card_html(paper), unsafe_allow_html=True)
+                    if st.button(
+                        "View details",
+                        key=f"v_{paper.get('doi', '')}_{row_start}",
+                        use_container_width=True,
+                    ):
+                        st.session_state["selected_paper"] = paper
+                        st.session_state["_scroll_to_top"] = True
+                        st.session_state.pop("_sum_done", None)
+                        st.session_state.pop("_sum_id", None)
+                        st.rerun()
