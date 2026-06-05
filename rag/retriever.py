@@ -35,7 +35,7 @@ from rag.ingestion import make_openrouter_client, embed_batch
 @dataclass
 class RetrievedChunk:
     chunk_id:  str
-    pmc_id:    str
+    doi:       str
     section:   str
     text:      str
     score:     float          # cosine distance (lower = more similar)
@@ -135,7 +135,7 @@ class Retriever:
             seen_ids.add(cid)
             chunks.append(RetrievedChunk(
                 chunk_id=cid,
-                pmc_id=meta.get("pmc_id", ""),
+                doi=meta.get("doi", ""),
                 section=meta.get("section", ""),
                 text=doc,
                 score=dist,
@@ -150,13 +150,13 @@ class Retriever:
 
     def retrieve_by_paper(
         self,
-        pmc_id: str,
+        doi: str,
     ) -> list[RetrievedChunk]:
         """
         Return ALL chunks for a single paper (useful for full-paper Q&A).
         """
         results = self._collection.get(
-            where={"pmc_id": pmc_id},
+            where={"doi": doi},
             include=["documents", "metadatas"],
         )
         chunks = []
@@ -167,7 +167,7 @@ class Retriever:
         ):
             chunks.append(RetrievedChunk(
                 chunk_id=cid,
-                pmc_id=meta.get("pmc_id", ""),
+                doi=meta.get("doi", ""),
                 section=meta.get("section", ""),
                 text=doc,
                 score=0.0,
@@ -185,11 +185,11 @@ class Retriever:
         For every unique paper in *chunks*, fetch its __summary__ chunk
         and prepend it to the result list (if not already present).
         """
-        pmc_ids = {c.pmc_id for c in chunks if not c.is_summary}
+        dois = {c.doi for c in chunks if not c.is_summary}
         extra: list[RetrievedChunk] = []
 
-        for pmc_id in pmc_ids:
-            summary_id = f"{pmc_id}::__summary__::0"
+        for doi in dois:
+            summary_id = f"{doi}::__summary__"
             if summary_id in seen_ids:
                 continue
             result = self._collection.get(
@@ -202,7 +202,7 @@ class Retriever:
             meta = result["metadatas"][0]
             extra.append(RetrievedChunk(
                 chunk_id=summary_id,
-                pmc_id=pmc_id,
+                doi=doi,
                 section="__summary__",
                 text=doc,
                 score=0.0,  # summary injected, not ranked

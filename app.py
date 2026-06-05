@@ -281,7 +281,7 @@ strong { color: #93c5fd !important; }
     border-radius: 5px; text-transform: uppercase;
     letter-spacing: 0.07em; font-size: 0.66rem; padding: 2px 6px;
 }
-.b-pmc  { background: rgba(59,130,246,0.12); color: #60a5fa; }
+.b-doi  { background: rgba(59,130,246,0.12); color: #60a5fa; }
 
 /* ── Score bar ── */
 .strack  { background: rgba(255,255,255,0.06); border-radius: 99px; height: 4px; overflow: hidden; margin-top: 6px; }
@@ -465,14 +465,14 @@ def _paper_card_html(paper: dict) -> str:
     year    = paper.get("year", "—")
     journal = (paper.get("journal") or "")[:55]
     author  = _authors_str(paper.get("authors", ""), limit=60)
-    pmc_id  = paper.get("pmc_id", "")
+    doi     = paper.get("doi", "")
     title   = (paper.get("title") or "Untitled")[:140]
     return (
         f'<div class="pgcard">'
         f'  <h4>{title}</h4>'
         f'  <div class="pgcard-m">{year} · {journal}</div>'
         f'  <div class="pgcard-m">{author}</div>'
-        f'  <div style="margin-top:7px;"><span class="badge b-pmc">{pmc_id}</span></div>'
+        f'  <div style="margin-top:7px;"><span class="badge b-doi">{doi}</span></div>'
         f'</div>'
     )
 
@@ -595,8 +595,8 @@ if mode == MODE_ASK:
             seen: set[str] = set()
             unique = []
             for c in sources:
-                if not c.is_summary and c.pmc_id not in seen:
-                    seen.add(c.pmc_id)
+                if not c.is_summary and c.doi not in seen:
+                    seen.add(c.doi)
                     unique.append(c)
             if unique:
                 chips = " ".join(
@@ -636,7 +636,7 @@ elif mode == MODE_EXPLORER:
     # ── Detail panel — shown ABOVE the grid when a paper is selected ──
     if "selected_paper" in st.session_state:
         paper  = st.session_state["selected_paper"]
-        pmc_id = paper.get("pmc_id", "")
+        doi_id = paper.get("doi", "")
 
         authors_disp = _authors_str(paper.get("authors", ""), limit=200)
         doi_html     = _doi(paper.get("doi", ""))
@@ -651,7 +651,7 @@ elif mode == MODE_EXPLORER:
             f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.77rem;color:var(--txt-2);">'
             f'    <span>{paper.get("year","—")}</span>'
             f'    <span>{paper.get("journal","—")}</span>'
-            f'    <span class="badge b-pmc">{pmc_id}</span>'
+            f'    <span class="badge b-doi">{doi_id}</span>'
             f'    {doi_html}'
             f'  </div>'
             f'</div>',
@@ -676,16 +676,16 @@ elif mode == MODE_EXPLORER:
 
         # ── LLM summary (streamed on demand) ──
         if do_summary:
-            st.session_state["_sum_id"]   = pmc_id
+            st.session_state["_sum_id"]   = doi_id
             st.session_state["_sum_done"] = False
 
         if (
-            st.session_state.get("_sum_id") == pmc_id
+            st.session_state.get("_sum_id") == doi_id
             and not st.session_state.get("_sum_done")
         ):
             with st.expander("🤖 AI Structured Summary", expanded=True):
                 with st.spinner("Reading all paper sections…"):
-                    st.write_stream(generate_deep_summary(pmc_id))
+                    st.write_stream(generate_deep_summary(doi_id))
             st.session_state["_sum_done"] = True
 
         # ── Abstract ──
@@ -701,7 +701,7 @@ elif mode == MODE_EXPLORER:
         with st.expander("📑 Full paper sections", expanded=False):
             retriever = get_retriever()
             chunks = [
-                c for c in retriever.retrieve_by_paper(pmc_id)
+                c for c in retriever.retrieve_by_paper(doi_id)
                 if not c.is_summary
             ]
             if not chunks:
@@ -721,7 +721,7 @@ elif mode == MODE_EXPLORER:
         # ── References ──
         with st.expander("📚 References", expanded=False):
             retriever   = get_retriever()
-            all_chunks  = retriever.retrieve_by_paper(pmc_id)
+            all_chunks  = retriever.retrieve_by_paper(doi_id)
             seen_keys: set = set()
             refs: list[dict] = []
             for c in all_chunks:
@@ -790,7 +790,7 @@ elif mode == MODE_EXPLORER:
     with sc:
         search_q = st.text_input(
             "Search",
-            placeholder="Title, topic, author, or PMC ID…",
+            placeholder="Title, topic, author, or DOI…",
             label_visibility="collapsed",
             key="exp_search",
         )
@@ -819,7 +819,7 @@ elif mode == MODE_EXPLORER:
                 st.markdown(_paper_card_html(paper), unsafe_allow_html=True)
                 if st.button(
                     "View details",
-                    key=f"v_{paper.get('pmc_id', '')}_{row_start}",
+                    key=f"v_{paper.get('doi', '')}_{row_start}",
                     use_container_width=True,
                 ):
                     st.session_state["selected_paper"] = paper

@@ -53,10 +53,9 @@ class RAGResponse:
             title   = chunk.metadata.get("title", "")[:70]
             journal = chunk.metadata.get("journal", "")
             doi     = chunk.metadata.get("doi", "")
-            pmc     = chunk.metadata.get("pmc_id", "")
             lines.append(
                 f"  {label}  {title}\n"
-                f"           {journal}  |  PMC:{pmc}  |  DOI:{doi}"
+                f"           {journal}  |  DOI:{doi}"
             )
         return "\n".join(lines)
 

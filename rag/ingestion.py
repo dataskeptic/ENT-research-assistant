@@ -56,7 +56,7 @@ except ImportError:
 def chunk_paper(
     data: dict,
     chunk_cfg,
-    pmc_id: str,
+    paper_id: str,
 ) -> Generator[tuple[str, dict], None, None]:
     """
     Yields (text, metadata) tuples for a single paper.
@@ -71,10 +71,12 @@ def chunk_paper(
     sections   = data.get("sections", [])
     references = data.get("references", [])
 
+    doi = meta.get("doi", paper_id)
+
     base_meta = {
-        "pmc_id":          meta.get("pmc_id", pmc_id),
+        "doi":             doi,
+        "pmc_id":          meta.get("pmc_id", ""),
         "pmid":            str(meta.get("pmid", "")),
-        "doi":             meta.get("doi", ""),
         "title":           meta.get("title", ""),
         "authors":         ", ".join(meta.get("authors", [])),
         "journal":         meta.get("journal", ""),
@@ -98,7 +100,7 @@ def chunk_paper(
     yield summary_text, {
         **base_meta,
         "section":  "__summary__",
-        "chunk_id": f"{base_meta['pmc_id']}::__summary__",
+        "chunk_id": f"{doi}::__summary__",
         "order":    -1,
         "tokens":   _token_len(summary_text),
     }
@@ -127,7 +129,7 @@ def chunk_paper(
         yield chunk_text, {
             **base_meta,
             "section":  sec_name,
-            "chunk_id": f"{base_meta['pmc_id']}::{sec_name}::{order}",
+            "chunk_id": f"{doi}::{sec_name}::{order}",
             "order":    order,
             "tokens":   _token_len(chunk_text),
         }
@@ -226,16 +228,20 @@ def ingest(
 
     for json_path in json_files:
         try:
-            data   = json.loads(json_path.read_text(encoding="utf-8"))
-            pmc_id = data.get("metadata", {}).get("pmc_id", json_path.stem)
+            data = json.loads(json_path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError) as exc:
             print(f"  [WARN] Skipping {json_path.name}: {exc}")
+            continue
+
+        paper_doi = data.get("metadata", {}).get("doi", "")
+        if not paper_doi:
+            print(f"  [SKIP] {json_path.name}: no DOI — not a paper")
             continue
 
         paper_chunks = 0
         paper_tokens = 0
 
-        for text, meta in chunk_paper(data, chunk_cfg, pmc_id):
+        for text, meta in chunk_paper(data, chunk_cfg, paper_doi):
             chunk_id = meta["chunk_id"]
 
             # idempotent: skip already-ingested chunks
@@ -256,7 +262,7 @@ def ingest(
         total_papers += 1
         print(
             f"  [{total_papers:>4}/{len(json_files)}] "
-            f"{pmc_id:<24} "
+            f"{paper_doi:<40} "
             f"+{paper_chunks} chunks  "
             f"({paper_tokens:,} tokens embedded)"
         )

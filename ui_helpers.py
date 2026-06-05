@@ -59,8 +59,8 @@ def get_corpus_stats() -> dict:
     col        = _get_chroma_collection()
     total_chunks = col.count()
     all_meta   = col.get(include=["metadatas"], limit=total_chunks)
-    pmc_ids    = {m.get("pmc_id", "") for m in all_meta["metadatas"] if m}
-    pmc_ids.discard("")
+    dois       = {m.get("doi", "") for m in all_meta["metadatas"] if m}
+    dois.discard("")
     journals   = sorted({
         m.get("journal", "")
         for m in all_meta["metadatas"]
@@ -68,7 +68,7 @@ def get_corpus_stats() -> dict:
     })
     return {
         "total_chunks":  total_chunks,
-        "total_papers":  len(pmc_ids),
+        "total_papers":  len(dois),
         "journals":      journals,
         # 'years' intentionally omitted
     }
@@ -182,8 +182,8 @@ def search_papers_by_title(query: str, limit: int = 60) -> list[dict]:
     seen:   set[str]   = set()
 
     for meta, doc in zip(results["metadatas"], results["documents"]):
-        pmc_id = meta.get("pmc_id", "")
-        if pmc_id in seen:
+        doi = meta.get("doi", "")
+        if doi in seen:
             continue
 
         title   = meta.get("title",   "").lower()
@@ -191,10 +191,10 @@ def search_papers_by_title(query: str, limit: int = 60) -> list[dict]:
 
         if (
             query_lower in title
-            or query_lower in pmc_id.lower()
+            or query_lower in doi.lower()
             or query_lower in authors
         ):
-            seen.add(pmc_id)
+            seen.add(doi)
             papers.append({**meta, "summary_text": doc})
 
         if len(papers) >= limit:
@@ -219,10 +219,10 @@ def get_all_papers(limit: int = 500) -> list[dict]:
     papers: list[dict] = []
     seen:   set[str]   = set()
     for meta, doc in zip(results["metadatas"], results["documents"]):
-        pmc_id = meta.get("pmc_id", "")
-        if pmc_id in seen:
+        doi = meta.get("doi", "")
+        if doi in seen:
             continue
-        seen.add(pmc_id)
+        seen.add(doi)
         papers.append({**meta, "summary_text": doc})
 
     papers.sort(
@@ -250,13 +250,13 @@ where available. Keep each section to 2–4 sentences.
 """
 
 
-def generate_deep_summary(pmc_id: str) -> Generator[str, None, None]:
+def generate_deep_summary(doi: str) -> Generator[str, None, None]:
     """Stream a structured LLM summary covering all sections of a paper."""
     retriever = get_retriever()
     model_cfg = get_model_config()
     client    = make_openrouter_client()
 
-    chunks = retriever.retrieve_by_paper(pmc_id)
+    chunks = retriever.retrieve_by_paper(doi)
     if not chunks:
         yield "No chunks found for this paper."
         return

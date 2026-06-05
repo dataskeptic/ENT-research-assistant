@@ -38,7 +38,7 @@ OPENROUTER_HEADERS = {
 @dataclass
 class ModelConfig:
     # LLM used for answer synthesis
-    llm: str = "nvidia/nemotron-ultra-253b-v1:free"
+    llm: str = "nvidia/nemotron-3-ultra-550b-a55b:free"
 
     # Embedding model — must support OpenRouter /embeddings endpoint
     embedding: str = "qwen/qwen3-embedding-8b"
