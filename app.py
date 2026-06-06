@@ -35,37 +35,54 @@ st.set_page_config(
 # ──────────────────────────────────────────────────────────────────────────────
 CUSTOM_CSS = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* ── Palette: #01161E / #124559 / #598392 / #AEC3B0 / #EFF6E0 ── */
 :root {
-    --ink-black: #011627;
-    --porcelain: #fdfffc;
-    --light-sea-green: #2ec4b6;
+    --c-deepest:  #01161E;
+    --c-navy:     #124559;
+    --c-teal:     #598392;
+    --c-sage:     #AEC3B0;
+    --c-cream:    #EFF6E0;
 
-    --bg:            var(--ink-black);
-    --bg-card:       rgba(253, 255, 252, 0.03);
-    --bg-card-hover: rgba(253, 255, 252, 0.06);
-    --accent:        var(--light-sea-green);
-    --accent-dim:    rgba(46, 196, 182, 0.15);
-    --accent-light:  rgba(46, 196, 182, 0.8);
-    --accent-bright: var(--light-sea-green);
-    --txt:           var(--porcelain);
-    --txt-2:         rgba(253, 255, 252, 0.75);
-    --txt-3:         rgba(253, 255, 252, 0.5);
-    --border:        rgba(46, 196, 182, 0.2);
-    --radius:        14px;
-    --tr:            0.3s cubic-bezier(.4,0,.2,1);
-    
-    /* Elegant Shadows */
-    --shadow-base:   0 4px 14px rgba(0, 0, 0, 0.3);
-    --shadow-hover:  0 10px 24px rgba(0, 0, 0, 0.5);
-    --shadow-glow:   0 0 20px rgba(46, 196, 182, 0.2);
+    /* Semantic roles */
+    --bg:            #01161E;
+    --bg-mid:        #0b2535;
+    --bg-card:       rgba(18, 69, 89, 0.28);
+    --bg-card-hover: rgba(18, 69, 89, 0.48);
+    --bg-input:      rgba(18, 69, 89, 0.35);
+
+    --accent:        #598392;
+    --accent-bright: #AEC3B0;
+    --accent-dim:    rgba(89, 131, 146, 0.18);
+    --accent-glow:   rgba(89, 131, 146, 0.22);
+
+    --txt:           #EFF6E0;
+    --txt-2:         rgba(239, 246, 224, 0.72);
+    --txt-3:         rgba(239, 246, 224, 0.42);
+
+    --border:        rgba(89, 131, 146, 0.22);
+    --border-hover:  rgba(174, 195, 176, 0.45);
+
+    --radius:        12px;
+    --radius-sm:     8px;
+    --radius-lg:     16px;
+    --tr:            0.22s cubic-bezier(.4,0,.2,1);
+
+    --shadow-sm:     0 2px 8px rgba(1, 22, 30, 0.45);
+    --shadow-md:     0 6px 20px rgba(1, 22, 30, 0.55);
+    --shadow-lg:     0 16px 40px rgba(1, 22, 30, 0.65);
+    --shadow-glow:   0 0 24px rgba(89, 131, 146, 0.18);
+
+    /* Constrain sidebar resize: prevent it from going beyond its natural width */
+    --sidebar-max: 320px;
 }
 
-/* ── Universal font ── */
+/* ── Universal font reset ── */
 html, body, [class*="css"], .stApp {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Inter', system-ui, sans-serif !important;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* ── Full-page dark background ── */
@@ -80,11 +97,18 @@ html, body, [class*="css"], .stApp {
     color: var(--txt) !important;
 }
 
-/* ── Sidebar ── */
+/* ── Sidebar — constrained, no bleeding expansion ── */
 [data-testid="stSidebar"] {
-    background-color: var(--bg) !important;
+    background: linear-gradient(180deg, #0b2535 0%, #01161E 100%) !important;
     border-right: 1px solid var(--border) !important;
-    box-shadow: 4px 0 24px rgba(0,0,0,0.5) !important;
+    box-shadow: 4px 0 32px rgba(1, 22, 30, 0.7) !important;
+    max-width: var(--sidebar-max) !important;
+    min-width: 220px !important;
+}
+
+/* Constrain the resize handle so it can't drag beyond max width */
+[data-testid="stSidebar"] > div:first-child {
+    max-width: var(--sidebar-max) !important;
 }
 
 /* ── Markdown / text colour ── */
@@ -94,65 +118,69 @@ html, body, [class*="css"], .stApp {
     color: var(--txt) !important;
 }
 
-/* ── Input ── */
+/* ── Text input ── */
 .stTextInput > div > div > input {
-    background: rgba(253, 255, 252, 0.05) !important;
+    background: var(--bg-input) !important;
     border: 1px solid var(--border) !important;
-    border-radius: 12px !important;
-    padding: 0.8rem 1.2rem !important;
+    border-radius: var(--radius) !important;
+    padding: 0.75rem 1.1rem !important;
     color: var(--txt) !important;
-    caret-color: var(--accent);
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
-    transition: all var(--tr);
+    caret-color: var(--accent-bright);
+    font-size: 0.92rem !important;
+    box-shadow: inset 0 1px 4px rgba(1, 22, 30, 0.3);
+    transition: border-color var(--tr), box-shadow var(--tr);
 }
-.stTextInput > div > div > input::placeholder { color: var(--txt-3) !important; font-weight: 300; }
+.stTextInput > div > div > input::placeholder {
+    color: var(--txt-3) !important;
+    font-weight: 300;
+}
 .stTextInput > div > div > input:focus {
     border-color: var(--accent) !important;
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2), 0 0 0 3px var(--accent-dim) !important;
+    box-shadow: inset 0 1px 4px rgba(1, 22, 30, 0.3), 0 0 0 3px var(--accent-dim) !important;
     outline: none;
 }
 
 /* ── Buttons ── */
 div.stButton > button {
-    border-radius: 12px !important;
+    border-radius: var(--radius) !important;
     border: 1px solid var(--border) !important;
     background: var(--bg-card) !important;
-    color: var(--txt) !important;
+    color: var(--txt-2) !important;
+    font-size: 0.85rem !important;
     font-weight: 500 !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+    letter-spacing: 0.01em;
+    box-shadow: var(--shadow-sm) !important;
     transition: all var(--tr) !important;
-    letter-spacing: 0.02em;
 }
 div.stButton > button:hover {
-    border-color: var(--accent) !important;
+    border-color: var(--border-hover) !important;
     background: var(--bg-card-hover) !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3), var(--shadow-glow) !important;
+    color: var(--txt) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: var(--shadow-md), var(--shadow-glow) !important;
 }
 div.stButton > button[kind="primary"],
 div.stButton > button[data-testid="baseButton-primary"] {
-    background: var(--accent) !important;
+    background: linear-gradient(135deg, var(--c-navy) 0%, var(--c-teal) 100%) !important;
     border: 1px solid var(--accent) !important;
-    color: var(--ink-black) !important;
+    color: var(--c-cream) !important;
     font-weight: 600 !important;
-    text-shadow: none;
 }
 div.stButton > button[kind="primary"]:hover,
 div.stButton > button[data-testid="baseButton-primary"]:hover {
-    background: var(--porcelain) !important;
-    border-color: var(--porcelain) !important;
-    color: var(--ink-black) !important;
-    box-shadow: 0 8px 20px rgba(46, 196, 182, 0.4), var(--shadow-glow) !important;
+    background: linear-gradient(135deg, var(--c-teal) 0%, var(--c-sage) 100%) !important;
+    border-color: var(--accent-bright) !important;
+    color: var(--c-deepest) !important;
+    box-shadow: var(--shadow-md), var(--shadow-glow) !important;
 }
 
 /* ── Selectbox ── */
 .stSelectbox > div > div,
 [data-testid="stSelectbox"] > div > div {
-    background: rgba(253, 255, 252, 0.05) !important;
+    background: var(--bg-input) !important;
     border: 1px solid var(--border) !important;
-    border-radius: 12px !important;
+    border-radius: var(--radius) !important;
     color: var(--txt) !important;
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* ── Expander ── */
@@ -161,21 +189,22 @@ details[data-testid="stExpander"],
     background: var(--bg-card) !important;
     border: 1px solid var(--border) !important;
     border-radius: var(--radius) !important;
-    box-shadow: var(--shadow-base);
-    transition: all var(--tr);
+    box-shadow: var(--shadow-sm);
+    transition: border-color var(--tr);
 }
 details[data-testid="stExpander"]:hover {
-    border-color: var(--accent) !important;
+    border-color: var(--border-hover) !important;
 }
 [data-testid="stExpander"] summary {
     color: var(--txt) !important;
     font-weight: 600;
-    letter-spacing: 0.02em;
+    font-size: 0.9rem;
+    letter-spacing: 0.015em;
 }
 
 /* ── Tabs ── */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 8px;
+    gap: 4px;
     background: transparent;
     padding: 0;
     border-bottom: 1px solid var(--border);
@@ -183,15 +212,16 @@ details[data-testid="stExpander"]:hover {
 .stTabs [data-baseweb="tab"] {
     border-radius: 0 !important;
     font-weight: 500;
-    color: var(--txt-2) !important;
+    font-size: 0.875rem;
+    color: var(--txt-3) !important;
     background: transparent !important;
-    padding: 10px 16px;
-    transition: all var(--tr);
+    padding: 10px 18px;
+    transition: color var(--tr);
     border-bottom: 2px solid transparent !important;
 }
 .stTabs [aria-selected="true"] {
-    color: var(--accent) !important;
-    border-bottom: 2px solid var(--accent) !important;
+    color: var(--accent-bright) !important;
+    border-bottom: 2px solid var(--accent-bright) !important;
 }
 .stTabs [data-baseweb="tab-highlight"] { display: none !important; }
 .stTabs [data-baseweb="tab-panel"] {
@@ -202,212 +232,313 @@ details[data-testid="stExpander"]:hover {
 /* ── Spinner ── */
 [data-testid="stSpinner"] { color: var(--accent) !important; }
 
-/* ── Info / warning boxes ── */
-[data-testid="stAlert"],
-.stAlert {
+/* ── Alert / info boxes ── */
+[data-testid="stAlert"], .stAlert {
     background: var(--bg-card) !important;
-    border: 1px solid var(--accent-dim) !important;
-    border-left: 4px solid var(--accent) !important;
-    border-radius: 12px !important;
+    border: 1px solid var(--border) !important;
+    border-left: 3px solid var(--accent) !important;
+    border-radius: var(--radius) !important;
     color: var(--txt) !important;
-    box-shadow: var(--shadow-base);
+    box-shadow: var(--shadow-sm);
 }
 
 /* ── Divider ── */
-hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.25rem 0;
+    opacity: 0.6;
+}
 
-/* ── Highlight (HTML mark tag used by highlight_terms) ── */
+/* ── Highlight mark ── */
 mark {
     background: var(--accent-dim);
-    color: var(--accent) !important;
-    border-radius: 4px;
-    padding: 0 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    color: var(--accent-bright) !important;
+    border-radius: 3px;
+    padding: 1px 4px;
 }
-strong { color: var(--porcelain) !important; font-weight: 700; }
+strong { color: var(--c-cream) !important; font-weight: 600; }
 
-/* ── Sidebar logo mark ── */
+/* ── Sidebar branding ── */
 .ent-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
-    margin-bottom: 0.8rem;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 .ent-logo img {
-    width: 120px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 96px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
 }
 
-/* ── Hero ── */
+/* ── Hero heading — uses Instrument Serif for elegance ── */
 .hero { padding: 2rem 0 1.5rem; }
 .hero h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: var(--porcelain);
-    letter-spacing: -0.03em;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--c-cream);
+    letter-spacing: -0.01em;
     line-height: 1.2;
-    margin-bottom: 0.8rem;
-    text-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    margin-bottom: 0.75rem;
 }
 .hero p {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
     color: var(--txt-2);
-    line-height: 1.6;
-    max-width: 700px;
+    line-height: 1.65;
+    max-width: 680px;
+    font-weight: 300;
 }
 
 /* ── Stat pill ── */
 .stat-pill {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 12px 18px;
+    gap: 10px;
+    padding: 10px 14px;
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-radius: 12px;
-    margin-bottom: 12px;
-    box-shadow: var(--shadow-base);
+    border-radius: var(--radius-sm);
+    margin-bottom: 8px;
+    box-shadow: var(--shadow-sm);
     transition: all var(--tr);
 }
 .stat-pill:hover {
-    border-color: var(--accent-dim);
+    border-color: var(--border-hover);
     background: var(--bg-card-hover);
-    transform: translateY(-2px);
 }
-.stat-n { font-size: 1.5rem; font-weight: 700; color: var(--accent); min-width: 40px; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
-.stat-l { font-size: 0.75rem; color: var(--txt-2); text-transform: uppercase; letter-spacing: 0.12em; font-weight: 500; }
+.stat-n {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--accent-bright);
+    min-width: 36px;
+    font-variant-numeric: tabular-nums;
+}
+.stat-l {
+    font-size: 0.7rem;
+    color: var(--txt-3);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
 
 /* ── Badges ── */
 .badge {
-    display: inline-flex; align-items: center;
-    padding: 4px 12px;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
     border-radius: 99px;
-    font-size: 0.75rem; font-weight: 600; white-space: nowrap;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-size: 0.7rem;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
 }
-.b-high { background: var(--accent-dim); color: var(--accent); border: 1px solid var(--accent); }
-.b-mid  { background: rgba(253, 255, 252, 0.1); color: var(--porcelain); border: 1px solid var(--border); }
-.b-low  { background: rgba(253, 255, 252, 0.05); color: var(--txt-3); border: 1px solid rgba(253, 255, 252, 0.1); }
+.b-high { background: rgba(174, 195, 176, 0.15); color: var(--accent-bright); border: 1px solid rgba(174, 195, 176, 0.35); }
+.b-mid  { background: rgba(239, 246, 224, 0.08); color: var(--txt-2); border: 1px solid var(--border); }
+.b-low  { background: rgba(239, 246, 224, 0.04); color: var(--txt-3); border: 1px solid rgba(239, 246, 224, 0.08); }
 .b-sec  {
-    background: rgba(46, 196, 182, 0.1); color: var(--accent);
-    border-radius: 6px; text-transform: uppercase;
-    letter-spacing: 0.08em; font-size: 0.7rem; padding: 4px 10px;
-    border: 1px solid var(--accent-dim);
+    background: rgba(89, 131, 146, 0.15);
+    color: var(--accent-bright);
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    font-size: 0.65rem;
+    padding: 3px 8px;
+    border: 1px solid var(--border);
 }
-.b-doi  { background: rgba(253, 255, 252, 0.05); color: var(--txt-2); border: 1px solid var(--border); }
+.b-doi  { background: rgba(239, 246, 224, 0.04); color: var(--txt-3); border: 1px solid var(--border); font-family: 'Inter', monospace; font-size: 0.68rem; }
 
 /* ── Score bar ── */
-.strack  { background: rgba(253, 255, 252, 0.1); border-radius: 99px; height: 4px; overflow: hidden; margin-top: 10px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.4); }
-.sfill   { height: 100%; border-radius: 99px; box-shadow: 0 0 8px var(--accent-dim); }
+.strack  {
+    background: rgba(239, 246, 224, 0.06);
+    border-radius: 99px;
+    height: 3px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.sfill   {
+    height: 100%;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--c-teal), var(--c-sage));
+}
 
 /* ── Passage card ── */
 .pcard {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.5rem;
-    margin-bottom: 1.2rem;
-    box-shadow: var(--shadow-base);
-    backdrop-filter: blur(10px);
-    transition: all var(--tr);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(8px);
+    transition: border-color var(--tr), box-shadow var(--tr), transform var(--tr);
 }
-.pcard:hover { 
-    border-color: var(--accent); 
-    box-shadow: var(--shadow-hover), var(--shadow-glow); 
-    transform: translateY(-3px); 
+.pcard:hover {
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-md), var(--shadow-glow);
+    transform: translateY(-2px);
 }
-.pcard-meta { font-size: 0.8rem; color: var(--txt-3); margin-top: 12px; display: flex; flex-wrap: wrap; gap: 14px; font-weight: 400; }
+.pcard-meta {
+    font-size: 0.76rem;
+    color: var(--txt-3);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-weight: 400;
+}
 
 /* ── Paper grid card ── */
 .pgcard {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.5rem;
+    padding: 1.25rem;
     height: 100%;
-    box-shadow: var(--shadow-base);
-    backdrop-filter: blur(10px);
-    transition: all var(--tr);
+    box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(8px);
+    transition: border-color var(--tr), box-shadow var(--tr), transform var(--tr);
 }
-.pgcard:hover { 
-    border-color: var(--accent); 
-    transform: translateY(-4px); 
-    box-shadow: var(--shadow-hover), var(--shadow-glow); 
+.pgcard:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md), var(--shadow-glow);
 }
 .pgcard h4 {
-    font-size: 1rem; font-weight: 600; color: var(--porcelain); line-height: 1.5; margin-bottom: 10px;
-    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--c-cream);
+    line-height: 1.5;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
-.pgcard-m { font-size: 0.8rem; color: var(--txt-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 6px; font-weight: 400; }
+.pgcard-m {
+    font-size: 0.76rem;
+    color: var(--txt-3);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+}
 
 /* ── Paper detail header ── */
 .detail-hdr {
-    background: var(--bg-card);
+    background: linear-gradient(135deg, rgba(18, 69, 89, 0.5) 0%, rgba(1, 22, 30, 0.7) 100%);
     border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 2rem;
+    border-radius: var(--radius-lg);
+    padding: 1.75rem 2rem;
     margin-bottom: 1.5rem;
-    box-shadow: var(--shadow-hover);
+    box-shadow: var(--shadow-lg);
 }
 
 /* ── Answer box ── */
 .answer-box {
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-left: 4px solid var(--accent);
-    border-radius: 14px;
-    padding: 1.6rem 2rem;
-    font-size: 1rem;
+    border-left: 3px solid var(--accent-bright);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    font-size: 0.95rem;
     line-height: 1.8;
     color: var(--txt);
-    box-shadow: var(--shadow-base);
+    box-shadow: var(--shadow-sm);
 }
 
 /* ── Citation strip ── */
 .cite-strip {
-    display: flex; flex-wrap: wrap; gap: 8px;
-    padding: 1rem 1.2rem;
-    background: rgba(253, 255, 252, 0.02);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0.8rem 1rem;
+    background: rgba(1, 22, 30, 0.4);
     border: 1px solid var(--border);
-    border-radius: 12px;
-    margin-top: 1rem;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: var(--radius-sm);
+    margin-top: 0.75rem;
 }
 .cite-chip {
-    font-size: 0.75rem; color: var(--porcelain); font-weight: 500;
-    background: rgba(253, 255, 252, 0.08);
-    padding: 4px 12px; border-radius: 99px;
-    border: 1px solid rgba(253, 255, 252, 0.15);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-size: 0.72rem;
+    color: var(--txt-2);
+    font-weight: 500;
+    background: rgba(239, 246, 224, 0.06);
+    padding: 3px 10px;
+    border-radius: 99px;
+    border: 1px solid var(--border);
     transition: all var(--tr);
+    cursor: default;
 }
 .cite-chip:hover {
-    background: var(--accent);
-    color: var(--ink-black);
+    background: var(--c-navy);
+    color: var(--c-cream);
     border-color: var(--accent);
 }
 
 /* ── Section / reference text ── */
 .sec-body {
-    font-size: 0.95rem; line-height: 1.7;
-    color: var(--txt); white-space: pre-wrap;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: var(--txt-2);
+    white-space: pre-wrap;
 }
 .ref-row {
-    padding: 0.8rem 0;
+    padding: 0.7rem 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.85rem; line-height: 1.6; color: var(--txt-2);
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--txt-2);
 }
 .ref-row:last-child { border-bottom: none; }
-.ref-t   { font-weight: 500; color: var(--porcelain); }
-.ref-doi { color: var(--accent); text-decoration: none; font-size: 0.8rem; font-weight: 500; }
-.ref-doi:hover { text-decoration: underline; color: var(--accent-light); }
+.ref-t   { font-weight: 500; color: var(--txt); }
+.ref-doi { color: var(--accent-bright); text-decoration: none; font-size: 0.78rem; font-weight: 500; }
+.ref-doi:hover { text-decoration: underline; color: var(--c-sage); }
 
 /* ── Fade-up animation ── */
-@keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
-.fi { animation: fadeUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.fi { animation: fadeUp 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+/* ── Sidebar resize constraint via JS injected style ── */
+/* The following rule limits the sidebar drag handle so it never expands
+   the sidebar beyond its natural/collapsed width (~320px) */
+[data-testid="stSidebarResizeHandle"] {
+    /* Restrict visual feedback if handle goes too far */
+    pointer-events: auto;
+}
 </style>
+
+<script>
+// Enforce sidebar max-width after any resize interaction
+(function() {
+    const MAX_WIDTH = 320;
+    function clampSidebar() {
+        const sb = document.querySelector('[data-testid="stSidebar"]');
+        if (sb) {
+            const w = sb.getBoundingClientRect().width;
+            if (w > MAX_WIDTH) {
+                sb.style.setProperty('width', MAX_WIDTH + 'px', 'important');
+                sb.style.setProperty('min-width', MAX_WIDTH + 'px', 'important');
+                sb.style.setProperty('max-width', MAX_WIDTH + 'px', 'important');
+            }
+        }
+    }
+    // MutationObserver to catch Streamlit dynamic resizes
+    const obs = new MutationObserver(clampSidebar);
+    document.addEventListener('DOMContentLoaded', function() {
+        const sb = document.querySelector('[data-testid="stSidebar"]');
+        if (sb) obs.observe(sb, { attributes: true, attributeFilter: ['style'] });
+    });
+    // Also listen on mouseup in case of drag
+    document.addEventListener('mouseup', clampSidebar);
+})();
+</script>
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
@@ -430,8 +561,7 @@ def _badge(pct: int) -> str:
 
 
 def _bar(pct: int) -> str:
-    c = "var(--accent)" if pct >= 75 else ("var(--accent-dim)" if pct >= 50 else "rgba(253, 255, 252, 0.1)")
-    return f'<div class="strack"><div class="sfill" style="width:{pct}%;background:{c};"></div></div>'
+    return f'<div class="strack"><div class="sfill" style="width:{pct}%;"></div></div>'
 
 
 def _doi(doi: str) -> str:
@@ -445,7 +575,6 @@ def _strip_prefix(text: str, section: str) -> str:
     prefix = f"[{section}]\n\n"
     if text.startswith(prefix):
         return text[len(prefix):]
-    # fallback: strip any bracketed prefix
     return re.sub(r'^\[[^\]]*\]\n\n', '', text, count=1)
 
 
@@ -472,7 +601,6 @@ def _passage_card(chunk, idx: int, query: str = "") -> None:
     pct     = format_score(chunk.score)
     section = chunk.section if not chunk.is_summary else "Abstract"
     raw     = _strip_prefix(chunk.text, chunk.section)
-    # highlight_terms returns HTML with <mark> tags — safe to embed
     preview = highlight_terms(raw[:520], query) if query else raw[:520]
     doi_html = _doi(chunk.metadata.get("doi", ""))
 
@@ -481,13 +609,13 @@ def _passage_card(chunk, idx: int, query: str = "") -> None:
         f'  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">'
         f'    <div style="min-width:0;flex:1;">'
         f'      <span class="badge b-sec">{section}</span>'
-        f'      <span style="font-size:0.83rem;font-weight:600;color:var(--txt);margin-left:6px;">{chunk.citation_label}</span>'
-        f'      <span style="font-size:0.75rem;color:var(--txt-3);margin-left:4px;">· {chunk.metadata.get("title","")[:85]}</span>'
+        f'      <span style="font-size:0.82rem;font-weight:600;color:var(--txt);margin-left:6px;">{chunk.citation_label}</span>'
+        f'      <span style="font-size:0.74rem;color:var(--txt-3);margin-left:4px;">· {chunk.metadata.get("title","")[:85]}</span>'
         f'    </div>'
         f'    {_badge(pct)}'
         f'  </div>'
         f'  {_bar(pct)}'
-        f'  <div style="font-size:0.83rem;line-height:1.65;color:var(--txt-2);margin-top:9px;">{preview}</div>'
+        f'  <div style="font-size:0.82rem;line-height:1.7;color:var(--txt-2);margin-top:10px;">{preview}</div>'
         f'  <div class="pcard-meta">'
         f'    <span>{chunk.metadata.get("year","—")}</span>'
         f'    <span>{chunk.metadata.get("journal","—")[:55]}</span>'
@@ -515,7 +643,7 @@ def _paper_card_html(paper: dict) -> str:
         f'  <h4>{title}</h4>'
         f'  <div class="pgcard-m">{year} · {journal}</div>'
         f'  <div class="pgcard-m">{author}</div>'
-        f'  <div style="margin-top:7px;"><span class="badge b-doi">{doi}</span></div>'
+        f'  <div style="margin-top:8px;"><span class="badge b-doi">{doi}</span></div>'
         f'</div>'
     )
 
@@ -524,17 +652,18 @@ def _paper_card_html(paper: dict) -> str:
 # Sidebar
 # ──────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("image/logo.png", use_container_width=True)
+    st.image("image/logo.png", use_container_width=False, width=88)
     st.markdown(
         """
-        <div style="padding:0.4rem 0 1.1rem; text-align: center;">
-          <div style="font-size:1.5rem;font-weight:800;color:var(--porcelain);
-                      letter-spacing:0.1em;font-family:'Inter',sans-serif;
-                      text-shadow: 0 4px 8px rgba(0,0,0,0.5);">
+        <div style="padding: 0.5rem 0 1rem; text-align: left;">
+          <div style="font-family: 'Instrument Serif', Georgia, serif;
+                      font-size: 1.4rem; font-weight: 400; font-style: italic;
+                      color: #EFF6E0; letter-spacing: 0.01em;">
             ENT AI
           </div>
-          <div style="font-size:0.75rem;color:var(--accent);margin-top:6px;font-weight:600;letter-spacing:0.08em;">
-            LATEST PAPERS (PAST MONTH)
+          <div style="font-size: 0.65rem; color: #598392; margin-top: 4px;
+                      font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">
+            Latest Papers · Past Month
           </div>
         </div>
         """,
@@ -545,7 +674,7 @@ with st.sidebar:
     if st.button(MODE_ASK, use_container_width=True, type="primary" if mode == MODE_ASK else "secondary"):
         st.session_state.app_mode = MODE_ASK
         st.rerun()
-    
+
     if st.button(MODE_EXPLORER, use_container_width=True, type="primary" if mode == MODE_EXPLORER else "secondary"):
         st.session_state.app_mode = MODE_EXPLORER
         st.rerun()
@@ -571,7 +700,7 @@ with st.sidebar:
 
     st.markdown('<hr/>', unsafe_allow_html=True)
     st.markdown(
-        '<div style="font-size:0.7rem;color:var(--txt-3);line-height:1.7;">'
+        '<div style="font-size:0.66rem;color:var(--txt-3);line-height:1.8;">'
         'ChromaDB · OpenRouter<br/>Nemotron Ultra 253B'
         '</div>',
         unsafe_allow_html=True,
@@ -587,12 +716,11 @@ if mode == MODE_ASK:
         '<h1>Ask the Literature</h1>'
         '<p>Ask any ENT / otorhinolaryngology question and get a citation-backed answer '
         'synthesised from peer-reviewed papers published <strong>this last month</strong>. '
-        'Switch to <strong style="color:var(--accent);">Ranked Passages</strong> to browse the raw semantic results.</p>'
+        'Switch to <strong style="color:var(--accent-bright);">Ranked Passages</strong> to browse the raw semantic results.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
 
-    # ── query row + optional journal filter ──
     q_col, j_col = st.columns([5, 1])
     with q_col:
         query = st.text_input(
@@ -624,13 +752,10 @@ if mode == MODE_ASK:
         with tab_ans:
             with st.spinner("Retrieving passages and generating answer…"):
                 answer_box = st.empty()
-                # Collect the full streamed answer so we can wrap it in the styled div.
-                # st.write_stream returns the full string when the generator is exhausted.
                 full_answer = answer_box.write_stream(
                     stream_answer(query, where=where)
                 )
 
-            # Citation strip — deduplicated paper labels from retrieved chunks
             sources = st.session_state.get("_last_sources", [])
             seen: set[str] = set()
             unique = []
@@ -646,20 +771,19 @@ if mode == MODE_ASK:
                 extra = "<span class='cite-chip'>…</span>" if len(unique) > 10 else ""
                 st.markdown(
                     f'<div class="cite-strip">'
-                    f'<span style="font-size:0.69rem;color:var(--txt-3);margin-right:5px;">Sources:</span>'
+                    f'<span style="font-size:0.67rem;color:var(--txt-3);margin-right:6px;">Sources:</span>'
                     f'{chips}{extra}</div>',
                     unsafe_allow_html=True,
                 )
 
         with tab_passages:
-            # Re-read sources (populated during stream_answer above)
             sources = st.session_state.get("_last_sources", [])
             display = [c for c in sources if not c.is_summary]
             if not display:
                 st.info("Submit a question first to see ranked passages here.")
             else:
                 st.markdown(
-                    f'<p style="font-size:0.77rem;color:var(--txt-2);margin-bottom:0.75rem;">'
+                    f'<p style="font-size:0.75rem;color:var(--txt-2);margin-bottom:0.75rem;">'
                     f'<strong style="color:var(--txt);">{len(display)}</strong> '
                     f'passages above relevance threshold</p>',
                     unsafe_allow_html=True,
@@ -673,7 +797,6 @@ if mode == MODE_ASK:
 # ──────────────────────────────────────────────────────────────────────────────
 elif mode == MODE_EXPLORER:
 
-    # ── Detail panel — shown ABOVE the grid when a paper is selected ──
     if "selected_paper" in st.session_state:
         paper  = st.session_state["selected_paper"]
         doi_id = paper.get("doi", "")
@@ -681,14 +804,13 @@ elif mode == MODE_EXPLORER:
         authors_disp = _authors_str(paper.get("authors", ""), limit=200)
         doi_html     = _doi(paper.get("doi", ""))
 
-        # ── Header card ──
         st.markdown(
             f'<div class="detail-hdr">'
-            f'  <div style="font-size:1.1rem;font-weight:700;color:var(--porcelain);line-height:1.4;margin-bottom:8px;">'
+            f'  <div style="font-family:\'Instrument Serif\', Georgia, serif; font-size:1.25rem; font-weight:400; color:var(--c-cream); line-height:1.4; margin-bottom:8px;">'
             f'    {paper.get("title", "Untitled")}'
             f'  </div>'
-            f'  <div style="font-size:0.85rem;color:var(--txt-2);margin-bottom:8px;">{authors_disp}</div>'
-            f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.8rem;color:var(--txt-2);">'
+            f'  <div style="font-size:0.83rem;color:var(--txt-2);margin-bottom:10px;">{authors_disp}</div>'
+            f'  <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:0.78rem;color:var(--txt-3);">'
             f'    <span>{paper.get("year","—")}</span>'
             f'    <span>{paper.get("journal","—")}</span>'
             f'    <span class="badge b-doi">{doi_id}</span>'
@@ -698,7 +820,6 @@ elif mode == MODE_EXPLORER:
             unsafe_allow_html=True,
         )
 
-        # ── Action buttons ──
         b1, b2, _ = st.columns([1.5, 1, 2])
         with b1:
             do_summary = st.button(
@@ -714,7 +835,6 @@ elif mode == MODE_EXPLORER:
                 st.session_state.pop("_sum_id", None)
                 st.rerun()
 
-        # ── LLM summary (streamed on demand) ──
         if do_summary:
             st.session_state["_sum_id"]   = doi_id
             st.session_state["_sum_done"] = False
@@ -728,7 +848,6 @@ elif mode == MODE_EXPLORER:
                     st.write_stream(generate_deep_summary(doi_id))
             st.session_state["_sum_done"] = True
 
-        # ── Abstract ──
         abstract = _abstract_only(paper.get("summary_text", ""))
         if abstract:
             with st.expander("📋 Abstract", expanded=True):
@@ -737,7 +856,6 @@ elif mode == MODE_EXPLORER:
                     unsafe_allow_html=True,
                 )
 
-        # ── Full sections (no truncation) ──
         with st.expander("📑 Full paper sections", expanded=False):
             retriever = get_retriever()
             chunks = [
@@ -758,7 +876,6 @@ elif mode == MODE_EXPLORER:
                         unsafe_allow_html=True,
                     )
 
-        # ── References ──
         with st.expander("📚 References", expanded=False):
             retriever   = get_retriever()
             all_chunks  = retriever.retrieve_by_paper(doi_id)
@@ -787,7 +904,7 @@ elif mode == MODE_EXPLORER:
                 st.caption("No structured references stored for this paper.")
             else:
                 st.markdown(
-                    f'<p style="font-size:0.75rem;color:var(--txt-3);margin-bottom:0.6rem;">'
+                    f'<p style="font-size:0.73rem;color:var(--txt-3);margin-bottom:0.5rem;">'
                     f'{len(refs)} references</p>',
                     unsafe_allow_html=True,
                 )
@@ -816,7 +933,6 @@ elif mode == MODE_EXPLORER:
 
         st.markdown('<hr/>', unsafe_allow_html=True)
 
-    # ── Paper grid (ONLY SHOWN IF NO PAPER IS SELECTED) ──
     else:
         st.markdown(
             '<div class="hero">'
@@ -845,7 +961,7 @@ elif mode == MODE_EXPLORER:
                 else f'Showing all {n} papers'
             )
             st.markdown(
-                f'<p style="font-size:0.76rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
+                f'<p style="font-size:0.74rem;color:var(--txt-2);margin-bottom:0.75rem;">{label}</p>',
                 unsafe_allow_html=True,
             )
         except Exception as exc:
