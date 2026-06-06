@@ -38,26 +38,28 @@ CUSTOM_CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --bg:            #01161e;
-    --bg-card:       rgba(18, 69, 89, 0.25);
-    --bg-card-hover: rgba(18, 69, 89, 0.45);
-    --accent:        #598392;
-    --accent-dim:    rgba(89, 131, 146, 0.2);
-    --accent-light:  #aec3b0;
-    --accent-bright: #eff6e0;
-    --accent-amber:  #d97706;
-    --accent-rose:   #e11d48;
-    --txt:           #eff6e0;
-    --txt-2:         #aec3b0;
-    --txt-3:         rgba(174, 195, 176, 0.7);
-    --border:        rgba(89, 131, 146, 0.35);
+    --ink-black: #011627;
+    --porcelain: #fdfffc;
+    --light-sea-green: #2ec4b6;
+
+    --bg:            var(--ink-black);
+    --bg-card:       rgba(253, 255, 252, 0.03);
+    --bg-card-hover: rgba(253, 255, 252, 0.06);
+    --accent:        var(--light-sea-green);
+    --accent-dim:    rgba(46, 196, 182, 0.15);
+    --accent-light:  rgba(46, 196, 182, 0.8);
+    --accent-bright: var(--light-sea-green);
+    --txt:           var(--porcelain);
+    --txt-2:         rgba(253, 255, 252, 0.75);
+    --txt-3:         rgba(253, 255, 252, 0.5);
+    --border:        rgba(46, 196, 182, 0.2);
     --radius:        14px;
     --tr:            0.3s cubic-bezier(.4,0,.2,1);
     
     /* Elegant Shadows */
-    --shadow-base:   0 4px 14px rgba(0, 0, 0, 0.25);
-    --shadow-hover:  0 10px 24px rgba(0, 0, 0, 0.35);
-    --shadow-glow:   0 0 16px rgba(89, 131, 146, 0.25);
+    --shadow-base:   0 4px 14px rgba(0, 0, 0, 0.3);
+    --shadow-hover:  0 10px 24px rgba(0, 0, 0, 0.5);
+    --shadow-glow:   0 0 20px rgba(46, 196, 182, 0.2);
 }
 
 /* ── Universal font ── */
@@ -79,12 +81,10 @@ html, body, [class*="css"], .stApp {
 }
 
 /* ── Sidebar ── */
-[data-testid="stSidebar"],
-section[data-testid="stSidebar"],
-[data-testid="stSidebar"] > div {
-    background: linear-gradient(180deg, #124559 0%, #01161e 100%) !important;
+[data-testid="stSidebar"] {
+    background-color: var(--bg) !important;
     border-right: 1px solid var(--border) !important;
-    box-shadow: 4px 0 24px rgba(0,0,0,0.3) !important;
+    box-shadow: 4px 0 24px rgba(0,0,0,0.5) !important;
 }
 
 /* ── Markdown / text colour ── */
@@ -96,56 +96,59 @@ section[data-testid="stSidebar"],
 
 /* ── Input ── */
 .stTextInput > div > div > input {
-    background: rgba(1, 22, 30, 0.8) !important;
+    background: rgba(253, 255, 252, 0.05) !important;
     border: 1px solid var(--border) !important;
     border-radius: 12px !important;
-    padding: 0.6rem 1rem !important;
+    padding: 0.8rem 1.2rem !important;
     color: var(--txt) !important;
-    caret-color: var(--accent-light);
+    caret-color: var(--accent);
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
     transition: all var(--tr);
 }
-.stTextInput > div > div > input::placeholder { color: var(--txt-3) !important; }
+.stTextInput > div > div > input::placeholder { color: var(--txt-3) !important; font-weight: 300; }
 .stTextInput > div > div > input:focus {
-    border-color: var(--accent-light) !important;
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(174, 195, 176, 0.2) !important;
+    border-color: var(--accent) !important;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2), 0 0 0 3px var(--accent-dim) !important;
     outline: none;
 }
 
 /* ── Buttons ── */
 div.stButton > button {
     border-radius: 12px !important;
-    border: 1px solid rgba(174, 195, 176, 0.4) !important;
-    background: rgba(18, 69, 89, 0.4) !important;
+    border: 1px solid var(--border) !important;
+    background: var(--bg-card) !important;
     color: var(--txt) !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
     transition: all var(--tr) !important;
     letter-spacing: 0.02em;
 }
 div.stButton > button:hover {
-    border-color: var(--accent-light) !important;
-    background: rgba(89, 131, 146, 0.3) !important;
+    border-color: var(--accent) !important;
+    background: var(--bg-card-hover) !important;
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3), var(--shadow-glow) !important;
 }
 div.stButton > button[kind="primary"],
 div.stButton > button[data-testid="baseButton-primary"] {
-    background: linear-gradient(135deg, #124559, #598392) !important;
-    border: 1px solid rgba(174, 195, 176, 0.5) !important;
-    color: var(--txt) !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+    background: var(--accent) !important;
+    border: 1px solid var(--accent) !important;
+    color: var(--ink-black) !important;
+    font-weight: 600 !important;
+    text-shadow: none;
 }
 div.stButton > button[kind="primary"]:hover,
 div.stButton > button[data-testid="baseButton-primary"]:hover {
-    background: linear-gradient(135deg, #185a73, #6a9caf) !important;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), var(--shadow-glow) !important;
+    background: var(--porcelain) !important;
+    border-color: var(--porcelain) !important;
+    color: var(--ink-black) !important;
+    box-shadow: 0 8px 20px rgba(46, 196, 182, 0.4), var(--shadow-glow) !important;
 }
 
 /* ── Selectbox ── */
 .stSelectbox > div > div,
 [data-testid="stSelectbox"] > div > div {
-    background: rgba(1, 22, 30, 0.8) !important;
+    background: rgba(253, 255, 252, 0.05) !important;
     border: 1px solid var(--border) !important;
     border-radius: 12px !important;
     color: var(--txt) !important;
@@ -155,14 +158,14 @@ div.stButton > button[data-testid="baseButton-primary"]:hover {
 /* ── Expander ── */
 details[data-testid="stExpander"],
 [data-testid="stExpander"] {
-    background: rgba(18, 69, 89, 0.2) !important;
+    background: var(--bg-card) !important;
     border: 1px solid var(--border) !important;
     border-radius: var(--radius) !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: var(--shadow-base);
     transition: all var(--tr);
 }
 details[data-testid="stExpander"]:hover {
-    border-color: rgba(89, 131, 146, 0.5) !important;
+    border-color: var(--accent) !important;
 }
 [data-testid="stExpander"] summary {
     color: var(--txt) !important;
@@ -172,42 +175,42 @@ details[data-testid="stExpander"]:hover {
 
 /* ── Tabs ── */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 6px;
-    background: rgba(1, 22, 30, 0.4);
-    border-radius: 12px;
-    padding: 6px;
-    border: 1px solid var(--border);
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+    gap: 8px;
+    background: transparent;
+    padding: 0;
+    border-bottom: 1px solid var(--border);
 }
 .stTabs [data-baseweb="tab"] {
-    border-radius: 8px !important;
-    font-weight: 600;
+    border-radius: 0 !important;
+    font-weight: 500;
     color: var(--txt-2) !important;
     background: transparent !important;
+    padding: 10px 16px;
     transition: all var(--tr);
+    border-bottom: 2px solid transparent !important;
 }
 .stTabs [aria-selected="true"] {
-    background: rgba(89, 131, 146, 0.35) !important;
-    color: var(--txt) !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: var(--accent) !important;
+    border-bottom: 2px solid var(--accent) !important;
 }
 .stTabs [data-baseweb="tab-highlight"] { display: none !important; }
 .stTabs [data-baseweb="tab-panel"] {
     background: transparent !important;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
 }
 
 /* ── Spinner ── */
-[data-testid="stSpinner"] { color: var(--accent-light) !important; }
+[data-testid="stSpinner"] { color: var(--accent) !important; }
 
 /* ── Info / warning boxes ── */
 [data-testid="stAlert"],
 .stAlert {
-    background: rgba(89, 131, 146, 0.15) !important;
-    border: 1px solid rgba(89, 131, 146, 0.4) !important;
+    background: var(--bg-card) !important;
+    border: 1px solid var(--accent-dim) !important;
+    border-left: 4px solid var(--accent) !important;
     border-radius: 12px !important;
     color: var(--txt) !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: var(--shadow-base);
 }
 
 /* ── Divider ── */
@@ -215,13 +218,13 @@ hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
 
 /* ── Highlight (HTML mark tag used by highlight_terms) ── */
 mark {
-    background: rgba(89, 131, 146, 0.5);
-    color: var(--txt) !important;
+    background: var(--accent-dim);
+    color: var(--accent) !important;
     border-radius: 4px;
     padding: 0 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
-strong { color: var(--accent-bright) !important; font-weight: 700; }
+strong { color: var(--porcelain) !important; font-weight: 700; }
 
 /* ── Sidebar logo mark ── */
 .ent-logo {
@@ -234,28 +237,25 @@ strong { color: var(--accent-bright) !important; font-weight: 700; }
 .ent-logo img {
     width: 120px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(1, 22, 30, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 /* ── Hero ── */
-.hero { padding: 1.8rem 0 1rem; }
+.hero { padding: 2rem 0 1.5rem; }
 .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #eff6e0 0%, #aec3b0 50%, #598392 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--porcelain);
     letter-spacing: -0.03em;
     line-height: 1.2;
-    margin-bottom: 0.5rem;
-    text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin-bottom: 0.8rem;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 .hero p {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: var(--txt-2);
-    line-height: 1.7;
-    max-width: 650px;
+    line-height: 1.6;
+    max-width: 700px;
 }
 
 /* ── Stat pill ── */
@@ -263,99 +263,104 @@ strong { color: var(--accent-bright) !important; font-weight: 700; }
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 10px 16px;
-    background: rgba(18, 69, 89, 0.25);
-    border: 1px solid rgba(89, 131, 146, 0.3);
+    padding: 12px 18px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: 12px;
-    margin-bottom: 10px;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 2px 8px rgba(0,0,0,0.2);
+    margin-bottom: 12px;
+    box-shadow: var(--shadow-base);
+    transition: all var(--tr);
 }
-.stat-n { font-size: 1.25rem; font-weight: 800; color: var(--accent-bright); min-width: 40px; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-.stat-l { font-size: 0.72rem; color: var(--txt-2); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
+.stat-pill:hover {
+    border-color: var(--accent-dim);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+}
+.stat-n { font-size: 1.5rem; font-weight: 700; color: var(--accent); min-width: 40px; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+.stat-l { font-size: 0.75rem; color: var(--txt-2); text-transform: uppercase; letter-spacing: 0.12em; font-weight: 500; }
 
 /* ── Badges ── */
 .badge {
     display: inline-flex; align-items: center;
-    padding: 3px 10px;
+    padding: 4px 12px;
     border-radius: 99px;
-    font-size: 0.72rem; font-weight: 700; white-space: nowrap;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    font-size: 0.75rem; font-weight: 600; white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
-.b-high { background: rgba(174, 195, 176, 0.25); color: #eff6e0; border: 1px solid rgba(174, 195, 176, 0.4); }
-.b-mid  { background: rgba(89, 131, 146, 0.3);  color: #aec3b0; border: 1px solid rgba(89, 131, 146, 0.5); }
-.b-low  { background: rgba(18, 69, 89, 0.5);   color: #aec3b0; border: 1px solid rgba(89, 131, 146, 0.3); }
+.b-high { background: var(--accent-dim); color: var(--accent); border: 1px solid var(--accent); }
+.b-mid  { background: rgba(253, 255, 252, 0.1); color: var(--porcelain); border: 1px solid var(--border); }
+.b-low  { background: rgba(253, 255, 252, 0.05); color: var(--txt-3); border: 1px solid rgba(253, 255, 252, 0.1); }
 .b-sec  {
-    background: rgba(89, 131, 146, 0.25); color: #eff6e0;
+    background: rgba(46, 196, 182, 0.1); color: var(--accent);
     border-radius: 6px; text-transform: uppercase;
-    letter-spacing: 0.08em; font-size: 0.68rem; padding: 3px 8px;
-    border: 1px solid rgba(89, 131, 146, 0.4);
+    letter-spacing: 0.08em; font-size: 0.7rem; padding: 4px 10px;
+    border: 1px solid var(--accent-dim);
 }
-.b-doi  { background: rgba(18, 69, 89, 0.4); color: #aec3b0; border: 1px solid rgba(89, 131, 146, 0.3); }
+.b-doi  { background: rgba(253, 255, 252, 0.05); color: var(--txt-2); border: 1px solid var(--border); }
 
 /* ── Score bar ── */
-.strack  { background: rgba(1, 22, 30, 0.6); border-radius: 99px; height: 5px; overflow: hidden; margin-top: 8px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.4); }
-.sfill   { height: 100%; border-radius: 99px; box-shadow: 0 0 8px rgba(174, 195, 176, 0.4); }
+.strack  { background: rgba(253, 255, 252, 0.1); border-radius: 99px; height: 4px; overflow: hidden; margin-top: 10px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.4); }
+.sfill   { height: 100%; border-radius: 99px; box-shadow: 0 0 8px var(--accent-dim); }
 
 /* ── Passage card ── */
 .pcard {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.2rem 1.4rem;
-    margin-bottom: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
     box-shadow: var(--shadow-base);
     backdrop-filter: blur(10px);
     transition: all var(--tr);
 }
 .pcard:hover { 
-    border-color: var(--accent-light); 
+    border-color: var(--accent); 
     box-shadow: var(--shadow-hover), var(--shadow-glow); 
-    transform: translateY(-2px); 
+    transform: translateY(-3px); 
 }
-.pcard-meta { font-size: 0.75rem; color: var(--txt-3); margin-top: 10px; display: flex; flex-wrap: wrap; gap: 12px; font-weight: 500; }
+.pcard-meta { font-size: 0.8rem; color: var(--txt-3); margin-top: 12px; display: flex; flex-wrap: wrap; gap: 14px; font-weight: 400; }
 
 /* ── Paper grid card ── */
 .pgcard {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1.2rem 1.4rem;
+    padding: 1.5rem;
     height: 100%;
     box-shadow: var(--shadow-base);
     backdrop-filter: blur(10px);
     transition: all var(--tr);
 }
 .pgcard:hover { 
-    border-color: var(--accent-light); 
-    transform: translateY(-3px); 
+    border-color: var(--accent); 
+    transform: translateY(-4px); 
     box-shadow: var(--shadow-hover), var(--shadow-glow); 
 }
 .pgcard h4 {
-    font-size: 0.95rem; font-weight: 700; color: var(--accent-bright); line-height: 1.45; margin-bottom: 8px;
+    font-size: 1rem; font-weight: 600; color: var(--porcelain); line-height: 1.5; margin-bottom: 10px;
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
-.pgcard-m { font-size: 0.75rem; color: var(--txt-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; font-weight: 500; }
+.pgcard-m { font-size: 0.8rem; color: var(--txt-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 6px; font-weight: 400; }
 
 /* ── Paper detail header ── */
 .detail-hdr {
-    background: linear-gradient(135deg, rgba(18, 69, 89, 0.4) 0%, rgba(1, 22, 30, 0.6) 100%);
+    background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 16px;
-    padding: 1.8rem 2rem;
-    margin-bottom: 1.2rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
     box-shadow: var(--shadow-hover);
 }
 
 /* ── Answer box ── */
 .answer-box {
-    background: linear-gradient(135deg, rgba(18, 69, 89, 0.25) 0%, rgba(1, 22, 30, 0.4) 100%);
+    background: var(--bg-card);
     border: 1px solid var(--border);
-    border-left: 4px solid var(--accent-light);
+    border-left: 4px solid var(--accent);
     border-radius: 14px;
-    padding: 1.4rem 1.8rem;
-    font-size: 0.95rem;
-    line-height: 1.85;
+    padding: 1.6rem 2rem;
+    font-size: 1rem;
+    line-height: 1.8;
     color: var(--txt);
     box-shadow: var(--shadow-base);
 }
@@ -363,39 +368,45 @@ strong { color: var(--accent-bright) !important; font-weight: 700; }
 /* ── Citation strip ── */
 .cite-strip {
     display: flex; flex-wrap: wrap; gap: 8px;
-    padding: 0.7rem 1rem;
-    background: rgba(1, 22, 30, 0.6);
+    padding: 1rem 1.2rem;
+    background: rgba(253, 255, 252, 0.02);
     border: 1px solid var(--border);
-    border-radius: 10px;
-    margin-top: 0.8rem;
+    border-radius: 12px;
+    margin-top: 1rem;
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
 }
 .cite-chip {
-    font-size: 0.72rem; color: var(--accent-bright); font-weight: 600;
-    background: rgba(89, 131, 146, 0.4);
-    padding: 3px 10px; border-radius: 99px;
-    border: 1px solid rgba(174, 195, 176, 0.3);
+    font-size: 0.75rem; color: var(--porcelain); font-weight: 500;
+    background: rgba(253, 255, 252, 0.08);
+    padding: 4px 12px; border-radius: 99px;
+    border: 1px solid rgba(253, 255, 252, 0.15);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all var(--tr);
+}
+.cite-chip:hover {
+    background: var(--accent);
+    color: var(--ink-black);
+    border-color: var(--accent);
 }
 
 /* ── Section / reference text ── */
 .sec-body {
-    font-size: 0.9rem; line-height: 1.8;
+    font-size: 0.95rem; line-height: 1.7;
     color: var(--txt); white-space: pre-wrap;
 }
 .ref-row {
-    padding: 0.6rem 0;
-    border-bottom: 1px solid rgba(89, 131, 146, 0.2);
-    font-size: 0.82rem; line-height: 1.6; color: var(--txt-2);
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem; line-height: 1.6; color: var(--txt-2);
 }
 .ref-row:last-child { border-bottom: none; }
-.ref-t   { font-weight: 600; color: var(--accent-bright); }
-.ref-doi { color: var(--accent-light); text-decoration: none; font-size: 0.78rem; font-weight: 600; }
-.ref-doi:hover { text-decoration: underline; color: var(--accent-bright); }
+.ref-t   { font-weight: 500; color: var(--porcelain); }
+.ref-doi { color: var(--accent); text-decoration: none; font-size: 0.8rem; font-weight: 500; }
+.ref-doi:hover { text-decoration: underline; color: var(--accent-light); }
 
 /* ── Fade-up animation ── */
-@keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
-.fi { animation: fadeUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+.fi { animation: fadeUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
 </style>
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
@@ -419,7 +430,7 @@ def _badge(pct: int) -> str:
 
 
 def _bar(pct: int) -> str:
-    c = "#aec3b0" if pct >= 75 else ("#598392" if pct >= 50 else "#124559")
+    c = "var(--accent)" if pct >= 75 else ("var(--accent-dim)" if pct >= 50 else "rgba(253, 255, 252, 0.1)")
     return f'<div class="strack"><div class="sfill" style="width:{pct}%;background:{c};"></div></div>'
 
 
@@ -517,12 +528,12 @@ with st.sidebar:
     st.markdown(
         """
         <div style="padding:0.4rem 0 1.1rem; text-align: center;">
-          <div style="font-size:1.35rem;font-weight:800;color:var(--accent-bright);
-                      letter-spacing:0.12em;font-family:'Inter',sans-serif;
-                      text-shadow: 0 4px 8px rgba(0,0,0,0.4);">
+          <div style="font-size:1.5rem;font-weight:800;color:var(--porcelain);
+                      letter-spacing:0.1em;font-family:'Inter',sans-serif;
+                      text-shadow: 0 4px 8px rgba(0,0,0,0.5);">
             ENT AI
           </div>
-          <div style="font-size:0.75rem;color:var(--txt-2);margin-top:4px;font-weight:600;letter-spacing:0.05em;">
+          <div style="font-size:0.75rem;color:var(--accent);margin-top:6px;font-weight:600;letter-spacing:0.08em;">
             LATEST PAPERS (PAST MONTH)
           </div>
         </div>
@@ -560,7 +571,7 @@ with st.sidebar:
 
     st.markdown('<hr/>', unsafe_allow_html=True)
     st.markdown(
-        '<div style="font-size:0.67rem;color:#64748b;line-height:1.7;">'
+        '<div style="font-size:0.7rem;color:var(--txt-3);line-height:1.7;">'
         'ChromaDB · OpenRouter<br/>Nemotron Ultra 253B'
         '</div>',
         unsafe_allow_html=True,
@@ -576,7 +587,7 @@ if mode == MODE_ASK:
         '<h1>Ask the Literature</h1>'
         '<p>Ask any ENT / otorhinolaryngology question and get a citation-backed answer '
         'synthesised from peer-reviewed papers published <strong>this last month</strong>. '
-        'Switch to <strong style="color:var(--accent-light);">Ranked Passages</strong> to browse the raw semantic results.</p>'
+        'Switch to <strong style="color:var(--accent);">Ranked Passages</strong> to browse the raw semantic results.</p>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -673,11 +684,11 @@ elif mode == MODE_EXPLORER:
         # ── Header card ──
         st.markdown(
             f'<div class="detail-hdr">'
-            f'  <div style="font-size:1.05rem;font-weight:700;color:#e2e8f0;line-height:1.35;margin-bottom:8px;">'
+            f'  <div style="font-size:1.1rem;font-weight:700;color:var(--porcelain);line-height:1.4;margin-bottom:8px;">'
             f'    {paper.get("title", "Untitled")}'
             f'  </div>'
-            f'  <div style="font-size:0.81rem;color:var(--txt-2);margin-bottom:6px;">{authors_disp}</div>'
-            f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.77rem;color:var(--txt-2);">'
+            f'  <div style="font-size:0.85rem;color:var(--txt-2);margin-bottom:8px;">{authors_disp}</div>'
+            f'  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:0.8rem;color:var(--txt-2);">'
             f'    <span>{paper.get("year","—")}</span>'
             f'    <span>{paper.get("journal","—")}</span>'
             f'    <span class="badge b-doi">{doi_id}</span>'
